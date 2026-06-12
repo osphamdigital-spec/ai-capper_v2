@@ -1,0 +1,82 @@
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: My total estimate is ~10.6 runs (baseline (SEA 4.7 + BAL RA 5.2 + BAL 5.5 + SEA RA 3.8)/2 = 9.6, park +0.4, both bullpens used on Sun +0.4, plus BAL SP TBD uncertainty +0.2); that’s +2.1 vs 8.5. I’m still passing because BAL’s starter is TBD (big pricing input missing) and both total prices are flagged as suspect/stale, so I can’t be confident the market/number is tradeable.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: No lean
+REASON: My total estimate is ~7.9 runs (baseline 8.7, park +0.4, both starters project above average by xFIP/SIERA roughly -1.2, bullpens not notably taxed yesterday). That’s only +0.4 vs 7.5, which isn’t enough to force an Over, and the side price is close to fair given BOS’s weaker season profile but better L10 scoring.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: My total estimate is ~8.2 runs (baseline 8.85, park 92 pulls to ~8.4, starters ~-0.6, then NYY high-leverage arms all threw Sun adds ~+0.4). That’s about +0.7 vs 7.5—lean Over, but not a big enough gap to bet. Side-wise, CLE’s SP is steadier recently and CLE has the fresher bullpen (2/3 fresh vs NYY 0/3), so I’m not taking NYY at a short price.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: PHI @ TOR
+PICK: Over 7.5
+PRICE: -105
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: My total estimate is ~9.0 runs (baseline 8.7, Rogers Centre +0.4, Sánchez elite -0.7 but Corbin +0.2, both bullpens had key usage Sun adding ~+0.4). That’s a +1.5 run gap versus 7.5, which is enough to bet even acknowledging the roof uncertainty. This isn’t relying on platoon splits; it’s mostly baseline scoring + park + bullpen usage.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: HOU @ LAA
+PICK: Over 9.0
+PRICE: -102
+UNITS: 1
+EDGE: STRONG
+TOTAL LEAN: Over
+REASON: My total estimate is ~11.7 runs (baseline 11.0 from L10 RS/RA, park 98 trims to ~10.7, starter quality adds ~+0.5 given both xERA/contact risk—Rodriguez is [small sample] and Arrighetti’s xERA 4.69—then both bullpens show 0/3 fresh high leverage plus taxed relievers for ~+0.5). That’s about +2.7 vs 9.0, a large run-gap edge. Small-sample caveat increases variance, but it points toward more runs rather than fewer.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CIN @ SD
+PICK: Under 8.0
+PRICE: -104
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: My total estimate is ~7.3 runs (baseline 7.5, Petco runs factor 88 pulls ~-0.7 to ~6.8, then both bullpens lacking fresh high leverage/usage risk adds ~+0.5). That’s roughly -0.7 vs the posted 8.0, and both offenses are ice-cold in L10 scoring (3.2 and 2.7 RS/G), reinforcing the Under lean. I’m keeping it to 1 unit because both bullpens are not fresh, which can create late volatility.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: My total estimate is ~10.4 runs (baseline 10.85, Oracle ~-0.4, Webb suppresses ~-0.6 but Mikolas adds ~+0.3, SF bullpen used Sun adds ~+0.3), which is +2.4 vs 8.0. I’m still passing because Oracle’s 17+ mph wind can materially change the run environment, and the Over price is flagged as suspect/stale—too much input uncertainty for a real bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIL @ ATH
+PICK: Under 11.0
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: My total estimate is ~10.2 runs (baseline 9.65, park 121 adds ~+0.9 to ~10.55, Harrison is elite by xFIP/SIERA for ~-0.7, then A’s bullpen tax/usage adds ~+0.3). That’s about -0.8 vs 11.0, enough to play the Under despite the hitter-friendly environment. Stake stays small because this park is explicitly high-variance and both teams have shown swingy recent scoring.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: Over 9.0 -102 (HOU @ LAA), 1 unit
+WHY THIS ONE: It has the largest run-gap vs the posted line based on L10 run environment plus both starters’ xERA/contact risk and both bullpens showing zero fresh high-leverage availability, without leaning on any low-trust estimated splits.

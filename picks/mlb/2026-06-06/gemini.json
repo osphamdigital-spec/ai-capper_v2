@@ -1,0 +1,18 @@
+{
+  "model": "gemini",
+  "date": "2026-06-06",
+  "sport": "mlb",
+  "logged_at": "2026-06-07T05:46:10Z",
+  "picks": [],
+  "parlay": null,
+  "best_bet": null,
+  "counts": {
+    "games": 0,
+    "bets": 0,
+    "leans": 0,
+    "passes": 0,
+    "units_risked": 0,
+    "parlay_units": 0
+  },
+  "graded_at": "2026-06-09T06:47:27Z"
+}

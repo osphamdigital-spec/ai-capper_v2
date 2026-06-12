@@ -1,0 +1,123 @@
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Atlanta is clearly the stronger side (+115 run diff vs +31, elite 2.13 pen vs PIT's 0 fresh arms), but the price already reflects it. ATL -158 implies 61.2% and I estimate ~63% — a ~2-point gap is no edge. The ATL -1.5 (+125, implied 44.4%) requires P(win by 2+) > 44%; against a weak PIT lineup I get ~41%, so the run line is fairly priced too.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: BOS @ NYY
+PICK: LEAN: NYY
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: NYY mashes lefties (Goldschmidt 253, Rice 180, Judge 159 — albeit ESTIMATED) and Suarez is a southpaw, while Schlittler's underlying is elite (xFIP 3.28). But -165 (62.3%) vs my ~64% estimate is a 2-point gap, and NYY's high-leverage pen is 0-of-3 fresh, which caps any conviction. Lean only.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: CHW @ PHI
+PICK: LEAN: PHI
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: Gilbert has 2.2 IP on the season — CHW is effectively running a bullpen game, and their pen ERA is 5.54. Nola's season ERA (5.55) is noise; his last-14 is genuinely elite (xFIP 2.31, 0 BB/9). Still, CHW is hot (7-3 L10, +12 diff) and -168 only implies 62.7% vs my ~64–65%, so the gap is too thin to bet.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Gausman vs Baz is close on underlying form (both sub-3.55 xFIP last 14), and the teams are identical in record (31-34). TOR -136 (57.6%) sits right on my estimate. BAL's 6.14 pen ERA is ugly but TOR's pen has 0 fresh arms, so no exploitable side. No edge.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: SEA @ DET
+PICK: LEAN: SEA
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: Seattle is the better, hotter team (8-2 L10, +30 diff, 116 wRC+ vs RHP) with a far superior bullpen (2.87 vs 6.02). But Flaherty's last-14 is excellent (xFIP 2.76) and -119 (54.3%) vs my ~56-57% is only a 2-3 point gap. Lean SEA, not a bet.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: TB @ MIA
+PICK: LEAN: TB
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: TB's pen is fully rested (3/3 fresh) vs Miami's struggling Fairbanks (6.61), and Alcantara's last-14 is poor (5.03 xFIP). Jax has only 27 blended IP, which caps units regardless. -116 (53.7%) vs my ~55% is a 1-point gap — lean only.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: ATH @ HOU
+PICK: LEAN: HOU
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: Jump is a lefty with 12 IP (small sample) walking into a Houston lineup built to punish LHP (Yordan elite vs lefties), and Burrows is poor (L14 xFIP 4.90), so this is two shaky arms in a HR park. -110 (52.4%) vs my ~54-55% is thin, and both pens are 0 fresh. Lean HOU.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: THIN
+REASON: True pick'em (-110/-106). Cameron's last-14 is outstanding (2.32 xFIP), which partly offsets KC's alarming pen line (21.87, 1-of-4 fresh). MIN is better vs LHP at home but the two signals roughly cancel — no clean side.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Classic ERA-anchor trap: McGreevy's 2.98 ERA sits well under his 4.20 xFIP / 4.53 SIERA, so STL -135 is propped up by luck. But CIN is cold (3-7 L10, -49 diff) with a weaker starter (Lowder K-BB% 5.4%), so the dog has no real value either. -135 (57.4%) ≈ my estimate. Pass.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: CLE @ TEX
+PICK: TEX ML
+PRICE: -140
+UNITS: 1
+EDGE: REAL
+REASON: deGrom is elite and in form (season xFIP 3.31, L14 2.42) facing Cantillo, whose last-14 collapsed to 10.5 BB/9 (xFIP 7.10) — a likely short, traffic-heavy outing in a pitcher-friendly park (83 runs factor). My TEX win prob ~63% vs -140 implied 58.3% = a 4.7-point gap, which caps the bet at 1 unit. Team-quality check: TEX trails CLE in run diff (+4 vs +11) and L10, so this would normally downgrade — the override is deGrom's confirmed elite/in-form profile against an imploding opposing starter.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: THIN
+REASON: Coors variance plus MIL's ugly 55 wRC+ vs LHP (Freeland is a lefty) makes the -180 favorite a poor stake, and the MIL -1.5 (-125) needs P(win by 2+) > 55.6% which I can't justify in a 12-run environment. Drohan has 6.2 blended IP (small sample). Total 12.0 is roughly where I land. No edge worth the juice.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: WAS @ AZ
+PICK: LEAN: WAS
+PRICE: +113
+UNITS: LEAN
+EDGE: REAL
+REASON: WAS has the affirmed edge here: better run diff (+8 vs -14), strong road form (21-12), a cold AZ side (3-7 L10), and Cavalli's last-14 (3.02 xFIP) edges Soroka's. WAS +113 implies 46.9% and I estimate ~50%, a ~3-point edge. The named structural blocker keeping this a lean rather than a 1-unit bet: WAS's high-leverage pen is 0-of-3 fresh while Arizona's rested pen (3.09 ERA, 2 fresh) holds the late-inning edge in a likely close game.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: LAA @ LAD
+PICK: LEAN: LAD
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: Soriano's last-14 is a red flag (10.2 BB/9, xFIP 6.50) and that hurts the LAA dog, not helps it, while Sheehan's underlying is strong (xFIP 3.26). LAD -210 implies 67.7% vs my ~70% — only a 2-point edge for a lot of juice. The -1.5 (-101) needs P(win by 2+) > 50%; I get ~48%, so no run-line value. Lean LAD.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: True pick'em with two weak peripheral starters (Brazobán xFIP 5.50 small sample, Vásquez 5.25). Petco suppresses, SD is ice cold (2-8 L10) but their pen is elite and fully rested (Mason Miller 0.72, untouched all week). The offsetting factors leave no side and the total (7.5) sits near my ~7.8 estimate. Pass.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: THIN
+REASON: McDonald is the underlying-superior arm (xFIP 2.98 vs Taillon 4.43), so per discipline I priced the dog: SF win prob ~48% vs +105 implied 48.8% = a sub-1-point gap. Under 3 points, this is genuinely fair, not found value, and SF is a poor team (-49 diff) with a 0-fresh pen. Pass.
+LOOKED UP: nothing, used provided data only.
+
+## SLATE SUMMARY
+BEST BET: TEX ML -140, 1 unit
+WHY THIS ONE: It's the only spot with a clean, explainable edge — an elite, in-form deGrom against an opposing starter whose control has visibly collapsed in his last two outings, in a run-suppressing park. The WAS dog edge is real but capped by their depleted bullpen; everything else is a fair price or a small lean.

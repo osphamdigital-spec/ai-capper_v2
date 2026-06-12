@@ -1,0 +1,131 @@
+## GAME: DET @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Flaherty and Matz both carry high WHIPs, making neither side reliable. Tampa Bay is a strong home team but the -142 moneyline is close to fair given Detroit's poor road record. No clear value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SD @ PHI
+PICK: LEAN: SD ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: Vásquez has a significant ERA/WHIP edge over a struggling Nola. San Diego's strong away record adds appeal, but Nola's pedigree and home park are reasons for caution. The plus-money is attractive but not enough to warrant a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: LEAN: BAL ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: Connelly Early's solid surface stats may mask regression, while Baz offers decent stability. Boston's terrible home record makes Baltimore as a plus-money underdog interesting, but the edge is too slim to commit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIA @ WSH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: A near pick'em with unproven starters. Lovelady's 1.73 WHIP is a red flag, but Bachar's small sample and the line move toward Washington cancel any strong opinion.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Schlittler's dominance is priced in. The -1.5 run line at -102 is close to fair; Cleveland's record masks a poor run differential, but a heavy home favorite on the run line is rarely a source of big edge without extra information.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Two similar lefty starters with middling peripherals. Cincinnati is rightfully favored but the margin is small, and Kansas City's awful road form is already reflected.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL ML
+PRICE: -123
+UNITS: 3
+EDGE: STRONG
+REASON: Atlanta is an elite team with a +110 run differential and Elder's excellent 2.63 ERA / 1.08 WHIP. Toronto is a below-average road team, and Gausman's solid peripherals won't neutralize Atlanta's offensive firepower. The market price implies ~55% win probability, but I estimate it closer to 60-62% — clear value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ MIN
+PICK: CHW ML
+PRICE: -118
+UNITS: 1
+EDGE: REAL
+REASON: Davis Martin (8-1, 2.61 ERA) is a significant upgrade over Connor Prielipp's 5.26 ERA. Chicago's offense matches Minnesota's, and the White Sox have a better overall record. The slight line move toward Minnesota suggests some sharp resistance, but the pitcher mismatch still provides a modest edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: MIL -1.5
+PRICE: +160
+UNITS: 2
+EDGE: STRONG
+REASON: Kyle Harrison (1.57 ERA, 1.03 WHIP) gives Milwaukee a massive pitching mismatch against Trevor McDonald and a weak Giants lineup. The Brewers are dominant at home (+88 run diff) and the plus-money run line offers a much better payout than the heavy ML. I estimate Milwaukee wins by multiple runs over 45% of the time, well above the 38.5% implied.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TEX @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Eovaldi vs. Dustin May is a closer matchup than the surface ERAs suggest, as May has a history of better underlying numbers. The market has this essentially pick'em, which feels right with both teams hovering around .500.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Gage Jump has only 11 innings of MLB work, and Taillon's 5.13 ERA leaves little confidence in either side. Chicago's home edge is balanced by Oakland's respectable road record; no meaningful gap to exploit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: LEAN: PIT ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: THIN
+REASON: Pittsburgh's superior record and run differential (+31 vs -33) give them a slight claim at even money, but both Bubba Chandler and Mike Burrows have shaky WHIPs. Houston's recent 7-3 run adds caution; only a faint lean.
+LOOKED UP: nothing, used provided data only
+
+## GAME: COL @ LAA
+PICK: COL ML
+PRICE: +141
+UNITS: 1
+EDGE: REAL
+REASON: Grayson Rodriguez's 7.04 ERA and 1.57 WHIP in a small sample are alarming, and the Angels are a bad team overall. Tomoyuki Sugano is a steady, low-walk arm. The +141 price implies a 41.5% win probability, but I think Colorado's chances are closer to 45-46% — enough for a standard bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: AZ ML
+PRICE: +108
+UNITS: 2
+EDGE: STRONG
+REASON: Eric Lauer's 5.95 ERA is a clear liability against a solid Diamondbacks lineup, while Michael Soroka (3.23 ERA) gives Arizona the pitching advantage. Arizona's strong home form (19-10) and the Dodgers' reliance on name value tilts this line; the Diamondbacks should be slight favorites. Getting +108 is strong value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Huascar Brazobán's sparkling 1.86 ERA comes in only 29 innings and may involve an opener, adding uncertainty. Logan Gilbert is a quality arm, but Seattle's -143 line is within a few cents of fair, leaving no exploitable edge.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: ATL ML -123
+LEG 2: AZ ML +108
+COMBINED PRICE: +277
+TRUE PROBABILITY ESTIMATE: 32% (ATL 60% × AZ 53%)
+UNITS: 1
+REASON: Both legs have independent, individually identified edges. Atlanta and Arizona are in different leagues with no weather, travel, or divisional correlation. The parlay pays well above the estimated fair price of +214.
+
+## SLATE SUMMARY
+BEST BET: ATL ML -123 (Game 7) for 3 units
+WHY THIS ONE: It combines the largest gap between my estimated win probability and the market implied odds with the highest team quality and run-differential dominance. The pitching matchup also supports Atlanta more than any other single-game edge on the slate.

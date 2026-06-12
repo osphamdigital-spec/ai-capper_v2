@@ -1,0 +1,83 @@
+## GAME: SD @ PHI
+PICK: PHI -1.5
+PRICE: +115
+UNITS: 3
+EDGE: STRONG
+REASON: Zack Wheeler is pitching at an elite level, and his 2.69 FIP completely justifies the sustainability of his dominant 2.31 ERA. Lucas Giolito has been a mess with a 1.74 WHIP, and San Diego is in a brutal 1-9 slump. The Phillies' bullpen is slightly taxed, but Wheeler should provide enough of a runway to cover the run line easily.
+LOOKED UP: Zack Wheeler's 2026 FIP (2.69).
+
+## GAME: BAL @ BOS
+PICK: BAL ML
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: Both starting pitchers carry ERAs over 6.20, but Baltimore is riding a 7-3 stretch while Boston has lost six of their last ten. More importantly, Boston has been absolutely dreadful at home with a 10-21 record, whereas Baltimore's offense is averaging 4.6 runs per game. The even-money price on the hotter team facing a terrible home squad is excellent value.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: CLE @ NYY
+PICK: NYY -1.5
+PRICE: +125
+UNITS: 1
+EDGE: REAL
+REASON: Carlos Rodón's 2.88 ERA is backed by a 3.90 FIP, suggesting some regression is possible, so I am capping this at one unit. However, the real edge here is the bullpen mismatch; Cleveland's high-leverage arms have been used on three consecutive days and are completely gassed. The Yankees' potent lineup should easily exploit the Guardians' exhausted relief corps late in the game.
+LOOKED UP: Carlos Rodón's 2026 FIP (3.90).
+
+## GAME: SF @ MIL
+PICK: MIL -1.5
+PRICE: +175
+UNITS: 3
+EDGE: STRONG
+REASON: Milwaukee is 15 games over .500 and dominates at home, while San Francisco is 14 games under .500 and allows nearly 5 runs per game. Adrian Houser has been terrible, and getting plus-money on the run line for the Brewers is a massive market inefficiency. The +175 price available at BetMGM makes this an exceptional value play.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5
+PRICE: +103
+UNITS: 3
+EDGE: STRONG
+REASON: Chris Sale is having a Cy Young-caliber season with a 2.01 ERA and a highly sustainable 2.50 FIP. He faces a Toronto team led by Mason Fluharty, a rookie who has only thrown 22.2 innings this year. Atlanta is 42-20 and playing at an incredible clip, making the plus-money on the run line an absolute gift.
+LOOKED UP: Chris Sale's 2026 FIP (2.50).
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both teams are playing poorly, with Kansas City losing seven of their last ten and Minnesota losing seven of their last ten. The starting pitching is a wash of mediocrity, and there is no clear market inefficiency to exploit here.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: ATH @ CHC
+PICK: Over 10.0
+PRICE: -117
+UNITS: 1
+EDGE: REAL
+REASON: Both bullpens are completely gassed, with both closers and multiple high-leverage arms having pitched on consecutive days. Wrigley Field is known for being a hitter's park, especially with the wind blowing out at 13.3 mph. Neither J.T. Ginn nor Shota Imanaga are strikeout machines, setting up a high-scoring affair late in the game.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: PIT @ HOU
+PICK: PIT ML
+PRICE: -107
+UNITS: 1
+EDGE: REAL
+REASON: Kai-Wei Teng has a shiny 2.57 ERA, but his underlying 3.59 xERA suggests he has been a bit lucky and is due for regression. Meanwhile, Pittsburgh's offense is red-hot, averaging 5.2 runs per game over their last ten contests. The Pirates are the better team right now, and the negative odds on the moneyline are well worth laying for a team playing this well.
+LOOKED UP: Kai-Wei Teng's 2026 xERA (3.59).
+
+## GAME: LAD @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The Dodgers are obviously the better team, but -142 on the moneyline requires a near 60% win probability to break even. Justin Wrobleski has been great with a 3.15 FIP, but the price is simply too steep to find genuine edge, and the total dropping to 9.0 signals a lower-scoring game than expected.
+LOOKED UP: Justin Wrobleski's 2026 FIP (3.15).
+
+## PARLAY
+LEG 1: BAL ML +100
+LEG 2: PIT ML -107
+COMBINED PRICE: +287
+TRUE PROBABILITY ESTIMATE: 28%
+UNITS: 1
+REASON: Both Baltimore and Pittsburgh have independent edges as underdogs/even-money favorites against inferior or unlucky opponents. Baltimore exploits Boston's dreadful 10-21 home record, while Pittsburgh's hot offense faces a Houston starter due for regression based on his xERA. There is no divisional or weather correlation between an AL East game in Fenway and an NL Central/AL West matchup in Houston.
+
+## SLATE SUMMARY
+BEST BET: PHI -1.5 (+115) for 3 units (Game 1)
+WHY THIS ONE: The starting pitching mismatch between Zack Wheeler's elite 2.69 FIP and Lucas Giolito's 1.74 WHIP is the most extreme on the slate, and the Phillies are heavily favored to blow this game open early.

@@ -1,0 +1,151 @@
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~10.2 runs (baseline using L10 RS: 9.55, park +0.4, starters net -0.3, bullpens not fresh +0.5). Side-wise SEA is the better team and has the SP edge (Gilbert), but SEA’s high-leverage availability is poor (0/3 fresh) and the price isn’t far from fair.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Total estimate: ~8.0 runs (baseline 7.7, park -0.4, starters net ~0.0, MIA bullpen taxed +0.7). Side is close: Meyer advantage vs Gallen’s current form, but AZ’s offense is ice-cold (L10 RS/G 2.8) and roof status uncertainty makes totals/side less clean.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~8.6 runs (baseline 8.35, park +0.4, starters net -0.2, bullpens ~+0.1). Over 7.5 is tempting at plus money, but Tolle’s xERA and contact profile (low Brl%, decent HH%) conflict with the idea of a high-scoring game, so I’m not forcing a bet into a market leaning Under.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Total estimate: ~8.2 runs (baseline 8.6, park -0.5, starters net -0.3, NYY bullpen freshness +0.3, slight weather +0.1). Side price is close to fair and Cole is still a [small sample] profile for 2026; not enough separation to bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIN @ DET
+PICK: MIN ML
+PRICE: +117
+UNITS: 1
+EDGE: 7.4 pts
+TOTAL LEAN: Over
+REASON: My fair line is MIN about -110 (win prob ~52%) before looking at the market; DET at home pulls it back, but DET’s bullpen has two key arms used Sunday and the game projects close, so I add +1.5 pts to MIN (final win prob ~53.5%). Market implied at +117 is 46.1% (gap = 53.5% - 46.1% = 7.4 pts). Uncertainty flags: Bradley’s recent short outings/control (L3 IP < 5) and Melton’s [small sample] profile (low K/9 makes results fragile), so this stays 1 unit despite the gap.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~8.7 runs (baseline 9.2, park -0.3, starters net -0.7, bullpens +0.2, weather +0.3). Pricing is flagged as suspect/stale on multiple markets here, so I’m not betting into potentially bad data.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~8.1 runs (baseline 8.8, park +0.1 for roof uncertainty, both elite-ish starters -1.4, bullpens 0/3 fresh each +0.6). With Wheeler vs Cease the “true” total is very sensitive to roof status and umpire/zone; my edge isn’t clean enough to bet at 7.5.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~9.4 runs (baseline 9.25, starters -0.6, bullpens heavily used +0.6, wind +0.2). Both bullpens show 0/3 fresh which supports Over, but May/Peralta can both cover innings and keep this from becoming a bullpen game—too much distribution/variance for a confident total bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~9.7 runs (baseline 9.5, park -0.3, starters net +0.2, bullpens +0.3). ATL is the better team but the market is already pricing that in, and CHW’s current scoring (L10 RS/G 5.4) makes laying a big price unattractive.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Total estimate: ~9.0 runs (baseline 8.95, park -0.2, starters -0.5, bullpen +0.5, wind +0.3). KC bullpen season ERA showing 22.24 is an internal data red flag, and the total prices are flagged suspect/stale—no bet until the market data is clean.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~14.4 runs (baseline 9.85, Coors +2.3, starters +1.0, bullpens +0.6, hot/wind +0.6). Over 12.5 is the lean, but Coors variance is massive and both bullpens are messy—without a clear misprice, I’m passing.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~11.4 runs (baseline 10.85, park -0.2, starters +0.2, bullpens 0/3 fresh each +0.6). The raw run-gap vs 8.5 is large, but both starters’ xERA + contact (modest HH%/Brl%) don’t scream “blow-up,” so I’m treating this as a high-variance Over lean rather than a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Total estimate: ~7.3 runs (baseline 7.8, Petco -0.7, starters net -0.4, bullpens +0.6). Burns is a real suppressor and Petco helps the Under case, but both bullpens are not fresh and the posted 7.5 is already tight.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Total estimate: ~10.8 runs (baseline 10.75, park -0.3, starters net +0.2, bullpens +0.5, wind -0.4). There’s a plausible Over setup via Houser + SF bullpen usage, but Oracle wind conditions can swing the run environment a lot—pass until that’s clearer.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Total estimate: ~12.5 runs (baseline 10.9, park +1.0, starters net +0.3, bullpens +0.2, weather +0.1). This is a high-variance park/total and the number is already inflated—no clean edge on either side of 12.5.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

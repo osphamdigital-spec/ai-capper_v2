@@ -1,0 +1,147 @@
+
+<style>
+  .ref-wrap { padding: 1rem 0; font-size: 13px; color: var(--color-text-primary); }
+  .section { margin-bottom: 2rem; }
+  .section-title { font-size: 15px; font-weight: 500; margin-bottom: 10px; padding-bottom: 6px; border-bottom: 0.5px solid var(--color-border-tertiary); }
+  table { width: 100%; border-collapse: collapse; table-layout: fixed; }
+  th { font-weight: 500; font-size: 12px; color: var(--color-text-secondary); text-align: left; padding: 6px 8px; background: var(--color-background-secondary); border: 0.5px solid var(--color-border-tertiary); }
+  td { padding: 6px 8px; border: 0.5px solid var(--color-border-tertiary); vertical-align: top; color: var(--color-text-primary); font-size: 12px; line-height: 1.5; }
+  tr:nth-child(even) td { background: var(--color-background-secondary); }
+  .badge { display: inline-block; font-size: 11px; padding: 2px 7px; border-radius: 4px; font-weight: 500; }
+  .daily { background: var(--color-background-danger); color: var(--color-text-danger); }
+  .weekly { background: var(--color-background-info); color: var(--color-text-info); }
+  .twoday { background: var(--color-background-warning); color: var(--color-text-warning); }
+  .once { background: var(--color-background-success); color: var(--color-text-success); }
+  .col-file { width: 17%; }
+  .col-tab { width: 7%; }
+  .col-season { width: 12%; }
+  .col-dates { width: 13%; }
+  .col-pos { width: 10%; }
+  .col-split { width: 9%; }
+  .col-min { width: 7%; }
+  .col-page { width: 7%; }
+  .col-cols { width: 18%; }
+</style>
+<div class="ref-wrap">
+  <div class="section">
+    <div class="section-title">Batter splits — 4 downloads &nbsp;<span class="badge weekly">weekly</span></div>
+    <table>
+      <colgroup>
+        <col class="col-file"><col class="col-tab"><col class="col-season"><col class="col-dates">
+        <col class="col-pos"><col class="col-split"><col class="col-min"><col class="col-page"><col class="col-cols">
+      </colgroup>
+      <tr>
+        <th>File name</th><th>Tab</th><th>Season</th><th>Date range</th>
+        <th>Positional split</th><th>Split</th><th>Min PA</th><th>Page size</th><th>Columns to include</th>
+      </tr>
+      <tr>
+        <td>splits_vs_LHP.csv</td><td>Batting</td><td>2026</td><td>3/1/2026 → 11/1/2026</td>
+        <td>All Batting</td><td>vs LHP</td><td>None</td><td>Infinity</td>
+        <td>Name, Team, PA, BB%, K%, AVG, OBP, SLG, OPS, wOBA, wRC+, playerId</td>
+      </tr>
+      <tr>
+        <td>splits_vs_RHP.csv</td><td>Batting</td><td>2026</td><td>3/1/2026 → 11/1/2026</td>
+        <td>All Batting</td><td>vs RHP</td><td>None</td><td>Infinity</td>
+        <td>Name, Team, PA, BB%, K%, AVG, OBP, SLG, OPS, wOBA, wRC+, playerId</td>
+      </tr>
+      <tr>
+        <td>splits_home.csv</td><td>Batting</td><td>2026</td><td>3/1/2026 → 11/1/2026</td>
+        <td>All Batting</td><td>Home</td><td>None</td><td>Infinity</td>
+        <td>Name, Team, PA, BB%, K%, AVG, OBP, SLG, OPS, wOBA, wRC+, playerId</td>
+      </tr>
+      <tr>
+        <td>splits_away.csv</td><td>Batting</td><td>2026</td><td>3/1/2026 → 11/1/2026</td>
+        <td>All Batting</td><td>Away</td><td>None</td><td>Infinity</td>
+        <td>Name, Team, PA, BB%, K%, AVG, OBP, SLG, OPS, wOBA, wRC+, playerId</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Pitcher stats — 2 downloads</div>
+    <table>
+      <colgroup>
+        <col class="col-file"><col class="col-tab"><col class="col-season"><col class="col-dates">
+        <col class="col-pos"><col class="col-split"><col class="col-min"><col class="col-page"><col class="col-cols">
+      </colgroup>
+      <tr>
+        <th>File name</th><th>Tab</th><th>Season</th><th>Date range</th>
+        <th>Positional split</th><th>Split</th><th>Min IP</th><th>Page size</th><th>Columns to include</th>
+      </tr>
+      <tr>
+        <td>pitchers_xfip_siera.csv &nbsp;<span class="badge weekly">weekly</span></td>
+        <td>Pitching</td><td>2025–2026 blended</td><td>3/1/2025 → 11/1/2026</td>
+        <td>Starters</td><td>No splits</td><td>30 IP</td><td>Infinity</td>
+        <td>Name, Team, K/9, BB/9, K-BB%, xFIP, SIERA, IP</td>
+      </tr>
+      <tr>
+        <td>pitchers_last14.csv &nbsp;<span class="badge twoday">every 2–3 days</span></td>
+        <td>Pitching</td><td>2026</td><td>Last 14 days</td>
+        <td>Starters</td><td>Last 14 days</td><td>3 IP</td><td>Infinity</td>
+        <td>Name, Team, K/9, BB/9, K-BB%, xFIP, SIERA, IP</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Bullpen — 1 download &nbsp;<span class="badge daily">daily</span></div>
+    <table>
+      <tr>
+        <th style="width:20%">File name</th>
+        <th style="width:20%">Source page</th>
+        <th style="width:20%">Filters</th>
+        <th style="width:40%">Columns to include</th>
+      </tr>
+      <tr>
+        <td>bullpen.csv</td>
+        <td>FanGraphs → Bullpen Depth Charts</td>
+        <td>All teams, all relievers, page size Infinity</td>
+        <td>Team, Player, THR, Role, Fri–Sun usage (last 6 days), Pitches, IP, G, ERA, Sv, HLD, K%, BB/9</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Park factors — 2 downloads &nbsp;<span class="badge once">once per season</span></div>
+    <table>
+      <tr>
+        <th style="width:22%">File name</th>
+        <th style="width:20%">Source</th>
+        <th style="width:18%">Filters</th>
+        <th style="width:40%">Columns to include</th>
+      </tr>
+      <tr>
+        <td>park_factors_all.csv</td>
+        <td>Baseball Savant park factors</td>
+        <td>Year: 3yr rolling, Condition: All, Both handedness</td>
+        <td>Team, Venue, Park Factor, R, HR, wOBA</td>
+      </tr>
+      <tr>
+        <td>park_factors_roof_closed.csv</td>
+        <td>Baseball Savant park factors</td>
+        <td>Year: 3yr rolling, Condition: Roof Closed, Both handedness</td>
+        <td>Team, Venue, Park Factor, R, HR, wOBA</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Update frequency legend</div>
+    <div style="display:flex; gap:16px; flex-wrap:wrap;">
+      <span class="badge daily">daily</span>
+      <span style="font-size:12px; color:var(--color-text-secondary); line-height:22px;">Bullpen — usage changes every game</span>
+    </div>
+    <div style="display:flex; gap:16px; flex-wrap:wrap; margin-top:8px;">
+      <span class="badge twoday">every 2–3 days</span>
+      <span style="font-size:12px; color:var(--color-text-secondary); line-height:22px;">Pitcher last 14 days — recent form shifts quickly</span>
+    </div>
+    <div style="display:flex; gap:16px; flex-wrap:wrap; margin-top:8px;">
+      <span class="badge weekly">weekly</span>
+      <span style="font-size:12px; color:var(--color-text-secondary); line-height:22px;">Batter splits + pitcher season stats — slow moving</span>
+    </div>
+    <div style="display:flex; gap:16px; flex-wrap:wrap; margin-top:8px;">
+      <span class="badge once">once per season</span>
+      <span style="font-size:12px; color:var(--color-text-secondary); line-height:22px;">Park factors — stadiums don't change</span>
+    </div>
+  </div>
+</div>

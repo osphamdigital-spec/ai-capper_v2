@@ -1,0 +1,167 @@
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 8.5
+REASON: Logan Gilbert is the better starter by a wide margin (3.18 xFIP vs 4.02), but Seattle's bullpen has two of three high-leverage arms used in the last two days (Muñoz Sunday, Ferrer Sunday/Saturday). In a close game with a total under 9.0, that applies a -3 point fatigue adjustment. After adjustment my estimated win probability is roughly 55%, essentially matching the -121 implied probability (54.8%). No edge remains.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 7.5
+REASON: Max Meyer has been excellent (3.54 xFIP) and Zac Gallen has struggled recently (5.57 L14 xFIP), but Miami's bullpen is heavily taxed with zero of three high-leverage arms fresh and multiple arms flagged as taxed. The market prices Miami as a -129 favorite; my estimated Miami win probability is 53%, below the 56.3% implied.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 7.5
+REASON: Payton Tolle is a small-sample starter with strong underlying metrics (3.84 xFIP, 2.70 L3 ERA) while Nick Martinez has a large ERA-xFIP gap suggesting regression (2.29 ERA vs 4.45 xFIP). The teams are evenly matched in current form and the market prices this as a pick'em. My estimated win probability for both sides is roughly 51%, creating no meaningful gap.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 8.5
+REASON: Gerrit Cole is the better starter but carries a small-sample flag. The Yankees' bullpen has two of three high-leverage arms used in the last two days (Bednar Sunday, Cruz Sunday), which applies a -3 point fatigue adjustment in a close game. My estimated New York win probability is 57%, essentially matching the -135 implied probability (57.4%).
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 8.0
+REASON: Troy Melton is a small-sample starter with a 1.74 ERA but 4.30 xFIP, while Taj Bradley has struggled recently (5.93 L3 ERA, 3.82 L14 xFIP). Both bullpens are fatigued and below average. The game is a coin flip with no edge on either side of the moneyline.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 8.0
+REASON: Paul Skenes is the elite starter in this matchup (3.00 xFIP, 1.91 L14 xFIP) while Eric Lauer is below average (4.65 xFIP). However, the Dodgers are a significantly better team overall (+133 run differential) and the market prices this as a pick'em, already accounting for Skenes' dominance. My estimated Pittsburgh win probability is 55%, producing only a 2.6 point gap versus the -110 implied.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 7.5
+REASON: Zack Wheeler and Dylan Cease form an elite pitching matchup. Both bullpens are taxed with zero of three high-leverage arms fresh on either side. The market line of -116 for Philadelphia is efficient; my estimated Philadelphia win probability is 54%, nearly matching the 53.7% implied.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 7.5
+REASON: Dustin May has been excellent recently (1.88 L14 xFIP) and Freddy Peralta has strong underlying metrics (2.70 L14 xFIP). The Mets are hot (7-3 last 10, 5.5 L10 RS/G) and the market prices them as -129 favorites. My estimated New York win probability is 54%, below the 56.3% implied.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 9.0
+REASON: Atlanta is the much better team (+116 run differential, 8-2 last 10) but the heavy -158 moneyline leaves no edge. The run line at +102 implies a 49.5% break-even rate; I estimate Atlanta covers -1.5 roughly 52% of the time, a 2.5 point gap below the betting threshold. Grant Holmes projects near the 5-inning threshold but the bullpen fatigue rule does not apply because the moneyline is outside the -140/+120 close-game window.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: TEX ML
+PRICE: -117
+UNITS: 1
+EDGE: 4.6 pts
+TOTAL LEAN: Over 9.0
+REASON: PITCHING MATCHUP: Nathan Eovaldi (4.10/4.48/4.23) for TEX vs Stephen Kolek (3.32/4.10/3.31) for KC. The better starter is Eovaldi (xFIP 3.14 vs 4.04). I am betting TEX, which has the better starter. Eovaldi L3 ERA is 5.40 and L14 xFIP is 3.25; Kolek L3 ERA is 2.57 and L14 xFIP is 2.77. Texas leads all three team quality metrics: run differential (+14 vs -48), season RS/G (4.0 vs 3.9), and L10 RS/G (4.8 vs 4.7). Eovaldi's 3.25 L14 xFIP is only 0.11 runs worse than his season xFIP, well within the 1.00-run downgrade threshold. Kansas City's bullpen ERA of 22.24 is catastrophic and provides a significant late-inning edge for Texas. I estimate Texas wins 58.5% of the time against a 53.9% implied probability at -117.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 12.5
+REASON: Coors Field is the ultimate hitter's environment (Runs factor 130) with 20 mph wind blowing out. Both starting pitchers are mediocre and both bullpens are below average. The total of 12.5 is high but still roughly a run below my estimated 13.5 runs. There is no moneyline edge because Chicago's pitching disadvantage at altitude offsets their overall team quality advantage.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 8.5
+REASON: Both starting pitchers have significant ERA-xFIP gaps suggesting regression (Teng 3.06 ERA/4.48 xFIP, Ureña 2.68 ERA/4.18 xFIP). Both bullpens are taxed with zero of three high-leverage arms fresh. My estimated win probability for Houston is 53%, below the 55.6% implied at -125.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 7.5
+REASON: Chase Burns is the clear pitching advantage (2.91 xFIP, 3.06 L14 xFIP) over Lucas Giolito, who is small-sample and struggling (6.15 L14 xFIP). However, Cincinnati is in terrible form (2-8 last 10, -55 run differential) and San Diego has the better bullpen (2.84 ERA). The market line of -119 for Cincinnati is efficient; my estimated Cincinnati win probability is 52%, below the 54.3% implied.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: WAS ML
+PRICE: -101
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: Over 8.5
+REASON: PITCHING MATCHUP: Andrew Alvarez (3.54/3.10/xERA —) for WAS vs Adrian Houser (5.49/5.26/5.67) for SF. The better starter is Alvarez (xFIP 3.83 vs 4.48, and L14 xFIP 2.22 vs 5.98). I am betting WAS, which has the better starter. Alvarez is small-sample (20.1 IP) but his non-ERA indicators are excellent: K/9 9.7, L14 xFIP 2.22, and a 1.93 ERA in his only recent start. Houser is deteriorating with a 6.39 L3 ERA and 5.98 L14 xFIP, which is 1.50 runs worse than his season xFIP. Washington leads in run differential (+5 vs -49) and season RS/G (5.3 vs 4.1), though they trail in L10 RS/G (5.0 vs 6.5). Alvarez projects under 5 innings, but none of Washington's top three bullpen arms pitched in the last two days, so no fatigue adjustment applies. I estimate Washington wins 55% of the time against a 50.2% implied probability at -101.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 12.5
+REASON: Milwaukee is the much better team (+106 run differential, 8.0 L10 RS/G) but Robert Gasser is small-sample with poor underlying metrics (6.17 xFIP). J.T. Ginn is the better starter by xFIP (3.78 vs 6.17). The total of 12.5 is inflated by Sutter Health Park's hitter-friendly factor (Runs 121), but even adjusting for that my estimated total is 10.5-11.0 runs, creating a strong under lean. No moneyline edge exists because Gasser's pitching deficit offsets Milwaukee's offensive advantage.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

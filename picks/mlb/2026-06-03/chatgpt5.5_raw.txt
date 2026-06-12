@@ -1,0 +1,149 @@
+## GAME: MIA @ WAS
+
+PICK: MIA ML
+PRICE: -105
+UNITS: 1
+EDGE: REAL
+REASON: Meyer is the clearly superior starter and has a meaningful track record behind his numbers, while Alvarez's sample remains limited. Washington scores more runs, but their 12-20 home record and poor run prevention offset that advantage. Near pick'em pricing favors the stronger starter.
+LOOKED UP: nothing, used provided data only
+
+## GAME: DET @ TB
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters show significant ERA/xERA concerns. Tampa is the better overall team but Detroit gets a respectable underdog price and Tampa's bullpen is somewhat taxed. I do not see enough separation to justify a wager.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ MIN
+
+PICK: CHW ML
+PRICE: +138
+UNITS: 3
+EDGE: STRONG
+REASON: Chicago owns the better record, better recent form, stronger run differential and healthier bullpen situation, yet is priced as a substantial underdog. Bradley is the better starter, but the market appears to be overweighting that edge. The price gap looks excessive.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SEA
+
+PICK: NYM ML
+PRICE: +124
+UNITS: 1
+EDGE: REAL
+REASON: Peralta and Kirby are much closer than the market implies, and Peralta may actually have the better current profile. Seattle deserves favoritism based on overall team strength and recent form, but +124 appears a little rich on the Mets.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SD @ PHI
+
+PICK: PHI -1.5 RL
+PRICE: +104
+UNITS: 3
+EDGE: STRONG
+REASON: Sánchez owns the most dominant profile on the slate and has a substantial edge over Buehler. The extreme market movement strongly suggests a major information imbalance, but even using only the listed stats, Philadelphia appears undervalued on the run line relative to the moneyline.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The listed market is clearly distorted by information not included in the prompt, as evidenced by the massive price movement. Without knowing the cause, any handicap would be speculative. This is an automatic pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The dramatic line movement indicates missing information. Based strictly on the listed pitchers and team data, the game would be close, but the market is signaling something significant that is not present in the prompt. Passing is the disciplined choice.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ CIN
+
+PICK: CIN ML
+PRICE: -135
+UNITS: 1
+EDGE: REAL
+REASON: Burns has a legitimate ace profile and owns a meaningful edge over Kolek. Kansas City has been one of the weakest road teams in baseball and continues to struggle offensively. At the best available price rather than the median, Cincinnati offers modest value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+
+PICK: ATL -1.5 RL
+PRICE: +146
+UNITS: 3
+EDGE: STRONG
+REASON: Atlanta has overwhelming advantages in run differential, offense, home performance and overall team quality. Corbin's xERA is substantially worse than his ERA, suggesting possible regression. The run line price is attractive given the mismatch.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+
+PICK: MIL ML
+PRICE: -143
+UNITS: 3
+EDGE: STRONG
+REASON: Milwaukee owns massive advantages in run differential, offense, home record and recent form. Webb's reputation exceeds his actual season performance, while San Francisco continues to profile as one of the weaker clubs on the slate. The Brewers deserve a steeper price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TEX @ STL
+
+PICK: TEX ML
+PRICE: +120
+UNITS: 3
+EDGE: STRONG
+REASON: Gore grades slightly better than Pallante, Texas owns the better run differential, and St. Louis enters in poor form with a taxed closer. Getting plus money on what I view as a near coin-flip game creates clear value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+
+PICK: ATH ML
+PRICE: -105
+UNITS: 1
+EDGE: REAL
+REASON: Springs owns the better underlying profile and Rea's contact-quality metrics are concerning. Oakland has actually been the stronger road team than Chicago has been at home relative to market expectations. At essentially pick'em, I lean Athletics.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+
+PICK: PIT ML
+PRICE: -125
+UNITS: 3
+EDGE: STRONG
+REASON: Skenes is the best pitcher in the matchup and his xERA supports the performance. Arrighetti's ERA appears unsustainably low relative to his xERA, while Pittsburgh owns advantages in record, run differential and recent form.
+LOOKED UP: nothing, used provided data only
+
+## GAME: COL @ LAA
+
+PICK: LAA ML
+PRICE: -140
+UNITS: 3
+EDGE: STRONG
+REASON: Lorenzen's 7.22 ERA and poor underlying indicators are difficult to support, while Ureña has been effective and owns far superior contact-quality numbers. Colorado remains one of the league's weakest road teams. The Angels deserve favoritism.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+
+PICK: LAD -1.5 RL
+PRICE: -115
+UNITS: 5
+EDGE: STRONG
+REASON: Ohtani's profile is dramatically better than Gallen's across every metric provided. Los Angeles also owns major advantages in offense, run differential, recent form and overall team quality. The run line is a more efficient way to capture that edge than laying a heavy moneyline.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+
+LEG 1: PIT ML -125
+LEG 2: TEX ML +120
+COMBINED PRICE: +291
+TRUE PROBABILITY ESTIMATE: 29%
+UNITS: 1
+REASON: Both teams appear undervalued relative to the listed starting-pitching and team-strength profiles. The games are independent and each leg stands on its own as a positive-EV wager.
+
+## SLATE SUMMARY
+
+BEST BET: LAD -1.5 RL -115 (5 units)
+
+WHY THIS ONE: It combines the largest starting-pitching edge on the board with a substantial advantage in team quality, run differential, offensive production and recent form. Unlike several other games, multiple independent indicators point in the same direction.

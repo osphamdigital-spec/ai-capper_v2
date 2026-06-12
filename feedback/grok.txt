@@ -1,0 +1,96 @@
+----------------------
+grok system prompt recommendations
+----------------------
+You are a PROFESSIONAL SPORTS BETTOR with 20+ years experience. Your only goal is long-term unit-weighted ROI. You are extremely disciplined.
+
+Core Philosophy:
+- You pass on 85-90% of games. Finding 1 genuine edge on a slate is a good day.
+- Narrative and "angles" mean nothing without a quantifiable probability gap.
+- Variance is the enemy. Only bet when you have a real pricing mistake.
+
+STRICT EDGE GATES (non-negotiable):
+- Minimum 4.0 percentage point edge to consider any bet.
+- 4.0-6.9 pts → max 1 unit
+- 7.0+ pts + clean data + multiple confirming factors → max 3 units
+- Heavy ML favorites (< -150) capped at 1 unit regardless.
+- TBD starter or small-sample critical inputs = auto PASS.
+
+For every game you evaluate (internally):
+1. Estimate true win probability % using:
+   - Starting pitcher delta (xFIP/SIERA/Stf+ + recent form)
+   - Bullpen freshness delta (quantified high-leverage arms)
+   - Offensive platoon + run differential + L10 RS/RA
+   - Park + weather adjustment
+   - Line movement context
+2. Calculate implied probability from the BEST available price.
+3. Compute edge in percentage points.
+4. Apply team quality check and bullpen fatigue rules.
+Only then decide units.
+
+OUTPUT RULES — VIOLATION = PICKS DISCARDED
+- Start response with ## GAME: AZ @ MIA (exactly as shown)
+- One block per game, including PASS.
+- Use EXACT abbreviations from the slate.
+- Separate blocks with ---
+- No introductions, no summaries, no markdown tables until the very end.
+- All reasoning must be inside the REASON field only.
+- End with SLATE SUMMARY block.
+
+[Rest of your original staking, totals, bullpen, TBD, slate ceiling, etc. rules — I kept them intact but tightened language]
+
+----------------------
+chatgpt prompt recommendations 
+----------------------
+MLB SLATE — Thursday, June 11 2026
+
+8 games | Prompt generated 5:20 AM ET | Odds: TheOddsAPI median of 9 books
+
+QUICK MATCHUP SUMMARY
+Game | Away Starter (xFIP AGG/L14) | Home Starter | Park Factor | Best ML | Best Total
+---|---|---|---|---|---
+AZ @ MIA | Kelly (4.17/5.94) | Phillips (3.88/3.78) | 97 | -104/-112 | 8.5
+... (one line per game)
+
+DETAILED GAMES:
+GAME 1: AZ @ MIA  1:11 PM ET  loanDepot park
+ML: -104/-112   RL: +153/-186   TT: 8.5 (-112/-107)
+Best prices: ML -110 (BetOnline) | O-108 (FD) | U-103 (LowVig)
+Line move: unchanged
+
+TEAM FORM
+AZ: 34-33, away 13-19, RS/RA 4.3/4.6, L10 RS 2.7, rdiff -22
+MIA: 33-35, home 22-16, RS/RA 4.3/4.4, L10 RS 4.6, rdiff -8
+
+PLATOON vs RHP: AZ wRC+ 85 (Moreno127, Carroll125) | MIA wRC+ 89 (Hicks134...)
+
+STARTING PITCHERS
+Away: Merrill Kelly (R) 5-4, ERA 5.71, xFIP 4.17 AGG, L14 xFIP 5.94, recent: ...
+Home: Tyler Phillips (R) 0-1, ERA 2.08, xFIP 3.88 AGG, L14 xFIP 3.78, recent: ...
+
+BULLPEN DELTA
+AZ: 2/3 high-leverage fresh, season BP ERA 3.10
+MIA: 0/3 high-leverage fresh, season BP ERA 4.72
+Taxed arms: none
+
+WEATHER: unavailable | PARK: 97 (3yr), HR factor 81
+
+LINEUPS: not confirmed — run fetch_lineups.py closer to first pitch
+
+[Repeat clean structure for each game]
+
+-----------------------------
+
+Additional Expert Recommendations
+
+Two-pass system (recommended for best results):
+Early prompt (what you have now) → models give preliminary leans.
+Late prompt (after lineups confirmed + umps) → final bets. Only final goes to leaderboard.
+
+Post-processing validator (Python snippet I can give you):
+Parse EDGE field.
+Reject if calculation doesn't make sense (e.g., model claims 8pt edge on a -140 favorite with mediocre matchup).
+Flag calibration issues over time.
+
+Model weighting for leaderboard:
+Track Brier score + ROI separately.
+Ensemble "wisdom of crowds" bet only when 3+ models agree on same side with edge.

@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-06",
+  "sport": "mlb",
+  "graded_at": "2026-06-09T06:47:27Z",
+  "best_bets": [
+    {
+      "model": "chatgpt5.5",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "LAD -1.5 RL (+112) \u2014 3 units",
+      "why_this": "It combines the largest team-quality gap on the slate with plus-money pricing. The market is charging a premium on the Dodgers moneyline, but the run line still appears materially undervalued given the mismatch and the Angels' unresolved starting-pitcher situation.",
+      "resolved_game": "LAA @ LAD",
+      "resolved_pick": "LAD -1.5 RL",
+      "resolved_price": 112,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 3.36
+    },
+    {
+      "model": "deepseek",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "SEA ML (-128) \u2014 3 units vs Detroit",
+      "why_this": "Bryan Woo's 2.96 FIP / 2.91 xERA is the single best pitching indicator on the entire slate, and he faces a below-average Framber Valdez (4.18 FIP) with a rested bullpen behind him. The 20-cent gap between my fair line (-155) and market (-128) is the widest edge I found, and it's backed by a 30-run differential gap between the teams.",
+      "resolved_game": "SEA @ DET",
+      "resolved_pick": "SEA ML",
+      "resolved_price": -128,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.3438
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "gpt-5.2-high",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "WAS ML +117 (GAME: WAS @ AZ), 1 unit",
+      "why_this": "The market is pricing Arizona as a moderate favorite despite Kelly\u2019s xERA and contact profile both signaling significant downside, making the dog price look meaningfully off even after accounting for home-field and variance.",
+      "resolved_game": "WAS @ AZ",
+      "resolved_pick": "WAS ML",
+      "resolved_price": 117,
+      "resolved_units": 1,
+      "result": "win",
+      "profit_units": 1.17
+    },
+    {
+      "model": "grok",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "SEA ML (Game 3, 3 units)",
+      "why_this": "Woo's superior xERA, barrel suppression, and SEA's 8-2 last-10 form create the slate's largest probability gap versus market price, with fresh bullpens on both sides removing the risk factor present in every other candidate.",
+      "resolved_game": "SEA @ DET",
+      "resolved_pick": "SEA ML",
+      "resolved_price": -128,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.3438
+    },
+    {
+      "model": "kimi",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "NYY -140 (Game 4), 1 unit",
+      "why_this": "The Yankees lead every meaningful team metric by a wide margin, Gray is the more trustworthy starter, and the line is softer than it should be for a home favorite of this quality.",
+      "resolved_game": "BOS @ NYY",
+      "resolved_pick": "NYY -140",
+      "resolved_price": -140,
+      "resolved_units": 1,
+      "result": "void",
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "St. Louis Cardinals ML -133 \u2014 1 unit",
+      "why_this": "Singer's badness is confirmed across ERA, FIP, xERA and recent form rather than resting on one noisy metric, making it the lowest-variance pricing miss on the board \u2014 cleaner than the Seattle lean (market already favors them) and the Washington dog (relies more on contact-luck regression).\n\nA note on the shape of this card, outside the format: nothing on this slate cleared the 5+ point gap with confirmed data needed for a 3- or 5-unit play, so it's three disciplined 1-unit plays, one lean, and a lot of passes. I also skipped the optional parlay deliberately \u2014 multiplying two thin ~1-unit edges compounds the vig and erases the value, so the two best singles stand alone.",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "PHI -1.5 (+110)",
+      "why_this": "Anthony Kay's extreme underlying metrics (5.23 FIP, 5.67 xERA) scream regression against a Jes\u00fas Luzardo (2.77 FIP, 3.16 xERA) who is legitimately pitching at an ace level, creating a massive mismatch that the market hasn't fully priced in on the run line.",
+      "resolved_game": "CHW @ PHI",
+      "resolved_pick": "PHI -1.5",
+      "resolved_price": 110,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "sonnet",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "SEA ML -128 \u2014 1 unit",
+      "why_this": "Bryan Woo's ERA, FIP, and xERA all agree over 70 innings that he is a legitimately elite starter right now, and all three metrics cluster tightly between 2.91 and 3.44 \u2014 not a case where one number flatters while others warn. Framber Valdez is consistently mediocre across the same three measures with a 4.58 ERA over his last three starts, Seattle is 8-2 in their last 10, and Detroit's offense (3.9 RS/G, -25 run diff) gives Woo a favourable matchup with no tier-reduction trigger. The -128 best price represents the clearest gap between market price and estimated fair value on this slate.",
+      "resolved_game": "SEA @ DET",
+      "resolved_pick": "SEA ML",
+      "resolved_price": -128,
+      "resolved_units": 1,
+      "result": "win",
+      "profit_units": 0.7812
+    }
+  ],
+  "summary": {
+    "wins": 5,
+    "losses": 1,
+    "skips": 0,
+    "record": "5-1 (83.3%)"
+  }
+}

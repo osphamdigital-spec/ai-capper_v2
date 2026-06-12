@@ -1,0 +1,178 @@
+{
+  "date": "2026-06-09",
+  "sport": "mlb",
+  "fetched_at": "2026-06-10T07:46:43Z",
+  "games": [
+    {
+      "game_id": "1ca04df3ce70b1f02075d8e4a5b2cb52",
+      "mlb_game_pk": 824830,
+      "matchup": "SEA @ BAL",
+      "away_abbr": "SEA",
+      "home_abbr": "BAL",
+      "away_score": 6,
+      "home_score": 5,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "5122e6331d2fde8deffb8ad28d89af2d",
+      "mlb_game_pk": 823374,
+      "matchup": "LAD @ PIT",
+      "away_abbr": "LAD",
+      "home_abbr": "PIT",
+      "away_score": 12,
+      "home_score": 3,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "b227664a56bdeff1970b8f4a2b3073fe",
+      "mlb_game_pk": 822969,
+      "matchup": "BOS @ TB",
+      "away_abbr": "BOS",
+      "home_abbr": "TB",
+      "away_score": 3,
+      "home_score": 4,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "f03156629a6e1e4d346ffc42fb0c0bdf",
+      "mlb_game_pk": 824267,
+      "matchup": "MIN @ DET",
+      "away_abbr": "MIN",
+      "home_abbr": "DET",
+      "away_score": 4,
+      "home_score": 10,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "c4d4cce67008409b6416dc0e03e55471",
+      "mlb_game_pk": 823858,
+      "matchup": "AZ @ MIA",
+      "away_abbr": "AZ",
+      "home_abbr": "MIA",
+      "away_score": 6,
+      "home_score": 10,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "6f233a34a63975436f2e7894b5860b90",
+      "mlb_game_pk": 824429,
+      "matchup": "NYY @ CLE",
+      "away_abbr": "NYY",
+      "home_abbr": "CLE",
+      "away_score": 3,
+      "home_score": 2,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "65036e67b5aea5d1efb20c275381e2c4",
+      "mlb_game_pk": 822805,
+      "matchup": "PHI @ TOR",
+      "away_abbr": "PHI",
+      "home_abbr": "TOR",
+      "away_score": 2,
+      "home_score": 3,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "d4b1fc2e508af0ab9a2ac9381656c269",
+      "mlb_game_pk": 823620,
+      "matchup": "STL @ NYM",
+      "away_abbr": "STL",
+      "home_abbr": "NYM",
+      "away_score": 7,
+      "home_score": 0,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "27f5837fda858059318115b8f615ce81",
+      "mlb_game_pk": 824105,
+      "matchup": "TEX @ KC",
+      "away_abbr": "TEX",
+      "home_abbr": "KC",
+      "away_score": 3,
+      "home_score": 5,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "e35247af0713e982e58edd85657dbae9",
+      "mlb_game_pk": 824591,
+      "matchup": "ATL @ CHW",
+      "away_abbr": "ATL",
+      "home_abbr": "CHW",
+      "away_score": 5,
+      "home_score": 6,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "3b917225da82c6c937c963aa47187645",
+      "mlb_game_pk": 824347,
+      "matchup": "CHC @ COL",
+      "away_abbr": "CHC",
+      "home_abbr": "COL",
+      "away_score": 3,
+      "home_score": 7,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "2d3e8521a55eeeae51961cf0d8ebd6c6",
+      "mlb_game_pk": 824023,
+      "matchup": "HOU @ LAA",
+      "away_abbr": "HOU",
+      "home_abbr": "LAA",
+      "away_score": 1,
+      "home_score": 10,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "e2d199125ede80ca2e35bc0c0669f294",
+      "mlb_game_pk": 823290,
+      "matchup": "CIN @ SD",
+      "away_abbr": "CIN",
+      "home_abbr": "SD",
+      "away_score": 5,
+      "home_score": 3,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "f2761470e60cb7a1fa947535ccba356f",
+      "mlb_game_pk": 823214,
+      "matchup": "WAS @ SF",
+      "away_abbr": "WAS",
+      "home_abbr": "SF",
+      "away_score": 6,
+      "home_score": 3,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "53115c407b5594a84cae2269c1005ab0",
+      "mlb_game_pk": 824999,
+      "matchup": "MIL @ ATH",
+      "away_abbr": "MIL",
+      "home_abbr": "ATH",
+      "away_score": 5,
+      "home_score": 7,
+      "winner": "home",
+      "status": "final"
+    }
+  ],
+  "summary": {
+    "final": 15,
+    "in_progress": 0,
+    "postponed": 0,
+    "unmatched": 0
+  }
+}

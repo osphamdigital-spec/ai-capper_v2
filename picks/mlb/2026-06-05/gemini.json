@@ -1,0 +1,41 @@
+{
+  "model": "gemini",
+  "date": "2026-06-05",
+  "sport": "mlb",
+  "logged_at": "2026-06-06T09:27:42Z",
+  "picks": [
+    {
+      "game_id": "be13ae41e6022b172e8564f73444cce6",
+      "matchup": "KC @ MIN",
+      "away_abbr": "KC",
+      "home_abbr": "MIN",
+      "action": "pass",
+      "pick_raw": "",
+      "pick_side": null,
+      "pick_market": null,
+      "price": 101,
+      "units": 0,
+      "units_raw": "",
+      "edge": null,
+      "reason": "",
+      "looked_up": "",
+      "result": null,
+      "profit_units": 0.0,
+      "clv": null,
+      "closing_line": null,
+      "parse_warning": null,
+      "graded_at": "2026-06-06T09:28:45Z"
+    }
+  ],
+  "parlay": null,
+  "best_bet": null,
+  "counts": {
+    "games": 1,
+    "bets": 0,
+    "leans": 0,
+    "passes": 1,
+    "units_risked": 0,
+    "parlay_units": 0
+  },
+  "graded_at": "2026-06-06T09:28:45Z"
+}

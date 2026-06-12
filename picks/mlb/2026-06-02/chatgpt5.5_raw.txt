@@ -1,0 +1,149 @@
+## GAME: DET @ TB
+
+PICK: DET ML
+PRICE: +131
+UNITS: 1
+EDGE: REAL
+REASON: This line appears to price Tampa's team record and home performance more than the pitching matchup. Flaherty has been poor overall, but Matz's 5.48 ERA and mediocre peripherals do not justify Tampa laying this kind of price. At +131, Detroit needs only around 43% win probability and I make it closer to 47%.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SD @ PHI
+
+PICK: SD ML
+PRICE: +120
+UNITS: 3
+EDGE: STRONG
+REASON: Vásquez owns the significantly better season profile while Nola's 5.55 ERA and 1.39 WHIP suggest the market is still pricing him based on reputation. San Diego has also been the better road team and the clubs are nearly identical offensively. This price implies too large a gap between the teams.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+
+PICK: BAL ML
+PRICE: +123
+UNITS: 1
+EDGE: REAL
+REASON: Early has been excellent, but Boston's overall profile does not support favorite status against a Baltimore team that has played much better recently. The Orioles have the superior offense and arrive on a 7-3 run. At plus money, Baltimore is the value side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIA @ WAS
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters carry significant uncertainty, especially given limited track records and unusual profiles. Washington has the better offense but poor home results, while Miami has struggled on the road. The market looks close to fair.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+
+PICK: NYY -1.5 RL
+PRICE: -102
+UNITS: 3
+EDGE: STRONG
+REASON: Schlittler's 1.89 ERA, 0.86 WHIP and elite strikeout numbers create a substantial starting pitching edge. New York owns a massive +98 run differential and significant offensive advantage. If backing the Yankees, the run line is clearly more efficient than laying -220.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ CIN
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The starting pitchers grade similarly and neither team has demonstrated enough consistency to justify a strong position. Cincinnati is the better club overall but not by enough to create meaningful value at the current price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Gausman is capable of matching Elder inning for inning, but Atlanta's overall team strength and enormous run differential justify favorite status. The line is close to where I would make it, leaving little value on either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ MIN
+
+PICK: CHW ML
+PRICE: -118
+UNITS: 3
+EDGE: STRONG
+REASON: Davis Martin has been one of the better starters on this slate while Prielipp carries a 5.26 ERA and has struggled to prevent baserunners. Chicago owns the better record, better recent form, and comparable offense. I make the White Sox a significantly larger favorite.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+
+PICK: MIL -1.5 RL
+PRICE: +118
+UNITS: 3
+EDGE: STRONG
+REASON: Milwaukee owns major advantages in starting pitching, run differential, recent form, and overall roster quality. Harrison's 1.57 ERA gives the Brewers a substantial edge over McDonald. Given the heavy moneyline, the plus-money run line is the superior wager.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TEX @ STL
+
+PICK: TEX ML
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+REASON: Eovaldi's underlying profile is stronger than May's, and Texas owns the better run differential despite the inferior record. With the market essentially calling this a coin flip, I lean toward the Rangers' pitching edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+
+PICK: ATH ML
+PRICE: +110
+UNITS: 1
+EDGE: REAL
+REASON: Taillon's 5.13 ERA makes it difficult to justify Chicago as a favorite. Athletics road performance has actually been respectable, and the pitching matchup is much closer than the market suggests. Plus money creates enough value to take a shot.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+
+PICK: OVER 9
+PRICE: -108
+UNITS: 1
+EDGE: REAL
+REASON: Both starters enter with ERAs near or above five and WHIPs above 1.50. Pittsburgh is averaging 5.0 runs per game, Houston's staff has struggled all year, and neither pitcher inspires confidence. A high-scoring game is more likely than the market implies.
+LOOKED UP: nothing, used provided data only
+
+## GAME: COL @ LAA
+
+PICK: COL ML
+PRICE: +141
+UNITS: 3
+EDGE: STRONG
+REASON: Sugano's profile is clearly superior to Rodriguez's 7.04 ERA and 1.57 WHIP. The teams have identical records and similar offensive production, making the gap in pricing difficult to justify. Colorado appears substantially undervalued.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+
+PICK: AZ ML
+PRICE: +108
+UNITS: 3
+EDGE: STRONG
+REASON: Soroka has been significantly better than Lauer this season, and Arizona owns an outstanding 19-10 home record. While the Dodgers are the better overall team, this specific pitching matchup should not have Los Angeles favored. Home underdog value stands out.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SEA
+
+PICK: NYM ML
+PRICE: +130
+UNITS: 1
+EDGE: REAL
+REASON: Gilbert is the better established starter, but the market may be overpricing Seattle's recent form. Brazobán's numbers have been excellent and +130 requires only about a 43.5% win rate. I make the Mets slightly more live than that.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+
+LEG 1: SD ML +120
+LEG 2: AZ ML +108
+COMBINED PRICE: +358
+TRUE PROBABILITY ESTIMATE: 25%
+UNITS: 1
+REASON: Both underdogs appear mispriced due to stronger pitching matchups than the market reflects. The games are independent, in different leagues and regions, and both carry standalone value based on my analysis.
+
+## SLATE SUMMARY
+
+BEST BET: SD ML +120 (3 units)
+
+WHY THIS ONE: The market appears to be pricing Aaron Nola closer to his historical reputation than his current-season performance. With San Diego holding the starting pitching edge and receiving a plus-money price, the gap between implied and estimated win probability is the largest on the board.

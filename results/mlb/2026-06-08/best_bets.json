@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-08",
+  "sport": "mlb",
+  "graded_at": "2026-06-09T06:33:19Z",
+  "best_bets": [
+    {
+      "model": "chatgpt5.5",
+      "best_bet_raw": "PHI -1.5 RL (PHI @ TOR), 3 units",
+      "why_this": "Philadelphia has the clearest overall advantage on the slate, combining an elite starting pitcher, a meaningful talent gap, and a run-line price that is far more efficient than the heavy moneyline.",
+      "resolved_game": "PHI @ TOR",
+      "resolved_pick": "PHI -1.5 RL",
+      "resolved_price": -105,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.8571
+    },
+    {
+      "model": "deepseek",
+      "best_bet_raw": "PHI -1.5 RL (PHI @ TOR), 3 units",
+      "why_this": "Cristopher S\u00e1nchez is in Cy Young form (0.41 ERA over last 3 starts) against a fading Patrick Corbin, and the -105 run line provides exceptional value for a heavy favorite that should win comfortably.",
+      "resolved_game": "PHI @ TOR",
+      "resolved_pick": "PHI -1.5 RL",
+      "resolved_price": -105,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.8571
+    },
+    {
+      "model": "gemini",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "gpt-5.2-high",
+      "best_bet_raw": "Over 9.0 -102 (HOU @ LAA), 1 unit",
+      "why_this": "It has the largest run-gap vs the posted line based on L10 run environment plus both starters\u2019 xERA/contact risk and both bullpens showing zero fresh high-leverage availability, without leaning on any low-trust estimated splits.",
+      "resolved_game": "HOU @ LAA",
+      "resolved_pick": "Over 9.0",
+      "resolved_price": -102,
+      "resolved_units": 1,
+      "result": "push",
+      "profit_units": 0.0
+    },
+    {
+      "model": "grok",
+      "best_bet_raw": "Under 8.0 (CIN @ SD, 3 units)",
+      "why_this": "Largest quantified run gap (3.2 runs) on the slate after mandatory totals sequence, low L10 offence for both clubs, and pitcher-friendly Petco Park; exceeds every ML bet on independent non-correlated factors while avoiding all SP-ERA bullpen-risk caps.",
+      "resolved_game": "CIN @ SD",
+      "resolved_pick": "Under 8.0",
+      "resolved_price": -109,
+      "resolved_units": 3,
+      "result": "push",
+      "profit_units": 0.0
+    },
+    {
+      "model": "kimi",
+      "best_bet_raw": "Under 8.0 (CIN @ SD), 1 unit",
+      "why_this": "Petco Park is the most reliable pitcher-friendly environment on the slate, both offenses are in confirmed and severe slumps with no recent improvement, and San Diego\u2019s elite bullpen provides a safety net that Sacramento\u2019s high-variance bandbox cannot match for the other under play.",
+      "resolved_game": "CIN @ SD",
+      "resolved_pick": "Under 8.0",
+      "resolved_price": -109,
+      "resolved_units": 1,
+      "result": "push",
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "best_bet_raw": "Under 8.0 (CIN @ SD), 1 unit",
+      "why_this": "It pairs the most extreme pitcher park on the board with two of the coldest offenses in baseball and an elite SD bullpen \u2014 the lowest-variance of my three totals edges, where the others lean on taxed pens (HOU/LAA) or a bandbox (MIL/ATH).",
+      "resolved_game": "CIN @ SD",
+      "resolved_pick": "Under 8.0",
+      "resolved_price": -109,
+      "resolved_units": 1,
+      "result": "push",
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "best_bet_raw": "ATH ML (MIL @ ATH), 3 units",
+      "why_this": "The platoon mismatch is extreme \u2014 Milwaukee's 58 wRC+ vs LHP is one of the worst in baseball, and Jeffrey Springs has elite recent strikeout metrics (10.4 K/9 last 14 days) to exploit it, offering tremendous value at +136.",
+      "resolved_game": "MIL @ ATH",
+      "resolved_pick": "ATH ML",
+      "resolved_price": 136,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "sonnet",
+      "best_bet_raw": "PHI -1.5 (PHI @ TOR), 1 unit",
+      "why_this": "Cristopher S\u00e1nchez's elite metrics (FIP 1.79, xFIP 2.64, K/9 10.7, L3 ERA 0.41) against Patrick Corbin's deteriorating profile (K/9 4.5, last-14 xFIP 4.88, Jun 3: 4 ER in 5 IP) at near-even-money pricing on the run line is the clearest edge on the slate \u2014 the starting pitcher gap is one of the widest available, the price is efficient, and S\u00e1nchez's depth of starts (7-8 IP routinely) reduces bullpen dependence on a -1.5 line.",
+      "resolved_game": "PHI @ TOR",
+      "resolved_pick": "PHI -1.5 -105",
+      "resolved_price": -105,
+      "resolved_units": 1,
+      "result": "win",
+      "profit_units": 0.9524
+    }
+  ],
+  "summary": {
+    "wins": 3,
+    "losses": 1,
+    "record": "3-1 (75.0%)"
+  }
+}

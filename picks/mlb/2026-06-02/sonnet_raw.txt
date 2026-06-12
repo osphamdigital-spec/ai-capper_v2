@@ -1,0 +1,163 @@
+## GAME: DET @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters are genuine underperformers — Flaherty at 5.31 ERA and Matz at 5.48 ERA — so there is no pitching edge to anchor a bet. TB is clearly the better team (36-22 vs 24-38) and a strong home side (21-8), but the line movement already shows the market loading toward Tampa (-142 to -150), meaning any value has been captured before it reaches us. Paying -142 to -150 for a fairly priced favourite with two bad starters is not edge.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: SD @ PHI
+PICK: SD ML
+PRICE: +113
+UNITS: 1
+EDGE: REAL
+REASON: Vásquez (3.31 ERA, 1.22 WHIP, 65.1 IP) has accumulated enough innings to treat his numbers as established, and he outclasses Nola significantly — Nola's 5.55 ERA over 61.2 IP is not a small-sample blip but a real body of underperformance. SD's 32-27 record and 16-11 road mark show a legitimate team that should not be a +113 underdog when the pitching matchup tilts clearly in their favour. The stable line (unchanged open to current) suggests the market has not moved to close this gap.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: BAL @ BOS
+PICK: LEAN BAL
+PRICE: +113 (best +123 BetOnline)
+UNITS: LEAN
+EDGE: THIN
+REASON: BOS is 9-20 at home — a record so poor it strips most of the home field premium that drives the -133 price. BAL's last10 7-3 versus BOS's 3-7 represents a genuine form gap, though BAL's -36 overall run differential suggests some luck in that hot streak. Early (3.26 ERA, 66.1 IP) is the better pitcher and that keeps this a lean rather than a bet — the pitching edge goes to the home side, but the home side can't win at home.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: MIA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both pitchers have sample sizes too small to support confident probability work — Bachar at 31.1 IP and Lovelady at 26.0 IP with a 1.73 WHIP that screams unsustainability but tells us nothing reliable yet. The line movement shifted firmly toward WAS (-114 to -118 as MIA drifted from -103 to +100), suggesting the market has already found the home-side value and priced it in. No edge remains at current prices.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: CLE @ NYY
+PICK: NYY -1.5
+PRICE: -102
+UNITS: 1
+EDGE: REAL
+REASON: Schlittler's 1.89 ERA, 0.86 WHIP, and 84 strikeouts across 76.1 IP is not a hot-start fluke — it is a validated elite performance in a full sample. NYY's +98 run differential is the highest on this slate, and their 5.2 RS/G home offence is built to punish a starter with Cantillo's 1.45 WHIP. The -1.5 run line at -102 is structurally mispriced — the market is calling a coin flip on whether NYY covers when their pitcher and team quality profile argues for a much higher true probability of winning decisively.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: KC @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Cameron (4.22 ERA, 59.2 IP) and Abbott (4.06 ERA, 68.2 IP) are essentially identical starters in both ERA and sample size — there is no pitching lever to pull. KC's team metrics (23-37, -52 run diff, 8-20 away) justify CIN as a home favourite, and -126 for a .508 team against a bad road side in a hitter-friendly park is close to fair market. Nothing to exploit here.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: TOR @ ATL
+PICK: ATL ML
+PRICE: -128
+UNITS: 1
+EDGE: REAL
+REASON: ATL's 41-20 record and +110 run differential represent the deepest team-quality profile on this slate — TOR at 29-32 with -8 run diff is a legitimately inferior opponent. Elder (2.63 ERA, 1.08 WHIP, 78.2 IP) edges Gausman (3.36 ERA, 1.09 WHIP, 75.0 IP) in large, reliable samples, giving ATL both the pitching and team advantage at home. The -128 price has not fully adjusted to ATL's quality gap, and a tight pitcher's duel with two elite starters actually helps the better team convert their real edge into wins rather than masking it in a blowout.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: CHW @ MIN
+PICK: CHW ML
+PRICE: -121
+UNITS: 1
+EDGE: REAL
+REASON: Martin's 2.61 ERA, 1.11 WHIP, and 73 strikeouts in 72.1 IP has crossed into a sample large enough to treat as an established performance level rather than a hot start — the 72-inning body of work earns trust. Prielipp's 5.26 ERA in 39.1 IP is a real red flag, and CHW's team metrics (32-28, +5 run diff) exceed MIN's (28-33, -18 run diff) across the board. The -121 price for a team holding clear pitching and team-quality edges is a fair entry; the main discount already baked in is the road-game context.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: SF @ MIL
+PICK: MIL -1.5
+PRICE: +118 (best +160 BetMGM)
+UNITS: 3
+EDGE: STRONG
+REASON: Every measurable variable on this game points the same direction simultaneously — Harrison (1.57 ERA, 1.03 WHIP, 73K in 57.1 IP) is pitching at an elite level against McDonald (4.50 ERA, 34.0 IP), and behind them MIL (36-21, +88 run diff, 5.0 RS/G, 20-11 at home, last10 7-3) is facing the worst team on the slate by a wide margin (SF 23-37, -62 run diff, 3.9 RS/G away, last10 3-7). The structural pricing gap is in the run line — the ML has been driven to -191 but the -1.5 sits at +118 (or +160 at BetMGM), meaning you are getting plus money on a team of this quality with this pitcher against this opponent, which is exceptional value.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: TEX @ STL
+PICK: LEAN TEX
+PRICE: -113 (best -110 BetOnline)
+UNITS: LEAN
+EDGE: THIN
+REASON: Eovaldi (3.86 ERA, 74.2 IP) holds a real pitching edge over May (4.59 ERA, 66.2 IP) in comparable sample sizes, and TEX's last10 5-5 neutral form looks better than STL's cold 3-7 stretch. STL's home field partially offsets the pitching gap, making TEX at -113 fair-to-slight-undervalue rather than a clear edge worth a unit. Tilt toward the visitor, not committing.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: ATH @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Jump's 11.0 IP sample provides no usable data — betting a game around a pitcher with fewer than a dozen innings is speculation, not analysis. Taillon's 5.13 ERA over 66.2 IP is a legitimate problem for CHC's case, but ATH's cold form (last10 3-7, -34 run diff away) and the north wind at Wrigley keeping balls in the park create too many offsetting unknowns. Without pitcher information on the visitor, this is a pass regardless of any other edge.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: PIT @ HOU
+PICK: PIT ML
+PRICE: +100 (best available LowVig.ag)
+UNITS: 1
+EDGE: THIN
+REASON: PIT (32-28, +31 run diff, last10 6-4) is the better team in better form with the better pitcher — Chandler's 4.89 ERA is a real problem, but Burrows' 5.66 ERA and 1.52 WHIP in 68.1 IP is worse in a meaningful sample. HOU's last10 7-3 streak explains the home-favourite pricing, but their overall 27-34 record and -33 run differential tell a different structural story. At the best available +100 (LowVig), the market is calling this a coin flip when the evidence tilts toward the visitor on team quality, run differential, and pitching.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: COL @ LAA
+PICK: LEAN COL
+PRICE: +135 (best +141 LowVig)
+UNITS: LEAN
+EDGE: THIN
+REASON: Rodriguez's 7.04 ERA and 1.57 WHIP in 15.1 IP is the worst starter number on the slate and creates a real pitching edge for COL, whose Sugano (4.01 ERA, 1.25 WHIP, 58.1 IP) has a legitimate body of work. Both teams are 23-38, which means team quality is roughly a wash and today's game turns almost entirely on the starting-pitcher matchup. COL's -82 run differential — the worst on the slate by far — reflects a bad enough underlying team that I won't commit a unit despite the pitching edge; if Rodriguez exits early, LAA's bullpen could flip this.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: LAD @ AZ
+PICK: AZ ML
+PRICE: +104
+UNITS: 1
+EDGE: REAL
+REASON: Soroka (7-2, 3.23 ERA, 1.21 WHIP, 61.1 IP) outclasses Lauer (5.95 ERA, 1.39 WHIP, 42.1 IP) by a wide and well-sampled margin, giving AZ the clear pitching edge at home where they are 19-10. The total moving from 9.0 to 9.5 signals sharp-money over action — but those extra runs are most likely coming off Lauer, not Soroka, which reinforces rather than undermines the AZ side. Getting plus money (+104) on a team with a superior pitcher, a strong home record, and a solid overall profile (32-27, last10 6-4) is where the value sits.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: NYM @ SEA
+PICK: LEAN SEA
+PRICE: -150
+UNITS: LEAN
+EDGE: THIN
+REASON: SEA's 8-2 last10 run, solid home record, and Gilbert (3.69 ERA, 68.1 IP) at home are all genuine. Brazobán's 1.86 ERA across only 29.0 IP is intriguing but too limited to project as a reliable advantage against a hot team in a pitcher's park. Even accepting SEA's real edge here, -150 demands risking $150 to win $100 on a probability that may be closer to 60-62% — the juice eats the margin. Lean the home side, not worth the price.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## PARLAY
+LEG 1: SD ML +113
+LEG 2: ATL ML -128
+COMBINED PRICE: +279 (approximate)
+TRUE PROBABILITY ESTIMATE: ~31.7% (SD ~52% × ATL ~61%)
+UNITS: 1
+REASON: SD's edge is independently derived from a significant pitching mismatch (Vásquez 3.31 ERA vs Nola 5.55 ERA, both large samples) unrelated to ATL's edge, which is driven by team quality (41-20, +110 run diff) and Elder's pitching advantage for the best record on the slate. SD plays in the NL West, ATL in the NL East — different divisions, no travel overlap, no weather correlation, no structural link. At +279 the implied probability is 26.4% against my true estimate of ~31.7%, producing a 5-point edge on a parlay constructed entirely from independently qualifying legs.
+
+---
+
+## SLATE SUMMARY
+BEST BET: MIL -1.5 +118 — Game 9 (SF @ MIL), 3 units
+WHY THIS ONE: No other game on this slate combines a historic-level pitching advantage, a massive team-quality gap, the best home record among all favourites, and plus money on the run line simultaneously — MIL -1.5 at +118 (or +160 at BetMGM) prices a dominant team as an underdog to cover by two, which is a structural mispricing the other plays on this card cannot match.

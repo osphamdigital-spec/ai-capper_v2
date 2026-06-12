@@ -1,0 +1,83 @@
+## GAME: SEA @ BAL
+PICK: SEA ML
+PRICE: -132
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: Emerson Hancock (2.80 ERA, 0.95 WHIP) has been excellent, and Seattle's bullpen (3.09 ERA) is far superior to Baltimore's (6.01 ERA). Chris Bassitt's 5.27 ERA and 1.63 WHIP offer a clear mismatch. Seattle's 7-3 last-10 form vs Baltimore's 5-5 seals the edge.
+LOOKED UP: Confirmed BAL starter Chris Bassitt (5.27 ERA) via search. Hancock's last 4 starts: 2 ER or less in each.
+
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Boston's 127 wRC+ vs LHP is elite, but their bullpen (5.91 ERA) is a disaster. Tampa's Ian Seymour has a 5.23 ERA and is a small-sample question mark. Both starters have xFIPs under 3.80, suggesting some suppression, but the bullpens (especially Boston's) are leaky enough to push runs. No betting edge either side.
+LOOKED UP: Confirmed Connelly Early (3.26 ERA) vs Ian Seymour (5.23 ERA). Boston bullpen ERA 5.91 is 4th-worst in MLB.
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Under
+REASON: Two above-average starters (Warren 3.22 FIP, Williams 3.54 FIP) in a pitcher-friendly park (PF 96, HR 87). Both bullpens are rested and effective. The 7.5 total is fairly priced, with no edge to either side. Cleveland's offense (93 wRC+ vs RHP) is below average.
+LOOKED UP: Checked bullpen usage — no taxed arms. Progressive Field suppresses runs. No lineup edges.
+
+## GAME: PHI @ TOR
+PICK: PHI -1.5 RL
+PRICE: -105
+UNITS: 3
+EDGE: STRONG
+TOTAL LEAN: Under
+REASON: Cristopher Sánchez (1.46 ERA, 0.41 L3 ERA) is a true ace facing Patrick Corbin (3.98 ERA, declining peripherals). The -180 ML is fairly priced, but the run line at -105 is a more efficient way to back a heavy favorite. Philly's bullpen is rested and deeper.
+LOOKED UP: Sánchez L3: 22 IP, 1 ER. Corbin L3: 5.0 IP, 4 ER vs ATL. Rogers Centre roof likely closed (cool 66°F), suppressing runs.
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Grayson Rodriguez's 9.50 ERA is not predictive (small sample), but his 7.53 L3 ERA and 5.2 BB/9 suggest real struggles. Spencer Arrighetti's 1.94 ERA is backed by a 4.69 xERA — regression due. Both bullpens are taxed, and the total of 9.0 feels fair.
+LOOKED UP: LAA scored 13 runs yesterday, but that was a bullpen game fluke. Hader and De Los Santos are fresh.
+
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Under
+REASON: Both teams are 2-8 in their last 10, with anemic offenses (CIN L10 RS/G 3.2, SD 2.7). Petco Park is pitcher-friendly (PF 88 runs), and both starters (Abbott 4.06, Buehler 4.53) are mediocre but not terrible. No edge on total or side.
+LOOKED UP: Confirmed Petco factor 94 overall, runs 88. Both bullpens fresh.
+
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Under
+REASON: Logan Webb's 4.25 ERA is deceptive (3.42 FIP, 2.94 xFIP) — he's a quality starter. Miles Mikolas (6.39 ERA) is a clear liability, but San Francisco's bullpen (5.60 ERA) is a mess. The market has SF -165, which is about right given the pitching mismatch but offset by bullpen risk. Pass.
+LOOKED UP: Webb's L3: 7.0 IP, 0 ER vs NYM. Giants bullpen ERA ranks 28th.
+
+## GAME: MIL @ ATH
+PICK: MIL -1.5 RL
+PRICE: -105
+UNITS: 2
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Kyle Harrison (1.57 ERA, 0.48 L3 ERA) is an elite arm against Jeffrey Springs (4.37 ERA, 6.00 L3 ERA). The Brewers' offense (L10 RS/G 7.0) should feast in a hitter-friendly park (PF 121 runs). The -159 ML has value, but the run line at -105 is a more efficient way to back a heavy favorite in a high-variance environment. 2 units due to the high total variance.
+LOOKED UP: Harrison L3: 18.2 IP, 1 ER. Sutter Health Park (Sacramento) has a 110 park factor. Brewers have +105 run differential, best in MLB.
+
+## PARLAY
+LEG 1: PHI -1.5 -105
+LEG 2: MIL -1.5 -105
+COMBINED PRICE: +256
+TRUE PROBABILITY ESTIMATE: 42.3%
+UNITS: 1
+REASON: Both legs are independent value bets (PHI vs TOR, MIL vs ATH) with elite starting pitching mismatches against weak opponents. No correlation — different leagues, different parks, different travel patterns. The combined price offers a small edge over the product of individual probabilities.
+
+## SLATE SUMMARY
+BEST BET: PHI -1.5 RL (PHI @ TOR), 3 units
+WHY THIS ONE: Cristopher Sánchez is in Cy Young form (0.41 ERA over last 3 starts) against a fading Patrick Corbin, and the -105 run line provides exceptional value for a heavy favorite that should win comfortably.

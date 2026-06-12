@@ -1,0 +1,83 @@
+## GAME: SD @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Wheeler vs Giolito is a clear pitching mismatch, but the market has it about right at PHI -190. SD’s away form (16-13) and PHI’s modest home record keep the implied probability within a tight range. No line discrepancy worth attacking, and SD’s 1-9 skid does not create enough value on either side.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Two struggling starters and weak bullpens make this game high variance. Market makes it a virtual coin flip, and my own estimate (BAL ~51%) sits right on the number. The total at 10.0 also looks efficient; no edge on side or total.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: NYY ML
+PRICE: -161 (LowVig.ag)
+UNITS: 1
+EDGE: REAL
+REASON: Rodón has been sharp (2.88 ERA, 1.20 WHIP) and Cecconi is below average. Cleveland’s bullpen is heavily taxed (Holderman, Gaddis, Herrin all 2 straight days), while the Yankees’ key arms are rested enough. My fair line is near -185, so -161 offers a 24-cent edge.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: MIL -1.5
+PRICE: +175 (BetMGM)
+UNITS: 3
+EDGE: STRONG
+REASON: Milwaukee is a .627 team with a +92 run differential facing a weak Giants club. Houser (5.49 ERA) is vulnerable, and Coleman Crow is untested with mediocre numbers. My win probability for Milwaukee is ~68%, with a run-line cover rate well above the 36.4% implied by +175. The bullpen edge (MIL rested, SF taxed) further widens the gap.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5
+PRICE: +105 (MyBookie.ag)
+UNITS: 1
+EDGE: REAL
+REASON: Chris Sale is in Cy Young form, and Atlanta’s offense leads a +114 run differential. Toronto’s Fluharty has a small-sample 3.97 ERA and faces a lineup that should work counts. My fair ATL -1.5 price is around -120; getting +105 offers a solid 10+ cent edge.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Lugo is reliable, but Morris’s small sample and Minnesota’s home offense roughly cancel out. The pick’em line matches my assessment, and neither side shows a meaningful edge. Bullpen fatigue on both sides adds noise, not clarity.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Ginn’s strong 2.87 ERA makes this tighter than the line suggests, but Imanaga’s low WHIP points to positive regression. Both bullpens are heavily used, increasing randomness. The market is pricing it within cents of my fair line; no actionable edge.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Jones’s 4.1-inning disaster skews the surface numbers, and Teng’s 2.57 ERA likely overstates his true talent. The market treats it as a coin flip, which aligns with my view that Pittsburgh’s better offense and team quality offset the pitching optics. No value either way.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130 (BetUS)
+UNITS: 3
+EDGE: STRONG
+REASON: The Dodgers are a +134 run-differential juggernaut, and Wrobleski’s 2.87 ERA/1.01 WHIP gives them a major pitching edge over Nelson (4.82 ERA). Arizona’s bullpen is gassed after heavy usage, while LA is relatively fresh. My fair moneyline is around -190; -130 implies only a 56.5% win chance, far below my estimate of ~67%.  
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: MIL ML -177
+LEG 2: LAD ML -130
+COMBINED PRICE: +177
+TRUE PROBABILITY ESTIMATE: 44.2% (68% × 65%)
+UNITS: 2
+REASON: Both legs have independently identified value (MIL fair ~ -210, LAD fair ~ -190). No correlation: different leagues, different travel, no shared weather risk. The parlay turns two moderate edges into a +177 payout versus a fair price of +126, adding convexity without sacrificing independence.
+
+## SLATE SUMMARY
+BEST BET: MIL -1.5 +175 (Game 4) – 3 units  
+WHY THIS ONE: The +175 price implies just a 36% cover probability on a team with a .627 win% and +92 run diff facing a bottom-tier opponent. The disconnect between team strength and the offered run line is the widest on the board, creating an exceptional edge larger than any straight moneyline play today.

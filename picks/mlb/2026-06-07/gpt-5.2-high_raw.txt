@@ -1,0 +1,123 @@
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Team quality gap favors ATL (run diff +115 vs +31; RS/G 5.2 vs 5.1; last10 7-3 vs 5-5). Fresh high-leverage arms: PIT 0/3 vs ATL 1/3 (delta ATL +1), and per underdog rule I also add +5% to PIT because ATL shows non-fresh leverage; I land PIT ~40% vs implied 41.3% at +142, so no value. Pitching leans ATL (Elder stronger indicators than Chandler), so I’m not forcing the dog.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Team quality heavily favors NYY (run diff +91 vs -4; RS/G 5.0 vs 4.0; last10 6-4 vs 5-5). Fresh high-leverage arms: BOS 3/3 vs NYY 0/3 (delta BOS +3), so I must add +4% to BOS; additionally NYY’s 0/3 fresh triggers the +5% workload adjustment—after both, I’m at BOS ~43% vs implied 40.7% at +146, but the starter edge (Schlittler) and overall team gap are big enough that I’m still not betting. LOW-TRUST note: the platoon wRC+ is ESTIMATED and not used as a primary driver.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: CHW ML
+PRICE: +149
+UNITS: 1
+EDGE: REAL
+REASON: Team quality leans CHW (run diff +12 vs -23; RS/G 4.8 vs 4.0; last10 both 7-3). Fresh high-leverage arms: CHW 2/3 vs PHI 0/3 (delta CHW +2), which meaningfully improves the upset path for a plus-money dog. Opener/bulk flag: Gilbert has only 2.2 IP, so CHW is effectively running a bullpen game—this uncertainty caps stake to 1 unit, but the price is still attractive.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: BAL ML
+PRICE: +122
+UNITS: 1
+EDGE: REAL
+REASON: Team quality is mixed but not anti-BAL (run diff -29 vs -15; RS/G 4.7 vs 4.1; last10 6-4 vs 5-5). Fresh high-leverage arms: BAL 1/3 vs TOR 0/3 (delta BAL +1), and TOR’s 0/3 fresh is a concrete late-game equity boost for the underdog. Baz vs Gausman is not a huge mismatch, so +122 is enough to take a small shot.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+REASON: Team quality strongly favors SEA (run diff +30 vs -25; RS/G 4.2 vs 3.9; last10 8-2 vs 5-5). Fresh high-leverage arms: SEA 2/3 vs DET 3/3 (delta DET +1), but DET’s bullpen season quality is still far worse in the provided data, and SEA’s overall profile justifies a bigger edge than -110. LOW-TRUST note: the ESTIMATED platoon wRC+ supports SEA but isn’t the primary reason.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: TB ML
+PRICE: -110
+UNITS: 1
+EDGE: THIN
+REASON: Team quality leans TB (run diff +10 vs -23; RS/G 4.6 vs 4.2; last10 3-7 vs 4-6), and fresh high-leverage arms favor TB slightly (TB 3/3 vs MIA 2/3, delta TB +1). The pitching matchup is close enough (Jax vs Alcantara profiles are both mid-tier by xFIP/SIERA) that I only want the cheaper TB price. Total prices are flagged suspect, so I’m staying away from 8.5.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Team quality favors HOU (run diff -24 vs -48; RS/G 4.7 vs 4.2; last10 6-4 vs 3-7). Fresh high-leverage arms are equally thin (ATH 0/3 vs HOU 0/3, delta 0), which adds volatility and reduces confidence in either side at near pick’em. LOW-TRUST note: HOU’s ESTIMATED split vs LHP is tempting but not reliable enough to drive a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Team quality favors MIN in two of three (run diff -25 vs -49; RS/G 4.6 vs 3.9; last10 3-7 vs 4-6). Fresh high-leverage arms: KC 1/4 vs MIN 0/4 (delta KC +1), but KC’s bullpen season ERA in the feed (21.87) is extreme enough that I’m cautious about overweighting bullpen inputs here. With both starters projecting similarly by xFIP/SIERA bands, I don’t see a clean misprice.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: Under
+PRICE: +103
+UNITS: 1
+EDGE: REAL
+REASON: Team quality favors STL (run diff -4 vs -49; RS/G 4.4 vs 4.3; last10 5-5 vs 3-7). Fresh high-leverage arms: CIN 2/3 vs STL 1/3 (delta CIN +1), which slightly supports late outs and run suppression for the under. Busch is a run-suppressing park (runs factor 94), and a 9.0 total at plus money on the Under is playable.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: Under
+PRICE: -118
+UNITS: 1
+EDGE: REAL
+REASON: Team quality is fairly even (run diff +11 vs +4; RS/G 4.1 vs 3.9; last10 5-5 vs 6-4). Fresh high-leverage arms: CLE 1/3 vs TEX 3/3 (delta TEX +2), which supports clean late innings and favors the Under. Globe Life is extremely pitcher-friendly (runs factor 83; even lower if roof closed), and deGrom’s profile plus two solid bullpens makes 7.5 a touch high.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Team quality massively favors MIL (run diff +97 vs -91; RS/G 5.1 vs 4.3; last10 7-3 vs 4-6). Fresh high-leverage arms are equal (MIL 3/3 vs COL 3/3, delta 0), so no fatigue-based angle. With Coors variance and a 12.0 total, I don’t see a strong enough misprice on side or total at current numbers.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +118
+UNITS: 1
+EDGE: REAL
+REASON: Team quality favors WAS across the board (run diff +8 vs -14; RS/G 5.4 vs 4.3; last10 5-5 vs 3-7). Fresh high-leverage arms: WAS 0/3 vs AZ 2/3 (delta AZ +2), which is the main reason this is only 1 unit, but the dog price still compensates. Cavalli vs Soroka is close enough that +118 is worth taking given the offensive/run-production edge indicated by non-estimated RS/G.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Team quality is overwhelmingly LAD (run diff +141 vs -59; RS/G 5.2 vs 4.3; last10 7-3 vs 3-7). Fresh high-leverage arms: LAA 2/3 vs LAD 0/3 (delta LAA +2), so I must add +4% to LAA; LAD’s 0/3 fresh also triggers the +5% workload adjustment before passing—after both I estimate LAA ~36% vs implied 34.7% at +188, which is too thin given the massive team gap. I also won’t take LAD -1.5 without a clear P(win by 2+) edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: NYM ML
+PRICE: -104
+UNITS: 1
+EDGE: REAL
+REASON: Team quality favors NYM (run diff -9 vs -14; RS/G 4.0 vs 3.8; last10 6-4 vs 2-8). Fresh high-leverage arms are even (NYM 1/3 vs SD 1/3, delta 0), so no fatigue edge either way. Both starters have ugly underlying indicators (xFIP/SIERA) and Petco suppresses scoring, so I’ll take the slightly better recent team profile at the cheaper price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Team quality favors CHC (run diff +4 vs -49; RS/G 4.6 vs 4.2; last10 5-5 vs 4-6). Fresh high-leverage arms are similarly constrained (SF 0/1 vs CHC 0/3, delta 0), so no bullpen freshness angle to support the dog. Even if McDonald’s xFIP/SIERA look better than Taillon’s, I price SF ~46% vs implied 47.8% at +109 after applying no positive bullpen adjustment—so I pass.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: Under 7.5 -118 (GAME: CLE @ TEX), 1 unit
+WHY THIS ONE: The pitcher-friendly park profile plus fresher Texas leverage (delta +2) supports late run suppression, and the total is not reliant on LOW-TRUST estimated splits to justify the edge.

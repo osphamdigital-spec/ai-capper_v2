@@ -1,0 +1,163 @@
+## GAME: MIA @ WAS
+PICK: LEAN MIA
+PRICE: -108
+UNITS: LEAN
+EDGE: THIN
+REASON: Meyer (2.81 ERA, 3.90 xERA, 73.2 IP) is a legitimate starter in a validated sample against Alvarez whose 20.1 IP tells us nothing reliable. The concern cutting this back from a bet is MIA's bullpen — five relievers taxed from yesterday including Gusto at 40 pitches and three others with consecutive-day exposure. WAS's 12-20 home record strips most of the home-field premium baked into the line, but MIA's depleted relief corps is a real structural problem if Meyer doesn't go deep.
+LOOKED UP: Nothing, used provided data only. June 3, 2026 games post-date my training cutoff; no result knowledge used.
+
+---
+
+## GAME: DET @ TB
+PICK: LEAN DET
+PRICE: +124
+UNITS: LEAN
+EDGE: THIN
+REASON: Martinez (2.29 ERA, 4.15 xERA, 70.2 IP) is a major regression candidate — his ERA is nearly two full runs below what his underlying metrics project, which means the market is pricing TB partly on a surface ERA that overstates Martinez's true quality. TB's last10 is 2-8 and their bullpen has five taxed arms including closer Baker. DET's 3.9 RS/G offense keeps this a lean rather than a bet — they may not score enough to exploit TB's structural vulnerabilities.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: CHW @ MIN
+PICK: LEAN CHW
+PRICE: +132
+UNITS: LEAN
+EDGE: THIN
+REASON: MIN's closer Gómez is taxed on two consecutive days and unavailable in the ninth — in a close game, MIN's relief corps is genuinely compromised. CHW is 7-3 last10 with a +11 run differential against MIN's 3-7 last10 and -24 run differential, and CHW's offense (4.7 RS/G) is the better scoring unit here. What holds this to a lean is Fedde (4.94 ERA, 4.59 xERA) — he's genuinely bad and will give MIN quality plate appearances regardless of CHW's bullpen advantage.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: NYM @ SEA
+PICK: SEA ML
+PRICE: -138
+UNITS: 1
+EDGE: REAL
+REASON: Kirby's 4.04 ERA understates his true quality — his 3.45 xERA is better than Peralta's 3.68 xERA, meaning the pitcher the market prices as the weaker arm is actually stronger on underlying metrics. SEA is 8-2 last10 with +30 run differential against NYM's 12-20 away record and 4.0 RS/G. NYM's bullpen is critically compromised — Tong threw 83 pitches yesterday (effectively unavailable), Minter has pitched two consecutive days — while SEA's Muñoz is fresh. Opponent RS/G check: NYM scores 4.0 RS/G with -13 run differential, below the 4.8 concern threshold — Kirby's 3.45 xERA is adequate against this offense.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: SD @ PHI
+PICK: PHI -1.5
+PRICE: +104
+UNITS: 1
+EDGE: REAL
+REASON: Sánchez (1.46 ERA, 2.91 xERA, 86.1 IP) is one of the most validated pitchers on this entire slate — 86+ innings is a large sample, and even regressing to his 2.91 xERA he projects as a genuine ace. Buehler's 4.53 ERA with a confirming 4.72 xERA is a real underperformance reading across 57.2 IP. The extreme line move (SD drifting from +178 to +372 best-available) and the total collapsing from 7.5 to 5.5 are strong pre-game signals that SD's offensive capacity today is significantly below their season profile — this reinforces rather than creates the PHI -1.5 edge. SD scores 3.9 RS/G season-long; against Sánchez's 2.91 xERA, that offense is manageable. PHI -1.5 at plus money with an elite starter is structurally underpriced.
+LOOKED UP: Nothing, used provided data only. Extreme line/total movement treated as pre-game signal per data provided.
+
+---
+
+## GAME: BAL @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The line has moved to BAL +3300 / BOS -10000 at leading books with the total jumping from 9.0 to 10.5 — these are signals of a catastrophic change to BAL's pitching situation (likely a position player or emergency start). The median price in this prompt (-147 / +124) is clearly stale and does not reflect the current market. I cannot responsibly analyse this game at the given odds when the true market is more than 60 times more expensive for the home side. Reliable analysis requires knowing BAL's actual pitcher.
+LOOKED UP: Nothing, used provided data only. Extreme line movement treated as pre-game signal.
+
+---
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: CLE has moved from a +141 underdog to a -394 favourite (median) with best books showing CLE -300 and NYY +320 — a complete line inversion signalling NYY's starter Cole (listed at 18.0 IP small sample) has almost certainly been scratched. The total jumping from 7.5 to 9.5 confirms NYY is sending out a significantly worse pitching option. Without knowing NYY's replacement arm, I cannot build a reliable probability estimate for either side. The median odds are unreliable and no bet is justified.
+LOOKED UP: Nothing, used provided data only. Extreme line movement treated as pre-game signal.
+
+---
+
+## GAME: KC @ CIN
+PICK: CIN ML
+PRICE: -155
+UNITS: 1
+EDGE: REAL
+REASON: Burns (2.05 ERA, 2.89 xERA, 70.1 IP) is a legitimate ace in a large enough sample to trust — his xERA confirms real quality, not surface luck. KC is 23-38 with a -53 run differential scoring only 3.8 RS/G away — this is the weakest offensive profile on the slate. Opponent RS/G check: KC's 3.8 RS/G is well below the 4.8 concern threshold and their -53 run differential further confirms they are not a lineup that will challenge a 2.89 xERA pitcher. CIN's bullpen closer Pagán is fresh. At -155 (best -135 BetMGM), CIN's true win probability with Burns against this opponent is meaningfully above the implied 60.8%.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: TOR @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: ATL moved from -143 to -556 to -690 across books with TOR drifting from +125 to +430 to +475 — this is a complete market collapse on TOR's pitching situation. Corbin's listed 3.98 ERA masks a 5.28 xERA (genuinely bad), but the extreme line move suggests something beyond Corbin's own metrics has changed. Total jumping from 8.0 to 9.0 also confirms a higher-scoring game expected from TOR's side. Median pricing is stale and unreliable.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: SF @ MIL
+PICK: LEAN MIL
+PRICE: -150
+UNITS: LEAN
+EDGE: THIN
+REASON: MIL's team quality is real (37-21, +93 run diff, 7-3 last10, 21-11 at home) against a SF team that remains the worst on the slate (23-38, -67 run diff, 3-7 last10). Webb's 4.50/4.41 ERA/xERA confirms he's genuinely struggling; Gasser's 12.1 IP is unanalyzable. The total dropping from 8.0 to 4.5 is so extraordinary it introduces meaningful uncertainty about the game state (roof status, potential pitcher change) that prevents me from committing a unit, despite MIL's clear structural superiority. -150 for the best team against the worst team is close to fair pricing absent the anomalous total signal.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: TEX @ STL
+PICK: LEAN TEX
+PRICE: +110
+UNITS: LEAN
+EDGE: THIN
+REASON: Gore (3.98/3.98 ERA/xERA, exact match) and Pallante (4.13/3.87) are effectively peer starters, but TEX has moved from a slight favourite (-104) to an underdog (+110) without an obvious explanation — an unexplained drift away from a team is a caution flag I respect. At +110 TEX's case is real: STL's closer O'Brien is taxed on two consecutive days, STL's last10 is 3-7, and TEX is 6-4 last10 with better recent form. If the line moved purely on sharp action recognising STL's home edge, TEX at +110/+120 (best FanDuel) has legitimate value — but the unexplained move prevents a committed unit.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: ATH @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The line has completely inverted — ATH moved from +104 underdog to -165 favourite (median) with best prices at ATH -105 (BetMGM) and CHC +133 (BetRivers). The total jumped from 9.0 to 9.5. This signals CHC's Rea (5.14 xERA, genuinely poor) has likely been scratched. Without knowing CHC's replacement, a reliable probability estimate is impossible. Springs (3.87 xERA) is a decent enough arm that I cannot blindly back ATH at -165 against an unknown opposing pitcher.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: PIT @ HOU
+PICK: PIT ML
+PRICE: -134
+UNITS: 1
+EDGE: REAL
+REASON: Skenes (2.84 ERA, 2.28 xERA, 66.2 IP) is the best pitcher on this slate by xERA — his underlying metrics are actually better than his ERA, which is a rare and meaningful signal of genuine elite talent. Arrighetti (1.29 ERA, 4.69 xERA, 49.0 IP) is the sharpest regression candidate on the slate — a 3.40 ERA/xERA gap over 49 innings is extreme positive luck that can resolve at any time. PIT is 33-28, 7-3 last10, +35 run differential, and 5.1 RS/G, against HOU at 27-35, -37 run diff, and a heavily taxed bullpen (Abreu 32p, Blubaugh 23p, Okert 21p). Opponent RS/G check: HOU scores 4.5 RS/G against Skenes' 2.28 xERA — well below the 4.8 concern threshold, and HOU's -37 run diff further confirms a below-average offence. The line drifting FROM -155 to -134 is a caution flag that holds this to one unit rather than more, but the Skenes/Arrighetti xERA asymmetry is the most analytically clear pitcher-quality gap on this entire slate.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: COL @ LAA
+PICK: LEAN LAA
+PRICE: -145
+UNITS: LEAN
+EDGE: THIN
+REASON: Ureña (2.44 ERA, 3.31 xERA, 44.1 IP) holds a genuine pitching advantage over Lorenzen (7.22 ERA, 5.89 xERA, 57.1 IP) — Lorenzen's underlying metrics are as bad as his surface stats, making this a real gap rather than a sample anomaly. Both teams are equally terrible by record (COL 24-38, LAA 23-39), so the game turns almost entirely on pitching. What holds this to a lean: Aldegheri threw 89 pitches yesterday (effectively unavailable), removing LAA's best reliever from today's game, and the line has moved toward COL (LAA shortening from -162 to -145), suggesting the market has already partially priced in the bullpen risk.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: LAD @ AZ
+PICK: LAD -1.5
+PRICE: -115
+UNITS: 3
+EDGE: STRONG
+REASON: Ohtani (0.82 ERA, 2.40 xERA, 55.0 IP) is the single best-performing pitcher on this slate — his xERA is not only elite but his barrel rate (3.1%) and hard-hit rate (38.9%) confirm elite underlying contact suppression across a meaningful sample. Gallen (5.16 ERA, 5.21 xERA, 59.1 IP) is confirmed poor by both metrics across 59 innings — this is not a short-sample ERA; his xERA matches his ERA, making it a genuine performance reading. LAD is 39-22 with +127 run differential and 8-2 last10, scoring 5.3 RS/G; AZ is 32-28 with only +10 run differential. Opponent RS/G check: AZ scores 4.5 RS/G with +10 run diff — well below the 4.8 concern threshold — against Ohtani's 2.40 xERA, no reduction in unit rating justified. At 103.5°F Chase Field almost certainly closes its roof, creating a neutral pitching environment. The run line at -115 is the efficient entry — LAD's team profile at this price with this pitcher against this starter is the clearest structural mispricing on the slate.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## PARLAY
+LEG 1: PIT ML -134
+LEG 2: SEA ML -138
+COMBINED PRICE: +201
+TRUE PROBABILITY ESTIMATE: ~37% (PIT ~59% × SEA ~62%)
+UNITS: 1
+REASON: Both legs are independently derived from pitcher-quality edges — PIT from the Skenes/Arrighetti xERA discrepancy, SEA from Kirby's suppressed xERA and NYM's depleted bullpen. PIT is NL Central, SEA is AL West — no divisional overlap, no travel pattern correlation, and no weather link. At +201 the implied probability is 33.2% against my true estimate of approximately 37%, producing meaningful parlay edge built entirely from bets I would make individually.
+
+---
+
+## SLATE SUMMARY
+BEST BET: LAD -1.5 -115, Game 15, 3 units
+WHY THIS ONE: No other game on this slate combines the best-projected pitcher (Ohtani, 2.40 xERA) against one of the most confirmed poor starters (Gallen, 5.21 xERA confirmed across 59 IP), the best team by every metric (39-22, +127 run diff, 5.3 RS/G, 8-2 last10), and near-even-money pricing on the run line — getting -115 to back this team to win by two or more is where the gap between price and edge is widest.

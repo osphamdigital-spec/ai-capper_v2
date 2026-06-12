@@ -1,0 +1,91 @@
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Kelly's xERA (7.26) and L14 xFIP (5.94) are severe regression signals but MIA's entire high-leverage bullpen is unavailable (0/3 fresh), neutralising the SP edge. MIA ML -112 implies 52.8% — my estimate is 51%, gap of -1.8 pts toward AZ. AZ ML -104 implies 50.5%, my AZ estimate 49%. Neither side clears 4 pts.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: LEAN: MIN
+PRICE: +111
+UNITS: LEAN
+EDGE: 1.6 pts
+TOTAL LEAN: Over
+REASON: MIN ML +111 implies 47.4%; I estimate MIN win probability at 49% given their fully rested 3/3 bullpen versus DET's sole setup arm unavailable. Gap of 1.6 pts is real but below the 4-pt gate — LEAN only. Total estimate 9.6 runs versus posted 9.0 supports Over lean; both offences average above 4.5 RS/G L10 and neither starter has been reliable recently.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: NYM -143 implies 58.8% — above my 56% estimate, no edge on NYM. STL +122 implies 45.0% versus my 44% estimate, gap of 1 pt, no edge either side. Under lean: both pens fully rested and elite (STL 3.83, NYM 2.95) plus Scott's K-upside suppresses run environment below the 9.0 line, though single-factor lean only.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Total prices flagged stale on both sides — unconfirmed inputs disqualify a total bet despite my run estimate of 9.0 sitting a full run below the posted 10.0. TEX ML +102 implies 49.5%, my estimate 50%, gap under 1 pt. KC pen ERA of 22.25 is almost certainly a small-sample data artefact and cannot be treated as a reliable input.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Total prices flagged stale on both sides. Coors run factor of 130 means Under bets carry extreme variance per system rules regardless of estimate. CHC ML -153 implies 60.5% — my CHC win estimate is 60%, gap of -0.5 pts, no edge. CHC L10 RS of 3.1 is an additional concern for a cold offence at altitude.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: LEAN: LAD
+PRICE: -156
+UNITS: LEAN
+EDGE: 2.1 pts
+TOTAL LEAN: Over
+REASON: My LAD win estimate is 63%, implied at -156 is 60.9%, gap of 2.1 pts — below the 4-pt gate. Wrobleski's L14 xFIP 2.33 is elite but he is LHP facing a PIT lineup that hits lefties at wRC+ 158, limiting ceiling. Total estimate 10.2 runs pre-wind; 17 mph SW wind at PNC adds approximately 0.4 runs to ~10.6 versus posted 9.5 — Over lean supported by wind and two taxed PIT pen arms.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: SEA ML
+PRICE: -107
+UNITS: 1
+EDGE: 5.3 pts
+TOTAL LEAN: Over
+REASON: Woo is pitching at an elite level (L14 xFIP 1.79, xERA 2.91, FIP 2.96, 0 BB last 13.1 IP) while Bradish walks 4.9 per 9 recently and BAL pen sits at 6.06 ERA. Raw SEA win probability 59%, implied at -107 is 51.7%, raw gap 7.3 pts. Bullpen fatigue adjustment: Ferrer taxed (43p Tuesday), game total 8.5 and ML within -140/+120 range triggers rule, closer Muñoz fresh — applying -2 pt adjustment for one taxed arm, adjusted gap 5.3 pts, 1 unit. Total estimate ~9.95 versus posted 8.5; Over lean supported by BAL pen liability (+0.3), park HR factor 115 (+0.3), and Bradish command regression.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: CHW starter listed TBD — hard pass per TBD Starter Rule. No edge calculation is valid with a key pitching input unknown. 27% rain and thunderstorm risk adds postponement exposure.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

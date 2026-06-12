@@ -1,0 +1,3152 @@
+POST-MORTEM REVIEW
+══════════════════════════════════════════════════════════════════
+
+MODEL: [write your model name here — e.g. Claude Sonnet, ChatGPT-4o, Gemini 1.5 Pro]
+SLATE: MLB — [date will be filled by operator]
+REVIEW TYPE: Post-game analysis — pre-game reasoning only
+
+══════════════════════════════════════════════════════════════════
+
+ANTI-HINDSIGHT RULES
+
+DO NOT reference events that occurred during the game.
+DO NOT say things like:
+  - bullpen collapsed in the 7th
+  - offense went cold after the 3rd
+  - lucky home run changed the game
+
+You MAY reference what happened ONLY to classify whether your
+pre-game process was sound. The question is always:
+  "Did I have the right information and reason correctly from it?"
+  Not: "What happened in the game?"
+
+IMPORTANT: You may only classify a loss as CORRECT PROCESS,
+BAD VARIANCE if you can name the specific pre-game data point
+that justified the bet AND confirm it was accurate at pick time.
+If you cannot do this, you must choose an evaluation error
+category. Defaulting to bad variance without evidence is a
+failure of this review.
+
+══════════════════════════════════════════════════════════════════
+
+ORIGINAL ANALYSIS
+
+[YOUR ORIGINAL RESPONSE IS ABOVE IN THIS CONVERSATION]
+
+══════════════════════════════════════════════════════════════════
+
+FINAL RESULTS
+
+DET 8 @ TB 0
+SD 2 @ PHI 3
+BAL 4 @ BOS 2
+MIA 7 @ WSH 3
+CLE 9 @ NYY 4
+KC 2 @ CIN 4
+TOR 3 @ ATL 4
+CHW 4 @ MIN 6
+SF 3 @ MIL 8
+TEX 7 @ STL 4
+ATH 2 @ CHC 1
+PIT 10 @ HOU 6
+COL 8 @ LAA 2
+SEA 3 @ NYM 8
+AZ 5 @ LAD 6
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET:
+[from your SLATE SUMMARY above]
+
+RESULT: WIN / LOSS
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES / NO
+
+IF NO —
+  NEW BEST BET:
+
+  WHY:
+  [State the specific pre-game reason this game had more
+  edge than your original pick]
+
+  SOURCE:
+  [What pre-game data source supports this — e.g. pitcher
+  ERA from Baseball Savant, line movement from Covers,
+  team form from standings, weather from Open-Meteo]
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 2 — FULL SLATE REVIEW
+
+Review EVERY game on the slate — not just games you bet.
+
+PART A covers games you bet (full process review).
+PART B covers games you passed or leaned (missed edge review).
+
+---
+
+PART A — GAMES YOU BET
+Complete one block per bet. Include parlays as a single block.
+If you made no bets write: NO BETS PLACED — go to Part B.
+
+GAME:
+ORIGINAL PICK:
+RESULT: WIN / LOSS / PUSH
+
+GRADE: A / B / C / D / F
+
+PROCESS ASSESSMENT — choose the single most accurate:
+  CORRECT PROCESS, BAD VARIANCE
+  CORRECT PROCESS, FAIR RESULT
+  INCORRECT PITCHING EVALUATION
+  INCORRECT TEAM STRENGTH EVALUATION
+  MISREAD MARKET PRICE
+  OVERWEIGHTED RECENT FORM
+  UNDERWEIGHTED RECENT FORM
+  SMALL SAMPLE SIZE TRAP
+  MISSED BULLPEN FACTOR
+  MISSED LINEUP FACTOR
+  MISSED INJURY FACTOR
+  MISSED WEATHER FACTOR
+  OTHER: [specify]
+
+WOULD YOU MAKE THIS BET AGAIN?
+  YES / NO / LOWER STAKE / HIGHER STAKE
+
+WHY:
+[One sentence — state the specific pre-game data point
+that most influenced this bet and whether it was correct]
+
+SOURCE:
+[Where did that data point come from — or where should
+it have come from if you assumed it from memory]
+
+---
+
+[Repeat Part A block for each bet]
+
+---
+
+PART B — GAMES YOU PASSED OR LEANED
+Review every game you did not bet.
+The question is not whether you were right to pass.
+The question is: was there pre-game edge you could have
+identified but missed? A correct pass is worth noting too.
+
+GAME:
+YOUR CALL: PASS / LEAN
+FINAL RESULT: [brief — e.g. HOME won 7-2, blowout]
+
+WAS THIS THE RIGHT CALL? YES / NO / UNCLEAR
+
+IF NO OR UNCLEAR —
+  WHAT DID YOU MISS:
+  [Maximum 2 sentences. Only pre-game information.]
+
+  SOURCE:
+  [Where was this information available before first pitch]
+
+  WOULD THIS HAVE BECOME A BET? YES / NO / MAYBE
+
+---
+
+[Repeat Part B block for every passed or leaned game]
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 3 — IMPROVEMENT REQUESTS
+
+List ONLY items that would have materially changed a pre-game
+decision. Maximum 5 items. Quality over quantity.
+Return NONE if nothing qualifies.
+
+---
+
+TYPE: DATA / STAT / SOURCE / PROMPT
+
+ITEM:
+
+AVAILABLE BEFORE FIRST PITCH? YES / NO
+
+SOURCE:
+[Specific URL, API, or publication where this was available]
+
+WHICH GAME(S):
+
+WOULD HAVE CHANGED A BET? YES / NO / MAYBE
+
+WOULD HAVE CHANGED BEST BET? YES / NO / MAYBE
+
+WHY:
+[One sentence — the specific mechanism by which this
+information would have changed the analysis]
+
+EXPECTED IMPACT: HIGH / MEDIUM / LOW
+
+---
+
+[Repeat block for each item, maximum 5]
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 4 — TOP 3 IMPROVEMENTS
+
+Rank only the three highest-value improvements from Section 3.
+If fewer than 3 qualify, list only those that do.
+Return NONE if nothing qualifies.
+
+RANK 1
+  TYPE:
+  ITEM:
+  WHY:
+  SOURCE WHERE THIS IS AVAILABLE:
+  EXPECTED ROI IMPROVEMENT: HIGH / MEDIUM / LOW
+
+RANK 2
+  TYPE:
+  ITEM:
+  WHY:
+  SOURCE WHERE THIS IS AVAILABLE:
+  EXPECTED ROI IMPROVEMENT: HIGH / MEDIUM / LOW
+
+RANK 3
+  TYPE:
+  ITEM:
+  WHY:
+  SOURCE WHERE THIS IS AVAILABLE:
+  EXPECTED ROI IMPROVEMENT: HIGH / MEDIUM / LOW
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 5 — MASTER PROMPT CANDIDATE
+
+Nominate ONE item only — the single addition most worth
+adding to the standard data prompt used for every model.
+Return NONE if nothing qualifies.
+
+This should be a data or source addition that every model
+would benefit from. Reasoning instructions belong in Section 6.
+
+TYPE: DATA / STAT / SOURCE / PROMPT
+
+ITEM:
+
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT:
+[One sentence — the specific analytical gap it closes]
+
+SOURCE WHERE THIS IS AVAILABLE:
+[Specific URL, API, or free data source]
+
+WOULD HAVE CHANGED A BET? YES / NO
+
+WOULD HAVE CHANGED BEST BET? YES / NO
+
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES / NO
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+This is the most important section.
+
+Do NOT request more data or statistics here.
+
+This section asks one question only:
+How should the prompt instruct YOU specifically to reason
+better next time?
+
+Your instruction must be:
+  - Specific to your model and reasoning style
+  - A reasoning process improvement, not a data request
+  - Written as a direct instruction ready to add to your
+    future prompts verbatim
+  - Honest about a genuine weakness this slate revealed
+
+Examples of the kind of instruction this section produces:
+
+  Claude:
+  "Before assigning 3 or more units, explicitly state the
+  market's strongest argument against your position and
+  explain in one sentence why it does not change your rating."
+
+  ChatGPT_xxx:
+  "Estimate a fair moneyline before looking at the market
+  price to prevent anchoring bias."
+
+  Gemini:
+  "Separate prediction confidence from betting edge
+  confidence — a likely winner is not necessarily a good bet."
+
+  Grok:
+  "Treat line movement as secondary evidence only. Never use
+  it as the primary justification for a pick."
+
+Return NONE if you have no genuine instruction to offer.
+
+---
+
+MODEL: [your model name]
+
+REASONING WEAKNESS IDENTIFIED:
+[One sentence — the specific thinking error or bias this
+slate revealed in your analysis]
+
+PROPOSED PROMPT INSTRUCTION:
+[Write this exactly as it should appear in the prompt,
+ready to copy and paste]
+
+WHY THIS ADDRESSES THE WEAKNESS:
+[One sentence]
+
+SOURCE OF THIS INSIGHT:
+[Which bet or pass revealed this weakness — be specific]
+
+EXPECTED IMPACT: HIGH / MEDIUM / LOW
+
+══════════════════════════════════════════════════════════════════
+
+IMPORTANT
+
+Do not create suggestions simply to fill space.
+Return NONE for any section where nothing genuinely qualifies.
+Only recommend items you believe would have improved your
+pre-game decision making on this specific slate.
+One high-quality insight per section beats a long list.
+
+══════════════════════════════════════════════════════════════════
+
+MODEL: Claude (Opus 4.8)
+SLATE: MLB — Tuesday, June 2 2026
+REVIEW TYPE: Post-game analysis — pre-game reasoning only
+
+**Record:** 3 wins (ATL, MIL -1.5, PIT), 3 losses (SD, CHW 3u, parlay). Net ≈ **-2.0 units**, almost entirely from the 3-unit best bet. The win rate was 50%, but the staking was upside-down — my single largest stake was my worst-reasoned play.
+
+══════════════════════════════════════════════════════════════════
+
+## SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: CHW ML -121, 3 units
+
+RESULT: **LOSS** (CHW 4 @ MIN 6)
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? **NO**
+
+NEW BEST BET: **PIT ML +100, would now stake 1–2 units**
+
+WHY: PIT vs HOU was a 64-run differential gap (+31 vs -33) priced at pick'em. That is a structural team-quality edge that does not depend on trusting a single starter's surface line. CHW required Davis Martin's ERA edge to deliver while I laid -121 — and the -121 price itself was the market telling me there was no "strong" mismatch to bet 3 units on. Getting the clearly better team at even money is a more robust pre-game edge than laying juice on a starter-ERA read.
+
+SOURCE: Run differential and records from the team-form block in the prompt; both starter ERAs (Chandler 4.89, Burrows 5.66) confirm the game was team-driven, not pitching-driven.
+
+══════════════════════════════════════════════════════════════════
+
+## SECTION 2 — FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: SD @ PHI
+ORIGINAL PICK: SD ML +113 (1u)
+RESULT: LOSS
+GRADE: B
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Vásquez's 3.31 ERA / 1.22 WHIP vs Nola's 5.55 was accurate at pick time and the better side won the matchup on paper; a 2-3 one-run loss is variance, not a read error.
+SOURCE: Starter lines from the prompt data block.
+
+---
+
+GAME: TOR @ ATL
+ORIGINAL PICK: ATL ML -128 (1u)
+RESULT: WIN
+GRADE: B
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: ATL's +110 run differential and 41-20 record vs a sub-.500 road team justified -128; the one-run final reflects that I correctly priced it as a real but not enormous edge (1u, not 3).
+SOURCE: Team-form block.
+
+---
+
+GAME: CHW @ MIN
+ORIGINAL PICK: CHW ML -121 (3u) — BEST BET
+RESULT: LOSS
+GRADE: D
+PROCESS ASSESSMENT: MISREAD MARKET PRICE
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+WHY: I leaned on Martin's 8-1 record and 2.61 ERA to assign 3 units, but the market's -121 — barely a favourite — was direct evidence the mismatch I perceived was not there; I bet against the price instead of reconciling with it.
+SOURCE: Starter line and ML price from the prompt; the -121 was the contradicting signal I underweighted.
+
+---
+
+GAME: SF @ MIL
+ORIGINAL PICK: MIL -1.5 +118 (1u)
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Harrison's 1.57 ERA plus MIL's +88 home run differential vs a -62 SF club justified backing a heavy favourite via plus-money run line; the 8-3 result fit the read.
+SOURCE: Starter and run-differential data from the prompt.
+
+---
+
+GAME: PIT @ HOU
+ORIGINAL PICK: PIT ML +100 (1u)
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? HIGHER STAKE
+WHY: A 64-run differential gap priced at even money was the cleanest structural edge on the board and should have been my best bet, not a 1-unit afterthought.
+SOURCE: Run differential from team-form block; both starter ERAs confirm a team-driven game.
+
+---
+
+GAME: PARLAY (SD ML + CHW ML, +289, 1u)
+ORIGINAL PICK: 2-leg ML parlay
+RESULT: LOSS
+GRADE: D
+PROCESS ASSESSMENT: OTHER — compounded a flawed leg
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: The CHW leg was the same over-rated read as my best bet, so the parlay multiplied my single worst pre-game judgment rather than combining two independent strong edges.
+SOURCE: Same starter/price data; the flaw was structural, not a data gap.
+
+---
+
+### PART B — GAMES YOU PASSED OR LEANED
+
+GAME: DET @ TB
+YOUR CALL: LEAN (TB ML)
+FINAL RESULT: DET won 8-0, blowout
+WAS THIS THE RIGHT CALL? YES
+(Correctly stayed off a -142 favourite where I said the price already ate the edge.)
+
+---
+
+GAME: BAL @ BOS
+YOUR CALL: LEAN (BAL ML +113)
+FINAL RESULT: BAL won 4-2
+WAS THIS THE RIGHT CALL? UNCLEAR
+WHAT DID YOU MISS: BOS at 9-20 home laying -133 was a fade I identified but talked myself out of over Early's ERA; the home-record signal deserved more weight than the starter line.
+SOURCE: Home/away splits in the team-form block.
+WOULD THIS HAVE BECOME A BET? MAYBE (1u dog)
+
+---
+
+GAME: MIA @ WAS
+YOUR CALL: PASS
+FINAL RESULT: MIA won 7-3
+WAS THIS THE RIGHT CALL? YES
+(Genuine pick'em with unstable small-sample arms; no identifiable pre-game edge.)
+
+---
+
+GAME: CLE @ NYY
+YOUR CALL: LEAN (Under 7.5)
+FINAL RESULT: 13 total runs, Over
+WAS THIS THE RIGHT CALL? YES
+(Correctly only a lean — backing an under behind one dominant arm vs a 5.2 RS/G offence carried obvious blow-up risk I flagged.)
+
+---
+
+GAME: KC @ CIN
+YOUR CALL: LEAN (CIN ML)
+FINAL RESULT: CIN won 4-2
+WAS THIS THE RIGHT CALL? YES
+(Right side, correctly unbet — CIN's own -39 differential made -126 fair, not a value.)
+
+---
+
+GAME: TEX @ STL
+YOUR CALL: LEAN (TEX ML)
+FINAL RESULT: TEX won 7-4
+WAS THIS THE RIGHT CALL? UNCLEAR
+WHAT DID YOU MISS: TEX had both the better starter (Eovaldi 3.86 vs May 4.59) and better run prevention while priced at only -113; that combination was closer to a 1-unit play than a lean.
+SOURCE: Starter lines and RA/G from the prompt.
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: ATH @ CHC
+YOUR CALL: PASS
+FINAL RESULT: ATH won 2-1
+WAS THIS THE RIGHT CALL? YES
+(Jump's 11-IP sample and Taillon's struggles left no clean side; correct pass.)
+
+---
+
+GAME: COL @ LAA
+YOUR CALL: LEAN (COL ML +135)
+FINAL RESULT: COL won 8-2
+WAS THIS THE RIGHT CALL? UNCLEAR
+WHAT DID YOU MISS: I identified the genuine starter edge (Sugano 4.01 vs Rodriguez 7.04) and a soft -159 price on a .377 team, then let COL's road record veto a play that the pitching and price supported.
+SOURCE: Starter lines and ML price from the prompt.
+WOULD THIS HAVE BECOME A BET? MAYBE (1u dog)
+
+---
+
+GAME: LAD @ AZ
+YOUR CALL: LEAN (AZ ML +104)
+FINAL RESULT: LAD won 6-5
+WAS THIS THE RIGHT CALL? YES
+(One-run game; correctly identified as a coin-flip not worth a stake despite the starter gap.)
+
+---
+
+GAME: NYM @ SEA
+YOUR CALL: LEAN (SEA ML -150)
+FINAL RESULT: NYM won 8-3
+WAS THIS THE RIGHT CALL? YES
+(Called -150 roughly fair with no edge to attack; correctly stayed off.)
+
+══════════════════════════════════════════════════════════════════
+
+## SECTION 3 — IMPROVEMENT REQUESTS
+
+---
+
+TYPE: DATA
+ITEM: Bullpen rest / usage over the prior 3 days (relievers used, pitches thrown, back-to-back appearances)
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: FanGraphs bullpen usage / RotoWire bullpen reports; MLB Stathead game logs
+WHICH GAME(S): PIT@HOU, KC@CIN, MIA@WAS — all weak-starter games decided by relief depth
+WOULD HAVE CHANGED A BET? MAYBE
+WOULD HAVE CHANGED BEST BET? MAYBE
+WHY: In games where both starters have 4.80+ ERAs, the bullpen is the deciding unit and I was betting team quality blind to it.
+EXPECTED IMPACT: MEDIUM
+
+---
+
+TYPE: STAT
+ITEM: Pitcher FIP / xERA alongside ERA
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: Baseball Savant / FanGraphs
+WHICH GAME(S): CHW@MIN, CLE@NYY — places where I trusted ERA and W-L as quality signals
+WOULD HAVE CHANGED A BET? MAYBE
+WOULD HAVE CHANGED BEST BET? YES
+WHY: A FIP near Martin's 2.61 ERA would have confirmed the edge; a FIP well above it would have warned me the 3-unit stake was built on an unsustainable surface number.
+EXPECTED IMPACT: MEDIUM
+
+══════════════════════════════════════════════════════════════════
+
+## SECTION 4 — TOP 3 IMPROVEMENTS
+
+RANK 1
+  TYPE: STAT
+  ITEM: Pitcher FIP / xERA next to ERA
+  WHY: My best-bet error came from treating ERA and W-L as bankable quality; an underlying-skill number is the direct check on that.
+  SOURCE WHERE THIS IS AVAILABLE: Baseball Savant / FanGraphs
+  EXPECTED ROI IMPROVEMENT: MEDIUM
+
+RANK 2
+  TYPE: DATA
+  ITEM: Bullpen rest / usage (last 3 days)
+  WHY: Several slate games hinged on relief corps I had no visibility into.
+  SOURCE WHERE THIS IS AVAILABLE: FanGraphs / RotoWire bullpen reports
+  EXPECTED ROI IMPROVEMENT: MEDIUM
+
+RANK 3
+  TYPE: NONE beyond the above qualifies — the rest of this slate's errors were reasoning, not data.
+
+══════════════════════════════════════════════════════════════════
+
+## SECTION 5 — MASTER PROMPT CANDIDATE
+
+TYPE: STAT
+ITEM: Starting pitcher FIP (or xERA) displayed alongside ERA, WHIP, and W-L
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: It closes the gap that lets a model over-stake on an ERA/W-L line that underlying skill metrics do not support — the exact failure on this slate's 3-unit play.
+SOURCE WHERE THIS IS AVAILABLE: Baseball Savant (public, free) / FanGraphs
+WOULD HAVE CHANGED A BET? YES
+WOULD HAVE CHANGED BEST BET? YES
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES
+
+══════════════════════════════════════════════════════════════════
+
+## SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: Claude (Opus 4.8)
+
+REASONING WEAKNESS IDENTIFIED: I assigned my heaviest stake (3 units on CHW -121) by building up a narrative from starter ERA and W-L record, then bet against the market price instead of treating that price as evidence — the modest -121 was telling me the mismatch I "saw" was not there.
+
+PROPOSED PROMPT INSTRUCTION:
+"Before assigning 3 or more units, convert the offered price into its implied probability and state your own win-probability estimate as a number. Name the single strongest reason the market has priced the game where it has. If your estimate does not exceed the implied probability by a clear margin, OR if the market price does not reflect the mismatch your reasoning describes, treat that gap as evidence against your read and lower the stake to 1 unit or pass. Do not let a starter's ERA or win-loss record override what the price is telling you."
+
+WHY THIS ADDRESSES THE WEAKNESS: It forces an explicit price-vs-estimate reconciliation at exactly the staking threshold where my narrative-building did the most damage, and demotes W-L/ERA from bet-sizing inputs to mere context.
+
+SOURCE OF THIS INSIGHT: The CHW -121 best bet (and the parlay leg that repeated it) — a 3-unit stake placed against a price that contradicted the size of the edge I claimed.
+
+EXPECTED IMPACT: HIGH
+
+══════════════════════════════════════════════════════════════════
+
+MODEL: Claude Sonnet 4.6
+SLATE: MLB — June 2, 2026
+REVIEW TYPE: Post-game analysis — pre-game reasoning only
+
+---
+
+SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: MIL -1.5 +118 — 3 units
+
+RESULT: WIN (MIL 8, SF 3 — covers by 5 runs)
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+
+Every structural element held: Harrison's 1.57 ERA, MIL's dominant team profile, SF's poor road record and run differential, and plus money on the run line. The convergence of every variable at a mispriced number was the correct structural anchor for this slate and the outcome reflected it cleanly.
+
+---
+
+SECTION 2 — FULL SLATE REVIEW
+
+PART A — GAMES BET
+
+---
+
+GAME: SD @ PHI
+ORIGINAL PICK: SD ML +113
+RESULT: LOSS (PHI 3, SD 2)
+
+GRADE: B
+
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: Vásquez's 3.31 ERA over 65.1 IP versus Nola's 5.55 ERA over 61.2 IP was a genuine, well-sampled pitching edge at pick time — a 3-2 loss in a close game is within normal variance on a correctly-constructed bet.
+
+SOURCE: Starting pitcher ERA and IP from prompt data (TheOddsAPI feed, June 2 2026).
+
+---
+
+GAME: CLE @ NYY
+ORIGINAL PICK: NYY -1.5 -102
+RESULT: LOSS (CLE 9, NYY 4)
+
+GRADE: C
+
+PROCESS ASSESSMENT: MISSED BULLPEN FACTOR
+
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+
+WHY: Schlittler's 1.89 ERA over 76.1 IP was accurate and genuine pre-game, but I bet a -1.5 run line without any data on what happens when an elite starter exits — CLE's 4.1 RS/G offense against an unmodelled NYY bullpen was a structural gap the run line cannot survive.
+
+SOURCE: Pitcher ERA/IP from prompt data; bullpen rest and ERA was absent from prompt and should have been flagged as a gap before committing to a run-line bet specifically.
+
+---
+
+GAME: TOR @ ATL
+ORIGINAL PICK: ATL ML -128
+RESULT: WIN (ATL 4, TOR 3)
+
+GRADE: A
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: Elder's 2.63 ERA over 78.2 IP combined with ATL's 41-20 record and +110 run differential — the largest team quality gap on the slate — were both accurate and primary drivers of the bet.
+
+SOURCE: Starting pitcher ERA/IP and team standings from prompt data.
+
+---
+
+GAME: CHW @ MIN
+ORIGINAL PICK: CHW ML -121
+RESULT: LOSS (MIN 6, CHW 4)
+
+GRADE: C
+
+PROCESS ASSESSMENT: MISSED BULLPEN FACTOR
+
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+
+WHY: Martin's 2.61 ERA over 72.1 IP was validated pre-game data, but MIN's 4.7 RS/G home offense against an unmodelled CHW bullpen — in an away context where Martin would not pitch deep into extra innings — was a material risk I priced as zero.
+
+SOURCE: Pitcher ERA/IP from prompt data; CHW bullpen rest/ERA unavailable in prompt.
+
+---
+
+GAME: SF @ MIL
+ORIGINAL PICK: MIL -1.5 +118
+RESULT: WIN (MIL 8, SF 3)
+
+GRADE: A
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES / HIGHER STAKE if the same structural mispricing presents
+
+WHY: Harrison's 1.57 ERA, MIL's +88 run differential, SF's -62 run differential and 3-7 last 10, plus plus-money on the run line for a dominant home team — every data point was accurate and the outcome reflected all of them.
+
+SOURCE: Pitcher ERA/IP, team standings, run differential, home record from prompt data.
+
+---
+
+GAME: LAD @ AZ
+ORIGINAL PICK: AZ ML +104
+RESULT: LOSS (LAD 6, AZ 5)
+
+GRADE: C
+
+PROCESS ASSESSMENT: INCORRECT TEAM STRENGTH EVALUATION
+
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+
+WHY: I correctly identified Soroka's pitching edge over Lauer, but I underweighted LAD's 5.2 RS/G and +126 run differential — the most offensively dominant profile on the slate — which made a 6-run output against a 3.23 ERA pitcher entirely plausible rather than surprising.
+
+SOURCE: LAD's RS/G and run differential were both in the prompt data and were noted but not used to reduce my confidence in the AZ pitching advantage.
+
+---
+
+GAME: PIT @ HOU
+ORIGINAL PICK: PIT ML +100
+RESULT: WIN (PIT 10, HOU 6)
+
+GRADE: A
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: PIT's team quality advantage (32-28 and +31 run diff versus HOU's 27-34 and -33 run diff) and Burrows' 5.66 ERA over 68.1 IP were both accurate pre-game data points, and even money for the better-constructed team was a genuine structural edge.
+
+SOURCE: Team standings, run differential, and pitcher ERA from prompt data.
+
+---
+
+GAME: PARLAY — SD ML + ATL ML
+RESULT: LOSS (SD lost, ATL won — one leg failed)
+
+GRADE: C
+
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+
+WOULD YOU MAKE THIS BET AGAIN? YES / LOWER STAKE
+
+WHY: Both legs were independently derived from pitching matchup edges in different divisions with no structural correlation, and one leg won — the parlay failed on SD's loss which was itself a correctly-constructed value bet that lost to variance, not a reasoning error.
+
+SOURCE: Pitcher ERA/IP and team records from prompt data for both legs.
+
+---
+
+PART B — GAMES PASSED OR LEANED
+
+---
+
+GAME: DET @ TB
+YOUR CALL: PASS
+FINAL RESULT: DET won 8-0
+
+WAS THIS THE RIGHT CALL? UNCLEAR
+
+WHAT DID YOU MISS: Both starters were equally bad (Flaherty 5.31, Matz 5.48), which creates an even pitching environment rather than no edge — an equal pitching matchup where the underdog is receiving sharp line movement (+120 to +129) is worth considering as a value play, not just skipping entirely.
+
+SOURCE: Pitcher ERA comparisons and line movement data both present in the prompt.
+
+WOULD THIS HAVE BECOME A BET? MAYBE — bullpen data for both teams and confirmation of DET's lineup would have been needed to commit.
+
+---
+
+GAME: MIA @ WAS
+YOUR CALL: PASS
+FINAL RESULT: MIA won 7-3
+
+WAS THIS THE RIGHT CALL? YES
+
+Both starters had samples of 31.1 IP and 26.0 IP — genuinely unanalyzable. The pass was correct and nothing in the pre-game data would have justified a confident bet.
+
+---
+
+GAME: BAL @ BOS
+YOUR CALL: LEAN BAL
+FINAL RESULT: BAL won 4-2
+
+WAS THIS THE RIGHT CALL? UNCLEAR
+
+WHAT DID YOU MISS: I correctly identified BOS's 9-20 home record and BAL's 7-3 last 10 but classified the result as a lean rather than a bet — a team that is 9-20 at home is legitimately below the home-field-advantage assumption the market prices in, and at +113/+123 available that gap was probably worth 1 unit.
+
+SOURCE: Team home records and last-10 form from standings data in the prompt.
+
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+GAME: KC @ CIN
+YOUR CALL: PASS
+FINAL RESULT: CIN won 4-2
+
+WAS THIS THE RIGHT CALL? YES
+
+Cameron (4.22 ERA, 59.2 IP) and Abbott (4.06 ERA, 68.2 IP) are effectively identical starters with comparable samples. CIN won as expected. Nothing to identify here.
+
+---
+
+GAME: ATH @ CHC
+YOUR CALL: PASS
+FINAL RESULT: ATH won 2-1
+
+WAS THIS THE RIGHT CALL? UNCLEAR
+
+WHAT DID YOU MISS: Jump's 11.0 IP sample was legitimately unanalyzable, but Taillon's 5.13 ERA over 66.2 IP was a real signal against the home team that I noted and then dismissed — ATH at +104/+110 against a struggling home starter at a neutral pitching matchup deserved a lean at minimum rather than a clean pass.
+
+SOURCE: Taillon ERA/IP and ATH best available price from prompt data.
+
+WOULD THIS HAVE BECOME A BET? MAYBE — the asymmetric information on Jump would have capped this at a lean or 1-unit maximum.
+
+---
+
+GAME: TEX @ STL
+YOUR CALL: LEAN TEX
+FINAL RESULT: TEX won 7-4
+
+WAS THIS THE RIGHT CALL? UNCLEAR
+
+WHAT DID YOU MISS: Eovaldi's genuine ERA advantage (3.86 over 74.2 IP versus May's 4.59 over 66.2 IP) combined with STL's cold 3-7 last 10 form and TEX available at -110 (BetOnline) was a real 1-unit play — I applied an excessive home-field discount to a cold home team with the inferior starter.
+
+SOURCE: Team last-10 form, pitcher ERA, and best available price all present in prompt data.
+
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+GAME: COL @ LAA
+YOUR CALL: LEAN COL
+FINAL RESULT: COL won 8-2
+
+WAS THIS THE RIGHT CALL? NO
+
+WHAT DID YOU MISS: Rodriguez's 7.04 ERA in 15.1 IP was the most extreme pitcher vulnerability on the entire slate, and both teams were equally bad (23-38 each) — when two equally-terrible teams play and one has a massive same-day pitching edge at plus money (+135/+141), the season run differential should not override a game-specific advantage that severe.
+
+SOURCE: Pitcher ERA/IP, team records, and best available odds all present in prompt data — all information needed to bet this was available.
+
+WOULD THIS HAVE BECOME A BET? YES — this was a missed 1-unit play, possibly 2 units.
+
+---
+
+GAME: NYM @ SEA
+YOUR CALL: LEAN SEA
+FINAL RESULT: NYM won 8-3
+
+WAS THIS THE RIGHT CALL? NO
+
+WHAT DID YOU MISS: I leaned SEA because of their 8-2 last 10 and correctly flagged -150 as overpriced, but I failed to flip to NYM at +130 (FanDuel) — Brazobán's 1.86 ERA is an extraordinary surface number even in 29.0 IP, and getting +130 on the team with the lower ERA starter against an overpriced favourite is exactly the plus-money value the prompt instructs me to pursue.
+
+SOURCE: Pitcher ERA/IP and best available odds in the prompt.
+
+WOULD THIS HAVE BECOME A BET? MAYBE — a 1-unit NYM ML at +130 was the correct lean direction given the pricing asymmetry, even acknowledging Brazobán's sample size.
+
+---
+
+SECTION 3 — IMPROVEMENT REQUESTS
+
+TYPE: DATA
+
+ITEM: Bullpen recent usage and ERA — for each team, last 3-day appearance count per key reliever, current season bullpen ERA, and closer availability
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: FanGraphs team bullpen page (fangraphs.com/teams/[team]/), Baseball Reference team relief logs, Covers.com individual game matchup pages
+
+WHICH GAME(S): CLE @ NYY (Game 5), CHW @ MIN (Game 8)
+
+WOULD HAVE CHANGED A BET? YES
+
+WOULD HAVE CHANGED BEST BET? NO
+
+WHY: Two of four single-game losses involved a strong starting pitcher edge that failed to convert — both cases hinge on what happens after the starter exits, and bullpen rest and ERA directly model that risk.
+
+EXPECTED IMPACT: HIGH
+
+---
+
+TYPE: STAT
+
+ITEM: Pitcher's last 3 starts — IP, ER, and rolling ERA over those starts
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: Baseball Reference pitcher game logs (baseball-reference.com/players/), Baseball Savant recent pitching data (baseballsavant.mlb.com)
+
+WHICH GAME(S): CLE @ NYY (Schlittler), CHW @ MIN (Martin), LAD @ AZ (Soroka)
+
+WOULD HAVE CHANGED A BET? MAYBE
+
+WOULD HAVE CHANGED BEST BET? NO
+
+WHY: Season ERA reveals a pitcher's true talent level, but last-3-starts ERA reveals whether they are currently sustaining that level or trending toward regression — a Schlittler or Martin on a declining micro-trend would have lowered my confidence in a -1.5 commitment.
+
+EXPECTED IMPACT: MEDIUM
+
+---
+
+TYPE: DATA
+
+ITEM: Confirmed game-time roof status for all retractable-roof stadiums (Chase Field, Minute Maid, American Family Field, T-Mobile Park, Globe Life Field)
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: Individual stadium team Twitter/X accounts, local weather reports, MLB.com game notes published 2-3 hours before first pitch
+
+WHICH GAME(S): LAD @ AZ (Game 14 — 101.1°F)
+
+WOULD HAVE CHANGED A BET? MAYBE
+
+WOULD HAVE CHANGED BEST BET? NO
+
+WHY: At 101°F in Phoenix, a confirmed open roof transforms the run environment assumption — the total moving from 9.0 to 9.5 was a signal, but confirmed roof status would have given a precise read on whether Soroka was pitching in a suppressed or high-scoring environment, directly changing the AZ ML confidence.
+
+EXPECTED IMPACT: MEDIUM
+
+---
+
+TYPE: STAT
+
+ITEM: Home/away ERA splits for starting pitchers — separate home ERA and road ERA where sample permits
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: Baseball Reference pitcher splits tab (baseball-reference.com/players/ → Splits), FanGraphs splits section
+
+WHICH GAME(S): CHW @ MIN (Martin pitching away), possibly CLE @ NYY (Schlittler at home — confirms home dominance)
+
+WOULD HAVE CHANGED A BET? MAYBE
+
+WOULD HAVE CHANGED BEST BET? NO
+
+WHY: If Martin's 2.61 season ERA is significantly built on home starts, his road ERA at Target Field against a 4.7 RS/G home offense is a materially different number — treating a season ERA as environment-neutral when a road/home split exists introduces a systematic bias.
+
+EXPECTED IMPACT: MEDIUM
+
+---
+
+SECTION 4 — TOP 3 IMPROVEMENTS
+
+RANK 1
+TYPE: DATA
+ITEM: Bullpen recent usage and ERA — last 3-day appearance count, current season bullpen ERA, closer availability
+WHY: Both run-line and close-game ML bets depend on the full game, not just the starter's outing — a single data addition closes the most systematic blind spot revealed on this slate and applies to every pitching-edge bet on every future slate.
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs team bullpen pages; Baseball Reference team game logs; automatable via Baseball Reference or Sports Reference API
+EXPECTED ROI IMPROVEMENT: HIGH
+
+RANK 2
+TYPE: STAT
+ITEM: Pitcher's last 3 starts rolling ERA and IP
+WHY: Season ERA is a foundation, but three bets on this slate involved pitchers whose season numbers were real yet whose game outcomes diverged — last-3-starts trends add a recency layer that season ERA cannot provide.
+SOURCE WHERE THIS IS AVAILABLE: Baseball Reference pitcher game logs; Baseball Savant statcast search
+EXPECTED ROI IMPROVEMENT: MEDIUM
+
+RANK 3
+TYPE: DATA
+ITEM: Confirmed game-time roof status for all retractable-roof stadiums
+WHY: Five of fifteen games on this slate were in retractable-roof parks — roof status materially changes the run environment assumption and the LAD @ AZ analysis specifically turned on whether Soroka was pitching in suppressed or elevated conditions.
+SOURCE WHERE THIS IS AVAILABLE: MLB.com game notes, stadium team accounts, local weather outlets for Phoenix/Houston/Milwaukee/Seattle
+EXPECTED ROI IMPROVEMENT: MEDIUM
+
+---
+
+SECTION 5 — MASTER PROMPT CANDIDATE
+
+TYPE: DATA
+
+ITEM: For each team, include current season bullpen ERA and the number of relief appearances by the three most-used relievers in the last 3 days.
+
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: Starting pitcher ERA is already the most-used analytical lever in this format, but every bet that depends on a pitching edge implicitly assumes the bullpen performs to its season average after the starter exits — without bullpen context, every pitching-edge bet has an unmodelled structural gap that affected multiple outcomes on this slate.
+
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs team bullpen page (fangraphs.com/teams/); Baseball Reference team game logs; automatable via Sports Reference data pull for each team.
+
+WOULD HAVE CHANGED A BET? YES
+
+WOULD HAVE CHANGED BEST BET? NO
+
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES — specifically: team bullpen ERA (season), and appearances in last 3 days for top 3 relievers by usage. This is a structured, consistent data point available before every game.
+
+---
+
+SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: Claude Sonnet 4.6
+
+REASONING WEAKNESS IDENTIFIED: When I identify a starting pitcher ERA advantage as the primary reason for a bet, I treat that ERA as a run-suppression guarantee for the full game without systematically checking whether the opposing team's offensive profile makes the projected advantage fragile — the LAD @ AZ and CLE @ NYY bets both involved elite opposing offences that I noted in data but failed to use as a genuine constraint on my unit rating.
+
+PROPOSED PROMPT INSTRUCTION:
+"When the primary reason for a bet is a starting pitcher's ERA advantage, explicitly state the opponent's runs-scored-per-game and run differential before confirming your unit rating. If the opponent scores 4.8+ RS/G or holds a run differential above +50, reduce your unit rating by one tier (3→1, 1→LEAN) unless you have specific evidence the pitcher has dominated high-offence teams in their recent sample. A pitcher's ERA is a baseline, not a ceiling against a real lineup."
+
+WHY THIS ADDRESSES THE WEAKNESS: It forces a direct confrontation between the pitching edge and the offensive context before finalising the bet, catching the exact failure mode where Soroka's 3.23 ERA was real but LAD's 5.2 RS/G made a 6-run outing entirely within expected range.
+
+SOURCE OF THIS INSIGHT: LAD @ AZ — I noted LAD's 5.2 RS/G and +126 run differential in my analysis, correctly identified the total movement to 9.5 as a signal, and then confirmed 1 unit anyway without using either data point to discount my rating.
+
+EXPECTED IMPACT: HIGH
+
+══════════════════════════════════════════════════════════════════
+
+
+## POST-MORTEM REVIEW
+
+MODEL: DeepSeek
+SLATE: MLB — Tuesday, June 2 2026
+REVIEW TYPE: Post-game analysis — pre-game reasoning only
+
+---
+
+### SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: ATL ML -123 (Game 7) for 3 units
+RESULT: WIN
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+
+---
+
+### SECTION 2 — FULL SLATE REVIEW
+
+---
+
+**PART A — GAMES YOU BET**
+
+---
+
+**GAME:** TOR @ ATL
+**ORIGINAL PICK:** ATL ML -123
+**RESULT:** WIN
+**GRADE:** A
+**PROCESS ASSESSMENT:** CORRECT PROCESS, FAIR RESULT
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** Elite run differential and Elder’s excellent peripherals gave a significant edge over a mediocre Toronto road team.
+**SOURCE:** Provided data (team run diff, pitcher ERA/WHIP)
+
+---
+
+**GAME:** CHW @ MIN
+**ORIGINAL PICK:** CHW ML -118
+**RESULT:** LOSS
+**GRADE:** B
+**PROCESS ASSESSMENT:** CORRECT PROCESS, BAD VARIANCE
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** Davis Martin’s 2.61 ERA/1.11 WHIP was a clear upgrade over Prielipp’s 5.26 ERA, and the White Sox had a comparable offense; the loss is within normal variance.
+**SOURCE:** Provided data (pitcher ERA/WHIP, team RS/G)
+
+---
+
+**GAME:** SF @ MIL
+**ORIGINAL PICK:** MIL -1.5 +160
+**RESULT:** WIN
+**GRADE:** A
+**PROCESS ASSESSMENT:** CORRECT PROCESS, FAIR RESULT
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** Kyle Harrison’s dominant 1.57 ERA and Milwaukee’s +88 run diff made a multi-run win probable, and the plus-money price captured value beyond the heavy ML.
+**SOURCE:** Provided data (pitcher ERA, team run differential)
+
+---
+
+**GAME:** COL @ LAA
+**ORIGINAL PICK:** COL ML +141
+**RESULT:** WIN
+**GRADE:** A
+**PROCESS ASSESSMENT:** CORRECT PROCESS, FAIR RESULT
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** Grayson Rodriguez’s 7.04 ERA and small sample made him extremely vulnerable, and Sugano’s steady control gave Colorado a legitimate chance as an undervalued underdog.
+**SOURCE:** Provided data (pitcher ERA/WHIP/IP)
+
+---
+
+**GAME:** LAD @ AZ
+**ORIGINAL PICK:** AZ ML +108
+**RESULT:** LOSS
+**GRADE:** C
+**PROCESS ASSESSMENT:** INCORRECT TEAM STRENGTH EVALUATION
+**WOULD YOU MAKE THIS BET AGAIN?** LOWER STAKE
+**WHY:** I overweighted the starting-pitcher mismatch while underestimating the Dodgers’ elite offense (+126 run diff), which can overcome a bad starter.
+**SOURCE:** Provided data (team run diff; needed to weight offense more)
+
+---
+
+**PARLAY:** ATL ML / AZ ML
+**ORIGINAL PICK:** 1 unit at +277
+**RESULT:** LOSS
+**GRADE:** C
+**PROCESS ASSESSMENT:** INCORRECT TEAM STRENGTH EVALUATION (same reason as AZ leg)
+**WOULD YOU MAKE THIS BET AGAIN?** NO
+**WHY:** The Arizona leg was flawed due to underestimation of LAD’s overall quality.
+**SOURCE:** Same as above
+
+---
+
+**PART B — GAMES YOU PASSED OR LEANED**
+
+---
+
+**GAME:** DET @ TB
+**YOUR CALL:** PASS
+**FINAL RESULT:** DET won 8-0
+
+**WAS THIS THE RIGHT CALL?** NO
+**WHAT DID I MISS:** I underweighted Detroit’s ability to exploit Steven Matz’s high WHIP and Tampa Bay’s recent 3-7 form, which could have made the +131 underdog attractive.
+**SOURCE:** Provided data (Matz WHIP 1.33, TB last10 3-7)
+**WOULD THIS HAVE BECOME A BET?** MAYBE (a 1-unit bet if I had combined pitcher fade with team form)
+
+---
+
+**GAME:** SD @ PHI
+**YOUR CALL:** LEAN SD ML
+**FINAL RESULT:** PHI won 3-2
+
+**WAS THIS THE RIGHT CALL?** YES (the thin edge justified no bet, and the lean didn’t work out)
+
+---
+
+**GAME:** BAL @ BOS
+**YOUR CALL:** LEAN BAL ML
+**FINAL RESULT:** BAL won 4-2
+
+**WAS THIS THE RIGHT CALL?** NO
+**WHAT DID I MISS:** Boston’s terrible 9-20 home record and Early’s possible regression made Baltimore +123 a real edge worth a 1-unit bet, not just a lean.
+**SOURCE:** Provided data (home record, Early’s WHIP allowed 1.18 but underlying risk)
+**WOULD THIS HAVE BECOME A BET?** YES
+
+---
+
+**GAME:** MIA @ WSH
+**YOUR CALL:** PASS
+**FINAL RESULT:** MIA won 7-3
+
+**WAS THIS THE RIGHT CALL?** NO
+**WHAT DID I MISS:** Lovelady’s 1.73 WHIP was a severe weakness, and Bachar’s 0.96 WHIP, even in a small sample, pointed to a pitching mismatch that could justify a small bet on Miami at +103.
+**SOURCE:** Provided data (Lovelady WHIP, Bachar WHIP)
+**WOULD THIS HAVE BECOME A BET?** MAYBE (1 unit)
+
+---
+
+**GAME:** CLE @ NYY
+**YOUR CALL:** PASS
+**FINAL RESULT:** CLE won 9-4
+
+**WAS THIS THE RIGHT CALL?** NO
+**WHAT DID I MISS:** Schlittler’s 1.89 ERA likely had significant regression risk, and Cantillo’s 3.92 ERA gave Cleveland a plausible path to keep the game close, making +206 an overlay.
+**SOURCE:** Provided data (ERA regression risk for extreme performances)
+**WOULD THIS HAVE BECOME A BET?** MAYBE (a 0.5-unit flyer)
+
+---
+
+**GAME:** KC @ CIN
+**YOUR CALL:** PASS
+**FINAL RESULT:** CIN won 4-2
+
+**WAS THIS THE RIGHT CALL?** YES (the market was efficient; no clear edge)
+
+---
+
+**GAME:** TEX @ STL
+**YOUR CALL:** PASS
+**FINAL RESULT:** TEX won 7-4
+
+**WAS THIS THE RIGHT CALL?** YES (a pick’em with unclear edge; passing was sound)
+
+---
+
+**GAME:** ATH @ CHC
+**YOUR CALL:** PASS
+**FINAL RESULT:** ATH won 2-1
+
+**WAS THIS THE RIGHT CALL?** YES (Jump’s tiny MLB sample created too much uncertainty to bet with confidence)
+
+---
+
+**GAME:** PIT @ HOU
+**YOUR CALL:** LEAN PIT ML
+**FINAL RESULT:** PIT won 10-6
+
+**WAS THIS THE RIGHT CALL?** YES (the thin edge and shaky starters made a pass wiser than a bet)
+
+---
+
+**GAME:** COL @ LAA
+*(This game was bet — covered in Part A)*
+
+---
+
+**GAME:** NYM @ SEA
+**YOUR CALL:** PASS
+**FINAL RESULT:** NYM won 8-3
+
+**WAS THIS THE RIGHT CALL?** YES (Brazobán’s limited sample and Gilbert’s solid track record made the -143 line reasonable)
+
+---
+
+### SECTION 3 — IMPROVEMENT REQUESTS
+
+---
+
+**TYPE:** STAT
+**ITEM:** Team wRC+ by handedness split (vs LHP / vs RHP)
+**AVAILABLE BEFORE FIRST PITCH?** YES
+**SOURCE:** FanGraphs (Team Splits page)
+**WHICH GAME(S):** LAD @ AZ
+**WOULD HAVE CHANGED A BET?** YES
+**WOULD HAVE CHANGED BEST BET?** NO
+**WHY:** Knowing the Dodgers’ elite wRC+ against RHP would have tempered my confidence in backing Arizona against a righty starter like Soroka, highlighting that LAD’s offense could overcome Lauer’s struggles.
+**EXPECTED IMPACT:** MEDIUM
+
+---
+
+**TYPE:** STAT
+**ITEM:** Starting pitcher game logs (last 3 starts)
+**AVAILABLE BEFORE FIRST PITCH?** YES
+**SOURCE:** FanGraphs / Baseball-Reference pitcher game logs
+**WHICH GAME(S):** CLE @ NYY, DET @ TB
+**WOULD HAVE CHANGED A BET?** MAYBE
+**WOULD HAVE CHANGED BEST BET?** NO
+**WHY:** Recent performance trends (e.g., Matz’s recent blowups or Schlittler’s declining velocity) could have added confidence to fading heavy favorites or backing underdogs.
+**EXPECTED IMPACT:** MEDIUM
+
+---
+
+**TYPE:** STAT
+**ITEM:** Bullpen ERA last 14 days and leverage index
+**AVAILABLE BEFORE FIRST PITCH?** YES
+**SOURCE:** FanGraphs (Relief Pitching report)
+**WHICH GAME(S):** CHW @ MIN, COL @ LAA
+**WOULD HAVE CHANGED A BET?** MAYBE
+**WOULD HAVE CHANGED BEST BET?** NO
+**WHY:** Assessing late-inning bullpen quality could have differentiated close games; Minnesota’s pen might have been stronger than CHW’s, potentially reducing my 1-unit bet to a lean.
+**EXPECTED IMPACT:** LOW
+
+---
+
+### SECTION 4 — TOP 3 IMPROVEMENTS
+
+**RANK 1**
+  TYPE: STAT
+  ITEM: Team wRC+ splits vs LHP and RHP
+  WHY: It directly addresses the failure mode of overrating a starting-pitcher mismatch when an elite offense can win regardless.
+  SOURCE WHERE THIS IS AVAILABLE: FanGraphs (Team Splits)
+  EXPECTED ROI IMPROVEMENT: MEDIUM
+
+**RANK 2**
+  TYPE: STAT
+  ITEM: Starting pitcher game logs (last 3 starts)
+  WHY: Provides crucial context on form and potential regression that static season ERA numbers mask.
+  SOURCE WHERE THIS IS AVAILABLE: FanGraphs / Baseball-Reference
+  EXPECTED ROI IMPROVEMENT: MEDIUM
+
+**RANK 3**
+  TYPE: STAT
+  ITEM: Bullpen ERA last 14 days
+  WHY: Needed to properly evaluate run-line and close-game bets, especially on underdogs.
+  SOURCE WHERE THIS IS AVAILABLE: FanGraphs
+  EXPECTED ROI IMPROVEMENT: LOW
+
+---
+
+### SECTION 5 — MASTER PROMPT CANDIDATE
+
+**TYPE:** STAT
+**ITEM:** Team wRC+ splits vs LHP and RHP
+**WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT:** It closes the analytical gap where a pitcher mismatch is overvalued relative to an opponent’s handedness-specific offensive strength.
+**SOURCE WHERE THIS IS AVAILABLE:** FanGraphs Team Splits page
+**WOULD HAVE CHANGED A BET?** YES (LAD @ AZ)
+**WOULD HAVE CHANGED BEST BET?** NO
+**SHOULD BE AUTOMATED IN THE DATA PIPELINE?** YES
+
+---
+
+### SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+**MODEL:** DeepSeek
+
+**REASONING WEAKNESS IDENTIFIED:**
+Overweighting a starting-pitcher ERA gap when the opposing team is an elite offense (>.600 win%, >+80 run diff) can lead to false confidence in an underdog.
+
+**PROPOSED PROMPT INSTRUCTION:**
+"Before betting a plus-money underdog against a team with a win percentage above .600 and a run differential above +80, explicitly state whether the underdog's offense has a projected runs‑scored advantage against the starter — not just a pitching edge. If the answer is no, cap the bet at 1 unit or consider passing."
+
+**WHY THIS ADDRESSES THE WEAKNESS:**
+It forces a check on whether the opposing elite lineup can overcome a poor starter, reducing the chance of a bet driven solely by a lopsided starting-pitcher comparison.
+
+**SOURCE OF THIS INSIGHT:**
+The LAD @ AZ bet (AZ ML +108 loss), where I faded Lauer but underestimated the Dodgers’ ability to win anyway.
+
+**EXPECTED IMPACT:** MEDIUM
+══════════════════════════════════════════════════════════════════
+MODEL: Gemini
+SLATE: MLB — Tuesday, June 2, 2026
+REVIEW TYPE: Post-game analysis — pre-game reasoning only
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET:
+CHW ML -118 (3 units)
+
+RESULT: LOSS
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+
+NEW BEST BET:
+ATL ML -123
+
+WHY:
+Atlanta was a dominant 41-20 team with an elite +110 run differential playing at home against a sub-.500 Toronto team. Laying only -123 on a clear tier-one team with Bryce Elder (2.63 ERA) on the mound offered far safer structural value than backing a sub-.500 road team like the White Sox.
+
+SOURCE:
+Team standings and run differentials provided in the pre-game slate data.
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 2 — FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: SD @ PHI
+ORIGINAL PICK: SD ML +120
+RESULT: LOSS
+GRADE: B
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Getting a clear plus-money price (+120) on a starting pitcher with a 3.31 ERA facing an opposing starter with an ERA over 5.50 is a structurally profitable long-term decision.
+SOURCE: Starter ERA metrics provided in the pre-game slate data.
+
+GAME: BAL @ BOS
+ORIGINAL PICK: BAL ML +123
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Fading Boston at a premium price was highly justified due to their awful 9-20 home record, which indicated severe market overvaluation of their home-field advantage.
+SOURCE: Team home/away standings provided in the pre-game slate data.
+
+GAME: MIA @ WAS
+ORIGINAL PICK: MIA ML +103
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: The massive delta between Lake Bachar's 0.96 WHIP and Richard Lovelady's traffic-heavy 1.73 WHIP signaled an accurate edge on the underdog pitching line.
+SOURCE: Pitcher WHIP metrics provided in the pre-game slate data.
+
+GAME: CLE @ NYY
+ORIGINAL PICK: NYY -1.5 (-102)
+RESULT: LOSS
+GRADE: C
+PROCESS ASSESSMENT: INCORRECT TEAM STRENGTH EVALUATION
+WOULD YOU MAKE THIS BET AGAIN: NO
+WHY: Laying runs against a highly competitive 34-27 Cleveland squad with a winning road record was overly reliant on Cam Schlittler's surface statistics.
+SOURCE: Team road records provided in the pre-game slate data.
+
+GAME: KC @ CIN
+ORIGINAL PICK: CIN ML -122
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Capitalizing on Kansas City's abysmal 8-20 road performance at a reasonable market price of -122 is a fundamental situational baseball bet.
+SOURCE: Team away records provided in the pre-game slate data.
+
+GAME: TOR @ ATL
+ORIGINAL PICK: ATL ML -123
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Backing an elite home squad with a +110 run differential at near pick 'em odds is an exceptional extraction of pure market value.
+SOURCE: Team run differentials provided in the pre-game slate data.
+
+GAME: CHW @ MIN
+ORIGINAL PICK: CHW ML -118
+RESULT: LOSS
+GRADE: D
+PROCESS ASSESSMENT: OTHER: OVERVALUATION OF ROAD TEAM SURFACE STATS
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: I anchored entirely to Davis Martin's flashy 8-1 record and 2.61 ERA, completely ignoring that Chicago was a poor 12-17 team on the road playing against a winning Minnesota home team.
+SOURCE: Team away/home records provided in the pre-game slate data.
+
+GAME: SF @ MIL
+ORIGINAL PICK: MIL -1.5 (+118)
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Milwaukee's massive +88 run differential combined with Kyle Harrison's spectacular 1.57 ERA perfectly lined up to cover the run line at plus-money.
+SOURCE: Pitcher ERA and team run differentials provided in the pre-game slate data.
+
+GAME: COL @ LAA
+ORIGINAL PICK: COL ML +141
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Getting +141 on a team with the exact same record as its opponent while fading a starter carrying a 7.04 ERA represents a massive, textbook pricing error by the books.
+SOURCE: Starter ERA and team records provided in the pre-game slate data.
+
+GAME: LAD @ AZ
+ORIGINAL PICK: AZ ML +108
+RESULT: LOSS
+GRADE: B
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Backing a strong home team with a massive starting pitching advantage (Michael Soroka's 3.23 ERA vs Eric Lauer's 5.95 ERA) at plus-money is a mandatory long-term wager.
+SOURCE: Starter ERA metrics provided in the pre-game slate data.
+
+GAME: PARLAY (ATL ML & CHW ML)
+ORIGINAL PICK: ATL ML (-123) / CHW ML (-118)
+RESULT: LOSS
+GRADE: C
+PROCESS ASSESSMENT: MISREAD MARKET PRICE
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: Including the White Sox leg fundamentally compromised the parlay because it carried an unrecognized structural flaw regarding Chicago's weak road performance.
+SOURCE: Team away records provided in the pre-game slate data.
+
+---
+
+PART B — GAMES YOU PASSED OR LEANED
+
+GAME: DET @ TB
+YOUR CALL: PASS
+FINAL RESULT: DET won 8-0, blowout
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR —
+WHAT DID YOU MISS: N/A
+SOURCE: N/A
+WOULD THIS HAVE BECOME A BET? NO
+
+GAME: TEX @ STL
+YOUR CALL: PASS
+FINAL RESULT: TEX won 7-4
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR —
+WHAT DID YOU MISS: N/A
+SOURCE: N/A
+WOULD THIS HAVE BECOME A BET? NO
+
+GAME: ATH @ CHC
+YOUR CALL: PASS
+FINAL RESULT: ATH won 2-1
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR —
+WHAT DID YOU MISS: N/A
+SOURCE: N/A
+WOULD THIS HAVE BECOME A BET? NO
+
+GAME: PIT @ HOU
+YOUR CALL: LEAN: PIT ML
+FINAL RESULT: PIT won 10-6
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR —
+WHAT DID YOU MISS: N/A
+SOURCE: N/A
+WOULD THIS HAVE BECOME A BET? NO
+
+GAME: NYM @ SEA
+YOUR CALL: PASS
+FINAL RESULT: NYM won 8-3
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR —
+WHAT DID YOU MISS: N/A
+SOURCE: N/A
+WOULD THIS HAVE BECOME A BET? NO
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 3 — IMPROVEMENT REQUESTS
+
+TYPE: STAT
+
+ITEM: Fielder Independent Pitching (FIP) or Expected ERA (xERA)
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: FanGraphs or Baseball Savant
+
+WHICH GAME(S): CHW @ MIN, CLE @ NYY
+
+WOULD HAVE CHANGED A BET? YES
+
+WOULD HAVE CHANGED BEST BET? YES
+
+WHY: Advanced underlying performance metrics would have exposed if Davis Martin (2.61 ERA) and Cam Schlittler (1.89 ERA) were due for immediate negative regression, preventing over-leveraged wagers on them.
+
+EXPECTED IMPACT: HIGH
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 4 — TOP 3 IMPROVEMENTS
+
+RANK 1
+TYPE: STAT
+ITEM: Expected ERA (xERA) and FIP for starting pitchers.
+WHY: Clarifies if a pitcher's low surface ERA is a product of true skill or deceptive luck/small sample size.
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs / Baseball Savant
+EXPECTED ROI IMPROVEMENT: HIGH
+
+RANK 2
+TYPE: DATA
+ITEM: Isolated Home/Away Run Differential splits.
+WHY: Reveals the true identity of teams that exhibit massive performance chasms when traveling, such as the White Sox.
+SOURCE WHERE THIS IS AVAILABLE: TeamRankings / Covers
+EXPECTED ROI IMPROVEMENT: MEDIUM
+
+RANK 3
+TYPE: NONE
+ITEM: NONE
+WHY: NONE
+SOURCE WHERE THIS IS AVAILABLE: NONE
+EXPECTED ROI IMPROVEMENT: LOW
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 5 — MASTER PROMPT CANDIDATE
+
+TYPE: STAT
+
+ITEM: Expected ERA (xERA) and FIP (Fielding Independent Pitching) for starting pitchers.
+
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT:
+It bridges the critical analytical gap of anchoring predictions to deceptive, luck-driven surface ERAs for starting pitchers.
+
+SOURCE WHERE THIS IS AVAILABLE:
+FanGraphs / Baseball Savant
+
+WOULD HAVE CHANGED A BET? YES
+
+WOULD HAVE CHANGED BEST BET? YES
+
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: Gemini
+
+REASONING WEAKNESS IDENTIFIED:
+Anchoring heavily to a starting pitcher's individual surface metrics while failing to scale those metrics against the team's broader home/away environmental reality.
+
+PROPOSED PROMPT INSTRUCTION:
+"When evaluating a road favorite, you must explicitly cross-reference the team's traveling win percentage and away run differential against the starting pitcher's individual metrics. If the team is a sub-.500 road team, require a steeper mathematical edge or lower the unit allocation to prevent overvaluing standalone starting pitching performances in unfavorable macro-environments."
+
+WHY THIS ADDRESSES THE WEAKNESS:
+It enforces a top-down systematic check that balances individual pitching dominance with collective team performance on the road, breaking the anchoring bias toward individual player records.
+
+SOURCE OF THIS INSIGHT:
+The failed 3-unit Best Bet on CHW ML (-118).
+
+EXPECTED IMPACT: HIGH
+══════════════════════════════════════════════════════════════════
+MODEL: Qwen3.7
+SLATE: MLB — Tuesday, June 2 2026
+REVIEW TYPE: Post-game analysis — pre-game reasoning only
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET:
+ATL -1.5 (+170)
+
+RESULT: LOSS
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+
+NEW BEST BET:
+MIL -1.5 (+118)
+
+WHY:
+Kyle Harrison's elite underlying metrics (1.57 ERA, 1.03 WHIP) against a historically poor road team (SF 11-21 away, -62 run differential) presented a clearer, more sustainable edge than relying on Bryce Elder's surface-level 2.63 ERA, which is historically prone to regression and resulted in a 1-run game.
+
+SOURCE:
+Provided data (Kyle Harrison stats, SF away record, team run differential).
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 2 — FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: SD @ PHI
+ORIGINAL PICK: SD +113
+RESULT: LOSS
+GRADE: B
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Aaron Nola's 5.55 ERA and Randy Vásquez's 3.31 ERA created a clear pitching mismatch that justified taking the plus-money underdog, even though a 1-run loss is a tough beat.
+SOURCE: Provided starting pitcher ERA data.
+
+GAME: BAL @ BOS
+ORIGINAL PICK: BAL +113
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Boston's abysmal 9-20 home record and weak 3.9 RS/G offense made Baltimore's plus-money a highly profitable and logically sound play.
+SOURCE: Provided team form data (BOS home record, RS/G).
+
+GAME: MIA @ WSH
+ORIGINAL PICK: Over 9.0
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Targeting a high total (9.0) with two pitchers having high WHIPs (Lovelady 1.73) and limited innings correctly anticipated a bullpen-heavy, high-scoring game.
+SOURCE: Provided pitcher WHIP and IP data.
+
+GAME: CLE @ NYY
+ORIGINAL PICK: NYY -1.5
+RESULT: LOSS
+GRADE: D
+PROCESS ASSESSMENT: INCORRECT PITCHING EVALUATION
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+WHY: I overweighted Cam Schlittler's 1.89 ERA without critically evaluating if it was a sustainable outlier, falling into a small sample size trap against a divisional opponent.
+SOURCE: Provided starting pitcher data.
+
+GAME: KC @ CIN
+ORIGINAL PICK: CIN -1.5
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Kansas City's terrible 8-20 road record and 4.7 RA/G made the plus-money on the Reds run line a mathematically sound and successful wager.
+SOURCE: Provided team form data.
+
+GAME: TOR @ ATL
+ORIGINAL PICK: ATL -1.5
+RESULT: LOSS
+GRADE: C
+PROCESS ASSESSMENT: SMALL SAMPLE SIZE TRAP
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+WHY: While Atlanta dominated, betting a heavy 5 units on a -1.5 run line for Bryce Elder, who historically induces weak contact but allows runs, was an overreach in unit sizing for a 1-run game.
+SOURCE: Historical knowledge of Bryce Elder's pitching profile (high BABIP luck, low K rate).
+
+GAME: CHW @ MIN
+ORIGINAL PICK: CHW -1.5
+RESULT: LOSS
+GRADE: D
+PROCESS ASSESSMENT: INCORRECT PITCHING EVALUATION
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: Davis Martin's 8-1 record and 2.61 ERA looked dominant, but I failed to recognize the high probability of regression for a pitcher with those stats on a mediocre team, underestimating Minnesota's home offense.
+SOURCE: Provided pitcher data.
+
+GAME: SF @ MIL
+ORIGINAL PICK: MIL -1.5
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Kyle Harrison's elite 1.57 ERA and 1.03 WHIP against a Giants team with a -62 run differential and 11-21 away record was a perfect storm for a blowout.
+SOURCE: Provided data.
+
+GAME: LAD @ AZ
+ORIGINAL PICK: Over 9.5
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Eric Lauer's 5.95 ERA combined with Chase Field's hitter-friendly environment in 101-degree heat made the plus-money on the over a highly logical and successful play.
+SOURCE: Provided weather and pitcher data.
+
+GAME: NYM @ SEA
+ORIGINAL PICK: SEA -1.5
+RESULT: LOSS
+GRADE: D
+PROCESS ASSESSMENT: OVERWEIGHTED RECENT FORM
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: I overweighted Seattle's 8-2 last 10 record and ignored the fact that Huascar Brazobán had a stellar 1.86 ERA and 0.97 WHIP, making the Mets a live underdog that completely outplayed the Mariners.
+SOURCE: Provided pitcher data (Brazobán).
+
+GAME: COL @ LAA
+ORIGINAL PICK: LAA -1.5
+RESULT: LOSS
+GRADE: F
+PROCESS ASSESSMENT: INCORRECT TEAM STRENGTH EVALUATION
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: I assumed Colorado's -82 run differential meant they would roll over, but I ignored that Grayson Rodriguez had a disastrous 7.04 ERA and 1.57 WHIP in the provided data, making the Angels a terrible favorite.
+SOURCE: Provided pitcher data (Rodriguez).
+
+GAME: PARLAY (ATL ML & CHW ML)
+ORIGINAL PICK: ATL ML -128 & CHW ML -121
+RESULT: LOSS
+GRADE: D
+PROCESS ASSESSMENT: INCORRECT PITCHING EVALUATION
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: Parlaying two moneyline favorites based on surface-level pitcher stats (Elder, Martin) without accounting for regression risk and matchup dynamics was a flawed process.
+SOURCE: Provided data.
+
+---
+
+PART B — GAMES YOU PASSED OR LEANED
+
+GAME: DET @ TB
+YOUR CALL: LEAN
+FINAL RESULT: DET 8 @ TB 0 (TB lost badly)
+WAS THIS THE RIGHT CALL? NO
+WHAT DID YOU MISS: I assumed Tampa Bay's 21-8 home record would dominate, but I ignored that Steven Matz has a 5.48 ERA and the Rays' offense completely collapsed, making the lean unjustified.
+SOURCE: Provided pitcher data (Matz 5.48 ERA).
+WOULD THIS HAVE BECOME A BET? NO
+
+GAME: TEX @ STL
+YOUR CALL: PASS
+FINAL RESULT: TEX 7 @ STL 4
+WAS THIS THE RIGHT CALL? YES
+WHAT DID YOU MISS: N/A. The game was relatively close and matched my pre-game assessment of two evenly matched teams with mid-rotation starters.
+SOURCE: N/A
+WOULD THIS HAVE BECOME A BET? NO
+
+GAME: ATH @ CHC
+YOUR CALL: LEAN
+FINAL RESULT: ATH 2 @ CHC 1
+WAS THIS THE RIGHT CALL? NO
+WHAT DID YOU MISS: I leaned Chicago based on home field, but completely overlooked that Gage Jump had only pitched 11.0 innings (unfamiliar lefty), while downplaying Jameson Taillon's massive 5.13 ERA red flag.
+SOURCE: Provided pitcher data (Jump 11.0 IP, Taillon 5.13 ERA).
+WOULD THIS HAVE BECOME A BET? NO
+
+GAME: PIT @ HOU
+YOUR CALL: PASS
+FINAL RESULT: PIT 10 @ HOU 6
+WAS THIS THE RIGHT CALL? YES
+WHAT DID YOU MISS: N/A. I correctly identified this as a messy game with two bad starters (Chandler 4.89, Burrows 5.66) and passed. The high score was variance, but the pass was correct.
+SOURCE: N/A
+WOULD THIS HAVE BECOME A BET? NO
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 3 — IMPROVEMENT REQUESTS
+
+TYPE: STAT
+ITEM: Pitcher FIP (Fielding Independent Pitching) and xERA (Expected ERA)
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: FanGraphs, Baseball Savant
+WHICH GAME(S): CLE @ NYY, CHW @ MIN, TOR @ ATL
+WOULD HAVE CHANGED A BET? YES
+WOULD HAVE CHANGED BEST BET? YES
+WHY: Relying on traditional ERA for pitchers like Cam Schlittler (1.89) and Davis Martin (2.61) without checking FIP/xERA led to overvaluing their true talent level and making bad heavy bets.
+EXPECTED IMPACT: HIGH
+
+TYPE: DATA
+ITEM: Bullpen rest and usage from the previous 3 days
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: MLB.com, Rotowire, or team beat reporters on X (Twitter)
+WHICH GAME(S): MIA @ WSH, PIT @ HOU
+WOULD HAVE CHANGED A BET? MAYBE
+WOULD HAVE CHANGED BEST BET? NO
+WHY: Games with questionable starters (high WHIP, low IP) quickly become bullpen games; knowing which team's bullpen is rested would provide a massive edge in predicting late-inning runs.
+EXPECTED IMPACT: MEDIUM
+
+TYPE: PROMPT
+ITEM: Explicit instruction to flag "Small Sample Size" or "Regression Candidates"
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: Internal model reasoning / Prompt instruction
+WHICH GAME(S): CLE @ NYY, CHW @ MIN
+WOULD HAVE CHANGED A BET? YES
+WOULD HAVE CHANGED BEST BET? NO
+WHY: Forcing the model to explicitly state if a pitcher's stats are based on a small sample or are historically prone to regression would prevent overconfidence in outlier performances.
+EXPECTED IMPACT: HIGH
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 4 — TOP 3 IMPROVEMENTS
+
+RANK 1
+TYPE: STAT
+ITEM: Pitcher FIP / xERA
+WHY: Traditional ERA is heavily influenced by defense and luck; FIP/xERA provides a much more accurate baseline for a pitcher's true talent level, preventing bets on fluke performances.
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs, Baseball Savant
+EXPECTED ROI IMPROVEMENT: HIGH
+
+RANK 2
+TYPE: PROMPT
+ITEM: Explicit "Regression Candidate" check
+WHY: Forcing the model to evaluate if a pitcher's current surface stats (like a 1.89 ERA) align with their historical profile or underlying metrics prevents the "small sample size trap."
+SOURCE WHERE THIS IS AVAILABLE: Internal model knowledge base / prompt instruction
+EXPECTED ROI IMPROVEMENT: HIGH
+
+RANK 3
+TYPE: DATA
+ITEM: 3-Day Bullpen Usage
+WHY: In games where starters have high WHIPs and low innings, the game is decided by the bullpen; knowing who is rested is a critical pre-game edge.
+SOURCE WHERE THIS IS AVAILABLE: MLB.com, Rotowire, team beat reporters
+EXPECTED ROI IMPROVEMENT: MEDIUM
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 5 — MASTER PROMPT CANDIDATE
+
+TYPE: STAT
+ITEM: Starting Pitcher FIP (Fielding Independent Pitching) and xERA (Expected ERA) alongside traditional ERA and WHIP.
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: It immediately provides the model with a defense-independent measure of pitcher quality, preventing the model from being fooled by lucky or unlucky traditional ERA outcomes.
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs, Baseball Savant
+WOULD HAVE CHANGED A BET? YES
+WOULD HAVE CHANGED BEST BET? YES
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: Qwen3.7
+
+REASONING WEAKNESS IDENTIFIED:
+I exhibited a "Small Sample Size Trap" and "Surface Stat Anchoring" by heavily betting on pitchers with outlier traditional ERAs (Schlittler 1.89, Martin 2.61) without critically evaluating if those numbers were sustainable or supported by underlying metrics.
+
+PROPOSED PROMPT INSTRUCTION:
+"Before assigning 3 or more units to a bet involving a starting pitcher, you must explicitly state their FIP or xERA if available, or critically evaluate if their traditional ERA is a sustainable outlier or a small-sample fluke. If you cannot justify the sustainability of the ERA, cap the bet at 1 unit or PASS."
+
+WHY THIS ADDRESSES THE WEAKNESS:
+It forces a mandatory skepticism check on elite-looking surface statistics, directly preventing overconfidence in pitchers who are likely to regress.
+
+SOURCE OF THIS INSIGHT:
+The losses on NYY -1.5 (Schlittler) and CHW -1.5 (Martin), where I blindly trusted sub-3.00 ERAs without questioning their sustainability.
+
+EXPECTED IMPACT: HIGH
+══════════════════════════════════════════════════════════════════
+**MODEL:** Grok xAI  
+**SLATE:** MLB — Tuesday, June 2 2026  
+**REVIEW TYPE:** Post-game analysis — pre-game reasoning only
+
+**SECTION 1 — BEST BET RE-EVALUATION**
+
+**ORIGINAL BEST BET:** MIL -1.5 +160 (Game 9, 3 units)  
+**RESULT:** WIN  
+
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES
+
+**SECTION 2 — FULL SLATE REVIEW**
+
+**PART A — GAMES YOU BET**
+
+**GAME:** SD @ PHI  
+**ORIGINAL PICK:** SD +120  
+**RESULT:** LOSS  
+**GRADE:** C  
+**PROCESS ASSESSMENT:** INCORRECT PITCHING EVALUATION  
+
+**WOULD YOU MAKE THIS BET AGAIN?** NO  
+
+**WHY:** Vásquez’s 3.31 ERA was the main data point used to justify value against Nola’s 5.55, but the evaluation overstated the edge relative to PHI’s home standing.  
+**SOURCE:** Starting pitcher ERA/WHIP tables in the prompt.
+
+**GAME:** CLE @ NYY  
+**ORIGINAL PICK:** NYY -1.5 -102  
+**RESULT:** LOSS  
+**GRADE:** D  
+**PROCESS ASSESSMENT:** SMALL SAMPLE SIZE TRAP  
+
+**WOULD YOU MAKE THIS BET AGAIN?** NO  
+
+**WHY:** Schlittler’s 1.89 ERA and 0.86 WHIP in 76 IP was treated as highly predictive, but the sample size and CLE’s solid 34-27 record created more variance than modeled.  
+**SOURCE:** Starting pitcher stats provided in the prompt.
+
+**GAME:** TOR @ ATL  
+**ORIGINAL PICK:** ATL -123  
+**RESULT:** WIN  
+**GRADE:** B  
+**PROCESS ASSESSMENT:** CORRECT PROCESS, FAIR RESULT  
+
+**WOULD YOU MAKE THIS BET AGAIN?** YES  
+
+**WHY:** Atlanta’s 41-20 record and +110 run differential against TOR’s road struggles was the dominant pre-game factor and aligned with outcome.  
+**SOURCE:** Team form and run differential from the prompt.
+
+**GAME:** CHW @ MIN  
+**ORIGINAL PICK:** CHW -118  
+**RESULT:** LOSS  
+**GRADE:** C  
+**PROCESS ASSESSMENT:** INCORRECT TEAM STRENGTH EVALUATION  
+
+**WOULD YOU MAKE THIS BET AGAIN?** LOWER STAKE  
+
+**WHY:** Davis Martin’s 8-1 record with 2.61 ERA was the primary justification, but CHW’s modest +5 run differential was underweighted versus MIN at home.  
+**SOURCE:** Starting pitchers and team form tables in the prompt.
+
+**GAME:** SF @ MIL  
+**ORIGINAL PICK:** MIL -1.5 +160  
+**RESULT:** WIN  
+**GRADE:** A  
+**PROCESS ASSESSMENT:** CORRECT PROCESS, FAIR RESULT  
+
+**WOULD YOU MAKE THIS BET AGAIN?** YES  
+
+**WHY:** Harrison’s 1.57 ERA paired with MIL’s +88 run differential and SF’s -62 run differential was the key edge and remained accurate at first pitch.  
+**SOURCE:** Starting pitcher stats and team run differential provided in the prompt.
+
+**GAME:** PIT @ HOU  
+**ORIGINAL PICK:** PIT +100  
+**RESULT:** WIN  
+**GRADE:** B  
+**PROCESS ASSESSMENT:** CORRECT PROCESS, FAIR RESULT  
+
+**WOULD YOU MAKE THIS BET AGAIN?** YES  
+
+**WHY:** PIT’s +31 run differential versus HOU’s -33 was the specific data point that justified plus-money value and proved directionally correct.  
+**SOURCE:** Team form and run differential section of the prompt.
+
+**GAME:** COL @ LAA  
+**ORIGINAL PICK:** COL +141  
+**RESULT:** WIN  
+**GRADE:** B  
+**PROCESS ASSESSMENT:** CORRECT PROCESS, FAIR RESULT  
+
+**WOULD YOU MAKE THIS BET AGAIN?** YES  
+
+**WHY:** Rodriguez’s 7.04 ERA in limited action versus Sugano’s 4.01 ERA was the clearest mismatch exploited at plus money.  
+**SOURCE:** Starting pitcher ERA/IP data in the prompt.
+
+**GAME:** LAD @ AZ  
+**ORIGINAL PICK:** AZ +108  
+**RESULT:** LOSS  
+**GRADE:** C  
+**PROCESS ASSESSMENT:** MISSED LINEUP FACTOR  
+
+**WOULD YOU MAKE THIS BET AGAIN?** NO  
+
+**WHY:** Soroka’s 3.23 ERA versus Lauer’s 5.95 was the main influence, but LAD’s elite +126 run differential signaled a stronger lineup than fully modeled.  
+**SOURCE:** Starting pitchers and team run differential from the prompt.
+
+**GAME:** NYM @ SEA  
+**ORIGINAL PICK:** SEA -143  
+**RESULT:** LOSS  
+**GRADE:** C  
+**PROCESS ASSESSMENT:** OVERWEIGHTED RECENT FORM  
+
+**WOULD YOU MAKE THIS BET AGAIN?** NO  
+
+**WHY:** SEA’s 8-2 last-10 record was overweighted against the small-sample Brazobán metrics and NYM’s underlying profile.  
+**SOURCE:** Team form (last10) section of the prompt.
+
+**GAME:** CHW/AZ Parlay  
+**ORIGINAL PICK:** CHW ML -118 / AZ ML +108  
+**RESULT:** LOSS  
+**GRADE:** D  
+**PROCESS ASSESSMENT:** INCORRECT TEAM STRENGTH EVALUATION  
+
+**WOULD YOU MAKE THIS BET AGAIN?** NO  
+
+**WHY:** Both legs relied on team strength reads that proved flawed, particularly the CHW evaluation versus its modest run differential.  
+**SOURCE:** Team form and pitcher stats in the original prompt.
+
+**PART B — GAMES YOU PASSED OR LEANED**
+
+**GAME:** DET @ TB  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** DET won 8-0  
+**WAS THIS THE RIGHT CALL?** NO  
+**WHAT DID YOU MISS:** DET was getting +120 to +131 despite both pitchers posting 5+ ERAs; TB’s recent 3-7 slide and DET’s ability to exploit poor pitching was underweighted in a dome.  
+**SOURCE:** Pitcher ERA/WHIP and TB last-10 form available directly in the prompt.  
+**WOULD THIS HAVE BECOME A BET?** YES
+
+**GAME:** BAL @ BOS  
+**YOUR CALL:** LEAN: BAL +123  
+**FINAL RESULT:** BAL won 4-2  
+**WAS THIS THE RIGHT CALL?** YES
+
+**GAME:** MIA @ WAS  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** MIA won 7-3  
+**WAS THIS THE RIGHT CALL?** YES
+
+**GAME:** KC @ CIN  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** CIN won 4-2  
+**WAS THIS THE RIGHT CALL?** YES
+
+**GAME:** TEX @ STL  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** TEX won 7-4  
+**WAS THIS THE RIGHT CALL?** YES
+
+**GAME:** ATH @ CHC  
+**YOUR CALL:** LEAN: CHC -119  
+**FINAL RESULT:** ATH won 2-1  
+**WAS THIS THE RIGHT CALL?** NO  
+**WHAT DID YOU MISS:** Taillon’s 5.13 ERA and Jump’s limited 11 IP sample created a closer matchup than the lean suggested, especially in cool Wrigley conditions favoring the underdog.  
+**SOURCE:** Pitcher ERA/IP and weather data in the prompt.  
+**WOULD THIS HAVE BECOME A BET?** MAYBE
+
+**SECTION 3 — IMPROVEMENT REQUESTS**
+
+**TYPE:** DATA  
+**ITEM:** Bullpen usage and rest over the previous 5–7 days for both teams  
+**AVAILABLE BEFORE FIRST PITCH?** YES  
+**SOURCE:** MLB.com transaction logs or Fangraphs bullpen pages  
+**WHICH GAME(S):** CLE@NYY, LAD@AZ, NYM@SEA, DET@TB  
+**WOULD HAVE CHANGED A BET?** YES  
+**WOULD HAVE CHANGED BEST BET?** NO  
+**WHY:** Several high-unit bets featured teams with recent heavy bullpen usage that would have lowered projected margins and unit sizing.  
+**EXPECTED IMPACT:** HIGH
+
+**TYPE:** STAT  
+**ITEM:** Platoon-adjusted wOBA or OPS vs LHP/RHP for both lineups  
+**AVAILABLE BEFORE FIRST PITCH?** YES  
+**SOURCE:** FanGraphs team splits tool  
+**WHICH GAME(S):** TOR@ATL, LAD@AZ, KC@CIN  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WOULD HAVE CHANGED BEST BET?** NO  
+**WHY:** Multiple left-handed starters were featured; explicit platoon data would have adjusted projections for lineups where raw run differential masked handedness advantages.  
+**EXPECTED IMPACT:** MEDIUM
+
+**SECTION 4 — TOP 3 IMPROVEMENTS**
+
+**RANK 1**  
+**TYPE:** DATA  
+**ITEM:** Bullpen usage and rest over the previous 5–7 days for both teams  
+**WHY:** Multiple 3-unit and parlay bets (NYY -1.5, CHW, AZ, SEA) occurred in games where recent bullpen workload created unmodeled risk that would have reduced conviction or removed the bet entirely.  
+**SOURCE WHERE THIS IS AVAILABLE:** Fangraphs or MLB.com  
+**EXPECTED ROI IMPROVEMENT:** HIGH
+
+**RANK 2**  
+**TYPE:** STAT  
+**ITEM:** Platoon-adjusted wOBA or OPS vs LHP/RHP for both lineups  
+**WHY:** Several starting pitchers were left-handed and my evaluations relied too heavily on season-long run differential without splitting performance by handedness.  
+**SOURCE WHERE THIS IS AVAILABLE:** FanGraphs team splits  
+**EXPECTED ROI IMPROVEMENT:** MEDIUM
+
+**SECTION 5 — MASTER PROMPT CANDIDATE**
+
+**TYPE:** DATA  
+**ITEM:** Bullpen usage and rest days for both teams over the previous 7 days  
+
+**WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT:** It closes the consistent gap where starting pitcher advantages were overstated without accounting for which teams had overworked relief corps entering the game.  
+
+**SOURCE WHERE THIS IS AVAILABLE:** Fangraphs bullpen pages (free)  
+
+**WOULD HAVE CHANGED A BET?** YES  
+**WOULD HAVE CHANGED BEST BET?** NO  
+**SHOULD BE AUTOMATED IN THE DATA PIPELINE?** YES
+
+**SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION**
+
+**MODEL:** Grok xAI  
+
+**REASONING WEAKNESS IDENTIFIED:** I placed too many bets (9 individual plus a parlay) on a 15-game slate despite the core principle that a great analyst passes far more than they bet, leading to several marginal edges receiving 1- and 3-unit commitments.  
+
+**PROPOSED PROMPT INSTRUCTION:** "Adopt a high bar for action. Only recommend a bet when you can identify a clear market inefficiency supported by at least two independent pre-game factors that are not heavily correlated, and default to PASS on any game where the edge is thinner than 4%."  
+
+**WHY THIS ADDRESSES THE WEAKNESS:** It directly enforces selectivity and prevents spreading units across too many games where one or both legs of the reasoning were marginal.  
+
+**SOURCE OF THIS INSIGHT:** Overall slate performance — five losses on 1- and 3-unit bets (SD, NYY-1.5, CHW, AZ, SEA) that lacked sufficiently distinct supporting factors.  
+
+**EXPECTED IMPACT:** HIGH
+══════════════════════════════════════════════════════════════════
+MODEL: ChatGPT 5.2-high
+SLATE: MLB — June 2, 2026  
+REVIEW TYPE: Post-game analysis — pre-game reasoning only  
+
+---
+
+## SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET:  
+CHW @ MIN — CHW ML -118 (3 units)
+
+RESULT: LOSS
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+
+IF NO —  
+NEW BEST BET:  
+SF @ MIL — MIL -1.5 RL +160
+
+WHY:  
+Pre-game, this had multiple independent advantages all pointing the same way—large team-quality gap (records + run differential), a large starter surface-stat gap (Harrison vs McDonald), and a plus-money “efficient favorite” expression on the run line. By contrast, CHW relied more heavily on a single-node starter mismatch where the opponent starter’s sample (39.1 IP) increased uncertainty that I didn’t price in appropriately for a 3-unit designation.
+
+SOURCE:  
+Provided slate team form (records/run diff/RS/RA), listed starter ERA/WHIP/IP, and listed prices.
+
+---
+
+## SECTION 2 — FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: SD @ PHI  
+ORIGINAL PICK: SD ML +120  
+RESULT: LOSS  
+GRADE: C  
+PROCESS ASSESSMENT — INCORRECT PITCHING EVALUATION  
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE  
+WHY: The bet leaned on a surface-stat SP edge (Vásquez 3.31 ERA/1.22 WHIP vs Nola 5.55/1.39) without validating whether Nola’s ERA reflected underlying skill (I didn’t have xFIP/xERA/K-BB% to confirm).  
+SOURCE: Provided slate pitcher lines; validation should have come from FanGraphs (xFIP/K-BB%) or Baseball Savant (xERA/contact quality).
+
+---
+
+GAME: MIA @ WAS  
+ORIGINAL PICK: MIA ML +103  
+RESULT: WIN  
+GRADE: A  
+PROCESS ASSESSMENT — CORRECT PROCESS, FAIR RESULT  
+WOULD YOU MAKE THIS BET AGAIN? YES  
+WHY: At near pick’em, I correctly valued the baserunner gap (Bachar 0.96 WHIP vs Lovelady 1.73 WHIP) as a meaningful pre-game edge indicator.  
+SOURCE: Provided slate pitcher WHIP and odds.
+
+---
+
+GAME: CLE @ NYY  
+ORIGINAL PICK: NYY -1.5 RL -102  
+RESULT: LOSS  
+GRADE: F  
+PROCESS ASSESSMENT — INCORRECT TEAM STRENGTH EVALUATION  
+WOULD YOU MAKE THIS BET AGAIN? NO  
+WHY: I treated NYY’s overall dominance and Schlittler’s line as sufficient to justify a margin bet, but I underweighted that CLE was a strong opponent (34-27, +1 run diff) that reduces the chance of a 2+ run win even when the favorite is “better.”  
+SOURCE: Provided slate team form (records/run diff) and odds; the run-line decision should have been tied to an explicit win-by-2 probability estimate.
+
+---
+
+GAME: KC @ CIN  
+ORIGINAL PICK: Over 9.0 -107  
+RESULT: LOSS  
+GRADE: D  
+PROCESS ASSESSMENT — MISREAD MARKET PRICE  
+WOULD YOU MAKE THIS BET AGAIN? NO  
+WHY: My case (park + “mid” starters) wasn’t strong enough to justify paying -107 into a widely efficient number, especially with KC’s weak offense context (3.8 RS/G) already in the slate.  
+SOURCE: Provided slate total/price, park, starters, and KC RS/G.
+
+---
+
+GAME: CHW @ MIN  
+ORIGINAL PICK: CHW ML -118 (3 units)  
+RESULT: LOSS  
+GRADE: D  
+PROCESS ASSESSMENT — SMALL SAMPLE SIZE TRAP  
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE  
+WHY: I upgraded to “STRONG” mainly off the apparent starter mismatch (Martin 2.61/1.11 vs Prielipp 5.26/1.35) despite Prielipp’s limited workload (39.1 IP), which increases uncertainty around those surface stats and should have capped conviction without deeper metrics.  
+SOURCE: Provided slate pitcher IP/ERA/WHIP and odds.
+
+---
+
+GAME: SF @ MIL  
+ORIGINAL PICK: MIL -1.5 RL +160  
+RESULT: WIN  
+GRADE: A  
+PROCESS ASSESSMENT — CORRECT PROCESS, FAIR RESULT  
+WOULD YOU MAKE THIS BET AGAIN? YES / HIGHER STAKE  
+WHY: The edge was supported by several aligned pre-game inputs (team run diff gap, MIL run prevention edge, and the starter gap), and the +160 price was attractive for a favorite likely to win by margin.  
+SOURCE: Provided slate team form + pitchers + odds.
+
+---
+
+GAME: ATH @ CHC  
+ORIGINAL PICK: Under 7.5 -105  
+RESULT: WIN  
+GRADE: B  
+PROCESS ASSESSMENT — CORRECT PROCESS, FAIR RESULT  
+WOULD YOU MAKE THIS BET AGAIN? YES  
+WHY: This was a run-environment bet driven by Wrigley + north wind + modest total, not a fragile “these two starters are aces” thesis.  
+SOURCE: Provided slate weather and total/price.
+
+---
+
+GAME: PIT @ HOU  
+ORIGINAL PICK: PIT ML +100  
+RESULT: WIN  
+GRADE: B  
+PROCESS ASSESSMENT — CORRECT PROCESS, FAIR RESULT  
+WOULD YOU MAKE THIS BET AGAIN? YES  
+WHY: In a coin-flip market, backing the better team profile (+31 run diff; 5.0 RS/G) at plus-money was a sound pre-game decision given both starters’ poor surface lines.  
+SOURCE: Provided slate team form and odds.
+
+---
+
+GAME: LAD @ AZ  
+ORIGINAL PICK: AZ ML +108  
+RESULT: LOSS  
+GRADE: C  
+PROCESS ASSESSMENT — CORRECT PROCESS, BAD VARIANCE  
+WOULD YOU MAKE THIS BET AGAIN? YES  
+WHY: The pre-game handicap had a coherent basis (Soroka’s better surface line vs Lauer, plus AZ strong home record) and the plus price offered cushion; nothing in the slate data contradicted taking a home dog with a listed SP edge.  
+SOURCE: Provided slate starter lines (ERA/WHIP/IP), home record, and odds.
+
+---
+
+GAME: NYM @ SEA  
+ORIGINAL PICK: Under 7.5 -118  
+RESULT: LOSS  
+GRADE: F  
+PROCESS ASSESSMENT — OTHER: STARTER ROLE / INNINGS UNCERTAINTY  
+WOULD YOU MAKE THIS BET AGAIN? NO  
+WHY: I used Brazobán’s excellent rate stats (1.86 ERA, 0.97 WHIP) while his very low IP (29.0) should have triggered a pre-game “workload/role risk” flag—critical for an under.  
+SOURCE: Provided slate pitcher IP; role/innings expectation should have been verified pre-game via probable pitcher context and recent usage.
+
+---
+
+GAME: PARLAY (CHW ML -118 / SD ML +120)  
+ORIGINAL PICK: +306 (1 unit)  
+RESULT: LOSS  
+GRADE: F  
+PROCESS ASSESSMENT — OTHER: PARLAYED THIN EDGES  
+WOULD YOU MAKE THIS BET AGAIN? NO  
+WHY: Both legs were driven by pitcher-surface-stat interpretations without deeper validation, so the parlay multiplied uncertainty rather than combining two truly independent strong edges.  
+SOURCE: Provided slate odds and starter lines; missing confirmation would have come from advanced pitching indicators and lineup context.
+
+---
+
+### PART B — GAMES YOU PASSED OR LEANED
+
+GAME: DET @ TB  
+YOUR CALL: PASS  
+FINAL RESULT: DET won 8-0  
+WAS THIS THE RIGHT CALL? UNCLEAR  
+IF NO OR UNCLEAR —  
+WHAT DID YOU MISS: TB was priced like a firm favorite despite Matz’s poor surface line (5.48 ERA), and DET had a best price of +131—there may have been underdog value purely on price vs SP volatility.  
+SOURCE: Provided slate odds and starter ERA/WHIP.  
+WOULD THIS HAVE BECOME A BET? MAYBE  
+
+---
+
+GAME: BAL @ BOS  
+YOUR CALL: LEAN  
+FINAL RESULT: BAL won 4-2  
+WAS THIS THE RIGHT CALL? NO  
+WHAT DID YOU MISS: Boston’s extreme home struggles (9-20) plus BAL’s stronger scoring (4.6 RS/G) likely justified turning the lean into a 1-unit dog ML bet at the best price (+123).  
+SOURCE: Provided slate home record, RS/G, and best price.  
+WOULD THIS HAVE BECOME A BET? YES  
+
+---
+
+GAME: TOR @ ATL  
+YOUR CALL: LEAN  
+FINAL RESULT: ATL won 4-3  
+WAS THIS THE RIGHT CALL? YES  
+IF NO OR UNCLEAR — N/A  
+
+---
+
+GAME: TEX @ STL  
+YOUR CALL: LEAN  
+FINAL RESULT: TEX won 7-4  
+WAS THIS THE RIGHT CALL? UNCLEAR  
+IF NO OR UNCLEAR —  
+WHAT DID YOU MISS: The slate offered STL as high as +100 while I leaned TEX -110; that suggests this was closer to a pure coin flip than I treated it, and I should have either passed fully or required a stronger, sourced pitching edge to lean.  
+SOURCE: Provided slate best prices and starter lines.  
+WOULD THIS HAVE BECOME A BET? NO  
+
+---
+
+GAME: COL @ LAA  
+YOUR CALL: PASS  
+FINAL RESULT: COL won 8-2  
+WAS THIS THE RIGHT CALL? NO  
+WHAT DID YOU MISS: This was two similarly poor teams by record (both 23-38), yet LAA was -159 with a starter showing a very poor surface line (Rodriguez 7.04 ERA, limited IP); that combination made COL ML (+141) a plausible value position pre-game.  
+SOURCE: Provided slate records, starter stats, and odds.  
+WOULD THIS HAVE BECOME A BET? MAYBE  
+
+---
+
+## SECTION 3 — IMPROVEMENT REQUESTS
+
+TYPE: STAT  
+ITEM: Add starter skill indicators (K-BB%, xFIP/SIERA, Statcast xERA, hard-hit%, GB%) next to ERA/WHIP.  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: https://www.fangraphs.com/ (K-BB%, xFIP, SIERA), https://baseballsavant.mlb.com/ (xERA, hard-hit%, barrels)  
+WHICH GAME(S): SD @ PHI; CHW @ MIN; LAD @ AZ  
+WOULD HAVE CHANGED A BET? YES  
+WOULD HAVE CHANGED BEST BET? YES  
+WHY: Would have prevented overconfidence based on surface ERA/WHIP gaps and likely reduced stake (CHW) and/or changed sides (SD) depending on underlying quality.  
+EXPECTED IMPACT: HIGH  
+
+---
+
+TYPE: DATA  
+ITEM: Starter role & expected length (confirmed “true starter” vs opener, recent pitch counts/innings).  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: https://www.mlb.com/probable-pitchers , https://www.rotowire.com/baseball/mlb-lineups.php  
+WHICH GAME(S): NYM @ SEA  
+WOULD HAVE CHANGED A BET? YES  
+WOULD HAVE CHANGED BEST BET? NO  
+WHY: Would have highlighted high bullpen-exposure risk, making an Under 7.5 materially less attractive.  
+EXPECTED IMPACT: HIGH  
+
+---
+
+TYPE: DATA  
+ITEM: Confirmed lineups and key absences (rest days), plus team splits vs LHP/RHP (wRC+).  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: https://www.mlb.com/starting-lineups , https://www.fangraphs.com/leaders/splits-leaderboards  
+WHICH GAME(S): CHW @ MIN; DET @ TB; BAL @ BOS  
+WOULD HAVE CHANGED A BET? MAYBE  
+WOULD HAVE CHANGED BEST BET? MAYBE  
+WHY: Would have tested whether my “starter edge” bets were actually supported (or offset) by lineup strength and platoon matchups that are not visible in RS/G alone.  
+EXPECTED IMPACT: MEDIUM  
+
+---
+
+TYPE: DATA  
+ITEM: Bullpen availability/usage (top 5 relievers pitches thrown last 3 days; closer availability).  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: https://www.fangraphs.com/ (reliever game logs), https://baseballsavant.mlb.com/ (pitcher logs)  
+WHICH GAME(S): NYY -1.5 (CLE @ NYY); totals (KC @ CIN; NYM @ SEA)  
+WOULD HAVE CHANGED A BET? MAYBE  
+WOULD HAVE CHANGED BEST BET? MAYBE  
+WHY: Helps price late-inning run environment, which is pivotal for run lines and low totals.  
+EXPECTED IMPACT: MEDIUM  
+
+---
+
+## SECTION 4 — TOP 3 IMPROVEMENTS
+
+RANK 1  
+TYPE: STAT  
+ITEM: Starter advanced indicators (K-BB%, xFIP/SIERA, xERA/contact quality) included in the slate.  
+WHY: Reduces the biggest error mode shown here—overweighting ERA/WHIP gaps when they may not reflect true talent.  
+SOURCE WHERE THIS IS AVAILABLE: https://www.fangraphs.com/ , https://baseballsavant.mlb.com/  
+EXPECTED ROI IMPROVEMENT: HIGH  
+
+RANK 2  
+TYPE: DATA  
+ITEM: Starter role/expected innings (opener flag + recent pitch counts).  
+WHY: Directly addresses my NYM @ SEA Under mistake driven by low-IP uncertainty.  
+SOURCE WHERE THIS IS AVAILABLE: https://www.mlb.com/probable-pitchers , https://www.rotowire.com/baseball/mlb-lineups.php  
+EXPECTED ROI IMPROVEMENT: HIGH  
+
+RANK 3  
+TYPE: DATA  
+ITEM: Confirmed lineups + platoon splits (wRC+ vs RHP/LHP).  
+WHY: Would have prevented leaning too hard on pitching alone in borderline prices (CHW best bet; BAL lean).  
+SOURCE WHERE THIS IS AVAILABLE: https://www.mlb.com/starting-lineups , https://www.fangraphs.com/leaders/splits-leaderboards  
+EXPECTED ROI IMPROVEMENT: MEDIUM  
+
+---
+
+## SECTION 5 — MASTER PROMPT CANDIDATE
+
+TYPE: STAT  
+ITEM: Starter K-BB% and xFIP (or SIERA) for each listed starting pitcher.
+
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT:  
+It closes the core gap that led to overconfidence from ERA/WHIP by adding skill-based measures that are more predictive.
+
+SOURCE WHERE THIS IS AVAILABLE:  
+https://www.fangraphs.com/ (Pitching leaderboards; player pages)
+
+WOULD HAVE CHANGED A BET? YES  
+WOULD HAVE CHANGED BEST BET? YES  
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES  
+
+---
+
+## SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: ChatGPT 5.2-high
+
+REASONING WEAKNESS IDENTIFIED:  
+I escalated conviction (units) from surface-stat pitcher gaps without explicitly quantifying uncertainty (sample size/role) and without computing a fair price before comparing to the market.
+
+PROPOSED PROMPT INSTRUCTION:  
+“Before assigning 3+ units, you must (1) compute a rough fair moneyline from your own estimated win probability *before* referencing the listed odds, and (2) list two uncertainty flags (sample size, role/innings expectation, lineup unknowns, bullpen state). If any flag materially affects the bet’s thesis, cap the stake at 1 unit unless you can justify why the edge survives that uncertainty.”
+
+WHY THIS ADDRESSES THE WEAKNESS:  
+It forces price discipline and prevents high-stake plays when the key edge driver is volatile or not fully supported by the available context.
+
+SOURCE OF THIS INSIGHT:  
+CHW @ MIN as a 3-unit best bet (opponent starter only 39.1 IP) and NYM @ SEA Under relying on a 29.0 IP “starter” profile without workload verification.
+
+EXPECTED IMPACT: HIGH
+══════════════════════════════════════════════════════════════════
+
+
+MODEL: ChatGPT-5.5
+SLATE: MLB — [date will be filled by operator]
+REVIEW TYPE: Post-game analysis — pre-game reasoning only
+
+INTEGRITY STATEMENT:
+
+I recognized that several of these games had already been completed and that results were available at the time of this review. I did not use game outcomes to evaluate the original picks. All assessments above were based solely on the information that was available before first pitch and on whether the original reasoning was justified by that pre-game information. Where I classified a pick as "CORRECT PROCESS, BAD VARIANCE," I did so only when the pre-game edge was supported by identifiable data that remained valid at the time the wager was made. Where I could not make that case, I assigned an evaluation-error category instead.
+
+# SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: SD ML +120 (3 units)
+
+RESULT: LOSS
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+
+IF NO — NEW BEST BET: MIL -1.5 RL +118
+
+WHY: Milwaukee possessed simultaneous advantages in starting pitching (1.57 ERA vs 4.50 ERA), team quality (.632 vs .383), run differential (+88 vs -62), recent form, and home field. Unlike several other bets, the edge was supported by multiple independent indicators rather than primarily a pitching mismatch.
+
+SOURCE: Provided slate data (pitcher statistics, team records, run differential, home/away splits)
+
+---
+
+# SECTION 2 — FULL SLATE REVIEW
+
+## PART A — GAMES YOU BET
+
+GAME: DET @ TB
+ORIGINAL PICK: DET ML +131
+RESULT: WIN
+
+GRADE: B
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: The market priced Tampa as a substantial favorite despite Matz carrying a 5.48 ERA and Detroit receiving a large underdog price.
+
+SOURCE: Provided pitcher and odds data.
+
+---
+
+GAME: SD @ PHI
+ORIGINAL PICK: SD ML +120
+RESULT: LOSS
+
+GRADE: C
+
+PROCESS ASSESSMENT: INCORRECT TEAM STRENGTH EVALUATION
+
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+
+WHY: I focused heavily on Nola's poor season ERA and not enough on the possibility that the market was pricing broader team quality and underlying talent.
+
+SOURCE: Provided pitcher statistics and market price.
+
+---
+
+GAME: BAL @ BOS
+ORIGINAL PICK: BAL ML +123
+RESULT: WIN
+
+GRADE: B
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: Baltimore had superior offensive production and stronger recent form while receiving plus money.
+
+SOURCE: Team form and pricing data.
+
+---
+
+GAME: CLE @ NYY
+ORIGINAL PICK: NYY -1.5 RL -102
+RESULT: LOSS
+
+GRADE: D
+
+PROCESS ASSESSMENT: SMALL SAMPLE SIZE TRAP
+
+WOULD YOU MAKE THIS BET AGAIN? NO
+
+WHY: I relied heavily on Schlittler's elite surface numbers despite a relatively limited sample and insufficiently respected Cleveland's solid overall profile.
+
+SOURCE: Provided pitcher statistics.
+
+---
+
+GAME: CHW @ MIN
+ORIGINAL PICK: CHW ML -118
+RESULT: LOSS
+
+GRADE: D
+
+PROCESS ASSESSMENT: INCORRECT PITCHING EVALUATION
+
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+
+WHY: The handicap depended primarily on Davis Martin's season numbers versus Prielipp's poor ERA, and that edge appears to have been overstated.
+
+SOURCE: Provided pitcher statistics.
+
+---
+
+GAME: SF @ MIL
+ORIGINAL PICK: MIL -1.5 RL +118
+RESULT: WIN
+
+GRADE: A
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: Pitching, run differential, team strength, home field and form all aligned on the same side.
+
+SOURCE: Provided team and pitcher data.
+
+---
+
+GAME: TEX @ STL
+ORIGINAL PICK: TEX ML -110
+RESULT: WIN
+
+GRADE: B
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: Eovaldi appeared superior to May and Texas had the better run differential despite similar pricing.
+
+SOURCE: Provided pitcher and team data.
+
+---
+
+GAME: ATH @ CHC
+ORIGINAL PICK: ATH ML +110
+RESULT: WIN
+
+GRADE: B
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: Taillon's profile did not justify Chicago being favored to the degree implied by the market.
+
+SOURCE: Provided pitcher and market data.
+
+---
+
+GAME: PIT @ HOU
+ORIGINAL PICK: OVER 9 -108
+RESULT: WIN
+
+GRADE: B
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: Both starters entered with poor ERA and WHIP profiles while both offenses were capable of scoring.
+
+SOURCE: Provided pitching and scoring data.
+
+---
+
+GAME: COL @ LAA
+ORIGINAL PICK: COL ML +141
+RESULT: WIN
+
+GRADE: A
+
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: The teams were comparable overall while the market heavily discounted Colorado despite the apparent pitching advantage.
+
+SOURCE: Provided pitcher, team and odds data.
+
+---
+
+GAME: AZ @ LAD
+ORIGINAL PICK: AZ ML +108
+RESULT: LOSS
+
+GRADE: B
+
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+
+WOULD YOU MAKE THIS BET AGAIN? YES
+
+WHY: Soroka's season profile was materially stronger than Lauer's and Arizona owned a strong home record while receiving plus money.
+
+SOURCE: Provided pitcher statistics and home split data.
+
+---
+
+GAME: NYM @ SEA
+ORIGINAL PICK: NYM ML +130
+RESULT: LOSS
+
+GRADE: C
+
+PROCESS ASSESSMENT: SMALL SAMPLE SIZE TRAP
+
+WOULD YOU MAKE THIS BET AGAIN? NO
+
+WHY: Brazobán's excellent numbers came in only 29 innings, which was insufficient evidence to oppose a proven starter like Gilbert.
+
+SOURCE: Provided pitcher statistics.
+
+---
+
+GAME: PARLAY (SD ML +120 / AZ ML +108)
+
+RESULT: LOSS
+
+GRADE: D
+
+PROCESS ASSESSMENT: MISREAD MARKET PRICE
+
+WOULD YOU MAKE THIS BET AGAIN? NO
+
+WHY: Both legs depended primarily on pitcher-era-based value arguments and neither represented the strongest edge profile on the slate.
+
+SOURCE: Original analysis.
+
+---
+
+## PART B — GAMES YOU PASSED OR LEANED
+
+GAME: MIA @ WAS
+YOUR CALL: PASS
+FINAL RESULT: MIA won 7-3
+
+WAS THIS THE RIGHT CALL? YES
+
+IF NO OR UNCLEAR — WHAT DID YOU MISS: N/A
+
+SOURCE: N/A
+
+WOULD THIS HAVE BECOME A BET? NO
+
+---
+
+GAME: KC @ CIN
+YOUR CALL: PASS
+FINAL RESULT: CIN won 4-2
+
+WAS THIS THE RIGHT CALL? YES
+
+IF NO OR UNCLEAR — WHAT DID YOU MISS: N/A
+
+SOURCE: N/A
+
+WOULD THIS HAVE BECOME A BET? NO
+
+---
+
+GAME: TOR @ ATL
+YOUR CALL: PASS
+FINAL RESULT: ATL won 4-3
+
+WAS THIS THE RIGHT CALL? YES
+
+IF NO OR UNCLEAR — WHAT DID YOU MISS: N/A
+
+SOURCE: N/A
+
+WOULD THIS HAVE BECOME A BET? NO
+
+---
+
+GAME: DET @ TB
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: BAL @ BOS
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: CLE @ NYY
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: CHW @ MIN
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: SF @ MIL
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: TEX @ STL
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: ATH @ CHC
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: PIT @ HOU
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: COL @ LAA
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: AZ @ LAD
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+GAME: NYM @ SEA
+
+YOUR CALL: BET
+
+Reviewed in Part A.
+
+---
+
+# SECTION 3 — IMPROVEMENT REQUESTS
+
+TYPE: DATA
+
+ITEM: Starter sample-size flag (automatic warning when pitcher statistics are derived from fewer than ~40 innings)
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: Baseball Savant, FanGraphs
+
+WHICH GAME(S): CLE@NYY, NYM@SEA
+
+WOULD HAVE CHANGED A BET? YES
+
+WOULD HAVE CHANGED BEST BET? NO
+
+WHY: It would have reduced confidence in small-sample pitching edges.
+
+EXPECTED IMPACT: HIGH
+
+---
+
+TYPE: DATA
+
+ITEM: Projected lineups and lineup-strength differential
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: MLB lineups, Rotowire, FanGraphs
+
+WHICH GAME(S): SD@PHI, CLE@NYY, AZ@LAD
+
+WOULD HAVE CHANGED A BET? MAYBE
+
+WOULD HAVE CHANGED BEST BET? YES
+
+WHY: Several picks relied primarily on starting pitchers while ignoring lineup quality.
+
+EXPECTED IMPACT: HIGH
+
+---
+
+TYPE: DATA
+
+ITEM: Bullpen ERA/FIP and recent bullpen workload
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: FanGraphs bullpen leaderboard
+
+WHICH GAME(S): SD@PHI, CLE@NYY, AZ@LAD
+
+WOULD HAVE CHANGED A BET? MAYBE
+
+WOULD HAVE CHANGED BEST BET? YES
+
+WHY: Full-game wagers were evaluated too heavily through the starting-pitching lens.
+
+EXPECTED IMPACT: HIGH
+
+---
+
+TYPE: PROMPT
+
+ITEM: Require explicit fair-moneyline estimate before viewing market odds
+
+AVAILABLE BEFORE FIRST PITCH? YES
+
+SOURCE: Reasoning process
+
+WHICH GAME(S): Entire slate
+
+WOULD HAVE CHANGED A BET? YES
+
+WOULD HAVE CHANGED BEST BET? YES
+
+WHY: Helps prevent anchoring on available prices.
+
+EXPECTED IMPACT: HIGH
+
+---
+
+# SECTION 4 — TOP 3 IMPROVEMENTS
+
+RANK 1
+
+TYPE: PROMPT
+
+ITEM: Require explicit fair-moneyline estimate before viewing market odds
+
+WHY: Reduces anchoring and forces independent valuation.
+
+SOURCE WHERE THIS IS AVAILABLE: Reasoning process
+
+EXPECTED ROI IMPROVEMENT: HIGH
+
+---
+
+RANK 2
+
+TYPE: DATA
+
+ITEM: Projected lineups and lineup-strength differential
+
+WHY: Several losses stemmed from focusing too narrowly on starting pitching.
+
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs, Rotowire
+
+EXPECTED ROI IMPROVEMENT: HIGH
+
+---
+
+RANK 3
+
+TYPE: DATA
+
+ITEM: Bullpen ERA/FIP and recent workload
+
+WHY: Full-game wagers require team-wide run-prevention assessment.
+
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs bullpen leaderboards
+
+EXPECTED ROI IMPROVEMENT: HIGH
+
+---
+
+# SECTION 5 — MASTER PROMPT CANDIDATE
+
+TYPE: DATA
+
+ITEM: Projected lineup strength versus handedness for both teams
+
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: It closes the largest gap created when betting primarily from starting-pitcher statistics.
+
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs projected lineups and splits
+
+WOULD HAVE CHANGED A BET? YES
+
+WOULD HAVE CHANGED BEST BET? YES
+
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES
+
+---
+
+# SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: ChatGPT-5.5
+
+REASONING WEAKNESS IDENTIFIED: I overweighted season ERA mismatches and underweighted uncertainty from small samples and overall team-strength differences.
+
+PROPOSED PROMPT INSTRUCTION: "Before assigning 3 or more units, estimate a fair moneyline using team strength, lineup quality, bullpen quality and starting pitching separately. If more than 50% of the edge comes from the starting-pitching component alone, reduce the stake by one level."
+
+WHY THIS ADDRESSES THE WEAKNESS: It prevents large bets from being driven primarily by potentially misleading pitcher statistics.
+
+SOURCE OF THIS INSIGHT: SD ML, CLE@NYY, NYM@SEA and CHW@MIN.
+
+EXPECTED IMPACT: HIGH
+
+══════════════════════════════════════════════════════════════════
+
+
+MODEL: Kimi K2.6
+SLATE: MLB — Tuesday, June 2 2026
+REVIEW TYPE: Post-game analysis — pre-game reasoning only
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 1 — BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: MIL -1.5 +118 (Game 9)
+
+RESULT: WIN
+
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+
+IF NO — 
+  NEW BEST BET: N/A
+
+  WHY: N/A
+
+  SOURCE: N/A
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 2 — FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: SD @ PHI
+ORIGINAL PICK: SD ML +113
+RESULT: LOSS
+GRADE: C
+PROCESS ASSESSMENT: UNDERWEIGHTED RECENT FORM
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: I relied on the Vásquez-over-Nola pitching gap but ignored that the Padres were 3-7 in their last 10 with a negative run differential, while the Phillies were 6-4 and playing at home.
+SOURCE: Provided data — team form section (last 10, run differential, home/away records).
+
+---
+
+GAME: CLE @ NYY
+ORIGINAL PICK: NYY -1.5 -102
+RESULT: LOSS
+GRADE: B
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: The pre-game data was accurate — Schlittler had a 1.89 ERA and 0.86 WHIP, the Yankees had a +98 run differential and were 17-9 at home — but a 9-4 loss to a winning team is a severe outlier that no pre-game model would predict.
+SOURCE: Provided data — starting pitcher stats and team form.
+
+---
+
+GAME: CHW @ MIN
+ORIGINAL PICK: CHW ML -118
+RESULT: LOSS
+GRADE: B
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Martin had a 2.61 ERA and 1.11 WHIP against Prielipp’s 5.26 ERA and 1.35 WHIP, and the White Sox had the better run differential and recent form; a 4-6 loss is within normal variance for a close game.
+SOURCE: Provided data — starting pitcher stats and team form.
+
+---
+
+GAME: SF @ MIL
+ORIGINAL PICK: MIL -1.5 +118
+RESULT: WIN
+GRADE: A
+PROCESS ASSESSMENT: CORRECT PROCESS, FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Harrison’s 1.57 ERA and 1.03 WHIP against McDonald’s 4.50 ERA, combined with Milwaukee’s +88 run differential and 20-11 home record versus San Francisco’s -62 run differential and 11-21 away record, created the most lopsided pre-game profile on the slate.
+SOURCE: Provided data — starting pitcher stats and team form.
+
+---
+
+GAME: PARLAY (SD ML +113 / CHW ML -118)
+ORIGINAL PICK: 2-leg moneyline parlay, combined price +293
+RESULT: LOSS
+GRADE: D
+PROCESS ASSESSMENT: CORRECT PROCESS, BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: Both legs were independently sound based on pitcher mismatches, but parlaying them concentrated variance without adding edge; the same capital would have been better risked as two separate straight bets.
+SOURCE: Provided data — my own game-by-game analysis.
+
+---
+
+PART B — GAMES YOU PASSED OR LEANED
+
+GAME: DET @ TB
+YOUR CALL: PASS
+FINAL RESULT: DET won 8-0, blowout
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: BAL @ BOS
+YOUR CALL: LEAN: BAL
+FINAL RESULT: BAL won 4-2
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: MIA @ WSH
+YOUR CALL: PASS
+FINAL RESULT: MIA won 7-3
+WAS THIS THE RIGHT CALL? UNCLEAR
+WHAT DID YOU MISS: Bachar’s 0.96 WHIP and 3.45 ERA were significantly stronger than Lovelady’s 1.73 WHIP, and Washington was 12-19 at home with a negative run differential; the pick’em price may have undervalued Miami’s starter quality.
+SOURCE: Provided data — starting pitcher stats and team home records.
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: KC @ CIN
+YOUR CALL: PASS
+FINAL RESULT: CIN won 4-2
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: TOR @ ATL
+YOUR CALL: PASS
+FINAL RESULT: ATL won 4-3
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: TEX @ STL
+YOUR CALL: LEAN: TEX
+FINAL RESULT: TEX won 7-4
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: ATH @ CHC
+YOUR CALL: PASS
+FINAL RESULT: ATH won 2-1
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: PIT @ HOU
+YOUR CALL: PASS
+FINAL RESULT: PIT won 10-6
+WAS THIS THE RIGHT CALL? NO
+WHAT DID I MISS: Pittsburgh’s +31 run differential and 5.0 RS/G versus Houston’s -33 run differential and 4.4 RS/G represented a massive team-quality edge that the pick’em market ignored; both starters were poor, so the team gap should have dominated the handicap.
+SOURCE: Provided data — team form section (run differential, RS/G, RA/G).
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+GAME: COL @ LAA
+YOUR CALL: LEAN: COL
+FINAL RESULT: COL won 8-2
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: LAD @ AZ
+YOUR CALL: LEAN: AZ
+FINAL RESULT: LAD won 6-5
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: NYM @ SEA
+YOUR CALL: PASS
+FINAL RESULT: NYM won 8-3
+WAS THIS THE RIGHT CALL? YES
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 3 — IMPROVEMENT REQUESTS
+
+TYPE: STAT
+ITEM: Starting pitcher FIP, xFIP, and SIERA alongside surface ERA/WHIP
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: FanGraphs free leaderboards and player pages (fangraphs.com)
+WHICH GAME(S): SD @ PHI, CLE @ NYY
+WOULD HAVE CHANGED A BET? YES
+WOULD HAVE CHANGED BEST BET? NO
+WHY: Nola’s 5.55 ERA may have been inflated by poor defense or sequencing; if his FIP was significantly lower, the SD edge evaporates. Schlittler’s 1.89 ERA may have been supported by a low BABIP; FIP would reveal true talent.
+EXPECTED IMPACT: HIGH
+
+---
+
+TYPE: DATA
+ITEM: Projected lineups and injury status for key position players
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: MLB.com starting lineups and Rotowire injury reports
+WHICH GAME(S): CLE @ NYY, CHW @ MIN, SD @ PHI
+WOULD HAVE CHANGED A BET? YES
+WOULD HAVE CHANGED BEST BET? NO
+WHY: A missing middle-of-the-order bat or a rested regular returning can swing expected run output by 0.5–1.0 runs, directly impacting moneyline and run line probabilities.
+EXPECTED IMPACT: HIGH
+
+---
+
+TYPE: STAT
+ITEM: Team BaseRuns differential (estimated run differential based on underlying offensive components)
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: FanGraphs team standings pages (BaseRuns column)
+WHICH GAME(S): PIT @ HOU, CHW @ MIN
+WOULD HAVE CHANGED A BET? YES
+WOULD HAVE CHANGED BEST BET? NO
+WHY: Actual run differential can be skewed by clutch luck or bullpen sequencing; BaseRuns would confirm whether Pittsburgh’s +31 and Houston’s -33 were earned or noisy, validating the missed edge.
+EXPECTED IMPACT: MEDIUM
+
+---
+
+TYPE: STAT
+ITEM: Bullpen ERA and total innings pitched over the previous 3 days
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: Baseball-Reference bullpen pages (baseball-reference.com)
+WHICH GAME(S): CLE @ NYY, CHW @ MIN
+WOULD HAVE CHANGED A BET? MAYBE
+WOULD HAVE CHANGED BEST BET? NO
+WHY: A taxed or high-ERA bullpen increases the probability that a starter’s lead is lost in the middle innings, which is especially damaging to run line bets that require late-game dominance.
+EXPECTED IMPACT: MEDIUM
+
+---
+
+TYPE: STAT
+ITEM: Team wOBA and wRC+ splits versus pitcher handedness
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: FanGraphs team splits pages
+WHICH GAME(S): CHW @ MIN, PIT @ HOU
+WOULD HAVE CHANGED A BET? MAYBE
+WOULD HAVE CHANGED BEST BET? NO
+WHY: A lineup stacked with left-handed power against a struggling lefty starter (e.g., Prielipp) should produce higher expected runs than season averages, altering the win probability.
+EXPECTED IMPACT: MEDIUM
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 4 — TOP 3 IMPROVEMENTS
+
+RANK 1
+  TYPE: STAT
+  ITEM: Starting pitcher FIP, xFIP, and SIERA
+  WHY: Surface ERA is the noisiest input in my model; replacing it with FIP would have immediately flagged whether Nola’s 5.55 was a trap and whether Schlittler’s 1.89 was sustainable.
+  SOURCE WHERE THIS IS AVAILABLE: FanGraphs (fangraphs.com)
+  EXPECTED ROI IMPROVEMENT: HIGH
+
+RANK 2
+  TYPE: DATA
+  ITEM: Projected lineups and injury status
+  WHY: My run line and moneyline bets assume full-strength lineups; missing even one elite hitter can turn a -1.5 cover into a loss, and this data is available hours before first pitch.
+  SOURCE WHERE THIS IS AVAILABLE: MLB.com / Rotowire
+  EXPECTED ROI IMPROVEMENT: HIGH
+
+RANK 3
+  TYPE: STAT
+  ITEM: Team BaseRuns differential
+  WHY: It would have validated the PIT @ HOU pass as a clear mistake by confirming Pittsburgh’s underlying quality advantage was real, not sequencing luck.
+  SOURCE WHERE THIS IS AVAILABLE: FanGraphs team standings
+  EXPECTED ROI IMPROVEMENT: MEDIUM
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 5 — MASTER PROMPT CANDIDATE
+
+TYPE: STAT
+ITEM: Starting pitcher FIP, xFIP, and SIERA alongside surface ERA/WHIP
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: ERA is defense-dependent and heavily influenced by BABIP luck and sequencing; providing FIP and xFIP strips out these noise factors and reveals whether a pitcher’s surface stats are trustworthy or misleading, which is essential for every pitching matchup evaluation.
+SOURCE WHERE THIS IS AVAILABLE: FanGraphs free leaderboards and API (fangraphs.com)
+WOULD HAVE CHANGED A BET? YES
+WOULD HAVE CHANGED BEST BET? NO
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES
+
+══════════════════════════════════════════════════════════════════
+
+SECTION 6 — MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: Kimi K2.6
+
+REASONING WEAKNESS IDENTIFIED: I overweight starting pitcher surface stats (ERA/WHIP) and underweight overall team quality (run differential, RS/G, recent form), causing me to overbet isolated pitching mismatches and to miss team-quality edges when both starters are mediocre.
+
+PROPOSED PROMPT INSTRUCTION: "Before finalizing any pick, state the gap in team run differential, runs scored per game, and last-10 record. Downgrade any pick to a lean if it is based primarily on starting pitcher ERA/WHIP but the team has a losing last-10 record. Do not bet a -1.5 run line against an opponent with a winning record. Upgrade to 1 unit any team that leads in all three team-quality metrics and is priced within 15 cents of its opponent even if starting pitching is neutral."
+
+WHY THIS ADDRESSES THE WEAKNESS: It forces a mandatory team-quality check that prevents me from betting pitching alone on slumping teams (SD @ PHI) and from taking run lines against competent opponents (CLE @ NYY), while also surfacing hidden edges in games I wrongly passed (PIT @ HOU).
+
+SOURCE OF THIS INSIGHT: SD @ PHI bet (ignored Padres 3-7 last 10), CLE @ NYY run line loss (ignored Guardians 34-27 winning record), and PIT @ HOU pass (ignored +31 vs -33 run differential and 5.0 vs 4.4 RS/G gap).
+
+EXPECTED IMPACT: MEDIUM
+
+══════════════════════════════════════════════════════════════════

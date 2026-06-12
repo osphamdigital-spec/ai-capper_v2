@@ -1,0 +1,91 @@
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: MIA has better recent form and a slight pitching edge, but the moneyline prices are tight and reflect the matchup accurately. Merrill Kelly's recent struggles are balanced by Miami's depleted high-leverage bullpen availability, leaving no clear pricing mistake.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both teams are struggling with negative run differentials and both starters have posted poor recent xFIPs over their last 14 days. The market has priced this as a coin-flip game, which aligns with the underlying metrics, offering no edge on either side.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: STL ML
+PRICE: +120
+UNITS: 1
+EDGE: 4.6 pts
+TOTAL LEAN: Under
+REASON: Christian Scott's 2.50 ERA is masking a 4.23 xERA, indicating significant negative regression is due, supported by his underlying peripherals. STL holds a decisive advantage in all three team quality metrics (run differential, RS/G, L10 RS/G), making the plus-money price on the road underdog a clear value spot against a heavily favored Mets team.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: Under 10.0
+PRICE: -103
+UNITS: 1
+EDGE: 19.3 pts
+TOTAL LEAN: Under
+REASON: The posted total of 10.0 is wildly inflated compared to the season run-scoring averages (8.15 estimated runs) and even the L10 averages (9.0 estimated runs) for these two offenses. Both starters have xERAs near or below 4.50, and the neutral-to-pitcher-friendly park factor at Kauffman further suppresses the run environment, creating a massive gap against the market line.
+LOOKED UP: noted suspect/stale book data for best-TT prices, relied on median line
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Coors Field always inflates totals, and the 11.0 line is already pricing in the extreme run environment and poor bullpens. While the Over is the correct directional lean, the price is efficiently set for the altitude variance, and the Cubs' recent offensive slump (3.1 L10 RS/G) makes laying heavy juice or betting a high-variance total unappealing.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: The Dodgers are the better team but are priced as heavy favorites (-161) against a Pirates squad that has been hitting well recently (6.3 L10 RS/G). Mitch Keller's poor recent form is factored into the steep moneyline, leaving no mathematical edge on the ML, while the total is efficiently priced around the strong pitching matchup.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Bryan Woo is the superior pitcher, but Seattle's taxed bullpen and Baltimore's potent recent offense (5.8 L10 RS/G) balance the matchup closely. The moneyline is priced tightly around a coin-flip probability, and the total of 8.5 accurately reflects the conflicting signals of Woo's elite xERA versus the Orioles' home run-friendly park and Seattle's bullpen fatigue.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The White Sox starter is listed as TBD, which is an unresolved structural risk that makes any edge calculation invalid. Per professional betting standards, games with unknown pitching matchups must be passed regardless of team quality or offensive metrics.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

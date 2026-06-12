@@ -1,0 +1,140 @@
+GAME: ALL SLATE
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: You provided no game-level data (starting pitchers, lines, odds, or matchups) for June 3, 2026, so I cannot identify mispriced markets. Without line info, injuries, bullpen usage, or weather, any pick would be speculation rather than an edge-based play.
+LOOKED UP: nothing, used provided data only
+
+GAME: MLB_SLATE @ ALL_GAMES
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: No game-specific lines, starting pitchers, or prices were provided in the prompt, so I can't identify mispriced markets or construct value bets. Please supply the matchups and odds (or starter info) and I will run a full pre-game analysis with unit recommendations.
+LOOKED UP: nothing, used provided data only
+
+GAME: CHW @ MIN
+
+PICK: CHW +ML
+PRICE: +132
+UNITS: 1
+EDGE: THIN
+REASON: Taj Bradley is the better starter on paper, but the Twins have been slumping (3-7 L10) with a taxed late-inning corps while Chicago is hitting well and riding a 7-3 stretch. Erick Fedde is hittable and the White Sox lineup should be able to stay competitive; +132 implies only ~43% win equity which I think understates CHW’s real upset chances given form and bullpen concerns in MIN. Small, exploitable mismatch — not a smash but worth a single-unit play.
+LOOKED UP: nothing, used provided data only
+
+GAME: DET @ TB
+
+PICK: DET +ML
+PRICE: +124
+UNITS: 1
+EDGE: THIN
+REASON: Nick Martinez’s 2.29 ERA hides a 4.15 xERA, suggesting he’s been getting lucky and could be vulnerable to regression; Tampa’s bullpen was heavily taxed yesterday, which raises the chance of late-inning damage. Detroit’s offense isn’t great, but the price on a low-sample young starter in Troy Melton (+124) looks too generous given Martinez’s underlying numbers and Tampa’s recent 2-8 skid. The dome neutralizes weather variance and gives value to backing the dog with a rested closer available for late-inning stability.
+LOOKED UP: [nothing, used provided data only]
+
+GAME: MIA @ WAS
+
+PICK: Over
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: Combined team scoring (MIA 4.3, WSH 5.3 = 9.6 RS/G) is well above the posted total of 8.0, and Max Meyer’s strong strikeout profile will likely limit baserunners rather than suppress run creation when facing a potent Washington lineup. Alvarez is a small-sample lefty (20.1 IP) who can be hittable and the Nats have been much stronger offensively at home; both bullpens show signs of being taxed which increases late-inning run risk. With the market nearly a pick’em on the ML, the total at 8.0 with Over available at +100 looks mispriced in favor of scoring upside.
+LOOKED UP: nothing, used provided data only
+
+GAME: SD @ PHI
+
+PICK: PHI -1.5 RL
+PRICE: +104
+UNITS: 3
+EDGE: STRONG
+REASON: Cristopher Sánchez has been dominant (1.46 ERA, 10.7 K/9) and projects to suppress the Padres lineup while Walker Buehler has been uneven; that raises the probability Philly wins by multiple runs. The public-heavy ML at -210 is poor value relative to PHI -1.5 at +104 — you’re getting essentially the same outcome for plus-money. Both bullpens are taxed, but Sánchez should eat enough innings to make the RL the superior market opportunity.
+LOOKED UP: [nothing, used provided data only]
+
+GAME: NYM @ SEA
+
+PICK: SEA + ML
+PRICE: -136
+UNITS: 1
+EDGE: THIN
+REASON: George Kirby’s underlying metrics (xERA 3.45 vs a 4.04 ERA) suggest he’s due for positive regression, while Freddy Peralta has outperformed his xERA (3.68) and could regress. Seattle is playing very well (8-2 L10), is +30 run differential and firmly in home form, while New York is a poor road team and has a taxed bullpen. Those factors make the home favorite a touch undervalued at this price.
+LOOKED UP: [nothing, used provided data only]
+
+GAME: BAL @ BOS
+
+PICK: BAL +ML
+PRICE: +124
+UNITS: 1
+EDGE: THIN
+REASON: Boston has been a below-average home team (9-20) with weak offense and a taxed bullpen, while Baltimore comes in 7-3 over their last 10 and scores more runs per game. Chris Bassitt has been hittable this year but the Sox starter is a young lefty — Tolle — and Boston’s lineup hasn’t taken full advantage at Fenway; the market is overstating the home edge by making BOS a -147 favorite. +124 on a red-hot road club facing a shaky home team/bullpen is a small, exploitable value play.
+LOOKED UP: nothing, used provided data only
+
+GAME: KC @ CIN
+
+PICK: Over
+PRICE: -108
+UNITS: 1
+EDGE: THIN
+REASON: Great American Ball Park is a hitter-friendly environment and Cincinnati is averaging 4.4 RS/G while allowing 5.0 RA/G, so the game context leans toward run-scoring. Both bullpens show recent heavy usage which raises the chance of late-inning runs, and Kansas City’s offense — while below average — is likely to push across some runs against a high-K starter in Chase Burns when the Reds pen gets involved. The total drifting down to 7.5 looks like an overreaction; 8.5 at -108 offers modest value for a game with starter/bullpen dynamics that favor scoring.
+LOOKED UP: [nothing, used provided data only]
+
+GAME: TOR @ ATL
+
+PICK: ATL + ML
+PRICE: -143
+UNITS: 1
+EDGE: REAL
+REASON: Atlanta is the clearly better club (41-20, +110 run diff) with a dominant home offense (5.2 RS/G) against a sub-.500 road Jays team (12-19). Starters are roughly comparable on surface, but Corbin's low K rate and elevated xERA plus a taxed Toronto relief corps make it likelier the Braves can plate runs and win cleanly. The moneyline around -143 understates Atlanta's home/roster edge, so the straight ML is the play.
+LOOKED UP: [nothing, used provided data only]
+
+GAME: CLE @ NYY
+
+PICK: Over 7.5
+PRICE: +135
+UNITS: 1
+EDGE: REAL
+REASON: The two clubs combine for roughly a 9+ runs/game pace (Yankees 5.2, Guardians 4.2) which makes a 7.5 total look too low, and both bullpens are taxed which increases the chance of multi‑run innings late. Gavin Williams strikes out a lot but his xERA (4.09) suggests some regression risk, while Gerrit Cole’s 18 IP is a tiny sample—both facts point toward higher variance and more scoring than a suppressed total implies. The market’s wide line swings add value on the Over at +135.
+LOOKED UP: [nothing, used provided data only]
+
+GAME: SF @ MIL
+
+PICK: SF + ML
+PRICE: +123
+UNITS: 1
+EDGE: THIN
+REASON: Logan Webb is a veteran innings eater who stabilizes the Giants’ chances against a very small-sample Robert Gasser (12.1 IP) — that sample is noisy and likely inflates confidence in the home side. Milwaukee’s bullpen also shows signs of recent heavy use (Ashby 29 pitches yesterday), which increases variance late in the game. The market is skewed toward the Brewers because of overall record and home form, but +123 for a well-regarded starter against an unproven opponent is a slight overlay.
+LOOKED UP: [nothing, used provided data only]
+
+GAME: TEX @ STL
+
+PICK: TEX +ML
+PRICE: +120
+UNITS: 1
+EDGE: REAL
+REASON: Gore profiles as the better starter here (9.4 K/9, similar ERA/xERA) and Texas also has the superior run differential and much better recent form (6-4 vs STL 3-7). St. Louis' bullpen is heavily taxed (Riley O'Brien 32 pitches yesterday plus multiple relievers used), increasing the chance of late-inning failure; Texas' closer is available. The market move toward an inflated Cardinals price (-140/ -147 at books) creates value on Texas at +120.
+LOOKED UP: [nothing, used provided data only]
+
+GAME: ATH @ CHC
+
+PICK: ATH +ML
+PRICE: +104
+UNITS: 1
+EDGE: THIN
+REASON: Jeffrey Springs has the clearer surface edge over Colin Rea (better ERA/xERA and cleaner batted‑ball profile) and the A’s are a strong road club (18-14). Both bullpens are taxed, but Chicago’s staff and Rea’s higher xERA/in-play damage make the Cubs only-short favorite here; +104 on the A’s looks like a mild overlay. I’ll take the plus‑money starter edge rather than chasing totals or the run line.
+LOOKED UP: nothing, used provided data only
+
+GAME: PIT @ HOU
+
+PICK: PIT +ML
+PRICE: -125
+UNITS: 1
+EDGE: THIN
+REASON: Spencer Arrighetti’s 1.29 ERA looks unsustainably low given a 4.69 xERA; the underlying peripherals favor regression and he doesn’t miss as many bats as Paul Skenes (10.3 K/9). Skenes pairs elite K-rate and strong underlying metrics with a better lineup behind him, while Houston’s home form is poor and both bullpens are taxed — the market is overvaluing the home starter and -125 offers slight value on Pittsburgh. Weather/roof and tired relievers are caveats but don’t erase the mismatch in starting pitching quality.
+LOOKED UP: nothing, used provided data only
+
+SLATE SUMMARY
+
+BEST BET: SD @ PHI (3 units)
+WHY THIS ONE: This play represents the strongest statistical edge on the slate, backed by a significant starting pitcher advantage and favorable market pricing.
+

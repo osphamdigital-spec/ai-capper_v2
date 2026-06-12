@@ -1,0 +1,167 @@
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Rasmussen (xFIP 3.51, last-14 xFIP 2.34) is in dominant form in a dome. Bennett has only 10.1 IP — small sample flag, xFIP 4.33, WHIP 1.45. TB implied ~60% at -150; my estimate ~63% — gap of ~3 pts, below the 4-point minimum gate. Under lean: estimated ~7.0 runs vs posted 7.5 given Rasmussen's recent SIERA 2.48.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: NYY ML
+PRICE: -101
+UNITS: 1
+EDGE: 6.1 pts
+TOTAL LEAN: Under
+REASON: NYY implied ~50.3% at -101; my estimate ~56.4%. NYY leads in all three team quality checks — run diff (+99 vs -2), RS/G (5.1 vs 4.0), L10 RS/G (5.4 vs 3.5) — no downgrade. Both starters are LHPs in recent decline: Rodon last-14 xFIP 4.38, Messick last-14 xFIP 4.75 with K/9 6.8 (below 7.0 — sustainability flag). NYY bullpen ERA 3.66 vs CLE 3.37; both have 0 of 3 high-leverage arms fresh. NYY's offensive dominance over a CLE team in 3-7 last-10 form drives the gap.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: WAS ML
+PRICE: +105
+UNITS: 1
+EDGE: 5.8 pts
+TOTAL LEAN: Over
+REASON: WAS implied 48.8% at +105; my estimate ~54.6%. WAS leads in run diff (+8 vs -52) and RS/G (5.3 vs 4.1); SF leads L10 RS/G (6.5 vs 5.1) — two of three team quality checks favor WAS, no downgrade. Griffin (xFIP 3.86, last-14 xFIP 3.94, K/9 8.1 — sustainable) clearly outpitches Ray (xFIP 4.43, last-14 xFIP 5.14, last-14 BB/9 7.0). SF bullpen ERA 5.67 is the worst on the slate. Plus-money value with a better team, better starter, and a weaker bullpen behind the opponent.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: SD implied 62.1% at -164; my estimate ~62% — gap of ~0.1 pts. King's last-14 xFIP 4.65 and K/9 4.5 (well below 7.0 — ERA sustainability flag) suggest regression, but SD's implied probability already prices Singer's struggles in. Under lean: Petco Park pitcher-friendly (94 PF), estimated ~7.2 runs vs posted 8.0.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: 58% rain probability is a PPD risk flag — avoiding any stake. Even absent rain: SEA implied ~54.9%, my estimate ~55-56% — gap of ~1-2 pts, below the gate. SEA also trails BAL in RS/G (4.3 vs 4.7) and L10 RS/G (4.3 vs 5.7), triggering a team quality concern. No lean on total given postponement uncertainty.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gusto has 5.0 IP total — opener/bulk flag: MIA is effectively running a bullpen game. AZ's L10 RS/G is only 2.8 (severe offensive drought). AZ implied ~52.4%, my estimate ~51% — negative gap. MIA implied ~51.4%, my estimate ~51% — near-zero gap. High uncertainty from opener situation and collapsed AZ offense; no edge on either side.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: MIN starter is TBD — cannot quantify the gap without knowing who pitches. Valdez (xFIP 3.60) is confirmed but K/9 6.9 last-14 triggers ERA sustainability caution. Under lean: Valdez's groundball profile in a neutral park (102 PF) — estimated ~8.2 runs vs posted 9.0 — holds regardless of TBD starter.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: LEAN: LAD RL
+PRICE: -114
+UNITS: LEAN
+EDGE: 0.7 pts
+TOTAL LEAN: Under
+REASON: Explicit P(win by 2+): Ohtani (xFIP 2.86, SIERA 2.95) vs Jones (xFIP 4.26, small sample 9.1 IP). My estimate P(LAD win by 2+) ~54% vs implied 53.3% at -114 — gap of 0.7 pts, below the 4-point minimum gate. Lean noted, not a bet. Under lean: Ohtani at pitcher-friendly PNC Park (Runs: 96), estimated ~7.0 runs vs posted 8.0.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Slate ceiling of 3 bets reached after self-audit filter — PHI's 4.5-pt gap is below the 5-point threshold applied when at ceiling. The Luzardo (xFIP 3.22) vs Scherzer (xFIP 4.86, K/9 ~4.8 — below 7.0 sustainability flag) edge is real but does not survive the ceiling filter. Over lean: Scherzer's xFIP 4.86 and sub-5.0 K/9 suggests runs — estimated ~9.2 vs posted 8.5.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: STL ML
+PRICE: +118
+UNITS: 1
+EDGE: 5.2 pts
+TOTAL LEAN: No lean
+REASON: STL implied 45.8% at +118; my estimate ~51%. STL (36-28, run diff +5, RS/G 4.5, L10 7-3) leads NYM (29-37, run diff -12, RS/G 4.0) in run diff and RS/G; L10 RS/G near-even (5.0 vs 5.1) — no downgrade. Pallante (xFIP 4.19) vs Warren (small sample 22.1 IP — ERA not predictive; K/9 ~9.3 is promising but insufficient to override small-sample rule). NYM's elite bullpen (2.73 ERA) is the primary risk but STL's plus-money pricing with better record and run differential creates a genuine gap.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: CHW starter TBD — key input unconfirmed; slate ceiling filter step 2 requires dropping picks with unconfirmed key inputs when at ceiling. ATL's case is strong (Sale xFIP 3.04, run diff +115, bullpen ERA 2.02) but the TBD starter introduces material uncertainty and three confirmed bets are already logged. Under lean: Sale's profile, mild weather (73°F), neutral park (98 PF) — estimated ~6.8 runs vs posted 7.5.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: TEX implied ~54.9% at -116; my estimate ~55.5% — gap of ~0.6 pts, well below minimum gate. Gore (last-14 xFIP 4.33) vs Lugo (last-14 xFIP 4.07) is near-even. KC bullpen season ERA of 22.24 appears anomalous — cannot apply as a meaningful signal. Both offenses quiet (RS/G 4.0 vs 3.9). Over lean: 90°F heat, both teams L10 RS/G above 5.0, neutral park.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: CHC implied ~62.3% at -165; my estimate ~63% — gap of ~0.7 pts, below gate. Park caution: Coors runs factor 130 — hard caution on any Under bet and extreme variance on run-line plays regardless of starter quality. Imanaga last-14 xFIP 5.10; Lorenzen ERA 8.01. Both bullpens under-fresh. Over lean: Lorenzen's struggles plus Coors altitude inflation — extreme variance but lean Over posted 12.0.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Slate ceiling of 3 bets reached. MIL's credentials are strong (run diff +104, L10 RS/G 8.3, 41-24) and the gap would be ~5.8 pts — a real edge — but discipline requires stopping at the ceiling. Over lean: Sutter Health Park (PF 121, high-scoring environment), both starters posting 6.17+ ERAs, both closers taxed from recent usage.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: LAA implied ~53.9% at -117; my estimate ~52% — negative gap. HOU implied ~48.3% at +107; my estimate ~48% — near-zero gap. Neither side has a positive probability gap. Under lean: Detmers (SIERA 3.36) is a quality arm and Hader (0.00 ERA, 70% K%) provides elite closing; estimated ~7.8 runs vs posted 8.5 at neutral Angel Stadium (98 PF).
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET — no 3-unit play identified today

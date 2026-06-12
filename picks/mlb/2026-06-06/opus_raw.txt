@@ -1,0 +1,127 @@
+Responding as the Claude entry for this slate. I worked from the provided data package only — I didn't browse, to keep the input identical across models for the controlled test (the "LOOKED UP" fields reflect that).
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Cubs are the better team with the better arm at home, and the market already reflects it (-160 ≈ 59% no-vig). Ray's L3 is ugly but his season line is roughly priced in. My fair number for CHC lands within a few cents of the offered price, so there's no edge to take.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Luzardo's peripherals (2.77 FIP / 3.16 xERA) are genuinely strong and justify Philadelphia being a clear favorite, while Kay's 3.77 ERA sits on a 5.23 FIP that screams regression. The price (-185, ~63% no-vig) and my estimate are essentially the same number. Heat at CBP adds variance but not a directional edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -128
+UNITS: 1
+EDGE: REAL
+REASON: Woo's underlying profile (2.96 FIP / 2.91 xERA, L3 2.04) is the cleanest starting-pitcher edge of the early window, and Seattle is the hotter, better team (+30 run diff, 8-2 L10) against a weak Detroit club. Best price -128 implies ~56%; I estimate Seattle near 59%, a ~3-point gap that maps to a single unit. Comerica's neutral-to-pitcher lean caps the upside, so I'm not stretching this.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The Yankees' offense (+93 diff, 5.1 RS/G) against a fading Weathers makes -143 reasonable, but Gray (3.06 ERA / 3.52 FIP) is the better arm today and pulls the game toward fair. My number sits right on the price. No exploitable gap either way.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Yesavage's elite small-sample line (2.45 FIP, 3.3 Brl%) would normally interest me, but Toronto's bullpen is badly taxed (Dallas 68p, Varland 17p, three others used) and that offsets the starter edge if the game tightens late. Young's 3.35 ERA is flattered by a 4.33 FIP. Net: roughly fair, not worth a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Miami's starter Gusto has all of 3.0 IP — there's no reliable way to price this matchup, which is exactly the unconfirmed-data situation I should pass on. Tampa is the better team but ice cold (2-8 L10), adding noise rather than clarity. Passing on principle.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Records suggest Atlanta should be heavier, but the pitching is closer than it looks — Keller's 3.38 FIP actually beats Pérez's 4.15 FIP / 4.32 xERA, and Pérez's 2.79 ERA is due to regress. Pittsburgh is a legitimate +37 club. That tension makes -142 roughly fair; no clean side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: This is a genuine pick'em between two mediocre teams (-110 / -108) and it's priced as one. Perkins' peripherals are intriguing on 28 IP but not enough to manufacture an edge against a fair coin-flip line. Both bullpens are taxed, which cancels out.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: STL ML
+PRICE: -133
+UNITS: 1
+EDGE: REAL
+REASON: Singer is bad by every metric that matters — 6.18 ERA, 6.88 FIP, 6.48 xERA, 7.82 L3 — so this isn't a sample fluke, it's a confirmed mismatch against the better home team. Best price -133 implies ~57%; I have St. Louis around 60%, roughly a 3-point gap = one unit. Leahy's own shaky xERA (6.24) is the only thing keeping this from being larger, which is why I'm holding the line at 1u.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Messick (3.04 FIP, L3 1.72) is excellent and I'd lean Cleveland, but the line is already moving toward them (-137→-132) and the gap to best price (-130) is too thin to bet. Rocker has been sharp lately at home. Market's ahead of me here.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Crosscurrents cancel: Minnesota's bullpen is gutted (Paredes 50p, multiple back-to-backs, closer used), which argues for KC value, but Kansas City is 10-21 on the road and genuinely bad. A near pick'em with no clean side after weighing both. Pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: LEAN: COL ML
+PRICE: +130
+UNITS: LEAN
+EDGE: THIN
+REASON: Milwaukee is the far better team but Sproat is pitching badly (6.24 ERA / 5.59 FIP) and Coors is the great variance equalizer, so laying -152 asks the Brewers' class to overcome a weak arm in a bandbox. That feels rich and points toward Rockies value, but Colorado is 24-39 with a -83 diff, so I won't actually back them — noted as a lean only.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +117
+UNITS: 1
+EDGE: REAL
+REASON: Kelly's contact quality has collapsed (7.26 xERA, 16.4 Brl%, 44.1 HH%) and Washington brings a strong road bat (5.3 RS/G, 19-12 away) into extreme 104°F heat — that combination makes the Nats live for plus money. Best price +117 implies ~46%; I estimate Washington close to 49%, so I'm getting a small edge on the dog. Griffin's own mediocrity (4.89 FIP) keeps this to a single unit rather than more.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Two quality arms (Scott's peripherals, King at 3.84 FIP) in a pitcher's park makes this a tight, low-scoring profile that's fairly priced at -132. San Diego's 1-9 skid is dramatic but they're still the better, home side and the market trusts the talent. Mets' road woes offset any regression angle. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The Angels' starter is TBD, so I can't responsibly price either the ML or the -1.5 run line — that's unconfirmed lineup data and an automatic pass for me. The Dodgers are clearly superior but -195 is heavy chalk with no value, and their +112 run line would be the efficient vehicle only once the opposing arm is confirmed. Passing on data grounds.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: St. Louis Cardinals ML -133 — 1 unit
+WHY THIS ONE: Singer's badness is confirmed across ERA, FIP, xERA and recent form rather than resting on one noisy metric, making it the lowest-variance pricing miss on the board — cleaner than the Seattle lean (market already favors them) and the Washington dog (relies more on contact-luck regression).
+
+A note on the shape of this card, outside the format: nothing on this slate cleared the 5+ point gap with confirmed data needed for a 3- or 5-unit play, so it's three disciplined 1-unit plays, one lean, and a lot of passes. I also skipped the optional parlay deliberately — multiplying two thin ~1-unit edges compounds the vig and erases the value, so the two best singles stand alone.

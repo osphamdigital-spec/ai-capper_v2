@@ -1,0 +1,91 @@
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 8.5
+REASON: Tyler Phillips has been highly effective in his limited action (3.58 xERA), while Merrill Kelly has struggled immensely with a 7.26 xERA. However, Miami's high-leverage bullpen arms are severely fatigued, which offsets their pitching advantage and makes the current market price fair.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: LEAN: MIN ML
+PRICE: +111
+UNITS: LEAN
+EDGE: 3.8 pts
+TOTAL LEAN: Under 9.0
+REASON: Zebby Matthews holds excellent underlying metrics (3.00 xERA, 3.87 SIERA) compared to Keider Montero (3.43 xERA, 4.66 SIERA). While Minnesota holds a clear starting pitching advantage, the calculated edge falls just short of our strict 4.0 percentage point betting threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 9.0
+REASON: Hunter Dobbins is a high-risk starter showing an extreme 23.8% barrel rate in a tiny sample size. While Christian Scott gives the Mets a slight starting edge, the hot weather (94F) and St. Louis's superior recent form make this a highly volatile matchup to pass on.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: TEX ML
+PRICE: +104
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: Under 10.0
+REASON: Texas has a massive bullpen advantage against a heavily struggling Kansas City relief unit. Kumar Rocker matches up well enough with Michael Wacha to let the Rangers' superior overall team quality and bullpen swing this game in their favor as a plus-money underdog.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 11.0
+REASON: Edward Cabrera is the superior starting pitcher in this matchup, but the extreme run-scoring environment and high variance of Coors Field make laying -145 on a road favorite highly unappealing. The market has priced this game accurately, leaving no betting value.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 9.5
+REASON: Justin Wrobleski is in outstanding form for the Dodgers, but Pittsburgh's offense matches up exceptionally well against left-handed pitching with a 158 wRC+. High winds blowing out at PNC Park further complicate the matchup, keeping us away.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: SEA ML
+PRICE: -107
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: Under 8.5
+REASON: Bryan Woo is pitching at an elite level (2.91 xERA, 3.35 SIERA) while Kyle Bradish has struggled recently (5.04 L14 SIERA). Seattle holds clear advantages in starting pitching form, bullpen quality, and offense against righties (118 vs 109 wRC+), making them a strong value at near-even money.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The home starting pitcher is listed as TBD, which introduces an unresolved structural risk to the matchup. Under the TBD Starter Rule, this game is an automatic pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

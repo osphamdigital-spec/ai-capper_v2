@@ -1,0 +1,154 @@
+**Expert Mode Analysis Complete.** I used provided data + quick web checks for confirmed starters/lineups (no major changes or injuries altering core matchups; e.g., Gilbert/Rogers confirmed, standard platoon considerations hold). Focused strictly on edges per professional standards.
+
+## GAME: SEA @ BAL
+PICK: SEA ML
+PRICE: -121
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL LEAN: Under
+REASON: Logan Gilbert's elite underlying metrics (xFIP 3.18 blended, strong recent K-BB) project as a clear edge over Trevor Rogers (poor 6.29 ERA, weak K/9). SEA better recent form and run differential. BAL platoon vs RHP solid but SEA ML implied ~55% vs my est ~60%. Bullpen risk low for SEA. 
+LOOKED UP: Confirmed starters and basic weather (warm but no extreme wind impact).
+
+---
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Gallen struggling badly lately vs solid Meyer. Close implied totals and no strong platoon or bullpen edge. Market seems efficient.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Near pick'em with solid starters on both sides in dome. No clear inefficiency in form or platoon.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Cole small sample but strong recent; Cecconi mediocre. NYY quality edge real but price reflects it without clear gap after run diff check.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Small sample on Melton and Bradley volatility. Balanced metrics, no standout edge.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Skenes elite vs weak Lauer. PIT home/park helps but LAD quality priced in without sufficient probability gap.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Wheeler strong but Cease also good. Even platoons and bullpens. Efficient market.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Peralta vs May close. No decisive factors.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: ATL @ CHW
+PICK: ATL ML
+PRICE: -158
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: Over
+REASON: ATL superior form, run diff, and offense vs weak Fedde. Holmes serviceable. Gap after quality adjustment. CHW home not enough.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Eovaldi decent but Kolek good at home. No clear mispricing.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Coors high variance; Rea vs Sugano not decisive enough for ML edge despite CHC quality.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Teng vs Ureña very close. Balanced.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Burns strong but Giolito small sample and Petco helps SD. Market fair.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Alvarez small sample vs poor Houser. Oracle suppresses but no big gap.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: High total in hitter park with Gasser small sample. Too variance-heavy for edge.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

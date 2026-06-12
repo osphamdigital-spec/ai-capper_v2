@@ -1,0 +1,131 @@
+## GAME: MIA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Two similar starters with hard-hit rates above 40% and comparable bullpen availability create an efficient market at pick'em. Neither side offers a clear probability gap worth attacking.
+LOOKED UP: nothing, used provided data only
+
+## GAME: DET @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Troy Melton's tiny sample and extremely low strikeout rate point to imminent regression, while Nick Martinez's xERA (4.15) suggests his surface ERA is misleading. Tampa Bay's recent 2-8 slide and taxed bullpen balance Detroit's awful road form, making the +124 price near fair.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Taj Bradley's elite strikeout rate gives Minnesota a clear pitching advantage that offsets Chicago's slightly better recent form. The -154 moneyline is within a few percent of fair value; no actionable edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Freddy Peralta and George Kirby project similarly via xERA, and Seattle's home-field advantage is modest. At +123, the market is efficiently pricing a near coin-flip environment.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SD @ PHI
+PICK: SD ML
+PRICE: +400
+UNITS: 1
+EDGE: STRONG
+REASON: Cristopher Sánchez's 1.46 ERA is likely to regress at least partially, and Walker Buehler's 4.53 ERA is not as dire as the line suggests. Philadelphia's -25 run differential and mediocre home record do not justify a -530 favorite, and the +400 price implies only a 20% win probability — I estimate San Diego closer to 30-35%, creating substantial value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The extreme moneyline (-10000 / +3300) suggests a non-standard market event (likely an unannounced pitching change or injury). Without confirmation of pre-game circumstances, no reliable edge can be assessed.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The odds swing from underdog to heavy favorite on Cleveland is incompatible with the listed starters alone, indicating likely market-moving news beyond the data. Betting into an unstable market without confirmed information is unwise.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Chase Burns's elite peripherals (2.05 ERA, 10.4 K/9) justify the favorite price against a weak Kansas City road team. The -155 moneyline is roughly efficient.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Atlanta is the much better team, but Grant Holmes's ordinary xERA and the line movement to -690 suggest the market has overcorrected to the Braves' run-differential dominance. No value remains.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Logan Webb's reliability keeps the Giants within striking distance, and Robert Gasser's limited MLB sample adds uncertainty. Milwaukee's home advantage is partially offset by a taxed bullpen, making the -150 line too tight to bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TEX @ STL
+PICK: TEX ML
+PRICE: +120
+UNITS: 1
+EDGE: REAL
+REASON: MacKenzie Gore's solid 3.98 xERA and 9.4 K/9 give him a slight edge over Andre Pallante, while St. Louis's closer Riley O'Brien is heavily taxed. Texas's recent 6-4 run and the plus-money price create a modest value gap.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Colin Rea's poor peripherals (5.14 xERA, 11.9% barrel rate) and the line movement flipping the favorite signal sharp money on Oakland, but the current price (around -105) has absorbed that edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PIT ML
+PRICE: -125
+UNITS: 1
+EDGE: REAL
+REASON: Paul Skenes's elite 2.28 xERA is a massive mismatch against Spencer Arrighetti's 4.69 xERA, exposing the latter's 1.29 ERA as a mirage. Pittsburgh's superior run differential and Houston's taxed bullpen add support.
+LOOKED UP: nothing, used provided data only
+
+## GAME: COL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Michael Lorenzen's 7.22 ERA makes Colorado a poor underdog, while Walbert Ureña's 2.44 ERA is partially supported by a 3.31 xERA. The Angels' -145 line is close to fair.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD -1.5
+PRICE: -115
+UNITS: 3
+EDGE: STRONG
+REASON: Shohei Ohtani's 0.82 ERA and 2.40 xERA give the Dodgers an overwhelming starting-pitching edge over Zac Gallen's 5.16 ERA. Los Angeles's +127 run differential and 8-2 recent form make a multi-run win highly probable, and the -115 run line is a far more efficient price than the heavy moneyline.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: TEX ML +120
+LEG 2: PIT ML -125
+COMBINED PRICE: +296
+TRUE PROBABILITY ESTIMATE: 30% (TEX 48% × PIT 63%)
+UNITS: 1
+REASON: Both legs were independently identified as having real edge. The teams are in different leagues with no weather or travel correlation, making a small parlay a value-added amplification of two single-game advantages.
+
+## SLATE SUMMARY
+BEST BET: LAD -1.5 -115 (Game 15) for 3 units
+WHY THIS ONE: The combination of the best pitcher in baseball, a massive starting-pitching mismatch, and the Dodgers' elite run differential creates the widest gap between my estimated win probability and the market's run-line implied odds.

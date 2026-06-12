@@ -1,0 +1,1099 @@
+======================================================================
+  MLB PICKS & RESULTS — 2026-06-06
+======================================================================
+
+RESULTS SUMMARY
+----------------------------------------------------------------------
+MODEL            BETS    W-L   WIN%  UNITS NET     ROI  BEST BET
+----------------------------------------------------------------------
+chatgpt5.5         13 7- 6    54%      +2.33u    +16%  LAD -1.5 RL (+112) — 3 units [W]
+deepseek            6 4- 2    67%      +4.36u    +55%  SEA ML (-128) — 3 units vs Detroit [W]
+gemini              0 0- 0      —      +0.00u     +0%  —
+gpt-5.2-high        5 2- 3    40%      -1.05u    -21%  WAS ML +117 (GAME: WAS @ AZ), 1 unit [W]
+grok                4 3- 1    75%      +5.40u    +68%  SEA ML (Game 3, 3 units) [W]
+kimi                3 2- 1    67%      +1.73u    +58%  NYY -140 (Game 4), 1 unit
+opus                3 3- 0   100%      +2.70u    +90%  St. Louis Cardinals ML -133 — 1 unit
+qwen                3 1- 2    33%      -2.75u    -55%  PHI -1.5 (+110) [L]
+sonnet              7 5- 2    71%      +2.56u    +37%  SEA ML -128 — 1 unit [W]
+----------------------------------------------------------------------
+TOTAL / AVG        44 27-17      —     +15.29u    +35%
+
+
+RAW MODEL PICKS
+----------------------------------------------------------------------
+
+======================================================================
+  MODEL: CHATGPT5.5
+======================================================================
+## GAME: SF @ CHC
+
+PICK: CHC ML
+PRICE: -160
+UNITS: 1
+EDGE: REAL
+REASON: My fair line is roughly CHC -180. The Cubs have the better overall team profile, home-field edge, and a less taxed bullpen. Robbie Ray's underlying numbers (5.40 FIP, 5.18 xERA) and recent form are poor, while Cabrera has been mediocre but not as concerning. Weather could create volatility, preventing a larger stake.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+
+PICK: PHI ML
+PRICE: -185
+UNITS: 1
+EDGE: REAL
+REASON: Fair line approximately PHI -205. Luzardo's peripherals are dramatically stronger than his ERA and he enters in excellent form, while Anthony Kay's recent run prevention appears unsustainable given the underlying metrics. Uncertainty flags: lineup confirmations pending and Phillies bullpen usage.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+
+PICK: SEA ML
+PRICE: -128
+UNITS: 1
+EDGE: REAL
+REASON: Fair line around SEA -150. Woo owns a substantial edge over Valdez based on current form and underlying indicators, while Seattle also carries the better season-long run differential and recent form. More than half the edge comes from pitching, so stake remains modest.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The market appears close to fair. Boston likely has the starting-pitching edge with Sonny Gray, but New York owns major advantages in offense, run differential, and overall roster quality. Too many offsetting factors.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+
+PICK: BAL ML
+PRICE: +132
+UNITS: 1
+EDGE: REAL
+REASON: My fair line is closer to TOR -120 than TOR -155. Yesavage has looked excellent, but the sample is very small and the market appears to be pricing him aggressively. Baltimore enters in better recent form and gets a meaningful underdog price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+
+PICK: TB ML
+PRICE: -136
+UNITS: 1
+EDGE: REAL
+REASON: Fair line roughly TB -165. Rasmussen is a proven quality starter while Miami is sending an extremely inexperienced arm with only three MLB innings. Uncertainty flags include unknown workload for Gusto and pending lineups, keeping this at one unit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Atlanta is the better team, but Martín Pérez's underlying indicators are much weaker than his ERA while Pittsburgh has been playing quality baseball. The current price looks very close to fair.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+
+PICK: ATH ML
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+REASON: Fair line around ATH -130. Perkins' ERA is ugly, but the FIP/xERA profile is excellent and suggests substantial positive regression. Houston's home performance and bullpen usage concerns push me toward the Athletics.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters bring major concerns. Singer has been poor, but Leahy's xERA and contact profile are equally alarming. The market has largely accounted for the pitching mismatch and I don't see enough value either way.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+
+PICK: CLE ML
+PRICE: -130
+UNITS: 1
+EDGE: REAL
+REASON: Fair line approximately CLE -145. Messick has consistently outperformed expectations and Cleveland owns a modest bullpen advantage. The move toward the under and lower-scoring environment also benefits the team with the stronger starting pitcher.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+
+PICK: KC ML
+PRICE: -102
+UNITS: 1
+EDGE: REAL
+REASON: Fair line around KC -120. Wacha is the more reliable starter and Minnesota's bullpen is significantly more taxed entering the game. Both clubs are struggling, but Kansas City appears slightly undervalued.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+
+PICK: MIL ML
+PRICE: -148
+UNITS: 1
+EDGE: REAL
+REASON: Fair line roughly MIL -175. Milwaukee has a massive season-long quality advantage and Colorado remains one of the weakest teams on the slate. Sproat is not trustworthy, but Feltner's contact metrics are equally concerning at Coors Field.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+
+PICK: WAS ML
+PRICE: +114
+UNITS: 1
+EDGE: REAL
+REASON: Fair line closer to AZ -110. Kelly's underlying profile is one of the weakest among today's starters and Washington has quietly been a strong road team. The market appears to be giving Arizona too much credit for home field.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+
+PICK: NYM ML
+PRICE: +112
+UNITS: 1
+EDGE: REAL
+REASON: Fair line near SD -105. Christian Scott's small sample creates uncertainty, but his strikeout ability and contact suppression are legitimate positives. San Diego's recent form and bullpen workload concerns narrow the gap significantly.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+
+PICK: LAD -1.5 RL
+PRICE: +112
+UNITS: 3
+EDGE: STRONG
+REASON: Fair moneyline approximately LAD -240 and fair run line near -115. The Dodgers have a massive roster-quality edge, elite run differential, strong home performance, and the Angels have not even confirmed a starter. Uncertainty flags are the TBD Angels starter and Sasaki's inconsistency, but neither materially changes the overall mismatch. Because the edge is driven primarily by team-quality rather than starting pitching alone, I keep the stronger stake.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+
+LEG 1: TB ML -136
+LEG 2: MIL ML -148
+COMBINED PRICE: +214
+TRUE PROBABILITY ESTIMATE: 36%
+UNITS: 1
+REASON: Both legs were independently identified as value positions with fair lines substantially stronger than market prices. They occur in unrelated games with no meaningful correlation and derive from team-quality and pitching advantages rather than a single fragile factor.
+
+## SLATE SUMMARY
+
+BEST BET: LAD -1.5 RL (+112) — 3 units
+
+WHY THIS ONE: It combines the largest team-quality gap on the slate with plus-money pricing. The market is charging a premium on the Dodgers moneyline, but the run line still appears materially undervalued given the mismatch and the Angels' unresolved starting-pitcher situation.
+
+======================================================================
+  MODEL: DEEPSEEK
+======================================================================
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Ray is in terrible form (10.22 L3 ERA, 5.40 FIP) and SF's bullpen is heavily taxed after five arms worked yesterday. Cabrera isn't sharp either, but the market has CHC -160, which is roughly correct given the pitching mismatch and home field. The 63% rain risk adds uncertainty — possible delay or shortened game makes this a stay-away. No edge on either side or total.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Luzardo's peripherals (2.77 FIP, 3.16 xERA) are elite and Kay's 5.23 FIP signals heavy regression from his 3.77 ERA. PHI -185 is steep but fair given the starting pitching gap. The note to consider the -1.5 run line at +110 is interesting, but Philadelphia's -22 run differential and taxed bullpen (Alvarado 25p, Kerkering 18p) give pause. No clear edge strong enough to bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -128
+UNITS: 3
+EDGE: STRONG
+REASON: Bryan Woo's 2.96 FIP and 2.91 xERA are dramatically better than Framber Valdez's 4.18 FIP / 4.38 xERA. Seattle has a +30 run differential vs Detroit's -25, and both bullpens are rested. The market at -128 implies ~56% win probability, but I make this closer to -155 (61%). The gap is wide enough for a confident play. Seattle's 8-2 last 10 form is a bonus.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Gray (3.52 FIP) and Weathers (3.88 FIP) are reasonably matched, and the Yankees' +93 run differential is partially offset by Boston's solid 16-14 road record. The market NYY -143 is within 10 cents of my fair line (~ -150). Boston's taxed bullpen (Kahnle 34p, Morán 31p) and NYY's two straight days on Cruz tilt it slightly to the Yankees, but not enough to bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Yesavage's 2.45 FIP / 2.50 xERA in a small sample is outstanding, but Toronto's bullpen is a mess after Chad Dallas threw 68 pitches yesterday and multiple high-leverage arms worked (Varland 17p, Rogers 12p). Baltimore's pen also saw action. Young's 4.33 FIP suggests regression coming. The -155 market price captures Yesavage's upside, but the bullpen fatigue neutralizes any edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: LEAN: TB ML
+PRICE: -136
+UNITS: LEAN
+EDGE: THIN
+REASON: Ryan Gusto has thrown 3 MLB innings — the 9.00 ERA is irrelevant, but we simply don't know what to expect. Drew Rasmussen (3.66 FIP, 3.31 xERA) gives Tampa a reliable starter. The concern is Tampa's 2-8 last 10, which prevents a full-unit bet. If Gusto scuffles early, TB's rested bullpen can cover. I lean TB but the cold streak keeps it to a lean.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Martín Pérez's 4.15 FIP says his 2.79 ERA is a mirage, and Mitch Keller's 3.38 FIP is the best skill indicator in this matchup. Atlanta is 42-21 with a +109 run differential, but Pittsburgh is a strong 34-29 with a +37 differential and 7-3 last 10. My fair line is ATL -135, and the market is -142 — within range. The taxed Pittsburgh bullpen (Mlodzinski 55p) nudges me off any underdog play.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Jack Perkins' 2.60 FIP in 28 IP hints at significant positive regression from his 5.46 ERA, but the small sample and Athletics' heavily taxed bullpen (three arms worked back-to-back days) offset that edge. Lambert is a steady mid-rotation arm. The market has this as a true pick'em, and I agree. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: CIN ML
+PRICE: +122
+UNITS: 1
+EDGE: REAL
+REASON: Both starters are in terrible form — Singer's 6.88 FIP and Leahy's 6.24 xERA are among the worst on the slate. The key is that St. Louis is favored -139 at home despite a 3-7 last 10 and a -12 run differential. Cincinnati's 15-14 road record and rested bullpen make them live underdogs. I'd set this closer to a pick'em, so +122 offers a clear edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: CLE ML
+PRICE: -130
+UNITS: 1
+EDGE: REAL
+REASON: Parker Messick's 2.21 ERA is backed by a 3.04 FIP and 3.23 xERA — he's legit. Kumar Rocker's 4.14 FIP and 4.62 xERA show a mid-rotation arm. Cleveland's 19-14 road record and rested bullpen (only light work yesterday) contrast with Texas' middling 15-13 at home. The total dropping from 7.5 to 7.0 signals the market expects a pitching duel, and Messick is the better arm. I make this -150, so -130 is value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Wacha (3.91 FIP) and Matthews (4.60 FIP but 3.00 xERA in 23.1 IP) are roughly even, with Matthews' small sample adding variance. Minnesota's bullpen is heavily taxed — Paredes 50p yesterday, three arms on back-to-back days — which offsets their home-field edge. The market at MIN -118 is essentially fair. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Sproat (6.24 ERA, 5.59 FIP) and Feltner (4.85 ERA, 5.06 FIP) are both struggling, and Coors Field inflates offense. Milwaukee's bullpen is taxed (Woodford 56p, Anderson 30p, Hall 27p), which is dangerous in a potential slugfest. The total of 11.5 is high but correct. Milwaukee -148 is a fair price given the talent gap, but the pitching and park make this too volatile to bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +117
+UNITS: 1
+EDGE: REAL
+REASON: Merrill Kelly's 7.26 xERA and 16.4% barrel rate are alarming — he's getting crushed, and the park (Chase Field) won't help. Washington is 19-12 on the road and has a rested bullpen. Foster Griffin's 4.89 FIP is concerning, but Kelly's collapse makes the Nationals the value side. I'd set this closer to a pick'em, so +117 is real value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: NYM ML
+PRICE: +114
+UNITS: 1
+EDGE: REAL
+REASON: San Diego is in a 1-9 freefall and their bullpen is showing wear — Morejon 28p, Peralta back-to-back, Matsui 19p. Christian Scott's 3.10 FIP in 30.1 IP is promising, while Michael King's 4.86 L3 ERA suggests he's hittable right now. New York's rested bullpen and the Padres' offensive struggles (3.9 RS/G) make this close to a coin flip, so +114 offers value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The Angels have a TBD starter, making this impossible to handicap with confidence. Roki Sasaki's 5.04 FIP is underwhelming for a -200 favorite, and the Dodgers' -195 moneyline is too steep to back without knowing the opponent's starter. The run line at +112 is tempting, but the absence of LAA pitching info makes this a pass.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: SEA ML -128
+LEG 2: CLE ML -130
+COMBINED PRICE: +208 (approximate: 1.78 × 1.77 = 3.15 decimal)
+TRUE PROBABILITY ESTIMATE: 33% (SEA 58%, CLE 57%, independent)
+UNITS: 1
+REASON: Both legs have independently identified edges. Seattle's starting pitching mismatch and Cleveland's Messick advantage are unrelated — different opponents, divisions, and game environments. The combined +208 price implies 32.5% probability, which slightly exceeds my 33% estimate, offering a marginal but legitimate edge. Neither leg is correlated (SEA/DET, CLE/TEX).
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: SEA ML (-128) — 3 units vs Detroit
+WHY THIS ONE: Bryan Woo's 2.96 FIP / 2.91 xERA is the single best pitching indicator on the entire slate, and he faces a below-average Framber Valdez (4.18 FIP) with a rested bullpen behind him. The 20-cent gap between my fair line (-155) and market (-128) is the widest edge I found, and it's backed by a 30-run differential gap between the teams.
+
+======================================================================
+  MODEL: GEMINI
+======================================================================
+
+
+======================================================================
+  MODEL: GPT-5.2-HIGH
+======================================================================
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Weather risk (moderate drizzle, high rain chance) plus a high total makes run environment and bullpen usage harder to price, and the Over price is explicitly flagged as suspect. On the side, Ray’s contact profile (HH%/Brl%) is rough and his recent form is poor, but Cabrera isn’t a clear enough upgrade to justify laying -160 without confirmed lineups. No clean edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: LEAN: CHW ML
+PRICE: +162
+UNITS: LEAN
+EDGE: THIN
+REASON: Luzardo’s FIP/xERA are excellent and justify PHI being favored, but -185 asks for a high win rate for a Phillies team that’s scored modestly (3.9 RS/G) and carries a negative run diff. Kay’s recent results are strong yet his xERA/contact suggest regression risk, so I can’t get to a bet—just a small lean to the plus-money dog on price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -128
+UNITS: 1
+EDGE: REAL
+REASON: Woo’s underlying profile (2.96 FIP / 2.91 xERA) is materially better than Valdez’s current-season run prevention indicators, and SEA’s team form/run diff supports them being a true road favorite. With both bullpens showing no heavy recent usage, the SP edge should carry full weight. At -128, I make SEA a bit underpriced.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Gray vs Weathers is closer than the team-strength gap suggests, and BOS has been fine on the road despite the poor overall record. Total pricing is flagged as suspect, so I’m not touching 8.0 either. Market price (-140ish) looks within a reasonable band.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Yesavage’s small-ish sample is backed by strong peripherals (xERA 2.50, low HH%/Brl%), which makes TOR’s favorite status reasonable, but TOR’s bullpen shows meaningful usage (including a 68-pitch outing) that can erode a marginal edge. BAL’s away profile is poor, yet the dog price isn’t large enough for me to step in confidently. Pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Rasmussen is steady, but Miami’s starter (Gusto) is an extreme small-sample profile (3.0 IP) with internally weird indicators, which makes it hard to anchor a fair line without role/pitch-count clarity. The market has already ticked toward TB, and I’m not comfortable paying that without more certainty. Pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: PIT ML
+PRICE: +127
+UNITS: 1
+EDGE: REAL
+REASON: Pérez’s shiny ERA is not supported by his xERA (4.32) and contact (HH% 42.0), while Keller’s FIP (3.38) suggests he’s been a bit unlucky versus ERA—so the pitching matchup is closer than the moneyline implies. PIT’s offense/run production profile is strong enough to win outright at this price. Getting +127 in what I rate closer to a coin-flip is value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: ATH ML
+PRICE: -107
+UNITS: 1
+EDGE: THIN
+REASON: Perkins’ ERA looks bad, but his FIP/xERA (2.60/3.14) and contact (HH% 34.2, Brl% 5.1) point to better true performance—so I’m willing to fade the surface stats. The main counter is Oakland’s taxed bullpen (multiple 2-consecutive-days arms), which is why this stays small. Near pick’em, I lean ATH.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Singer’s profile is brutal (ERA/FIP/xERA all ugly with high hard contact), but Leahy’s xERA/contact are also alarming, making this a hard game to price confidently off starters. Total pricing is flagged as suspect, so I’m not using 9.0 either. Pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Messick has been legitimately strong (xERA 3.23 with good contact suppression), but Rocker is solid enough and TEX is competent at home, so -130 to -137 feels close to fair. The total move toward the under (7.5→7.0) also suggests the market is already reacting to the run environment. No clear misprice.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The posted market data is internally inconsistent/flagged (moneyline and “KC 0 / MIN 0” prices look unreliable), so I’m applying the sanity-check rule and not betting this off potentially stale numbers. Conceptually, MIN’s bullpen usage is a real factor and Wacha is steadier than Matthews’ small sample, but without trustworthy prices this is a pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: Over
+PRICE: -103
+UNITS: 1
+EDGE: REAL
+REASON: Both starters carry concerning indicators for Coors (Sproat poor across ERA/FIP/xERA; Feltner with extreme hard contact and a very high xERA), and warm weather adds to scoring volatility. Milwaukee’s bullpen is taxed, which can turn “normal” late innings at Coors into extra run expectancy. At -103, Over 11.5 is playable despite the big number.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +117
+UNITS: 1
+EDGE: STRONG
+REASON: Merrill Kelly’s run prevention indicators are very poor (xERA 7.26) and the contact damage (HH% 44.1, Brl% 16.4) supports that—this isn’t just “bad luck.” Griffin isn’t elite, but he’s serviceable over a full sample, and WAS has a strong road record; plus money is attractive in what I rate as at least a near coin-flip. Lineups/roof status add uncertainty, so I’m not scaling beyond 1 unit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: LEAN: NYM ML
+PRICE: +114
+UNITS: LEAN
+EDGE: THIN
+REASON: King is the more proven starter, but SD’s bullpen is taxed and the Padres’ overall scoring hasn’t been strong, which keeps the upset path open. Scott is a small-sample starter (30.1 IP) with a higher xERA than ERA, so I won’t bet NYM without more certainty. Lean to the dog on price only.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Angels starter is TBD, which is too large a missing input for a heavy-favorite pricing setup; I won’t bet LAD ML or -1.5 without knowing the opposing starter quality/role. The total moved (8.5→8.0), but without the starter I can’t validate whether that move is correct. Pass.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: WAS ML +117 (GAME: WAS @ AZ), 1 unit
+WHY THIS ONE: The market is pricing Arizona as a moderate favorite despite Kelly’s xERA and contact profile both signaling significant downside, making the dog price look meaningfully off even after accounting for home-field and variance.
+
+======================================================================
+  MODEL: GROK
+======================================================================
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Ray's disastrous recent form (L3 ERA 10.22, xERA 5.18) and high barrel rate clash with Cabrera's more stable underlying numbers. Moderate drizzle and 63% rain chance at Wrigley adds variance that prevents a clean 4%+ edge. Market at -160 sits inside my fair line of -175 for CHC.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Luzardo's excellent xERA (3.16) and K-BB profile top Kay's inflated underlying metrics, yet PHI's taxed bullpen (Alvarado and Kerkering used yesterday) offsets the edge. CHW's 7-3 last-10 form is a legitimate counter. Estimated fair line -172 versus market -185 is too close.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -128
+UNITS: 3
+EDGE: STRONG
+REASON: Woo's elite xERA (2.91), low barrel rate, and strong last-three starts (2.04 ERA) create a clear pitching advantage over Valdez (xERA 4.38, L3 ERA 4.58). SEA also owns the better recent form (8-2 last 10) and positive run differential. One piece of evidence against is Detroit's home-field advantage. Fair line -162 versus market -134 produces >5% edge with fresh bullpens on both sides.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY's superior run differential (+93) and home offense favor them, but Gray's xERA (4.38) is worse than his surface ERA and NYY's bullpen has multiple arms on consecutive days. Market -143 is inside my fair line of -155. No qualifying inefficiency after weighing both bullpen risks.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: BAL ML
+PRICE: +135
+UNITS: 2
+EDGE: REAL
+REASON: TOR's bullpen is severely taxed (Chad Dallas 68 pitches yesterday plus multiple arms on consecutive days), creating late-inning vulnerability despite Yesavage's strong underlying numbers in limited innings. BAL's 7-3 last-10 form supplies a second independent factor. One piece of evidence against is Yesavage's 2.50 xERA. Fair line near TOR -125 versus market -155 yields actionable value on the dog.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Rasmussen holds a measurable edge in xERA (3.31 vs Gusto's tiny-sample instability), yet TB's poor 2-8 last-10 form and MIA's respectable home record neutralize it. Market at -136 aligns with my fair line of -148. Bullpens are fresh on both sides but no 4%+ gap exists.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: ATL's elite team quality and home run differential are clear, but PIT's strong 7-3 last-10 mark and Keller's decent FIP (3.38) keep the game within 4%. ATL bullpen is also taxed. Estimated fair line ATL -158 versus market -142 is too narrow for action.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Perkins' excellent FIP (2.60) and xERA (3.14) in small sample look promising against Lambert's worse recent form, yet both bullpens carry heavy taxation and ATH's overall run differential remains negative. Market near pick'em matches my mental fair line of ATH -112. Edge below 4%.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Singer's terrible 6.88 FIP and 7.82 L3 ERA destroy any CIN edge despite STL's own 3-7 last-10 slide. Leahy's home splits and bullpen freshness further support STL. My fair line of STL -150 is close to market -139. No bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Messick's 2.21 ERA and 3.04 FIP stand out, but CLE's bullpen is taxed and TEX owns a slightly better run differential at home. Market -137 sits inside my fair line of -152. The bullpen risk prevents clearing the 4% threshold.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIN's bullpen is extremely taxed across multiple arms on consecutive days, yet KC's own poor form (3-7 last 10) and negative run differential make trusting them at -102 impossible. Wacha versus Matthews is close once small-sample caution is applied. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Coors Field and two mediocre starters (Sproat 5.59 FIP, Feltner 6.32 xERA) point toward high scoring, but MIL's taxed bullpen (Woodford 56p, Anderson 30p) and COL's home underdogs status create too many conflicting variables. Fair line near MIL -140 is too close to -152.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +114
+UNITS: 2
+EDGE: REAL
+REASON: Kelly's horrific xERA (7.26) and 16.4% barrel rate signal major regression risk against Griffin's more stable 4.41 xERA and solid road performance. WAS owns a strong 19-12 away record as a second independent factor. One piece of evidence against is Kelly's recent 3.44 L3 ERA. Market -134 is 15+ cents off my fair line of AZ -112.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Scott's small-sample promise and King's steady 3.84 FIP balance each other, while SD's 1-9 last-10 slump is offset by their home bullpen advantage (Mason Miller available). Estimated fair line SD -128 versus market -132 is inside the no-edge window.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: LAD's massive +133 run differential and Sasaki's recent dominance are real, yet LAD's taxed bullpen (Vesia, Hurt, Scott all used yesterday) and LAA's decent last-10 mark reduce the edge on a heavy favorite. Fair line near -175 sits close to -195. No plus-money RL edge after risk adjustment.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: SEA ML -128
+LEG 2: WAS ML +114
+COMBINED PRICE: +278
+TRUE PROBABILITY ESTIMATE: 53.5%
+UNITS: 1
+REASON: Both legs cleared the 4% edge threshold independently on pitching xERA advantages and team form; games occur in different leagues, time zones, and weather patterns with zero correlation.
+
+## SLATE SUMMARY
+BEST BET: SEA ML (Game 3, 3 units)
+WHY THIS ONE: Woo's superior xERA, barrel suppression, and SEA's 8-2 last-10 form create the slate's largest probability gap versus market price, with fresh bullpens on both sides removing the risk factor present in every other candidate.
+
+======================================================================
+  MODEL: KIMI
+======================================================================
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Weather is the dealbreaker. A sixty-three percent chance of rain with moderate drizzle at Wrigley makes this a high postponement risk. Even if it plays, both Ray and Cabrera have been pitching poorly, and I see no edge in a line that sits right at fair value.
+LOOKED UP: ESPN MLB injury report for June 5 — no significant new injuries affecting either side.
+
+## GAME: CHW @ PHI
+PICK: CHW +162
+PRICE: +162
+UNITS: 1
+EDGE: REAL
+REASON: Chicago leads this matchup in run differential (+11 vs -22) and scoring (4.7 RS/G vs 3.9) while matching Philadelphia's 7-3 last-ten record. Luzardo's underlying stats are excellent, but the market has overreacted to his recent form and priced the White Sox as heavy underdogs against a team with a negative run differential. At +162, the team-quality gap is too large to ignore.
+LOOKED UP: ESPN injury report — no significant injuries affecting either lineup today.
+
+## GAME: SEA @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Seattle is the better team and Woo is the better pitcher, but the Mariners are missing Cal Raleigh and the price (-134) is roughly fair. No edge here.
+LOOKED UP: ESPN injury report — confirmed Cal Raleigh (SEA) on 10-day IL, beginning rehab Sunday.
+
+## GAME: BOS @ NYY
+PICK: NYY -140
+PRICE: -140
+UNITS: 1
+EDGE: REAL
+REASON: The Yankees dominate every team metric: run differential (+93 vs -6), last-10 record (7-3 vs 4-6), and scoring (5.1 vs 4.0). Sonny Gray is the more reliable starter against a struggling Ryan Weathers (4.74 ERA last three). Fair line should be closer to -155; -140 offers real edge.
+LOOKED UP: ESPN injury report — Yankees missing Stanton and Fried (already factored), Dominguez beginning rehab Friday.
+
+## GAME: BAL @ TOR
+PICK: LEAN: BAL +135
+PRICE: +135
+UNITS: LEAN
+EDGE: THIN
+REASON: Baltimore is 7-3 in their last ten and outscores Toronto 4.6 to 4.1 runs per game. Yesavage's ERA looks shiny but comes in a tiny sample, and Brandon Young has been serviceable. The +135 price is slightly generous for a team with better recent form.
+LOOKED UP: ESPN injury report — no significant new injuries for either side.
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Tampa Bay is in a 2-8 freefall and missing multiple key players including closer Craig Kimbrel, yet they are still priced at -136 on the road. Miami's starter Ryan Gusto is a complete unknown with three innings pitched. Too much uncertainty on both sides.
+LOOKED UP: ESPN injury report — confirmed Rays missing Kimbrel (15-day IL, wrist), Fraley (6-8 weeks), DeLuca (6-8 weeks), and Walls (day-to-day).
+
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Atlanta is the superior team by record and run differential, and Pérez's ERA is backed by a much worse FIP. Pittsburgh's Mitch Keller has been shelled recently (6.89 ERA last three). The line is fair.
+LOOKED UP: Nothing beyond provided data and injury report — no new relevant info.
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: This is essentially a coin-flip line (-110/-108) between two mediocre teams. Perkins' FIP suggests positive regression, but the Athletics may be without Brent Rooker (day-to-day) and are already missing Severino and Civale. No edge at a pick'em price.
+LOOKED UP: ESPN injury report — confirmed Brent Rooker day-to-day Thursday, Severino and Civale on IL.
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starting pitchers have been terrible. Singer owns a 6.18 ERA and 6.88 FIP, while Leahy's xERA is an ugly 6.24. St. Louis gets Lars Nootbaar back, but this is a random outcome game. Pass.
+LOOKED UP: ESPN injury report — Lars Nootbaar (STL) targeted for activation Friday.
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Parker Messick has been excellent (2.21 ERA, 1.72 ERA last three), but Texas gets Corey Seager back from the IL and the line has moved toward Cleveland. At -137, the Guardians are fairly priced.
+LOOKED UP: ESPN injury report — Corey Seager (TEX) expected to be activated Friday.
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both teams are 3-7 in their last ten and have been among the worst in baseball. Minnesota is missing Bailey Ober, Pablo López, and Ryan Jeffers. The Twins lead the team metrics but the pitching matchup is a coin flip. No edge at -118.
+LOOKED UP: ESPN injury report — confirmed Bailey Ober shut down 10-14 days, Pablo López on 60-day IL, Ryan Jeffers on 10-day IL.
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Milwaukee is an elite team but Brandon Sproat has been dreadful (6.24 ERA, 7.62 last three), and Coors Field amplifies pitching variance. At -152, the risk outweighs the reward even against a bad Rockies team.
+LOOKED UP: ESPN injury report — Grant Anderson and DL Hall day-to-day for Brewers, but both available.
+
+## GAME: WAS @ AZ
+PICK: LEAN: WAS +117
+PRICE: +117
+UNITS: LEAN
+EDGE: THIN
+REASON: Merrill Kelly's peripherals are atrocious (5.59 FIP, 7.26 xERA) despite a decent last three starts. Washington has been a strong road team (19-12) and outscores Arizona 5.3 to 4.4 runs per game. The plus-money is tempting.
+LOOKED UP: ESPN injury report — Corbin Burnes (AZ) shut down from throwing, but he was not scheduled to start today.
+
+## GAME: NYM @ SD
+PICK: NYM +114
+PRICE: +114
+UNITS: 1
+EDGE: REAL
+REASON: San Diego is in a brutal 1-9 slump and missing Jake Cronenworth and Joe Musgrove. Michael King has been rocked recently (4.86 ERA last three), while Christian Scott has allowed just three earned runs over his last three starts. The Mets are the better team right now at a plus-money price.
+LOOKED UP: ESPN injury report — confirmed Cronenworth (concussion) out, Musgrove (elbow) targeting post-ASB return, Laureano on 10-day IL.
+
+## GAME: LAA @ LAD
+PICK: LAD -1.5 +111
+PRICE: +111
+UNITS: 1
+EDGE: REAL
+REASON: The Dodgers are missing Muncy, Teoscar Hernández, and others, but the talent gap against the Angels is still enormous (+133 vs -51 run differential). Sasaki has been dominant in his last three starts (2.08 ERA). At plus-money, the -1.5 run line is the efficient way to back a team that should win comfortably.
+LOOKED UP: ESPN injury report — confirmed Max Muncy (sore nose) out Friday, Teoscar Hernández (hamstring) out until ~June 30, Glasnow and Snell also sidelined.
+
+## SLATE SUMMARY
+BEST BET: NYY -140 (Game 4), 1 unit
+WHY THIS ONE: The Yankees lead every meaningful team metric by a wide margin, Gray is the more trustworthy starter, and the line is softer than it should be for a home favorite of this quality.
+
+======================================================================
+  MODEL: OPUS
+======================================================================
+Responding as the Claude entry for this slate. I worked from the provided data package only — I didn't browse, to keep the input identical across models for the controlled test (the "LOOKED UP" fields reflect that).
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Cubs are the better team with the better arm at home, and the market already reflects it (-160 ≈ 59% no-vig). Ray's L3 is ugly but his season line is roughly priced in. My fair number for CHC lands within a few cents of the offered price, so there's no edge to take.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Luzardo's peripherals (2.77 FIP / 3.16 xERA) are genuinely strong and justify Philadelphia being a clear favorite, while Kay's 3.77 ERA sits on a 5.23 FIP that screams regression. The price (-185, ~63% no-vig) and my estimate are essentially the same number. Heat at CBP adds variance but not a directional edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -128
+UNITS: 1
+EDGE: REAL
+REASON: Woo's underlying profile (2.96 FIP / 2.91 xERA, L3 2.04) is the cleanest starting-pitcher edge of the early window, and Seattle is the hotter, better team (+30 run diff, 8-2 L10) against a weak Detroit club. Best price -128 implies ~56%; I estimate Seattle near 59%, a ~3-point gap that maps to a single unit. Comerica's neutral-to-pitcher lean caps the upside, so I'm not stretching this.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The Yankees' offense (+93 diff, 5.1 RS/G) against a fading Weathers makes -143 reasonable, but Gray (3.06 ERA / 3.52 FIP) is the better arm today and pulls the game toward fair. My number sits right on the price. No exploitable gap either way.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Yesavage's elite small-sample line (2.45 FIP, 3.3 Brl%) would normally interest me, but Toronto's bullpen is badly taxed (Dallas 68p, Varland 17p, three others used) and that offsets the starter edge if the game tightens late. Young's 3.35 ERA is flattered by a 4.33 FIP. Net: roughly fair, not worth a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Miami's starter Gusto has all of 3.0 IP — there's no reliable way to price this matchup, which is exactly the unconfirmed-data situation I should pass on. Tampa is the better team but ice cold (2-8 L10), adding noise rather than clarity. Passing on principle.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Records suggest Atlanta should be heavier, but the pitching is closer than it looks — Keller's 3.38 FIP actually beats Pérez's 4.15 FIP / 4.32 xERA, and Pérez's 2.79 ERA is due to regress. Pittsburgh is a legitimate +37 club. That tension makes -142 roughly fair; no clean side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: This is a genuine pick'em between two mediocre teams (-110 / -108) and it's priced as one. Perkins' peripherals are intriguing on 28 IP but not enough to manufacture an edge against a fair coin-flip line. Both bullpens are taxed, which cancels out.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: STL ML
+PRICE: -133
+UNITS: 1
+EDGE: REAL
+REASON: Singer is bad by every metric that matters — 6.18 ERA, 6.88 FIP, 6.48 xERA, 7.82 L3 — so this isn't a sample fluke, it's a confirmed mismatch against the better home team. Best price -133 implies ~57%; I have St. Louis around 60%, roughly a 3-point gap = one unit. Leahy's own shaky xERA (6.24) is the only thing keeping this from being larger, which is why I'm holding the line at 1u.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Messick (3.04 FIP, L3 1.72) is excellent and I'd lean Cleveland, but the line is already moving toward them (-137→-132) and the gap to best price (-130) is too thin to bet. Rocker has been sharp lately at home. Market's ahead of me here.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Crosscurrents cancel: Minnesota's bullpen is gutted (Paredes 50p, multiple back-to-backs, closer used), which argues for KC value, but Kansas City is 10-21 on the road and genuinely bad. A near pick'em with no clean side after weighing both. Pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: LEAN: COL ML
+PRICE: +130
+UNITS: LEAN
+EDGE: THIN
+REASON: Milwaukee is the far better team but Sproat is pitching badly (6.24 ERA / 5.59 FIP) and Coors is the great variance equalizer, so laying -152 asks the Brewers' class to overcome a weak arm in a bandbox. That feels rich and points toward Rockies value, but Colorado is 24-39 with a -83 diff, so I won't actually back them — noted as a lean only.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +117
+UNITS: 1
+EDGE: REAL
+REASON: Kelly's contact quality has collapsed (7.26 xERA, 16.4 Brl%, 44.1 HH%) and Washington brings a strong road bat (5.3 RS/G, 19-12 away) into extreme 104°F heat — that combination makes the Nats live for plus money. Best price +117 implies ~46%; I estimate Washington close to 49%, so I'm getting a small edge on the dog. Griffin's own mediocrity (4.89 FIP) keeps this to a single unit rather than more.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Two quality arms (Scott's peripherals, King at 3.84 FIP) in a pitcher's park makes this a tight, low-scoring profile that's fairly priced at -132. San Diego's 1-9 skid is dramatic but they're still the better, home side and the market trusts the talent. Mets' road woes offset any regression angle. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The Angels' starter is TBD, so I can't responsibly price either the ML or the -1.5 run line — that's unconfirmed lineup data and an automatic pass for me. The Dodgers are clearly superior but -195 is heavy chalk with no value, and their +112 run line would be the efficient vehicle only once the opposing arm is confirmed. Passing on data grounds.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: St. Louis Cardinals ML -133 — 1 unit
+WHY THIS ONE: Singer's badness is confirmed across ERA, FIP, xERA and recent form rather than resting on one noisy metric, making it the lowest-variance pricing miss on the board — cleaner than the Seattle lean (market already favors them) and the Washington dog (relies more on contact-luck regression).
+
+A note on the shape of this card, outside the format: nothing on this slate cleared the 5+ point gap with confirmed data needed for a 3- or 5-unit play, so it's three disciplined 1-unit plays, one lean, and a lot of passes. I also skipped the optional parlay deliberately — multiplying two thin ~1-unit edges compounds the vig and erases the value, so the two best singles stand alone.
+
+======================================================================
+  MODEL: QWEN
+======================================================================
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Robbie Ray has been terrible lately with a 10.22 ERA over his last three starts, but Edward Cabrera is also unreliable with a 6.39 ERA in his last three. The weather includes moderate drizzle, but the total is set at a massive 11.0, making both sides of the total and moneyline unappealing.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: PHI -1.5
+PRICE: +110
+UNITS: 3
+EDGE: STRONG
+REASON: Anthony Kay's 3.77 ERA is completely unsustainably low compared to his 5.23 FIP and 5.67 xERA, indicating massive upcoming regression. Jesús Luzardo has a 2.77 FIP and 3.16 xERA, fully justifying the sustainability of his recent dominance and making this a massive mismatch. The Phillies' -1.5 run line at plus-money is the most efficient way to capitalize on this edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Bryan Woo is excellent with a 2.96 FIP, but the Mariners are only -134 on the road against Framber Valdez, who has a solid 4.18 FIP. There is no significant edge on the moneyline or run line given the pricing.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Sonny Gray's 3.06 ERA is heavily propped up by luck given his 4.38 xERA, while Ryan Weathers has a 3.88 FIP. The Yankees are heavy favorites at -143, but there is no clear edge to justify laying that price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Trey Yesavage has incredible metrics with a 2.45 FIP and 2.50 xERA, but it comes with a tiny 37-inning sample size that makes me cautious. Brandon Young has a 4.33 FIP, but the Blue Jays are -155 favorites, which doesn't offer enough value to overcome the small-sample risk.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Ryan Gusto has only pitched 3 innings this season, making his 0.43 FIP completely unreliable for betting purposes. The Rays are in a slump at 2-8 in their last 10, and there is no actionable edge on either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Martín Pérez has a 2.79 ERA but a much worse 4.15 FIP and 4.32 xERA, suggesting his success is unsustainable. Mitch Keller has a 3.38 FIP but has been shelled lately with a 6.89 ERA over his last three starts. The Braves are -142 favorites, but the pitching matchups don't justify a strong bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Jack Perkins has a 2.60 FIP but a 5.46 ERA, while Peter Lambert has a 3.43 FIP but a 5.62 ERA over his last three starts. Both pitchers are highly volatile, and the moneyline is essentially a pick'em at -110/-108, offering no edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: STL -1.5
+PRICE: +145
+UNITS: 1
+EDGE: REAL
+REASON: Brady Singer is getting absolutely shelled with a 6.88 FIP and 6.48 xERA, alongside a 7.82 ERA over his last three starts. Kyle Leahy isn't elite with a 4.74 FIP, but he has a massive advantage over Singer at home, making the plus-money run line highly attractive.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: CLE -1.5
+PRICE: +125
+UNITS: 1
+EDGE: REAL
+REASON: Parker Messick has been outstanding with a 3.04 FIP and 3.23 xERA, while Kumar Rocker carries a 4.14 FIP and 4.62 xERA. Even though the total dropped to 7.0, Messick's ability to suppress hard contact should allow the Guardians' offense to squeak out a multi-run victory in a low-scoring script.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Zebby Matthews has a 3.00 xERA but a 4.60 FIP, making his true talent level highly uncertain. Michael Wacha has a 3.91 FIP, and the Twins are slight favorites at -118, but there is no clear edge to exploit here.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: It's Coors Field with an 11.5 total, and both starters have poor metrics—Brandon Sproat has a 5.59 FIP and Ryan Feltner has a 5.06 FIP. The Brewers are -152 favorites, but pitching in Denver introduces too much variance to lay that price with confidence.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Merrill Kelly has a 5.59 FIP and a massive 7.26 xERA, meaning his 5.06 ERA is actually lucky, yet his last three starts show a 3.44 ERA. Foster Griffin has a 4.89 FIP, and the Diamondbacks are -134 favorites, but Kelly's underlying metrics make him an unreliable anchor for a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Christian Scott has a 3.10 FIP but a 4.23 xERA, while Michael King has a 3.84 FIP and 3.98 xERA. Petco Park suppresses offense, but the Padres are -132 favorites against a pitcher with a solid FIP, leaving no real edge on the moneyline or run line.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Roki Sasaki has a 5.04 FIP and 4.59 xERA, which is much worse than his recent 2.08 ERA over his last three starts, suggesting regression is coming. With the Angels' starter listed as TBD and the Dodgers heavy favorites at -195, there is no value to be found.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: PHI -1.5 (+110)
+WHY THIS ONE: Anthony Kay's extreme underlying metrics (5.23 FIP, 5.67 xERA) scream regression against a Jesús Luzardo (2.77 FIP, 3.16 xERA) who is legitimately pitching at an ace level, creating a massive mismatch that the market hasn't fully priced in on the run line.
+
+======================================================================
+  MODEL: SONNET
+======================================================================
+## GAME: SF @ CHC
+PICK: LEAN: CHC ML
+PRICE: -160
+UNITS: LEAN
+EDGE: THIN
+REASON: Robbie Ray's last three starts produced a 10.22 ERA and his season metrics all confirm dysfunction — FIP 5.40, xERA 5.18 — this is not bad luck, it is a genuinely broken pitcher. San Francisco's entire bullpen is taxed: Brubaker (46p), Ramos (21p), Hentges, Kilian, and Beck all used yesterday, meaning if Ray unravels early there is nowhere to turn. CHC is the better team and Cabrera's season metrics, while unimpressive, are meaningfully better than Ray's. The lean rather than a bet: ongoing moderate drizzle at 63% rain probability at an open-air Wrigley makes conditions unpredictable and a full firm commitment at -160 with both starters already struggling and weather complicating the game script lacks the clarity a bet requires.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: CHW ML
+PRICE: +162
+UNITS: 1
+EDGE: REAL
+REASON: Philadelphia at -185 implies a 64.9% win probability — but their run differential is -22 and their offense is 3.9 RS/G, which is not a lineup that justifies heavy favourite pricing. Luzardo is genuinely good (FIP 2.77, K/9 10.5) but Kay has produced a 1.65 ERA over his last three starts and Chicago is 7-3 across their last 10. The PHI bullpen has Alvarado (25p) and Kerkering (18p) taxed from yesterday, limiting late-inning depth. PHI's run differential (-22) and 3.9 RS/G are both well below the thresholds that would compress this edge. A fair line here is closer to PHI -140 to -150, placing CWS value at approximately 8-12 percentage points above the current +162 implied.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -128
+UNITS: 1
+EDGE: REAL
+REASON: Bryan Woo's three metrics agree over 70 innings — ERA 3.44, FIP 2.96, xERA 2.91 — making him the cleanest starting pitching read on this slate. His last three outings: two shutout performances around a single bad start. Framber Valdez is consistently mediocre across all three measures (ERA 4.39, FIP 4.18, xERA 4.38) and posted a 4.58 ERA over his last three. Seattle is 8-2 in their last 10 games. Detroit scores 3.9 RS/G with a -25 run differential — below both thresholds that would require a unit reduction. At best -128 (implied ~56%), a fair price for Woo vs. Valdez with SEA's current form is -150 to -165, representing a 20-25 cent discount to true value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: LEAN: NYY ML
+PRICE: -140
+UNITS: LEAN
+EDGE: THIN
+REASON: New York owns a +93 run differential, 37-25 record, 7-3 recent form, and a 5.1 RS/G offense against a Boston team at 26-35 with a -6 run differential. Weathers' recent form is rough (L3 ERA 4.74) and Gray's xERA (4.38) is considerably higher than his ERA (3.06), suggesting regression incoming for the BOS starter. The lean rather than a bet: at -140 (best), implied 58.3% is not far from what the team quality supports — the margin between fair value and offered price is thin — and the NYY bullpen has Cruz on consecutive days with Bednar already used 12 pitches yesterday, limiting comfort in a close finish.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: LEAN: BAL ML
+PRICE: +135
+UNITS: LEAN
+EDGE: THIN
+REASON: Toronto's bullpen is functionally destroyed — Dallas threw 68 pitches yesterday, Varland (17p), Rogers (12p), Fisher (9p), and Hoffman (9p) all used, leaving almost nothing for after Yesavage exits. Yesavage's underlying metrics are excellent in a small sample (FIP 2.45, xERA 2.50, K/9 9.5) and he could carry TOR 6-7 innings before the depletion matters. The lean rather than a full bet: BAL's road record is 11-18 and their run differential is -37, which are full-game structural weaknesses that offset the bullpen advantage. Young's FIP (4.33) and xERA (4.32) indicate his 3.35 ERA is inflated — he may give up early runs that allow TOR to win before the bullpen situation becomes decisive. The opposing full-game variables are too numerous to clear the veto test to 1 unit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Tampa Bay has collapsed to 2-8 in their last 10 games after starting 36-23, and this data package provides no explanation for the cause — which means no reliable edge can be identified. Gusto's 3.0 IP sample produces meaningless metrics: a 0.43 FIP in three innings is statistical noise, not a signal, and the ERA 9.00 is equally unreliable. Rasmussen is solid but TB's current form is alarming and the near-coin-flip line (-136 TB) with both bullpens fresh and an unanalyzable home starter makes the game impossible to handicap with confidence.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: ATL ML
+PRICE: -140
+UNITS: 1
+EDGE: REAL
+REASON: Atlanta is 42-21 with a +109 run differential — the dominant team on this slate — and Pittsburgh sends Mitch Keller to the mound in brutal recent form: 4 ER, 1 ER, 7 ER over his last three starts for a 6.89 L3 ERA. His FIP (3.38) diverges sharply from results, which typically signals poor sequencing or bullpen bleed-in rather than skills improvement. PIT scores 5.2 RS/G (above the 4.8 threshold), so Pérez's ERA advantage over Keller is not the primary case here — ATL's team quality, Keller's recent collapse, and PIT's Mlodzinski (55p yesterday) taxing the bullpen are. ATL at -140 (best) implies 58.3%; given Keller's trajectory facing a .667 team, a fair price is closer to -165 to -175.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The Athletics bullpen is critically depleted — Kuhnel, Leiter Jr., and Medina all worked consecutive days, Barlow added 19 pitches yesterday. Perkins' FIP (2.60) and K/9 (10.6) look elite but over 28 innings those numbers are too small to trust against a full major league lineup. Lambert's recent form has deteriorated (5.62 L3 ERA). Houston's bullpen is also taxed (Okert 41p, Abreu 18p). A near-coin-flip line for two struggling below-.500 teams with depleted bullpens and a small-sample starter whose metrics contradict each other on the road side produces no clean angle.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Brady Singer is objectively terrible — ERA 6.18, FIP 6.88, xERA 6.48, and a 7.82 ERA over his last three starts, with no metric suggesting this changes. That makes STL a reasonable lean at first glance, but Leahy's xERA (6.24) is an equally alarming warning sign that his ERA (4.25) is significantly overstated. STL is 3-7 in their last 10 and holds a negative run differential (-12). The market likely prices Singer's struggles into the -139 line already. Two pitchers with severe ERA-to-true-talent gaps pointing in opposite directions and both teams in poor form creates too much uncertainty for a clean bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: CLE ML
+PRICE: -130
+UNITS: 1
+EDGE: REAL
+REASON: Parker Messick's three metrics are all confirmed over 69 innings — ERA 2.21, FIP 3.04, xERA 3.23 — and his last three starts produced a 1.72 ERA with one blip start in the middle. Kumar Rocker's ERA (3.54) is undermined by a 4.14 FIP and 4.62 xERA; his last three starts show a 2.25 ERA but the underlying regression risk is real. Texas scores 4.0 RS/G with a +9 run differential — comfortably below both thresholds that would require reducing the unit rating. The total moving from 7.5 to 7.0 suggests sharp under action aligned with Messick's profile. CLE at best -130 (implied ~56.5%) is a 15-20 cent discount to a fair price of -150 to -160 for this pitching matchup.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Minnesota's bullpen is in crisis — Paredes (50p), three relievers on consecutive days, and the closer already taxed — and Matthews produced a 6.61 ERA over his last three starts. Both of these strongly favour Kansas City at first read. But KC's road record is 10-21 (the worst away mark in this slate), they are 3-7 in their last 10, and their own bullpen has Lange and Lynch IV on consecutive-day usage. The moneyline data is partially flagged as suspect. With both teams in severe form collapses, both bullpens taxed, and unreliable odds data, the variables cancel enough that no clear edge survives to a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: MIL ML
+PRICE: -148
+UNITS: 1
+EDGE: REAL
+REASON: Milwaukee is 37-23 with a +89 run differential and 5.0 RS/G offense. Sproat has produced a 7.62 ERA over his last three starts and his season metrics confirm it is not an aberration — FIP 5.59, xERA 5.11. Feltner's recent form (2.63 L3 ERA) partially offsets, but his xERA (6.32) signals severe regression in the other direction. Colorado scores 4.3 RS/G with a -83 run differential — well clear of both tier-reduction thresholds. MIL's bullpen is somewhat taxed (Woodford 56p, Anderson 30p, Hall 27p), which is the primary reason this stays on the moneyline rather than the run line. At -148 (best), MIL should be closer to -180 to -200 for this calibre of quality gap against this opponent.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: LEAN: WAS ML
+PRICE: +117
+UNITS: LEAN
+EDGE: THIN
+REASON: Merrill Kelly's xERA (7.26) and FIP (5.59) are alarming — his ERA (5.06) is already elevated but the underlying metrics suggest worse is coming, not better. Washington's away record is a genuine 19-12 and their offense is 5.3 RS/G. The lean rather than a full bet: Griffin's FIP (4.89) and xERA (4.41) also indicate his ERA (3.76) is inflated, meaning WSH does not hold as much pitching edge as the Kelly matchup first suggests. AZ holds a 20-12 home record and better overall quality (33-29 vs 31-32). At +117, the value is real if Kelly regresses sharply but both starters have ERA-to-true-talent gaps pointing the same direction, leaving the net pitching edge narrower than implied.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: NYM ML
+PRICE: +114
+UNITS: 1
+EDGE: REAL
+REASON: San Diego has collapsed to 1-9 in their last 10 games and the structural reasons are visible in this data package: King's last three starts include a 3.2-inning blowup and a 5-run outing, his FIP (3.84) and xERA (3.98) confirm his ERA (3.18) is inflated, and the bullpen is taxed across multiple arms — Morejon (28p), Peralta (2 consec days), Matsui (19p), Marinaccio (15p). Christian Scott's K/9 of 11.3 is elite even in a small sample, and his FIP (3.10) adds credibility. San Diego scores 3.9 RS/G with a -10 run differential — both below the thresholds that would require a unit reduction. NYM at +114 (implied 46.7%) for a team with a 50%+ realistic win probability against a side in structural freefall represents clear value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: LEAN: LAD -1.5
+PRICE: +111
+UNITS: LEAN
+EDGE: THIN
+REASON: Los Angeles is 40-23 with a +133 run differential and 5.2 RS/G offense against a 24-39 Angels team at -51 run differential with an unconfirmed starter — the quality gap is among the largest on the slate. Sasaki's recent form (2.08 L3 ERA) is solid even if his season metrics are uneven. The lean lands on the run line (+111) rather than the moneyline (-188+) because that price requires risking nearly two dollars to win one on a game whose pitching matchup for LAA is unknown. The TBD Angels starter is the primary reason this stays a lean — a quality spot start option could keep the game within one run for long enough that LAD's run line exposure is real.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: CHW ML +162
+LEG 2: NYM ML +114
+COMBINED PRICE: +461
+TRUE PROBABILITY ESTIMATE: ~21% (CWS ~42% × NYM ~50%)
+UNITS: 1
+REASON: Both legs were independently identified as having real edge in the game-by-game analysis — CWS based on Philadelphia's inflated price given their negative run differential and bullpen depletion relative to the -185 ask, NYM based on San Diego's structural 1-9 collapse, taxed bullpen, and King's poor recent form. Different leagues (AL vs NL), different coasts, no division overlap, no shared travel pattern, no weather correlation. Neither leg is shorter than -180 individually. The combined +461 payout exceeds the break-even of approximately +376 implied by a 21% true win probability, confirming positive expected value if both probability estimates are reasonable.
+
+## SLATE SUMMARY
+BEST BET: SEA ML -128 — 1 unit
+WHY THIS ONE: Bryan Woo's ERA, FIP, and xERA all agree over 70 innings that he is a legitimately elite starter right now, and all three metrics cluster tightly between 2.91 and 3.44 — not a case where one number flatters while others warn. Framber Valdez is consistently mediocre across the same three measures with a 4.58 ERA over his last three starts, Seattle is 8-2 in their last 10, and Detroit's offense (3.9 RS/G, -25 run diff) gives Woo a favourable matchup with no tier-reduction trigger. The -128 best price represents the clearest gap between market price and estimated fair value on this slate.

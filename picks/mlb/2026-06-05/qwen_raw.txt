@@ -1,0 +1,123 @@
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Robbie Ray has been terrible lately with a 10.22 ERA over his last three starts, but Edward Cabrera is also unreliable with a 6.39 ERA in his last three. The weather includes moderate drizzle, but the total is set at a massive 11.0, making both sides of the total and moneyline unappealing.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: PHI -1.5
+PRICE: +110
+UNITS: 3
+EDGE: STRONG
+REASON: Anthony Kay's 3.77 ERA is completely unsustainably low compared to his 5.23 FIP and 5.67 xERA, indicating massive upcoming regression. Jesús Luzardo has a 2.77 FIP and 3.16 xERA, fully justifying the sustainability of his recent dominance and making this a massive mismatch. The Phillies' -1.5 run line at plus-money is the most efficient way to capitalize on this edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Bryan Woo is excellent with a 2.96 FIP, but the Mariners are only -134 on the road against Framber Valdez, who has a solid 4.18 FIP. There is no significant edge on the moneyline or run line given the pricing.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Sonny Gray's 3.06 ERA is heavily propped up by luck given his 4.38 xERA, while Ryan Weathers has a 3.88 FIP. The Yankees are heavy favorites at -143, but there is no clear edge to justify laying that price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Trey Yesavage has incredible metrics with a 2.45 FIP and 2.50 xERA, but it comes with a tiny 37-inning sample size that makes me cautious. Brandon Young has a 4.33 FIP, but the Blue Jays are -155 favorites, which doesn't offer enough value to overcome the small-sample risk.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Ryan Gusto has only pitched 3 innings this season, making his 0.43 FIP completely unreliable for betting purposes. The Rays are in a slump at 2-8 in their last 10, and there is no actionable edge on either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Martín Pérez has a 2.79 ERA but a much worse 4.15 FIP and 4.32 xERA, suggesting his success is unsustainable. Mitch Keller has a 3.38 FIP but has been shelled lately with a 6.89 ERA over his last three starts. The Braves are -142 favorites, but the pitching matchups don't justify a strong bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Jack Perkins has a 2.60 FIP but a 5.46 ERA, while Peter Lambert has a 3.43 FIP but a 5.62 ERA over his last three starts. Both pitchers are highly volatile, and the moneyline is essentially a pick'em at -110/-108, offering no edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: STL -1.5
+PRICE: +145
+UNITS: 1
+EDGE: REAL
+REASON: Brady Singer is getting absolutely shelled with a 6.88 FIP and 6.48 xERA, alongside a 7.82 ERA over his last three starts. Kyle Leahy isn't elite with a 4.74 FIP, but he has a massive advantage over Singer at home, making the plus-money run line highly attractive.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: CLE -1.5
+PRICE: +125
+UNITS: 1
+EDGE: REAL
+REASON: Parker Messick has been outstanding with a 3.04 FIP and 3.23 xERA, while Kumar Rocker carries a 4.14 FIP and 4.62 xERA. Even though the total dropped to 7.0, Messick's ability to suppress hard contact should allow the Guardians' offense to squeak out a multi-run victory in a low-scoring script.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Zebby Matthews has a 3.00 xERA but a 4.60 FIP, making his true talent level highly uncertain. Michael Wacha has a 3.91 FIP, and the Twins are slight favorites at -118, but there is no clear edge to exploit here.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: It's Coors Field with an 11.5 total, and both starters have poor metrics—Brandon Sproat has a 5.59 FIP and Ryan Feltner has a 5.06 FIP. The Brewers are -152 favorites, but pitching in Denver introduces too much variance to lay that price with confidence.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Merrill Kelly has a 5.59 FIP and a massive 7.26 xERA, meaning his 5.06 ERA is actually lucky, yet his last three starts show a 3.44 ERA. Foster Griffin has a 4.89 FIP, and the Diamondbacks are -134 favorites, but Kelly's underlying metrics make him an unreliable anchor for a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Christian Scott has a 3.10 FIP but a 4.23 xERA, while Michael King has a 3.84 FIP and 3.98 xERA. Petco Park suppresses offense, but the Padres are -132 favorites against a pitcher with a solid FIP, leaving no real edge on the moneyline or run line.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Roki Sasaki has a 5.04 FIP and 4.59 xERA, which is much worse than his recent 2.08 ERA over his last three starts, suggesting regression is coming. With the Angels' starter listed as TBD and the Dodgers heavy favorites at -195, there is no value to be found.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: PHI -1.5 (+110)
+WHY THIS ONE: Anthony Kay's extreme underlying metrics (5.23 FIP, 5.67 xERA) scream regression against a Jesús Luzardo (2.77 FIP, 3.16 xERA) who is legitimately pitching at an ace level, creating a massive mismatch that the market hasn't fully priced in on the run line.

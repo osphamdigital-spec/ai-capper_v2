@@ -1,0 +1,167 @@
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Drew Rasmussen represents a massive pitching advantage for Tampa Bay over Jake Bennett, who has just 10.1 innings pitched this season. However, with the Rays' high-leverage bullpen arms heavily taxed from recent usage, we pass on the high moneyline price and lean Over.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: LEAN: NYY ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.8 pts
+TOTAL LEAN: Under
+REASON: The Yankees hold a massive team quality advantage (+99 run differential vs. -2 for Cleveland) and hit left-handed pitching incredibly well (124 wRC+). However, Parker Messick has excellent underlying metrics (3.48 SIERA) despite a poor last 14 days, keeping this game within a lean on the Yankees.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: LEAN: WAS ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.2 pts
+TOTAL LEAN: Over
+REASON: Washington is an exceptionally strong road team (23-13) and should exploit Robbie Ray's recent control issues (7.0 BB/9 over the last 14 days). The Nationals' 121 wRC+ vs. lefties matches up well here, but the edge is just short of the betting threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Michael King and an elite Padres bullpen (2.83 ERA) should keep Cincinnati's weak offense in check. Brady Singer has struggled recently (5.58 SIERA over the last 14 days), but Petco Park's friendly environment keeps us off a side bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: SEA ML
+PRICE: -114
+UNITS: 1
+EDGE: 4.7 pts
+TOTAL LEAN: Over
+REASON: George Kirby (3.53 SIERA, 18.2% K-BB%) represents a dramatic starting pitching advantage over Brandon Young (4.68 SIERA). Additionally, Seattle enjoys a massive bullpen advantage against a heavily taxed Baltimore relief unit (6.03 season ERA). 
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Ryan Gusto is a small-sample starter with just 5.0 innings pitched this year, making this effectively a bullpen game for Miami. Ryne Nelson is highly volatile, which makes a side bet on either team a low-value proposition in this park.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: With Minnesota's starting pitcher unannounced, there is no reliable way to price the moneyline. Detroit is heavily favored behind Framber Valdez, but we pass on the uncertainty.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Shohei Ohtani is a tier-1 starting pitcher (2.95 SIERA, 24.2% K-BB%), while Jared Jones has pitched just 9.1 innings this season. Under model instructions, because the opposing offenses combine for only 222 wRC+ against righties, we place a steep tax on the over and lean Under.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Jesus Luzardo qualifies as an elite tier-1 starter (3.39 SIERA, 20.4% K-BB%). Facing a declining Max Scherzer, Philadelphia has the edge, but the market has priced them heavily as road favorites, making a pass on the side the disciplined choice.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: LEAN: STL ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.1 pts
+TOTAL LEAN: Under
+REASON: St. Louis is the better team overall and matches up well against Austin Warren, who has limited mileage this season (22.1 IP). However, Andre Pallante's mediocre metrics (4.43 SIERA) keep this from crossing our strict 4-point value threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Chris Sale is dominant (2.97 SIERA, 24.7% K-BB%), making Atlanta a heavy road favorite. With Chicago's starting pitcher listed as TBD, we pass on the side and lean Under with Sale on the mound.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: LEAN: TEX ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.3 pts
+TOTAL LEAN: Over
+REASON: Texas has the edge with MacKenzie Gore (3.88 SIERA) starting against Seth Lugo (4.45 SIERA), especially with Kansas City's bullpen in complete disarray. Extremely hot weather and high winds blowing out make the Over a very strong lean here.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Shota Imanaga has struggled over his last 14 days (4.56 SIERA), and the Cubs are a sub-.500 team on the road. Model rules caution against betting unders in Coors Field due to high runs variance, and we have no edge on the expensive side line.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: MIL ML
+PRICE: -105
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: Over
+REASON: Milwaukee is a dominant road team (20-11) and enters this matchup white-hot, averaging 8.3 runs per game over their last 10 contests. Athletic starter Jack Perkins (4.74 SIERA) and a taxed Oakland bullpen should struggle to contain them at Sutter Health Park.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Reid Detmers is pitching like an elite starter (3.36 SIERA, 20.7% K-BB%). Under model instructions, because the combined offensive wRC+ against righties/lefties sits at 209, we place a steep tax on the over and lean Under.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

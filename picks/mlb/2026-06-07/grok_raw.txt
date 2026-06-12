@@ -1,0 +1,131 @@
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: ATL leads in all three team quality metrics (run diff +115 vs +31, RS/G 5.2 vs 5.1, last10 7-3 vs 5-5); no override from pitching or bullpen. Bullpen freshness delta is +1 favoring ATL (1 fresh HL vs PIT's 0). Estimated platoon wRC+ is low-trust and corroborated only by team form, not two independent non-estimated signals. Fair line ATL -175 vs market -158 offers no 4% edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: BOS ML
+PRICE: +141
+UNITS: 1
+EDGE: REAL
+REASON: Bullpen freshness delta +3 favoring BOS underdog (3 fresh HL vs NYY 0); add 5% to BOS win prob per rule as NYY has closer and two relievers with recent usage. Estimated win probability 46%. Implied probability at +141 is 41.5%. Gap 4.5 points (downgraded from potential 2 units due to BOS trailing in run diff and RS/G). One piece against: NYY's 125 wRC+ vs LHP. Not small sample for Suarez.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: CHW ML
+PRICE: +143
+UNITS: 3
+EDGE: STRONG
+REASON: Bullpen freshness delta +2 favoring CHW underdog (2 fresh HL vs PHI 0); add 4% per rule. Estimated win probability 47%. Implied probability at +143 is 41%. Gap 6 points. Two independent factors: CHW 7-3 last10 and PHI 0 fresh HL arms. One piece against: Nola's last-14 xFIP 2.31. Team quality even on last10 and run diff (no downgrade). Gilbert small sample treated as opener; bullpen quality corroborates. Estimated platoon low-trust but backed by form and bullpen.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Team quality even across run diff, RS/G and last10; bullpen freshness delta +1 favoring BAL but TOR has strong recent HL usage pattern. Baz and Gausman metrics too close after small-sample caution on recent form. Fair line near pick'em matches market. No 4% edge after TEAM QUALITY CHECK and BULLPEN FATIGUE RULE.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -119
+UNITS: 1
+EDGE: REAL
+REASON: SEA leads in all three team quality metrics (last10 8-2 vs 5-5, run diff +30 vs -25, RS/G 4.2 vs 3.9); no downgrade. Castillo's last-14 K/9 13.5 and xFIP 3.40 override surface ERA. Bullpen freshness delta favors DET by 1 (no add for favorite). Estimated win probability 55%. Implied at -119 is 54.3%. Gap 0.7 points (1-unit max). Not small sample; corroborated by K/9 and platoon.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: TB leads in last10 and run diff but MIA has home advantage and platoon edge (130 wRC+ vs LHP estimated, low-trust but backed by park). Bullpen freshness delta +1 favoring TB but no add for favorite. Jax small sample (34 IP) requires non-ERA indicator (last-14 K/9 12.0) yet Alcantara's home splits offset. Fair line TB -125 vs market -116 offers <4% edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: HOU leads in run diff and last10; ATH trails in two metrics triggering downgrade on any ATH lean. Jump small sample (12 IP) treated as bulk; reframed as ATH bullpen game vs HOU. 11% rain and possible closed roof adds variance. Bullpen freshness delta even. Fair line near pick'em matches market.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIN leads in last10 and RS/G; KC trails in two metrics (downgrade applied). Bullpen freshness delta +1 favoring KC but MIN has 0 fresh HL triggering BULLPEN FATIGUE RULE add of 5% to KC prob — still only reaches ~51% vs -110 implied 52.4%. Fair line near pick'em after adjustment. No 4% edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: STL leads in last10 and run diff; CIN trails in two metrics. Lowder small sample (38 IP) with poor xFIP 4.78; McGreevy's home park suppresses runs. Bullpen delta +1 favoring CIN but no add for favorite. Total estimate using required sequence: 8.6 runs vs 9.0 line after park adjustment. No actionable gap.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: Under 7.5
+PRICE: -120
+UNITS: 1
+EDGE: REAL
+REASON: Expected runs 7.9 base minus 0.7 for Globe Life 83 runs factor minus 0.4 for both strong bullpens (TEX +3 fresh HL, CLE +1) yields ~6.8 vs 7.5 line. Two independent factors: pitcher-friendly park and deGrom's xFIP 3.31. One piece against: potential roof-open wind. Team quality even on last10. No small-sample issue on key arms.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIL leads in all team quality metrics but -180 ML is heavier than fair line of -155 after Coors inflation (total estimate 11.8 runs vs 12.0 line). Drohan small sample (31 IP) with poor xFIP 4.99; cannot assign 3+ units or best-bet status. Bullpen delta even. No plus-money efficiency on RL.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: WAS leads in run diff, last10 and RS/G but bullpen freshness delta favors AZ by 2 (no add for WAS underdog). Cavalli and Soroka metrics close after last-14 adjustments. Estimated platoon low-trust and not corroborated by two non-estimated signals. Fair line WAS +118 vs market +113 is inside no-edge window.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: LAD leads in all three team quality metrics (+141 run diff, 5.2 vs 4.3 RS/G, 7-3 vs 3-7 last10). LAD -210 heavier than fair line near -175; -101 RL fails independent P(win by 2+) test (estimated 51% vs implied ~50% but stale flag). Soriano small-sample recent form poor. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYM leads in last10 (6-4 vs 2-8) but trails in run diff and RS/G (downgrade applied). Brazoban small sample (32 IP) with poor xFIP 5.50 treated cautiously; Vásquez home splits solid. Bullpen delta even. Fair line near pick'em matches market after TEAM QUALITY CHECK.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ CHC
+PICK: SF ML
+PRICE: +105
+UNITS: 1
+EDGE: REAL
+REASON: Estimated win probability 49.5%. Implied at +105 is 48.8%. Gap 0.7 points. Bullpen freshness delta even but SF has no taxed arms versus CHC 0 fresh HL. SF does not trail in two team quality metrics after last10 adjustment. One piece against: Taillon's K/9. Estimated platoon corroborated by bullpen and park. Plus-money edge passes UNDERDOG CHECK with no named structural blocker.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: CHW ML +143
+LEG 2: BOS ML +141
+COMBINED PRICE: +345
+TRUE PROBABILITY ESTIMATE: 46%
+UNITS: 1
+REASON: Both legs independently cleared 4% edge on bullpen freshness delta and recent form; different leagues and no shared weather/travel correlation. Parlay adds value at combined price versus singles.
+
+## SLATE SUMMARY
+BEST BET: CHW ML (Game 3, 3 units)
+WHY THIS ONE: Largest verified gap (6 points) after mandatory bullpen freshness delta (+2 favoring underdog), BULLPEN FATIGUE RULE adjustment, and TEAM QUALITY CHECK with no downgrade; exceeds every other qualifying leg on independent factors of recent form and PHI's 0 fresh high-leverage arms.

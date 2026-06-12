@@ -1,0 +1,90 @@
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Kelly’s xFIP is 4.17 but recent decline (L14 xFIP 5.94) vs. Phillips’ 3.88 xFIP; MIA holds a slight edge. MIA bullpen is fatigued (all three high-leverage arms used in last two days), which shrinks the gap under the 4‑pt threshold. No bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters are below average (Matthews L14 xFIP 5.03, Montero 4.98). MIN’s bullpen (4.87 ERA) is shaky while DET’s unit is also below par. Estimated runs cluster around the posted total, and the ML market price (DET -123) closely mirrors a coin‑flip game after adjustments. No edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Initial team-quality models favored STL, but the massive bullpen disparity (NYM 2.95 vs. STL 3.83) swings the run projection back to NYM (≈4.0–3.7). Dobbins’ small sample adds uncertainty. STL +122 does not clear the 4‑pt gate once bullpen advantage is factored.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both teams are close in true talent, and neither starter provides a decisive advantage (Rocker xFIP 4.36, Wacha 4.46). The total of 10.0 looks high, but insufficient data (wind unavailable, unclear bullpen situation due to KC’s reported 22.25 ERA) prevents a confident total play.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: Over 11
+PRICE: -108
+UNITS: 1
+EDGE: 9.3 pts
+TOTAL LEAN: Over
+REASON: Coors Field run factor of 130 drives an expected total near 12.5 after adjusting for both starters’ xFIP (Cabrera 3.71 -> 4.82, Feltner 4.44 -> 5.77) and poor bullpens (both ERA >5.5 inflated). The -108 line implies 51.9% while the projected mean gives >61% likelihood. Two of five factors (park, bullpen) point firmly Over; no counteracting wind or elite starter presence.
+LOOKED UP: verified park factor and wind (9.4 mph NE not strong enough to suppress scoring)
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: LAD is elite (pyth .728) and -161 is close to fair value despite PIT’s gaudy wRC+ 158 vs LHP. Wrobleski’s recent xFIP (2.33) offsets the platoon edge. Market price leaves no gap >4 pts on either side.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: SEA ML
+PRICE: -107
+UNITS: 1
+EDGE: 6.8 pts
+TOTAL LEAN: Under
+REASON: Bryan Woo’s xFIP (3.43) significantly out‑classes Bradish (3.68), and SEA’s offense (wRC+ 118 vs RHP) has a clear edge on BAL’s pitching. BAL’s bullpen (6.06 ERA) is a liability, while SEA’s fatigued arm Ferrer only costs ~0.5 runs. Run projection: SEA 4.47, BAL ~3.77, giving SEA a 58.5% win probability against an implied 51.7% at -107.
+LOOKED UP: confirmed best available price on BetOnline.ag
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TBD starter for CHW violates the mandatory TBD rule — the pitching matchup is unreliable. Pass regardless of all other factors.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

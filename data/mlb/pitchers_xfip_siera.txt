@@ -1,0 +1,342 @@
+#	Name	Team	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)	K-BB% K-BB% - The difference between strikeout percentage and walk percentage	xFIP xFIP - Expected Fielder Independent Pitching where Home Runs are calculated as 10.5% of Fly Balls induced	SIERA SIERA - Skill Interactive ERA	IP IP - Innings Pitched	gmLI gmLI - Average Leverage Index when entering the game	Stuff+
+1	Aaron Civale	3 Tms	7.03	3.11	10.0%	4.96	4.82	144.2	0.87	92
+2	Aaron Nola	PHI	9.26	2.81	16.6%	3.71	3.81	160.1	0.86	104
+3	Adam Mazur	MIA	5.70	3.60	5.0%	5.22	5.28	30.0	0.88	99
+4	Adrian Houser	3 Tms	6.40	3.01	8.8%	4.48	4.65	185.2	0.87	92
+5	AJ Blubaugh	HOU	12.27	4.91	19.1%	3.87	3.82	11.0	0.87	100
+6	AJ Smith-Shawver	ATL	8.53	4.26	10.9%	4.36	4.60	44.1	0.87	99
+7	Andre Pallante	STL	6.44	3.38	7.8%	4.19	4.43	226.1	0.87	96
+8	Andrew Abbott	CIN	7.54	2.84	12.5%	4.49	4.45	241.0	0.88	98
+9	Andrew Alvarez	WSN	8.04	3.54	12.1%	3.84	4.09	28.0	0.88	90
+10	Andrew Heaney	PIT	6.38	2.85	9.1%	4.89	4.85	117.0	0.84	90
+11	Andrew Painter	PHI	6.79	3.06	9.1%	4.97	4.74	53.0	0.87	101
+12	Anthony DeSclafani	ARI	8.56	3.29	12.5%	5.13	4.43	13.2	0.87	94
+13	Anthony Kay	CHW	7.45	3.81	8.9%	4.79	4.60	54.1	0.86	105
+14	Anthony Molina	COL	3.60	1.80	4.2%	6.02	5.73	5.0	0.87	86
+15	Antonio Senzatela	COL	4.92	3.17	4.0%	5.16	5.25	108.0	0.87	85
+16	Austin Gomber	COL	5.31	2.65	6.3%	5.67	5.44	57.2	0.87	90
+17	Bailey Falter	2 Tms	5.66	3.37	6.1%	5.09	5.26	125.2	0.88	93
+18	Bailey Ober	MIN	7.01	2.07	12.9%	4.78	4.58	213.0	0.88	96
+19	Ben Brown	CHC	9.67	2.61	18.3%	3.58	3.63	107.0	0.87	98
+20	Ben Casparius	LAD	8.38	1.86	16.3%	5.24	4.80	9.2	0.87	108
+21	Ben Lively	CLE	5.84	3.02	7.9%	5.26	5.30	44.2	0.87	90
+22	Blade Tidwell	NYM	7.36	7.36	0.0%	6.68	6.13	7.1	0.90	108
+23	Blake Snell	LAD	10.77	3.92	18.0%	3.05	3.62	64.1	0.87	105
+24	Bowden Francis	TOR	7.59	3.80	9.4%	5.21	4.88	64.0	0.87	94
+25	Brad Lord	WSN	7.14	2.84	11.4%	4.10	4.37	92.0	0.88	89
+26	Bradley Blalock	COL	4.04	3.72	0.8%	5.77	5.88	55.2	0.87	91
+27	Brady Singer	CIN	8.21	3.16	12.9%	4.35	4.30	224.2	0.86	94
+28	Brandon Eisert	CHW	6.35	0.00	19.0%	3.82	3.68	5.2	0.86	89
+29	Brandon Pfaadt	ARI	7.36	2.00	13.7%	4.08	4.17	193.1	0.88	97
+30	Brandon Sproat	2 Tms	8.55	4.01	11.6%	4.28	4.33	67.1	0.86	101
+31	Brandon Walter	HOU	8.72	0.67	22.6%	3.14	3.21	53.2	0.87	97
+32	Brandon Williamson	CIN	6.11	6.43	-0.8%	6.38	6.16	28.0	0.87	98
+33	Brandon Woodruff	MIL	10.27	2.00	23.0%	3.64	3.30	94.2	0.87	97
+34	Brandon Young	BAL	7.07	3.28	9.6%	4.64	4.68	107.0	0.87	95
+35	Brant Hurter	DET	10.29	5.14	11.4%	5.18	4.54	7.0	0.87	115
+36	Braxton Ashcraft	PIT	9.64	2.15	20.6%	3.19	3.26	113.0	0.88	105
+37	Brayan Bello	BOS	6.52	3.60	7.4%	4.57	4.78	197.1	0.87	93
+38	Braydon Fisher	TOR	12.71	4.76	18.5%	3.71	3.63	5.2	0.88	100
+39	Brent Suter	2 Tms	5.40	3.09	6.0%	4.39	4.83	11.2	0.88	96
+40	Bruce Zimmermann	MIL	1.50	3.00	-3.6%	6.11	5.98	6.0	0.87	90
+41	Bryan Woo	SEA	9.32	1.71	21.5%	3.43	3.35	263.2	0.88	110
+42	Bryce Elder	ATL	7.54	2.84	12.3%	3.99	4.22	241.0	0.87	90
+43	Bryce Miller	SEA	7.93	3.12	12.7%	4.31	4.37	112.1	0.88	104
+44	Bryse Wilson	CHW	5.82	4.15	3.7%	5.71	5.56	21.2	0.87	95
+45	Bubba Chandler	PIT	9.08	4.83	10.7%	4.59	4.55	76.1	0.88	104
+46	Cade Cavalli	WSN	8.82	3.04	14.3%	3.91	3.90	118.1	0.88	103
+47	Cade Horton	CHC	7.12	2.60	12.6%	4.28	4.34	121.1	0.88	98
+48	Cade Povich	BAL	8.74	3.30	13.9%	4.20	4.21	117.1	0.87	99
+49	Caden Dana	LAA	9.23	4.44	12.5%	4.14	4.38	26.1	0.88	91
+50	Cal Quantrill	2 Tms	6.50	2.68	9.7%	4.89	4.84	117.2	0.87	88
+51	Cam Schlittler	NYY	10.05	2.61	20.6%	3.33	3.38	155.0	0.87	111
+52	Carlos Carrasco	2 Tms	6.42	3.54	7.0%	5.09	5.14	40.2	0.88	80
+53	Carlos Rodón	NYY	9.39	3.64	15.8%	3.93	3.98	220.1	0.86	108
+54	Carmen Mlodzinski	PIT	7.28	3.01	10.7%	4.12	4.44	92.2	0.88	97
+55	Carson Palmquist	COL	6.46	5.28	2.7%	6.37	5.91	30.2	0.88	94
+56	Carson Seymour	SFG	4.82	2.89	4.5%	5.34	5.39	9.1	0.88	104
+57	Carson Spiers	CIN	7.71	2.89	12.8%	4.36	4.37	9.1	0.87	93
+58	Carson Whisenhunt	SFG	6.17	4.63	3.9%	5.48	5.46	23.1	0.88	91
+59	Casey Mize	DET	8.60	2.20	17.2%	3.90	3.84	196.2	0.87	93
+60	Chad Patrick	MIL	8.88	3.31	14.7%	4.25	4.20	144.0	0.87	103
+61	Charlie Morton	3 Tms	9.45	4.58	11.6%	4.45	4.45	125.2	0.86	99
+62	Chase Burns	CIN	11.87	2.92	24.5%	2.92	2.98	104.2	0.87	113
+63	Chase Dollander	COL	7.58	4.59	7.4%	4.94	4.98	111.2	0.87	98
+64	Chase Petty	CIN	5.06	6.19	-2.5%	6.45	6.40	16.0	0.87	97
+65	Chris Bassitt	2 Tms	8.02	3.05	12.5%	4.20	4.24	215.1	0.87	98
+66	Chris Paddack	4 Tms	6.42	2.37	10.4%	4.77	4.72	186.1	0.87	91
+67	Chris Sale	ATL	11.30	2.29	24.7%	3.04	2.97	192.2	0.87	116
+68	Christian Scott	NYM	10.25	4.50	14.7%	4.23	4.09	36.0	0.87	108
+69	Clarke Schmidt	NYY	8.35	3.43	13.6%	4.44	4.37	78.2	0.88	101
+70	Clay Holmes	NYM	7.20	3.54	9.6%	4.12	4.34	213.2	0.87	100
+71	Clayton Kershaw	LAD	6.77	2.82	10.7%	4.17	4.46	111.2	0.88	96
+72	Cody Bolton	HOU	10.57	8.22	5.3%	5.21	5.34	7.2	0.88	93
+73	Cole Ragans	KCR	13.27	3.99	24.5%	3.13	3.09	97.0	0.87	111
+74	Cole Sands	MIN	7.20	0.00	22.2%	3.39	3.40	5.0	0.87	88
+75	Coleman Crow	MIL	5.40	2.70	6.6%	5.24	5.08	16.2	0.88	101
+76	Colin Rea	CHC	7.27	2.94	11.3%	4.42	4.48	195.2	0.87	93
+77	Colton Gordon	HOU	8.06	1.59	16.1%	4.18	4.13	73.2	0.87	98
+78	Connelly Early	BOS	9.76	3.09	17.7%	3.79	3.67	90.1	0.86	102
+79	Connor Gillispie	MIA	7.96	3.81	9.8%	5.06	4.79	26.0	0.88	89
+80	Connor Prielipp	MIN	10.10	3.71	16.2%	3.96	3.84	43.2	0.88	102
+81	Cooper Criswell	BOS	5.14	2.57	7.4%	4.39	4.75	7.0	0.87	95
+82	Corbin Burnes	ARI	8.81	3.64	14.0%	3.73	4.05	64.1	0.87	102
+83	Cristian Javier	HOU	7.38	4.66	6.8%	5.60	5.30	46.1	0.84	95
+84	Cristopher Sánchez	PHI	9.90	1.89	22.3%	2.61	2.85	295.1	0.87	118
+85	David Festa	MIN	9.25	2.96	16.9%	4.37	4.04	48.2	0.88	90
+86	David Peterson	NYM	8.15	3.74	11.2%	3.75	4.13	202.0	0.87	90
+87	David Sandlin	CHW	7.20	3.60	9.5%	4.73	4.70	10.0	0.87	100
+88	Davis Daniel	ATL	8.00	7.00	2.4%	5.92	5.89	9.0	0.87	80
+89	Davis Martin	CHW	7.41	2.71	12.5%	4.11	4.25	209.0	0.88	92
+90	Dean Kremer	BAL	7.64	2.27	14.5%	4.15	4.17	174.1	0.88	95
+91	Didier Fuentes	ATL	10.69	3.94	13.8%	4.74	4.28	16.0	0.88	108
+92	Dietrich Enns	2 Tms	7.71	3.09	12.2%	4.04	4.27	11.2	0.86	106
+93	DL Hall	MIL	9.00	5.73	9.5%	4.43	4.97	11.0	0.88	93
+94	Drew Rasmussen	TBR	7.96	2.04	16.8%	3.51	3.68	216.0	0.87	107
+95	Dustin May	3 Tms	8.37	3.29	13.0%	4.29	4.24	191.1	0.87	100
+96	Dylan Cease	2 Tms	12.01	3.80	21.4%	3.29	3.38	230.0	0.87	108
+97	Easton Lucas	TOR	9.15	5.03	10.0%	4.97	4.86	19.2	0.87	101
+98	Eduardo Rodriguez	ARI	7.73	3.36	11.1%	4.37	4.51	233.0	0.88	91
+99	Edward Cabrera	2 Tms	9.35	3.18	16.2%	3.71	3.84	195.1	0.86	101
+100	Elmer Rodríguez	NYY	4.15	6.23	-4.7%	6.73	6.39	13.0	0.87	89
+101	Elvin Rodríguez	MIL	5.00	2.00	7.1%	7.31	7.41	9.0	0.87	95
+102	Emerson Hancock	SEA	7.62	2.69	13.4%	4.16	4.19	157.0	0.87	95
+103	Emmet Sheehan	LAD	10.44	2.19	22.5%	3.32	3.22	119.0	0.88	100
+104	Eric Lauer	2 Tms	7.86	2.68	13.5%	4.66	4.51	111.0	0.88	92
+105	Erick Fedde	3 Tms	5.63	4.05	4.0%	5.31	5.45	160.0	0.87	89
+106	Eury Pérez	MIA	10.08	3.42	18.0%	4.11	3.82	158.0	0.87	116
+107	Foster Griffin	WSN	8.63	2.63	16.2%	3.86	3.79	72.0	0.86	97
+108	Framber Valdez	2 Tms	8.37	3.23	13.5%	3.60	3.87	264.2	0.88	105
+109	Frankie Montas	NYM	7.75	2.67	12.5%	4.41	4.37	33.2	0.87	101
+110	Freddy Peralta	2 Tms	10.06	3.47	17.6%	3.84	3.77	248.2	0.88	98
+111	Gage Jump	ATH	6.38	2.45	11.0%	4.57	4.47	18.1	0.87	109
+112	Garrett Crochet	BOS	11.17	2.18	24.7%	2.78	2.95	235.1	0.87	116
+113	Gavin Williams	CLE	9.63	3.93	15.3%	3.76	3.98	254.1	0.87	102
+114	George Kirby	SEA	8.87	2.07	18.2%	3.36	3.53	204.0	0.87	100
+115	Germán Márquez	2 Tms	5.88	3.46	5.8%	5.35	5.27	156.0	0.87	86
+116	Gerrit Cole	NYY	7.00	2.00	14.7%	4.46	4.54	18.0	0.87	99
+117	Grant Holmes	ATL	9.05	4.12	12.8%	4.15	4.28	177.0	0.88	91
+118	Grant Taylor	CHW	10.29	1.29	28.0%	3.14	2.74	7.0	0.88	116
+119	Grayson Rodriguez	LAA	8.87	5.01	9.0%	4.60	4.72	23.1	0.87	105
+120	Griffin Canning	2 Tms	8.50	4.29	10.9%	4.07	4.40	109.0	0.87	90
+121	Griffin Jax	TBR	7.88	3.38	12.4%	3.84	4.20	32.0	0.88	106
+122	Gunnar Hoglund	ATH	6.40	3.06	8.6%	4.78	4.87	32.1	0.86	95
+123	Hayden Birdsong	SFG	9.14	5.74	8.1%	5.31	5.04	42.1	0.88	93
+124	Hayden Wesneski	HOU	8.16	1.69	17.6%	3.81	3.84	32.0	0.87	96
+125	Huascar Brazobán	NYM	7.36	8.18	-2.1%	5.97	6.44	11.0	0.88	93
+126	Hunter Brown	HOU	10.24	2.89	20.7%	3.15	3.36	196.0	0.87	105
+127	Hunter Dobbins	2 Tms	6.91	2.83	10.8%	4.12	4.34	57.1	0.87	96
+128	Hunter Greene	CIN	11.03	2.17	25.2%	3.27	3.06	107.2	0.87	120
+129	Hurston Waldrep	ATL	9.06	3.55	15.0%	3.55	3.89	50.2	0.88	99
+130	Ian Seymour	TBR	10.80	2.27	23.6%	3.26	3.22	31.2	0.88	96
+131	J.T. Ginn	ATH	9.16	3.57	14.7%	3.78	3.91	133.2	0.87	95
+132	Jack Dreyer	LAD	6.48	1.08	14.3%	3.54	4.03	8.1	0.88	99
+133	Jack Flaherty	DET	10.66	3.70	17.8%	3.89	3.79	223.2	0.87	102
+134	Jack Kochanowicz	LAA	6.12	4.83	3.1%	5.09	5.23	175.0	0.88	93
+135	Jack Leiter	TEX	9.05	3.96	13.2%	4.38	4.30	222.2	0.87	103
+136	Jack Perkins	ATH	9.39	5.09	10.7%	5.00	4.74	23.0	0.88	100
+137	Jackson Jobe	DET	7.16	4.96	5.5%	5.14	5.26	49.0	0.83	107
+138	Jacob deGrom	TEX	9.95	1.92	22.8%	3.32	3.23	243.1	0.87	109
+139	Jacob Latz	TEX	7.63	3.30	12.7%	4.15	4.38	43.2	0.88	104
+140	Jacob Lopez	ATH	9.28	4.40	12.2%	4.81	4.55	129.0	0.87	96
+141	Jacob Misiorowski	MIL	12.71	3.18	26.7%	2.82	2.80	141.2	0.87	121
+142	Jake Bennett	BOS	3.48	3.48	0.0%	4.33	4.63	10.1	0.87	91
+143	Jake Irvin	WSN	7.07	3.26	9.7%	4.67	4.68	231.2	0.86	94
+144	Jameson Taillon	CHC	7.16	2.28	13.3%	4.44	4.39	197.1	0.88	95
+145	Janson Junk	MIA	6.11	1.47	12.4%	4.27	4.38	147.1	0.87	98
+146	Jared Jones	PIT	9.64	3.86	14.3%	4.26	4.10	9.1	0.90	105
+147	Jason Alexander	HOU	7.39	2.46	13.1%	4.01	4.18	80.1	0.88	92
+148	Javier Assad	CHC	5.54	2.50	8.2%	4.53	4.69	50.1	0.88	95
+149	Jeffrey Springs	ATH	7.17	2.89	11.3%	4.64	4.61	233.1	0.87	95
+150	Jesse Scholtens	TBR	8.71	3.48	12.8%	4.87	4.25	10.1	0.87	93
+151	Jesús Luzardo	PHI	10.38	2.74	20.4%	3.22	3.39	256.2	0.87	107
+152	Joe Boyle	TBR	10.57	5.03	13.8%	4.26	4.25	53.2	0.88	107
+153	Joe Ryan	MIN	10.18	1.97	22.6%	3.64	3.28	242.1	0.87	108
+154	Joey Cantillo	CLE	9.07	4.30	12.5%	4.21	4.34	134.0	0.88	99
+155	Joey Estes	ATH	6.43	7.71	-2.4%	8.67	7.06	7.0	0.89	80
+156	Joey Wentz	ATL	8.56	3.25	13.4%	4.14	4.27	61.0	0.87	89
+157	Johan Oviedo	PIT	9.37	5.13	11.2%	4.90	4.73	40.1	0.89	108
+158	Jonah Tong	NYM	10.61	4.34	14.9%	3.96	4.11	18.2	0.87	99
+159	Jonathan Cannon	CHW	7.11	3.61	8.5%	5.09	4.93	82.1	0.88	95
+160	Jordan Hicks	SFG	8.14	3.18	12.4%	3.77	3.91	45.1	0.88	104
+161	Jordan Wicks	CHC	8.53	1.42	14.7%	3.98	3.82	6.1	0.87	97
+162	José Berríos	TOR	7.41	2.96	11.8%	4.43	4.47	164.0	0.87	88
+163	José De León	BOS	10.80	4.05	17.9%	3.94	3.87	6.2	0.87	103
+164	Jose Quintana	2 Tms	5.68	3.49	5.7%	5.13	5.21	172.2	0.87	84
+165	José Soriano	LAA	8.57	4.23	11.4%	3.61	4.01	251.0	0.87	102
+166	José Suarez	ATL	12.66	4.22	21.3%	2.58	3.16	10.2	0.87	102
+167	José Ureña	3 Tms	4.84	5.24	-0.9%	6.63	6.40	22.1	0.85	85
+168	JP Sears	2 Tms	7.76	2.39	13.9%	4.76	4.50	135.2	0.88	98
+169	JR Ritchie	ATL	7.36	5.61	4.4%	4.99	5.16	25.2	0.88	94
+170	Justin Steele	CHC	8.34	1.99	17.4%	3.64	3.77	22.2	0.86	103
+171	Justin Verlander	2 Tms	7.98	3.12	12.3%	4.62	4.50	155.2	0.87	103
+172	Justin Wrobleski	LAD	6.07	2.26	10.4%	4.52	4.59	75.2	0.88	95
+173	Kai-Wei Teng	2 Tms	10.28	5.23	12.3%	4.49	4.38	51.2	0.87	96
+174	Keegan Akin	BAL	14.29	4.76	27.3%	2.61	2.93	5.2	0.87	103
+175	Keider Montero	DET	6.53	2.69	10.4%	4.69	4.66	124.0	0.87	96
+176	Kevin Gausman	TOR	8.84	2.11	18.5%	3.67	3.68	273.0	0.86	101
+177	Kodai Senga	NYM	8.91	4.59	11.1%	4.43	4.54	133.1	0.87	94
+178	Kolby Allard	CLE	9.82	0.00	29.6%	3.27	3.12	7.1	0.87	87
+179	Kris Bubic	KCR	9.02	3.51	14.9%	3.77	3.99	166.2	0.87	95
+180	Kumar Rocker	TEX	7.50	3.52	10.0%	4.36	4.49	117.2	0.87	94
+181	Kyle Bradish	BAL	10.21	4.09	16.1%	3.68	3.85	101.1	0.87	101
+182	Kyle Freeland	COL	7.05	2.25	12.0%	4.36	4.41	215.2	0.87	93
+183	Kyle Gibson	BAL	7.30	5.11	4.1%	5.72	5.32	12.1	0.87	82
+184	Kyle Harrison	3 Tms	10.97	3.00	20.9%	3.24	3.34	87.0	0.87	105
+185	Kyle Hart	SDP	5.96	2.10	10.0%	5.52	5.30	25.2	0.86	95
+186	Kyle Hendricks	LAA	6.23	2.35	10.2%	4.73	4.73	164.2	0.87	98
+187	Kyle Leahy	STL	6.97	3.48	8.6%	4.29	4.57	62.0	0.87	89
+188	Lake Bachar	MIA	9.39	1.17	26.9%	2.96	2.72	7.2	0.87	101
+189	Lance McCullers Jr.	HOU	10.03	5.66	10.4%	4.57	4.61	90.2	0.86	97
+190	Landen Roupp	SFG	9.14	3.83	13.5%	3.82	4.10	176.1	0.87	98
+191	Landon Knack	LAD	8.24	4.55	9.2%	5.10	4.95	31.2	0.86	95
+192	Logan Allen	CLE	6.94	3.58	8.6%	4.76	4.82	155.2	0.87	92
+193	Logan Evans	SEA	6.66	3.45	8.3%	4.85	4.91	78.1	0.87	91
+194	Logan Gilbert	SEA	10.99	2.11	24.2%	3.18	3.05	204.2	0.88	105
+195	Logan Henderson	MIL	11.73	2.61	25.9%	3.18	3.06	48.1	0.87	104
+196	Logan Webb	SFG	9.25	2.13	19.1%	2.92	3.23	274.1	0.87	105
+197	Lucas Giolito	2 Tms	7.35	3.84	9.2%	4.77	4.83	161.2	0.88	92
+198	Luinder Avila	KCR	8.31	6.92	3.5%	5.01	5.48	13.0	0.84	100
+199	Luis Castillo	SEA	8.30	2.50	15.3%	4.12	4.03	234.1	0.87	98
+200	Luis F. Castillo	SEA	6.43	9.00	-4.9%	6.69	6.75	7.0	0.90	94
+201	Luis Garcia	HOU	8.22	1.17	21.4%	4.30	3.78	7.2	0.89	88
+202	Luis Gil	NYY	5.90	5.19	1.8%	5.81	5.84	76.1	0.88	97
+203	Luis Morales	ATH	8.00	4.17	9.9%	4.91	4.78	54.0	0.88	97
+204	Luis Ortiz	CLE	9.74	4.26	14.1%	3.83	4.14	88.2	0.88	100
+205	Luis Severino	ATH	7.55	3.24	11.1%	4.48	4.49	225.1	0.86	105
+206	MacKenzie Gore	2 Tms	10.17	3.75	16.7%	3.87	3.88	225.2	0.87	99
+207	Marcus Stroman	NYY	6.00	3.69	5.7%	5.00	5.12	39.0	0.88	86
+208	Martín Pérez	2 Tms	6.84	3.60	8.9%	4.71	4.77	100.0	0.88	86
+209	Mason Barnett	ATH	7.25	4.43	6.7%	5.34	5.18	22.1	0.88	97
+210	Matt Waldron	SDP	5.40	5.40	0.0%	6.11	5.79	18.1	0.87	91
+211	Matthew Boyd	CHC	8.18	2.12	16.7%	4.04	3.92	203.2	0.87	99
+212	Matthew Liberatore	STL	7.56	2.72	12.5%	4.24	4.36	218.0	0.87	96
+213	Max Fried	NYY	8.37	2.45	16.2%	3.51	3.70	257.0	0.88	108
+214	Max Meyer	MIA	9.69	3.06	17.4%	3.55	3.67	138.1	0.86	97
+215	Max Scherzer	TOR	7.99	2.69	13.8%	4.86	4.57	103.2	0.87	93
+216	McCade Brown	COL	8.06	5.96	4.8%	6.14	5.47	25.2	0.87	91
+217	Merrill Kelly	2 Tms	7.58	2.71	13.0%	4.17	4.28	242.1	0.86	91
+218	Michael King	SDP	8.86	3.36	14.9%	4.12	4.03	147.1	0.89	98
+219	Michael Lorenzen	2 Tms	7.82	2.74	12.6%	4.31	4.32	200.1	0.88	91
+220	Michael McGreevy	STL	5.66	2.00	9.9%	4.18	4.50	162.1	0.87	85
+221	Michael Soroka	3 Tms	9.27	2.40	18.3%	3.85	3.65	157.1	0.85	95
+222	Michael Wacha	KCR	6.85	2.52	11.7%	4.46	4.50	253.2	0.87	96
+223	Mick Abel	2 Tms	9.00	3.18	15.1%	4.29	4.10	51.0	0.88	109
+224	Mike Burrows	2 Tms	8.55	3.21	13.8%	4.17	4.16	160.0	0.87	93
+225	Mike Vasil	CHW	9.00	4.91	9.6%	4.72	4.68	11.0	0.87	96
+226	Miles Mikolas	2 Tms	5.91	2.33	9.1%	4.76	4.80	181.1	0.88	89
+227	Mitch Farris	LAA	8.88	4.07	12.1%	4.80	4.71	24.1	0.87	88
+228	Mitch Keller	PIT	7.40	2.67	12.4%	4.18	4.30	249.1	0.87	94
+229	Mitch Spence	ATH	6.23	2.31	9.8%	4.49	4.70	39.0	0.88	96
+230	Mitchell Parker	WSN	5.74	3.24	6.3%	5.09	5.21	158.1	0.87	92
+231	Nabil Crismatt	ARI	5.88	1.38	11.9%	4.18	4.47	26.0	0.87	78
+232	Nathan Eovaldi	TEX	8.93	1.67	20.4%	3.15	3.25	204.2	0.87	99
+233	Nestor Cortes	2 Tms	7.60	5.24	5.7%	5.75	5.42	34.1	0.88	98
+234	Nick Lodolo	CIN	8.65	2.05	17.7%	3.86	3.75	188.1	0.87	107
+235	Nick Martinez	2 Tms	6.22	2.04	11.2%	4.45	4.55	215.2	0.88	99
+236	Nick Pivetta	SDP	9.74	2.55	20.1%	3.79	3.61	197.2	0.87	102
+237	Noah Cameron	KCR	7.81	2.65	14.1%	3.95	4.14	204.0	0.88	96
+238	Noah Schultz	CHW	7.68	5.12	6.5%	5.32	5.11	38.2	0.88	97
+239	Nolan McLean	NYM	10.40	3.22	19.7%	3.22	3.35	120.1	0.88	108
+240	Osvaldo Bido	ATH	6.60	3.88	6.6%	5.72	5.40	46.1	0.88	94
+241	Pablo López	MIN	8.68	2.38	17.0%	3.87	3.87	75.2	0.88	96
+242	Parker Messick	CLE	9.10	2.20	19.1%	3.30	3.48	114.2	0.88	97
+243	Patrick Corbin	2 Tms	7.27	3.02	11.0%	4.31	4.51	211.2	0.88	93
+244	Paul Blackburn	2 Tms	7.04	4.70	5.4%	5.63	5.25	15.1	0.89	93
+245	Paul Skenes	PIT	10.41	1.92	24.0%	3.00	3.03	257.2	0.87	107
+246	Paxton Schultz	2 Tms	9.53	1.59	20.0%	4.25	3.75	5.2	0.87	96
+247	Payton Tolle	BOS	9.83	2.97	18.8%	3.84	3.66	57.2	0.87	113
+248	Peter Lambert	HOU	8.35	4.44	10.3%	4.51	4.52	50.2	0.87	90
+249	Pierson Ohl	MIN	9.00	3.38	11.4%	4.77	4.63	8.0	0.88	93
+250	PJ Poulin	WSN	5.79	2.89	8.3%	4.65	4.68	9.1	0.86	95
+251	Quinn Priester	MIL	8.06	2.76	14.2%	3.73	3.91	130.2	0.87	96
+252	Randy Vásquez	SDP	5.72	3.22	6.5%	5.28	5.17	198.1	0.88	95
+253	Ranger Suarez	2 Tms	8.66	2.31	17.2%	3.60	3.74	222.1	0.88	96
+254	Reese Olson	DET	8.52	3.28	14.0%	4.03	4.15	68.2	0.88	93
+255	Reid Detmers	LAA	10.70	2.92	20.7%	3.56	3.36	74.0	0.86	104
+256	Reynaldo López	ATL	7.09	4.39	6.7%	5.03	5.03	26.2	0.88	90
+257	Rhett Lowder	CIN	6.75	5.01	4.4%	4.99	5.23	41.1	0.88	85
+258	Rich Hill	KCR	4.00	8.00	-9.3%	6.80	7.32	9.0	0.87	90
+259	Richard Fitts	BOS	7.46	2.85	11.9%	4.27	4.40	41.0	0.87	102
+260	Richard Lovelady	WSN	8.59	4.91	9.7%	4.21	4.62	7.1	0.86	92
+261	Robbie Ray	SFG	8.96	3.92	13.4%	4.43	4.34	250.0	0.86	100
+262	Robby Snelling	MIA	3.60	7.20	-9.1%	6.15	7.20	5.0	0.87	105
+263	Robert Gasser	MIL	8.05	5.21	6.6%	6.18	5.29	19.0	0.87	104
+264	Roki Sasaki	LAD	8.19	4.19	10.2%	4.61	4.57	92.1	0.87	100
+265	Ronel Blanco	HOU	8.94	3.72	14.1%	4.40	4.32	48.1	0.89	90
+266	Ryan Bergert	2 Tms	8.83	4.35	11.7%	4.63	4.64	72.1	0.87	92
+267	Ryan Feltner	COL	6.93	3.18	9.8%	4.44	4.57	62.1	0.87	91
+268	Ryan Gusto	2 Tms	8.50	3.12	13.3%	4.47	4.30	83.2	0.87	98
+269	Ryan Pepiot	TBR	8.96	3.27	15.6%	4.07	4.05	167.2	0.87	106
+270	Ryan Weathers	2 Tms	9.64	2.66	18.6%	3.50	3.57	108.1	0.87	101
+271	Ryan Weiss	HOU	9.00	10.29	-2.9%	6.19	6.63	7.0	0.87	101
+272	Ryan Yarbrough	NYY	7.43	2.48	13.7%	4.39	4.30	40.0	0.88	93
+273	Ryne Nelson	ARI	7.19	2.52	12.8%	4.46	4.40	200.1	0.88	106
+274	Sam Aldegheri	LAA	5.40	4.73	1.5%	6.43	5.82	13.1	0.87	93
+275	Sandy Alcantara	MIA	7.02	2.69	11.3%	4.20	4.36	264.0	0.87	103
+276	Sawyer Gipson-Long	DET	7.62	3.46	10.5%	4.49	4.69	13.0	0.82	92
+277	Scott Blewett	2 Tms	3.18	3.18	0.0%	5.12	5.20	5.2	0.87	82
+278	Sean Burke	CHW	8.31	4.10	10.6%	4.78	4.64	156.0	0.86	93
+279	Sean Manaea	NYM	11.05	2.10	22.8%	3.50	3.25	51.1	0.88	109
+280	Sean Newcomb	BOS	10.88	4.43	15.2%	3.71	4.03	22.1	0.87	99
+281	Seth Lugo	KCR	7.69	3.21	11.8%	4.42	4.45	221.1	0.87	91
+282	Shane Baz	2 Tms	8.95	3.48	14.2%	4.03	4.11	243.1	0.87	103
+283	Shane Bieber	TOR	8.26	1.56	18.9%	3.35	3.52	40.1	0.87	92
+284	Shane Drohan	MIL	7.62	4.85	7.1%	4.59	4.86	13.0	0.87	95
+285	Shane McClanahan	TBR	8.85	3.15	15.4%	3.78	3.88	60.0	0.88	107
+286	Shane Smith	CHW	9.08	3.90	13.4%	4.32	4.28	154.2	0.88	95
+287	Shinnosuke Ogasawara	WSN	5.40	1.35	9.4%	4.67	4.29	6.2	0.87	89
+288	Shohei Ohtani	LAD	10.75	2.25	24.2%	2.86	2.95	108.0	0.87	114
+289	Shota Imanaga	CHC	7.79	1.84	16.7%	4.28	4.09	220.2	0.87	96
+290	Simeon Woods Richardson	MIN	7.60	4.04	9.0%	5.04	4.88	151.2	0.87	90
+291	Slade Cecconi	CLE	7.35	2.39	13.1%	4.15	4.24	199.2	0.87	93
+292	Sonny Gray	2 Tms	9.30	2.05	19.4%	3.26	3.47	237.0	0.87	102
+293	Spencer Arrighetti	HOU	8.19	4.97	8.3%	4.95	4.86	92.1	0.88	100
+294	Spencer Miles	TOR	6.00	4.50	3.6%	4.48	4.67	6.0	0.87	102
+295	Spencer Schwellenbach	ATL	8.78	1.46	20.7%	3.01	3.30	110.2	0.88	108
+296	Spencer Strider	ATL	9.71	3.90	15.1%	4.22	4.11	161.1	0.88	95
+297	Stephen Kolek	2 Tms	6.21	2.33	10.7%	4.04	4.29	150.2	0.87	94
+298	Steven Matz	2 Tms	7.85	2.78	13.5%	4.07	4.18	55.0	0.87	97
+299	Taijuan Walker	PHI	5.96	3.09	7.1%	4.83	4.93	122.1	0.87	86
+300	Taj Bradley	2 Tms	8.72	3.63	13.3%	4.21	4.25	203.1	0.87	104
+301	Tanner Bibee	CLE	7.81	2.71	13.6%	4.18	4.19	259.1	0.87	104
+302	Tanner Gordon	COL	7.24	2.05	12.8%	4.48	4.44	83.1	0.87	88
+303	Tanner Houck	BOS	6.60	3.50	7.4%	4.73	4.78	43.2	0.87	96
+304	Tarik Skubal	DET	10.78	1.47	27.0%	2.65	2.75	238.2	0.87	122
+305	Tatsuya Imai	HOU	9.44	6.03	8.7%	4.55	4.74	34.1	0.88	87
+306	Thomas Hatch	MIN	7.20	5.40	5.0%	5.49	5.51	5.0	0.87	86
+307	Tobias Myers	2 Tms	7.01	4.91	4.9%	5.35	5.36	25.2	0.89	95
+308	Tomoyuki Sugano	2 Tms	5.80	2.21	9.4%	4.77	4.78	220.1	0.87	86
+309	Tony Gonsolin	LAD	9.50	4.50	12.7%	4.57	4.40	36.0	0.88	95
+310	Travis Adams	MIN	11.05	4.91	15.6%	4.21	4.24	7.1	0.92	96
+311	Trevor McDonald	SFG	8.65	2.25	17.2%	3.00	3.13	52.0	0.88	100
+312	Trevor Rogers	BAL	7.90	2.63	14.4%	4.02	4.09	164.0	0.86	98
+313	Trevor Williams	WSN	7.08	2.29	11.8%	4.56	4.59	82.2	0.87	90
+314	Trey Gibson	BAL	1.80	4.20	-6.2%	5.36	6.14	15.0	0.87	96
+315	Trey Yesavage	TOR	9.53	4.13	14.5%	3.94	4.07	56.2	0.87	110
+316	Troy Melton	DET	6.10	2.18	11.4%	4.30	4.46	41.1	0.89	100
+317	Tyler Alexander	3 Tms	7.85	4.42	8.1%	5.12	5.02	18.1	0.88	89
+318	Tyler Anderson	LAA	6.87	3.76	7.8%	5.41	5.23	136.1	0.86	100
+319	Tyler Gilbert	CHW	11.05	2.45	25.0%	2.74	2.89	7.1	0.85	101
+320	Tyler Glasnow	LAD	10.73	3.88	19.3%	3.45	3.60	130.0	0.87	102
+321	Tyler Holton	DET	11.70	0.00	31.7%	2.22	2.27	10.0	0.82	103
+322	Tyler Mahle	2 Tms	7.72	3.33	11.8%	4.29	4.41	143.1	0.88	91
+323	Tyler Phillips	MIA	7.15	3.18	10.6%	3.88	4.27	11.1	0.87	93
+324	Tyler Wells	BAL	7.48	0.83	19.5%	4.17	3.92	21.2	0.90	99
+325	Tylor Megill	NYM	11.72	4.35	18.4%	3.73	3.74	68.1	0.86	108
+326	Valente Bellozo	MIA	6.48	3.96	6.6%	5.72	5.45	25.0	0.87	94
+327	Victor Mederos	LAA	6.92	5.54	3.2%	6.63	5.94	13.0	0.87	100
+328	Wade Miley	CIN	6.30	5.40	2.4%	5.69	5.74	10.0	0.87	96
+329	Walbert Ureña	LAA	8.51	4.62	10.3%	4.19	4.43	48.2	0.87	98
+330	Walker Buehler	3 Tms	6.91	3.95	7.4%	4.66	4.85	182.1	0.88	96
+331	Will Warren	NYY	9.58	3.35	16.0%	3.79	3.91	231.0	0.88	104
+332	Yoendrys Gómez	CHW	9.00	2.80	16.2%	4.22	4.01	45.0	0.85	98
+333	Yoshinobu Yamamoto	LAD	9.82	2.65	20.4%	3.10	3.31	251.0	0.88	101
+334	Yu Darvish	SDP	8.50	2.38	16.6%	4.15	3.94	72.0	0.87	99
+335	Yusei Kikuchi	LAA	8.90	3.78	13.0%	4.27	4.31	209.1	0.88	98
+336	Zac Gallen	ARI	7.65	3.02	12.0%	4.22	4.34	256.1	0.88	91
+337	Zach Agnos	COL	5.63	4.50	3.1%	5.88	5.99	8.0	0.87	90
+338	Zach Eflin	BAL	6.84	1.80	12.9%	4.24	4.35	75.0	0.88	92
+339	Zack Littell	3 Tms	6.22	1.79	11.9%	4.52	4.51	231.1	0.87	87
+340	Zack Wheeler	PHI	10.92	2.02	25.6%	2.89	2.90	200.1	0.88	109
+341	Zebby Matthews	MIN	9.36	2.63	17.2%	3.91	3.87	109.2	0.87	100

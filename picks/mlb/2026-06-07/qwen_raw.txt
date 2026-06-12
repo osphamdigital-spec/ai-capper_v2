@@ -1,0 +1,131 @@
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: ATL is the superior team in all form metrics, but the market price of -158 (61.2% implied) accurately reflects their edge. PIT at +138 implies a 42.0% win probability, which aligns with my estimated 40% true win probability. The gap is under 3 points, making this a fairly priced game with no actionable edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: BOS ML
+PRICE: +141
+UNITS: 3
+EDGE: STRONG
+REASON: (a) Estimated win probability: 54%. (b) Implied probability of +141: 41.5%. (c) Gap: 12.5 percentage points. BOS benefits from a massive bullpen freshness delta (+3 fresh arms vs NYY's 0). Furthermore, NYY's bullpen shows fatigue, with 2 high-leverage relievers (Bednar, Cruz) throwing on Sunday. While BOS trails in team quality metrics (run diff, RS/G, last-10), NYY's confirmed bullpen depletion serves as the specific override factor. Pitcher check: Suarez last-14 K/9 is 12.6 (season ~8.7) and Schlittler is 7.8 (season ~9.9); neither has dropped below 7.0, validating the stake.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: LEAN: CHW ML
+PRICE: +143
+UNITS: 1
+EDGE: THIN
+REASON: Gilbert is a small-sample pitcher (2.2 IP), capping this at 1 unit, but his underlying non-ERA indicators are excellent (xFIP 2.79, SIERA 2.95, 25.0% K-BB%). CHW actually leads PHI in run differential (+12 vs -23) and RS/G. The bullpen delta favors CHW (+2 fresh arms), adding 4% to their win probability. My estimated win probability for CHW is 45% versus the 41.2% implied by +143, creating a thin but real edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: TOR is priced at -136 (57.5% implied), while BAL is +118 (45.9% implied). My estimated win probability for BAL is 47%, a gap of just 1.1 points. The bullpen freshness delta is negligible (+1 for BAL), and neither team presents a clear structural mismatch that the market has mispriced.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: SEA is a slight favorite (-119), and DET is +100 (50.0% implied). SEA leads in all team quality metrics, but DET's bullpen is fully fresh (3 of 3) compared to SEA's 2 of 3. My estimated win probability for DET is 48%, leaving a gap of under 3 points. No edge exists on either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: LEAN: TB ML
+PRICE: -110
+UNITS: LEAN
+EDGE: THIN
+REASON: TB leads MIA in all three team quality metrics (run diff, RS/G, last-10 record). TB's bullpen is fully fresh (3 of 3) compared to MIA's 2 of 3. While Jax's ERA is elevated, his 3.87 xFIP suggests stability. My estimated win probability for TB is 54% versus the 52.4% implied by -110, offering a thin edge that warrants a lean but not a full unit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: HOU leads in all team quality metrics, but the moneyline is essentially a pick'em (-110 / -107). ATH's implied win probability is 51.7%, while my estimate is 48%. The bullpens are equally taxed (0 fresh high-leverage arms each). There is no mispricing here.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIN leads in run differential and RS/G, while KC leads in RA/G and last-10 record. The pitchers (Cameron and Prielipp) have nearly identical xFIPs (4.00 vs 4.16). The bullpen delta slightly favors KC (+1), but not enough to overcome the market's efficient pricing around -110 / -106.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: STL leads in all team quality metrics and McGreevy has a solid 4.20 xFIP. CIN is +114 (46.7% implied), but my estimated win probability for CIN is 45%. The gap is under 3 points, and CIN's bullpen advantage (+1 fresh arm) is insufficient to generate a playable edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: CLE leads in run differential and RS/G, while TEX leads in RA/G and last-10. deGrom is a strong pitcher (3.31 xFIP), but the market has priced TEX at -140 (58.3% implied). My estimated win probability for TEX is 55%, leaving a gap of 3.3 points. Not enough for a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: COL +1.5
+PRICE: +104
+UNITS: 3
+EDGE: STRONG
+REASON: (a) Estimated win probability (COL covers): 65%. (b) Implied probability of +104: 49.0%. (c) Gap: 16.0 percentage points. COL trails in all team quality metrics, but this is overridden by a massive structural factor: opposing starter Drohan has an xFIP (4.99) that is 2.12 runs higher than his ERA (2.87), indicating severe impending regression. This is compounded by Coors Field (Park Factor 114). Pitcher check: Drohan's last-14-day K/9 is 11.2 (season ~9.5), which has not dropped below 7.0, validating the stake. The team quality downgrade caps this at 3 units instead of 5.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: WAS actually leads AZ in all three team quality metrics but is somehow the underdog at +113 (46.9% implied). However, AZ holds a +2 bullpen freshness delta, which adds 4% to AZ's win probability. My estimated win probability for WAS is 48%, leaving a gap of just 1.1 points. The market has correctly adjusted for the bullpen disparity.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: LAD dominates in all team quality metrics. LAA is +177 (36.1% implied). While LAA has a +2 bullpen freshness delta, LAD's underlying pitching (Sheehan 3.26 xFIP) and overall roster strength keep LAA's true win probability around 34%. The gap is under 3 points, making LAA a fair price, not a value play.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: LEAN: SD ML
+PRICE: -110
+UNITS: 1
+EDGE: THIN
+REASON: Model rule triggered: NYM starter Brazobán has an xFIP (5.50) that is 3.25 runs higher than his ERA (2.25), demanding evaluation of the opposing moneyline. SD is -110 (52.4% implied). SD trails in RS/G and last-10 record, but Brazobán's massive regression profile at Petco Park overrides this. My estimated win probability for SD is 55%, creating a 2.6-point gap. This is a thin edge, capped at 1 unit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: CHC leads in all team quality metrics. SF is +105 (48.8% implied). While SF starter McDonald has a strong 2.98 xFIP compared to his 4.50 ERA, CHC's Taillon also has a favorable xFIP (4.43) vs ERA (5.13) profile. My estimated win probability for SF is 45%, leaving a gap of 3.8 points, which is insufficient for a bet after accounting for CHC's home-field and form advantages.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: BOS ML +141
+LEG 2: COL +1.5 +104
+COMBINED PRICE: +391
+TRUE PROBABILITY ESTIMATE: 35.1% (54% BOS win * 65% COL cover)
+UNITS: 2
+REASON: Both legs were independently identified as having strong edge in the game-by-game analysis. They are completely uncorrelated (different leagues, coasts, and ballpark environments). The combined implied probability is 20.4%, creating a massive 14.7-point gap versus my 35.1% true probability estimate.
+
+## SLATE SUMMARY
+BEST BET: COL +1.5 (+104) for 3 units
+WHY THIS ONE: The combination of Coors Field inflation and an opposing starter (Drohan) whose xFIP is over 2.00 runs higher than his ERA creates a massive, quantifiable regression candidate. The market is overvaluing MIL based on ERA alone, giving us a 16-point probability gap on the run line.

@@ -1,0 +1,138 @@
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Braves are better but fair line is ~-145, market is -158. Gap not sufficient to justify backing a heavy favourite.
+
+---
+
+## GAME: BOS @ NYY
+PICK: BOS ML
+PRICE: +146
+UNITS: 1
+EDGE: REAL
+REASON: Yankees clearly superior team overall but Ranger Suarez is a legitimate starter and Boston owns a significant bullpen freshness edge — BOS 3/3 fresh, NYY 0/3 fresh. Small value only.
+
+---
+
+## GAME: CHW @ PHI
+PICK: CHW ML
+PRICE: +149
+UNITS: 3
+EDGE: REAL
+REASON: Both teams are 34-30. Both are 7-3 last ten. White Sox actually have the better run differential (+12 vs -23). Aaron Nola's recent form is elite (xFIP 2.31, SIERA 2.15 last 14 days) but the market appears to be pricing Chicago almost entirely off Tyler Gilbert's 20.25 ERA, which is a 2.2 IP sample — tiny, not predictive. Chicago has the fresher leverage bullpen (CHW 2/3 fresh, PHI 0/3 fresh). Fair line is closer to -115/-120 than -165.
+
+---
+
+## GAME: BAL @ TOR
+PICK: BAL ML
+PRICE: +122
+UNITS: 1
+EDGE: REAL
+REASON: Teams have identical records (31-34). Baltimore offense projects better versus RHP. Shane Baz recent indicators improved. Toronto owns the bullpen edge, preventing a larger position. Edge exists but not enough for 3 units.
+
+---
+
+## GAME: SEA @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: No clear edge identified at current prices.
+
+---
+
+## GAME: TB @ MIA
+PICK: TB ML
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+REASON: Better record. Better offense. Better recent starter indicators. Fresher bullpen. Miami offense projects poorly against righties.
+
+---
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: No clear edge identified at current prices.
+
+---
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: No clear edge identified at current prices.
+
+---
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: No clear edge identified at current prices.
+
+---
+
+## GAME: CLE @ TEX
+PICK: Under 7.5
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: deGrom elite. Globe Life extremely pitcher friendly (91 park factor, 83 runs factor). Cleveland offense weak versus RHP. Texas offense mediocre versus LHP. Estimated total 6.8-7.0 vs posted 7.5.
+
+---
+
+## GAME: MIL @ COL
+PICK: Over 12.0
+PRICE: -116
+UNITS: 1
+EDGE: REAL
+REASON: Coors Field. 94F weather. Kyle Freeland 8.06 ERA. Colorado allows 5.7 RA/G. Both teams capable of scoring. Estimated total 13.0+, difference from market roughly 1 run.
+
+---
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +118
+UNITS: 3
+EDGE: REAL
+REASON: Washington leads all three team-quality metrics — run differential (+8 vs -14), RS/G (5.4 vs 4.3), last-10 record (5-5 vs 3-7). Pitching is close (Cavalli and Soroka both at xFIP ~3.83). Bullpen edge favours Arizona slightly but not enough to justify Arizona being favoured. Fair line is nearly pick'em.
+
+---
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Dodgers most likely winner on the slate but not necessarily value. Fair line roughly -190 to -200 vs posted -210. Pass on ML.
+
+---
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: No clear edge identified at current prices.
+
+---
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: No clear edge identified at current prices.
+
+---
+
+## SLATE SUMMARY
+BEST BET: CHW ML (+149) — 3 units
+WHY THIS ONE: Market is pricing Chicago almost entirely off Tyler Gilbert's tiny 2.2 IP sample. Team quality metrics (run diff, last-10 record) favour CHW, bullpen freshness favours CHW (2/3 vs 0/3), and the true line should be closer to -115/-120. Best mispricing on the slate.

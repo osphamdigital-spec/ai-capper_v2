@@ -1,0 +1,91 @@
+## GAME: AZ @ MIA
+PICK: LEAN: MIA
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.2 pts
+TOTAL LEAN: No lean
+REASON: Kelly is posting a 5.71 ERA with a 7.26 xERA and brutal hard-contact and barrel rates, while Miami owns the better L10 form, home-field edge, and a starter in Phillips who has significantly out-pitched him by both ERA and FIP. However, the Marlins bullpen has zero fresh high-leverage arms available and Arizona’s relief corps is markedly better, keeping this below the betting threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters carry L14 xFIP marks near 5.00 and the teams are separated by only three wins, with Detroit getting a modest home-field bump that the -123 price already captures. No structural edge justifies a moneyline or total bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: LEAN: STL
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.5 pts
+TOTAL LEAN: Under
+REASON: The Mets are priced as a significant favorite because of Scott, but his season xFIP (4.23) is only marginally better than Dobbins’s aggregate xFIP (4.12) and the Cardinals lead in run differential (+12 vs -19), L10 run scoring (5.3 vs 4.4), and overall record. Scott is the safer arm, but the team-quality and lineup gap is too large for New York to lay -143.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: TEX ML
+PRICE: +104
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: No lean
+REASON: Estimated win probability 54%; implied probability at +104 is 49%; gap is 5.0 percentage points. Kansas City carries a -48 run differential and a bottom-tier offense (90 wRC+ vs RHP) into a matchup where Wacha has posted a 6.11 ERA over his last three turns while Rocker has been the better starter by recent results and season xFIP (4.36 to 4.46). The market is pricing this near a pick’em because of home field and Wacha’s reputation, but Texas is the superior club in every phase and the no-vig price is too cheap for a team that should be closer to -120.
+LOOKED UP: KC bullpen season ERA listed as 22.25, clearly a data error; inferred a mediocre unit from individual reliever stats. nothing else looked up.
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Coors Field inflates scoring but both offenses have been inconsistent and the starting profiles contain wide variance, with Cabrera’s 3.71 aggregate xFIP clashing against a 9.53 L3 ERA and Feltner carrying a 6.32 xERA. The 11.0 total is already elevated and there is no confident read on which way the variance breaks.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Pittsburgh owns a massive 158 wRC+ platoon split against lefties and Keller has been battered for an 8.59 ERA over his last three starts, while a 17-mph wind blowing out supports run scoring. However, Wrobleski’s season xFIP is 4.52 and the Dodgers’ overall talent keeps the side and total lines efficiently priced, leaving no bettable edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: LEAN: SEA
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.8 pts
+TOTAL LEAN: No lean
+REASON: Bryan Woo has elite underlying numbers (3.43 xFIP, 2.91 xERA, 110 Stf+) and Seattle owns the better bullpen, run differential, and platoon offense, but the Mariners have zero fresh high-leverage relievers available and Bradish has been solid in his own right. The fair price is closer to SEA -120; the market best of -107 leaves a thin margin below the betting gate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: White Sox starter is listed TBD; betting with an unresolved pitching matchup is structural suicide regardless of Atlanta’s talent advantage or Chicago’s recent form.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: TEX @ KC — TEX ML +104 (1 unit)
+WHY THIS ONE: Texas is the superior team by run differential (+14 vs -48) and recent form (7-3 L10) yet is priced near pick’em against a struggling Wacha and a Kansas City club that is below average offensively and likely running a mediocre bullpen. Estimated 54% win probability against 49% implied gives a clean 5-point edge at a plus-money price.

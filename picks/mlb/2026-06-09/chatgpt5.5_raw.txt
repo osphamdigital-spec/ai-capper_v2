@@ -1,0 +1,151 @@
+## GAME: SEA @ BAL
+PICK: SEA ML
+PRICE: -116
+UNITS: 1
+EDGE: 4.2 pts
+TOTAL LEAN: Over
+REASON: My win probability is 59.0% versus an implied 54.8%. Gilbert's underlying metrics and recent form are materially stronger than Rogers, and Seattle also holds a major season-long bullpen edge. Baltimore's recent offensive form keeps this from being a larger position.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Meyer is the better starter and Arizona's offense has been cold, but Miami's heavily taxed bullpen offsets much of the starting-pitching advantage. The market price is close to my fair number.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Tolle and Martinez both project better than the surface matchup suggests, and the near pick'em price aligns closely with my estimate. No meaningful moneyline gap appears.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: NYY @ CLE
+PICK: LEAN: NYY ML
+PRICE: -127
+UNITS: LEAN
+EDGE: 3.1 pts
+TOTAL LEAN: Over
+REASON: New York has the stronger offense and overall team profile, but Cole is flagged as a small-sample starter and Cleveland owns a bullpen advantage. The edge falls short of the betting threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Bradley is the better established starter, but his recent control issues and Detroit's home-field edge keep this game near market value. Neither side clears the required gap.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: LAD @ PIT
+PICK: LEAN: PIT ML
+PRICE: -107
+UNITS: LEAN
+EDGE: 3.3 pts
+TOTAL LEAN: Under
+REASON: Skenes is the best starter on the slate and Lauer remains vulnerable, but the Dodgers' lineup strength narrows the gap considerably. I make Pittsburgh a modest favorite, not enough for a wager.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Wheeler versus Cease is close to an ace-for-ace matchup and both bullpens are solid. My projection lands very near the current market.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Peralta gets a slight starting-pitching edge, but St. Louis is the better overall team and the price is efficient. No clear market mistake is evident.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: ATL @ CHW
+PICK: LEAN: ATL ML
+PRICE: -152
+UNITS: LEAN
+EDGE: 3.7 pts
+TOTAL LEAN: Over
+REASON: Atlanta owns sizable advantages in offense, run differential and bullpen quality, but the current number already reflects much of that. My projection is not far enough above the market to justify a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Texas has the stronger overall profile, but Kolek's recent form and Eovaldi's mixed recent results make the current favorite price reasonable. I do not reach the minimum edge threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Chicago is the better club and Colorado's pitching remains shaky, but Coors Field introduces high variance and the market has already priced much of the gap. No betting edge remains.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: The Astros have the stronger lineup, but both starters project similarly and the Angels' bullpen has been effective. My fair price is close to the current market.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CIN @ SD
+PICK: CIN ML
+PRICE: -117
+UNITS: 1
+EDGE: 5.6 pts
+TOTAL LEAN: Under
+REASON: My win probability is 59.5% versus an implied 53.9%. Burns has a substantial edge over Giolito, whose underlying indicators remain poor, and Cincinnati does not trigger the team-quality downgrade despite its negative run differential. Petco suppresses scoring, increasing the value of the better starter.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: WAS @ SF
+PICK: WAS ML
+PRICE: -101
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: Under
+REASON: My win probability is 55.0% versus an implied 50.2%. Washington owns the better offense, a superior bullpen profile, and faces Houser, whose recent form and underlying metrics are weak. The small-sample starter flag on Alvarez caps this at 1 unit.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Milwaukee is the better team, but Ginn has been effective and the hitter-friendly Sacramento environment increases volatility. The market is close to my fair number.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

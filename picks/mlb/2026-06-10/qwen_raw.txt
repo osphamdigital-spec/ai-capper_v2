@@ -1,0 +1,167 @@
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 7.5
+REASON: Drew Rasmussen is the better pitcher, but the -150 price implies a 60% win probability which leaves no meaningful edge against a Red Sox team that has been scoring well recently. The total leans Over due to the expected runs calculation (8.6) outpacing the 7.5 line in a park with a 106 runs factor.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 7.5
+REASON: Both Carlos Rodón and Parker Messick have struggled over the last 14 days with xFIPs above 4.30, making the pitching matchup a wash. The Yankees have a massive run differential advantage, but the -101 price accurately reflects the pitching volatility, leaving no gap to exploit.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: WAS ML
+PRICE: +105
+UNITS: 1
+EDGE: 5.2 pts
+TOTAL LEAN: Over 8.5
+REASON: Robbie Ray has been wildly unreliable recently with a 5.14 xFIP and 7.0 BB/9 over his last 14 days, while Foster Griffin has been much more stable (3.94 xFIP, 1.8 BB/9). Counter-signals include San Francisco's strong 6.5 L10 RS/G and Oracle Park's pitcher-friendly dimensions, but Ray's massive walk rate negates the park factor and gives Washington a clear edge as underdogs against a team with a -52 run differential.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 8.0
+REASON: Michael King is the better pitcher and San Diego has a strong bullpen, but the -164 price requires a 62% win probability which is too high for a team that has lost 8 of its last 10. The total leans Under due to Petco Park's 88 runs factor and both teams' recent offensive struggles.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 9.0
+REASON: There is a 58% chance of rain and a significant postponement risk, making any pre-game wager unwise. On the merits, George Kirby is solid but the line is fairly priced, and the weather conditions favor an Under lean if the game is played.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 8.0
+REASON: Ryan Gusto is a small-sample starter with a 10.80 ERA, but his 4.47 xFIP suggests he has been unlucky rather than structurally flawed, removing the edge on the Diamondbacks. Miami's recent offensive form (4.5 L10 RS/G) also makes them a dangerous underdog in a coin-flip game.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 9.0
+REASON: The Twins' starting pitcher is TBD, which introduces too much estimation risk to assign any units. The total leans Over based on the expected runs calculation and Comerica Park's 104 runs factor, but no side bet is possible without a confirmed starter.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 8.0
+REASON: Shohei Ohtani is elite, but the -200 moneyline is far too heavy, and the -120 run line requires a multi-run victory that is difficult to guarantee against a Pirates team averaging 6.0 runs over their last 10 games. Jared Jones is a small-sample starter, but his 4.26 xFIP does not indicate a massive structural flaw to exploit.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 8.5
+REASON: Jesús Luzardo has struggled recently with a 4.93 xFIP, while Max Scherzer's 4.86 xFIP is better than his 9.64 ERA suggests. The Blue Jays are a live underdog at home, but the +128 price implies a 43.9% win probability, which is close to my 45% estimate, leaving insufficient gap for a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 8.5
+REASON: Austin Warren is a small-sample starter with a 2.01 ERA, and the Mets have an elite 2.73 bullpen ERA that will suppress late-inning scoring. The Cardinals have a slight edge in run differential, but the Mets' pitching advantage makes the -134 price fair.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 7.5
+REASON: Chris Sale is excellent, but the White Sox starting pitcher is TBD, making it impossible to accurately price the game or find a genuine edge. The total leans Over due to the White Sox's strong 5.4 L10 RS/G and the potential for a bullpen game.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 10.0
+REASON: Both MacKenzie Gore and Seth Lugo have been pitching better recently than their season xFIPs suggest, and the 20.8 mph wind at Kauffman Stadium is likely to be swirling rather than consistently blowing out. The 10.0 total is too high for two improving pitchers, but the moneyline offers no edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over 12.0
+REASON: Coors Field introduces extreme variance, and both Shota Imanaga (5.10 xFIP last 14 days) and Michael Lorenzen (4.88 xFIP last 14 days) have been struggling recently. The high-scoring environment makes margin-of-victory bets unwise, and the moneyline is fairly priced.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under 14.5
+REASON: The Brewers have a massive run differential advantage (+104 vs -42), but Jack Perkins has been excellent over the last 14 days (3.05 xFIP, 13.5 K/9) and Sutter Health Park's high-scoring environment increases variance. The -110 price implies a 52.4% win probability, which is too close to my 55% estimate to justify a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: LAA ML
+PRICE: -117
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL LEAN: Over 8.5
+REASON: Reid Detmers (3.56 xFIP, 20.7% K-BB%) is a significant upgrade over Peter Lambert, who has struggled with a 5.74 xFIP and 6.1 BB/9 over the last two weeks. Counter-signals include Houston's slightly better run differential (-37 vs -43) and a much more reliable late-inning bullpen with Josh Hader, but the starting pitching gap and the Angels' hot offense (6.6 L10 RS/G) provide a clear edge at this price.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

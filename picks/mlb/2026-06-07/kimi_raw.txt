@@ -1,0 +1,123 @@
+## GAME: PIT @ ATL
+PICK: ATL ML
+PRICE: -155
+UNITS: 1
+EDGE: REAL
+REASON: PITCHING MATCHUP: Bubba Chandler (ERA 5.05/xFIP 4.57) for PIT vs Bryce Elder (ERA 2.63/xFIP 3.98) for ATL. The better starter is Elder. I am betting ATL, which has the better starter. Team quality check: ATL +115 run diff, 7-3 last10, 5.2 RS/G; PIT +31, 5-5, 5.1 RS/G. ATL leads all three metrics. (a) Estimated win probability: 65%. (b) Implied probability: 60.8%. (c) Gap: 4.2 percentage points. ATL's elite run differential and stable bullpen (2.13 ERA) provide a clear edge against a below-average starter in Chandler.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY leads all team-quality metrics (+91 run diff, 6-4 last10, 5.0 RS/G vs BOS -4, 5-5, 4.0) and has the better starter in Cam Schlittler (xFIP 3.28) against Ranger Suarez (xFIP 3.58). However, NYY's bullpen has zero fresh high-leverage arms while BOS has three fully rested, creating a structural offset. Market line -165 implies 62.3%, which aligns with a fair estimate of ~63%. No material edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: CHW is effectively running a bullpen game today with Tyler Gilbert (2.2 IP this season). Aaron Nola (last-14 xFIP 2.31, K/9 10.6, BB/9 0.0) has been elite recently. PHI trails in two team-quality metrics (-23 run diff, 4.0 RS/G vs CHW +12, 4.8), which would downgrade a PHI bet, though Nola's form is a valid override. Market -168 implies 62.7%, roughly fair given the bullpen-game dynamic. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: BAL leads two of three team-quality metrics (-29 run diff, 6-4 last10, 4.7 RS/G vs TOR -15, 5-5, 4.1). Shane Baz (last-14 xFIP 3.47) has pitched slightly better recently than Kevin Gausman (last-14 xFIP 3.55). Market line TOR -136 implies 57.6%, which is tight against a fair estimate of ~55-56%. Bullpen fatigue is neutral (BAL 1 fresh, TOR 0 fresh). No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: LEAN: SEA
+PRICE: -119
+UNITS: LEAN
+EDGE: THIN
+REASON: PITCHING MATCHUP: Luis Castillo (ERA 5.53/xFIP 4.13/last-14 xFIP 3.40) for SEA vs Jack Flaherty (ERA 5.31/xFIP 3.91/last-14 xFIP 2.76) for DET. The better starter is Flaherty. I am betting SEA, which has the worse starter. SEA's bullpen advantage provides the non-record override: SEA bullpen ERA 2.87 with 2 fresh high-leverage arms versus DET's 6.02 ERA with taxed arms. Team quality check: SEA +30 run diff, 8-2 last10, 4.2 RS/G; DET -25, 5-5, 3.9 RS/G. SEA leads all three. Market -119 implies 54.3%; fair estimate ~56%. The gap is under 3 points, so this is a lean only.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: LEAN: TB
+PRICE: -116
+UNITS: LEAN
+EDGE: THIN
+REASON: PITCHING MATCHUP: Griffin Jax (ERA 4.76/xFIP 3.87/last-14 xFIP 2.86) for TB vs Sandy Alcantara (ERA 4.59/xFIP 4.23/last-14 xFIP 5.03) for MIA. The better starter is Jax. I am betting TB, which has the better starter. TB leads two of three team metrics (+10 run diff, 4.6 RS/G vs MIA -23, 4.2) but is 3-7 in the last 10, triggering a downgrade per the rules. Jax's recent dominance (2.86 xFIP) against a struggling Alcantara (5.03 xFIP) is the driver, but the losing last-10 record keeps this a lean. Market -116 implies 53.7%; fair estimate ~55%.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: HOU leads all three team-quality metrics (-24 run diff, 6-4 last10, 4.7 RS/G vs ATH -48, 3-7, 4.2) and faces a lefty in Gage Jump (12.0 IP, small sample). HOU's wRC+ vs LHP is 128, a strong platoon edge. However, Mike Burrows (last-14 xFIP 4.90, BB/9 4.5) has been erratic. Market near pick'em (-110 HOU) is fair given the volatility of both starters. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIN leads two of three team metrics (-25 run diff, 4.6 RS/G vs KC -49, 3.9) though KC has the better last-10 record (4-6 vs 3-7). Noah Cameron (last-14 xFIP 2.32) has been elite recently, better than Connor Prielipp (last-14 xFIP 3.49). However, KC's bullpen ERA is 21.87, a structural disaster that overrides any starter edge. Market pick'em is fair given the extreme bullpen imbalance. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: STL leads all three team metrics (-4 run diff, 5-5 last10, 4.4 RS/G vs CIN -49, 3-7, 4.3). Michael McGreevy (2.98 ERA) has outperformed his xFIP (4.20) and has poor recent form (last-14 xFIP 4.65, BB/9 4.5). Rhett Lowder (5.40 ERA, 4.78 xFIP) has no last-14 data. Market STL -135 implies 57.4%, which aligns with a fair estimate given STL's team-quality edge and home field. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: CLE leads two of three team metrics (+11 run diff, 5-5 last10, 4.1 RS/G vs TEX +4, 6-4, 3.9). Jacob deGrom (last-14 xFIP 2.42) is the better starter, but Joey Cantillo's last-14 xFIP of 7.10 comes over only 6.0 IP and is not strongly predictive. TEX trailing in two team-quality metrics would normally downgrade this pick, and the market -140 implies 58.3%, which is tight against a fair estimate of ~57-58% once Cantillo's season xFIP (4.19) is weighted in. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIL leads all team metrics (+97 run diff, 7-3 last10, 5.1 RS/G vs COL -91, 4-6, 4.3) but their team wRC+ vs LHP is 55 (ESTIMATED), indicating a severe platoon disadvantage against Kyle Freeland. Coors Field (park factor 114, Runs 130) creates extreme variance. MIL -180 implies 64.3%, which is likely fair given the talent gap, but the platoon risk and altitude randomness make this unbettable. No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +113
+UNITS: 1
+EDGE: REAL
+REASON: PITCHING MATCHUP: Cade Cavalli (ERA 3.62/xFIP 3.83/last-14 xFIP 3.02) for WAS vs Michael Soroka (ERA 3.49/xFIP 3.83/last-14 xFIP 3.77) for AZ. The better starter is Cavalli. I am betting WAS, which has the better starter. Team quality check: WAS +8 run diff, 5-5 last10, 5.4 RS/G; AZ -14, 3-7, 4.3 RS/G. WAS leads all three metrics. (a) 52%. (b) 46.9%. (c) 5.1 pp. WAS leads all three metrics and is priced at +113, triggering the upgrade rule to at least 1 unit. However, AZ's bullpen has two fresh high-leverage arms versus WAS's zero, creating a structural offset that keeps this at 1 unit rather than 3.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: LAD leads all team metrics (+141 run diff, 7-3 last10, 5.2 RS/G vs LAA -59, 3-7, 4.3) and has the better recent starter in Emmet Sheehan (last-14 xFIP 3.91) against José Soriano (last-14 xFIP 6.50, BB/9 10.2). LAD -210 implies 67.7%, which aligns with a fair estimate of ~68-70%. No edge on a heavy favorite. The -1.5 run line at -101 requires an independent win-by-2+ estimate, which is roughly 50-52% and does not clear the implied 50.5%.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYM leads all three team metrics (-9 run diff, 6-4 last10, 4.0 RS/G vs SD -14, 2-8, 3.8) but both starters have poor underlying metrics: Huascar Brazobán (xFIP 5.50, K-BB% 2.3%) and Randy Vásquez (xFIP 5.25, last-14 xFIP 5.83). The market is effectively a pick'em (-107 NYM), which is fair given the team-quality edge for NYM is offset by SD's home field and bullpen quality (2.80 ERA vs 2.68, nearly even). No edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: CHC leads all team metrics (+4 run diff, 5-5 last10, 4.6 RS/G vs SF -49, 4-6, 4.2) but Trevor McDonald (xFIP 2.98) has significantly better underlying metrics than Jameson Taillon (xFIP 4.43). SF's bullpen has zero fresh high-leverage arms and a 5.31 ERA, while CHC's bullpen is similarly taxed (0 fresh, 5.44 ERA). Market CHC -119 implies 54.3%, which is tight against a fair estimate of ~53%. No edge.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: WAS +113 (1 unit)
+WHY THIS ONE: WAS leads all three team-quality metrics, has the better starter by recent form (Cavalli last-14 xFIP 3.02 vs Soroka 3.77), and is offered at plus-money against a struggling AZ club that is 3-7 in its last 10 with a negative run differential.

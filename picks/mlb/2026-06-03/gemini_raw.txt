@@ -1,0 +1,152 @@
+## INTEGRITY STATEMENT
+
+I recognize that these games took place yesterday, June 3, 2026. I have completely set aside any knowledge of the actual outcomes or real-world events of these games and will evaluate them purely from a pre-game handicapping perspective using the provided line data, metrics, and supplemental research.
+
+## GAME: MIA @ WAS
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both pitchers have question marks—Meyer has a sparkling ERA but underlying metrics suggest incoming regression (3.90 xERA), while Alvarez is relatively unproven at the big-league level with only 20.1 innings pitched. Washington's bullpen is a bit more rested, but Miami's offense does not warrant laying juice on the road. There is no actionable value on either side here.
+LOOKED UP: nothing, used provided data only
+
+## GAME: DET @ TB
+
+PICK: LEAN: TB ML
+PRICE: -137
+UNITS: LEAN
+EDGE: THIN
+REASON: Nick Martinez has been solid for Tampa Bay, and they are excellent at home (21-9), whereas Detroit struggles on the road (11-24). However, Tampa is currently in a 2-8 rut and Martinez carries a somewhat inflated 4.15 xERA, keeping this from being an official play.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ MIN
+
+PICK: CHW ML
+PRICE: +138
+UNITS: 1
+EDGE: REAL
+REASON: The White Sox are actually playing good baseball right now (7-3 last 10, positive run differential) compared to a slumping Twins team. Erick Fedde's metrics aren't great, but Taj Bradley isn't immune to hard contact (44.6% HH%). With Minnesota's closer currently taxed, backing the hot road underdog at +138 is a solid value play.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SEA
+
+PICK: SEA ML
+PRICE: -136
+UNITS: 1
+EDGE: REAL
+REASON: George Kirby boasts elite command and a stellar 3.45 xERA, and he gets the ball for a Mariners team that has won 8 of its last 10 with a commanding +30 run differential. The Mets offense has been stagnant, and securing Seattle under -140 at home is a fundamentally sound wager.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SD @ PHI
+
+PICK: PHI -1.5
+PRICE: +110
+UNITS: 5
+EDGE: STRONG
+REASON: The moneyline here has cratered from an opening -210 all the way to -554, indicating an ~85% implied win probability for the Phillies (likely due to a late scratch or severe lineup news). Despite this overwhelming market shift on the ML, BetMGM still offers the -1.5 run line at +110. This is a massive market inefficiency and an automatic max play on the math alone.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+
+PICK: BOS -1.5
+PRICE: +140
+UNITS: 5
+EDGE: STRONG
+REASON: Similar to the Phillies game, the Red Sox moneyline has moved to an absurd -10000, signaling a catastrophic event for Baltimore or a severe data anomaly pricing Boston near a 100% win probability. Grabbing a -1.5 run line at +140 for a favorite priced this heavily on the moneyline is an incredible arithmetic edge that you simply must exploit.
+LOOKED UP: Payton Tolle's rookie profile, noting his strong prospect pedigree, but relied primarily on the provided line anomalies
+
+## GAME: CLE @ NYY
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The moneyline flipped violently from NYY -160 to CLE -394, which clearly indicates Gerrit Cole has been scratched. With the pitching matchup completely up in the air and the run line market disconnected from the new moneyline reality, this is a spot to stay away from entirely.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ CIN
+
+PICK: CIN ML
+PRICE: -135
+UNITS: 3
+EDGE: STRONG
+REASON: The consensus market has steamed the Reds from -155 to -164, but BetMGM is hanging a rogue -135. We are getting tremendous closing line value on Chase Burns, who is pitching at an elite level (2.05 ERA, 10.4 K/9). Fading a weak Royals lineup at this discounted price is a highly advantageous play.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+
+PICK: ATL -1.5
+PRICE: +146
+UNITS: 5
+EDGE: STRONG
+REASON: The market has hammered Atlanta's moneyline from -143 all the way to -690, recognizing the mismatch between the elite Braves offense and Patrick Corbin (5.28 xERA). However, FanDuel is leaving an anomalous +146 on the Braves -1.5 run line. Securing plus-money on a run line for a team favored this heavily on the ML is an absolute gift.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+
+PICK: LEAN: MIL ML
+PRICE: -143
+UNITS: LEAN
+EDGE: THIN
+REASON: The Brewers are fundamentally superior (37-21, +93 run differential) and play excellently at home. However, Robert Gasser has a very small sample size and a weak strikeout profile, making it tough to lay -143 against Logan Webb, who can induce ground balls and eat innings efficiently.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TEX @ STL
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The line has flipped slightly towards Texas, but both MacKenzie Gore and Andre Pallante profile as highly average starters with ERAs hovering around 4.00. With two heavily taxed bullpens and both teams floating around .500, there is no discernible edge in attacking this game.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+
+PICK: ATH ML
+PRICE: -105
+UNITS: 3
+EDGE: STRONG
+REASON: The median market has steamed the Athletics from an underdog (+104) to a solid favorite (-165), signaling heavy sharp money on Oakland. Finding them at -105 at BetMGM provides colossal closing line value against a vulnerable Colin Rea (5.14 xERA, 11.9% barrel rate) and a taxed Cubs bullpen.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+
+PICK: PIT ML
+PRICE: -125
+UNITS: 3
+EDGE: STRONG
+REASON: This is a prime regression spot. Spencer Arrighetti is carrying a mirage 1.29 ERA that heavily contrasts with an alarming 4.69 xERA, while Paul Skenes remains legitimately dominant (2.28 xERA). Getting the Pirates at a discounted -125 price is strong value behind a significantly superior starting pitcher.
+LOOKED UP: nothing, used provided data only
+
+## GAME: COL @ LAA
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: This is a matchup between two of the worst teams in baseball. Michael Lorenzen is a fade target (7.22 ERA, 5.89 xERA), but backing the Angels at -145 with a taxed bullpen and a 23-39 record is an unappealing proposition. Best to look elsewhere.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+
+PICK: LAD -1.5
+PRICE: -115
+UNITS: 3
+EDGE: STRONG
+REASON: Shohei Ohtani is pitching at a Cy Young level (0.82 ERA, 2.40 xERA) and faces Zac Gallen, who is uncharacteristically struggling with extreme hard contact (45.2% HH%, 10.6% Brl%). The Dodgers' offense is a juggernaut, making the -1.5 run line at -115 a much more efficient way to back a heavily favored LA squad than laying -214 on the moneyline.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+
+LEG 1: PIT ML -125
+LEG 2: CIN ML -135
+COMBINED PRICE: +213
+TRUE PROBABILITY ESTIMATE: 37.2%
+UNITS: 1
+REASON: Both sides offer significant market value against overvalued or struggling opposing pitchers (Arrighetti's xERA and KC's poor lineup). These games take place in different cities with different dynamics, meaning the events are uncorrelated, maximizing the compounding mathematical edge of the individual bets.
+
+## SLATE SUMMARY
+
+BEST BET: PHI -1.5 (+110) [Game 5, 5 units]
+WHY THIS ONE: The moneyline collapsed from -210 to -554, yet the run line is still sitting at plus-money (+110). This represents an extreme, actionable market failure that provides a massive mathematical edge over any standard handicap on the slate.

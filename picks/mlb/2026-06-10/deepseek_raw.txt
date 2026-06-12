@@ -1,0 +1,153 @@
+## GAME: BOS @ TB
+PICK: TB ML
+PRICE: -141
+UNITS: 1
+EDGE: 6.2 pts
+TOTAL LEAN: Over lean
+REASON: Drew Rasmussen is a top-tier starter with excellent peripherals, while Jake Bennett is an inexperienced LHP with poor strikeout numbers and high hard contact. TB’s offense (.149 wRC+ vs LHP) should produce enough against Bennett to support a comfortable win. Market implied 57.8% win probability; I estimate 64%, creating a 6.2-point edge.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Massive 203-point line move toward CLE indicates possible lineup or pitching changes not reflected in stale data. Without confirmation, I cannot trust the underlying projections. Pass due to uncertainty.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under lean
+REASON: Both starters have poor underlying numbers, and the line has already moved toward WAS, removing any value. WAS’s road record and SF’s poor form make this a marginal game with no clear edge above 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under lean (Petco Park)
+REASON: SD ML -156 offers a reasonable edge given Brady Singer’s terrible peripherals and CIN’s weak bullpen, but I already have three stronger bets today — prioritizing higher-edge plays. Still a solid spot, but I’m passing to stay within slate ceiling.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over lean
+REASON: Despite George Kirby’s clear edge over Brandon Young, a 212-point line move toward BAL strongly suggests material lineup news (possibly SEA missing key bats). Without ability to verify, edge is too uncertain to bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over lean (roof likely open)
+REASON: Both teams are struggling offensively, and the pitching matchup is uninspiring. MIA has a small home-field edge, but market prices are close to fair. No edge above 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under lean
+REASON: MIN starter is TBD, eliminating any confidence in projecting a win probability. DET with Framber Valdez would be heavy favorites, but the uncertainty around the opposition makes a bet too speculative.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: LAD @ PIT
+PICK: LAD ML
+PRICE: -193
+UNITS: 3
+EDGE: 8.1 pts
+TOTAL LEAN: Over lean
+REASON: Shohei Ohtani (0.74 ERA, 2.41 FIP) is a massive mismatch against Jared Jones (small sample, suspect peripherals). LAD’s elite offense and top-tier run differential (+142) give them a win probability around 74% vs market-implied 65.9%. Clean data, strong gap, 3-unit play.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under lean
+REASON: Jesús Luzardo’s underlying numbers (3.22 xFIP) suggest he is much better than his ERA, but Max Scherzer’s catastrophic recent form (14.34 L3ERA) makes this game tough to price. PHI is a marginal favorite, but edge under 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters have similar peripherals, and neither team stands out. STL’s slightly better record is offset by NYM’s solid bullpen. Market price is fair.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: ATL @ CHW
+PICK: ATL ML
+PRICE: -143
+UNITS: 1
+EDGE: 9.2 pts
+TOTAL LEAN: Under lean
+REASON: Chris Sale is elite, and ATL’s overall team strength (+115 run diff) is overwhelming. CWS starter is TBD, likely a bullpen game or weak arm, but CWS does have a very strong wRC+ vs LHP (151). Estimated ATL win probability 68%, but capped at 1 unit due to TBD uncertainty and 6-point line move toward CWS.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over lean
+REASON: MacKenzie Gore vs Seth Lugo is a fairly even matchup, though TEX’s road form and better run differential give them a slight edge. Market prices near pick’em, edge under 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over lean (Coors Field)
+REASON: Coors Field variance makes betting sides risky. Imanaga’s recent form is awful, and Lorenzen is even worse. CHC’s poor road record and high juice eliminate value. No edge.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over lean (park factor 110)
+REASON: MIL’s offense is scorching (L10RS 8.3), but Sproat’s peripherals are weak and Perkins has intriguing numbers in a tiny sample. Market at near pick’em feels correct. No edge above 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over lean
+REASON: Reid Detmers’ xERA (2.91) is excellent, but the massive line move toward HOU (205 pts) suggests possible lineup changes that improve their already strong vs-LHP offense. Odds now near fair, no edge.
+LOOKED UP: nothing, used provided data only
+
+---
+## SLATE SUMMARY
+BEST BET: Los Angeles Dodgers ML (-193) for 3 units
+WHY THIS ONE: Ohtani’s dominant run prevention combined with the massive team quality gap gives a clean 8.1-point edge — the widest confirmed margin on the board today.

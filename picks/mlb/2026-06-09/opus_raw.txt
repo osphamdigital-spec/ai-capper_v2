@@ -1,0 +1,167 @@
+## GAME: SEA @ BAL
+PICK: LEAN: SEA ML
+PRICE: -121
+UNITS: LEAN
+EDGE: 2.5 pts
+TOTAL LEAN: Over
+REASON: Gilbert (xFIP 3.18, K-BB 24.2%, L3 ERA 1.59) is a clear class step above Rogers (FIP 4.61, L3 ERA 4.96), and SEA owns the run-diff and bullpen edge (3.09 vs 6.01). But Camden plays up offense and BAL hits RHP well (110 agg), which trims my SEA estimate to ~57% vs 54.8% implied — under the 4-point gate.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: AZ @ MIA
+PICK: LEAN: MIA ML
+PRICE: -129
+UNITS: LEAN
+EDGE: 2.9 pts
+TOTAL LEAN: Under
+REASON: Meyer (6-0, xFIP 3.54, L3 ERA 2.70) over a collapsing Gallen (last-14 xFIP 5.57, L3 ERA 7.04) plus AZ's frozen offense (L10 2.8 RS/G) reads like a 5-6 point raw edge. But this is a liquid market with no stale flag and no small-sample tag, and all of that is public — so I regress halfway toward the 56.3% implied, leaving a sub-4 gap. Lean, not a bet.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: BOS @ TB
+PICK: LEAN: TB ML
+PRICE: -108
+UNITS: LEAN
+EDGE: 2.0 pts
+TOTAL LEAN: Over
+REASON: TB is 22-9 at home and hits LHP hard (Caminero 166, Díaz 156) against the lefty Tolle, while Martinez is badly overperforming (ERA 2.29, FIP 3.65, xERA 4.15). Slight TB edge but a true pick'em market — no stake.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: NYY is the far better team (+98 vs -1 run diff) and that's exactly why -135 is fair. Cole carries a [small sample] tag (18 IP) so I can't lean on the 2.00 ERA, and CLE's bullpen (3.32, 2 fresh) is sound. No gap.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Two sub-.450 teams with near-identical run diffs. Melton is [small sample] (20.2 IP) and Bradley has been wild (last-14 BB/9 7.3), and DET's bullpen is both bad (5.95) and thin (0 of 1 fresh). Too murky to price an edge.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: LAD @ PIT
+PICK: LEAN: PIT ML
+PRICE: -110
+UNITS: LEAN
+EDGE: 2.6 pts
+TOTAL LEAN: No lean
+REASON: Skenes is the best arm on the board (last-14 xFIP 1.91, K/9 15.3) against a poor Lauer (FIP 6.53) in a pitcher's park. But LAD's offense is elite (117 wRC+ vs RHP) and the market already shaded this to a pick'em, capping my PIT estimate near 55%.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Wheeler vs Cease is a genuine ace-vs-ace matchup that nets to near pick'em, and -116 reflects it. Cease's missing last-14 data and stale last-3-starts dates hint at a workload/return question, but it's unconfirmed and not something I'll bet on. No edge.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: STL @ NYM
+PICK: LEAN: STL ML
+PRICE: +110
+UNITS: LEAN
+EDGE: 1.4 pts
+TOTAL LEAN: Over
+REASON: May has been pitching like an ace (last-14 xFIP 1.88, K/9 12.8), underlying-superior to Peralta's solid-but-lesser form, so I won't dismiss the dog reflexively. My STL estimate is ~49% vs 47.6% implied — a 1.4-point gap, under the 3-point line, so this is fair, not playable.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: ATL @ CHW
+PICK: LEAN: ATL ML
+PRICE: -158
+UNITS: LEAN
+EDGE: 2.5 pts
+TOTAL LEAN: Over
+REASON: ATL is the slate's best team (+116 diff) with a shutdown pen (2.02) facing a poor Fedde (FIP 6.10, K-BB 4.0%). But -158 already demands 61%+, CHW is 20-11 at home, and Holmes (FIP 5.10) is no lock. Priced about right.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: TEX @ KC
+PICK: LEAN: TEX ML
+PRICE: -120
+UNITS: LEAN
+EDGE: 2.5 pts
+TOTAL LEAN: No lean
+REASON: TEX has the run-diff edge (+14 vs -48) and Eovaldi's season underlying is strong (xFIP 3.14). The KC bullpen ERA of 22.24 is almost certainly a data artifact, so I won't build a bet on it, and Kolek has been sharp lately (last-14 xFIP 2.77). That leaves the gap under the gate.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: CHC is clearly better than a -99-diff Rockies team, but Coors is a variance trap the prompt explicitly flags, and -149 is roughly fair. Margin and win-prob outcomes are too noisy here to claim a clean edge.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Both teams carry negative run diffs and both starters (Teng, Ureña) have been wild in their last 14 (BB/9 5.4 and 4.5). HOU is modestly better but -125 captures it. No gap.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: CIN @ SD
+PICK: CIN ML
+PRICE: -119
+UNITS: 1
+EDGE: 4.2 pts
+TOTAL LEAN: Under
+REASON: Burns is an ace (xFIP 2.91, K-BB 24.5%, last-14 K/9 13.5) opposite a Giolito who is imploding — citing non-ERA indicators per the small-sample rule: FIP 6.64, last-14 xFIP 6.15, BB/9 6.8. My estimate is ~58.5% vs 54.3% implied. Capped at 1 unit because Giolito carries the [small sample] tag, and CIN's cold bats plus Petco are the offsets keeping it there rather than higher.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: WAS @ SF
+PICK: LEAN: WAS ML
+PRICE: -104
+UNITS: LEAN
+EDGE: 3.0 pts
+TOTAL LEAN: Over
+REASON: WAS is the better team (+5 vs -49 diff), elite on the road (22-13), facing a poor Houser (last-14 xFIP 5.98, BB/9 5.6) and an SF club that's bad at home with a leaky pen (5.60). The named blocker holding this to a lean: Alvarez is a 20-IP rookie LHP against an SF lineup that mashes lefties (105 agg, Schmitt 172), with real short-start risk.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: MIL @ ATH
+PICK: LEAN: MIL ML
+PRICE: -114
+UNITS: LEAN
+EDGE: 2.0 pts
+TOTAL LEAN: No lean
+REASON: MIL is far better (+106 diff) and red-hot (L10 8.0 RS/G), but Gasser is a [small sample] LHP walking into Sutter Health (121 runs factor) against an ATH lineup that crushes LHP (118 agg, Langeliers 191), while Ginn has been steady. That matchup offset keeps a strong team off a stake.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

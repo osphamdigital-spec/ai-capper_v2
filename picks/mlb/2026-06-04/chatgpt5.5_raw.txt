@@ -1,0 +1,95 @@
+## GAME: SD @ PHI
+
+PICK: PHI -1.5 RL
+PRICE: +110
+UNITS: 1
+EDGE: REAL
+REASON: Wheeler versus Giolito is the largest starting-pitching gap on the slate, and San Diego enters on a 1-9 run. Philadelphia's taxed closer matters less when backing the run line, and +110 is a more efficient way to capture the matchup edge than laying a heavy moneyline.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+
+PICK: Over 10.0
+PRICE: -115
+UNITS: 1
+EDGE: REAL
+REASON: Both starters carry ERAs above 6.25 with WHIPs north of 1.50, and the weather is highly favorable for offense at Fenway. Neither bullpen enters fully fresh, creating additional scoring paths once the starters exit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Rodón gives New York a deserved edge, but Cleveland is a quality club and the Guardians' price is not quite attractive enough for me. The market appears close to fair.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+
+PICK: MIL -1.5 RL
+PRICE: +105
+UNITS: 1
+EDGE: REAL
+REASON: Milwaukee owns a massive season-long run differential advantage and gets the far stronger overall roster against a struggling Giants team. Crow is not dominant, but Houser's profile and San Francisco's poor form make the plus-money run line appealing.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+
+PICK: ATL -1.5 RL
+PRICE: +103
+UNITS: 1
+EDGE: REAL
+REASON: Chris Sale against a low-experience starter is a substantial mismatch, and Atlanta has been one of the league's strongest teams by both record and run differential. Rather than pay an inflated moneyline, the plus-money run line offers better value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+
+PICK: KC ML
+PRICE: -115
+UNITS: 3
+EDGE: STRONG
+REASON: My rough fair line is KC -145 based primarily on Lugo's proven track record versus a less-established Morris. Kansas City has the better bullpen situation entering the game and Minnesota's relief corps shows heavier recent usage. Uncertainty flags: (1) Lugo's strikeout rate is solid but not dominant, limiting margin for error; (2) lineup confirmations are unavailable. Neither flag materially changes the pitching and bullpen edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+
+PICK: ATH ML
+PRICE: +113
+UNITS: 1
+EDGE: REAL
+REASON: Ginn's underlying numbers are significantly stronger than Imanaga's current-season ERA profile, and both bullpens are heavily taxed. With the Athletics receiving plus money, I make this game closer to a coin flip.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+
+PICK: HOU ML
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+REASON: The market appears overly focused on Pittsburgh's recent form. Teng has been vastly superior to Jared Jones' current form/sample, and Houston's bullpen availability is slightly better despite recent usage.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+
+PICK: LAD ML
+PRICE: -142
+UNITS: 1
+EDGE: REAL
+REASON: Los Angeles has advantages in starting pitching, bullpen freshness, season-long run differential, and recent form. Arizona is respectable at home, but I make the Dodgers somewhat more likely to win than the current market implies.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+
+LEG 1: Kansas City Royals ML -115
+LEG 2: Los Angeles Dodgers ML -142
+COMBINED PRICE: +211
+TRUE PROBABILITY ESTIMATE: 37%
+UNITS: 1
+REASON: Both legs were independently identified as positive-EV positions. The games are unrelated, feature different pitching matchups and environments, and each side holds a measurable starting-pitching advantage.
+
+## SLATE SUMMARY
+
+BEST BET: Kansas City Royals ML (-115), 3 units
+
+WHY THIS ONE: Lugo versus Morris is one of the clearest starting-pitching advantages on the board, and Kansas City also enters with the fresher bullpen. My estimated fair price is materially higher than the market number, creating the largest perceived edge on the slate.

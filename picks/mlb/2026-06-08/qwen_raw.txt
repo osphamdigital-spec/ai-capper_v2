@@ -1,0 +1,101 @@
+## GAME: SEA @ BAL
+PICK: BAL ML
+PRICE: +110
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Emerson Hancock's underlying metrics are poor (4.15 xERA, 4.09 xFIP) and his last-14-day K/9 is just 7.5. Baltimore's offense is hot (5.5 RS/G L10) and getting plus-money at home against a pitcher who is pitching worse than his ERA suggests.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: BOS @ TB
+PICK: TB ML
+PRICE: +102
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: No lean
+REASON: Connelly Early has a massive 4.62 xERA and 4.62 FIP, indicating his 3.26 ERA is unsustainable. Ian Seymour has a strong 3.22 xFIP and 23.0% K-BB%. Tampa Bay is getting plus-money at home against a Boston pitcher due for regression.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: CLE ML
+PRICE: -115
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Will Warren's last-14-day xFIP has spiked to 6.15 with a K/9 of just 6.0 and a BB/9 of 4.5, showing a severe recent collapse. Gavin Williams is solid at home (3.75 xFIP), making Cleveland a strong favorite at a reasonable price against a Yankees pitcher who is getting hammered recently.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PHI RL -1.5
+PRICE: -105
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Cristopher Sánchez is elite (1.79 FIP, 2.64 xFIP) with a 10.9 K/9 over his last 14 days (season K/9 10.7). Patrick Corbin is struggling badly (4.88 xFIP last 14 days, 4.5 K/9). I am capping this at 1 unit because Sánchez's season HH% is 44.1% (above 40%) and last-14-day HH% is unavailable to confirm it hasn't spiked.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: LAA ML
+PRICE: +108
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Spencer Arrighetti's last-14-day K/9 has dropped to 5.4 with a 4.85 xFIP, indicating he is getting hit hard recently. Grayson Rodriguez also has a poor 5.05 xFIP, but the Angels' offense is scoring 6.4 RS/G over their last 10, giving them great value at home as plus-money underdogs.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: Under 8.0
+PRICE: -109
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: Both offenses are in severe slumps (CIN 3.2 RS/G and SD 2.7 RS/G over L10). Petco Park is a pitcher-friendly environment (94 park factor), and both starters have been decent recently (Buehler 3.63 xFIP last 14 days), pointing to a low-scoring affair.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Logan Webb is excellent (2.94 xFIP), but the Giants are a heavy -165 favorite against a Nationals team that scores 4.8 RS/G L10. The price is too steep for the moneyline, and the run line doesn't offer enough value to justify the risk in a park that can be unpredictable.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: ATH ML
+PRICE: +136
+UNITS: 3
+EDGE: STRONG
+TOTAL LEAN: Under
+REASON: Milwaukee's offense is historically bad vs LHP with a 58 wRC+. Jeffrey Springs has a 4.97 FIP and 3.87 xERA on the season, but his last-14-day xFIP is an elite 2.99. Comparing his metrics: his season K/9 is 7.7 and HH% is 34.3%, while his last-14-day K/9 is 10.4. Since his last-14-day K/9 is well above 7.0 and his HH% is below 40%, he justifies 3 units. The platoon mismatch creates massive edge for Oakland at home.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## PARLAY
+LEG 1: BAL ML +110
+LEG 2: TB ML +102
+COMBINED PRICE: +324
+TRUE PROBABILITY ESTIMATE: 26%
+UNITS: 1
+REASON: Both Baltimore and Tampa Bay are home underdogs facing starting pitchers with poor underlying metrics (Hancock 4.15 xERA, Early 4.62 xERA). The games are in different divisions and have no obvious correlation, providing solid independent edge for a plus-money parlay.
+
+---
+
+## SLATE SUMMARY
+BEST BET: ATH ML (MIL @ ATH), 3 units
+WHY THIS ONE: The platoon mismatch is extreme — Milwaukee's 58 wRC+ vs LHP is one of the worst in baseball, and Jeffrey Springs has elite recent strikeout metrics (10.4 K/9 last 14 days) to exploit it, offering tremendous value at +136.

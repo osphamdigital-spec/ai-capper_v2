@@ -1,0 +1,134 @@
+## INTEGRITY STATEMENT
+I do not recognise any of these games or know their results. My training data ends in April 2024, and these are June 2026 matchups, so I have no knowledge of outcomes, final scores, or in-game events. I am analysing this slate purely from the pre-game data provided.
+
+## GAME: DET @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters are struggling (Flaherty 5.31 ERA, Matz 5.48 ERA). Tampa Bay is significantly better at home (21-8) and has the better overall team, but the -142 price already captures that. No clear edge against the market.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SD @ PHI
+PICK: SD + ML
+PRICE: +113
+UNITS: 1
+EDGE: REAL
+REASON: Nola has been hit hard all season (5.55 ERA, 1.39 WHIP) and shows no sign of turning it around. Vásquez has been solid (3.31 ERA, 1.22 WHIP) and the Padres have a winning road record. At +113 the implied probability is below my estimate for a SD win with this pitching mismatch.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: LEAN: BAL
+PRICE: +118
+UNITS: LEAN
+EDGE: THIN
+REASON: Baltimore is hot (7-3 last 10) while Boston is ice-cold (3-7 last 10) and dreadful at home (9-20). The line has moved toward the Orioles. However, Connelly Early (3.26 ERA) is the better starter, so I will not make this a full bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Near pick'em pricing is justified. Both starters have decent ERAs but Lovelady's WHIP (1.73) is concerning. Washington has the better recent form (6-4 last 10) and home field, but the price is too close to fair to bet either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: NYY -1.5 RL
+PRICE: -102
+UNITS: 1
+EDGE: REAL
+REASON: Schlittler has been elite (1.89 ERA, 0.86 WHIP) and the Yankees have a +98 run differential compared to Cleveland's +1. The Yankees are dominant at home (17-9) and Cleveland is overachieving relative to their run diff. The -102 run line is a more efficient way to back the heavy favourite than the -220 moneyline.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both teams are mediocre with negative run differentials and neither starter inspires confidence. Cincinnati is slightly better and at home, but the -126 price is fair for a team with a -39 run diff against a team with a -52 run diff.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Atlanta is the superior team (41-20, +110 run diff) and Elder has been excellent (2.63 ERA). However, Gausman is a legitimate frontline starter (3.36 ERA, 1.09 WHIP) and Toronto is not a pushover. The -128 price is fair and offers no edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ MIN
+PICK: CHW + ML
+PRICE: -118
+UNITS: 1
+EDGE: REAL
+REASON: Davis Martin has been outstanding (8-1, 2.61 ERA, 1.11 WHIP) while Connor Prielipp has struggled (5.26 ERA, 1.35 WHIP). This is one of the largest pitching mismatches on the slate. The White Sox are priced as a short road favourite despite Minnesota's home field, and I believe the market is still undervaluing the gap between these two starters.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: MIL -1.5 RL
+PRICE: +118
+UNITS: 1
+EDGE: REAL
+REASON: Kyle Harrison has been elite (6-1, 1.57 ERA, 1.03 WHIP) and Milwaukee is rolling (7-3 last 10, 20-11 at home). San Francisco is one of the worst teams in baseball (23-37, -62 run diff, 11-21 away). Getting plus money on the Brewers to win by two or more runs is strong value given the mismatch in team quality and starting pitching.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TEX @ STL
+PICK: LEAN: TEX
+PRICE: -112
+UNITS: LEAN
+EDGE: THIN
+REASON: Eovaldi (3.86 ERA) is the better starter and Texas has the better run differential (+8 vs -11). St. Louis is slumping (3-7 last 10) and has been mediocre at home (15-15). The price is fair, so this is only a lean.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Chicago has the better home record (18-11) and Taillon has the name recognition, but his 5.13 ERA is poor. Gage Jump is a small-sample unknown. The market prices the Cubs as favourites based on home field and reputation, but there is no reliable edge here.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters have ERAs near 5.00 with WHIPs above 1.50. Houston has been hot (7-3 last 10) but is still a losing team overall. Pittsburgh has the better record and run differential. This is a coin-flip game with no market edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: COL @ LAA
+PICK: LEAN: COL
+PRICE: +135
+UNITS: LEAN
+EDGE: THIN
+REASON: Grayson Rodriguez has been shelled (7.04 ERA, 1.57 WHIP) and the Angels have no business being -159 favourites with that kind of starting pitching. However, Colorado is terrible on the road (11-22) and has a -82 run diff, so the +135 is only a lean.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LEAN: AZ
+PRICE: +104
+UNITS: LEAN
+EDGE: THIN
+REASON: Soroka (7-2, 3.23 ERA) is significantly out-pitching Lauer (5.95 ERA) and Arizona is strong at home (19-10). However, the Dodgers are a juggernaut (+126 run diff, 5.2 RS/G) and their bullpen and offence can overcome a bad start. The +104 is slightly tempting but not enough for a full bet against a team this dominant.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Brazobán has excellent surface stats (1.86 ERA) but only 29 innings, suggesting he may be a converted reliever or recent call-up due for regression. Gilbert is solid (3.69 ERA) and Seattle is hot (8-2 last 10) with a strong home record. The -150 price is fair.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: SD ML +113
+LEG 2: CHW ML -118
+COMBINED PRICE: +293
+TRUE PROBABILITY ESTIMATE: 27%
+UNITS: 1
+REASON: Both legs are independently identified as having edge in the game-by-game analysis above. San Diego has the better starter against a struggling Nola, and Chicago has a massive pitching advantage with Martin over Prielipp. The games are in different leagues (NL and AL), different divisions, different time zones, and have no correlation in weather or travel patterns.
+
+## SLATE SUMMARY
+BEST BET: MIL -1.5 +118 (Game 9) — 1 unit
+WHY THIS ONE: It combines the largest team-quality mismatch on the slate (Brewers +88 run diff vs Giants -62) with the best starting pitching advantage (Harrison 1.57 ERA vs McDonald 4.50 ERA), and we get plus money on Milwaukee to win by two or more at home. The gap in every metric is too wide for the market price.

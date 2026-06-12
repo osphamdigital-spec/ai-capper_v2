@@ -1,0 +1,640 @@
+# AI CAPPER — LEARNINGS LOG
+
+Things that broke, were misunderstood, or need to be remembered.
+Add an entry whenever something is discovered or fixed. Never delete entries.
+
+---
+
+## FANGRAPHS BLOCKED VIA PYBASEBALL (xFIP / K% / BB% / BABIP)
+
+**Date discovered:** 2026-06-04
+**Updated:** 2026-06-05 — FIP resolved via local computation (see entry below)
+
+Both `pitching_stats()` and `fg_pitching_data()` in pybaseball 2.2.7 return
+HTTP 403. FanGraphs changed their `leaders-legacy.aspx` endpoint and pybaseball
+has not yet been updated to match the new URL structure.
+
+Affected metrics still unavailable: xFIP, K%, BB%, BABIP (all FanGraphs-only).
+FIP is now computed locally from MLB Stats API components — see entry below.
+
+Workaround in use: fetch_pitcher_advanced.py uses Baseball Savant instead:
+- `statcast_pitcher_expected_stats` → xERA
+- `statcast_pitcher_exitvelo_barrels` → Hard Hit % (ev95percent), Barrel %
+- K/9 computed from existing strikeouts + innings_pitched fields
+- FIP computed from HR/BB/HBP/K/IP — no FanGraphs needed
+
+If FanGraphs access is restored: add a `fetch_fangraphs_pitching(year)` block
+to fetch_pitcher_advanced.py and include xFIP, K%, BB%, BABIP.
+
+---
+
+## OPENING_SNAPSHOT TIMING — LINE MOVEMENT IS ONLY USEFUL IF RUN EARLY
+
+**Date discovered:** 2026-06-02
+**Relevant scripts:** `fetch_odds.py`, `build_prompt.py`
+
+`opening_snapshot` is written on the first fetch of each day and never overwritten.
+It is our proxy for the opening line. For it to be a useful line-movement reference,
+the first fetch must happen early — before significant money has moved the line.
+
+The target run time is Australian evening, which is US morning ET. This is the
+"golden window" defined in `docs/TIMEZONE_STANDARD.md`:
+
+  Australian evening 6 PM – 11 PM AEST  =  US morning 4 AM – 9 AM ET
+
+If `fetch_odds.py` is run during this window, `opening_snapshot` captures a genuine
+early line and subsequent fetches can show meaningful movement.
+
+If the script is run late in the day (e.g. 2 PM ET, shortly before first pitch),
+`opening_snapshot` and `current_snapshot` will be nearly identical and line movement
+will show no change. That is still valid data — it just means the tool was run too
+late to capture the open.
+
+**Today's test case (2026-06-02):**
+- Single fetch run at: `2026-06-02T03:42:42Z` UTC
+- That is: **11:42 PM ET on June 1** / **1:42 PM AEST on June 2**
+- Golden window starts: 4:00 AM ET June 2 / 6:00 PM AEST June 2
+- The fetch was 4h 18min BEFORE the golden window — earlier than ideal but good
+  for capturing near-opening lines (MLB lines for June 2 typically open late June 1 ET)
+- Hours before first pitch (DET @ TB 6:41 PM ET): **19 hours**
+- Only one fetch has been run, so `opening_snapshot.fetched_at` = `current.fetched_at`
+  — no line movement data yet. This is expected.
+
+**Operational lesson:** Run `fetch_odds.py` once during the golden window to lock the
+opening snapshot, then run again 1–2 hours before first pitch for the current lines.
+Line movement = diff between those two runs.
+
+---
+
+## COVERS UMPIRES PAGE IS A HISTORICAL STATS DIRECTORY, NOT A DAILY ASSIGNMENTS PAGE
+
+**Date discovered:** 2026-06-01
+**Relevant scripts:** `scripts/scrape_umpires.py` (now obsolete)
+
+`https://www.covers.com/sport/baseball/mlb/umpires` is titled "MLB Umpires By Name".
+It is an alphabetical directory of all active umpires linking to their individual
+career stats pages. It does NOT show today's game assignments.
+
+The page contains no per-game HP assignment data. The regex parser in
+`scrape_umpires.py` found zero matches because there is nothing to match.
+
+**Fix:** `fetch_umpires.py` replaces this entirely, using the MLB Stats API boxscore
+endpoint (`/api/v1/game/{gamePk}/boxscore`) which is free, official, and returns the
+full umpire crew including the plate umpire. Assignments populate ~1–2 hours before
+first pitch — run `fetch_umpires.py` at that time, not in the morning.
+
+`scrape_umpires.py` remains in the repo for reference but should not be run.
+
+---
+
+## WINDOWS CONSOLE ENCODING — UNICODE CHARACTERS IN PRINT() CRASH ON WINDOWS
+
+**Date discovered:** 2026-06-02
+**Relevant scripts:** all scripts
+
+Windows PowerShell and the default Python console use cp1252 encoding, which cannot
+display Unicode characters such as `→` (U+2192), `═` (U+2550), `°` (U+00B0),
+or `—` (U+2014). Any `print()` statement containing these characters crashes with:
+
+  UnicodeEncodeError: 'charmap' codec can't encode character
+
+**Fix:** Replace `→` with `->` in all `print()` statements across all scripts.
+Unicode characters in file output (e.g. `prompt.md`) are fine — files are always
+opened with `encoding='utf-8'`. Only `print()` to the Windows console is affected.
+
+Checked and fixed in: `fetch_odds.py`, `fetch_pitchers.py`, `fetch_umpires.py`,
+`fetch_weather.py`.
+
+---
+
+## THE ODDS API HISTORICAL ENDPOINT IS TOO EXPENSIVE FOR FREE TIER
+
+**Date discovered:** 2026-06-02
+**Relevant scripts:** `fetch_odds.py`
+
+`GET /v4/historical/sports/{sport}/odds` returns line snapshots at 5–10 minute
+intervals going back to 2020. It could provide true opening lines (when lines
+first posted, 1–3 days before game day).
+
+**Cost:** 10 credits × 1 region × 3 markets = **30 credits per call**.
+On the free tier of 500 credits/month that is only ~16 calls before exhaustion.
+Not viable for daily use.
+
+**Decision:** Do not use the historical endpoint. Our `opening_snapshot` from the
+first morning fetch is a sufficient opening line proxy for the purposes of this
+project. If the project moves to a paid API tier, revisit this for true market-open
+lines.
+
+---
+
+## ALT MARKETS NOT YET IMPLEMENTED — PLANNED FUTURE EXPANSION
+
+**Date noted:** 2026-06-02
+**Relevant scripts:** `fetch_odds.py`, `build_prompt.py`
+
+The Odds API supports alternate markets: alt totals, alt run lines, alt spreads,
+player props (available since May 2023 on historical endpoint). These are not
+currently fetched or displayed.
+
+**Decision:** Out of scope for now. When the core pipeline is stable and validated
+over 30+ days, revisit adding:
+- Alt totals (e.g. team totals, first 5 innings)
+- Player props (strikeouts, hits, home runs)
+- Alt run lines (+/- 0.5 for key games)
+
+Each alt market costs additional API credits. Plan accordingly before enabling.
+
+
+----
+
+POST-MORTEM JUNE 2 — CONSENSUS FINDINGS
+
+After 8 model post-mortems on the June 2 slate, these 
+improvements were requested by multiple models:
+
+1. Pitcher FIP/xERA (7/8 models) — prevents over-staking 
+   on low ERA with small samples. Source: Baseball Savant, 
+   FanGraphs. Should be automated in pipeline.
+
+2. Bullpen usage last 3 days (5/8 models) — fatigue/
+   availability for games where starter exits early. 
+   Source: FanGraphs, RotoWire.
+
+3. Confirmed lineups + platoon splits (3/8 models) — 
+   LHP/RHP performance splits. Source: FanGraphs.
+
+These should be added to the data pipeline after Phase 3 
+is complete.
+
+----
+
+FanGraphs is behind Cloudflare Turnstile — blocks both 
+plain HTTP and Playwright. Do not attempt to scrape 
+FanGraphs. Use MLB Stats API or pybaseball as alternatives.
+
+----
+
+CORRUPTED ODDS DATA — implausible prices from TheOddsAPI
+Discovered June 3 post-mortem. Prices like -10000 and 
++10000 occasionally appear in best_available calculations,
+likely from bad bookmaker data in the API feed. These 
+corrupt model reasoning by appearing as extreme line 
+movement. Fix: validation filter rejecting prices outside 
+-3000 to +3000 applied at fetch time in parse_bookmaker().
+
+---
+
+## PITCHER LAST-3-STARTS ROLLING FORM ADDED
+
+**Date added:** 2026-06-05
+**Relevant scripts:** `fetch_pitcher_advanced.py`, `build_prompt.py`
+
+Post-mortems on June 2 and June 3 slates identified that models were
+over-relying on season ERA without checking recent trend. Pitchers like
+Schlittler (1.89 ERA), Martin (2.61 ERA), and Soroka (3.23 ERA) had
+small samples or deteriorating recent form not visible from season totals.
+
+Fix: `fetch_pitcher_advanced.py` now calls the MLB Stats API game log
+endpoint for each pitcher:
+  GET /api/v1/people/{personId}/stats?stats=gameLog&group=pitching&season=YEAR&gameType=R
+
+Filters to starts only (gamesStarted == 1), takes last 3, computes
+rolling ERA. Stored as `pitcher["recent_starts"]` in games.json.
+`build_prompt.py:fmt_recent_starts()` renders it as a second line
+under each pitcher's season stat line. Omitted silently if < 1 start.
+
+---
+
+## CONFIRMED LINEUPS AND IL ABSENCES ADDED
+
+**Date added:** 2026-06-05
+**Relevant scripts:** `fetch_lineups.py`, `build_prompt.py`, `run_daily.py`
+
+Post-mortems identified that models assumed full-strength lineups when
+a key middle-of-order bat may have been absent. A missing bat can swing
+expected run output by 0.5-1.0 runs.
+
+Two MLB Stats API endpoints used (no auth required):
+  Lineups:  GET /api/v1/game/{gamePk}/lineups
+  IL:       GET /api/v1/teams/{teamId}/roster?rosterType=40Man&season=YEAR
+
+Lineups are only confirmed ~2-3 hours before first pitch. Morning runs
+will see status "not_yet_confirmed" — this is normal, not an error.
+LINEUPS section is omitted entirely from the prompt if fetch_lineups.py
+has never run (no noise for morning-only workflows).
+
+Requires: game["mlb_game_pk"] from fetch_pitchers.py,
+          ctx["team_away/home"]["team_id"] from fetch_teamstats.py.
+Added to run_daily.py pipeline after Team Stats as an optional step.
+
+---
+
+## LINE MOVEMENT FLAG (>30 PTS) ADDED
+
+**Date added:** 2026-06-05
+**Relevant script:** `build_prompt.py`
+
+Opus flagged in the June 3 post-mortem that four games had large ML
+movements signalling unknown roster changes and models either ignored
+these or passed without investigation.
+
+Fix: `build_prompt.py:_big_move_note()` fires a NOTE annotation after
+the Line move row when either side of the ML moves >30 points absolute
+value between opening_snapshot and current_snapshot. Identifies which
+team the money moved toward and instructs models to treat pitcher/lineup
+data as potentially stale and verify via web access.
+Only fires when both snapshots exist with different timestamps (real
+movement, not a single-fetch day).
+
+---
+
+## FIP COMPUTED FROM MLB STATS API COMPONENTS
+
+**Date added:** 2026-06-05
+**Relevant scripts:** `fetch_pitchers.py`, `fetch_pitcher_advanced.py`, `build_prompt.py`
+
+FanGraphs FIP is unavailable due to Cloudflare Turnstile blocking all
+scraping attempts (plain HTTP and Playwright both return 403/challenge).
+FIP is now computed directly from MLB Stats API season stat components
+already fetched by fetch_pitchers.py:
+
+  FIP = ((13 × HR) + (3 × (BB + HBP)) - (2 × K)) / IP + 3.10
+
+Components used: homeRuns, baseOnBalls, hitBatsmen, strikeOuts,
+inningsPitched — all from the standard
+/people/{id}/stats?stats=season&group=pitching endpoint.
+
+FIP_CONSTANT = 3.10 for the 2026 season. Update this value each new
+season by checking the published league FIP constant.
+
+Three new fields added to fetch_pitchers.py parse_player_stats():
+  home_runs  (homeRuns), walks (baseOnBalls), hit_batters (hitBatsmen)
+
+Computed in: fetch_pitcher_advanced.py → compute_fip()
+Stored in:   games.json context["pitcher_away/home"]["fip"]
+Displayed:   build_prompt.py fmt_pitcher() — sits between ERA and xERA
+
+Note: xERA (Baseball Savant statcast) remains alongside FIP.
+They measure different things — FIP is defence-independent ERA, xERA
+is contact-quality based. Both are useful. A pitcher with low FIP and
+low xERA has converging evidence of genuine skill.
+
+---
+
+## RUN_DAILY.PY PYTHON ENVIRONMENT MISMATCH
+
+**Date discovered:** 2026-06-05
+
+`run_daily.py` was invoking child scripts via `sys.executable`, which resolved
+to the hermes-agent managed venv (Python 3.11). `pybaseball` is installed under
+Python 3.12 only. This caused `fetch_pitcher_advanced.py` to fail silently every
+run — the pipeline continued but all advanced pitcher stats (FIP, xERA, HH%,
+Brl%, K/9, last-3-starts) were absent from the prompt with no visible warning.
+
+**Fix applied:** replaced `sys.executable` with a hardcoded constant in
+`run_daily.py` pointing to the Python 3.12 interpreter:
+
+```python
+PYTHON = r"C:\Users\marko\AppData\Local\Programs\Python\Python312\python.exe"
+```
+
+This path is machine-specific. If the project is moved to a new machine or the
+Python 3.12 install location changes, update this constant before running the
+pipeline.
+
+**Option A (install pybaseball into the hermes venv) was not available** because
+the hermes-agent venv was created without pip and cannot accept package installs.
+
+**Interim fix also applied:** optional step failures now print a visible `!!!
+WARNING` banner with the exact re-run command instead of a quiet one-liner. This
+catches any future environment issues before they silently degrade prompt quality.
+
+---
+
+## FANGRAPHS STATIC FILES — TEAM ABBREVIATION DIVERGENCE
+
+**Date discovered:** 2026-06-06
+**Relevant scripts:** `scripts/load_static_data.py`
+
+FanGraphs uses different team abbreviations for 6 teams than TheOddsAPI (which populates
+`games.json`). Any code that joins on team abbreviation will silently produce no matches
+for these teams unless the mapping is applied at load time.
+
+| games.json abbr | FanGraphs abbr | Team |
+|---|---|---|
+| AZ | ARI | Arizona Diamondbacks |
+| KC | KCR | Kansas City Royals |
+| SD | SDP | San Diego Padres |
+| SF | SFG | San Francisco Giants |
+| TB | TBR | Tampa Bay Rays |
+| WAS | WSN | Washington Nationals |
+
+**Fix:** `load_static_data.py` defines `_FG_TO_GAMES` and `_GAMES_TO_FG` dicts.
+All loaders remap FanGraphs codes to games.json codes at parse time so downstream code
+always receives games.json-style abbreviations. Never use FanGraphs abbreviations anywhere
+outside `load_static_data.py` itself.
+
+---
+
+## BULLPEN.TXT MULTI-HEADER STRUCTURE (FANGRAPHS EXPORT)
+
+**Date discovered:** 2026-06-06
+**Relevant scripts:** `scripts/load_static_data.py:load_bullpen()`
+
+FanGraphs Bullpen Usage export is a single TSV containing all 30 teams concatenated.
+Each team block has 3 non-data rows before pitcher rows:
+1. Team name row — col 0 is the full team name (length > 5)
+2. "Pitcher Usage" separator row — col 1 is blank
+3. Column header row — col 0 == "Pitcher"
+
+The parser skips all three row types; anything that passes all three filters is a real
+pitcher row. The column header row repeats between teams — the first occurrence is used
+to extract day labels (e.g. "Jun 5", "Jun 4") which are stored in
+`bullpen_data["_meta"]["day_labels"]`. This keeps day labels accurate across re-downloads
+with no code change needed.
+
+---
+
+## PARK FACTORS FILE KEYED BY TEAM NICKNAME, NOT ABBREVIATION
+
+**Date discovered:** 2026-06-06
+**Relevant scripts:** `scripts/load_static_data.py:_park_factors_file()`
+
+FanGraphs park factors export uses full team nicknames as row labels ("D-backs",
+"Giants", "Nationals", etc.) — not abbreviations. A separate mapping dict
+`_PF_NAME_TO_GAMES_ABBR` translates these nicknames to games.json abbreviations.
+
+Without this mapping, teams whose FanGraphs nickname does not match their abbreviation
+(D-backs, Giants, Nationals, Padres, Rays, Royals) silently get no park factor data.
+The loader now keys all output by games.json abbreviation, matching all 30 teams.
+
+---
+
+## MLB API STATUS "GAME OVER" NOT RECOGNISED BY GRADE_PICKS
+
+**Date discovered:** 2026-06-07
+**Relevant scripts:** `scripts/fetch_results.py`, `scripts/grade_picks.py`
+
+The MLB Stats API sometimes returns `"Game Over"` (and `"Completed Early"`) as the
+game status instead of `"Final"`. `fetch_results.py` was only mapping `"Final"` to
+the `"final"` status used by `grade_picks.py`, so games ending in these alternate
+states were excluded from grading — their picks showed as unresolved.
+
+**Fix:** Added `"Game Over"` and `"Completed Early"` to the final-status mapping:
+```python
+if status_raw in ("Final", "Game Over", "Completed Early"):
+    status = "final"
+```
+
+---
+
+## GRADE_PICKS BEST BET REGEX TOO NARROW FOR (GAME: CLE @ TEX) FORMAT
+
+**Date discovered:** 2026-06-07
+**Relevant scripts:** `scripts/grade_picks.py`
+
+The SLATE SUMMARY BEST BET line uses the format `TEAM ML (GAME: CLE @ TEX) — N units`.
+The original regex `\(([A-Z]{1,5}\s*@\s*[A-Z]{1,5})\)` only matched a bare `(CLE @ TEX)`
+and failed to match the `(GAME: CLE @ TEX)` form with a prefix, leaving best bets
+as "unresolved" even when the game was graded.
+
+**Fix:** Changed to `\([^)]*\b([A-Z]{1,5})\s*@\s*([A-Z]{1,5})\b[^)]*\)` which
+tolerates any prefix inside the parentheses and extracts only the two team codes.
+
+---
+
+## LOG_ALL_PICKS SILENTLY SKIPS MODELS WHOSE JSON EXISTS BUT HAS EMPTY PICKS
+
+**Date discovered:** 2026-06-07
+**Relevant scripts:** `scripts/log_all_picks.py`
+
+`log_all_picks.py` checked `if json_path.exists()` to decide whether to skip re-parsing.
+If a previous run produced a valid JSON file with an empty `picks` array (e.g. because
+the raw file was in free-form markdown instead of the structured format), the script
+would skip it silently on subsequent runs, leaving the model stuck at 0 bets forever.
+
+**Fix:** Added a content check — reads the JSON and inspects `len(doc.get("picks", []))`.
+Only skips if the file exists AND has at least one pick. If the file exists but is empty,
+logs `[reparse]` and re-parses from the raw file.
+
+---
+
+## MODELS IGNORING OUTPUT FORMAT — FREE-FORM MARKDOWN BREAKS PARSER
+
+**Date discovered:** 2026-06-07
+**Affected models:** chatgpt5.5, gemini (June 7 slate)
+**Relevant scripts:** `scripts/log_picks.py`, `scripts/build_prompt.py`
+
+Some models responded with free-form markdown analysis (headers, tables, prose summaries)
+instead of the structured `## GAME:` block format. `log_picks.py` found zero parseable
+blocks, recording 0 picks. Raw files had to be manually reformatted.
+
+**Root cause:** The output format instructions were not stern enough. Models treated the
+format as a suggestion.
+
+**Fix:** Strengthened the output format block in `build_prompt.py` with an explicit warning:
+> "Your response will be parsed by an automated script. Any deviation from this format —
+> including prose introductions, analysis summaries, markdown tables, or section headings
+> not shown below — will cause your picks to be lost entirely and your record will show
+> 0 bets for the day."
+
+Also added terminal barrier at bottom of the format block:
+> "START YOUR RESPONSE WITH ## GAME: — NOTHING BEFORE IT."
+
+**Ongoing risk:** Models with web browsing may still add introductory prose. If this
+recurs, consider adding a pre-prompt line: "Your FIRST token must be `##`."
+
+---
+
+## SEASON AGGREGATE vs ESTIMATED — FANGRAPHS PLATOON DATA IS NOT A PROXY
+
+**Date discovered:** 2026-06-08
+**Relevant scripts:** `scripts/build_prompt.py`, `scripts/load_static_data.py`
+
+Platoon wRC+ figures from FanGraphs splits files were labeled `ESTIMATED` in the prompt,
+but this was misleading — the data is real, full-season team aggregate stats, not a
+calculated proxy. `ESTIMATED` implied low trust and caused at least one model
+(GPT-5.2-high) to apply its LOW-TRUST rule and refuse to use the data at all.
+
+**Fix:** Changed `status_tag = "ESTIMATED"` to `status_tag = "SEASON AGGREGATE"` in
+`build_prompt.py:_fmt_platoon_matchup()`. Updated the ESTIMATED DATA RULE block to
+explain both labels: CONFIRMED (from actual lineup) and SEASON AGGREGATE (FanGraphs
+team-level). SEASON AGGREGATE is valid supporting context but not the primary bet
+justification (lineup-specific splits from a confirmed batting order are stronger).
+
+---
+
+## L10 RS/G ADDED TO TEAM FORM
+
+**Date added:** 2026-06-08
+**Relevant scripts:** `scripts/fetch_teamstats.py`, `scripts/build_prompt.py`
+
+Season RS/G is a lagging indicator — a team that was scoring 5.2 RS/G in April but
+4.0 in June looks the same. L10 RS/G (runs scored per game in last 10 games) captures
+current offensive form and is a required input for accurate totals estimation.
+
+**Implementation:** Added `fetch_l10_rsg(team_id, season, before_date)` to
+`fetch_teamstats.py` — calls `/teams/{id}/stats?stats=gameLog&group=hitting`,
+filters to games before the slate date, takes last 10, returns mean runs.
+Called in Step 2b of the main function for each unique team in the slate (at most
+~20 API calls per run). Stored as `l10_rs_per_game` in the team context block.
+`build_prompt.py:fmt_team_form()` appends `, L10 RS/G {n}` when the field is present.
+
+---
+
+## WINDOWS CP1252 — ALSO AFFECTS NEW SCRIPTS (ADDENDUM TO EARLIER ENTRY)
+
+**Date discovered:** 2026-06-06
+**Addendum to:** WINDOWS CONSOLE ENCODING entry above
+
+The same cp1252 crash applies to any new script that prints Unicode characters.
+`load_static_data.py` self-test originally used box-drawing characters (`-`, `->` style
+arrows) — fixed to plain ASCII before the first run.
+
+For `build_prompt.py` test output (which displays the prompt block in the terminal),
+the fix is `re.sub(r'[^\x00-\x7F]', '?', block)` to strip non-ASCII before printing.
+This strips characters that are fine in the file (UTF-8 encoded) but crash the console.
+
+Rule: any `print()` statement in any script must use ASCII-only characters. Unicode in
+file output (always opened as `encoding='utf-8'`) is fine and expected.
+
+---
+
+## STAKING SYSTEM SIMPLIFIED -- 5-UNIT TIER REMOVED
+
+**Date:** 2026-06-09
+**Relevant scripts:** `scripts/build_prompt.py`, `docs/MODEL_INSTRUCTIONS.md`
+
+The original 5-tier system (5/3/1/LEAN/PASS) created an inflation target.
+Models chased 5-unit designations using narrative richness and inflated edge
+estimates. The tier also created ambiguity in the best bet rule -- a 3-unit
+best bet felt like a weak day even when 3 units was the correct call.
+
+**New system:** 3 units is the ceiling.
+
+Gap mapping:
+  <4 points  = LEAN or PASS -- never a bet
+  4-7 points = 1 unit maximum
+  7+ points, clean data = 3 units maximum
+
+**Best bet rule tightened:** best bet must be a 3-unit play. If no game
+clears 3 units, no best bet is published. A skip on best bet is logged
+publicly with reason. Some days will have picks but no best bet -- that
+is correct and expected.
+
+**Impact:** simplifies calibration tracking (two bet tiers only), removes
+the inflation target, makes skip days on best bet a natural and credible
+outcome rather than a failure state.
+
+---
+
+## VOLUME BIAS -- MODELS OVER-BET SLATES BY DEFAULT
+
+**Date discovered:** 2026-06-09
+**Relevant scripts:** `scripts/build_prompt.py`
+
+All models averaged 4-6 picks on 15-game slates during the first 7 days of
+validation. A professional bettor passes on 85-90% of available games.
+
+Root cause: the prompt opened with "You are an expert MLB betting analyst."
+An analyst proves value through volume and insight. A professional bettor
+proves value through ROI. The identity framing set the wrong goal.
+
+Secondary cause: the output format requires a block per game, creating
+implicit pressure to find something on each game reviewed.
+
+**Fixes applied (all in build_prompt.py Part 2):**
+
+1. Identity reframe -- replaced analyst opening with PROFESSIONAL BETTOR
+   block that explicitly establishes passing as the expected default and
+   defines success as unit-weighted ROI, not pick volume.
+
+2. PROFESSIONAL STANDARD block -- frames 85-90% pass rate as the baseline,
+   flags multiple 3-unit plays as a calibration error.
+
+3. MINIMUM EDGE GATE -- 4-point probability gap is the hard floor for any
+   bet. Cannot be overridden by narrative, price, or line movement.
+
+4. SLATE DISCIPLINE CHECK -- hard bet ceilings per slate size (1/2/3 bets
+   for small/medium/large slates) with a three-step self-audit filter.
+
+5. EDGE field changed to numeric percentage points -- makes gap-to-units
+   accountability visible in the log and enables calibration tracking.
+
+---
+
+## TEAM BARREL% -- STATIC FILE SOLUTION
+
+**Date:** 2026-06-11
+
+Team offensive Barrel% and HardHit% loaded from:
+    data/mlb/team_barrels.txt
+Manual export from FanGraphs team batting exit velocity leaderboard.
+Filter to current season only before exporting.
+Update weekly or when roster changes significantly.
+Loader: load_static_data.load_team_barrels()
+Injected into prompt by build_prompt.py per game block (team form line).
+Remap: FanGraphs team abbreviations converted via _FG_TO_GAMES
+    (e.g. WSN->WAS, KCR->KC, SDP->SD, SFG->SF, TBR->TB, ARI->AZ).
+
+FanGraphs pybaseball API blocked by Cloudflare Turnstile (403).
+fetch_pitcher_advanced.fetch_team_barrel_pct() is now a stub that
+returns {} -- team barrel% comes exclusively from the static file.
+
+---
+
+## REASONING SEQUENCING FAILURE (first documented: 2026-06-10, Sonnet)
+
+Model ran slate discipline check mid-response instead of completing
+it before writing the first ## GAME: block. Result: duplicate game
+blocks, picks assigned then retracted, prose between game blocks.
+Fix: model-specific instruction to pre-compute all cross-game
+reasoning before beginning output. Monitor other models for same
+pattern.
+
+---
+
+## PICK CONCENTRATION MONITORING
+
+**Date:** 2026-06-08 (baseline established)
+
+pick_concentration.py tracks daily herding metrics to docs/concentration_log.csv.
+Baseline measurement on June 8 slate: 82.1% same-side pick concentration across
+models. This was the motivating data point for removing prescriptive method mandates
+from the shared prompt layer (build_prompt.py).
+
+Goal: drive concentration below 70% by allowing models to find edge independently.
+Monitor daily against 82.1% baseline. A rising trend signals re-homogenisation of
+reasoning -- check recent shared prompt changes.
+
+Metric: % of non-Pass picks landing on the same side of the same game across all models.
+
+---
+
+## GROK 4.3 EXPERT EVALUATION
+
+**Date:** 2026-06-08 (informal test)
+
+Grok 4.3 Expert tested informally on June 8 slate.
+Improvements observed: better EDGE self-labeling, improved pass discipline.
+Gap identified: mandatory probability gap documentation (estimated fair ML ->
+implied probability -> gap in percentage points) was absent on a high-unit play.
+
+Rule: any 3+ unit play without documented gap calculation must be mechanically
+downgraded to 1 unit. This is a mandatory output field, not optional documentation.
+
+Decision pending: switch to 4.3 Expert as clean entry point, or continue
+parallel informal comparison for 1-2 more slates before committing.
+
+---
+
+## GEMINI CONTEXT TRUNCATION
+
+**Date:** First documented 2026-06-10 (approximate)
+
+Gemini truncates output after approximately 8 games on large slates.
+Likely cause: prompt size (~56,000 characters) is approaching context limits
+when combined with a full game-by-game reasoning pass.
+Status: open. Mitigations under consideration -- prompt compression,
+game-block batching, or model upgrade.
+Do not mistake truncation for a PASS decision on uncovered games.

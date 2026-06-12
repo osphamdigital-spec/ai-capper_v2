@@ -1,0 +1,862 @@
+======================================================================
+  MLB PICKS & RESULTS — 2026-06-04
+======================================================================
+
+RESULTS SUMMARY
+----------------------------------------------------------------------
+MODEL            BETS    W-L   WIN%  UNITS NET     ROI  BEST BET
+----------------------------------------------------------------------
+chatgpt5.5          8 2- 5    25%      -1.29u    -12%  Kansas City Royals ML (-115), 3 units
+deepseek            5 1- 4    20%      -8.38u    -84%  MIL -1.5 +175 (Game 4) – 3 units [L]
+gemini              8 2- 5    25%      -2.14u    -15%  CLE @ NYY — NYY ML (3 units) [W]
+gpt-5.2-high        7 2- 4    29%      -2.07u    -26%  HOU ML -108 (GAME: PIT @ HOU), 1 unit [L]
+grok                4 0- 4     0%      -9.00u   -100%  ATH ML (Game 7, 3 units) [L]
+kimi                1 0- 1     0%      -3.00u   -100%  LAD ML -130 (3 units) [L]
+opus                7 1- 6    14%      -6.90u    -77%  LAD ML -130 — 3 units [L]
+qwen                8 5- 3    62%      +2.11u    +15%  PHI -1.5 (+115) for 3 units (Game 1) [W]
+sonnet              6 1- 5    17%      -7.70u    -55%  ATL -1.5 Run Line +103 — TOR @ ATL (3 units) [L]
+----------------------------------------------------------------------
+TOTAL / AVG        54 14-37      —     -38.37u    -71%
+
+
+RAW MODEL PICKS
+----------------------------------------------------------------------
+
+======================================================================
+  MODEL: CHATGPT5.5
+======================================================================
+## GAME: SD @ PHI
+
+PICK: PHI -1.5 RL
+PRICE: +110
+UNITS: 1
+EDGE: REAL
+REASON: Wheeler versus Giolito is the largest starting-pitching gap on the slate, and San Diego enters on a 1-9 run. Philadelphia's taxed closer matters less when backing the run line, and +110 is a more efficient way to capture the matchup edge than laying a heavy moneyline.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+
+PICK: Over 10.0
+PRICE: -115
+UNITS: 1
+EDGE: REAL
+REASON: Both starters carry ERAs above 6.25 with WHIPs north of 1.50, and the weather is highly favorable for offense at Fenway. Neither bullpen enters fully fresh, creating additional scoring paths once the starters exit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Rodón gives New York a deserved edge, but Cleveland is a quality club and the Guardians' price is not quite attractive enough for me. The market appears close to fair.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+
+PICK: MIL -1.5 RL
+PRICE: +105
+UNITS: 1
+EDGE: REAL
+REASON: Milwaukee owns a massive season-long run differential advantage and gets the far stronger overall roster against a struggling Giants team. Crow is not dominant, but Houser's profile and San Francisco's poor form make the plus-money run line appealing.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+
+PICK: ATL -1.5 RL
+PRICE: +103
+UNITS: 1
+EDGE: REAL
+REASON: Chris Sale against a low-experience starter is a substantial mismatch, and Atlanta has been one of the league's strongest teams by both record and run differential. Rather than pay an inflated moneyline, the plus-money run line offers better value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+
+PICK: KC ML
+PRICE: -115
+UNITS: 3
+EDGE: STRONG
+REASON: My rough fair line is KC -145 based primarily on Lugo's proven track record versus a less-established Morris. Kansas City has the better bullpen situation entering the game and Minnesota's relief corps shows heavier recent usage. Uncertainty flags: (1) Lugo's strikeout rate is solid but not dominant, limiting margin for error; (2) lineup confirmations are unavailable. Neither flag materially changes the pitching and bullpen edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+
+PICK: ATH ML
+PRICE: +113
+UNITS: 1
+EDGE: REAL
+REASON: Ginn's underlying numbers are significantly stronger than Imanaga's current-season ERA profile, and both bullpens are heavily taxed. With the Athletics receiving plus money, I make this game closer to a coin flip.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+
+PICK: HOU ML
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+REASON: The market appears overly focused on Pittsburgh's recent form. Teng has been vastly superior to Jared Jones' current form/sample, and Houston's bullpen availability is slightly better despite recent usage.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+
+PICK: LAD ML
+PRICE: -142
+UNITS: 1
+EDGE: REAL
+REASON: Los Angeles has advantages in starting pitching, bullpen freshness, season-long run differential, and recent form. Arizona is respectable at home, but I make the Dodgers somewhat more likely to win than the current market implies.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+
+LEG 1: Kansas City Royals ML -115
+LEG 2: Los Angeles Dodgers ML -142
+COMBINED PRICE: +211
+TRUE PROBABILITY ESTIMATE: 37%
+UNITS: 1
+REASON: Both legs were independently identified as positive-EV positions. The games are unrelated, feature different pitching matchups and environments, and each side holds a measurable starting-pitching advantage.
+
+## SLATE SUMMARY
+
+BEST BET: Kansas City Royals ML (-115), 3 units
+
+WHY THIS ONE: Lugo versus Morris is one of the clearest starting-pitching advantages on the board, and Kansas City also enters with the fresher bullpen. My estimated fair price is materially higher than the market number, creating the largest perceived edge on the slate.
+
+======================================================================
+  MODEL: DEEPSEEK
+======================================================================
+## GAME: SD @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Wheeler vs Giolito is a clear pitching mismatch, but the market has it about right at PHI -190. SD’s away form (16-13) and PHI’s modest home record keep the implied probability within a tight range. No line discrepancy worth attacking, and SD’s 1-9 skid does not create enough value on either side.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Two struggling starters and weak bullpens make this game high variance. Market makes it a virtual coin flip, and my own estimate (BAL ~51%) sits right on the number. The total at 10.0 also looks efficient; no edge on side or total.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: NYY ML
+PRICE: -161 (LowVig.ag)
+UNITS: 1
+EDGE: REAL
+REASON: Rodón has been sharp (2.88 ERA, 1.20 WHIP) and Cecconi is below average. Cleveland’s bullpen is heavily taxed (Holderman, Gaddis, Herrin all 2 straight days), while the Yankees’ key arms are rested enough. My fair line is near -185, so -161 offers a 24-cent edge.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: MIL -1.5
+PRICE: +175 (BetMGM)
+UNITS: 3
+EDGE: STRONG
+REASON: Milwaukee is a .627 team with a +92 run differential facing a weak Giants club. Houser (5.49 ERA) is vulnerable, and Coleman Crow is untested with mediocre numbers. My win probability for Milwaukee is ~68%, with a run-line cover rate well above the 36.4% implied by +175. The bullpen edge (MIL rested, SF taxed) further widens the gap.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5
+PRICE: +105 (MyBookie.ag)
+UNITS: 1
+EDGE: REAL
+REASON: Chris Sale is in Cy Young form, and Atlanta’s offense leads a +114 run differential. Toronto’s Fluharty has a small-sample 3.97 ERA and faces a lineup that should work counts. My fair ATL -1.5 price is around -120; getting +105 offers a solid 10+ cent edge.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Lugo is reliable, but Morris’s small sample and Minnesota’s home offense roughly cancel out. The pick’em line matches my assessment, and neither side shows a meaningful edge. Bullpen fatigue on both sides adds noise, not clarity.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Ginn’s strong 2.87 ERA makes this tighter than the line suggests, but Imanaga’s low WHIP points to positive regression. Both bullpens are heavily used, increasing randomness. The market is pricing it within cents of my fair line; no actionable edge.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Jones’s 4.1-inning disaster skews the surface numbers, and Teng’s 2.57 ERA likely overstates his true talent. The market treats it as a coin flip, which aligns with my view that Pittsburgh’s better offense and team quality offset the pitching optics. No value either way.  
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130 (BetUS)
+UNITS: 3
+EDGE: STRONG
+REASON: The Dodgers are a +134 run-differential juggernaut, and Wrobleski’s 2.87 ERA/1.01 WHIP gives them a major pitching edge over Nelson (4.82 ERA). Arizona’s bullpen is gassed after heavy usage, while LA is relatively fresh. My fair moneyline is around -190; -130 implies only a 56.5% win chance, far below my estimate of ~67%.  
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: MIL ML -177
+LEG 2: LAD ML -130
+COMBINED PRICE: +177
+TRUE PROBABILITY ESTIMATE: 44.2% (68% × 65%)
+UNITS: 2
+REASON: Both legs have independently identified value (MIL fair ~ -210, LAD fair ~ -190). No correlation: different leagues, different travel, no shared weather risk. The parlay turns two moderate edges into a +177 payout versus a fair price of +126, adding convexity without sacrificing independence.
+
+## SLATE SUMMARY
+BEST BET: MIL -1.5 +175 (Game 4) – 3 units  
+WHY THIS ONE: The +175 price implies just a 36% cover probability on a team with a .627 win% and +92 run diff facing a bottom-tier opponent. The disconnect between team strength and the offered run line is the widest on the board, creating an exceptional edge larger than any straight moneyline play today.
+
+======================================================================
+  MODEL: GEMINI
+======================================================================
+## GAME: SD @ PHI
+
+PICK: LEAN: PHI -1.5
+PRICE: +115
+UNITS: LEAN
+EDGE: THIN
+REASON: Zack Wheeler gives the Phillies an astronomical starting pitching advantage over Lucas Giolito and his bloated 1.74 WHIP. While San Diego enters this contest in a miserable 1-9 slide, the severe depletion of Philadelphia's high-leverage bullpen arms makes a full unit wager too risky. Limiting this to a lean on the plus-money run line protects against late-inning variance while backing an elite ace.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+
+PICK: Over 10.0
+PRICE: -102
+UNITS: 1
+EDGE: REAL
+REASON: Both Trevor Rogers and Brayan Bello have been massive liabilities this season, each sporting an individual ERA north of 6.20. When you pair these struggling starters with a sweltering 89°F afternoon at Fenway Park, the environmental conditions heavily favor the hitters. Boston's taxed middle relief further guarantees that runs should be served up in the later frames.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+
+PICK: NYY ML
+PRICE: -161
+UNITS: 3
+EDGE: STRONG
+REASON: Cleveland enters this matchup with its high-leverage bullpen matrix completely gassed, as Holderman, Gaddis, and Herrin are all unavailable after throwing consecutive days. Carlos Rodón holds a significant structural edge over Slade Cecconi, who carries a mediocre 4.92 ERA into Yankee Stadium. The Yankees' potent offense should easily exploit this compromised pitching staff at a very reasonable market price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+
+PICK: MIL -1.5
+PRICE: +175
+UNITS: 1
+EDGE: REAL
+REASON: The Brewers have been a juggernaut at home with a 21-12 record and a spectacular +92 overall run differential. Conversely, San Francisco is a dreadful road team that is forced to trot out Adrian Houser and his loose 5.49 ERA. Getting a dominant home squad's run line at a heavy +175 payout against a weak traveling team is an excellent value proposition.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Chris Sale is pitching like a frontline Cy Young contender, forcing the market to push Atlanta's moneyline out to an unplayable -256 premium. While Toronto is forced into a highly volatile bullpen day, there is simply no mathematical justification for laying this kind of juice or backing a weak Blue Jays road team. This is a textbook spot to protect your bankroll and pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+
+PICK: MIN ML
+PRICE: +101
+UNITS: 1
+EDGE: REAL
+REASON: The market is pricing Kansas City as a road favorite despite their abysmal 9-21 away record and a deeply negative team run differential. Cross-referencing the road favorite parameters shows that backing a sub-.500 road team requires a massive premium that Seth Lugo's individual metrics cannot justify alone. Minnesota is a competent home squad and represents excellent value as a plus-money underdog in their own park.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+
+PICK: Over 10.0
+PRICE: +100
+UNITS: 3
+EDGE: STRONG
+REASON: This is a spectacular situational and environmental setup for an absolute offensive explosion at Wrigley Field. Both teams have entirely incinerated their bullpens, leaving closers Harris and Palencia completely unavailable alongside nearly every key setup man. With a stiff 13.3 mph wind blowing straight out to the outfield in 85-degree heat, extreme fly-ball pitcher Shota Imanaga is in severe danger of giving up multiple long balls.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+
+PICK: HOU ML
+PRICE: -108
+UNITS: 1
+EDGE: REAL
+REASON: Kai-Wei Teng has been a highly reliable asset for Houston, posting a stellar 2.57 ERA and a tidy 1.10 WHIP over substantial volume. Conversely, Pittsburgh rolls out Jared Jones, who has been completely shelled for a 10.38 ERA in his brief big-league action. Houston gets the clear nod at a near-pick'em price based entirely on this significant starting pitching mismatch.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+
+PICK: LAD ML
+PRICE: -130
+UNITS: 3
+EDGE: STRONG
+REASON: Explicitly cross-referencing the road favorite parameters reveals that Los Angeles easily clears the bar with a dominant 20-11 away record and a league-best +134 run differential. Justin Wrobleski is an absolute stud with a 2.87 ERA and a 1.01 WHIP, giving the Dodgers a massive analytical advantage over Ryne Nelson's 4.82 ERA. Gaining exposure to the best team in baseball at a modest -130 line on the road is an elite betting opportunity.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+
+LEG 1: NYY ML -161
+LEG 2: HOU ML -108
+COMBINED PRICE: +212
+TRUE PROBABILITY ESTIMATE: 38%
+UNITS: 1
+REASON: Both legs back home favorites with substantial starting pitching advantages over their respective opponents. Carlos Rodón and Kai-Wei Teng match up beautifully against struggling or unproven starters, while Cleveland's severely overtaxed bullpen provides an extra cushion for the Yankees. These matchups involve entirely different divisions and leagues, completely eliminating any environmental or scheduling correlation.
+
+## SLATE SUMMARY
+
+BEST BET: CLE @ NYY — NYY ML (3 units)
+WHY THIS ONE: The complete exhaustion of Cleveland's high-leverage bullpen arms creates a massive structural flaw that the market failed to account for. Combined with Carlos Rodón's starting pitching edge, this represents the cleanest mathematical advantage on the board.
+
+======================================================================
+  MODEL: GPT-5.2-HIGH
+======================================================================
+## GAME: SD @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Wheeler is a major starting-pitching edge over Giolito, but PHI’s leverage relief looks compromised (Duran taxed) while SD’s top end is available, which increases the chance this stays tight late. At -190 the Phillies need to win ~66% to justify the price, and I’m not seeing enough margin given bullpen context and SD’s ability to shorten the game. The plus-money PHI -1.5 is interesting, but not enough for me with PHI’s modest scoring profile.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: Over
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: This is a “two volatile starters” setup (Rogers 6.29 ERA, Bello 6.34) in hot Fenway conditions, and Baltimore’s bullpen shows meaningful recent workload that can bleed runs in the middle innings. A 10.0 total is high, but the path to 6–5/7–4 is very plausible here given both SP baselines and park. I’d rather take plus-money Over than pick a side with two shaky starters.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY has the clear overall profile edge and Rodón projects better than Cecconi, but the market price (-168 range) is close to what I’d expect given Cleveland’s decent season quality and road competence. Cleveland’s bullpen being taxed pushes me toward NYY, yet not enough to call it mispriced. If anything it’s a lean to NYY -1.5, but I can’t get there as a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: MIL -1.5 RL
+PRICE: +175
+UNITS: 1
+EDGE: REAL
+REASON: Milwaukee has a large team-quality gap and should have the better run-prevention setup even with Crow being imperfect, while SF’s profile (poor record, -66 run diff) makes them vulnerable to losing by margin. At a price as big as +175, the break-even is ~36%, and MIL covering -1.5 is very plausibly above that in this matchup. Note: if this run-line price is stale/mistaken, the edge disappears—so stake stays small.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5 RL
+PRICE: +105
+UNITS: 1
+EDGE: THIN
+REASON: Sale vs. a short-track/limited-sample Fluharty favors ATL’s ability to control the game, and Atlanta’s offense is strong enough to create separation when they’re ahead. The ML is expensive, and the run line is the more efficient way to express an ATL advantage if you’re betting them at all. Still, TOR’s bullpen is not wrecked and +1.5 is always “live,” so I’m keeping this to a small play.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: KC ML
+PRICE: -108
+UNITS: 1
+EDGE: REAL
+REASON: Lugo is the best starter in this game by a meaningful margin, and the KC price is modest despite that SP edge. MIN’s bullpen also shows multiple arms worked yesterday, which matters if Morris is limited and the game turns into a pen contest. KC is not a good overall team, but this is a pitching-led spot where the market looks a touch light on the Royals.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: Over
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: Both bullpens are heavily taxed (and both listed closers are taxed), which is a strong ingredient for late scoring even if the starters are decent. Wrigley with a 13+ mph wind and an already-high 10.0 total suggests the market expects runs; I’m only interested because you can get even money. If either starter exits early, the tired relief paths can snowball quickly.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: HOU ML
+PRICE: -108
+UNITS: 1
+EDGE: REAL
+REASON: Teng’s underlying line (2.57 ERA, 1.10 WHIP across 42 IP) is far more trustworthy than Jared Jones’ tiny, ugly sample, and that SP gap matters in a near pick’em. PIT’s bullpen/closer situation is also flagged as taxed, increasing Houston’s chance to cash late if it’s close. At essentially coin-flip pricing, I make HOU a modest favorite.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130
+UNITS: 1
+EDGE: THIN
+REASON: Wrobleski has been consistently strong (2.87 ERA, 1.01 WHIP) and LAD’s overall run-diff profile supports them being favored on the road even in a tough park. Arizona’s bullpen usage flags add a bit of late-game fragility if Nelson doesn’t go deep. I see a small edge only at the best -130 type price; at -142 I’d pass.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: Houston Astros ML -108
+LEG 2: Los Angeles Dodgers ML -130
+COMBINED PRICE: +241
+TRUE PROBABILITY ESTIMATE: 33%
+UNITS: 1
+REASON: Both legs were standalone value spots driven primarily by starting-pitching edge plus bullpen context, and the games are in different leagues with no obvious correlation. The combined implied probability at +241 is ~29%, while my rough true probability is a few points higher, so the parlay adds payout efficiency without forcing in a weak leg.
+
+## SLATE SUMMARY
+BEST BET: HOU ML -108 (GAME: PIT @ HOU), 1 unit
+WHY THIS ONE: The market is close to a coin flip despite a notable starting-pitching advantage for Houston and bullpen context that’s slightly friendlier to HOU late.
+INTEGRITY STATEMENT: I do not have knowledge of the outcomes of these games; I analyzed them strictly as pre-game bets using only the provided slate data (no browsing).
+
+======================================================================
+  MODEL: GROK
+======================================================================
+## GAME: SD @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Wheeler's elite 2.31 ERA/0.83 WHIP creates a large pitching edge over Giolito's 4.86 ERA/1.74 WHIP, but PHI's negative run differential, taxed closer, and SD's available Mason Miller limit the edge. Market at -190 is within 10 cents of a fair line near -200. No inefficiency supported by two independent factors exceeding 4%.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters sport 6.3+ ERAs with high WHIPs in a hot Fenway Park with a 10.0 total. BAL has the better last-10 mark but worse road record and taxed bullpen arms. Market near pick'em aligns with estimated fair line of BAL -105. No clear 4%+ edge from uncorrelated factors.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY boasts superior run differential (+93), home offense, and recent form. Rodón's 2.88 ERA provides pitching edge over Cecconi. Market -168 sits close to fair line around -175. CLE's road success is noted but insufficient to create actionable inefficiency.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIL has dominant run differential and home record against a poor SF squad. However both starters are mediocre (5.49 and 5.94 ERAs) and the total line movement is erratic. Estimated fair ML near -195 versus market -177 is too close for 4% edge. Bullpen usage does not overcome the gap.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5
+PRICE: +103
+UNITS: 3
+EDGE: STRONG
+REASON: Chris Sale's elite 2.01 ERA, 0.94 WHIP and 80 Ks towers over Fluharty. ATL also possesses the slate's best record (42-20), massive +114 run differential, and strong home offense. These two independent factors (pitching dominance + team quality) are not heavily correlated and support ATL covering more often than +103 implies versus my fair line near -240 ML.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Lugo holds a clear edge over Morris, yet both teams are sub-.500 with poor run differentials and taxed bullpens. KC's road woes balance MIN's home splits. Market near even aligns tightly with estimated fair line of KC -108. Edge falls below 4% threshold.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: ATH ML
+PRICE: +120
+UNITS: 3
+EDGE: STRONG
+REASON: J.T. Ginn's 2.87 ERA/1.14 WHIP is substantially better than Imanaga's 4.37 ERA this season. CHC has also gone 3-7 in their last 10 while ATH owns a respectable 19-14 road mark. Market making CHC favorites ignores this pitching mismatch and recent form — two independent factors creating >4% edge at +120 versus my fair line near -115.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: PIT shows better form and run differential, but Jared Jones' 10.38 ERA comes in a 4.1-inning sample too small to trust. Teng's 2.57 ERA and HOU bullpen availability balance the scales. Market near pick'em matches estimated fair line of PIT -105. No qualifying inefficiency.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130
+UNITS: 2
+EDGE: REAL
+REASON: Wrobleski (2.87 ERA, 1.01 WHIP) holds a clear advantage over Nelson (4.82 ERA). LAD also owns the best record (40-22), elite +134 run differential, and strong road offense. These two non-correlated factors support a fair line near -162. Market at -142/-130 offers real but not exceptional value.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: ATH ML +120
+LEG 2: LAD ML -130
+COMBINED PRICE: +289
+TRUE PROBABILITY ESTIMATE: 53%
+UNITS: 1
+REASON: Both legs independently cleared the 4% edge threshold on pitching mismatch plus team form/quality factors. Games occur in different ballparks, leagues, and time slots with zero weather or travel correlation.
+
+## SLATE SUMMARY
+BEST BET: ATH ML (Game 7, 3 units)
+WHY THIS ONE: Largest pitching mismatch on the slate (Ginn vs Imanaga) combined with CHC's poor recent form creates the clearest market inefficiency versus my pre-priced fair line. Stronger edge than the other two plays.
+
+======================================================================
+  MODEL: KIMI
+======================================================================
+## GAME: SD @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: PHI leads last 10 (7-3 vs 1-9) but trails run differential (-22 vs -10) and is tied in RS/G (3.9 each). Wheeler (2.31 ERA) is elite but the -183 best price is fair for a PHI team with negative run differential and mediocre offense. No edge on side or total.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: BAL leads last 10 (7-3 vs 4-6) and RS/G (4.6 vs 4.0) but trails run differential (-37 vs -6). Both starters are terrible (Rogers 6.29 ERA, Bello 6.34 ERA). The pick'em line is fair for a high-variance pitching matchup with no reliable edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY leads all three metrics: run differential (+93 vs +6), last 10 (7-3 vs 5-5), and RS/G (5.1 vs 4.1). Rodón (2.88 ERA) is clearly better than Cecconi (4.92 ERA). Fair line is approximately -170; the -161 best price offers only a thin margin with no line movement to signal value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIL leads all three metrics: run differential (+92 vs -66), last 10 (7-3 vs 3-7), and RS/G (4.9 vs 3.8). However, both starters are poor (Houser 5.49 ERA, Crow 5.94 ERA), and -177 is a steep price for a pitcher with a near-6.00 ERA. No edge on either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: ATL leads all three metrics: run differential (+114 vs -12), last 10 (6-4 vs 4-6), and RS/G (5.3 vs 4.0). Sale (2.01 ERA) is dominant against Fluharty (3.97 ERA). The market has steamed ATL heavily from -206 to -256, erasing any value. The -1.5 run line at +105 is fairly priced.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIN leads run differential (-24 vs -50) and RS/G (4.6 vs 3.8); last 10 is tied (3-7 each). Lugo (3.55 ERA) is better than Morris (4.07 ERA), yet the market prices KC as a -115 favorite. Fair line is near pick'em; no material edge on either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: LEAN: ATH +117
+PRICE: +117
+UNITS: LEAN
+EDGE: REAL
+REASON: CHC leads run differential (+17 vs -32) and RS/G (4.7 vs 4.2), but ATH leads last 10 (4-6 vs 3-7). ATH trails in two of three metrics, so this is downgraded to a lean per model rules. Ginn (2.87 ERA, 1.14 WHIP) has significantly outperformed Imanaga (4.37 ERA), and CHC -137 is too heavy given the pitching mismatch and CHC's recent struggles.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: PIT leads all three metrics: run differential (+33 vs -35), last 10 (7-3 vs 6-4), and RS/G (5.2 vs 4.6). However, Jones carries a 10.38 ERA in only 4.1 IP, making his true talent highly uncertain, while Teng (2.57 ERA) has been excellent for HOU. The pick'em line is fair given the pitching mismatch against team form.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130
+UNITS: 3
+EDGE: STRONG
+REASON: LAD leads all three metrics by wide margins: run differential (+134 vs +3), last 10 (8-2 vs 5-5), and RS/G (5.3 vs 4.5). Wrobleski (2.87 ERA, 1.01 WHIP) has been excellent and is clearly superior to Nelson (4.82 ERA). Fair line is approximately -170; the market offering -130 provides a 40-cent gap and strong value.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: LAD ML -130 (3 units)
+WHY THIS ONE: LAD dominates every team-quality metric and holds a significant pitching advantage, yet the market prices them 40 cents below my fair line. No other game on the slate offers a comparable gap between estimated and implied probability.
+
+======================================================================
+  MODEL: OPUS
+======================================================================
+## GAME: SD @ PHI
+PICK: PHI -1.5 RL
+PRICE: +110
+UNITS: 1
+EDGE: REAL
+REASON: Wheeler (2.31 ERA, 0.83 WHIP) is the best starter on this slate, and he's facing Giolito (4.86 ERA, 1.74 WHIP) while SD sits 1-9 in their last 10 — a team in genuine freefall. PHI is 7-3 last 10 at home with a closer (Duran) that Wheeler's pitch depth rarely requires in meaningful volume. Getting PHI -1.5 at +110 is the efficient play — the ML at -190 wastes equity; the run line returns value when backing an ace in a dominant matchup.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: BAL @ BOS
+PICK: LEAN: Over 10.0
+PRICE: -102 (best, BetMGM)
+UNITS: LEAN
+EDGE: THIN
+REASON: Both Rogers (6.29 ERA) and Bello (6.34 ERA) are genuinely poor starters, and BAL's bullpen is substantially taxed — Suárez threw 53 pitches yesterday, Núñez 30. The 89°F heat at Fenway adds a minor run-environment boost on top of two starters who allow traffic. Edge is too thin to bet at -115 median, but the -102 best price is a live number and the lean is directionally real.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: CLE @ NYY
+PICK: NYY -1.5 RL
+PRICE: +125
+UNITS: 1
+EDGE: REAL
+REASON: NYY's offense (5.1 RS/G, +93 run diff, best in baseball) faces a CLE bullpen with five arms on at least 2 consecutive days — Holderman, Gaddis, Herrin, and Smith all taxed entering this game. Rodón (2.88 ERA) outmatches Cecconi (4.92 ERA) at the starter level, and the depletion of CLE's late-game options makes holding a lead structurally difficult. The market has NYY at ~-168 ML (implied 62.7%); getting +125 on their -1.5 requires only ~44.4% probability, and NYY winning convincingly in this context comfortably exceeds that threshold.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: SF @ MIL
+PICK: MIL -1.5 RL
+PRICE: +105 (median; best listed +175 at BetMGM — verify before placing)
+UNITS: 1
+EDGE: REAL
+REASON: MIL (37-22, +92 run diff, 4.9 RS/G at home) against SF (24-38, -66 run diff, 3-7 last 10) is the largest team quality gap on this slate. Both starters are mediocre (Houser 5.49, Crow 5.94), which levels the pitching matchup and allows MIL's lineup advantage to drive the margin. Getting +105 on a -177 favourite's run line is unusual pricing — flag the total line anomaly (9.5→18.0 appears to be a data feed error; confirm the actual total before betting, though the run line value is independent of it).
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5 RL
+PRICE: +103
+UNITS: 1
+EDGE: REAL
+REASON: Sale (8-3, 2.01 ERA, 0.94 WHIP) is the best pitcher on today's slate, and ATL (42-20, +114 run diff) is the best team — facing a 29-33 TOR side whose bullpen is taxed from yesterday. Getting ATL -1.5 at +103 against a -206 implied favourite is a clear pricing anomaly: this run line typically sits at -120 to -130 for a team priced this heavily. The +103 implies only 49.3% probability; I estimate ATL covers approximately 54%, driven by Sale's likelihood of maintaining a 2+ run margin through deep innings.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Two teams well below .500 in a market priced at near even money (-115/-101), with neither a clear pitching nor situational edge large enough to overcome the vig. Lugo (3.55 ERA) is the better starter, but KC's 24-38 record and 9-21 away form limits confidence, and MIN's home edge is offset by a more taxed bullpen. No identifiable edge at this price.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: ATH @ CHC
+PICK: ATH ML
+PRICE: +120 (best, BetUS)
+UNITS: 1
+EDGE: THIN
+REASON: Ginn (2.87 ERA, 1.14 WHIP over 59.2 IP) has meaningfully outperformed Imanaga (4.37 ERA over 70 IP) this season yet ATH is priced as the underdog at +120. CHC is 3-7 in their last 10 — cold by any measure — and both closers are taxed, neutralising any late-game bullpen advantage for the home side. ATH at +120 (implied 45.5%) with the superior starter on the mound and the opponent in poor form is thin but real value.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: PIT @ HOU
+PICK: LEAN: HOU ML
+PRICE: -108 (best, LowVig.ag)
+UNITS: LEAN
+EDGE: THIN
+REASON: Teng (2.57 ERA, 1.10 WHIP over 42 IP) is clearly the better starter on available evidence, yet the market prices this as virtually even money — which likely reflects the market correctly discounting Jones' 10.38 ERA as a 4.1-inning sample from what is probably one disastrous start. If Jones is pitching closer to his actual ability, this is a coin flip as priced; if the small-sample ERA is real, HOU at -108 is live value. Uncertainty about Jones prevents a firm bet, but the lean toward HOU's pitching quality is directionally sound.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130 (best, BetUS)
+UNITS: 3
+EDGE: STRONG
+REASON: Implied probability at -130: 56.5%. My LAD win estimate: 65%. Gap: 8.5%. The market's strongest argument for pricing LAD at -130 rather than -175: AZ has a genuine home edge (19-12) and Chase Field with the roof closed is a neutral, controlled environment that limits LAD's road offensive upside. That's a real argument — and I still disagree with the price. Wrobleski (7-2, 2.87 ERA, 1.01 WHIP) vs Nelson (4.82 ERA, 1.19 WHIP) is a significant pitching gap the market isn't fully pricing; LAD is 8-2 in their last 10 with the best run diff in baseball (+134), carries a relatively fresh bullpen, and the total tightening to 9.0 further favours the side with the pitching edge.
+LOOKED UP: Nothing, used provided data only.
+
+---
+
+## PARLAY
+LEG 1: LAD ML -130
+LEG 2: ATH ML +120
+COMBINED PRICE: ~+289 (estimated — verify at booking time)
+TRUE PROBABILITY ESTIMATE: 65% × 49% ≈ 31.9%
+UNITS: 1
+REASON: Both legs are independently identified with edge (LAD at 3 units strong, ATH at 1 unit thin) and neither is shorter than -180. LAD (NL West, Phoenix) and ATH (AL West, Chicago) share no division, travel schedule, weather environment, or opponent type — zero meaningful correlation. The combined implied probability at +289 is approximately 25.7% against my estimated 31.9%, representing a real overlay on top of two plays I'd be making independently.
+
+---
+
+## SLATE SUMMARY
+BEST BET: LAD ML -130 — 3 units
+WHY THIS ONE: The largest identified gap between my estimated win probability (65%) and the market implied (56.5%) on the entire slate, backed by an elite starter, the best-performing team in baseball, a relatively fresh bullpen, and a pricing structure that materially undervalues the pitching mismatch.
+
+======================================================================
+  MODEL: QWEN
+======================================================================
+## GAME: SD @ PHI
+PICK: PHI -1.5
+PRICE: +115
+UNITS: 3
+EDGE: STRONG
+REASON: Zack Wheeler is pitching at an elite level, and his 2.69 FIP completely justifies the sustainability of his dominant 2.31 ERA. Lucas Giolito has been a mess with a 1.74 WHIP, and San Diego is in a brutal 1-9 slump. The Phillies' bullpen is slightly taxed, but Wheeler should provide enough of a runway to cover the run line easily.
+LOOKED UP: Zack Wheeler's 2026 FIP (2.69).
+
+## GAME: BAL @ BOS
+PICK: BAL ML
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: Both starting pitchers carry ERAs over 6.20, but Baltimore is riding a 7-3 stretch while Boston has lost six of their last ten. More importantly, Boston has been absolutely dreadful at home with a 10-21 record, whereas Baltimore's offense is averaging 4.6 runs per game. The even-money price on the hotter team facing a terrible home squad is excellent value.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: CLE @ NYY
+PICK: NYY -1.5
+PRICE: +125
+UNITS: 1
+EDGE: REAL
+REASON: Carlos Rodón's 2.88 ERA is backed by a 3.90 FIP, suggesting some regression is possible, so I am capping this at one unit. However, the real edge here is the bullpen mismatch; Cleveland's high-leverage arms have been used on three consecutive days and are completely gassed. The Yankees' potent lineup should easily exploit the Guardians' exhausted relief corps late in the game.
+LOOKED UP: Carlos Rodón's 2026 FIP (3.90).
+
+## GAME: SF @ MIL
+PICK: MIL -1.5
+PRICE: +175
+UNITS: 3
+EDGE: STRONG
+REASON: Milwaukee is 15 games over .500 and dominates at home, while San Francisco is 14 games under .500 and allows nearly 5 runs per game. Adrian Houser has been terrible, and getting plus-money on the run line for the Brewers is a massive market inefficiency. The +175 price available at BetMGM makes this an exceptional value play.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5
+PRICE: +103
+UNITS: 3
+EDGE: STRONG
+REASON: Chris Sale is having a Cy Young-caliber season with a 2.01 ERA and a highly sustainable 2.50 FIP. He faces a Toronto team led by Mason Fluharty, a rookie who has only thrown 22.2 innings this year. Atlanta is 42-20 and playing at an incredible clip, making the plus-money on the run line an absolute gift.
+LOOKED UP: Chris Sale's 2026 FIP (2.50).
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both teams are playing poorly, with Kansas City losing seven of their last ten and Minnesota losing seven of their last ten. The starting pitching is a wash of mediocrity, and there is no clear market inefficiency to exploit here.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: ATH @ CHC
+PICK: Over 10.0
+PRICE: -117
+UNITS: 1
+EDGE: REAL
+REASON: Both bullpens are completely gassed, with both closers and multiple high-leverage arms having pitched on consecutive days. Wrigley Field is known for being a hitter's park, especially with the wind blowing out at 13.3 mph. Neither J.T. Ginn nor Shota Imanaga are strikeout machines, setting up a high-scoring affair late in the game.
+LOOKED UP: nothing, used provided data only.
+
+## GAME: PIT @ HOU
+PICK: PIT ML
+PRICE: -107
+UNITS: 1
+EDGE: REAL
+REASON: Kai-Wei Teng has a shiny 2.57 ERA, but his underlying 3.59 xERA suggests he has been a bit lucky and is due for regression. Meanwhile, Pittsburgh's offense is red-hot, averaging 5.2 runs per game over their last ten contests. The Pirates are the better team right now, and the negative odds on the moneyline are well worth laying for a team playing this well.
+LOOKED UP: Kai-Wei Teng's 2026 xERA (3.59).
+
+## GAME: LAD @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The Dodgers are obviously the better team, but -142 on the moneyline requires a near 60% win probability to break even. Justin Wrobleski has been great with a 3.15 FIP, but the price is simply too steep to find genuine edge, and the total dropping to 9.0 signals a lower-scoring game than expected.
+LOOKED UP: Justin Wrobleski's 2026 FIP (3.15).
+
+## PARLAY
+LEG 1: BAL ML +100
+LEG 2: PIT ML -107
+COMBINED PRICE: +287
+TRUE PROBABILITY ESTIMATE: 28%
+UNITS: 1
+REASON: Both Baltimore and Pittsburgh have independent edges as underdogs/even-money favorites against inferior or unlucky opponents. Baltimore exploits Boston's dreadful 10-21 home record, while Pittsburgh's hot offense faces a Houston starter due for regression based on his xERA. There is no divisional or weather correlation between an AL East game in Fenway and an NL Central/AL West matchup in Houston.
+
+## SLATE SUMMARY
+BEST BET: PHI -1.5 (+115) for 3 units (Game 1)
+WHY THIS ONE: The starting pitching mismatch between Zack Wheeler's elite 2.69 FIP and Lucas Giolito's 1.74 WHIP is the most extreme on the slate, and the Phillies are heavily favored to blow this game open early.
+
+======================================================================
+  MODEL: SONNET
+======================================================================
+## GAME: SD @ PHI
+PICK: PHI -1.5 Run Line
+PRICE: +110
+UNITS: 3
+EDGE: REAL
+REASON: Wheeler (2.31 ERA, 0.83 WHIP) is one of the better pitchers in baseball and draws Giolito at 4.86 ERA, 1.74 WHIP — a sharp mismatch in PHI's favour. SD enters 1-9 in their last 10 games, scores 3.9 RS/G, and holds a -10 run differential — both below reduction thresholds, unit rating confirmed at 3. PHI at home, 7-3 in their last 10, should win this comfortably, and +110 on the run line against a -190 ML favourite anchors the value cleanly. Note: PHI's closer Duran is taxed two consecutive days — if Wheeler exits before the seventh the pen is stretched, but his workload and form this season make seven-plus innings realistic.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: BAL @ BOS
+PICK: LEAN: BAL ML
+PRICE: -102
+UNITS: LEAN
+EDGE: THIN
+REASON: BAL is meaningfully hotter at 7-3 in their last 10 versus BOS at 4-6, and best available at even money (+100 at LowVig) is reasonable for the better-form team. Both starters are struggling badly — Rogers at 6.29 ERA, Bello at 6.34 ERA — and both bullpens are taxed, creating too much variance for a bet. BAL's 11-18 road record undercuts the lean enough to leave this off the card.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CLE @ NYY
+PICK: NYY -1.5 Run Line
+PRICE: +125
+UNITS: 3
+EDGE: REAL
+REASON: Rodón (2.88 ERA, 1.20 WHIP) versus Cecconi (4.92 ERA, 1.43 WHIP) is a meaningful gap at home for the best lineup on the slate — NYY at 5.1 RS/G with a +93 run differential. CLE scores 4.1 RS/G and holds a +6 run differential, both below reduction thresholds; unit rating confirmed at 3. CLE's bullpen enters very depleted — Holderman, Gaddis, and Herrin on two consecutive days each, closer Cade Smith also used yesterday — which amplifies NYY's lead-protection advantage. If Rodón exits after five, NYY's pen is meaningfully fresher (Cruz and Blackburn had light work; Hill is the only arm taxed two days running), making the run line hold more likely than the +125 price implies.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SF @ MIL
+PICK: LEAN: MIL -1.5
+PRICE: +105
+UNITS: LEAN
+EDGE: THIN
+REASON: MIL is the far superior team — 37-22, +92 run differential, 4.9 RS/G against a SF squad at 24-38, -66 run diff — and Megill's bullpen enters relatively rested. Both starters are mediocre (Houser 5.49 ERA, Crow 5.94 ERA), which raises variance on the run line and makes multi-run projections unreliable. The total line also shows an apparent data anomaly (listed as 9.5→18.0) that warrants caution before placing action on this game.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5 Run Line
+PRICE: +103
+UNITS: 3
+EDGE: STRONG
+REASON: Sale (2.01 ERA, 0.94 WHIP, 8-3) is the most dominant starter on this entire slate, pitching at home for the best team in the NL — ATL at 42-20, +114 run differential, 5.3 RS/G. TOR scores 4.0 RS/G and holds a -12 run differential, both below reduction thresholds; unit rating confirmed at 3. The structural edge here is the price gap: the ML has moved to roughly ATL -250 across books (implying ~71% win probability), but ATL -1.5 remains available at +103 at MyBookie — a market that implies only ~49% — and even FanDuel's adjusted -113 is meaningful value against a -250 ML. If Sale exits after five innings, Iglesias is available as closer (fresh), though Suarez and Kinley are taxed; Sale's track record this season makes an early exit unlikely.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both teams are cold — KC and MIN each 3-7 in their last 10 — and KC's 9-21 road record materially undermines Lugo's ERA edge over Morris (3.55 vs 4.07). Near pick'em pricing (-115/-101) offers no clear directional reward, and MIN's heavily taxed bullpen adds variance without a clean angle to exploit. Nothing on this game earns a unit.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATH @ CHC
+PICK: ATH ML
+PRICE: +113
+UNITS: 1
+EDGE: REAL
+REASON: Ginn (2.87 ERA, 1.14 WHIP, 59.2 IP) is outperforming Imanaga (4.37 ERA, 4-6) by a substantial margin over a reliable sample — a gap that should price this game much closer to even than +113 for ATH. Public money is flowing to CHC (line moved -132→-137), but pitching data argues the other way and creates underdog value. Best available is +120 at BetUS. Both closers enter taxed (Palencia and Harris each on two consecutive days), which raises variance but does not close the starter edge, and ATH's away record of 19-14 shows they travel well.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PIT @ HOU
+PICK: LEAN: HOU ML
+PRICE: -110
+UNITS: LEAN
+EDGE: THIN
+REASON: Teng (2.57 ERA, 1.10 WHIP, 42.0 IP) is a legitimate, consistent starter; Jones enters with a 10.38 ERA in 4.1 innings — an effectively unknown quantity whose sample makes projection unreliable, but whose numbers suggest high early-exit risk. The pitching case for HOU is real, but applying the model-specific instruction: PIT scores 5.2 RS/G (above the 4.8 threshold), triggering a one-tier unit reduction — what would have been a 1-unit play drops to LEAN. PIT's bullpen is very taxed (Soto two consecutive days, Ramírez 40 pitches yesterday), but HOU's pen is also stretched (Pearson 33 pitches, Santa 26, King 23), limiting the relief advantage that would otherwise bolster HOU's case.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ AZ
+PICK: LAD -1.5 Run Line
+PRICE: +112
+UNITS: 3
+EDGE: STRONG
+REASON: Wrobleski (7-2, 2.87 ERA, 1.01 WHIP) against Nelson (2-4, 4.82 ERA, 1.19 WHIP) is a clear pitching edge reinforced by LAD's elite profile — 40-22, 5.3 RS/G, +134 run differential, 8-2 in their last 10. AZ scores 4.5 RS/G and holds a +3 run differential, both below reduction thresholds; unit rating confirmed at 3. Getting +112 on the run line for a -142 ML favourite is the pricing inefficiency: at -142 ML, a run line should sit in the -115 to -130 range, not plus money. LAD's bullpen is among the freshest on this slate (Scott available as closer, only Hernández and Dreyer with light prior-day usage), and Chase Field at 104°F will almost certainly run with the roof closed — neutral indoor conditions, no weather variable.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## PARLAY
+LEG 1: ATL -1.5 Run Line +103
+LEG 2: LAD -1.5 Run Line +112
+COMBINED PRICE: approximately +303
+TRUE PROBABILITY ESTIMATE: ~23% (ATL ~49% × LAD ~47%), making +303 near the fair combined price — include only if +295 or better is available
+UNITS: 1
+REASON: Both legs are independently rated STRONG based on elite pitching mismatches and structurally underpriced run lines; neither leg is shorter than -180 individually; ATL (Cumberland, GA, 7:15 PM ET) and LAD (Phoenix, AZ, 9:41 PM ET) are in different conferences, different divisions, different cities, and different time zones with no shared travel or schedule correlation.
+
+---
+
+## SLATE SUMMARY
+BEST BET: ATL -1.5 Run Line +103 — TOR @ ATL (3 units)
+WHY THIS ONE: Sale's 2.01 ERA is the sharpest pitching advantage on the card by a wide margin, ATL is the class of this slate at 42-20 with +114 run differential, and the run line is structurally underpriced against a moneyline that has already moved to -250 — the implied-probability gap between the ML (~71%) and the run line at +103 (~49%) is the clearest market inefficiency in nine games. LAD -1.5 +112 is a close second for the same structural reason.

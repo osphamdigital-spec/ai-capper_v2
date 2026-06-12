@@ -1,0 +1,156 @@
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: ATL fair line ~-175, market -158 — gap does not cross 5-point threshold for a multi-unit play. Backing heavy favourites without a steep edge is bad practice.
+
+---
+
+## GAME: BOS @ NYY
+PICK: BOS ML
+PRICE: +146
+UNITS: 1
+EDGE: REAL
+REASON: NYY bullpen completely spent — BOS 3/3 fresh, NYY 0/3 fresh. Delta favours the underdog BOS by +3 fresh arms, adding 4pp to baseline estimate. Ranger Suarez (3.58 xFIP) is a reliable veteran. Estimated win probability BOS 44% vs implied 40.7% — gap 3.3pp, 1-unit maximum.
+
+---
+
+## GAME: CHW @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Despite bullpen fatigue favouring Chicago (CHW 2/3 fresh, PHI 0/3 fresh), Aaron Nola has been exceptional over last 14 days (xFIP 2.31, K/9 10.6, BB/9 0.0). Facing a locked-in ace during a Chicago bullpen game (5.54 ERA) is a tall task. Win probability gap only 1.8pp — under 3-point minimum threshold. Pass.
+
+---
+
+## GAME: BAL @ TOR
+PICK: Over 8.0
+PRICE: -113
+UNITS: 1
+EDGE: REAL
+REASON: Toronto high-leverage unit 0/3 fresh, Baltimore carries 6.14 bullpen ERA — late-inning volatility mandatory +0.5 runs. Final estimate 9.4 runs vs posted 8.0. Gap of 1.4 runs is a massive edge. Estimated over probability 58% vs implied 53.1% at -113.
+
+---
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+REASON: SEA dominates team quality check (+8 total wins, +3 wins last 10, +55 run differential). SEA bullpen elite (2.87 ERA) vs DET bullpen (6.02 ERA) — massive drop-off behind Flaherty. SEA at near pick'em prices is a market error. Estimated win probability 56% vs implied 52.4%.
+
+---
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: TB holds the better overall package but the line of -110 is fair, leaving no clear betting value.
+
+---
+
+## GAME: ATH @ HOU
+PICK: HOU ML
+PRICE: -105
+UNITS: 1
+EDGE: REAL
+REASON: Massive platoon mismatch — Houston lineup aggregates estimated 128 wRC+ against LHP (Alvarez 201, Paredes 127, Walker 119) facing young lefty Gage Jump. Estimated win probability 54% vs implied 51.2% — gap 2.8pp.
+
+---
+
+## GAME: ATH @ HOU
+PICK: Over 9.0
+PRICE: -109
+UNITS: 1
+EDGE: REAL
+REASON: Burrows recent struggles add +0.2 runs, both bullpens 0/3 fresh high-leverage arms adds +0.4 for late-game fatigue. Final projection 10.0 runs vs posted 9.0. Estimated over probability 57% vs implied 52.2%.
+
+---
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Noah Cameron in good form (xFIP 2.32) but Royals bullpen has 21.87 ERA — no lead is safe. Market has priced this complexity correctly at pick'em. Pass.
+
+---
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Slate data incomplete at time of analysis.
+
+---
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Slate data incomplete at time of analysis.
+
+---
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Slate data incomplete at time of analysis.
+
+---
+
+## GAME: WAS @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Slate data incomplete at time of analysis.
+
+---
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Slate data incomplete at time of analysis.
+
+---
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Slate data incomplete at time of analysis.
+
+---
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Slate data incomplete at time of analysis.
+
+---
+
+## PARLAY
+LEG 1: BOS ML +146
+LEG 2: HOU ML -105
+COMBINED PRICE: +380
+UNITS: 1
+REASON: Both moneyline legs identified independently as showing value, are longer than -180, and share zero structural or travel correlations.
+
+---
+
+## SLATE SUMMARY
+BEST BET: HOU ML (-105) — 1 unit
+WHY THIS ONE: Clearest structural edge on the slate — lethal 128 wRC+ platoon advantage against a young lefty starter (Gage Jump), with both a quantifiable lineup mismatch and a confirmed weak opposing starter. The -105 price offers positive expected value at estimated 54% win probability.

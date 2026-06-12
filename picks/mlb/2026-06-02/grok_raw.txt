@@ -1,0 +1,131 @@
+## GAME: DET @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters are struggling badly with ERAs above 5.20 and poor WHIP numbers, creating a messy matchup in a dome. TB has the superior record and home dominance but has cooled off lately, while DET is a weak road team. The line movement toward TB feels appropriate given the roster talent gap. No clear misalignment between my estimated probabilities and the market.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SD @ PHI
+PICK: SD +120
+PRICE: +120
+UNITS: 1
+EDGE: REAL
+REASON: Randy Vásquez owns a much better ERA (3.31) and WHIP than Aaron Nola's disappointing 5.55 mark. San Diego has been respectable away from home while the Phillies have been mediocre at Citizens Bank Park. I estimate SD win probability near 51-52% against the implied ~45% at this price, creating real but not overwhelming value on the plus-money side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: LEAN: BAL +123
+PRICE: +123
+UNITS: LEAN
+EDGE: THIN
+REASON: Shane Baz and Connelly Early are relatively comparable arms, but Baltimore owns stronger recent form (7-3 last 10) and a more dangerous offense on paper. Boston has been one of the worst home teams. The price is close to fair and I slightly prefer the Orioles without enough edge to wager.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Near coin-flip talent level with both clubs around .500 and similar run differentials. Bachar and Lovelady offer mixed profiles (good ERA, questionable WHIP for the latter) in a park that should support scoring near the 9.0 total. Market is balanced and so is my view.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: NYY -1.5 -102
+PRICE: -102
+UNITS: 3
+EDGE: STRONG
+REASON: Cam Schlittler’s 1.89 ERA and 0.86 WHIP is elite and pairs perfectly with the Yankees’ massive +98 run differential and home offensive firepower. Cleveland is a capable team but faces a clear step up in competition here. At nearly even money the run line is the correct way to exploit a heavy favorite that should win by multiple runs more often than the ML price implies.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Two left-handed starters with nearly identical 4.1-4.2 ERAs in a hitter-friendly park. Both clubs rank near the bottom in run differential and have been inconsistent. The 9.0 total is appropriately priced and neither side offers a measurable advantage in form or matchup.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL -123
+PRICE: -123
+UNITS: 1
+EDGE: REAL
+REASON: Atlanta boasts the best record, elite run differential, and a strong home mark. Bryce Elder’s 2.63 ERA and 1.08 WHIP give them a clear pitching edge over a good but not great Kevin Gausman. I assess true ATL win probability around 56-57%, generating modest value at current prices.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ MIN
+PICK: CHW -118
+PRICE: -118
+UNITS: 3
+EDGE: STRONG
+REASON: Davis Martin’s 8-1 record and 2.61 ERA stand in stark contrast to Connor Prielipp’s 5.26 ERA and mediocre supporting metrics. Chicago has been the better overall team and the market has not fully adjusted for this starting pitching mismatch. Strong edge on the road side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: MIL -1.5 +160
+PRICE: +160
+UNITS: 3
+EDGE: STRONG
+REASON: Kyle Harrison has been exceptional (1.57 ERA, 1.03 WHIP) while Milwaukee posts a +88 run differential and excellent home numbers. San Francisco is among the worst teams in baseball in every major category. The plus-money run line is an efficient way to back a club that should cover multiple runs frequently.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TEX @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Nathan Eovaldi holds a modest edge over Dustin May, but both teams are very similar in record, run differential, and recent form. The total sits at a fair 7.5 in good weather. Market pricing is accurate with no actionable misalignment.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: LEAN: CHC -119
+PRICE: -119
+UNITS: LEAN
+EDGE: THIN
+REASON: Gage Jump has extremely limited MLB experience while Jameson Taillon, despite his 5.13 ERA, faces a weaker Athletics lineup on balance. Chicago’s home record is solid. Slight lean to the Cubs but the price is close enough that I pass on a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PIT +100
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: Pittsburgh owns a better season record, positive run differential, and stronger offense. Both starters carry high ERAs near 5.0, but the Pirates’ overall profile is superior in a park that may keep the roof closed. Even money on PIT is attractive.
+LOOKED UP: nothing, used provided data only
+
+## GAME: COL @ LAA
+PICK: COL +141
+PRICE: +141
+UNITS: 1
+EDGE: REAL
+REASON: Grayson Rodriguez sports a 7.04 ERA in very small sample while Tomoyuki Sugano has been steady. Both clubs are equally bad but the price on Colorado feels inflated given the pitching disparity. Modest value on the road dog.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: AZ +108
+PRICE: +108
+UNITS: 3
+EDGE: STRONG
+REASON: Eric Lauer’s 5.95 ERA is a major liability against a Diamondbacks club with a good home record and solid lineup. Michael Soroka’s 3.23 ERA gives Arizona the clear pitching advantage in this spot. LAD’s strong season-long numbers are less relevant here; I estimate AZ win probability near 53%.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SEA
+PICK: SEA -143
+PRICE: -143
+UNITS: 1
+EDGE: REAL
+REASON: Logan Gilbert is a quality home arm and Seattle has been one of the hotter teams (8-2 last 10) with positive run differential. Brazobán’s excellent rates come in a tiny 29-inning sample. Mariners are properly favored but still offer a small edge at this number.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: CHW ML -118
+LEG 2: AZ ML +108
+COMBINED PRICE: +265
+TRUE PROBABILITY ESTIMATE: 29%
+UNITS: 2
+REASON: Both legs were independently identified with strong edges (Martin vs weak opponent for CHW; Soroka vs poor Lauer for AZ). No geographic, weather, or divisional correlation. The combined price still provides positive expected value against my joint probability estimate.
+
+## SLATE SUMMARY
+BEST BET: MIL -1.5 +160 (Game 9, 3 units)
+WHY THIS ONE: Harrison’s dominance, Milwaukee’s elite run differential, and San Francisco’s terrible form create the largest mismatch on the entire slate. The plus-money run line converts the heavy ML into genuine overlay.

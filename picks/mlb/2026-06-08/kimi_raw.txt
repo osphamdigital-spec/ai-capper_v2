@@ -1,0 +1,91 @@
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Seattle leads Baltimore in run differential by sixty runs and in last-ten record by two games, but the Orioles are a respectable 19-15 at home and the TBD starter adds uncertainty. Hancock is solid but not dominant, and the -132 price offers only a thin margin. The total sits half a run below my estimate given Baltimore’s weak bullpen and warm weather.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: BOS @ TB
+PICK: TB ML
+PRICE: +102
+UNITS: LEAN
+EDGE: THIN
+TOTAL LEAN: Over
+REASON: PITCHING MATCHUP: Connelly Early (3.26/4.62/4.62) for BOS vs Ian Seymour (5.23/4.20/3.90) for TB; Early has the better ERA but Seymour owns stronger FIP/xFIP in a small sample. I am betting TB, which has the worse starter by ERA but comparable underlying stuff. Tampa Bay trails Boston in last-10 record and last-10 RS/G, forcing a downgrade to a lean regardless of pitching. The Rays are 21-9 at home and the plus-money price is too generous to ignore entirely given the season-long talent gap.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: No lean
+REASON: New York leads Cleveland in all three form metrics, but Warren’s last-14 xFIP of 6.15 is more than a run worse than his season mark and his recent control has cratered. Williams has been the better arm lately and Cleveland’s bullpen is fresher. The side is a coin flip and the total sits near fair value.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Philadelphia trails Toronto in run differential and last-10 RS/G, which downgrades any bet to a lean regardless of Sanchez’s elite form. Sanchez is dominant but the Phillies have been lucky to hold a winning record with a negative run differential. The total is low enough that Corbin’s mediocrity and a mild park boost push me toward an over lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: No lean
+REASON: Houston leads Los Angeles in run differential and last-10 record, but Arrighetti’s sparkling ERA is belied by a 4.98 xFIP and 8.0% K-BB rate that signals regression. Rodriguez has been terrible but the Angels’ bullpen is rested and better on paper. The total of 9.0 is aggressive and the park and weather factors do not create a clear edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: Under 8.0
+PRICE: -109
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: Cincinnati owns a -51 run differential and San Diego -18, while both clubs are 2-8 over the last ten days and averaging a combined 5.9 runs per game. My run estimate is roughly 7.0, leaving a gap of about one full run below the posted 8.0. Petco Park’s pitcher-friendly environment and San Diego’s elite 2.84 bullpen ERA should suppress late scoring. Abbott and Buehler are both league-average starters with no recent red flags.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: No lean
+REASON: San Francisco leads in last-10 record and last-10 RS/G, but trails badly in season run differential and owns a 5.60 bullpen ERA that can blow leads against a capable Washington road squad. Webb is the better starter but the strong wind blowing in at Oracle Park and the Giants’ weak home record make the -165 price unappealing. The total is a coin flip given conflicting park and weather signals.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: Under 11.0
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: Milwaukee owns a +105 run differential against Oakland’s -43, but the Brewers have a season wRC+ of just 58 versus left-handed pitching. My run estimate is roughly 9.0, leaving a gap of nearly two runs below the posted 11.0. Harrison is an elite starter with a 2.45 last-14 xFIP, while Springs has struggled to a 6.00 ERA over his last three turns. Both bullpens are strong and the extreme total has not adjusted for the pitching mismatch.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: Under 8.0 (CIN @ SD), 1 unit
+WHY THIS ONE: Petco Park is the most reliable pitcher-friendly environment on the slate, both offenses are in confirmed and severe slumps with no recent improvement, and San Diego’s elite bullpen provides a safety net that Sacramento’s high-variance bandbox cannot match for the other under play.

@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-04",
+  "sport": "mlb",
+  "graded_at": "2026-06-05T08:22:01Z",
+  "best_bets": [
+    {
+      "model": "chatgpt5.5",
+      "best_bet_raw": "Kansas City Royals ML (-115), 3 units",
+      "why_this": "Lugo versus Morris is one of the clearest starting-pitching advantages on the board, and Kansas City also enters with the fresher bullpen. My estimated fair price is materially higher than the market number, creating the largest perceived edge on the slate.",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "deepseek",
+      "best_bet_raw": "MIL -1.5 +175 (Game 4) \u2013 3 units",
+      "why_this": "The +175 price implies just a 36% cover probability on a team with a .627 win% and +92 run diff facing a bottom-tier opponent. The disconnect between team strength and the offered run line is the widest on the board, creating an exceptional edge larger than any straight moneyline play today.",
+      "resolved_game": "SF @ MIL",
+      "resolved_pick": "MIL -1.5",
+      "resolved_price": 175,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "gemini",
+      "best_bet_raw": "CLE @ NYY \u2014 NYY ML (3 units)",
+      "why_this": "The complete exhaustion of Cleveland's high-leverage bullpen arms creates a massive structural flaw that the market failed to account for. Combined with Carlos Rod\u00f3n's starting pitching edge, this represents the cleanest mathematical advantage on the board.",
+      "resolved_game": "CLE @ NYY",
+      "resolved_pick": "NYY ML",
+      "resolved_price": -161,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 1.8634
+    },
+    {
+      "model": "gpt-5.2-high",
+      "best_bet_raw": "HOU ML -108 (GAME: PIT @ HOU), 1 unit",
+      "why_this": "The market is close to a coin flip despite a notable starting-pitching advantage for Houston and bullpen context that\u2019s slightly friendlier to HOU late.",
+      "resolved_game": "PIT @ HOU",
+      "resolved_pick": "HOU ML",
+      "resolved_price": -108,
+      "resolved_units": 1,
+      "result": "loss",
+      "profit_units": -1.0
+    },
+    {
+      "model": "grok",
+      "best_bet_raw": "ATH ML (Game 7, 3 units)",
+      "why_this": "Largest pitching mismatch on the slate (Ginn vs Imanaga) combined with CHC's poor recent form creates the clearest market inefficiency versus my pre-priced fair line. Stronger edge than the other two plays.",
+      "resolved_game": "ATH @ CHC",
+      "resolved_pick": "ATH ML",
+      "resolved_price": 120,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "kimi",
+      "best_bet_raw": "LAD ML -130 (3 units)",
+      "why_this": "LAD dominates every team-quality metric and holds a significant pitching advantage, yet the market prices them 40 cents below my fair line. No other game on the slate offers a comparable gap between estimated and implied probability.",
+      "resolved_game": "LAD @ AZ",
+      "resolved_pick": "LAD ML",
+      "resolved_price": -130,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "opus",
+      "best_bet_raw": "LAD ML -130 \u2014 3 units",
+      "why_this": "The largest identified gap between my estimated win probability (65%) and the market implied (56.5%) on the entire slate, backed by an elite starter, the best-performing team in baseball, a relatively fresh bullpen, and a pricing structure that materially undervalues the pitching mismatch.",
+      "resolved_game": "LAD @ AZ",
+      "resolved_pick": "LAD ML",
+      "resolved_price": -130,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "qwen",
+      "best_bet_raw": "PHI -1.5 (+115) for 3 units (Game 1)",
+      "why_this": "The starting pitching mismatch between Zack Wheeler's elite 2.69 FIP and Lucas Giolito's 1.74 WHIP is the most extreme on the slate, and the Phillies are heavily favored to blow this game open early.",
+      "resolved_game": "SD @ PHI",
+      "resolved_pick": "PHI -1.5",
+      "resolved_price": 115,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 3.45
+    },
+    {
+      "model": "sonnet",
+      "best_bet_raw": "ATL -1.5 Run Line +103 \u2014 TOR @ ATL (3 units)",
+      "why_this": "Sale's 2.01 ERA is the sharpest pitching advantage on the card by a wide margin, ATL is the class of this slate at 42-20 with +114 run differential, and the run line is structurally underpriced against a moneyline that has already moved to -250 \u2014 the implied-probability gap between the ML (~71%) and the run line at +103 (~49%) is the clearest market inefficiency in nine games. LAD -1.5 +112 is a close second for the same structural reason.",
+      "resolved_game": "TOR @ ATL",
+      "resolved_pick": "ATL -1.5 Run Line",
+      "resolved_price": 103,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    }
+  ],
+  "summary": {
+    "wins": 2,
+    "losses": 6,
+    "record": "2-6 (25.0%)"
+  }
+}

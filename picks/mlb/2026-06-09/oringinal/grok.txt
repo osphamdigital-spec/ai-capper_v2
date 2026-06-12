@@ -1,0 +1,170 @@
+---
+
+## GAME: SEA @ BAL
+PICK: SEA ML  
+PRICE: -121  
+UNITS: 1  
+EDGE: 5.4 pts  
+TOTAL LEAN: Under  
+REASON: Logan Gilbert’s elite underlying metrics (SIERA 3.04, K-BB% 24.2%) and recent dominance (1.59 L3 ERA) create a massive pitching advantage against Trevor Rogers (6.29 ERA, 4.09 SIERA). Baltimore’s bullpen is also significantly worse (6.01 ERA). Market has SEA only -121 despite this gap. Counter: BAL has strong platoon wRC+ vs RHP.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ MIA
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Under  
+REASON: Gallen has been awful recently (7.04 L3 ERA, 5.74 xFIP last 14 days) while Meyer has been solid. However the gap is not large enough after adjusting for park and bullpens to clear the 4-point minimum. Both offenses are mediocre. No genuine mispricing.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: BOS @ TB
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: No lean  
+REASON: Near pick’em with two competent starters and very similar recent form. Market is efficient. No edge on either side or total.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Over  
+REASON: Cole has a small sample but good recent form. NYY are the better team but -135 is close to fair value after run differential and park adjustment. Nothing large enough to bet.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Over  
+REASON: Both starters have mediocre recent form and both bullpens are taxed. Line feels about right given the mediocre offenses. No clear edge.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PIT ML  
+PRICE: -110  
+UNITS: 1  
+EDGE: 6.8 pts  
+TOTAL LEAN: Under  
+REASON: Paul Skenes is an ace (2.28 xERA, 24.0% K-BB%, elite last 14 days). Eric Lauer is well below average (5.42 xERA). This is the clearest pitching mismatch on the slate and the price has not adjusted enough. Counter: LAD has the best offense in baseball.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Under  
+REASON: Wheeler vs Cease is a high-quality matchup in a neutral park. Both teams are mediocre offensively right now. Line is properly priced.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: No lean  
+REASON: Peralta and May are both roughly average. No meaningful platoon or bullpen edge. Market looks efficient.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Over  
+REASON: ATL is the superior team but -158 is a fair price given Fedde’s home park and recent form. No betting edge.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Over  
+REASON: Eovaldi has been inconsistent and Kolek has been better than expected at home. Line is reasonable.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Over  
+REASON: Coors Field with two mediocre starters and taxed bullpens on both sides. Total of 12.5 is high but likely correctly priced given the park and wind.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Over  
+REASON: Both starters are decent and both offenses can score. No material mispricing on side or total.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: CIN ML  
+PRICE: -119  
+UNITS: 1  
+EDGE: 5.1 pts  
+TOTAL LEAN: Under  
+REASON: Chase Burns has been outstanding (2.05 ERA, 2.91 xFIP, 24.5% K-BB%). Giolito is on a very small poor sample and has bad peripherals. CIN gets a clear pitching edge in a pitcher-friendly park. Counter: SD has Mason Miller in the bullpen.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Under  
+REASON: Alvarez has a tiny sample and Houser has been poor. Market has this close to even and it looks correctly priced.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: PASS  
+PRICE: N/A  
+UNITS: PASS  
+EDGE: none  
+TOTAL LEAN: Over  
+REASON: High total in a hitter-friendly park with two starters who have allowed hard contact. Market seems to have it about right at 12.5.  
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: PIT ML (1 unit)  
+WHY THIS ONE: Paul Skenes is a legitimate ace facing a below-average pitcher in Eric Lauer. The 6.8-point edge is the largest identified on the slate after bullpen and park adjustments.

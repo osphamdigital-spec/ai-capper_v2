@@ -1,0 +1,168 @@
+## GAME: SEA @ BAL
+PICK: LEAN: SEA ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.8 pts
+TOTAL LEAN: Under
+REASON: Logan Gilbert has been elite recently (xFIP 3.35, K/9 11.1 last 14 days, L3 ERA 1.59) versus Trevor Rogers who is declining sharply (K/9 fell to 4.6 last 14 days, xFIP 4.81, below the 7.0 K/9 sustainability threshold). SEA bullpen ERA 3.09 vs BAL 6.01 is a significant late-inning edge. However, BAL's lineup has a platoon advantage vs Gilbert (RHP) at 110 wRC+ while SEA bats are only 86 wRC+ vs Rogers (LHP), which narrows the expected gap meaningfully. My SEA win probability estimate is 57-58%, implied 54.7% — approximately 2.8 points, below the 4-point minimum gate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Max Meyer (6-0, xFIP 3.54, L3 ERA 2.70) presents a clear pitching advantage over Zac Gallen (xFIP 4.22, recent 14-day xFIP 5.57, L3 ERA 7.04 — genuinely poor form). However, MIA is priced at -129 (implied 56.3%) and their bullpen closer Pete Fairbanks is taxed with 39 pitches on Saturday, meaning 0 of 3 high-leverage arms are fresh. AZ's offense is only 83 wRC+ vs RHP and 3-7 L10 with 2.8 L10 RS/G — severely cold. My MIA win estimate of ~58% produces only a 1.7-point gap, below the gate. Total lean Under: MIA park factor 97, loanDepot pitcher-friendly, both offenses struggling recently — estimated total 7.1 runs vs posted 7.5, slight lean under but not strong enough to bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: TB is 38-25 (+9 run diff) at home (22-9) against BOS (27-37, -11 run diff). TB's Nick Martinez has a 2.29 ERA but xFIP 4.45 and xERA 4.15 — a significant ERA/peripherals gap suggesting regression risk, and his L3 has been inconsistent (6 ER in last start). Payton Tolle for BOS has an excellent actual ERA (2.28) and decent peripherals but xFIP 3.84 suggests the ERA is sustainable. The moneyline is -108/-108 — essentially a coin flip. TB's home dominance (22-9) is meaningful, but BOS has Aroldis Chapman closing (0.46 ERA). I cannot establish a 4-point gap in either direction at pick'em pricing. Total lean Under: Tropicana Field dome suppresses variance, TB bullpen mostly fresh, both starters quality enough — estimated 7.0 runs vs posted 7.5, lean Under but not a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: LEAN: NYY ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.6 pts
+TOTAL LEAN: No lean
+REASON: NYY's quality advantages are enormous — +98 run diff vs CLE's -1, 5.8 L10 RS/G vs 3.7, and Gerrit Cole outperforms Slade Cecconi on nearly every metric (K/9 9.0 recent vs 6.1). However, Cole has only 18 IP this season (small sample flag), preventing 3-unit assignment. My NYY win probability is approximately 61%, versus -135 implied 57.4% — a 3.6-point gap, just below the 4-point minimum gate. NYY bullpen is 0/3 fresh (all three arms used recently); CLE bullpen is 2/3 fresh with 3.32 ERA. These factors keep this at LEAN rather than 1 unit. Total: both starters capable, park (PF 96) mild suppressor, estimated 8.2 runs vs 8.5 posted — no lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Troy Melton is flagged as small sample (20.2 IP) with a 1.74 ERA that is clearly unsustainable given FIP 3.73 and xFIP 4.30. MIN's Taj Bradley has struggled recently (L3 ERA 5.93, BB/9 7.3 in last 14 days). MIN is -26 run diff, 3-7 L10. DET is -24 run diff but 5-5 L10. Both teams have poor bullpens (MIN 4.88 ERA, 0/3 fresh; DET 5.95 ERA, 0/1 fresh). The matchup is effectively two mediocre starters with two bad bullpens — market at -128 DET seems right given home edge and Melton's recent results, but the underlying metrics don't support any team clearly. Total: weak starters on both sides, Comerica PF 102, warm and overcast, estimated 8.4 vs 8.0 posted — slight Over lean but not actionable.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Paul Skenes (xFIP 3.00, xERA 2.28, K-BB% 24.0%) is among the best starters in baseball and the market has priced LAD at essentially even money (-107/-110), which tells me the market has fully credited Skenes. Eric Lauer for LAD (xFIP 4.65, ERA 5.74) is genuinely bad, but LAD's offense is 117 wRC+ — the market knows this too. I cannot establish a probability gap here because the market has priced the Skenes/Lauer mismatch symmetrically — Skenes neutralizes LAD's offense advantage against Lauer. No edge found in either direction. Total lean Under: Paul Skenes at home is a strong under candidate, PNC Park HR factor 75 (suppresses homers), estimated total 7.4 runs vs 8.0 posted — lean Under but not a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Zack Wheeler's recent 14-day xFIP has risen to 4.18 (from his excellent season mark of 2.89), and Dylan Cease has no 14-day data available — his last start was May 24, over two weeks ago, meaning his current form is genuinely unknown. With stale data on Cease and Wheeler showing recent regression, I cannot reliably price this matchup. Both bullpens are 0/3 fresh. PHI -116 (implied 53.7%) is not clearly mispriced given the data uncertainty. Total: Rogers Centre retractable roof — status unknown. Both teams scoring 4+ RS/G recently. Estimated total ~7.8 vs posted 7.5 — slight Over lean, but data uncertainty on Cease prevents a totals bet too.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Dustin May for STL (xFIP 4.28 season, but recent 14-day xFIP 1.88 — extremely good last two weeks, K/9 12.8) vs Freddy Peralta (xFIP 3.84, recent 14-day xFIP 2.70). Both pitchers are performing well recently, making this a genuine pitcher's duel regardless of the market price. NYM -129 (implied 56.3%) feels steep given STL is 35-28 with a quality recent stretch and May has been elite lately. However, NYM's 7-3 L10 and bullpen ERA 2.73 is among the slate's best. I cannot find a clear 4-point gap in either direction. Total lean Under: both starters in excellent recent form, Citi Field PF 100 neutral, estimated 7.0 runs vs posted 7.5 — lean Under.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: LEAN: ATL ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.8 pts
+TOTAL LEAN: Over
+REASON: ATL is the best team on the slate (45-21, +116 run diff, 8-2 L10) with the best bullpen ERA (2.02 vs CHW's 5.33). Grant Holmes is solid enough for ATL while Erick Fedde has a 5.31 xFIP season mark and 4.0% K-BB% (near the bottom of the league). CHW's batting at 100 wRC+ is respectable, and their 6-4 L10 record at 5.4 RS/G makes them more competitive than their 34-31 record suggests. At -158, ATL implied is 61.2%. My win probability estimate is 64% — a gap of 2.8 points, below the 4-point minimum gate. Total lean Over: CHW is scoring at 5.4 RS/G recently, ATL at 5.5 L10 RS/G, both bullpens 0/3 fresh, warm weather (87°F), estimated 9.4 runs vs posted 9.0 — slight Over lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The KC bullpen ERA in the data reads 22.24 — this is clearly a corrupted data entry, not a real figure. Without reliable bullpen data for KC, I cannot price this game with sufficient confidence to clear the minimum edge gate. Stephen Kolek has been excellent recently (L14-day xFIP 2.77) and KC's season record (27-39, -48 run diff) makes TEX the logical favorite at -120, but with a key data field corrupted I will not manufacture an edge number I cannot verify. Total: data corruption on KC bullpen prevents reliable total estimate as well.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Coors Field (PF 130, altitude 5,280 ft) at 90°F with 20 mph wind blowing SW — I need to check wind direction relative to the field. At Coors, SW wind typically blows out to left-center, which inflates scoring. However, the posted total of 12.5 already reflects the Coors premium, and both starters (Colin Rea xFIP 4.42, Tomoyuki Sugano xFIP 4.77) are average-to-below-average. CHC bullpen is 0/3 fresh (Jacob Webb taxed at 32 pitches Saturday), COL bullpen 0/3 fresh as well. At 12.5, the market has already priced the Coors environment. Moneyline: CHC -149 (implied 59.8%). CHC is 34-32 vs COL 24-42 (-99 run diff). Gap estimate ~63% vs 59.8% implied = 3.2 points — below the gate. Total lean Over: wind blowing out at Coors, both bullpens depleted, estimated 13.2 runs vs 12.5 posted — lean Over but margin (0.7 runs) is not decisive.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: HOU -125 (implied 55.6%) vs LAA. Both starters (Kai-Wei Teng xFIP 4.48, Walbert Ureña xFIP 4.18) are similar quality — Ureña is marginally better by peripherals and has been more consistent recently (L3 ERA 2.65 vs Teng's 3.94). HOU is -28 run diff on the season and 31-37, meaning they're not the quality team the moneyline suggests. HOU has Yordan Alvarez (192 wRC+) as a clear quality advantage in the lineup, but LAA has L10 RS/G of 6.1 — they've been scoring. Both bullpens are 0/3 fresh. I cannot establish a 4-point gap at -125 pricing for either side. Total: estimated 8.6 runs vs posted 8.5 — no lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Chase Burns (xFIP 2.91, elite) is clearly better than Lucas Giolito (xFIP 4.77 season, recent 14-day xFIP 6.15 with 6.8 BB/9 — severely struggling with control). CIN -119 (implied 54.3%). However, CIN is 2-8 L10 (worst L10 record on the slate), -55 run diff away, and 3.2 L10 RS/G — their offense is cold. SD's bullpen ERA is 2.84 with Mason Miller closing (1.01 ERA, 49% K-rate) — one of the best in baseball. My CIN win probability: ~55-56% with Burns, but the team quality drag (L10 record, run diff deficit) reduces this estimate. Gap vs 54.3% implied: less than 2 points. Total lean Under: Petco Park is pitcher-friendly (PF 94, runs factor 88), Burns is elite, estimated 6.8 runs vs posted 7.5 — meaningful Under lean. However, staking the total when CIN's starter is Burns (who keeps games low-scoring) while Giolito walks batters prolifically creates cross-signal uncertainty on exact run projection. Lean Under but no bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: WAS ML
+PRICE: -104
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: Over
+REASON: Adrian Houser for SF has a 5.98 xFIP in the last 14 days, 5.6 BB/9, and a 6.39 L3 ERA — he is in genuine decline and his underlying metrics confirm it. WAS has a meaningful offense advantage (5.3 RS/G vs SF's 4.1 RS/G season, +5 vs -49 run diff) and an excellent road record (22-13). Andrew Alvarez is small sample (20.1 IP) but his recent start (4.2 IP, 1 ER) and xFIP 3.83 suggest he can be serviceable for 5 innings. WAS win probability estimate: 56%, vs -104 implied probability of 51.0% — a 5-point gap. Alvarez's small sample flag prevents 3-unit assignment regardless; 1 unit is the correct ceiling. SF's bullpen ERA of 5.60 provides no safety net when Houser exits. Veto test applied: 3 full-game variables favor WAS (run diff, RS/G, road record); only counter is SF's 6.5 L10 RS/G (recent hot offense), but this hot stretch produced only a 5-5 record, suggesting their recent scoring has coincided with poor pitching and is not a durable edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: MIL is an excellent team (41-23, +106 run diff, 8.0 L10 RS/G) but their starter Robert Gasser is small sample (13.1 IP, xFIP 6.17) — the market has priced this game to near pick'em (-114/-101) precisely because Gasser neutralizes MIL's quality advantage. J.T. Ginn for ATH (xFIP 3.78, solid recent form) outperforms Gasser by every metric and is a real starter, not a small-sample fluke. The small sample flag on Gasser prevents 3-unit play regardless. At near pick'em pricing, I cannot establish a clear 4-point gap for either team. Total lean Over: Sutter Health Park (PF 121, runs factor 121) is extremely hitter-friendly, MIL 8.0 L10 RS/G, weak Gasser expected to exit early — estimated total 14.1 runs vs posted 12.5, strong Over lean but the posted line already reflects this park. Even so, lean Over.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET — no 3-unit play identified today
+WHY THIS ONE: N/A — WAS ML -104 cleared the 4-point minimum edge gate at 1 unit, but no game on this 15-game slate produced a 7+ point gap with confirmed clean data required for 3-unit designation. The slate has several near-misses (SEA, NYY, ATL) that fell 0.5–1.5 points below the minimum edge gate, which is the correct outcome — the market has priced this slate well overall.

@@ -1,0 +1,83 @@
+## GAME: SD @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Wheeler's elite 2.31 ERA/0.83 WHIP creates a large pitching edge over Giolito's 4.86 ERA/1.74 WHIP, but PHI's negative run differential, taxed closer, and SD's available Mason Miller limit the edge. Market at -190 is within 10 cents of a fair line near -200. No inefficiency supported by two independent factors exceeding 4%.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters sport 6.3+ ERAs with high WHIPs in a hot Fenway Park with a 10.0 total. BAL has the better last-10 mark but worse road record and taxed bullpen arms. Market near pick'em aligns with estimated fair line of BAL -105. No clear 4%+ edge from uncorrelated factors.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY boasts superior run differential (+93), home offense, and recent form. Rodón's 2.88 ERA provides pitching edge over Cecconi. Market -168 sits close to fair line around -175. CLE's road success is noted but insufficient to create actionable inefficiency.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIL has dominant run differential and home record against a poor SF squad. However both starters are mediocre (5.49 and 5.94 ERAs) and the total line movement is erratic. Estimated fair ML near -195 versus market -177 is too close for 4% edge. Bullpen usage does not overcome the gap.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5
+PRICE: +103
+UNITS: 3
+EDGE: STRONG
+REASON: Chris Sale's elite 2.01 ERA, 0.94 WHIP and 80 Ks towers over Fluharty. ATL also possesses the slate's best record (42-20), massive +114 run differential, and strong home offense. These two independent factors (pitching dominance + team quality) are not heavily correlated and support ATL covering more often than +103 implies versus my fair line near -240 ML.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Lugo holds a clear edge over Morris, yet both teams are sub-.500 with poor run differentials and taxed bullpens. KC's road woes balance MIN's home splits. Market near even aligns tightly with estimated fair line of KC -108. Edge falls below 4% threshold.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: ATH ML
+PRICE: +120
+UNITS: 3
+EDGE: STRONG
+REASON: J.T. Ginn's 2.87 ERA/1.14 WHIP is substantially better than Imanaga's 4.37 ERA this season. CHC has also gone 3-7 in their last 10 while ATH owns a respectable 19-14 road mark. Market making CHC favorites ignores this pitching mismatch and recent form — two independent factors creating >4% edge at +120 versus my fair line near -115.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: PIT shows better form and run differential, but Jared Jones' 10.38 ERA comes in a 4.1-inning sample too small to trust. Teng's 2.57 ERA and HOU bullpen availability balance the scales. Market near pick'em matches estimated fair line of PIT -105. No qualifying inefficiency.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130
+UNITS: 2
+EDGE: REAL
+REASON: Wrobleski (2.87 ERA, 1.01 WHIP) holds a clear advantage over Nelson (4.82 ERA). LAD also owns the best record (40-22), elite +134 run differential, and strong road offense. These two non-correlated factors support a fair line near -162. Market at -142/-130 offers real but not exceptional value.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: ATH ML +120
+LEG 2: LAD ML -130
+COMBINED PRICE: +289
+TRUE PROBABILITY ESTIMATE: 53%
+UNITS: 1
+REASON: Both legs independently cleared the 4% edge threshold on pitching mismatch plus team form/quality factors. Games occur in different ballparks, leagues, and time slots with zero weather or travel correlation.
+
+## SLATE SUMMARY
+BEST BET: ATH ML (Game 7, 3 units)
+WHY THIS ONE: Largest pitching mismatch on the slate (Ginn vs Imanaga) combined with CHC's poor recent form creates the clearest market inefficiency versus my pre-priced fair line. Stronger edge than the other two plays.

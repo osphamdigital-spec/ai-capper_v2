@@ -1,0 +1,131 @@
+## GAME: DET @ TB
+PICK: LEAN: TB -1.5
+PRICE: +145
+UNITS: LEAN
+EDGE: THIN
+REASON: Tampa Bay is a dominant home team (21-8) facing a terrible Detroit squad that is 10-24 on the road. Both starting pitchers have ERAs over 5.30, but the Rays' overwhelming quality should allow them to cover the spread in the dome.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SD @ PHI
+PICK: SD +113
+PRICE: +113
+UNITS: 1
+EDGE: REAL
+REASON: Aaron Nola has been uncharacteristically terrible with a 5.55 ERA and 1.39 WHIP, while Randy Vásquez has been excellent at 3.31 ERA. The Padres are a strong road team (16-11) getting plus-money against a Phillies team that has a negative run differential despite a winning record.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: BAL +113
+PRICE: +113
+UNITS: 3
+EDGE: STRONG
+REASON: Boston has been abysmal at home this season with a 9-20 record, and their offense is averaging just 3.9 runs per game. Baltimore is playing much better baseball (7-3 in their last 10) and Shane Baz is a capable starter, making the plus-money with the Orioles a highly profitable spot.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIA @ WAS
+PICK: Over 9.0
+PRICE: -118
+UNITS: 1
+EDGE: REAL
+REASON: Both teams are averaging over 4.3 runs per game, and the total has been set at a high 9.0 for a reason. The starting pitchers have limited innings and high WHIPs (Lovelady at 1.73), suggesting a bullpen game that could lead to plenty of late-inning scoring.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: NYY -1.5
+PRICE: -102
+UNITS: 3
+EDGE: STRONG
+REASON: Cam Schlittler has been an absolute revelation with a 1.89 ERA and 84 strikeouts in 76.1 innings, anchoring a Yankees team with a massive +98 run differential. Cleveland's Joey Cantillo has a 3.92 ERA and faces a Yankees lineup that scores 5.2 runs per game at home, making the -1.5 run line at minus money an incredible value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ CIN
+PICK: CIN -1.5
+PRICE: +153
+UNITS: 1
+EDGE: REAL
+REASON: Kansas City is one of the worst road teams in baseball at 8-20, while Cincinnati has been solid at home (15-15). Andrew Abbott is a reliable innings-eater, and getting plus-money on the run line against a Royals team that allows 4.7 runs per game is too good to pass up.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5
+PRICE: +170
+UNITS: 5
+EDGE: STRONG
+REASON: Atlanta is playing like the best team in baseball with a 41-20 record and an absurd +110 run differential, while Toronto is just a mediocre .500 team. Bryce Elder has a stellar 2.63 ERA, and getting plus-170 on the run line for a team this dominant at home (18-10) is the strongest play on the slate.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ MIN
+PICK: CHW -1.5
+PRICE: +140
+UNITS: 3
+EDGE: STRONG
+REASON: Davis Martin has been a massive surprise for the White Sox with an 8-1 record and a sparkling 2.61 ERA, completely dominating opposing lineups. Connor Prielipp has a 5.26 ERA for the Twins, and Chicago's offense is potent enough (4.7 RS/G) to easily cover the 1.5 runs against a Minnesota team with a -18 run differential.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: MIL -1.5
+PRICE: +118
+UNITS: 3
+EDGE: STRONG
+REASON: Kyle Harrison has been unhittable with a 1.57 ERA and 73 strikeouts, leading a Brewers team that boasts an +88 run differential and a 20-11 home record. San Francisco is one of the worst teams in the league (23-37) with a -62 run differential, making the plus-money on the Brewers run line an absolute steal.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TEX @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Nathan Eovaldi and Dustin May are both mid-rotation starters with similar ERAs and WHIPs, and the teams have nearly identical run differentials and recent form. There is no clear edge on either side of the moneyline or run line in what projects to be a tightly contested, evenly matched game.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: LEAN: CHC ML
+PRICE: -122
+UNITS: LEAN
+EDGE: THIN
+REASON: The Cubs are strong at home (18-11) and face an Athletics team that is struggling with a 3-7 record in their last 10. However, Jameson Taillon's 5.13 ERA keeps this from being a full bet, so I will only lean towards Chicago at home.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both Bubba Chandler and Mike Burrows have been highly ineffective this season with ERAs near or above 5.00, making this a likely bullpen game. With the total set at a high 9.0 and both teams playing .500 baseball recently, there is no distinct angle to exploit on either the moneyline or the total.
+LOOKED UP: nothing, used provided data only
+
+## GAME: COL @ LAA
+PICK: LAA -1.5
+PRICE: +130
+UNITS: 1
+EDGE: REAL
+REASON: The Rockies are historically bad this season with an -82 run differential and a terrible road record. Colorado allows 5.6 runs per game, and even though Grayson Rodriguez has struggled, the Angels are 6-4 in their last 10 and playing at home against the worst team in the NL.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: Over 9.5
+PRICE: +100
+UNITS: 3
+EDGE: STRONG
+REASON: Eric Lauer has a disastrous 5.95 ERA, and the total has rightfully moved up to 9.5 given the pitching matchup and Chase Field's hitter-friendly environment in 101-degree heat. The Dodgers score 5.2 runs per game and the Diamondbacks 4.5, making the plus-money on the over highly attractive.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SEA
+PICK: SEA -1.5
+PRICE: +141
+UNITS: 1
+EDGE: REAL
+REASON: Seattle is red-hot with an 8-2 record in their last 10 games and has been excellent at home, while the Mets are struggling on the road (11-19). Logan Gilbert is a reliable strikeout pitcher, and the Mariners' bullpen should easily protect a lead against a Mets offense that averages just 4.0 runs per game.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: ATL ML -128
+LEG 2: CHW ML -121
+COMBINED PRICE: +225
+TRUE PROBABILITY ESTIMATE: 31%
+UNITS: 1
+REASON: Both the Braves and White Sox feature massive pitching advantages with Bryce Elder (2.63 ERA) and Davis Martin (2.61 ERA) on the mound. These games are in different leagues and divisions with no weather or travel correlation, giving two independent edges that combine for excellent plus-money value.
+
+## SLATE SUMMARY
+BEST BET: ATL -1.5 (+170)
+WHY THIS ONE: Atlanta is playing at an historic pace with a +110 run differential and Bryce Elder is pitching like an ace, making the plus-money on the run line against a mediocre Toronto team the single most mispriced bet on the board.

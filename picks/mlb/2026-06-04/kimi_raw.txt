@@ -1,0 +1,75 @@
+## GAME: SD @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: PHI leads last 10 (7-3 vs 1-9) but trails run differential (-22 vs -10) and is tied in RS/G (3.9 each). Wheeler (2.31 ERA) is elite but the -183 best price is fair for a PHI team with negative run differential and mediocre offense. No edge on side or total.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: BAL leads last 10 (7-3 vs 4-6) and RS/G (4.6 vs 4.0) but trails run differential (-37 vs -6). Both starters are terrible (Rogers 6.29 ERA, Bello 6.34 ERA). The pick'em line is fair for a high-variance pitching matchup with no reliable edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY leads all three metrics: run differential (+93 vs +6), last 10 (7-3 vs 5-5), and RS/G (5.1 vs 4.1). Rodón (2.88 ERA) is clearly better than Cecconi (4.92 ERA). Fair line is approximately -170; the -161 best price offers only a thin margin with no line movement to signal value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIL leads all three metrics: run differential (+92 vs -66), last 10 (7-3 vs 3-7), and RS/G (4.9 vs 3.8). However, both starters are poor (Houser 5.49 ERA, Crow 5.94 ERA), and -177 is a steep price for a pitcher with a near-6.00 ERA. No edge on either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: ATL leads all three metrics: run differential (+114 vs -12), last 10 (6-4 vs 4-6), and RS/G (5.3 vs 4.0). Sale (2.01 ERA) is dominant against Fluharty (3.97 ERA). The market has steamed ATL heavily from -206 to -256, erasing any value. The -1.5 run line at +105 is fairly priced.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIN leads run differential (-24 vs -50) and RS/G (4.6 vs 3.8); last 10 is tied (3-7 each). Lugo (3.55 ERA) is better than Morris (4.07 ERA), yet the market prices KC as a -115 favorite. Fair line is near pick'em; no material edge on either side.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: LEAN: ATH +117
+PRICE: +117
+UNITS: LEAN
+EDGE: REAL
+REASON: CHC leads run differential (+17 vs -32) and RS/G (4.7 vs 4.2), but ATH leads last 10 (4-6 vs 3-7). ATH trails in two of three metrics, so this is downgraded to a lean per model rules. Ginn (2.87 ERA, 1.14 WHIP) has significantly outperformed Imanaga (4.37 ERA), and CHC -137 is too heavy given the pitching mismatch and CHC's recent struggles.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: PIT leads all three metrics: run differential (+33 vs -35), last 10 (7-3 vs 6-4), and RS/G (5.2 vs 4.6). However, Jones carries a 10.38 ERA in only 4.1 IP, making his true talent highly uncertain, while Teng (2.57 ERA) has been excellent for HOU. The pick'em line is fair given the pitching mismatch against team form.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130
+UNITS: 3
+EDGE: STRONG
+REASON: LAD leads all three metrics by wide margins: run differential (+134 vs +3), last 10 (8-2 vs 5-5), and RS/G (5.3 vs 4.5). Wrobleski (2.87 ERA, 1.01 WHIP) has been excellent and is clearly superior to Nelson (4.82 ERA). Fair line is approximately -170; the market offering -130 provides a 40-cent gap and strong value.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: LAD ML -130 (3 units)
+WHY THIS ONE: LAD dominates every team-quality metric and holds a significant pitching advantage, yet the market prices them 40 cents below my fair line. No other game on the slate offers a comparable gap between estimated and implied probability.

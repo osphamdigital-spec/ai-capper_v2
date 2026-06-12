@@ -1,0 +1,131 @@
+GAME: DET @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Tampa’s overall profile (36-22, 21-8 home) supports them, but the pitching matchup isn’t clean enough to justify laying -142/-150 with Matz (5.48 ERA). Detroit’s road form is awful, yet the best DET price (+131) and two volatile starters make it feel like the market is already accounting for most of that gap. Total 8.5 also feels correctly “middled” for a dome with two shaky SPs.
+LOOKED UP: nothing, used provided data only
+
+GAME: SD @ PHI
+PICK: SD ML
+PRICE: +120
+UNITS: 1
+EDGE: REAL
+REASON: This price looks shaded to Philadelphia’s reputation while the listed starters point the other way: Vásquez (3.31 ERA/1.22 WHIP) has been materially better than Nola (5.55/1.39) so far. With both offenses sitting at 3.9 RS/G, getting +120 on the team with the apparent SP edge is attractive. If Nola is even slightly diminished, PHI shouldn’t be this firm a favorite.
+LOOKED UP: nothing, used provided data only
+
+GAME: BAL @ BOS
+PICK: LEAN: BAL ML
+PRICE: +123
+UNITS: LEAN
+EDGE: THIN
+REASON: Boston is priced as the favorite behind Early’s strong line (3.26 ERA), but their team context is ugly (9-20 home) and BAL’s offense is notably stronger (4.6 RS/G vs 3.9). Baz isn’t dominant, so I can’t call it a full bet, but +123 is tempting given the Red Sox home performance.
+LOOKED UP: nothing, used provided data only
+
+GAME: MIA @ WAS
+PICK: MIA ML
+PRICE: +103
+UNITS: 1
+EDGE: REAL
+REASON: Near pick’em, I’ll take the better control/traffic profile: Bachar’s 0.96 WHIP stands out versus Lovelady’s 1.73 WHIP, which is a big red flag even with a decent ERA. Washington’s run environment is high-variance (5.3 RS/G, 5.4 RA/G), so taking plus-money with the pitcher who’s limited baserunners makes sense.
+LOOKED UP: nothing, used provided data only
+
+GAME: CLE @ NYY
+PICK: NYY -1.5 RL
+PRICE: -102
+UNITS: 1
+EDGE: REAL
+REASON: If you like the Yankees at all, the run line is the efficient way to express it given the heavy ML (-220 to -240 range). Schlittler’s numbers (1.89 ERA, 0.86 WHIP, 84 K in 76.1 IP) plus NYY’s massive run diff (+98) justify playing for margin at near even money.
+LOOKED UP: nothing, used provided data only
+
+GAME: KC @ CIN
+PICK: Over 9.0
+PRICE: -107
+UNITS: 1
+EDGE: THIN
+REASON: Great American Ball Park with warm-ish conditions and two mid-tier lefty profiles (Cameron 4.22, Abbott 4.06 with higher WHIPs) points toward runs, and both bullpens can easily decide this late. KC’s overall team quality is poor, but CIN’s pitching/RA environment (5.0 RA/G) keeps the over in play. Not a slam dunk—just a small number-vs-park spot.
+LOOKED UP: nothing, used provided data only
+
+GAME: TOR @ ATL
+PICK: LEAN: ATL ML
+PRICE: -123
+UNITS: LEAN
+EDGE: THIN
+REASON: This is close to fairly priced because both starters are legitimately good (Gausman 3.36/1.09, Elder 2.63/1.08). The lean is purely team context: ATL’s elite run prevention (3.4 RA/G) and overall dominance (+110 run diff) at home. The number isn’t quite cheap enough for me to bet into good opposing starting pitching.
+LOOKED UP: nothing, used provided data only
+
+GAME: CHW @ MIN
+PICK: CHW ML
+PRICE: -118
+UNITS: 3
+EDGE: STRONG
+REASON: This looks like one of the clearest SP mismatches on the board: Davis Martin (2.61 ERA, 1.11 WHIP) vs Prielipp (5.26 ERA, 1.35 WHIP). With both teams scoring 4.7 RS/G, Chicago getting a near-pick price despite the pitching gap is where I’m most comfortable pressing.
+LOOKED UP: nothing, used provided data only
+
+GAME: SF @ MIL
+PICK: MIL -1.5 RL
+PRICE: +160
+UNITS: 1
+EDGE: REAL
+REASON: Milwaukee is correctly expensive on the ML, but +160 for the run line is appealing given the overall mismatch (MIL +88 run diff vs SF -62) and a major starter edge on paper (Harrison 1.57 ERA vs McDonald 4.50). If MIL wins, it’s often by margin given their strong run prevention (3.4 RA/G).
+LOOKED UP: nothing, used provided data only
+
+GAME: TEX @ STL
+PICK: LEAN: TEX ML
+PRICE: -110
+UNITS: LEAN
+EDGE: THIN
+REASON: Eovaldi’s profile (3.86 ERA, 1.14 WHIP) is steadier than May’s (4.59, 1.29), which nudges me to Texas in a near coin-flip market. But the total is low (7.5) and both offenses are ordinary, so one swing can decide it—no need to force action.
+LOOKED UP: nothing, used provided data only
+
+GAME: ATH @ CHC
+PICK: Under 7.5
+PRICE: -105
+UNITS: 1
+EDGE: THIN
+REASON: The pitchers don’t scream “under” (Taillon 5.13; Jump small sample), but Wrigley with a north wind and a modest total creates a path to suppressed scoring if the ball doesn’t carry. With both lineups not overwhelming and the total sitting at 7.5, -105 is a small value stab rather than a conviction play.
+LOOKED UP: nothing, used provided data only
+
+GAME: PIT @ HOU
+PICK: PIT ML
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: This is basically a coin flip by price, so I want the better team profile: PIT has a strong run diff (+31) and better scoring (5.0 RS/G) than Houston’s overall environment. With both starters sporting ugly lines (Chandler 4.89, Burrows 5.66), I’d rather take plus-money tied to the better season-long performance.
+LOOKED UP: nothing, used provided data only
+
+GAME: COL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The pitching matchup is messy to price: Sugano is decent, but Colorado’s overall run prevention and road form are rough, while Rodriguez’s 7.04 ERA comes in a tiny sample that could be noise. LAA -159 doesn’t feel like a bargain, but COL is hard to trust as a road dog even at +141. Totals also look about right for Angel Stadium.
+LOOKED UP: nothing, used provided data only
+
+GAME: LAD @ AZ
+PICK: AZ ML
+PRICE: +108
+UNITS: 1
+EDGE: REAL
+REASON: Getting plus-money with Soroka (3.23 ERA, 1.21 WHIP) at home versus Lauer (5.95) is attractive, even acknowledging the Dodgers’ superior team quality. The market is clearly weighting LAD’s offense/brand heavily; I think the SP gap plus AZ’s strong home record (19-10) makes +108 playable.
+LOOKED UP: nothing, used provided data only
+
+GAME: NYM @ SEA
+PICK: Under 7.5
+PRICE: -118
+UNITS: 1
+EDGE: REAL
+REASON: Seattle games are often priced low, but 7.5 is still reachable with Gilbert’s solid baseline (3.69/1.11) and a pitcher-friendly home environment. Brazobán’s elite ERA is in a limited workload, yet even regression can still mean “effective enough” if the Mets’ offense stays middling (4.0 RS/G). I’d rather play the run environment than pick a side.
+LOOKED UP: nothing, used provided data only
+
+PARLAY
+LEG 1: Chicago White Sox ML -118
+LEG 2: San Diego Padres ML +120
+COMBINED PRICE: +306
+TRUE PROBABILITY ESTIMATE: 0.28
+UNITS: 1
+REASON: CHW is an SP-mismatch value spot at a near-pick price, and SD is plus-money with the apparent starter edge over a struggling Nola—two independent, uncorrelated edges. The combined implied probability at +306 is about 24.6%, and I price it closer to 28%, so it’s a small +EV add-on (not a max).
+
+SLATE SUMMARY
+BEST BET: CHW @ MIN — CHW ML -118 (3 units)
+WHY THIS ONE: It’s the cleanest “price vs starting pitching” mismatch on the slate, and the market is still offering a near-pick number despite a large gap in SP performance indicators. I did not look up or use any game outcomes; all analysis is strictly pre-game from the provided slate data.

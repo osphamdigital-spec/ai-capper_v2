@@ -1,0 +1,122 @@
+{
+  "date": "2026-06-03",
+  "sport": "mlb",
+  "graded_at": "2026-06-04T05:21:17Z",
+  "best_bets": [
+    {
+      "model": "chatgpt5.5",
+      "best_bet_raw": "LAD -1.5 RL -115 (5 units)",
+      "why_this": "It combines the largest starting-pitching edge on the board with a substantial advantage in team quality, run differential, offensive production and recent form. Unlike several other games, multiple independent indicators point in the same direction.",
+      "resolved_game": "LAD @ AZ",
+      "resolved_pick": "LAD -1.5 RL",
+      "resolved_price": -115,
+      "resolved_units": 5,
+      "result": "win",
+      "profit_units": 4.3478
+    },
+    {
+      "model": "deepseek",
+      "best_bet_raw": "LAD -1.5 -115 (Game 15) for 3 units",
+      "why_this": "The combination of the best pitcher in baseball, a massive starting-pitching mismatch, and the Dodgers' elite run differential creates the widest gap between my estimated win probability and the market's run-line implied odds.",
+      "resolved_game": "LAD @ AZ",
+      "resolved_pick": "LAD -1.5",
+      "resolved_price": -115,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.6087
+    },
+    {
+      "model": "gemini",
+      "best_bet_raw": "PHI -1.5 (+110) [Game 5, 5 units]",
+      "why_this": "The moneyline collapsed from -210 to -554, yet the run line is still sitting at plus-money (+110). This represents an extreme, actionable market failure that provides a massive mathematical edge over any standard handicap on the slate.",
+      "resolved_game": "SD @ PHI",
+      "resolved_pick": "PHI -1.5",
+      "resolved_price": 110,
+      "resolved_units": 5,
+      "result": "loss",
+      "profit_units": -5.0
+    },
+    {
+      "model": "gpt-5.2-high",
+      "best_bet_raw": "PIT @ HOU \u2014 PIT ML -125 (3 units)",
+      "why_this": "It has the strongest pre-game edge signal from the data provided: an ace-level xERA profile (Skenes) versus an opponent whose ERA is sharply contradicted by xERA (Arrighetti), plus a best-price discount versus the median. Integrity note: I did not use or rely on any knowledge of game results; analysis is strictly pre-game from the prompt, and I passed games where the odds feed looked internally inconsistent.",
+      "resolved_game": "PIT @ HOU",
+      "resolved_pick": "PIT ML",
+      "resolved_price": -125,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "grok",
+      "best_bet_raw": "PHI -1.5 +104 (Game 5, 3 units)",
+      "why_this": "S\u00e1nchez\u2019s elite 1.46 ERA / 2.91 xERA against Buehler\u2019s 4.72 xERA is the clearest single pitching mismatch on the slate, reinforced by the total collapsing to 5.5 and PHI\u2019s fresher closer. It exceeds the edge found in the PIT and LAD games.",
+      "resolved_game": "SD @ PHI",
+      "resolved_pick": "PHI -1.5 +104",
+      "resolved_price": 104,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "kimi",
+      "best_bet_raw": "PIT ML -125 (3 units) \u2014 Game 13",
+      "why_this": "It pairs the largest pitching-mismatch edge on the slate (Skenes 2.28 xERA vs Arrighetti 4.69 xERA) with a dominant team-quality advantage (+35 vs -37 run differential, 7-3 vs 6-4 last 10, 5.1 vs 4.5 RS/G) at a price that does not come close to reflecting either gap. The Houston bullpen tax only adds to the edge.",
+      "resolved_game": "PIT @ HOU",
+      "resolved_pick": "PIT + ML",
+      "resolved_price": -125,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "manus",
+      "best_bet_raw": "SD @ PHI (3 units)",
+      "why_this": "This play represents the strongest statistical edge on the slate, backed by a significant starting pitcher advantage and favorable market pricing.",
+      "resolved_game": "SD @ PHI",
+      "resolved_pick": "PHI -1.5 RL",
+      "resolved_price": 104,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "opus",
+      "best_bet_raw": "PIT ML -155, 3 units",
+      "why_this": "It's the only spot where multiple independent signals stack \u2014 a true ace (xERA 2.28), an opposing starter whose ERA is contradicted by his own xERA (1.29 vs 4.69), and a clearly better, hotter team \u2014 and unlike the LAD mismatch it's priced where the value is still live rather than baked in.",
+      "resolved_game": "PIT @ HOU",
+      "resolved_pick": "PIT ML",
+      "resolved_price": -155,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "qwen",
+      "best_bet_raw": "PHI -1.5 (+110) for 3 Units",
+      "why_this": "The combination of Cristopher S\u00e1nchez's elite underlying metrics, Walker Buehler's struggles, and massive sharp line movement creates a rare opportunity to back a heavy favorite at plus-money on the run line. INTEGRITY STATEMENT: I confirm these games are scheduled for June 2026 and I possess no future outcome knowledge; all analysis is strictly based on the provided pre-game data and market movements.",
+      "resolved_game": "SD @ PHI",
+      "resolved_pick": "PHI -1.5",
+      "resolved_price": 110,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "sonnet",
+      "best_bet_raw": "LAD -1.5 -115, Game 15, 3 units",
+      "why_this": "No other game on this slate combines the best-projected pitcher (Ohtani, 2.40 xERA) against one of the most confirmed poor starters (Gallen, 5.21 xERA confirmed across 59 IP), the best team by every metric (39-22, +127 run diff, 5.3 RS/G, 8-2 last10), and near-even-money pricing on the run line \u2014 getting -115 to back this team to win by two or more is where the gap between price and edge is widest.",
+      "resolved_game": "LAD @ AZ",
+      "resolved_pick": "LAD -1.5",
+      "resolved_price": -115,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.6087
+    }
+  ],
+  "summary": {
+    "wins": 3,
+    "losses": 7,
+    "record": "3-7 (30.0%)"
+  }
+}

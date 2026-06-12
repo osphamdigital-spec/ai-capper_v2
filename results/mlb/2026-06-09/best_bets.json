@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-09",
+  "sport": "mlb",
+  "graded_at": "2026-06-10T07:46:44Z",
+  "best_bets": [
+    {
+      "model": "chatgpt5.5",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "deepseek",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "gemini",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "gpt-5.2-high",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "grok",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "PIT ML (1 unit)",
+      "why_this": "Paul Skenes is a legitimate ace facing a below-average pitcher in Eric Lauer. The 6.8-point edge is the largest identified on the slate after bullpen and park adjustments.",
+      "resolved_game": "LAD @ PIT",
+      "resolved_pick": "PIT ML",
+      "resolved_price": -110,
+      "resolved_units": 1,
+      "result": "loss",
+      "profit_units": -1.0
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "sonnet",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    }
+  ],
+  "summary": {
+    "wins": 0,
+    "losses": 1,
+    "skips": 8,
+    "record": "0-1 (0.0%)"
+  }
+}

@@ -1,0 +1,84 @@
+## GAME: SD @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Wheeler is a major starting-pitching edge over Giolito, but PHI’s leverage relief looks compromised (Duran taxed) while SD’s top end is available, which increases the chance this stays tight late. At -190 the Phillies need to win ~66% to justify the price, and I’m not seeing enough margin given bullpen context and SD’s ability to shorten the game. The plus-money PHI -1.5 is interesting, but not enough for me with PHI’s modest scoring profile.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ BOS
+PICK: Over
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: This is a “two volatile starters” setup (Rogers 6.29 ERA, Bello 6.34) in hot Fenway conditions, and Baltimore’s bullpen shows meaningful recent workload that can bleed runs in the middle innings. A 10.0 total is high, but the path to 6–5/7–4 is very plausible here given both SP baselines and park. I’d rather take plus-money Over than pick a side with two shaky starters.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY has the clear overall profile edge and Rodón projects better than Cecconi, but the market price (-168 range) is close to what I’d expect given Cleveland’s decent season quality and road competence. Cleveland’s bullpen being taxed pushes me toward NYY, yet not enough to call it mispriced. If anything it’s a lean to NYY -1.5, but I can’t get there as a bet.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SF @ MIL
+PICK: MIL -1.5 RL
+PRICE: +175
+UNITS: 1
+EDGE: REAL
+REASON: Milwaukee has a large team-quality gap and should have the better run-prevention setup even with Crow being imperfect, while SF’s profile (poor record, -66 run diff) makes them vulnerable to losing by margin. At a price as big as +175, the break-even is ~36%, and MIL covering -1.5 is very plausibly above that in this matchup. Note: if this run-line price is stale/mistaken, the edge disappears—so stake stays small.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TOR @ ATL
+PICK: ATL -1.5 RL
+PRICE: +105
+UNITS: 1
+EDGE: THIN
+REASON: Sale vs. a short-track/limited-sample Fluharty favors ATL’s ability to control the game, and Atlanta’s offense is strong enough to create separation when they’re ahead. The ML is expensive, and the run line is the more efficient way to express an ATL advantage if you’re betting them at all. Still, TOR’s bullpen is not wrecked and +1.5 is always “live,” so I’m keeping this to a small play.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: KC ML
+PRICE: -108
+UNITS: 1
+EDGE: REAL
+REASON: Lugo is the best starter in this game by a meaningful margin, and the KC price is modest despite that SP edge. MIN’s bullpen also shows multiple arms worked yesterday, which matters if Morris is limited and the game turns into a pen contest. KC is not a good overall team, but this is a pitching-led spot where the market looks a touch light on the Royals.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ CHC
+PICK: Over
+PRICE: +100
+UNITS: 1
+EDGE: REAL
+REASON: Both bullpens are heavily taxed (and both listed closers are taxed), which is a strong ingredient for late scoring even if the starters are decent. Wrigley with a 13+ mph wind and an already-high 10.0 total suggests the market expects runs; I’m only interested because you can get even money. If either starter exits early, the tired relief paths can snowball quickly.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ HOU
+PICK: HOU ML
+PRICE: -108
+UNITS: 1
+EDGE: REAL
+REASON: Teng’s underlying line (2.57 ERA, 1.10 WHIP across 42 IP) is far more trustworthy than Jared Jones’ tiny, ugly sample, and that SP gap matters in a near pick’em. PIT’s bullpen/closer situation is also flagged as taxed, increasing Houston’s chance to cash late if it’s close. At essentially coin-flip pricing, I make HOU a modest favorite.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAD @ AZ
+PICK: LAD ML
+PRICE: -130
+UNITS: 1
+EDGE: THIN
+REASON: Wrobleski has been consistently strong (2.87 ERA, 1.01 WHIP) and LAD’s overall run-diff profile supports them being favored on the road even in a tough park. Arizona’s bullpen usage flags add a bit of late-game fragility if Nelson doesn’t go deep. I see a small edge only at the best -130 type price; at -142 I’d pass.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+LEG 1: Houston Astros ML -108
+LEG 2: Los Angeles Dodgers ML -130
+COMBINED PRICE: +241
+TRUE PROBABILITY ESTIMATE: 33%
+UNITS: 1
+REASON: Both legs were standalone value spots driven primarily by starting-pitching edge plus bullpen context, and the games are in different leagues with no obvious correlation. The combined implied probability at +241 is ~29%, while my rough true probability is a few points higher, so the parlay adds payout efficiency without forcing in a weak leg.
+
+## SLATE SUMMARY
+BEST BET: HOU ML -108 (GAME: PIT @ HOU), 1 unit
+WHY THIS ONE: The market is close to a coin flip despite a notable starting-pitching advantage for Houston and bullpen context that’s slightly friendlier to HOU late.
+INTEGRITY STATEMENT: I do not have knowledge of the outcomes of these games; I analyzed them strictly as pre-game bets using only the provided slate data (no browsing).

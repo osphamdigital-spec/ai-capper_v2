@@ -1,0 +1,123 @@
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Weather risk (moderate drizzle, high rain chance) plus a high total makes run environment and bullpen usage harder to price, and the Over price is explicitly flagged as suspect. On the side, Ray’s contact profile (HH%/Brl%) is rough and his recent form is poor, but Cabrera isn’t a clear enough upgrade to justify laying -160 without confirmed lineups. No clean edge.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+PICK: LEAN: CHW ML
+PRICE: +162
+UNITS: LEAN
+EDGE: THIN
+REASON: Luzardo’s FIP/xERA are excellent and justify PHI being favored, but -185 asks for a high win rate for a Phillies team that’s scored modestly (3.9 RS/G) and carries a negative run diff. Kay’s recent results are strong yet his xERA/contact suggest regression risk, so I can’t get to a bet—just a small lean to the plus-money dog on price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+PICK: SEA ML
+PRICE: -128
+UNITS: 1
+EDGE: REAL
+REASON: Woo’s underlying profile (2.96 FIP / 2.91 xERA) is materially better than Valdez’s current-season run prevention indicators, and SEA’s team form/run diff supports them being a true road favorite. With both bullpens showing no heavy recent usage, the SP edge should carry full weight. At -128, I make SEA a bit underpriced.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Gray vs Weathers is closer than the team-strength gap suggests, and BOS has been fine on the road despite the poor overall record. Total pricing is flagged as suspect, so I’m not touching 8.0 either. Market price (-140ish) looks within a reasonable band.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Yesavage’s small-ish sample is backed by strong peripherals (xERA 2.50, low HH%/Brl%), which makes TOR’s favorite status reasonable, but TOR’s bullpen shows meaningful usage (including a 68-pitch outing) that can erode a marginal edge. BAL’s away profile is poor, yet the dog price isn’t large enough for me to step in confidently. Pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Rasmussen is steady, but Miami’s starter (Gusto) is an extreme small-sample profile (3.0 IP) with internally weird indicators, which makes it hard to anchor a fair line without role/pitch-count clarity. The market has already ticked toward TB, and I’m not comfortable paying that without more certainty. Pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+PICK: PIT ML
+PRICE: +127
+UNITS: 1
+EDGE: REAL
+REASON: Pérez’s shiny ERA is not supported by his xERA (4.32) and contact (HH% 42.0), while Keller’s FIP (3.38) suggests he’s been a bit unlucky versus ERA—so the pitching matchup is closer than the moneyline implies. PIT’s offense/run production profile is strong enough to win outright at this price. Getting +127 in what I rate closer to a coin-flip is value.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+PICK: ATH ML
+PRICE: -107
+UNITS: 1
+EDGE: THIN
+REASON: Perkins’ ERA looks bad, but his FIP/xERA (2.60/3.14) and contact (HH% 34.2, Brl% 5.1) point to better true performance—so I’m willing to fade the surface stats. The main counter is Oakland’s taxed bullpen (multiple 2-consecutive-days arms), which is why this stays small. Near pick’em, I lean ATH.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Singer’s profile is brutal (ERA/FIP/xERA all ugly with high hard contact), but Leahy’s xERA/contact are also alarming, making this a hard game to price confidently off starters. Total pricing is flagged as suspect, so I’m not using 9.0 either. Pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Messick has been legitimately strong (xERA 3.23 with good contact suppression), but Rocker is solid enough and TEX is competent at home, so -130 to -137 feels close to fair. The total move toward the under (7.5→7.0) also suggests the market is already reacting to the run environment. No clear misprice.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The posted market data is internally inconsistent/flagged (moneyline and “KC 0 / MIN 0” prices look unreliable), so I’m applying the sanity-check rule and not betting this off potentially stale numbers. Conceptually, MIN’s bullpen usage is a real factor and Wacha is steadier than Matthews’ small sample, but without trustworthy prices this is a pass.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+PICK: Over
+PRICE: -103
+UNITS: 1
+EDGE: REAL
+REASON: Both starters carry concerning indicators for Coors (Sproat poor across ERA/FIP/xERA; Feltner with extreme hard contact and a very high xERA), and warm weather adds to scoring volatility. Milwaukee’s bullpen is taxed, which can turn “normal” late innings at Coors into extra run expectancy. At -103, Over 11.5 is playable despite the big number.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+PICK: WAS ML
+PRICE: +117
+UNITS: 1
+EDGE: STRONG
+REASON: Merrill Kelly’s run prevention indicators are very poor (xERA 7.26) and the contact damage (HH% 44.1, Brl% 16.4) supports that—this isn’t just “bad luck.” Griffin isn’t elite, but he’s serviceable over a full sample, and WAS has a strong road record; plus money is attractive in what I rate as at least a near coin-flip. Lineups/roof status add uncertainty, so I’m not scaling beyond 1 unit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+PICK: LEAN: NYM ML
+PRICE: +114
+UNITS: LEAN
+EDGE: THIN
+REASON: King is the more proven starter, but SD’s bullpen is taxed and the Padres’ overall scoring hasn’t been strong, which keeps the upset path open. Scott is a small-sample starter (30.1 IP) with a higher xERA than ERA, so I won’t bet NYM without more certainty. Lean to the dog on price only.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Angels starter is TBD, which is too large a missing input for a heavy-favorite pricing setup; I won’t bet LAD ML or -1.5 without knowing the opposing starter quality/role. The total moved (8.5→8.0), but without the starter I can’t validate whether that move is correct. Pass.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: WAS ML +117 (GAME: WAS @ AZ), 1 unit
+WHY THIS ONE: The market is pricing Arizona as a moderate favorite despite Kelly’s xERA and contact profile both signaling significant downside, making the dog price look meaningfully off even after accounting for home-field and variance.

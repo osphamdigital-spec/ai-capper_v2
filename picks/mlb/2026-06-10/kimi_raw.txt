@@ -1,0 +1,168 @@
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Tampa Bay is the correct side with the far superior starter in Drew Rasmussen, but the market price of -141 leaves only a marginal gap against a Boston club that has been competitive on the road. The Rays bullpen is taxed with zero fresh high-leverage arms, which adds enough late-inning variance to erase a slim edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: The moneyline moved over 200 points toward Cleveland, indicating potential stale injury or lineup data that cannot be verified without web access. Both starters have been solid and Progressive Field suppresses scoring, so the total is the only lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: A 210-point line move toward Washington signals possible roster changes or pitching news not reflected in the provided stale data. Robbie Ray has struggled badly with walks and hard contact, but without confirmed lineups there is no clean edge to bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both offenses are slumping and both starters have been hit hard recently. Michael King owns the better overall profile, but the Padres are not priced loosely enough to warrant a wager given their own offensive woes, taxed bullpen, and the pitcher-friendly Petco environment.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The moneyline swung more than 200 points toward Baltimore, suggesting missing information that makes the provided pitcher and lineup data potentially stale. George Kirby has strong underlying metrics but poor recent results, while Brandon Young has outpitched his peripherals. Pass due to unconfirmed inputs.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Arizona has the better available bullpen and faces what is effectively a bullpen game from Ryan Gusto, but the Diamondbacks offense has scored just 2.8 runs per game over the last ten days and carries no momentum. The true win-probability gap is under four points.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Minnesota has yet to name a starter, making this game impossible to price accurately. Framber Valdez gives Detroit a clear pitching advantage, but the Tigers are not strong enough to lay -172 with confidence against an unknown arm and a Twins offense that has scored 4.9 runs per game over the last ten days.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Shohei Ohtani is the best starter on the slate and the Dodgers are clearly the superior team, but -205 is an efficient market price with almost no gap to fair value. Pittsburgh has been competitive at home and the Los Angeles bullpen is not fully rested.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: LEAN: PHI
+PRICE: -136
+UNITS: LEAN
+EDGE: 3.1 pts
+TOTAL LEAN: Over
+REASON: PITCHING MATCHUP: Jesús Luzardo (ERA 4.56/FIP 3.40/xERA 3.16) for PHI vs Max Scherzer (ERA 9.64/FIP 8.35/xERA 6.77) for TOR. The better starter is Luzardo. I am betting PHI, which has the better starter. Luzardo owns a 3.63 last-3-start ERA and a 4.93 last-14-day xFIP, while Scherzer carries a 14.34 last-3-start ERA with no recent xFIP sample. However, Toronto brings a 129 wRC+ against left-handed pitching into this matchup while Philadelphia is only an 86 wRC+ unit against right-handers, which narrows the true win probability to roughly 60.7% against an implied 57.6% at -136. The gap is under four points, so this stays a lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: St. Louis is the better team by record and run differential, but Austin Warren has been effective in a small sample and the Mets own one of the best bullpen ERAs on the slate. The price on the Cardinals does not offer enough cushion for a moneyline bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: LEAN: ATL
+PRICE: -149
+UNITS: LEAN
+EDGE: 3.5 pts
+TOTAL LEAN: Over
+REASON: PITCHING MATCHUP: Chris Sale (ERA 2.23/FIP 2.88/xERA 3.19) for ATL vs TBD for CHW. The better starter is Sale. I am betting ATL, which has the better starter. Sale’s last-3-start ERA is 3.06 and his last-14-day xFIP is 3.53, both well within acceptable bounds. The Braves lead in run differential (+115 vs +9), last-ten record (7-3 vs 6-4), and season scoring (5.2 vs 4.8). However, the White Sox are 21-11 at home and the unknown starter introduces variance that keeps Atlanta’s true win probability around 62.0% versus a 59.8% implied probability at -149. The gap is under four points.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Both lineups have been below-average overall, and while Kauffman Stadium is playing neutral, a 22-mph wind out is offset by two starters who are capable of eating innings. The Royals bullpen ERA data appears suspect, creating too much uncertainty for a wager.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Coors Field creates extreme variance that cannot be captured by standard pricing models, and both starting pitchers have been destroyed in their last three outings. No moneyline or total edge is reliable enough to bet in this environment.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: MIL ML
+PRICE: -106
+UNITS: 1
+EDGE: 5.8 pts
+TOTAL LEAN: No lean
+REASON: PITCHING MATCHUP: Brandon Sproat (ERA 6.17/FIP 5.64/xERA 5.11) for MIL vs Jack Perkins (ERA 6.19/FIP 2.88/xERA 3.14) for ATH. The better starter is Perkins. I am betting MIL, which has the worse starter. Milwaukee carries a run differential of +104 against Oakland’s -42, a last-ten record of 7-3 against 5-5, and season scoring of 5.4 runs per game against 4.4. Their offense has been explosive recently with an 8.3 L10RS, and their bullpen has fresher high-leverage arms available compared to Oakland’s taxed relief corps. Sproat’s last-3-start ERA is 7.43 and last-14-day xFIP is 4.81; Perkins last-14-day xFIP is 3.05 but over only 4.0 innings, and his season ERA is equally poor. Because the opponent starter is equally bad or worse by ERA criteria, no downgrade is applied. Milwaukee’s true win probability is approximately 57.3% against a -106 implied probability of 51.5%, producing a 5.8-point gap that clears the minimum edge gate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: A 205-point move toward Houston indicates potential lineup or injury news that cannot be confirmed with the provided data. Reid Detmers has been dealing and the Angels are not a significantly worse team by underlying metrics, so there is no edge in either direction.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: [N/A]

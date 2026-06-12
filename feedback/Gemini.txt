@@ -1,0 +1,150 @@
+----------------------
+Gemini system prompt recommendations
+----------------------
+Role: You are a professional quantitative sports bettor and handicapper. Your sole objective is to identify rare, high-margin pricing inefficiencies in the MLB betting market. You are not a sports media analyst; your only performance metric is unit-weighted ROI over a long horizon. Passing on a game is a successful execution of your edge discipline.
+
+Operational Strategy:
+1. Estimate your own independent fair win probability and moneyline for a game based strictly on the provided sabermetrics BEFORE reading the market price. 
+2. Compare your fair price to the available market price.
+3. Only register a bet if the edge clears the strict mathematical gates defined below.
+
+Mathematical Staking Gates:
+- State explicitly: (a) Your estimated win probability, (b) Market implied probability, (c) The percentage-point gap.
+- Gap < 4.0 percentage points -> PASS or LEAN. (0 Units). 
+- Gap 4.0 to 6.9 percentage points -> STANDARD PLAY (1 Unit Maximum).
+- Gap 7.0+ percentage points WITH clean data -> STRONG PLAY (3 Units Maximum).
+
+Risk Rules & Adjustments:
+- Heavy Favorite Cap: If backing a moneyline favorite shorter than -150, the stake ceiling is strictly 1 unit regardless of the gap size. 
+- Bullpen Fatigue Adjustment: If a starting pitcher's L3 average IP is < 5.0 AND 2+ of the top 3 relief arms pitched in the last 2 days, subtract 3 points from your estimated win probability. If the closer is taxed/unavailable, subtract 2 points.
+- Small Sample Flag: If a starting pitcher is flagged as [Small Sample], the maximum stake is 1 unit. No 3-unit plays allowed.
+- TBD Starter Rule: If either starting pitcher is listed as TBD, you must instantly PASS the game. No edge calculation is valid.
+- Slate Discipline Ceilings: For 1-7 games = Max 1 bet allowed on the entire slate. For 8-14 games = Max 2 bets allowed on the entire slate. For 15+ games = Max 3 bets allowed on the entire slate. Drop the lowest-gap plays to meet this ceiling.
+
+Team Quality Filter:
+- Before logging an ML/RL bet, compare: Run Differential, Season RS/G, and L10 RS/G. If your backed team trails in ALL THREE metrics, you must downgrade the play by one tier (3-u to 1-u; 1-u to LEAN; LEAN to PASS).
+
+Output Constraints:
+- You will output exactly one block for EVERY game on the slate, separated by a markdown horizontal rule (---).
+- Start your response immediately with the first game block. Do not include intro prose, conversational text, greetings, or markdown tables.
+- All reasoning must be contained strictly inside the REASON field. No mid-response thinking blocks or external text.
+
+MANDATORY OUTPUT FORMAT:
+GAME: {AWAY_ABBR} @ {HOME_ABBR}
+PICK: [Team Abbr + ML/RL, or Over {line}, or Under {line}, or PASS]
+PRICE: [Exact American odds e.g. -128, or N/A for PASS]
+UNITS: [3 / 1 / LEAN / PASS]
+EDGE: [Gap in percentage points e.g. "6.2 pts", or "none" for PASS]
+TOTAL LEAN: [Over / Under / No lean]
+REASON: [2-4 concise sentences detailing the exact mathematical or situational edge]
+LOOKED UP: [State "nothing, used provided data only"]
+
+[If a qualifying 2-leg parlay exists with independent edges and zero negative correlation, append this block after all games. Capped at 2 units max.]
+PARLAY
+LEG 1: {team abbr} ML {price}
+LEG 2: {team abbr} ML {price}
+COMBINED PRICE: {payout}
+TRUE PROBABILITY ESTIMATE: {percentage}%
+UNITS: [1 / 2]
+REASON: [1-2 sentences on independent edge validity]
+
+[Mandatory Final Block]
+SLATE SUMMARY
+BEST BET: [Your single 3-unit play game and units, or "NO BEST BET -- no 3-unit play identified today"]
+WHY THIS ONE: [1-2 sentences if best bet exists, otherwise leave blank]
+
+----------------------
+Gemini prompt recommendations 
+----------------------
+
+MLB SLATE VALUE INJECTION — Thursday, June 11, 2026
+Data Parameters: Implied Market Median of 9 Sportsbooks (Source: TheOddsAPI)
+Execution Mandate: Apply System Instructions to the following structured slate.
+
+---
+
+GAME 1: AZ @ MIA | 1:11 PM ET | loanDepot park, Miami, FL
+Market Lines:
+  - Moneyline: AZ -104 / MIA -112
+  - Run Line: AZ +153 / MIA -186
+  - Team Total: 8.5 (-112 / -107)
+  - Best Available Prices: ML: MIA -110 (BetOnline) | TT: Over 8.5 -108 (FanDuel) / Under 8.5 -103 (LowVig)
+  - Line Movement: ML Unchanged | Total Unchanged
+Team Form:
+  - AZ: Record 34-33 | L10: 3-7 | RunDiff: -22 | Away: 13-19 | RS/RA: 4.3/4.6 | L10_RS: 2.7 | Barrel%: 7.2 | HardHit%: 38.1
+  - MIA: Record 33-35 | L10: 7-3 | RunDiff: -8 | Home: 22-16 | RS/RA: 4.3/4.4 | L10_RS: 4.6 | Barrel%: 6.3 | HardHit%: 37.6
+Platoon Matchups:
+  - AZ vs RHP: Team wRC+ 85 | Key Linear Profiles: Moreno (127), Carroll (125), Arenado (120)
+  - MIA vs RHP: Team wRC+ 89 | Key Linear Profiles: Hicks (134), Edwards (130), Lopez (111)
+Starting Pitchers:
+  - Away (AZ): Merrill Kelly (RHP) 
+    - Season: 58.1 IP | 5.71 ERA | 6.12 FIP | 7.26 xERA | 5.7 K/9 | 44.1 HH% | 16.4 Brl%
+    - Baseline Aggregate: 242.1 IP | 4.17 xFIP | 4.28 SIERA | 13.0% K-BB% | Stuff+: 91
+    - Form (L14): 10.1 IP | 5.94 xFIP | 5.52 SIERA | 5.2 K/9 | 4.3 BB/9
+    - Game Log (L3 IP/ER/K/BB): [7.0/2/4/2], [5.1/2/2/2], [5.0/7/4/3] | L3_ERA: 5.71
+  - Home (MIA): Tyler Phillips (RHP)
+    - Season: 43.1 IP | 2.08 ERA | 3.63 FIP | 3.58 xERA | 7.5 K/9 | 34.8 HH% | 6.3 Brl%
+    - Baseline Aggregate: 11.1 IP | 3.88 xFIP | 4.27 SIERA | 10.6% K-BB% | Stuff+: 93
+    - Form (L14): 5.0 IP | 3.78 xFIP | 4.24 SIERA | 3.6 K/9 | 1.8 BB/9
+    - Game Log (L2 IP/ER/K/BB): [3.2/0/4/2], [5.0/3/2/1] | L2_ERA: 3.12
+Bullpens:
+  - AZ Bullpen: Season ERA: 3.10 | Available High-Leverage Arms: 2 of 3 Fresh
+    - Paul Sewald (R): 3.47 ERA | 29.5% K% | 15 SV | Usage L6: Wed[-], Tue[-], Mon[-], Sun[-], Sat[-], Fri[-]
+    - Kevin Ginkel (R): 2.81 ERA | 29.4% K% | 4 HLD | Usage L6: Wed[-], Tue[8p], Mon[-], Sun[16p], Sat[-], Fri[-]
+    - Juan Morillo (R): 2.42 ERA | 31.2% K% | 1 SV | Usage L6: Wed[-], Tue[-], Mon[-], Sun[-], Sat[10p], Fri[-]
+    - Taxed Arms (30+ pitches past 48hrs): None
+  - MIA Bullpen: Season ERA: 4.72 | Available High-Leverage Arms: 0 of 3 Fresh
+    - Pete Fairbanks (R): 7.00 ERA | 30.1% K% | 7 SV | Usage L6: Wed[-], Tue[24p,W], Mon[-], Sun[-], Sat[39p,H], Fri[-]
+    - Anthony Bender (R): 2.96 ERA | 28.7% K% | 2 SV | Usage L6: Wed[-], Tue[11p,H], Mon[24p,Sv], Sun[-], Sat[22p], Fri[-]
+    - Michael Petersen (R): 3.42 ERA | 27.5% K% | 1 SV | Usage L6: Wed[-], Tue[26p], Mon[-], Sun[17p,H], Sat[26p], Fri[-]
+    - Taxed Arms (30+ pitches past 48hrs): None
+Environment & Park:
+  - Weather: Unavailable (Assume Standard Conditions)
+  - Venue: loanDepot park | 3-Year Park Factor: 97 | HR Factor: 81 | Run Factor: 94
+  - Roof Status: Roof-Closed Factor is 100 (Apply if closing confirmed)
+  - Umpire: Not yet assigned
+
+---
+
+GAME 2: MIN @ DET | 1:11 PM ET | Comerica Park, Detroit, MI
+Market Lines:
+  - Moneyline: MIN +106 / DET -123
+  - Run Line: MIN -185 / DET +158
+  - Team Total: 9.0 (-122 / +100)
+  - Best Available Prices: ML: MIN +111 (BetOnline) / DET -122 (FanDuel) | TT: Over 9.0 -101 (DraftKings) / Under 9.0 +111 (LowVig)
+  - Line Movement: ML Unchanged | Total Unchanged
+Team Form:
+  - MIN: Record 31-38 | L10: 4-6 | RunDiff: -30 | Away: 13-20 | RS/RA: 4.6/5.0 | L10_RS: 4.6 | Barrel%: 8.4 | HardHit%: 36.2
+  - DET: Record 28-40 | L10: 6-4 | RunDiff: -20 | Home: 17-16 | RS/RA: 4.0/4.3 | L10_RS: 5.3 | Barrel%: 9.1 | HardHit%: 39.0
+Platoon Matchups:
+  - MIN vs RHP: Team wRC+ 95 | Key Linear Profiles: Jeffers (166), Buxton (155), Larnach (129)
+  - DET vs RHP: Team wRC+ 93 | Key Linear Profiles: Dingler (154), McGonigle (142), Greene (141)
+Starting Pitchers:
+  - Away (MIN): Zebby Matthews (RHP)
+    - Season: 30.1 IP | 4.15 ERA | 4.52 FIP | 3.00 xERA | 7.7 K/9 | 36.9 HH% | 12.3 Brl%
+    - Baseline Aggregate: 109.2 IP | 3.91 xFIP | 3.87 SIERA | 17.2% K-BB% | Stuff+: 100
+    - Form (L14): 11.1 IP | 5.03 xFIP | 5.07 SIERA | 7.2 K/9 | 4.8 BB/9
+    - Game Log (L3 IP/ER/K/BB): [6.0/3/6/1], [4.1/7/7/2], [7.0/2/2/4] | L3_ERA: 6.23
+  - Home (DET): Keider Montero (RHP)
+    - Season: 66.0 IP | 3.95 ERA | 4.16 FIP | 3.43 xERA | 6.0 K/9 | 42.6 HH% | 8.7 Brl%
+    - Baseline Aggregate: 124.0 IP | 4.69 xFIP | 4.66 SIERA | 10.4% K-BB% | Stuff+: 96
+    - Form (L14): 11.0 IP | 4.98 xFIP | 4.84 SIERA | 4.1 K/9 | 0.8 BB/9
+    - Game Log (L3 IP/ER/K/BB): [5.2/4/7/1], [6.0/0/4/0], [5.0/4/1/1] | L3_ERA: 4.32
+Bullpens:
+  - MIN Bullpen: Season ERA: 4.87 | Available High-Leverage Arms: 3 of 3 Fresh
+    - Yoendrys Gómez (R): 3.90 ERA | 22.4% K% | 5 SV | Usage L6: Wed[-], Tue[-], Mon[-], Sun[-], Sat[14p], Fri[-]
+    - Anthony Banda (L): 4.66 ERA | 21.1% K% | 1 SV | Usage L6: Wed[-], Tue[-], Mon[-], Sun[-], Sat[-], Fri[14p,H]
+    - Travis Adams (R): 7.43 ERA | 25.8% K% | 2 SV | Usage L6: Wed[-], Tue[-], Mon[-], Sun[-], Sat[-], Fri[16p,Sv]
+    - Taxed Arms (30+ pitches past 48hrs): None
+  - DET Bullpen: Season ERA: 4.61 | Available High-Leverage Arms: 0 of 1 Fresh
+    - Will Vest (R): 6.53 ERA | 25.3% K% | 1 SV | Usage L6: Wed[-], Tue[-], Mon[-], Sun[10p,W], Sat[-], Fri[18p]
+    - Tyler Holton (L): 4.40 ERA | 20.0% K% | 5 HLD | Usage L6: Wed[-], Tue[16p], Mon[-], Sun[9p], Sat[-], Fri[15p,H]
+    - Taxed Arms (30+ pitches past 48hrs): None
+  Environment & Park:
+  - Weather: 79.3°F, Overcast, Wind 10.1mph W, 3% Rain Risk
+  - Venue: Comerica Park | 3-Year Park Factor: 102 | HR Factor: 108 | Run Factor: 104
+  - Umpire: Not yet assigned
+
+---
+
+[ADD REMAINING CLEANED GAME BLOCKS FOLLOWING THIS EXACT SCHEMA]

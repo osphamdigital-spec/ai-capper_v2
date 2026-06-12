@@ -1,0 +1,162 @@
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Gilbert is strong, Rogers weak, but SEA offense vs LHP is below average and BAL's bullpen is terrible. Market price is close to fair with no meaningful gap.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Gallen struggling, Meyer excellent, but MIA bullpen heavily taxed. Market pricing appears to balance these factors. No actionable gap.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Tolle and Martinez both solid, but TB has team and bullpen edge. Line is close to fair, insufficient gap to bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Cole is a small-sample unknown, Cecconi mediocre, but NYY's offense is strong. Market line accurately reflects tight matchup.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Bradley better than Melton, but both teams weak and bullpens tired. MIN +117 is tempting but gap falls short of threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: LAD @ PIT
+PICK: PIT ML
+PRICE: -107
+UNITS: 1
+EDGE: 6.3 pts
+TOTAL LEAN: Over
+REASON: Skenes is an elite starter with huge edge over Lauer, whose xFIP is 4.65. LAD offense is strong but Skenes can neutralize; PIT bullpen is fresher. Market underprices PIT at near pick'em, creating a clear gap.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Wheeler and Cease are both aces, bullpens similar, line is near coin flip. No edge exists.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: May and Peralta both solid, teams comparable. Market line is accurate; slight lean to NYM not enough to bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: ATL @ CHW
+PICK: ATL ML
+PRICE: -152
+UNITS: 1
+EDGE: 5.7 pts
+TOTAL LEAN: Over
+REASON: Fedde is a well below-average starter (xFIP 5.31) facing an elite ATL offense (126 wRC+ vs RHP). ATL bullpen is far superior, and the run differential gap is massive. Market -152 implies only 60.3%, true probability closer to 66%.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: TEX @ KC
+PICK: TEX ML
+PRICE: -117
+UNITS: 1
+EDGE: 6.1 pts
+TOTAL LEAN: Over
+REASON: KC bullpen has a 22.24 ERA, making any close game a blowup risk. Eovaldi is a strong starter, and TEX has better overall form. Market -117 undervalues TEX given the massive bullpen disparity.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Coors Field with wind blowing out and two mediocre starters points to a high-scoring game, but side pricing reflects CHC's slight edge accurately. No bet.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Both starters overperforming peripherals, but bullpens are taxed and line is appropriate. No clear edge.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Burns is excellent, but SD's elite bullpen and Petco's pitcher-friendly park keep this close to fair value. CIN slight favorite is correct.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Houser is poor, Alvarez small-sample but promising. WAS offense decent, but both bullpens have fatigue. Line near pick'em, no gap.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Gasser is a small-sample liability, but MIL's elite offense and ATH's mediocre bullpen balance the scales. Market price reflects fair value.
+LOOKED UP: nothing, used provided data only
+
+---
+## PARLAY
+LEG 1: PIT ML -107
+LEG 2: TEX ML -117
+COMBINED PRICE: +259
+TRUE PROBABILITY ESTIMATE: 34.8%
+UNITS: 1
+REASON: Both legs have independent edge; PIT with Skenes against Lauer, TEX with bullpen mismatch. No correlation between NL and AL games.
+
+---
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE:

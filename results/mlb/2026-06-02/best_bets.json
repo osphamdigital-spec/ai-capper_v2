@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-02",
+  "sport": "mlb",
+  "graded_at": "2026-06-04T00:54:41Z",
+  "best_bets": [
+    {
+      "model": "chatgpt5.5",
+      "best_bet_raw": "SD ML +120 (3 units)",
+      "why_this": "The market appears to be pricing Aaron Nola closer to his historical reputation than his current-season performance. With San Diego holding the starting pitching edge and receiving a plus-money price, the gap between implied and estimated win probability is the largest on the board.",
+      "resolved_game": "SD @ PHI",
+      "resolved_pick": "SD ML",
+      "resolved_price": 120,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "deepseek",
+      "best_bet_raw": "ATL ML -123 (Game 7) for 3 units",
+      "why_this": "It combines the largest gap between my estimated win probability and the market implied odds with the highest team quality and run-differential dominance. The pitching matchup also supports Atlanta more than any other single-game edge on the slate.",
+      "resolved_game": "TOR @ ATL",
+      "resolved_pick": "ATL ML",
+      "resolved_price": -123,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.439
+    },
+    {
+      "model": "gemini",
+      "best_bet_raw": "CHW ML -118 (3 units)",
+      "why_this": "Davis Martin is pitching like a frontline ace (2.61 ERA, 1.11 WHIP) going up against Connor Prielipp (5.26 ERA, 1.35 WHIP), yet the White Sox are priced like a coin-flip favorite. The pricing gap between the true talent on the mound and the odds offered makes this the most glaring market inefficiency on the board.",
+      "resolved_game": "CHW @ MIN",
+      "resolved_pick": "CHW ML",
+      "resolved_price": -118,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "gpt-5.2-high",
+      "best_bet_raw": "CHW @ MIN \u2014 CHW ML -118 (3 units)",
+      "why_this": "It\u2019s the cleanest \u201cprice vs starting pitching\u201d mismatch on the slate, and the market is still offering a near-pick number despite a large gap in SP performance indicators. I did not look up or use any game outcomes; all analysis is strictly pre-game from the provided slate data.",
+      "resolved_game": "CHW @ MIN",
+      "resolved_pick": "CHW ML",
+      "resolved_price": -118,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "grok",
+      "best_bet_raw": "MIL -1.5 +160 (Game 9, 3 units)",
+      "why_this": "Harrison\u2019s dominance, Milwaukee\u2019s elite run differential, and San Francisco\u2019s terrible form create the largest mismatch on the entire slate. The plus-money run line converts the heavy ML into genuine overlay.",
+      "resolved_game": "SF @ MIL",
+      "resolved_pick": "MIL -1.5 +160",
+      "resolved_price": 160,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 4.8
+    },
+    {
+      "model": "kimi",
+      "best_bet_raw": "MIL -1.5 +118 (Game 9) \u2014 1 unit",
+      "why_this": "It combines the largest team-quality mismatch on the slate (Brewers +88 run diff vs Giants -62) with the best starting pitching advantage (Harrison 1.57 ERA vs McDonald 4.50 ERA), and we get plus money on Milwaukee to win by two or more at home. The gap in every metric is too wide for the market price.",
+      "resolved_game": "SF @ MIL",
+      "resolved_pick": "MIL -1.5 RL",
+      "resolved_price": 118,
+      "resolved_units": 1,
+      "result": "win",
+      "profit_units": 1.18
+    },
+    {
+      "model": "opus",
+      "best_bet_raw": "CHW ML -121, 3 units",
+      "why_this": "It pairs the most reliable starter edge on the slate (Martin's consistent 8-1, 2.61 against Prielipp's 5.26) with a team that's better by both record and run differential, at a cheap -121 \u2014 whereas SD carries Nola bounce-back risk, ATL's line is compressed by a good opposing starter, and MIL is a variance-heavy run line.",
+      "resolved_game": "CHW @ MIN",
+      "resolved_pick": "CHW ML",
+      "resolved_price": -121,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "qwen",
+      "best_bet_raw": "ATL -1.5 (+170)",
+      "why_this": "Atlanta is playing at an historic pace with a +110 run differential and Bryce Elder is pitching like an ace, making the plus-money on the run line against a mediocre Toronto team the single most mispriced bet on the board.",
+      "resolved_game": "TOR @ ATL",
+      "resolved_pick": "ATL -1.5",
+      "resolved_price": 170,
+      "resolved_units": 5,
+      "result": "loss",
+      "profit_units": -5.0
+    },
+    {
+      "model": "sonnet",
+      "best_bet_raw": "MIL -1.5 +118 \u2014 Game 9 (SF @ MIL), 3 units",
+      "why_this": "No other game on this slate combines a historic-level pitching advantage, a massive team-quality gap, the best home record among all favourites, and plus money on the run line simultaneously \u2014 MIL -1.5 at +118 (or +160 at BetMGM) prices a dominant team as an underdog to cover by two, which is a structural mispricing the other plays on this card cannot match.",
+      "resolved_game": "SF @ MIL",
+      "resolved_pick": "MIL -1.5",
+      "resolved_price": 118,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 3.54
+    }
+  ],
+  "summary": {
+    "wins": 4,
+    "losses": 5,
+    "record": "4-5 (44.4%)"
+  }
+}

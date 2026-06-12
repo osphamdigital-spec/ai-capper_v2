@@ -1,0 +1,111 @@
+{
+  "date": "2026-06-07",
+  "sport": "mlb",
+  "graded_at": "2026-06-08T06:26:00Z",
+  "best_bets": [
+    {
+      "model": "chatgpt5.5",
+      "best_bet_raw": "CHW ML (+149) \u2014 3 units",
+      "why_this": "Market is pricing Chicago almost entirely off Tyler Gilbert's tiny 2.2 IP sample. Team quality metrics (run diff, last-10 record) favour CHW, bullpen freshness favours CHW (2/3 vs 0/3), and the true line should be closer to -115/-120. Best mispricing on the slate.",
+      "resolved_game": "CHW @ PHI",
+      "resolved_pick": "CHW ML",
+      "resolved_price": 149,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "deepseek",
+      "best_bet_raw": "CLE @ TEX UNDER 7.5 (+100) \u2014 3 units",
+      "why_this": "deGrom on the mound in a pitcher-friendly park with two strong bullpens; estimated combined runs ~6.5 gives a 10-point gap against the posted total \u2014 the clearest edge on the slate.",
+      "resolved_game": "CLE @ TEX",
+      "resolved_pick": "UNDER 7.5 +100",
+      "resolved_price": 100,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "gemini",
+      "best_bet_raw": "HOU ML (-105) \u2014 1 unit",
+      "why_this": "Clearest structural edge on the slate \u2014 lethal 128 wRC+ platoon advantage against a young lefty starter (Gage Jump), with both a quantifiable lineup mismatch and a confirmed weak opposing starter. The -105 price offers positive expected value at estimated 54% win probability.",
+      "resolved_game": "ATH @ HOU",
+      "resolved_pick": "HOU ML",
+      "resolved_price": -105,
+      "resolved_units": 1,
+      "result": "loss",
+      "profit_units": -1.0
+    },
+    {
+      "model": "gpt-5.2-high",
+      "best_bet_raw": "Under 7.5 -118 (GAME: CLE @ TEX), 1 unit",
+      "why_this": "The pitcher-friendly park profile plus fresher Texas leverage (delta +2) supports late run suppression, and the total is not reliant on LOW-TRUST estimated splits to justify the edge.",
+      "resolved_game": "CLE @ TEX",
+      "resolved_pick": "Under",
+      "resolved_price": -118,
+      "resolved_units": 1,
+      "result": "loss",
+      "profit_units": -1.0
+    },
+    {
+      "model": "grok",
+      "best_bet_raw": "CHW ML (Game 3, 3 units)",
+      "why_this": "Largest verified gap (6 points) after mandatory bullpen freshness delta (+2 favoring underdog), BULLPEN FATIGUE RULE adjustment, and TEAM QUALITY CHECK with no downgrade; exceeds every other qualifying leg on independent factors of recent form and PHI's 0 fresh high-leverage arms.",
+      "resolved_game": "CHW @ PHI",
+      "resolved_pick": "CHW ML",
+      "resolved_price": 143,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "kimi",
+      "best_bet_raw": "WAS +113 (1 unit)",
+      "why_this": "WAS leads all three team-quality metrics, has the better starter by recent form (Cavalli last-14 xFIP 3.02 vs Soroka 3.77), and is offered at plus-money against a struggling AZ club that is 3-7 in its last 10 with a negative run differential.",
+      "resolved_game": "WAS @ AZ",
+      "resolved_pick": "WAS ML",
+      "resolved_price": 113,
+      "resolved_units": 1,
+      "result": "loss",
+      "profit_units": -1.0
+    },
+    {
+      "model": "opus",
+      "best_bet_raw": "TEX ML -140, 1 unit",
+      "why_this": "It's the only spot with a clean, explainable edge \u2014 an elite, in-form deGrom against an opposing starter whose control has visibly collapsed in his last two outings, in a run-suppressing park. The WAS dog edge is real but capped by their depleted bullpen; everything else is a fair price or a small lean.",
+      "resolved_game": "CLE @ TEX",
+      "resolved_pick": "TEX ML",
+      "resolved_price": -140,
+      "resolved_units": 1,
+      "result": "win",
+      "profit_units": 0.7143
+    },
+    {
+      "model": "qwen",
+      "best_bet_raw": "COL +1.5 (+104) for 3 units",
+      "why_this": "The combination of Coors Field inflation and an opposing starter (Drohan) whose xFIP is over 2.00 runs higher than his ERA creates a massive, quantifiable regression candidate. The market is overvaluing MIL based on ERA alone, giving us a 16-point probability gap on the run line.",
+      "resolved_game": "MIL @ COL",
+      "resolved_pick": "COL +1.5",
+      "resolved_price": 104,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "sonnet",
+      "best_bet_raw": "TEX ML (-139) \u2014 3 units",
+      "why_this": "deGrom's recent xFIP (2.42) and K-BB% (23.0%) represent the clearest starter-quality edge on the slate, paired with a confirmed structural liability in Cantillo (BB/9 10.5 in recent sample). Globe Life's pitcher-friendly environment reinforces the under-scoring environment that benefits deGrom. No other game on the slate combines an ace-level pitching advantage with a confirmed opponent starter collapse to this degree.",
+      "resolved_game": "CLE @ TEX",
+      "resolved_pick": "TEX ML",
+      "resolved_price": -139,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.1583
+    }
+  ],
+  "summary": {
+    "wins": 2,
+    "losses": 7,
+    "record": "2-7 (22.2%)"
+  }
+}

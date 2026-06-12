@@ -1,0 +1,91 @@
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: The home starter is listed TBD, which is a hard blocker — I can't price BAL's pitching half of the game without it. Hancock's 2.80 ERA also overstates him (FIP 3.72, xERA 4.15, xFIP 4.09), so even his side looks fairly valued near the offered -132. The total leans Over: Camden plays hot (106 runs / 115 HR), BAL's bullpen is a sieve (6.01 ERA), and combined RS/G points to ~9.0+ against a 8.5 line.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Both starters are lefties with respectable peripherals (Early SIERA 3.60; Seymour SIERA 3.26 but on just 31 IP and shown throwing 40 pitches in relief Tuesday, so opener/bulk usage is uncertain). BOS hits LHP well (aggregate 127) and TB is ice cold, but TB's strong home record and the Seymour usage confusion offset that into a near-pickem with no clean gap. Total leans Over: indoor 119-HR park and two shaky bullpens push my estimate to ~8.7 versus the 7.5 line.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: No lean
+REASON: NYY's offense (L10 6.6 RS/G, +96 run diff) dwarfs CLE on paper, but Warren's last-14 peripherals have collapsed (xFIP 6.15, BB/9 4.5) — a concrete reason his ERA edge is unreliable — while Williams is the steadier arm at home. That offset, plus CLE's cold bats and good bullpen, leaves no side gap worth betting at a near-pickem price. Total: pitcher-friendly park (92 runs) pulls my estimate to ~7.8, within 0.5 of the posted 7.5.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Under
+REASON: Sánchez is genuinely elite (FIP 1.79, xFIP 2.64) against a fading Corbin, but -180 already implies ~64% and my own estimate (~65%) sits right on it — fair. Pricing the run line independently: PHI's modest offense (4.0 RS/G) winning by 2+ against TOR's good bullpen is only ~45%, below the -105 break-even of ~51%, so the RL is negative value despite the prompt nudge. Total leans Under: Sánchez suppresses ~0.7 runs and both offenses are ordinary, netting ~7.6.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: HOU @ LAA
+PICK: Over 9.0
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Non-ERA signals all point up: Rodriguez walks the park (BB/9 5.2, xFIP 5.05, and [small sample] so no large stake), Arrighetti's 1.94 ERA is a mirage (xFIP 4.98, K-BB 8.0%), and both bullpens are gutted (HOU two taxed / 0 fresh, LAA three taxed / 0 fresh). L10 RS/G of 5.4 and 6.4 with Yordan and Trout in the lineups gives an estimate near 9.8 against a 9.0 line. I do lean HOU on the side (better lineup, wilder opposing arm), but that gap is only ~1.5 points — thin — so the total is the cleaner play.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: CIN @ SD
+PICK: Under 8.0
+PRICE: -109
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: Petco is the harshest pitcher park on the slate (88 runs factor) and both clubs are frozen — CIN 2-8 with L10 3.2 RS/G, SD 2-8 with L10 2.7 RS/G — feeding into a game where SD owns an elite bullpen (2.84, Mason Miller 49% K). On the side, CIN's Abbott actually edges Buehler by raw xFIP (4.49 vs 4.70), so the dog isn't clearly inferior, but Buehler's recent form and SD's pen pull CIN's win estimate to ~42%, under 3 points from the price — fair. Total estimate ~7.3 is a clean Under.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: No lean
+REASON: Webb's peripherals are excellent (xFIP 2.94) and dwarf Mikolas, who has not started since May 12 and grades poorly (FIP 5.90) — but SF -165 implies ~62% and my devigged WAS estimate (~39%) sits right on the dog price, so there's no edge to bet. Total: elevated RS/G figures collide with Oracle's suppression (96 runs, HR 83), a 17 mph wind, cool air, and Webb, netting ~8.0 — within 0.5 of the line.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## GAME: MIL @ ATH
+PICK: Under 11.0
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: The 11.0 line is inflated by Sutter Health's bandbox reputation (121 runs), but it underweights that Harrison is an elite strikeout arm (xFIP 3.16, K/9 11.5) and MIL's lineup is hollow against lefties — Springs is a LHP and MIL's vs-LHP profile is poor (aggregate 58, supporting context only but consistent with Frelick/Turang). My estimate is ~9.0-9.5; even crediting the park and 15 mph wind out, that is well under 11. I lean MIL on the side, but the high margin-of-victory variance the park flags keeps the side off the ticket.
+LOOKED UP: nothing, used provided data only.
+
+---
+
+## SLATE SUMMARY
+BEST BET: Under 8.0 (CIN @ SD), 1 unit
+WHY THIS ONE: It pairs the most extreme pitcher park on the board with two of the coldest offenses in baseball and an elite SD bullpen — the lowest-variance of my three totals edges, where the others lean on taxed pens (HOU/LAA) or a bandbox (MIL/ATH).

@@ -1,0 +1,189 @@
+## GAME 1: Seattle Mariners (SEA) @ Baltimore Orioles (BAL)
+
+* **Side Pick:** Seattle Mariners ML (**1 Unit** | Best Price: -126 at FanDuel)
+* **Total Lean:** Over 8.5
+
+### Value Analysis
+
+The market hasn't properly penalized Baltimore for their current pitching deficit. With the Orioles' starter listed as TBD, they are effectively forced into a full bullpen game today. This is disastrous for a relief unit carrying a 6.01 season ERA, especially with high-leverage arms like Yennier Cano heavily worked yesterday. Emerson Hancock gives Seattle a massive stability advantage, coming in with a sharp 3.66 SIERA over his last 14 days.
+
+### Totals Breakdown
+
+1. **Base Expected Runs:** (4.7 + 5.2 + 5.5 + 3.8) / 2 = **9.6 runs**
+2. **Park Factor Adjustment:** Camden Yards run factor (106) adds **+0.2 runs**
+3. **Starter Quality Adjustment:** Hancock is stable, but BAL running an unconfirmed opener/bullpen game adds **+0.4 runs**
+4. **Bullpen Tax Adjustment:** High-leverage usage yesterday for both teams adds **+0.4 runs**
+5. **Wind Adjustment:** 9.4 mph (Below the 12 mph threshold, no adjustment)
+
+* **Estimated Total:** 10.6 runs
+* **Line Gap:** **+2.1 runs** over the posted line of 8.5.
+
+---
+
+## GAME 2: Boston Red Sox (BOS) @ Tampa Bay Rays (TB)
+
+* **Side Pick:** Tampa Bay Rays ML (**1 Unit** | Best Price: +102 at Bovada)
+* **Total Lean:** Over 7.5
+
+### Value Analysis
+
+This is a classic "buy low" spot on a starter whose surface numbers hide an elite profile. Ian Seymour carries a 5.23 ERA, but his underlying metrics are stellar: a 3.22 xFIP and a dominant 23.0% K-BB%. Conversely, Boston’s Connelly Early is a glaring regression candidate, holding a shiny 3.26 ERA despite a fragile 4.62 FIP and xERA. Getting the home underdog with the mathematically superior starting pitcher is a clear edge.
+
+### Totals Breakdown
+
+1. **Base Expected Runs:** (4.9 + 4.5 + 3.9 + 4.1) / 2 = **8.7 runs**
+2. **Park Factor Adjustment:** Tropicana Field factor (106) adds **+0.2 runs**
+3. **Starter Quality Adjustment:** Seymour's elite 3.22 xFIP suppresses **-0.6 runs**
+4. **Bullpen Tax Adjustment:** None (Main high-leverage arms fresh)
+5. **Wind Adjustment:** Indoor dome (Not applicable)
+
+* **Estimated Total:** 8.3 runs
+* **Line Gap:** **+0.8 runs** over the posted line of 7.5.
+
+---
+
+## GAME 3: New York Yankees (NYY) @ Cleveland Guardians (CLE)
+
+* **Side Pick:** New York Yankees ML (**1 Unit** | Best Price: -102)
+* **Total Lean:** Over 7.5
+
+### Value Analysis
+
+The Yankees offense is absolutely scorching, putting up 6.6 runs per game over their last 10 contests. Will Warren has shown excellent command and peripheral safety indicators (3.27 FIP, 6.6% Barrel%), making him slightly more trustworthy than Gavin Williams, who is yielding a dangerous 48.6% Hard-Hit rate. At near even money, backing the red-hot Bronx bombers is the optimal play.
+
+### Totals Breakdown
+
+1. **Base Expected Runs:** (6.6 + 4.0 + 3.5 + 3.6) / 2 = **8.85 runs**
+2. **Park Factor Adjustment:** Progressive Field (92) subtracts **-0.5 runs**
+3. **Starter Quality Adjustment:** Both average out to neutral metrics
+4. **Bullpen Tax Adjustment:** Red Alert for NYY; Bednar, Cruz, and Headrick all threw yesterday, adding **+0.4 runs**
+5. **Wind Adjustment:** 9.3 mph (Below the 12 mph threshold)
+
+* **Estimated Total:** 8.75 runs
+* **Line Gap:** **+1.25 runs** over the posted line of 7.5.
+
+---
+
+## GAME 4: Philadelphia Phillies (PHI) @ Toronto Blue Jays (TOR)
+
+* **Side Pick:** Philadelphia Phillies -1.5 (**3 Units** | Best Price: -105)
+* **Total Lean:** Over 7.5
+
+### Value Analysis
+
+> **Heavy Favorite Strategy:** With Philadelphia's moneyline sitting at a costly -180, pivoting to the run line (-1.5) at near even money (-105) is the most efficient vector of attack.
+
+Cristopher Sánchez is performing like an absolute Cy Young contender, boasting a microscopic 1.46 ERA, a 1.79 FIP, and a staggering 0.41 ERA over his last three starts. He faces Patrick Corbin, whose 5.28 xERA and diminished 4.5 K/9 over the last fortnight offer zero resistance. Additionally, Toronto's back-end bullpen is fully exhausted with Varland and Rogers working consecutive days. Expect a blowout.
+
+### Totals Breakdown
+
+1. **Base Expected Runs:** (4.2 + 4.3 + 4.6 + 4.3) / 2 = **8.7 runs**
+2. **Park Factor Adjustment:** Rogers Centre outdoor environment adds **+0.2 runs**
+3. **Starter Quality Adjustment:** Sánchez suppresses **-0.8 runs**; Corbin adds **+0.3 runs**
+4. **Bullpen Tax Adjustment:** Toronto's exhausted late-inning arms add **+0.4 runs**
+5. **Wind Adjustment:** 9.4 mph (Below the 12 mph threshold)
+
+* **Estimated Total:** 8.8 runs
+* **Line Gap:** **+1.3 runs** over the posted line of 7.5.
+
+---
+
+## GAME 5: Houston Astros (HOU) @ Los Angeles Angels (LAA)
+
+* **Side Pick:** Los Angeles Angels ML (**1 Unit** | Best Price: +112 at BetUS)
+* **Total Lean:** Over 9.0
+
+### Value Analysis
+
+> **Small Sample Check:** Grayson Rodriguez is limited to an 18.0 IP sample size. His ERA (9.50) is highly volatile, but his non-ERA indicators show life (8.5 K/9, 5.05 xFIP). We cap this side bet at a standard 1 Unit.
+
+The real edge here is fading Houston's Spencer Arrighetti. He holds an unsustainable 1.94 ERA despite a dreadful 4.69 xERA, a 4.98 xFIP, and a tiny 8.0% K-BB% rate. He is a walking regression atomic bomb. The Angels offense has been highly energetic (6.4 RS/G over their last 10) and is primed to fully exploit Arrighetti's underlying flaws at a great underdog price.
+
+### Totals Breakdown
+
+1. **Base Expected Runs:** (5.4 + 5.2 + 6.4 + 5.0) / 2 = **11.0 runs**
+2. **Park Factor Adjustment:** Angel Stadium run factor (98) subtracts **-0.1 runs**
+3. **Starter Quality Adjustment:** Arrighetti and small-sample Rodriguez combine to add **+0.7 runs**
+4. **Bullpen Tax Adjustment:** Massive relief fatigue for both clubs adds **+0.4 runs**
+5. **Wind Adjustment:** 8.1 mph (Below the 12 mph threshold)
+
+* **Estimated Total:** 12.0 runs
+* **Line Gap:** **+3.0 runs** over the posted line of 9.0.
+
+---
+
+## GAME 6: Cincinnati Reds (CIN) @ San Diego Padres (SD)
+
+* **Side Pick:** San Diego Padres ML (**1 Unit** | Best Price: -135 at MyBookie.ag)
+* **Total Lean:** Under 8.0
+
+### Value Analysis
+
+Both offenses are utterly frozen right now, with Cincinnati averaging 3.2 runs over their last 10 and San Diego a dismal 2.7. The pitching matchup strongly favors the home side: Walker Buehler is quietly regaining his vintage form, flashing a sharp 3.63 xFIP and an elite 1.6 BB/9 over the last 14 days. Facing a weak Cincinnati split vs RHP (93 wRC+ aggregate) in the canyon of Petco Park, Buehler and an elite Padres bullpen (2.84 ERA) should lock this down.
+
+### Totals Breakdown
+
+1. **Base Expected Runs:** (3.2 + 4.0 + 2.7 + 5.1) / 2 = **7.5 runs**
+2. **Park Factor Adjustment:** Petco Park's extreme pitcher environment (88) subtracts **-0.6 runs**
+3. **Starter Quality Adjustment:** Buehler's strong upward trend subtracts **-0.2 runs**
+4. **Bullpen Tax Adjustment:** None
+5. **Wind Adjustment:** 6.2 mph (Below the 12 mph threshold)
+
+* **Estimated Total:** 6.7 runs
+* **Line Gap:** **-1.3 runs** below the posted line of 8.0.
+
+---
+
+## GAME 7: Washington Nationals (WAS) @ San Francisco Giants (SF)
+
+* **Side Pick:** San Francisco Giants ML (**3 Units** | Best Price: -155 at BetOnline.ag)
+* **Total Lean:** Over 8.0
+
+### Value Analysis
+
+This line is vastly mispriced. Logan Webb is a master of soft contact and groundballs at Oracle Park, entering with an elite 2.94 xFIP and a 19.0% K-BB%. On the other side, Miles Mikolas has been an unmitigated disaster, pounded to the tune of a 6.39 ERA, a 5.90 FIP, and a massive 11.4% Barrel%. Combined with a booming Giants offense scoring 6.8 runs per game over their last 10, SF should easily handle a bottom-tier starter.
+
+### Totals Breakdown
+
+1. **Base Expected Runs:** (4.8 + 4.8 + 6.8 + 5.3) / 2 = **10.85 runs**
+2. **Park Factor Adjustment:** Oracle Park (96) subtracts **-0.2 runs**
+3. **Starter Quality Adjustment:** Webb suppresses **-0.7 runs**; Mikolas gives up **+0.3 runs**
+4. **Bullpen Tax Adjustment:** San Francisco's key high-leverage arms are completely gapped out, adding **+0.5 runs**
+5. **Wind Adjustment:** 17.2 mph cross-wind at Oracle (Neutralized contextually)
+
+* **Estimated Total:** 10.75 runs
+* **Line Gap:** **+2.75 runs** over the posted line of 8.0.
+
+---
+
+## GAME 8: Milwaukee Brewers (MIL) @ Athletics (ATH)
+
+* **Side Pick:** Athletics ML (**3 Units** | Best Price: +140 at BetOnline.ag)
+* **Total Lean:** No Lean
+
+### Value Analysis
+
+This is the single best situational edge on the entire slate. Kyle Harrison has excellent surface numbers (1.57 ERA), but the Brewers lineup is historically atrocious against left-handed pitching this season, posting a dreadful, league-worst **58 wRC+ aggregate**. Conversely, the Athletics smash lefties (**118 wRC+ aggregate**).
+
+Furthermore, this game is being played at Sutter Health Park in Sacramento—an extreme launchpad with a astronomical **121 run factor**—accompanied by a 15.5 mph wind blowing straight out to right field. In an extreme environment where flyballs turn into home runs, backing a massive underdog that completely owns the platoon matchup creates an incredible mathematical edge.
+
+### Totals Breakdown
+
+1. **Base Expected Runs:** (7.0 + 4.9 + 3.8 + 3.6) / 2 = **9.65 runs**
+2. **Park Factor Adjustment:** Sutter Health Park's massive 121 run factor adds an extra **+1.2 runs**
+3. **Starter Quality Adjustment:** Harrison suppresses **-0.7 runs**; Springs adds **+0.2 runs**
+4. **Bullpen Tax Adjustment:** None
+5. **Wind Adjustment:** 15.5 mph wind blowing directly out to right field adds **+0.5 runs**
+
+* **Estimated Total:** 11.35 runs
+* **Line Gap:** **+0.35 runs** (Within the 0.5-run threshold; No Lean).
+
+---
+
+## 2-LEG MONEYLINE PARLAY
+
+* **San Diego Padres ML (-135)**
+* **San Francisco Giants ML (-155)**
+* **Parlay Odds:** +181 (**1 Unit**)
+
+> **Selection Logic:** Both home favorites feature distinct starting pitching advantages (Webb and Buehler) against bottom-tier opposing options (Mikolas and Abbott). Both lines independently present clear mathematical value, neither leg breaks the -180 restriction, and there is zero weather or division correlation between the two games.

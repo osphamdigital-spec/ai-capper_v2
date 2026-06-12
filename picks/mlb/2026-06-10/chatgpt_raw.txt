@@ -1,0 +1,151 @@
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: My fair price lands close to TB -145 after accounting for Rasmussen/Bennett and Tampa's big split edge vs LHP, so the market at roughly -141 is not far enough off. The counterweight is bullpen freshness: Boston has the fresher late arms, while TB has 0 of 3 high-leverage arms fresh, which trims the side below the 4-point gate. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: The prompt flags a 200+ cent move toward CLE and possible stale pitcher/lineup data, so this is an automatic no-bet without external verification. On raw numbers I make it a tight game anyway, and once the stale-data risk is included there is no trustworthy edge to publish. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Washington grades slightly better for me on starter form, overall team quality, and bullpen baseline, but the prompt also flags a 200+ cent move and lineups are still unconfirmed. That combination makes the side unclean, even though SF's bullpen profile remains a major weakness. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Singer is the worse starter and Cincinnati's bullpen is weaker, but San Diego's offense has been poor and owns just an 81 wRC+ split vs RHP here. Laying mid -150s with a cold lineup and a home starter who has also been hit lately is not enough edge. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: This game has another flagged 200+ cent move, so I will not trust the listed starter/lineup assumptions without verification. If the prompt data were fully clean, Seattle would merit attention, but with this much unexplained movement the right professional move is to pass. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Miami is effectively running a bullpen game with Gusto at 5.0 season IP, and Arizona does have the fresher bullpen, but the Diamondbacks' offense vs RHP is weak enough that I still do not clear the 4-point threshold. I make Arizona only a small favorite, so this is a pass rather than forcing a coin-flip side. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Minnesota has a TBD starter, so I cannot price the moneyline cleanly enough to bet into it. The total leans over because of the heat, Minnesota's strong split vs lefties, and two bullpens that do not inspire much late confidence. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Los Angeles is the better team, but this is mostly an Ohtani-driven price and the market already reflects that. With Jared Jones in a small sample and the Dodgers' own leverage bullpen not especially fresh, both the ML and RL look close to fair rather than mispriced. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: PHI @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Luzardo is the better current underlying starter, but Toronto's strong split vs lefties and a comparable bullpen keep Philadelphia from reaching a real pricing gap. My fair number sits near the current market, so there is no bet. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: STL @ NYM
+PICK: STL ML
+PRICE: +118
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL LEAN: No lean
+REASON: Estimated win probability: 51.0%. Implied probability at +118: 45.9%. Gap: 5.1 points. Fair price is roughly STL -104, and St. Louis has the better season profile in run differential and RS/G while Pallante is more likely than Warren to give stable 5-6 inning coverage; bullpen freshness is a net 0 here. Uncertainty flags are unconfirmed lineups and Warren's small sample, so this is capped at 1 unit.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Atlanta is clearly the stronger team, but Chicago has a TBD starter and I do not lay road chalk into that kind of unresolved pitching variable without confirmation. The total leans over because 7.5 is light for this weather setup, and a TBD arm adds run volatility even with Sale on the other side. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Texas has the better bullpen and overall team shape, but KC gets a meaningful platoon boost against a lefty and that keeps the side from clearing the minimum edge gate. I do not trust the Royals' bullpen, yet the posted 10 still looks a bit high unless the late innings fully break. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Chicago is the right team on paper, but Coors adds too much scoring and margin variance to force -165. With Imanaga in poor recent form, Lorenzen vulnerable all year, and both bullpens shaky, the total still points upward more than the side does. 
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: MIL @ ATH
+PICK: MIL ML
+PRICE: -104
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: Under
+REASON: Estimated win probability: 56.0%. Implied probability at -104: 51.0%. Gap: 5.0 points. Fair price is roughly MIL -127, and this is driven more by Milwaukee's team-strength edge in run differential, RS/G, recent offense, and the A's less-fresh bullpen than by the starting matchup alone; Perkins' underlying numbers are the market's best counterargument. Uncertainty flags are unconfirmed lineups and the extreme run environment at Sutter Health Park, so this stays 1 unit.
+LOOKED UP: nothing, used provided data only
+
+---
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The prompt flags another 200+ cent move and possible stale inputs, so I will not bet this side without independent confirmation. Houston's split edge vs lefties is obvious, but Detmers is the better starter and the market may be reacting to lineup news that is not in the sheet. 
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

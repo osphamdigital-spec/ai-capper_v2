@@ -1,0 +1,157 @@
+Good, I have the full Sonnet instruction context. Let me now work through the slate systematically.Now I have all the context I need. Let me analyze this slate carefully as Claude Sonnet with the full instruction set.
+
+**Key analysis notes before outputting:**
+
+**Game 1 (SEA @ BAL):** Hancock ERA 2.80 but FIP 3.72/xERA 4.15 — ERA-FIP gap is 0.92. K/9 8.9 is fine (above 7.0, supports ERA). BAL starter TBD. BAL bullpen ERA 6.01 is terrible. SEA bullpen 3.09. SEA -132 with TBD home starter and terrible BAL bullpen.
+
+**Game 4 (PHI @ TOR):** Cristopher Sánchez is elite — ERA 1.46, FIP 1.79, xERA 2.91, K/9 10.7, last-14 xFIP 1.92. K/9 is 10.7 — fully supports ERA. PHI -180 is heavy. Run line at -105 is very attractive. Corbin is a liability — xERA 5.28, last-14 xFIP 4.88, K/9 4.5 (below 7.0 — ERA 3.98 potentially unsustainable per Sonnet K/9 rule). PHI veto test: PHI run line has one of the best starters in baseball against a struggling arm with a declining K/9. Full-game variables: PHI run diff -19 (slight negative), but PHI 7-3 last10, Sánchez dominance. TOR run diff -13. Let me think about whether to bet the RL.
+
+**Game 8 (MIL @ ATH):** Kyle Harrison is exceptional — ERA 1.57, FIP 2.45, xERA 3.09, K/9 11.5 (very high), last-14 xFIP 2.45. Jeffrey Springs — ERA 4.37, FIP 4.97, xERA 3.87, but last 3: Jun 3 = 3.2 IP 4 ER, L3 ERA 6.00 — terrible recent form. MIL 40-23, +105 run diff, L10 7-3, L10 RS/G 7.0. ATH 31-34, -43 run diff, L10 4-6, L10 RS/G 3.8. MIL -1.5 at -105 is highly attractive. MIL bullpen ERA 2.92 vs ATH 3.34. BUT: both bullpens taxed on ATH side (Elvis Alvarado, José Suarez). Park factor 110 — hitter-friendly environment, high-scoring variance noted. MIL batting vs LHP wRC+ 58 — this is extremely weak! ATH batting vs LHP wRC+ 118 and Shea Langeliers 191. This is a big problem for MIL vs Springs... but Harrison is the key differential. Harrison's dominance + Springs' collapse vs MIL's wRC+ 58 vs LHP is complicated. ATH hits LHP well (118 wRC+) vs Harrison (LHP). This is a real concern.
+
+**Game 7 (WAS @ SF):** Mikolas ERA 6.39/FIP 5.90/xERA 5.31, last-3 data is stale (May 12 most recent start). Logan Webb ERA 4.25 but FIP 3.42, xERA 4.41, season xFIP 2.94 — excellent underlying metrics. SF -165 is expensive. WAS +140 with +4 run diff, 33-33. Webb last start: Jun 3 7.0 IP 0 ER. Veto test for WAS +140: variables for WAS — plus-money pricing, +4 run diff, 5.3 RS/G, 21-13 away record. Variables for SF — Webb (excellent), home field. Webb is elite and covers 6-7 innings. But SF bullpen ERA 5.60 is bad; SF 27-39, -48 run diff, L10 5-5. WAS is a stronger team overall. At +140, this could have genuine value. WAS 21-13 away is impressive. But Mikolas is a genuine liability — xFIP 4.76, ERA 6.39, and his data is stale (last start May 12 — 26 days ago, possibly been on IL or had starts that aren't loading).
+
+**Game 2 (BOS @ TB):** TB 37-25 but L10 3-7, L10 RS/G 3.9. Ian Seymour — only 1 start shown (May 15, 2 IP), effectively a TBD. Treat TB as bullpen game. BOS -118 seems fair given TB's cold streak and bullpen game situation. Connelly Early ERA 3.26 but FIP 4.62/xERA 4.62 — ERA-FIP gap. K/9 8.5 (fine). BOS 27-36, terrible record. This is tricky.
+
+**Game 3 (NYY @ CLE):** Will Warren ERA 3.22, FIP 3.27, xERA 3.33 — all aligned, good pitcher. But last-14 xFIP 6.15 is alarming — K/9 dropped to 6.0 (below 7.0 per Sonnet rule, ERA potentially unsustainable recently). Gavin Williams ERA 3.20, FIP 3.54, xERA 4.09. NYY 38-26, +96 run diff, L10 RS/G 6.6 (hot). CLE 37-30, +1 run diff. The CLE line (-115) with Williams pitching and NYY hot offense is interesting. NYY -102 might have edge too.
+
+**Game 5 (HOU @ LAA):** Arrighetti ERA 1.94 but FIP 4.18, xERA 4.69 — massive ERA-FIP gap. xFIP 4.98, K/9 8.1 (fine). Rodriguez [small sample] — ERA 9.50, xFIP 5.05, but last start Jun 2: 3.2 IP 7 ER. HOU -125 with Arrighetti's massive ERA-FIP gap is risky per Sonnet rules. LAA +108 is interesting — Rodriguez is terrible and small sample. But HOU bullpen has Nate Pearson/Alimber Santa taxed, 0 of 3 fresh. LAA bullpen also 0 of 3 fresh with taxed arms. Pass likely.
+
+**Game 6 (CIN @ SD):** Both teams 2-8 last10. Petco is pitcher-friendly (94 park factor). Abbott FIP 4.79/xERA 4.88 vs ERA 4.06. Buehler FIP 3.50 better than ERA 4.53. SD -139 seems fair. Under looks interesting at Petco with both teams cold offensively (CIN L10 RS/G 3.2, SD L10 RS/G 2.7).
+
+Now let me construct the picks:
+
+**Best bets identified:**
+1. PHI -1.5 (-105) — Sánchez elite, Corbin declining, near even-money run line
+2. MIL ML -159 to -154 (or -1.5 at -105) — Harrison dominant, Springs collapsing, but MIL wRC+ 58 vs LHP is a major concern for the run line
+3. Under CIN/SD 8.0 — both teams ice cold offensively, Petco pitcher-friendly
+
+For MIL run line: veto test. For the run line, I need P(win by 2+) independent of P(win). Harrison is elite. Springs L3 ERA 6.00, Jun 3 gave up 4 ER in 3.2 IP. MIL L10 RS/G 7.0 (very hot). BUT MIL wRC+ 58 vs LHP — Harrison is LHP pitching for MIL (away), Springs is LHP pitching for ATH (home). MIL BATTING vs LHP = 58 wRC+. ATH BATTING vs LHP = 118 wRC+. So MIL will face Springs (LHP) and ATH will face Harrison (LHP). MIL is terrible against LHP (wRC+ 58). ATH is very good against LHP (118, Langeliers 191). This materially affects the run line. I'll bet MIL ML but not the run line — the platoon disadvantage for MIL's offense vs Springs' handedness is a real structural concern. MIL still wins because Harrison is far better than Springs, but the run line has legitimate uncertainty.
+
+Actually wait — MIL -1.5 at -105 is almost even money. Given Harrison's dominance and Springs' recent collapse, even with the wRC+ 58 concern, MIL's L10 RS/G 7.0 suggests they're scoring runs. The wRC+ is season aggregate. I'll note it as a concern but lean toward MIL ML rather than RL.
+
+For PHI -1.5: Sánchez is lights-out. Corbin K/9 4.5 (below 7.0 — Sonnet rule flags ERA as potentially unsustainable, reduce by one tier). PHI run diff -19, RS/G 4.0. TOR RS/G 4.1, last-10 RS/G 4.6. TOR's run diff -13 vs PHI -19 — essentially equal teams quality-wise. But Sánchez vs Corbin is a massive SP mismatch. PHI veto for run line: what happens if Sánchez exits after 5? PHI bullpen ERA 3.68, Jhoan Duran at 1.31 ERA — solid. TOR bullpen ERA 3.85 with Louis Varland at 0.26 ERA — also solid but taxed (0 of 3 fresh). PHI bullpen also 0 of 3 fresh. The bullpen situation is symmetrical and taxed on both sides. Run line requires P(win by 2+). Sánchez's last 3: 8 IP 0 ER, 7 IP 0 ER, 7 IP 1 ER — he routinely goes deep. This game could be 5-1 PHI easily. PHI -1.5 at -105 is excellent value. 1-unit bet.
+
+**Final picks summary:**
+- PHI -1.5 (-105): 1 unit — Sánchez elite vs Corbin declining K/9
+- MIL ML (-154 best): 1 unit — Harrison dominant, Springs collapsing, but wRC+ mismatch prevents RL
+- CIN/SD Under 8.0: 1 unit — both teams ice cold, Petco pitcher-friendly, both offenses suppressed L10
+- SEA ML (-132): 1 unit — Hancock solid (K/9 8.9 supports ERA), BAL starter TBD, BAL bullpen ERA 6.01 catastrophic
+
+Wait on SEA: BAL starter TBD with 6.01 bullpen ERA. SEA bullpen 3.09. SEA -132 is fair pricing for this advantage. Veto test: variables for SEA — Hancock solid, BAL TBD/bullpen game, SEA better bullpen, SEA L10 7-3, SEA better overall. Variables against — SEA -132 is paying up, BAL home. Multiple full-game variables favor SEA. 1 unit.
+
+Let me also check Game 7 WAS @ SF more carefully. WAS +140 with Mikolas whose last start was May 12 — that's 27 days ago, very stale. He may have been on IL. His recent starts in April/May show ERA 6.39. Webb is excellent (xFIP 2.94, season). SF bullpen ERA 5.60 is terrible. But Webb typically goes 6-7 innings. After Webb exits, SF bullpen is weak. WAS 21-13 away. WAS 5.3 RS/G (strong offense). SF -165 seems steep for a 27-39 team with a 5.60 bullpen ERA. WAS +140 veto test: Variables for WAS — plus-money, strong RS/G (5.3), excellent away record (21-13), SF terrible run diff (-48), SF bad bullpen (5.60 ERA). Variables against — Webb (elite), home field. Webb governs 6-7 innings. SF bullpen governs 2-3 innings. WAS's offense (5.3 RS/G) is real. 3 full-game variables (team quality, RS/G, SF bullpen) vs 1 partial-game variable (Webb). Per veto rule, this should be a 1-unit bet. WAS +140 (or +143 at BetRivers).
+
+But Mikolas concerns me — ERA 6.39, FIP 5.90, stale data. WAS will likely score runs off Mikolas but still need to hold a lead. The Sonnet RS/G rule: SF scores 4.1 RS/G (below 4.8 threshold) and run diff -48 (below +50 threshold), so no downgrade needed for that direction. WAS +140 is legit.
+
+Let me revise my picks:
+- PHI -1.5 (-105): 1 unit
+- MIL ML (-154): 1 unit  
+- Under CIN/SD 8.0: 1 unit
+- SEA ML (-132): 1 unit — or maybe LEAN given the price
+- WAS ML (+140/+143): 1 unit — veto test passes
+
+For SEA at -132, the value is real but the price is full. I'll bet it at 1 unit — Hancock K/9 8.9 supports his ERA, BAL bullpen ERA 6.01 is catastrophic, TBD starter means effectively a bullpen game for Baltimore. SEA -132 is justified.
+
+Best bet: PHI -1.5 (-105) — near even-money run line with one of the best starters in baseball vs a declining arm.
+
+## GAME: SEA @ BAL
+PICK: SEA ML -132
+PRICE: -132
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: Hancock (K/9 8.9, FIP 3.72, xERA 4.15 — ERA-FIP gap noted but K/9 supports run prevention) faces a Baltimore lineup without a confirmed starter, effectively making this a bullpen game against a BAL bullpen with a catastrophic 6.01 ERA. SEA's bullpen ERA is 3.09. The pitching and bullpen differential is substantial at a manageable price. BAL has strong individual bats (Rutschman 149, Basallo 147) but their 31-35 record and -31 run diff reinforce SEA's overall edge. Under lean: Hancock's quality combined with BAL's TBD/bullpen scenario in a warm, clear night — estimated runs roughly 7.5-8.0 vs posted 8.5, lean Under but line price is unfavorable at -100.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: BOS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: No lean
+REASON: TB's 37-25 record masks a brutal 3-7 last-10 slide with L10 RS/G of 3.9, and Ian Seymour has only 1 logged start (2.0 IP May 15) making this effectively a Tampa bullpen game. BOS is 27-36 with a poor road record despite a decent L10 RS/G of 4.9. Early's ERA 3.26 is not supported by FIP 4.62/xERA 4.62 — a significant gap — but K/9 8.5 provides some stability. Both teams have structural weaknesses and neither side offers clear edge at near-even pricing.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: THIN
+TOTAL LEAN: Under
+REASON: Will Warren's last-14-day xFIP of 6.15 with K/9 dropping to 6.0 (below 7.0 threshold — ERA potentially unsustainable per K/9 sustainability check) is a significant concern, but NYY are -102 which barely offers value even if Warren struggles. Gavin Williams has better recent metrics (xFIP 3.86 last 14) but his Jun 3 start of 5.1 IP 3 ER showed some vulnerability. NYY's +96 run diff and L10 RS/G 6.6 are elite but the pricing doesn't offer edge. Under lean: CLE park factor 92 runs, both starters project to moderate-to-weak performances, but CLE offense is also cold (L10 RS/G 3.5) — total likely near 7.0-7.5 vs posted 7.5, no lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: PHI -1.5 -105
+PRICE: -105
+UNITS: 1
+EDGE: STRONG
+TOTAL LEAN: Under
+REASON: Cristopher Sánchez is operating at an elite level — ERA 1.46, FIP 1.79, xERA 2.91, K/9 10.7, and his last-14 xFIP of 1.92 confirms the underlying metrics support his ERA. Corbin's K/9 has dropped to 4.5 (below 7.0 — ERA flagged as potentially unsustainable) and his last-14 xFIP is 4.88, rising, with Jun 3 showing 5 IP 4 ER. Sánchez's last three starts: 8 IP 0 ER, 7 IP 0 ER, 7 IP 1 ER — he routinely pitches deep, reducing bullpen dependence on a run line. PHI bullpen ERA 3.68 (Duran 1.31) holds up after Sánchez exits. TOR's 0-of-3 fresh high-leverage arms adds late-inning risk for them. If Sánchez exits after 5 innings, PHI's pen is capable of protecting a lead. P(win by 2+): given Sánchez's recent dominance vs Corbin's recent deterioration, I estimate PHI wins by 2+ in roughly 52-55% of scenarios — sufficient for a near-even-money run line. Under lean: Sánchez's elite suppression and Corbin's weak K/9 in a neutral park (Rogers Centre ~102 factor) — estimated total 6.5-7.0 vs posted 7.5, lean Under.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Arrighetti's ERA 1.94 has a massive FIP gap (4.18) and xERA (4.69) — this ERA is not sustainable by any underlying metric, with xFIP 4.98. Rodriguez [small sample, 18 IP] gave up 7 ER in 3.2 IP his last start and projects as a liability. Both bullpens are taxed (0 of 3 fresh arms each side, multiple pitchers used in last two days). The severe ERA-FIP gap on Arrighetti means laying -125 on Houston is poor value — his ERA will regress toward 4.50+ and the price doesn't compensate. LAA +108 is tempting given Rodriguez's meltdown but HOU's offense is stronger overall. Over lean: two struggling starters, taxed bullpens both sides, warm weather, hitter-friendly park factor (HR 105) — estimated total 9.5-10.0 vs posted 9.0, lean Over.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: Under 8.0 -109
+PRICE: -109
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: Both teams are experiencing severe offensive droughts — CIN L10 RS/G 3.2, SD L10 RS/G 2.7. Petco Park is one of the most pitcher-friendly parks in baseball (park factor 94, runs 88 — 12% suppression vs league average). Buehler's FIP 3.50 is better than his ERA and his last-14 xFIP 3.63 confirms recent improvement. Abbott's ERA 4.06 conceals a FIP 4.79/xERA 4.88 gap but his K/9 6.2 means some contact luck; in a pitcher-friendly park, that plays as suppression. Estimated runs: (3.2 + 4.0 + 2.7 + 5.1) / 2 = 7.5 using L10 RS/G and season RA/G; park factor of 88 reduces this to approximately 6.6-7.0. Posted total of 8.0 overstates expected scoring by roughly 1 run. Both bullpens have taxed arms (CIN: Chris Paddack taxed; SD: Ron Marinaccio taxed) but this is symmetric. SD bullpen ERA 2.84 is elite and would suppress late scoring. Clear Under.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: WAS ML +140
+PRICE: +140
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Applying veto test — variables favouring WAS: (1) SF 27-39 with -48 run differential (full-game), (2) SF bullpen ERA 5.60 (full-game, governs late innings), (3) WAS superior RS/G 5.3 vs SF 4.1 (full-game), (4) WAS 21-13 away record (full-game), (5) Mikolas is a liability (ERA 6.39, FIP 5.90, xERA 5.31, last start May 12 — 27 days ago, possibly returning from IL). Variables against: Webb (elite xFIP 2.94, covers 6-7 innings — partial game). Worst-case stress test on the Webb risk: Webb goes 7 innings shutting down WAS's offense. Even in that scenario, SF's bullpen ERA 5.60 means WAS still has opportunities in innings 7-9 against inferior arms — the bullpen differential alone (4.18 vs 5.60 ERA) plus WAS's 5.3 RS/G supports plus-money value. Four full-game variables favour WAS at +140 vs one partial-game variable for SF. This passes the veto test. Mild Over lean: Mikolas' 6.39 ERA in a neutral park (98 factor), WAS offense capable — estimated total 8.5-9.0 vs posted 8.0, lean Over.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: MIL ML -154
+PRICE: -154
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Kyle Harrison is on an elite run — ERA 1.57, FIP 2.45, xERA 3.09, K/9 11.5 (fully supports ERA), last-14 xFIP 2.45, last 3 starts: 7 IP 0 ER, 6 IP 0 ER, 5.2 IP 1 ER — consistent dominance. Jeffrey Springs has collapsed: L3 ERA 6.00, June 3 gave up 4 ER in 3.2 IP. Noting structural concern: MIL's wRC+ vs LHP is 58 (season aggregate) while ATH's wRC+ vs LHP is 118 (Langeliers 191) — this creates real uncertainty on the run line. However, MIL's L10 RS/G of 7.0 demonstrates they are scoring runs regardless of handedness split, and Harrison's excellence means this game's run environment is primarily controlled by him. Choosing ML over RL: the platoon disadvantage against Springs is a genuine concern — ATH hits LHP well and could keep this close. MIL ML at -154 prices correctly for a strong team with elite pitching. Both bullpens are taxed on ATH's side. Over lean: Sutter Health Park factor 110 (runs 121, very hitter-friendly), Springs recent collapse, ATH's strong LHP performance — combined with MIL's hot offense, estimated total 11.5-12.0 vs posted 11.0, lean Over.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## PARLAY
+LEG 1: PHI -1.5 -105
+LEG 2: WAS ML +140
+COMBINED PRICE: approximately +215
+TRUE PROBABILITY ESTIMATE: 38-40% (roughly 52% × 73% adjusted)
+UNITS: 1
+REASON: PHI -1.5 is independently identified as the strongest single play — Sánchez's elite form vs Corbin's deteriorating K/9 at near-even money on the run line. WAS ML is independently identified as strong value at +140 with four full-game variables supporting the underdog. These games are not correlated — different divisions (NL East vs NL West), different coasts, no shared travel patterns, no weather correlation (Toronto vs San Francisco). Neither leg is shorter than -180. Combined payout of approximately +215 offers value given the independent edge on both legs.
+
+---
+
+## SLATE SUMMARY
+BEST BET: PHI -1.5 (PHI @ TOR), 1 unit
+WHY THIS ONE: Cristopher Sánchez's elite metrics (FIP 1.79, xFIP 2.64, K/9 10.7, L3 ERA 0.41) against Patrick Corbin's deteriorating profile (K/9 4.5, last-14 xFIP 4.88, Jun 3: 4 ER in 5 IP) at near-even-money pricing on the run line is the clearest edge on the slate — the starting pitcher gap is one of the widest available, the price is efficient, and Sánchez's depth of starts (7-8 IP routinely) reduces bullpen dependence on a -1.5 line.

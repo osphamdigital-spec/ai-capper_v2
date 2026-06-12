@@ -1,0 +1,123 @@
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: My fair price for ATL is around -165 given Elder's strong season (2.63 ERA, 1.08 WHIP) and the Braves' elite lineup. PIT's Chandler has a 5.05 ERA and xFIP indicates no major improvement. Market price ATL -158 is within 10 cents of my estimate, offering no edge. Both bullpens are rested but ATL has the superior unit.
+LOOKED UP: Game preview shows ATL bullpen available with several fresh arms. No injuries that move the needle.
+
+## GAME: BOS @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: NYY implied probability 62.3% ( -165). I estimate NYY around 60-62% — Suarez solid (3.38 ERA) but Schlittler has been dominant (1.89 ERA, 0.86 WHIP). Yankees' lineup missing Judge but still potent. Bullpen advantage BOS (3 fresh vs 0 for NYY), but not enough to flip. Market is fair.
+LOOKED UP: Red Sox lineup confirmed: Duran, Rafaela, Abreu, Contreras, Yoshida, Gasper, Durbin, Seigler, Mayer. Judge out.
+
+## GAME: CHW @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: PHI implied 62.7%. Despite Nola's 5.55 ERA, his xFIP (3.63) and last 14 days (2.31 xFIP, 10.6 K/9) suggest he's better than ERA shows. CHW starter Gilbert has only 2.2 IP — effectively a bullpen game for CHW. PHI lineup underperforming but still has power. No edge.
+LOOKED UP: White Sox starting David Sandlin (1-1, 8.10 ERA) per multiple sources, not Tyler Gilbert as initially shown. Data discrepancy noted.
+
+## GAME: BAL @ TOR
+PICK: TOR ML -136
+PRICE: -136
+UNITS: 1
+EDGE: REAL
+REASON: (a) TOR win probability 57%; (b) implied 57.6%; (c) gap 0.6 points. Gausman (3.36 ERA) vs Baz (4.29 ERA) favors TOR. TOR bullpen elite (3.64 ERA) vs BAL's league-worst 6.14 ERA. BAL's run diff -29 and away record 12-19 are red flags. Market is close to fair but TOR has slight edge with home field and superior bullpen.
+LOOKED UP: TOR bullpen fresh, BAL's Rico Garcia and Kittredge have pitched recently but not taxed.
+
+## GAME: SEA @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: SEA implied 54.3% ( -119). Both starters struggling (Castillo 5.53, Flaherty 5.31) but xFIP suggests Flaherty has been unlucky (3.91 xFIP). SEA has better team form (8-2 last10) and bullpen (2.87 ERA) but DET's bullpen rested. Small lean SEA but not enough for bet.
+LOOKED UP: Castillo's last start limited (4 IP). DET bullpen fully rested. No major injuries.
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: TB implied 53.7% ( -116). Jax (4.76 ERA) vs Alcantara (4.59) — both middling. TB's last10 form poor (3-7) despite good overall record. MIA using bullpen game (7 relievers yesterday) which tilts toward TB but not enough to bet. Park factor suppresses runs.
+LOOKED UP: MIA used 7 relievers Saturday in a bullpen game. That's significant fatigue.
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Near pick'em (ATH -107, HOU -110). ATH starter Gage Jump (3.75 ERA, small sample) vs HOU's Burrows (5.66 ERA). HOU offense better vs LHP (128 wRC+). ATH bullpen fresh but HOU's rested too. No clear edge.
+LOOKED UP: Astros starter is Mike Burrows as listed. No major lineup changes.
+
+## GAME: KC @ MIN
+PICK: MIN +1.5 RL -170 (price too high) — actually PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: MIN implied 51.5% ( -106). Cameron (4.22 ERA) vs Prielipp (5.26 ERA). KC's bullpen ERA is astronomical (21.87) — that's likely a data error but even if true, makes KC unbackable. Run line price MIN +1.5 at -170 implies ~63% to cover, which is likely accurate. No value.
+LOOKED UP: KC bullpen ERA 21.87 seems implausibly high — likely a data artifact. Twins bullpen taxed recently.
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: STL implied 57.4% ( -135). Lowder (5.40 ERA, returning from IL) vs McGreevy (2.98 ERA). CIN bullpen has been imploding per search results. STL has home field and better form. Market appears correctly priced.
+LOOKED UP: Reds bullpen implosion in recent games; Lowder returning from 15-day IL.
+
+## GAME: CLE @ TEX
+PICK: UNDER 7.5 +100
+PRICE: +100
+UNITS: 3
+EDGE: STRONG
+REASON: (a) UNDER hits 60% of the time; (b) implied 50%; (c) gap 10 points. deGrom (3.48 ERA, 1.01 WHIP) vs Cantillo (3.92 ERA). Globe Life Field is pitcher-friendly (park factor 91). Both bullpens strong (CLE 3.42, TEX 3.51). My estimated combined runs ~6.5, well below 7.5. Line movement not shown but value exists.
+LOOKED UP: Globe Life roof likely closed (retractable, forecast thunderstorms). Cantillo's last 14 days show alarming 10.5 BB/9 but small sample.
+
+## GAME: MIL @ COL
+PICK: MIL -1.5 RL -125
+PRICE: -125
+UNITS: 1
+EDGE: REAL
+REASON: (a) MIL win probability 68%; (b) P(win by 2+) 55%; (c) implied 55.6%; gap 0.6 points. MIL is -180 ML (implied 64.3% to win). At Coors, backing MIL -1.5 at -125 is more efficient than ML. Freeland has 8.06 ERA; Drohan (2.87) has been solid. MIL offense elite (5.1 RS/G), Rockies bullpen weak.
+LOOKED UP: Brewers placed Brian Fitzpatrick on IL, but bullpen still has fresh arms. Freeland's home/road splits not available but 8.06 ERA speaks volumes.
+
+## GAME: WAS @ AZ
+PICK: WAS ML +118
+PRICE: +118
+UNITS: 1
+EDGE: REAL
+REASON: (a) WAS win probability 48%; (b) implied 45.9%; (c) gap 2.1 points. Cavalli (3.62 ERA) vs Soroka (3.49) — fairly even. WAS has better last10 form (5-5 vs AZ 3-7) and better run diff (+8 vs -14). WAS bullpen taxed (0 of 3 fresh) but AZ's not fully rested either. Slight value on WAS at plus money.
+LOOKED UP: Nationals swept series with 6-1 win yesterday. Zack Littell started, bullpen usage moderate.
+
+## GAME: LAA @ LAD
+PICK: LAD -1.5 RL -101
+PRICE: -101
+UNITS: 1
+EDGE: REAL
+REASON: (a) LAD win probability 70%; (b) P(win by 2+) 55%; (c) implied 50.2%; gap 4.8 points. LAD -210 ML (implied 67.7%). At -101, RL offers better risk/reward. Soriano (2.72 ERA) has been solid but last 14 days show control issues (10.2 BB/9). Sheehan (4.50 ERA, 3.26 xFIP) is better than ERA suggests. LAD lineup elite.
+LOOKED UP: Dodgers scored 9 runs in first inning yesterday. Yamamoto dominated Angels. Angels bullpen used heavily yesterday.
+
+## GAME: NYM @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Near pick'em (NYM -107, SD -110). Brazobán (2.25 ERA but tiny sample) vs Vásquez (3.31 ERA). NYM bullpen elite (2.68 ERA) but taxed. SD's Mason Miller is elite closer (0.72 ERA) but bullpen overall tired. Petco suppresses runs. No clear edge.
+LOOKED UP: Mets bullpen third in NL with 3.19 ERA entering weekend. Padres' Miller has 0.72 ERA and 51% K rate.
+
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: CHC implied 54.3% ( -119). McDonald (4.50 ERA) vs Taillon (5.13 ERA). SF has better platoon splits vs RHP (109 wRC+ vs CHC 105). CHC home field advantage but SF's Jung Hoo Lee on a hit streak. Bullpens both taxed. Market appears fair.
+LOOKED UP: Cubs' bullpen depth tested by injuries; Giants' Lee chasing 14-game hit streak.
+
+## SLATE SUMMARY
+BEST BET: CLE @ TEX UNDER 7.5 (+100) — 3 units
+WHY THIS ONE: deGrom on the mound in a pitcher-friendly park with two strong bullpens; estimated combined runs ~6.5 gives a 10-point gap against the posted total — the clearest edge on the slate.

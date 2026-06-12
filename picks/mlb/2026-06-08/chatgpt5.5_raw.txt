@@ -1,0 +1,109 @@
+## GAME: SEA @ BAL
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Seattle has the better bullpen and Hancock has been effective, but Baltimore's starter is still TBD, which is a material uncertainty. My rough fair line is SEA -125, essentially matching the market. Total projects around 9.2 runs with warm weather, a favorable run environment, and Baltimore's weak season-long bullpen.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: BOS @ TB
+
+PICK: BOS ML
+PRICE: -112
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Boston owns a substantial platoon advantage versus left-handed pitching and Connelly Early's underlying metrics are stronger than his ERA estimators suggest. Ian Seymour has promising peripherals but remains a limited-sample arm with workload uncertainty. My fair line is closer to BOS -125.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+
+PICK: NYY ML
+PRICE: -102
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: The Yankees have the superior offense, far better run differential, and a starting pitching matchup that is close to even despite Gavin Williams' recent form. My fair line is NYY -115. Progressive Field suppresses offense and both bullpens remain strong enough to support a slight under lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+
+PICK: PHI -1.5 RL
+PRICE: -105
+UNITS: 3
+EDGE: STRONG
+TOTAL LEAN: Under
+REASON: Cristopher Sánchez has been one of the best starters on the slate and Philadelphia also holds the bullpen edge. My fair moneyline is around PHI -220 and the run line price is more attractive than laying heavy juice. The main uncertainty is unconfirmed lineups, but the edge is not driven solely by starting pitching.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Arrighetti's ERA is dramatically outperforming his underlying indicators while Grayson Rodriguez remains a small-sample, high-variance arm. Both starters carry significant uncertainty and the market appears close to fair. Offensive conditions point toward roughly 9.7 expected runs.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+
+PICK: SD ML
+PRICE: -135
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: San Diego gets the better bullpen by a wide margin and Petco Park suppresses scoring. Walker Buehler's recent underlying form has improved, while Cincinnati enters on poor recent form with a vulnerable relief corps. My fair line is around SD -150.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+
+PICK: SF ML
+PRICE: -155
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Under
+REASON: Logan Webb's underlying metrics remain far stronger than his ERA and he draws an excellent matchup against Miles Mikolas. Oracle Park conditions include strong wind and a pitcher-friendly environment. My fair line is approximately SF -175.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+
+PICK: MIL ML
+PRICE: -154
+UNITS: 1
+EDGE: REAL
+TOTAL LEAN: Over
+REASON: Milwaukee owns major advantages in team quality, run differential, bullpen performance, and recent form. Kyle Harrison has been outstanding, but the Athletics profile well against lefties, preventing a larger stake. The hitter-friendly Sacramento environment supports an over lean near 11.7 projected runs.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## PARLAY
+
+LEG 1: PHI ML -177
+LEG 2: SD ML -135
+COMBINED PRICE: +182
+TRUE PROBABILITY ESTIMATE: 39%
+UNITS: 1
+REASON: Both legs were independently identified as having value and rely on different matchup drivers. The games are not correlated and both favorites project several cents stronger than market pricing.
+
+## SLATE SUMMARY
+
+BEST BET: PHI -1.5 RL (PHI @ TOR), 3 units
+WHY THIS ONE: Philadelphia has the clearest overall advantage on the slate, combining an elite starting pitcher, a meaningful talent gap, and a run-line price that is far more efficient than the heavy moneyline.

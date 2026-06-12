@@ -1,0 +1,149 @@
+## GAME: SF @ CHC
+
+PICK: CHC ML
+PRICE: -160
+UNITS: 1
+EDGE: REAL
+REASON: My fair line is roughly CHC -180. The Cubs have the better overall team profile, home-field edge, and a less taxed bullpen. Robbie Ray's underlying numbers (5.40 FIP, 5.18 xERA) and recent form are poor, while Cabrera has been mediocre but not as concerning. Weather could create volatility, preventing a larger stake.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CHW @ PHI
+
+PICK: PHI ML
+PRICE: -185
+UNITS: 1
+EDGE: REAL
+REASON: Fair line approximately PHI -205. Luzardo's peripherals are dramatically stronger than his ERA and he enters in excellent form, while Anthony Kay's recent run prevention appears unsustainable given the underlying metrics. Uncertainty flags: lineup confirmations pending and Phillies bullpen usage.
+LOOKED UP: nothing, used provided data only
+
+## GAME: SEA @ DET
+
+PICK: SEA ML
+PRICE: -128
+UNITS: 1
+EDGE: REAL
+REASON: Fair line around SEA -150. Woo owns a substantial edge over Valdez based on current form and underlying indicators, while Seattle also carries the better season-long run differential and recent form. More than half the edge comes from pitching, so stake remains modest.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ NYY
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: The market appears close to fair. Boston likely has the starting-pitching edge with Sonny Gray, but New York owns major advantages in offense, run differential, and overall roster quality. Too many offsetting factors.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BAL @ TOR
+
+PICK: BAL ML
+PRICE: +132
+UNITS: 1
+EDGE: REAL
+REASON: My fair line is closer to TOR -120 than TOR -155. Yesavage has looked excellent, but the sample is very small and the market appears to be pricing him aggressively. Baltimore enters in better recent form and gets a meaningful underdog price.
+LOOKED UP: nothing, used provided data only
+
+## GAME: TB @ MIA
+
+PICK: TB ML
+PRICE: -136
+UNITS: 1
+EDGE: REAL
+REASON: Fair line roughly TB -165. Rasmussen is a proven quality starter while Miami is sending an extremely inexperienced arm with only three MLB innings. Uncertainty flags include unknown workload for Gusto and pending lineups, keeping this at one unit.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PIT @ ATL
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Atlanta is the better team, but Martín Pérez's underlying indicators are much weaker than his ERA while Pittsburgh has been playing quality baseball. The current price looks very close to fair.
+LOOKED UP: nothing, used provided data only
+
+## GAME: ATH @ HOU
+
+PICK: ATH ML
+PRICE: -110
+UNITS: 1
+EDGE: REAL
+REASON: Fair line around ATH -130. Perkins' ERA is ugly, but the FIP/xERA profile is excellent and suggests substantial positive regression. Houston's home performance and bullpen usage concerns push me toward the Athletics.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ STL
+
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starters bring major concerns. Singer has been poor, but Leahy's xERA and contact profile are equally alarming. The market has largely accounted for the pitching mismatch and I don't see enough value either way.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CLE @ TEX
+
+PICK: CLE ML
+PRICE: -130
+UNITS: 1
+EDGE: REAL
+REASON: Fair line approximately CLE -145. Messick has consistently outperformed expectations and Cleveland owns a modest bullpen advantage. The move toward the under and lower-scoring environment also benefits the team with the stronger starting pitcher.
+LOOKED UP: nothing, used provided data only
+
+## GAME: KC @ MIN
+
+PICK: KC ML
+PRICE: -102
+UNITS: 1
+EDGE: REAL
+REASON: Fair line around KC -120. Wacha is the more reliable starter and Minnesota's bullpen is significantly more taxed entering the game. Both clubs are struggling, but Kansas City appears slightly undervalued.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ COL
+
+PICK: MIL ML
+PRICE: -148
+UNITS: 1
+EDGE: REAL
+REASON: Fair line roughly MIL -175. Milwaukee has a massive season-long quality advantage and Colorado remains one of the weakest teams on the slate. Sproat is not trustworthy, but Feltner's contact metrics are equally concerning at Coors Field.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ AZ
+
+PICK: WAS ML
+PRICE: +114
+UNITS: 1
+EDGE: REAL
+REASON: Fair line closer to AZ -110. Kelly's underlying profile is one of the weakest among today's starters and Washington has quietly been a strong road team. The market appears to be giving Arizona too much credit for home field.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYM @ SD
+
+PICK: NYM ML
+PRICE: +112
+UNITS: 1
+EDGE: REAL
+REASON: Fair line near SD -105. Christian Scott's small sample creates uncertainty, but his strikeout ability and contact suppression are legitimate positives. San Diego's recent form and bullpen workload concerns narrow the gap significantly.
+LOOKED UP: nothing, used provided data only
+
+## GAME: LAA @ LAD
+
+PICK: LAD -1.5 RL
+PRICE: +112
+UNITS: 3
+EDGE: STRONG
+REASON: Fair moneyline approximately LAD -240 and fair run line near -115. The Dodgers have a massive roster-quality edge, elite run differential, strong home performance, and the Angels have not even confirmed a starter. Uncertainty flags are the TBD Angels starter and Sasaki's inconsistency, but neither materially changes the overall mismatch. Because the edge is driven primarily by team-quality rather than starting pitching alone, I keep the stronger stake.
+LOOKED UP: nothing, used provided data only
+
+## PARLAY
+
+LEG 1: TB ML -136
+LEG 2: MIL ML -148
+COMBINED PRICE: +214
+TRUE PROBABILITY ESTIMATE: 36%
+UNITS: 1
+REASON: Both legs were independently identified as value positions with fair lines substantially stronger than market prices. They occur in unrelated games with no meaningful correlation and derive from team-quality and pitching advantages rather than a single fragile factor.
+
+## SLATE SUMMARY
+
+BEST BET: LAD -1.5 RL (+112) — 3 units
+
+WHY THIS ONE: It combines the largest team-quality gap on the slate with plus-money pricing. The market is charging a premium on the Dodgers moneyline, but the run line still appears materially undervalued given the mismatch and the Angels' unresolved starting-pitcher situation.

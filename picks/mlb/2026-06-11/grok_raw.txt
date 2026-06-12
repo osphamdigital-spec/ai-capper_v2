@@ -1,0 +1,75 @@
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Kelly's poor recent form and underlying metrics make this closer than market suggests but MIA bullpen fatigue and lack of fresh high-leverage arms offset Phillips' solid start; estimated MIA win probability 52.5-53.5% vs market ~52.8% implied at -110 to -112 produces sub-4 pt gap. Run environment calculation lands at 8.6-8.9 after park adjustment with no decisive factors pushing total either way.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Even matchup with comparable starters and teams; estimated DET win probability 53-54% aligns closely with market -122 to -123 implied probability of ~55%, gap under 2 pts. Run total estimate of 9.1-9.3 after park factor sits within 0.5 of posted 9.0 line.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: STL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: STL's better overall form and record offset by Dobbins' small sample and Scott's strong recent numbers; estimated STL win probability 46-47% vs +120 market implied ~45.5% produces gap below 2 pts. Run environment near 8.7 after neutral park with starters balancing to posted 9.0 line.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Low-scoring park and solid starters point to suppressed run total around 8.1-8.4 after adjustments, well below posted 10.0, but single-factor lean only and no confirmed bullpen or wind data to confirm; estimated TEX win probability 48-49% aligns with +102 market. Gap on moneyline under 2 pts.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Coors Field run inflation creates strong total lean but CHC road favorite status at -153 caps any ML consideration and estimated CHC win probability 57-59% sits within 3 pts of market implied ~60.5%. High variance at altitude prevents committing units without multiple confirming factors.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: LAD's superior run differential and Wrobleski's form give them the edge but estimated LAD win probability 60-61.5% produces sub-4 pt gap vs -161 market implied ~61.7%; heavy favorite price also caps stake at 1 unit max. Run total near 9.2 after park adjustment matches posted line closely.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Woo's strong metrics and SEA's better run differential give slight lean but estimated SEA win probability 51.5-52.5% vs -114 market implied ~53.3% gap under 2 pts. Run environment 9.3-9.5 after park factor exceeds 8.5 line but lacks second confirming factor for total lean strength.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TBD starter for CHW creates unresolved structural risk making any edge calculation invalid per rules; game passes regardless of ATL's strong form and Pérez's solid numbers. Run total estimate near 8.8 after park adjustment aligns with 8.5 line.
+LOOKED UP: nothing, used provided data only
+---
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE:

@@ -1,0 +1,157 @@
+**## GAME: BOS @ TB**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Market price on TB (-150) aligns closely with team quality, home advantage, and Rasmussen's superior metrics versus Bennett's small sample. No 4+ point gap identified after bullpen and park adjustments. Estimated TB win probability 59% vs implied 60%.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: NYY @ CLE**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Near-even moneyline reflects balanced matchup between Rodón and Messick; no clear mispricing after form and bullpen review. Estimated NYY win probability 49% vs implied 50%.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: WAS @ SF**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Griffin and Ray metrics plus Oracle Park suppress runs; market line fair relative to team form. No edge on either side.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: CIN @ SD**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: King’s edge over Singer plus Petco Park factors make SD the correct favorite at -164; gap too small to bet.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: SEA @ BAL**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Kirby’s strong xFIP gives SEA a lean but market -122 is within acceptable range after weather and bullpen review; gap under 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: AZ @ MIA**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Near pick’em correctly prices the similar team profiles and pitching; no structural edge.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: MIN @ DET**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Valdez projects well but TBD starter and both teams’ poor form keep the -172 price fair; no confirmed 4-point gap.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: LAD @ PIT**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ohtani dominates but -200 is a standard price for this quality gap; RL consideration does not create 4+ point edge after opposing bullpen freshness noted. Strongest argument for PIT is home park and recent L10 offense; edge calculation holds because Ohtani’s xFIP and LAD run differential still project 67-68% win rate.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: PHI @ TOR**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Luzardo’s metrics versus Scherzer give PHI the edge but -150 price reflects it accurately; no mispricing.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: STL @ NYM**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Pallante’s solid metrics and bullpen edge make STL slight favorite but market +115 / -134 is efficient.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: ATL @ CHW**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Sale’s elite metrics versus TBD make ATL the clear favorite at -155; price matches projection with no gap.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: TEX @ KC**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Gore and Lugo project similarly; market correctly prices near-even contest after form adjustments.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: CHC @ COL**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Coors inflation and Lorenzen’s poor metrics create high total but CHC -165 fairly reflects quality gap despite park; no 4-point side edge.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: MIL @ ATH**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Sproat/Perkins small samples and high park total correctly priced near pick’em; no side mispricing.
+LOOKED UP: nothing, used provided data only
+
+---
+**## GAME: HOU @ LAA**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Lambert and Detmers project close; market +104 / -120 is efficient with no confirmed edge.
+LOOKED UP: nothing, used provided data only
+
+---
+**## PARLAY**
+No qualifying 2-leg parlay identified.
+
+---
+**## SLATE SUMMARY**
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE:

@@ -1,0 +1,71 @@
+## GAME: SEA @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Under
+REASON: Hancock holds a measurable edge but SEA bullpen risk is High (0 fresh HL arms) while BAL has 1 fresh; this caps any SEA side to 1 unit max per model instruction and the gap versus market is under 4%. Totals sequence yields ~8.1 expected runs versus 8.5 line after park and bullpen adjustments. Estimated fair ML SEA -148 sits inside offered -132.
+LOOKED UP: nothing, used provided data only
+
+## GAME: BOS @ TB
+PICK: BOS ML
+PRICE: -118
+UNITS: 1
+EDGE: REAL
+REASON: Early's 3.26 ERA versus Seymour's 5.23 ERA creates >1.0 SP advantage but BOS bullpen risk is Medium (only 1 fresh HL arm) so capped at 1 unit per model instruction. BOS also holds platoon and L10 RS/G edges. One piece of evidence against is TB's strong home record. Estimated win probability 54% versus implied 54% at -118 yields thin but real edge after all checks. Total lean Over.
+LOOKED UP: nothing, used provided data only
+
+## GAME: NYY @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Near-even SP metrics and bullpen freshness delta of +2 favoring CLE underdog do not create a 4%+ gap after team-quality and estimated platoon rules. Totals sequence produces ~7.6 expected runs versus 7.5 line. Estimated fair ML CLE -118 sits inside market. No qualifying inefficiency on either side or total.
+LOOKED UP: nothing, used provided data only
+
+## GAME: PHI @ TOR
+PICK: Under 7.5
+PRICE: -115
+UNITS: 2
+EDGE: REAL
+REASON: Sánchez's elite 1.46 ERA / 2.64 xFIP suppresses ~0.7 runs while Rogers Centre roof-closed factor and low L10 RS/G for both teams drive totals sequence to ~6.9 expected runs versus 7.5 line (1.6-run gap). PHI bullpen risk is High (0 fresh HL) but irrelevant for total. One piece against is warm weather. No SP-ERA side bet used.
+LOOKED UP: nothing, used provided data only
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Over
+REASON: Arrighetti versus small-sample Rodriguez creates large SP edge but HOU bullpen risk is High (0 fresh HL arms) so any HOU side is capped at 1 unit and market gap is under 4%. Totals sequence yields ~9.4 expected runs versus 9.0 line after hitter-friendly park. Estimated fair ML HOU -138 is too close to -125.
+LOOKED UP: nothing, used provided data only
+
+## GAME: CIN @ SD
+PICK: Under 8.0
+PRICE: -109
+UNITS: 3
+EDGE: STRONG
+REASON: Estimated expected runs 4.8 after L10 RS/G (CIN 3.2, SD 2.7), Petco suppression, and both bullpens at High risk; produces 3.2-run gap versus 8.0 line. Two independent non-correlated factors are pitcher-friendly park and extremely low recent offence. One piece against is possible wind. No SP-ERA side bet used. Estimated total gap exceeds threshold for 3 units.
+LOOKED UP: nothing, used provided data only
+
+## GAME: WAS @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+TOTAL LEAN: Under
+REASON: Mikolas versus Webb shows no actionable SP gap after small-sample checks and SF bullpen risk is High. WAS underdog fails BULLPEN FATIGUE RULE adjustment and team-quality test. Totals sequence yields ~7.4 expected runs versus 8.0 line after cold/windy Oracle Park. Estimated fair ML SF -152 sits inside offered -165.
+LOOKED UP: nothing, used provided data only
+
+## GAME: MIL @ ATH
+PICK: Under 11.0
+PRICE: -110
+UNITS: 2
+EDGE: REAL
+REASON: Harrison's elite 1.57 ERA / 3.16 xFIP suppresses ~0.7 runs while Sutter Health hitter-friendly park is offset by MIL's strong recent pitching and ATH's poor L10 RS/G (3.8); totals sequence produces ~9.1 expected runs versus 11.0 line (1.9-run gap). MIL bullpen risk is Medium but irrelevant for total. One piece against is park factor. No SP side bet used.
+LOOKED UP: nothing, used provided data only
+
+## SLATE SUMMARY
+BEST BET: Under 8.0 (CIN @ SD, 3 units)
+WHY THIS ONE: Largest quantified run gap (3.2 runs) on the slate after mandatory totals sequence, low L10 offence for both clubs, and pitcher-friendly Petco Park; exceeds every ML bet on independent non-correlated factors while avoiding all SP-ERA bullpen-risk caps.

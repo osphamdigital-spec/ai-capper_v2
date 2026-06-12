@@ -1,0 +1,123 @@
+## GAME: SF @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Weather is the dealbreaker. A sixty-three percent chance of rain with moderate drizzle at Wrigley makes this a high postponement risk. Even if it plays, both Ray and Cabrera have been pitching poorly, and I see no edge in a line that sits right at fair value.
+LOOKED UP: ESPN MLB injury report for June 5 — no significant new injuries affecting either side.
+
+## GAME: CHW @ PHI
+PICK: CHW +162
+PRICE: +162
+UNITS: 1
+EDGE: REAL
+REASON: Chicago leads this matchup in run differential (+11 vs -22) and scoring (4.7 RS/G vs 3.9) while matching Philadelphia's 7-3 last-ten record. Luzardo's underlying stats are excellent, but the market has overreacted to his recent form and priced the White Sox as heavy underdogs against a team with a negative run differential. At +162, the team-quality gap is too large to ignore.
+LOOKED UP: ESPN injury report — no significant injuries affecting either lineup today.
+
+## GAME: SEA @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Seattle is the better team and Woo is the better pitcher, but the Mariners are missing Cal Raleigh and the price (-134) is roughly fair. No edge here.
+LOOKED UP: ESPN injury report — confirmed Cal Raleigh (SEA) on 10-day IL, beginning rehab Sunday.
+
+## GAME: BOS @ NYY
+PICK: NYY -140
+PRICE: -140
+UNITS: 1
+EDGE: REAL
+REASON: The Yankees dominate every team metric: run differential (+93 vs -6), last-10 record (7-3 vs 4-6), and scoring (5.1 vs 4.0). Sonny Gray is the more reliable starter against a struggling Ryan Weathers (4.74 ERA last three). Fair line should be closer to -155; -140 offers real edge.
+LOOKED UP: ESPN injury report — Yankees missing Stanton and Fried (already factored), Dominguez beginning rehab Friday.
+
+## GAME: BAL @ TOR
+PICK: LEAN: BAL +135
+PRICE: +135
+UNITS: LEAN
+EDGE: THIN
+REASON: Baltimore is 7-3 in their last ten and outscores Toronto 4.6 to 4.1 runs per game. Yesavage's ERA looks shiny but comes in a tiny sample, and Brandon Young has been serviceable. The +135 price is slightly generous for a team with better recent form.
+LOOKED UP: ESPN injury report — no significant new injuries for either side.
+
+## GAME: TB @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Tampa Bay is in a 2-8 freefall and missing multiple key players including closer Craig Kimbrel, yet they are still priced at -136 on the road. Miami's starter Ryan Gusto is a complete unknown with three innings pitched. Too much uncertainty on both sides.
+LOOKED UP: ESPN injury report — confirmed Rays missing Kimbrel (15-day IL, wrist), Fraley (6-8 weeks), DeLuca (6-8 weeks), and Walls (day-to-day).
+
+## GAME: PIT @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Atlanta is the superior team by record and run differential, and Pérez's ERA is backed by a much worse FIP. Pittsburgh's Mitch Keller has been shelled recently (6.89 ERA last three). The line is fair.
+LOOKED UP: Nothing beyond provided data and injury report — no new relevant info.
+
+## GAME: ATH @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: This is essentially a coin-flip line (-110/-108) between two mediocre teams. Perkins' FIP suggests positive regression, but the Athletics may be without Brent Rooker (day-to-day) and are already missing Severino and Civale. No edge at a pick'em price.
+LOOKED UP: ESPN injury report — confirmed Brent Rooker day-to-day Thursday, Severino and Civale on IL.
+
+## GAME: CIN @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both starting pitchers have been terrible. Singer owns a 6.18 ERA and 6.88 FIP, while Leahy's xERA is an ugly 6.24. St. Louis gets Lars Nootbaar back, but this is a random outcome game. Pass.
+LOOKED UP: ESPN injury report — Lars Nootbaar (STL) targeted for activation Friday.
+
+## GAME: CLE @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Parker Messick has been excellent (2.21 ERA, 1.72 ERA last three), but Texas gets Corey Seager back from the IL and the line has moved toward Cleveland. At -137, the Guardians are fairly priced.
+LOOKED UP: ESPN injury report — Corey Seager (TEX) expected to be activated Friday.
+
+## GAME: KC @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Both teams are 3-7 in their last ten and have been among the worst in baseball. Minnesota is missing Bailey Ober, Pablo López, and Ryan Jeffers. The Twins lead the team metrics but the pitching matchup is a coin flip. No edge at -118.
+LOOKED UP: ESPN injury report — confirmed Bailey Ober shut down 10-14 days, Pablo López on 60-day IL, Ryan Jeffers on 10-day IL.
+
+## GAME: MIL @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: NONE
+REASON: Milwaukee is an elite team but Brandon Sproat has been dreadful (6.24 ERA, 7.62 last three), and Coors Field amplifies pitching variance. At -152, the risk outweighs the reward even against a bad Rockies team.
+LOOKED UP: ESPN injury report — Grant Anderson and DL Hall day-to-day for Brewers, but both available.
+
+## GAME: WAS @ AZ
+PICK: LEAN: WAS +117
+PRICE: +117
+UNITS: LEAN
+EDGE: THIN
+REASON: Merrill Kelly's peripherals are atrocious (5.59 FIP, 7.26 xERA) despite a decent last three starts. Washington has been a strong road team (19-12) and outscores Arizona 5.3 to 4.4 runs per game. The plus-money is tempting.
+LOOKED UP: ESPN injury report — Corbin Burnes (AZ) shut down from throwing, but he was not scheduled to start today.
+
+## GAME: NYM @ SD
+PICK: NYM +114
+PRICE: +114
+UNITS: 1
+EDGE: REAL
+REASON: San Diego is in a brutal 1-9 slump and missing Jake Cronenworth and Joe Musgrove. Michael King has been rocked recently (4.86 ERA last three), while Christian Scott has allowed just three earned runs over his last three starts. The Mets are the better team right now at a plus-money price.
+LOOKED UP: ESPN injury report — confirmed Cronenworth (concussion) out, Musgrove (elbow) targeting post-ASB return, Laureano on 10-day IL.
+
+## GAME: LAA @ LAD
+PICK: LAD -1.5 +111
+PRICE: +111
+UNITS: 1
+EDGE: REAL
+REASON: The Dodgers are missing Muncy, Teoscar Hernández, and others, but the talent gap against the Angels is still enormous (+133 vs -51 run differential). Sasaki has been dominant in his last three starts (2.08 ERA). At plus-money, the -1.5 run line is the efficient way to back a team that should win comfortably.
+LOOKED UP: ESPN injury report — confirmed Max Muncy (sore nose) out Friday, Teoscar Hernández (hamstring) out until ~June 30, Glasnow and Snell also sidelined.
+
+## SLATE SUMMARY
+BEST BET: NYY -140 (Game 4), 1 unit
+WHY THIS ONE: The Yankees lead every meaningful team metric by a wide margin, Gray is the more trustworthy starter, and the line is softer than it should be for a home favorite of this quality.

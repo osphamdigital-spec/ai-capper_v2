@@ -1,0 +1,167 @@
+## GAME: BOS @ TB
+PICK: LEAN: TB ML
+PRICE: -150
+UNITS: LEAN
+EDGE: 3.0 pts
+TOTAL LEAN: Over
+REASON: Rasmussen's recent form (last-14 xFIP 2.34) clearly outclasses Bennett, who carries a 0.0% K-BB% over just 10.1 IP — effectively replacement level. TB -150 implies 60%; I land around 63%, only a ~3-point gap. TB's offense is cold (L10 3.6 RS/G) and the pen is taxed (0 of 3 fresh, Seymour/Matz used), so it stays a lean, not a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ CLE
+PICK: LEAN: NYY ML
+PRICE: -101
+UNITS: LEAN
+EDGE: 3.5 pts
+TOTAL LEAN: No lean
+REASON: NYY are the stronger team and mash LHP (124 wRC+, Goldschmidt 253, Judge 159) against two left-handers, but the price already sits near pick-em. This game also carries a stale-book data flag I won't bet into. Regressing a season-split edge on a liquid market drops the gap under 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: WAS @ SF
+PICK: WAS ML
+PRICE: +103
+UNITS: 1
+EDGE: 4.2 pts
+TOTAL LEAN: Over
+REASON: WAS +103 implies 49.3%; I estimate ~53.5%, a ~4.2-point gap. The edge rests on Ray's acute last-14 collapse (BB/9 7.0, xFIP 5.14) — a public-but-acute signal I do not regress away — plus WAS being the better club (23-13 road vs SF's 12-18 home) and strong vs LHP (121 wRC+) behind the steadier starter in Griffin. Named offsets (thin WAS pen, Beeter taxed; SF's hot L10) are real but do not erase a quantified plus-money edge against a wild lefty.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CIN @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: King is clearly better than Singer (last-14 BB/9 7.0) and SD's pen is elite (2.83), but SD's offense is dead (L10 2.9 RS/G) and -164 (~62%) sits within ~2 points of my estimate. Petco (88 runs factor) plus two weak offenses pulls the total under.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ BAL
+PICK: LEAN: SEA ML
+PRICE: -122
+UNITS: LEAN
+EDGE: 3.0 pts
+TOTAL LEAN: No lean
+REASON: Kirby (last-14 xFIP 3.21) and SEA's form give a genuine edge over BAL's bottom-tier bullpen (6.03 ERA, two arms taxed), but a 58% rain/PPD risk plus a season-based edge that regresses on a liquid line keep this under a bettable gap.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gusto's 5.0 season IP flags MIA as effectively a bullpen game, but AZ's offense is ice cold (L10 2.8 RS/G) behind a fading Nelson (last-14 xFIP 5.21). That's a true coin flip at pick-em with no price edge either way.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIN @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: MIN's starter is TBD. A key input is unconfirmed, so no side or total can be priced regardless of Valdez's quality. Auto-pass under the unconfirmed-input filter.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ohtani and LAD are dominant, but -200 (~67%) is fairly priced and backing a heavy favorite with no quantified gap is not value. The -1.5 RL at -120 needs ~55% to cover, which I don't credit against a competent PIT side at home. Ohtani's suppression and PNC (96 runs) roughly offset the heat/wind for the total.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ TOR
+PICK: LEAN: PHI ML
+PRICE: -150
+UNITS: LEAN
+EDGE: 3.0 pts
+TOTAL LEAN: Over
+REASON: Luzardo clearly tops a struggling Scherzer (9.64 ERA, 18.2 IP), but the market has already baked that into -150, and Luzardo's own last-14 dip (xFIP 4.93) trims the gap below 4. Scherzer getting hit nudges the total over.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ NYM
+PICK: LEAN: STL ML
+PRICE: +115
+UNITS: LEAN
+EDGE: 3.5 pts
+TOTAL LEAN: No lean
+REASON: STL is the better and hotter team (L10 7-3) getting +115 — I put them ~50% vs 46.5% implied, a ~3.5-point gap. Warren's low IP is a genuine uncertainty and NYM's elite pen (2.73, Raley 1.48) is a concrete late-game offset, so it stays a lean rather than a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: CHW's starter is TBD — unconfirmed key input, auto-pass. Worth flagging that CHW mash LHP (133 wRC+, Vargas 227) and Sale is a lefty, an added reason to wait for the matchup.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Gore is marginally better than Lugo, but two roughly .450 teams at -122 leave no clean edge. KC's listed pen ERA (22.24) reads as a data artifact I won't lean on. My run estimate (~8.2) sits well under the posted 10.0, but the 20.8 mph wind raises variance, so it's a lean only.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: CHC are clearly better and Imanaga (LHP) tops a dreadful Lorenzen against a COL lineup weak vs lefties (78 wRC+), but -165 (~62%) matches my estimate and Coors variance argues against side confidence. Per the >115 runs-factor caution, I will not lean Under here despite my number landing near the 12.0.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIL @ ATH
+PICK: LEAN: MIL ML
+PRICE: -110
+UNITS: LEAN
+EDGE: 3.5 pts
+TOTAL LEAN: Under
+REASON: The talent gap is the slate's largest (MIL +104 run diff vs ATH -42) and MIL's offense is scorching (L10 8.3 RS/G), so pick-em looks soft. But Sproat is genuinely bad (6.17 ERA) and Sutter Health's extreme run environment (121 factor) compresses win probability and adds variance, holding it to a lean. Total: my estimate (~11.5) is well below 14.5, but the >115 park caution means Under is a directional lean only, no stake.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Detmers tops a wild Lambert (last-14 BB/9 6.1), but HOU mash LHP (117 wRC+, Alvarez 197) while LAA's offense is weak vs RHP (92), netting roughly the posted -120 with no clear side edge. Lambert's wildness plus HOU's lefty-mashing nudges the total over.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET — no 3-unit play identified today.

@@ -1,0 +1,6570 @@
+[
+  {
+    "game_id": "73486391be3ca754c34d1a20ca7fbf6c",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Miami Marlins",
+      "abbr": "MIA",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Washington Nationals",
+      "abbr": "WAS",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T17:06:00Z",
+    "commence_et": "2026-06-03T13:06:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": -108,
+          "home": -109
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": 150,
+          "home_line": 1.5,
+          "home_price": -180
+        },
+        "total": {
+          "line": 8.0,
+          "over_price": -115,
+          "under_price": -105
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-03T02:21:02Z",
+        "moneyline": {
+          "away": -108,
+          "home": -109
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": 150,
+          "home_line": 1.5,
+          "home_price": -180
+        },
+        "total": {
+          "line": 8.0,
+          "over_price": -115,
+          "under_price": -105
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": -105,
+            "book": "LowVig.ag"
+          },
+          "home": {
+            "price": -105,
+            "book": "LowVig.ag"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": 155,
+            "book": "FanDuel"
+          },
+          "home_price": {
+            "price": -170,
+            "book": "LowVig.ag"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 100,
+            "book": "FanDuel"
+          },
+          "under": {
+            "price": -102,
+            "book": "LowVig.ag"
+          }
+        },
+        "fetched_at": "2026-06-03T02:21:02Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-03T02:21:02Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-03T02:20:37Z",
+            "moneyline": {
+              "away": -108,
+              "home": -108
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 155,
+              "home_line": 1.5,
+              "home_price": -188
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": 100,
+              "under_price": -122
+            }
+          },
+          {
+            "key": "lowvig",
+            "name": "LowVig.ag",
+            "updated_at": "2026-06-03T02:20:38Z",
+            "moneyline": {
+              "away": -105,
+              "home": -105
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 150,
+              "home_line": 1.5,
+              "home_price": -170
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -113,
+              "under_price": -102
+            }
+          },
+          {
+            "key": "betonlineag",
+            "name": "BetOnline.ag",
+            "updated_at": "2026-06-03T02:19:23Z",
+            "moneyline": {
+              "away": -105,
+              "home": -105
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 149,
+              "home_line": 1.5,
+              "home_price": -170
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -115,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-03T02:20:39Z",
+            "moneyline": {
+              "away": -107,
+              "home": -109
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 151,
+              "home_line": 1.5,
+              "home_price": -187
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -117,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-03T02:20:37Z",
+            "moneyline": {
+              "away": -110,
+              "home": -110
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 148,
+              "home_line": 1.5,
+              "home_price": -180
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -118,
+              "under_price": -102
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-03T02:21:01Z",
+            "moneyline": {
+              "away": -110,
+              "home": -110
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 155,
+              "home_line": 1.5,
+              "home_price": -180
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": 100,
+              "under_price": -120
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-03T02:19:23Z",
+            "moneyline": {
+              "away": -110,
+              "home": -110
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 150,
+              "home_line": 1.5,
+              "home_price": -185
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -118,
+              "under_price": -102
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-03T02:20:39Z",
+            "moneyline": {
+              "away": -110,
+              "home": -113
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 150,
+              "home_line": 1.5,
+              "home_price": -195
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -114,
+              "under_price": -109
+            }
+          },
+          {
+            "key": "betus",
+            "name": "BetUS",
+            "updated_at": "2026-06-03T02:20:19Z",
+            "moneyline": {
+              "away": -105,
+              "home": -105
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 148,
+              "home_line": 1.5,
+              "home_price": -170
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -115,
+              "under_price": -105
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Max Meyer",
+        "mlb_id": 676974,
+        "hand": "R",
+        "status": "probable",
+        "era": 2.81,
+        "whip": 1.05,
+        "strikeouts": 81,
+        "innings_pitched": "73.2",
+        "wins": 6,
+        "losses": 0,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 9.9,
+        "xera": 3.9,
+        "hard_hit_pct": 42.0,
+        "barrel_pct": 9.2,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Andrew Alvarez",
+        "mlb_id": 674841,
+        "hand": "L",
+        "status": "probable",
+        "era": 3.54,
+        "whip": 1.23,
+        "strikeouts": 22,
+        "innings_pitched": "20.1",
+        "wins": 1,
+        "losses": 0,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 9.7,
+        "xera": null,
+        "hard_hit_pct": 42.9,
+        "barrel_pct": 9.5,
+        "small_sample": true,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Nationals Park",
+        "city": "Washington, DC",
+        "roof": "outdoor",
+        "temp_f": 81.7,
+        "wind_mph": 7.7,
+        "wind_dir": "N",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:46Z"
+      },
+      "team_away": {
+        "name": "Miami Marlins",
+        "abbr": "MIA",
+        "team_id": 146,
+        "wins": 29,
+        "losses": 34,
+        "pct": ".460",
+        "run_differential": -18,
+        "runs_scored": 268,
+        "runs_allowed": 286,
+        "games_played": 63,
+        "rs_per_game": 4.3,
+        "ra_per_game": 4.5,
+        "last10_wins": 5,
+        "last10_losses": 5,
+        "home_wins": 18,
+        "home_losses": 15,
+        "away_wins": 11,
+        "away_losses": 19,
+        "streak": "W3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Washington Nationals",
+        "abbr": "WSH",
+        "team_id": 120,
+        "wins": 31,
+        "losses": 32,
+        "pct": ".492",
+        "run_differential": -10,
+        "runs_scored": 331,
+        "runs_allowed": 341,
+        "games_played": 63,
+        "rs_per_game": 5.3,
+        "ra_per_game": 5.4,
+        "last10_wins": 5,
+        "last10_losses": 5,
+        "home_wins": 12,
+        "home_losses": 20,
+        "away_wins": 19,
+        "away_losses": 12,
+        "streak": "L3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Alan Porter",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Pete Fairbanks",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Ryan Gusto",
+            "pitches_yesterday": 40,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "John King",
+            "pitches_yesterday": 26,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Michael Petersen",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": 16,
+            "appeared_consecutive_days": true,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Calvin Faucher",
+            "pitches_yesterday": 12,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Anthony Bender",
+            "pitches_yesterday": 6,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:16:40Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Clayton Beeter",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Miles Mikolas",
+            "pitches_yesterday": 92,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Mitchell Parker",
+            "pitches_yesterday": 15,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:16:46Z"
+      }
+    },
+    "result": {
+      "away_score": 4,
+      "home_score": 1,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 822727
+  },
+  {
+    "game_id": "d1a33cbd30c6a1734e919a36c80b83b5",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Detroit Tigers",
+      "abbr": "DET",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Tampa Bay Rays",
+      "abbr": "TB",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T17:11:00Z",
+    "commence_et": "2026-06-03T13:11:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 124,
+          "home": -140
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -172,
+          "home_line": -1.5,
+          "home_price": 148
+        },
+        "total": {
+          "line": 8.0,
+          "over_price": -106,
+          "under_price": -113
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-03T02:21:02Z",
+        "moneyline": {
+          "away": 124,
+          "home": -144
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -172,
+          "home_line": -1.5,
+          "home_price": 146
+        },
+        "total": {
+          "line": 8.0,
+          "over_price": -106,
+          "under_price": -113
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 125,
+            "book": "BetMGM"
+          },
+          "home": {
+            "price": -137,
+            "book": "BetOnline.ag"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": -168,
+            "book": "MyBookie.ag"
+          },
+          "home_price": {
+            "price": 152,
+            "book": "LowVig.ag"
+          }
+        },
+        "total": {
+          "over": {
+            "price": -105,
+            "book": "FanDuel"
+          },
+          "under": {
+            "price": 112,
+            "book": "LowVig.ag"
+          }
+        },
+        "fetched_at": "2026-06-03T02:21:02Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-03T02:21:02Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-03T02:20:37Z",
+            "moneyline": {
+              "away": 122,
+              "home": -144
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -178,
+              "home_line": -1.5,
+              "home_price": 146
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -105,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "betonlineag",
+            "name": "BetOnline.ag",
+            "updated_at": "2026-06-03T02:19:23Z",
+            "moneyline": {
+              "away": 124,
+              "home": -137
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -172,
+              "home_line": -1.5,
+              "home_price": 151
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -130,
+              "under_price": 110
+            }
+          },
+          {
+            "key": "lowvig",
+            "name": "LowVig.ag",
+            "updated_at": "2026-06-03T02:20:38Z",
+            "moneyline": {
+              "away": 124,
+              "home": -137
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -172,
+              "home_line": -1.5,
+              "home_price": 152
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -128,
+              "under_price": 112
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-03T02:20:39Z",
+            "moneyline": {
+              "away": 124,
+              "home": -146
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -168,
+              "home_line": -1.5,
+              "home_price": 137
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -105,
+              "under_price": -116
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-03T02:20:37Z",
+            "moneyline": {
+              "away": 123,
+              "home": -149
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -173,
+              "home_line": -1.5,
+              "home_price": 143
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -106,
+              "under_price": -113
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-03T02:21:01Z",
+            "moneyline": {
+              "away": 121,
+              "home": -144
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -170,
+              "home_line": -1.5,
+              "home_price": 145
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -105,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-03T02:19:23Z",
+            "moneyline": {
+              "away": 125,
+              "home": -155
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -170,
+              "home_line": -1.5,
+              "home_price": 140
+            },
+            "total": {
+              "line": 8.0,
+              "over_price": -105,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-03T02:20:39Z",
+            "moneyline": {
+              "away": 120,
+              "home": -150
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -186,
+              "home_line": -1.5,
+              "home_price": 148
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -121,
+              "under_price": -103
+            }
+          },
+          {
+            "key": "betus",
+            "name": "BetUS",
+            "updated_at": "2026-06-03T02:20:19Z",
+            "moneyline": {
+              "away": 124,
+              "home": -137
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -170,
+              "home_line": -1.5,
+              "home_price": 148
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -130,
+              "under_price": 110
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Troy Melton",
+        "mlb_id": 675512,
+        "hand": "R",
+        "status": "probable",
+        "era": 1.74,
+        "whip": 0.87,
+        "strikeouts": 9,
+        "innings_pitched": "20.2",
+        "wins": 2,
+        "losses": 0,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 3.9,
+        "xera": null,
+        "hard_hit_pct": 42.9,
+        "barrel_pct": 4.8,
+        "small_sample": true,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Nick Martinez",
+        "mlb_id": 607259,
+        "hand": "R",
+        "status": "probable",
+        "era": 2.29,
+        "whip": 1.19,
+        "strikeouts": 42,
+        "innings_pitched": "70.2",
+        "wins": 5,
+        "losses": 2,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 5.3,
+        "xera": 4.15,
+        "hard_hit_pct": 31.3,
+        "barrel_pct": 6.5,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Tropicana Field",
+        "city": "St. Petersburg, FL",
+        "roof": "dome",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
+        "note": "Indoor stadium \u2014 weather not applicable",
+        "source": null,
+        "source_priority": null,
+        "fetched_at": "2026-06-04T00:39:46Z"
+      },
+      "team_away": {
+        "name": "Detroit Tigers",
+        "abbr": "DET",
+        "team_id": 116,
+        "wins": 25,
+        "losses": 38,
+        "pct": ".397",
+        "run_differential": -25,
+        "runs_scored": 248,
+        "runs_allowed": 273,
+        "games_played": 63,
+        "rs_per_game": 3.9,
+        "ra_per_game": 4.3,
+        "last10_wins": 5,
+        "last10_losses": 5,
+        "home_wins": 14,
+        "home_losses": 14,
+        "away_wins": 11,
+        "away_losses": 24,
+        "streak": "W3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Tampa Bay Rays",
+        "abbr": "TB",
+        "team_id": 139,
+        "wins": 36,
+        "losses": 23,
+        "pct": ".610",
+        "run_differential": 5,
+        "runs_scored": 273,
+        "runs_allowed": 268,
+        "games_played": 59,
+        "rs_per_game": 4.6,
+        "ra_per_game": 4.5,
+        "last10_wins": 2,
+        "last10_losses": 8,
+        "home_wins": 21,
+        "home_losses": 9,
+        "away_wins": 15,
+        "away_losses": 14,
+        "streak": "L3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Derek Thomas",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Kenley Jansen",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Enmanuel De Jesus",
+            "pitches_yesterday": 35,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:16:53Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Bryan Baker",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Ian Seymour",
+            "pitches_yesterday": 40,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Cam Booser",
+            "pitches_yesterday": 27,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Casey Legumina",
+            "pitches_yesterday": 19,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Bryan Baker",
+            "pitches_yesterday": 13,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Ben Williamson",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:16:59Z"
+      }
+    },
+    "result": {
+      "away_score": 7,
+      "home_score": 2,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 822973
+  },
+  {
+    "game_id": "bee59a7dbd5441cad240f0571973b255",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Chicago White Sox",
+      "abbr": "CHW",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Minnesota Twins",
+      "abbr": "MIN",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T17:41:00Z",
+    "commence_et": "2026-06-03T13:41:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 132,
+          "home": -154
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -160,
+          "home_line": -1.5,
+          "home_price": 135
+        },
+        "total": {
+          "line": 8.5,
+          "over_price": -115,
+          "under_price": -105
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-03T02:21:02Z",
+        "moneyline": {
+          "away": 132,
+          "home": -154
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -160,
+          "home_line": -1.5,
+          "home_price": 135
+        },
+        "total": {
+          "line": 8.5,
+          "over_price": -115,
+          "under_price": -105
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 138,
+            "book": "BetOnline.ag"
+          },
+          "home": {
+            "price": -152,
+            "book": "BetOnline.ag"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": -154,
+            "book": "LowVig.ag"
+          },
+          "home_price": {
+            "price": 136,
+            "book": "LowVig.ag"
+          }
+        },
+        "total": {
+          "over": {
+            "price": -113,
+            "book": "LowVig.ag"
+          },
+          "under": {
+            "price": -101,
+            "book": "MyBookie.ag"
+          }
+        },
+        "fetched_at": "2026-06-03T02:21:02Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-03T02:21:02Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-03T02:20:37Z",
+            "moneyline": {
+              "away": 130,
+              "home": -154
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -162,
+              "home_line": -1.5,
+              "home_price": 134
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -115,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "betonlineag",
+            "name": "BetOnline.ag",
+            "updated_at": "2026-06-03T02:19:23Z",
+            "moneyline": {
+              "away": 138,
+              "home": -152
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -155,
+              "home_line": -1.5,
+              "home_price": 135
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -115,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "lowvig",
+            "name": "LowVig.ag",
+            "updated_at": "2026-06-03T02:20:38Z",
+            "moneyline": {
+              "away": 138,
+              "home": -152
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -154,
+              "home_line": -1.5,
+              "home_price": 136
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -113,
+              "under_price": -102
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-03T02:20:39Z",
+            "moneyline": {
+              "away": 130,
+              "home": -154
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -155,
+              "home_line": -1.5,
+              "home_price": 126
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -121,
+              "under_price": -101
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-03T02:20:37Z",
+            "moneyline": {
+              "away": 129,
+              "home": -156
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -163,
+              "home_line": -1.5,
+              "home_price": 135
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -119,
+              "under_price": -102
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-03T02:21:01Z",
+            "moneyline": {
+              "away": 131,
+              "home": -157
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -160,
+              "home_line": -1.5,
+              "home_price": 135
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -115,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-03T02:19:23Z",
+            "moneyline": {
+              "away": 135,
+              "home": -160
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -160,
+              "home_line": -1.5,
+              "home_price": 135
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -115,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "betus",
+            "name": "BetUS",
+            "updated_at": "2026-06-03T02:20:19Z",
+            "moneyline": {
+              "away": 136,
+              "home": -152
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -155,
+              "home_line": -1.5,
+              "home_price": 135
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -115,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-03T02:20:39Z",
+            "moneyline": {
+              "away": 132,
+              "home": -165
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -165,
+              "home_line": -1.5,
+              "home_price": 132
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -117,
+              "under_price": -107
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Erick Fedde",
+        "mlb_id": 607200,
+        "hand": "R",
+        "status": "probable",
+        "era": 4.94,
+        "whip": 1.41,
+        "strikeouts": 36,
+        "innings_pitched": "58.1",
+        "wins": 1,
+        "losses": 5,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 5.6,
+        "xera": 4.59,
+        "hard_hit_pct": 39.8,
+        "barrel_pct": 9.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Taj Bradley",
+        "mlb_id": 671737,
+        "hand": "R",
+        "status": "probable",
+        "era": 3.56,
+        "whip": 1.32,
+        "strikeouts": 70,
+        "innings_pitched": "60.2",
+        "wins": 5,
+        "losses": 2,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 10.4,
+        "xera": 3.76,
+        "hard_hit_pct": 44.6,
+        "barrel_pct": 9.5,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Target Field",
+        "city": "Minneapolis, MN",
+        "roof": "outdoor",
+        "temp_f": 81.1,
+        "wind_mph": 10.3,
+        "wind_dir": "S",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:47Z"
+      },
+      "team_away": {
+        "name": "Chicago White Sox",
+        "abbr": "CWS",
+        "team_id": 145,
+        "wins": 33,
+        "losses": 29,
+        "pct": ".532",
+        "run_differential": 11,
+        "runs_scored": 293,
+        "runs_allowed": 282,
+        "games_played": 62,
+        "rs_per_game": 4.7,
+        "ra_per_game": 4.5,
+        "last10_wins": 7,
+        "last10_losses": 3,
+        "home_wins": 20,
+        "home_losses": 11,
+        "away_wins": 13,
+        "away_losses": 18,
+        "streak": "W1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Minnesota Twins",
+        "abbr": "MIN",
+        "team_id": 142,
+        "wins": 29,
+        "losses": 34,
+        "pct": ".460",
+        "run_differential": -24,
+        "runs_scored": 290,
+        "runs_allowed": 314,
+        "games_played": 63,
+        "rs_per_game": 4.6,
+        "ra_per_game": 5.0,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 17,
+        "home_losses": 15,
+        "away_wins": 12,
+        "away_losses": 19,
+        "streak": "L1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Brennan Miller",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Seranthony Dom\u00ednguez",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Trevor Richards",
+            "pitches_yesterday": 22,
+            "pitches_two_days_ago": 17,
+            "appeared_consecutive_days": true,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Sean Newcomb",
+            "pitches_yesterday": 24,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:05Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Yoendrys G\u00f3mez",
+          "available": false
+        },
+        "taxed_relievers": [
+          {
+            "name": "Yoendrys G\u00f3mez",
+            "pitches_yesterday": 15,
+            "pitches_two_days_ago": 15,
+            "appeared_consecutive_days": true,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Anthony Banda",
+            "pitches_yesterday": 20,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Andrew Morris",
+            "pitches_yesterday": 18,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:12Z"
+      }
+    },
+    "result": {
+      "away_score": 8,
+      "home_score": 0,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 823701
+  },
+  {
+    "game_id": "9e7ec8d783bb18b8a2775b32d91e9824",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "New York Mets",
+      "abbr": "NYM",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Seattle Mariners",
+      "abbr": "SEA",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T19:41:00Z",
+    "commence_et": "2026-06-03T15:41:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 123,
+          "home": -138
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -185,
+          "home_line": -1.5,
+          "home_price": 160
+        },
+        "total": {
+          "line": 7.5,
+          "over_price": 101,
+          "under_price": -124
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-03T02:21:02Z",
+        "moneyline": {
+          "away": 123,
+          "home": -138
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -185,
+          "home_line": -1.5,
+          "home_price": 160
+        },
+        "total": {
+          "line": 7.5,
+          "over_price": 101,
+          "under_price": -124
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 124,
+            "book": "BetOnline.ag"
+          },
+          "home": {
+            "price": -136,
+            "book": "FanDuel"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": -172,
+            "book": "MyBookie.ag"
+          },
+          "home_price": {
+            "price": 161,
+            "book": "LowVig.ag"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 112,
+            "book": "LowVig.ag"
+          },
+          "under": {
+            "price": 103,
+            "book": "DraftKings"
+          }
+        },
+        "fetched_at": "2026-06-03T02:21:02Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-03T02:21:02Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-03T02:20:37Z",
+            "moneyline": {
+              "away": 116,
+              "home": -136
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -192,
+              "home_line": -1.5,
+              "home_price": 158
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -105,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "betonlineag",
+            "name": "BetOnline.ag",
+            "updated_at": "2026-06-03T02:19:23Z",
+            "moneyline": {
+              "away": 124,
+              "home": -137
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -183,
+              "home_line": -1.5,
+              "home_price": 160
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 110,
+              "under_price": -130
+            }
+          },
+          {
+            "key": "lowvig",
+            "name": "LowVig.ag",
+            "updated_at": "2026-06-03T02:20:38Z",
+            "moneyline": {
+              "away": 124,
+              "home": -137
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -183,
+              "home_line": -1.5,
+              "home_price": 161
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 112,
+              "under_price": -128
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-03T02:20:39Z",
+            "moneyline": {
+              "away": 123,
+              "home": -145
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -172,
+              "home_line": -1.5,
+              "home_price": 140
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 101,
+              "under_price": -124
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-03T02:20:37Z",
+            "moneyline": {
+              "away": 123,
+              "home": -149
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -186,
+              "home_line": -1.5,
+              "home_price": 153
+            },
+            "total": {
+              "line": 7.0,
+              "over_price": -124,
+              "under_price": 103
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-03T02:21:01Z",
+            "moneyline": {
+              "away": 115,
+              "home": -138
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -185,
+              "home_line": -1.5,
+              "home_price": 160
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -105,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-03T02:19:23Z",
+            "moneyline": {
+              "away": 118,
+              "home": -145
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -185,
+              "home_line": -1.5,
+              "home_price": 150
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 105,
+              "under_price": -125
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-03T02:20:39Z",
+            "moneyline": {
+              "away": 114,
+              "home": -141
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -205,
+              "home_line": -1.5,
+              "home_price": 160
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -104,
+              "under_price": -121
+            }
+          },
+          {
+            "key": "betus",
+            "name": "BetUS",
+            "updated_at": "2026-06-03T02:20:19Z",
+            "moneyline": {
+              "away": 124,
+              "home": -137
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -185,
+              "home_line": -1.5,
+              "home_price": 160
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 110,
+              "under_price": -130
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Freddy Peralta",
+        "mlb_id": 642547,
+        "hand": "R",
+        "status": "probable",
+        "era": 3.38,
+        "whip": 1.31,
+        "strikeouts": 74,
+        "innings_pitched": "72.0",
+        "wins": 4,
+        "losses": 4,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 9.2,
+        "xera": 3.68,
+        "hard_hit_pct": 39.6,
+        "barrel_pct": 5.3,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "George Kirby",
+        "mlb_id": 669923,
+        "hand": "R",
+        "status": "probable",
+        "era": 4.04,
+        "whip": 1.28,
+        "strikeouts": 64,
+        "innings_pitched": "78.0",
+        "wins": 5,
+        "losses": 5,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 7.4,
+        "xera": 3.45,
+        "hard_hit_pct": 41.9,
+        "barrel_pct": 5.4,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "T-Mobile Park",
+        "city": "Seattle, WA",
+        "roof": "retractable",
+        "temp_f": 68.8,
+        "wind_mph": 10.1,
+        "wind_dir": "SW",
+        "precipitation_pct": 1,
+        "conditions": "Mainly clear",
+        "note": "Retractable roof \u2014 may be open or closed at game time",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:48Z"
+      },
+      "team_away": {
+        "name": "New York Mets",
+        "abbr": "NYM",
+        "team_id": 121,
+        "wins": 27,
+        "losses": 35,
+        "pct": ".435",
+        "run_differential": -13,
+        "runs_scored": 251,
+        "runs_allowed": 264,
+        "games_played": 62,
+        "rs_per_game": 4.0,
+        "ra_per_game": 4.3,
+        "last10_wins": 5,
+        "last10_losses": 5,
+        "home_wins": 15,
+        "home_losses": 15,
+        "away_wins": 12,
+        "away_losses": 20,
+        "streak": "W1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Seattle Mariners",
+        "abbr": "SEA",
+        "team_id": 136,
+        "wins": 33,
+        "losses": 30,
+        "pct": ".524",
+        "run_differential": 30,
+        "runs_scored": 267,
+        "runs_allowed": 237,
+        "games_played": 63,
+        "rs_per_game": 4.2,
+        "ra_per_game": 3.8,
+        "last10_wins": 8,
+        "last10_losses": 2,
+        "home_wins": 19,
+        "home_losses": 16,
+        "away_wins": 14,
+        "away_losses": 14,
+        "streak": "L1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Adam Beck",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Devin Williams",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Jonah Tong",
+            "pitches_yesterday": 83,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Cionel P\u00e9rez",
+            "pitches_yesterday": 28,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "A.J. Minter",
+            "pitches_yesterday": 19,
+            "pitches_two_days_ago": 9,
+            "appeared_consecutive_days": true,
+            "flag": "likely_unavailable"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:18Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Andr\u00e9s Mu\u00f1oz",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Cooper Criswell",
+            "pitches_yesterday": 23,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Eduard Bazardo",
+            "pitches_yesterday": 13,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:25Z"
+      }
+    },
+    "result": {
+      "away_score": 7,
+      "home_score": 1,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 823130
+  },
+  {
+    "game_id": "31eba8fe40243a3e0e029a8b9949d756",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "San Diego Padres",
+      "abbr": "SD",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Philadelphia Phillies",
+      "abbr": "PHI",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T22:41:00Z",
+    "commence_et": "2026-06-03T18:41:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 178,
+          "home": -210
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -124,
+          "home_line": -1.5,
+          "home_price": 104
+        },
+        "total": {
+          "line": 7.5,
+          "over_price": -115,
+          "under_price": -105
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": 372,
+          "home": -554
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -125,
+          "home_line": -1.5,
+          "home_price": -106
+        },
+        "total": {
+          "line": 5.5,
+          "over_price": 103,
+          "under_price": -135
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 400,
+            "book": "BetMGM"
+          },
+          "home": {
+            "price": -530,
+            "book": "FanDuel"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": 100,
+            "book": "Bovada"
+          },
+          "home_price": {
+            "price": 110,
+            "book": "BetMGM"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 110,
+            "book": "BetMGM"
+          },
+          "under": {
+            "price": -130,
+            "book": "Bovada"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "home": -530,
+              "away": 360
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 104,
+              "away_line": 1.5,
+              "away_price": -138
+            },
+            "total": {
+              "line": 5.5,
+              "over_price": 104,
+              "under_price": -138
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "home": -553,
+              "away": 360
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": -104,
+              "away_line": 1.5,
+              "away_price": -125
+            },
+            "total": {
+              "line": 5.5,
+              "over_price": 102,
+              "under_price": -133
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "home": -550,
+              "away": 350
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": -130,
+              "away_line": 1.5,
+              "away_price": 100
+            },
+            "total": {
+              "line": 5.5,
+              "over_price": 100,
+              "under_price": -130
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "home": -600,
+              "away": 400
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 110,
+              "away_line": 1.5,
+              "away_price": -140
+            },
+            "total": {
+              "line": 5.5,
+              "over_price": 110,
+              "under_price": -140
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "home": -556,
+              "away": 385
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": -111,
+              "away_line": 1.5,
+              "away_price": -118
+            },
+            "total": {
+              "line": 5.5,
+              "over_price": -105,
+              "under_price": -133
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "home": -670,
+              "away": 390
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": -109,
+              "away_line": 1.5,
+              "away_price": -125
+            },
+            "total": {
+              "line": 5.5,
+              "over_price": 105,
+              "under_price": -150
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Walker Buehler",
+        "mlb_id": 621111,
+        "hand": "R",
+        "status": "probable",
+        "era": 4.53,
+        "whip": 1.28,
+        "strikeouts": 49,
+        "innings_pitched": "57.2",
+        "wins": 3,
+        "losses": 3,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 7.6,
+        "xera": 4.72,
+        "hard_hit_pct": 41.7,
+        "barrel_pct": 7.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Cristopher S\u00e1nchez",
+        "mlb_id": 650911,
+        "hand": "L",
+        "status": "probable",
+        "era": 1.46,
+        "whip": 1.09,
+        "strikeouts": 103,
+        "innings_pitched": "86.1",
+        "wins": 6,
+        "losses": 2,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 10.7,
+        "xera": 2.91,
+        "hard_hit_pct": 44.1,
+        "barrel_pct": 8.5,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Citizens Bank Park",
+        "city": "Philadelphia, PA",
+        "roof": "outdoor",
+        "temp_f": 84.0,
+        "wind_mph": 1.1,
+        "wind_dir": "N",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:49Z"
+      },
+      "team_away": {
+        "name": "San Diego Padres",
+        "abbr": "SD",
+        "team_id": 135,
+        "wins": 32,
+        "losses": 27,
+        "pct": ".542",
+        "run_differential": -7,
+        "runs_scored": 229,
+        "runs_allowed": 236,
+        "games_played": 59,
+        "rs_per_game": 3.9,
+        "ra_per_game": 4.0,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 16,
+        "home_losses": 16,
+        "away_wins": 16,
+        "away_losses": 11,
+        "streak": "L3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Philadelphia Phillies",
+        "abbr": "PHI",
+        "team_id": 143,
+        "wins": 31,
+        "losses": 29,
+        "pct": ".517",
+        "run_differential": -25,
+        "runs_scored": 233,
+        "runs_allowed": 258,
+        "games_played": 60,
+        "rs_per_game": 3.9,
+        "ra_per_game": 4.3,
+        "last10_wins": 6,
+        "last10_losses": 4,
+        "home_wins": 15,
+        "home_losses": 16,
+        "away_wins": 16,
+        "away_losses": 13,
+        "streak": "W1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Hunter Wendelstedt",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Mason Miller",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Jeremiah Estrada",
+            "pitches_yesterday": 22,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Yuki Matsui",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Bradgley Rodriguez",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Jason Adam",
+            "pitches_yesterday": 6,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:29Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Jhoan Duran",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Orion Kerkering",
+            "pitches_yesterday": 16,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Jhoan Duran",
+            "pitches_yesterday": 14,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Brad Keller",
+            "pitches_yesterday": 12,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Jos\u00e9 Alvarado",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:34Z"
+      }
+    },
+    "result": {
+      "away_score": 2,
+      "home_score": 3,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 823456
+  },
+  {
+    "game_id": "3ca053166f16be8d40c5adfe1a2bd8aa",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Baltimore Orioles",
+      "abbr": "BAL",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Boston Red Sox",
+      "abbr": "BOS",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T22:46:00Z",
+    "commence_et": "2026-06-03T18:46:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 124,
+          "home": -147
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -160,
+          "home_line": -1.5,
+          "home_price": 135
+        },
+        "total": {
+          "line": 9.0,
+          "over_price": -105,
+          "under_price": -115
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": 3300,
+          "home": -10000
+        },
+        "runline": {
+          "away_line": 8.5,
+          "away_price": -150,
+          "home_line": -8.5,
+          "home_price": 117
+        },
+        "total": {
+          "line": 10.5,
+          "over_price": -123,
+          "under_price": -109
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 3300,
+            "book": "BetMGM"
+          },
+          "home": {
+            "price": -10000,
+            "book": "BetMGM"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": 100,
+            "book": "BetRivers"
+          },
+          "home_price": {
+            "price": 140,
+            "book": "BetMGM"
+          }
+        },
+        "total": {
+          "over": {
+            "price": -118,
+            "book": "DraftKings"
+          },
+          "under": {
+            "price": -105,
+            "book": "Bovada"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "runline": {
+              "away_line": 8.5,
+              "away_price": -182,
+              "home_line": -8.5,
+              "home_price": 136
+            },
+            "total": {
+              "line": 10.5,
+              "over_price": -122,
+              "under_price": -108
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "runline": {
+              "away_line": 8.5,
+              "away_price": -170,
+              "home_line": -8.5,
+              "home_price": 130
+            },
+            "total": {
+              "line": 10.5,
+              "over_price": -118,
+              "under_price": -110
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "runline": {
+              "away_line": 8.5,
+              "away_price": -135,
+              "home_line": -8.5,
+              "home_price": 105
+            },
+            "total": {
+              "line": 10.5,
+              "over_price": -125,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "away": 3300,
+              "home": -10000
+            },
+            "runline": {
+              "away_line": 8.5,
+              "away_price": -180,
+              "home_line": -8.5,
+              "home_price": 140
+            },
+            "total": {
+              "line": 10.5,
+              "over_price": -120,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "runline": {
+              "away_line": 8.5,
+              "away_price": -133,
+              "home_line": -8.5,
+              "home_price": -105
+            },
+            "total": {
+              "line": 10.5,
+              "over_price": -125,
+              "under_price": -111
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "runline": {
+              "away_line": 8.0,
+              "away_price": 100,
+              "home_line": -8.0,
+              "home_price": -137
+            },
+            "total": {
+              "line": 10.5,
+              "over_price": -127,
+              "under_price": -110
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Chris Bassitt",
+        "mlb_id": 605135,
+        "hand": "R",
+        "status": "probable",
+        "era": 5.27,
+        "whip": 1.63,
+        "strikeouts": 37,
+        "innings_pitched": "56.1",
+        "wins": 4,
+        "losses": 3,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 5.9,
+        "xera": 4.66,
+        "hard_hit_pct": 35.4,
+        "barrel_pct": 3.9,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Payton Tolle",
+        "mlb_id": 801139,
+        "hand": "L",
+        "status": "probable",
+        "era": 2.3,
+        "whip": 0.96,
+        "strikeouts": 51,
+        "innings_pitched": "47.0",
+        "wins": 2,
+        "losses": 2,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 9.8,
+        "xera": 2.21,
+        "hard_hit_pct": 36.9,
+        "barrel_pct": 5.8,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Fenway Park",
+        "city": "Boston, MA",
+        "roof": "outdoor",
+        "temp_f": 81.1,
+        "wind_mph": 9.7,
+        "wind_dir": "SE",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:50Z"
+      },
+      "team_away": {
+        "name": "Baltimore Orioles",
+        "abbr": "BAL",
+        "team_id": 110,
+        "wins": 29,
+        "losses": 32,
+        "pct": ".475",
+        "run_differential": -36,
+        "runs_scored": 279,
+        "runs_allowed": 315,
+        "games_played": 61,
+        "rs_per_game": 4.6,
+        "ra_per_game": 5.2,
+        "last10_wins": 7,
+        "last10_losses": 3,
+        "home_wins": 19,
+        "home_losses": 15,
+        "away_wins": 10,
+        "away_losses": 17,
+        "streak": "W3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Boston Red Sox",
+        "abbr": "BOS",
+        "team_id": 111,
+        "wins": 25,
+        "losses": 34,
+        "pct": ".424",
+        "run_differential": -7,
+        "runs_scored": 233,
+        "runs_allowed": 240,
+        "games_played": 59,
+        "rs_per_game": 3.9,
+        "ra_per_game": 4.1,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 9,
+        "home_losses": 20,
+        "away_wins": 16,
+        "away_losses": 14,
+        "streak": "L1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Ryan Blakney",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Ryan Helsley",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Rico Garcia",
+            "pitches_yesterday": 14,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Andrew Kittredge",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:40Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Aroldis Chapman",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Tyler Samaniego",
+            "pitches_yesterday": 34,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Greg Weissert",
+            "pitches_yesterday": 25,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:44Z"
+      }
+    },
+    "result": {
+      "away_score": 1,
+      "home_score": 8,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 824755
+  },
+  {
+    "game_id": "859f56a081b813c2f16240bc2687f241",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Cleveland Guardians",
+      "abbr": "CLE",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "New York Yankees",
+      "abbr": "NYY",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T23:06:00Z",
+    "commence_et": "2026-06-03T19:06:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 141,
+          "home": -160
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -157,
+          "home_line": -1.5,
+          "home_price": 135
+        },
+        "total": {
+          "line": 7.5,
+          "over_price": 100,
+          "under_price": -120
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": -394,
+          "home": 272
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": -147,
+          "home_line": 1.5,
+          "home_price": 110
+        },
+        "total": {
+          "line": 9.5,
+          "over_price": -102,
+          "under_price": -131
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": -300,
+            "book": "BetMGM"
+          },
+          "home": {
+            "price": 320,
+            "book": "FanDuel"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": 132,
+            "book": "FanDuel"
+          },
+          "home_price": {
+            "price": 140,
+            "book": "Bovada"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 135,
+            "book": "BetMGM"
+          },
+          "under": {
+            "price": 100,
+            "book": "BetRivers"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "away": -460,
+              "home": 320
+            },
+            "runline": {
+              "away_line": -2.5,
+              "away_price": 132,
+              "home_line": 2.5,
+              "home_price": -178
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": -108,
+              "under_price": -122
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "away": -367,
+              "home": 259
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": -158,
+              "home_line": 1.5,
+              "home_price": 121
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": 114,
+              "under_price": -149
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "away": -425,
+              "home": 285
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": -185,
+              "home_line": 1.5,
+              "home_price": 140
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": 100,
+              "under_price": -130
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "away": -300,
+              "home": 230
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": -140,
+              "home_line": 1.5,
+              "home_price": 110
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": 135,
+              "under_price": -175
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "away": -333,
+              "home": 255
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": -154,
+              "home_line": 1.5,
+              "home_price": 110
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": -105,
+              "under_price": -133
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "away": -435,
+              "home": 290
+            },
+            "runline": {
+              "away_line": -2.0,
+              "away_price": 102,
+              "home_line": 2.0,
+              "home_price": -141
+            },
+            "total": {
+              "line": 9.0,
+              "over_price": -141,
+              "under_price": 100
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Gavin Williams",
+        "mlb_id": 668909,
+        "hand": "R",
+        "status": "probable",
+        "era": 3.1,
+        "whip": 1.07,
+        "strikeouts": 94,
+        "innings_pitched": "81.1",
+        "wins": 8,
+        "losses": 3,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 10.4,
+        "xera": 4.09,
+        "hard_hit_pct": 48.6,
+        "barrel_pct": 12.2,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Gerrit Cole",
+        "mlb_id": 543037,
+        "hand": "R",
+        "status": "probable",
+        "era": 2.0,
+        "whip": 0.83,
+        "strikeouts": 14,
+        "innings_pitched": "18.0",
+        "wins": 1,
+        "losses": 0,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 7.0,
+        "xera": null,
+        "hard_hit_pct": 20.0,
+        "barrel_pct": 0.0,
+        "small_sample": true,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Yankee Stadium",
+        "city": "Bronx, NY",
+        "roof": "outdoor",
+        "temp_f": 76.5,
+        "wind_mph": 9.9,
+        "wind_dir": "S",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:51Z"
+      },
+      "team_away": {
+        "name": "Cleveland Guardians",
+        "abbr": "CLE",
+        "team_id": 114,
+        "wins": 35,
+        "losses": 27,
+        "pct": ".565",
+        "run_differential": 6,
+        "runs_scored": 258,
+        "runs_allowed": 252,
+        "games_played": 62,
+        "rs_per_game": 4.2,
+        "ra_per_game": 4.1,
+        "last10_wins": 5,
+        "last10_losses": 5,
+        "home_wins": 17,
+        "home_losses": 14,
+        "away_wins": 18,
+        "away_losses": 13,
+        "streak": "W1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "New York Yankees",
+        "abbr": "NYY",
+        "team_id": 147,
+        "wins": 36,
+        "losses": 24,
+        "pct": ".600",
+        "run_differential": 93,
+        "runs_scored": 309,
+        "runs_allowed": 216,
+        "games_played": 60,
+        "rs_per_game": 5.2,
+        "ra_per_game": 3.6,
+        "last10_wins": 6,
+        "last10_losses": 4,
+        "home_wins": 17,
+        "home_losses": 10,
+        "away_wins": 19,
+        "away_losses": 14,
+        "streak": "L1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Laz Diaz",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Cade Smith",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Hunter Gaddis",
+            "pitches_yesterday": 22,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Colin Holderman",
+            "pitches_yesterday": 18,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Tim Herrin",
+            "pitches_yesterday": 15,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Shawn Armstrong",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Matt Festa",
+            "pitches_yesterday": 9,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:49Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "David Bednar",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Brent Headrick",
+            "pitches_yesterday": 32,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Camilo Doval",
+            "pitches_yesterday": 28,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Ryan Yarbrough",
+            "pitches_yesterday": 26,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Tim Hill",
+            "pitches_yesterday": 20,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:17:54Z"
+      }
+    },
+    "result": {
+      "away_score": 5,
+      "home_score": 4,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 823540
+  },
+  {
+    "game_id": "682766eb5df9e22bd3689cd7ae59899b",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Kansas City Royals",
+      "abbr": "KC",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Cincinnati Reds",
+      "abbr": "CIN",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T23:10:00Z",
+    "commence_et": "2026-06-03T19:10:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 131,
+          "home": -155
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -160,
+          "home_line": -1.5,
+          "home_price": 135
+        },
+        "total": {
+          "line": 8.5,
+          "over_price": -108,
+          "under_price": -110
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": 128,
+          "home": -164
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -276,
+          "home_line": -1.5,
+          "home_price": 202
+        },
+        "total": {
+          "line": 7.5,
+          "over_price": 106,
+          "under_price": -144
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 130,
+            "book": "DraftKings"
+          },
+          "home": {
+            "price": -135,
+            "book": "BetMGM"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": 225,
+            "book": "BetMGM"
+          },
+          "home_price": {
+            "price": 225,
+            "book": "FanDuel"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 115,
+            "book": "Bovada"
+          },
+          "under": {
+            "price": -105,
+            "book": "MyBookie.ag"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "home": -170,
+              "away": 130
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 204,
+              "away_line": 1.5,
+              "away_price": -278
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 106,
+              "under_price": -138
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "home": -170,
+              "away": 130
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 200,
+              "away_line": 1.5,
+              "away_price": -275
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 115,
+              "under_price": -150
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "home": -135,
+              "away": 105
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": -300,
+              "away_line": -1.5,
+              "away_price": 225
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -110,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "home": -162,
+              "away": 126
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 225,
+              "away_line": 1.5,
+              "away_price": -320
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 114,
+              "under_price": -152
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "home": -167,
+              "away": 130
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 205,
+              "away_line": 1.5,
+              "away_price": -286
+            },
+            "total": {
+              "line": 7.0,
+              "over_price": -133,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "home": -159,
+              "away": 115
+            },
+            "runline": {
+              "home_line": -1.0,
+              "home_price": 140,
+              "away_line": 1.0,
+              "away_price": -200
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 106,
+              "under_price": -150
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Stephen Kolek",
+        "mlb_id": 663568,
+        "hand": "R",
+        "status": "probable",
+        "era": 3.5,
+        "whip": 1.0,
+        "strikeouts": 27,
+        "innings_pitched": "36.0",
+        "wins": 3,
+        "losses": 1,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 6.8,
+        "xera": 3.31,
+        "hard_hit_pct": 35.8,
+        "barrel_pct": 6.3,
+        "small_sample": true,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Chase Burns",
+        "mlb_id": 695505,
+        "hand": "R",
+        "status": "probable",
+        "era": 2.05,
+        "whip": 0.95,
+        "strikeouts": 81,
+        "innings_pitched": "70.1",
+        "wins": 7,
+        "losses": 1,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 10.4,
+        "xera": 2.89,
+        "hard_hit_pct": 37.8,
+        "barrel_pct": 8.3,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Great American Ball Park",
+        "city": "Cincinnati, OH",
+        "roof": "outdoor",
+        "temp_f": 80.3,
+        "wind_mph": 2.5,
+        "wind_dir": "NE",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:52Z"
+      },
+      "team_away": {
+        "name": "Kansas City Royals",
+        "abbr": "KC",
+        "team_id": 118,
+        "wins": 23,
+        "losses": 38,
+        "pct": ".377",
+        "run_differential": -53,
+        "runs_scored": 233,
+        "runs_allowed": 286,
+        "games_played": 61,
+        "rs_per_game": 3.8,
+        "ra_per_game": 4.7,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 15,
+        "home_losses": 17,
+        "away_wins": 8,
+        "away_losses": 21,
+        "streak": "L1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Cincinnati Reds",
+        "abbr": "CIN",
+        "team_id": 113,
+        "wins": 31,
+        "losses": 29,
+        "pct": ".517",
+        "run_differential": -38,
+        "runs_scored": 262,
+        "runs_allowed": 300,
+        "games_played": 60,
+        "rs_per_game": 4.4,
+        "ra_per_game": 5.0,
+        "last10_wins": 5,
+        "last10_losses": 5,
+        "home_wins": 16,
+        "home_losses": 15,
+        "away_wins": 15,
+        "away_losses": 14,
+        "streak": "W1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Cory Blaser",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Lucas Erceg",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "John Schreiber",
+            "pitches_yesterday": 10,
+            "pitches_two_days_ago": 11,
+            "appeared_consecutive_days": true,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Lucas Erceg",
+            "pitches_yesterday": 24,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Matt Strahm",
+            "pitches_yesterday": 13,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:00Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Emilio Pag\u00e1n",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Sam Moll",
+            "pitches_yesterday": 28,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Brock Burke",
+            "pitches_yesterday": 19,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Zach Maxwell",
+            "pitches_yesterday": 18,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Tejay Antone",
+            "pitches_yesterday": 17,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:07Z"
+      }
+    },
+    "result": {
+      "away_score": 5,
+      "home_score": 2,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 824509
+  },
+  {
+    "game_id": "7440e18762df663a2c7e8fe443772540",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Toronto Blue Jays",
+      "abbr": "TOR",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Atlanta Braves",
+      "abbr": "ATL",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T23:16:00Z",
+    "commence_et": "2026-06-03T19:16:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 125,
+          "home": -143
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -165,
+          "home_line": -1.5,
+          "home_price": 140
+        },
+        "total": {
+          "line": 8.0,
+          "over_price": -110,
+          "under_price": -110
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": 430,
+          "home": -690
+        },
+        "runline": {
+          "away_line": 1.75,
+          "away_price": 103,
+          "home_line": -1.75,
+          "home_price": -139
+        },
+        "total": {
+          "line": 9.0,
+          "over_price": -114,
+          "under_price": -122
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 475,
+            "book": "BetMGM"
+          },
+          "home": {
+            "price": -556,
+            "book": "MyBookie.ag"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": 140,
+            "book": "Bovada"
+          },
+          "home_price": {
+            "price": 146,
+            "book": "FanDuel"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 121,
+            "book": "DraftKings"
+          },
+          "under": {
+            "price": 122,
+            "book": "FanDuel"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "home": -700,
+              "away": 440
+            },
+            "runline": {
+              "home_line": -2.5,
+              "home_price": 146,
+              "away_line": 2.5,
+              "away_price": -198
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -162,
+              "under_price": 122
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "home": -680,
+              "away": 419
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": -180,
+              "away_line": 1.5,
+              "away_price": 137
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": 121,
+              "under_price": -158
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "home": -600,
+              "away": 375
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": -185,
+              "away_line": 1.5,
+              "away_price": 140
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -155,
+              "under_price": 120
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "home": -700,
+              "away": 475
+            },
+            "runline": {
+              "home_line": -2.5,
+              "home_price": 135,
+              "away_line": 2.5,
+              "away_price": -175
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": 115,
+              "under_price": -150
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "home": -556,
+              "away": 375
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": -182,
+              "away_line": 1.5,
+              "away_price": 125
+            },
+            "total": {
+              "line": 9.0,
+              "over_price": -118,
+              "under_price": -118
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "home": -910,
+              "away": 450
+            },
+            "runline": {
+              "home_line": -2.0,
+              "home_price": -113,
+              "away_line": 2.0,
+              "away_price": -124
+            },
+            "total": {
+              "line": 9.0,
+              "over_price": -110,
+              "under_price": -127
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Patrick Corbin",
+        "mlb_id": 571578,
+        "hand": "L",
+        "status": "probable",
+        "era": 3.98,
+        "whip": 1.38,
+        "strikeouts": 37,
+        "innings_pitched": "54.1",
+        "wins": 2,
+        "losses": 1,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 6.1,
+        "xera": 5.28,
+        "hard_hit_pct": 44.6,
+        "barrel_pct": 8.3,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Grant Holmes",
+        "mlb_id": 656550,
+        "hand": "R",
+        "status": "probable",
+        "era": 3.92,
+        "whip": 1.32,
+        "strikeouts": 57,
+        "innings_pitched": "62.0",
+        "wins": 3,
+        "losses": 2,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 8.3,
+        "xera": 4.32,
+        "hard_hit_pct": 44.6,
+        "barrel_pct": 9.6,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Truist Park",
+        "city": "Cumberland, GA",
+        "roof": "outdoor",
+        "temp_f": 77.4,
+        "wind_mph": 8.3,
+        "wind_dir": "NE",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:53Z"
+      },
+      "team_away": {
+        "name": "Toronto Blue Jays",
+        "abbr": "TOR",
+        "team_id": 141,
+        "wins": 29,
+        "losses": 32,
+        "pct": ".475",
+        "run_differential": -8,
+        "runs_scored": 247,
+        "runs_allowed": 255,
+        "games_played": 61,
+        "rs_per_game": 4.0,
+        "ra_per_game": 4.2,
+        "last10_wins": 5,
+        "last10_losses": 5,
+        "home_wins": 17,
+        "home_losses": 13,
+        "away_wins": 12,
+        "away_losses": 19,
+        "streak": "L3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Atlanta Braves",
+        "abbr": "ATL",
+        "team_id": 144,
+        "wins": 41,
+        "losses": 20,
+        "pct": ".672",
+        "run_differential": 110,
+        "runs_scored": 320,
+        "runs_allowed": 210,
+        "games_played": 61,
+        "rs_per_game": 5.2,
+        "ra_per_game": 3.4,
+        "last10_wins": 6,
+        "last10_losses": 4,
+        "home_wins": 18,
+        "home_losses": 10,
+        "away_wins": 23,
+        "away_losses": 10,
+        "streak": "W1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Bruce Dreckman",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Louis Varland",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Braydon Fisher",
+            "pitches_yesterday": 15,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Mason Fluharty",
+            "pitches_yesterday": 14,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Connor Seabold",
+            "pitches_yesterday": 3,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:11Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Raisel Iglesias",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Raisel Iglesias",
+            "pitches_yesterday": 15,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Robert Suarez",
+            "pitches_yesterday": 13,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:16Z"
+      }
+    },
+    "result": {
+      "away_score": 3,
+      "home_score": 7,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 824917
+  },
+  {
+    "game_id": "2b93a316b12e1dddfcb752bed7aa43d6",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "San Francisco Giants",
+      "abbr": "SF",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Milwaukee Brewers",
+      "abbr": "MIL",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T23:40:00Z",
+    "commence_et": "2026-06-03T19:40:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 123,
+          "home": -150
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -157,
+          "home_line": -1.5,
+          "home_price": 130
+        },
+        "total": {
+          "line": 8.0,
+          "over_price": -105,
+          "under_price": -115
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": 121,
+          "home": -157
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -258,
+          "home_line": -1.5,
+          "home_price": 183
+        },
+        "total": {
+          "line": 4.5,
+          "over_price": -129,
+          "under_price": -105
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 140,
+            "book": "BetMGM"
+          },
+          "home": {
+            "price": -143,
+            "book": "MyBookie.ag"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": -159,
+            "book": "BetRivers"
+          },
+          "home_price": {
+            "price": 210,
+            "book": "FanDuel"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 108,
+            "book": "FanDuel"
+          },
+          "under": {
+            "price": 105,
+            "book": "Bovada"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "home": -160,
+              "away": 122
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 204,
+              "away_line": 1.5,
+              "away_price": -278
+            },
+            "total": {
+              "line": 3.5,
+              "over_price": -131,
+              "under_price": 100
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "home": -180,
+              "away": 140
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 154,
+              "away_line": 1.5,
+              "away_price": -200
+            },
+            "total": {
+              "line": 4.5,
+              "over_price": -130,
+              "under_price": 100
+            }
+          },
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "home": -154,
+              "away": 120
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 210,
+              "away_line": 1.5,
+              "away_price": -300
+            },
+            "total": {
+              "line": 4.5,
+              "over_price": 108,
+              "under_price": -144
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "home": -155,
+              "away": 120
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 180,
+              "away_line": 1.5,
+              "away_price": -240
+            },
+            "total": {
+              "line": 4.5,
+              "over_price": -135,
+              "under_price": 105
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "home": -143,
+              "away": 115
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 185,
+              "away_line": 1.5,
+              "away_price": -286
+            },
+            "total": {
+              "line": 4.5,
+              "over_price": -125,
+              "under_price": -111
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "home": -175,
+              "away": 123
+            },
+            "runline": {
+              "home_line": -1.0,
+              "home_price": 116,
+              "away_line": 1.0,
+              "away_price": -159
+            },
+            "total": {
+              "line": 4.5,
+              "over_price": -129,
+              "under_price": -110
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Logan Webb",
+        "mlb_id": 657277,
+        "hand": "R",
+        "status": "probable",
+        "era": 4.5,
+        "whip": 1.3,
+        "strikeouts": 50,
+        "innings_pitched": "56.0",
+        "wins": 2,
+        "losses": 4,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 8.0,
+        "xera": 4.41,
+        "hard_hit_pct": 47.5,
+        "barrel_pct": 6.3,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Robert Gasser",
+        "mlb_id": 688107,
+        "hand": "L",
+        "status": "probable",
+        "era": 4.38,
+        "whip": 1.46,
+        "strikeouts": 11,
+        "innings_pitched": "12.1",
+        "wins": 0,
+        "losses": 1,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 8.0,
+        "xera": null,
+        "hard_hit_pct": 36.0,
+        "barrel_pct": 8.0,
+        "small_sample": true,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "American Family Field",
+        "city": "Milwaukee, WI",
+        "roof": "retractable",
+        "temp_f": 76.0,
+        "wind_mph": 10.9,
+        "wind_dir": "SE",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "note": "Retractable roof \u2014 may be open or closed at game time",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:54Z"
+      },
+      "team_away": {
+        "name": "San Francisco Giants",
+        "abbr": "SF",
+        "team_id": 137,
+        "wins": 23,
+        "losses": 38,
+        "pct": ".377",
+        "run_differential": -67,
+        "runs_scored": 237,
+        "runs_allowed": 304,
+        "games_played": 61,
+        "rs_per_game": 3.9,
+        "ra_per_game": 5.0,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 12,
+        "home_losses": 16,
+        "away_wins": 11,
+        "away_losses": 22,
+        "streak": "L2",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Milwaukee Brewers",
+        "abbr": "MIL",
+        "team_id": 158,
+        "wins": 37,
+        "losses": 21,
+        "pct": ".638",
+        "run_differential": 93,
+        "runs_scored": 292,
+        "runs_allowed": 199,
+        "games_played": 58,
+        "rs_per_game": 5.0,
+        "ra_per_game": 3.4,
+        "last10_wins": 7,
+        "last10_losses": 3,
+        "home_wins": 21,
+        "home_losses": 11,
+        "away_wins": 16,
+        "away_losses": 10,
+        "streak": "W3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Quinn Wolcott",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Caleb Kilian",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Tristan Beck",
+            "pitches_yesterday": 42,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Caleb Kilian",
+            "pitches_yesterday": 20,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Sam Hentges",
+            "pitches_yesterday": 15,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Erik Miller",
+            "pitches_yesterday": 14,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:23Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Trevor Megill",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Aaron Ashby",
+            "pitches_yesterday": 29,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Abner Uribe",
+            "pitches_yesterday": 14,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Trevor Megill",
+            "pitches_yesterday": 10,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:29Z"
+      }
+    },
+    "result": {
+      "away_score": 1,
+      "home_score": 0,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 823780
+  },
+  {
+    "game_id": "9fc40cd3ea77063176a73e678395da73",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Texas Rangers",
+      "abbr": "TEX",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "St. Louis Cardinals",
+      "abbr": "STL",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-03T23:46:00Z",
+    "commence_et": "2026-06-03T19:46:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": -104,
+          "home": -112
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": 153,
+          "home_line": 1.5,
+          "home_price": -185
+        },
+        "total": {
+          "line": 8.5,
+          "over_price": -105,
+          "under_price": -115
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": 110,
+          "home": -147
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -232,
+          "home_line": -1.5,
+          "home_price": 171
+        },
+        "total": {
+          "line": 7.5,
+          "over_price": -109,
+          "under_price": -124
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 120,
+            "book": "FanDuel"
+          },
+          "home": {
+            "price": -140,
+            "book": "BetMGM"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": -162,
+            "book": "BetRivers"
+          },
+          "home_price": {
+            "price": 190,
+            "book": "BetMGM"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 104,
+            "book": "FanDuel"
+          },
+          "under": {
+            "price": -115,
+            "book": "Bovada"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "home": -154,
+              "away": 120
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 172,
+              "away_line": 1.5,
+              "away_price": -235
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": 104,
+              "under_price": -138
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "home": -156,
+              "away": 120
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 152,
+              "away_line": 1.5,
+              "away_price": -201
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -105,
+              "under_price": -124
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "home": -145,
+              "away": 110
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 175,
+              "away_line": 1.5,
+              "away_price": -230
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -115,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "home": -140,
+              "away": 110
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 190,
+              "away_line": 1.5,
+              "away_price": -250
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -110,
+              "under_price": -118
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "home": -143,
+              "away": 110
+            },
+            "runline": {
+              "home_line": -1.5,
+              "home_price": 170,
+              "away_line": 1.5,
+              "away_price": -250
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -111,
+              "under_price": -125
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "home": -150,
+              "away": 110
+            },
+            "runline": {
+              "home_line": -1.0,
+              "home_price": 117,
+              "away_line": 1.0,
+              "away_price": -162
+            },
+            "total": {
+              "line": 7.5,
+              "over_price": -109,
+              "under_price": -132
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "MacKenzie Gore",
+        "mlb_id": 669022,
+        "hand": "L",
+        "status": "probable",
+        "era": 3.98,
+        "whip": 1.23,
+        "strikeouts": 66,
+        "innings_pitched": "63.1",
+        "wins": 4,
+        "losses": 4,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 9.4,
+        "xera": 3.98,
+        "hard_hit_pct": 44.2,
+        "barrel_pct": 9.2,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Andre Pallante",
+        "mlb_id": 669467,
+        "hand": "R",
+        "status": "probable",
+        "era": 4.13,
+        "whip": 1.31,
+        "strikeouts": 49,
+        "innings_pitched": "61.0",
+        "wins": 5,
+        "losses": 4,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 7.2,
+        "xera": 3.87,
+        "hard_hit_pct": 36.5,
+        "barrel_pct": 7.2,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Busch Stadium",
+        "city": "St. Louis, MO",
+        "roof": "outdoor",
+        "temp_f": 81.3,
+        "wind_mph": 5.1,
+        "wind_dir": "SE",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:55Z"
+      },
+      "team_away": {
+        "name": "Texas Rangers",
+        "abbr": "TEX",
+        "team_id": 140,
+        "wins": 30,
+        "losses": 31,
+        "pct": ".492",
+        "run_differential": 11,
+        "runs_scored": 246,
+        "runs_allowed": 235,
+        "games_played": 61,
+        "rs_per_game": 4.0,
+        "ra_per_game": 3.9,
+        "last10_wins": 6,
+        "last10_losses": 4,
+        "home_wins": 15,
+        "home_losses": 13,
+        "away_wins": 15,
+        "away_losses": 18,
+        "streak": "W5",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "St. Louis Cardinals",
+        "abbr": "STL",
+        "team_id": 138,
+        "wins": 31,
+        "losses": 28,
+        "pct": ".525",
+        "run_differential": -14,
+        "runs_scored": 252,
+        "runs_allowed": 266,
+        "games_played": 59,
+        "rs_per_game": 4.3,
+        "ra_per_game": 4.5,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 15,
+        "home_losses": 16,
+        "away_wins": 16,
+        "away_losses": 12,
+        "streak": "L2",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Tom Hanahan",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Jacob Latz",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Jakob Junis",
+            "pitches_yesterday": 18,
+            "pitches_two_days_ago": 12,
+            "appeared_consecutive_days": true,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Jalen Beeks",
+            "pitches_yesterday": 19,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Cal Quantrill",
+            "pitches_yesterday": 1,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:34Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Riley O'Brien",
+          "available": false
+        },
+        "taxed_relievers": [
+          {
+            "name": "Riley O'Brien",
+            "pitches_yesterday": 32,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "George Soriano",
+            "pitches_yesterday": 10,
+            "pitches_two_days_ago": 17,
+            "appeared_consecutive_days": true,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "JoJo Romero",
+            "pitches_yesterday": 14,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Gordon Graceffo",
+            "pitches_yesterday": 10,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:40Z"
+      }
+    },
+    "result": {
+      "away_score": 3,
+      "home_score": 5,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 823051
+  },
+  {
+    "game_id": "54b22c486dccf3bc503a2b33ec17f157",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Athletics",
+      "abbr": "ATH",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Chicago Cubs",
+      "abbr": "CHC",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-04T00:06:00Z",
+    "commence_et": "2026-06-03T20:06:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 104,
+          "home": -121
+        },
+        "runline": {
+          "away_line": 0.0,
+          "away_price": 105,
+          "home_line": 0.0,
+          "home_price": 105
+        },
+        "total": {
+          "line": 9.0,
+          "over_price": -104,
+          "under_price": -117
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": -165,
+          "home": 125
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": 106,
+          "home_line": 1.5,
+          "home_price": -141
+        },
+        "total": {
+          "line": 9.5,
+          "over_price": -116,
+          "under_price": -115
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": -105,
+            "book": "BetMGM"
+          },
+          "home": {
+            "price": 133,
+            "book": "BetRivers"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": 160,
+            "book": "BetMGM"
+          },
+          "home_price": {
+            "price": 100,
+            "book": "BetRivers"
+          }
+        },
+        "total": {
+          "over": {
+            "price": -106,
+            "book": "FanDuel"
+          },
+          "under": {
+            "price": -105,
+            "book": "Bovada"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "away": -164,
+              "home": 128
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 112,
+              "home_line": 1.5,
+              "home_price": -148
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": -106,
+              "under_price": -125
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "away": -165,
+              "home": 126
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 107,
+              "home_line": 1.5,
+              "home_price": -139
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": -115,
+              "under_price": -113
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "away": -165,
+              "home": 125
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 100,
+              "home_line": 1.5,
+              "home_price": -130
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": -125,
+              "under_price": -105
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "away": -105,
+              "home": -118
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 160,
+              "home_line": 1.5,
+              "home_price": -210
+            },
+            "total": {
+              "line": 10.5,
+              "over_price": -110,
+              "under_price": -118
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "away": -167,
+              "home": 125
+            },
+            "runline": {
+              "away_line": -1.5,
+              "away_price": 105,
+              "home_line": 1.5,
+              "home_price": -143
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": -118,
+              "under_price": -118
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "away": -186,
+              "home": 133
+            },
+            "runline": {
+              "away_line": -1.0,
+              "away_price": -137,
+              "home_line": 1.0,
+              "home_price": 100
+            },
+            "total": {
+              "line": 9.5,
+              "over_price": -125,
+              "under_price": -113
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Jeffrey Springs",
+        "mlb_id": 605488,
+        "hand": "L",
+        "status": "probable",
+        "era": 4.08,
+        "whip": 1.19,
+        "strikeouts": 59,
+        "innings_pitched": "68.1",
+        "wins": 3,
+        "losses": 6,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 7.8,
+        "xera": 3.87,
+        "hard_hit_pct": 34.3,
+        "barrel_pct": 9.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Colin Rea",
+        "mlb_id": 607067,
+        "hand": "R",
+        "status": "probable",
+        "era": 4.84,
+        "whip": 1.39,
+        "strikeouts": 50,
+        "innings_pitched": "61.1",
+        "wins": 5,
+        "losses": 3,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 7.3,
+        "xera": 5.14,
+        "hard_hit_pct": 44.3,
+        "barrel_pct": 11.9,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Wrigley Field",
+        "city": "Chicago, IL",
+        "roof": "outdoor",
+        "temp_f": 70.1,
+        "wind_mph": 7.6,
+        "wind_dir": "E",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:57Z"
+      },
+      "team_away": {
+        "name": "Athletics",
+        "abbr": "ATH",
+        "team_id": 133,
+        "wins": 29,
+        "losses": 31,
+        "pct": ".483",
+        "run_differential": -33,
+        "runs_scored": 254,
+        "runs_allowed": 287,
+        "games_played": 60,
+        "rs_per_game": 4.2,
+        "ra_per_game": 4.8,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 11,
+        "home_losses": 17,
+        "away_wins": 18,
+        "away_losses": 14,
+        "streak": "W1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Chicago Cubs",
+        "abbr": "CHC",
+        "team_id": 112,
+        "wins": 32,
+        "losses": 29,
+        "pct": ".525",
+        "run_differential": 18,
+        "runs_scored": 285,
+        "runs_allowed": 267,
+        "games_played": 61,
+        "rs_per_game": 4.7,
+        "ra_per_game": 4.4,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 18,
+        "home_losses": 12,
+        "away_wins": 14,
+        "away_losses": 17,
+        "streak": "L2",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "John Libka",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Hogan Harris",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Scott Barlow",
+            "pitches_yesterday": 17,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Justin Sterner",
+            "pitches_yesterday": 9,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Hogan Harris",
+            "pitches_yesterday": 2,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:45Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Daniel Palencia",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Hoby Milner",
+            "pitches_yesterday": 16,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Daniel Palencia",
+            "pitches_yesterday": 12,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:50Z"
+      }
+    },
+    "result": {
+      "away_score": 5,
+      "home_score": 4,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 824671
+  },
+  {
+    "game_id": "0823b4e80b16060db3aba85b41348d18",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Pittsburgh Pirates",
+      "abbr": "PIT",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Houston Astros",
+      "abbr": "HOU",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-04T00:11:00Z",
+    "commence_et": "2026-06-03T20:11:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": -155,
+          "home": 131
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": 110,
+          "home_line": 1.5,
+          "home_price": -135
+        },
+        "total": {
+          "line": 7.5,
+          "over_price": -110,
+          "under_price": -110
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": -134,
+          "home": 103
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": 133,
+          "home_line": 1.5,
+          "home_price": -174
+        },
+        "total": {
+          "line": 6.5,
+          "over_price": -107,
+          "under_price": -125
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": -125,
+            "book": "MyBookie.ag"
+          },
+          "home": {
+            "price": 114,
+            "book": "FanDuel"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": 145,
+            "book": "BetMGM"
+          },
+          "home_price": {
+            "price": -134,
+            "book": "BetRivers"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 102,
+            "book": "FanDuel"
+          },
+          "under": {
+            "price": -115,
+            "book": "BetMGM"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "home": 114,
+              "away": -146
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": -174,
+              "away_line": -1.5,
+              "away_price": 130
+            },
+            "total": {
+              "line": 6.5,
+              "over_price": 102,
+              "under_price": -136
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "home": 103,
+              "away": -134
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": -170,
+              "away_line": -1.5,
+              "away_price": 130
+            },
+            "total": {
+              "line": 6.5,
+              "over_price": -103,
+              "under_price": -126
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "home": 100,
+              "away": -130
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": -175,
+              "away_line": -1.5,
+              "away_price": 135
+            },
+            "total": {
+              "line": 6.5,
+              "over_price": -110,
+              "under_price": -120
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "home": 105,
+              "away": -135
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": -190,
+              "away_line": -1.5,
+              "away_price": 145
+            },
+            "total": {
+              "line": 6.5,
+              "over_price": -110,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "home": 100,
+              "away": -125
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": -200,
+              "away_line": -1.5,
+              "away_price": 140
+            },
+            "total": {
+              "line": 6.5,
+              "over_price": -105,
+              "under_price": -133
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "home": 102,
+              "away": -137
+            },
+            "runline": {
+              "home_line": 1.0,
+              "home_price": -134,
+              "away_line": -1.0,
+              "away_price": -105
+            },
+            "total": {
+              "line": 6.5,
+              "over_price": -113,
+              "under_price": -125
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Paul Skenes",
+        "mlb_id": 694973,
+        "hand": "R",
+        "status": "probable",
+        "era": 2.84,
+        "whip": 0.86,
+        "strikeouts": 76,
+        "innings_pitched": "66.2",
+        "wins": 6,
+        "losses": 5,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 10.3,
+        "xera": 2.28,
+        "hard_hit_pct": 32.5,
+        "barrel_pct": 4.3,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Spencer Arrighetti",
+        "mlb_id": 681293,
+        "hand": "R",
+        "status": "probable",
+        "era": 1.29,
+        "whip": 1.12,
+        "strikeouts": 44,
+        "innings_pitched": "49.0",
+        "wins": 7,
+        "losses": 1,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 8.1,
+        "xera": 4.69,
+        "hard_hit_pct": 29.8,
+        "barrel_pct": 5.8,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Minute Maid Park",
+        "city": "Houston, TX",
+        "roof": "retractable",
+        "temp_f": 76.4,
+        "wind_mph": 5.3,
+        "wind_dir": "E",
+        "precipitation_pct": 46,
+        "conditions": "Overcast",
+        "note": "Retractable roof \u2014 may be open or closed at game time",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:58Z"
+      },
+      "team_away": {
+        "name": "Pittsburgh Pirates",
+        "abbr": "PIT",
+        "team_id": 134,
+        "wins": 33,
+        "losses": 28,
+        "pct": ".541",
+        "run_differential": 35,
+        "runs_scored": 311,
+        "runs_allowed": 276,
+        "games_played": 61,
+        "rs_per_game": 5.1,
+        "ra_per_game": 4.5,
+        "last10_wins": 7,
+        "last10_losses": 3,
+        "home_wins": 18,
+        "home_losses": 15,
+        "away_wins": 15,
+        "away_losses": 13,
+        "streak": "W4",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Houston Astros",
+        "abbr": "HOU",
+        "team_id": 117,
+        "wins": 27,
+        "losses": 35,
+        "pct": ".435",
+        "run_differential": -37,
+        "runs_scored": 277,
+        "runs_allowed": 314,
+        "games_played": 62,
+        "rs_per_game": 4.5,
+        "ra_per_game": 5.1,
+        "last10_wins": 6,
+        "last10_losses": 4,
+        "home_wins": 13,
+        "home_losses": 17,
+        "away_wins": 14,
+        "away_losses": 18,
+        "streak": "L2",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Chris Guccione",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Gregory Soto",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Wilber Dotel",
+            "pitches_yesterday": 41,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Dennis Santana",
+            "pitches_yesterday": 19,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Gregory Soto",
+            "pitches_yesterday": 7,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:18:55Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Bryan King",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Bryan Abreu",
+            "pitches_yesterday": 32,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "AJ Blubaugh",
+            "pitches_yesterday": 23,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Steven Okert",
+            "pitches_yesterday": 21,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Enyel De Los Santos",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:19:00Z"
+      }
+    },
+    "result": {
+      "away_score": 9,
+      "home_score": 11,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 824188
+  },
+  {
+    "game_id": "fef20c017b9718b5324615b7ba93f173",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Colorado Rockies",
+      "abbr": "COL",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Los Angeles Angels",
+      "abbr": "LAA",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-04T01:39:00Z",
+    "commence_et": "2026-06-03T21:39:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": 135,
+          "home": -162
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -155,
+          "home_line": -1.5,
+          "home_price": 130
+        },
+        "total": {
+          "line": 8.5,
+          "over_price": -114,
+          "under_price": -106
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": 125,
+          "home": -145
+        },
+        "runline": {
+          "away_line": 1.5,
+          "away_price": -165,
+          "home_line": -1.5,
+          "home_price": 140
+        },
+        "total": {
+          "line": 8.5,
+          "over_price": -120,
+          "under_price": 100
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": 128,
+            "book": "BetUS"
+          },
+          "home": {
+            "price": -140,
+            "book": "LowVig.ag"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": -160,
+            "book": "BetUS"
+          },
+          "home_price": {
+            "price": 142,
+            "book": "FanDuel"
+          }
+        },
+        "total": {
+          "over": {
+            "price": -114,
+            "book": "BetRivers"
+          },
+          "under": {
+            "price": 105,
+            "book": "BetUS"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "away": 120,
+              "home": -142
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -172,
+              "home_line": -1.5,
+              "home_price": 142
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -124,
+              "under_price": 102
+            }
+          },
+          {
+            "key": "lowvig",
+            "name": "LowVig.ag",
+            "updated_at": "2026-06-04T00:38:44Z",
+            "moneyline": {
+              "away": 127,
+              "home": -140
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -161,
+              "home_line": -1.5,
+              "home_price": 142
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -118,
+              "under_price": 103
+            }
+          },
+          {
+            "key": "betonlineag",
+            "name": "BetOnline.ag",
+            "updated_at": "2026-06-04T00:38:42Z",
+            "moneyline": {
+              "away": 127,
+              "home": -140
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -161,
+              "home_line": -1.5,
+              "home_price": 141
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -120,
+              "under_price": 100
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "away": 124,
+              "home": -149
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -168,
+              "home_line": -1.5,
+              "home_price": 139
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -118,
+              "under_price": -102
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "away": 122,
+              "home": -145
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -165,
+              "home_line": -1.5,
+              "home_price": 140
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -120,
+              "under_price": 100
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "away": 125,
+              "home": -155
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -170,
+              "home_line": -1.5,
+              "home_price": 140
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -120,
+              "under_price": 100
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "away": 124,
+              "home": -146
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -167,
+              "home_line": -1.5,
+              "home_price": 140
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -118,
+              "under_price": -104
+            }
+          },
+          {
+            "key": "betus",
+            "name": "BetUS",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "away": 128,
+              "home": -142
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -160,
+              "home_line": -1.5,
+              "home_price": 140
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -125,
+              "under_price": 105
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "away": 125,
+              "home": -167
+            },
+            "runline": {
+              "away_line": 1.5,
+              "away_price": -165,
+              "home_line": -1.5,
+              "home_price": 132
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -114,
+              "under_price": -109
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Michael Lorenzen",
+        "mlb_id": 547179,
+        "hand": "R",
+        "status": "probable",
+        "era": 7.22,
+        "whip": 1.9,
+        "strikeouts": 43,
+        "innings_pitched": "57.1",
+        "wins": 2,
+        "losses": 7,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 6.8,
+        "xera": 5.89,
+        "hard_hit_pct": 46.5,
+        "barrel_pct": 8.9,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Walbert Ure\u00f1a",
+        "mlb_id": 700712,
+        "hand": "R",
+        "status": "probable",
+        "era": 2.44,
+        "whip": 1.38,
+        "strikeouts": 41,
+        "innings_pitched": "44.1",
+        "wins": 2,
+        "losses": 4,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 8.3,
+        "xera": 3.31,
+        "hard_hit_pct": 32.5,
+        "barrel_pct": 6.3,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Angel Stadium",
+        "city": "Anaheim, CA",
+        "roof": "outdoor",
+        "temp_f": 71.6,
+        "wind_mph": 7.8,
+        "wind_dir": "SW",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:39:59Z"
+      },
+      "team_away": {
+        "name": "Colorado Rockies",
+        "abbr": "COL",
+        "team_id": 115,
+        "wins": 24,
+        "losses": 38,
+        "pct": ".387",
+        "run_differential": -76,
+        "runs_scored": 268,
+        "runs_allowed": 344,
+        "games_played": 62,
+        "rs_per_game": 4.3,
+        "ra_per_game": 5.5,
+        "last10_wins": 4,
+        "last10_losses": 6,
+        "home_wins": 12,
+        "home_losses": 16,
+        "away_wins": 12,
+        "away_losses": 22,
+        "streak": "W2",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Los Angeles Angels",
+        "abbr": "LAA",
+        "team_id": 108,
+        "wins": 23,
+        "losses": 39,
+        "pct": ".371",
+        "run_differential": -58,
+        "runs_scored": 265,
+        "runs_allowed": 323,
+        "games_played": 62,
+        "rs_per_game": 4.3,
+        "ra_per_game": 5.2,
+        "last10_wins": 5,
+        "last10_losses": 5,
+        "home_wins": 12,
+        "home_losses": 18,
+        "away_wins": 11,
+        "away_losses": 21,
+        "streak": "L3",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Chad Fairchild",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Victor Vodnik",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Blas Casta\u00f1o",
+            "pitches_yesterday": 29,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          },
+          {
+            "name": "Juan Mejia",
+            "pitches_yesterday": 16,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "TJ Shook",
+            "pitches_yesterday": 10,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:19:06Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Jordan Romano",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Sam Aldegheri",
+            "pitches_yesterday": 89,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "likely_unavailable"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:19:13Z"
+      }
+    },
+    "result": {
+      "away_score": 4,
+      "home_score": 11,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 824024
+  },
+  {
+    "game_id": "f8b638ebe3a01e645658b4699fd18198",
+    "sport": "mlb",
+    "date_et": "2026-06-03",
+    "status": "pre",
+    "status_source": "theoddsapi",
+    "away": {
+      "name": "Los Angeles Dodgers",
+      "abbr": "LAD",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "home": {
+      "name": "Arizona Diamondbacks",
+      "abbr": "AZ",
+      "name_source": "theoddsapi",
+      "abbr_source": "internal_lookup"
+    },
+    "commence_utc": "2026-06-04T01:41:00Z",
+    "commence_et": "2026-06-03T21:41:00-04:00",
+    "odds": {
+      "source": "theoddsapi",
+      "source_priority": 1,
+      "opening_snapshot": {
+        "fetched_at": "2026-06-03T02:08:37Z",
+        "moneyline": {
+          "away": -191,
+          "home": 160
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": -115,
+          "home_line": 1.5,
+          "home_price": -105
+        },
+        "total": {
+          "line": 9.0,
+          "over_price": -115,
+          "under_price": -105
+        }
+      },
+      "current_snapshot": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "moneyline": {
+          "away": -214,
+          "home": 178
+        },
+        "runline": {
+          "away_line": -1.5,
+          "away_price": -128,
+          "home_line": 1.5,
+          "home_price": 105
+        },
+        "total": {
+          "line": 8.5,
+          "over_price": -104,
+          "under_price": -115
+        }
+      },
+      "best_available": {
+        "moneyline": {
+          "away": {
+            "price": -205,
+            "book": "LowVig.ag"
+          },
+          "home": {
+            "price": 184,
+            "book": "LowVig.ag"
+          }
+        },
+        "runline": {
+          "away_price": {
+            "price": -120,
+            "book": "FanDuel"
+          },
+          "home_price": {
+            "price": 113,
+            "book": "LowVig.ag"
+          }
+        },
+        "total": {
+          "over": {
+            "price": 100,
+            "book": "Bovada"
+          },
+          "under": {
+            "price": -114,
+            "book": "LowVig.ag"
+          }
+        },
+        "fetched_at": "2026-06-04T00:39:19Z"
+      },
+      "current": {
+        "fetched_at": "2026-06-04T00:39:19Z",
+        "bookmakers": [
+          {
+            "key": "fanduel",
+            "name": "FanDuel",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "home": 176,
+              "away": -210
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 100,
+              "away_line": -1.5,
+              "away_price": -120
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -105,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "lowvig",
+            "name": "LowVig.ag",
+            "updated_at": "2026-06-04T00:38:44Z",
+            "moneyline": {
+              "home": 184,
+              "away": -205
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 113,
+              "away_line": -1.5,
+              "away_price": -128
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -101,
+              "under_price": -114
+            }
+          },
+          {
+            "key": "betonlineag",
+            "name": "BetOnline.ag",
+            "updated_at": "2026-06-04T00:38:42Z",
+            "moneyline": {
+              "home": 184,
+              "away": -205
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 110,
+              "away_line": -1.5,
+              "away_price": -130
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -104,
+              "under_price": -116
+            }
+          },
+          {
+            "key": "draftkings",
+            "name": "DraftKings",
+            "updated_at": "2026-06-04T00:38:25Z",
+            "moneyline": {
+              "home": 178,
+              "away": -218
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 105,
+              "away_line": -1.5,
+              "away_price": -126
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -105,
+              "under_price": -114
+            }
+          },
+          {
+            "key": "bovada",
+            "name": "Bovada",
+            "updated_at": "2026-06-04T00:38:10Z",
+            "moneyline": {
+              "home": 175,
+              "away": -215
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 105,
+              "away_line": -1.5,
+              "away_price": -125
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": 100,
+              "under_price": -120
+            }
+          },
+          {
+            "key": "betmgm",
+            "name": "BetMGM",
+            "updated_at": "2026-06-04T00:36:32Z",
+            "moneyline": {
+              "home": 180,
+              "away": -220
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 105,
+              "away_line": -1.5,
+              "away_price": -130
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -105,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "mybookieag",
+            "name": "MyBookie.ag",
+            "updated_at": "2026-06-04T00:39:03Z",
+            "moneyline": {
+              "home": 178,
+              "away": -214
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 109,
+              "away_line": -1.5,
+              "away_price": -129
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -104,
+              "under_price": -117
+            }
+          },
+          {
+            "key": "betus",
+            "name": "BetUS",
+            "updated_at": "2026-06-04T00:39:04Z",
+            "moneyline": {
+              "home": 178,
+              "away": -205
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 110,
+              "away_line": -1.5,
+              "away_price": -130
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -105,
+              "under_price": -115
+            }
+          },
+          {
+            "key": "betrivers",
+            "name": "BetRivers",
+            "updated_at": "2026-06-04T00:38:27Z",
+            "moneyline": {
+              "home": 175,
+              "away": -220
+            },
+            "runline": {
+              "home_line": 1.5,
+              "home_price": 100,
+              "away_line": -1.5,
+              "away_price": -124
+            },
+            "total": {
+              "line": 8.5,
+              "over_price": -103,
+              "under_price": -121
+            }
+          }
+        ]
+      },
+      "closing_snapshot": null
+    },
+    "context": {
+      "pitcher_away": {
+        "name": "Shohei Ohtani",
+        "mlb_id": 660271,
+        "hand": "R",
+        "status": "probable",
+        "era": 0.82,
+        "whip": 0.82,
+        "strikeouts": 61,
+        "innings_pitched": "55.0",
+        "wins": 5,
+        "losses": 2,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 10.0,
+        "xera": 2.4,
+        "hard_hit_pct": 38.9,
+        "barrel_pct": 3.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitcher_home": {
+        "name": "Zac Gallen",
+        "mlb_id": 668678,
+        "hand": "R",
+        "status": "probable",
+        "era": 5.16,
+        "whip": 1.47,
+        "strikeouts": 42,
+        "innings_pitched": "59.1",
+        "wins": 3,
+        "losses": 4,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 6.4,
+        "xera": 5.21,
+        "hard_hit_pct": 45.2,
+        "barrel_pct": 10.6,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-04T01:31:58Z"
+      },
+      "pitchers_source": "mlb_official",
+      "pitchers_source_priority": 1,
+      "pitchers_fetched_at": "2026-06-04T00:39:45Z",
+      "weather": {
+        "venue": "Chase Field",
+        "city": "Phoenix, AZ",
+        "roof": "retractable",
+        "temp_f": 103.5,
+        "wind_mph": 7.6,
+        "wind_dir": "NW",
+        "precipitation_pct": 0,
+        "conditions": "Clear sky",
+        "note": "Retractable roof \u2014 may be open or closed at game time",
+        "source": "open_meteo",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_away": {
+        "name": "Los Angeles Dodgers",
+        "abbr": "LAD",
+        "team_id": 119,
+        "wins": 39,
+        "losses": 22,
+        "pct": ".639",
+        "run_differential": 127,
+        "runs_scored": 321,
+        "runs_allowed": 194,
+        "games_played": 61,
+        "rs_per_game": 5.3,
+        "ra_per_game": 3.2,
+        "last10_wins": 8,
+        "last10_losses": 2,
+        "home_wins": 20,
+        "home_losses": 11,
+        "away_wins": 19,
+        "away_losses": 11,
+        "streak": "W1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "team_home": {
+        "name": "Arizona Diamondbacks",
+        "abbr": "AZ",
+        "team_id": 109,
+        "wins": 32,
+        "losses": 28,
+        "pct": ".533",
+        "run_differential": 10,
+        "runs_scored": 273,
+        "runs_allowed": 263,
+        "games_played": 60,
+        "rs_per_game": 4.5,
+        "ra_per_game": 4.4,
+        "last10_wins": 6,
+        "last10_losses": 4,
+        "home_wins": 19,
+        "home_losses": 11,
+        "away_wins": 13,
+        "away_losses": 17,
+        "streak": "L1",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:00Z"
+      },
+      "teamstats_source": "mlb_official",
+      "teamstats_source_priority": 1,
+      "teamstats_fetched_at": "2026-06-04T00:40:00Z",
+      "umpire": {
+        "name": "Junior Valentine",
+        "source": "mlb_official",
+        "source_priority": 1,
+        "fetched_at": "2026-06-04T00:40:01Z",
+        "status": "assigned"
+      },
+      "bullpen_away": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Tanner Scott",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Kyle Hurt",
+            "pitches_yesterday": 24,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Will Klein",
+            "pitches_yesterday": 23,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Tanner Scott",
+            "pitches_yesterday": 20,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Edgardo Henriquez",
+            "pitches_yesterday": 19,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Blake Treinen",
+            "pitches_yesterday": 7,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:19:19Z"
+      },
+      "bullpen_home": {
+        "team_bullpen_era": null,
+        "closer": {
+          "name": "Paul Sewald",
+          "available": true
+        },
+        "taxed_relievers": [
+          {
+            "name": "Jonathan Lo\u00e1isiga",
+            "pitches_yesterday": 23,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Juan Morillo",
+            "pitches_yesterday": 19,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          },
+          {
+            "name": "Kevin Ginkel",
+            "pitches_yesterday": 11,
+            "pitches_two_days_ago": null,
+            "appeared_consecutive_days": false,
+            "flag": "reduced"
+          }
+        ],
+        "source": "mlb_stats_api",
+        "fetched_at": "2026-06-04T04:19:25Z"
+      }
+    },
+    "result": {
+      "away_score": 7,
+      "home_score": 0,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-04T05:16:12Z",
+      "source": "mlb_official",
+      "source_priority": 1,
+      "verified": false
+    },
+    "mlb_game_pk": 825077
+  }
+]

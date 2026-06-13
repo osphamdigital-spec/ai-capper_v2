@@ -120,19 +120,26 @@ When `fetch_results.py --date 2026-06-06` runs it does three additional things a
 
 Each model gets the graded results pasted into its post-mortem file (now done automatically by `fetch_results.py` -- see above). The model then reviews its picks against the results.
 
-Post-mortem queries are automated for the same 6 models:
+Post-mortem queries are automated for all 9 models (grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet, fable):
   python scripts/query_model.py --model grok --date 2026-06-10 --postmortem
-  (repeat for each connected model)
+  (repeat for each model)
 
-OR run all 6 at once:
+OR run all 9 at once:
   python scripts/run_postmortem_all.py --date 2026-06-10
   python scripts/run_postmortem_all.py   # uses today's date automatically
 
 All models use full context (original picks included in the post-mortem call).
 
-For manual models (opus, sonnet): paste the post-mortem file into claude.ai manually.
+Each model's response is written to TWO destinations:
+  1. Per-model file (primary):  picks/{sport}/{date}/{model}_postmortem.txt
+  2. Shared aggregate (review): picks/{sport}/{date}/post_mortem_{date}.txt
 
-Post-mortem outputs feed back into `docs/MODEL_INSTRUCTIONS.md` -- the model-specific corrective instructions appended to future prompts.
+The "already done" guard checks for the per-model file's existence -- re-running
+run_postmortem_all.py after a partial failure is safe.
+
+Post-mortem output is NOT auto-injected into method docs, MODEL_INSTRUCTIONS.md, or
+any prompt file. Routing responses into method updates or calibration changes is a
+separate, manually-gated step that has not yet been built (v2 Phase 5).
 
 Template: `docs/post_mortem_template.txt`
 Saved to: `picks/mlb/{date}/post_mortem_{date}.txt` (auto-created by previous day's `fetch_results.py` run)

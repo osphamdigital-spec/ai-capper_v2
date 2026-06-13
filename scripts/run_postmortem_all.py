@@ -2,7 +2,7 @@
 """
 scripts/run_postmortem_all.py
 
-Run post-mortem queries for all 6 API-connected models for a given slate date.
+Run post-mortem queries for all 9 API-connected models for a given slate date.
 Calls query_model.py --postmortem for each model in sequence and prints a summary.
 
 Usage:
@@ -10,18 +10,17 @@ Usage:
     python scripts/run_postmortem_all.py          # uses today's date in US Eastern Time
 
 Connected models (in run order):
-    grok, chatgpt, deepseek, kimi, qwen, gemini
-
-Manual models (not run here -- paste into claude.ai):
-    opus, sonnet
+    grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet, fable
 
 Notes:
   - Each model receives only the template + results, not prior models' responses.
     (query_model.py strips appended responses before sending.)
   - If a model fails with a transient error (5xx), it is retried once after 90s.
-  - Already-completed models (response already in the file) are skipped.
+  - Already-completed models (per-model file exists with content) are skipped.
   - fetch_results.py must have run first so the post-mortem file has scores filled in.
     File: picks/{sport}/{date}/post_mortem_{date}.txt
+  - Output is NOT auto-injected into method docs or MODEL_INSTRUCTIONS.md.
+    Routing post-mortem output into method updates is a separate, manually-gated step.
 """
 
 import argparse
@@ -37,8 +36,9 @@ PYTHON = r"C:\Users\marko\AppData\Local\Programs\Python\Python312\python.exe"
 SCRIPTS_DIR  = Path(__file__).parent
 PROJECT_ROOT = SCRIPTS_DIR.parent
 
-# Models with confirmed API connections -- run in this order.
-AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini"]
+# All 9 models are now API-connected. Run sequentially to avoid rate-limit collisions.
+# opus, sonnet, fable use the Anthropic SDK (CLAUDE_API_KEY).
+AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini", "opus", "sonnet"]
 
 # Seconds to wait before retrying a failed model.
 RETRY_DELAY = 90
@@ -62,15 +62,12 @@ def today_et() -> str:
 
 def model_already_done(model: str, pm_path: Path) -> bool:
     """
-    Return True if this model's response separator already exists in the
-    post-mortem file -- meaning it completed in a previous run.
-    Prevents duplicate responses if run_postmortem_all.py is re-run after
-    a partial failure.
+    Return True if this model's per-model postmortem file already exists with content.
+    Checking the per-model file is more reliable than scanning the shared aggregate --
+    it's a clean single-file existence check with no string parsing.
     """
-    if not pm_path.exists():
-        return False
-    content = pm_path.read_text(encoding="utf-8")
-    return f"## {model.upper()} RESPONSE" in content
+    per_model_path = pm_path.parent / f"{model}_postmortem.txt"
+    return per_model_path.exists() and per_model_path.stat().st_size >= MIN_RESPONSE_CHARS
 
 
 def check_response_appended(model: str, pm_path: Path, size_before: int) -> tuple[bool, str]:
@@ -186,8 +183,9 @@ def print_summary(results: list, total_elapsed: float, date: str, sport: str):
         for model, _ok, _elapsed, _detail in failed:
             print(f"    python scripts/query_model.py --model {model} --date {date} --postmortem")
 
-    print(f"\n  Manual models (opus, sonnet): paste post-mortem into claude.ai")
-    print(f"  Post-mortem file: picks/{sport}/{date}/post_mortem_{date}.txt")
+    print(f"  Per-model files : picks/{sport}/{date}/{{model}}_postmortem.txt")
+    print(f"  Aggregate file  : picks/{sport}/{date}/post_mortem_{date}.txt")
+    print(f"  NOTE: output is NOT auto-injected into method docs or MODEL_INSTRUCTIONS.md.")
     print(f"\n{'=' * 60}\n")
 
 

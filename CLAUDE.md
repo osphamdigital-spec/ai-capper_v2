@@ -138,11 +138,10 @@ Each model now decides its own analysis approach via its method doc.
 ## AUTOMATED PIPELINE SCRIPTS
 
 query_model.py        -- sends picks or post-mortem query to a single model API
-run_picks_all.py      -- runs picks queries for all 6 connected models
-run_postmortem_all.py -- runs post-mortem queries for all 6 connected models
+run_picks_all.py      -- runs picks queries for all 8 connected models
+run_postmortem_all.py -- runs post-mortem queries for all 8 connected models
 
-Connected models (API): chatgpt, grok, deepseek, kimi, qwen, gemini
-Manual models (paste):  opus, sonnet
+Connected models (API): chatgpt, grok, deepseek, kimi, qwen, gemini, opus, sonnet
 
 ---
 

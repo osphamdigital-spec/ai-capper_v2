@@ -1,0 +1,49 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? N/A (No 3-unit play was identified or wagered on today's slate).
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: ATL @ NYM
+PICK: ATL ML +110
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: The pre-game data strongly justified the wager. Atlanta held a massive 30-point advantage in platoon wRC+ against right-handed pitching (123 vs 93), and Spencer Strider's underlying metrics were solid. Furthermore, Nolan McLean's recent 14-day command issues (6.20 SIERA, 6.5 BB/9) provided a clear pitching edge. Securing a 5.4-point edge at plus-money (+110) against an implied 47.6% market probability is exactly the type of +EV process the model should execute. A single loss is standard baseball variance.
+SOURCE: Pre-game L14 SIERA, L14 BB/9, and platoon wRC+ splits.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE. 
+*(Self-correction: I correctly passed on 14 games. Many featured efficient market pricing, conflicting signals that neutralized an edge, or prices that fell below the 4-point minimum threshold. Passing on heavy favorites like MIL (-237) due to variance, and correctly identifying traps on teams like LAD (-145) and TB (-162) who ended up losing, validates the strict edge-gate protocols.)*
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA
+ITEM: Bullpen Availability / Days Rest for High-Leverage Relievers
+WHICH GAME(S): SD @ BAL, ATL @ NYM, TB @ LAA
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Knowing which specific high-leverage arms were unavailable due to consecutive days of work would refine the bullpen ERA/SIERA disparities. For example, if BAL's 6.06 ERA bullpen was missing its only reliable arms, or if ATL's elite bullpen was heavily taxed, it would materially shift the late-inning win probability calculations.
+
+TYPE: DATA
+ITEM: L14 Innings Pitched (IP) for Starting Pitchers
+WHICH GAME(S): ATL @ NYM (specifically Nolan McLean)
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Contextualizing McLean's 6.5 BB/9 and 6.20 SIERA over the last 14 days requires knowing the exact inning count. If his L14 IP was very low (e.g., 8-10 innings), it highlights a small-sample trap, meaning I should have blended his recent form more heavily with his strong season-long baseline.
+
+TYPE: DATA
+ITEM: Umpire Tendencies (K/BB rates and zone width)
+WHICH GAME(S): ALL
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: A pitcher with recent command issues (like McLean) facing a strict umpire with a small zone could exacerbate the walk rate, while a pitcher with high K-rates (like Strider) benefits from a wide zone. This refines the run environment and win probability.
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Implement a minimum Innings Pitched (IP) threshold for L14 metrics to override season-long baselines. If a starter's L14 IP is below 12 innings, L14 SIERA and BB/9 should be heavily discounted and blended with season SIERA/xFIP to prevent small-sample overreactions.
+WHAT IN MY METHOD COULD BE SHARPER: The weighting of recent form (L14) versus established baseline (season) for starting pitchers, specifically regarding command metrics like BB/9 which can be severely skewed by a single bad outing in a short window.
+EVIDENCE FROM TODAY: I used Nolan McLean's 6.20 L14 SIERA and 6.5 BB/9 to justify fading his strong season SIERA. Without knowing his exact L14 IP, I risked falling into a small sample trap where 7 walks in 10 innings disproportionately skewed his perceived command profile compared to his established baseline.
+CONFIDENCE: MEDIUM

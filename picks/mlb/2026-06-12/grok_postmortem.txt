@@ -1,0 +1,49 @@
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: NO BEST BET  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: N/A
+
+**S2: FULL SLATE REVIEW**
+
+**PART A — GAMES YOU BET**
+
+GAME: LAD @ CHW  
+PICK: LAD ML -145  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: Pre-game model used the platoon wRC+ edge and form differential that produced the 5.3-point gap; no specific pre-game data point (xFIP, Stf+, bullpen, or park) was misread.  
+SOURCE: Original model output only
+
+GAME: PHI @ MIL  
+PICK: MIL ML -237  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Misiorowski’s 2.82 xFIP / 121 Stf+ plus home/platoon advantages were the exact inputs that cleared the 5.7-point threshold.  
+SOURCE: Original model output only
+
+GAME: TB @ LAA  
+PICK: TB ML -162  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: McClanahan’s 3.78 xFIP / 107 Stf+ and Aldegheri’s 6.43 small-sample flag were the pre-game data points used; variance around a 67 % estimate explains the outcome.  
+SOURCE: Original model output only
+
+**PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED**  
+(none)
+
+**S3: DATA REQUEST**  
+TYPE: NONE  
+ITEM: N/A  
+WHICH GAME(S): N/A  
+WOULD HAVE CHANGED A BET? N/A  
+WHY: N/A
+
+**S4: METHOD CHANGE PROPOSAL**  
+PROPOSED CHANGE: NONE  
+WHAT IN MY METHOD COULD BE SHARPER: N/A  
+EVIDENCE FROM TODAY: N/A  
+CONFIDENCE: N/A

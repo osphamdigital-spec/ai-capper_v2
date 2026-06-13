@@ -1,0 +1,168 @@
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Model projects PIT win probability ~67% (Ashcraft dominant, MIA offense weak), ~8.3% edge over market. However slate limits force prioritization of higher-EV bets; passing here to stay within 3-max.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Very large edge (SEA ~73% WP vs 58% implied, ~15 pts) but Bryce Miller flagged small-sample caps bet at 1 unit; total EV below the three selected 3-unit plays due to slate limit. Pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Projected coin flip (SD 51.1%) against BAL -130 (market 52.6%), gap only ~3.7 pts, insufficient for a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: TEX ML
+PRICE: +113
+UNITS: 3
+EDGE: 8.9 pts
+TOTAL LEAN: No lean
+REASON: Leiter projects 4.40 ERA blend (50/50 agg/L14), close to Gray’s 3.76 but TEX holds clear platoon (98 wRC+ vs 86) and bullpen edge (3.25 ERA vs 4.39). Fenway park factor 102 lifts total runs slightly. Model gives TEX 56.5% win probability vs market-implied 47.4%, a 8.9-point edge at +113, worthy of max 3 units.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Flaherty’s strong L14 (2.73 xFIP) drives a 5.6% edge on DET, but 1-unit EV falls below top three slate plays; pass due to ceiling.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: ATL ML
+PRICE: +110
+UNITS: 3
+EDGE: 20.9 pts
+TOTAL LEAN: No lean
+REASON: Massive mismatch: ATL 123 wRC+ vs RHP faces McLean’s recent implosion (L14 xFIP 5.74, SIERA 6.20), while Strider projects 4.20. ATL bullpen 2.04 ERA vs NYM 2.95 widens gap. Model yields 68.5% ATL win against 47.6% implied, a 20.9-point edge — the slate’s standout value.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Best ML price for AZ flagged suspect; treating side as absent. Even with large projected edge, lack of reliable odds forces pass.
+LOOKED UP: suspect price on AZ best-ML, no usable market
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TBD starter for Toronto — mandatory pass per rules.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: LAD ML
+PRICE: -145
+UNITS: 3
+EDGE: 15.2 pts
+TOTAL LEAN: No lean
+REASON: Sasaki’s L14 xFIP 1.90 blended to 3.30 projection towers over Kay’s 4.46; LAD 134 wRC+ vs LHP set to hammer CHW’s 5.33 pen. Guaranteed Rate’s 98 park factor tempers scoring slightly. Win probability 74.4% vs 59.2% implied gives 15.2-point edge, clear max-unit play.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: MIL projects 79% WP (Misiorowski elite, PHI offense weak), 8.0% edge at -237 offers solid value but EV per unit trails the three selected 3-unit bets; slate limit forces pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: KC bullpen data suspect (22.25 ERA), both starters volatile, and model shows only marginal edge; no clear bet.
+LOOKED UP: bullpen ERA anomaly, treated cautiously
+
+---
+
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Close matchup; Joe Ryan’s projection ~3.78 vs Leahy ~4.51 but offenses nearly even, bullpens comparable. Edge unlikely to cross 4%. Pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TB win probability ~57.1% vs market-implied 62.7%, leaving LAA with only ~1% edge; no bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TBD starter for Colorado — automatic pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Projections tight (Roupp 4.60 blend, Assad 4.53), offenses near even, and both pens shaky; no >4% edge detected.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: ATL ML (+110) — 3 units
+WHY THIS ONE: 20.9-point edge is largest on slate; ATL’s elite offense and bullpen overlay perfectly against McLean’s severe recent decline, creating massive value at underdog odds.

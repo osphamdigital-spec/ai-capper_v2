@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-12",
+  "sport": "mlb",
+  "graded_at": "2026-06-13T05:31:49Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "ATL ML in ATL @ NYM",
+      "why_this": "Atlanta combines the biggest lineup advantage with the best bullpen edge among the playable sides, and the market is still hanging a plus price. My projected win probability is 55.5%, comfortably above the 47.6% implied by +110.",
+      "resolved_game": "ATL @ NYM",
+      "resolved_pick": "ATL ML",
+      "resolved_price": 110,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "deepseek",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "ATL ML (+110) \u2014 3 units",
+      "why_this": "20.9-point edge is largest on slate; ATL\u2019s elite offense and bullpen overlay perfectly against McLean\u2019s severe recent decline, creating massive value at underdog odds.",
+      "resolved_game": "ATL @ NYM",
+      "resolved_pick": "ATL ML",
+      "resolved_price": 110,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "fable",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "HOU ML in HOU @ KC",
+      "why_this": "Kansas City's extremely weak pitching staff and historically poor bullpen (22.25 ERA) match up terribly against a steady Houston offense, yielding an unprecedented mathematical edge at a near-even price of -110.",
+      "resolved_game": "HOU @ KC",
+      "resolved_pick": "HOU ML",
+      "resolved_price": -110,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.7273
+    },
+    {
+      "model": "grok",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "sonnet",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "MIL RL -117 (PHI @ MIL) \u2014 3 units",
+      "why_this": "Misiorowski (xFIP 2.82, three consecutive 7-IP shutout outings, Stf+ 121) against Painter (xERA 4.83, L14 xFIP 5.76) for a MIL team scoring 8.4 runs per game over L10; the RL at -117 is structurally more efficient than the -245 ML and still clears the edge gate by roughly 9 points.",
+      "resolved_game": "PHI @ MIL",
+      "resolved_pick": "MIL RL",
+      "resolved_price": -117,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.5641
+    }
+  ],
+  "summary": {
+    "wins": 2,
+    "losses": 2,
+    "skips": 5,
+    "record": "2-2 (50.0%)"
+  }
+}

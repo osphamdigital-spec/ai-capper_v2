@@ -1,0 +1,170 @@
+I'll work through each game, anchoring on AGG true-talent metrics and stripping vig from median lines.
+
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ashcraft's AGG xFIP 3.19/SIERA 3.26 with 20.6% K-BB% is genuinely strong and underpriced narratives aside, he's the better arm vs Alcantara (4.20 xFIP). PIT no-vig at ~57% is roughly fair; my number sits within 3 pts. Alcantara's shiny L14 is BABIP-driven and not predictive.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Bryce Miller carries a [small sample] flag at 27 IP, and his AGG xFIP (4.31) is far worse than his ERA, a regression red flag. Littell is weak (87 Stf+, 5.94 FIP) but WAS bullpen is strong and SEA offense vs RHP is good. The starter sample flag caps confidence; SEA -145 sits near fair.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Canning's AGG xFIP 4.07 is far better than his ugly 6.34 ERA, a classic underpriced regression arm, but Baz (4.03 xFIP) matches him closely. SD's elite bullpen (2.78) offsets BAL's bloated 6.06 pen. Numbers land near pick'em, market efficient.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gray's AGG metrics (3.26 xFIP, 19.4% K-BB%) clearly outclass Leiter (4.38 xFIP). Fenway/Chapman favor BOS, but TEX bullpen is excellent and BOS offense vs RHP is poor (86 wRC+). BOS -130 no-vig ~55% is roughly fair given the pitching edge; no 4-pt gap.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: DET ML
+PRICE: +105
+UNITS: 1
+EDGE: 5.5 pts
+TOTAL LEAN: No lean
+REASON: Flaherty's AGG xFIP 3.89/SIERA 3.79 with 17.8% K-BB% is materially better than Bibee (4.18), yet DET is a +105 underdog driven by his ugly 5.31 ERA narrative. This is exactly my favorite spot: strong peripherals masked by ERA. DET no-vig implied ~46%, I estimate ~51.5%. CLE bullpen edge is real but not enough to flip the starter advantage.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: ATL ML
+PRICE: +107
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: No lean
+REASON: McLean's AGG line is good (3.22 xFIP) but his L14 collapse (5.74 xFIP, 6.5 BB/9) flags a velocity/command issue worth respecting. ATL's elite bullpen (2.04) and dominant offense vs RHP (123 wRC+) against a wobbling NYM pen make +107 too cheap for a far superior team. ATL no-vig ~47%, I estimate ~52%.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: AZ ML
+PRICE: -102
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: Over
+REASON: Lodolo's surface looks bad (5.51 ERA) but AGG (3.86 xFIP) and ERod's AGG (4.37) are similar; the swing is the bullpen, where AZ's 3.10 pen dwarfs CIN's 5.04 with a 5.88 closer. Both lineups crush LHP, suggesting an over but TT is stale-flagged. AZ no-vig ~52%, I estimate ~57%.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TOR starter is TBD — automatic pass per data integrity rules.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Kay's AGG is weak (4.79 xFIP, 8.9% K-BB%) but Sasaki's AGG (4.61) is also unimpressive despite the hyped L14. CHW have been strong at home and LAD -152 prices the brand. No-vig ~60% is near my fair number; no edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Misiorowski is genuinely elite (2.82 xFIP, 26.7% K-BB%, 121 Stf+) and MIL -245 is fully fair to slightly cheap, but I won't lay -245 on a thin offensive read with unconfirmed lineups. The RL -1.5 at -117 is tempting but correlated variance against PHI's quality keeps me off. PHI offense vs RHP is poor (86).
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: HOU ML
+PRICE: -115
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL LEAN: No lean
+REASON: Avila's AGG is alarming (5.01 xFIP, 3.5% K-BB% on tiny sample), and KC's bullpen carries a catastrophic 22.25 season ERA flag while HOU has Hader (0.00) anchoring a strong pen. Imai is shaky too but HOU's relief edge in a likely-close game shifts this. HOU no-vig ~52%, I estimate ~56.5%.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Joe Ryan's AGG (3.64 xFIP, 22.6% K-BB%, 108 Stf+) is clearly superior to Leahy (4.29, 89 Stf+), and MIN -137 properly reflects that gap. No-vig ~56% sits at my fair number; market efficient.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Aldegheri is [small sample] flagged with a frightening AGG (6.43 xFIP, 1.5% K-BB%), and McClanahan is far superior. TB -168 is justified by this pitching gap, but LAA's lineup vs LHP (139) plus the flag keeps me cautious; no-vig ~62% is near fair, no qualifying edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: COL starter is TBD — automatic pass per data integrity rules.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Roupp's AGG (3.82 xFIP, 13.5% K-BB%) edges Assad (4.53), and Oracle suppresses offense favoring SF, but Roupp's L14 walk explosion (7.5 BB/9) is a real command flag. SF -124 no-vig ~54% sits near my fair number; no clean edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No game offered a 7+ pt gap with clean data; all qualifying edges fell in the 4-7 pt band warranting 1 unit each, and slate ceiling of 3 bets caps me at my three best peripheral-vs-perception spots (DET, ATL, AZ).

@@ -37,7 +37,7 @@ PROJECT_ROOT = SCRIPTS_DIR.parent
 
 # Models with confirmed API connections -- run in this order.
 # Keep sequential to avoid rate limit collisions between providers.
-AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini"]
+AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini", "opus", "sonnet"]
 
 # Seconds to wait before retrying a failed model.
 RETRY_DELAY = 90

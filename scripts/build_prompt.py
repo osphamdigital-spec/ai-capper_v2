@@ -401,8 +401,7 @@ def fmt_recent_starts(pitcher: dict | None) -> str | None:
     else:
         parts   = [f"{s['ip']}ip/{s['er']}er" for s in starts]
         fmt_lbl = "(IP/ER)"
-    era_str = f" L{n}ERA:{rolling_era:.2f}" if rolling_era is not None else ""
-    return f"       L{n}: {' | '.join(parts)}{era_str}  {fmt_lbl}"
+    return f"       L{n}: {' | '.join(parts)}  {fmt_lbl}"
 
 
 def fmt_team_form(team: dict | None, side: str) -> str:
@@ -920,9 +919,10 @@ def _fmt_starter_advanced_lines(
         s  = last14_pitchers[last14_key]
         ip = s.get("ip") or 0
         if ip >= 3:
+            sample_flag = f"  [small sample — {ip}IP]" if ip < 12 else ""
             result.append(
                 f"       L14: xFIP {_f(s.get('xfip'))} SIERA {_f(s.get('siera'))}"
-                f" K/9:{_f(s.get('k9'), '.1f')} BB/9:{_f(s.get('bb9'), '.1f')} {ip}IP"
+                f" K/9:{_f(s.get('k9'), '.1f')} BB/9:{_f(s.get('bb9'), '.1f')} {ip}IP{sample_flag}"
             )
     elif season_key:
         result.append("       L14: no data")
@@ -979,7 +979,7 @@ def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict, gm_li_data: dict | N
                 stat_str += f", gmLI: {gmli_val:.2f}"
         return [
             f"  {role_label}: {r['name']} ({hand}) -- {stat_str}",
-            f"    Usage last 6: {_usage_str(r['usage_last6'])}",
+            f"    Usage last 6: {_usage_str(r.get('usage_last6', []))}",
         ]
 
     lines = []
@@ -996,29 +996,6 @@ def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict, gm_li_data: dict | N
         lines.extend(_reliever_lines(r, "Setup"))
 
     # Taxed: any reliever with 30+ pitches in either of the last 2 days
-    taxed = [
-        r["name"] for r in relievers
-        if max(
-            _extract_pitch_count(r["usage_last6"][0]) if len(r["usage_last6"]) > 0 else 0,
-            _extract_pitch_count(r["usage_last6"][1]) if len(r["usage_last6"]) > 1 else 0,
-        ) >= 30
-    ]
-    lines.append(
-        f"  Taxed (30+ pitches last 2 days): {', '.join(taxed) if taxed else 'none'}"
-    )
-
-    # Fresh high-leverage: closers/setup with 0 pitches in last 3 days
-    hl_roles = {"Closer", "Setup Man", "Closer Committee"}
-    hl_arms  = [r for r in relievers if r["role"] in hl_roles]
-    fresh_hl = [
-        r for r in hl_arms
-        if sum(
-            _extract_pitch_count(r["usage_last6"][i])
-            for i in range(min(3, len(r["usage_last6"])))
-        ) == 0
-    ]
-    lines.append(f"  High-leverage arms available: {len(fresh_hl)} of {len(hl_arms)} fresh")
-
     # Team bullpen ERA: mean ERA of all relievers with data
     eras = [r["era"] for r in relievers if r.get("era") is not None]
     if eras:

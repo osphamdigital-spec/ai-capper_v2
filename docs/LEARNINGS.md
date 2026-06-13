@@ -5,6 +5,18 @@ Add an entry whenever something is discovered or fixed. Never delete entries.
 
 ---
 
+2026-06-13: Two data-layer additions driven by multi-model S3 convergence from the June 12 post-mortem. (1) L14 small-sample flag: if L14 IP < 12, the L14 line now appends "[small sample — NIP]" at point of use in build_prompt.py. Five of eight models independently requested some form of IP-threshold disclosure in their S3. (2) Per-reliever usage grid restored: "Usage last 6: ..." line re-added to _reliever_lines in _fmt_bullpen_static. The raw pitch-count evidence is back; the computed verdict lines ("Taxed", "High-leverage arms available") remain removed per v2 independence principle. Raw evidence in, conclusions out.
+
+2026-06-13: Claude Fable 5 removed from active roster. Available for June 12 picks, then Anthropic gated it behind Mythos Access enrollment (404 "not available, use Opus 4.8"). Roster back to 8: kimi, chatgpt, opus, gemini, deepseek, qwen, sonnet, grok. Fable's June 12 picks/grades retained per the never-drop-silently principle. Not remapped to opus — would create a duplicate-model entry and contaminate the comparison.
+
+2026-06-12: v1→v2 post-mortem routing change — v1 appended all model responses into one shared post_mortem_{date}.txt and the "already done" guard scanned that file for ## MODEL RESPONSE markers. v2 writes each model's response to its own picks/{sport}/{date}/{model}_postmortem.txt (primary output) AND appends to the shared file (human-readable aggregate only). The guard now checks for the per-model file's existence — simpler and more reliable. run_postmortem_all.py updated from 6 to 9 models (opus, sonnet, fable added; manual-paste note removed). Post-mortem output is NOT auto-injected anywhere — method promotion is a future, manually-gated step.
+
+2026-06-12: data-layer trim — removed L3 ERA suffix from fmt_recent_starts (kept per-start IP/ER/K/BB) and removed per-reliever Usage-last-6 grid from bullpen block (kept fresh-count/taxed/ERA verdicts). Reduces prompt noise; _usage_str now unused but retained as usage_last6 still feeds taxed-arms calc.
+
+2026-06-12: removed pre-computed bullpen verdict labels (fresh count, taxed list) from prompt — models assess freshness from raw reliever data per v2 independence principle.
+
+---
+
 ## FANGRAPHS BLOCKED VIA PYBASEBALL (xFIP / K% / BB% / BABIP)
 
 **Date discovered:** 2026-06-04

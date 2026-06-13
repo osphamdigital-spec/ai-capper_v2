@@ -1,0 +1,178 @@
+## GAME: MIA @ PIT
+PICK: PIT ML
+PRICE: -143
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL LEAN: Under
+REASON: Braxton Ashcraft is a legitimate ace-level arm right now — L14 xFIP 2.05/SIERA 2.09 with zero walks in 11 IP, and his AGG xFIP 3.19 provides a strong anchor. Alcantara's L14 is impressive (xFIP 3.06) but the AGG (4.20/4.36) and recent game log (4 ER in 5.2 IP, then 5 ER allowed) show inconsistency. MIA's bullpen is a liability (4.72 ERA, Pete Fairbanks closer at 7.00 ERA); PIT's pen is cleaner with Soto and Sisk (1.27 ERA). PIT wRC+ vs RHP is 105 with elite bats (Lowe 162, Horwitz 148); MIA wRC+ 89. Market -143 implies ~58.9%; I estimate PIT wins ~64.0%. Gap: 5.1 pts.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: SEA ML
+PRICE: -145
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: Under
+REASON: Bryce Miller has been outstanding in his small sample — L14 xFIP 2.52/SIERA 2.25, zero ER allowed across all three L3 starts, with 9 Ks in 6 IP last outing. The small-sample flag means no 3-unit play, but he's clearly pitching at an elite level and even regressing 70% toward AGG xFIP (4.31) still produces a solid number. Zack Littell's underlying metrics are ugly: FIP 5.94, xERA 5.92, Stf+ 87 — the L14 xFIP improvement (3.75) is notable but may be noise on 11 IP. SEA's bullpen (2.94 ERA) is significantly better than WAS's (4.60 ERA). Market -145 implies ~59.2%; I estimate SEA ~64.0%. Gap: 4.8 pts, but Miller is small-sample — 1 unit only.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Canning's underlying metrics (L14 xFIP 3.81) show improvement from his ugly ERA, but HH% of 50.6% and elevated walks (3.6 BB/9 L14) remain concerns at Camden Yards (HR factor 115). Baz's metrics are roughly neutral. The BAL bullpen is a significant liability (6.06 ERA, Kittredge at 7.24 ERA) while SD's pen is elite (Mason Miller, Jason Adam). These roughly offset the Baz-over-Canning starter edge and the BAL lineup advantage over SD's struggling offense. Market at -130 is appropriate for this muddled matchup; I can't find 4 points of edge in either direction.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sonny Gray's ERA (3.20) looks good but AGG xFIP (3.26) supports it; however, L14 xFIP has climbed to 3.88 with 3.6 BB/9 — command is slipping. Leiter's L14 is worse (xFIP 4.62, BB/9 4.3), showing deteriorating walk rate. BOS's offense (wRC+ 86 vs RHP) is weak and their record (27-39) is poor, but Fenway park factor helps. TEX bullpen (3.25 ERA) is meaningfully better than BOS (4.39 ERA). Market at TEX +110 / BOS -130 is roughly fair; gap does not reach 4 points in either direction with the data available.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Flaherty's L14 xFIP (2.73) is excellent and he's been dominant recently, making DET's ML +105 look potentially interesting. However, Bibee's L3 includes a masterful 8.0 IP shutout, and Progressive Field suppresses runs (park factor 92 runs). CLE's bullpen (3.46 ERA, Cade Smith as elite closer) is significantly cleaner than DET's (4.61 ERA, Will Vest at 6.53 ERA as closer). DET is 11-24 away this season. The edge on Flaherty is real but CLE's bullpen advantage and home-field lean pull this back under 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: ATL ML
+PRICE: +110
+UNITS: 3
+EDGE: 8.2 pts
+TOTAL LEAN: No lean
+REASON: ATL is the best team in baseball (45-23, +114 run diff) getting plus-money against a sub-.500 NYM team. McLean's recent metrics are alarming — L14 xFIP 5.74/SIERA 6.20 with BB/9 of 6.5 and only 11 IP — he is actively falling apart (7 ER in 3.1 IP two starts ago). Strider's L14 xFIP (4.28) isn't elite but his xERA (3.04) reflects he's limiting damage; the ATL bullpen is exceptional (2.04 ERA, Iglesias/Suarez/Lee all elite). NYM's pen has Devin Williams at 5.57 ERA. ATL's lineup wRC+ 123 vs RHP vs NYM's 93 is a meaningful gap. Market +110 implies ~47.6%; I estimate ATL wins ~55.8%. Gap: 8.2 pts, clean data (no small-sample flags, no stale price on ATL ML side, no integrity issues). 3-unit play.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: AZ ML price is flagged as suspect/stale, which means I must treat that market as absent — PASS per rules. Both offenses are struggling (AZ L10RS only 2.5, CIN L10RS 3.6) but the park (GABP, HR factor 121) and mediocre bullpens on both sides lean Over for the total. E-Rod's ERA/xERA divergence is notable and Lodolo's underlying metrics are poor. Without a reliable AZ ML price, this game must be passed.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TOR starter is TBD — hard pass per rules. No analysis possible without confirmed pitcher data on both sides.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: LAD ML
+PRICE: -152
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL LEAN: No lean
+REASON: LAD is one of the two best teams in baseball (44-25, +143 run diff) and Sasaki's L14 xFIP (1.90/SIERA 2.13) with 10 Ks and 0 ER in his last start indicates elite recent form. Kay's xERA (5.88) and FIP (5.48) show the ERA is heavily outrunning his process quality, and he gave up 6 ER in 4 IP two starts ago. CWS bullpen (5.33 ERA) is poor; LAD's pen (Scott, Klein, Vesia all under 3.00 ERA) is strong. LAD wRC+ 134 vs LHP is excellent. Market -152 implies ~60.3%; I estimate LAD wins ~64.8%. Gap: 4.5 pts. Note: Over price is flagged suspect — no total play.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: MIL RL
+PRICE: -117
+UNITS: 3
+EDGE: 8.5 pts (on RL)
+TOTAL LEAN: Under
+REASON: Misiorowski is posting historic numbers — 1.50 ERA, FIP 1.91, xERA 2.25, K-BB% 26.7%, Stf+ 121, three straight 7-inning 0-ER outings, BB/9 essentially 0 in the L3. His AGG and L14 xFIP both read 2.82 on 141+ IP — this is a legitimate ace having a special season, not a fluke. Painter is a mess: ERA 6.21, L14 xFIP 5.76, only 8 IP in L14 suggesting early hooks. MIL's L10RS is 8.4 (league-leading form), wRC+ 111 vs RHP with elite bats. MIL's -245 ML implies ~71.0% win prob; the note correctly flags the RL at -117 as more efficient. RL -1.5 at -117 (implied ~53.9% to cover) vs my estimate of ~63%+ given the elite pitcher matchup and form gap. Gap on RL: ~9 points. Clean data, no small-sample flags on Misiorowski (78 IP). 3-unit play on RL.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both total prices and KC ML are flagged as suspect/stale — the market is unreliable. KC's bullpen ERA is listed as 22.25 (clearly a data artifact or extreme dysfunction), and Avila's AGG xFIP (5.01) with walk rates of 6.3 BB/9 in L14 is alarming. HOU is also a below-.500 team. Without reliable prices on either side and multiple data integrity concerns, this game must be passed.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ MIN
+PICK: MIN ML
+PRICE: -137
+UNITS: 1
+EDGE: 4.7 pts
+TOTAL LEAN: No lean
+REASON: Joe Ryan's metrics are excellent — FIP 2.92, xERA 3.08, AGG xFIP 3.64, L14 xFIP 3.93 with only 1.5 BB/9, fresh command profile, and his L3 includes a 7.2 IP/2 ER gem. Leahy's underlying numbers are poor: xERA 6.59, Stf+ 89, L14 xFIP 4.73, and his L3 is erratic (5 ER in 5 IP two starts ago). MIN's bullpen (4.87 ERA) is worse than STL's (3.83 ERA) which prevents a larger edge, but Ryan's starter advantage is real. Both over/under total prices are flagged stale — no total play. Market -137 implies ~57.8%; I estimate MIN wins ~62.5%. Gap: 4.7 pts.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: TB ML
+PRICE: -168
+UNITS: 1
+EDGE: 4.4 pts
+TOTAL LEAN: No lean
+REASON: Aldegheri's AGG xFIP (6.43) and SIERA (5.82) with K-BB% of just 1.5% signal an extremely hittable pitcher; the 2.25 ERA in 12 IP is pure small-sample noise (xERA unavailable, flagged accordingly). McClanahan has legitimate process quality — FIP 2.93, L14 xFIP 3.95 — and TB is a 40-25 team. TB wRC+ 149 vs LHP is elite. LAA bullpen (3.17 ERA) is better than TB's (4.45), which limits the edge, but the starter gap is wide. Under price is flagged stale. Market -168 implies ~62.7%; I estimate TB wins ~67.1%. Gap: 4.4 pts. 1 unit given the heavy juice and Aldegheri small-sample flag (no 3-unit).
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: COL starter is TBD — hard pass per rules. No analysis without both confirmed starters.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both total prices are flagged as stale/suspect; Assad has no L14 data available, limiting my process-quality assessment on the away arm. Roupp's L14 is alarming (xFIP 5.38, BB/9 7.5 in only 9.2 IP) but his AGG xFIP (3.82) is legitimate — likely command volatility not a true decline. Both bullpens are poor (CHC 5.58, SF 5.67 ERA). The lineup matchup is near-even (104 vs 106 wRC+). Without reliable total prices and missing Assad L14, I can't construct a reliable probability estimate with enough conviction.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## PARLAY
+LEG 1: ATL ML +110
+LEG 2: MIL RL -117
+COMBINED PRICE: +181 (approx)
+TRUE PROBABILITY ESTIMATE: ~32% (55.8% × 57.5%)
+UNITS: 1
+REASON: Both legs have independent edge identified through separate pitcher/offense/bullpen analysis — ATL benefits from a collapsing McLean start and elite bullpen at plus-money, while MIL's edge is driven by Misiorowski's elite process quality against a struggling Painter. The two games are geographically and structurally uncorrelated (NL East vs NL Central, different umpires, different parks). Combined fair price on a true 32% probability is roughly +213; +181 offers modest overlay on the parlay. 1 unit only.
+
+---
+
+## SLATE SUMMARY
+BEST BET: MIL RL -117 (PHI @ MIL) — 3 units
+WHY THIS ONE: Misiorowski (xFIP 2.82, three consecutive 7-IP shutout outings, Stf+ 121) against Painter (xERA 4.83, L14 xFIP 5.76) for a MIL team scoring 8.4 runs per game over L10; the RL at -117 is structurally more efficient than the -245 ML and still clears the edge gate by roughly 9 points.

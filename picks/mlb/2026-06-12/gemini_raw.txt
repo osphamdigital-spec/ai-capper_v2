@@ -1,0 +1,168 @@
+## GAME: MIA @ PIT
+PICK: LEAN: PIT ML
+PRICE: -136
+UNITS: LEAN
+EDGE: 5.3 pts
+TOTAL LEAN: No lean
+REASON: Braxton Ashcraft has excellent aggregate (3.26 SIERA) and L14 metrics, while Miami struggles offensively against righties with an 89 aggregate wRC+. Although the model projects a clear advantage for Pittsburgh (62.9% win probability), the slate ceiling of 3 max plays is filled by stronger edges.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: LEAN: SEA ML
+PRICE: -140
+UNITS: LEAN
+EDGE: 6.7 pts
+TOTAL LEAN: No lean
+REASON: Seattle has a strong offensive platoon edge (118 wRC+ vs RHP) and an elite bullpen (2.94 ERA) to protect lead. However, starter Bryce Miller is flagged with a small sample, and our slate ceiling is already reached by higher-confidence 3-unit plays.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: SD ML
+PRICE: +115
+UNITS: 3
+EDGE: 7.6 pts
+TOTAL LEAN: No lean
+REASON: San Diego's bullpen is elite (2.78 ERA) compared to Baltimore's highly taxed bullpen (6.06 ERA), which heavily tilts the late innings in our projections. Our model estimates San Diego's win probability at 54.1%, providing an excellent 7.6-point edge over the market's implied price.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: LEAN: TEX ML
+PRICE: +113
+UNITS: LEAN
+EDGE: 5.6 pts
+TOTAL LEAN: No lean
+REASON: Jack Leiter faces a weak Boston split (86 wRC+ vs RHP) and is backed by a solid Texas bullpen (3.25 ERA). This creates a moderate win probability edge of 52.5% compared to the +113 underdog line, but it is demoted to a lean due to slate limits.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Jack Flaherty's hot L14 stretch is countered by Tanner Bibee and Cleveland's superior bullpen (3.46 ERA). The projected win probability of 48.4% for Detroit matches the market price almost perfectly, offering no betting value.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: ATL ML
+PRICE: +110
+UNITS: 3
+EDGE: 11.5 pts
+TOTAL LEAN: No lean
+REASON: Nolan McLean has struggled mightily recently, triggering a 10% penalty on his baseline projections due to a poor L14 SIERA (6.20). Backed by an elite bullpen (2.04 ERA) and a potent offense (123 wRC+ vs RHP), Spencer Strider and the Braves are undervalued at +110.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Arizona's best moneyline price is flagged as suspect/stale in the data feed. In accordance with strict data integrity rules, this market must be treated as absent, leading to a pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Toronto's starting pitcher is unconfirmed (TBD). Data integrity rules dictate an automatic pass on all games with unconfirmed starters.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: LEAN: LAD ML
+PRICE: -145
+UNITS: LEAN
+EDGE: 3.3 pts
+TOTAL LEAN: No lean
+REASON: Roki Sasaki matches up well against Chicago, and the Dodgers offense has a powerful 134 wRC+ vs LHP. However, the estimated win probability of 62.5% fails to clear the 4.0-point edge gate over the -145 market price.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Jacob Misiorowski is a massive favorite for good reason (2.81 baseline projection), but the market has priced Milwaukee efficiently at -237. The estimated win probability of 72.5% offers no valuable edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: HOU ML
+PRICE: -110
+UNITS: 3
+EDGE: 34.6 pts
+TOTAL LEAN: No lean
+REASON: Kansas City's bullpen is in a historically bad state, carrying a 22.25 season ERA which creates massive projected run-scoring potential for Houston's offense late in the game. Coupled with Luinder Avila's weak starting metrics (5.34 blended baseline), Houston is a massive value play at near-even money.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Joe Ryan gives Minnesota a solid edge on the mound, but Kyle Leahy is backed by a superior bullpen. Our win probability model estimates Minnesota at 52.9%, which sits below the market's implied probability of 56.7%.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sam Aldegheri's starting baseline is poor but is limited by a small-sample flag, while Shane McClanahan has a tough split against Anaheim's LHP offense. The resulting win projection yields a negligible edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Colorado has not confirmed a starting pitcher for this game. Under our strict guidelines, all TBD games are automatically passed.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Landen Roupp receives a 10% projection penalty due to poor L14 metrics, but Chicago's weak bullpen (5.58 ERA) balances out the matchup. The model's 48.6% estimate on the Cubs sits too close to the market price to trigger a play.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: HOU ML in HOU @ KC
+WHY THIS ONE: Kansas City's extremely weak pitching staff and historically poor bullpen (22.25 ERA) match up terribly against a steady Houston offense, yielding an unprecedented mathematical edge at a near-even price of -110.

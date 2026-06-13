@@ -1,0 +1,5 @@
+I weigh recent xFIP/SIERA/Stf+ and K-BB% most heavily for starters, discounting ERA by 60% and ignoring L3 results. Small-sample flags (<50 IP or explicit) cap any edge at 1 unit. Bullpen freshness (high-leverage arms available) adds or subtracts 3-5% to win probability; taxed arms or >4.50 ERA units are distrusted.
+
+Base win probability starts from pitcher quality gap, adjusted +4-8% for park (Coors +12 runs, pitcher parks -4), platoon wRC+ differential only if >12 points, and line movement only if >5 cents and unflagged. Market implied probability uses the best available price; stale/suspect flags treat the line as absent.
+
+Edge = my estimated win probability minus market implied. Minimum 4-point gap required; 7+ points and clean data trigger 3 units. Pass on TBD starters, <4-point gaps, or when data conflicts (e.g., strong starter vs. elite bullpen). Totals ignored unless side bet also qualifies. Slate ceilings enforced strictly; zero bets is default. No parlays.

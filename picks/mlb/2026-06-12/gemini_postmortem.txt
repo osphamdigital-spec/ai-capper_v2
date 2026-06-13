@@ -1,0 +1,64 @@
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** HOU ML in HOU @ KC  
+**RESULT:** WIN  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES  
+**WHY:** The pre-game data highlighted a historically poor Kansas City bullpen (22.25 season ERA) and a weak starting baseline for Luinder Avila (5.34). Houston's offense capitalized in a high-scoring 10-8 game, perfectly validating the pre-game thesis of late-inning run-scoring opportunities.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** SD @ BAL  
+**PICK:** SD ML (+115)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The handicap was built on a massive bullpen discrepancy, matching San Diego’s elite 2.78 ERA bullpen against a heavily taxed Baltimore unit carrying a 6.06 ERA. Over a long season, getting a +115 price with a 7.6-percentage-point model edge based on late-inning bullpen advantages is a highly profitable long-term strategy, even if it failed to convert in this single instance.  
+**SOURCE:** Pre-game team bullpen metrics.
+
+---
+
+**GAME:** ATL @ NYM  
+**PICK:** ATL ML (+110)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Nolan McLean’s extremely poor L14 SIERA of 6.20 triggered a necessary 10% projection penalty, and Atlanta matched him with an elite bullpen (2.04 ERA) and a potent offense (123 wRC+ vs RHP). Backing the Braves as road plus-money underdogs under these starting pitching conditions was mathematically correct.  
+**SOURCE:** Pre-game starter L14 metrics and bullpen ERAs.
+
+---
+
+**GAME:** HOU @ KC  
+**PICK:** HOU ML (-110)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Our model identified a massive 34.6-point edge against Kansas City's pitching staff. The 10-8 final score verified both teams' pitching weaknesses, and Houston's offense executed exactly as projected to secure the victory.  
+**SOURCE:** Pre-game opponent bullpen and starting pitcher metrics.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+*None. The leans and passes were handled in accordance with model parameters, volume limits, and strict data integrity rules (e.g., TBD pitchers and stale lines).*
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** DATA  
+**ITEM:** Bullpen Usage / Rest Status (3-day pitch counts)  
+**WHICH GAME(S):** SD @ BAL  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** While Baltimore's aggregate bullpen ERA was poor (6.06), knowing the exact rest status and availability of high-leverage arms would allow us to verify if the "taxed" status of the bullpen was actively painful for that specific game, or if rest days had mitigated the strain.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** NONE  
+**WHAT IN MY METHOD COULD BE SHARPER:** N/A  
+**EVIDENCE FROM TODAY:** The three 3-unit selections were well-reasoned. The two losses (SD and ATL) were driven by solid bullpen and starting pitching projection edges that simply did not land today, while the Best Bet (HOU) was a resounding success. Adhering to strict slate limits and data integrity rules successfully filtered out high-risk spots.  
+**CONFIDENCE:** HIGH

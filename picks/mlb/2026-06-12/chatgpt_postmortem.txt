@@ -1,0 +1,95 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: ATL ML (+110) at NYM  
+RESULT: LOSS  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+
+WHY: Pre-game, it still had my largest modeled edge on the board. The case was clear and data-based: stronger projected offense vs RHP, best bullpen edge on the slate, and plus money. I do not think the mere result is enough to say the process was wrong. What I would reconsider is the **stake size**, not the fact that it was the top side.  
+SOURCE: Original pre-game model view: projected ATL 55.5% vs +110 implied 47.6%; offense split and bullpen edge from provided slate data.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: SEA @ WAS  
+PICK: SEA ML -140  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: The handicap was straightforward and supported by the pre-game inputs: better offensive context against a contact-prone starter, plus the stronger full-season bullpen. I already capped this at 1 unit because Miller was flagged small sample, which was the right restraint.  
+SOURCE: Original reasoning and provided slate data: Seattle lineup context vs RHP/contact profile, bullpen gap, away starter small-sample flag.
+
+---
+
+GAME: ATL @ NYM  
+PICK: ATL ML +110  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE ONLY  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: I can name the exact pre-game reasons: Atlanta rated as the biggest lineup advantage I had on the slate versus RHP, plus the strongest bullpen edge. Those are legitimate pre-game data points. That said, making it a 3-unit best bet with **lineups unconfirmed** was probably too aggressive. I still like the side pre-game, but I would reduce exposure when the edge depends heavily on aggregate lineup quality without confirmed cards.  
+SOURCE: Original model projection 55.5%; original notes citing much stronger offense vs RHP and best bullpen in slate; lineups unconfirmed.
+
+---
+
+GAME: LAD @ CHW  
+PICK: LAD ML -145  
+RESULT: LOSS  
+PROCESS: INCORRECT PITCHING  
+WOULD-BET-AGAIN: NO  
+WHY: The offensive and bullpen case for LAD was real, but I did not have enough starting-pitcher certainty to justify laying this road price. My own writeup admitted Sasaki was “not a pristine profile,” and the confidence leaned too hard on “recent shape is improved.” That is not strong enough support for a favorite in this range. The mistake was not seeing the pitching risk as disqualifying.  
+SOURCE: Original reasoning: major platoon edge vs Kay, CHW weak bullpen, but Sasaki profile noted as imperfect and improvement framed through recent form.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: HOU @ KC  
+YOUR CALL: LEAN  
+FINAL RESULT: HOU win  
+WHAT YOU MISSED: This was probably closer to a real play than I treated it. Pre-game I already had Houston with the better lineup split, better bullpen, and the less concerning starter after regression. If I trust those three pillars together, I may have been too rigid with the edge threshold here.  
+SOURCE: Original writeup: better lineup split, better bullpen, less troubling starter once regressed; market around -110.  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Confirmed starting lineups with handedness-adjusted projected wRC+ difference from the preliminary expected lineup  
+WHICH GAME(S): ATL @ NYM, LAD @ CHW, TEX @ BOS  
+WOULD HAVE CHANGED A BET? YES  
+WHY: My strongest opinions in ATL and LAD were driven heavily by lineup/platoon assumptions, but lineups were unconfirmed. A material downgrade from expected starters should reduce stake or cancel.
+
+---
+
+TYPE: STAT  
+ITEM: Batter-level absence/rest flags for key regulars and catcher defense/framing assignments  
+WHICH GAME(S): ATL @ NYM, SEA @ WAS, LAD @ CHW  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: These are not always captured in broad team-strength inputs, but they can materially change both side and total projections, especially when the edge is modest to medium.
+
+---
+
+TYPE: SOURCE  
+ITEM: Pitch-model / arsenal-quality feed with recent velocity, movement, and pitch-mix stability  
+WHICH GAME(S): LAD @ CHW, SEA @ WAS, TB @ LAA  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: It would help distinguish real starter improvement from noise, especially when I am already noting “small sample” or “recent shape improved” in the writeup.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE:  
+Reduce stake size by one tier when lineups are unconfirmed **and** the edge is driven primarily by aggregate lineup advantage or bullpen superiority rather than a clean starting-pitcher edge.
+
+WHAT IN MY METHOD COULD BE SHARPER:  
+I was willing to press ATL to 3 units and LAD to 1 unit even though both writeups depended heavily on offense/bullpen edges while lineup cards were still unconfirmed. When the starting-pitcher case is not dominant, lineup uncertainty should matter more.
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):  
+- ATL was the best-bet mostly on “much stronger offense vs RHP” and “best bullpen in this slate,” while lineups were unconfirmed.  
+- LAD was supported by “major platoon edge” and “weak opposing bullpen,” but my own writeup admitted the Dodgers starter was not a pristine profile.  
+- SEA, by contrast, was kept to 1 unit because I explicitly respected the small-sample pitching uncertainty. That restraint was methodologically cleaner.
+
+CONFIDENCE: MEDIUM

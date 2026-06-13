@@ -1,0 +1,168 @@
+## GAME: MIA @ PIT
+PICK: LEAN: PIT
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.0 pts
+TOTAL LEAN: No lean
+REASON: Ashcraft's skill profile (3.26 SIERA, 20.6% K-BB, elite L14) clearly beats Alcantara's 4.36 SIERA, and PIT has the platoon edge (105 vs 89 wRC+ vs RHP). But Alcantara's strong L14 (3.06 xFIP, 14 IP) partially closes the gap, and my PIT number lands ~59-60% vs ~56.5% de-vigged implied — under the gate. MIA's 8-2 L10 is the market trap I fade, but not at sub-4 edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Miller carries a [small sample] season line and his hot L3 is already priced into -145; Littell is bad (Stf+ 87, xERA 5.92) but SEA's de-vigged ~57% slightly exceeds my ~55% build. No side. 97F heat in a 106-run park leans Over, but the Over price is flagged stale, so no totals bet.
+LOOKED UP: Over price flagged stale — treated total market as one-sided
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: BAL gets starter edge (Canning Stf+ 90, 50.6% HH) and a huge platoon edge (109 vs 81), but SD's elite pen (2.78, Mason Miller) vs BAL's 6.06 disaster pen claws most of it back. My BAL ~55% vs ~54.4% implied — under a point of edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gray's skill edge over Leiter (3.47 vs 4.30 SIERA) is real, but TEX has the better pen and platoon numbers. My BOS ~54.5% vs ~54% implied — fully priced. TEX's 7-3 L10 doesn't tempt me either way.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: LEAN: DET
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.0 pts
+TOTAL LEAN: No lean
+REASON: Flaherty's underlying skill (3.79 SIERA, 17.8% K-BB) with a confirming elite L14 (2.79 SIERA, 15.2 IP) beats Bibee, whose L14 K-rate has cratered to 5.1. CLE's pen advantage (Cade Smith) plus home field keeps my DET number at ~48.5% vs ~46.4% implied — short of the gate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: LEAN: ATL
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.0 pts
+TOTAL LEAN: No lean
+REASON: McLean's AGG profile is strong but his L14 is a wreck (6.20 SIERA, 6.5 BB/9), while ATL holds a 30-point platoon edge and the best pen on the slate (2.04). Strider's Stf+ 95 caps my enthusiasm; ATL ~48.5% vs ~46.6% implied stays under 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: E-Rod's 2.52 ERA on a 4.64 xERA / Stf+ 91 is a textbook regression candidate, but Lodolo's awful L14 and Cincinnati's gutted pen (5.04, no listed setup arms) offset it — my CIN ~51.5% vs ~51% implied is no edge. Both lineups destroy lefties (168/147 wRC+ vs LHP) in a 121 HR-factor park: legitimate Over lean, but not enough to bet.
+LOOKED UP: AZ best ML flagged stale — treated that side's best price as absent
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Toronto's starter is TBD — automatic pass under data integrity rules. No estimate made.
+LOOKED UP: TBD home starter; roof status unknown
+
+---
+
+## GAME: LAD @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: My matchup build (Sasaki/Kay near-wash on AGG, LAD platoon edge +35) lands LAD well below the market's ~58%, which superficially flags CHW value. But the gap is driven by my framework underweighting the +143 vs +10 run-differential quality gap, not a concrete mechanism — that's a pass under my own discipline rules.
+LOOKED UP: Over price flagged stale
+
+---
+
+## GAME: PHI @ MIL
+PICK: PHI ML
+PRICE: +215
+UNITS: 1
+EDGE: 4.4 pts
+TOTAL LEAN: No lean
+REASON: Misiorowski is excellent, but the market is pricing his 1.50 ERA, not his 2.80 SIERA — the largest ERA-narrative premium on the slate. Even crediting MIL the full starter gap (~8 pts), home field, and the platoon edge, my build tops out at ~64.5% MIL, while -245 de-vigs to ~68.9%. I estimate PHI at 35.5% vs 31.1% implied at +215 — a 4.4-point gap on the dog with an elite Duran-led pen keeping late innings live.
+LOOKED UP: roof status unknown; nothing else, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: KC's best ML and both total prices are flagged stale, the KC pen ERA prints an implausible 22.25 (corrupt data), and both starters carry thin AGG samples (Imai 34 IP/Stf+ 87, Avila 13 IP Stf+ sample). Too many integrity failures to price anything.
+LOOKED UP: KC ML + both TT prices flagged stale; KC bullpen ERA value not credible
+
+---
+
+## GAME: STL @ MIN
+PICK: MIN ML
+PRICE: -131
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL LEAN: No lean
+REASON: Joe Ryan vs Kyle Leahy is the cleanest skill chasm on the board: 3.28 vs 4.57 SIERA, 22.6% vs 8.6% K-BB, and Leahy sits under my Stf+ 90 red line with a 6.59 xERA and 49.2% HH that say his 4.42 ERA flatters him. STL's 7-3 L10 with 5.6 RS/G is exactly the hot-form trap keeping this price short. My MIN number is 60% vs 55.5% de-vigged implied at -131.
+LOOKED UP: both total prices flagged stale — no total considered
+
+---
+
+## GAME: TB @ LAA
+PICK: LEAN: LAA
+PRICE: N/A
+UNITS: LEAN
+EDGE: none (build shows ~5 pts but fails small-sample rule)
+TOTAL LEAN: No lean
+REASON: My matchup build prices TB ~54.5% vs the market's ~60.4% — McClanahan's 2.85 ERA sits on a 3.88 SIERA, LAA mashes lefties (139 wRC+), and LAA's pen is sharper. But cashing that edge means backing Aldegheri's 12 IP, 1.5% K-BB profile, which violates my rule against betting ON small-sample starters. Lean only.
+LOOKED UP: Under price flagged stale
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Colorado's starter is TBD — automatic pass. Jump is also small-sample flagged, so this game fails integrity on both sides.
+LOOKED UP: TBD away starter
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Roupp's AGG skill beats Assad's, but his L14 control collapse (7.5 BB/9) cuts the starter edge to almost nothing, and the platoon/bullpen comparisons are washes between two bad pens. My SF ~54.5% vs ~53.6% implied — no bet.
+LOOKED UP: both total prices flagged stale
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

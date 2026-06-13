@@ -1,0 +1,166 @@
+# POST-MORTEM REVIEW — MLB 2026-06-12
+
+---
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** MIL RL -117 (PHI @ MIL)
+**RESULT:** WIN
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES
+
+MIL won 6-0. PHI scored zero runs. This was the cleanest structural edge on the slate: elite process-quality starter (Misiorowski, xFIP 2.82, three consecutive 7-IP shutout outings) against a demonstrably broken Painter (xERA 4.83, L14 xFIP 5.76, early hooks). MIL's L10RS of 8.4 provided the run-support floor for the RL. Every pre-game pillar held. 3-unit stake was correct.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** MIA @ PIT
+**PICK:** PIT ML
+**RESULT:** LOSS
+**PROCESS:** INCORRECT PITCHING
+**WOULD-BET-AGAIN:** NO
+**WHY:** The pre-game case rested heavily on Braxton Ashcraft's L14 xFIP (2.05) and SIERA (2.09) on what I noted was only 11 IP — a sample size I acknowledged but did not penalize sufficiently in my probability estimate. A 2.05 xFIP on 11 IP in a recent window is almost certainly noise: the denominator is too small for xFIP to stabilize, and any two or three fortunate batted-ball sequences can produce that number. I blended it with his AGG xFIP (3.19) but the blend still skewed too optimistic. The correct pre-game flag was already in the data (11 IP = roughly 2 starts), and I should have either passed or stayed at 1 unit maximum with a narrower edge estimate. The Alcantara inconsistency I cited was real, but I underweighted MIA's offensive upside and overweighted Ashcraft's suppression capability. Ashcraft's small-sample indicators were a pre-game red flag I named but did not adequately price.
+**SOURCE:** Pre-game data — Ashcraft L14 IP = 11, clearly flagged in original reasoning.
+
+---
+
+**GAME:** SEA @ WAS
+**PICK:** SEA ML
+**RESULT:** WIN (SEA 10, WAS 2)
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** The pre-game case was solid and the outcome was emphatic. Bryce Miller's elite recent form (xFIP 2.52, SIERA 2.25, zero ER in L3 starts) was correctly flagged as small-sample, and I correctly held to 1 unit. Littell's ugly underlying metrics (FIP 5.94, xERA 5.92, Stf+ 87) were real pre-game data, not post-hoc rationalization. SEA's bullpen advantage (2.94 ERA vs 4.60) provided structural support beyond just the starter matchup. Result aligned with the process thesis. The 1-unit cap given Miller's small sample was correct risk management.
+**SOURCE:** Pre-game data — Littell FIP/xERA/Stf+, Miller L3 game log, bullpen ERA differential.
+
+---
+
+**GAME:** ATL @ NYM
+**PICK:** ATL ML +110
+**RESULT:** LOSS (ATL 5, NYM 7)
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD-BET-AGAIN:** YES / LOWER STAKE
+**WHY:** The structural case was legitimate: ATL is the best team in baseball (45-23, +114 run differential) getting plus-money against a sub-.500 team. McLean's pre-game metrics were genuinely alarming — L14 xFIP 5.74, SIERA 6.20, BB/9 of 6.5, and 7 ER allowed in a recent 3.1 IP start. These are concrete pre-game data points, not post-hoc rationalization. Strider's xERA (3.04) and the ATL bullpen (2.04 ERA) were legitimate advantages. The edge was real. However, I will note one honest pre-game concern I may have underweighted: McLean was pitching in a home park with a specific game environment, and even a bad pitcher can steal 5-6 innings in any single start. I also may have overweighted ATL's aggregate season quality relative to game-specific variance. The 3-unit stake is where I'll apply mild second-guessing — the plus-money price justified optimism but perhaps 2 units was more appropriate given the single-start randomness of a bad starter who might have one survivable outing. The process reasoning was sound; this is variance.
+**SOURCE:** Pre-game data — McLean L14 xFIP 5.74, SIERA 6.20, 7 ER in 3.1 IP noted explicitly; ATL 45-23 record, bullpen ERA 2.04.
+
+---
+
+**GAME:** LAD @ CHW
+**PICK:** LAD ML
+**RESULT:** LOSS (LAD 2, CHW 8)
+**PROCESS:** OVERWEIGHTED FORM
+**WOULD-BET-AGAIN:** NO
+**WHY:** This is the most honest self-critique on the slate. I correctly identified Sasaki's recent elite numbers (L14 xFIP 1.90) but I should have applied the same small-sample skepticism I used for Bryce Miller. Sasaki's L14 xFIP on a limited IP base in a post-injury or compressed workload context can mislead. Kay's underlying metrics (xERA 5.88, FIP 5.48) were genuinely poor and the process case there was sound, but single-start variance from a bad pitcher means they can still hold a great offense for one game. More importantly, I'm questioning whether I gave enough weight to CWS's home offense — even a last-place team scores runs at home. The price at -152 also compressed the edge tighter than I acknowledged; at 60.3% implied, the margin for error is smaller than at a neutral line. I named the right concerns but the edge was thinner than I presented. 1-unit stake was correct; the issue is I should have recognized this was closer to a pass than a bet given the price-compressed edge.
+**SOURCE:** Pre-game data — LAD price -152 (implied 60.3%), Sasaki limited IP context implicitly acknowledged in xFIP discussion, Kay variance factor (6 ER in 4 IP noted but single-start randomness underweighted).
+
+---
+
+**GAME:** PHI @ MIL
+**PICK:** MIL RL -117
+**RESULT:** WIN (MIL 6, PHI 0)
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES / HIGHER STAKE
+**WHY:** Every pre-game pillar held completely. Misiorowski's process metrics (xFIP 2.82, FIP 1.91, xERA 2.25, K-BB% 26.7%, Stf+ 121, three consecutive 7-IP shutout outings) were legitimate and on a sufficient sample (78 IP — explicitly noted as non-small-sample). Painter's metrics (ERA 6.21, L14 xFIP 5.76, early hook pattern) reflected a genuinely broken starter, not noise. MIL's offensive form (L10RS 8.4) delivered. The RL at -117 was correctly identified as more structurally efficient than the -245 ML. PHI scoring zero runs validated the shutout capability concern. The 3-unit stake was right; in hindsight this deserved consideration at the top of the stake scale. No changes warranted.
+**SOURCE:** Pre-game data — Misiorowski 78 IP (non-small-sample), xFIP/FIP/xERA/Stf+ all corroborating, MIL L10RS 8.4, Painter L14 xFIP 5.76, early hook pattern.
+
+---
+
+**GAME:** STL @ MIN
+**PICK:** MIN ML
+**RESULT:** WIN (MIN 9, STL 8)
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** The pre-game case identified a real starter edge (Joe Ryan FIP 2.92, xERA 3.08, L14 xFIP 3.93 vs Leahy xERA 6.59, Stf+ 89, erratic L3) and correctly noted the bullpen offset (STL 3.83 ERA vs MIN 4.87 ERA) as a limiting factor that prevented a larger stake. MIN won, but it was close (9-8), which reflects exactly the pre-game hedging on bullpen parity. The 1-unit stake was appropriate given the bullpen concern. No material errors in reasoning.
+**SOURCE:** Pre-game data — Ryan FIP/xERA/xFIP vs Leahy xERA/Stf+, bullpen ERA differential noted as edge-limiting.
+
+---
+
+**GAME:** TB @ LAA
+**PICK:** TB ML
+**RESULT:** LOSS (TB 3, LAA 4)
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD-BET-AGAIN:** YES / LOWER STAKE
+**WHY:** The pre-game case was structurally sound: Aldegheri's AGG xFIP (6.43), SIERA (5.82), and K-BB% of 1.5% are legitimate signals of an extremely hittable pitcher. I explicitly flagged the 2.25 ERA as small-sample noise, which was correct process. McClanahan's FIP (2.93) and TB's 40-25 record with wRC+ 149 vs LHP were real advantages. The loss at 3-4 is within the variance band for a game where one team was estimated at ~67%. However, I'll note the 1-unit stake was appropriate given the heavy juice (-168) and Aldegheri small-sample uncertainty. The honest second-guess is whether -168 is too expensive for a starter-quality edge on a small sample — I identified LAA's bullpen (3.17 ERA) as a mitigating factor, which may have been more important than I weighted. No clear pre-game error; this is variance.
+**SOURCE:** Pre-game data — Aldegheri AGG xFIP 6.43, SIERA 5.82, K-BB% 1.5% all cited; LAA bullpen 3.17 ERA as edge-limiter noted.
+
+---
+
+**GAME:** ATL ML + MIL RL PARLAY
+**PICK:** PARLAY +181
+**RESULT:** LOSS (ATL leg failed)
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD-BET-AGAIN:** YES / LOWER STAKE
+**WHY:** The MIL leg hit cleanly (6-0). The ATL leg lost. Both individual legs had legitimate pre-game edge, and the parlay structure (1 unit only, correctly sized below individual stakes) was appropriate. The structural reasoning — uncorrelated games, independent edge sources, modest overlay at +181 vs estimated fair +213 — was sound. The ATL loss is attributed to variance (see ATL block above). 1-unit parlay stake was correct risk management. No structural error in the parlay construction.
+**SOURCE:** Pre-game data — probability estimates from individual game analyses; parlay overlay calculation cited.
+
+---
+
+### PART B — PASSES WHERE A PRE-GAME EDGE WAS MISSED
+
+---
+
+**GAME:** TEX @ BOS
+**YOUR CALL:** PASS
+**FINAL RESULT:** BOS 10, TEX 1
+**WHAT YOU MISSED:** My pre-game reasoning correctly identified Leiter's deteriorating walk rate (L14 BB/9 4.3, xFIP 4.62) as a liability, but I concluded the gap didn't reach 4 points. BOS won by 9 runs. In hindsight, the pre-game data for Leiter was worse than I credited: not just elevated walks but a declining Stf+ and a BOS offense that, while rated wRC+ 86, plays at Fenway (elevated park factor). I may have over-penalized BOS's aggregate season record (27-39) without sufficiently considering home-park advantage and a specific bad-starter matchup. The honest flag is I was correct to note the gap was marginal — but Leiter's specific indicators (BB/9 4.3, xFIP 4.62) in combination with BOS's park edge may have been a 1-unit BOS ML edge I talked myself out of. Gray's improving ERA being supported by his AGG xFIP (3.26) was real, but his L14 xFIP creep (3.88) was a warning I underweighted relative to the matchup context.
+**SOURCE:** Pre-game data — Leiter L14 xFIP 4.62, BB/9 4.3; Gray L14 xFIP 3.88 with command slip noted; Fenway park factor mentioned.
+**WOULD THIS HAVE BECOME A BET?** MAYBE — it was borderline; I might have taken BOS ML at a longer price (+110 range) but correctly passed the -130 implying 56.5%.
+
+---
+
+**GAME:** DET @ CLE
+**YOUR CALL:** PASS
+**FINAL RESULT:** CLE 3, DET 2
+**WHAT YOU MISSED:** Nothing material. The pass was correct. I identified the key factors accurately: Flaherty's elite L14 xFIP (2.73) made DET's ML look interesting, but CLE's bullpen (3.46 ERA, elite closer) vs DET's (4.61 ERA, Will Vest 6.53 ERA closer) was a significant structural lean toward CLE. CLE won 3-2 in what appears to have been a close game. The pre-game read that the edge didn't reach 4 points was honest. No missed edge here — this was a correct pass on insufficient conviction.
+**SOURCE:** Pre-game data — bullpen differential cited, DET's 11-24 away record.
+**WOULD THIS HAVE BECOME A BET?** NO
+
+---
+
+**GAME:** LAD @ CHW (Over lean)**
+**YOUR CALL:** PASS (total)
+**FINAL RESULT:** CHW 8, LAD 2 — total 10 runs
+**WHAT YOU MISSED:** I correctly flagged the Over price as suspect/stale and passed the total. Per rules, this was the correct decision regardless of outcome. No actionable missed edge — the price flag was the correct gating mechanism.
+**SOURCE:** Pre-game data — Over price flagged suspect.
+**WOULD THIS HAVE BECOME A BET?** NO (price integrity rule applied correctly)
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT
+**ITEM:** Starter IP cap / pitch count limit indicators — specifically whether any pitcher was on a documented inning limit, pitch count restriction, or return-from-IL protocol that would cap their projected effectiveness window below 5 innings.
+**WHICH GAME(S):** MIA @ PIT (Ashcraft, 11 IP in L14 suggests possible workload management), TB @ LAA (Aldegheri small sample may reflect similar constraints), LAD @ CHW (Sasaki post-injury workload)
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** If Ashcraft was on a pitch limit of 75-80 pitches, the case for PIT ML weakens materially — the bullpen advantage I cited becomes the primary factor, not a reinforcing one. For Sasaki, knowing he was capped at 4-5 innings changes the calculus on LAD -152 entirely (the edge was starter-driven). Pre-game IP limit data would have sharpened both decisions.
+
+---
+
+**TYPE:** STAT
+**ITEM:** Season-to-date home/away splits for both offenses and starters — specifically away ERA vs home ERA for starting pitchers, and home wRC+ vs road wRC+ for lineups.
+**WHICH GAME(S):** TEX @ BOS, MIA @ PIT, ATL @ NYM
+**WOULD HAVE CHANGED A BET?** MAYBE
+**WHY:** I used aggregate wRC+ and bullpen ERAs without context for venue-specific performance. BOS's home wRC+ may significantly exceed their road number (relevant to TEX @ BOS pass decision). McLean's home ERA vs road ERA would have informed the ATL edge estimate — some bad pitchers are meaningfully better at home due to park factors and comfort.
+
+---
+
+**TYPE:** DATA
+**ITEM:** Umpire home plate ERA / run environment impact data — specifically the assigned home plate umpire's career ERA impact (above/below average runs per game) for each game.
+**WHICH GAME(S):** PHI @ MIL, ATL @ NYM, SEA @ WAS
+**WOULD HAVE CHANGED A BET?** MAYBE
+**WHY:** Umpire run environment impact is a legitimate pre-game variable for total leans and can influence ML probability by 1-2% in extreme cases (umpires with career run-environment impact of ±0.5 runs/game). For the MIL RL specifically, a run-suppressing umpire would have strengthened the RL case further; for ATL @ NYM, an expansive zone might have slightly reduced the McLean disaster risk.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** Implement a graduated IP-sample penalty for L14 xFIP/SIERA metrics that scales the weight assigned to the recent metric inversely with the IP count. Specifically: L14 IP ≥ 35 → full weight; 20-34 IP → 70% weight, blend 30% toward AGG; 11-19 IP → 40% weight, blend 60% toward AGG; <11 IP → treat as anecdotal only, lead with AGG.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** I currently flag small-sample L14 windows in my written reasoning (I noted Ashcraft's 11 IP explicitly, Miller's small sample) but I do not systematically downgrade those metrics in my probability estimate. The verbal flag exists; the numerical adjustment does not. The result is that I write the caveat and then don't fully act on it — I still assigned Ashcraft a significant ace-level edge and estimated PIT's win probability at 64%, which is too high once the L14 xFIP is properly discounted to ~70% AGG weighting.
+
+**EVIDENCE FROM TODAY (pre-game data only):** Ashcraft L14 xFIP 2.05 on 11 IP — flagged as small sample in reasoning but probability estimate of 64% PIT win still implicitly relied on the 2.05 figure heavily. Bryce Miller — correctly handled with 1-unit cap, but the same IP-scaling logic should have been applied more formally. Sasaki's recent elite metrics similarly rested on limited IP in the L14 window. Three separate games where I verbally flagged sample size but didn't translate the flag into a consistent numerical discount.
+
+**CONFIDENCE:** MEDIUM — one slate is insufficient to confirm, but the pattern of "flag it verbally, ignore it numerically" appeared in at least three separate picks. The graduated penalty would have reduced PIT confidence, potentially made SEA still a bet at the same 1-unit level, and potentially eliminated LAD -152 as a bet (or reduced it to a marginal/pass). The MIL best bet was unaffected (78 IP explicitly noted as non-small-sample). Testing over 20+ slates would confirm whether the graduated discount improves overall calibration.

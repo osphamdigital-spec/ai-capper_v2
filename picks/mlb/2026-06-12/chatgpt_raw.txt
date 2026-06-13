@@ -1,0 +1,168 @@
+## GAME: MIA @ PIT
+PICK: LEAN: PIT
+PRICE: -136
+UNITS: LEAN
+EDGE: 2.9 pts
+TOTAL LEAN: Under
+REASON: Ashcraft has the better base skill stack here, and Pittsburgh also owns the stronger platoon split versus right-handed pitching. Alcantara’s recent form is improved enough to keep Miami live, but PNC’s run suppression and a fairly modest bullpen gap leave this short of a bet threshold.
+LOOKED UP: lineups unconfirmed; used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: SEA ML
+PRICE: -140
+UNITS: 1
+EDGE: 5.7 pts
+TOTAL LEAN: Over
+REASON: Seattle gets the cleaner offensive context by a wide margin against a contact-prone Littell, and the Mariners also carry the stronger full-season bullpen. Miller is flagged small sample so this cannot rate higher, but even after regressing him toward his aggregate skill, I still make Seattle about 64.0% to win.
+LOOKED UP: lineups unconfirmed; away starter flagged small sample
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Baltimore has the better lineup split and a slight starter edge, but San Diego’s late-game bullpen advantage is large enough to keep this near market. With warm conditions and a fragile Orioles pen, I lean toward runs, yet the side price does not separate enough to justify exposure.
+LOOKED UP: lineups unconfirmed; used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: LEAN: TEX
+PRICE: +113
+UNITS: LEAN
+EDGE: 2.6 pts
+TOTAL LEAN: No lean
+REASON: Gray is the better starter on paper, but Boston’s offense versus right-handed pitching is weak enough that Texas stays very live at plus money. The Rangers also bring the stronger bullpen and slightly better platoon offense, though not by enough to clear the 4-point gate.
+LOOKED UP: lineups unconfirmed; used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: LEAN: DET
+PRICE: +112
+UNITS: LEAN
+EDGE: 3.3 pts
+TOTAL LEAN: Under
+REASON: Flaherty’s strikeout and K-BB profile grade ahead of Bibee’s current form, and Detroit’s lineup has a small edge against righties. Cleveland’s better bullpen and the low-variance park pull this back under a full bet.
+LOOKED UP: lineups unconfirmed; used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: ATL ML
+PRICE: +110
+UNITS: 3
+EDGE: 7.9 pts
+TOTAL LEAN: No lean
+REASON: Atlanta has the clearest team-quality edge on the board: much stronger offense versus right-handed pitching and the best bullpen in this slate. McLean’s season-long skill is real, but his recent control slide is a bad fit against this lineup, and even with home field I make Atlanta 55.5% to win at a plus price.
+LOOKED UP: lineups unconfirmed; used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Both offenses project well against left-handed pitching, which creates a volatile run environment in a homer-friendly park. Arizona’s listed away ML is flagged suspect, and without a clean two-way side market I am passing rather than forcing a number.
+LOOKED UP: away price flagged suspect; lineups unconfirmed
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Toronto’s starter is TBD, which makes this an automatic pass under the rules. The roof status and unconfirmed lineup context add more uncertainty to both side and total pricing.
+LOOKED UP: home starter TBD; roof status unconfirmed; lineups unconfirmed
+
+---
+
+## GAME: LAD @ CHW
+PICK: LAD ML
+PRICE: -145
+UNITS: 1
+EDGE: 4.3 pts
+TOTAL LEAN: Over
+REASON: The Dodgers get a major platoon edge versus Kay, and Chicago’s weak bullpen makes the late innings favorable for Los Angeles as well. Sasaki is not a pristine profile, but his recent shape is improved, and I still land the Dodgers at 63.5% to win.
+LOOKED UP: lineups unconfirmed; used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Milwaukee has the clear starting pitching edge, but the ML is priced for near-perfection and the Phillies still have enough bullpen quality and top-end bats to disrupt a heavy favorite. I considered the Brewers run line, but my cover probability does not clear the required edge gate.
+LOOKED UP: roof status unconfirmed; lineups unconfirmed
+
+---
+
+## GAME: HOU @ KC
+PICK: LEAN: HOU
+PRICE: -110
+UNITS: LEAN
+EDGE: 3.4 pts
+TOTAL LEAN: No lean
+REASON: Houston gets the better lineup split, the better bullpen, and the less troubling starter once both pitchers are regressed toward their broader skill indicators. I still come up a bit short of the threshold, and the suspect total market keeps me away from derivative exposure.
+LOOKED UP: totals market flagged suspect; lineups unconfirmed
+
+---
+
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Joe Ryan is the best starter in this matchup by a solid margin, but St. Louis offsets part of that with the better bullpen and a competent road profile. Minnesota deserves to be favored, just not by enough beyond the current number to create a play.
+LOOKED UP: totals market flagged suspect; lineups unconfirmed
+
+---
+
+## GAME: TB @ LAA
+PICK: LEAN: TB
+PRICE: -162
+UNITS: LEAN
+EDGE: 3.7 pts
+TOTAL LEAN: Over
+REASON: Tampa Bay has the better starter and a huge lineup split versus lefties, while Aldegheri’s tiny MLB sample is backed by weak aggregate skill indicators. The Angels’ own strong split against left-handed pitching plus their steadier bullpen keep this just below a bet at the current price.
+LOOKED UP: home starter flagged small sample; lineups unconfirmed
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Colorado’s starter is TBD, so this is an automatic pass. The park and total already imply extreme scoring variance, which makes forcing any side or run-line position even less attractive without confirmed pitching.
+LOOKED UP: away starter TBD; lineups unconfirmed
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Roupp has the better underlying profile, but his recent control slippage and San Francisco’s poor bullpen keep the Giants from separating enough. Chicago’s bullpen is shaky too, so I do not see a clean late-game edge either way.
+LOOKED UP: lineups unconfirmed; used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: ATL ML in ATL @ NYM
+WHY THIS ONE: Atlanta combines the biggest lineup advantage with the best bullpen edge among the playable sides, and the market is still hanging a plus price. My projected win probability is 55.5%, comfortably above the 47.6% implied by +110.

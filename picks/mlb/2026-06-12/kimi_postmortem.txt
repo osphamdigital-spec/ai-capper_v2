@@ -1,0 +1,90 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: MIL ML (-237, 1U) — sole official wager of the slate
+RESULT: WIN
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: PHI @ MIL
+PICK: MIL ML -237 (1U)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Misiorowski’s elite aggregate SIERA (2.80) and 26.7% K-BB% created a massive starter gap over Painter (4.74 SIERA). Milwaukee’s 111 wRC+ vs RHP and deeper bullpen converged to produce a 5.1-point edge against a 70.3% implied line. The edge was robust, multi-factor, and above the betting threshold independent of outcome.
+SOURCE: Provided aggregate SIERA, K-BB%, wRC+ vs RHP, bullpen profiles
+
+---
+
+GAME: MIA @ PIT
+PICK: LEAN PIT
+RESULT: LOSS
+PROCESS: SMALL SAMPLE TRAP
+WOULD-BET-AGAIN: NO
+WHY: I treated Ashcraft’s 3.26 SIERA as a reliable anchor without confirming his underlying sample size. A full-run SIERA edge over Alcantara (4.36) is meaningless if Ashcraft’s number is built on a handful of starts. Issuing even a lean on an unverified small-sample pitching line is process-negative.
+SOURCE: Provided aggregate SIERA
+
+---
+
+GAME: ATL @ NYM
+PICK: LEAN ATL
+RESULT: LOSS
+PROCESS: OVERWEIGHTED FORM
+WOULD-BET-AGAIN: NO
+WHY: I heavily docked McLean for L14 degradation (6.20 SIERA, 6.5 BB/9) but did not apply equivalent recent-form scrutiny to Strider, assuming his aggregate profile and Atlanta’s 123 wRC+ / elite bullpen would close the game. A 3.5-point lean built on a one-sided recent-form read is unstable.
+SOURCE: Provided L14 and aggregate data
+
+---
+
+GAME: TB @ LAA
+PICK: LEAN TB
+RESULT: LOSS
+PROCESS: UNDERWEIGHTED FORM
+WOULD-BET-AGAIN: NO
+WHY: I cited Aldegheri’s small-sample 5.82 SIERA as a fade signal but accepted McClanahan’s “proven front-line” label on aggregate reputation alone without checking his own L14 or health data. The 3.5-point edge assumed McClanahan was currently at peak form; without recent confirmation, that was speculative.
+SOURCE: Provided aggregate data
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+NONE
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: L14 SIERA and xFIP for every projected starter (not only those with visible red flags)
+WHICH GAME(S): MIA@PIT, TB@LAA, ATL@NYM, SEA@WAS
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Would have either dissolved the PIT/TB/ATL leans (if the favored pitcher was also degraded or on a limit) or strengthened the SEA case (if Miller’s L14 was cleaner than his aggregate 4.37).
+
+TYPE: STAT
+ITEM: 14-day rolling bullpen SIERA/xFIP to replace or supplement full-season ERA
+WHICH GAME(S): SD@BAL, DET@CLE, STL@MIN, CHC@SF
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Several passes cited bullpen parity or weakness using stale full-season figures; recent bullpen form might have revealed hidden edges that full-season ERA masked.
+
+TYPE: DATA
+ITEM: Lineup-adjusted wRC+ vs specific starter handedness (accounting for injury returns)
+WHICH GAME(S): TEX@BOS, LAD@CHW
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Boston’s 86 wRC+ vs RHP and Los Angeles’s platoon edge vs lefties may have been stale; knowing whether key bats had returned would clarify whether those offense splits were actionable or illusory.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Eliminate sub-4-point “leans” entirely when the edge is driven primarily by an asymmetric starter read (e.g., one starter has small sample, extreme L14 split, or the other is being valued on reputation without recent confirmation). Require either a 4+ point threshold for any recommendation, or convergence of both aggregate and L14 metrics plus a secondary team-level edge (bullpen + offense + park) before issuing a directional lean.
+
+WHAT IN MY METHOD COULD BE SHARPER: The lean mechanic issued three soft opinions today, all below the betting floor and all relying on volatile or unconfirmed pitching assumptions. Removing these leans would have produced a cleaner slate with zero unmonetized directional risk.
+
+EVIDENCE FROM TODAY: PIT lean (3.0 pts): Ashcraft 3.26 SIERA vs Alcantara 4.36 with no sample-size confirmation; ATL lean (3.5 pts): Strider aggregate profile over McLean 6.20 L14 SIERA / 6.5 BB/9; TB lean (3.5 pts): Aldegheri 5.82 SIERA vs McClanahan “proven front-line” status without L14 verification. None met the 4-point gate with confirmed recent form on both sides.
+
+CONFIDENCE: MEDIUM

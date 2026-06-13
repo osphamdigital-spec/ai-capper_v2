@@ -1,6 +1,6 @@
 ═══════════════════════════════════════════════════════
 MLB SLATE — Thursday, June 11 2026 (US Eastern Time)
-8 games | Prompt built at 4:58 AM ET | Source: TheOddsAPI median of 9 books
+8 games | Prompt built at 11:55 AM ET | Source: TheOddsAPI median of 9 books
 ═══════════════════════════════════════════════════════
 
 GAME 1: AZ @ MIA  1:11 PM ET  loanDepot park, Miami, FL
@@ -21,32 +21,26 @@ STARTING PITCHERS
   Away: Merrill Kelly (RHP) — 5-4 | ERA 5.71 FIP 6.12 xERA 7.26 | K/9 5.7 HH% 44.1 Brl% 16.4 | 58.1 IP
        AGG: xFIP 4.17 SIERA 4.28 K-BB%:13.0% | Stf+: 91 242.1IP
        L14: xFIP 5.94 SIERA 5.52 K/9:5.2 BB/9:4.3 10.1IP
-       L3: 7.0/2/4/2 | 5.1/2/2/2 | 5.0/7/4/3 L3ERA:5.71  (IP/ER/K/BB)
+       L3: 7.0/2/4/2 | 5.1/2/2/2 | 5.0/7/4/3  (IP/ER/K/BB)
   Home: Tyler Phillips (RHP) — 0-1 | ERA 2.08 FIP 3.63 xERA 3.58 | K/9 7.5 HH% 34.8 Brl% 6.3 | 43.1 IP
        AGG: xFIP 3.88 SIERA 4.27 K-BB%:10.6% | Stf+: 93 11.1IP
        L14: xFIP 3.78 SIERA 4.24 K/9:3.6 BB/9:1.8 5.0IP
-       L2: 3.2/0/4/2 | 5.0/3/2/1 L2ERA:3.12  (IP/ER/K/BB)
+       L2: 3.2/0/4/2 | 5.0/3/2/1  (IP/ER/K/BB)
 
 LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 
 BULLPEN -- AZ
   Closer: Paul Sewald (R) -- 3.47 ERA, 29.5% K%, 15 SV
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat - | Fri -
   Setup: Kevin Ginkel (R) -- 2.81 ERA, 29.4% K%, 4 HLD
-    Usage last 6: Wed - | Tue 8p | Mon - | Sun 16p | Sat - | Fri -
   Setup: Juan Morillo (R) -- 2.42 ERA, 31.2% K%, 1 SV, 8 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat 10p | Fri -
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 2 of 3 fresh
   Bullpen ERA (season avg): 3.10
 
 BULLPEN -- MIA
   Closer: Pete Fairbanks (R) -- 7.00 ERA, 30.1% K%, 7 SV, 2 HLD
-    Usage last 6: Wed - | Tue 24p(W) | Mon - | Sun - | Sat 39p(H) | Fri -
   Setup: Anthony Bender (R) -- 2.96 ERA, 28.7% K%, 2 SV, 6 HLD
-    Usage last 6: Wed - | Tue 11p(H) | Mon - | Sun 24p(Sv) | Sat 22p | Fri -
   Setup: Michael Petersen (R) -- 3.42 ERA, 27.5% K%, 1 SV, 8 HLD
-    Usage last 6: Wed - | Tue 26p | Mon - | Sun 17p(H) | Sat 26p | Fri -
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 0 of 3 fresh
   Bullpen ERA (season avg): 4.72
@@ -78,30 +72,25 @@ STARTING PITCHERS
   Away: Zebby Matthews (RHP) — 2-3 | ERA 4.15 FIP 4.52 xERA 3.00 | K/9 7.7 HH% 36.9 Brl% 12.3 | 30.1 IP
        AGG: xFIP 3.91 SIERA 3.87 K-BB%:17.2% | Stf+: 100 109.2IP
        L14: xFIP 5.03 SIERA 5.07 K/9:7.2 BB/9:4.8 11.1IP
-       L3: 6.0/3/6/1 | 4.1/7/7/2 | 7.0/2/2/4 L3ERA:6.23  (IP/ER/K/BB)
+       L3: 6.0/3/6/1 | 4.1/7/7/2 | 7.0/2/2/4  (IP/ER/K/BB)
   Home: Keider Montero (RHP) — 2-4 | ERA 3.95 FIP 4.16 xERA 3.43 | K/9 6.0 HH% 42.6 Brl% 8.7 | 66.0 IP
        AGG: xFIP 4.69 SIERA 4.66 K-BB%:10.4% | Stf+: 96 124.0IP
        L14: xFIP 4.98 SIERA 4.84 K/9:4.1 BB/9:0.8 11.0IP
-       L3: 5.2/4/7/1 | 6.0/0/4/0 | 5.0/4/1/1 L3ERA:4.32  (IP/ER/K/BB)
+       L3: 5.2/4/7/1 | 6.0/0/4/0 | 5.0/4/1/1  (IP/ER/K/BB)
 
 LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 
 BULLPEN -- MIN
   Closer: Yoendrys Gómez (R) -- 3.90 ERA, 22.4% K%, 5 SV, 5 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat 14p | Fri -
   Setup: Anthony Banda (L) -- 4.66 ERA, 21.1% K%, 1 SV, 9 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat - | Fri 14p(H)
   Setup: Travis Adams (R) -- 7.43 ERA, 25.8% K%, 2 SV, 1 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat - | Fri 16p(Sv)
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 3 of 3 fresh
   Bullpen ERA (season avg): 4.87
 
 BULLPEN -- DET
   Closer: Will Vest (R) -- 6.53 ERA, 25.3% K%, 1 SV, 6 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 10p(W) | Sat - | Fri 18p
   Setup: Tyler Holton (L) -- 4.40 ERA, 20.0% K%, 5 HLD
-    Usage last 6: Wed - | Tue 16p | Mon - | Sun 9p | Sat - | Fri 15p(H)
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 0 of 1 fresh
   Bullpen ERA (season avg): 4.61
@@ -132,32 +121,26 @@ STARTING PITCHERS
   Away: Hunter Dobbins (RHP) — 1-0 | ERA 2.77 FIP 3.56 xERA — | K/9 9.7 HH% 57.1 Brl% 23.8 | 13.0 IP  [small sample — treat ERA with caution]
        AGG: xFIP 4.12 SIERA 4.34 K-BB%:10.8% | Stf+: 96 57.1IP
        L14: no data
-       L1: 4.1/3/4/5 L1ERA:6.23  (IP/ER/K/BB)
+       L1: 4.1/3/4/5  (IP/ER/K/BB)
   Home: Christian Scott (RHP) — 2-0 | ERA 2.50 FIP 3.10 xERA 4.23 | K/9 10.2 HH% 31.6 Brl% 3.9 | 36.0 IP
        AGG: xFIP 4.23 SIERA 4.09 K-BB%:14.7% | Stf+: 108 36.0IP
        L14: xFIP 3.94 SIERA 4.00 K/9:9.3 BB/9:3.4 10.2IP
-       L3: 5.2/0/5/2 | 5.0/1/8/2 | 5.2/0/3/2 L3ERA:0.55  (IP/ER/K/BB)
+       L3: 5.2/0/5/2 | 5.0/1/8/2 | 5.2/0/3/2  (IP/ER/K/BB)
 
 LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 
 BULLPEN -- STL
   Closer: Riley O'Brien (R) -- 3.68 ERA, 25.2% K%, 17 SV, 1 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 15p(Sv) | Sat 23p(Sv) | Fri -
   Setup: George Soriano (R) -- 3.08 ERA, 20.9% K%, 2 SV, 9 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 17p(BS) | Sat 13p(W) | Fri -
   Setup: JoJo Romero (L) -- 3.34 ERA, 24.0% K%, 17 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 8p | Sat - | Fri -
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 3 of 3 fresh
   Bullpen ERA (season avg): 3.83
 
 BULLPEN -- NYM
   Closer: Devin Williams (R) -- 5.57 ERA, 35.1% K%, 8 SV
-    Usage last 6: Wed - | Tue - | Mon - | Sun 20p | Sat - | Fri -
   Setup: Luke Weaver (R) -- 2.48 ERA, 23.3% K%, 7 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 18p | Sat - | Fri 7p
   Setup: Brooks Raley (L) -- 1.48 ERA, 28.2% K%, 10 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 14p | Sat - | Fri -
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 3 of 3 fresh
   Bullpen ERA (season avg): 2.95
@@ -188,32 +171,26 @@ STARTING PITCHERS
   Away: Kumar Rocker (RHP) — 2-5 | ERA 3.54 FIP 4.15 xERA 4.62 | K/9 7.2 HH% 42.6 Brl% 7.7 | 61.0 IP
        AGG: xFIP 4.36 SIERA 4.49 K-BB%:10.0% | Stf+: 94 117.2IP
        L14: xFIP 5.30 SIERA 5.41 K/9:5.7 BB/9:3.3 11.0IP
-       L3: 5.0/4/5/2 | 6.0/0/2/3 | 5.0/2/5/1 L3ERA:3.38  (IP/ER/K/BB)
+       L3: 5.0/4/5/2 | 6.0/0/2/3 | 5.0/2/5/1  (IP/ER/K/BB)
   Home: Michael Wacha (RHP) — 4-4 | ERA 3.44 FIP 3.96 xERA 3.95 | K/9 7.4 HH% 38.0 Brl% 7.2 | 81.0 IP
        AGG: xFIP 4.46 SIERA 4.50 K-BB%:11.7% | Stf+: 96 253.2IP
        L14: xFIP 4.82 SIERA 5.15 K/9:5.9 BB/9:3.4 10.2IP
-       L3: 7.0/2/5/2 | 5.0/6/5/4 | 5.2/4/2/0 L3ERA:6.11  (IP/ER/K/BB)
+       L3: 7.0/2/5/2 | 5.0/6/5/4 | 5.2/4/2/0  (IP/ER/K/BB)
 
 LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 
 BULLPEN -- TEX
   Closer: Jacob Latz (L) -- 1.80 ERA, 27.3% K%, 10 SV, 2 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat - | Fri 35p(Sv)
   Setup: Jakob Junis (R) -- 1.57 ERA, 18.5% K%, 4 SV, 6 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat - | Fri -
   Setup: Cole Winn (R) -- 5.40 ERA, 25.3% K%, 1 SV, 5 HLD
-    Usage last 6: Wed - | Tue 8p | Mon - | Sun - | Sat - | Fri -
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 2 of 3 fresh
   Bullpen ERA (season avg): 3.25
 
 BULLPEN -- KC
   Closer: Alex Lange (R) -- 4.06 ERA, 25.2% K%, 4 SV, 1 HLD
-    Usage last 6: Wed - | Tue 19p(Sv) | Mon - | Sun - | Sat 28p(Sv) | Fri -
   Setup: Lucas Erceg (R) -- 6.29 ERA, 19.0% K%, 12 SV, 2 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 15p(Sv) | Sat 15p | Fri -
   Setup: Daniel Lynch IV (L) -- 1.93 ERA, 25.4% K%, 1 SV, 8 HLD
-    Usage last 6: Wed - | Tue 13p(H) | Mon - | Sun - | Sat 12p | Fri -
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 1 of 4 fresh
   Bullpen ERA (season avg): 22.25
@@ -244,32 +221,26 @@ STARTING PITCHERS
   Away: Edward Cabrera (RHP) — 3-3 | ERA 4.99 FIP 4.89 xERA 4.47 | K/9 8.3 HH% 39.2 Brl% 12.0 | 57.2 IP
        AGG: xFIP 3.71 SIERA 3.84 K-BB%:16.2% | Stf+: 101 195.1IP
        L14: xFIP 2.63 SIERA 2.76 K/9:14.7 BB/9:2.5 3.2IP
-       L3: 4.2/3/2/3 | 3.0/1/2/2 | 3.2/8/6/1 L3ERA:9.53  (IP/ER/K/BB)
+       L3: 4.2/3/2/3 | 3.0/1/2/2 | 3.2/8/6/1  (IP/ER/K/BB)
   Home: Ryan Feltner (RHP) — 2-1 | ERA 4.22 FIP 4.72 xERA 6.32 | K/9 6.5 HH% 46.9 Brl% 13.6 | 32.0 IP
        AGG: xFIP 4.44 SIERA 4.57 K-BB%:9.8% | Stf+: 91 62.1IP
        L14: xFIP 4.31 SIERA 4.55 K/9:4.5 BB/9:1.5 12.0IP
-       L3: 2.0/2/3/1 | 6.0/0/2/0 | 6.0/1/4/2 L3ERA:1.93  (IP/ER/K/BB)
+       L3: 2.0/2/3/1 | 6.0/0/2/0 | 6.0/1/4/2  (IP/ER/K/BB)
 
 LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 
 BULLPEN -- CHC
   Closer: Daniel Palencia (R) -- 2.87 ERA, 23.9% K%, 3 SV
-    Usage last 6: Wed - | Tue - | Mon - | Sun 16p | Sat 19p | Fri -
   Setup: Jacob Webb (R) -- 2.76 ERA, 27.8% K%, 1 SV, 4 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 7p | Sat 32p | Fri -
   Setup: Caleb Thielbar (L) -- 3.86 ERA, 27.1% K%, 2 SV, 3 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat 11p | Fri 13p
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 3 of 3 fresh
   Bullpen ERA (season avg): 5.58
 
 BULLPEN -- COL
   Closer: Antonio Senzatela (R) -- 2.11 ERA, 21.5% K%, 3 SV, 2 HLD
-    Usage last 6: Wed - | Tue 22p | Mon - | Sun - | Sat - | Fri 39p(BS)
   Setup: Juan Mejia (R) -- 6.23 ERA, 24.5% K%, 3 SV, 4 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat 19p | Fri 22p(L)
   Setup: Seth Halvorsen (R) -- 2.40 ERA, 20.6% K%, 2 HLD
-    Usage last 6: Wed - | Tue 14p | Mon - | Sun - | Sat - | Fri 13p
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 1 of 3 fresh
   Bullpen ERA (season avg): 5.78
@@ -302,32 +273,26 @@ STARTING PITCHERS
   Away: Justin Wrobleski (LHP) — 7-2 | ERA 2.62 FIP 3.27 xERA 3.84 | K/9 5.8 HH% 41.2 Brl% 7.2 | 68.2 IP
        AGG: xFIP 4.52 SIERA 4.59 K-BB%:10.4% | Stf+: 95 75.2IP
        L14: xFIP 2.33 SIERA 2.56 K/9:9.0 BB/9:0.0 13.0IP
-       L3: 5.0/5/4/2 | 7.0/1/9/0 | 6.0/0/4/0 L3ERA:3.00  (IP/ER/K/BB)
+       L3: 5.0/5/4/2 | 7.0/1/9/0 | 6.0/0/4/0  (IP/ER/K/BB)
   Home: Mitch Keller (RHP) — 5-3 | ERA 4.81 FIP 3.59 xERA 4.35 | K/9 6.8 HH% 38.8 Brl% 5.8 | 73.0 IP
        AGG: xFIP 4.18 SIERA 4.30 K-BB%:12.4% | Stf+: 94 249.1IP
        L14: xFIP 4.77 SIERA 4.51 K/9:9.3 BB/9:4.2 8.2IP
-       L3: 6.0/1/5/3 | 4.0/7/5/1 | 4.2/6/4/3 L3ERA:8.59  (IP/ER/K/BB)
+       L3: 6.0/1/5/3 | 4.0/7/5/1 | 4.2/6/4/3  (IP/ER/K/BB)
 
 LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 
 BULLPEN -- LAD
   Closer: Tanner Scott (L) -- 2.60 ERA, 30.8% K%, 6 SV, 5 HLD
-    Usage last 6: Wed - | Tue 17p | Mon - | Sun - | Sat - | Fri 12p
   Setup: Will Klein (R) -- 2.33 ERA, 27.0% K%, 1 SV, 8 HLD
-    Usage last 6: Wed - | Tue 21p(W) | Mon - | Sun - | Sat - | Fri -
   Setup: Alex Vesia (L) -- 2.86 ERA, 33.3% K%, 2 SV, 9 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 31p | Sat - | Fri -
   Taxed (30+ pitches last 2 days): Blake Treinen
   High-leverage arms available: 1 of 3 fresh
   Bullpen ERA (season avg): 4.38
 
 BULLPEN -- PIT
   Closer: Gregory Soto (L) -- 3.38 ERA, 29.3% K%, 9 SV, 6 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat - | Fri -
   Setup: Dennis Santana (R) -- 5.00 ERA, 17.7% K%, 2 SV, 4 HLD
-    Usage last 6: Wed - | Tue 31p | Mon - | Sun - | Sat - | Fri 7p
   Setup: Evan Sisk (L) -- 1.27 ERA, 31.3% K%, 3 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 26p(BS) | Sat - | Fri 28p
   Taxed (30+ pitches last 2 days): Dennis Santana, Brandan Bidois
   High-leverage arms available: 2 of 3 fresh
   Bullpen ERA (season avg): 4.38
@@ -358,30 +323,25 @@ STARTING PITCHERS
   Away: Bryan Woo (RHP) — 5-4 | ERA 3.74 FIP 2.96 xERA 2.91 | K/9 8.8 HH% 43.6 Brl% 6.7 | 77.0 IP
        AGG: xFIP 3.43 SIERA 3.35 K-BB%:21.5% | Stf+: 110 263.2IP
        L14: xFIP 1.79 SIERA 2.04 K/9:10.8 BB/9:0.0 13.1IP
-       L3: 4.2/4/4/2 | 7.0/0/9/0 | 6.1/5/7/0 L3ERA:4.50  (IP/ER/K/BB)
+       L3: 4.2/4/4/2 | 7.0/0/9/0 | 6.1/5/7/0  (IP/ER/K/BB)
   Home: Kyle Bradish (RHP) — 3-7 | ERA 3.89 FIP 4.24 xERA 4.01 | K/9 8.8 HH% 37.4 Brl% 11.0 | 69.1 IP
        AGG: xFIP 3.68 SIERA 3.85 K-BB%:16.1% | Stf+: 101 101.1IP
        L14: xFIP 4.52 SIERA 5.04 K/9:5.7 BB/9:4.9 11.0IP
-       L3: 6.0/1/3/2 | 7.0/0/4/3 | 4.0/5/3/3 L3ERA:3.18  (IP/ER/K/BB)
+       L3: 6.0/1/3/2 | 7.0/0/4/3 | 4.0/5/3/3  (IP/ER/K/BB)
 
 LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 
 BULLPEN -- SEA
   Closer: Andrés Muñoz (R) -- 5.18 ERA, 34.3% K%, 10 SV
-    Usage last 6: Wed - | Tue - | Mon 20p(Sv) | Sun 19p(L,B) | Sat - | Fri -
   Setup: José A. Ferrer (L) -- 2.10 ERA, 19.7% K%, 3 SV, 8 HLD
-    Usage last 6: Wed - | Tue 43p(W,B) | Mon - | Sun 18p(H) | Sat 15p | Fri -
   Taxed (30+ pitches last 2 days): José A. Ferrer
   High-leverage arms available: 0 of 2 fresh
   Bullpen ERA (season avg): 2.94
 
 BULLPEN -- BAL
   Closer: Rico Garcia (R) -- 1.29 ERA, 31.0% K%, 4 SV, 8 HLD
-    Usage last 6: Wed - | Tue 15p(L) | Mon - | Sun 13p | Sat - | Fri -
   Setup: Andrew Kittredge (R) -- 7.24 ERA, 23.1% K%, 2 HLD
-    Usage last 6: Wed - | Tue 19p | Mon - | Sun - | Sat - | Fri -
   Setup: Yennier Cano (R) -- 2.38 ERA, 21.2% K%, 4 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun 10p | Sat - | Fri 16p
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 1 of 3 fresh
   Bullpen ERA (season avg): 6.06
@@ -414,7 +374,7 @@ STARTING PITCHERS
   Away: Martín Pérez (LHP) — 4-3 | ERA 3.02 FIP 3.98 xERA 4.32 | K/9 7.5 HH% 42.0 Brl% 7.7 | 56.2 IP
        AGG: xFIP 4.71 SIERA 4.77 K-BB%:8.9% | Stf+: 86 100.0IP
        L14: xFIP 4.51 SIERA 5.08 K/9:6.3 BB/9:4.5 10.0IP
-       L3: 5.2/1/2/2 | 5.0/2/2/3 | 5.0/3/5/2 L3ERA:3.45  (IP/ER/K/BB)
+       L3: 5.2/1/2/2 | 5.0/2/2/3 | 5.0/3/5/2  (IP/ER/K/BB)
   Home: TBD
   NOTE: TBD starter -- pass on this game unless starter confirmed before your submission. Do not estimate edge without confirmed pitcher data.
 
@@ -422,20 +382,15 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 
 BULLPEN -- ATL
   Closer: Raisel Iglesias (R) -- 1.21 ERA, 30.6% K%, 13 SV
-    Usage last 6: Wed - | Tue 24p(L) | Mon - | Sun - | Sat 20p(Sv) | Fri 20p(Sv)
   Setup: Robert Suarez (R) -- 0.61 ERA, 22.5% K%, 4 SV, 10 HLD
-    Usage last 6: Wed - | Tue 7p | Mon - | Sun - | Sat - | Fri 10p(H)
   Setup: Dylan Lee (L) -- 1.16 ERA, 34.8% K%, 13 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat 20p(H) | Fri 12p(H)
   Taxed (30+ pitches last 2 days): Dylan Dodd
   High-leverage arms available: 1 of 3 fresh
   Bullpen ERA (season avg): 2.04
 
 BULLPEN -- CHW
   Closer: Seranthony Domínguez (R) -- 3.60 ERA, 27.6% K%, 11 SV, 2 HLD
-    Usage last 6: Wed - | Tue 13p | Mon - | Sun - | Sat - | Fri 11p
   Setup: Sean Newcomb (L) -- 2.29 ERA, 22.9% K%, 1 SV, 5 HLD
-    Usage last 6: Wed - | Tue - | Mon - | Sun - | Sat 29p(H) | Fri -
   Taxed (30+ pitches last 2 days): none
   High-leverage arms available: 1 of 1 fresh
   Bullpen ERA (season avg): 5.33

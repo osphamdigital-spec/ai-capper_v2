@@ -1,0 +1,548 @@
+{
+  "date": "2026-06-12",
+  "sport": "mlb",
+  "graded_at": "2026-06-13T05:31:49Z",
+  "best_bet_skips": 5,
+  "models": {
+    "chatgpt": {
+      "model": "chatgpt",
+      "bets": 3,
+      "bets_placed": 3,
+      "leans": 5,
+      "passes": 7,
+      "wins": 1,
+      "losses": 2,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 5.0,
+      "units_net": -3.2857,
+      "win_rate": 0.3333,
+      "roi": -0.6571,
+      "avg_clv": 5.0,
+      "positive_clv_pct": 1.0,
+      "tiers": {
+        "1u": {
+          "wins": 1,
+          "losses": 1,
+          "pushes": 0,
+          "units_risked": 2.0,
+          "units_returned": 1.7143,
+          "roi_pct": -14.28
+        },
+        "3u": {
+          "wins": 0,
+          "losses": 1,
+          "pushes": 0,
+          "units_risked": 3.0,
+          "units_returned": 0.0,
+          "roi_pct": -100.0
+        },
+        "best_bet": {
+          "wins": 0,
+          "losses": 1,
+          "pushes": 0,
+          "units_risked": 3.0,
+          "units_returned": 0.0,
+          "roi_pct": -100.0,
+          "skips": 0
+        }
+      },
+      "overall": {
+        "wins": 1,
+        "losses": 2,
+        "pushes": 0,
+        "units_risked": 5.0,
+        "units_returned": 1.7143,
+        "roi_pct": -65.71
+      },
+      "best_bet_raw": "ATL ML in ATL @ NYM",
+      "best_bet_skip": false,
+      "best_bet_wins": 0,
+      "best_bet_losses": 1,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 3.0,
+      "best_bet_units_result": -3.0,
+      "best_bet_roi": -1.0
+    },
+    "deepseek": {
+      "model": "deepseek",
+      "bets": 3,
+      "bets_placed": 3,
+      "leans": 0,
+      "passes": 12,
+      "wins": 0,
+      "losses": 3,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 9.0,
+      "units_net": -9.0,
+      "win_rate": 0.0,
+      "roi": -1.0,
+      "avg_clv": 4.3,
+      "positive_clv_pct": 1.0,
+      "tiers": {
+        "1u": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null
+        },
+        "3u": {
+          "wins": 0,
+          "losses": 3,
+          "pushes": 0,
+          "units_risked": 9.0,
+          "units_returned": 0.0,
+          "roi_pct": -100.0
+        },
+        "best_bet": {
+          "wins": 0,
+          "losses": 1,
+          "pushes": 0,
+          "units_risked": 3.0,
+          "units_returned": 0.0,
+          "roi_pct": -100.0,
+          "skips": 0
+        }
+      },
+      "overall": {
+        "wins": 0,
+        "losses": 3,
+        "pushes": 0,
+        "units_risked": 9.0,
+        "units_returned": 0.0,
+        "roi_pct": -100.0
+      },
+      "best_bet_raw": "ATL ML (+110) \u2014 3 units",
+      "best_bet_skip": false,
+      "best_bet_wins": 0,
+      "best_bet_losses": 1,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 3.0,
+      "best_bet_units_result": -3.0,
+      "best_bet_roi": -1.0
+    },
+    "fable": {
+      "model": "fable",
+      "bets": 2,
+      "bets_placed": 2,
+      "leans": 4,
+      "passes": 9,
+      "wins": 1,
+      "losses": 1,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 2.0,
+      "units_net": -0.2366,
+      "win_rate": 0.5,
+      "roi": -0.1183,
+      "avg_clv": 9.0,
+      "positive_clv_pct": 1.0,
+      "tiers": {
+        "1u": {
+          "wins": 1,
+          "losses": 1,
+          "pushes": 0,
+          "units_risked": 2.0,
+          "units_returned": 1.7634,
+          "roi_pct": -11.83
+        },
+        "3u": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null
+        },
+        "best_bet": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null,
+          "skips": 1
+        }
+      },
+      "overall": {
+        "wins": 1,
+        "losses": 1,
+        "pushes": 0,
+        "units_risked": 2.0,
+        "units_returned": 1.7634,
+        "roi_pct": -11.83
+      },
+      "best_bet_raw": "",
+      "best_bet_skip": true,
+      "best_bet_wins": 0,
+      "best_bet_losses": 0,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 0.0,
+      "best_bet_units_result": 0.0,
+      "best_bet_roi": null
+    },
+    "gemini": {
+      "model": "gemini",
+      "bets": 3,
+      "bets_placed": 3,
+      "leans": 4,
+      "passes": 8,
+      "wins": 1,
+      "losses": 2,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 9.0,
+      "units_net": -3.2727,
+      "win_rate": 0.3333,
+      "roi": -0.3636,
+      "avg_clv": 4.0,
+      "positive_clv_pct": 1.0,
+      "tiers": {
+        "1u": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null
+        },
+        "3u": {
+          "wins": 1,
+          "losses": 2,
+          "pushes": 0,
+          "units_risked": 9.0,
+          "units_returned": 5.7273,
+          "roi_pct": -36.36
+        },
+        "best_bet": {
+          "wins": 1,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 3.0,
+          "units_returned": 5.7273,
+          "roi_pct": 90.91,
+          "skips": 0
+        }
+      },
+      "overall": {
+        "wins": 1,
+        "losses": 2,
+        "pushes": 0,
+        "units_risked": 9.0,
+        "units_returned": 5.7273,
+        "roi_pct": -36.36
+      },
+      "best_bet_raw": "HOU ML in HOU @ KC",
+      "best_bet_skip": false,
+      "best_bet_wins": 1,
+      "best_bet_losses": 0,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 3.0,
+      "best_bet_units_result": 2.7273,
+      "best_bet_roi": 0.9091
+    },
+    "grok": {
+      "model": "grok",
+      "bets": 3,
+      "bets_placed": 3,
+      "leans": 0,
+      "passes": 12,
+      "wins": 1,
+      "losses": 2,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 3.0,
+      "units_net": -1.5781,
+      "win_rate": 0.3333,
+      "roi": -0.526,
+      "avg_clv": 7.0,
+      "positive_clv_pct": 1.0,
+      "tiers": {
+        "1u": {
+          "wins": 1,
+          "losses": 2,
+          "pushes": 0,
+          "units_risked": 3.0,
+          "units_returned": 1.4219,
+          "roi_pct": -52.6
+        },
+        "3u": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null
+        },
+        "best_bet": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null,
+          "skips": 1
+        }
+      },
+      "overall": {
+        "wins": 1,
+        "losses": 2,
+        "pushes": 0,
+        "units_risked": 3.0,
+        "units_returned": 1.4219,
+        "roi_pct": -52.6
+      },
+      "best_bet_raw": "",
+      "best_bet_skip": true,
+      "best_bet_wins": 0,
+      "best_bet_losses": 0,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 0.0,
+      "best_bet_units_result": 0.0,
+      "best_bet_roi": null
+    },
+    "kimi": {
+      "model": "kimi",
+      "bets": 1,
+      "bets_placed": 1,
+      "leans": 3,
+      "passes": 11,
+      "wins": 1,
+      "losses": 0,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 1.0,
+      "units_net": 0.4219,
+      "win_rate": 1.0,
+      "roi": 0.4219,
+      "avg_clv": 8.0,
+      "positive_clv_pct": 1.0,
+      "tiers": {
+        "1u": {
+          "wins": 1,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 1.0,
+          "units_returned": 1.4219,
+          "roi_pct": 42.19
+        },
+        "3u": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null
+        },
+        "best_bet": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null,
+          "skips": 1
+        }
+      },
+      "overall": {
+        "wins": 1,
+        "losses": 0,
+        "pushes": 0,
+        "units_risked": 1.0,
+        "units_returned": 1.4219,
+        "roi_pct": 42.19
+      },
+      "best_bet_raw": "",
+      "best_bet_skip": true,
+      "best_bet_wins": 0,
+      "best_bet_losses": 0,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 0.0,
+      "best_bet_units_result": 0.0,
+      "best_bet_roi": null
+    },
+    "opus": {
+      "model": "opus",
+      "bets": 4,
+      "bets_placed": 4,
+      "leans": 0,
+      "passes": 11,
+      "wins": 2,
+      "losses": 2,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 4.0,
+      "units_net": -0.15,
+      "win_rate": 0.5,
+      "roi": -0.0375,
+      "avg_clv": 0.0,
+      "positive_clv_pct": 0.0,
+      "tiers": {
+        "1u": {
+          "wins": 2,
+          "losses": 2,
+          "pushes": 0,
+          "units_risked": 4.0,
+          "units_returned": 3.85,
+          "roi_pct": -3.75
+        },
+        "3u": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null
+        },
+        "best_bet": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null,
+          "skips": 1
+        }
+      },
+      "overall": {
+        "wins": 2,
+        "losses": 2,
+        "pushes": 0,
+        "units_risked": 4.0,
+        "units_returned": 3.85,
+        "roi_pct": -3.75
+      },
+      "best_bet_raw": "",
+      "best_bet_skip": true,
+      "best_bet_wins": 0,
+      "best_bet_losses": 0,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 0.0,
+      "best_bet_units_result": 0.0,
+      "best_bet_roi": null
+    },
+    "qwen": {
+      "model": "qwen",
+      "bets": 1,
+      "bets_placed": 1,
+      "leans": 0,
+      "passes": 14,
+      "wins": 0,
+      "losses": 1,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 1.0,
+      "units_net": -1.0,
+      "win_rate": 0.0,
+      "roi": -1.0,
+      "avg_clv": 3.0,
+      "positive_clv_pct": 1.0,
+      "tiers": {
+        "1u": {
+          "wins": 0,
+          "losses": 1,
+          "pushes": 0,
+          "units_risked": 1.0,
+          "units_returned": 0.0,
+          "roi_pct": -100.0
+        },
+        "3u": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null
+        },
+        "best_bet": {
+          "wins": 0,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 0.0,
+          "units_returned": 0.0,
+          "roi_pct": null,
+          "skips": 1
+        }
+      },
+      "overall": {
+        "wins": 0,
+        "losses": 1,
+        "pushes": 0,
+        "units_risked": 1.0,
+        "units_returned": 0.0,
+        "roi_pct": -100.0
+      },
+      "best_bet_raw": "",
+      "best_bet_skip": true,
+      "best_bet_wins": 0,
+      "best_bet_losses": 0,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 0.0,
+      "best_bet_units_result": 0.0,
+      "best_bet_roi": null
+    },
+    "sonnet": {
+      "model": "sonnet",
+      "bets": 8,
+      "bets_placed": 7,
+      "leans": 0,
+      "passes": 8,
+      "wins": 3,
+      "losses": 5,
+      "pushes": 0,
+      "voids": 0,
+      "units_risked": 12.0,
+      "units_net": -3.0163,
+      "win_rate": 0.375,
+      "roi": -0.2514,
+      "avg_clv": 0.4,
+      "positive_clv_pct": 0.1429,
+      "tiers": {
+        "1u": {
+          "wins": 2,
+          "losses": 3,
+          "pushes": 0,
+          "units_risked": 5.0,
+          "units_returned": 3.4196,
+          "roi_pct": -31.61
+        },
+        "3u": {
+          "wins": 1,
+          "losses": 1,
+          "pushes": 0,
+          "units_risked": 6.0,
+          "units_returned": 5.5641,
+          "roi_pct": -7.27
+        },
+        "best_bet": {
+          "wins": 1,
+          "losses": 0,
+          "pushes": 0,
+          "units_risked": 3.0,
+          "units_returned": 5.5641,
+          "roi_pct": 85.47,
+          "skips": 0
+        }
+      },
+      "overall": {
+        "wins": 3,
+        "losses": 5,
+        "pushes": 0,
+        "units_risked": 12.0,
+        "units_returned": 8.9837,
+        "roi_pct": -25.14
+      },
+      "best_bet_raw": "MIL RL -117 (PHI @ MIL) \u2014 3 units",
+      "best_bet_skip": false,
+      "best_bet_wins": 1,
+      "best_bet_losses": 0,
+      "best_bet_pushes": 0,
+      "best_bet_units_wagered": 3.0,
+      "best_bet_units_result": 2.5641,
+      "best_bet_roi": 0.8547
+    }
+  }
+}

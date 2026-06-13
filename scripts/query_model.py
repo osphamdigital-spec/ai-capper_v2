@@ -95,6 +95,16 @@ DEFAULT_DEEPSEEK_MODEL  = "deepseek-v4-pro"
 DEFAULT_KIMI_MODEL      = "kimi-k2.6"
 DEFAULT_QWEN_MODEL      = "qwen3.7-max"
 DEFAULT_GEMINI_MODEL    = "gemini-3.5-flash"
+DEFAULT_OPUS_MODEL      = "claude-opus-4-8"
+DEFAULT_SONNET_MODEL    = "claude-sonnet-4-6"
+DEFAULT_FABLE_MODEL     = "claude-fable-5"
+
+# Anthropic models share one key and use the native Anthropic SDK (not openai-compat)
+# so prompt caching can be enabled via cache_control on the system block.
+ANTHROPIC_MODELS = ("opus", "sonnet", "fable")
+
+ANTHROPIC_MAX_TOKENS_PICKS      = 16000
+ANTHROPIC_MAX_TOKENS_POSTMORTEM = 8000
 
 # Per-model output token budgets for picks mode.
 # DeepSeek splits the budget between reasoning tokens and response tokens --
@@ -160,6 +170,10 @@ def _check_dependencies():
     upfront for all models to keep the error surface predictable.
     """
     missing = []
+    try:
+        import anthropic  # noqa: F401
+    except ImportError:
+        missing.append("anthropic")
     try:
         import openai  # noqa: F401
     except ImportError:
@@ -691,6 +705,67 @@ def _call_gemini(
     return text, input_tokens, output_tokens, reasoning_tokens
 
 
+def _call_anthropic(
+    system_text: str,
+    prompt_text: str,
+    api_key: str,
+    model_id: str,
+    max_tokens: int = ANTHROPIC_MAX_TOKENS_PICKS,
+) -> tuple[str, int, int, int | None]:
+    """
+    Send messages to the Anthropic API using the native SDK with prompt caching.
+    The system prompt is marked ephemeral so the API caches it across calls --
+    reducing cost and latency for repeat queries on the same slate.
+
+    Returns (response_text, input_tokens, output_tokens, None).
+    Reasoning tokens are not exposed separately by the Anthropic API.
+    """
+    import anthropic as ant
+
+    client = ant.Anthropic(api_key=api_key)
+
+    try:
+        response = client.messages.create(
+            model      = model_id,
+            max_tokens = max_tokens,
+            system     = [
+                {
+                    "type": "text",
+                    "text": system_text,
+                    "cache_control": {"type": "ephemeral"},
+                }
+            ],
+            messages   = [{"role": "user", "content": prompt_text}],
+        )
+    except ant.AuthenticationError as e:
+        print(f"ERROR: Anthropic API authentication failed -- check CLAUDE_API_KEY in .env")
+        print(f"       Detail: {e}")
+        sys.exit(1)
+    except ant.RateLimitError as e:
+        print(f"ERROR: Rate limit hit -- wait and retry")
+        print(f"       Detail: {e}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"ERROR: Anthropic API error -- {e}")
+        sys.exit(1)
+
+    # Fable 5 (and extended-thinking models) may return a ThinkingBlock before
+    # the TextBlock. Find the first block that has a .text attribute.
+    text = ""
+    for block in response.content:
+        if hasattr(block, "text"):
+            text = block.text
+            break
+    if not text:
+        print("ERROR: Anthropic returned empty content.")
+        sys.exit(1)
+
+    input_tokens  = response.usage.input_tokens
+    output_tokens = response.usage.output_tokens
+
+    return text, input_tokens, output_tokens, None
+
+
 def _resolve_model_config(model: str) -> tuple[str, str, str]:
     """
     Return (api_key, model_id, display_label) for the given model name.
@@ -744,8 +819,23 @@ def _resolve_model_config(model: str) -> tuple[str, str, str]:
             print("ERROR: GEMINI_API_KEY is not set.")
             print("       Add it to .env: GEMINI_API_KEY=your_key_here")
             sys.exit(1)
+    elif model in ANTHROPIC_MODELS:
+        api_key = os.environ.get("CLAUDE_API_KEY", "")
+        if model == "opus":
+            model_id = os.environ.get("OPUS_MODEL", DEFAULT_OPUS_MODEL)
+            label    = f"Claude Opus ({model_id})"
+        elif model == "sonnet":
+            model_id = os.environ.get("SONNET_MODEL", DEFAULT_SONNET_MODEL)
+            label    = f"Claude Sonnet ({model_id})"
+        else:  # fable
+            model_id = os.environ.get("FABLE_MODEL", DEFAULT_FABLE_MODEL)
+            label    = f"Claude Fable ({model_id})"
+        if not api_key:
+            print("ERROR: CLAUDE_API_KEY is not set.")
+            print("       Add it to .env: CLAUDE_API_KEY=your_key_here")
+            sys.exit(1)
     else:
-        print(f"ERROR: Unknown model '{model}'. Supported: grok, chatgpt, deepseek, kimi, qwen, gemini")
+        print(f"ERROR: Unknown model '{model}'. Supported: grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet, fable")
         sys.exit(1)
 
     return api_key, model_id, label
@@ -759,9 +849,14 @@ def _call_api(
     reasoning_effort: str,
     web_search: bool,
     max_tokens: int = MAX_OUTPUT_TOKENS,
+    system_text: str = "",
+    prompt_text: str = "",
 ) -> tuple[str, int, int, int | None]:
     """Dispatch to the correct API caller for the given model name."""
-    if model == "grok":
+    if model in ANTHROPIC_MODELS:
+        # Native Anthropic SDK with prompt caching; ignores input_messages format
+        return _call_anthropic(system_text, prompt_text, api_key, model_id, max_tokens)
+    elif model == "grok":
         return _call_grok(input_messages, api_key, model_id, reasoning_effort, web_search)
     elif model == "chatgpt":
         return _call_chatgpt(input_messages, api_key, model_id, reasoning_effort, web_search, max_tokens)
@@ -891,7 +986,9 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
     # --- Resolve API credentials ------------------------------------------
     api_key, model_id, display_label = _resolve_model_config(model)
 
-    if model == "grok":
+    if model in ANTHROPIC_MODELS:
+        endpoint = "https://api.anthropic.com"
+    elif model == "grok":
         endpoint = XAI_BASE_URL
     elif model == "deepseek":
         endpoint = DEEPSEEK_BASE_URL
@@ -907,9 +1004,9 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
     print(f"Sending to       : {endpoint}  ...")
 
     # Per-model output token budgets for picks mode.
-    # DeepSeek and Kimi split their budget between reasoning and response tokens --
-    # the base 8000 limit leaves too little room for the response on large slates.
-    if model == "deepseek":
+    if model in ANTHROPIC_MODELS:
+        picks_max_tokens = ANTHROPIC_MAX_TOKENS_PICKS
+    elif model == "deepseek":
         picks_max_tokens = DEEPSEEK_MAX_TOKENS_PICKS
     elif model == "kimi":
         picks_max_tokens = KIMI_MAX_TOKENS_PICKS
@@ -926,6 +1023,7 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
     response_text, input_tokens, output_tokens, reasoning_tokens = _call_api(
         model, input_messages, api_key, model_id, reasoning_effort,
         web_search=True, max_tokens=picks_max_tokens,
+        system_text=system_text, prompt_text=prompt_text,
     )
 
     # --- Token cap warning -----------------------------------------------
@@ -961,10 +1059,11 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
 def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_effort: str):
     """
     Read the post-mortem prompt and the model's original picks, send a review
-    request to the API, and write the response to a per-model file.
+    request to the API, and write the response to two destinations.
     Web search is disabled for post-mortem calls -- results are provided.
 
-    Post-mortem file : picks/{sport}/{date}/post_mortem_{date}.txt  (appended)
+    Per-model file   : picks/{sport}/{date}/{model}_postmortem.txt   (written, primary output)
+    Aggregate file   : picks/{sport}/{date}/post_mortem_{date}.txt   (appended, human-readable)
     Original picks   : picks/{sport}/{date}/{model}_raw.txt          (context only)
     """
     # --- Read post-mortem file --------------------------------------------
@@ -1056,7 +1155,9 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
         return
 
     # --- API call ---------------------------------------------------------
-    if model == "grok":
+    if model in ANTHROPIC_MODELS:
+        endpoint = "https://api.anthropic.com"
+    elif model == "grok":
         endpoint = XAI_BASE_URL
     elif model == "deepseek":
         endpoint = DEEPSEEK_BASE_URL
@@ -1071,7 +1172,9 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
     print(f"Model ID         : {model_id}")
     print(f"Sending to       : {endpoint}  ...")
 
-    if model == "gemini":
+    if model in ANTHROPIC_MODELS:
+        pm_max_tokens = ANTHROPIC_MAX_TOKENS_POSTMORTEM
+    elif model == "gemini":
         pm_max_tokens = GEMINI_MAX_TOKENS_POSTMORTEM
     elif model == "deepseek":
         pm_max_tokens = DEEPSEEK_MAX_TOKENS_POSTMORTEM
@@ -1079,9 +1182,13 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
         pm_max_tokens = KIMI_MAX_TOKENS_POSTMORTEM
     else:
         pm_max_tokens = MAX_OUTPUT_TOKENS
+    # For Anthropic models the system/prompt split is reconstructed from input_messages
+    pm_system = input_messages[0]["content"] if input_messages else ""
+    pm_user   = "\n\n".join(m["content"] for m in input_messages[1:])
     response_text, input_tokens, output_tokens, reasoning_tokens = _call_api(
         model, input_messages, api_key, model_id, reasoning_effort,
         web_search=False, max_tokens=pm_max_tokens,
+        system_text=pm_system, prompt_text=pm_user,
     )
 
     # --- Token cap warning -----------------------------------------------
@@ -1090,22 +1197,147 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
               f"({pm_max_tokens:,}).")
         print(f"         Response may be truncated. Consider increasing max_tokens.")
 
-    # --- Append to post-mortem file ---------------------------------------
-    # A separator marks where each model's review begins so the file
-    # remains human-readable without post-processing.
+    # --- Write per-model file (primary output) ----------------------------
+    # This is the canonical output for v2. Each model gets its own file so
+    # responses can be reviewed and acted on independently.
+    per_model_path = PROJECT_ROOT / "picks" / sport / date / f"{model}_postmortem.txt"
+    per_model_path.write_text(response_text, encoding="utf-8")
+    print(f"Per-model file  : {per_model_path.relative_to(PROJECT_ROOT)}  ({len(response_text):,} chars)")
+
+    # --- Append to shared aggregate file (human-readable summary) ---------
+    # Separator format is kept so the file remains grep-friendly and human-readable.
+    # Nothing reads this file programmatically -- it is for review only.
     separator = f"\n\n---\n## {model.upper()} RESPONSE\n\n"
     with open(pm_path, "a", encoding="utf-8") as f:
         f.write(separator)
         f.write(response_text)
-
-    appended_chars = len(separator) + len(response_text)
-    print(f"Post-mortem appended: {pm_path.relative_to(PROJECT_ROOT)}  ({appended_chars:,} chars added)")
+    print(f"Aggregate file  : {pm_path.relative_to(PROJECT_ROOT)}  ({len(separator) + len(response_text):,} chars added)")
 
     # --- Summary ----------------------------------------------------------
     print()
     print("Done.")
     _print_usage(display_label, model_id, reasoning_effort,
                  input_tokens, output_tokens, reasoning_tokens, pm_path)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# AUTHORING MODE
+# ─────────────────────────────────────────────────────────────────────────────
+
+# All models are now API-connected. Tuple kept for reference; guard removed.
+MANUAL_PASTE_MODELS = ()
+
+def run_authoring(model: str, dry_run: bool, reasoning_effort: str):
+    """
+    Send the one-time method-authoring query to a model and save its reply as
+    docs/methods/method_{model}_v1.md.
+
+    Input file  : docs/methods/authoring_query_{model}.md
+    Output file : docs/methods/method_{model}_v1.md
+
+    Rules:
+      - If method_{model}_v1.md already exists, refuses to overwrite -- prints
+        a clear message and exits.
+      - The authoring file is self-contained (instruction + Layer B + sample
+        slate) so no daily system prompt is prepended. System message is minimal.
+      - Web search disabled -- authoring is a reflection task, not a research task.
+    """
+
+    # --- Locate authoring query file ----------------------------------------
+    query_path = PROJECT_ROOT / "docs" / "methods" / f"authoring_query_{model}.md"
+    if not query_path.exists():
+        print(f"ERROR: Authoring query file not found: {query_path}")
+        print(f"       Expected: docs/methods/authoring_query_{{model}}.md")
+        sys.exit(1)
+
+    # --- Guard: refuse to overwrite an existing method doc ------------------
+    output_path = PROJECT_ROOT / "docs" / "methods" / f"method_{model}_v1.md"
+    if output_path.exists():
+        print(f"ERROR: Method file already exists: {output_path}")
+        print(f"       Remove or rename it first if you want to regenerate.")
+        print(f"       Never silently overwrite a method doc.")
+        sys.exit(1)
+
+    query_text = query_path.read_text(encoding="utf-8")
+
+    # Authoring system prompt -- must override the output-format block inside
+    # the authoring query, which contains a ## GAME: template that models may
+    # follow literally if the system instruction is too weak.
+    system_text = (
+        "You are an independent professional sports bettor writing a personal "
+        "method document. Your task is to write the method document described "
+        "in the user message. Do NOT produce picks, game blocks, or any "
+        "## GAME: output. Output ONLY the method document text, nothing else."
+    )
+
+    print(f"Mode             : authoring")
+    print(f"Query file       : {query_path}  ({len(query_text):,} chars)")
+    print(f"Output file      : {output_path}")
+    print(f"Reasoning effort : {reasoning_effort}")
+    print(f"Web search       : disabled")
+
+    input_messages = [
+        {"role": "system", "content": system_text},
+        {"role": "user",   "content": query_text},
+    ]
+
+    # --- Dry run exit point -------------------------------------------------
+    if dry_run:
+        print()
+        print("--- DRY RUN: system message ---")
+        print(f"  {system_text}")
+        print()
+        print("--- DRY RUN: user message (first 500 chars) ---")
+        safe    = query_text[:500].encode("ascii", errors="replace").decode("ascii")
+        preview = safe.replace("\n", "\n  ")
+        print(f"  {preview}")
+        if len(query_text) > 500:
+            print(f"  ... [{len(query_text) - 500} more chars]")
+        print()
+        print("No API call made. Output would be written to:")
+        print(f"  {output_path}")
+        return
+
+    # --- Resolve API credentials -------------------------------------------
+    api_key, model_id, display_label = _resolve_model_config(model)
+
+    if model in ANTHROPIC_MODELS:
+        endpoint = "https://api.anthropic.com"
+    elif model == "grok":
+        endpoint = XAI_BASE_URL
+    elif model == "deepseek":
+        endpoint = DEEPSEEK_BASE_URL
+    elif model == "kimi":
+        endpoint = KIMI_BASE_URL
+    elif model == "qwen":
+        endpoint = QWEN_BASE_URL
+    elif model == "gemini":
+        endpoint = GEMINI_BASE_URL
+    else:
+        endpoint = "https://api.openai.com/v1"
+    print(f"Model ID         : {model_id}")
+    print(f"Sending to       : {endpoint}  ...")
+
+    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api(
+        model, input_messages, api_key, model_id, reasoning_effort,
+        web_search=False, max_tokens=MAX_OUTPUT_TOKENS,
+        system_text=system_text, prompt_text=query_text,
+    )
+
+    # --- Save output (never append -- always a fresh write) -----------------
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(response_text, encoding="utf-8")
+
+    written_bytes = output_path.stat().st_size
+    if written_bytes == 0:
+        print(f"ERROR: output file is empty after write -- {output_path}")
+        sys.exit(1)
+    print(f"  File verified: {written_bytes:,} bytes")
+
+    print()
+    print("Done.")
+    _print_usage(display_label, model_id, reasoning_effort,
+                 input_tokens, output_tokens, reasoning_tokens, output_path)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1133,6 +1365,8 @@ if __name__ == "__main__":
                         help="Slate date YYYY-MM-DD (default: today in US Eastern Time)")
     parser.add_argument("--postmortem", action="store_true",
                         help="Run post-mortem review instead of picks query")
+    parser.add_argument("--authoring",  action="store_true",
+                        help="Send one-time method-authoring query; saves reply to docs/methods/method_{model}_v1.md")
     parser.add_argument("--dry-run",    action="store_true",
                         help="Print what would be sent without calling the API")
     parser.add_argument("--reasoning",  default=None,
@@ -1157,13 +1391,24 @@ if __name__ == "__main__":
     else:
         reasoning_effort = "high" if args.model in ("deepseek", "kimi", "qwen") else REASONING_PICKS
 
-    mode_label = "postmortem" if args.postmortem else "picks"
+    if args.authoring:
+        mode_label = "authoring"
+    elif args.postmortem:
+        mode_label = "postmortem"
+    else:
+        mode_label = "picks"
     dry_label  = "  [DRY RUN]" if args.dry_run else ""
     print(f"query_model.py  model={args.model}  sport={args.sport}  date={date}  "
           f"mode={mode_label}  reasoning={reasoning_effort}{dry_label}")
     print()
 
-    if args.postmortem:
+    if args.authoring:
+        run_authoring(
+            model            = args.model,
+            dry_run          = args.dry_run,
+            reasoning_effort = reasoning_effort,
+        )
+    elif args.postmortem:
         run_postmortem(
             model            = args.model,
             sport            = args.sport,

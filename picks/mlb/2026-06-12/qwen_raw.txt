@@ -1,0 +1,168 @@
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ashcraft holds a distinct SIERA advantage over Alcantara, and Pittsburgh's offense has been significantly more productive against right-handed pitching. However, the market has already priced the Pirates efficiently at -136, leaving no actionable gap against my estimated win probability.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Seattle boasts a superior offense and bullpen, but Bryce Miller's underlying SIERA (4.37) doesn't provide a massive advantage over Zack Littell (4.51) to justify laying -140 on the road in a hitter-friendly park. The implied probability of 58.3% closely matches my model's output.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Baltimore's massive advantage in platoon wRC+ and home park factors is offset by a severely compromised bullpen (6.06 ERA) facing San Diego's elite late-inning arms (2.78 ERA). The conflicting signals result in an estimated probability that aligns tightly with the -125 market price.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sonny Gray's strong SIERA (3.47) gives Boston a notable edge on the mound against Jack Leiter (4.30 SIERA), but the Red Sox struggle offensively against right-handed pitching (86 wRC+). The market's -122 price accurately reflects Boston's pitching advantage and offensive limitations.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Jack Flaherty's excellent recent form (2.79 L14 SIERA) and Cleveland's superior bullpen create a balanced matchup against Tanner Bibee and a weaker Detroit relief corps. My model calculates a coin-flip game, making the -120 price for Cleveland completely efficient.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: ATL ML
+PRICE: +110
+UNITS: 1
+EDGE: 5.4 pts
+TOTAL LEAN: No lean
+REASON: Atlanta holds a massive offensive advantage against right-handed pitching (123 wRC+ vs 93 wRC+) and a superior bullpen. While Nolan McLean's season SIERA is strong, his recent 14-day metrics (6.20 SIERA, 6.5 BB/9) indicate severe command issues that Spencer Strider (4.16 L14 SIERA) should exploit, giving the Braves a 53% true win probability against the 47.6% implied market price.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both teams feature elite offenses against left-handed pitching, and the starting pitching matchup features two lefties with comparable underlying metrics despite surface-level ERA differences. With Arizona's moneyline flagged as suspect and Cincinnati at -110, there is no reliable edge to pursue.
+LOOKED UP: Arizona ML price flagged as suspect/stale.
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Toronto's starting pitcher is listed as TBD, which is an automatic pass under my data integrity rules. I cannot accurately model the run environment or calculate a reliable win probability without confirmed starter data.
+LOOKED UP: Toronto starter is TBD.
+
+---
+
+## GAME: LAD @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The Dodgers have a significant advantage in platoon offense and Roki Sasaki has been dominant recently (2.13 L14 SIERA), but the -145 market price implies a 59.2% win probability that my model barely exceeds. The gap falls short of the 4-point minimum threshold required to place a wager.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Jacob Misiorowski is an elite arm (2.80 SIERA, 26.7% K-BB%) facing a struggling Andrew Painter, and Milwaukee's offense is much better against righties. However, laying -237 requires an implied probability of over 70%, and the variance of a single baseball game prevents me from estimating a 75%+ true probability to clear the edge gate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Houston holds advantages in starting pitching SIERA, platoon offense, and bullpen stability, but the -110 price implies a 52.4% win probability. My model estimates Houston closer to 55%, which yields a gap of just 2.6 percentage points, falling below the minimum edge requirement.
+LOOKED UP: Kansas City ML and Total prices flagged as suspect/stale.
+
+---
+
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Joe Ryan's strong underlying metrics (3.28 SIERA) give Minnesota a clear edge on the mound over Kyle Leahy (4.57 SIERA), but the Twins' weaker bullpen and comparable offensive output keep the game closer than the -131 line suggests. The market has efficiently priced Minnesota's advantages.
+LOOKED UP: Total prices flagged as suspect/stale.
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Shane McClanahan is the better pitcher and Tampa Bay has a strong offense against lefties, but Sam Aldegheri is a small-sample starter and the Angels have a significantly better bullpen (3.17 ERA vs 4.45 ERA). The -162 price for the Rays is too steep given the bullpen disparity and starter volatility.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Colorado's starting pitcher is listed as TBD, triggering an automatic pass under my strict data integrity protocols. Furthermore, the extreme variance environment of Sutter Health Park (121 Runs park factor) makes margin-of-victory and moneyline bets highly volatile without a massive edge.
+LOOKED UP: Colorado starter is TBD.
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Landen Roupp has been struggling with severe command issues recently (7.5 BB/9, 5.70 L14 SIERA), but Javier Assad's lack of recent data and poor season SIERA (4.69) neutralizes any pitching advantage. Both bullpens are highly suspect, making this a high-variance coin flip that the -118 market price reflects accurately.
+LOOKED UP: Total prices flagged as suspect/stale.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

@@ -1,0 +1,168 @@
+## GAME: MIA @ PIT
+PICK: LEAN: PIT
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.0 pts
+TOTAL LEAN: No lean
+REASON: Ashcraft owns a full run advantage in SIERA over Alcantara (3.26 to 4.36) and the Pirates carry a platoon edge versus righties, but bullpen parity and a neutral park leave the projected gap short of the 4-point betting floor.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Miller carries a small-sample flag and his aggregate SIERA (4.37) is effectively a wash with Littell’s (4.51); Seattle’s offensive and bullpen advantages only generate roughly a two-point edge against the -140 line.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Baz is marginally better than Canning by SIERA, but Baltimore’s beleaguered bullpen (6.06 ERA) and San Diego’s elite relief corps offset the starter gap and keep both sides below the betting threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gray’s SIERA edge over Leiter is real, yet Boston’s anemic offense versus righties (86 wRC+) and a weaker bullpen give most of that back against the -122 line.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Flaherty’s aggregate SIERA (3.79) is superior to Bibee’s (4.19), but Detroit’s bullpen deficit and road status cap the Tigers’ edge well below four points.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: LEAN: ATL
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.5 pts
+TOTAL LEAN: No lean
+REASON: McLean’s L14 degradation (SIERA 6.20, 6.5 BB/9) erases his AGG edge over Strider, while Atlanta’s offense (123 wRC+ vs RHP) and elite bullpen tilt the game toward the visitor, falling just short of the betting floor.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both lineups crush left-handed pitching, neutralizing the starter matchup, and Lodolo’s sharp L14 degradation makes Cincinnati’s side unreliable. Arizona’s best moneyline price is also flagged stale.
+LOOKED UP: stale away-ML price noted; used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Toronto starter is TBD. Competition rules mandate a pass when either starter is unconfirmed.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sasaki and Kay are effectively a wash by aggregate SIERA, and while Los Angeles has a large platoon edge versus lefties, the bullpen and park adjustments only produce a roughly two-point gap against the -145 line.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: MIL ML
+PRICE: -237
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL LEAN: No lean
+REASON: Misiorowski’s elite aggregate SIERA (2.80) and strike-zone dominance (26.7% K-BB%) create a massive gap over Painter (4.74 SIERA), while Milwaukee’s offense (111 wRC+ vs RHP) and deeper bullpen push my win probability north of 75% against a 70.3% implied line.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters lack reliable seasonal samples and Kansas City’s listed bullpen ERA figure is suspect. The edge is too murky to price confidently.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ryan’s SIERA edge over Leahy is clear, but Minnesota’s bullpen disadvantage and a neutral park keep the Twins below the 4-point threshold against the -131 line.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: LEAN: TB
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.5 pts
+TOTAL LEAN: No lean
+REASON: Aldegheri’s small-sample 5.82 SIERA and 6.43 xFIP signal severe regression, while McClanahan is a proven front-line arm backed by a strong lineup versus lefties. The Rays project roughly a 65% win probability against a 61.8% implied line.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Colorado starter is TBD. Competition rules mandate a pass when either starter is unconfirmed.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Roupp’s L14 degradation (5.70 SIERA) offsets his aggregate edge over Assad, and both bullpens rank among the weakest on the slate. No clear angle meets the 4-point gate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

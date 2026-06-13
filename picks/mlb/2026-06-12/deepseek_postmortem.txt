@@ -1,0 +1,116 @@
+## POST-MORTEM REVIEW
+**MODEL:** DeepSeek (deepseek-v4-pro)  
+**SLATE:** MLB — 2026-06-12  
+
+**ANTI-HINDSIGHT:** Evaluate pre-game reasoning only. Do NOT reference in-game events. A loss is CORRECT PROCESS/BAD VARIANCE ONLY if you can name the specific pre-game data point that justified it. If you cannot, choose an error category. Return NONE where no block genuinely qualifies.
+
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-12
+=======================================================
+
+  MIA    8 <--  @  PIT    3
+  SEA   10 <--  @  WAS    2
+  SD     3  @  BAL    7 <--
+  DET    2  @  CLE    3 <--
+  TEX    1  @  BOS   10 <--
+  AZ     5 <--  @  CIN    2
+  ATL    5  @  NYM    7 <--
+  NYY    5  @  TOR    8 <--
+  LAD    2  @  CHW    8 <--
+  PHI    0  @  MIL    6 <--
+  HOU   10 <--  @  KC     8
+  STL    8  @  MIN    9 <--
+  TB     3  @  LAA    4 <--
+  COL    4  @  ATH    6 <--
+  CHC    5 <--  @  SF     1
+
+  Final:    15/15 games
+==================================================================
+
+### S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** ATL ML (+110)  
+**RESULT:** LOSS  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** NO  
+**IF NO — NEW BEST BET:** None — the process flaw (grossly inflating edge via small-sample pitcher stats) would have disqualified all three max-unit bets, leaving a pass on the slate.  
+**WHY:** The 20.9‑point edge was almost entirely powered by McLean’s L14 xFIP 5.74 and SIERA 6.20 — data from a tiny recent window with no corroborating velocity or pitch‑mix indicators. That single input made ATL look like a lock when, in reality, the edge was highly fragile. Removing that overweight would have dropped the edge below the max‑unit threshold.  
+**SOURCE:** Pre-game data — McLean’s recent implosion flag, no full‑season baseline comparison.
+
+### S2: FULL SLATE REVIEW
+
+#### PART A — GAMES YOU BET
+
+---
+
+**GAME:** TEX @ BOS  
+**PICK:** TEX ML (+113)  
+**RESULT:** LOSS  
+**PROCESS:** SMALL SAMPLE TRAP  
+- Leiter’s projection blended 50/50 aggregate and L14 stats from a very short MLB career. The 4.40 ERA blend was too volatile for a 3‑unit bet on a pitcher with almost no proven baseline. The 8.9‑point edge was partly a mirage created by an unstable starter projection; the platoon and bullpen advantages could not overcome that uncertainty at max stake.  
+**WOULD-BET-AGAIN:** NO (would drop to 1 unit at most, or pass entirely)  
+**WHY:** Leiter’s tiny sample size introduced excessive variance; the true edge was almost certainly smaller than the model indicated.  
+**SOURCE:** Provided pitcher blends (50/50 agg/L14) – no full‑season or career MLB data for Leiter.
+
+---
+
+**GAME:** ATL @ NYM  
+**PICK:** ATL ML (+110)  
+**RESULT:** LOSS  
+**PROCESS:** SMALL SAMPLE TRAP  
+- The 20.9‑point edge hinged on McLean’s recent implosion (L14 xFIP 5.74, SIERA 6.20). Those numbers came from an ultra‑small recent sample; no evidence existed of a permanent skill decline (velocity, release point, etc.). Applying such heavy weight to that window inflated ATL’s win probability far beyond any reasonable estimate, making the edge a large‑sample overfit.  
+**WOULD-BET-AGAIN:** NO  
+**WHY:** Edge was artificially bloated by over‑reliance on short‑term pitching numbers; reliable betting requires normalization toward longer trends.  
+**SOURCE:** Provided L14 metrics for McLean, noted “recent implosion” flag.
+
+---
+
+**GAME:** LAD @ CHW  
+**PICK:** LAD ML (-145)  
+**RESULT:** LOSS  
+**PROCESS:** SMALL SAMPLE TRAP  
+- Sasaki’s L14 xFIP of 1.90 (blended to 3.30) was derived from a minuscule MLB innings pile. While dominant, such a stretch is historically unsustainable, especially for a rookie facing his largest MLB test yet. The 15.2‑point edge assumed Sasaki would maintain near‑ace performance, which had no track‑record validation. The very large edge was essentially a wish ticket.  
+**WOULD-BET-AGAIN:** NO (or lower stake to 1 unit with heavy regression applied)  
+**WHY:** Small‑sample starter greatness collapses quickly; the model’s confidence was unwarranted without longer‑term supporting data.  
+**SOURCE:** Provided L14 xFIP for Sasaki.
+
+---
+
+#### PART B — PASSES AND LEANS  
+**None.** All passes were correctly executed based on slate prioritization, lack of reliable odds, mandatory TBD‑starter rules, or insufficient edge. No pre-game edge was missed that would have become a bet under the current method constraints.
+
+---
+
+### S3: DATA REQUEST (to the operator / data desk)
+Data/stats NOT currently in the prompt that would have changed a decision. Max 3.
+
+**TYPE:** STAT  
+**ITEM:** Full‑season (and career) SIERA/FIP for all starting pitchers, clearly labeled alongside L14/30‑day splits.  
+**WHICH GAME(S):** ATL @ NYM, TEX @ BOS, LAD @ CHW (all three bets)  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** For ATL, full‑season McLean numbers would have shown the L14 spike as a clear outlier, prompting heavy regression and lowering the edge below the max‑unit threshold. For TEX, a career MLB baseline for Leiter would have exposed his projection as unreliable for a 3‑unit bet. For LAD, Sasaki’s full‑season track record (or lack thereof) would have forced a much wider confidence interval around his projection, killing the “max unit” call.
+
+**TYPE:** DATA  
+**ITEM:** Hour‑by‑hour weather data (wind speed/direction, temperature, precipitation chance) for all outdoor venues.  
+**WHICH GAME(S):** TEX @ BOS (Fenway Park)  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** Fenway’s wind patterns can drastically shift park factors. A strong wind blowing out would have amplified BOS offense and potentially eroded the 8.9‑point edge further, cementing the pass.
+
+**TYPE:** STAT  
+**ITEM:** Recent (last 3 starts) average fastball velocity and pitch‑mix changes for the starting pitcher.  
+**WHICH GAME(S):** ATL @ NYM (McLean), LAD @ CHW (Sasaki)  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** If McLean’s velo had dipped markedly or his pitch mix had changed, that could justify the L14 implosion and make the edge more credible. Without it, the small‑sample dip is just noise. Conversely, if Sasaki’s velo was trending up, it might have supported his dominance, but absent that, the uncertainty remains too high for max stake.
+
+---
+
+### S4: METHOD CHANGE PROPOSAL (to your own method document)
+**PROPOSED CHANGE:**  
+**Cap the influence of recent small-sample pitcher performance on the probability model.** Specifically, when a starting pitcher’s win‑probability adjustment is driven primarily by L14‑day or similarly short‑window stats (xFIP, SIERA, ERA), the model must regress those stats heavily toward the full‑season / career baseline unless **explicit confirming evidence** exists (e.g., significant velo gain/loss, new pitch, documented injury return, or a consistent 30+–day trend). A single small‑sample window should **never** swing an edge by more than 50% of its raw value; the blended projection must be tilted at least 2:1 toward full‑season data.
+
+**WHAT IN MY METHOD COULD BE SHARPER:**  
+The model’s win‑probability engine currently treats L14 stats as co‑equal with aggregate data in “blended” projections. That gives outlier small‑samples disproportionate weight, creating apparent monster edges that are, in reality, temporary mirages.
+
+**EVIDENCE FROM TODAY (cite pre-game data, not the outcome):**  
+All three 3‑unit bets (ATL, LAD, TEX) were justified primarily by extreme short‑term pitcher splits: McLean’s L14 implosion, Sasaki’s L14 near‑perfection, and Leiter’s 50/50 blend of aggregate and L14 where L14 was likely a handful of innings. In each case, those L14 numbers were the linchpin of the edge, yet none had corroborating underlying skill indicators (velocity, etc.). If the method had enforced a mandatory regression toward full‑season baselines, each edge would have been drastically smaller, and none would have been max‑unit plays.
+
+**CONFIDENCE:** MEDIUM  
+(Single‑slate pattern is strong, but requires multiple slates to prove out over varying game conditions.)

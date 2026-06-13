@@ -6,6 +6,7 @@ ANTI-HINDSIGHT: Evaluate pre-game reasoning only. Do NOT reference
 in-game events. A loss is CORRECT PROCESS/BAD VARIANCE ONLY if you
 can name the specific pre-game data point that justified it.
 If you cannot, choose an error category.
+Return NONE where no block genuinely qualifies.
 
 FINAL RESULTS
 [OPERATOR WILL PASTE RESULTS HERE]
@@ -20,81 +21,49 @@ IF NO — NEW BEST BET: / WHY: / SOURCE:
 PART A — GAMES YOU BET (one block per bet; NO BETS if none)
 
 GAME:
-ORIGINAL PICK:
+PICK:
 RESULT: WIN / LOSS / PUSH
-GRADE: A / B / C / D / F
 PROCESS: [CORRECT PROCESS BAD VARIANCE / CORRECT PROCESS FAIR RESULT
 / INCORRECT PITCHING / INCORRECT TEAM STRENGTH / MISREAD PRICE
 / OVERWEIGHTED FORM / UNDERWEIGHTED FORM / SMALL SAMPLE TRAP
 / MISSED BULLPEN / MISSED LINEUP / MISSED INJURY / MISSED WEATHER / OTHER]
-WOULD YOU MAKE THIS BET AGAIN? YES / NO / LOWER STAKE / HIGHER STAKE
+WOULD-BET-AGAIN: YES / NO / LOWER STAKE / HIGHER STAKE
 WHY:
 SOURCE:
 
 ---
 
-PART B — GAMES YOU PASSED OR LEANED
-Was there pre-game edge you missed? Correct passes worth noting.
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME
+EDGE YOU MISSED. Skip all correct passes entirely — do not write a block
+for them.
 
 GAME:
 YOUR CALL: PASS / LEAN
 FINAL RESULT:
-WAS THIS THE RIGHT CALL? YES / NO / UNCLEAR
-IF NO OR UNCLEAR —
-  WHAT DID YOU MISS:
-  SOURCE:
-  WOULD THIS HAVE BECOME A BET? YES / NO / MAYBE
+WHAT YOU MISSED:
+SOURCE:
+WOULD THIS HAVE BECOME A BET? YES / NO / MAYBE
 
 ---
 
-## S3: IMPROVEMENT REQUESTS
-Items that would have materially changed a pre-game decision.
-Max 5. Return NONE if nothing qualifies.
+## S3: DATA REQUEST (to the operator / data desk)
+Data/stats NOT currently in the prompt that would have changed a decision.
+Max 3. NONE if none.
 
-TYPE: DATA / STAT / SOURCE / PROMPT
+TYPE: DATA / STAT / SOURCE
 ITEM:
-AVAILABLE BEFORE FIRST PITCH? YES / NO
-SOURCE:
 WHICH GAME(S):
 WOULD HAVE CHANGED A BET? YES / NO / MAYBE
-WOULD HAVE CHANGED BEST BET? YES / NO / MAYBE
 WHY:
-EXPECTED IMPACT: HIGH / MEDIUM / LOW
 
 ---
 
-## S4: TOP 3 IMPROVEMENTS
-Best from S3 ranked. NONE if nothing qualifies.
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+A proposed change to how YOU weigh or interpret data you already receive.
+A PROPOSAL only — adopted only if it proves out over many slates, never
+from one day. NONE if none.
 
-RANK 1 — TYPE: / ITEM: / WHY: / SOURCE: / ROI IMPACT: HIGH/MED/LOW
-RANK 2 — TYPE: / ITEM: / WHY: / SOURCE: / ROI IMPACT: HIGH/MED/LOW
-RANK 3 — TYPE: / ITEM: / WHY: / SOURCE: / ROI IMPACT: HIGH/MED/LOW
-
-## S5: MASTER PROMPT CANDIDATE
-ONE data/source addition best for all models. Not reasoning (->S6).
-Return NONE if nothing qualifies.
-
-TYPE: DATA / STAT / SOURCE / PROMPT
-ITEM:
-WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT:
-SOURCE WHERE THIS IS AVAILABLE:
-WOULD HAVE CHANGED A BET? YES / NO
-WOULD HAVE CHANGED BEST BET? YES / NO
-SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES / NO
-
-## S6: MODEL-SPECIFIC REASONING INSTRUCTION
-Do NOT request data here. How should the prompt instruct YOU to
-reason better? Write ready to paste into future prompts verbatim.
-Examples: "Estimate fair ML before looking at market price"
-/ "Complete slate ceiling check before writing first GAME block"
-Return NONE if you have no genuine instruction.
-
-MODEL:
-REASONING WEAKNESS IDENTIFIED:
-PROPOSED PROMPT INSTRUCTION:
-WHY THIS ADDRESSES THE WEAKNESS:
-SOURCE OF THIS INSIGHT:
-EXPECTED IMPACT: HIGH / MEDIUM / LOW
-
-IMPORTANT: Return NONE for any section where nothing genuinely
-qualifies. Quality over quantity.
+PROPOSED CHANGE:
+WHAT IN MY METHOD COULD BE SHARPER:
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):
+CONFIDENCE: LOW / MEDIUM / HIGH

@@ -1,0 +1,100 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: None — explicitly declined to designate a 3-unit play
+RESULT: N/A (no best bet made)
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES — the decision to issue no best bet was correct process. No game offered a 7+ pt clean-data gap, and the slate went 0-4 on my actual bets. Forcing a best bet would not have helped.
+IF NO — NEW BEST BET: N/A
+WHY: The discipline of not manufacturing a 3-unit play on a slate where nothing cleared the threshold is exactly right. Outcome reinforces it.
+SOURCE: Original slate logic; no qualifying 7+ pt gap existed.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: DET @ CLE
+PICK: DET ML +105
+RESULT: LOSS (DET 2, CLE 3)
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: One-run loss. Pre-game thesis was Flaherty's AGG xFIP 3.89/SIERA 3.79 vs Bibee 4.18, with the market mispricing on Flaherty's 5.31 ERA narrative. The peripheral-vs-perception logic was sound, the price (+105) was favorable for a near-coinflip, and the game played to a single run. I flagged the CLE bullpen edge and it likely mattered, but the core read was defensible.
+SOURCE: Flaherty AGG xFIP 3.89, Bibee 4.18 (provided data).
+
+---
+
+GAME: ATL @ NYM
+PICK: ATL ML +107
+RESULT: LOSS (ATL 5, NYM 7)
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: I explicitly respected McLean's L14 collapse (5.74 xFIP, 6.5 BB/9) and still leaned ATL on bullpen (2.04) + offense (123 wRC+) vs a wobbling NYM pen at a cheap +107. The thesis was that ATL is the superior team underpriced. They scored 5, which is fine; the NYM pen I called "wobbling" held up better than projected. This is a fair-process loss on a justified underdog price.
+SOURCE: ATL pen 2.04, ATL wRC+ vs RHP 123 (provided data).
+
+---
+
+GAME: AZ @ CIN
+PICK: AZ ML -102
+RESULT: WIN (AZ 5, CIN 2)
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Cleanest of my four. Lodolo's 5.51 ERA masked a 3.86 AGG xFIP, but the real swing was the bullpen gap (AZ 3.10 vs CIN 5.04, 5.88 closer). AZ won by 3 and the bullpen edge was likely the deciding factor. Process and outcome aligned.
+SOURCE: AZ pen 3.10, CIN pen 5.04, CIN closer 5.88 (provided data).
+
+---
+
+GAME: HOU @ KC
+PICK: HOU ML -115
+RESULT: WIN (HOU 10, KC 8)
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Thesis was Avila's alarming AGG (5.01 xFIP, 3.5% K-BB%) plus KC's catastrophic pen vs HOU's Hader-anchored relief. HOU scored 10 — the offensive blowup against Avila validated the pitching read. The game was closer than the score (10-8) but the win came correctly.
+SOURCE: Avila AGG 5.01 xFIP, KC pen 22.25 flagged (provided data).
+
+Record: 2-2 on the slate. Two wins were process-and-outcome aligned; two losses were near-coinflip underdogs that came in slightly under. No process error in any of the four.
+
+---
+
+PART B — PASSES/LEANS WITH A MISSED PRE-GAME EDGE
+
+GAME: TEX @ BOS
+YOUR CALL: PASS
+FINAL RESULT: BOS 10, TEX 1
+WHAT YOU MISSED: I correctly noted Gray (3.26 xFIP) outclassed Leiter (4.38), but I passed citing "BOS offense vs RHP poor (86 wRC+)." That same data point should have nudged me toward a BOS-side play given Leiter was the weaker arm AND Fenway/Chapman favored BOS. I was anchored on the wRC+ as a reason to pass rather than recognizing the pitching gap was the dominant variable. Still, pre-game this was a defensible pass, not a clear missed bet.
+SOURCE: Gray 3.26 xFIP, Leiter 4.38 (provided data).
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+GAME: PHI @ MIL
+YOUR CALL: PASS (lean Under)
+FINAL RESULT: MIL 6, PHI 0
+WHAT YOU MISSED: Nothing actionable. I called Misiorowski elite (2.82 xFIP, 26.7% K-BB%) and PHI offense poor (86 wRC+). The honest read was MIL was correctly priced at -245 and I declined to lay it on a thin offensive picture. That's a fair pass even in hindsight — laying -245 is never my spot. No genuine missed edge.
+SOURCE: Misiorowski 2.82 xFIP (provided data).
+WOULD THIS HAVE BECOME A BET? NO
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: DATA
+ITEM: Confirmed starting lineups (not just probable pitchers) at pick time
+WHICH GAME(S): PHI @ MIL, NYY @ TOR, COL @ ATH
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Multiple passes cited "unconfirmed lineups" or TBD starters as the gating factor. Confirmed lineups would let me act on offense-vs-handedness reads instead of defaulting to caution.
+
+TYPE: STAT
+ITEM: Bullpen availability / recent usage (back-to-back fatigue flags)
+WHICH GAME(S): DET @ CLE, ATL @ NYM, HOU @ KC
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: My DET and ATL theses leaned partly on bullpen quality. Season-long pen ERA is stale; knowing which relievers were unavailable would sharpen close-game probabilities where I lost two coinflips.
+
+TYPE: NONE
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: When a starter carries an active L14 command-collapse flag (e.g., BB/9 spiking 3+ above baseline), apply a modest haircut to my edge estimate even when I'm betting the OTHER side's superiority — and a larger haircut when I'm relying on that collapsing arm's opponent's bullpen rather than its own hitting.
+WHAT IN MY METHOD COULD BE SHARPER: On ATL @ NYM, I noted McLean's L14 collapse but treated it as a reason to favor ATL. In a coinflip, a struggling-but-talented arm regressing toward his strong AGG line is real downside to my edge. I may be too quick to dismiss recent form as noise when the form signal is command-based (walks) rather than results-based (BABIP/HR luck). Command degradation predicts better than BABIP swings.
+EVIDENCE FROM TODAY (cite pre-game data, not outcome): McLean L14 6.5 BB/9; Roupp L14 7.5 BB/9 (I passed CHC/SF partly on this — correctly). I treated the same signal type as a pass-reason in one game and an edge-confirming reason in another. That inconsistency is the flaw, independent of results.
+CONFIDENCE: LOW
+
+Note: Two of four bets won, two lost as near-coinflip dogs by a combined 3 runs. One day proves nothing; the S4 proposal is about internal consistency, not chasing the 2-2 outcome.

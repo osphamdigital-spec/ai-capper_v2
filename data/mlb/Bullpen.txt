@@ -1,190 +1,189 @@
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Athletics				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-ATH	Hogan Harris	L	Closer Committee			35 (BS)	16			51	2.2	35	32.1	2.78	5	10	13	5	9.4%	25.2%	10.3	15.6%	6.4
-ATH	Elvis Alvarado	R	Closer Committee		20 (H)			44		64	3.1	13	14	5.79	1	4	5	3	15.4%	30.5%	11.6	11.9%	4.5
-ATH	Mason Barnett	R	Closer Committee		31 (Sv)				64	95	6	3	8	0.00	1	0	1	0	13.8%	41.4%	13.5	13.8%	4.5
-ATH	Mark Leiter Jr.	R	Middle Reliever			23 (H)	16			39	1.1	30	27.2	5.20	4	4	5	6	12.6%	25.0%	9.8	8.3%	3.3
-ATH	Justin Sterner	R	Middle Reliever			7 (H)	16			23	0.1	32	31	3.19	1	11	10	3	14.8%	23.4%	8.4	5.6%	2.0
-ATH	Scott Barlow	R	Middle Reliever			18				18	1	31	29.2	4.25	2	9	12	3	14.0%	19.4%	7.6	12.4%	4.9
-ATH	Luis Medina	R	Middle Reliever			29 (H)				29	1.1	22	29.2	3.03	0	3	4	4	11.8%	25.6%	9.7	9.6%	3.6
-ATH	José Suarez	L	Middle Reliever			27 (L)		36		63	3	21	33	5.73	1	1	2	2	12.6%	25.5%	10.9	10.8%	4.6
-ATH	Joey Estes	R	Long Reliever			AAA	AAA	AAA	AAA	0	0												
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+ATH	Elvis Alvarado	R	Closer Committee			14 (Sv)	20 (H)			34	2.1	13	14	5.79	1	4	5	3	15.4%	30.5%	11.6	11.9%	4.5
+ATH	Hogan Harris	L	Closer Committee	21 (Sv)		17 (H)		35 (BS)	16	89	3.5	36	33.2	2.67	6	10	14	5	9.5%	25.8%	10.4	15.2%	6.1
+ATH	Mason Barnett	R	Closer Committee	12 (W)			31 (Sv)			43	3.2	4	9.2	0.00	1	0	2	0	12.7%	37.1%	12.1	11.4%	3.7
+ATH	Mark Leiter Jr.	R	Middle Reliever					23 (H)	16	39	1.1	30	27.2	5.20	4	4	5	6	12.6%	25.0%	9.8	8.3%	3.3
+ATH	Justin Sterner	R	Middle Reliever	15 (BS)				7 (H)	16	38	1.1	33	32	3.38	1	11	10	4	14.9%	23.4%	8.4	5.5%	2.0
+ATH	Scott Barlow	R	Middle Reliever			14 (W)		18		32	1.1	31	29.2	4.25	2	9	12	3	14.0%	19.4%	7.6	12.4%	4.9
+ATH	Luis Medina	R	Middle Reliever			21		29 (H)		50	3.2	22	29.2	3.03	0	3	4	4	11.8%	25.6%	9.7	9.6%	3.6
+ATH	José Suarez	L	Middle Reliever			12		27 (L)		39	2.2	21	33	5.73	1	1	2	2	12.6%	25.5%	10.9	10.8%	4.6
+ATH	Joey Estes	R	Long Reliever					AAA	AAA	0	0												
 ATH	Brooks Kriske	R	60-Day IL							0	0	2	2.2	0.00	0	0	0	0	10.5%	18.2%	6.8	9.1%	3.4
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Baltimore Orioles				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-BAL	Rico Garcia	R	Closer		15 (L)		13			28	1.1	30	28	1.29	4	8	14	4	17.5%	31.0%	10.0	9.0%	2.9
-BAL	Andrew Kittredge	R	Setup Man		19					19	1	16	13.2	7.24	0	2	1	3	11.7%	23.1%	9.9	6.2%	2.6
-BAL	Yennier Cano	R	Setup Man				10		16	26	1.1	30	22.2	2.38	0	4	2	3	10.9%	21.2%	7.1	4.7%	1.6
-BAL	Anthony Nunez	R	Middle Reliever			33			20	53	3.1	30	32.1	5.29	3	6	8	8	15.9%	25.7%	10.0	8.6%	3.3
-BAL	Keegan Akin	L	Middle Reliever		17			24		41	3.1	18	18	8.00	0	0	2	3	8.8%	15.7%	6.5	6.0%	2.5
-BAL	Tyler Wells	R	Middle Reliever		8		7			15	1.1	24	30	3.90	0	8	6	3	13.3%	23.0%	8.4	5.7%	2.1
-BAL	Grant Wolfram	L	Middle Reliever				17		6 (H)	23	0.4	23	18.2	4.34	0	6	6	5	12.5%	27.9%	11.6	2.3%	1.0
-BAL	Albert Suárez	R	Long Reliever			39		29		68	4	11	26.2	4.05	1	0	1	2	10.4%	15.5%	6.1	10.3%	4.1
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+BAL	Rico Garcia	R	Co-Closer		16 (H)		15 (L)		13	44	1.1	31	28.2	1.26	4	9	14	4	17.0%	29.8%	9.7	8.7%	2.8
+BAL	Andrew Kittredge	R	Co-Closer	9	6 (Sv)		19			34	3	18	15.2	6.32	1	2	2	3	11.0%	20.8%	8.6	5.6%	2.3
+BAL	Yennier Cano	R	Setup Man	16		13			10	39	2.2	31	23.2	2.28	0	4	2	3	11.6%	23.9%	8.0	4.5%	1.5
+BAL	Anthony Nunez	R	Middle Reliever	21				33		54	3.1	31	33.1	5.13	3	6	8	8	16.2%	26.4%	10.3	9.0%	3.5
+BAL	Keegan Akin	L	Middle Reliever	12			17			29	2.1	19	19	7.58	0	0	2	3	8.8%	14.9%	6.2	5.7%	2.4
+BAL	Tyler Wells	R	Middle Reliever		39 (W)		8		7	54	4.2	25	33	3.55	0	8	7	3	13.9%	24.2%	8.7	6.1%	2.2
+BAL	Grant Wolfram	L	Middle Reliever		7 (H)	20			17	44	0.5	24	19	4.26	0	7	7	5	12.2%	27.6%	11.4	2.3%	0.9
+BAL	Albert Suárez	R	Long Reliever					39		39	2	11	26.2	4.05	1	0	1	2	10.4%	15.5%	6.1	10.3%	4.1
 BAL	Ryan Helsley	R	15-Day IL							0	0	12	10.2	2.53	7	0	9	2	17.2%	32.6%	12.7	15.2%	5.9
 BAL	Yaramil Hiraldo	R	60-Day IL							0	0	3	1.2	21.60	0	0	0	2	14.9%	16.7%	10.8	33.3%	21.6
 BAL	Félix Bautista	R	60-Day IL							0	0												
 BAL	Colin Selby	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Boston Red Sox				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-BOS	Aroldis Chapman	L	Closer						16 (Sv)	16	1	20	19.2	0.46	13	0	14	1	14.8%	33.8%	11.9	11.7%	4.1
-BOS	Garrett Whitlock	R	Setup Man		17	IL	IL	IL	IL	17	1	21	20.2	3.05	0	9	12	3	14.9%	30.6%	11.3	7.1%	2.6
-BOS	Justin Slaten	R	Setup Man				25 (L)		4 (H)	29	1.1	14	12.1	7.30	0	7	7	4	11.0%	28.1%	11.7	8.8%	3.6
-BOS	Greg Weissert	R	Middle Reliever			17				17	0.1	28	25.2	3.86	0	4	6	7	9.3%	24.1%	9.5	8.0%	3.2
-BOS	Tommy Kahnle	R	Middle Reliever		15					15	1	2	3	0.00	0	0	0	0	6.1%	15.4%	6.0	15.4%	6.0
-BOS	Danny Coulombe	L	Middle Reliever			22			9 (H)	31	1.1	18	12.2	6.39	0	4	4	2	7.8%	16.1%	6.4	14.3%	5.7
-BOS	Tyron Guerrero	R	Middle Reliever			16	10			26	1.1	8	7.1	4.91	0	2	1	1	15.6%	38.7%	14.7	3.2%	1.2
-BOS	Ryan Watson	R	Long Reliever							0	0	23	38.2	5.12	1	1	2	1	10.8%	17.9%	7.2	9.2%	3.7
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+BOS	Aroldis Chapman	L	Closer							0	0	20	19.2	0.46	13	0	14	1	14.8%	33.8%	11.9	11.7%	4.1
+BOS	Garrett Whitlock	R	Setup Man				17	IL	IL	17	1	21	20.2	3.05	0	9	12	3	14.9%	30.6%	11.3	7.1%	2.6
+BOS	Justin Slaten	R	Setup Man			19			25 (L)	44	0.4	14	12.1	7.30	0	7	7	4	11.0%	28.1%	11.7	8.8%	3.6
+BOS	Greg Weissert	R	Middle Reliever			3		17		20	0.2	28	25.2	3.86	0	4	6	7	9.3%	24.1%	9.5	8.0%	3.2
+BOS	Tommy Kahnle	R	Middle Reliever	10			15			25	2	3	4	0.00	0	0	0	0	6.8%	18.8%	6.8	12.5%	4.5
+BOS	Danny Coulombe	L	Middle Reliever	14				22		36	2	19	13.2	5.93	0	4	4	2	7.8%	15.0%	5.9	13.3%	5.3
+BOS	Tyron Guerrero	R	Middle Reliever	12				16	10	38	2.2	9	8.1	4.32	0	2	1	1	14.9%	35.3%	13.0	2.9%	1.1
+BOS	Ryan Watson	R	Long Reliever			35				35	2	23	38.2	5.12	1	1	2	1	10.8%	17.9%	7.2	9.2%	3.7
 BOS	Jovani Morán	L	15-Day IL							0	0	21	33	3.00	0	1	5	1	14.0%	28.4%	10.4	11.2%	4.1
 BOS	Johan Oviedo	R	60-Day IL							0	0	1	3.2	9.82	0	0	0	0	6.9%	16.7%	7.4	5.6%	2.5
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Chicago White Sox				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-CHW	Seranthony Domínguez	R	Co-Closer		13				11	24	1.1	27	25	3.60	11	2	11	5	10.5%	27.6%	10.4	12.4%	4.7
-CHW	Grant Taylor	R	Co-Closer		21 (W)			14 (Sv)		35	3	26	34.2	1.82	2	4	9	2	13.4%	36.4%	13.2	6.4%	2.3
-CHW	Sean Newcomb	L	Setup Man					29 (H)		29	2.1	26	39.1	2.29	1	5	8	1	9.7%	22.9%	8.2	6.4%	2.3
-CHW	Bryan Hudson	L	Middle Reliever				25		16 (L)	41	0.4	32	31	2.32	3	4	8	5	9.9%	21.1%	8.1	10.5%	4.1
-CHW	Tyler Davis	R	Middle Reliever		9		21 (L)		6	36	3	19	21.1	4.22	1	0	4	4	10.4%	21.2%	7.6	11.8%	4.2
-CHW	Brandon Eisert	L	Middle Reliever		21			23	11	55	2.1	14	14.2	4.30	0	0	0	1	12.5%	24.6%	9.8	9.2%	3.7
-CHW	Chris Murphy	L	Middle Reliever		AAA	AAA	AAA	AAA	AAA	0	0	8	9.1	6.75	1	0	1	3	11.6%	19.6%	8.7	17.4%	7.7
-CHW	Joe Rock	L	Middle Reliever			AAA	AAA	AAA	AAA	0	0												
-CHW	Trevor Richards	R	Long Reliever				27		15	42	3.1	14	21	4.29	0	0	1	1	8.3%	19.3%	6.9	6.0%	2.1
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+CHW	Seranthony Domínguez	R	Closer Committee			14 (H)	13			27	2	27	25	3.60	11	2	11	5	10.5%	27.6%	10.4	12.4%	4.7
+CHW	Grant Taylor	R	Closer Committee				21 (W)			21	2	26	34.2	1.82	2	4	9	2	13.4%	36.4%	13.2	6.4%	2.3
+CHW	Sean Newcomb	L	Closer Committee			27 (H)				27	1	26	39.1	2.29	1	5	8	1	9.7%	22.9%	8.2	6.4%	2.3
+CHW	Bryan Hudson	L	Closer Committee	7		16 (Sv)			25	48	2.2	33	32	2.25	3	4	8	5	9.8%	20.6%	7.9	10.3%	3.9
+CHW	Tyler Davis	R	Middle Reliever				9		21 (L)	30	2	19	21.1	4.22	1	0	4	4	10.4%	21.2%	7.6	11.8%	4.2
+CHW	Brandon Eisert	L	Middle Reliever				21			21	0.2	14	14.2	4.30	0	0	0	1	12.5%	24.6%	9.8	9.2%	3.7
+CHW	Chris Murphy	L	Middle Reliever	14			AAA	AAA	AAA	14	1	9	10.1	6.10	1	0	1	3	10.7%	18.4%	7.8	16.3%	7.0
+CHW	Joe Rock	L	Middle Reliever					AAA	AAA	0	0												
+CHW	Trevor Richards	R	Long Reliever	21					27	48	4	15	23	3.91	0	0	1	1	8.4%	20.2%	7.0	5.6%	2.0
 CHW	Jordan Hicks	R	15-Day IL							0	0	20	17.2	5.60	1	3	4	3	6.5%	17.2%	7.6	19.5%	8.7
-CHW	Tyler Gilbert	L	15-Day IL		20		18			38	0.1	4	3.2	17.18	0	0	0	0	6.3%	13.6%	7.4	18.2%	9.8
+CHW	Tyler Gilbert	L	15-Day IL				20		18	38	0.1	4	3.2	17.18	0	0	0	0	6.3%	13.6%	7.4	18.2%	9.8
 CHW	Prelander Berroa	R	60-Day IL							0	0												
 CHW	Jordan Leasure	R	60-Day IL							0	0	18	18.2	6.27	0	3	4	5	13.1%	23.1%	8.7	10.3%	3.9
 CHW	Mike Vasil	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Cleveland Guardians				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-CLE	Cade Smith	R	Closer			22				22	1.1	29	30.1	2.67	21	0	19	2	17.0%	38.3%	13.6	4.2%	1.5
-CLE	Hunter Gaddis	R	Setup Man			23 (BS)				23	0.1	20	16.2	4.32	1	9	11	3	12.9%	17.9%	7.6	7.7%	3.2
-CLE	Shawn Armstrong	R	Setup Man		9	16 (L)			14	39	3	21	19	3.32	0	5	4	5	10.7%	25.6%	9.5	12.8%	4.7
-CLE	Colin Holderman	R	Middle Reliever		12	18				30	2	21	25	1.80	0	4	9	2	12.0%	29.8%	10.1	8.5%	2.9
-CLE	Tim Herrin	L	Middle Reliever		24 (L)	10 (H)		10		44	3.1	30	24	3.00	0	10	7	8	14.1%	19.6%	7.9	14.0%	5.6
-CLE	Matt Festa	R	Middle Reliever		17				13	30	1.1	30	29.1	4.30	1	7	6	6	10.3%	25.4%	9.8	7.1%	2.8
-CLE	Will Dion	L	Middle Reliever				37			37	2	5	10.1	4.35	0	0	0	1	9.2%	25.0%	10.5	6.3%	2.6
-CLE	Codi Heuer	R	Long Reliever							0	0	7	8	5.63	0	1	1	3	10.5%	15.0%	6.8	12.5%	5.6
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+CLE	Cade Smith	R	Closer	13 (Sv)				22		35	2.2	30	31.1	2.59	22	0	20	2	16.7%	38.2%	13.5	4.1%	1.4
+CLE	Hunter Gaddis	R	Setup Man	13 (H)				23 (BS)		36	1.1	21	17.2	4.08	1	10	12	3	12.7%	17.3%	7.1	7.4%	3.1
+CLE	Shawn Armstrong	R	Setup Man				9	16 (L)		25	2	21	19	3.32	0	5	4	5	10.7%	25.6%	9.5	12.8%	4.7
+CLE	Colin Holderman	R	Middle Reliever				12	18		30	2	21	25	1.80	0	4	9	2	12.0%	29.8%	10.1	8.5%	2.9
+CLE	Tim Herrin	L	Middle Reliever				24 (L)	10 (H)		34	2.1	30	24	3.00	0	10	7	8	14.1%	19.6%	7.9	14.0%	5.6
+CLE	Daniel Espino	R	Middle Reliever		AAA	AAA	AAA	AAA	AAA	0	0												
+CLE	Will Dion	L	Middle Reliever			31			37	68	4	5	10.1	4.35	0	0	0	1	9.2%	25.0%	10.5	6.3%	2.6
+CLE	Matt Festa	R	Long Reliever			15	17			32	0.1	30	29.1	4.30	1	7	6	6	10.3%	25.4%	9.8	7.1%	2.8
 CLE	Erik Sabrowski	L	15-Day IL							0	0	25	21	1.71	0	17	12	3	16.0%	47.0%	16.7	15.7%	5.6
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Detroit Tigers				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-DET	Will Vest	R	Co-Closer				10 (W)		18	28	2	21	20.2	6.53	1	6	5	5	12.1%	25.3%	10.0	8.8%	3.5
-DET	Kyle Finnegan	R	Co-Closer		22 (H)		17		6 (H)	45	2.1	30	31.1	2.01	1	9	10	5	10.3%	15.4%	5.7	16.2%	6.0
-DET	Tyler Holton	L	Setup Man		16		9		15 (H)	40	0.1	29	28.2	4.40	0	5	7	6	10.4%	20.0%	7.8	6.4%	2.5
-DET	Drew Anderson	R	Middle Reliever		17 (H)		16		24 (H)	57	3.2	24	42.2	3.80	2	4	8	7	13.7%	28.9%	11.0	9.4%	3.6
-DET	Brenan Hanifee	R	Middle Reliever		9 (H)					9	0.1	14	13.2	3.29	0	2	2	2	3.5%	10.2%	4.0	6.8%	2.6
-DET	Beau Brieske	R	Middle Reliever							0	0	3	3.1	16.20	0	0	0	0	13.5%	16.7%	8.1	22.2%	10.8
-DET	Drew Sommers	L	Middle Reliever				12	18		30	1.1	5	3.2	0.00	0	1	0	1	10.0%	31.3%	12.3	18.8%	7.4
-DET	Ty Madden	R	Middle Reliever					39		39	2.2	6	18	3.50	0	0	1	1	12.4%	26.7%	10.0	6.7%	2.5
-DET	Enmanuel De Jesus	L	Long Reliever		15					15	1	18	26.1	4.78	1	0	2	3	10.4%	21.6%	8.5	10.3%	4.1
-DET	Kenley Jansen	R	15-Day IL							0	0	18	15	4.80	7	1	7	4	12.9%	30.6%	11.4	14.5%	5.4
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+DET	Kenley Jansen	R	Closer		IL	IL	IL	IL	IL	0	0	18	15	4.80	7	1	7	4	12.9%	30.6%	11.4	14.5%	5.4
+DET	Will Vest	R	Setup Man						10 (W)	10	1	21	20.2	6.53	1	6	5	5	12.1%	25.3%	10.0	8.8%	3.5
+DET	Kyle Finnegan	R	Setup Man				22 (H)		17	39	2.2	30	31.1	2.01	1	9	10	5	10.3%	15.4%	5.7	16.2%	6.0
+DET	Tyler Holton	L	Middle Reliever		25		16		9	50	1.1	30	30.1	4.15	0	5	7	6	11.3%	20.6%	8.0	6.1%	2.4
+DET	Drew Anderson	R	Middle Reliever	21			17 (H)		16	54	2.2	25	43.2	3.92	2	4	8	8	13.5%	28.5%	10.9	9.1%	3.5
+DET	Enmanuel De Jesus	L	Middle Reliever				15			15	1	18	26.1	4.78	1	0	2	3	10.4%	21.6%	8.5	10.3%	4.1
+DET	Drew Sommers	L	Middle Reliever	15		17			12	44	1.1	6	4.2	0.00	0	1	0	1	11.8%	35.0%	13.5	15.0%	5.8
+DET	Jacob Waguespack	R	Middle Reliever	20	AAA	AAA	AAA	AAA	AAA	20	1	1	1	0.00	0	0	0	0	5.0%	20.0%	9.0	20.0%	9.0
+DET	Ty Madden	R	Long Reliever	29		21				50	2.2	7	20	3.15	0	0	1	1	12.8%	28.0%	10.4	6.1%	2.3
 DET	Burch Smith	R	15-Day IL							0	0	13	17	3.18	0	0	1	3	9.4%	27.4%	10.6	9.6%	3.7
 DET	Brant Hurter	L	60-Day IL							0	0	21	25.1	2.84	0	1	8	3	7.2%	17.8%	6.4	11.9%	4.3
 DET	Bailey Horn	L	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Houston Astros				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-HOU	Josh Hader	L	Closer			12 (W)			18	30	2	4	4	0.00	1	0	3	0	24.1%	53.8%	15.8	7.7%	2.3
-HOU	Bryan King	L	Setup Man			12			15	27	2	26	28.2	2.51	6	5	11	5	7.7%	17.9%	6.9	8.9%	3.5
-HOU	Enyel De Los Santos	R	Setup Man			25			17 (H)	42	2.2	27	29.1	3.07	4	5	9	4	14.4%	23.9%	8.6	6.0%	2.1
-HOU	Bryan Abreu	R	Middle Reliever			8 (Sv)	9			17	2	26	22.1	6.85	4	5	7	6	11.4%	28.2%	12.5	21.8%	9.7
-HOU	Steven Okert	L	Middle Reliever				11			11	1	31	30	3.00	0	7	7	4	11.9%	22.2%	7.8	8.5%	3.0
-HOU	Nate Pearson	R	Middle Reliever				33			33	2	6	6.2	4.05	1	0	0	1	13.2%	25.0%	9.5	14.3%	5.4
-HOU	Alimber Santa	R	Middle Reliever		27			39		66	4	6	10	0.90	0	0	1	0	9.4%	20.5%	7.2	12.8%	4.5
-HOU	AJ Blubaugh	R	Long Reliever		34			29		63	4	27	42.2	4.22	0	3	6	2	11.9%	20.3%	7.8	13.2%	5.1
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+HOU	Josh Hader	L	Closer	20 (Sv)		11		12 (W)		43	3	5	5	0.00	2	0	4	0	20.5%	43.8%	12.6	6.3%	1.8
+HOU	Bryan King	L	Setup Man	18 (H)		3		12		33	1.1	27	29.1	2.45	6	6	11	5	7.4%	18.0%	7.1	9.4%	3.7
+HOU	Enyel De Los Santos	R	Setup Man	27		13		25		65	2.2	28	29.2	3.94	4	5	9	5	14.0%	24.0%	8.8	5.8%	2.1
+HOU	Bryan Abreu	R	Middle Reliever			7 (L)		8 (Sv)	9	24	2	26	22.1	6.85	4	5	7	6	11.4%	28.2%	12.5	21.8%	9.7
+HOU	Steven Okert	L	Middle Reliever	28					11	39	3.1	32	32.1	2.78	0	7	7	4	11.4%	20.6%	7.2	7.9%	2.8
+HOU	Nate Pearson	R	Middle Reliever	15 (W)					33	48	4	7	8.2	3.12	1	0	1	1	13.2%	22.9%	8.3	11.4%	4.2
+HOU	Alimber Santa	R	Middle Reliever				27			27	2	6	10	0.90	0	0	1	0	9.4%	20.5%	7.2	12.8%	4.5
+HOU	AJ Blubaugh	R	Long Reliever	38			34			72	4	28	44.2	4.03	0	3	7	2	11.7%	20.6%	7.9	13.2%	5.0
 HOU	Bennett Sousa	L	15-Day IL							0	0	5	3.1	8.10	0	0	0	2	8.2%	23.5%	10.8	29.4%	13.5
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Kansas City Royals				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-KCR	Alex Lange	R	Closer		19 (Sv)			28 (Sv)		47	2	29	31	4.06	4	1	4	5	13.4%	25.2%	9.9	13.3%	5.2
-KCR	Lucas Erceg	R	Setup Man				15 (Sv)	15		30	1.1	27	24.1	6.29	12	2	13	8	8.7%	19.0%	8.1	15.5%	6.7
-KCR	Daniel Lynch IV	L	Setup Man		13 (H)			12		25	2	28	28	1.93	1	8	15	3	14.8%	25.4%	9.3	7.9%	2.9
-KCR	Matt Strahm	L	Middle Reliever					16 (W)		16	1	21	20.1	4.43	0	9	10	5	10.3%	20.7%	8.0	8.0%	3.1
-KCR	John Schreiber	R	Closer Committee		10 (H)		7			17	1.1	30	27	2.67	1	4	8	7	7.6%	16.5%	6.0	10.1%	3.7
-KCR	Steven Cruz	R	Middle Reliever		10 (W)				18	28	2.2	17	17.2	6.62	0	0	2	3	15.5%	30.5%	12.7	14.6%	6.1
-KCR	Beck Way	R	Middle Reliever				15		13	28	1.1	2	1.1	27.00	0	0	0	1	10.7%	22.2%	13.5	11.1%	6.8
-KCR	Mason Black	R	Long Reliever				10			10	1	9	11.1	2.38	0	0	0	1	8.6%	24.0%	9.5	10.0%	4.0
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+KCR	Alex Lange	R	Closer			32 (L)	19 (Sv)			51	2	29	31	4.06	4	1	4	5	13.4%	25.2%	9.9	13.3%	5.2
+KCR	Lucas Erceg	R	Setup Man	43		16 (H)			15 (Sv)	74	2.2	28	26.1	5.81	12	2	13	8	8.8%	17.7%	7.5	15.3%	6.5
+KCR	Daniel Lynch IV	L	Setup Man			17 (BS)	13 (H)			30	1.1	28	28	1.93	1	8	15	3	14.8%	25.4%	9.3	7.9%	2.9
+KCR	Matt Strahm	L	Middle Reliever	14		21 (BS)				35	2	22	21.1	4.64	0	9	10	6	10.1%	19.8%	7.6	7.7%	3.0
+KCR	John Schreiber	R	Closer Committee			18	10 (H)		7	35	2.2	30	27	2.67	1	4	8	7	7.6%	16.5%	6.0	10.1%	3.7
+KCR	Steven Cruz	R	Middle Reliever	21		19	10 (W)			50	4	18	19.2	5.95	0	0	2	3	15.1%	29.5%	11.9	13.6%	5.5
+KCR	Beck Way	R	Middle Reliever		32				15	47	2.1	3	3.1	10.80	0	0	0	1	8.3%	35.3%	16.2	5.9%	2.7
+KCR	Eli Morgan	R	Middle Reliever	13	AAA	AAA	AAA	AAA	AAA	13	1	14	17.1	5.19	1	0	0	3	11.1%	17.9%	7.8	9.5%	4.2
+KCR	Mason Black	R	Long Reliever	48		39			10	97	4.1	10	13.2	2.63	0	0	0	1	8.6%	23.8%	9.9	12.7%	5.3
 KCR	Nick Mears	R	15-Day IL							0	0	21	19.1	5.12	0	5	8	6	7.6%	18.1%	7.0	13.3%	5.1
 KCR	Carlos Estévez	R	15-Day IL							0	0	1	0.1	162.00	0	0	0	1	3.7%	0.0%	0.0	28.6%	54.0
 KCR	James McArthur	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Los Angeles Angels				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-LAA	Kirby Yates	R	Closer		12	24 (BS)			6 (L)	42	2	13	11.1	4.76	1	0	1	5	13.2%	30.0%	11.9	10.0%	4.0
-LAA	Sam Bachman	R	Setup Man			16 (H)	8		16	40	2.1	25	31.2	1.99	0	11	14	2	15.6%	26.8%	9.7	11.8%	4.3
-LAA	Chase Silseth	R	Setup Man				21		20	41	2	29	23.2	1.90	0	5	6	5	14.1%	23.3%	9.1	14.6%	5.7
-LAA	Drew Pomeranz	L	Middle Reliever		6		20	9		35	2.2	24	21.1	5.06	0	7	7	7	10.6%	16.0%	6.8	12.0%	5.1
-LAA	Ryan Zeferjahn	R	Middle Reliever			25		34		59	3	26	31.2	5.12	1	5	7	6	10.6%	27.6%	11.4	16.6%	6.8
-LAA	Brent Suter	L	Middle Reliever		35			55		90	4.2	25	37.2	4.54	0	3	1	5	9.0%	21.2%	7.9	8.3%	3.1
-LAA	Samy Natera Jr.	L	Middle Reliever			9		31		40	2.2	2	2.2	0.00	0	0	1	0	15.0%	44.4%	13.5	11.1%	3.4
-LAA	Mitch Farris	L	Middle Reliever				16			16	1	11	24.2	2.92	0	0	3	0	10.0%	23.6%	9.1	10.4%	4.0
-LAA	Sam Aldegheri	L	Long Reliever			8 (L)		AAA	AAA	8	1	4	12	2.25	0	0	0	0	11.1%	15.7%	6.0	9.8%	3.8
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+LAA	Kirby Yates	R	Closer				12	24 (BS)		36	2	13	11.1	4.76	1	0	1	5	13.2%	30.0%	11.9	10.0%	4.0
+LAA	Sam Bachman	R	Setup Man			9		16 (H)	8	33	2.1	25	31.2	1.99	0	11	14	2	15.6%	26.8%	9.7	11.8%	4.3
+LAA	Chase Silseth	R	Setup Man	16 (H)		15 (BS)			21	52	3	30	24.2	1.82	0	6	7	5	14.4%	24.3%	9.5	14.0%	5.5
+LAA	Drew Pomeranz	L	Middle Reliever				6		20	26	1.1	24	21.1	5.06	0	7	7	7	10.6%	16.0%	6.8	12.0%	5.1
+LAA	Ryan Zeferjahn	R	Middle Reliever	9 (Sv)		21 (W)		25		55	2.1	27	32	5.06	2	5	8	6	10.6%	27.9%	11.5	17.0%	7.0
+LAA	Brent Suter	L	Middle Reliever				35			35	2	25	37.2	4.54	0	3	1	5	9.0%	21.2%	7.9	8.3%	3.1
+LAA	Samy Natera Jr.	L	Middle Reliever					9		9	0.2	2	2.2	0.00	0	0	1	0	15.0%	44.4%	13.5	11.1%	3.4
+LAA	Mitch Farris	L	Long Reliever	48 (H)					16	64	3.2	12	27.1	2.96	0	1	3	0	10.2%	22.7%	8.9	10.9%	4.3
 LAA	Ben Joyce	R	60-Day IL							0	0												
 LAA	Robert Stephenson	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Minnesota Twins				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-MIN	Yoendrys Gómez	R	Closer					14		14	0.2	26	32.1	3.90	5	5	8	0	11.0%	22.4%	8.9	11.9%	4.7
-MIN	Anthony Banda	L	Setup Man						14 (H)	14	1	32	29	4.66	1	9	9	5	11.2%	21.1%	8.4	10.2%	4.0
-MIN	Travis Adams	R	Setup Man						16 (Sv)	16	1	10	13.1	7.43	2	1	2	1	11.2%	25.8%	10.8	9.7%	4.1
-MIN	Eric Orze	R	Middle Reliever		23			17 (L,B)		40	2	27	31.2	4.55	1	6	10	4	9.8%	19.9%	8.0	10.6%	4.3
-MIN	Taylor Rogers	L	Middle Reliever		17			15		32	1.1	30	26.1	4.78	2	5	9	7	7.0%	18.3%	7.2	6.1%	2.4
-MIN	Andrew Morris	R	Middle Reliever				42			42	1.1	20	29	5.59	1	5	4	6	9.7%	22.6%	9.6	8.0%	3.4
-MIN	Justin Lawrence	R	Middle Reliever		26		12			38	2	27	25.2	4.91	0	2	2	7	11.0%	24.6%	10.9	13.5%	6.0
-MIN	Cody Laweryson	R	Long Reliever		12		36			48	3	9	11.1	5.56	1	2	3	0	7.0%	30.0%	11.9	10.0%	4.0
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+MIN	Yoendrys Gómez	R	Closer Committee	15		27 (Sv)				42	1.1	27	32.2	4.13	5	5	8	1	10.9%	21.8%	8.8	11.6%	4.7
+MIN	Anthony Banda	L	Closer Committee	9 (W)		30 (H)				39	1.1	33	29.2	4.55	1	9	10	5	11.2%	20.6%	8.2	9.9%	3.9
+MIN	Andrew Morris	R	Closer Committee	9 (Sv)		39			42	90	3.2	21	30	5.40	2	5	5	6	9.6%	22.1%	9.3	7.9%	3.3
+MIN	Travis Adams	R	Closer Committee			31 (H)				31	1.1	10	13.1	7.43	2	1	2	1	11.2%	25.8%	10.8	9.7%	4.1
+MIN	Taylor Rogers	L	Middle Reliever	22 (H)		14 (W)	17			53	1.1	31	27	5.33	2	6	9	7	7.1%	19.3%	7.7	7.6%	3.0
+MIN	Eric Orze	R	Middle Reliever	16 (BS)			23			39	1.1	28	32	5.06	1	6	10	5	9.6%	20.0%	8.2	11.0%	4.5
+MIN	Justin Lawrence	R	Middle Reliever				26		12	38	2	27	25.2	4.91	0	2	2	7	11.0%	24.6%	10.9	13.5%	6.0
+MIN	Cody Laweryson	R	Long Reliever		32		12		36	80	4	10	12.1	5.84	1	2	3	0	7.4%	28.6%	11.7	10.7%	4.4
 MIN	Cole Sands	R	15-Day IL							0	0	12	11.2	4.63	1	3	2	3	11.0%	22.0%	8.5	8.0%	3.1
 MIN	Garrett Acton	R	60-Day IL							0	0	4	6.2	2.70	0	0	0	1	13.0%	32.1%	12.2	10.7%	4.1
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 New York Yankees				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-NYY	David Bednar	R	Closer			27 (W)	11			38	2.2	27	27.2	3.90	13	0	10	4	14.5%	26.8%	10.7	9.8%	3.9
-NYY	Fernando Cruz	R	Setup Man		25 (Sv)		11			36	1.1	32	29.1	1.84	1	11	13	3	17.8%	30.8%	11.4	12.5%	4.6
-NYY	Brent Headrick	L	Setup Man			17	9			26	0.4	33	32	1.97	0	7	14	4	15.3%	25.7%	9.8	9.6%	3.7
-NYY	Tim Hill	L	Middle Reliever		1	11	11 (W)			23	2.1	32	26.1	4.10	0	8	12	6	5.1%	11.7%	4.4	5.4%	2.1
-NYY	Camilo Doval	R	Middle Reliever		8 (W)	14			9	31	2.1	29	24.2	5.47	1	3	4	7	11.1%	20.4%	7.7	3.9%	1.5
-NYY	Jake Bird	R	Middle Reliever		15 (H)	17				32	0.1	24	19	4.74	0	7	5	4	12.7%	25.9%	10.4	8.2%	3.3
-NYY	Ryan Yarbrough	L	Middle Reliever			12				12	0.2	14	23.1	3.47	1	0	0	2	9.4%	18.4%	6.9	10.2%	3.9
-NYY	Paul Blackburn	R	Long Reliever		24	14 (BS)			21	59	3.4	20	30.1	2.97	0	0	2	2	8.1%	16.5%	6.2	8.7%	3.3
-NYY	Angel Chivilli	R	15-Day IL							0	0	2	2.1	3.86	0	0	0	1	11.7%	23.1%	11.6	23.1%	11.6
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+NYY	David Bednar	R	Closer					27 (W)	11	38	2.2	27	27.2	3.90	13	0	10	4	14.5%	26.8%	10.7	9.8%	3.9
+NYY	Fernando Cruz	R	Setup Man	23			25 (Sv)		11	59	2.1	33	30.1	2.08	1	11	13	3	17.6%	31.2%	11.6	12.8%	4.7
+NYY	Brent Headrick	L	Setup Man	12		12		17	9	50	1.5	34	32.2	1.93	0	7	14	4	15.5%	25.7%	9.9	10.0%	3.9
+NYY	Tim Hill	L	Middle Reliever				1	11	11 (W)	23	2.1	32	26.1	4.10	0	8	12	6	5.1%	11.7%	4.4	5.4%	2.1
+NYY	Camilo Doval	R	Middle Reliever	18			8 (W)	14		40	2.1	30	25.2	5.26	1	3	4	7	10.8%	21.3%	8.1	4.6%	1.8
+NYY	Jake Bird	R	Middle Reliever	20			15 (H)	17		52	1.1	25	20	4.95	0	7	5	5	12.3%	25.6%	10.4	7.8%	3.2
+NYY	Ryan Yarbrough	L	Middle Reliever			27		12		39	2.2	14	23.1	3.47	1	0	0	2	9.4%	18.4%	6.9	10.2%	3.9
+NYY	Paul Blackburn	R	Long Reliever				24	14 (BS)		38	1.1	20	30.1	2.97	0	0	2	2	8.1%	16.5%	6.2	8.7%	3.3
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Seattle Mariners				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-SEA	Andrés Muñoz	R	Closer			20 (Sv)	19 (L,B)			39	1.1	26	24.1	5.18	10	0	11	8	18.8%	34.3%	13.7	9.3%	3.7
-SEA	José A. Ferrer	L	Setup Man		43 (W,B)		18 (H)	15		76	2.1	33	30	2.10	3	8	12	6	10.4%	19.7%	7.8	5.3%	2.1
-SEA	Eduard Bazardo	R	Middle Reliever			18	12 (H)		10	40	2.2	32	30.2	2.35	0	12	10	6	8.6%	20.2%	7.6	8.5%	3.2
-SEA	Gabe Speier	L	Middle Reliever		12 (H)		14 (H)	14		40	3	21	17.2	2.04	1	8	7	5	12.5%	22.7%	8.7	8.0%	3.1
-SEA	Nick Davila	R	Middle Reliever		14 (Sv)	AAA	AAA	AAA	AAA	14	1	8	8.1	0.00	1	1	3	0	6.6%	14.7%	5.4	17.6%	6.5
-SEA	Domingo Gonzalez	R	Middle Reliever		AAA	AAA	AAA	AAA	AAA	0	0	5	7.2	4.70	0	0	0	0	7.8%	13.9%	5.9	13.9%	5.9
-SEA	Alex Hoppe	R	Long Reliever		9 (H)				22	31	2	14	16.1	6.06	0	1	0	1	11.5%	23.0%	9.4	8.1%	3.3
-SEA	Matt Brash	R	15-Day IL			18 (H)		17		35	1.1	20	16.2	0.54	0	6	11	1	11.8%	23.4%	8.1	9.4%	3.2
-SEA	Cooper Criswell	R	15-Day IL			19	13			32	1.1	26	30.2	3.52	1	3	5	6	9.1%	19.0%	6.8	6.6%	2.3
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+SEA	Andrés Muñoz	R	Closer					20 (Sv)	19 (L,B)	39	1.1	26	24.1	5.18	10	0	11	8	18.8%	34.3%	13.7	9.3%	3.7
+SEA	José A. Ferrer	L	Setup Man				43 (W,B)		18 (H)	61	1.1	33	30	2.10	3	8	12	6	10.4%	19.7%	7.8	5.3%	2.1
+SEA	Eduard Bazardo	R	Middle Reliever					18	12 (H)	30	2	32	30.2	2.35	0	12	10	6	8.6%	20.2%	7.6	8.5%	3.2
+SEA	Gabe Speier	L	Middle Reliever				12 (H)		14 (H)	26	2	21	17.2	2.04	1	8	7	5	12.5%	22.7%	8.7	8.0%	3.1
+SEA	Alex Hoppe	R	Middle Reliever		28		9 (H)			37	2.2	15	18	5.50	0	1	0	1	11.4%	23.5%	9.5	9.9%	4.0
+SEA	Nick Davila	R	Middle Reliever		18		14 (Sv)	AAA	AAA	32	2.1	9	9.2	0.00	1	1	3	0	7.1%	15.8%	5.6	15.8%	5.6
+SEA	Michael Rucker	R	Long Reliever	9		AAA	AAA	AAA	AAA	9	1	1	1	0.00	0	0	0	0	11.1%	33.3%	9.0	0.0%	0.0
+SEA	Matt Brash	R	15-Day IL					18 (H)		18	0.2	20	16.2	0.54	0	6	11	1	11.8%	23.4%	8.1	9.4%	3.2
+SEA	Cooper Criswell	R	15-Day IL					19	13	32	1.1	26	30.2	3.52	1	3	5	6	9.1%	19.0%	6.8	6.6%	2.3
 SEA	Carlos Vargas	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Tampa Bay Rays				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-TBR	Bryan Baker	R	Closer		13 (Sv)	12 (Sv)				25	2	29	27.1	1.98	18	1	13	4	15.5%	27.5%	9.9	10.1%	3.6
-TBR	Kevin Kelly	R	Setup Man		6 (H)	16 (H)		21		43	2.2	29	29.2	2.43	2	14	18	4	7.1%	20.0%	6.7	5.5%	1.8
-TBR	Garrett Cleavinger	L	Setup Man			13 (H)	23 (L,B)			36	2	17	15.1	4.70	2	8	6	5	10.6%	30.9%	12.3	13.2%	5.3
-TBR	Casey Legumina	R	Middle Reliever			12 (W)		24		36	3.1	22	29.1	3.07	0	3	3	1	9.8%	18.0%	6.8	4.9%	1.8
-TBR	Cam Booser	L	Middle Reliever			10 (H)			20	30	2	3	4	0.00	0	1	1	0	17.5%	35.7%	11.3	7.1%	2.3
-TBR	Cole Sulser	R	Middle Reliever				15		15	30	2	23	25.2	5.26	2	4	5	3	11.0%	19.7%	8.1	9.4%	3.9
-TBR	Steven Matz	L	Middle Reliever				38			38	1	12	47.1	5.89	0	0	0	2	9.4%	18.1%	7.0	9.3%	3.6
-TBR	Ian Seymour	L	Long Reliever			55				55	4	27	35	4.89	2	9	10	2	13.6%	25.7%	9.8	10.8%	4.1
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TBR	Bryan Baker	R	Closer				13 (Sv)	12 (Sv)		25	2	29	27.1	1.98	18	1	13	4	15.5%	27.5%	9.9	10.1%	3.6
+TBR	Kevin Kelly	R	Setup Man				6 (H)	16 (H)		22	1.1	29	29.2	2.43	2	14	18	4	7.1%	20.0%	6.7	5.5%	1.8
+TBR	Garrett Cleavinger	L	Setup Man			23 (Sv)		13 (H)	23 (L,B)	59	3	17	15.1	4.70	2	8	6	5	10.6%	30.9%	12.3	13.2%	5.3
+TBR	Casey Legumina	R	Middle Reliever			2 (H)		12 (W)		14	1.2	22	29.1	3.07	0	3	3	1	9.8%	18.0%	6.8	4.9%	1.8
+TBR	Cam Booser	L	Middle Reliever					10 (H)		10	1	3	4	0.00	0	1	1	0	17.5%	35.7%	11.3	7.1%	2.3
+TBR	Cole Sulser	R	Middle Reliever			18			15	33	1.1	23	25.2	5.26	2	4	5	3	11.0%	19.7%	8.1	9.4%	3.9
+TBR	Steven Matz	L	Middle Reliever			9			38	47	1.1	12	47.1	5.89	0	0	0	2	9.4%	18.1%	7.0	9.3%	3.6
+TBR	Mason Englert	R	Long Reliever	65						65	4	12	25	3.96	1	0	2	0	11.5%	17.3%	6.8	5.5%	2.2
+TBR	Ian Seymour	L	Long Reliever					55		55	4	27	35	4.89	2	9	10	2	13.6%	25.7%	9.8	10.8%	4.1
 TBR	Craig Kimbrel	R	15-Day IL							0	0	15	16	5.63	0	1	2	2	13.1%	25.0%	9.6	8.8%	3.4
 TBR	Jesse Scholtens	R	15-Day IL							0	0	9	37.2	3.82	0	0	4	2	8.8%	18.3%	7.2	6.7%	2.6
 TBR	Michael Grove	R	60-Day IL							0	0												
@@ -193,124 +192,123 @@ TBR	Steven Wilson	R	60-Day IL							0	0
 TBR	Manuel Rodríguez	R	60-Day IL							0	0												
 TBR	Jonathan Heasley	R	60-Day IL							0	0	1	4	11.25	0	0	0	0	4.7%	10.5%	4.5	0.0%	0.0
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Texas Rangers				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-TEX	Jacob Latz	L	Closer						35 (Sv)	35	2	24	30	1.80	10	2	10	4	13.4%	27.3%	9.0	6.4%	2.1
-TEX	Jakob Junis	R	Setup Man							0	0	24	28.2	1.57	4	6	11	1	7.9%	18.5%	6.3	4.6%	1.6
-TEX	Cole Winn	R	Setup Man		8	IL	IL	IL	IL	8	0.2	23	20	5.40	1	5	4	2	14.6%	25.3%	10.4	7.7%	3.2
-TEX	Tyler Alexander	L	Middle Reliever				8			8	1	29	28	3.21	2	6	7	5	7.3%	18.0%	7.1	6.6%	2.6
-TEX	Jalen Beeks	L	Middle Reliever		14				7 (H)	21	0.1	29	26	3.81	0	6	6	6	10.6%	18.6%	7.3	7.1%	2.8
-TEX	Peyton Gray	R	Middle Reliever				19		25 (W)	44	2.2	15	21.1	3.38	0	2	3	2	11.0%	22.3%	8.9	7.4%	3.0
-TEX	Robby Ahlstrom	L	Middle Reliever		14			25		39	3	3	4.1	0.00	0	0	0	0	7.1%	13.3%	4.2	0.0%	0.0
-TEX	Cal Quantrill	R	Long Reliever					39		39	2.1	12	24.2	2.19	0	0	2	1	6.9%	17.0%	6.2	9.0%	3.3
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEX	Jacob Latz	L	Closer		15 (W)	17 (Sv)				32	3	25	32	1.69	10	2	11	4	13.4%	28.4%	9.3	6.0%	2.0
+TEX	Jakob Junis	R	Setup Man			21 (W)				21	2	24	28.2	1.57	4	6	11	1	7.9%	18.5%	6.3	4.6%	1.6
+TEX	Cole Winn	R	Setup Man		12 (H)		8	IL	IL	20	1.1	24	21	5.14	1	6	5	2	14.1%	24.5%	9.9	8.5%	3.4
+TEX	Tyler Alexander	L	Middle Reliever			11			8	19	2	29	28	3.21	2	6	7	5	7.3%	18.0%	7.1	6.6%	2.6
+TEX	Robby Ahlstrom	L	Middle Reliever		14		14			28	2.1	4	5.2	0.00	0	0	1	0	8.6%	15.8%	4.8	0.0%	0.0
+TEX	Peyton Gray	R	Middle Reliever			20			19	39	2	15	21.1	3.38	0	2	3	2	11.0%	22.3%	8.9	7.4%	3.0
+TEX	Luis Curvelo	R	Middle Reliever	26		AAA	AAA	AAA	10	36	2	8	8.1	7.56	0	1	1	1	12.0%	9.8%	4.3	7.3%	3.2
+TEX	Cal Quantrill	R	Long Reliever	38						38	2	13	26.2	2.36	0	0	2	1	7.2%	16.5%	6.1	8.3%	3.0
 TEX	Chris Martin	R	15-Day IL							0	0	12	10.1	7.84	0	1	2	3	8.3%	14.3%	6.1	4.1%	1.7
+TEX	Jalen Beeks	L	15-Day IL				14			14	0.2	29	26	3.81	0	6	6	6	10.6%	18.6%	7.3	7.1%	2.8
 TEX	Robert Garcia	L	60-Day IL							0	0	9	8	3.38	0	2	2	2	11.1%	17.6%	6.8	20.6%	7.9
 TEX	Carter Baumler	R	60-Day IL							0	0	4	5.2	3.18	0	0	0	0	12.0%	22.2%	9.5	22.2%	9.5
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Toronto Blue Jays				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-TOR	Louis Varland	R	Closer		16 (W)		17 (Sv)	8 (Sv)		41	3.1	32	35.2	0.50	11	5	16	2	12.1%	33.6%	11.6	7.3%	2.5
-TOR	Tyler Rogers	R	Setup Man				17 (H)	10 (H)		27	2.1	32	31	2.03	2	14	14	2	7.0%	14.6%	5.2	8.1%	2.9
-TOR	Jeff Hoffman	R	Setup Man		15			13		28	1.1	32	29.1	5.83	5	7	11	8	18.6%	36.5%	15.3	8.0%	3.4
-TOR	Braydon Fisher	R	Middle Reliever					18		18	1	34	35.2	2.78	1	7	12	6	12.6%	27.5%	9.6	10.1%	3.5
-TOR	Mason Fluharty	L	Middle Reliever		8			21 (H)		29	2	36	26.2	4.05	0	8	7	6	12.7%	31.3%	12.2	8.7%	3.4
-TOR	Tommy Nance	R	Middle Reliever			11	IL	IL	IL	11	1	22	23	3.52	0	1	2	2	11.3%	28.0%	10.2	8.6%	3.1
-TOR	Spencer Miles	R	Middle Reliever					73 (W)		73	4	18	42.1	3.40	0	0	5	2	9.3%	24.0%	8.7	7.6%	2.8
-TOR	Simeon Woods Richardson	R	Long Reliever			48				48	4	13	51.2	7.14	0	0	1	0	7.1%	12.1%	5.1	10.4%	4.4
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TOR	Louis Varland	R	Closer	16 (Sv)			16 (W)		17 (Sv)	49	3.1	33	36.2	0.49	12	5	16	2	12.3%	34.3%	11.8	7.1%	2.5
+TOR	Tyler Rogers	R	Setup Man	7 (H)		14			17 (H)	38	3.1	33	32	1.97	2	15	15	2	7.1%	15.1%	5.3	7.9%	2.8
+TOR	Jeff Hoffman	R	Setup Man			21	15			36	2	32	29.1	5.83	5	7	11	8	18.6%	36.5%	15.3	8.0%	3.4
+TOR	Braydon Fisher	R	Middle Reliever	26 (H)		27				53	1.1	35	36.2	2.70	1	8	13	6	12.1%	27.1%	9.6	10.4%	3.7
+TOR	Mason Fluharty	L	Middle Reliever	13 (H)		17	8			38	2.2	37	27.2	3.90	0	9	7	6	12.8%	31.1%	12.0	8.4%	3.3
+TOR	Tommy Nance	R	Middle Reliever			16		11	IL	27	2	22	23	3.52	0	1	2	2	11.3%	28.0%	10.2	8.6%	3.1
+TOR	Spencer Miles	R	Middle Reliever			17				17	1.1	18	42.1	3.40	0	0	5	2	9.3%	24.0%	8.7	7.6%	2.8
+TOR	Simeon Woods Richardson	R	Long Reliever					48		48	4	13	51.2	7.14	0	0	1	0	7.1%	12.1%	5.1	10.4%	4.4
 TOR	Yimi García	R	60-Day IL							0	0												
 TOR	Joe Mantiply	L	60-Day IL							0	0	17	17.2	2.04	0	0	2	1	8.0%	22.5%	8.2	5.6%	2.0
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Arizona Diamondbacks				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-ARI	Paul Sewald	R	Closer							0	0	26	23.1	3.47	15	0	12	4	12.4%	29.5%	10.0	6.8%	2.3
-ARI	Kevin Ginkel	R	Setup Man		8		16			24	1.1	28	25.2	2.81	0	4	9	6	13.0%	29.4%	10.5	5.9%	2.1
-ARI	Juan Morillo	R	Setup Man					10		10	0.2	29	26	2.42	1	8	13	6	15.6%	31.2%	11.8	10.1%	3.8
-ARI	Jonathan Loáisiga	R	Middle Reliever					17		17	1	28	25	3.24	1	4	6	5	10.5%	15.5%	5.8	6.8%	2.5
-ARI	Taylor Clarke	R	Middle Reliever		22		8			30	1.1	30	27.2	2.28	0	11	9	3	8.9%	13.2%	4.6	4.7%	1.6
-ARI	Ryan Thompson	R	Middle Reliever		9					9	1	27	22.1	2.42	0	5	6	3	8.2%	15.2%	5.6	7.6%	2.8
-ARI	Brandyn Garcia	L	Middle Reliever		17 (L)					17	0.2	16	13.2	3.29	0	5	5	2	7.5%	21.2%	7.2	5.8%	2.0
-ARI	Drey Jameson	R	Long Reliever					26	AAA	26	1	2	3.2	4.91	0	0	0	0	11.1%	11.8%	4.9	17.6%	7.4
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+ARI	Paul Sewald	R	Closer	13 (Sv)	16					29	2	28	25.1	3.20	16	0	12	4	12.0%	29.5%	9.9	6.3%	2.1
+ARI	Kevin Ginkel	R	Setup Man	20 (W)			8		16	44	2.1	29	26.2	2.70	0	4	10	6	13.6%	28.0%	10.1	6.5%	2.4
+ARI	Juan Morillo	R	Setup Man			5				5	0.1	29	26	2.42	1	8	13	6	15.6%	31.2%	11.8	10.1%	3.8
+ARI	Jonathan Loáisiga	R	Middle Reliever	11		6				17	2	29	26	3.12	1	4	6	5	10.7%	16.0%	5.9	6.6%	2.4
+ARI	Taylor Clarke	R	Middle Reliever	36			22		8	66	3.2	31	29.2	2.12	0	11	10	3	9.1%	14.0%	4.9	6.1%	2.1
+ARI	Ryan Thompson	R	Middle Reliever	18			9			27	2.1	28	23.2	2.28	0	5	7	3	7.8%	15.5%	5.7	8.2%	3.0
+ARI	Brandyn Garcia	L	Middle Reliever		15		17 (L)			32	1.1	17	14.2	3.07	0	5	5	2	8.5%	23.2%	8.0	7.1%	2.5
+ARI	Drey Jameson	R	Long Reliever			28				28	2.2	2	3.2	4.91	0	0	0	0	11.1%	11.8%	4.9	17.6%	7.4
 ARI	A.J. Puk	L	60-Day IL							0	0												
 ARI	Justin Martinez	R	60-Day IL							0	0												
 ARI	Andrew Saalfrank	L	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Atlanta Braves				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-ATL	Raisel Iglesias	R	Closer		24 (L)			20 (Sv)	20 (Sv)	64	3.2	21	22.1	1.21	13	0	9	1	15.5%	30.6%	10.5	4.7%	1.6
-ATL	Robert Suarez	R	Setup Man		7				10 (H)	17	2	29	29.2	0.61	4	10	14	2	12.9%	22.5%	7.6	4.5%	1.5
-ATL	Dylan Lee	L	Setup Man					20 (H)	12 (H)	32	2	32	31	1.16	0	13	13	3	19.5%	34.8%	11.3	4.5%	1.5
-ATL	Didier Fuentes	R	Middle Reliever				20 (Sv)		9 (H)	29	2	19	27	2.33	1	3	7	1	12.1%	27.3%	10.0	8.2%	3.0
-ATL	Dylan Dodd	L	Middle Reliever		31			20 (H)		51	2.2	10	14.1	1.26	1	1	2	1	14.2%	31.5%	10.7	7.4%	2.5
-ATL	James Karinchak	R	Middle Reliever		AAA	AAA	AAA	AAA	AAA	0	0	1	1	0.00	0	0	0	0	10.5%	25.0%	9.0	0.0%	0.0
-ATL	Reynaldo López	R	Middle Reliever				27 (W)			27	1.1	15	37.2	4.06	0	1	2	1	8.4%	20.5%	8.1	10.8%	4.3
-ATL	JR Ritchie	R	Long Reliever		AAA	AAA	AAA	AAA	AAA	0	0	5	25.2	4.56	0	0	0	0	8.5%	18.4%	7.4	14.0%	5.6
-ATL	Tyler Kinley	R	15-Day IL				17 (H)	25 (H)		42	1.1	31	28.1	3.18	0	9	7	3	11.8%	26.1%	9.8	8.4%	3.2
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+ATL	Raisel Iglesias	R	Closer				24 (L)			24	1.1	21	22.1	1.21	13	0	9	1	15.5%	30.6%	10.5	4.7%	1.6
+ATL	Robert Suarez	R	Setup Man				7			7	1	29	29.2	0.61	4	10	14	2	12.9%	22.5%	7.6	4.5%	1.5
+ATL	Dylan Lee	L	Setup Man			3				3	0.1	32	31	1.16	0	13	13	3	19.5%	34.8%	11.3	4.5%	1.5
+ATL	Didier Fuentes	R	Middle Reliever			13			20 (Sv)	33	2	19	27	2.33	1	3	7	1	12.1%	27.3%	10.0	8.2%	3.0
+ATL	Dylan Dodd	L	Middle Reliever				31			31	1.1	10	14.1	1.26	1	1	2	1	14.2%	31.5%	10.7	7.4%	2.5
+ATL	James Karinchak	R	Middle Reliever			19	AAA	AAA	AAA	19	1	1	1	0.00	0	0	0	0	10.5%	25.0%	9.0	0.0%	0.0
+ATL	Reynaldo López	R	Middle Reliever						27 (W)	27	1.1	15	37.2	4.06	0	1	2	1	8.4%	20.5%	8.1	10.8%	4.3
+ATL	JR Ritchie	R	Long Reliever	73			AAA	AAA	AAA	73	5	6	30.2	3.82	0	0	0	0	8.8%	19.7%	7.6	13.6%	5.3
+ATL	Tyler Kinley	R	15-Day IL						17 (H)	17	0.2	31	28.1	3.18	0	9	7	3	11.8%	26.1%	9.8	8.4%	3.2
 ATL	Danny Young	L	60-Day IL							0	0												
 ATL	Joe Jiménez	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Chicago Cubs				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-CHC	Daniel Palencia	R	Closer				16	19		35	2	18	15.2	2.87	3	0	8	3	15.2%	23.9%	9.2	7.5%	2.9
-CHC	Jacob Webb	R	Setup Man				7	32		39	2.2	29	29.1	2.76	1	4	8	4	15.7%	27.8%	10.7	7.9%	3.1
-CHC	Caleb Thielbar	L	Setup Man					11	13	24	1.1	19	16.1	3.86	2	3	6	5	12.6%	27.1%	10.5	11.4%	4.4
-CHC	Hoby Milner	L	Middle Reliever		12				22	34	1.1	30	29	4.03	1	5	7	2	6.3%	12.4%	4.7	5.8%	2.2
-CHC	Phil Maton	R	Middle Reliever						27	27	1.1	24	21	6.86	0	4	4	6	10.2%	23.8%	10.3	10.9%	4.7
-CHC	Ryan Rolison	L	Middle Reliever		20			21 (W)		41	2.1	19	23	2.35	0	0	3	4	7.5%	23.9%	8.6	13.0%	4.7
-CHC	Ethan Roberts	R	Middle Reliever		16	AAA	AAA	AAA	29	45	2.2	15	19.1	1.86	0	0	1	2	9.8%	18.2%	6.5	10.4%	3.7
-CHC	Tyler Ferguson	R	Middle Reliever			AAA	AAA	AAA	AAA	0	0	1	1.1	27.00	0	0	0	0	11.5%	12.5%	6.8	0.0%	0.0
-CHC	Javier Assad	R	Long Reliever				72		AAA	72	6	9	32.1	4.73	0	0	3	1	5.5%	14.7%	5.3	6.2%	2.2
-CHC	Trent Thornton	R	Paternity List				17 (L)			17	1	12	16	1.69	0	0	2	2	9.3%	9.7%	3.4	11.3%	3.9
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+CHC	Daniel Palencia	R	Closer			18 (L)			16	34	1	18	15.2	2.87	3	0	8	3	15.2%	23.9%	9.2	7.5%	2.9
+CHC	Jacob Webb	R	Setup Man			12 (BS)			7	19	1.1	29	29.1	2.76	1	4	8	4	15.7%	27.8%	10.7	7.9%	3.1
+CHC	Caleb Thielbar	L	Setup Man			20 (H)				20	1.1	19	16.1	3.86	2	3	6	5	12.6%	27.1%	10.5	11.4%	4.4
+CHC	Hoby Milner	L	Middle Reliever	14	10		12			36	2.1	32	30.1	3.86	1	5	7	2	6.4%	11.8%	4.5	5.5%	2.1
+CHC	Phil Maton	R	Middle Reliever		8 (H)	12 (H)				20	1.1	25	22	6.55	0	5	5	6	10.7%	23.8%	10.2	10.5%	4.5
+CHC	Ryan Rolison	L	Middle Reliever		17		20			37	2.1	20	24	2.25	0	0	3	4	8.0%	25.0%	9.0	12.5%	4.5
+CHC	Trent Thornton	R	Middle Reliever	26					17 (L)	43	3	13	18	2.00	0	0	2	2	9.9%	11.6%	4.0	10.1%	3.5
+CHC	Ethan Roberts	R	Long Reliever				16	AAA	AAA	16	1	15	19.1	1.86	0	0	1	2	9.8%	18.2%	6.5	10.4%	3.7
 CHC	Riley Martin	L	60-Day IL							0	0	8	8.1	2.16	0	0	1	0	9.3%	32.3%	10.8	6.5%	2.2
 CHC	Hunter Harvey	R	60-Day IL							0	0	4	4	6.75	0	0	0	1	6.6%	22.2%	9.0	5.6%	2.3
 CHC	Porter Hodge	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Cincinnati Reds				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-CIN	Tony Santillan	R	Closer Committee		16		14	6		36	2.1	30	26	5.88	2	11	13	7	6.9%	21.4%	8.7	11.1%	4.5
-CIN	Brock Burke	L	Closer Committee		14		14		21	49	3.2	33	32	3.09	1	7	10	4	11.5%	21.7%	8.4	14.5%	5.6
-CIN	Sam Moll	L	Closer Committee		13		16 (L)	19 (L,B)		48	1.1	32	28	2.89	1	2	7	6	9.7%	25.6%	10.0	11.6%	4.5
-CIN	Caleb Ferguson	L	Middle Reliever		3		17			20	1.1	7	8	2.25	0	1	2	2	6.8%	24.2%	9.0	6.1%	2.3
-CIN	Tejay Antone	R	Middle Reliever		16 (W,B)	13		21 (H)		50	3.2	14	14	3.21	1	1	3	2	10.3%	23.3%	9.0	6.7%	2.6
-CIN	Zach Maxwell	R	Middle Reliever		9 (Sv)				29	38	1.1	7	7	11.57	1	1	2	2	5.9%	13.5%	6.4	13.5%	6.4
-CIN	Chase Petty	R	Middle Reliever		AAA	AAA	AAA	AAA	AAA	0	0	3	11.1	6.35	0	0	0	1	7.8%	4.2%	1.6	6.3%	2.4
-CIN	Chris Paddack	R	Long Reliever				33			33	2	11	47.2	7.17	0	0	0	1	9.5%	16.5%	7.0	7.6%	3.2
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+CIN	Tony Santillan	R	Closer Committee			9 (BS)	16		14	39	2.2	30	26	5.88	2	11	13	7	6.9%	21.4%	8.7	11.1%	4.5
+CIN	Brock Burke	L	Closer Committee	28 (L)			14		14	56	3.2	34	33	3.00	1	7	10	5	11.1%	20.7%	8.2	15.2%	6.0
+CIN	Sam Moll	L	Closer Committee				13		16 (L)	29	0.2	32	28	2.89	1	2	7	6	9.7%	25.6%	10.0	11.6%	4.5
+CIN	Caleb Ferguson	L	Middle Reliever			15 (H)	3		17	35	1.2	7	8	2.25	0	1	2	2	6.8%	24.2%	9.0	6.1%	2.3
+CIN	Tejay Antone	R	Middle Reliever	21			16 (W,B)	13		50	3.2	15	15.2	2.87	1	1	4	2	10.2%	21.5%	8.0	6.2%	2.3
+CIN	Zach Maxwell	R	Middle Reliever	32		24 (H)	9 (Sv)			65	3	8	8	10.13	1	1	3	2	5.9%	14.0%	6.8	16.3%	7.9
+CIN	Chase Petty	R	Middle Reliever			17 (L)	AAA	AAA	AAA	17	0.2	3	11.1	6.35	0	0	0	1	7.8%	4.2%	1.6	6.3%	2.4
+CIN	Chris Paddack	R	Long Reliever						33	33	2	11	47.2	7.17	0	0	0	1	9.5%	16.5%	7.0	7.6%	3.2
 CIN	Emilio Pagán	R	15-Day IL							0	0	15	14	6.43	6	0	7	4	11.4%	17.7%	7.1	9.7%	3.9
 CIN	Pierce Johnson	R	15-Day IL							0	0	24	22	3.27	1	4	6	3	9.5%	21.7%	8.2	8.7%	3.3
 CIN	Graham Ashcraft	R	60-Day IL							0	0	26	27	3.33	1	10	12	4	13.6%	29.4%	10.7	14.7%	5.3
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Colorado Rockies				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-COL	Antonio Senzatela	R	Closer		22				39 (BS)	61	2.2	20	38.1	2.11	3	2	11	3	11.1%	21.5%	7.5	7.4%	2.6
-COL	Juan Mejia	R	Setup Man					19	22 (L)	41	1.1	28	30.1	6.23	3	4	11	8	13.1%	24.5%	10.4	12.6%	5.3
-COL	Seth Halvorsen	R	Setup Man		14				13	27	1.1	15	15	2.40	0	2	3	0	10.4%	20.6%	8.4	16.2%	6.6
-COL	Brennan Bernardino	L	Middle Reliever		11			30	2	43	1.1	32	27.1	4.28	0	3	5	5	10.3%	16.9%	6.6	6.8%	2.6
-COL	Jaden Hill	R	Middle Reliever		14		22 (L,B)		13 (H)	49	2.1	27	23.1	5.01	0	11	11	7	13.0%	22.9%	9.6	12.8%	5.4
-COL	Jeff Criswell	R	Middle Reliever			AAA	AAA	AAA	AAA	0	0	1	1	0.00	0	0	1	0	20.0%	20.0%	9.0	20.0%	9.0
-COL	Sammy Peralta	L	Middle Reliever					AAA	AAA	0	0	1	0.2	27.00	0	0	0	0	0.0%	14.3%	13.5	28.6%	27.0
-COL	Blas Castaño	R	Long Reliever					46		46	2.2	7	15.2	3.45	0	0	1	1	9.2%	21.5%	8.0	9.2%	3.4
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+COL	Antonio Senzatela	R	Closer			14 (W,B)	22			36	2	20	38.1	2.11	3	2	11	3	11.1%	21.5%	7.5	7.4%	2.6
+COL	Juan Mejia	R	Setup Man			10				10	1	28	30.1	6.23	3	4	11	8	13.1%	24.5%	10.4	12.6%	5.3
+COL	Seth Halvorsen	R	Setup Man	22			14			36	1.1	16	15.2	3.45	0	2	3	1	11.0%	20.5%	8.6	16.4%	6.9
+COL	Brennan Bernardino	L	Middle Reliever	9		15	11			35	2.2	33	28	4.18	0	3	5	5	10.8%	18.2%	7.1	6.6%	2.6
+COL	Jaden Hill	R	Middle Reliever				14		22 (L,B)	36	1.1	27	23.1	5.01	0	11	11	7	13.0%	22.9%	9.6	12.8%	5.4
+COL	Jeff Criswell	R	Middle Reliever	24		25		AAA	AAA	49	2	2	2	0.00	0	0	2	0	12.2%	22.2%	9.0	22.2%	9.0
+COL	Zach Agnos	R	Middle Reliever	60 (L)						60	2.2	18	42.2	7.80	2	0	1	5	11.7%	14.9%	6.3	9.0%	3.8
+COL	Blas Castaño	R	Long Reliever		46					46	2.2	8	18.1	3.93	0	0	1	2	9.8%	20.8%	7.9	7.8%	2.9
 COL	Jimmy Herget	R	15-Day IL							0	0	15	16	5.06	1	3	6	2	13.9%	24.3%	9.6	5.7%	2.3
 COL	Victor Vodnik	R	15-Day IL							0	0	18	18	8.00	4	0	6	4	11.6%	17.8%	8.0	14.4%	6.5
 COL	Welinton Herrera	L	60-Day IL							0	0	3	2.1	0.00	0	0	0	0	8.9%	20.0%	7.7	10.0%	3.9
 COL	RJ Petit	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Los Angeles Dodgers				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-LAD	Tanner Scott	L	Closer		17				12	29	1.1	30	27.2	2.60	6	5	11	4	16.2%	30.8%	10.4	2.9%	1.0
-LAD	Will Klein	R	Setup Man		21 (W)					21	1.1	22	27	2.33	1	8	6	5	9.1%	27.0%	10.0	8.1%	3.0
-LAD	Alex Vesia	L	Setup Man				31			31	0.2	29	22	2.86	2	9	8	3	14.7%	33.3%	12.3	13.3%	4.9
-LAD	Blake Treinen	R	Middle Reliever		31		22		1 (W)	54	2.1	26	20.1	3.54	1	6	7	4	12.2%	24.7%	9.7	11.2%	4.4
-LAD	Edgardo Henriquez	R	Middle Reliever				24		18	42	2.2	23	24.2	2.92	0	4	5	2	12.3%	25.3%	9.1	9.1%	3.3
-LAD	Kyle Hurt	R	Middle Reliever				22			22	1.1	22	21.1	4.22	1	5	4	3	19.3%	30.7%	11.4	10.2%	3.8
-LAD	Jack Dreyer	L	Middle Reliever				17	14		31	2.1	25	26.2	3.04	0	3	3	4	11.1%	26.7%	9.5	5.7%	2.0
-LAD	Jonathan Hernández	R	Long Reliever				39			39	1.1	6	9.2	6.52	0	0	0	1	7.9%	22.5%	8.4	7.5%	2.8
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+LAD	Tanner Scott	L	Closer		18 (Sv)		17			35	2.1	31	29	2.48	7	5	12	4	16.4%	32.4%	10.9	2.8%	0.9
+LAD	Will Klein	R	Setup Man		22		21 (W)			43	2.1	23	28	2.25	1	8	6	5	9.1%	27.1%	10.3	8.5%	3.2
+LAD	Alex Vesia	L	Setup Man		4 (H)	9 (H)			31	44	0.4	30	22.1	2.82	2	10	8	3	15.0%	34.1%	12.5	13.2%	4.8
+LAD	Blake Treinen	R	Middle Reliever	16			31		22	69	2.2	27	21	3.86	1	6	7	5	11.6%	23.7%	9.4	10.8%	4.3
+LAD	Edgardo Henriquez	R	Middle Reliever	16	15				24	55	2.1	25	26.1	3.42	0	4	5	3	12.3%	26.2%	9.6	8.4%	3.1
+LAD	Kyle Hurt	R	Middle Reliever			20 (L,B)			22	42	1.2	22	21.1	4.22	1	5	4	3	19.3%	30.7%	11.4	10.2%	3.8
+LAD	Jack Dreyer	L	Middle Reliever		11 (W)	16			17	44	2.2	26	27.2	2.93	0	3	3	4	11.3%	27.8%	9.8	5.6%	2.0
+LAD	Jonathan Hernández	R	Long Reliever	46					39	85	3.2	7	11.2	5.40	0	0	0	1	7.6%	20.0%	7.7	14.0%	5.4
 LAD	Brock Stewart	R	15-Day IL							0	0	2	2	0.00	0	1	1	0	17.9%	42.9%	13.5	14.3%	4.5
 LAD	Ben Casparius	R	60-Day IL							0	0	5	4.2	9.64	0	0	0	1	12.1%	17.4%	7.7	17.4%	7.7
 LAD	Brusdar Graterol	R	60-Day IL							0	0												
@@ -319,134 +317,135 @@ LAD	Evan Phillips	R	60-Day IL							0	0
 LAD	Bobby Miller	R	60-Day IL							0	0												
 LAD	Jake Cousins	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Miami Marlins				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-MIA	Pete Fairbanks	R	Closer		24 (W)			39 (H)		63	1.1	20	18	7.00	7	2	6	5	12.3%	30.1%	12.5	13.3%	5.5
-MIA	Anthony Bender	R	Setup Man		11 (H)		24 (Sv)	22		57	2.1	28	27.1	2.96	2	6	7	4	7.5%	28.7%	10.2	8.3%	3.0
-MIA	Michael Petersen	R	Setup Man		26		17 (H)	26		69	3	25	26.1	3.42	1	8	8	4	11.5%	27.5%	10.3	11.9%	4.4
-MIA	Calvin Faucher	R	Middle Reliever		12 (BS)			36 (H)		48	2.2	27	26.2	3.71	1	5	9	8	8.9%	24.4%	10.1	17.9%	7.4
-MIA	John King	L	Middle Reliever					4 (W)		4	0.2	29	27.1	2.30	1	3	7	0	8.0%	19.8%	6.6	7.9%	2.6
-MIA	Cade Gibson	L	Middle Reliever							0	0	7	9.2	6.52	0	0	0	1	7.2%	21.3%	9.3	8.5%	3.7
-MIA	William Kempner	R	Middle Reliever						13	13	1.1	5	6.2	0.00	0	0	0	0	15.5%	32.0%	10.8	8.0%	2.7
-MIA	Lake Bachar	R	Middle Reliever					38		38	3	21	36.1	2.97	0	1	1	1	14.7%	28.5%	10.2	8.3%	3.0
-MIA	Tyler Zuber	R	Long Reliever		15 (H)			5 (Sv)	16	36	1.2	3	1.2	16.20	1	1	1	1	5.6%	30.0%	16.2	30.0%	16.2
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+MIA	Pete Fairbanks	R	Closer		13 (Sv)		24 (W)			37	2	21	19	6.63	8	2	7	5	12.1%	31.4%	12.8	12.8%	5.2
+MIA	Anthony Bender	R	Setup Man		19 (H)		11 (H)		24 (Sv)	54	2.2	29	28.1	2.86	2	7	8	4	7.9%	30.1%	10.8	8.8%	3.2
+MIA	Michael Petersen	R	Setup Man		14 (H)		26		17 (H)	57	3	26	27.1	3.29	1	9	9	4	11.6%	27.4%	10.2	11.5%	4.3
+MIA	Calvin Faucher	R	Middle Reliever		13 (H)		12 (BS)			25	1.1	28	27.2	3.58	1	6	10	8	9.3%	25.4%	10.4	17.5%	7.2
+MIA	John King	L	Middle Reliever	18						18	1	30	28.1	2.22	1	3	7	0	8.1%	21.0%	7.0	7.6%	2.5
+MIA	Cade Gibson	L	Middle Reliever			15				15	1	7	9.2	6.52	0	0	0	1	7.2%	21.3%	9.3	8.5%	3.7
+MIA	William Kempner	R	Middle Reliever			36 (W)				36	2	5	6.2	0.00	0	0	0	0	15.5%	32.0%	10.8	8.0%	2.7
+MIA	Lake Bachar	R	Middle Reliever			36				36	2	21	36.1	2.97	0	1	1	1	14.7%	28.5%	10.2	8.3%	3.0
+MIA	Tyler Zuber	R	Long Reliever				15 (H)			15	0.1	3	1.2	16.20	1	1	1	1	5.6%	30.0%	16.2	30.0%	16.2
 MIA	Josh Ekness	R	15-Day IL							0	0	6	5.1	1.69	1	0	0	1	6.1%	22.7%	8.4	22.7%	8.4
 MIA	Andrew Nardi	L	60-Day IL							0	0	25	22.2	5.16	0	8	10	5	13.2%	27.3%	10.7	11.1%	4.4
 MIA	Ronny Henriquez	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Milwaukee Brewers				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-MIL	Trevor Megill	R	Closer						18 (W,B)	18	1	25	24	4.50	8	6	10	4	16.5%	30.7%	11.6	6.9%	2.6
-MIL	Abner Uribe	R	Setup Man			15 (W)				15	1.1	25	23.2	3.80	5	7	12	4	8.5%	25.0%	9.5	10.0%	3.8
-MIL	Aaron Ashby	L	Setup Man			36			18	54	2.2	30	41	2.85	0	2	9	4	12.7%	31.6%	12.3	11.3%	4.4
-MIL	Chad Patrick	R	Middle Reliever			8 (Sv)	21			29	2.2	18	52.2	2.73	3	2	5	2	11.6%	19.2%	7.0	9.9%	3.6
-MIL	Grant Anderson	R	Middle Reliever			28		19		47	3.2	27	29.1	2.76	0	5	6	2	10.1%	21.1%	7.1	9.2%	3.1
-MIL	Drew Rom	L	Middle Reliever			25		17	AAA	42	2.1	2	2.1	3.86	0	0	0	0	14.3%	36.4%	15.4	0.0%	0.0
-MIL	Joel Kuhnel	R	Middle Reliever		23	20				43	2.2	27	28.1	4.45	4	4	8	4	10.7%	16.0%	6.0	5.9%	2.2
-MIL	Coleman Crow	R	Long Reliever		19					19	2	5	18.2	5.30	0	0	0	0	8.1%	11.8%	4.8	7.1%	2.9
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+MIL	Trevor Megill	R	Closer			17				17	1	25	24	4.50	8	6	10	4	16.5%	30.7%	11.6	6.9%	2.6
+MIL	Abner Uribe	R	Setup Man					15 (W)		15	1.1	25	23.2	3.80	5	7	12	4	8.5%	25.0%	9.5	10.0%	3.8
+MIL	Aaron Ashby	L	Setup Man			20		36		56	2.2	30	41	2.85	0	2	9	4	12.7%	31.6%	12.3	11.3%	4.4
+MIL	Chad Patrick	R	Middle Reliever			8 (L,B)		8 (Sv)	21	37	2.2	18	52.2	2.73	3	2	5	2	11.6%	19.2%	7.0	9.9%	3.6
+MIL	Grant Anderson	R	Middle Reliever					28		28	2.2	27	29.1	2.76	0	5	6	2	10.1%	21.1%	7.1	9.2%	3.1
+MIL	Drew Rom	L	Middle Reliever					25		25	1.1	2	2.1	3.86	0	0	0	0	14.3%	36.4%	15.4	0.0%	0.0
+MIL	Joel Kuhnel	R	Middle Reliever				23	20		43	2.2	27	28.1	4.45	4	4	8	4	10.7%	16.0%	6.0	5.9%	2.2
+MIL	Craig Yoho	R	Long Reliever		AAA	AAA	AAA	AAA	18	18	1	2	3	3.00	0	0	0	0	13.2%	41.7%	15.0	16.7%	6.0
 MIL	Jared Koenig	L	15-Day IL							0	0	3	2.1	0.00	0	1	1	1	10.9%	30.8%	15.4	15.4%	7.7
 MIL	DL Hall	L	15-Day IL							0	0	24	31	2.03	0	3	4	5	10.9%	25.4%	9.3	19.0%	7.0
 MIL	Rob Zastryzny	L	15-Day IL							0	0												
-MIL	Brian Fitzpatrick	L	60-Day IL						14	14	1	5	6.2	1.35	0	0	0	1	11.0%	16.7%	6.8	10.0%	4.1
+MIL	Brian Fitzpatrick	L	60-Day IL							0	0	5	6.2	1.35	0	0	0	1	11.0%	16.7%	6.8	10.0%	4.1
 MIL	Angel Zerpa	L	60-Day IL							0	0	12	12.2	6.39	2	2	5	4	6.0%	14.5%	5.7	10.9%	4.3
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 New York Mets				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-NYM	Devin Williams	R	Closer				20			20	1	24	21	5.57	8	0	12	3	18.2%	35.1%	14.1	14.9%	6.0
-NYM	Luke Weaver	R	Setup Man				18		7	25	2	27	29	2.48	0	7	17	3	12.4%	23.3%	8.4	6.9%	2.5
-NYM	Brooks Raley	L	Setup Man				14			14	1	27	24.1	1.48	0	10	13	5	11.2%	28.2%	10.7	10.7%	4.1
-NYM	Huascar Brazobán	R	Middle Reliever				22		17 (H)	39	2.1	28	33	2.18	0	5	11	4	12.2%	19.7%	7.1	11.4%	4.1
-NYM	A.J. Minter	L	Middle Reliever				13		14	27	2	6	5.1	0.00	0	0	1	1	14.1%	28.6%	10.1	4.8%	1.7
-NYM	Austin Warren	R	Middle Reliever					34 (L,B)		34	2	17	23.1	2.70	0	0	5	2	10.4%	24.5%	9.3	11.2%	4.2
-NYM	Cionel Pérez	L	Middle Reliever		7					7	1	20	21.1	5.06	0	5	7	3	9.2%	17.4%	6.8	12.0%	4.6
-NYM	Jonathan Pintaro	R	Middle Reliever		AAA	AAA	AAA	AAA	AAA	0	0	3	6.2	1.35	0	0	0	0	12.2%	22.7%	6.8	4.5%	1.4
-NYM	David Peterson	L	Long Reliever							0	0	14	61	5.75	1	0	2	3	9.5%	19.9%	8.4	9.1%	3.8
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+NYM	Devin Williams	R	Closer	33 (Sv)	16 (Sv)				20	69	3.1	26	23.1	5.01	10	0	14	3	17.7%	35.9%	14.3	13.6%	5.4
+NYM	Luke Weaver	R	Setup Man		11 (H)				18	29	2	28	30	2.40	0	8	18	3	12.5%	22.7%	8.1	6.7%	2.4
+NYM	Brooks Raley	L	Setup Man	22	20 (W)				14	56	2.2	29	26	2.08	0	10	14	5	11.1%	27.7%	10.7	10.7%	4.2
+NYM	Huascar Brazobán	R	Middle Reliever	19					22	41	2.2	29	34.2	2.08	0	5	11	4	12.7%	21.9%	7.8	10.9%	3.9
+NYM	A.J. Minter	L	Middle Reliever		14				13	27	2.1	7	6.2	0.00	0	0	2	1	15.2%	24.0%	8.1	4.0%	1.4
+NYM	Austin Warren	R	Middle Reliever			33 (L)				33	1	17	23.1	2.70	0	0	5	2	10.4%	24.5%	9.3	11.2%	4.2
+NYM	Cionel Pérez	L	Middle Reliever	15 (W)		16	7			38	3.2	21	22.2	5.16	0	5	7	3	8.8%	16.5%	6.4	11.3%	4.4
+NYM	Daniel Duarte	R	Middle Reliever			AAA	AAA	AAA	AAA	0	0	1	2.1	0.00	0	0	0	0	10.7%	14.3%	3.9	0.0%	0.0
+NYM	David Peterson	L	Long Reliever			64				64	3.2	14	61	5.75	1	0	2	3	9.5%	19.9%	8.4	9.1%	3.8
 NYM	Dedniel Núñez	R	60-Day IL							0	0												
 NYM	Reed Garrett	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Philadelphia Phillies				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-PHI	Jhoan Duran	R	Closer		8 (L,B)	9 (Sv)			16 (Sv)	33	2	24	22.2	1.99	17	0	13	3	18.3%	38.6%	13.5	5.7%	2.0
-PHI	Brad Keller	R	Setup Man			20 (H)			15 (H)	35	2	30	29.1	3.38	3	13	11	4	9.2%	24.4%	9.2	8.1%	3.1
-PHI	José Alvarado	L	Setup Man		12		28 (W)			40	1.1	30	24	5.25	1	8	11	3	13.8%	27.8%	12.0	7.8%	3.4
-PHI	Orion Kerkering	R	Middle Reliever		22		27			49	2.1	28	25.2	2.10	1	5	7	4	10.6%	26.6%	10.2	10.1%	3.9
-PHI	Jonathan Bowlan	R	Middle Reliever				19		21 (W,B)	40	3	20	20.2	3.92	0	1	2	6	13.5%	25.3%	9.1	4.8%	1.7
-PHI	Tanner Banks	L	Middle Reliever					27		27	2.1	22	23.2	6.08	0	2	3	4	11.8%	23.3%	10.3	9.5%	4.2
-PHI	Tim Mayza	L	Middle Reliever				16	9		25	1.1	25	29	3.41	0	1	0	4	10.1%	23.5%	8.4	6.1%	2.2
-PHI	Chase Shugart	R	Long Reliever					15		15	1	17	20.2	3.48	0	0	1	1	7.2%	27.4%	10.0	9.5%	3.5
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+PHI	Jhoan Duran	R	Closer			10 (Sv)	8 (L,B)	9 (Sv)		27	2	24	22.2	1.99	17	0	13	3	18.3%	38.6%	13.5	5.7%	2.0
+PHI	Brad Keller	R	Setup Man			3 (H)		20 (H)		23	1.1	30	29.1	3.38	3	13	11	4	9.2%	24.4%	9.2	8.1%	3.1
+PHI	José Alvarado	L	Setup Man			19 (H)	12		28 (W)	59	2.2	30	24	5.25	1	8	11	3	13.8%	27.8%	12.0	7.8%	3.4
+PHI	Orion Kerkering	R	Middle Reliever				22		27	49	2.1	28	25.2	2.10	1	5	7	4	10.6%	26.6%	10.2	10.1%	3.9
+PHI	Jonathan Bowlan	R	Middle Reliever			4			19	23	2.1	20	20.2	3.92	0	1	2	6	13.5%	25.3%	9.1	4.8%	1.7
+PHI	Tanner Banks	L	Middle Reliever	28 (L)						28	1	23	24.2	6.20	0	2	3	4	11.9%	23.8%	10.6	10.7%	4.7
+PHI	Tim Mayza	L	Middle Reliever	22					16	38	1.1	26	30	3.30	0	1	0	4	10.0%	24.4%	8.7	5.9%	2.1
+PHI	Chase Shugart	R	Long Reliever	12		21				33	1.1	18	21.2	3.32	0	0	1	1	7.0%	27.3%	10.0	9.1%	3.3
 PHI	Kyle Backhus	L	15-Day IL							0	0	10	9.2	4.66	0	0	1	0	6.8%	24.4%	9.3	2.4%	0.9
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Pittsburgh Pirates				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-PIT	Gregory Soto	L	Closer							0	0	30	29.1	3.38	9	6	17	3	10.5%	29.3%	10.4	10.3%	3.7
-PIT	Dennis Santana	R	Setup Man		31				7	38	2.1	29	27	5.00	2	4	9	4	10.5%	17.7%	7.3	12.9%	5.3
-PIT	Evan Sisk	L	Setup Man				26 (BS)		28	54	2.2	24	28.1	1.27	0	3	1	4	9.9%	31.3%	11.1	8.9%	3.2
-PIT	Mason Montgomery	L	Middle Reliever				25	20		45	2	26	25.2	4.56	0	7	8	3	14.4%	30.4%	11.9	12.5%	4.9
-PIT	Yohan Ramírez	R	Middle Reliever					23		23	2	28	36.2	4.66	1	3	8	4	11.3%	25.3%	10.1	11.1%	4.4
-PIT	Carmen Mlodzinski	R	Middle Reliever							0	0	13	62.2	4.02	1	0	3	1	8.3%	19.3%	7.5	8.5%	3.3
-PIT	Brandan Bidois	R	Middle Reliever		36				24	60	1.1	11	12	4.50	0	0	0	1	16.2%	25.0%	10.5	17.9%	7.5
-PIT	Wilber Dotel	R	Long Reliever		29 (L)					29	0	8	16.2	4.32	0	1	4	1	10.9%	25.4%	9.2	9.0%	3.2
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+PIT	Gregory Soto	L	Closer			8 (Sv)				8	1	30	29.1	3.38	9	6	17	3	10.5%	29.3%	10.4	10.3%	3.7
+PIT	Dennis Santana	R	Setup Man		16		31			47	2.1	30	28	4.82	2	4	9	4	10.2%	17.3%	7.1	12.6%	5.1
+PIT	Evan Sisk	L	Setup Man		31	8 (W)			26 (BS)	65	1.5	25	29	1.86	0	3	1	5	9.3%	30.3%	11.2	9.2%	3.4
+PIT	Mason Montgomery	L	Middle Reliever						25	25	1	26	25.2	4.56	0	7	8	3	14.4%	30.4%	11.9	12.5%	4.9
+PIT	Yohan Ramírez	R	Middle Reliever		35					35	2	29	38.2	4.42	1	3	9	4	10.8%	24.7%	9.8	11.8%	4.7
+PIT	Carmen Mlodzinski	R	Middle Reliever			76				76	3.2	13	62.2	4.02	1	0	3	1	8.3%	19.3%	7.5	8.5%	3.3
+PIT	Antwone Kelly	R	Middle Reliever	33	AAA	AAA	AAA	AAA	AAA	33	2.1	1	2.1	7.71	0	0	0	0	9.1%	11.1%	3.9	11.1%	3.9
+PIT	Wilber Dotel	R	Long Reliever	38 (L)			29 (L)			67	1.1	9	18.1	5.89	0	1	4	2	10.8%	24.1%	9.3	11.4%	4.4
 PIT	Chris Devenski	R	60-Day IL							0	0	3	2.1	7.71	0	0	0	1	10.3%	25.0%	11.6	0.0%	0.0
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 San Diego Padres				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-SDP	Mason Miller	R	Closer		14	19		17 (Sv)	17	67	3.2	28	28.2	0.94	18	0	16	1	21.5%	50.9%	17.6	10.9%	3.8
-SDP	Jason Adam	R	Setup Man		26	18 (H)		9 (H)		53	3	27	24	1.50	1	14	13	2	14.0%	17.0%	6.4	8.0%	3.0
-SDP	Adrian Morejon	L	Setup Man		34	13 (W)		13		60	3.1	31	34.1	4.19	1	11	17	8	17.4%	29.1%	10.7	5.0%	1.8
-SDP	Bradgley Rodriguez	R	Middle Reliever		17	17		11 (W)		45	2.2	28	31.1	2.01	0	3	5	7	13.9%	22.3%	8.3	7.7%	2.9
-SDP	David Morgan	R	Middle Reliever		29				34	63	3.2	13	17	4.76	0	0	2	3	14.6%	25.3%	11.1	14.5%	6.4
-SDP	Wandy Peralta	L	Middle Reliever				27			27	1	27	31.1	2.30	0	2	1	4	10.9%	15.2%	5.7	11.4%	4.3
-SDP	Yuki Matsui	L	Middle Reliever		14 (L)		25		3	42	2.2	13	19.2	1.83	0	0	1	2	18.2%	27.6%	9.6	11.8%	4.1
-SDP	Ron Marinaccio	R	Long Reliever				36			36	2.1	23	35.2	4.04	0	1	3	2	12.1%	21.2%	7.8	6.8%	2.5
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+SDP	Mason Miller	R	Closer				14	19		33	2	28	28.2	0.94	18	0	16	1	21.5%	50.9%	17.6	10.9%	3.8
+SDP	Jason Adam	R	Setup Man				26	18 (H)		44	2	27	24	1.50	1	14	13	2	14.0%	17.0%	6.4	8.0%	3.0
+SDP	Adrian Morejon	L	Setup Man				34	13 (W)		47	2.2	31	34.1	4.19	1	11	17	8	17.4%	29.1%	10.7	5.0%	1.8
+SDP	Bradgley Rodriguez	R	Middle Reliever				17	17		34	1.1	28	31.1	2.01	0	3	5	7	13.9%	22.3%	8.3	7.7%	2.9
+SDP	David Morgan	R	Middle Reliever	18			29			47	2.2	14	18.1	4.42	0	0	2	3	15.2%	26.1%	11.3	13.6%	5.9
+SDP	Wandy Peralta	L	Middle Reliever	30		14 (W)			27	71	3.2	28	33	2.18	0	2	1	4	11.0%	16.4%	6.3	12.1%	4.6
+SDP	Yuki Matsui	L	Middle Reliever				14 (L)		25	39	2.2	13	19.2	1.83	0	0	1	2	18.2%	27.6%	9.6	11.8%	4.1
+SDP	Ron Marinaccio	R	Long Reliever			24			36	60	3.2	23	35.2	4.04	0	1	3	2	12.1%	21.2%	7.8	6.8%	2.5
 SDP	Jeremiah Estrada	R	15-Day IL							0	0	21	20.2	3.48	1	6	9	4	14.2%	28.0%	10.0	12.2%	4.4
 SDP	Jhony Brito	R	60-Day IL							0	0												
 SDP	Bryan Hoeing	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 San Francisco Giants				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-SFG	Keaton Winn	R	Co-Closer			22 (L,B)	19 (W)	22		63	2.4	29	30.2	3.23	1	11	7	5	11.6%	21.8%	7.6	7.6%	2.6
-SFG	Caleb Kilian	R	Co-Closer				6	17		23	2	28	29.2	3.34	4	3	11	1	11.4%	25.8%	9.7	12.1%	4.6
-SFG	Erik Miller	L	Setup Man		14		16	22		52	1.1	23	19.1	4.19	2	8	6	5	11.3%	30.0%	12.6	18.9%	7.9
-SFG	Dylan Smith	R	Middle Reliever		23	3	11 (Sv)		12	49	3.1	5	4	0.00	1	0	1	1	15.5%	28.6%	9.0	14.3%	4.5
-SFG	Sam Hentges	L	Middle Reliever		26			5 (L)		31	0.2	12	9.1	1.93	0	1	2	1	10.9%	23.4%	10.6	27.7%	12.5
-SFG	JT Brubaker	R	Middle Reliever		23		15			38	2	23	34	3.18	0	1	1	3	8.7%	17.7%	6.6	12.1%	4.5
-SFG	Reiver Sanmartin	L	Middle Reliever		IL	IL	IL	IL	IL	0	0	1	2	4.50	0	0	0	0	6.5%	25.0%	9.0	0.0%	0.0
-SFG	Carson Seymour	R	Long Reliever						45	45	3	2	4.1	14.54	0	0	0	1	4.4%	8.0%	4.2	8.0%	4.2
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+SFG	Keaton Winn	R	Closer					22 (L,B)	19 (W)	41	1.1	29	30.2	3.23	1	11	7	5	11.6%	21.8%	7.6	7.6%	2.6
+SFG	Caleb Kilian	R	Setup Man						6	6	1	28	29.2	3.34	4	3	11	1	11.4%	25.8%	9.7	12.1%	4.6
+SFG	Erik Miller	L	Setup Man	9			14		16	39	1.1	24	19.2	4.58	2	8	6	6	11.3%	29.3%	12.4	18.5%	7.8
+SFG	Ryan Walker	R	Middle Reliever	16	AAA	AAA	AAA	AAA	AAA	16	1	17	16.1	6.06	3	2	2	4	6.1%	19.7%	8.3	13.2%	5.5
+SFG	Sam Hentges	L	Middle Reliever	12			26			38	1.1	13	10.1	1.74	0	1	2	1	10.3%	22.0%	9.6	26.0%	11.3
+SFG	Dylan Smith	R	Middle Reliever				23	3	11 (Sv)	37	2.1	5	4	0.00	1	0	1	1	15.5%	28.6%	9.0	14.3%	4.5
+SFG	Reiver Sanmartin	L	Middle Reliever			31 (W)	IL	IL	IL	31	2	1	2	4.50	0	0	0	0	6.5%	25.0%	9.0	0.0%	0.0
+SFG	JT Brubaker	R	Long Reliever	21			23		15	59	4	24	36	3.00	0	1	1	3	8.8%	17.6%	6.5	11.5%	4.3
 SFG	Matt Gage	L	15-Day IL							0	0	29	24	2.63	1	5	6	5	9.7%	18.6%	7.1	12.7%	4.9
 SFG	Jason Foley	R	60-Day IL							0	0												
 SFG	Joel Peguero	R	60-Day IL							0	0	11	11.1	2.38	0	1	0	2	10.1%	10.4%	4.0	8.3%	3.2
 SFG	José Buttó	R	60-Day IL							0	0	3	2	22.50	0	0	0	1	14.3%	31.3%	22.5	25.0%	18.0
 SFG	Randy Rodríguez	R	60-Day IL							0	0												
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 St. Louis Cardinals				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-STL	Riley O'Brien	R	Closer				15 (Sv)	23 (Sv)		38	2	29	29.1	3.68	17	1	19	5	12.4%	25.2%	9.5	5.7%	2.1
-STL	George Soriano	R	Setup Man				17 (BS)	13 (W)		30	1.1	28	26.1	3.08	2	9	9	3	13.8%	20.9%	7.9	9.1%	3.4
-STL	JoJo Romero	L	Setup Man				8			8	0.2	30	29.2	3.34	0	17	15	7	7.8%	24.0%	9.1	8.8%	3.3
-STL	Ryne Stanek	R	Middle Reliever				9 (W)	6		15	1.1	29	26	4.85	1	11	10	7	15.0%	26.9%	11.1	15.1%	6.2
-STL	Gordon Graceffo	R	Middle Reliever					24		24	1.1	27	32.1	1.67	1	3	10	1	5.5%	13.2%	4.5	9.1%	3.1
-STL	Justin Bruihl	L	Middle Reliever		21					21	2	30	29.1	4.30	0	5	7	9	7.3%	15.2%	6.1	9.8%	4.0
-STL	Matt Svanson	R	Long Reliever		11					11	1	26	28.2	7.85	0	1	1	6	7.7%	20.7%	8.8	11.1%	4.7
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+STL	Riley O'Brien	R	Closer						15 (Sv)	15	1	29	29.1	3.68	17	1	19	5	12.4%	25.2%	9.5	5.7%	2.1
+STL	George Soriano	R	Setup Man	8	8				17 (BS)	33	2.2	30	28.2	2.83	2	9	11	3	14.0%	20.5%	7.5	8.5%	3.1
+STL	JoJo Romero	L	Setup Man		23 (L)	14			8	45	2.2	31	31	3.48	0	17	15	8	7.8%	23.8%	9.0	8.5%	3.2
+STL	Ryne Stanek	R	Middle Reliever	23 (L,B)					9 (W)	32	1.1	30	27.1	5.60	1	11	10	8	14.6%	26.2%	10.9	14.3%	5.9
+STL	Gordon Graceffo	R	Middle Reliever	13 (H)	9					22	0.4	29	33.2	2.14	1	4	10	1	5.9%	13.4%	4.5	10.2%	3.5
+STL	Justin Bruihl	L	Middle Reliever		10		21			31	2.1	31	29.2	4.55	0	5	7	10	7.5%	15.6%	6.4	9.6%	3.9
+STL	Matt Svanson	R	Middle Reliever			13	11			24	3	26	28.2	7.85	0	1	1	6	7.7%	20.7%	8.8	11.1%	4.7
+STL	Chris Roycroft	R	Long Reliever		AAA	AAA	AAA	AAA	AAA	0	0	5	3.2	12.27	0	0	0	1	4.1%	12.0%	7.4	20.0%	12.3
 STL	Ryan Fernandez	R	15-Day IL							0	0	7	9.2	1.86	0	0	0	0	17.4%	39.5%	15.8	11.6%	4.7
 
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 Washington Nationals				Pitcher Usage						Last 6 Days		Results more_vert											
-TEAM	PLAYER	THR	PROJECTED ROLE	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	Sat 6/6	Fri 6/5	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-WSN	Clayton Beeter	R	Closer		11 (H)	16 (W)				27	2.1	18	19.1	3.72	4	3	6	4	9.9%	22.6%	8.8	15.5%	6.1
-WSN	Orlando Ribalta	R	Setup Man		15			11 (H)		26	2	19	19.1	1.86	2	3	9	1	11.1%	18.9%	6.5	9.5%	3.3
-WSN	Brad Lord	R	Setup Man		57 (W)			24 (Sv)		81	4.2	20	43	2.30	1	3	9	2	9.7%	19.6%	7.3	6.7%	2.5
-WSN	Gus Varland	R	Middle Reliever			22 (Sv)	12			34	2	27	24.2	5.11	5	6	13	7	10.9%	20.0%	8.4	11.3%	4.7
-WSN	Richard Lovelady	L	Middle Reliever		4 (H)	14				18	1.1	27	27.1	2.96	4	5	8	5	8.9%	18.8%	7.9	14.8%	6.3
-WSN	Mitchell Parker	L	Middle Reliever			26 (BS)		15 (H)		41	2	17	32	5.91	1	4	5	8	13.7%	19.9%	7.9	5.7%	2.3
-WSN	Paxton Schultz	R	Middle Reliever						31	31	2	20	25.1	6.04	1	0	2	4	8.3%	22.9%	9.6	8.5%	3.6
-WSN	Riley Cornelio	R	Long Reliever				44	AAA	AAA	44	2	2	4	6.75	0	0	0	1	8.1%	8.7%	4.5	30.4%	15.8
+TEAM	PLAYER	THR	PROJECTED ROLE	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	Sun 6/7	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
+WSN	Clayton Beeter	R	Closer				11 (H)	16 (W)		27	2.1	18	19.1	3.72	4	3	6	4	9.9%	22.6%	8.8	15.5%	6.1
+WSN	Orlando Ribalta	R	Setup Man			10	15			25	2	19	19.1	1.86	2	3	9	1	11.1%	18.9%	6.5	9.5%	3.3
+WSN	Brad Lord	R	Setup Man				57 (W)			57	2.2	20	43	2.30	1	3	9	2	9.7%	19.6%	7.3	6.7%	2.5
+WSN	Gus Varland	R	Middle Reliever	15		13		22 (Sv)	12	62	3	28	25.2	5.26	5	6	13	7	10.7%	20.2%	8.4	10.9%	4.6
+WSN	Richard Lovelady	L	Middle Reliever				4 (H)	14		18	1.1	27	27.1	2.96	4	5	8	5	8.9%	18.8%	7.9	14.8%	6.3
+WSN	Mitchell Parker	L	Middle Reliever			8 (L,B)		26 (BS)		34	1	17	32	5.91	1	4	5	8	13.7%	19.9%	7.9	5.7%	2.3
+WSN	Paxton Schultz	R	Middle Reliever	23		43				66	3	21	27.1	5.93	1	0	2	4	7.9%	22.0%	9.2	7.9%	3.3
+WSN	Riley Cornelio	R	Long Reliever	73					44	117	6	3	8.1	6.48	0	0	0	1	11.9%	10.0%	4.3	22.5%	9.7
 WSN	Ken Waldichuk	L	15-Day IL							0	0	5	9.1	6.75	0	0	2	1	10.7%	19.5%	7.7	14.6%	5.8
 WSN	Max Kranick	R	60-Day IL							0	0												

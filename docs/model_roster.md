@@ -17,6 +17,11 @@ qwen
 sonnet
 grok
 
+## Retired models
+
+fable (Claude Fable 5) — active 2026-06-12 only; removed 2026-06-13 after Anthropic
+gated access behind Mythos enrollment. June 12 record retained.
+
 ## NBA
 
 ## NHL

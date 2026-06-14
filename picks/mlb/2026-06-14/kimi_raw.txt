@@ -1,0 +1,138 @@
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Paul Skenes owns a massive SIERA/xFIP edge over Max Meyer, but the market already prices Pittsburgh near -162 and the leverage-arm availability split is not lopsided enough to clear the 4-point threshold on either side.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Trevor Rogers carries a modest SIERA advantage over Walker Buehler and Baltimore’s bullpen leverage arms are fresher, but San Diego’s 136 wRC+ against lefties neutralizes most of the run-prevention edge.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Emerson Hancock’s SIERA is roughly 0.6 runs better than Miles Mikolas’s and Seattle’s offense holds a platoon edge, yet the combined adjustments produce only a 2.5-point gap over the market, short of the required gate.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: NYY @ TOR
+PICK: LEAN: NYY
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.7 pts
+TOTAL LEAN: No lean
+REASON: Will Warren’s SIERA is a full run lower than Patrick Corbin’s and the Yankees’ 163 wRC+ against lefties is elite, but equally fatigued leverage arms on both sides keep the true edge fractionally below four points.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: AZ @ CIN
+PICK: LEAN: AZ
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.9 pts
+TOTAL LEAN: No lean
+REASON: Arizona’s 168 wRC+ against lefties dwarfs Cincinnati’s 91 wRC+ against righties, but Zac Gallen’s recent L14 degradation narrows the pitching gap just enough to keep the projected margin under the betting threshold.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: ATL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Freddy Peralta owns the SIERA edge and the Mets’ leverage arms are fully rested while Atlanta’s are all used, yet the Braves’ 30-point wRC+ advantage against righties offsets nearly all of the run-prevention margin.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Casey Mize’s 2.27 ERA is well below his 3.84 SIERA and the pitching matchup is effectively a wash, with neither bullpen fatigue nor platoon splits offering a lopsided edge against the market.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: LAD @ CHW
+PICK: LAD ML
+PRICE: -183
+UNITS: 1
+EDGE: 5.2 pts
+TOTAL LEAN: No lean
+REASON: Emmet Sheehan’s 3.22 SIERA and elite K-BB% are more than two runs better than Erick Fedde’s 5.45 SIERA, and the Dodgers’ offense adds a platoon edge against a contact-prone righty in a neutral park.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Spencer Arrighetti’s shiny ERA masks a 4.86 SIERA that is worse than Stephen Kolek’s 4.29, but Houston’s modest offensive and bullpen edges only narrow the market price rather than flip it past the 4-point gate.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Cristopher Sánchez and Kyle Harrison are both high-quality lefties with sub-3.40 SIERA profiles, and while Philadelphia’s offense is stronger against lefties, Milwaukee’s fresher leverage arms cancel the slim run-prevention edge.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Taj Bradley’s SIERA is slightly better than Michael McGreevy’s, but McGreevy’s ERA outperformance and a neutral platoon split leave no clear advantage to exploit against the near-pick’em market.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sutter Health Park’s extreme 110 park factor and 121 runs factor create variance too high for side bets, and neither starter shows a reliable SIERA gap in this hitter-friendly environment.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ryan Rolison is a small-sample starter with no reliable AGG track, which triggers an automatic pass regardless of Logan Webb’s elite underlying profile.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both Casey Legumina and Grayson Rodriguez are flagged as small-sample starters with thin or no reliable aggregate data, satisfying the pass trigger independent of matchup or price.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Nathan Eovaldi owns the SIERA edge and Texas holds a platoon advantage with the fresher bullpen, but the clean best-price market on the Rangers is flagged stale, removing the ability to lock in a confirmed 4-point edge.
+LOOKED UP: nothing, used provided data only
+---
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

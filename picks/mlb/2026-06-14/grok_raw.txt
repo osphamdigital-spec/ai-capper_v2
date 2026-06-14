@@ -1,0 +1,168 @@
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Skenes holds clear advantages in xFIP, SIERA, and K-BB% over Meyer, but the market already prices PIT as a 60% favorite. Platoon and park adjustments add only modest support for PIT, keeping the estimated edge below the 4-point threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Rogers shows better underlying metrics than Buehler, yet SD's elite bullpen (2.73 ERA) offsets much of the gap. Small-sample flags on both starters and a tight market line leave no qualifying edge after adjustments.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Hancock's xFIP/SIERA edge and the large platoon advantage for SEA are real, but the market's -137 already reflects much of the starter and bullpen superiority; estimated gap falls short of 4 points.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: NYY ML -120
+PRICE: -120
+UNITS: 1
+EDGE: 6.5 pts
+TOTAL LEAN: No lean
+REASON: Warren's superior xFIP, SIERA, and Stf+ create a solid starter edge, amplified by NYY's massive platoon advantage vs lefties and comparable bullpens. Market implies 54.5% for NYY; my estimate reaches ~61% after park adjustment.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gallen's poor recent xFIP and Abbott's middling metrics produce a near-even matchup once platoon and park factors are applied. Market line is efficient with no measurable edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Peralta holds a modest metrics edge, but ATL's historically dominant bullpen (1.52 ERA) and strong platoon numbers offset it. Resulting probability sits too close to the market's near-even price.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Mize and Williams post nearly identical xFIP/SIERA marks; bullpens are comparable and no platoon or park tilt creates separation. Market line is efficient.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: LAD ML -183
+PRICE: -183
+UNITS: 3
+EDGE: 7.3 pts
+TOTAL LEAN: No lean
+REASON: Sheehan's elite xFIP, SIERA, and K-BB% gap over Fedde is substantial and backed by clean aggregate data. LAD's platoon edge and slight park adjustment push my win probability to ~72% against the market's 64.7%.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Kolek's better underlying numbers are offset by HOU's stronger recent form and bullpen; the small estimated edge after adjustments stays below the 4-point gate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PHI ML -116
+PRICE: -116
+UNITS: 3
+EDGE: 7.2 pts
+TOTAL LEAN: No lean
+REASON: Sánchez's dominant xFIP, SIERA, and Stf+ create a clear starter advantage over Harrison despite the latter's solid K-BB%. PHI platoon and park factors add further support, producing an estimated 61% win probability versus the market's 53.7%.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: McGreevy and Bradley post similar xFIP values with offsetting platoon and bullpen factors. No gap reaches the required threshold after all adjustments.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Springs holds a modest metrics edge, but the extreme hitter-friendly park and high variance environment compress any edge below 4 points against an efficient market line.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Webb's strong xFIP/SIERA is countered by Rolison's small-sample but solid results and CHC's platoon edge; bullpen differences are neutralized by park factors, leaving no qualifying gap.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters carry explicit small-sample flags and middling aggregate metrics; bullpen edges are modest and the market line reflects the balanced matchup.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Eovaldi's xFIP advantage is real but tempered by small-sample flags and BOS's home platoon context. Resulting probability sits inside the 4-point edge gate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: LAD ML -183 (Game 8)
+WHY THIS ONE: Largest clean gap driven by elite starter metrics differential and supporting platoon/park factors; meets 7+ point threshold for 3 units.

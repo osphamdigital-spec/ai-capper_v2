@@ -664,6 +664,133 @@ def fmt_line_move(opening: dict, current_snap: dict | None) -> str | None:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# COVERS LINES FORMATTER
+# ─────────────────────────────────────────────────────────────────────────────
+
+def fmt_covers_lines(covers: dict | None, away_abbr: str, home_abbr: str) -> list:
+    """
+    Format the OPENING LINES (Covers/bet365) block for one game.
+    Returns [] when covers_lines is None (fetch failed or game not matched).
+    Movement entries are stored newest-first; reversed here for oldest→newest display.
+    """
+    if not covers:
+        return []
+
+    def _split_price(combined: str) -> str:
+        # "+1.5 -160" -> "-160"   "-1.5 +135" -> "+135"
+        parts = (combined or "").split()
+        return parts[1] if len(parts) >= 2 else combined
+
+    def _parse_p(s: str) -> int | None:
+        try:
+            return int(s)
+        except (ValueError, TypeError):
+            return None
+
+    def _fmt_p(p: int | None) -> str:
+        if p is None:
+            return "—"
+        return f"+{p}" if p > 0 else str(p)
+
+    def _best_rl(current_rl: dict, field: str) -> tuple:
+        # Highest integer = best for the bettor (less vig on + side, better payout on - side)
+        best_price, best_book = None, "—"
+        for book, data in current_rl.items():
+            p = _parse_p(_split_price(data.get(field, "")))
+            if p is not None and (best_price is None or p > best_price):
+                best_price, best_book = p, book
+        return best_price, best_book
+
+    def _best_tot(current_total: dict, field: str) -> tuple:
+        best_price, best_book = None, "—"
+        for book, data in current_total.items():
+            p = _parse_p(data.get(field))
+            if p is not None and (best_price is None or p > best_price):
+                best_price, best_book = p, book
+        return best_price, best_book
+
+    lines = ["OPENING LINES (Covers/bet365)"]
+
+    op_rl  = covers.get("opening_rl")  or {}
+    cur_rl = covers.get("current_rl")  or {}
+    op_tot  = covers.get("opening_total") or {}
+    cur_tot = covers.get("current_total") or {}
+    bet365_rl  = cur_rl.get("bet365") or {}
+    bet365_tot = cur_tot.get("bet365") or {}
+
+    # ── RL: open → current (bet365) ──────────────────────────────────────────
+    if op_rl:
+        away_open = _split_price(op_rl.get("away", ""))
+        home_open = _split_price(op_rl.get("home", ""))
+        away_cur  = _split_price(bet365_rl.get("away", "")) if bet365_rl else "—"
+        home_cur  = _split_price(bet365_rl.get("home", "")) if bet365_rl else "—"
+        lines.append(
+            f"  RL:    {away_abbr} +1.5 {away_open} / {home_abbr} -1.5 {home_open}"
+            f"  →  current: +1.5 {away_cur} / -1.5 {home_cur}"
+        )
+
+    # ── Total: open → current (bet365) ───────────────────────────────────────
+    if op_tot:
+        lines.append(
+            f"  Total: o/u {op_tot.get('line','?')} ({op_tot.get('over','?')}/{op_tot.get('under','?')})"
+            f"  →  current: o/u {bet365_tot.get('line','?') if bet365_tot else '?'}"
+            f" ({bet365_tot.get('over','?') if bet365_tot else '?'}"
+            f"/{bet365_tot.get('under','?') if bet365_tot else '?'})"
+        )
+
+    # ── Best current RL across bet365 / Betway / William Hill ────────────────
+    if cur_rl:
+        bp_away, bk_away = _best_rl(cur_rl, "away")
+        bp_home, bk_home = _best_rl(cur_rl, "home")
+        lines.append(
+            f"  Best current RL:    {away_abbr} +1.5 {_fmt_p(bp_away)} ({bk_away})"
+            f" / {home_abbr} -1.5 {_fmt_p(bp_home)} ({bk_home})"
+        )
+
+    # ── Best current total across all books ──────────────────────────────────
+    if cur_tot:
+        bp_over,  bk_over  = _best_tot(cur_tot, "over")
+        bp_under, bk_under = _best_tot(cur_tot, "under")
+        lines.append(
+            f"  Best current total: Over {_fmt_p(bp_over)} ({bk_over})"
+            f" / Under {_fmt_p(bp_under)} ({bk_under})"
+        )
+
+    lines.append("")
+
+    # ── RL movement: display oldest → newest ─────────────────────────────────
+    rl_mv = covers.get("rl_movement") or []
+    lines.append("RL MOVEMENT (bet365):")
+    if rl_mv:
+        # Storage is newest-first; reverse for left-to-right chronological display
+        parts = [
+            f"{e['time']}: +1.5 {_split_price(e['away'])}/-1.5 {_split_price(e['home'])}"
+            for e in reversed(rl_mv)
+        ]
+        lines.append("  " + "  →  ".join(parts))
+    else:
+        lines.append("  [No movement recorded]")
+
+    lines.append("")
+
+    # ── Total movement: display oldest → newest ───────────────────────────────
+    tot_mv = covers.get("total_movement") or []
+    lines.append("TOTAL MOVEMENT (bet365):")
+    if tot_mv:
+        parts = [
+            f"{e['time']}: {e['line']} {e['over']}/{e['under']}"
+            for e in reversed(tot_mv)
+        ]
+        lines.append("  " + "  →  ".join(parts))
+    else:
+        lines.append("  [No movement recorded]")
+
+    lines.append("")
+
+    return lines
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # HEAVY-FAVOURITE NOTE
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -1158,6 +1285,12 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
         lines.append(note)
 
     lines.append("")
+
+    # ── Covers opening lines + movement (if fetch_covers_lines.py has run) ───
+    covers_block = fmt_covers_lines(
+        game.get("covers_lines"), away["abbr"], home["abbr"]
+    )
+    lines.extend(covers_block)
 
     # ── Team form ─────────────────────────────────────────────────────────────
     # Placed BEFORE pitchers so the AI establishes team-level context first,

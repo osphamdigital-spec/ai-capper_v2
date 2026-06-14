@@ -1,0 +1,153 @@
+## GAME: MIA @ PIT
+PICK: LEAN: PIT
+PRICE: N/A
+UNITS: LEAN
+EDGE: 8.9 pts
+TOTAL LEAN: No lean
+REASON: Skenes’ elite AGG xFIP (3.00) and Meyer’s regression risk give PIT a clear pitching edge, even with Skenes’ small-sample L14. PIT offense is above average vs RHP, MIA pedestrian; PNC Park keeps totals low. Market undervalues PIT by nearly 9 points, but Skenes flag caps to 1 unit and slate capacity makes this a lean.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: SD @ BAL
+PICK: LEAN: SD
+PRICE: N/A
+UNITS: LEAN
+EDGE: 20.4 pts
+TOTAL LEAN: No lean
+REASON: SD demolishes LHP (136 wRC+) and Rogers’ 4.55 projected ERA is exploitable. Buehler’s recent 3.32 xFIP L14 suggests a quality start; BAL bullpen is a 5.87-ERA disaster. Both starters have small-sample flags, barring 3 units; slate limit forces a lean.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: SEA @ WAS
+PICK: LEAN: SEA
+PRICE: N/A
+UNITS: LEAN
+EDGE: 10.1 pts
+TOTAL LEAN: No lean
+REASON: Hancock (4.21 proj. ERA) offers stability while Mikolas is replacement level (4.78). SEA’s 118 wRC+ vs RHP overwhelms WAS’s 92; Nationals Park is neutral. Hancock small-sample and slate limit keep it a lean.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: NYY @ TOR
+PICK: NYY ML
+PRICE: -120
+UNITS: 1
+EDGE: 23.0 pts
+TOTAL LEAN: No lean
+REASON: Yankees’ 163 wRC+ vs LHP annihilates Corbin (proj. 5.35 ERA); Warren’s 4.02 is adequate vs a middling TOR offense. Run projection gap is massive (8.3–4.3). Corbin small-sample prevents 3 units, but 1 unit at -120 is excellent value.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: AZ @ CIN
+PICK: LEAN: AZ
+PRICE: N/A
+UNITS: LEAN
+EDGE: 24.1 pts
+TOTAL LEAN: No lean
+REASON: Diamondbacks crush LHP (168 wRC+); Abbott projects 4.54 ERA. Gallen’s recent struggles inflate his projection, but CIN offense is cold and bullpen taxed. Model gives AZ near 75% win prob. Gallen small-sample and slate cap keep it a lean.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: ATL @ NYM
+PICK: ATL ML
+PRICE: +102
+UNITS: 3
+EDGE: 13.0 pts
+TOTAL LEAN: No lean
+REASON: Elder’s 4.10 projected ERA is solid, and Peralta’s fly-ball tendencies are blunted by Citi Field. Braves offense (123 wRC+ vs RHP) far outclasses Mets’ 93. ATL bullpen (1.52 ERA) is elite and fresh, NYM high-leverage arms heavily worked. Clean no-small-sample game; full 3-unit edge.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: DET @ CLE
+PICK: LEAN: DET
+PRICE: N/A
+UNITS: LEAN
+EDGE: 9.8 pts
+TOTAL LEAN: No lean
+REASON: Mize’s 3.87 proj. ERA is sharp, while Williams’ recent workload and small-sample L14 raise red flags. CLE offense (85 wRC+ adjusted) is ice cold. Progressive Field suppresses runs. Williams flag and suspect DET ML price hold this to a lean.
+LOOKED UP: DET best-ML flagged stale; used median -103 for edge calc.
+
+---
+## GAME: LAD @ CHW
+PICK: LEAN: LAD
+PRICE: N/A
+UNITS: LEAN
+EDGE: 4.8 pts
+TOTAL LEAN: No lean
+REASON: Dodgers offense comfortable vs RHP (112 wRC+), Fedde’s 5.06 proj. ERA and poor CHW bullpen create a gap. Sheehan’s AGG peripherals are elite but small L14 sample adds variance. Edge only 4.8 pts with a heavy ML; lean.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Arrighetti’s 4.64 proj. ERA and Kolek’s 3.77 essentially offset each other; both offenses project near league average. KC bullpen is a mess but doesn’t create enough separation. Win probability near 50%, no edge.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: PHI @ MIL
+PICK: LEAN: PHI
+PRICE: N/A
+UNITS: LEAN
+EDGE: 11.7 pts
+TOTAL LEAN: No lean
+REASON: Sánchez (2.27 proj. ERA) is an elite ace; Harrison’s small-sample L14 and recent blow-up inflate his projection. PHI vs LHP (136 wRC+) is lethal, and the low-scoring environment amplifies the starter gap. Harrison flag prevents 3-unit; slate limit makes it a lean.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: STL @ MIN
+PICK: LEAN: STL
+PRICE: N/A
+UNITS: LEAN
+EDGE: 15.5 pts
+TOTAL LEAN: No lean
+REASON: Bradley’s L14 xFIP (6.28) and recent failure point to regression; McGreevy is steady (4.33 proj.). STL offense hot (121 wRC+ adjusted), MIN cold. Bradley small-sample flag and stale STL ML price prevent a bet, but edge is large.
+LOOKED UP: STL best-ML flagged stale; edge computed using median -105.
+
+---
+## GAME: COL @ ATH
+PICK: LEAN: COL
+PRICE: N/A
+UNITS: LEAN
+EDGE: 4.7 pts
+TOTAL LEAN: No lean
+REASON: Both starters are below-average and small-sample, but the extreme hitter-friendly park elevates scoring variance. Springs’ peripherals are weak, and COL getting +157 offers slight value. Edge thin at 4.7 pts; high variance and suspect pitching keep it a lean.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: CHC @ SF
+PICK: SF ML
+PRICE: -135
+UNITS: 1
+EDGE: 25.9 pts
+TOTAL LEAN: No lean
+REASON: Webb is an ace (2.90 proj. ERA); Rolison is an unproven lefty with just 24 MLB innings. SF destroys LHP (143 wRC+), CHC average vs RHP. Oracle Park suppresses runs but talent gap is enormous. Rolison small-sample restricts to 1 unit, but edge is colossal.
+LOOKED UP: missing AGG xFIP for Rolison; used his xERA (4.08) as proxy.
+
+---
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters are small-sample risks, and offenses are identical (101 wRC+ vs RHP). Legumina’s 4.05 projected ERA and G-Rod’s 4.54 produce a near coin flip. No edge.
+LOOKED UP: nothing, used provided data only.
+
+---
+## GAME: TEX @ BOS
+PICK: LEAN: TEX
+PRICE: N/A
+UNITS: LEAN
+EDGE: 21.1 pts
+TOTAL LEAN: No lean
+REASON: TEX mashes LHP (140 wRC+), and Early is a fly-ball lefty in Fenway with shaky L14. Eovaldi’s elite AGG peripherals (3.20 xFIP) are trustworthy. BOS offense bottom-tier vs RHP. Projected gap over 2 runs; both starters small-sample and TEX ML suspect keep it a lean.
+LOOKED UP: TEX best-ML flagged stale; edge based on median -104.
+
+---
+## SLATE SUMMARY
+BEST BET: ATL ML (+102) vs NYM, 3 units
+WHY THIS ONE: Clean game with no small-sample flags on either starter; Braves’ offense and bullpen are vastly superior, and the 13-point edge is the strongest risk-adjusted bet on the slate.

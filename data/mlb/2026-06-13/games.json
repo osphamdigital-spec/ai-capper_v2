@@ -579,7 +579,113 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 823694
+    "mlb_game_pk": 823694,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +160",
+        "home": "+1.5 -190",
+        "time": "16:57"
+      },
+      "opening_total": {
+        "line": 8.5,
+        "over": "-120",
+        "under": "+100",
+        "time": "16:57"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        "betway": {
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        "williamhill": {
+          "away": "-1.5 +139",
+          "home": "+1.5 -194"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 9.0,
+          "over": "-105",
+          "under": "-115"
+        },
+        "betway": {
+          "line": 8.5,
+          "over": "-125",
+          "under": "+105"
+        },
+        "williamhill": {
+          "line": 9.0,
+          "over": "-105",
+          "under": "-115"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 02:58",
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        {
+          "time": "Today 01:04",
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
+        },
+        {
+          "time": "Jun 13 22:56",
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        {
+          "time": "Jun 13 22:02",
+          "away": "+1.5 -205",
+          "home": "-1.5 +170"
+        },
+        {
+          "time": "Jun 13 20:05",
+          "away": "-1.5 +160",
+          "home": "+1.5 -190"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 07:19",
+          "line": 9.0,
+          "over": "-105",
+          "under": "-115"
+        },
+        {
+          "time": "Today 01:04",
+          "line": 9.0,
+          "over": "-115",
+          "under": "-125"
+        },
+        {
+          "time": "Today 00:31",
+          "line": 8.5,
+          "over": "-120",
+          "under": "+100"
+        },
+        {
+          "time": "Jun 13 20:11",
+          "line": 9.0,
+          "over": "-115",
+          "under": "-125"
+        },
+        {
+          "time": "Jun 13 16:57",
+          "line": 8.5,
+          "over": "-120",
+          "under": "+100"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:16",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "a6e9a8c8f97ca039bc3b7b562fe18bab",
@@ -1168,7 +1274,80 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 822802
+    "mlb_game_pk": 822802,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +135",
+        "home": "+1.5 -160",
+        "time": "16:51"
+      },
+      "opening_total": {
+        "line": 8.5,
+        "over": "-105",
+        "under": "-115",
+        "time": "16:51"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +125",
+          "home": "+1.5 -150"
+        },
+        "betway": {
+          "away": "-1.5 +125",
+          "home": "+1.5 -165"
+        },
+        "williamhill": {
+          "away": "-1.5 +130",
+          "home": "+1.5 -155"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 8.0,
+          "over": "-125",
+          "under": "-115"
+        },
+        "betway": {
+          "line": 8.5,
+          "over": "-110",
+          "under": "-110"
+        },
+        "williamhill": {
+          "line": 8.5,
+          "over": "-105",
+          "under": "-115"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 05:06",
+          "away": "-1.5 +125",
+          "home": "+1.5 -150"
+        },
+        {
+          "time": "Jun 13 16:51",
+          "away": "-1.5 +135",
+          "home": "+1.5 -160"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Jun 13 18:34",
+          "line": 8.0,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 16:51",
+          "line": 8.5,
+          "over": "-105",
+          "under": "-115"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:02:48",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "4abb993b47a532760ffc38de1dabfac4",
@@ -1728,7 +1907,103 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 822725
+    "mlb_game_pk": 822725,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +105",
+        "home": "+1.5 -125",
+        "time": "16:57"
+      },
+      "opening_total": {
+        "line": 9.5,
+        "over": "-115",
+        "under": "-105",
+        "time": "16:57"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +110",
+          "home": "+1.5 -130"
+        },
+        "betway": {
+          "away": "-1.5 +110",
+          "home": "+1.5 -130"
+        },
+        "williamhill": {
+          "away": "-1.5 +110",
+          "home": "+1.5 -130"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 10.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "betway": {
+          "line": 10.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "williamhill": {
+          "line": 10.0,
+          "over": "-110",
+          "under": "-110"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 07:20",
+          "away": "-1.5 +110",
+          "home": "+1.5 -130"
+        },
+        {
+          "time": "Today 04:48",
+          "away": "-1.5 +100",
+          "home": "+1.5 -120"
+        },
+        {
+          "time": "Jun 13 16:57",
+          "away": "-1.5 +105",
+          "home": "+1.5 -125"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 07:53",
+          "line": 10.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        {
+          "time": "Today 02:23",
+          "line": 10.0,
+          "over": "-120",
+          "under": "-120"
+        },
+        {
+          "time": "Today 00:15",
+          "line": 10.0,
+          "over": "-115",
+          "under": "-125"
+        },
+        {
+          "time": "Jun 13 22:05",
+          "line": 9.5,
+          "over": "-120",
+          "under": "+100"
+        },
+        {
+          "time": "Jun 13 17:04",
+          "line": 10.0,
+          "over": "-115",
+          "under": "-125"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:02:41",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "fadfb2b20f21e61c059a0af585bff1a4",
@@ -2302,7 +2577,92 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 824828
+    "mlb_game_pk": 824828,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "+1.5 -180",
+        "home": "-1.5 +150",
+        "time": "16:58"
+      },
+      "opening_total": {
+        "line": 9.5,
+        "over": "-110",
+        "under": "-110",
+        "time": "16:56"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "+1.5 -170",
+          "home": "-1.5 +145"
+        },
+        "betway": {
+          "away": "+1.5 -190",
+          "home": "-1.5 +140"
+        },
+        "williamhill": {
+          "away": "+1.5 -170",
+          "home": "-1.5 +143"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 10.0,
+          "over": "-120",
+          "under": "-120"
+        },
+        "betway": {
+          "line": 9.5,
+          "over": "-120",
+          "under": "+100"
+        },
+        "williamhill": {
+          "line": 9.5,
+          "over": "-125",
+          "under": "+105"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Jun 13 20:03",
+          "away": "+1.5 -170",
+          "home": "-1.5 +145"
+        },
+        {
+          "time": "Jun 13 16:58",
+          "away": "+1.5 -180",
+          "home": "-1.5 +150"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 07:52",
+          "line": 10.0,
+          "over": "-120",
+          "under": "-120"
+        },
+        {
+          "time": "Jun 13 19:55",
+          "line": 10.0,
+          "over": "-115",
+          "under": "-125"
+        },
+        {
+          "time": "Jun 13 19:47",
+          "line": 9.5,
+          "over": "-115",
+          "under": "-105"
+        },
+        {
+          "time": "Jun 13 16:56",
+          "line": 9.5,
+          "over": "-110",
+          "under": "-110"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:02:34",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "53d3be31566c2fefadd8c1b39e6dc788",
@@ -2807,7 +3167,96 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 823369
+    "mlb_game_pk": 823369,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "+1.5 -155",
+        "home": "-1.5 +130",
+        "time": "16:44"
+      },
+      "opening_total": {
+        "line": 7.5,
+        "over": "+100",
+        "under": "-120",
+        "time": "16:44"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "+1.5 -160",
+          "home": "-1.5 +135"
+        },
+        "betway": {
+          "away": "+1.5 -165",
+          "home": "-1.5 +125"
+        },
+        "williamhill": {
+          "away": "+1.5 -160",
+          "home": "-1.5 +135"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 7.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "betway": {
+          "line": 7.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "williamhill": {
+          "line": 7.0,
+          "over": "-110",
+          "under": "-110"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 07:09",
+          "away": "+1.5 -160",
+          "home": "-1.5 +135"
+        },
+        {
+          "time": "Jun 13 21:43",
+          "away": "+1.5 -155",
+          "home": "-1.5 +130"
+        },
+        {
+          "time": "Jun 13 19:45",
+          "away": "+1.5 -160",
+          "home": "-1.5 +135"
+        },
+        {
+          "time": "Jun 13 16:44",
+          "away": "+1.5 -155",
+          "home": "-1.5 +130"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 07:11",
+          "line": 7.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        {
+          "time": "Today 04:50",
+          "line": 7.0,
+          "over": "-105",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 16:44",
+          "line": 7.5,
+          "over": "+100",
+          "under": "-120"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:02:28",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "c74f3242dd3557ee537e505c3e092143",
@@ -3240,7 +3689,113 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 823616
+    "mlb_game_pk": 823616,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +160",
+        "home": "+1.5 -190",
+        "time": "16:45"
+      },
+      "opening_total": {
+        "line": 8.5,
+        "over": "-105",
+        "under": "-115",
+        "time": "16:45"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
+        },
+        "betway": {
+          "away": "+1.5 -200",
+          "home": "-1.5 +150"
+        },
+        "williamhill": {
+          "away": "-1.5 +139",
+          "home": "+1.5 -194"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 8.5,
+          "over": "-115",
+          "under": "-105"
+        },
+        "betway": {
+          "line": 8.5,
+          "over": "-115",
+          "under": "-105"
+        },
+        "williamhill": {
+          "line": 8.5,
+          "over": "-115",
+          "under": "-105"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 00:00",
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
+        },
+        {
+          "time": "Jun 13 22:04",
+          "away": "-1.5 +155",
+          "home": "+1.5 -210"
+        },
+        {
+          "time": "Jun 13 20:01",
+          "away": "-1.5 +160",
+          "home": "+1.5 -190"
+        },
+        {
+          "time": "Jun 13 18:19",
+          "away": "+1.5 -210",
+          "home": "-1.5 +155"
+        },
+        {
+          "time": "Jun 13 17:07",
+          "away": "-1.5 +160",
+          "home": "+1.5 -190"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 07:45",
+          "line": 8.5,
+          "over": "-115",
+          "under": "-105"
+        },
+        {
+          "time": "Jun 13 20:53",
+          "line": 8.5,
+          "over": "-110",
+          "under": "-110"
+        },
+        {
+          "time": "Jun 13 20:05",
+          "line": 8.5,
+          "over": "-105",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 17:05",
+          "line": 8.0,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 16:45",
+          "line": 8.5,
+          "over": "-105",
+          "under": "-115"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:02:52",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "13a2225a2fcc3ccd5362b1f8f663c1f1",
@@ -3814,7 +4369,102 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 824587
+    "mlb_game_pk": 824587,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 -125",
+        "home": "+1.5 +105",
+        "time": "16:58"
+      },
+      "opening_total": {
+        "line": 10.0,
+        "over": "+100",
+        "under": "-120",
+        "time": "16:58"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 -120",
+          "home": "+1.5 +100"
+        },
+        "betway": {
+          "away": "-1.5 -120",
+          "home": "+1.5 +100"
+        },
+        "williamhill": {
+          "away": "-1.5 -120",
+          "home": "+1.5 +100"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 9.5,
+          "over": "-125",
+          "under": "-115"
+        },
+        "betway": {
+          "line": 9.5,
+          "over": "-115",
+          "under": "-105"
+        },
+        "williamhill": {
+          "line": 10.0,
+          "over": "-105",
+          "under": "-115"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 07:20",
+          "away": "-1.5 -120",
+          "home": "+1.5 +100"
+        },
+        {
+          "time": "Today 00:13",
+          "away": "-1.5 -125",
+          "home": "+1.5 +105"
+        },
+        {
+          "time": "Jun 13 20:01",
+          "away": "-1.5 -120",
+          "home": "+1.5 +100"
+        },
+        {
+          "time": "Jun 13 16:58",
+          "away": "-1.5 -125",
+          "home": "+1.5 +105"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Jun 13 19:57",
+          "line": 9.5,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 17:29",
+          "line": 10.0,
+          "over": "+100",
+          "under": "-120"
+        },
+        {
+          "time": "Jun 13 17:04",
+          "line": 9.5,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 16:58",
+          "line": 10.0,
+          "over": "+100",
+          "under": "-120"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:20",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "b4cc6ccb74628bd6a3264a9fd198bd6b",
@@ -4402,7 +5052,81 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 824508
+    "mlb_game_pk": 824508,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +140",
+        "home": "+1.5 -165",
+        "time": "16:55"
+      },
+      "opening_total": {
+        "line": 9.5,
+        "over": "-110",
+        "under": "-110",
+        "time": "16:54"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +140",
+          "home": "+1.5 -165"
+        },
+        "betway": {
+          "away": "-1.5 +135",
+          "home": "+1.5 -180"
+        },
+        "williamhill": {
+          "away": "-1.5 +140",
+          "home": "+1.5 -165"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 10.0,
+          "over": "-115",
+          "under": "-125"
+        },
+        "betway": {
+          "line": 9.5,
+          "over": "-115",
+          "under": "-105"
+        },
+        "williamhill": {
+          "line": 9.5,
+          "over": "-115",
+          "under": "-105"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Jun 13 16:55",
+          "away": "-1.5 +140",
+          "home": "+1.5 -165"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Jun 13 22:38",
+          "line": 10.0,
+          "over": "-115",
+          "under": "-125"
+        },
+        {
+          "time": "Jun 13 22:30",
+          "line": 9.5,
+          "over": "-115",
+          "under": "-105"
+        },
+        {
+          "time": "Jun 13 16:54",
+          "line": 9.5,
+          "over": "-110",
+          "under": "-110"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:00",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "283a2198e9279b2d70ddfa898345b601",
@@ -4969,7 +5693,89 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 824749
+    "mlb_game_pk": 824749,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +165",
+        "home": "+1.5 -200",
+        "time": "16:55"
+      },
+      "opening_total": {
+        "line": 9.0,
+        "over": "-115",
+        "under": "-105",
+        "time": "17:04"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        "betway": {
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        "williamhill": {
+          "away": "-1.5 +133",
+          "home": "+1.5 -184"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 9.0,
+          "over": "-115",
+          "under": "-105"
+        },
+        "betway": {
+          "line": 9.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "williamhill": {
+          "line": 9.0,
+          "over": "-115",
+          "under": "-105"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 07:24",
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        {
+          "time": "Today 02:40",
+          "away": "-1.5 +135",
+          "home": "+1.5 -180"
+        },
+        {
+          "time": "Jun 13 22:54",
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        {
+          "time": "Jun 13 22:05",
+          "away": "+1.5 -200",
+          "home": "-1.5 +165"
+        },
+        {
+          "time": "Jun 13 17:08",
+          "away": "-1.5 +155",
+          "home": "+1.5 -185"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Jun 13 17:04",
+          "line": 9.0,
+          "over": "-115",
+          "under": "-105"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:48",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "b577f758aaccd486b96b1a218e4f830d",
@@ -5543,7 +6349,91 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 824426
+    "mlb_game_pk": 824426,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "+1.5 -210",
+        "home": "-1.5 +175",
+        "time": "16:52"
+      },
+      "opening_total": {
+        "line": 7.5,
+        "over": "+100",
+        "under": "-120",
+        "time": "16:52"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +155",
+          "home": "+1.5 -210"
+        },
+        "betway": {
+          "away": "+1.5 -225",
+          "home": "-1.5 +165"
+        },
+        "williamhill": {
+          "away": "-1.5 +152",
+          "home": "+1.5 -214"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 7.5,
+          "over": "+100",
+          "under": "-120"
+        },
+        "betway": {
+          "line": 7.5,
+          "over": "+100",
+          "under": "-120"
+        },
+        "williamhill": {
+          "line": 7.5,
+          "over": "+105",
+          "under": "-125"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Jun 13 17:45",
+          "away": "-1.5 +155",
+          "home": "+1.5 -210"
+        },
+        {
+          "time": "Jun 13 17:25",
+          "away": "-1.5 +165",
+          "home": "+1.5 -225"
+        },
+        {
+          "time": "Jun 13 16:52",
+          "away": "+1.5 -210",
+          "home": "-1.5 +175"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 06:32",
+          "line": 7.5,
+          "over": "+100",
+          "under": "-120"
+        },
+        {
+          "time": "Today 00:37",
+          "line": 7.5,
+          "over": "-105",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 16:52",
+          "line": 7.5,
+          "over": "+100",
+          "under": "-120"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:05",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "585fa0b6aa89841fa095b120643c7716",
@@ -6152,7 +7042,95 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 824100
+    "mlb_game_pk": 824100,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +165",
+        "home": "+1.5 -200",
+        "time": "16:57"
+      },
+      "opening_total": {
+        "line": 9.0,
+        "over": "-115",
+        "under": "-125",
+        "time": "17:04"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
+        },
+        "betway": {
+          "away": "+1.5 -200",
+          "home": "-1.5 +150"
+        },
+        "williamhill": {
+          "away": "+1.5 -190",
+          "home": "-1.5 +158"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 8.5,
+          "over": "-120",
+          "under": "+100"
+        },
+        "betway": {
+          "line": 8.5,
+          "over": "-115",
+          "under": "-105"
+        },
+        "williamhill": {
+          "line": 8.5,
+          "over": "-120",
+          "under": "+100"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 06:14",
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
+        },
+        {
+          "time": "Today 06:13",
+          "away": "+1.5 -190",
+          "home": "-1.5 +160"
+        },
+        {
+          "time": "Jun 13 22:37",
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
+        },
+        {
+          "time": "Jun 13 19:55",
+          "away": "+1.5 -190",
+          "home": "-1.5 +160"
+        },
+        {
+          "time": "Jun 13 19:06",
+          "away": "+1.5 -200",
+          "home": "-1.5 +150"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Jun 13 18:33",
+          "line": 8.5,
+          "over": "-120",
+          "under": "+100"
+        },
+        {
+          "time": "Jun 13 17:04",
+          "line": 9.0,
+          "over": "-115",
+          "under": "-125"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:11",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "7519b768b6e0980dc68e40e2b2b49089",
@@ -6705,7 +7683,86 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 823776
+    "mlb_game_pk": 823776,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +140",
+        "home": "+1.5 -165",
+        "time": "16:51"
+      },
+      "opening_total": {
+        "line": 7.0,
+        "over": "-110",
+        "under": "-110",
+        "time": "16:50"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +145",
+          "home": "+1.5 -170"
+        },
+        "betway": {
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
+        },
+        "williamhill": {
+          "away": "-1.5 +143",
+          "home": "+1.5 -170"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 7.0,
+          "over": "+100",
+          "under": "-120"
+        },
+        "betway": {
+          "line": 7.0,
+          "over": "+100",
+          "under": "-122"
+        },
+        "williamhill": {
+          "line": 7.0,
+          "over": "+105",
+          "under": "-125"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Jun 13 19:53",
+          "away": "-1.5 +145",
+          "home": "+1.5 -170"
+        },
+        {
+          "time": "Jun 13 16:51",
+          "away": "-1.5 +140",
+          "home": "+1.5 -165"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 06:17",
+          "line": 7.0,
+          "over": "+100",
+          "under": "-120"
+        },
+        {
+          "time": "Today 04:40",
+          "line": 7.0,
+          "over": "-105",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 16:50",
+          "line": 7.0,
+          "over": "-110",
+          "under": "-110"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:24",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "197b2f8add16733591617503dd702d8f",
@@ -7258,7 +8315,80 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 824995
+    "mlb_game_pk": 824995,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "+1.5 -120",
+        "home": "-1.5 +100",
+        "time": "17:04"
+      },
+      "opening_total": {
+        "line": 13.5,
+        "over": "-125",
+        "under": "-115",
+        "time": "17:04"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "+1.5 -115",
+          "home": "-1.5 -105"
+        },
+        "betway": {
+          "away": "+1.5 -120",
+          "home": "-1.5 +100"
+        },
+        "williamhill": {
+          "away": "+1.5 -115",
+          "home": "-1.5 -105"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 14.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "betway": {
+          "line": 14.0,
+          "over": "-105",
+          "under": "-115"
+        },
+        "williamhill": {
+          "line": 14.0,
+          "over": "-110",
+          "under": "-110"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Jun 13 19:55",
+          "away": "+1.5 -115",
+          "home": "-1.5 -105"
+        },
+        {
+          "time": "Jun 13 17:04",
+          "away": "+1.5 -120",
+          "home": "-1.5 +100"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 07:20",
+          "line": 14.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        {
+          "time": "Jun 13 17:04",
+          "line": 13.5,
+          "over": "-125",
+          "under": "-115"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:31",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "d259bb716cd52554224d80732ac65232",
@@ -7832,7 +8962,98 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 823213
+    "mlb_game_pk": 823213,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "+1.5 -170",
+        "home": "-1.5 +145",
+        "time": "16:51"
+      },
+      "opening_total": {
+        "line": 8.0,
+        "over": "-110",
+        "under": "-110",
+        "time": "16:51"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "+1.5 -180",
+          "home": "-1.5 +150"
+        },
+        "betway": {
+          "away": "+1.5 -180",
+          "home": "-1.5 +135"
+        },
+        "williamhill": {
+          "away": "+1.5 -178",
+          "home": "-1.5 +150"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 8.0,
+          "over": "-105",
+          "under": "-115"
+        },
+        "betway": {
+          "line": 8.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "williamhill": {
+          "line": 8.0,
+          "over": "-105",
+          "under": "-115"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 07:52",
+          "away": "+1.5 -180",
+          "home": "-1.5 +150"
+        },
+        {
+          "time": "Jun 13 16:51",
+          "away": "+1.5 -170",
+          "home": "-1.5 +145"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 07:36",
+          "line": 8.0,
+          "over": "-105",
+          "under": "-115"
+        },
+        {
+          "time": "Today 06:34",
+          "line": 7.5,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Today 00:23",
+          "line": 8.0,
+          "over": "-105",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 17:04",
+          "line": 7.5,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 13 16:52",
+          "line": 8.0,
+          "over": "-105",
+          "under": "-115"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:39",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   },
   {
     "game_id": "020b5bffb5a1d101be8c6d61b9e29572",
@@ -8320,6 +9541,78 @@
       "source_priority": 1,
       "verified": false
     },
-    "mlb_game_pk": 824019
+    "mlb_game_pk": 824019,
+    "covers_lines": {
+      "opening_rl": {
+        "away": "-1.5 +135",
+        "home": "+1.5 -160",
+        "time": "02:27"
+      },
+      "opening_total": {
+        "line": 9.0,
+        "over": "-110",
+        "under": "-110",
+        "time": "02:27"
+      },
+      "current_rl": {
+        "bet365": {
+          "away": "-1.5 +135",
+          "home": "+1.5 -160"
+        },
+        "betway": {
+          "away": "-1.5 +125",
+          "home": "+1.5 -165"
+        },
+        "williamhill": {
+          "away": "-1.5 +135",
+          "home": "+1.5 -160"
+        }
+      },
+      "current_total": {
+        "bet365": {
+          "line": 9.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "betway": {
+          "line": 9.0,
+          "over": "-110",
+          "under": "-110"
+        },
+        "williamhill": {
+          "line": 9.0,
+          "over": "-110",
+          "under": "-110"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 07:50",
+          "away": "-1.5 +135",
+          "home": "+1.5 -160"
+        },
+        {
+          "time": "Today 05:20",
+          "away": "-1.5 +125",
+          "home": "+1.5 -150"
+        },
+        {
+          "time": "Today 02:27",
+          "away": "-1.5 +135",
+          "home": "+1.5 -160"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 02:27",
+          "line": 9.0,
+          "over": "-110",
+          "under": "-110"
+        }
+      ],
+      "fetched_at": "2026-06-14T08:03:44",
+      "source": "covers.com/bet365",
+      "country_code": "au"
+    }
   }
 ]

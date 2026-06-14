@@ -1,0 +1,243 @@
+POST-MORTEM REVIEW
+MODEL: [write your model name here...]
+SLATE: MLB — 2026-06-14
+
+ANTI-HINDSIGHT: Evaluate pre-game reasoning only. Do NOT reference
+in-game events. A loss is CORRECT PROCESS/BAD VARIANCE ONLY if you
+can name the specific pre-game data point that justified it.
+If you cannot, choose an error category.
+Return NONE where no block genuinely qualifies.
+
+FINAL RESULTS
+[OPERATOR WILL PASTE RESULTS HERE]
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET:
+RESULT: WIN / LOSS
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES / NO
+IF NO — NEW BEST BET: / WHY: / SOURCE:
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET (one block per bet; NO BETS if none)
+
+GAME:
+PICK:
+RESULT: WIN / LOSS / PUSH
+PROCESS: [CORRECT PROCESS BAD VARIANCE / CORRECT PROCESS FAIR RESULT
+/ INCORRECT PITCHING / INCORRECT TEAM STRENGTH / MISREAD PRICE
+/ OVERWEIGHTED FORM / UNDERWEIGHTED FORM / SMALL SAMPLE TRAP
+/ MISSED BULLPEN / MISSED LINEUP / MISSED INJURY / MISSED WEATHER / OTHER]
+WOULD-BET-AGAIN: YES / NO / LOWER STAKE / HIGHER STAKE
+WHY:
+SOURCE:
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME
+EDGE YOU MISSED. Skip all correct passes entirely — do not write a block
+for them.
+
+GAME:
+YOUR CALL: PASS / LEAN
+FINAL RESULT:
+WHAT YOU MISSED:
+SOURCE:
+WOULD THIS HAVE BECOME A BET? YES / NO / MAYBE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+Data/stats NOT currently in the prompt that would have changed a decision.
+Max 3. NONE if none.
+
+TYPE: DATA / STAT / SOURCE
+ITEM:
+WHICH GAME(S):
+WOULD HAVE CHANGED A BET? YES / NO / MAYBE
+WHY:
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+A proposed change to how YOU weigh or interpret data you already receive.
+A PROPOSAL only — adopted only if it proves out over many slates, never
+from one day. NONE if none.
+
+PROPOSED CHANGE:
+WHAT IN MY METHOD COULD BE SHARPER:
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):
+CONFIDENCE: LOW / MEDIUM / HIGH
+
+
+---
+## GROK RESPONSE
+
+**S1: BEST BET RE-EVALUATION**  
+RESULT: —  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: NONE (no slate data provided)  
+WHY: No original best bet or results supplied in query.  
+SOURCE: N/A
+
+**S2: FULL SLATE REVIEW**  
+PART A — GAMES YOU BET  
+NONE (no bets recorded in prompt)
+
+PART B — PASSES AND LEANS  
+NONE (no slate or pre-game leans supplied)
+
+**S3: DATA REQUEST**  
+NONE
+
+**S4: METHOD CHANGE PROPOSAL**  
+NONE (no pre-game data available to evaluate)
+
+---
+## CHATGPT RESPONSE
+
+I can do the full post-mortem, but I need the two missing inputs:
+
+1. **Your original MLB picks/leans/passes from earlier today**
+2. **The actual final results for those games**
+
+Right now the prompt shows:
+
+> FINAL RESULTS  
+> [OPERATOR WILL PASTE RESULTS HERE]
+
+So there’s nothing to audit yet.
+
+Please paste:
+- **Original best bet**
+- **All bets made**
+- **Any notable leans/passes you want reviewed**
+- **Final game results**
+
+Once you send that, I’ll return it in your exact format:
+
+- **S1: Best Bet Re-Evaluation**
+- **S2: Full Slate Review**
+- **S3: Data Request**
+- **S4: Method Change Proposal**
+
+And I’ll follow your anti-hindsight rule:
+- only pre-game reasoning
+- no in-game event explanations
+- “correct process / bad variance” only if I can name the exact pre-game data point that supported it.
+
+---
+## DEEPSEEK RESPONSE
+
+I don't have the original picks or the final results yet — the template only contains the placeholder "[OPERATOR WILL PASTE RESULTS HERE]". I'll need all three pieces to conduct the review:
+
+1. **My original picks and reasoning** (which games I bet on, the best bet selection, and any significant leans/passes I noted, plus the pre-game data I used).
+2. **The actual game results** (win/loss/push for each pick, and final scores/results for other games I at least considered).
+3. **Any additional context** (e.g., if a pick was voided or a starter changed late).
+
+Once that's pasted into the template as the "FINAL RESULTS" block, I'll be able to go through S1, S2, S3, and S4 honestly — evaluating only pre-game reasoning and flagging what I missed or got right. Please copy in the full slate details and I'll take it from there.
+
+---
+## KIMI RESPONSE
+
+**The original picks and final results are missing from your prompt.**
+
+The placeholder line reads:
+
+> `[OPERATOR WILL PASTE RESULTS HERE]`
+
+…but no game results, lines, or my original selections were actually pasted below it. Without that data I cannot evaluate pre-game reasoning, categorize errors, or identify missed edges.
+
+**Please reply with:**
+1. **My original picks** for the 2026-06-14 slate (game, pick, stake, and pre-game reasoning for each bet).
+2. **The actual game results** (final scores, whether the bet won/lost/pushed).
+
+Once you provide those, I will fill out the full post-mortem template (S1–S4) honestly, referencing **only** pre-game data and using **NONE** for any section that does not genuinely qualify.
+
+---
+
+*If you intended for me to recall picks from earlier in this conversation thread, there is no earlier context attached to this session—so I still need the data pasted explicitly.*
+
+---
+## QWEN RESPONSE
+
+It appears that the original picks, pre-game reasoning, and final results were not pasted into your prompt (the `[OPERATOR WILL PASTE RESULTS HERE]` section is empty). 
+
+Because I do not retain memory of previous chat sessions, I cannot recall the picks or the reasoning I generated earlier today. 
+
+Please reply with:
+1. **My original picks AND the specific pre-game reasoning/data points** I used for the 2026-06-14 slate.
+2. **The actual final results** of those games (and the rest of the slate, if you want me to evaluate passes/leans for Part B).
+
+Once you provide that text, I will immediately run the full post-mortem review, strictly adhering to your anti-hindsight rules and formatting requirements!
+
+---
+## GEMINI RESPONSE
+
+It looks like the final results and your original picks weren't pasted into the prompt under the `[OPERATOR WILL PASTE RESULTS HERE]` placeholder. 
+
+Please provide:
+1. **Your original picks** (including the Best Bet).
+2. **The actual game results/scores** for the June 14, 2026 slate.
+
+Once you paste that information, I will gladly complete this honest, anti-hindsight post-mortem review for you!
+
+---
+## OPUS RESPONSE
+
+I notice the **FINAL RESULTS** section is empty — it still contains the placeholder `[OPERATOR WILL PASTE RESULTS HERE]`. The same is true for my original picks: there's no actual content in the "ORIGINAL BEST BET" field or anywhere else describing what I picked.
+
+I can't run this post-mortem honestly without two things:
+
+1. **My original picks for the 2026-06-14 slate** — the actual best bet, the games I bet, my stakes, and my pass/lean calls with reasoning.
+2. **The final results** — game scores/outcomes for those bets.
+
+Fabricating either would defeat the entire purpose of this review, and it would directly violate the anti-hindsight rule (I can't cite a "specific pre-game data point" for picks I never actually made).
+
+Here's what I need you to paste:
+
+**Required:**
+- The original picks card (best bet + all bets + passes/leans with the pre-game reasoning I gave)
+- The final results to drop into the `FINAL RESULTS` block
+
+**Optional but helpful:**
+- The original prompt/data I was working from (so S3 "data not in the prompt" can be accurate)
+
+Once you paste those, I'll fill out S1–S4 exactly as structured, and I'll hold the line on the discipline rules:
+
+- A loss only gets tagged **CORRECT PROCESS / BAD VARIANCE** if I can name the specific pre-game data point that justified the bet — otherwise it gets a real error category.
+- I'll **skip all correct passes** in Part B and only write blocks where I genuinely missed a pre-game edge.
+- I'll return **NONE** for any section (S3, S4, Part A, Part B) that doesn't genuinely qualify, rather than inventing content to fill space.
+- S4 will stay a **proposal**, justified by pre-game data, never by a single day's outcome.
+
+Paste the picks and results and I'll get started.
+
+---
+## SONNET RESPONSE
+
+I need to flag an important issue before completing this review:
+
+---
+
+## PRE-REVIEW FLAG
+
+The results field reads **"[OPERATOR WILL PASTE RESULTS HERE]"** — no actual game results, outcomes, or scores have been provided. I also have no record of original picks for the **2026-06-14** slate in this session, and **2026-06-14 is a future date** (beyond my knowledge cutoff), meaning no pre-game analysis from me exists to review.
+
+I cannot honestly complete this post-mortem because:
+
+1. **No results were pasted** — every WIN/LOSS field would be fabricated
+2. **No original picks exist in this conversation** — I have nothing to evaluate against
+3. **The date is in the future** — there is no real slate to reconstruct
+
+Completing the template with invented outcomes or invented picks would directly violate the anti-hindsight and honest-analysis requirements your own prompt establishes.
+
+---
+
+## WHAT I CAN DO INSTEAD
+
+**Option A:** If you paste the actual results and your original picks, I will complete every section of the post-mortem honestly and rigorously.
+
+**Option B:** If you want me to demonstrate the *format* with a clearly labeled hypothetical example, I can do that — but it will be marked **EXAMPLE ONLY / NOT REAL DATA** throughout.
+
+**Option C:** If the date is a typo and you meant a past slate, provide the correct date and results and I will proceed.
+
+Which would you prefer?

@@ -1,0 +1,168 @@
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Paul Skenes is flagged with a small-sample L14 trend, while Max Meyer faces a tough platoon matchup. The bullpen fatigue for Miami is also a substantial concern, but the overall edge does not warrant a play.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: LEAN: SD ML
+PRICE: +116
+UNITS: LEAN
+EDGE: 16.9 pts
+TOTAL LEAN: No lean
+REASON: San Diego has a strong offensive matchup against Trevor Rogers, who has been struggling. However, with Walker Buehler also returning from limited action and flagged as a small sample, we will lean with the Padres rather than risk a full stake.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: LEAN: SEA ML
+PRICE: -137
+UNITS: LEAN
+EDGE: 11.4 pts
+TOTAL LEAN: No lean
+REASON: Seattle holds a clear pitching advantage with Emerson Hancock over Miles Mikolas. However, due to slate limit constraints, this edge is relegated to a lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: LEAN: NYY ML
+PRICE: -120
+UNITS: LEAN
+EDGE: 13.7 pts
+TOTAL LEAN: No lean
+REASON: The Yankees offense should thrive against Patrick Corbin, but with Will Warren carrying a small-sample tag, we are limiting this to a lean.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: AZ ML
+PRICE: -107
+UNITS: 1
+EDGE: 20.7 pts
+TOTAL LEAN: No lean
+REASON: Arizona has a massive platoon advantage against Andrew Abbott. Although Zac Gallen is flagged with a small-sample L14, the pricing is far too cheap to pass up, making this a high-value one-unit wager.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: ATL ML
+PRICE: +102
+UNITS: 3
+EDGE: 13.3 pts
+TOTAL LEAN: No lean
+REASON: Atlanta has clear starting pitching and bullpen advantages with Bryce Elder and a dominant, fresh relief corps. The Mets' closer Devin Williams is highly fatigued, while Freddy Peralta's metrics are inflated by a tough Braves lineup.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Stale and suspect pricing data on Detroit triggers an immediate pass for this matchup.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starting pitchers carry small-sample tags and the edge on the heavy road favorite does not meet the minimum criteria for a wager on this restricted slate.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: HOU ML
+PRICE: +108
+UNITS: 1
+EDGE: 36.3 pts
+TOTAL LEAN: No lean
+REASON: Kansas City has a severely compromised and highly volatile bullpen carrying an ERA near 20. Although Spencer Arrighetti is flagged with a small L14 sample, the projected run scoring gap gives Houston a massive edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The projected win probability sits exactly on the market implied price. There is no actionable edge in this matchup.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Stale and suspect pricing data on the moneyline and total markets triggers an immediate pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: High variance environment in Sacramento combined with small-sample starting pitchers makes this an easy pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ryan Rolison's extremely small sample of work makes the projection highly volatile, and the market price on San Francisco is fairly efficient.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starting pitchers carry extreme small-sample warnings, creating too much projection variance to recommend a wager.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Suspect moneyline pricing on Texas triggers a pass under our data integrity guidelines.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: ATL @ NYM (ATL ML +102)
+WHY THIS ONE: Atlanta's pitching metrics are vastly superior to those of the Mets, and New York's closer Devin Williams is highly fatigued. This creates a clean, massive value edge with no small-sample flags.

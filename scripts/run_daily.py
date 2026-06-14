@@ -13,15 +13,16 @@ Steps (in order):
     0. static file check       PRE-CHECK -- warns if FanGraphs files in data/{sport}/ are
                                             missing or older than 7 days. Never blocks.
     1. fetch_odds.py           REQUIRED  -- creates games.json with odds
-    2. fetch_pitchers.py       REQUIRED  -- adds probable pitchers + gamePks
-    3. fetch_pitcher_advanced  OPTIONAL  -- Baseball Savant advanced metrics
-    4. fetch_weather.py        REQUIRED  -- adds weather per stadium
-    5. fetch_teamstats.py      REQUIRED  -- adds team standings and form
-    6. fetch_bullpen.py              OPTIONAL  -- reliever usage last 3 days, taxed flags
-    7. fetch_lineups.py              OPTIONAL  -- confirmed lineups + IL (2-3h before first pitch)
-    8. fetch_umpire_inference.py     OPTIONAL  -- inferred HP from yesterday's crew rotation
-    9. fetch_umpires.py              OPTIONAL  -- confirmed umpires from MLB API (1-2h before)
-   10. build_prompt.py               REQUIRED  -- generates daily/{sport}/{date}/prompt.md
+    2. fetch_covers_lines.py   OPTIONAL  -- adds opening RL/total prices + movement history from Covers.com
+    3. fetch_pitchers.py       REQUIRED  -- adds probable pitchers + gamePks
+    4. fetch_pitcher_advanced  OPTIONAL  -- Baseball Savant advanced metrics
+    5. fetch_weather.py        REQUIRED  -- adds weather per stadium
+    6. fetch_teamstats.py      REQUIRED  -- adds team standings and form
+    7. fetch_bullpen.py              OPTIONAL  -- reliever usage last 3 days, taxed flags
+    8. fetch_lineups.py              OPTIONAL  -- confirmed lineups + IL (2-3h before first pitch)
+    9. fetch_umpire_inference.py     OPTIONAL  -- inferred HP from yesterday's crew rotation
+   10. fetch_umpires.py              OPTIONAL  -- confirmed umpires from MLB API (1-2h before)
+   11. build_prompt.py               REQUIRED  -- generates daily/{sport}/{date}/prompt.md
 
 Required steps: pipeline stops immediately if any of these fail.
 Optional steps: failure is logged clearly, pipeline continues.
@@ -351,6 +352,7 @@ def run_daily(sport: str, date: str = None):
     # This matches each script's actual argparse definition.
     pipeline = [
         ("Odds",         "fetch_odds.py",               ["--sport", sport, "--date", target_date], True),
+        ("Covers Lines", "fetch_covers_lines.py",      ["--sport", sport, "--date", target_date], False),
         ("Pitchers",     "fetch_pitchers.py",          ["--date", target_date],                   True),
         ("Pitcher Adv.", "fetch_pitcher_advanced.py",  ["--sport", sport, "--date", target_date], False),
         ("Weather",      "fetch_weather.py",           ["--date", target_date],                   True),

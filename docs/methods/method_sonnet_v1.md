@@ -70,3 +70,20 @@ I assign each starter a "true ERA" estimate blending L14 and AGG xFIP (60/40 if 
 - Coors Field totals with stale prices — too much variance, no reliable market anchor
 - Strong line movement against my side with no data explaining why
 - Both starters mediocre and bullpens roughly equal — market is probably right
+
+---
+## CANDIDATE METHOD CHANGE — v1.1 (proposed 2026-06-14, 2-slate evidence)
+PROPOSED CHANGE: Cap L14 stat influence. When estimating a starter's true-talent
+level, weight full-season AGG metrics at minimum 2:1 over L14 metrics. L14 stats
+may only shift the edge estimate by a maximum of 50% of the raw AGG-based value.
+Exception: only override this cap when corroborating structural evidence exists
+(documented velocity change, new pitch, documented injury return, or consistent
+30+ day trend — not a single bad/good stretch).
+EVIDENCE: Named independently by DeepSeek, Sonnet, Qwen across June 12-13 slates.
+All three 0-3 DeepSeek losses, Sonnet's oversized best-bet, and Qwen's McLean
+concern all traced to the same root: L14 outliers treated as signal without
+full-season anchoring.
+CONFIDENCE: MEDIUM (2 slates, 3 models, pre-game evidence cited)
+STATUS: CANDIDATE — not yet adopted. Promote to v2 if it recurs or shows CLV
+improvement over next 10+ bets for these models.
+---

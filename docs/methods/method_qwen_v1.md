@@ -18,3 +18,20 @@ I automatically pass if:
 3. The calculated edge is under 4.0 percentage points.
 4. A starter is flagged [small sample] and the edge is under 6.0 points (never risking 3 units on small-sample volatility).
 5. The game is in an extreme variance environment (e.g., Coors Field) unless the edge exceeds 7.0 points, as the noise overwhelms the signal.
+
+---
+## CANDIDATE METHOD CHANGE — v1.1 (proposed 2026-06-14, 2-slate evidence)
+PROPOSED CHANGE: Cap L14 stat influence. When estimating a starter's true-talent
+level, weight full-season AGG metrics at minimum 2:1 over L14 metrics. L14 stats
+may only shift the edge estimate by a maximum of 50% of the raw AGG-based value.
+Exception: only override this cap when corroborating structural evidence exists
+(documented velocity change, new pitch, documented injury return, or consistent
+30+ day trend — not a single bad/good stretch).
+EVIDENCE: Named independently by DeepSeek, Sonnet, Qwen across June 12-13 slates.
+All three 0-3 DeepSeek losses, Sonnet's oversized best-bet, and Qwen's McLean
+concern all traced to the same root: L14 outliers treated as signal without
+full-season anchoring.
+CONFIDENCE: MEDIUM (2 slates, 3 models, pre-game evidence cited)
+STATUS: CANDIDATE — not yet adopted. Promote to v2 if it recurs or shows CLV
+improvement over next 10+ bets for these models.
+---

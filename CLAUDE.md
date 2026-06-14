@@ -150,3 +150,4 @@ Connected models (API): chatgpt, grok, deepseek, kimi, qwen, gemini, opus, sonne
 - SQLite MCP fails on both machines — use JSON files or plain Python sqlite3 library.
 - Laptop is Windows 11 native, no WSL — scripts must run on native Windows.
 - AI models being tested mostly cannot browse — WE pre-load all data into the prompt.
+- FanGraphs data is STATIC FILES ONLY — manually downloaded by operator, loaded via load_static_data.py. FanGraphs blocks all automated access (Cloudflare Turnstile). Never add live FanGraphs fetch calls to any script.

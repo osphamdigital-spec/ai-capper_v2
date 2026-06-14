@@ -1,0 +1,153 @@
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both lefties have similar xFIP/SIERA in the low-4s; Prielipp's full-sample SIERA (3.84) is slightly better but his sample is thin and ERA inflated. Both lineups crush LHP (145/154 wRC+), so this projects close to pick'em with no clear edge against a tight market.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Schlittler's gaudy 1.87 ERA masks a true-talent SIERA of 3.38 — solid but not elite, and the market already prices NYY at -125 fairly given roster strength. Gausman's 3.68 SIERA is comparable, and the Yankees' weak vs-RHP wRC+ (96) tempers the offensive edge. Market is efficient here.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Castillo's seasonal ERA (5.16) looks ugly but his SIERA (4.03) is solid, suggesting market may slightly underprice Seattle — however Cavalli's comparable 3.90 SIERA and Washington's strong home offense vs RHP balance it. SEA bullpen edge (2.36 vs 4.57) is offset by Muñoz's recent struggles. My number sits within 3 pts of the near pick'em market.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Gibson is a small-sample [flag] arm with a brutal -6.2% K-BB% and 6.14 SIERA, while Vásquez carries a 5.17 SIERA and 6.5% K-BB% — two poor starters in a hitter park argue Over the 10.0 total. But SD's anemic vs-RHP offense (81 wRC+) and elite bullpen complicate the side, and the total isn't a clean read with unconfirmed lineups.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Bachar's elite peripherals (2.72 SIERA, 26.9% K-BB%) come on a microscopic 7.2 IP AGG sample — completely untrustworthy as an anchor. Chandler's 4.55 SIERA is the more reliable read. With Miami's weak offense (89 wRC+) and an unreliable starter projection, I can't quantify a clean edge.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: ATL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Home starter is TBD — automatic pass per data integrity rules.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: LAD @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Yamamoto (3.31 SIERA, 20.4% K-BB%) is clearly the better arm over Burke (4.64 SIERA, 10.6% K-BB%), and LAD is the stronger team — but -205 ML prices that in fully. The -1.5 RL at -120 is interesting, yet Chicago's strong home record (23-11) and the run-line variance keep me off it; my fair line is too close to the -120 RL price.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: AZ @ CIN
+PICK: AZ ML
+PRICE: -133
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL LEAN: No lean
+REASON: Soroka (3.65 SIERA, 18.3% K-BB%) is a strong full-sample arm facing Lowder, whose 5.23 SIERA and 4.4% K-BB% mark him as a clear regression candidate behind a shaky 4.87 bullpen ERA. Arizona's bullpen (2.98) is markedly better and rested-enough. No-vig implied on -133 is ~55%; I estimate AZ near 59.5%.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: deGrom (3.23 SIERA, 22.8% K-BB%) is elite and Suarez (3.74 SIERA) is very good — two strong arms in a true pitcher's duel. Boston's weak vs-RHP offense (86 wRC+) faces deGrom but Texas is also light vs LHP context. Pick'em market is efficient; no 4-pt gap.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: DET @ CLE
+PICK: DET ML
+PRICE: -146
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: No lean
+REASON: Skubal (2.75 SIERA, 27.0% K-BB%, 122 Stf+) is the best pitcher on the slate and faces Cantillo, whose recent L3 (15 ER in 11 IP) and 4.34 SIERA mark a clear talent gap. Detroit's hot offense and 132 wRC+ vs LHP support backing the elite arm; no-vig implied ~58%, I estimate ~63%.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Cameron (4.14 SIERA) faces Burrows, whose ugly ERA hides a more palatable 4.16 SIERA, making these arms closer than the surface suggests. KC bullpen ERA flagged at 19.16 is clearly a data anomaly I won't anchor on, and thunderstorm risk adds postponement/variance concern. No clean edge.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Nola's full-sample SIERA (3.81) is far better than his 5.86 ERA suggests, so the market underrating him is exactly my type of spot — but Drohan's tiny 13 IP AGG sample (4.86 SIERA) is untrustworthy, and Milwaukee's elite home form plus offense make this murky. Can't build a confident number against a thin starter read.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Estes (7.06 SIERA, tiny sample) vs Freeland (4.41 SIERA but 7.81 ERA) in a 121-runs park with a 14.0 total screams chaos. The high-variance hitter environment and unreliable starter samples make this a pass on the side; total leans Over but I avoid these extreme-variance spots per method.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Brown's 1.74 ERA overstates his 3.63 SIERA; McDonald's 3.13 SIERA on a small sample is comparable true-talent. Oracle suppresses offense and both lineups are league-average vs RHP. Market at -125 CHC is reasonable; no 4-pt gap.
+LOOKED UP: nothing, used provided data only
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Soriano's 2.96 ERA masks a 4.01 SIERA with recent control collapse (7.6 BB/9 in L3), while Jax (4.20 SIERA) is the slightly worse arm but on a thin sample. Near pick'em market with offsetting bullpen and offense reads — no edge worth the stake.
+LOOKED UP: nothing, used provided data only
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: All qualifying edges are modest 1-unit plays (AZ, DET); no clean-data 7-pt gap exists, so no 3-unit ceiling play is justified.

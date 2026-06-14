@@ -1,0 +1,168 @@
+## GAME: STL @ MIN
+PICK: LEAN: MIN ML
+PRICE: -105
+UNITS: LEAN
+EDGE: 2.8 pts
+TOTAL LEAN: No lean
+REASON: Both offenses are excellent against left-handed pitching, so neither starter gets much platoon protection. Prielipp’s underlying strikeout and estimator profile is better than Liberatore’s, but the small current sample and unconfirmed lineups keep this short of a bet.
+LOOKED UP: lineups unconfirmed; STL best-ML was flagged suspect and ignored
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Schlittler has the better raw stuff base, but Gausman is close enough in skill and Toronto’s bullpen quality keeps the full-game gap narrow. With roof status and lineups still unknown, I do not have a clean 4-point edge either way.
+LOOKED UP: lineups unconfirmed; Rogers Centre roof status unknown
+
+---
+
+## GAME: SEA @ WAS
+PICK: SEA ML
+PRICE: -103
+UNITS: 1
+EDGE: 5.8 pts
+TOTAL LEAN: Over
+REASON: Seattle gets the better lineup split against a righty and owns the much stronger bullpen, with its key late arms relatively rested. Castillo carries contact-risk blemishes, so this is not a ceiling play, but near pick’em I still make Seattle meaningfully better than market.
+LOOKED UP: lineups unconfirmed; over price flagged suspect and ignored
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Baltimore has the cleaner offensive matchup against a very shaky Vásquez contact profile, but Gibson’s tiny sample and poor miss/command indicators make it hard to trust the favorite price. San Diego’s elite bullpen also cuts into Baltimore’s late-game edge.
+LOOKED UP: lineups unconfirmed; BAL starter current sample is very thin
+
+---
+
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Bachar’s early numbers are interesting, but the sample is too thin to trust aggressively, and Miami still gives back some equity in relief. Pittsburgh’s offense is better in this split, but not enough to justify laying the current number.
+LOOKED UP: lineups unconfirmed; MIA starter sample remains thin
+
+---
+
+## GAME: ATL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The Mets starter is TBD, which makes this an automatic pass under the slate rules. Atlanta likely has the better bullpen setup, but I will not estimate a wager without confirmed starter data.
+LOOKED UP: home starter TBD; lineups unconfirmed
+
+---
+
+## GAME: LAD @ CHW
+PICK: LEAN: LAD ML
+PRICE: -193
+UNITS: LEAN
+EDGE: 2.6 pts
+TOTAL LEAN: No lean
+REASON: Yamamoto is the best starter in the game and the Dodgers have the stronger offense, but Burke has been competent enough that the moneyline asks for too much road perfection. I do not want to force a heavy favorite or run line in a setup with enough variance to punish that price.
+LOOKED UP: lineups unconfirmed
+
+---
+
+## GAME: AZ @ CIN
+PICK: LEAN: AZ ML
+PRICE: -133
+UNITS: LEAN
+EDGE: 3.4 pts
+TOTAL LEAN: No lean
+REASON: Arizona has the better starter and clearly better bullpen, and Lowder’s control/shape indicators are a real concern. The issue is price versus park: Great American boosts volatility enough that the edge comes up just shy of my bet threshold.
+LOOKED UP: lineups unconfirmed; over price flagged suspect and ignored
+
+---
+
+## GAME: TEX @ BOS
+PICK: TEX ML
+PRICE: +105
+UNITS: 3
+EDGE: 8.2 pts
+TOTAL LEAN: No lean
+REASON: deGrom has the stronger strikeout-command foundation, Texas owns a major platoon edge against a left-handed starter, and the Rangers also bring the better bullpen. At plus money, the market is underpricing that split advantage too much; I make Texas the rightful favorite here.
+LOOKED UP: lineups unconfirmed
+
+---
+
+## GAME: DET @ CLE
+PICK: LEAN: DET ML
+PRICE: -146
+UNITS: LEAN
+EDGE: 2.2 pts
+TOTAL LEAN: No lean
+REASON: Skubal is the best arm on the slate, but Cleveland also hits lefties well and its bullpen is good enough to keep this from becoming a clear bargain price. In a lower-variance park, Detroit grades better than Cleveland but not by enough to clear 4 points.
+LOOKED UP: lineups unconfirmed; under price flagged suspect and ignored
+
+---
+
+## GAME: HOU @ KC
+PICK: HOU ML
+PRICE: +110
+UNITS: 1
+EDGE: 4.9 pts
+TOTAL LEAN: Over
+REASON: Cameron is the better starter, but Houston’s enormous split edge versus left-handed pitching and Kansas City’s weak split versus righties swing the run-share projection back toward the dog. The Royals’ late-game relief outlook is shakier as well, so the plus price clears my threshold.
+LOOKED UP: lineups unconfirmed; weather shows thunderstorm risk; under price flagged suspect and ignored
+
+---
+
+## GAME: PHI @ MIL
+PICK: LEAN: PHI ML
+PRICE: +123
+UNITS: LEAN
+EDGE: 3.7 pts
+TOTAL LEAN: No lean
+REASON: Nola’s ERA is worse than his estimators, and Philadelphia’s offense versus lefties is strong enough to matter. Milwaukee is still the better home team with a steadier bullpen, so I stop at a dog lean rather than force a wager.
+LOOKED UP: lineups unconfirmed; American Family Field roof status unknown
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Oakland has the obvious lineup edge versus a lefty and Freeland is very hard to trust, but Joey Estes comes with extremely thin current data. In a hitter-friendly park with a 14 total, favorite prices become fragile fast, so I pass.
+LOOKED UP: lineups unconfirmed; ATH starter current data is very thin
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Ben Brown is in better current form and Chicago has the stronger bullpen, but McDonald’s underlying skill is good enough that the market number is close to fair. Oracle suppresses scoring and shrinks separation, which lowers my appetite to lay road chalk.
+LOOKED UP: lineups unconfirmed; total prices were flagged suspect and ignored
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Soriano’s surface ERA looks a bit better than the underlying indicators, but Tampa also lacks a big enough starter or bullpen edge to justify a road bet. With both offenses essentially neutral against righties, this projects very close to a coin flip.
+LOOKED UP: lineups unconfirmed; under price flagged suspect and ignored
+
+---
+
+## SLATE SUMMARY
+BEST BET: TEX ML (+105) in TEX @ BOS
+WHY THIS ONE: Texas gets the better starter, the much better platoon context against a left-handed starter, and a bullpen edge, yet the market still offers plus money.

@@ -1,0 +1,303 @@
+# MLB POST-MORTEM REVIEW — 2026-06-13
+
+---
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** LAD RL -120
+**RESULT:** WIN (LAD 7, CHW 1 — covered by 5 runs)
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES
+
+Yamamoto's dominance and LAD's offense produced exactly the outcome the pre-game data projected. The reasoning chain — elite starter, weak opposing starter, massive bullpen gap, best offense on slate — was clean and held. No revision warranted.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** NYY @ TOR
+**ORIGINAL PICK:** NYY ML -119
+**RESULT:** WIN (NYY 3, TOR 1)
+**GRADE:** B
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** The reasoning held — Schlittler's underlying metrics (Stf+ 111, K-BB% 20.6%) represented real quality, and NYY's lineup depth created the run-scoring pressure anticipated. The win was by 2 runs, consistent with the moderate edge identified. Hoffman's bullpen concern was flagged pre-game and didn't materialize harmfully. No process error to identify. 1 unit was appropriate given Schlittler's L14 small-sample flag.
+**SOURCE:** Pre-game data only; AGG/L14 starter metrics, bullpen ERA comparison.
+
+---
+
+**GAME:** SD @ BAL
+**ORIGINAL PICK:** SD ML +114
+**RESULT:** WIN (SD 9, BAL 3)
+**GRADE:** A
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD YOU MAKE THIS BET AGAIN?** HIGHER STAKE
+**WHY:** The pre-game case was well-constructed and the edge was larger than 1 unit warranted in retrospect. Gibson's contact-management deficiency (K/9 2.6, K-BB% -6.2%) was a genuine signal, SD's elite bullpen (Mason Miller anchor, 2.73 ERA) was real, and the 6-run margin suggests the edge was understated. The hesitation on SD's cold offense (L10RS 3.1) was overly conservative — their underlying wRC+ vs RHP (81) doesn't preclude blowout outcomes when the opposing starter is this deficient. In hindsight, 2 units was supportable given the bullpen mismatch alone.
+**SOURCE:** Pre-game Gibson metrics, SD/BAL bullpen ERA differential.
+
+---
+
+**GAME:** MIA @ PIT
+**ORIGINAL PICK:** MIA ML +120
+**RESULT:** LOSS (MIA 2, PIT 3)
+**GRADE:** B
+**PROCESS:** CORRECT PROCESS / BAD VARIANCE
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** The specific pre-game data points that justify this grade: Bachar's AGG xFIP 2.96/SIERA 2.72 with L14 alignment (xFIP 2.81) is a legitimate and reproducible signal. Chandler's L14 xFIP 5.44 and walk rate deterioration (7 BB in 15 innings L3) were real. MIA's hot L10RS (5.4) was real. A 1-run loss by a team with a legitimate edge is within normal variance for a ~51% win probability play. PIT won by 1 run — MIA had opportunities. I cannot identify a pre-game data error that would have changed the pick. Bad variance, not bad process.
+**SOURCE:** Bachar AGG/L14 xFIP, Chandler L14 xFIP, L3 walk data.
+
+---
+
+**GAME:** LAD @ CHW
+**ORIGINAL PICK:** LAD RL -120
+**RESULT:** WIN (LAD 7, CHW 1 — RL covered)
+**GRADE:** A
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD YOU MAKE THIS BET AGAIN?** HIGHER STAKE
+**WHY:** Every component of the pre-game thesis executed: Yamamoto's dominant peripherals translated to a dominant outing, LAD's lineup produced, Burke/CWS pitching was exploitable, and the bullpen gap was never tested because LAD built a comfortable lead. The 9.1-point edge estimate was well-calibrated. 3 units was appropriate; arguably the cleanest bet on the slate and deserved to anchor a larger allocation.
+**SOURCE:** Yamamoto L14 xFIP 2.78/SIERA 2.69 (13.1 IP), Burke AGG xFIP 4.78, LAD offense metrics.
+
+---
+
+**GAME:** AZ @ CIN
+**ORIGINAL PICK:** AZ ML -133
+**RESULT:** LOSS (AZ 1, CIN 2)
+**GRADE:** C
+**PROCESS:** OVERWEIGHTED FORM / SMALL SAMPLE TRAP (partial)
+**WOULD YOU MAKE THIS BET AGAIN?** LOWER STAKE
+**WHY:** This is the most instructive loss of the slate. The pre-game reasoning was not wrong in structure — Lowder's metrics (L14 xFIP 7.42, walk totals of 4/4/5 in L3) were genuinely alarming, and Soroka's stability was real. However, several factors deserve scrutiny:
+
+1. **Lowder's L14 sample was flagged as 3 IP** — this should have triggered more caution, not confidence. A pitcher in a 3-IP L14 window can have any number of confounding explanations (injury return, role change, deliberate workload management).
+2. **AZ's extreme cold offense (L10RS 2.6) was underweighted.** I noted it but didn't sufficiently penalize the ML price at -133. A team scoring 2.6 runs per game over 10 games is structurally difficult to back at chalk prices, even with pitching advantages.
+3. **CIN won 2-1** — a 1-run game where variance dominates. AZ's 2.6 RS/G L10 was the better pre-game predictor of this outcome than I credited.
+
+The bet was not egregiously wrong, but at -133 with AZ's offensive coldness, 1 unit was still defensible — however, the reasoning should have flagged: *"At -133, cold offense + moderate pitching edge = marginal value, not clear value."*
+**SOURCE:** AZ L10RS 2.6, Lowder L14 3 IP sample, Soroka AGG/L14 alignment.
+
+---
+
+**GAME:** DET @ CLE
+**ORIGINAL PICK:** DET ML +132
+**RESULT:** LOSS (DET 1, CLE 3)
+**GRADE:** C
+**PROCESS:** INCORRECT PITCHING / OVERWEIGHTED FORM
+**WOULD YOU MAKE THIS BET AGAIN?** NO
+**WHY:** This loss reveals a process error I can name specifically. The pre-game reasoning was built around Skubal's excellence *versus* Cantillo's collapse — but the Skubal L14 was listed as "no data," which I acknowledged and then rationalized past by using AGG metrics as anchor. That was the error. "No data" on L14 for a pitcher means I cannot confirm his recent health, workload, or current-cycle form. I chose to proceed on the basis of AGG metrics and L3 outcomes, but without L14 confirmation, the pitcher evaluation was fundamentally incomplete. Additionally, CLE's bullpen (3.14 ERA) was actually superior to what the final score needed — Cantillo may have exited early and CLE's 'pen shut down DET's offense, which was the structural risk I underweighted. DET's 1-run output against a deteriorating starter is consistent with their underlying offensive profile being more moderate than the hot L10RS (6.4) suggested. This was an overweighted-form call on Cantillo's L3 collapse without sufficient evidence Skubal was currently healthy and dominant.
+**SOURCE:** Skubal L14 "no data" flag in original data; Cantillo L3 (15 ER in 11 IP).
+
+---
+
+**GAME:** CHC @ SF
+**ORIGINAL PICK:** CHC ML -124
+**RESULT:** WIN (CHC 6, SF 1)
+**GRADE:** A
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** Ben Brown's consistency (AGG and L14 xFIP aligned at ~3.58-3.59) was a reliable signal. SF's bullpen (4.91 ERA) versus CHC's (3.49 ERA) was a genuine structural edge. The 5-run winning margin suggests the edge was real, not just variance. Oracle Park's suppressive run factor was correctly identified as a limiting factor on opponent scoring. Clean process, clean result.
+**SOURCE:** Brown AGG/L14 xFIP alignment, bullpen ERA differential, park factor 96.
+
+---
+
+**GAME:** PARLAY (LAD RL + AZ ML)
+**ORIGINAL PICK:** LAD RL / AZ ML +189
+**RESULT:** LOSS (LAD won, AZ lost)
+**GRADE:** C
+**PROCESS:** CORRECT PROCESS (LAD leg) / OVERWEIGHTED FORM (AZ leg)
+**WOULD YOU MAKE THIS BET AGAIN?** NO / RESTRUCTURE
+**WHY:** The parlay structure itself was sound — two independent games, both positive EV, combined payout (+189) exceeding implied probability (~34.6%). However, the AZ leg was the weaker of the two, and in retrospect the cold offense (2.6 RS/G L10) made AZ a problematic parlay anchor even at positive expected value. Parlays amplify mistakes: AZ's offensive coldness was a known risk that I insufficient-weighted in the standalone bet, and that same underweighting killed the parlay. The LAD leg was as clean as any parlay leg gets. The lesson: parlay legs should both independently clear a higher confidence bar — not just the 4-point threshold, but something closer to 6+ points for the anchor legs, given parlay variance.
+**SOURCE:** AZ L10RS 2.6 pre-game data; parlay structure reasoning.
+
+---
+
+### PART B — PASSES AND LEANS
+
+---
+
+**GAME:** STL @ MIN
+**YOUR CALL:** PASS
+**FINAL RESULT:** STL 9, MIN 6
+**WAS THIS THE RIGHT CALL?** YES
+**RATIONALE:** Market price integrity concern was legitimate. STL winning by 3 in a game with both bad bullpens and deteriorating starters is consistent with the high-variance, no-reliable-anchor framing. No pre-game data point identified a clean edge.
+
+---
+
+**GAME:** SEA @ WAS
+**YOUR CALL:** PASS
+**FINAL RESULT:** WAS 8, SEA 3
+**WAS THIS THE RIGHT CALL?** UNCLEAR
+**WHAT DID YOU MISS:** WAS winning 8-3 at home as underdogs (implied near pick'em) suggests the WAS side may have had value, but this was flagged correctly as a stale total price and a coin-flip market. Cavalli's L14 deterioration (xFIP 4.46 vs AGG 3.91) was a real signal against CIN — wait, against SEA. Castillo's extreme small sample L14 (5.2 IP) was correctly flagged. The WAS win is notable but without a clean price on either side and with Castillo's L14 ambiguity, the pass was defensible. However, the WAS side with Cavalli at home against Castillo's concerning season xERA (4.90) and HH% (47.3%) could have been evaluated as a lean WAS +money play.
+**SOURCE:** Cavalli L14 xFIP vs AGG differential; Castillo season xERA 4.90.
+**WOULD THIS HAVE BECOME A BET?** MAYBE — WAS +money lean possible but market price flagged on totals side, not necessarily ML side.
+
+---
+
+**GAME:** ATL @ NYM
+**YOUR CALL:** PASS (TBD starter)
+**FINAL RESULT:** ATL 3, NYM 1
+**WAS THIS THE RIGHT CALL?** YES
+**RATIONALE:** TBD starter hard pass was the correct rule application. Cannot evaluate a game without confirmed pitcher data. ATL winning is irrelevant — process was correct.
+
+---
+
+**GAME:** HOU @ KC
+**YOUR CALL:** PASS (weather + data anomaly)
+**FINAL RESULT:** HOU 8, KC 7
+**WAS THIS THE RIGHT CALL?** YES
+**RATIONALE:** Weather concern was legitimate. Game was played, HOU won narrowly. Even in hindsight, the 23% thunderstorm probability and KC bullpen data anomaly (19.16 ERA) were genuine pass triggers. The game being a 1-run HOU win in a high-scoring affair validates the "don't trust this data" instinct on KC's bullpen.
+
+---
+
+**GAME:** PHI @ MIL
+**YOUR CALL:** PASS
+**FINAL RESULT:** PHI 9, MIL 8
+**WAS THIS THE RIGHT CALL?** UNCLEAR
+**WHAT DID YOU MISS:** PHI winning as a +123 underdog in a 9-8 game suggests there was value on the PHI side that I didn't take. Drohan's AGG xFIP (4.59) versus Nola's (3.71) was cited as favoring PHI's starter, and PHI's offense clearly outperformed. However, MIL's 7.4 L10RS and -142 home price meant the market was heavily pricing MIL's recent form. A 9-8 game is high variance by nature and doesn't necessarily indicate a pre-game edge was missed — both bullpens may have been exploited by both offenses. The pass was defensible but the PHI side deserved slightly more attention given Nola's starter advantage.
+**SOURCE:** Nola AGG xFIP 3.71 vs Drohan 4.59; MIL -142 market price.
+**WOULD THIS HAVE BECOME A BET?** MAYBE — PHI ML at +123 was plausibly undervalued if Nola's true advantage was larger than the market priced.
+
+---
+
+**GAME:** COL @ ATH
+**YOUR CALL:** PASS (Estes insufficient data)
+**FINAL RESULT:** ATH 7, COL 5
+**WAS THIS THE RIGHT CALL?** YES
+**RATIONALE:** ATH winning in a pitcher-unknown situation with extreme park variance is not evidence of a missed edge. Estes' 7-IP AGG sample (xFIP 8.67) was correctly treated as unreliable. Pass was right.
+
+---
+
+**GAME:** TB @ LAA
+**YOUR CALL:** PASS
+**FINAL RESULT:** LAA 8, TB 0
+**WAS THIS THE RIGHT CALL?** NO — SIGNIFICANT MISS
+**WHAT DID YOU MISS:** LAA winning 8-0 is a dominant outcome. The pre-game reasoning identified LAA's bullpen as superior (3.27 ERA vs TB 4.41) and noted Soriano's L14 concern (xFIP 5.61, BB/9 7.6) but gave too much credit to his AGG xFIP (3.61) as a "rough patch" rather than a current-cycle danger signal. Jax's L3 inconsistency was cited as a negative for LAA, but his 5-inning scoreless last start was actually a positive signal that was underweighted. The market was near pick'em (-110/-107), but Soriano's current-form collapse (xFIP 5.61, BB/9 7.6 in L14) combined with a clean LAA bullpen and Soriano's small-sample L14 as a genuine red flag should have pushed LAA to a slight edge. This was a case where I correctly identified the signals but failed to act on them because the market was even — but the market being even when one starter is clearly in crisis form is itself a potential edge.
+**SOURCE:** Soriano L14 xFIP 5.61, BB/9 7.6 (10.2 IP — not trivially small); LAA bullpen 3.27 ERA.
+**WOULD THIS HAVE BECOME A BET?** YES — LAA ML +107 or similar with Soriano in confirmed crisis was a bet I should have made at 1 unit.
+
+---
+
+**GAME:** TEX @ BOS
+**YOUR CALL:** PASS
+**FINAL RESULT:** BOS 6, TEX 3
+**WAS THIS THE RIGHT CALL?** YES
+**RATIONALE:** The reasoning was sound — two elite starters, market priced near fair value, under the 4-point threshold. BOS winning by 3 does not reveal a missed edge given the competitive matchup framing.
+
+---
+
+## S3: IMPROVEMENT REQUESTS
+
+---
+
+**TYPE:** STAT
+**ITEM:** Pitcher current-cycle health and confirmed start status (injury report integration at lineup lock, not just TBD flags)
+**AVAILABLE BEFORE FIRST PITCH?** YES
+**SOURCE:** MLB transaction wire; beat reporter Twitter feeds; Rotowire/BaseballPress injury reports
+**WHICH GAME(S):** DET @ CLE (Skubal L14 "no data" was a red flag I rationalized past; knowing why there was no L14 data — whether injury, IL stint, or schedule gap — would have been decisive)
+**WOULD HAVE CHANGED A BET?** YES — DET ML would have been downgraded or eliminated if Skubal had a recent IL stint explaining the L14 gap
+**WOULD HAVE CHANGED BEST BET?** NO
+**WHY:** "No data" on a starter's L14 is not a neutral signal. It could mean: (a) no recent starts due to IL, (b) starts too few to populate the window, (c) data pipeline gap. Without knowing which, the correct default is to treat it as a restriction, not a green light. This data point would have prevented the DET ML bet.
+**EXPECTED IMPACT:** HIGH
+
+---
+
+**TYPE:** STAT
+**ITEM:** Offensive L10RS weighted against quality-of-opposition (opponent ERA during the L10 stretch, not raw run total)
+**AVAILABLE BEFORE FIRST PITCH?** YES
+**SOURCE:** FanGraphs splits; Baseball Reference game logs
+**WHICH GAME(S):** AZ @ CIN (AZ L10RS 2.6 flagged but not contextualized — was this against elite pitching or a true offensive drought?); DET @ CLE (DET L10RS 6.4 cited positively — against whom?)
+**WOULD HAVE CHANGED A BET?** MAYBE — AZ's cold offense against a confirmed-weak schedule would have further reduced confidence in AZ ML at -133 chalk
+**WOULD HAVE CHANGED BEST BET?** NO
+**WHY:** Raw L10RS is a blunt instrument. A team scoring 2.6 RS/G against Cy Young-level pitching is different from a team scoring 2.6 RS/G against replacement-level arms. Knowing the opponent quality during the cold/hot streak would sharpen the signal materially.
+**EXPECTED IMPACT:** MEDIUM
+
+---
+
+**TYPE:** STAT
+**ITEM:** Starter exit velocity / hard-hit rate in L3 starts (not just ER and IP)
+**AVAILABLE BEFORE FIRST PITCH?** YES
+**SOURCE:** Baseball Savant game-level data; Statcast
+**WHICH GAME(S):** TB @ LAA (Soriano L14 BB/9 7.6 was correctly flagged, but HH% or exit velocity in L3 would have confirmed whether he's genuinely collapsing or just walking people while suppressing contact); AZ @ CIN (Lowder's L14 3 IP sample needed context)
+**WOULD HAVE CHANGED A BET?** YES — LAA ML would have been a bet if Soriano's L3 contact metrics confirmed ongoing crisis
+**WOULD HAVE CHANGED BEST BET?** NO
+**WHY:** Walk rate alone doesn't fully capture whether a starter is imploding. Soriano walking 7.6/9 while also allowing hard contact is categorically worse than walking 7.6/9 while suppressing contact. This metric would have differentiated a true collapse from a control blip.
+**EXPECTED IMPACT:** HIGH
+
+---
+
+**TYPE:** PROMPT
+**ITEM:** Explicit rule: "No data" on a starter's L14 should be treated as a small-sample restriction, not a neutral condition — bet must be capped at 1 unit and explicitly flagged as proceeding without recent form confirmation
+**AVAILABLE BEFORE FIRST PITCH?** YES (this is a reasoning rule, not data)
+**SOURCE:** DET @ CLE loss — Skubal L14 "no data" was rationalized past rather than treated as a hard restriction
+**WHICH GAME(S):** DET @ CLE
+**WOULD HAVE CHANGED A BET?** YES — DET ML would have been further discounted or passed
+**WOULD HAVE CHANGED BEST BET?** NO
+**WHY:** The current prompt has small-sample restrictions for clearly flagged small samples (under threshold IP). But "no data" is a different failure mode — it can mean the pitcher hasn't pitched recently at all, which is the opposite of "small but existing sample." This distinction needs an explicit rule.
+**EXPECTED IMPACT:** MEDIUM
+
+---
+
+**TYPE:** STAT
+**ITEM:** Team implied totals (ITT) from the current market price, not just ML price — allows triangulation between run line and moneyline to confirm which side the market favors covering spreads
+**AVAILABLE BEFORE FIRST PITCH?** YES
+**SOURCE:** Action Network, FanGraphs live odds, Pregame.com
+**WHICH GAME(S):** All run-line bets (LAD RL especially — confirmed clean, but having ITT would allow a cross-check: if LAD's ITT >> CWS ITT by more than 1.5 runs, RL value is confirmed structurally)
+**WOULD HAVE CHANGED A BET?** MAYBE — would have added structural confirmation to LAD RL and potentially revealed LAA's ITT advantage vs TB
+**WOULD HAVE CHANGED BEST BET?** NO
+**WHY:** ML price alone doesn't tell you how the market prices run distribution. ITT gives you the market's expectation of each team's run total independently, which is more informative for run line evaluation than ML implied probability alone.
+**EXPECTED IMPACT:** MEDIUM
+
+---
+
+## S4: TOP 3 IMPROVEMENTS
+
+**RANK 1 —**
+**TYPE:** STAT
+**ITEM:** Explicit classification of L14 "no data" as a hard restriction equivalent to small-sample flag, requiring disclosure of reason for data gap (IL stint, schedule gap, or pipeline error)
+**WHY:** The DET ML loss is directly attributable to proceeding past a "no data" L14 flag. If the reason for the gap had been known — particularly an IL stint — the bet would have been downgraded or eliminated. This is a repeatable error with a clear fix.
+**SOURCE:** Rotowire/BaseballPress injury history; MLB transactions wire
+**ROI IMPACT:** HIGH
+
+**RANK 2 —**
+**TYPE:** STAT
+**ITEM:** L3 Statcast exit velocity / HH% by starter (game-level), available from Baseball Savant
+**WHY:** The TB @ LAA miss was driven by inability to confirm whether Soriano's walk-rate collapse was accompanied by hard contact. With L3 HH% data, the evaluation would have shifted from "rough patch" to "genuine collapse or confirmed suppression." This applies broadly to all starts where L14 is small-sample or flagged.
+**SOURCE:** Baseball Savant game logs
+**ROI IMPACT:** HIGH
+
+**RANK 3 —**
+**TYPE:** STAT
+**ITEM:** L10 offensive RS weighted by opponent ERA (not raw RS total)
+**WHY:** Raw L10RS led to under-weighting AZ's offensive drought (was 2.6 RS/G against whom?) and over-weighting DET's hot stretch (6.4 RS/G against whom?). Context-adjusted L10RS would sharpen moneyline probability estimates, particularly for teams at chalk prices where offensive output is load-bearing.
+**SOURCE:** FanGraphs splits; Baseball Reference game logs
+**ROI IMPACT:** MEDIUM
+
+---
+
+## S5: MASTER PROMPT CANDIDATE
+
+**TYPE:** STAT
+**ITEM:** L3 game-level Statcast exit velocity / HH% per starter (from Baseball Savant), provided alongside or in addition to L14 aggregate contact metrics
+**WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT:** Current data provides L14 HH% and Barrel% aggregates, but these can obscure whether a pitcher's recent 2-3 starts are trending better or worse on contact quality. A starter can have a mediocre L14 aggregate but dominant L3 contact profile (or vice versa). Game-level L3 contact data gives the most current and actionable signal on whether a starter's underlying performance matches his run-prevention results. This was the key missing input for Soriano (TB) and would have been confirmatory for Lowder (CIN).
+**SOURCE:** Baseball Savant game-level search (available publicly, can be pulled before first pitch)
+**WOULD HAVE CHANGED A BET?** YES — LAA ML would have been a 1-unit bet if Soriano's L3 contact metrics confirmed crisis
+**WOULD HAVE CHANGED BEST BET?** NO
+**SHOULD BE AUTOMATED IN THE DATA PIPELINE?** YES
+
+---
+
+## S6: MODEL-SPECIFIC REASONING INSTRUCTION
+
+**MODEL:** Claude Sonnet
+**REASONING WEAKNESS IDENTIFIED:** When a data flag is encountered mid-reasoning (e.g., "no data" on L14, stale price, data anomaly), the model correctly identifies the flag but then constructs a rationale for proceeding rather than treating the flag as a hard decision node. This leads to bets being made on incomplete information with insufficient discounting.
+
+**PROPOSED PROMPT INSTRUCTION:**
+
+> "When any data integrity flag is encountered during analysis — including 'no data' on L14, stale/suspect market prices, or anomalous metrics (e.g., 19.16 ERA) — treat the flag as a **hard decision node**, not a speed bump. Stop at the flag and explicitly ask: *'What is the most likely explanation for this gap, and does any plausible explanation make this bet wrong?'* If the answer is yes under any plausible explanation, either pass or reduce stake. Do NOT construct a rationale for proceeding past a flag using data from a different time window (e.g., substituting AGG for missing L14). If you substitute, explicitly label the bet: PROCEEDING WITHOUT RECENT FORM CONFIRMATION and cap at 0.5 units regardless of calculated edge."
+
+**WHY THIS ADDRESSES THE WEAKNESS:** The DET ML loss was caused precisely by acknowledging the "no data" flag on Skubal's L14 and then substituting AGG metrics as if they were equivalent. They are not equivalent — a pitcher with no recent L14 data may be returning from IL, on a modified schedule, or dealing with a hidden health issue. The instruction creates a forced pause at every flag rather than allowing motivated reasoning to continue.
+
+**SOURCE OF THIS INSIGHT:** DET @ CLE loss (Skubal L14 "no data" rationalized past); AZ @ CIN loss (Lowder 3 IP L14 sample rationalized as sufficient to anchor a -133 bet)
+
+**EXPECTED IMPACT:** HIGH

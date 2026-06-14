@@ -1,0 +1,154 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET DECLARED — no 3-unit play identified  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? N/A  
+IF NO — NEW BEST BET: TEX ML (+105) was the only wager (1u), but it would remain a 1u play, not a 3u best bet, given the platoon-split uncertainty.  
+WHY: The slate lacked a high-confidence, multi-unit edge. The lone TEX play was built on a single noisy team split; that profile should never carry best-bet stakes.  
+SOURCE: Provided data only.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** TEX @ BOS  
+**ORIGINAL PICK:** TEX ML (+105), 1 unit  
+**RESULT:** LOSS  
+**GRADE:** C  
+**PROCESS:** OVERWEIGHTED FORM  
+**WOULD YOU MAKE THIS BET AGAIN?** NO  
+**WHY:** I anchored the entire edge to Texas’s 140 wRC+ vs LHP and a deGrom SIERA advantage without regressing the split toward team baseline or accounting for deGrom’s volatility context. A 54-point platoon gap treated as stable is a textbook case of overweighting a conditional offensive profile. The “4.2 pt edge” was largely an artifact of that unregressed split rather than durable skill differentials.  
+**SOURCE:** Provided data only; no split-sample metadata or pitcher workload flags included.
+
+---
+
+### PART B — GAMES YOU PASSED OR LEANED
+
+**GAME:** SD @ BAL  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** SD 9, BAL 3  
+**WAS THIS THE RIGHT CALL?** UNCLEAR  
+**IF NO OR UNCLEAR —**  
+  **WHAT DID YOU MISS:** I cited SD’s 81 wRC+ vs RHP as a “massive drag,” but I had no PA count for that split. If it was a small or variance-inflated sample, the true SD offensive expectation was higher, and the Vásquez-vs-Gibson pitching edge may have cleared the gate.  
+  **SOURCE:** Provided data lacked platoon-split PA totals.  
+  **WOULD THIS HAVE BECOME A BET?** MAYBE
+
+**GAME:** CHC @ SF  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** CHC 6, SF 1  
+**WAS THIS THE RIGHT CALL?** UNCLEAR  
+**IF NO OR UNCLEAR —**  
+  **WHAT DID YOU MISS:** My own reasoning concluded that the Cubs’ rested leverage bullpen and home field “flip the edge back to the Cubs.” If that internal read was accurate, I failed to check the implied market price to see whether Chicago was underpriced. I never stated the line; absent that cross-check, I cannot confirm the pass was correct.  
+  **SOURCE:** Missing market-price verification step in my process.  
+  **WOULD THIS HAVE BECOME A BET?** MAYBE
+
+**GAME:** LAD @ CHW  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** LAD 7, CHW 1  
+**WAS THIS THE RIGHT CALL?** YES  
+**WHY:** True probability ~68% vs. -205 implied ~67.2%. A comfortable win does not retroactively create an edge; the price was too steep. Correct mathematical pass.
+
+**GAME:** NYY @ TOR  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** NYY 3, TOR 1  
+**WAS THIS THE RIGHT CALL?** YES  
+**WHY:** I noted superior predictive stuff for Schlittler but also a below-average NYY offense vs RHP and a rested, elite TOR bullpen. A low-scoring road win is well within the variance spectrum of that profile; no pre-game edge met the gate.
+
+**GAME:** SEA @ WAS / MIA @ PIT / AZ @ CIN / DET @ CLE / HOU @ KC / PHI @ MIL / COL @ ATH / TB @ LAA  
+**YOUR CALL:** PASS (all)  
+**WAS THIS THE RIGHT CALL?** YES  
+**WHY:** In each case the reasoning cited either small-sample/unpriceable starters, offsetting platoon/bullpen forces, or a math gap south of 4 points. The results do not invalidate those passes; several were coin-flip or low-edge environments where a wager would have been -EV ex ante.
+
+---
+
+## S3: IMPROVEMENT REQUESTS
+
+**1.**  
+TYPE: DATA  
+ITEM: Team platoon-split sample sizes (PA totals) and regression weights for wRC+ vs LHP/RHP.  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: FanGraphs Splits, Baseball-Reference  
+WHICH GAME(S): TEX @ BOS, SD @ BAL, AZ @ CIN, HOU @ KC, DET @ CLE  
+WOULD HAVE CHANGED A BET? YES (TEX would have been a PASS)  
+WOULD HAVE CHANGED BEST BET? N/A  
+WHY: Without PA counts, I treated 140, 81, 85, 159, and 132 wRC+ splits as equally reliable. A sub-250 PA split is largely noise; regressing it would have collapsed the false TEX edge.  
+EXPECTED IMPACT: HIGH  
+
+**2.**  
+TYPE: DATA  
+ITEM: Starting pitcher workload/health flags — pitch-count caps, days since IL activation, and pre-game velocity relative to baseline.  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: Rotowire, team beat reports, official notes  
+WHICH GAME(S): TEX @ BOS (deGrom), MIA @ PIT (Bachar), PHI @ MIL (Drohan)  
+WOULD HAVE CHANGED A BET? YES (TEX likely PASS if deGrom was capped)  
+WOULD HAVE CHANGED BEST BET? N/A  
+WHY: SIERA assumes normal workload. A post-IL pitch count turns a 3.23-SIERA arm into a high-variance 5-inning opener, crushing win probability.  
+EXPECTED IMPACT: HIGH  
+
+**3.**  
+TYPE: DATA  
+ITEM: Venue-specific park factors (3-year run factor) listed in every game block.  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: FanGraphs, Baseball Prospectus  
+WHICH GAME(S): TEX @ BOS (Fenway), COL @ ATH, CHC @ SF  
+WOULD HAVE CHANGED A BET? MAYBE (TEX edge narrows in a high-offense park)  
+WOULD HAVE CHANGED BEST BET? NO  
+WHY: I cited Coors variance but ignored Fenway’s effect on the deGrom/Suárez matchup. Park context is a fundamental adjustment, not an afterthought.  
+EXPECTED IMPACT: MEDIUM  
+
+**4.**  
+TYPE: DATA  
+ITEM: Bullpen leverage-arm availability (not just “rested,” but specific high-leverage relievers declared unavailable).  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: Team Twitter/X, bullpen usage trackers  
+WHICH GAME(S): PHI @ MIL, DET @ CLE, NYY @ TOR  
+WOULD HAVE CHANGED A BET? MAYBE  
+WOULD HAVE CHANGED BEST BET? NO  
+WHY: Binary “rested” is insufficient. Knowing the top 2-3 arms are unavailable materially changes late-game win probability.  
+EXPECTED IMPACT: MEDIUM  
+
+**5.**  
+TYPE: PROMPT  
+ITEM: Require an explicit fair moneyline estimate (derived from SIERA, bullpen, lineup, park) *before* viewing the market price.  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: Prompt architecture  
+WHICH GAME(S): All  
+WOULD HAVE CHANGED A BET? MAYBE  
+WOULD HAVE CHANGED BEST BET? NO  
+WHY: In TEX @ BOS I anchored to the +105 line and worked backward to a 4.2-point edge. Deriving fair price first prevents confirmation bias.  
+EXPECTED IMPACT: MEDIUM  
+
+---
+
+## S4: TOP 3 IMPROVEMENTS
+
+**RANK 1 —** TYPE: DATA / ITEM: Team platoon-split sample sizes (PA counts) with regression guidance / WHY: I built the TEX bet on a 140 wRC+ vs LHP without knowing if it was 150 PA or 600 PA. Knowing the sample would have forced regression and likely eliminated the false 4.2-point edge. / SOURCE: FanGraphs Splits / ROI IMPACT: HIGH  
+
+**RANK 2 —** TYPE: DATA / ITEM: Pre-game pitcher workload/health flags (pitch counts, recent IL status) / WHY: deGrom types routinely pitch with restrictions that SIERA cannot see. A simple “cap” or “second start off IL” flag would have turned TEX into a clear pass. / SOURCE: Rotowire, team notes / ROI IMPACT: HIGH  
+
+**RANK 3 —** TYPE: PROMPT / ITEM: Independent fair-ML estimate before market-price lookup / WHY: My TEX reasoning flowed from the +105 line backward rather than forward from fundamentals. Removing the anchor would have exposed how thin the edge was. / SOURCE: Prompt logic / ROI IMPACT: MEDIUM  
+
+---
+
+## S5: MASTER PROMPT CANDIDATE
+
+TYPE: DATA  
+ITEM: Starting pitcher workload and health status flags, including pitch-count restrictions, days since IL activation, and pre-game velocity trend vs. season average.  
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: Seasonal SIERA and ERA are backward-looking averages built on full workloads. A starter on a 75-pitch cap or pitching through a known physical limitation has a radically different win probability than his seasonal line implies. This is especially critical for high-profile, injury-prone aces.  
+SOURCE WHERE THIS IS AVAILABLE: Rotowire MLB Injury Report, team beat writer pre-game notes, Baseball-Reference injury history.  
+WOULD HAVE CHANGED A BET? YES (TEX @ BOS)  
+WOULD HAVE CHANGED BEST BET? N/A  
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES (auto-flag any starter with <100% workload expectation or <5 days since IL return)  
+
+---
+
+## S6: MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: Kimi (kimi-k2.6)  
+REASONING WEAKNESS IDENTIFIED: Over-reliance on team-level platoon splits (wRC+ vs LHP/RHP) without sample-size validation, and allowing a single noisy split to drive the majority of the required 4-point edge.  
+PROPOSED PROMPT INSTRUCTION:  
+*"Before using any team wRC+ split (vs LHP or vs RHP) as a primary betting input, confirm the split is based on at least 250 team PA in the current season. If the sample is below 250 PA, regress the split 50% toward the team's overall wRC+. Do not allow a platoon gap alone to constitute more than one-third of the required 4-point edge gate; the remaining edge must come from starting pitching (SIERA/K-BB%), bullpen quality, or defensive metrics."*  
+WHY THIS ADDRESSES THE WEAKNESS: It prevents the model from anchoring to volatile team splits (e.g., TEX 140 wRC+ vs LHP, SD 81 wRC+ vs RHP) and forces the edge to rest on more stable, pitcher-driven inputs. This directly stops the false-edge construction that produced the losing TEX recommendation.  
+SOURCE OF THIS INSIGHT: Post-mortem of 2026-06-13 slate where a 1-unit play lost due to an unregressed platoon split and resulting inflated probability gap.  
+EXPECTED IMPACT: HIGH

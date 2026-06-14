@@ -1,0 +1,168 @@
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Liberatore and Prielipp both carry explicit small-sample flags on recent data despite aggregate metrics; Prielipp shows modestly better xFIP/SIERA/Stf+ but platoon and bullpen edges are neutral to slight MIN. No clean 4-point gap available.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Schlittler holds clear aggregate edge in xFIP/SIERA/K-BB% over Gausman with solid IP; however platoon favors TOR and overall gap after park adjustment lands below 4 points versus -119 market. No qualifying edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Castillo and Cavalli show comparable recent xFIP/SIERA with small-sample flags present; platoon favors SEA but bullpen and park adjustments keep estimated gap under 4 points versus market. Pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gibson carries heavy small-sample flag under 20 IP; Vásquez metrics are mediocre. No reliable pitcher-quality base for edge calculation.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Bachar small-sample flag; Chandler aggregate metrics middling. Bullpen and platoon data do not produce 4-point edge versus market.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Home starter TBD — explicit pass per rules.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: LAD ML -193
+PRICE: -193
+UNITS: 1
+EDGE: 4.1 pts
+TOTAL LEAN: No lean
+REASON: Yamamoto holds large aggregate advantage in xFIP/SIERA/Stf+/K-BB% over Burke with clean IP totals; team rdiff, platoon vs RHP, and bullpen edge add up to roughly 70% LAD win probability versus 65.9% market implied. Clears 4-point gate cleanly.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Lowder small-sample flag; Soroka metrics solid but overall gap after adjustments stays below threshold versus market.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: deGrom and Suarez both post strong aggregate xFIP/SIERA/K-BB%; platoon and park adjustments leave estimated edge under 4 points versus -115/-120 range.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Skubal under 50 IP explicit small-sample flag caps any play at 1 unit max; team form heavily favors CLE despite elite pitching metrics. No qualifying edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Burrows and Cameron aggregates comparable after xFIP/SIERA weighting; bullpen and weather factors do not generate 4-point gap.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Drohan small-sample flag; Nola metrics average. No clean edge after park/platoon review.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Estes extremely limited data; Freeland poor metrics. High-variance park adds noise, no reliable 4-point edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: McDonald small-sample flag; Brown strong but overall gap after adjustments falls short of 4 points versus market.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Jax small-sample flag; Soriano solid but platoon and bullpen balance keep estimated edge below threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No 3-unit opportunity met the 7-point clean-data threshold after small-sample and starter checks.

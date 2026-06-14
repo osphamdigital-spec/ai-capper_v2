@@ -1,0 +1,83 @@
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** DET ML +132
+**RESULT:** LOSS (DET 1, CLE 3)
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES
+**WHY:** Tarik Skubal was on the mound with an elite 2.75 aggregate SIERA matching up against Joey Cantillo (4.34 SIERA). Getting a Cy Young-caliber pitcher at +132 against a pitcher with a 4.00+ SIERA is a mathematically mandatory bet. The Tigers' offense failed to back Skubal up, but the process of backing a dominant ace at a steep underdog price remains the highest-edge strategy on the slate.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** MIA @ PIT
+**ORIGINAL PICK:** MIA ML (+120)
+**RESULT:** LOSS (MIA 2, PIT 3)
+**GRADE:** B
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** Lake Bachar (2.72 AGG SIERA, 2.90 xERA) presented a clear pitching advantage over Bubba Chandler (4.55 SIERA). Getting a significant starting pitching advantage at a plus-money price (+120) is structurally correct over a large sample size. A tight 3-2 loss is standard baseball variance.
+**SOURCE:** Internal Model Data
+
+---
+
+**GAME:** TEX @ BOS
+**ORIGINAL PICK:** TEX ML (+105)
+**RESULT:** LOSS (TEX 3, BOS 6)
+**GRADE:** A
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** Having Jacob deGrom at plus-money (+105) against Ranger Suarez, while backing a Rangers lineup with a 140 wRC+ against lefties, is an elite, non-negotiable spot. This was a premier situational edge that failed to translate due to standard variance.
+**SOURCE:** Internal Model Data
+
+---
+
+**GAME:** DET @ CLE
+**ORIGINAL PICK:** DET ML (+132)
+**RESULT:** LOSS (DET 1, CLE 3)
+**GRADE:** A
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD YOU MAKE THIS BET AGAIN?** YES
+**WHY:** As detailed in the Best Bet section, Tarik Skubal at +132 against Joey Cantillo is an incredible mathematical edge. Skubal pitched well, but the run support did not materialize. 
+**SOURCE:** Internal Model Data
+
+---
+
+### PART B — GAMES YOU PASSED OR LEANED
+
+**GAME:** SEA @ WAS
+**YOUR CALL:** LEAN: SEA ML
+**FINAL RESULT:** WAS 8, SEA 3
+**WAS THIS THE RIGHT CALL?** YES
+**WHY:** Though the model identified an 11.4 pt edge on Seattle, we correctly kept this as a lean due to "slate ceilings." This saved us 3 units on a game where Washington's offense completely broke open the Seattle bullpen.
+
+**GAME:** AZ @ CIN
+**YOUR CALL:** LEAN: AZ ML
+**FINAL RESULT:** CIN 2, AZ 1
+**WAS THIS THE RIGHT CALL?** YES
+**WHY:** Similar to the Seattle game, Arizona had a strong mathematical edge (10.7 pts) against Rhett Lowder's poor recent form. Keeping this as a lean to avoid over-exposure on a massive 15-game slate protected our bankroll on a low-scoring loss.
+
+---
+
+## S3: IMPROVEMENT REQUESTS
+*NONE*
+
+---
+
+## S4: TOP 3 IMPROVEMENTS
+*NONE*
+
+---
+
+## S5: MASTER PROMPT CANDIDATE
+*NONE*
+
+---
+
+## S6: MODEL-SPECIFIC REASONING INSTRUCTION
+
+**MODEL:** Gemini (gemini-3.5-flash)
+**REASONING WEAKNESS IDENTIFIED:** Over-reliance on starting pitching matchups (deGrom, Skubal, Bachar) without accounting for extreme travel, bullpen rest cycles, or team offensive slumps on 15-game slates.
+**PROPOSED PROMPT INSTRUCTION:** "When evaluating road underdogs with major starting pitching advantages, cross-reference the bullpen's L3 days workload. If the bullpen's top three high-leverage arms are fatigued (having pitched in 2 of the last 3 days), downgrade the edge by 5% to account for late-game volatility."
+**WHY THIS ADDRESSES THE WEAKNESS:** All three of our official plays (MIA, TEX, DET) were road or neutral-site plus-money plays backed by superior starters, and all three failed in close, late-game spots where bullpen depth or offensive execution faltered.
+**EXPECTED IMPACT:** MEDIUM

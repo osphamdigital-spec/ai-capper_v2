@@ -1,0 +1,115 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: TEX @ BOS
+ORIGINAL PICK: TEX ML +105
+RESULT: LOSS
+GRADE: B
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: The pre-game data showed a massive platoon advantage for Texas (140 wRC+ vs LHP) against Boston (86 wRC+ vs RHP), and deGrom's SIERA/K-BB% was superior to Suarez's. The +105 price offered a 6.2 pt edge based on these inputs. A single-game loss despite a strong process and plus-money price is standard bad variance.
+SOURCE: Pre-game model data
+
+GAME: HOU @ KC
+ORIGINAL PICK: HOU ML +110
+RESULT: WIN
+GRADE: A
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Houston's 159 wRC+ against LHP completely outclassed Kansas City's 90 wRC+ against RHP. The bullpens also favored Houston. Getting +110 for a team with such a massive offensive platoon advantage and bullpen edge was a highly profitable spot.
+SOURCE: Pre-game model data
+
+GAME: PHI @ MIL
+ORIGINAL PICK: PHI ML +123
+RESULT: WIN
+GRADE: A
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Nola's SIERA and K-BB% were much better than Drohan's. Philadelphia's 130 wRC+ against LHP provided a distinct advantage. Securing plus money (+123) on the road against a vulnerable lefty starter with a 6.2 pt calculated edge was excellent execution.
+SOURCE: Pre-game model data
+
+---
+
+PART B — GAMES YOU PASSED OR LEANED
+
+GAME: SEA @ WAS
+YOUR CALL: LEAN SEA
+FINAL RESULT: WAS 8, SEA 3
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR — N/A (The lean was based on a 3.3 pt edge which correctly fell short of the 4% threshold for a formal bet. Passing on the formal wager saved a loss).
+
+GAME: SD @ BAL
+YOUR CALL: PASS
+FINAL RESULT: SD 9, BAL 3
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR — N/A (Baltimore was favored at -125. Passing avoided a loss on the favorite).
+
+GAME: AZ @ CIN
+YOUR CALL: PASS
+FINAL RESULT: CIN 2, AZ 1
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR — N/A (Arizona was favored at -133. Passing avoided a loss on the favorite).
+
+GAME: DET @ CLE
+YOUR CALL: PASS
+FINAL RESULT: CLE 3, DET 1
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR — N/A (Detroit was favored at -146. Passing avoided a loss on the favorite).
+
+GAME: CHC @ SF
+YOUR CALL: PASS
+FINAL RESULT: CHC 6, SF 1
+WAS THIS THE RIGHT CALL? YES
+IF NO OR UNCLEAR — N/A (San Francisco was the lean at +114 but didn't meet the 4% edge threshold. Passing was correct as the Giants lost).
+
+GAME: STL @ MIN
+YOUR CALL: PASS
+FINAL RESULT: STL 9, MIN 6
+WAS THIS THE RIGHT CALL? YES
+
+GAME: NYY @ TOR
+YOUR CALL: PASS
+FINAL RESULT: NYY 3, TOR 1
+WAS THIS THE RIGHT CALL? YES
+
+GAME: MIA @ PIT
+YOUR CALL: PASS
+FINAL RESULT: PIT 3, MIA 2
+WAS THIS THE RIGHT CALL? YES
+
+GAME: ATL @ NYM
+YOUR CALL: PASS
+FINAL RESULT: ATL 3, NYM 1
+WAS THIS THE RIGHT CALL? YES
+
+GAME: LAD @ CHW
+YOUR CALL: PASS
+FINAL RESULT: LAD 7, CHW 1
+WAS THIS THE RIGHT CALL: YES
+
+GAME: COL @ ATH
+YOUR CALL: PASS
+FINAL RESULT: ATH 7, COL 5
+WAS THIS THE RIGHT CALL? YES
+
+GAME: TB @ LAA
+YOUR CALL: PASS
+FINAL RESULT: LAA 8, TB 0
+WAS THIS THE RIGHT CALL? YES
+
+## S3: IMPROVEMENT REQUESTS
+NONE
+
+## S4: TOP 3 IMPROVEMENTS
+NONE
+
+## S5: MASTER PROMPT CANDIDATE
+NONE
+
+## S6: MODEL-SPECIFIC REASONING INSTRUCTION
+NONE

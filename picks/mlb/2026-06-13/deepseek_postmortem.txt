@@ -1,0 +1,138 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET — no 3-unit play identified today
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME: SEA @ WAS**
+ORIGINAL PICK: SEA ML (-103, 1u)
+RESULT: LOSS
+GRADE: D
+PROCESS: INCORRECT TEAM STRENGTH – The edge was driven by SEA’s 118 wRC+ vs RHP and a 2.36 bullpen ERA, but both likely regressed heavily from small samples. The 8-run allowed output suggests the projection overrated SEA’s pitching floor and underrated WAS’s lineup depth. The 12‑pt edge was not real.
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: The projected win probability (61.5%) was implausibly high once you strip away early-season offensive noise and consider Castillo’s average xFIP. The bullpen ERA was likely a mirage, and our freshness claim lacked a credible data source. A more conservative offensive regression plus a park-adjusted bullpen ERA would have erased the edge.
+SOURCE: Provided data with no bullpen‑usage cross‑check; no recent performance regressions applied to offensive splits.
+
+---
+
+**GAME: AZ @ CIN**
+ORIGINAL PICK: AZ ML (-133, 1u)
+RESULT: LOSS
+GRADE: B
+PROCESS: CORRECT PROCESS BAD VARIANCE – The core reasoning was sound: Soroka’s solid projection vs Lowder’s terrible peripherals gave a genuine starting pitching gap, and the AZ bullpen was reasonably favored. A 1‑run loss with SP edge playing out is the textbook definition of a good bet that didn’t cash. The 9.7‑pt edge was within a reasonable range of uncertainty.
+WOULD YOU MAKE THIS BET AGAIN? YES, with same stake
+WHY: The edge was derived from a robust xFIP comparison, and the outcome (1‑2) was decided by offensive sequencing. The pre‑game data supported a 60‑65% win probability, and losing a 35‑40% outcome is not indicative of a flawed process.
+SOURCE: Pre‑game provided data, no additional look‑up.
+
+---
+
+**GAME: TEX @ BOS**
+ORIGINAL PICK: TEX ML (+102, 1u)
+RESULT: LOSS
+GRADE: D
+PROCESS: OVERWEIGHTED FORM – deGrom’s elite xFIP (2.94) was likely too stale or came from a tiny sample post‑injury, while the offensive splits (140 wRC+ vs LHP, 86 wRC+ vs RHP) were treated with insufficient regression. The 14.7‑pt edge was fundamentally inflated; a 62.3% win probability for an away team with a single elite but health‑uncertain starter is too aggressive. The market knew something we didn’t.
+WOULD YOU MAKE THIS BET AGAIN? NO
+WHY: The bet was built around an assumption that deGrom’s true‑talent level was in peak form, full health, and would go deep. Meanwhile, the BOS offense’s 86 wRC+ was clearly due to regress upward. Without real‑time injury updates or workload limits, this bet should have been capped or passed.
+SOURCE: Provided data; missing probable workload limit / health status for deGrom, and recent‑form offense numbers.
+
+---
+
+### PART B — GAMES YOU PASSED OR LEANED
+
+**GAME: SD @ BAL**
+YOUR CALL: PASS (edge 3.7%, below 4-pt gate)
+FINAL RESULT: SD 9‑3 win
+WAS THIS THE RIGHT CALL? YES (based on pre‑set threshold), but worth reviewing threshold calibration
+IF NO OR UNCLEAR: The model correctly identified a small edge; a lower threshold would have triggered a bet and won. This is not a process error, but a threshold sensitivity note.
+  SOURCE: Provided data. Edge estimate accurate; underdog won.
+
+**GAME: HOU @ KC**
+YOUR CALL: PASS (weather + SP consistency risk)
+FINAL RESULT: HOU 8‑7 win
+WAS THIS THE RIGHT CALL? YES – the 23% rain risk and Burrows’ unreliable projection made a pass justified, even though HOU won. The edge (5.3%) was tainted by truncation risk.
+  SOURCE: Weather data and small‑sample SP flag.
+
+**GAME: COL @ ATH**
+YOUR CALL: PASS (untrustable 12‑pt edge due to Estes unknown)
+FINAL RESULT: ATH 7‑5 win (our value side lost)
+WAS THIS THE RIGHT CALL? YES – the pass saved us from a 1‑unit loss on a speculative edge. The model’s output correctly flagged uncertainty and we acted on it.
+
+**GAME: DET @ CLE**
+YOUR CALL: PASS (no edge after regression)
+FINAL RESULT: CLE 3‑1 win (our slight lean DET lost)
+WAS THIS THE RIGHT CALL? YES – the gap was trivial; no bet was the correct decision.
+
+**GAME: LAD @ CHW**
+YOUR CALL: PASS (edge on ML too small vs price, run line uncertain)
+FINAL RESULT: LAD 7‑1 win (run line covered)
+WAS THIS THE RIGHT CALL? YES – we didn’t have a clear edge estimate on the run line, so a straight pass was conservative and correct. A more refined RL model would be needed to bet this.
+
+---
+
+## S3: IMPROVEMENT REQUESTS
+
+**TYPE: STAT**
+ITEM: Real‑time bullpen availability and recent workload (last 3 days: innings pitched, pitch counts for top 3 leverage arms)
+AVAILABLE BEFORE FIRST PITCH? YES (team social media, Fangraphs RosterResource, Baseball Press)
+WHICH GAME(S): SEA @ WAS (and any bullpen‑edge bet)
+WOULD HAVE CHANGED A BET? YES – if SEA top arms had worked recently, the bullpen edge would shrink and likely kill the bet
+WOULD HAVE CHANGED BEST BET? N/A
+WHY: Our pre‑game reasoning for SEA cited “high‑leverage arms fresh”. Without data, this was guesswork. Actual usage would refine bullpen advantage.
+EXPECTED IMPACT: HIGH
+
+**TYPE: STAT**
+ITEM: Last 14‑day team wRC+ vs handedness (to regress full‑season splits)
+AVAILABLE BEFORE FIRST PITCH? YES (FanGraphs Splits tool)
+WHICH GAME(S): TEX @ BOS, SEA @ WAS
+WOULD HAVE CHANGED A BET? MAYBE – TEX’s 140 wRC+ was likely inflated by a hot week; if recent form was average, the edge collapses
+WOULD HAVE CHANGED BEST BET? N/A
+WHY: Prevents overweighting early‑season or small‑sample offensive splits. Directly addresses the TEX and SEA false edges.
+EXPECTED IMPACT: MEDIUM
+
+**TYPE: STAT**
+ITEM: Starting pitcher projected workload limit or pitch count (injury return situations)
+AVAILABLE BEFORE FIRST PITCH? YES (manager quotes, beat reporters)
+WHICH GAME(S): TEX @ BOS (deGrom)
+WOULD HAVE CHANGED A BET? YES – if deGrom was capped at 75 pitches, the projected edge over 9 innings would be meaningless
+WOULD HAVE CHANGED BEST BET? N/A
+WHY: Our model assumed a full start; a short leash shifts win probability dramatically and invites bullpen mismatch.
+EXPECTED IMPACT: HIGH
+
+---
+
+## S4: TOP 3 IMPROVEMENTS
+
+**RANK 1 — TYPE: STAT / ITEM: Bullpen availability & recent workload (last 3 days) / WHY: Bullpen advantage was a key edge component in the SEA bet, and was taken on faith. Having actual usage flags would have prevented that losing pick. / SOURCE: Baseball Press, Fangraphs RosterResource / ROI IMPACT: HIGH**
+
+**RANK 2 — TYPE: STAT / ITEM: Starting pitcher pitch‑limit flag for injury returns / WHY: The deGrom bet hinged on an elite full start; a known limit would have erased the perceived edge and saved 1 unit. / SOURCE: Beat reporter twitters, Rotowire / ROI IMPACT: HIGH**
+
+**RANK 3 — TYPE: STAT / ITEM: Last 14‑day team wRC+ splits / WHY: Offensive splits like the 140 wRC+ for TEX were likely unsustainable; recent form would temper overconfidence and shrink inflated win probabilities. / SOURCE: FanGraphs Splits / ROI IMPACT: MEDIUM**
+
+---
+
+## S5: MASTER PROMPT CANDIDATE
+
+**TYPE: STAT**
+**ITEM: Bullpen availability flag – for each team, a simple indicator of whether the top 3 relievers by leverage have pitched in the last 2 days, and if so, their total pitches thrown.**
+**WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: Bullpen edge is frequently cited in our reasoning (“high‑leverage arms fresh”), but without data it’s a blind guess. This flag would make bullpen edge assessments data‑driven and prevent over‑ or under‑estimating late‑game advantages. It would also force the model to quantify freshness instead of assuming it.**
+**SOURCE WHERE THIS IS AVAILABLE: Baseball Press (bullpen usage grids), projected IL/rest status on FanGraphs RosterResource.**
+**WOULD HAVE CHANGED A BET? YES (SEA)**
+**WOULD HAVE CHANGED BEST BET? N/A**
+**SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES**
+
+---
+
+## S6: MODEL-SPECIFIC REASONING INSTRUCTION
+
+**MODEL: DeepSeek (deepseek-v4-pro)**
+**REASONING WEAKNESS IDENTIFIED: The model overestimates win probability edges when one component (starting pitcher, offensive split) comes from an extremely small sample or a player returning from injury. The edge is taken at face value without an explicit uncertainty adjustment.**
+**PROPOSED PROMPT INSTRUCTION:**
+“When any single driver of your projected edge relies on a sample of fewer than 30 innings pitched (SP) or fewer than 60 team plate appearances (split), or involves a pitcher coming off an IL stint with no fully stretched‑out start, apply an automatic 5‑percentage‑point haircut to your model’s projected win probability (toward 50%) before comparing to the market. If the edge still meets the threshold, explicitly note the adjustment and its justification in your reasoning.”
+**WHY THIS ADDRESSES THE WEAKNESS: It forces a margin of safety for the most volatile, small‑sample elements of a projection. The deGrom edge would shrink from 14.7 to ~9.7, still bettable but more honest. The SEA edge would drop from 12 to ~7, still bettable but the bullpen guess would be further exposed if we had to note the adjustment. It prevents “best case” projections from driving stakes and reminds the model that early‑season data is noisy.**
+**SOURCE OF THIS INSIGHT: Today’s 0‑3 result, with two of the losses driven by over‑reliance on a single elite projection (deGrom) and small‑sample offensive/pitching numbers (SEA).**
+**EXPECTED IMPACT: HIGH**

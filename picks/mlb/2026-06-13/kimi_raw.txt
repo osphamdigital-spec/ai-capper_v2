@@ -1,0 +1,138 @@
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters carry small-sample L14 flags and the market prices this as a pick’em; Liberatore’s 4.36 SIERA and Prielipp’s 3.84 are not different enough to clear the 4-point edge gate, and the suspect away-side book data removes any pricing confidence.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Schlittler’s predictive metrics are superior to Gausman’s, but the Yankees’ 96 wRC+ against righties is below average and Toronto’s bullpen is rested and elite; the gap to the implied price is under 2 percentage points.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: SEA @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Castillo and Cavalli are a near-wash by SIERA, and while Seattle’s bullpen is elite, the offensive and leverage-arm edges only generate a 1–2 point probability gap, short of the gate.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Vásquez is the lesser of two evils against the small-sample Gibson, but San Diego’s 81 wRC+ against right-handed pitching is a massive drag that erases any pitching advantage.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Bachar’s 7.2 IP aggregate makes him an unpriceable small sample; even with generous regression, Pittsburgh’s offense and bullpen rest do not yield a 4-point gap.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: ATL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Home starter is TBD; contest rules require a pass without confirmed pitcher data.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: LAD @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Yamamoto’s SIERA gap over Burke is worth nearly 3 probability points, but the -205 line already embeds most of that value; after adjusting for the Dodgers’ taxed leverage corps, my true probability sits just under 68% for a sub-4-point gap.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: AZ @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Soroka is clearly better than Lowder by SIERA, but Arizona’s 85 wRC+ against righties is anemic and Lowder’s 41 IP aggregate caps confidence; the math lands south of 4 points.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: TEX @ BOS
+PICK: TEX ML
+PRICE: +105
+UNITS: 1
+EDGE: 4.2 pts
+TOTAL LEAN: No lean
+REASON: deGrom’s SIERA (3.23) and K-BB% (22.8%) give him a clear skill edge over Suárez, and the TEX lineup’s 140 wRC+ against left-handed pitching dwarfs BOS’s 86 wRC+ against righties—a 54-point platoon gap that the market undervalues. My estimated win probability is 51.9% against an implied 47.7%, a gap of 4.2 percentage points.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Skubal’s elite SIERA (2.75) gives Detroit a pitching edge, but Cleveland’s 143 wRC+ against lefties is 11 points better than Detroit’s 132, and the -152 line is too steep to close the gate.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Cameron’s recent dominance and Burrows’ L14 degradation point toward Kansas City pitching, but Houston’s 159 wRC+ against lefties is the best split on the slate; the offsetting forces keep the edge under 3 points.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Nola’s 3.81 SIERA dwarfs Drohan’s 4.86, but Drohan’s 13 IP aggregate caps the play at one unit regardless, and Milwaukee’s superior bullpen ERA shaves the gap to roughly 2.5 points.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Freeland’s SIERA (4.41) is miles better than Estes’s 7.06, but Colorado’s 89 wRC+ against righties and a 110 run-factor park create too much variance; the edge dissipates to about 2 points.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Brown’s 1.74 ERA is noise next to his 3.63 SIERA, and McDonald’s 3.13 SIERA makes him the better starter; however, Chicago’s rested, sub-3.00 leverage bullpen and home field flip the edge back to the Cubs, leaving no value on either side.
+LOOKED UP: nothing, used provided data only
+---
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Jax and Soriano are a virtual tie by SIERA, both offenses clock 101 wRC+ against righties, and both bullpens are similarly rested; there is no angle here.
+LOOKED UP: nothing, used provided data only
+---
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE:

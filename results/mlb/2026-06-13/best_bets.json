@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-13",
+  "sport": "mlb",
+  "graded_at": "2026-06-14T05:28:36Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "TEX ML (+105) in TEX @ BOS",
+      "why_this": "Texas gets the better starter, the much better platoon context against a left-handed starter, and a bullpen edge, yet the market still offers plus money.",
+      "resolved_game": "TEX @ BOS",
+      "resolved_pick": "TEX ML",
+      "resolved_price": 105,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "deepseek",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "fable",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "DET ML +132 @ CLE",
+      "why_this": "Getting a Cy Young-caliber pitcher in Tarik Skubal at a steep underdog price against a mediocre Joey Cantillo yields an extraordinary 17.0 percentage-point model edge that is unmatched on today's slate.",
+      "resolved_game": "DET @ CLE",
+      "resolved_pick": "DET ML",
+      "resolved_price": 132,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "grok",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "sonnet",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "LAD RL -120 (LAD @ CHW, Game 7)",
+      "why_this": "Yamamoto's L14 metrics (xFIP 2.78, 13.1 IP \u2014 clears small-sample threshold) represent the cleanest starting pitching edge on the slate, LAD's offense is the deepest in baseball, and the 9.1-point gap against a clean RL market is the widest qualifying edge of the day.",
+      "resolved_game": "LAD @ CHW",
+      "resolved_pick": "LAD RL",
+      "resolved_price": -120,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.5
+    }
+  ],
+  "summary": {
+    "wins": 1,
+    "losses": 2,
+    "skips": 5,
+    "record": "1-2 (33.3%)"
+  }
+}

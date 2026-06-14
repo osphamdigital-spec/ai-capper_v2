@@ -1,0 +1,168 @@
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both offenses excel vs LHP, but projected run totals after splitting SP and bullpen innings yield a near coin flip. Market implied probability aligns closely with my estimate (STL ~49% vs implied ~49.5%). No actionable edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Projected TOR edge (53.3% vs implied 46.6%) appeared strong initially, but after applying park factor and bullpen adjustments I re-evaluated. My final run projection gave NYY 4.11, TOR 4.06 – essentially even – so the perceived gap dissipated. No bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: SEA ML
+PRICE: -103
+UNITS: 1
+EDGE: 12.0 pts
+TOTAL LEAN: Under
+REASON: SEA offense (118 wRC+ vs RHP) should produce against Cavalli's projected 4.10 xFIP, while Castillo's true-talent xFIP (~4.00) coupled with an elite bullpen (2.36 ERA, high-leverage arms fresh) limits WAS. Park factor 103 modestly aids offense. SEA win probability estimated at 61.5% vs market-implied 49.5%.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Projected runs SD 4.87, BAL 4.97 – near coin flip. My SD win probability (49.4%) is slightly above market (45.7%) but gap falls short of 4-point threshold. Both bullpens rested but overall quality differences insufficient to force a bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: MIA had an 8.0% edge on first look, but Bachar’s extreme lack of track record (AGG only 7.2 IP) requires heavy regression. After robust regressing to league average, his projection lands near 3.92 xFIP, shrinking the edge to ~4.5%, and the gap loses conviction. Pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TBD starter for NYM — automatic pass per data integrity rules.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: LAD likely dominates (projected win 69% vs implied 64.5%) but gap only 4.6 pts on a pricey ML (-205). The run line (-1.5) may offer better efficiency, but without a clear edge estimate on that derivative, I pass on a straight bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: AZ ML
+PRICE: -133
+UNITS: 1
+EDGE: 9.7 pts
+TOTAL LEAN: Under
+REASON: Soroka’s solid 3.75 xFIP projection vastly outclasses Lowder’s deeply negative peripherals (5.11 proj xFIP) and CIN’s leaky bullpen. AZ offense, though below average, clicks enough with park factor only 101. AZ win probability 64.9% vs market 55.2%.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: TEX ML
+PRICE: +102
+UNITS: 1
+EDGE: 14.7 pts
+TOTAL LEAN: Under
+REASON: deGrom’s elite blended xFIP (2.94) gives TEX a massive starting pitching edge, while the offense mashes LHP (140 wRC+). BOS vs RHP sputters (86 wRC+). TEX win probability 62.3% against market 47.6% — gap enormous even after regressing offensive splits.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Skubal-Tarik elite but both offenses punish lefties; run projections DET 4.23, CLE 4.01 close. DET win% 58.3% vs market 58.0% — gap trivial. Not enough margin to overcome juice.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Moderate edge (5.3%) on HOU exists but thunderstorm risk (23% rain, 16mph wind) introduces truncation uncertainty. Combined with Burrows’ recent poor xFIP sample, I pass for weather and consistency risk.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Projected run total PHI 4.16, MIL 4.11 — near dead heat. PHI edge ~3.7% after bullpen and park adjustments, falling short of 4-point gate. Nola’s talent gap over Drohan is less than market assumes.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Massive park factor (110) and Estes’ unknown quality create loud but unreliable model output (COL 51.3% vs implied 39.2%). Estes’ projected xFIP is speculative; I cannot trust the 12‑pt edge without even minimal reliable data. Pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Brown vs McDonald leaves CHC with a thin 52.9% win probability, almost exactly matching the market (53.4%). No edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both offenses average (101 wRC+) and projected xFIPs (Jax 3.92, Soriano 4.11 after regression) yield close run totals. TB edge only 2.7% below threshold.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: All qualifying edges attached to games with at least one small-sample starter flag, capping stakes at 1 unit. No clean 7+ point gap surfaced.

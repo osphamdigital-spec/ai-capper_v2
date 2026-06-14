@@ -228,6 +228,19 @@ def main():
         print(f"    python scripts/fetch_results.py --date {date}")
         print(f"  Continuing anyway...\n")
 
+    # Guard: abort if ALL picks files are empty (no pipeline was run for this date).
+    picks_dir = PROJECT_ROOT / "picks" / sport / date
+    picks_files = list(picks_dir.glob("*_raw.txt"))
+    nonempty = [f for f in picks_files if f.stat().st_size > 0]
+    if picks_files and len(nonempty) == 0:
+        print(f"\n  ERROR: All {len(picks_files)} picks files for {date} are empty (0 bytes).")
+        print(f"  The pipeline was likely never run for this date.")
+        print(f"  Run the full pipeline first:")
+        print(f"    python scripts/run_daily.py mlb --date {date}")
+        print(f"  Or specify the correct date:")
+        print(f"    python scripts/run_postmortem_all.py --date YYYY-MM-DD\n")
+        sys.exit(1)
+
     print(f"\n{'=' * 60}")
     print(f"  RUN POST-MORTEM ALL  {sport.upper()}  {date}")
     print(f"  Models: {', '.join(AUTOMATED_MODELS)}")

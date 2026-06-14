@@ -1,0 +1,247 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: TEX ML (+105) at BOS  
+RESULT: LOSS  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+
+IF NO — NEW BEST BET: HOU ML (+110) at KC  
+WHY: Of the actual bets I made, Houston had the clearest price-based underdog case tied to a specific pre-game split: Houston’s offense vs LHP, KC’s weaker split vs RHP, and a shakier Royals relief outlook. Texas still had a real pre-game case, but calling it the slate’s best bet was too aggressive given I was relying on unconfirmed lineups and a very strong assumed platoon edge.  
+SOURCE: Original pre-game notes for HOU/KC and TEX/BOS
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: SEA @ WAS  
+ORIGINAL PICK: SEA ML -103 (1u)  
+RESULT: LOSS  
+GRADE: C  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD YOU MAKE THIS BET AGAIN? YES  
+WHY: I had a specific pre-game basis: Seattle projected better vs a righty, and I explicitly cited a materially stronger bullpen with rested late arms. At near pick’em, that is enough to justify a play. The miss here was not fabricated edge; it was a reasonable edge that failed.  
+SOURCE: Original pre-game note: “better lineup split against a righty” and “much stronger bullpen”
+
+---
+
+GAME: TEX @ BOS  
+ORIGINAL PICK: TEX ML +105 (3u)  
+RESULT: LOSS  
+GRADE: D  
+PROCESS: MISREAD PRICE  
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE  
+WHY: The pre-game logic was coherent — deGrom starter edge, Texas better split vs LHP, bullpen edge — but I overstated how far that should move fair price, especially with lineups unconfirmed. Making this not only a bet but the biggest bet on the slate suggests I treated the projected platoon edge as more certain than it was. The process was not random, but the confidence level was too high.  
+SOURCE: Original pre-game note: “major platoon edge against a left-handed starter,” “better bullpen,” “rightful favorite”
+
+---
+
+GAME: HOU @ KC  
+ORIGINAL PICK: HOU ML +110 (1u)  
+RESULT: WIN  
+GRADE: A  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD YOU MAKE THIS BET AGAIN? YES  
+WHY: This was a clean underdog bet with named pre-game support: Houston’s strong split vs LHP, KC’s weaker split vs RHP, and a bullpen concern on the Royals side. That is exactly the kind of plus-money profile I want to keep betting.  
+SOURCE: Original pre-game note: “enormous split edge versus left-handed pitching,” “Kansas City’s weak split versus righties,” “Royals’ late-game relief outlook is shakier”
+
+---
+
+### PART B — GAMES YOU PASSED OR LEANED
+
+GAME: STL @ MIN  
+YOUR CALL: LEAN  
+FINAL RESULT: STL won  
+WAS THIS THE RIGHT CALL? YES  
+IF NO OR UNCLEAR — NONE
+
+---
+
+GAME: NYY @ TOR  
+YOUR CALL: PASS  
+FINAL RESULT: NYY won  
+WAS THIS THE RIGHT CALL? YES  
+IF NO OR UNCLEAR — NONE
+
+---
+
+GAME: SD @ BAL  
+YOUR CALL: PASS  
+FINAL RESULT: SD won  
+WAS THIS THE RIGHT CALL? YES  
+IF NO OR UNCLEAR — NONE
+
+Reason: My note already said Baltimore had the offensive matchup edge, but Gibson’s tiny sample and poor miss/command indicators plus San Diego’s elite bullpen made the favorite fragile. That is a good pass, even though the dog won.
+
+---
+
+GAME: MIA @ PIT  
+YOUR CALL: PASS  
+FINAL RESULT: PIT won  
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: ATL @ NYM  
+YOUR CALL: PASS  
+FINAL RESULT: ATL won  
+WAS THIS THE RIGHT CALL? YES
+
+Reason: Home starter TBD made this an automatic pass under the slate rules. The result does not make the pass bad.
+
+---
+
+GAME: LAD @ CHW  
+YOUR CALL: LEAN  
+FINAL RESULT: LAD won  
+WAS THIS THE RIGHT CALL? YES
+
+Reason: I liked LAD but did not want to force a heavy road favorite at -193. That is disciplined bankroll management, not a miss.
+
+---
+
+GAME: AZ @ CIN  
+YOUR CALL: LEAN  
+FINAL RESULT: CIN won  
+WAS THIS THE RIGHT CALL? YES
+
+Reason: I had Arizona short of threshold because of park-driven volatility. That caution was appropriate.
+
+---
+
+GAME: DET @ CLE  
+YOUR CALL: LEAN  
+FINAL RESULT: CLE won  
+WAS THIS THE RIGHT CALL? YES
+
+Reason: I explicitly noted Cleveland hits lefties well and has a good enough bullpen to keep Detroit from being a bargain even with Skubal. Good restraint.
+
+---
+
+GAME: PHI @ MIL  
+YOUR CALL: LEAN  
+FINAL RESULT: PHI won  
+WAS THIS THE RIGHT CALL? UNCLEAR  
+IF NO OR UNCLEAR —  
+WHAT DID YOU MISS: Possibly undervalued the dog price relative to Nola’s estimators and Philly’s offense vs LHP. This is one of the few leans that may have deserved promotion to a real bet if I had stronger lineup confirmation or better roof-status certainty.  
+SOURCE: Original pre-game note: “Nola’s ERA is worse than his estimators” and “Philadelphia’s offense versus lefties is strong enough to matter”  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: COL @ ATH  
+YOUR CALL: PASS  
+FINAL RESULT: ATH won  
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+GAME: CHC @ SF  
+YOUR CALL: PASS  
+FINAL RESULT: CHC won  
+WAS THIS THE RIGHT CALL? UNCLEAR  
+IF NO OR UNCLEAR —  
+WHAT DID YOU MISS: I may have been too conservative in letting park suppression erase Chicago’s bullpen edge and better current starting form. Still, my note said the market was close to fair, so this is not a clear miss without stronger pre-game evidence.  
+SOURCE: Original pre-game note: “Ben Brown is in better current form and Chicago has the stronger bullpen”  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: TB @ LAA  
+YOUR CALL: PASS  
+FINAL RESULT: LAA won  
+WAS THIS THE RIGHT CALL? YES
+
+---
+
+## S3: IMPROVEMENT REQUESTS
+
+TYPE: DATA  
+ITEM: Confirmed starting lineups with handedness-adjusted offensive projections rather than team-level split assumptions  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: MLB lineups page, team beat reporters, FanGraphs roster resources  
+WHICH GAME(S): TEX @ BOS, HOU @ KC, SEA @ WAS, PHI @ MIL, STL @ MIN  
+WOULD HAVE CHANGED A BET? MAYBE  
+WOULD HAVE CHANGED BEST BET? YES  
+WHY: Several decisions leaned heavily on team split assumptions while I explicitly noted lineups were unconfirmed. That is especially important for Texas as best bet.  
+EXPECTED IMPACT: HIGH
+
+---
+
+TYPE: DATA  
+ITEM: Bullpen availability/usage sheet with leverage arms clearly tagged as available, limited, or likely unavailable  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: FanGraphs bullpen usage pages, team beat reports, prior box scores  
+WHICH GAME(S): SEA @ WAS, HOU @ KC, TEX @ BOS, DET @ CLE  
+WOULD HAVE CHANGED A BET? MAYBE  
+WOULD HAVE CHANGED BEST BET? MAYBE  
+WHY: I referenced bullpen edges qualitatively, but the confidence level would improve if availability were standardized instead of inferred.  
+EXPECTED IMPACT: MEDIUM
+
+---
+
+TYPE: DATA  
+ITEM: Roof/weather status locked into final run environment and carry adjustment before bet sizing  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: Ballpark/weather feeds, team stadium status updates  
+WHICH GAME(S): NYY @ TOR, PHI @ MIL, HOU @ KC  
+WOULD HAVE CHANGED A BET? MAYBE  
+WOULD HAVE CHANGED BEST BET? NO  
+WHY: I correctly passed some games because environment was uncertain; systematizing this would reduce ambiguity and occasionally turn passes into bets or vice versa.  
+EXPECTED IMPACT: MEDIUM
+
+---
+
+TYPE: PROMPT  
+ITEM: Require separate confidence score for edge quality versus edge size before assigning unit size  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: Internal reasoning rule  
+WHICH GAME(S): TEX @ BOS, SEA @ WAS  
+WOULD HAVE CHANGED A BET? YES  
+WOULD HAVE CHANGED BEST BET? YES  
+WHY: Texas likely still would have been a bet, but probably not a 3-unit best bet if confidence quality were penalized for unconfirmed lineups and dependence on a split-driven thesis.  
+EXPECTED IMPACT: HIGH
+
+---
+
+TYPE: STAT  
+ITEM: Minimum-sample penalty for starter and team-split projections when current-season data is thin  
+AVAILABLE BEFORE FIRST PITCH? YES  
+SOURCE: Internal modeling rule using existing stat inputs  
+WHICH GAME(S): TEX @ BOS, SD @ BAL, MIA @ PIT, COL @ ATH, STL @ MIN  
+WOULD HAVE CHANGED A BET? MAYBE  
+WOULD HAVE CHANGED BEST BET? MAYBE  
+WHY: I mentioned small-sample concerns in several places, but the penalty was not consistently reflected in stake sizing.  
+EXPECTED IMPACT: MEDIUM
+
+---
+
+## S4: TOP 3 IMPROVEMENTS
+
+RANK 1 — TYPE: PROMPT / ITEM: Require separate confidence score for edge quality versus edge size before assigning unit size / WHY: It directly addresses the main mistake on the slate: overconfident sizing on TEX despite unconfirmed lineups and a split-heavy case / SOURCE: Internal review of TEX best-bet miss / ROI IMPACT: HIGH
+
+RANK 2 — TYPE: DATA / ITEM: Confirmed starting lineups with handedness-adjusted offensive projections / WHY: Multiple picks were made with explicit lineup uncertainty, and lineup quality is central to platoon-based MLB sides / SOURCE: MLB lineups page, beat reporters, FanGraphs / ROI IMPACT: HIGH
+
+RANK 3 — TYPE: DATA / ITEM: Standardized bullpen availability sheet / WHY: Bullpen edge was part of several wagers, especially SEA and HOU; better precision improves both side and size / SOURCE: FanGraphs bullpen usage, prior game logs, beat reports / ROI IMPACT: MED
+
+---
+
+## S5: MASTER PROMPT CANDIDATE
+
+TYPE: DATA  
+ITEM: Confirmed starting lineups with handedness-adjusted projected offense for each team  
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: Too many MLB side decisions hinge on platoon assumptions that can swing materially based on 2-3 lineup spots, rest days, or bench-heavy cards. This would tighten both edge estimates and unit sizing.  
+SOURCE WHERE THIS IS AVAILABLE: MLB official lineups, FanGraphs roster resources, team beat reporters  
+WOULD HAVE CHANGED A BET? YES  
+WOULD HAVE CHANGED BEST BET? YES  
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES
+
+---
+
+## S6: MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: ChatGPT (gpt-5.4)  
+REASONING WEAKNESS IDENTIFIED: I converted a plausible edge into an overly strong staking decision without enough penalty for lineup uncertainty and split-dependence.  
+PROPOSED PROMPT INSTRUCTION: “Before assigning units, grade every edge on two axes: estimated edge size and evidence quality. If lineups are unconfirmed, starter sample is thin, or the handicap depends heavily on platoon assumptions, cap the play at 1 unit or lean unless the market error is extreme.”  
+WHY THIS ADDRESSES THE WEAKNESS: It preserves good price-sensitive bets while preventing the biggest error from this slate: treating a conditional projection like a high-certainty best bet.  
+SOURCE OF THIS INSIGHT: TEX @ BOS post-mortem, plus general uncertainty noted across the slate  
+EXPECTED IMPACT: HIGH

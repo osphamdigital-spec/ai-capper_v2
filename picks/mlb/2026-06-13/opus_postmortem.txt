@@ -1,0 +1,122 @@
+# POST-MORTEM REVIEW — MLB 2026-06-13
+
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: None — no 3-unit play identified
+RESULT: N/A (correctly declined)
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES (the no-bet decision)
+IF NO — N/A
+
+The decision to NOT force a 3-unit play was correct. My two 1-unit plays (AZ, DET) both lost. Forcing a ceiling play on a slate with no clean 7-pt gap would have been process drift. The discipline held; the day was just bad variance on the small plays.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: AZ @ CIN
+ORIGINAL PICK: AZ ML -133, 1u
+RESULT: LOSS (AZ 1, CIN 2)
+GRADE: B
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD YOU MAKE THIS BET AGAIN? YES
+WHY: Soroka (3.65 SIERA) vs Lowder (5.23 SIERA, 4.4% K-BB%) was a legitimate talent gap with a supporting bullpen edge (2.98 vs 4.87). A 1-2 loss in a low-scoring game is the textbook signature of variance, not a process error — Soroka pitched to a winnable game and the offense (which I noted projected strong vs RHP) simply scored once. No pre-game data point flagged a likely AZ shutout. The edge estimate (59.5% vs 55% implied) was defensible.
+SOURCE: Provided SIERA/K-BB%/bullpen data
+
+GAME: DET @ CLE
+ORIGINAL PICK: DET ML -146, 1u
+RESULT: LOSS (DET 1, CLE 3)
+GRADE: C
+PROCESS: CORRECT PROCESS BAD VARIANCE (with a caveat)
+WOULD YOU MAKE THIS BET AGAIN? LOWER STAKE
+WHY: Backing Skubal (2.75 SIERA, best arm on slate) at -146 against Cantillo was sound on pitching. But the loss exposes a structural flaw: I was laying -146 on the ML, meaning I needed both Skubal to dominate AND the offense to deliver. Detroit scored 1 run — an offense failure, not a Skubal failure. Process was largely correct, but at -146 the price was rich enough that I should question whether the 4.8-pt edge was real or inflated by overweighting Cantillo's L3 (15 ER in 11 IP — a small-sample form read I explicitly warn against elsewhere). I leaned on recent form here while dismissing it for others. Slight inconsistency.
+SOURCE: Provided SIERA/K-BB%; Cantillo L3 (small sample)
+
+### PART B — GAMES YOU PASSED OR LEANED
+
+GAME: SD @ BAL
+YOUR CALL: LEAN Over (10.0)
+FINAL RESULT: SD 9, BAL 3 = 12 runs (OVER)
+WAS THIS THE RIGHT CALL? UNCLEAR
+WHAT DID YOU MISS: My Over read was correct directionally (12 > 10), and I correctly identified two poor starters (Gibson 6.14 SIERA, Vásquez 5.17). I passed on staking it citing SD's anemic vs-RHP offense (81 wRC+) and unconfirmed lineups. The pre-game logic for passing was reasonable, but I had the right lean and talked myself out of it. This was a case where my two flagged poor starters should have carried more weight than a single offensive caveat.
+SOURCE: Provided SIERA data
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+GAME: COL @ ATH
+YOUR CALL: LEAN Over (14.0)
+FINAL RESULT: COL 5, ATH 7 = 12 runs (UNDER)
+WAS THIS THE RIGHT CALL? YES
+WHAT DID YOU MISS: Nothing — correctly avoided the extreme-variance spot. 12 runs landed UNDER a bloated 14.0 total. My discipline to avoid chaos totals was vindicated.
+SOURCE: Provided data
+WOULD THIS HAVE BECOME A BET? NO
+
+GAME: PHI @ MIL
+YOUR CALL: PASS (noted Nola market underrating)
+FINAL RESULT: PHI 9, MIL 8
+WAS THIS THE RIGHT CALL? UNCLEAR — but I cannot name a pre-game data point that would have made PHI a confident bet; Drohan's thin sample was a legitimate reason to pass. No miss.
+SOURCE: Provided data
+WOULD THIS HAVE BECOME A BET? NO
+
+All other passes (NYY/TOR, SEA/WAS, MIA/PIT, LAD/CHW, TEX/BOS, HOU/KC, CHC/SF, TB/LAA, STL/MIN, ATL/NYM) were efficient-market reads with no actionable pre-game edge missed. The ATL/NYM pass was forced by TBD starter — correct per rules.
+
+---
+
+## S3: IMPROVEMENT REQUESTS
+
+TYPE: STAT
+ITEM: Confirmed starting lineups + handedness splits at lock
+AVAILABLE BEFORE FIRST PITCH? YES (typically 2-3 hrs pre-game)
+SOURCE: Team beat writers / MLB.com lineup feeds
+WHICH GAME(S): SD @ BAL (my Over lean), others with "unconfirmed lineups" caveat
+WOULD HAVE CHANGED A BET? MAYBE
+WOULD HAVE CHANGED BEST BET? NO
+WHY: I cited "unconfirmed lineups" as a reason to pass the SD/BAL Over. Confirmed lineups would have let me commit to or kill that lean cleanly rather than abstaining on uncertainty.
+EXPECTED IMPACT: MEDIUM
+
+TYPE: PROMPT
+ITEM: Consistency rule on using L3/recent form across all games
+AVAILABLE BEFORE FIRST PITCH? YES
+SOURCE: Internal method
+WHICH GAME(S): DET @ CLE (used Cantillo L3) vs PHI/MIL, MIA/PIT (dismissed small samples)
+WOULD HAVE CHANGED A BET? MAYBE (might have lowered DET stake or passed)
+WOULD HAVE CHANGED BEST BET? NO
+WHY: I leaned on Cantillo's L3 to justify DET while dismissing form/small samples elsewhere. Inconsistent application inflated my DET edge.
+EXPECTED IMPACT: MEDIUM
+
+---
+
+## S4: TOP 3 IMPROVEMENTS
+
+RANK 1 — TYPE: PROMPT / ITEM: Apply form/small-sample weighting consistently across every GAME block / WHY: I used Cantillo's L3 to inflate DET's edge while dismissing identical-quality small samples in PHI/MIL, MIA/PIT, AZ context — internal inconsistency that produced a richer-priced bet than warranted / SOURCE: This slate's DET reasoning / ROI IMPACT: MEDIUM
+
+RANK 2 — TYPE: STAT / ITEM: Confirmed lineups at lock / WHY: Removes the "unconfirmed lineups" abstention excuse that cost me a correct SD/BAL Over lean / SOURCE: MLB lineup feeds / ROI IMPACT: MEDIUM
+
+RANK 3 — NONE
+
+---
+
+## S5: MASTER PROMPT CANDIDATE
+
+TYPE: STAT
+ITEM: Confirmed starting lineups with platoon-split wRC+ at lock time
+WHY IT SHOULD BE ADDED TO THE STANDARD PROMPT: Multiple passes/leans cited "unconfirmed lineups" as the blocking factor. Locking confirmed lineups converts soft passes into actionable yes/no decisions and improves total leans materially.
+SOURCE WHERE THIS IS AVAILABLE: MLB.com / team beat feeds
+WOULD HAVE CHANGED A BET? MAYBE (SD/BAL Over)
+WOULD HAVE CHANGED BEST BET? NO
+SHOULD BE AUTOMATED IN THE DATA PIPELINE? YES
+
+---
+
+## S6: MODEL-SPECIFIC REASONING INSTRUCTION
+
+MODEL: Claude Opus
+REASONING WEAKNESS IDENTIFIED: I selectively invoked recent form (L3) to support a bet I was inclined toward (DET/Cantillo) while explicitly dismissing comparable small-sample/form data in games I passed — an asymmetric application that inflated my edge estimate and stake.
+PROPOSED PROMPT INSTRUCTION: "Before finalizing any ML bet, state explicitly whether you used recent-form (L3/L5) or small-sample data in your edge calculation. If yes, confirm you would have applied the same weight to that data point had it pointed the OTHER direction. If you dismissed similar small-sample data in any pass on the same slate, either re-justify the inconsistency or reduce the bet's edge estimate by 1-2 pts and re-check it clears your stake threshold."
+WHY THIS ADDRESSES THE WEAKNESS: Forces symmetric treatment of form data, preventing motivated reasoning from inflating edges on plays I already favor.
+SOURCE OF THIS INSIGHT: DET @ CLE reasoning vs PHI/MIL, MIA/PIT passes on this slate
+EXPECTED IMPACT: MEDIUM
+
+---
+
+**Summary:** 0-2 on the day, but the process was largely sound. Both losses were low-scoring games where the favored team's offense failed despite reasonable pitching edges — the variance signature, not a model breakdown. The cleanest self-critique is the inconsistent use of recent form to inflate the DET edge, and talking myself off a correct SD/BAL Over lean. The no-best-bet discipline was correct and prevented a worse day.

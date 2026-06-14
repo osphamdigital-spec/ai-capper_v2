@@ -1,0 +1,168 @@
+## GAME: STL @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The market prices for this game are flagged as suspect and stale. With unreliable odds, my model mandates an immediate pass to protect capital.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: NYY @ TOR
+PICK: LEAN: NYY ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: No lean
+REASON: My model projects the Yankees as slight favorites (50.8%), but the market price of -119 already reflects this expectation. There is no viable edge on either side of the moneyline here.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SEA @ WAS
+PICK: LEAN: SEA ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 11.4 pts
+TOTAL LEAN: No lean
+REASON: Seattle holds a massive mathematical edge (62.1% projected win probability vs. 50.7% implied) due to a elite bullpen advantage and superior RHP offense. However, due to strict slate ceilings on a 15-game day, this game is relegated to a lean to make room for even higher-conviction edges.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: SD @ BAL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Baltimore starter Trey Gibson is flagged with a small sample size, which limits our maximum stake and increases projection variance. With high uncertainty on the mound, this is a clear pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: MIA @ PIT
+PICK: MIA ML
+PRICE: +120
+UNITS: 3
+EDGE: 14.3 pts
+TOTAL LEAN: No lean
+REASON: Lake Bachar has been highly effective with a 2.72 AGG SIERA and 2.90 xERA, giving Miami a massive starting pitching advantage over Bubba Chandler (4.55 SIERA). Combined with a slightly better bullpen and rested high-leverage arms, the Marlins are heavily mispriced as road underdogs.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: ATL @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The home team starter is TBD. Under my strict model rules, any unconfirmed starting pitcher triggers an automatic pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: LAD @ CHW
+PICK: LEAN: CHW ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Yoshinobu Yamamoto gives the Dodgers a major pitching edge, but the heavy market tax (-193) leaves absolutely no value on Los Angeles. This is a pass, with a small structural lean to the home underdog.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: AZ @ CIN
+PICK: LEAN: AZ ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 10.7 pts
+TOTAL LEAN: No lean
+REASON: Rhett Lowder is heavily penalized in my model due to his atrocious L14 SIERA (7.83) being over 1.5 runs worse than his season aggregate. While Arizona represents a strong double-digit edge, they are held out of a premium spot due to slate constraints.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TEX @ BOS
+PICK: TEX ML
+PRICE: +105
+UNITS: 3
+EDGE: 14.5 pts
+TOTAL LEAN: No lean
+REASON: This is a massive mismatch on paper as Jacob deGrom holds a substantial projection edge over Ranger Suarez. Additionally, Texas elite split against lefties (140 wRC+ vs LHP) combines with Boston's struggles against righties (86 wRC+ vs RHP) to make the plus-money price on the Rangers an absolute must-bet.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: DET @ CLE
+PICK: DET ML
+PRICE: +132
+UNITS: 3
+EDGE: 17.0 pts
+TOTAL LEAN: No lean
+REASON: Tarik Skubal is arguably the best starting pitcher on the slate, and his elite aggregate SIERA (2.75) matches up incredibly well even against a tough Cleveland split. Opposite him, Joey Cantillo (4.34 SIERA) faces a Detroit lineup that mashes lefties, making the Tigers at a massive +132 dog price the single best edge on the board.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: HOU @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Extreme weather conditions featuring active thunderstorms and wind blowing at 16+ mph introduce massive variance. My model triggers an automatic pass in high-wind environments to avoid extreme weather-related volatility.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: PHI @ MIL
+PICK: LEAN: PHI ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Aaron Nola should bounce back well against a high-strikeout Brewers core, but this game has too many moving parts with both offenses matching up well. We pass and lean with the road underdog.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: COL @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The home starter has no reliable baseline data, and the extremely high-scoring environment at Sutter Health Park carries far too much margin-of-victory variance to consider a play here.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: CHC @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: This is a very tightly-projected matchup between two solid young starters in Ben Brown and Trevor McDonald. The market prices are well-calibrated, offering zero mathematical edge.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## GAME: TB @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Griffin Jax starting for Tampa Bay creates bullpen-game dynamics that are difficult to model with high confidence. With the under total price also flagged as suspect, we happily pass.
+LOOKED UP: nothing, used provided data only
+
+---
+
+## SLATE SUMMARY
+BEST BET: DET ML +132 @ CLE
+WHY THIS ONE: Getting a Cy Young-caliber pitcher in Tarik Skubal at a steep underdog price against a mediocre Joey Cantillo yields an extraordinary 17.0 percentage-point model edge that is unmatched on today's slate.

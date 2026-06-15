@@ -1,0 +1,123 @@
+## GAME: MIA @ PHI
+PICK: PHI -1.5 RL
+PRICE: -105
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL LEAN: Under
+REASON: Wheeler is one of the best starters in baseball — AGG xFIP 2.89/SIERA 2.90, Stf+ 109, and his L14 (3.38 xFIP over 13 IP, no small-sample flag) doesn't show meaningful degradation. Gusto is an AGG 4.47 xFIP arm with only 9 IP on the season and a [sm] flag on all data; his FIP is misleadingly good at 1.77 on 9 IP. PHI's Duran at closer (1.90 ERA, 38.5% K%) and Kerkering anchor a strong bullpen. MIA bullpen is shaky with Fairbanks at 6.63 ERA and Petersen/Bender both taxed Saturday. Market at -212 ML is heavy juice; the -1.5 RL at -105 opened +115 and has drifted sharply toward PHI covering, which aligns with the starter gap. I estimate PHI win prob ~62%, implied PHI -1.5 cover ~56.9%, estimated cover ~62% → gap ~5.1 pts.
+DATA GAP: Gusto small-sample flag limits confidence; confirmed lineup would sharpen the platoon edge calculation.
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Spence has only 4 IP on the season (ERA 13.50, FIP 8.60) with no L14 data — AGG-only anchor at 4.49 xFIP. Alvarez [sm] flag on both overall (24.1 IP) and L14 (8.2 IP) with a concerning BB/9 of 6.2 in recent starts. Both starters carry meaningful uncertainty. WAS is favored at -141 which seems reasonable for a home team with a better bullpen, but I can't build sufficient conviction on either pitching profile to clear the edge gate. Total lean is over given two shaky starters.
+DATA GAP: L14 data for Spence completely absent; Alvarez's walk rate spike in L14 is alarming but sample is too small to weight heavily.
+
+---
+
+## GAME: NYM @ CIN
+PICK: CIN ML
+PRICE: -139
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: Under
+REASON: Chase Burns is elite — AGG xFIP 2.92/SIERA 2.98, Stf+ 113, ERA 2.14 over 75.2 IP. His L14 (3.02 xFIP, 11.1 IP [sm]) stays consistent; the [sm] flag means I can't go 3-units but the AGG anchor is among the best in this data set. Tobias Myers has an AGG xFIP of 5.35/SIERA 5.36 — that's a significant starter gap. Myers has no L14 data and his K-BB% of 4.9% is troubling. CIN's GABP is a hitter-friendly HR park (121 factor) but Burns has suppressed hard contact (HH% 38.4%). NYM bullpen has Devin Williams at 5.01 ERA — their closer is a risk. Market -139 implies ~58.2%; I estimate CIN true win prob ~63% → gap ~4.8 pts. Burns's [sm] L14 flag blocks a 3-unit play.
+DATA GAP: Myers has no L14 data; confirmed lineups would help assess CIN offense depth given their L10 2-8 slump.
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: SD starter TBD — hard pass per data integrity rules. No analysis possible without confirmed pitcher data.
+DATA GAP: SD starter TBD; this game is unanalyzable until starter confirmed.
+
+---
+
+## GAME: COL @ CHC
+PICK: CHC -1.5 RL
+PRICE: +100
+UNITS: 1
+EDGE: 5.8 pts
+TOTAL LEAN: Over
+REASON: Imanaga (AGG xFIP 4.28/SIERA 4.09, Stf+ 96) vs. Lorenzen (AGG xFIP 4.31/SIERA 4.32, ERA 7.54) is roughly a wash on process, but COL is 27-45 with rdiff -90 on the season and their lineup vs. LHP is wRC+ 68 (AGG) — dramatically below average, with top key bats Castro 102 and Karros 91 not threatening at all. CHC's wRC+ 104 vs. RHP anchors by Happ 159, Busch 133, Crow-Armstrong 125. Market at -204 ML implies ~67.1% CHC win; I estimate CHC at ~71% and RL cover closer to ~58% vs. the implied ~54.5% at +100 (market neutral). COL's bullpen is shaky (Mejia 5.97, Hill 5.32). Imanaga's L14 [sm] flag (11.0 IP) blocks a 3-unit play. Wind 6.8 mph SW is mild, no total edge from weather.
+DATA GAP: Total price flagged suspect; confirmed lineups and Imanaga's next-start workload status would help.
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: MIN starter TBD — hard pass per data integrity rules.
+DATA GAP: MIN starter TBD; cannot evaluate this game.
+
+---
+
+## GAME: DET @ HOU
+PICK: DET ML
+PRICE: +114
+UNITS: 1
+EDGE: 4.4 pts
+TOTAL LEAN: Under
+REASON: Teng has been deteriorating — L14 xFIP 5.57/SIERA 5.28 over 9 IP [sm] with BB/9 of 5.0, and his L3 shows consistent trouble (5.0IP/3ER, 5.0IP/4ER, 4.0IP/5ER). Melton's AGG xFIP 4.30 is slightly better than Teng's AGG 4.49, and his L14 (3.84 xFIP/3.82 SIERA, 13.0 IP, no sm flag) is a meaningful positive signal. HOU bullpen is concerning with Abreu at 6.56 ERA taxed multiple times; Bryan King used Friday and Saturday. DET's bullpen has Finnegan (1.93 ERA) and Jansen fresh. Market -130 implies ~56.5% HOU; I estimate closer to 52% HOU (48% DET) → DET at +114 implies ~46.7%, gap ~4.4 pts. Neither team is impressive but the starting pitching lean and bullpen wear favor DET at plus-money.
+DATA GAP: Over price flagged suspect; rain risk at Minute Maid (38%) but retractable roof should neutralize weather impact.
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ureña's AGG xFIP (4.19) and Nelson's AGG xFIP (4.46) are close. Nelson's L14 is poor (5.29 xFIP, 5.31 SIERA, 11 IP [sm]) but his ERA is bloated and AZ still has a strong closer (Sewald, 0.94 ERA). LAA's offense is near-average (wRC+ 98 vs. RHP). The RL movement on this game was extremely erratic (flipping signs multiple times), which signals data integrity issues I can't resolve. Under price flagged suspect. Market implies ~56.5% AZ; I can't build a clean 4+ pt gap.
+DATA GAP: RL movement history is erratic/possibly corrupted; Under price flagged stale; Nelson L14 small sample limits conviction.
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Both starters carry [sm] flags — Jones at 13.1 IP overall and 9 IP L14, Ginn at 11.2 IP L14 [sm]. Both AGG anchors are mid-4s (Jones 4.26 xFIP, Ginn 3.78). The line is near pick'em (ATH -125) and neither team has a compelling edge. The total is 10.5 at a park with a 121 runs factor — variance is extreme here. Under price is flagged stale. No clean edge available.
+DATA GAP: Both starters are heavy small-sample; Sutter Health Park's run environment makes win probability conversion highly uncertain.
+
+---
+
+## GAME: TB @ LAD
+PICK: LAD ML
+PRICE: -158
+UNITS: 1
+EDGE: 5.3 pts
+TOTAL LEAN: Over
+REASON: Lauer is making his case as one of the worst starters on this slate — FIP 6.46, xERA 5.20, AGG xFIP 4.66/SIERA 4.51, Brl% 11.2%, and his L14 (4.51 xFIP, 10.1 IP [sm]) doesn't show improvement. Martinez is misleading: ERA 2.43 but xERA 4.43 and his L14 xFIP 5.77/SIERA 6.59 over 11 IP [sm] is alarming — his K/9 dropped to 2.5 in recent work. LAD wRC+ 110 vs. RHP (Ohtani 172, Freeman 151, Rushing 145) is dominant; their bullpen (Tanner Scott 2.48 ERA, Vesia 2.74 ERA) is excellent and fresh. TB's L10 RS is only 3.7 and they own a 5.2% Brl% — lowest in this slate. Market -164 implies ~62.1%; I estimate LAD at ~67.4% → gap ~5.3 pts. Martinez [sm] L14 flag and Lauer [sm] L14 flag together block a 3-unit play.
+DATA GAP: Martinez's L14 degradation is meaningful but limited to 11 IP; confirmed lineup depth for LAD would further validate.
+
+---
+
+## PARLAY
+LEG 1: PHI -1.5 RL -105
+LEG 2: CIN ML -139
+COMBINED PRICE: +152
+TRUE PROBABILITY ESTIMATE: 62% × 63% = 39%
+UNITS: 1
+REASON: Wheeler suppressing MIA on the run-line and Burns dominating a weak NYM lineup are independent matchup-driven edges with no correlated game factors (different parks, different times, no shared personnel). Both legs have standalone edge clearing the gate.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: All qualifying bets were blocked from 3-unit status by small-sample flags on at least one starter in each game (Wheeler L14 [sm] in MIA/PHI is fine but Gusto [sm] limits conviction on the gap; Burns L14 [sm] blocks CIN; Imanaga L14 [sm] blocks CHC; Teng L14 [sm] and Melton [sm] overall block DET; Lauer/Martinez both [sm] L14 block LAD). Best single bet by gap estimate is LAD ML at 5.3 pts, with PHI RL at 5.1 pts close behind.

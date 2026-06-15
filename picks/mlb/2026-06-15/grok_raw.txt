@@ -1,0 +1,113 @@
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Wheeler's elite xFIP/SIERA/K-BB% edge is real but Gusto's small-sample profile (under 50 IP) and market price at -205 already bake in most of the advantage; estimated PHI win probability sits at 66-68% versus 67% implied, gap under 4 pts.
+DATA GAP: none
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters carry small-sample flags with limited innings and unreliable recent xFIP/SIERA reads; no clean pitcher-quality gap to exploit against a tight market line.
+DATA GAP: both starters small sample
+
+---
+
+## GAME: NYM @ CIN
+PICK: CIN ML
+PRICE: -131
+UNITS: 1
+EDGE: 7.3 pts
+TOTAL LEAN: No lean
+REASON: Burns posts elite recent xFIP 3.02/SIERA 2.91/Stf+ 113 and 24.5% K-BB% while Myers shows poor 5.35 xFIP on limited 33 IP; home park and bullpen edge push CIN win probability to 64% versus 56.7% implied at best price.
+DATA GAP: Myers small sample caps stake at 1 unit
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Away starter TBD at build time; rules require pass on unconfirmed pitching matchups regardless of other factors.
+DATA GAP: TBD starter
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Starters post nearly identical xFIP/SIERA profiles; CHC home edge and team form are already reflected in the -204 market price with no 4-pt gap after adjustments.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Away starter TBD at build time; rules require pass on unconfirmed pitching matchups regardless of other factors.
+DATA GAP: TBD starter
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Melton small-sample flag limits any edge; Teng's average metrics and home bullpen do not create a 4-pt gap versus the -125 market after standard adjustments.
+DATA GAP: Melton small sample
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Comparable xFIP/SIERA reads for both starters produce only a modest home adjustment that falls short of the 4-pt edge threshold against the -128 line.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Jones small-sample flag (13 IP) caps any potential edge; Ginn's solid but not dominant metrics versus a near-even market yield no qualifying gap.
+DATA GAP: Jones small sample
+
+---
+
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Similar starter metrics after xFIP/SIERA weighting; LAD home and team quality are fully priced at -158 with estimated win probability gap under 4 pts.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Only one qualifying bet surfaced and small-sample rules capped it at 1 unit.

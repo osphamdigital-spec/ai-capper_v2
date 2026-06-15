@@ -1,0 +1,102 @@
+## GAME: MIA @ PHI
+PICK: LEAN: PHI ML
+PRICE: -205
+UNITS: LEAN
+EDGE: 2.6 pts
+TOTAL LEAN: No lean
+REASON: Wheeler is the best starter in this matchup by a wide margin, and Philadelphia also has the cleaner bullpen path behind him. I make PHI roughly 69.8%, but that is still short of a full-play threshold at -205 because the Phillies' aggregate offense vs RHP has been mediocre and the price demands too much perfection.
+DATA GAP: Confirmed lineups; a Harper/Schwarber rest or multiple Miami absences would move my number.
+
+---
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Both starters bring too much small-sample uncertainty, and Alvarez's walk risk keeps Washington from separating enough for me at the current number. I land close to WAS 59.9%, which is not enough versus -135, though the warm run environment and shaky pitching depth point a bit toward the over.
+DATA GAP: Confirmed lineups, especially if KC sits key right-handed bats against the lefty.
+
+---
+## GAME: NYM @ CIN
+PICK: LEAN: CIN ML
+PRICE: -131
+UNITS: LEAN
+EDGE: 3.1 pts
+TOTAL LEAN: No lean
+REASON: Burns is the biggest single-arm edge in this game and clearly the best true-talent starter, but the Mets' fresher and better bullpen trims too much late-game value for a full bet. I make CIN about 59.8%, and Great American adds enough HR variance that I stop short of the 4-point gate.
+DATA GAP: Confirmed lineups; any major Mets rest day would likely push this to a bet.
+
+---
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: San Diego has a TBD starter, so this is an automatic pass under the slate rules. Busch and May's current form would have mattered, but I am not projecting an edge without the opposing arm confirmed.
+DATA GAP: Confirmed Padres starter and handedness.
+
+---
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Colorado's 68 wRC+ vs LHP is a real negative and Imanaga has the matchup edge, but -195 already bakes in most of the advantage. Lorenzen's underlying skill is better than his ERA, so I do not want to pay a heavy favorite tax or force the run line without a larger projected run-share gap.
+DATA GAP: Confirmed lineups; a Cubs rest-heavy lineup would lower Chicago further.
+
+---
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Minnesota has a TBD starter, so this is an automatic pass. The retractable-roof park context also matters here, but starter uncertainty alone is enough to keep this off the card.
+DATA GAP: Confirmed Twins starter and roof status.
+
+---
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Melton's shiny ERA looks better than the underlying profile, while Teng's recent shape is weak enough that I cannot trust Houston at the current price either. With no clear bullpen separator and roof status still unconfirmed, this lands in the too-many-conflicting-signals bucket.
+DATA GAP: Roof status and confirmed lineups.
+
+---
+## GAME: LAA @ AZ
+PICK: LAA ML
+PRICE: +118
+UNITS: 1
+EDGE: 4.9 pts
+TOTAL LEAN: No lean
+REASON: Ureña's ERA is probably a bit fortunate, but he still grades ahead of Nelson once I blend skill base, contact risk, and recent shape, and the Angels also own the better aggregate offense split versus RHP. Arizona's bullpen is stronger, yet the market is discounting how poor the Diamondbacks' 80 wRC+ vs RHP has been; I make LAA 50.8% here versus 45.9% implied at +118.
+DATA GAP: Confirmed lineups and roof status at Chase Field.
+
+---
+## GAME: PIT @ ATH
+PICK: LEAN: PIT ML
+PRICE: +111
+UNITS: LEAN
+EDGE: 2.2 pts
+TOTAL LEAN: Over
+REASON: Ginn is a touch better than Jones on current true talent, but Pittsburgh's lineup split, bullpen stability, and the extreme Sutter Health scoring environment keep the underdog live. I make PIT about 49.6%, which is still short of the betting threshold, and I do not want a side whose edge is driven too heavily by park variance.
+DATA GAP: Confirmed lineups, especially any top-of-order absences.
+
+---
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: The Dodgers have the better lineup context and Martinez looks vulnerable to some regression in this park, but the price already leans hard into that angle. Tampa's fresher bullpen keeps my fair line closer to LAD -146, so there is no 4-point edge at -158.
+DATA GAP: Confirmed lineups; a Dodgers rest day for one or two core bats would matter.
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

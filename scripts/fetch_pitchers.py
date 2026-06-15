@@ -437,13 +437,38 @@ def fetch_pitchers(date: str = None, show_api: bool = False):
                 print(f"  NOTE: currentTeam not available for {name} (id={pid}) — skipping team check")
                 continue
             if current_team != slot_team_name:
-                msg = (
-                    f"!! PITCHER TEAM MISMATCH: {name} (id={pid}) "
-                    f"assigned to {slot_team_name} ({side_label} slot in {matchup}) "
-                    f"but currentTeam = '{current_team}'"
-                )
-                print(f"  {msg}")
-                team_mismatches.append(msg)
+                # currentTeam doesn't include parentOrgName by default.
+                # Fetch the team record to check if this is a same-org minor-league
+                # roster situation (call-up/option) vs a true cross-org glitch.
+                team_id    = pd.get("currentTeam", {}).get("id")
+                parent_org = ""
+                if team_id:
+                    try:
+                        team_data  = api_get(f"{MLB_API_BASE}/teams/{team_id}")
+                        team_rec   = (team_data.get("teams") or [{}])[0]
+                        parent_org = team_rec.get("parentOrgName", "")
+                    except Exception:
+                        pass   # network blip — conservative: treat as cross-org
+
+                if parent_org == slot_team_name:
+                    # Same org — pitcher is on AAA/AA roster, probably being called up
+                    # for this start. The probable-pitcher feed is authoritative here.
+                    # Warn so the operator knows a call-up is in play, but don't block.
+                    print(
+                        f"  NOTE: {name} (id={pid}) listed under '{current_team}' "
+                        f"(parent org = {slot_team_name}) — minor-league roster, "
+                        f"probable-pitcher feed likely reflects a call-up. Continuing."
+                    )
+                else:
+                    # True cross-org mismatch — probable-pitcher feed and currentTeam
+                    # disagree across different organizations. Block the build.
+                    msg = (
+                        f"!! PITCHER TEAM MISMATCH: {name} (id={pid}) "
+                        f"assigned to {slot_team_name} ({side_label} slot in {matchup}) "
+                        f"but currentTeam = '{current_team}' (parentOrg = '{parent_org or 'unknown'}')"
+                    )
+                    print(f"  {msg}")
+                    team_mismatches.append(msg)
 
         # ── Change detection & opener flagging ────────────────────────────────
         # Read whatever was already in games.json BEFORE this run so we can

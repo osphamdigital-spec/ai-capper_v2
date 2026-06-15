@@ -1,0 +1,113 @@
+## GAME: MIA @ PHI
+PICK: MIA ML
+PRICE: +185
+UNITS: 1
+EDGE: 8.0 pts
+TOTAL LEAN: No lean
+REASON: The market is overvaluing Zack Wheeler's ace status while underestimating Ryan Gusto's underlying 4.30 SIERA and the Marlins' superior 89 wRC+ against right-handed pitching compared to the Phillies' 84 wRC+. Philadelphia's bullpen is stronger, but the massive gap between my 43% win probability estimate and the market's 35% implied probability offers immense value on the road underdog. Gusto's small-sample L14 flag caps this at a 1-unit play.
+DATA GAP: none
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Mitch Spence and Andrew Alvarez are both low-leverage starters with lackluster underlying metrics, and the platoon splits do not reveal a significant offensive mismatch. The market has priced this game efficiently, leaving no actionable edge on either side of the moneyline.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Chase Burns is an elite pitcher with a 2.98 SIERA, but the market has already adjusted to his dominance, pricing the Reds at -131 (56.7% implied). Tobias Myers is highly vulnerable, but the current moneyline does not offer the required 4-point gap to justify a wager, especially with Burns carrying a small-sample L14 flag.
+DATA GAP: none
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The Padres' starting pitcher is TBD, which triggers an automatic pass under my data integrity rules. I cannot accurately project the run environment or calculate a reliable edge without confirmed pitching data.
+DATA GAP: SD starting pitcher confirmation
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The Cubs hold a massive platoon advantage with a 104 wRC+ against right-handers compared to the Rockies' abysmal 68 wRC+ against left-handers. However, the market has heavily priced in this mismatch, pushing Chicago to -195 (66.1% implied), which aligns closely with my 61.5% true probability estimate, leaving no edge.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The Twins' starting pitcher is TBD, triggering an automatic pass. Without knowing who is taking the mound for Minnesota, I cannot evaluate the pitching matchup against MacKenzie Gore or assess the bullpen leverage for the late innings.
+DATA GAP: MIN starting pitcher confirmation
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Troy Melton and Kai-Wei Teng have nearly identical season SIERAs (4.46 and 4.38), and while Houston has a slight edge in platoon offense and bullpen leverage, the market's -125 price (55.6% implied) accurately reflects this minor advantage. My estimated 58% win probability for the Astros falls well short of the 4-point edge gate.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ AZ
+PICK: LAA ML
+PRICE: +118
+UNITS: 1
+EDGE: 6.1 pts
+TOTAL LEAN: Under
+REASON: The Angels hold a massive platoon advantage with a 98 wRC+ against right-handers compared to the Diamondbacks' weak 80 wRC+ in the same split. Starting pitching is virtually identical based on season SIERA (4.43 vs 4.40), meaning the offensive mismatch should drive the game script in favor of Los Angeles. My 52% win probability estimate creates a solid edge over the market's 45.9% implied probability, though small-sample L14 flags for both starters limit the stake to 1 unit.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sutter Health Park features an extreme 121 run park factor, creating a high-variance environment where noise overwhelms the signal. Neither team holds a significant enough edge in underlying pitching or platoon offense to clear the 7-point threshold required to bet in this extreme hitter-friendly park.
+DATA GAP: none
+
+---
+
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The Dodgers possess a superior offense against right-handed pitching (110 wRC+) compared to the Rays against lefties (97 wRC+), but the market has heavily priced in this advantage along with the home-field edge. Los Angeles at -158 (61.2% implied) leaves no room for value, as my true probability estimate sits around 59.5%.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Nearly every game on this slate features at least one starting pitcher flagged with a small-sample L14 warning, which strictly caps all qualifying wagers at a maximum of 1 unit to protect against recent variance.

@@ -1,0 +1,121 @@
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Miami starter Ryan Gusto is flagged as a small sample size, which increases projected variance. Although Zack Wheeler is elite, the -205 price tag on Philadelphia offers zero value, and our projected win probability aligns closely with the market.
+DATA GAP: none
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Andrew Alvarez is flagged as a small sample starter, while Mitch Spence has a highly regression-prone profile. Key bullpen arms for Kansas City are heavily taxed, but the market price on Washington already accounts for these factors, leaving no actionable edge.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ CIN
+PICK: CIN ML
+PRICE: -131
+UNITS: 3
+EDGE: 14.9 pts
+TOTAL LEAN: Under
+REASON: This is a premier pitching mismatch between Chase Burns (2.98 SIERA, 24.5% K-BB%) and the highly regression-prone Tobias Myers (5.36 SIERA, 4.9% K-BB%). At -131, the market is severely underpricing Burns' elite underlying metrics and his matchup against a mediocre Mets offense.
+DATA GAP: none
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: This game features an unconfirmed TBD starting pitcher for San Diego. Per strict data integrity guidelines, we must pass on all games with incomplete starting pitcher information.
+DATA GAP: SD starting pitcher
+
+---
+
+## GAME: COL @ CHC
+PICK: LEAN: CHC ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Shota Imanaga faces a weak Colorado offense (68 wRC+ vs LHP), while Michael Lorenzen faces a competent Cubs squad. However, the heavy market price of -195 on Chicago is fair, leaving no statistical margin to justify a premium unit wager.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: This game features an unconfirmed TBD starting pitcher for Minnesota. Per strict data integrity guidelines, we must pass on all games with incomplete starting pitcher information.
+DATA GAP: MIN starting pitcher
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Troy Melton and Kai-Wei Teng present very similar baseline projections (4.46 vs 4.38 SIERAs). With the offenses and bullpens relatively balanced, the Houston price of -125 offers no value.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ AZ
+PICK: LAA ML
+PRICE: +118
+UNITS: 3
+EDGE: 12.8 pts
+TOTAL LEAN: Over
+REASON: The market is overvaluing Arizona here, as their offense has sputtered to a weak 80 wRC+ against right-handed pitching. Walbert Ureña holds a solid matchup edge against this lineup, while Ryne Nelson is vulnerable against a decent Angels offense.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ ATH
+PICK: LEAN: ATH ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Jared Jones is a small-sample starter making his profile highly volatile, and Sutter Health Park is an extreme hitter-friendly environment. We lean toward the home team but pass on a premium bet due to the high variance.
+DATA GAP: none
+
+---
+
+## GAME: TB @ LAD
+PICK: LEAN: TB ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Nick Martinez has been highly effective (2.43 ERA) and offers a solid baseline against a tough Dodgers lineup. Eric Lauer is highly vulnerable, making Tampa Bay an intriguing lean at +143, though it falls just short of our 4.0-point edge threshold.
+DATA GAP: none
+
+---
+
+## PARLAY
+LEG 1: CIN ML -131
+LEG 2: LAA ML +118
+COMBINED PRICE: +284
+TRUE PROBABILITY ESTIMATE: 42.0%
+UNITS: 1
+REASON: Both games present highly independent starting pitching mismatches that are undervalued by the market. Combining them compounds our positive expected value without correlation.
+
+## SLATE SUMMARY
+BEST BET: CIN ML (Game 3: NYM @ CIN)
+WHY THIS ONE: Chase Burns (2.98 SIERA) holds an elite pitching advantage over Tobias Myers (5.36 SIERA), creating a massive projection gap at cheap -131 odds.

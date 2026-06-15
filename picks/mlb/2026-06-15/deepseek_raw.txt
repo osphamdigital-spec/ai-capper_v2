@@ -1,0 +1,103 @@
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: No qualifying edge. MIA win probability estimate 32.3% vs market implied 34.3% (+185), gap only 2.0 pts. Wheeler’s elite skills dampen any leverage on the underdog side, and PHI offense is not undervalued enough to meet the 4-pt threshold.
+DATA GAP: none
+
+---
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both offenses are near-average and project similarly after park/bullpen adjustments. KC win prob 42.0% vs implied 43.6% (+125), gap 1.6 pts. No side clears the edge gate; bullpen tax for KC already baked in.
+DATA GAP: none
+
+---
+## GAME: NYM @ CIN
+PICK: CIN ML
+PRICE: -131
+UNITS: 3
+EDGE: 11.0 pts
+TOTAL LEAN: No lean
+REASON: Massive pitching mismatch: Chase Burns’ elite 2.90‑era projection vs Tobias Myers’ deeply sub‑replacement 5.30‑era skill set. NYM offense (91 wRC+) offers little pushback, and even a cold REDS lineup projects +1.5 runs in this park. Market CIN implied 56.7%; my model 67.7%.
+DATA GAP: none
+
+---
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TBD starter for San Diego. Per rules, cannot estimate edge without confirmed pitcher data.
+DATA GAP: Starter TBD
+
+---
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: COL’s hollow hot streak meets its kryptonite vs LHP (68 wRC+ vs southpaws). Imanaga projects solidly average, while Lorenzen is similar; CHC win prob 65.9% vs market 64.6%, gap only 1.3 pts. No edge.
+DATA GAP: none
+
+---
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TBD starter for Minnesota. Cannot form a fair projection without pitcher data.
+DATA GAP: Starter TBD
+
+---
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Nearly identical projections for both sides (~4.8 runs each) with minimal park influence. HOU win prob ~50.5% vs market 54.3%, gap under 4 pts. No edge.
+DATA GAP: none
+
+---
+## GAME: LAA @ AZ
+PICK: LAA ML
+PRICE: +118
+UNITS: 3
+EDGE: 22.6 pts
+TOTAL LEAN: No lean
+REASON: ARI offense is in an abyss (2.7 RS L10, 80 wRC+ vs RHP) while LAA is surging (+5.8 RS L10). Both pitchers rate as ordinary 4.3‑4.4 ERA arms, but the roof‑closed park at Chase (104 factor) will magnify the Angel advantage. Market LAA win prob 45.0%; my estimate 67.6%.
+DATA GAP: none
+
+---
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: ATH shows an edge (7.7 pts) but Jared Jones’ small‑sample flag limits the play to 1 unit, and the slate’s two‑bet ceiling is already filled by stronger edges. Passing to respect portfolio constraints.
+DATA GAP: none
+
+---
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TB’s cold offense vs Martinez’s mediocre underlying skills yields a run total close to the market. LAD win prob 62.7% vs implied 59.8%, gap only 2.9 pts. No edge.
+DATA GAP: none
+
+---
+## SLATE SUMMARY
+BEST BET: LAA ML (+118) at ARI
+WHY THIS ONE: Largest detected edge of the day (22.6 pts). Combines a torrid LAA offense, a dormant ARI lineup, and an ordinary opponent starter, all amplified by the roof‑closed park environment.

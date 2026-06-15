@@ -1,0 +1,121 @@
+I'll work through each game applying my component-based method, anchoring on AGG xFIP/SIERA/K-BB% and looking for projection-vs-perception gaps.
+
+Key observations:
+- Games 4 (SD@STL) and 6 (MIN@TEX) have TBD away starters → automatic PASS.
+- 10-game slate → 2 bet ceiling.
+
+Let me evaluate the strongest spots. Martinez (Game 10) has an inflated 2.43 ERA against a 4.45 xFIP/4.55 SIERA true-talent baseline, with a horrid L14 (K/9 2.5) — and he faces a loaded Dodgers lineup (110 wRC+ vs RHP, Ohtani/Freeman/Rushing) at home. LAD -164 looks fair-to-light given Lauer is also weak but LAD's offense and bullpen edge are huge. Let me price it.
+
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Wheeler (2.89 xFIP, 25.6 K-BB%, Stf+109) is a genuine ace and PHI at -212 prices to ~68%, which is roughly fair given his dominance over Gusto's thin profile. The RL alternative at -102 needs PHI to win by 2 which their tepid offense doesn't reliably deliver. No projection gap on either side.
+DATA GAP: Confirmed lineups; Gusto has only 83 AGG IP.
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Spence (4.49/4.70 AGG, 9.8 K-BB%) vs Alvarez (3.84/4.09 but small sample and 6.2 BB/9 in L14) is a mediocre matchup both ways. WAS -141 prices ~58%, roughly where I land given home edge and superior offense. No 4-pt gap.
+DATA GAP: Alvarez wildness trend; lineup confirmation.
+
+---
+
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Burns (2.92 xFIP, 24.5 K-BB%, Stf+113) is a legit top arm and CIN -139 prices ~58%. Myers is weak (5.35 AGG xFIP, 4.9 K-BB%) which justifies the price; I have CIN around 56-58%, inside my no-bet band. CIN's brutal L10 (2-8) is narrative, not signal.
+DATA GAP: Lineup confirmation.
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Away starter TBD — automatic pass per data integrity rules. Cannot price without confirmed pitcher.
+DATA GAP: SD starter identity.
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: COL's road offense vs LHP is dreadful (68 wRC+) and Imanaga is fine, but CHC -204 prices ~67% and I land near there given Lorenzen's underlying form is better than his 7.54 ERA (4.31 AGG xFIP). RL at +100 is tempting but COL's +1.5 has held value all morning. No clean edge.
+DATA GAP: Lineup confirmation.
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Away starter TBD — automatic pass. Gore is solid (3.87 AGG xFIP) but cannot price the game without MIN's arm.
+DATA GAP: MIN starter identity.
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Melton (2.81 ERA but 5.36 FIP, only 4.9 K/9, regression flag) vs Teng (4.49 AGG xFIP, ugly L14) is a coin-flip of mediocre arms. HOU -130 prices ~57%; I have it 54-57%, inside the band. Hader/King bullpen edge keeps me off DET. No qualifying gap.
+DATA GAP: Roof status; lineup confirmation.
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ureña's 2.44 ERA masks a 4.19 AGG xFIP and a wild L14 (6.5 BB/9) — a regression candidate I won't back. Nelson (4.46 AGG xFIP) is similarly mediocre. AZ -130 prices ~57% at home vs weak LAA offense; my number sits within 3 pts. Pass.
+DATA GAP: Roof status (affects total more than side).
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Ginn (3.78 AGG xFIP, 14.7 K-BB%) modestly outclasses Jones (4.26, tiny sample), but Sutter Health is a 121-runs park making margin highly variable — exactly the high-variance spot I avoid for sides. ATH -125 prices ~55%; my read sits near there. Pass the side; lean Over on environment.
+DATA GAP: Jones has only 9.1 AGG IP — thin true-talent read.
+
+---
+
+## GAME: TB @ LAD
+PICK: LAD ML
+PRICE: -164
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: Over
+REASON: Martinez carries a deceptive 2.43 ERA over a 4.45 AGG xFIP/4.55 SIERA and a disastrous L14 (2.5 K/9, 6.59 SIERA) — a prime regression candidate now facing the league's best offense (110 wRC+ vs RHP, +141 run diff, Ohtani/Freeman/Rushing). Lauer is also poor but LAD's elite offense and clearly superior bullpen (Scott/Vesia/Treinen vs TB's worn Baker/Kimbrel) tilt this further than -164. I estimate LAD ~67% vs implied ~62%, a 5-pt edge; capped at 1 unit since both starters carry small-sample L14 noise.
+DATA GAP: Confirmed lineups (Ohtani/Freeman in).
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A — the only qualifying edge (LAD ML) sits at 5 pts with small-sample L14 noise on both starters, rating 1 unit; everything else fell inside the no-bet band or hit a TBD/variance disqualifier.

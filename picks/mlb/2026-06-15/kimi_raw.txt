@@ -1,0 +1,113 @@
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ryan Gusto carries a small-sample flag and his aggregate SIERA is 4.30 against Zack Wheeler’s elite 2.90 mark, but the market prices Philadelphia correctly at -205. My adjustments for bullpen usage and a slight offensive edge for Miami only close the gap to about two points, well short of the 4-point gate.
+DATA GAP: none
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters carry small-sample flags—Mitch Spence has just 39 innings of aggregate data and Andrew Alvarez only 28—making a reliable pitching gap impossible to estimate. Without a trustworthy run-prevention edge, the projected win probability sits inside the market’s implied range.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ CIN
+PICK: CIN ML
+PRICE: -131
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL LEAN: No lean
+REASON: Chase Burns owns a 2.98 SIERA and 24.5% K-BB% over more than 100 innings, while Tobias Myers brings a 5.36 SIERA and 4.9% K-BB%. I estimate Cincinnati’s true win probability at 61.2%, creating a 4.5-point edge over the -131 implied probability of 56.7%.
+DATA GAP: Myers has no L14 data, so recent degradation cannot be ruled out.
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: San Diego’s starter is listed as TBD, which is an automatic pass under the data-integrity rules. No edge can be estimated without a confirmed starting pitcher.
+DATA GAP: none
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Michael Lorenzen and Shota Imanaga are nearly identical in aggregate SIERA, and while the Cubs hold a large platoon advantage at the plate the market already prices them at -195. The resulting gap is only about two points, so there is no actionable edge.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Minnesota’s starter is TBD, forcing an automatic pass regardless of MacKenzie Gore’s profile. No probability can be assigned without confirmed pitching data.
+DATA GAP: none
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Troy Melton carries a small-sample flag, and his aggregate SIERA is nearly identical to Kai-Wei Teng’s 4.38 mark. With minimal pitching separation and a modest Houston offensive edge, my estimated probability tracks the -125 market line too closely.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Walbert Ureña and Ryne Nelson are separated by just 0.03 runs in aggregate SIERA, making the rotation essentially a wash. Los Angeles holds a slight offensive advantage, but that only narrows Arizona’s implied probability rather than flipping an edge.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Jared Jones is small-sample flagged and J.T. Ginn is only marginally better in SIERA, while Sutter Health Park’s extreme hitter-friendly environment inflates variance. I avoid side bets in high-variance parks without a clear run-prevention advantage, though the conditions nudge me toward the Over.
+DATA GAP: none
+
+---
+
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Nick Martinez and Eric Lauer are virtual equals in aggregate SIERA, and while Los Angeles holds a bullpen-availability edge and a platoon advantage at the plate, the adjustments only produce a gap of about one and a half points against a -158 line. That falls short of the required 4-point gate.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE:

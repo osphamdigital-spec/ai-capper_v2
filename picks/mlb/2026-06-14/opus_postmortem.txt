@@ -1,0 +1,89 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: NYY ML -126 @ TOR (3 units)
+RESULT: WIN
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — N/A
+
+The process held up cleanly. Warren's xFIP/Stf+ edge over Corbin, Corbin's L14 command deterioration (6.8 BB/9), and NYY's slate-leading 163 wRC+ vs LHP were three corroborating pre-game signals. This was the single strongest multi-factor convergence on the board, and the 8-pt edge against a -126 price was the best value-to-conviction combination. NYY won 8-3 in line with the thesis. Still the correct best bet.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: SD @ BAL
+PICK: SD ML +112
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The thesis was relief edge (2.73 SD pen vs 5.87 BAL) plus lineup platoon (136 wRC+ vs LHP), and SD won 5-2 in a low-scoring game where bullpen leverage mattered — exactly the path I modeled. Plus-money on a 52-53% fair was a sound +EV side.
+SOURCE: pre-game bullpen ERA and wRC+ vs LHP splits provided.
+
+---
+
+GAME: SEA @ WAS
+PICK: SEA ML -144
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: I cannot name a pre-game data point that pointed to a 10-1 WAS blowout. Mikolas was the clear talent downgrade (4.76 xFIP, 89 Stf+) vs Hancock (4.16), SEA had the lineup (118 vs 92 wRC+) and bullpen edge. I even flagged Hancock's ERA-xERA gap as a regression risk — which argues my side, not against it. A 1-run output from a 118-wRC+ lineup against a 4.16-xFIP arm is left-tail variance, not a process miss. The only soft spot: -144 on a fair of ~62% is a thin 4.8-pt edge, so this was a marginal bet, not a strong one.
+SOURCE: pre-game xFIP, Stf+, wRC+ splits, bullpen ERA.
+
+---
+
+GAME: HOU @ KC
+PICK: HOU ML +102
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE (with a process caveat)
+WOULD-BET-AGAIN: LOWER STAKE
+WHY: The core thesis — Arrighetti's 2.21 ERA badly diverging from his 4.95 xFIP/8.3% K-BB% — was sound regression logic, and HOU's Hader-led pen clearly outclassed KC's. But HOU getting shut out 0-4 is the part I should scrutinize: I leaned HOU on bullpen/lineup with "roughly even arms," meaning my edge rested heavily on relief and the Alvarez-anchored lineup actually producing. When a thin-edge bet (~6 pts but built on a coin-flip starter matchup) busts because the offense no-shows, there's no specific pre-game flag that predicted the shutout — Kolek was league-average, not dominant. Variance, but it was my weakest-justified bet of the three, so a smaller stake was warranted. Note this was already 1 unit, which is appropriate.
+SOURCE: pre-game xFIP, K-BB%, bullpen ERA.
+
+---
+
+PART B — PASSES WHERE I NOW IDENTIFY A MISSED PRE-GAME EDGE
+
+GAME: PHI @ MIL
+YOUR CALL: PASS (Under lean)
+FINAL RESULT: MIL 4, PHI 0
+WHAT YOU MISSED: My Under lean was correct (4 total runs), and I had two ace lefties (Sánchez 2.61 xFIP, Harrison 3.24) against lefty-mashing lineups with MIL elite at home. The Under was the playable angle and I noted it but didn't act. This was a lean that should have been examined harder as a total bet rather than dismissed because the ML was pick'em.
+SOURCE: pre-game xFIP/Stf+ on both starters, MIL home record.
+WOULD THIS HAVE BECOME A BET? MAYBE — only if total line/price supported it, which I didn't price.
+
+(All other passes were correct or hit chaos outcomes — COL 23, ATH high-variance environment I explicitly avoided — with no pre-game side signal. No blocks warranted.)
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: DATA
+ITEM: Confirmed starting lineups (and rest/lineup status) at pick time
+WHICH GAME(S): SEA @ WAS, HOU @ KC, AZ @ CIN
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: For SEA and HOU, both my losses hinged on lineups producing as projected. If a key bat were rested/out, the wRC+ edge I leaned on would shrink. I flagged AZ's lineup as "unconfirmed" — that uncertainty should apply to my actual bets too.
+
+TYPE: STAT
+ITEM: Total line and no-vig total implied probabilities for each game
+WHICH GAME(S): PHI @ MIL, all "Under lean" games
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: I generated multiple Under leans (PHI/MIL among them) but had no total prices to convert leans into priced bets. The PHI/MIL Under hit; without the line I couldn't act.
+
+TYPE: STAT
+ITEM: Recent lineup-wide rolling wOBA / strikeout rate (last 14 days)
+WHICH GAME(S): SEA, HOU
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: My platoon wRC+ figures are season-long. If SEA or HOU bats were in a cold rolling stretch, a -144 or pick'em ML built on offense becomes less attractive.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: When my edge on an ML bet rests primarily on bullpen + lineup (rather than a clear starting-pitcher talent gap), and the starter matchup is "roughly even," cap that bet at a lower priority tier and require either plus-money or a >6-pt edge before staking.
+
+WHAT IN MY METHOD COULD BE SHARPER: Two of my three bets (HOU especially, SEA secondarily) leaned on relief/lineup edges with near-even or thin starting-pitcher gaps. My one clean win-by-thesis (NYY) had a decisive starter edge AND corroborating factors. The pattern worth watching: bets anchored on a true SP talent gap may be more robust than bets anchored on bullpen-and-offense, because the latter require my projected offense to actually show up — a higher-variance dependency.
+
+EVIDENCE FROM TODAY (pre-game data, not outcome): NYY bet = 8-pt edge with clear SP gap → my conviction structure was strongest there. HOU bet = explicitly described "roughly even arms," edge built on pen/lineup → weakest justification. SEA = clear SP edge but only 4.8-pt margin against -144 (thin). The bet whose justification leaned least on the starter and most on offense-showing-up is the one I'd most want to re-examine.
+
+CONFIDENCE: LOW (one slate; two losses can both be pure variance — do not over-fit).

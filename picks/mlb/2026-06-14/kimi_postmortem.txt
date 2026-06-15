@@ -1,0 +1,66 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A  
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: LAD @ CHW  
+PICK: LAD ML -183 (1 unit)  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: The play was built on a >2 run SIERA gap (Sheehan 3.22 vs. Fedde 5.45) and a Dodgers platoon wRC+ edge against a contact-prone righty. Nothing in the provided pre-game slate pointed toward a White Sox upset or a Sheehan meltdown; the loss was standard baseball variance where a favorite with a genuine process edge underperforms.  
+SOURCE: Original pick reasoning (Sheehan SIERA/K-BB%, Fedde SIERA, LAD platoon edge)  
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+NONE  
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+**1.**  
+TYPE: DATA  
+ITEM: Leverage bullpen fatigue index (top-3 RP availability / days of rest / recent high-leverage usage).  
+WHICH GAME(S): LAD @ CHW, ATL @ NYM, TEX @ BOS  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I noted leverage-arm splits qualitatively in leans but omitted bullpen context entirely from my only bet. A quantified fatigue index would force a point adjustment every game rather than leaving it as a discretionary tie-breaker.
+
+**2.**  
+TYPE: STAT  
+ITEM: Starter reliability / innings-pooled flag (minimum IP threshold for “trustworthy” SIERA).  
+WHICH GAME(S): LAD @ CHW (Sheehan)  
+WOULD HAVE CHANGED A BET? YES  
+WHY: I auto-passed Rolison and Legumina for thin track records, yet I accepted Sheehan’s elite SIERA/K-BB% without a sample-size check. A hard IP minimum would have downgraded this play to a lean or pass.
+
+**3.**  
+TYPE: STAT  
+ITEM: Team wRC+ vs. handedness over the last 14 days (recent form), not season-long only.  
+WHICH GAME(S): AZ @ CIN, SEA @ WAS, SD @ BAL  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Season-long platoon splits may mask current lineup health or cold streaks. Recent wRC+ form could have widened or closed the narrow edges that landed just below my 4-point threshold.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Convert bullpen leverage-arm availability from a qualitative tie-breaker into a mandatory, quantified point adjustment in the edge model (e.g., +0.0 to +1.5 points based on the rest differential between the two pens).  
+
+WHAT IN MY METHOD COULD BE SHARPER: Right now I describe leverage-arm fatigue subjectively (“fresher,” “equally fatigued,” “all used”) but do not systematically fold it into the numerical edge. This creates inconsistency: it downgraded NYY from a bet to a lean, canceled a TEX edge because of stale price without bullpen clarity, and was completely absent from the LAD bet despite being a standard factor in every other write-up.  
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):  
+- NYY @ TOR: “equally fatigued leverage arms on both sides keep the true edge fractionally below four points.”  
+- ATL @ NYM: “Mets' leverage arms are fully rested while Atlanta's are all used.”  
+- TEX @ BOS: “Texas holds a platoon advantage with the fresher bullpen.”  
+In each case the bullpen note acted as a narrative adjustment rather than a fixed point value, producing ad hoc threshold calls.  
+
+CONFIDENCE: MEDIUM

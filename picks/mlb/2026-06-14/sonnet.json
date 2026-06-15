@@ -19,11 +19,12 @@
       "edge": "4.5 pts",
       "reason": "Skenes' AGG xFIP 3.00/SIERA 3.03 with elite K-BB% 24.0% and Stf+ 107 is clearly the best starter on the slate; the [small sample] flag on his L14 prevents a 3-unit play but doesn't change the directional edge. Meyer's AGG xFIP 3.55 is respectable but his L14 shows regression (xFIP 4.04) and his recent L3 shows command/HR concerns. PIT bullpen (4.28 ERA) edges MIA's (4.59 ERA) with fresh high-leverage arms. Market implied: ~61.9%; my estimate ~66.4%. Total dropped from 7.5 to 7.0 — consistent with a pitcher-favoring environment at PNC.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -162,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "86eea2ec9bfbee886592a41c15f3ef1d",
@@ -40,11 +41,12 @@
       "edge": "5.2 pts",
       "reason": "Rogers is surrendering genuine value here — his L14 xFIP/SIERA (5.04/5.15) confirm recent regression, and his full-season metrics (AGG xFIP 4.02) are a false comfort given the hot Camden Yards HR environment (HR park factor 115). Buehler's L14 is a small sample, but his AGG xFIP 4.66 is at least in the same range as Rogers' season baseline, and SD's elite bullpen (2.73 ERA, Mason Miller closer at 0.94) dramatically outclasses Baltimore's pen (5.87 ERA). Market implied: ~46.4%; my estimate ~51.6%. SD lineup wRC+ 136 vs LHP is a meaningful platoon edge against Rogers.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.16,
+      "clv": 4,
+      "closing_line": 112,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4dc6f4564ea243d6ca214685828ba83f",
@@ -61,11 +63,12 @@
       "edge": "4.8 pts",
       "reason": "Mikolas is clearly the weaker arm — ERA 5.90, FIP 5.62, xERA 5.00, AGG xFIP 4.76/SIERA 4.80, Stf+ 89, and no L14 data available, with L3 showing short outings (3.1, 5.1, 4.0 IP). Hancock has a much cleaner profile (AGG xFIP 4.16, SIERA 4.19) and SEA bullpen (2.41 ERA) is one of the best on the slate. SEA lineup wRC+ 118 vs RHP (Donovan 186, Arozarena 158) is strong. Market implied: ~57.8%; my estimate ~62.6%. The total move from 9.5 to 10.0 aligns with a run-heavy expectation on the WAS side.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 7,
+      "closing_line": -144,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c9d537d84684524daf8ab45bb0a8041b",
@@ -82,11 +85,12 @@
       "edge": "9.1 pts",
       "reason": "Corbin's L14 (xFIP 6.75, SIERA 6.61, BB/9 6.8 in 8.0 IP) is an alarming command spiral; even anchoring 2:1 AGG-to-L14 per the candidate method change (AGG xFIP 4.31), the blended estimate is approximately ~5.12 xFIP — a genuine liability. Warren is the better pitcher at AGG xFIP 3.79 and his L14 small sample is mostly a control wobble, not a stuff deterioration. NYY lineup wRC+ 163 vs LHP (Goldschmidt 256, Judge 158, Rice 160) is overwhelming against Corbin. NYY bullpen (3.56 ERA, Cruz 2.01, Headrick 1.93) handily beats TOR's (3.49 ERA but Hoffman 5.83). At -120 on a team this much better equipped on the mound and at the plate, market implied ~54.5% feels significantly wrong; my estimate ~63.6%.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 2.5,
+      "clv": 6,
+      "closing_line": -126,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "0ff8c6236a0db9cf5998b7c59561e6d9",
@@ -104,10 +108,11 @@
       "reason": "Both starters are mediocre with similar true-talent profiles (Gallen AGG xFIP 4.22 but L14 badly deteriorating at 5.47; Abbott AGG xFIP 4.49 with L14 4.61 steady). AZ offense going L10 at 2.2 RS and 3-7 is a red flag; CIN is similarly cold at 3-7. Bullpen edge goes to AZ (3.01 ERA) over CIN (4.76 ERA), but not enough to overcome the near-pick-em pricing. No side clears 4 points.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "994ada407046719fc1bd63e03217115a",
@@ -124,11 +129,12 @@
       "edge": "6.2 pts",
       "reason": "ATL has the best bullpen on this slate by a wide margin (1.52 ERA season, Iglesias/Suarez/Lee all fresh and dominant) and a lineup posting wRC+ 123 vs RHP with elite contact metrics. Elder's underlying profile (AGG xFIP 3.99, L14 4.09, Stf+ 90) is mediocre but his ERA and xERA (2.66/3.01) suggest real contact-suppression skill. Peralta (AGG xFIP 3.84, L14 3.99) is comparable or slightly better on the mound, but the bullpen gap is enormous and ATL's overall run-differential (+114) versus NYM (-18) reflects true talent. Market gives ATL +102 (implied ~49.5%); my estimate ~55.7%. Getting plus money on a 70-win-pace team vs. a 31-39 team is genuine value.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 2,
+      "closing_line": 100,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4b1b3595238822cabf04ba7f223ed431",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "DET ML is flagged as suspect/stale on the away side, which removes the ability to evaluate that side of the market cleanly. CLE at -110 implied ~52.4% is reasonable but Gavin Williams' L14 small sample and the near-identical wRC+ matchups (93 vs 90) don't give me enough separation. Mize has strong in-season results (ERA 2.27, FIP 2.41) but no L14 data and the AGG xFIP 3.90 is a significant regression concern. No clean bet available.",
+      "reason": "postponed",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4d2b32d9bdd8f67c8d10a76487b12397",
@@ -166,11 +173,12 @@
       "edge": "4.1 pts",
       "reason": "The data note flags LAD ML at -190 as potentially inefficient; the RL at -120 is the value vehicle. Fedde's AGG xFIP 5.31/SIERA 5.45 (K-BB% 4.0%) is among the worst on any slate, and CWS bullpen ERA (5.10) supports blow-up risk. Sheehan's L14 is a tiny sample (7.2 IP flagged small) but his AGG xFIP 3.32/SIERA 3.22 represent genuine elite stuff. LAD offense (wRC+ 112 vs RHP, Ohtani/Freeman/Rushing) is the most complete lineup. Win probability for LAD ML ~66.3%; for covering -1.5 I estimate ~52.6% vs market implied ~48.5%. Marginal edge but clean data on the RL side.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -120,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "8e4e850c402fa1c197ef6422f0b81838",
@@ -188,10 +196,11 @@
       "reason": "KC bullpen ERA of 19.25 is almost certainly a data anomaly/small sample artifact rather than true talent, making the bullpen comparison unreliable. Kolek (AGG xFIP 4.04, L14 3.37) edges Arrighetti (AGG xFIP 4.95) at the starter level. The RL move from HOU -190 to KC -210 is extreme and volatile, suggesting pricing instability. Offensive profiles are weak on both sides. No reliable edge available.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "5026a58f0ac7fd00f17b808c1c1f7c1f",
@@ -208,11 +217,12 @@
       "edge": "4.8 pts",
       "reason": "Cristopher Sánchez is exceptional — AGG xFIP 2.61/SIERA 2.85, L14 xFIP 1.80/SIERA 1.93 (14.0 IP, not flagged small sample), Stf+ 118, L3 showing 7.0 IP outings with razor-thin ERA. Even applying the 2:1 AGG anchor from the candidate method change, his blended estimate remains elite (~2.67 xFIP). Harrison's L14 (2.26/2.51) is a small sample and L3 shows a 2.1 IP blowup (8 ER). PHI wRC+ 130 vs LHP (Schwarber 162) attacks MIL's LHP starter aggressively. Market implied for PHI at -116 is ~53.7%; my estimate ~58.5%. Sánchez is the decisive edge.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 3,
+      "closing_line": -119,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c789c21a240b108461c065a6f2dc3436",
@@ -230,10 +240,11 @@
       "reason": "STL ML is flagged as suspect/stale, removing the ability to bet that side cleanly. Bradley's L14 (xFIP 6.28, SIERA 6.14, BB/9 8.0) is alarming but is a small sample and 2:1 AGG anchoring (4.21) softens the signal substantially. STL bullpen (5.00 ERA) is poor. Without a clean price on STL, no qualifying bet is possible.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "0b9c33238f79994bad3620ba35498d00",
@@ -251,10 +262,11 @@
       "reason": "Sutter Health Park (runs factor 121, HR 116) introduces enormous variance; both starters have mediocre profiles (Sugano AGG xFIP 4.77, Springs AGG xFIP 4.64) with shaky L14 data. The total jumped from 13.5 to 14.0, reflecting the park and starter quality. ATH bullpen (3.26 ERA) is better than COL (4.57 ERA) but the RL pricing (-102 for ATH -1.5) already prices in a blowout. Too much variance in a hitter-friendly park with two leaky starters to find a clean edge.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "69adbbbdb66c7af4b714b9edccc840af",
@@ -271,11 +283,12 @@
       "edge": "5.8 pts",
       "reason": "Logan Webb is posting elite marks — AGG xFIP 2.92/SIERA 3.23, L14 xFIP 2.72 (15.0 IP, not flagged small sample, lowest BB/9 in the dataset at 0.6), L3 showing 8.0 IP gem last start. Oracle Park (HR factor 83) plays to his contact-management profile. Rolison has only 24 IP flagged small sample — his true talent is unknowable; FIP 4.22/xERA 4.08 suggest the ERA is lucky. SF lineup wRC+ 143 vs LHP (Schmitt 169, Chapman 134, Arraez 127) is a powerful platoon advantage. Market implied for SF at -136 is ~57.6%; my estimate ~63.4%.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.7353,
+      "clv": 0,
+      "closing_line": -136,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c96fb2bd8508797146f034b0ef19da0e",
@@ -293,10 +306,11 @@
       "reason": "Both starters are flagged small sample (Legumina 29.1 IP, Rodriguez 23.1 IP) with unreliable ERA baselines. Rodriguez's xFIP/SIERA (4.60/4.72 AGG) and recent implosion (3.2 IP, 7 ER) are concerning but small sample. TB's offensive cold streak (L10 RS 2.9, 4-6) is notable. Without reliable starter profiles, no edge can be reliably constructed. LAA at +100 ML is intriguing given TB's offensive coldness but the pitching uncertainty prevents a confident probability estimate.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "24729dddcfb49df9b718819c43d02af9",
@@ -314,10 +328,11 @@
       "reason": "TEX ML is flagged as suspect/stale, preventing evaluation of that side. BOS at -112 with Early (AGG xFIP 3.79, L14 3.97 small sample) vs Eovaldi (AGG xFIP 3.15 — genuinely good career baseline but L14 4.31 small sample showing recent performance decline) is too close to call without a clean TEX price. Both teams are mediocre (BOS 29-39, TEX 34-36). No qualifying bet.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     }
   ],
   "parlay": {
@@ -327,8 +342,9 @@
     "true_probability_est": "35.2% (63.6% × 55.4% accounting for correlated variance reduction)",
     "units": 1,
     "reason": "Both legs are independent (AL vs NL, different parks, different time zones with no shared roster concerns). NYY edge stems from Corbin's catastrophic walk rate vs. NYY's elite LHP platoon split; SF edge stems from Webb's elite ground-ball suppression profile in a pitcher's park against a small-sample LHP. Combined price of ~+154 compares favorably to the break-even of ~+184 implied by our estimates, so the parlay still offers positive expected value.\n\n---",
-    "result": null,
-    "profit_units": null
+    "result": "win",
+    "profit_units": 1.54,
+    "graded_at": "2026-06-15T07:33:57Z"
   },
   "best_bet": {
     "best_bet": "NYY ML -120 (NYY @ TOR) — 3 units",
@@ -343,5 +359,6 @@
     "passes": 7,
     "units_risked": 10,
     "parlay_units": 1
-  }
+  },
+  "graded_at": "2026-06-15T07:33:57Z"
 }

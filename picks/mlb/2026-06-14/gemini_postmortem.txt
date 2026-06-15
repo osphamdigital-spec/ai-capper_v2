@@ -1,0 +1,62 @@
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** ATL @ NYM (ATL ML +102)
+**RESULT:** LOSS
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** NO
+**IF NO — NEW BEST BET:** AZ @ CIN (AZ ML -107)
+**WHY:** The original Best Bet on Atlanta was built on corrupted pre-game matchup data (referencing Brewers pitcher Freddy Peralta and Brewers closer Devin Williams as playing for the Mets). Because the logic was completely flawed due to this mapping error, it should never have been a play, let alone the Best Bet. Arizona ML had a clean, valid 20.7-point edge at near pick'em price with a strong platoon advantage.
+**SOURCE:** Pre-game matchup rosters.
+
+---
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+**GAME:** AZ @ CIN  
+**PICK:** AZ ML (-107)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The platoon advantage against Andrew Abbott was highly favorable, and Zac Gallen's quality mitigated the small-sample L14 flag. Getting this at -107 was excellent value.  
+**SOURCE:** Pre-game matchup data.  
+
+---
+
+**GAME:** ATL @ NYM  
+**PICK:** ATL ML (+102)  
+**RESULT:** LOSS  
+**PROCESS:** INCORRECT TEAM STRENGTH  
+**WOULD-BET-AGAIN:** NO  
+**WHY:** The pre-game analysis suffered from severe data corruption, matching Milwaukee Brewers players (Freddy Peralta, Devin Williams) to the New York Mets. This completely invalidated the bullpen and starting pitching edge calculations.  
+**SOURCE:** Pre-game matchup data.  
+
+---
+
+**GAME:** HOU @ KC  
+**PICK:** HOU ML (+108)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Targeting a Kansas City bullpen with a projected ERA near 20 at plus-money (+108) is mathematically correct over the long run. Houston getting shut out is standard baseball variance rather than a failure of pre-game targeting.  
+**SOURCE:** Pre-game bullpen metrics.  
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+*None.*
+
+---
+
+## S3: DATA REQUEST
+**TYPE:** DATA
+**ITEM:** Active team rosters and live game mappings.  
+**WHICH GAME(S):** ATL @ NYM  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** It would have flagged that Freddy Peralta and Devin Williams were not on the Mets, preventing a flawed 3-unit maximum bet on Atlanta.  
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+**PROPOSED CHANGE:** Implement an automated validation layer to verify that all players referenced in game projections actually belong to the active rosters of the two teams playing.  
+**WHAT IN MY METHOD COULD BE SHARPER:** Data integrity checks on player-team mapping.  
+**EVIDENCE FROM TODAY:** The ATL @ NYM write-up evaluated the Mets' pitching situation using Milwaukee Brewers players (Peralta and Williams), causing an erroneous 3-unit recommendation.  
+**CONFIDENCE:** HIGH

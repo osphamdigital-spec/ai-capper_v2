@@ -20,10 +20,11 @@
       "reason": "Paul Skenes is flagged with a small-sample L14 trend, while Max Meyer faces a tough platoon matchup. The bullpen fatigue for Miami is also a substantial concern, but the overall edge does not warrant a play.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "86eea2ec9bfbee886592a41c15f3ef1d",
@@ -41,10 +42,11 @@
       "reason": "San Diego has a strong offensive matchup against Trevor Rogers, who has been struggling. However, with Walker Buehler also returning from limited action and flagged as a small sample, we will lean with the Padres rather than risk a full stake.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4dc6f4564ea243d6ca214685828ba83f",
@@ -62,10 +64,11 @@
       "reason": "Seattle holds a clear pitching advantage with Emerson Hancock over Miles Mikolas. However, due to slate limit constraints, this edge is relegated to a lean.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c9d537d84684524daf8ab45bb0a8041b",
@@ -83,10 +86,11 @@
       "reason": "The Yankees offense should thrive against Patrick Corbin, but with Will Warren carrying a small-sample tag, we are limiting this to a lean.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "0ff8c6236a0db9cf5998b7c59561e6d9",
@@ -103,11 +107,12 @@
       "edge": "20.7 pts",
       "reason": "Arizona has a massive platoon advantage against Andrew Abbott. Although Zac Gallen is flagged with a small-sample L14, the pricing is far too cheap to pass up, making this a high-value one-unit wager.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.9346,
+      "clv": 4,
+      "closing_line": -111,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "994ada407046719fc1bd63e03217115a",
@@ -124,11 +129,12 @@
       "edge": "13.3 pts",
       "reason": "Atlanta has clear starting pitching and bullpen advantages with Bryce Elder and a dominant, fresh relief corps. The Mets' closer Devin Williams is highly fatigued, while Freddy Peralta's metrics are inflated by a tough Braves lineup.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 2,
+      "closing_line": 100,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4b1b3595238822cabf04ba7f223ed431",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "Stale and suspect pricing data on Detroit triggers an immediate pass for this matchup.",
+      "reason": "postponed",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4d2b32d9bdd8f67c8d10a76487b12397",
@@ -167,10 +174,11 @@
       "reason": "Both starting pitchers carry small-sample tags and the edge on the heavy road favorite does not meet the minimum criteria for a wager on this restricted slate.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "8e4e850c402fa1c197ef6422f0b81838",
@@ -187,11 +195,12 @@
       "edge": "36.3 pts",
       "reason": "Kansas City has a severely compromised and highly volatile bullpen carrying an ERA near 20. Although Spencer Arrighetti is flagged with a small L14 sample, the projected run scoring gap gives Houston a massive edge.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 6,
+      "closing_line": 102,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "5026a58f0ac7fd00f17b808c1c1f7c1f",
@@ -209,10 +218,11 @@
       "reason": "The projected win probability sits exactly on the market implied price. There is no actionable edge in this matchup.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c789c21a240b108461c065a6f2dc3436",
@@ -230,10 +240,11 @@
       "reason": "Stale and suspect pricing data on the moneyline and total markets triggers an immediate pass.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "0b9c33238f79994bad3620ba35498d00",
@@ -251,10 +262,11 @@
       "reason": "High variance environment in Sacramento combined with small-sample starting pitchers makes this an easy pass.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "69adbbbdb66c7af4b714b9edccc840af",
@@ -272,10 +284,11 @@
       "reason": "Ryan Rolison's extremely small sample of work makes the projection highly volatile, and the market price on San Francisco is fairly efficient.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c96fb2bd8508797146f034b0ef19da0e",
@@ -293,10 +306,11 @@
       "reason": "Both starting pitchers carry extreme small-sample warnings, creating too much projection variance to recommend a wager.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "24729dddcfb49df9b718819c43d02af9",
@@ -314,10 +328,11 @@
       "reason": "Suspect moneyline pricing on Texas triggers a pass under our data integrity guidelines.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     }
   ],
   "parlay": null,
@@ -334,5 +349,6 @@
     "passes": 9,
     "units_risked": 5,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-15T07:33:57Z"
 }

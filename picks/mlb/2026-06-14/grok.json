@@ -20,10 +20,11 @@
       "reason": "Skenes holds clear advantages in xFIP, SIERA, and K-BB% over Meyer, but the market already prices PIT as a 60% favorite. Platoon and park adjustments add only modest support for PIT, keeping the estimated edge below the 4-point threshold.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "86eea2ec9bfbee886592a41c15f3ef1d",
@@ -41,10 +42,11 @@
       "reason": "Rogers shows better underlying metrics than Buehler, yet SD's elite bullpen (2.73 ERA) offsets much of the gap. Small-sample flags on both starters and a tight market line leave no qualifying edge after adjustments.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4dc6f4564ea243d6ca214685828ba83f",
@@ -62,10 +64,11 @@
       "reason": "Hancock's xFIP/SIERA edge and the large platoon advantage for SEA are real, but the market's -137 already reflects much of the starter and bullpen superiority; estimated gap falls short of 4 points.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c9d537d84684524daf8ab45bb0a8041b",
@@ -82,11 +85,12 @@
       "edge": "6.5 pts",
       "reason": "Warren's superior xFIP, SIERA, and Stf+ create a solid starter edge, amplified by NYY's massive platoon advantage vs lefties and comparable bullpens. Market implies 54.5% for NYY; my estimate reaches ~61% after park adjustment.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.8333,
+      "clv": 6,
+      "closing_line": -126,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "0ff8c6236a0db9cf5998b7c59561e6d9",
@@ -104,10 +108,11 @@
       "reason": "Gallen's poor recent xFIP and Abbott's middling metrics produce a near-even matchup once platoon and park factors are applied. Market line is efficient with no measurable edge.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "994ada407046719fc1bd63e03217115a",
@@ -125,10 +130,11 @@
       "reason": "Peralta holds a modest metrics edge, but ATL's historically dominant bullpen (1.52 ERA) and strong platoon numbers offset it. Resulting probability sits too close to the market's near-even price.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4b1b3595238822cabf04ba7f223ed431",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "Mize and Williams post nearly identical xFIP/SIERA marks; bullpens are comparable and no platoon or park tilt creates separation. Market line is efficient.",
+      "reason": "postponed",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4d2b32d9bdd8f67c8d10a76487b12397",
@@ -166,11 +173,12 @@
       "edge": "7.3 pts",
       "reason": "Sheehan's elite xFIP, SIERA, and K-BB% gap over Fedde is substantial and backed by clean aggregate data. LAD's platoon edge and slight park adjustment push my win probability to ~72% against the market's 64.7%.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 7,
+      "closing_line": -190,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "8e4e850c402fa1c197ef6422f0b81838",
@@ -188,10 +196,11 @@
       "reason": "Kolek's better underlying numbers are offset by HOU's stronger recent form and bullpen; the small estimated edge after adjustments stays below the 4-point gate.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "5026a58f0ac7fd00f17b808c1c1f7c1f",
@@ -208,11 +217,12 @@
       "edge": "7.2 pts",
       "reason": "Sánchez's dominant xFIP, SIERA, and Stf+ create a clear starter advantage over Harrison despite the latter's solid K-BB%. PHI platoon and park factors add further support, producing an estimated 61% win probability versus the market's 53.7%.",
       "looked_up": "nothing, used provided data only",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 3,
+      "closing_line": -119,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c789c21a240b108461c065a6f2dc3436",
@@ -230,10 +240,11 @@
       "reason": "McGreevy and Bradley post similar xFIP values with offsetting platoon and bullpen factors. No gap reaches the required threshold after all adjustments.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "0b9c33238f79994bad3620ba35498d00",
@@ -251,10 +262,11 @@
       "reason": "Springs holds a modest metrics edge, but the extreme hitter-friendly park and high variance environment compress any edge below 4 points against an efficient market line.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "69adbbbdb66c7af4b714b9edccc840af",
@@ -272,10 +284,11 @@
       "reason": "Webb's strong xFIP/SIERA is countered by Rolison's small-sample but solid results and CHC's platoon edge; bullpen differences are neutralized by park factors, leaving no qualifying gap.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c96fb2bd8508797146f034b0ef19da0e",
@@ -293,10 +306,11 @@
       "reason": "Both starters carry explicit small-sample flags and middling aggregate metrics; bullpen edges are modest and the market line reflects the balanced matchup.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "24729dddcfb49df9b718819c43d02af9",
@@ -314,10 +328,11 @@
       "reason": "Eovaldi's xFIP advantage is real but tempered by small-sample flags and BOS's home platoon context. Resulting probability sits inside the 4-point edge gate.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     }
   ],
   "parlay": null,
@@ -334,5 +349,6 @@
     "passes": 12,
     "units_risked": 7,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-15T07:33:57Z"
 }

@@ -1,0 +1,89 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NYY ML -120  
+RESULT: WIN  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+WHY: The pre-game case was still the cleanest on the slate: elite Yankees split vs left-handed pitching, a meaningful starter edge over Corbin on current skill, and a fair price materially shorter than market. That was the strongest combination of matchup + price available before first pitch.  
+SOURCE: Original slate note — “163 wRC+ split versus lefties,” “Corbin’s contact profile plus poor recent shape,” “my fair price is materially shorter than -120.”
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: SD @ BAL  
+PICK: SD ML +116  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: The handicap was built on a real pre-game edge: San Diego’s strong profile vs left-handed pitching, plus-money price, and a late-game bullpen advantage. That was a valid bet independent of the result.  
+SOURCE: Original note — “136 wRC+ profile against lefties,” “Trevor Rogers... only mid-rotation,” “Padres have a major late-game bullpen advantage,” “At plus money, I make San Diego the better side.”
+
+---
+
+GAME: NYY @ TOR  
+PICK: NYY ML -120  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: This was the clearest pre-game price edge I had. The Yankees’ split vs lefties and the contact risk on the opposing starter were both directly aligned with the wager, and the number was short versus my fair.  
+SOURCE: Original note — “163 wRC+ split versus lefties is elite,” “Corbin’s contact profile plus poor recent shape,” “my biggest price miss on the board.”
+
+---
+
+GAME: ATL @ NYM  
+PICK: ATL ML +102  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: I did have a real pre-game basis: Atlanta’s stronger offense vs right-handed pitching, bullpen edge, and plus-money price. That said, I also explicitly acknowledged the Mets had the better pure starter and that Elder’s indicators were weaker than his ERA. So I do not think the play was unjustified, but I do think the risk concentration on “team context over starter quality” in an underdog spot argues for a smaller stake.  
+SOURCE: Original note — “Peralta is the better pure starter,” “Atlanta closes the gap fast with a much stronger offense versus right-handed pitching,” “best bullpen unit on this slate,” “Elder’s skill indicators are more modest than his ERA.”
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: TEX @ BOS  
+YOUR CALL: PASS  
+FINAL RESULT: TEX WIN  
+WHAT YOU MISSED: The pre-game matchup case already pointed toward Texas: I said they had the better lineup split “by a wide margin” versus left-handed pitching and that Texas was the only side I would consider. The miss was not team-strength identification; it was letting suspect/stale away-price data fully kill a game where the baseball case was already one-sided.  
+SOURCE: Original note — “Texas has the better lineup split by a wide margin against left-handed pitching,” “Rangers are the only side I’d consider,” “away best-moneyline data is flagged suspect/stale.”  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: SOURCE  
+ITEM: Reliable, non-stale away best-moneyline feed across books  
+WHICH GAME(S): TEX @ BOS, STL @ MIN, DET @ CLE  
+WOULD HAVE CHANGED A BET? YES  
+WHY: Price uncertainty directly blocked action in multiple games, especially Texas, where the baseball handicap already leaned clearly one way.
+
+---
+
+TYPE: DATA  
+ITEM: Confirmed lineups closer to lock, with handedness/platoon strength preserved in the feed  
+WHICH GAME(S): SD @ BAL, NYY @ TOR, ATL @ NYM  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: These were lineup-split-driven bets or near-bets. Confirmed lineup quality would improve stake sizing confidence, especially when the edge is offense-led rather than starter-led.
+
+---
+
+TYPE: DATA  
+ITEM: Roof/open-air status integrated as a standard field in the game card  
+WHICH GAME(S): NYY @ TOR, PHI @ MIL  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: It would not have flipped NYY, but it could tighten run-environment assumptions and help with total/side confidence in borderline spots.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: In underdog moneyline bets, apply a larger penalty when I explicitly concede the opposing team has the better pure starter and my own starter’s ERA is running ahead of skill indicators.  
+
+WHAT IN MY METHOD COULD BE SHARPER: I should be more cautious about letting offense-split and bullpen edges fully overcome a meaningful starting-pitcher quality deficit in dog spots, especially when I also note regression risk on my side’s starter.  
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): In ATL @ NYM, I noted pre-game that “Peralta is the better pure starter” and that “Elder’s skill indicators are more modest than his ERA,” yet still made Atlanta a full play primarily on offense vs RHP, bullpen, and plus-money price. That is a structurally thinner dog profile than a spot where my side also owns the mound edge or at least parity.  
+
+CONFIDENCE: LOW

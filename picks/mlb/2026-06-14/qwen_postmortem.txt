@@ -1,0 +1,57 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: SD @ BAL
+PICK: SD ML
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pre-game data strongly supported SD's platoon advantage and bullpen edge, and the plus-money price offered excellent value. The result validated the process.
+SOURCE: Pre-game wRC+ vs LHP and bullpen ERA data.
+
+GAME: AZ @ CIN
+PICK: AZ ML
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Massive platoon advantage against a LHP and a strong bullpen edge justified the pick. The market mispriced AZ, and the pre-game edge was fully realized.
+SOURCE: Pre-game wRC+ vs LHP and bullpen ERA data.
+
+GAME: ATL @ NYM
+PICK: ATL ML
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: ATL had a strong 123 wRC+ vs RHP and an elite 1.52 bullpen ERA compared to NYM's 93 wRC+ and 2.81 bullpen. The plus-money price was highly valuable. The loss is a result of single-game variance, not a flaw in the pre-game data evaluation.
+SOURCE: Pre-game wRC+ vs RHP and bullpen ERA data.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: STAT
+ITEM: Starting Pitcher pitch-level usage rates and expected stats (xERA, xwOBA) against specific batter handedness, rather than just aggregate SIERA.
+WHICH GAME(S): ATL @ NYM, SD @ BAL
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Elder and Peralta had comparable SIERAs, but pitch-level data might have revealed a specific matchup vulnerability for Elder against NYM's right-handed power hitters that aggregate SIERA masked, potentially steering me away from the ATL bet or reducing the stake.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Replace the hard "3-bet slate ceiling" with a "maximum daily risk exposure" limit (e.g., max 3 units of total risk per day), allowing for more than 3 bets if they are all 1-unit or 0.5-unit plays with clear positive expected value.
+WHAT IN MY METHOD COULD BE SHARPER: The rigid 3-bet limit forced me to pass on HOU @ KC despite a 5.6-point edge and a massive bullpen advantage, simply because I had already selected three other 1-unit plays.
+EVIDENCE FROM TODAY: HOU @ KC had a clear 5.6-point edge and a massive bullpen advantage (HOU vs KC's 19.25 ERA), but was passed over strictly due to the 3-bet ceiling, not a lack of pre-game edge.
+CONFIDENCE: MEDIUM

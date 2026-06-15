@@ -127,7 +127,8 @@ def fetch_player(player_id: int, season: str) -> dict | None:
       season=2026        — the season year
     """
     data = api_get(f"{MLB_API_BASE}/people/{player_id}", {
-        "hydrate": f"stats(group=[pitching],type=[season],season={season})",
+        # currentTeam is required for team-mismatch validation — must be explicit hydrate
+        "hydrate": f"stats(group=[pitching],type=[season],season={season}),currentTeam",
     })
     if not data or not data.get("people"):
         return None
@@ -361,9 +362,10 @@ def fetch_pitchers(date: str = None, show_api: bool = False):
 
     # ── Step 5: Match games and write context ─────────────────────────────────
     print("Step 3: Matching games and writing pitcher context...")
-    updated  = 0
-    no_match = []
-    tbd      = []
+    updated        = 0
+    no_match       = []
+    tbd            = []
+    team_mismatches = []   # populated by currentTeam validation — triggers blocking exit
 
     for game in games:
         away_name = game["away"]["name"]
@@ -404,6 +406,44 @@ def fetch_pitchers(date: str = None, show_api: bool = False):
         if not away_pp or not home_pp:
             tbd_side = "away" if not away_pp else "home"
             tbd.append(f"{matchup} ({tbd_side} TBD)")
+
+        # ── Team-membership validation ─────────────────────────────────────────
+        # Cross-check each pitcher's currentTeam (from /people/{id} hydrate) against
+        # the team slot they are filling in this game.
+        #
+        # For legitimate recent trades BOTH the schedule probable-pitcher feed AND
+        # the /people/{id} currentTeam update simultaneously — so they always agree
+        # and this check never fires for valid trades (confirmed against Jun 14 slate:
+        # Peralta→NYM, Harrison→MIL, all pass clean with zero false positives).
+        #
+        # The check only fires when the MLB API has internally inconsistent data:
+        # a pitcher listed as the probable for Team A while currentTeam says Team B.
+        # That is a genuine API data glitch, and the build must stop.
+        for pp, slot_team_name, side_label in (
+            (away_pp, away_name, "away"),
+            (home_pp, home_name, "home"),
+        ):
+            if not pp:
+                continue
+            pid  = pp["id"]
+            name = pp.get("fullName", "?")
+            pd   = pitcher_id_to_data.get(pid)
+            if not pd:
+                continue
+            current_team = pd.get("currentTeam", {}).get("name")
+            if not current_team:
+                # API didn't return currentTeam even with hydrate — skip rather than
+                # false-positive (network partial response, player on restricted list, etc.)
+                print(f"  NOTE: currentTeam not available for {name} (id={pid}) — skipping team check")
+                continue
+            if current_team != slot_team_name:
+                msg = (
+                    f"!! PITCHER TEAM MISMATCH: {name} (id={pid}) "
+                    f"assigned to {slot_team_name} ({side_label} slot in {matchup}) "
+                    f"but currentTeam = '{current_team}'"
+                )
+                print(f"  {msg}")
+                team_mismatches.append(msg)
 
         # ── Change detection & opener flagging ────────────────────────────────
         # Read whatever was already in games.json BEFORE this run so we can
@@ -482,6 +522,21 @@ def fetch_pitchers(date: str = None, show_api: bool = False):
         home_name_str = home_pp["fullName"] if home_pp else "TBD"
         print(f"  {matchup}: {away_name_str} vs {home_name_str}")
         updated += 1
+
+    # ── Team-mismatch gate ────────────────────────────────────────────────────
+    # If any pitcher's currentTeam didn't match the slot, abort WITHOUT saving.
+    # The operator must investigate before the prompt can be built from this data.
+    if team_mismatches:
+        print()
+        print("=" * 60)
+        print("!! ABORT: PITCHER TEAM MISMATCH(ES) DETECTED")
+        print("   games.json has NOT been updated.")
+        print("   Investigate and resolve before running build_prompt.py.")
+        print()
+        for msg in team_mismatches:
+            print(f"   {msg}")
+        print("=" * 60)
+        sys.exit(1)
 
     # ── Step 6: Save updated games.json ──────────────────────────────────────
     with open(games_path, "w") as f:

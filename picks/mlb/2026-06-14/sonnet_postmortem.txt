@@ -1,0 +1,179 @@
+# POST-MORTEM REVIEW — MLB 2026-06-14
+
+---
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** NYY ML -120 (NYY @ TOR) — 3 units
+**RESULT:** WIN
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES
+
+The pre-game case was clean and held up. Corbin's BB/9 6.8 in L14 was the specific, quantified signal of a command spiral, NYY's wRC+ 163 vs LHP was documented, and Warren's AGG xFIP 3.79 gave a genuine starter edge. The 9.1-point gap was the widest on the slate with no data integrity flags. The result validated the process, but more importantly, the process was sound independent of the result. No revision needed to this designation.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** MIA @ PIT
+**PICK:** PIT ML -162
+**RESULT:** LOSS
+**PROCESS:** CORRECT PROCESS / BAD VARIANCE with one caveat worth noting — the [small sample] flag on Skenes' L14 was acknowledged pre-game, and the -162 price left almost no margin for a bad Skenes day. The directional edge was real (Skenes' AGG xFIP 3.00, Meyer's L14 regression to 4.04), but at -162 a single poor Skenes outing is enough to swing the result even if the probability estimate was accurate. The price was the structural problem: a 4.5-point edge does not justify -162 risk exposure as confidently as the write-up implied.
+**WOULD-BET-AGAIN:** LOWER STAKE
+**WHY:** The process on starter quality was sound. The 1-unit sizing was appropriate given the small-sample flag. However, -162 favorites require ~61.9% implied win probability and a 4.5-point edge only gets to ~66.4% — that is a thin margin at this price point. The bet still passes minimum threshold, but disciplined stake management suggests this should have been flagged as a borderline play at this juice level. Pre-game data available: Meyer's L14 xFIP 4.04 showed regression but was not a collapse; MIA's bullpen (4.59 ERA) was poor but not disqualifying. No pre-game signal specifically pointed to the loss — this is genuine variance.
+**SOURCE:** Skenes AGG xFIP 3.00, [small sample flag on L14], Meyer L14 xFIP 4.04, price -162 implying ~61.9%
+
+---
+
+**GAME:** SD @ BAL
+**PICK:** SD ML +116
+**RESULT:** WIN
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Every major pre-game signal held. Rogers' L14 xFIP/SIERA 5.04/5.15 was the core edge, Camden Yards HR park factor 115 compounded his HR vulnerability, SD's bullpen ERA 2.73 vs BAL's 5.87 was the decisive secondary edge, and getting plus money on a team with SD's profile was textbook value identification. The win did not require anything to go wrong for Baltimore in an unlikely way — it reflected the structural mismatch the pre-game data described. Plus-money plays with this level of multi-factor support should be made consistently.
+**SOURCE:** Rogers L14 xFIP 5.04, BAL bullpen ERA 5.87, SD bullpen ERA 2.73, park factor HR 115
+
+---
+
+**GAME:** SEA @ WAS
+**PICK:** SEA ML -137
+**RESULT:** LOSS (WAS 10, SEA 1)
+**PROCESS:** INCORRECT PITCHING — specifically, underweighted the "no L14 data available" flag on Mikolas. The analysis correctly identified his season-long weakness (ERA 5.90, xFIP 4.76, Stf+ 89) and short L3 outings, but those metrics pointed to a struggling pitcher who might give up 4-5 runs — not to a scenario where WAS scores 10. More critically, the absence of Mikolas L14 data was treated as a moderate concern when it should have been treated as a harder stop signal. The pre-game data also showed L3 outings of 3.1, 5.1, 4.0 IP — these are not just regression signals, they are durability red flags that meant WAS would need to attack a leaky bullpen early. SEA's bullpen was excellent (2.41 ERA) but if the starter gets knocked out in the 3rd inning, the bullpen quality becomes irrelevant to the outcome. The total moving from 9.5 to 10.0 was cited as "consistent with a run-heavy expectation on the WAS side" — that was a contradictory signal that should have raised more doubt about SEA's ability to cover, not less.
+**WOULD-BET-AGAIN:** NO
+**WHY:** The L3 IP pattern (3.1, 5.1, 4.0) combined with missing L14 data was a stronger warning than treated. The line was -137, which requires ~57.8% and my estimate was ~62.6%. That edge was insufficient to overcome the durability uncertainty around Mikolas creating early-leverage situations where WAS could pile on via a bullpen game. In retrospect, missing L14 data on the opposing starter when betting a moderate favorite at minus juice should have been a pass trigger, not merely a sizing note.
+**SOURCE:** Mikolas L3 IP 3.1/5.1/4.0, no L14 data flag, total move 9.5→10.0 signaling WAS run expectation
+
+---
+
+**GAME:** NYY @ TOR
+**PICK:** NYY ML -120
+**RESULT:** WIN
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** HIGHER STAKE
+**WHY:** Every pre-game signal was validated. Corbin's BB/9 6.8 in L14 was the clearest command-collapse indicator on the slate. NYY's wRC+ 163 vs LHP was the strongest platoon edge available. Warren's AGG xFIP 3.79 gave a starter advantage. The 3-unit best-bet designation was correct. The 9.1-point edge was the widest clean edge on the slate, the price was reasonable at -120, and the result was decisive (NYY 8, TOR 3). If anything, the 2:1 AGG weighting on Corbin's blended xFIP (~5.12) may have been conservative — the outcome suggests his actual performance was even worse than the blended estimate predicted. This is the template play for the method.
+**SOURCE:** Corbin L14 xFIP 6.75, BB/9 6.8, NYY wRC+ 163 vs LHP, Warren AGG xFIP 3.79
+
+---
+
+**GAME:** ATL @ NYM
+**PICK:** ATL ML +102
+**RESULT:** LOSS (NYM 8, ATL 1)
+**PROCESS:** OVERWEIGHTED FORM — specifically, ATL's bullpen ERA (1.52) was treated as a decisive edge without adequately weighting the risk that Elder's contact-suppression metrics (ERA 2.66/xERA 3.01 vs AGG xFIP 3.99) represented legitimate positive regression risk. The pre-game write-up correctly noted that Elder's AGG xFIP 3.99 suggests mediocre true talent, but then discounted it in favor of the ERA/xERA outputs and the bullpen gap. The specific data point available pre-game: Elder's L14 xFIP 4.09 confirmed he was not improving — his ERA was running well below his expected metrics. That gap between ERA (2.66) and xFIP (3.99/4.09) was a clear regression warning that should have tempered confidence in ATL as a pick rather than reinforcing it. The bullpen edge was real, but the starter regression risk was underweighted against a NYM lineup with genuine offensive capability.
+**WOULD-BET-AGAIN:** NO
+**WHY:** The ERA vs xFIP gap on Elder (2.66 vs 3.99-4.09) was visible pre-game and represented a regression warning. Betting a +102 team primarily on bullpen advantage is sound when the starter edges are similar; it becomes risky when the opponent's starter (Peralta AGG xFIP 3.84) actually profiles slightly better AND your own starter is posting ERA significantly below his xFIP indicators. The run differential edge (+114 vs -18) was the other pillar, but single-game outcomes cannot reliably be predicted from season run differential alone. The play was constructed on a shaky foundation.
+**SOURCE:** Elder AGG xFIP 3.99, L14 xFIP 4.09, ERA 2.66 (ERA-to-xFIP gap ~1.33 runs), Peralta AGG xFIP 3.84
+
+---
+
+**GAME:** LAD @ CHW
+**PICK:** LAD -1.5 -120
+**RESULT:** LOSS (CHW 6, LAD 4)
+**PROCESS:** SMALL SAMPLE TRAP — Sheehan's L14 was flagged as tiny (7.2 IP) but the bet was still made on the strength of his AGG xFIP 3.32/SIERA 3.22. The pre-game write-up explicitly noted "Marginal edge" and estimated only a 52.6% vs 48.5% implied edge on the RL. That is a 4.1-point edge — barely above the 4-point minimum threshold — on a run line requiring the favorite to win by 2+. The structural problem: using a run line instead of ML when the edge is marginal amplifies variance significantly. A marginal ML edge does not automatically translate to a viable RL bet. Fedde's AGG xFIP 5.31/SIERA 5.45 was the correct identification of the CWS weakness, but the RL requirement means LAD needed to win decisively even if the ML edge was real. The pre-game data note flagging LAD ML -190 as potentially inefficient was available — this was a data-driven signal that the market may have had doubt about LAD's dominance, which should have counseled a pass rather than a pivot to RL.
+**WOULD-BET-AGAIN:** NO
+**WHY:** A 4.1-point edge on a run line is insufficient when the underlying process relies on a small-sample starter (Sheehan 7.2 IP) and the pre-game data itself flagged the ML price as potentially inefficient. The RL play requires both the ML win AND a margin requirement — two conditions that multiply variance. This should have been a PASS, not a low-confidence RL play.
+**SOURCE:** Sheehan L14 7.2 IP [small sample flag], edge 4.1 pts (marginal threshold), LAD ML -190 [data anomaly flag], RL margin requirement
+
+---
+
+**GAME:** PHI @ MIL
+**PICK:** PHI ML -116
+**RESULT:** LOSS (MIL 4, PHI 0)
+**PROCESS:** INCORRECT PITCHING — specifically, Harrison's L3 blowup (2.1 IP, 8 ER) was noted as a concern but then dismissed as a small sample. The pre-game write-up correctly identified the L14 as a small sample, but the L3 showing a 2.1 IP, 8 ER start is not just a small sample blip — it is a potential injury/stuff signal that the data cannot distinguish from variance. More critically, Sánchez's profile was elite (AGG xFIP 2.61, L14 xFIP 1.80, Stf+ 118) and the bet was substantially built around his dominance. The problem: PHI scoring 0 runs against Sánchez is not a contradiction of the pre-game thesis — it is exactly what his metrics predicted. The miss was on Harrison's side. Harrison's L3 showing a 2.1 IP outing warranted more caution about MIL's ability to score, not just as a run-prevention concern for PHI but as a signal that if Harrison was compromised, MIL's own lineup could capitalize. The bet was structured as "Sánchez dominates, PHI wins narrowly" — but that required PHI to also score against a Sánchez-level elite arm, which the metrics actually argued against.
+**WOULD-BET-AGAIN:** NO
+**WHY:** When your best pre-game case is "elite pitcher starts for the team you're betting," you are betting that team's offense to score against the opposing elite pitcher. Sánchez's L14 xFIP 1.80 was the best starter number on the slate — betting AGAINST him (via backing PHI ML against MIL) required PHI's offense to solve him. PHI wRC+ 130 vs LHP was noted, but Sánchez's 1.80 L14 xFIP argued that even a strong LHP platoon split lineup would struggle. The internal logic of the pick was contradictory: the strongest pre-game signal pointed to MIL's advantage (Sánchez's elite metrics), and the PHI case relied on those same metrics being somehow insufficient.
+**SOURCE:** Sánchez L14 xFIP 1.80, PHI wRC+ 130 vs LHP, Harrison L3 2.1 IP/8 ER [possible injury/stuff signal]
+
+---
+
+**GAME:** CHC @ SF
+**PICK:** SF ML -136
+**RESULT:** WIN
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Webb's profile was the cleanest starter case on the slate outside of the NYY game. AGG xFIP 2.92, L14 xFIP 2.72 (15.0 IP, not flagged), BB/9 0.6, L3 showing an 8.0 IP gem — every data dimension aligned. Oracle Park's HR factor 83 complemented his contact-management approach. Rolison's small sample (24 IP) was correctly identified as unknowable. SF's wRC+ 143 vs LHP with multiple specific platoon advantages (Schmitt 169, Chapman 134, Arraez 127) was a quantified edge. The win was expected by the process and delivered.
+**SOURCE:** Webb AGG xFIP 2.92, L14 xFIP 2.72, BB/9 0.6, Rolison 24 IP small sample, SF wRC+ 143 vs LHP
+
+---
+
+### PART B — PASSES WHERE A PRE-GAME EDGE WAS MISSED
+
+**GAME:** COL @ ATH
+**YOUR CALL:** PASS
+**FINAL RESULT:** COL 23, ATH 9
+**WHAT YOU MISSED:** The pass was correct in principle — the variance concern in a hitter-friendly park with two leaky starters was legitimate. However, the specific data point of Sutter Health Park runs factor 121 / HR factor 116 combined with BOTH starters having AGG xFIP above 4.60 was a genuine Over signal. The total at 14.0 already reflected park and starter quality, but a game with these inputs had a meaningful probability of a blowout-range score. The Over was not taken as a lean. This was not a missable bet (the variance was real), but it was a missed total lean worth noting as process feedback: when park factor is extreme (121 runs) AND both starters are demonstrably poor (Sugano 4.77, Springs 4.64 AGG xFIP) AND bullpen quality is below average on both sides, an Over lean even at a high total is defensible.
+**SOURCE:** Sutter Health Park runs factor 121, both starters AGG xFIP 4.60+, total 14.0
+**WOULD THIS HAVE BECOME A BET?** NO — the variance concern was correctly identified. This is a lean/process note, not a missed bet.
+
+---
+
+**GAME:** HOU @ KC
+**YOUR CALL:** PASS
+**FINAL RESULT:** KC 4, HOU 0
+**WHAT YOU MISSED:** The pass was driven by the KC bullpen ERA anomaly (19.25) flagged as likely a data artifact, and the line volatility (HOU -190 to KC -210 swing). These were valid pass signals. However, the pre-game data did support Kolek (AGG xFIP 4.04, L14 3.37) over Arrighetti (AGG xFIP 4.95) — a meaningful starter gap. The line moving to KC -210 was itself a sharp-money signal suggesting the market saw something significant about this matchup. The data anomaly flag on KC's bullpen ERA was the correct reason to pass, but the starter gap and line movement together constituted a moderate signal in KC's direction that was not fully articulated in the PASS reasoning. The pass remains correct given the unreliable data, but the starter edge was larger than the write-up acknowledged.
+**SOURCE:** Kolek L14 xFIP 3.37 vs Arrighetti AGG xFIP 4.95, line movement HOU -190 → KC -210
+**WOULD THIS HAVE BECOME A BET?** MAYBE — only if the bullpen ERA anomaly could have been resolved. Without clean bullpen data, the pass stands.
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT
+**ITEM:** Pitcher injury/health status and recent velocity/spin data for L3 starts, specifically flagging when a pitcher has a short outing (under 4.0 IP) in their most recent start
+**WHICH GAME(S):** SEA @ WAS (Mikolas L3 IP pattern: 3.1, 5.1, 4.0), PHI @ MIL (Harrison L3 2.1 IP blowup)
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** Both losing bets involved opposing starters (Mikolas, Harrison) with recent short/blowup outings that could signal injury, mechanical issues, or stuff deterioration rather than variance. If a pitcher's most recent start was under 4.0 IP, a flag distinguishing "tactical hook" from "injury/stuff concern" would have materially changed the confidence level on both bets. For SEA @ WAS, Mikolas' 3.1 IP last start combined with no L14 data should have been a harder stop. For PHI @ MIL, Harrison's 2.1 IP / 8 ER needed injury context to interpret as variance vs. signal.
+
+---
+
+**TYPE:** STAT
+**ITEM:** Starter ERA vs. xFIP / xERA gap size, flagged when ERA runs more than 1.0 run below xFIP (potential regression alert)
+**WHICH GAME(S):** ATL @ NYM (Elder ERA 2.66 vs xFIP 3.99 = 1.33 gap)
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** Elder's ERA-to-xFIP gap was visible in the provided data but not synthesized as an explicit regression flag. A calculated gap metric (e.g., "ERA-xFIP delta: -1.33, flagged above 1.0") would have made the regression risk immediately visible rather than requiring manual comparison of two separate numbers. This gap was the central pre-game signal that the ATL bet was built on a shaky starter foundation, and it was underweighted in the analysis.
+
+---
+
+**TYPE:** DATA
+**ITEM:** Recent bullpen workload / availability data for high-leverage relievers (pitches thrown in last 3 days, days of rest)
+**WHICH GAME(S):** ATL @ NYM (ATL bullpen ERA 1.52 cited as decisive edge), MIA @ PIT (PIT bullpen cited as "fresh high-leverage arms")
+**WOULD HAVE CHANGED A BET?** MAYBE
+**WHY:** Both losing bets partly relied on bullpen quality as a secondary edge. The current data provides ERA/metrics but not availability. If ATL's elite relievers (Iglesias/Suarez/Lee) had pitched heavily in the prior 2-3 days, the "fresh and dominant" characterization would have been undermined. Similarly, PIT's "fresh high-leverage arms" claim was asserted without workload data to confirm it. Availability data would either confirm or invalidate the bullpen edge in each case.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** Implement a "starter durability flag" that triggers a mandatory pass review when a starter's most recent outing was under 4.0 IP AND no L14 data is available. Separately, implement an "ERA regression alert" when a starter's ERA runs more than 1.0 run below their xFIP — treat this as a net-neutral or slight negative for the team the starter pitches for, not a positive.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** Currently, short recent outings (L3 IP data) are noted descriptively but not systematically converted into a decision rule. A starter with a sub-4.0 IP last start could be masking an injury or stuff deterioration that aggregated metrics cannot capture. This is particularly dangerous when combined with missing L14 data (as in Mikolas' case) because there is no medium-term baseline to anchor against. Similarly, the ERA-vs-xFIP gap is computed when analyzing individual starters but is not flagged as an explicit regression risk in the bet rationale, leading to cases (Elder) where a bet was partly built on a metric (ERA 2.66) that the process's own framework identifies as unsustainable.
+
+**EVIDENCE FROM TODAY (pre-game data only):**
+- Mikolas: L3 outings 3.1, 5.1, 4.0 IP + no L14 data → SEA bet lost on WAS scoring 10
+- Harrison: L3 showing 2.1 IP / 8 ER + L14 flagged small sample → PHI bet lost on PHI scoring 0
+- Elder: ERA 2.66 vs AGG xFIP 3.99 (gap 1.33) + L14 xFIP 4.09 → ATL bet lost on ATL scoring 1
+- In all three cases, the pre-game data contained the specific signal; the method did not convert it into a clear decision rule
+
+**CONFIDENCE:** MEDIUM — three data points in one day is not sufficient to adopt as a rule, but the pattern is consistent enough (all three losing bets involved this type of ignored pre-game signal) to warrant a proposal. Needs validation over 10+ additional slates before method adoption.
+
+---
+
+## SLATE SUMMARY SCORECARD
+
+| Bet | Pick | Result | Units |
+|---|---|---|---|
+| PIT ML -162 | PIT | LOSS | -1.0 |
+| SD ML +116 | SD | WIN | +1.16 |
+| SEA ML -137 | SEA | LOSS | -1.0 |
+| NYY ML -120 (3u) | NYY | WIN | +2.5 |
+| ATL ML +102 | ATL | LOSS | -1.0 |
+| LAD -1.5 -120 | LAD | LOSS | -1.0 |
+| PHI ML -116 | PHI | LOSS | -1.0 |
+| SF ML -136 | SF | WIN | +0.74 |
+| Parlay NYY+SF +154 | WIN | WIN | +1.54 |
+
+**Net result:** Approximately **+1.94 units** on the day, driven almost entirely by the 3-unit NYY bet and the parlay. The win rate on individual bets was 3/8 (37.5%), but unit profitability was positive because of correct stake sizing (3 units on the highest-confidence play, 1 unit on marginal plays).
+
+**Key process takeaway:** The method correctly identified the two highest-conviction plays (NYY, SF) and correctly sized them. The losses came disproportionately from bets where the pre-game data contained visible warning signals that were underweighted (SEA/Mikolas IP pattern, ATL/Elder ERA gap, PHI/internal logic contradiction, LAD/marginal RL edge). The profitable discipline to reinforce: when multiple data dimensions align cleanly, size up. When the write-up itself notes "marginal" or "borderline," that is a pass signal, not a 1-unit signal.

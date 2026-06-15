@@ -1,0 +1,81 @@
+### S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** ATL ML (+102) 3u  
+**RESULT:** LOSS  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** NO  
+**IF NO — NEW BEST BET:** NYY ML (-120) 1u  
+**WHY:** The ATL edge relied heavily on an unsustainable bullpen ERA (1.52) that had no underlying regressors attached; the true edge was likely inflated. NYY had a larger raw edge (23 pts) and the Corbin small‑sample flag was less concerning given his persistently poor projection. The risk/reward was better on NYY at 1u than ATL at 3u.  
+**SOURCE:** Pre‑game bullpen data for ATL; pre‑game projections for Corbin.
+
+---
+
+### S2: FULL SLATE REVIEW
+
+#### PART A — GAMES YOU BET
+
+**GAME:** ATL @ NYM  
+**PICK:** ATL ML +102 (3u)  
+**RESULT:** LOSS  
+**PROCESS:** OVERWEIGHTED FORM  
+**WOULD-BET-AGAIN:** LOWER STAKE (1u max)  
+**WHY:** The 1.52 ATL bullpen ERA was treated as a true‑talent signal, but it was almost certainly small‑sample noise. Using ERA without peripheral support inflated the perceived edge. A cleaner bullpen metric (xFIP/FIP) would have shown regression risk. The underlying hitting/pitching split may still have been favorable, but not to a 3‑unit degree.  
+**SOURCE:** Pre‑game ATL bullpen ERA, lack of xFIP/FIP check.
+
+---
+
+**GAME:** NYY @ TOR  
+**PICK:** NYY ML -120 (1u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (same stake unless slate restrictions)  
+**WHY:** The massive wRC+ edge vs LHP combined with Corbin’s 5.35 projected ERA justified the bet. The small‑sample flag was appropriately handled with a 1u limit. No pre‑game flags pointed to a true‑edge reversal.  
+**SOURCE:** Pre‑game projection and platoon data.
+
+---
+
+**GAME:** CHC @ SF  
+**PICK:** SF ML -135 (1u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (same stake)  
+**WHY:** Webb’s ace projection and SF’s 143 wRC+ vs LHP created a huge separation. The missing AGG xFIP for Rolison was proxied conservatively with xERA (4.08), and the 1u cap due to his inexperience was prudent. No pre‑game indicator suggested a fade.  
+**SOURCE:** Pre‑game projections, platoon splits, park adjustments.
+
+---
+
+#### PART B — PASSES AND LEANS WHERE A PRE‑GAME EDGE WAS MISSED
+
+**GAME:** HOU @ KC  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** KC won 4–0  
+**WHAT YOU MISSED:** The projection gap between Kolek (3.77 ERA) and Arrighetti (4.64 ERA) was described as “essentially offset,” but a 0.87‑run difference is material when both offenses are near league average. That gave KC a small but genuine edge, enough to move from pure coin‑flip to at least a lean.  
+**SOURCE:** Pre‑game projected ERAs for both starters.  
+**WOULD THIS HAVE BECOME A BET?** MAYBE (likely a lean, not a bet, given thin margin and KC bullpen concerns).
+
+---
+
+### S3: DATA REQUEST
+- **TYPE:** STAT  
+  **ITEM:** Bullpen xFIP (or FIP) leaguewide for all teams on the slate, updated to date.  
+  **WHICH GAME(S):** All, specifically ATL @ NYM (but also any game where bullpen ERA plays a decisive role).  
+  **WOULD HAVE CHANGED A BET?** YES — ATL bullpen 1.52 ERA vs its likely xFIP would have shown the edge was softer, preventing the 3‑unit bet.  
+  **WHY:** ERA for bullpens over small samples is extremely volatile; xFIP strips out sequencing and defense, giving a truer talent signal.
+
+- **TYPE:** DATA  
+  **ITEM:** Opposing starter projected ERA/AGG xFIP when missing from the provided data sheet (e.g., Peralta in ATL @ NYM).  
+  **WHICH GAME(S):** Any where the opponent’s figure is absent and the model still generates an edge.  
+  **WOULD HAVE CHANGED A BET?** MAYBE — if Peralta’s underlying data was significantly stronger than implied, it could lower the edge. Without it, the 3u bet was made on an incomplete picture.  
+  **WHY:** Completeness prevents over‑reliance on one side’s number.
+
+- **TYPE:** STAT  
+  **ITEM:** Offensive wRC+ adjusted for handedness last 14 days (L14) in addition to full‑season numbers, to detect short‑term trends that could make a “cold” or “hot” label actionable.  
+  **WHICH GAME(S):** DET @ CLE, STL @ MIN (and others where hot/cold was invoked).  
+  **WOULD HAVE CHANGED A BET?** MAYBE — if CLE’s “ice cold” offense had a drastic recent improvement vs RHP, the edge on DET could have shrunk, potentially altering the lean.  
+  **WHY:** Full‑season stats may lag sudden true changes; L14 wRC+ would sharpen the hot/cold filter.
+
+---
+
+### S4: METHOD CHANGE PROPOSAL
+**PROPOSED CHANGE:** When evaluating bullpen strength for a bet, use **xFIP (or FIP) as the primary metric**, not ERA. If only ERA is available and it deviates extremely from league median, flag the game and manually estimate regression. Cap any bet that depends on an extreme bullpen ERA to 1 unit maximum unless confirmed by underlying peripherals.  
+**WHAT IN MY METHOD COULD BE SHARPER:** I treated ATL’s 1.52 bullpen ERA as an established elite unit, ignoring that ERA over a small sample can be wildly misleading. Using xFIP would have shown a probable regression, lowering the edge and preventing a max‑unit bet on a falsely clean game.  
+**EVIDENCE FROM TODAY:** Pre‑game ATL bullpen ERA (1.52) was cited as a key edge; no mention of any peripherals. The 8‑run blow‑up was a single‑game outcome, but the process failed to account for the inherent noise in that 1.52 number. No pre‑game data could predict the specific result, but recognizing the stat’s unsustainability would have made the edge look smaller and the stakes lower.  
+**CONFIDENCE:** MEDIUM — one day isn’t proof, but the principle of regressing extreme reliever ERAs is sound and aligns with broader quantitative practice.

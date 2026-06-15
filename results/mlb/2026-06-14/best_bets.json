@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-14",
+  "sport": "mlb",
+  "graded_at": "2026-06-15T07:33:57Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "NYY ML in NYY @ TOR",
+      "why_this": "The Yankees get the best lineup split on the slate against a vulnerable lefty, and my fair price is materially shorter than -120. It is the cleanest combination of starter, offense, and price edge today.",
+      "resolved_game": "NYY @ TOR",
+      "resolved_pick": "NYY ML",
+      "resolved_price": -120,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.5
+    },
+    {
+      "model": "deepseek",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "ATL ML (+102) vs NYM, 3 units",
+      "why_this": "Clean game with no small-sample flags on either starter; Braves\u2019 offense and bullpen are vastly superior, and the 13-point edge is the strongest risk-adjusted bet on the slate.",
+      "resolved_game": "ATL @ NYM",
+      "resolved_pick": "ATL ML",
+      "resolved_price": 102,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "ATL @ NYM (ATL ML +102)",
+      "why_this": "Atlanta's pitching metrics are vastly superior to those of the Mets, and New York's closer Devin Williams is highly fatigued. This creates a clean, massive value edge with no small-sample flags.",
+      "resolved_game": "ATL @ NYM",
+      "resolved_pick": "ATL ML",
+      "resolved_price": 102,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "grok",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "LAD ML -183 (Game 8)",
+      "why_this": "Largest clean gap driven by elite starter metrics differential and supporting platoon/park factors; meets 7+ point threshold for 3 units.",
+      "resolved_game": "LAD @ CHW",
+      "resolved_pick": "LAD ML -183",
+      "resolved_price": -183,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "NYY ML -126 @ TOR (3 units)",
+      "why_this": "Warren is the clearly superior arm, Corbin's L14 command collapse is a real fade signal, and NYY's 163 wRC+ vs LHP is the slate's biggest platoon mismatch \u2014 an 8-pt gap with corroborating bullpen and lineup edges.",
+      "resolved_game": "NYY @ TOR",
+      "resolved_pick": "NYY ML",
+      "resolved_price": -126,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.381
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "sonnet",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "NYY ML -120 (NYY @ TOR) \u2014 3 units",
+      "why_this": "The combination of Corbin's documented command collapse (BB/9 6.8 in L14), NYY's overwhelming wRC+ 163 vs LHP, and Warren's superior underlying profile creates the widest clean edge on the slate at 9.1 points with no data integrity flags blocking a 3-unit play.",
+      "resolved_game": "NYY @ TOR",
+      "resolved_pick": "NYY ML",
+      "resolved_price": -120,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.5
+    }
+  ],
+  "summary": {
+    "wins": 3,
+    "losses": 3,
+    "skips": 2,
+    "record": "3-3 (50.0%)"
+  }
+}

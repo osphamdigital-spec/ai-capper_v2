@@ -1,0 +1,42 @@
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: LAD ML -183  
+RESULT: LOSS  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: N/A
+
+**S2: FULL SLATE REVIEW**
+
+**PART A — GAMES YOU BET**
+
+GAME: NYY @ TOR  
+PICK: NYY ML -120  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Pre-game data showed Warren’s clear xFIP/SIERA/Stf+ edge plus NYY’s large platoon advantage vs lefties; market price implied only 54.5% while model reached ~61%.  
+SOURCE: Provided metrics and platoon/park adjustments only.
+
+GAME: LAD @ CHW  
+PICK: LAD ML -183  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: Pre-game data showed Sheehan’s elite xFIP/SIERA/K-BB% gap over Fedde plus LAD platoon edge; model reached ~72% vs market 64.7%. No pre-game metric contradicted the starter advantage.  
+SOURCE: Provided metrics and platoon/park adjustments only.
+
+GAME: PHI @ MIL  
+PICK: PHI ML -116  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: Pre-game data showed Sánchez’s dominant xFIP/SIERA/Stf+ edge plus PHI platoon/park support; model reached 61% vs market 53.7%. No pre-game metric contradicted the starter advantage.  
+SOURCE: Provided metrics and platoon/park adjustments only.
+
+**PART B — PASSES AND LEANS**  
+No blocks — all passes were correctly identified as sub-4-point edges on the pre-game data provided.
+
+**S3: DATA REQUEST**  
+NONE
+
+**S4: METHOD CHANGE PROPOSAL**  
+NONE

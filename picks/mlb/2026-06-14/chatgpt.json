@@ -20,10 +20,11 @@
       "reason": "Skenes is the clear starter edge here, and Pittsburgh also owns the better platoon split versus right-handed pitching. Miami’s pen is a bit more taxed than Pittsburgh’s, which matters if Meyer only gives them five to six innings. The number is close to fair already, so I’m not laying it without a bigger gap.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "86eea2ec9bfbee886592a41c15f3ef1d",
@@ -40,11 +41,12 @@
       "edge": "5.8 pts",
       "reason": "San Diego gets the lineup split I care about most on this slate: a 136 wRC+ profile against lefties versus Trevor Rogers, whose surface ERA is ugly but whose underlying quality is still only mid-rotation. Baltimore has the better raw offense against righties, but Buehler’s recent form is serviceable enough and the Padres have a major late-game bullpen advantage. At plus money, I make San Diego the better side.",
       "looked_up": "lineups unconfirmed",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.16,
+      "clv": 4,
+      "closing_line": 112,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4dc6f4564ea243d6ca214685828ba83f",
@@ -62,10 +64,11 @@
       "reason": "Seattle has the better offense split by a wide margin and should punish Mikolas more often than not. Hancock’s ERA is still running ahead of his contact profile, though, and the hot weather adds volatility to a game with two starters I don’t fully trust. That keeps it just below my bet threshold.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c9d537d84684524daf8ab45bb0a8041b",
@@ -82,11 +85,12 @@
       "edge": "8.3 pts",
       "reason": "This is my biggest price miss on the board: New York’s 163 wRC+ split versus lefties is elite, and Corbin’s contact profile plus poor recent shape is a bad fit against that lineup. Warren is not a true ace, but he is materially better than Corbin on current skill and the Yankees’ offense should own the run-share edge early. Toronto’s bullpen is solid, but not enough to offset the starter/platoon gap at this number.",
       "looked_up": "lineups unconfirmed; roof status unconfirmed",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 2.5,
+      "clv": 6,
+      "closing_line": -126,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "0ff8c6236a0db9cf5998b7c59561e6d9",
@@ -104,10 +108,11 @@
       "reason": "Arizona’s massive split edge versus left-handed pitching and clear bullpen advantage are the reasons to the D-backs side. The problem is Gallen’s current form and contact quality both look genuinely shaky, and Great American with warm wind makes that dangerous. I want a cheaper Arizona number before betting it.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "994ada407046719fc1bd63e03217115a",
@@ -124,11 +129,12 @@
       "edge": "6.5 pts",
       "reason": "Peralta is the better pure starter, but Atlanta closes the gap fast with a much stronger offense versus right-handed pitching and the best bullpen unit on this slate. Elder’s skill indicators are more modest than his ERA, so this is not an auto-play, but the team context around him is much better than the Mets’ side. Getting Atlanta at plus money is enough for a wager.",
       "looked_up": "lineups unconfirmed",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 2,
+      "closing_line": 100,
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4b1b3595238822cabf04ba7f223ed431",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "The starting matchup is tight enough that I do not see separation after adjusting Mize’s shiny ERA toward his underlying baseline and accounting for Cleveland’s better home environment. Both offenses grade below average against righties, which supports the lower total, but the side price is too messy with suspect away pricing. No edge worth forcing.",
+      "reason": "postponed",
       "looked_up": "away best-ML flagged as suspect/stale",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "4d2b32d9bdd8f67c8d10a76487b12397",
@@ -167,10 +174,11 @@
       "reason": "The Dodgers have the better lineup, better starter skill base, and better bullpen, and Fedde’s weak strikeout-minus-walk profile is a problem against this offense. The issue is price: most of the edge is already baked into a fairly heavy favorite tag. I’d rather pass than pay up without a full 4-point gap.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "8e4e850c402fa1c197ef6422f0b81838",
@@ -188,10 +196,11 @@
       "reason": "Houston has the better offense split and probably the better late-game arms, but Arrighetti’s ERA is badly out of line with his underlying indicators and that makes the side hard to trust. Kansas City’s bullpen season ERA also looks anomalous in the feed, which reduces my confidence in the pen adjustment. Too much noise for a bet.",
       "looked_up": "KC bullpen season ERA appears anomalous in provided data",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "5026a58f0ac7fd00f17b808c1c1f7c1f",
@@ -209,10 +218,11 @@
       "reason": "Sánchez is the best starter in the game, but Milwaukee hits lefties well enough that this is not a clean one-sided pitching matchup. Harrison has real swing-and-miss ability, and Milwaukee’s bullpen/freshness keeps the late innings close. My fair price lands too near market to act.",
       "looked_up": "roof status unconfirmed",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c789c21a240b108461c065a6f2dc3436",
@@ -230,10 +240,11 @@
       "reason": "McGreevy’s ERA looks misleading relative to his xERA/contact risk, while Bradley’s recent control trend is poor enough to make Minnesota difficult to trust. Both bullpens are weak, which is why I lean to runs, but the side price is not clean with suspect away-market data. This is a volatility game, not a side bet.",
       "looked_up": "away best-ML flagged as suspect/stale",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "0b9c33238f79994bad3620ba35498d00",
@@ -251,10 +262,11 @@
       "reason": "Sugano’s contact profile is awful and the A’s are the obvious side on raw run-share, but Sutter Health Park’s scoring environment creates a lot of underdog and margin variance. I do not want the run line there, and the moneyline is too expensive for the edge I make. Easy pass.",
       "looked_up": "nothing, used provided data only",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "69adbbbdb66c7af4b714b9edccc840af",
@@ -272,10 +284,11 @@
       "reason": "Webb is the most trustworthy starter in this game and San Francisco’s split versus lefties is strong, but Rolison is explicitly a small-sample arm and that makes the matchup harder to price cleanly. The Giants’ bullpen is also a real drag on any side confidence. I lean Giants, but not enough to clear the gate.",
       "looked_up": "Rolison flagged small sample; lineups unconfirmed",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "c96fb2bd8508797146f034b0ef19da0e",
@@ -293,10 +306,11 @@
       "reason": "Both offenses are basically neutral versus right-handed pitching and both starters carry small-sample uncertainty, which makes this a weak side market for me. Tampa has a slight starting edge, while the Angels have the better bullpen. That is too balanced to bet pre-lineup.",
       "looked_up": "both starters are small-sample profiles; lineups unconfirmed",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     },
     {
       "game_id": "24729dddcfb49df9b718819c43d02af9",
@@ -314,10 +328,11 @@
       "reason": "Texas has the better lineup split by a wide margin against left-handed pitching, and Boston’s offense grades poorly versus righties, so the Rangers are the only side I’d consider. I’m passing because the away best-moneyline data is flagged suspect and Eovaldi’s recent shape has been weaker than his aggregate skill baseline. Not enough price clarity for a bet.",
       "looked_up": "away best-ML flagged as suspect/stale",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-15T07:33:57Z"
     }
   ],
   "parlay": null,
@@ -334,5 +349,6 @@
     "passes": 8,
     "units_risked": 5,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-15T07:33:57Z"
 }

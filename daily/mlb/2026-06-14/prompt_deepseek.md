@@ -1,13 +1,16 @@
 ═══════════════════════════════════════════════════════
 MLB SLATE — Sunday, June 14 2026 (US Eastern Time)
-15 games | Prompt built at 10:26 PM ET | Source: TheOddsAPI median of 9 books
+15 games | Prompt built at 12:45 AM ET | Source: TheOddsAPI median of 9 books
 ═══════════════════════════════════════════════════════
 
-GAME 1: MIA @ PIT  12:16 PM ET  PNC Park, Pittsburgh, PA
+[All lineups unconfirmed at build time — run fetch_lineups.py closer to game time]
+
+[Plate umpires not yet assigned for this slate]
+
+GAME 1: MIA @ PIT  12:16 PM ET  PNC Park
 
   ML:+136/-162  RL:-165/+140  TT:7.0(-110/-110)
   best-ML:+138 (BetRivers)/-151 (LowVig.ag) best-TT:O-105 (LowVig.ag)/U-109 (LowVig.ag)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    MIA +1.5 -155 / PIT -1.5 +130  →  current: +1.5 -160 / -1.5 +135
@@ -30,16 +33,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:105(AGG) key:Lowe162,Rodríguez143,O'Hearn142
 
 STARTING PITCHERS
-  Away: Max Meyer (RHP) — 6-0 | ERA 2.85 FIP 3.37 xERA 3.86 | K/9 9.8 HH% 43.9 Brl% 8.8 | 79.0 IP
-       AGG: xFIP 3.55 SIERA 3.67 K-BB%:17.4% | Stf+: 97 138.1IP
-       L14: xFIP 4.04 SIERA 3.80 K/9:8.8 BB/9:2.9 12.1IP
-       L3: 6.0/5/6/3 | 7.0/1/7/2 | 5.1/2/5/2  (IP/ER/K/BB)
-  Home: Paul Skenes (RHP) — 6-5 | ERA 2.84 FIP 2.53 xERA 2.48 | K/9 10.5 HH% 34.5 Brl% 5.2 | 76.0 IP
-       AGG: xFIP 3.00 SIERA 3.03 K-BB%:24.0% | Stf+: 107 257.2IP
-       L14: xFIP 2.70 SIERA 3.02 K/9:11.8 BB/9:2.5 10.2IP  [small sample — 10.2IP]
-       L3: 5.1/1/10/3 | 4.2/1/7/1 | 6.0/2/7/2  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Max Meyer RHP 6-0 | ERA 2.85 FIP 3.37 xERA 3.86 K/9 9.8 HH% 43.9 Brl% 8.8 79.0IP | AGG xFIP 3.55 SIERA 3.67 K-BB%:17.4% Stf+:97 138.1IP | L14 xFIP 4.04 SIERA 3.80 K/9:8.8 BB/9:2.9 12.1IP | L3 6.0/5/6/3;7.0/1/7/2;5.1/2/5/2
+  Home: Paul Skenes RHP 6-5 | ERA 2.84 FIP 2.53 xERA 2.48 K/9 10.5 HH% 34.5 Brl% 5.2 76.0IP | AGG xFIP 3.00 SIERA 3.03 K-BB%:24.0% Stf+:107 257.2IP | L14 xFIP 2.70 SIERA 3.02 K/9:11.8 BB/9:2.5 10.2IP [sm] | L3 5.1/1/10/3;4.2/1/7/1;6.0/2/7/2
 
 BULLPEN -- MIA
   Closer: Pete Fairbanks (R) -- 6.63 ERA, 31.4% K%, 8 SV, 2 HLD
@@ -75,13 +70,10 @@ WEATHER
 PARK: PNC Park
   Park factor: 98 (3yr) | HR: 75 | Runs: 96
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 2: SD @ BAL  1:36 PM ET  Oriole Park at Camden Yards, Baltimore, MD
+GAME 2: SD @ BAL  1:36 PM ET  Oriole Park at Camden Yards
 
   ML:+112/-130  RL:-175/+148  TT:10.0(-110/-110)
   best-ML:+116 (BetUS)/-127 (BetOnline.ag) best-TT:O-104 (DraftKings)/U[price flagged as suspect — stale book data]
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    SD +1.5 -180 / BAL -1.5 +150  →  current: +1.5 -170 / -1.5 +145
@@ -104,16 +96,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:111(AGG) key:Rutschman147,Alonso139,Basallo137
 
 STARTING PITCHERS
-  Away: Walker Buehler (RHP) — 3-3 | ERA 4.33 FIP 3.44 xERA 4.77 | K/9 7.7 HH% 41.0 Brl% 8.0 | 62.1 IP
-       AGG: xFIP 4.66 SIERA 4.85 K-BB%:7.4% | Stf+: 96 182.1IP
-       L14: xFIP 3.32 SIERA 3.74 K/9:8.4 BB/9:3.4 10.2IP  [small sample — 10.2IP]
-       L3: 5.1/2/2/0 | 6.0/1/6/2 | 4.2/1/4/2  (IP/ER/K/BB)
-  Home: Trevor Rogers (LHP) — 3-6 | ERA 6.15 FIP 4.63 xERA 4.67 | K/9 6.6 HH% 39.8 Brl% 7.5 | 60.0 IP
-       AGG: xFIP 4.02 SIERA 4.09 K-BB%:14.4% | Stf+: 98 164.0IP
-       L14: xFIP 5.04 SIERA 5.15 K/9:4.8 BB/9:1.6 11.1IP  [small sample — 11.1IP]
-       L3: 6.0/4/3/1 | 5.2/1/3/1 | 5.2/3/3/1  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Walker Buehler RHP 3-3 | ERA 4.33 FIP 3.44 xERA 4.77 K/9 7.7 HH% 41.0 Brl% 8.0 62.1IP | AGG xFIP 4.66 SIERA 4.85 K-BB%:7.4% Stf+:96 182.1IP | L14 xFIP 3.32 SIERA 3.74 K/9:8.4 BB/9:3.4 10.2IP [sm] | L3 5.1/2/2/0;6.0/1/6/2;4.2/1/4/2
+  Home: Trevor Rogers LHP 3-6 | ERA 6.15 FIP 4.63 xERA 4.67 K/9 6.6 HH% 39.8 Brl% 7.5 60.0IP | AGG xFIP 4.02 SIERA 4.09 K-BB%:14.4% Stf+:98 164.0IP | L14 xFIP 5.04 SIERA 5.15 K/9:4.8 BB/9:1.6 11.1IP [sm] | L3 6.0/4/3/1;5.2/1/3/1;5.2/3/3/1
 
 BULLPEN -- SD
   Closer: Mason Miller (R) -- 0.94 ERA, 50.9% K%, 18 SV
@@ -149,13 +133,10 @@ WEATHER
 PARK: Oriole Park at Camden Yards
   Park factor: 103 (3yr) | HR: 115 | Runs: 106
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 3: SEA @ WAS  1:36 PM ET  Nationals Park, Washington, DC
+GAME 3: SEA @ WAS  1:36 PM ET  Nationals Park
 
   ML:-144/+124  RL:+110/-130  TT:10.0(-110/-110)
   best-ML:-137 (BetOnline.ag)/+125 (BetRivers) best-TT:O-102 (LowVig.ag)/U-110 (FanDuel)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    SEA +1.5 +105 / WAS -1.5 -125  →  current: +1.5 +110 / -1.5 -130
@@ -178,16 +159,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:92(AGG) key:Wood174,Abrams165,Mead128
 
 STARTING PITCHERS
-  Away: Emerson Hancock (RHP) — 5-2 | ERA 2.74 FIP 3.72 xERA 4.37 | K/9 8.7 HH% 44.9 Brl% 10.6 | 75.2 IP
-       AGG: xFIP 4.16 SIERA 4.19 K-BB%:13.4% | Stf+: 95 157.0IP
-       L14: xFIP 4.24 SIERA 3.82 K/9:8.2 BB/9:1.6 11.0IP  [small sample — 11.0IP]
-       L3: 6.0/0/3/2 | 6.0/2/7/0 | 5.0/1/3/2  (IP/ER/K/BB)
-  Home: Miles Mikolas (RHP) — 1-5 | ERA 5.90 FIP 5.62 xERA 5.00 | K/9 5.6 HH% 43.3 Brl% 10.6 | 61.0 IP
-       AGG: xFIP 4.76 SIERA 4.80 K-BB%:9.1% | Stf+: 89 181.1IP
-       L14: no data
-       L3: 4.0/3/3/1 | 5.1/2/3/0 | 3.1/1/2/2  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Emerson Hancock RHP 5-2 | ERA 2.74 FIP 3.72 xERA 4.37 K/9 8.7 HH% 44.9 Brl% 10.6 75.2IP | AGG xFIP 4.16 SIERA 4.19 K-BB%:13.4% Stf+:95 157.0IP | L14 xFIP 4.24 SIERA 3.82 K/9:8.2 BB/9:1.6 11.0IP [sm] | L3 6.0/0/3/2;6.0/2/7/0;5.0/1/3/2
+  Home: Miles Mikolas RHP 1-5 | ERA 5.90 FIP 5.62 xERA 5.00 K/9 5.6 HH% 43.3 Brl% 10.6 61.0IP | AGG xFIP 4.76 SIERA 4.80 K-BB%:9.1% Stf+:89 181.1IP | L14 no data | L3 4.0/3/3/1;5.1/2/3/0;3.1/1/2/2
 
 BULLPEN -- SEA
   Closer: Andrés Muñoz (R) -- 5.18 ERA, 34.3% K%, 10 SV
@@ -223,13 +196,10 @@ WEATHER
 PARK: Nationals Park
   Park factor: 103 (3yr) | HR: 106 | Runs: 106
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 4: NYY @ TOR  1:38 PM ET  Rogers Centre, Toronto, ON
+GAME 4: NYY @ TOR  1:38 PM ET  Rogers Centre
 
   ML:-126/+108  RL:+130/-155  TT:8.5(-105/-114)
   best-ML:-120 (BetUS)/+111 (LowVig.ag) best-TT:O-102 (LowVig.ag)/U-110 (Bovada)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    NYY +1.5 +135 / TOR -1.5 -160  →  current: +1.5 +125 / -1.5 -150
@@ -252,16 +222,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:102(AGG) key:Piñango156,Sánchez131,Valenzuela127
 
 STARTING PITCHERS
-  Away: Will Warren (RHP) — 7-1 | ERA 3.41 FIP 3.25 xERA 3.42 | K/9 9.8 HH% 39.6 Brl% 6.8 | 68.2 IP
-       AGG: xFIP 3.79 SIERA 3.91 K-BB%:16.0% | Stf+: 104 231.0IP
-       L14: xFIP 4.19 SIERA 4.29 K/9:8.7 BB/9:4.3 10.1IP  [small sample — 10.1IP]
-       L3: 6.0/2/3/3 | 6.0/0/5/3 | 4.1/3/5/2  (IP/ER/K/BB)
-  Home: Patrick Corbin (LHP) — 2-3 | ERA 4.55 FIP 4.60 xERA 5.62 | K/9 6.3 HH% 43.9 Brl% 8.0 | 57.1 IP
-       AGG: xFIP 4.31 SIERA 4.51 K-BB%:11.0% | Stf+: 93 211.2IP
-       L14: xFIP 6.75 SIERA 6.61 K/9:4.5 BB/9:6.8 8.0IP  [small sample — 8.0IP]
-       L3: 5.0/1/4/1 | 5.0/4/1/2 | 3.0/5/3/4  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Will Warren RHP 7-1 | ERA 3.41 FIP 3.25 xERA 3.42 K/9 9.8 HH% 39.6 Brl% 6.8 68.2IP | AGG xFIP 3.79 SIERA 3.91 K-BB%:16.0% Stf+:104 231.0IP | L14 xFIP 4.19 SIERA 4.29 K/9:8.7 BB/9:4.3 10.1IP [sm] | L3 6.0/2/3/3;6.0/0/5/3;4.1/3/5/2
+  Home: Patrick Corbin LHP 2-3 | ERA 4.55 FIP 4.60 xERA 5.62 K/9 6.3 HH% 43.9 Brl% 8.0 57.1IP | AGG xFIP 4.31 SIERA 4.51 K-BB%:11.0% Stf+:93 211.2IP | L14 xFIP 6.75 SIERA 6.61 K/9:4.5 BB/9:6.8 8.0IP [sm] | L3 5.0/1/4/1;5.0/4/1/2;3.0/5/3/4
 
 BULLPEN -- NYY
   Closer: David Bednar (R) -- 3.77 ERA, 28.6% K%, 14 SV
@@ -298,13 +260,10 @@ PARK: Rogers Centre
   Park factor: 102 (3yr) | HR: 115 | Runs: 104
   Roof-closed factor: 100 -- use this value if roof confirmed closed at game time
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 5: AZ @ CIN  1:41 PM ET  Great American Ball Park, Cincinnati, OH
+GAME 5: AZ @ CIN  1:41 PM ET  Great American Ball Park
 
   ML:-111/-105  RL:+140/-165  TT:9.5(-116/-104)
   best-ML:-107 (BetOnline.ag)/-102 (BetUS) best-TT:O-114 (LowVig.ag)/U[price flagged as suspect — stale book data]
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    AZ +1.5 +140 / CIN -1.5 -165  →  current: +1.5 +140 / -1.5 -165
@@ -327,16 +286,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:89(AGG) key:Bleday166,Lowe146,Cruz121
 
 STARTING PITCHERS
-  Away: Zac Gallen (RHP) — 3-5 | ERA 5.43 FIP 4.82 xERA 5.51 | K/9 5.9 HH% 45.7 Brl% 9.5 | 69.2 IP
-       AGG: xFIP 4.22 SIERA 4.34 K-BB%:12.0% | Stf+: 91 256.1IP
-       L14: xFIP 5.47 SIERA 5.67 K/9:3.5 BB/9:2.6 10.1IP  [small sample — 10.1IP]
-       L3: 5.0/5/2/1 | 5.0/4/1/2 | 5.1/4/3/1  (IP/ER/K/BB)
-  Home: Andrew Abbott (LHP) — 4-4 | ERA 4.10 FIP 4.75 xERA 4.71 | K/9 6.4 HH% 39.1 Brl% 6.8 | 74.2 IP
-       AGG: xFIP 4.49 SIERA 4.45 K-BB%:12.5% | Stf+: 98 241.0IP
-       L14: xFIP 4.61 SIERA 4.68 K/9:8.2 BB/9:4.5 12.0IP
-       L3: 6.0/3/4/1 | 6.0/3/5/4 | 6.0/3/6/2  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Zac Gallen RHP 3-5 | ERA 5.43 FIP 4.82 xERA 5.51 K/9 5.9 HH% 45.7 Brl% 9.5 69.2IP | AGG xFIP 4.22 SIERA 4.34 K-BB%:12.0% Stf+:91 256.1IP | L14 xFIP 5.47 SIERA 5.67 K/9:3.5 BB/9:2.6 10.1IP [sm] | L3 5.0/5/2/1;5.0/4/1/2;5.1/4/3/1
+  Home: Andrew Abbott LHP 4-4 | ERA 4.10 FIP 4.75 xERA 4.71 K/9 6.4 HH% 39.1 Brl% 6.8 74.2IP | AGG xFIP 4.49 SIERA 4.45 K-BB%:12.5% Stf+:98 241.0IP | L14 xFIP 4.61 SIERA 4.68 K/9:8.2 BB/9:4.5 12.0IP | L3 6.0/3/4/1;6.0/3/5/4;6.0/3/6/2
 
 BULLPEN -- AZ
   Closer: Paul Sewald (R) -- 3.20 ERA, 29.5% K%, 16 SV
@@ -372,13 +323,10 @@ WEATHER
 PARK: Great American Ball Park
   Park factor: 101 (3yr) | HR: 121 | Runs: 102
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 6: ATL @ NYM  1:41 PM ET  Citi Field, Flushing, NY
+GAME 6: ATL @ NYM  1:41 PM ET  Citi Field
 
   ML:+100/-117  RL:+159/-193  TT:8.5(-114/-106)
   best-ML:+102 (BetOnline.ag)/-112 (BetOnline.ag) best-TT:O-110 (LowVig.ag)/U-104 (LowVig.ag)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    ATL +1.5 +160 / NYM -1.5 -190  →  current: +1.5 +150 / -1.5 -200
@@ -401,16 +349,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:91(AGG) key:Soto172,Young149,Ewing115
 
 STARTING PITCHERS
-  Away: Bryce Elder (RHP) — 5-3 | ERA 2.66 FIP 3.45 xERA 3.01 | K/9 7.5 HH% 38.9 Brl% 3.7 | 84.2 IP
-       AGG: xFIP 3.99 SIERA 4.22 K-BB%:12.3% | Stf+: 90 241.0IP
-       L14: xFIP 4.09 SIERA 4.02 K/9:7.1 BB/9:2.1 12.2IP
-       L3: 3.1/5/1/1 | 6.2/3/6/1 | 6.0/2/4/2  (IP/ER/K/BB)
-  Home: Freddy Peralta (RHP) — 4-5 | ERA 4.04 FIP 4.13 xERA 3.78 | K/9 9.1 HH% 40.5 Brl% 5.9 | 78.0 IP
-       AGG: xFIP 3.84 SIERA 3.77 K-BB%:17.6% | Stf+: 98 248.2IP
-       L14: xFIP 3.99 SIERA 3.91 K/9:8.2 BB/9:3.0 12.0IP
-       L3: 4.2/4/5/1 | 6.0/1/6/2 | 6.0/6/5/2  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Bryce Elder RHP 5-3 | ERA 2.66 FIP 3.45 xERA 3.01 K/9 7.5 HH% 38.9 Brl% 3.7 84.2IP | AGG xFIP 3.99 SIERA 4.22 K-BB%:12.3% Stf+:90 241.0IP | L14 xFIP 4.09 SIERA 4.02 K/9:7.1 BB/9:2.1 12.2IP | L3 3.1/5/1/1;6.2/3/6/1;6.0/2/4/2
+  Home: Freddy Peralta RHP 4-5 | ERA 4.04 FIP 4.13 xERA 3.78 K/9 9.1 HH% 40.5 Brl% 5.9 78.0IP | AGG xFIP 3.84 SIERA 3.77 K-BB%:17.6% Stf+:98 248.2IP | L14 xFIP 3.99 SIERA 3.91 K/9:8.2 BB/9:3.0 12.0IP | L3 4.2/4/5/1;6.0/1/6/2;6.0/6/5/2
 
 BULLPEN -- ATL
   Closer: Raisel Iglesias (R) -- 1.16 ERA, 30.3% K%, 14 SV
@@ -446,13 +386,10 @@ WEATHER
 PARK: Citi Field
   Park factor: 100 (3yr) | HR: 97 | Runs: 100
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 7: DET @ CLE  1:41 PM ET  Progressive Field, Cleveland, OH
+GAME 7: DET @ CLE  1:41 PM ET  Progressive Field
 
   ML:-103/-114  RL:+160/-194  TT:7.5(+100/-120)
   best-ML:[price flagged as suspect — stale book data]/-110 (BetOnline.ag) best-TT:O+103 (LowVig.ag)/U-118 (LowVig.ag)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    DET +1.5 -210 / CLE -1.5 +175  →  current: +1.5 +155 / -1.5 -210
@@ -475,16 +412,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:89(AGG) key:Bazzana134,Rocchio118,Hoskins116
 
 STARTING PITCHERS
-  Away: Casey Mize (RHP) — 2-3 | ERA 2.27 FIP 2.41 xERA 2.64 | K/9 9.3 HH% 33.3 Brl% 7.3 | 47.2 IP
-       AGG: xFIP 3.90 SIERA 3.84 K-BB%:17.2% | Stf+: 93 196.2IP
-       L14: no data
-       L3: 6.0/0/4/0 | 6.2/2/4/0 | 4.0/0/6/1  (IP/ER/K/BB)
-  Home: Gavin Williams (RHP) — 9-3 | ERA 3.32 FIP 3.80 xERA 4.43 | K/9 10.3 HH% 48.6 Brl% 12.5 | 86.2 IP
-       AGG: xFIP 3.76 SIERA 3.98 K-BB%:15.3% | Stf+: 102 254.1IP
-       L14: xFIP 3.56 SIERA 3.71 K/9:9.6 BB/9:3.5 10.1IP  [small sample — 10.1IP]
-       L3: 7.0/1/4/2 | 5.1/3/6/1 | 5.0/3/5/3  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Casey Mize RHP 2-3 | ERA 2.27 FIP 2.41 xERA 2.64 K/9 9.3 HH% 33.3 Brl% 7.3 47.2IP | AGG xFIP 3.90 SIERA 3.84 K-BB%:17.2% Stf+:93 196.2IP | L14 no data | L3 6.0/0/4/0;6.2/2/4/0;4.0/0/6/1
+  Home: Gavin Williams RHP 9-3 | ERA 3.32 FIP 3.80 xERA 4.43 K/9 10.3 HH% 48.6 Brl% 12.5 86.2IP | AGG xFIP 3.76 SIERA 3.98 K-BB%:15.3% Stf+:102 254.1IP | L14 xFIP 3.56 SIERA 3.71 K/9:9.6 BB/9:3.5 10.1IP [sm] | L3 7.0/1/4/2;5.1/3/6/1;5.0/3/5/3
 
 BULLPEN -- DET
   Closer: Kenley Jansen (R) -- 4.50 ERA, 32.3% K%, 7 SV, 1 HLD
@@ -520,13 +449,10 @@ WEATHER
 PARK: Progressive Field
   Park factor: 96 (3yr) | HR: 87 | Runs: 92
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 8: LAD @ CHW  2:11 PM ET  Guaranteed Rate Field, Chicago, IL
+GAME 8: LAD @ CHW  2:11 PM ET  Guaranteed Rate Field
 
   ML:-190/+162  RL:-120/+101  TT:10.0(-105/-113)
   best-ML:-183 (LowVig.ag)/+170 (BetRivers) best-TT:O-102 (LowVig.ag)/U[price flagged as suspect — stale book data]
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
   NOTE: Los Angeles Dodgers ML is heavy at -190. Their -1.5 run line at -120 may be a more efficient way to back them — consider it.
 
 OPENING LINES (Covers/bet365)
@@ -550,16 +476,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:98(AGG) key:Murakami167,Peters144,Antonacci143
 
 STARTING PITCHERS
-  Away: Emmet Sheehan (RHP) — 3-3 | ERA 4.70 FIP 4.31 xERA 3.80 | K/9 9.7 HH% 37.6 Brl% 9.7 | 59.1 IP
-       AGG: xFIP 3.32 SIERA 3.22 K-BB%:22.5% | Stf+: 100 119.0IP
-       L14: xFIP 5.65 SIERA 5.53 K/9:5.9 BB/9:2.4 7.2IP  [small sample — 7.2IP]
-       L3: 6.0/2/8/1 | 6.1/2/3/0 | 1.1/2/2/2  (IP/ER/K/BB)
-  Home: Erick Fedde (RHP) — 1-5 | ERA 4.69 FIP 5.99 xERA 4.61 | K/9 5.7 HH% 39.6 Brl% 9.2 | 63.1 IP
-       AGG: xFIP 5.31 SIERA 5.45 K-BB%:4.0% | Stf+: 89 160.0IP
-       L14: xFIP 4.08 SIERA 4.82 K/9:3.6 BB/9:1.8 5.0IP  [small sample — 5.0IP]
-       L3: 5.0/2/2/1 | 3.0/4/2/4 | 5.0/0/2/1  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Emmet Sheehan RHP 3-3 | ERA 4.70 FIP 4.31 xERA 3.80 K/9 9.7 HH% 37.6 Brl% 9.7 59.1IP | AGG xFIP 3.32 SIERA 3.22 K-BB%:22.5% Stf+:100 119.0IP | L14 xFIP 5.65 SIERA 5.53 K/9:5.9 BB/9:2.4 7.2IP [sm] | L3 6.0/2/8/1;6.1/2/3/0;1.1/2/2/2
+  Home: Erick Fedde RHP 1-5 | ERA 4.69 FIP 5.99 xERA 4.61 K/9 5.7 HH% 39.6 Brl% 9.2 63.1IP | AGG xFIP 5.31 SIERA 5.45 K-BB%:4.0% Stf+:89 160.0IP | L14 xFIP 4.08 SIERA 4.82 K/9:3.6 BB/9:1.8 5.0IP [sm] | L3 5.0/2/2/1;3.0/4/2/4;5.0/0/2/1
 
 BULLPEN -- LAD
   Closer: Tanner Scott (L) -- 2.48 ERA, 32.4% K%, 7 SV, 5 HLD
@@ -595,13 +513,10 @@ WEATHER
 PARK: Guaranteed Rate Field
   Park factor: 98 (3yr) | HR: 100 | Runs: 96
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 9: HOU @ KC  2:11 PM ET  Kauffman Stadium, Kansas City, MO
+GAME 9: HOU @ KC  2:11 PM ET  Kauffman Stadium
 
   ML:+102/-120  RL:-190/+159  TT:8.5(-120/+100)
   best-ML:+108 (BetUS)/-118 (LowVig.ag) best-TT:O-117 (MyBookie.ag)/U+103 (LowVig.ag)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    HOU +1.5 +165 / KC -1.5 -200  →  current: +1.5 +155 / -1.5 -210
@@ -624,16 +539,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:92(AGG) key:Caglianone118,Jr.115,Pasquantino109
 
 STARTING PITCHERS
-  Away: Spencer Arrighetti (RHP) — 7-1 | ERA 2.21 FIP 4.08 xERA 4.77 | K/9 8.4 HH% 29.5 Brl% 6.0 | 57.0 IP
-       AGG: xFIP 4.95 SIERA 4.86 K-BB%:8.3% | Stf+: 100 92.1IP
-       L14: xFIP 4.38 SIERA 4.19 K/9:9.0 BB/9:4.5 10.0IP  [small sample — 10.0IP]
-       L3: 6.0/1/3/1 | 4.0/4/3/1 | 6.0/3/7/4  (IP/ER/K/BB)
-  Home: Stephen Kolek (RHP) — 3-1 | ERA 3.14 FIP 3.91 xERA 3.37 | K/9 6.3 HH% 37.1 Brl% 6.8 | 43.0 IP
-       AGG: xFIP 4.04 SIERA 4.29 K-BB%:10.7% | Stf+: 94 150.2IP
-       L14: xFIP 3.37 SIERA 3.77 K/9:8.2 BB/9:2.2 12.0IP
-       L3: 5.0/4/5/1 | 7.0/2/8/2 | 5.0/1/3/1  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Spencer Arrighetti RHP 7-1 | ERA 2.21 FIP 4.08 xERA 4.77 K/9 8.4 HH% 29.5 Brl% 6.0 57.0IP | AGG xFIP 4.95 SIERA 4.86 K-BB%:8.3% Stf+:100 92.1IP | L14 xFIP 4.38 SIERA 4.19 K/9:9.0 BB/9:4.5 10.0IP [sm] | L3 6.0/1/3/1;4.0/4/3/1;6.0/3/7/4
+  Home: Stephen Kolek RHP 3-1 | ERA 3.14 FIP 3.91 xERA 3.37 K/9 6.3 HH% 37.1 Brl% 6.8 43.0IP | AGG xFIP 4.04 SIERA 4.29 K-BB%:10.7% Stf+:94 150.2IP | L14 xFIP 3.37 SIERA 3.77 K/9:8.2 BB/9:2.2 12.0IP | L3 5.0/4/5/1;7.0/2/8/2;5.0/1/3/1
 
 BULLPEN -- HOU
   Closer: Josh Hader (L) -- 0.00 ERA, 43.8% K%, 2 SV
@@ -669,13 +576,10 @@ WEATHER
 PARK: Kauffman Stadium
   Park factor: 99 (3yr) | HR: 85 | Runs: 98
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 10: PHI @ MIL  2:11 PM ET  American Family Field, Milwaukee, WI
+GAME 10: PHI @ MIL  2:11 PM ET  American Family Field
 
   ML:-119/+100  RL:+150/-175  TT:7.0(+100/-120)
   best-ML:-116 (LowVig.ag)/+106 (BetUS) best-TT:O+105 (LowVig.ag)/U-117 (BetRivers)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    PHI +1.5 +140 / MIL -1.5 -165  →  current: +1.5 +145 / -1.5 -170
@@ -698,16 +602,8 @@ PLATOON MATCHUP
   vs_LHP: wRC+:76(AGG) key:Yelich128,Contreras125,Bauers122
 
 STARTING PITCHERS
-  Away: Cristopher Sánchez (LHP) — 8-2 | ERA 1.54 FIP 1.85 xERA 2.77 | K/9 10.9 HH% 43.2 Brl% 8.6 | 93.1 IP
-       AGG: xFIP 2.61 SIERA 2.85 K-BB%:22.3% | Stf+: 118 295.1IP
-       L14: xFIP 1.80 SIERA 1.93 K/9:11.6 BB/9:1.3 14.0IP
-       L3: 7.0/0/9/0 | 7.0/1/8/1 | 7.0/2/10/1  (IP/ER/K/BB)
-  Home: Kyle Harrison (LHP) — 7-1 | ERA 2.72 FIP 3.10 xERA 3.49 | K/9 11.6 HH% 32.4 Brl% 7.4 | 59.2 IP
-       AGG: xFIP 3.24 SIERA 3.34 K-BB%:20.9% | Stf+: 105 87.0IP
-       L14: xFIP 2.26 SIERA 2.51 K/9:18.0 BB/9:4.5 8.0IP  [small sample — 8.0IP]
-       L3: 6.0/0/2/0 | 5.2/1/12/2 | 2.1/8/4/2  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Cristopher Sánchez LHP 8-2 | ERA 1.54 FIP 1.85 xERA 2.77 K/9 10.9 HH% 43.2 Brl% 8.6 93.1IP | AGG xFIP 2.61 SIERA 2.85 K-BB%:22.3% Stf+:118 295.1IP | L14 xFIP 1.80 SIERA 1.93 K/9:11.6 BB/9:1.3 14.0IP | L3 7.0/0/9/0;7.0/1/8/1;7.0/2/10/1
+  Home: Kyle Harrison LHP 7-1 | ERA 2.72 FIP 3.10 xERA 3.49 K/9 11.6 HH% 32.4 Brl% 7.4 59.2IP | AGG xFIP 3.24 SIERA 3.34 K-BB%:20.9% Stf+:105 87.0IP | L14 xFIP 2.26 SIERA 2.51 K/9:18.0 BB/9:4.5 8.0IP [sm] | L3 6.0/0/2/0;5.2/1/12/2;2.1/8/4/2
 
 BULLPEN -- PHI
   Closer: Jhoan Duran (R) -- 1.90 ERA, 38.5% K%, 18 SV
@@ -744,13 +640,10 @@ PARK: American Family Field
   Park factor: 98 (3yr) | HR: 96 | Runs: 96
   Roof-closed factor: 96 -- use this value if roof confirmed closed at game time
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 11: STL @ MIN  2:11 PM ET  Target Field, Minneapolis, MN
+GAME 11: STL @ MIN  2:11 PM ET  Target Field
 
   ML:-105/-113  RL:-100/+116  TT:9.0(-105/-115)
   best-ML:[price flagged as suspect — stale book data]/-110 (FanDuel) best-TT:O-102 (LowVig.ag)/U[price flagged as suspect — stale book data]
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    STL +1.5 +160 / MIN -1.5 -190  →  current: +1.5 +140 / -1.5 -190
@@ -773,16 +666,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:101(AGG) key:Jeffers165,Buxton163,Clemens125
 
 STARTING PITCHERS
-  Away: Michael McGreevy (RHP) — 3-5 | ERA 2.99 FIP 4.25 xERA 5.41 | K/9 6.1 HH% 40.6 Brl% 10.0 | 72.1 IP
-       AGG: xFIP 4.18 SIERA 4.50 K-BB%:9.9% | Stf+: 85 162.1IP
-       L14: xFIP 4.32 SIERA 4.78 K/9:4.5 BB/9:1.5 12.0IP
-       L3: 4.0/5/6/3 | 6.0/2/1/2 | 6.0/2/5/0  (IP/ER/K/BB)
-  Home: Taj Bradley (RHP) — 5-3 | ERA 4.02 FIP 4.08 xERA 4.43 | K/9 10.1 HH% 47.2 Brl% 10.6 | 65.0 IP
-       AGG: xFIP 4.21 SIERA 4.25 K-BB%:13.3% | Stf+: 104 203.1IP
-       L14: xFIP 6.28 SIERA 6.14 K/9:8.0 BB/9:8.0 9.0IP  [small sample — 9.0IP]
-       L3: 4.0/4/6/2 | 4.2/4/5/5 | 4.1/5/3/3  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Michael McGreevy RHP 3-5 | ERA 2.99 FIP 4.25 xERA 5.41 K/9 6.1 HH% 40.6 Brl% 10.0 72.1IP | AGG xFIP 4.18 SIERA 4.50 K-BB%:9.9% Stf+:85 162.1IP | L14 xFIP 4.32 SIERA 4.78 K/9:4.5 BB/9:1.5 12.0IP | L3 4.0/5/6/3;6.0/2/1/2;6.0/2/5/0
+  Home: Taj Bradley RHP 5-3 | ERA 4.02 FIP 4.08 xERA 4.43 K/9 10.1 HH% 47.2 Brl% 10.6 65.0IP | AGG xFIP 4.21 SIERA 4.25 K-BB%:13.3% Stf+:104 203.1IP | L14 xFIP 6.28 SIERA 6.14 K/9:8.0 BB/9:8.0 9.0IP [sm] | L3 4.0/4/6/2;4.2/4/5/5;4.1/5/3/3
 
 BULLPEN -- STL
   Closer: Riley O'Brien (R) -- 3.86 ERA, 24.8% K%, 17 SV, 1 HLD
@@ -818,13 +703,10 @@ WEATHER
 PARK: Target Field
   Park factor: 100 (3yr) | HR: 85 | Runs: 100
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 12: COL @ ATH  3:06 PM ET  Sutter Health Park, Sacramento, CA
+GAME 12: COL @ ATH  3:06 PM ET  Sutter Health Park
 
   ML:+154/-184  RL:-115/-102  TT:14.0(-110/-110)
   best-ML:+157 (BetOnline.ag)/-174 (BetOnline.ag) best-TT:O-105 (FanDuel)/U-107 (LowVig.ag)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
   NOTE: Athletics ML is heavy at -184. Their -1.5 run line at -102 may be a more efficient way to back them — consider it.
 
 OPENING LINES (Covers/bet365)
@@ -848,16 +730,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:101(AGG) key:Kurtz181,Cortes139,Langeliers120
 
 STARTING PITCHERS
-  Away: Tomoyuki Sugano (RHP) — 6-4 | ERA 4.08 FIP 5.21 xERA 7.52 | K/9 5.1 HH% 46.5 Brl% 15.5 | 68.1 IP
-       AGG: xFIP 4.77 SIERA 4.78 K-BB%:9.4% | Stf+: 86 220.1IP
-       L14: xFIP 5.50 SIERA 5.11 K/9:7.2 BB/9:3.6 10.0IP  [small sample — 10.0IP]
-       L3: 4.2/3/3/1 | 5.0/2/5/2 | 5.0/3/3/2  (IP/ER/K/BB)
-  Home: Jeffrey Springs (LHP) — 3-6 | ERA 4.68 FIP 5.19 xERA 4.25 | K/9 7.6 HH% 36.6 Brl% 9.5 | 75.0 IP
-       AGG: xFIP 4.64 SIERA 4.61 K-BB%:11.3% | Stf+: 95 233.1IP
-       L14: xFIP 5.13 SIERA 5.02 K/9:6.2 BB/9:3.1 8.2IP  [small sample — 8.2IP]
-       L3: 5.0/2/7/1 | 3.2/4/3/1 | 5.0/5/3/2  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Tomoyuki Sugano RHP 6-4 | ERA 4.08 FIP 5.21 xERA 7.52 K/9 5.1 HH% 46.5 Brl% 15.5 68.1IP | AGG xFIP 4.77 SIERA 4.78 K-BB%:9.4% Stf+:86 220.1IP | L14 xFIP 5.50 SIERA 5.11 K/9:7.2 BB/9:3.6 10.0IP [sm] | L3 4.2/3/3/1;5.0/2/5/2;5.0/3/3/2
+  Home: Jeffrey Springs LHP 3-6 | ERA 4.68 FIP 5.19 xERA 4.25 K/9 7.6 HH% 36.6 Brl% 9.5 75.0IP | AGG xFIP 4.64 SIERA 4.61 K-BB%:11.3% Stf+:95 233.1IP | L14 xFIP 5.13 SIERA 5.02 K/9:6.2 BB/9:3.1 8.2IP [sm] | L3 5.0/2/7/1;3.2/4/3/1;5.0/5/3/2
 
 BULLPEN -- COL
   Closer: Antonio Senzatela (R) -- 2.11 ERA, 21.5% K%, 3 SV, 2 HLD
@@ -894,13 +768,10 @@ PARK: Sutter Health Park
   Park factor: 110 (3yr) | HR: 116 | Runs: 121 -- hitter-friendly
   (High-scoring environment -- margin-of-victory outcomes carry very high variance here.)
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 13: CHC @ SF  3:11 PM ET  Oracle Park, San Francisco, CA
+GAME 13: CHC @ SF  3:11 PM ET  Oracle Park
 
   ML:+116/-136  RL:-180/+155  TT:8.0(-110/-110)
   best-ML:+122 (BetOnline.ag)/-135 (BetOnline.ag) best-TT:O-105 (BetMGM)/U-107 (LowVig.ag)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    CHC +1.5 -170 / SF -1.5 +145  →  current: +1.5 -180 / -1.5 +150
@@ -923,13 +794,8 @@ PLATOON MATCHUP
   vs_LHP: wRC+:106(AGG) key:Schmitt154,Chapman150,Arraez122
 
 STARTING PITCHERS
-  Away: Ryan Rolison (LHP) — 5-1 | ERA 2.25 FIP 4.22 xERA 4.08 | K/9 9.0 HH% 46.7 Brl% 6.7 | 24.0 IP  [small sample — treat ERA with caution]
-  Home: Logan Webb (RHP) — 3-4 | ERA 3.88 FIP 3.17 xERA 3.94 | K/9 7.8 HH% 46.4 Brl% 6.1 | 67.1 IP
-       AGG: xFIP 2.92 SIERA 3.23 K-BB%:19.1% | Stf+: 105 274.1IP
-       L14: xFIP 2.72 SIERA 2.87 K/9:6.6 BB/9:0.6 15.0IP
-       L3: 4.1/1/5/3 | 7.0/0/4/1 | 8.0/1/7/0  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Ryan Rolison LHP 5-1 | ERA 2.25 FIP 4.22 xERA 4.08 K/9 9.0 HH% 46.7 Brl% 6.7 24.0IP [sm]
+  Home: Logan Webb RHP 3-4 | ERA 3.88 FIP 3.17 xERA 3.94 K/9 7.8 HH% 46.4 Brl% 6.1 67.1IP | AGG xFIP 2.92 SIERA 3.23 K-BB%:19.1% Stf+:105 274.1IP | L14 xFIP 2.72 SIERA 2.87 K/9:6.6 BB/9:0.6 15.0IP | L3 4.1/1/5/3;7.0/0/4/1;8.0/1/7/0
 
 BULLPEN -- CHC
   Closer: Daniel Palencia (R) -- 2.87 ERA, 23.9% K%, 3 SV
@@ -965,13 +831,10 @@ WEATHER
 PARK: Oracle Park
   Park factor: 98 (3yr) | HR: 83 | Runs: 96
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 14: TB @ LAA  4:08 PM ET  Angel Stadium, Anaheim, CA
+GAME 14: TB @ LAA  4:08 PM ET  Angel Stadium
 
   ML:-118/+100  RL:+135/-160  TT:9.0(-110/-110)
   best-ML:-115 (LowVig.ag)/+105 (BetUS) best-TT:O-107 (LowVig.ag)/U-107 (LowVig.ag)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    TB +1.5 +135 / LAA -1.5 -160  →  current: +1.5 +135 / -1.5 -160
@@ -994,13 +857,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:98(AGG) key:Meckler161,Trout132,Grissom124
 
 STARTING PITCHERS
-  Away: Casey Legumina (RHP) — 2-1 | ERA 3.07 FIP 3.41 xERA 4.05 | K/9 6.8 HH% 39.1 Brl% 7.7 | 29.1 IP  [small sample — treat ERA with caution]
-  Home: Grayson Rodriguez (RHP) — 2-2 | ERA 8.10 FIP 5.03 xERA 6.64 | K/9 8.9 HH% 52.0 Brl% 10.7 | 23.1 IP  [small sample — treat ERA with caution]
-       AGG: xFIP 4.60 SIERA 4.72 K-BB%:9.0% | Stf+: 105 23.1IP
-       L14: xFIP 4.40 SIERA 4.71 K/9:9.0 BB/9:5.0 9.0IP  [small sample — 9.0IP]
-       L3: 5.0/1/5/2 | 3.2/7/3/3 | 5.1/2/6/2  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Casey Legumina RHP 2-1 | ERA 3.07 FIP 3.41 xERA 4.05 K/9 6.8 HH% 39.1 Brl% 7.7 29.1IP [sm]
+  Home: Grayson Rodriguez RHP 2-2 | ERA 8.10 FIP 5.03 xERA 6.64 K/9 8.9 HH% 52.0 Brl% 10.7 23.1IP [sm] | AGG xFIP 4.60 SIERA 4.72 K-BB%:9.0% Stf+:105 23.1IP | L14 xFIP 4.40 SIERA 4.71 K/9:9.0 BB/9:5.0 9.0IP [sm] | L3 5.0/1/5/2;3.2/7/3/3;5.1/2/6/2
 
 BULLPEN -- TB
   Closer: Bryan Baker (R) -- 1.98 ERA, 27.5% K%, 18 SV, 1 HLD
@@ -1036,13 +894,10 @@ WEATHER
 PARK: Angel Stadium
   Park factor: 99 (3yr) | HR: 105 | Runs: 98
 
-PLATE UMPIRE: Not yet assigned
-
-GAME 15: TEX @ BOS  7:21 PM ET  Fenway Park, Boston, MA
+GAME 15: TEX @ BOS  7:21 PM ET  Fenway Park
 
   ML:-104/-113  RL:+146/-176  TT:9.0(-115/-105)
   best-ML:[price flagged as suspect — stale book data]/-112 (FanDuel) best-TT:O-110 (FanDuel)/U-102 (LowVig.ag)
-  Line move : no movement yet — re-run fetch_odds.py closer to game time
 
 OPENING LINES (Covers/bet365)
   RL:    TEX +1.5 +165 / BOS -1.5 -200  →  current: +1.5 +140 / -1.5 -190
@@ -1065,16 +920,8 @@ PLATOON MATCHUP
   vs_RHP: wRC+:86(AGG) key:Contreras142,Wong130,Kiner-Falefa115
 
 STARTING PITCHERS
-  Away: Nathan Eovaldi (RHP) — 5-7 | ERA 4.26 FIP 4.58 xERA 4.61 | K/9 8.6 HH% 41.5 Brl% 9.8 | 80.1 IP
-       AGG: xFIP 3.15 SIERA 3.25 K-BB%:20.4% | Stf+: 99 204.2IP
-       L14: xFIP 4.31 SIERA 4.35 K/9:7.7 BB/9:3.1 11.2IP  [small sample — 11.2IP]
-       L3: 7.0/5/6/2 | 6.0/4/7/1 | 5.2/4/3/3  (IP/ER/K/BB)
-  Home: Connelly Early (LHP) — 5-4 | ERA 3.30 FIP 4.75 xERA 4.55 | K/9 8.7 HH% 42.9 Brl% 11.6 | 71.0 IP
-       AGG: xFIP 3.79 SIERA 3.67 K-BB%:17.7% | Stf+: 102 90.1IP
-       L14: xFIP 3.97 SIERA 3.98 K/9:10.8 BB/9:4.5 10.0IP  [small sample — 10.0IP]
-       L3: 7.0/0/7/3 | 5.1/4/6/1 | 4.2/2/6/4  (IP/ER/K/BB)
-
-LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
+  Away: Nathan Eovaldi RHP 5-7 | ERA 4.26 FIP 4.58 xERA 4.61 K/9 8.6 HH% 41.5 Brl% 9.8 80.1IP | AGG xFIP 3.15 SIERA 3.25 K-BB%:20.4% Stf+:99 204.2IP | L14 xFIP 4.31 SIERA 4.35 K/9:7.7 BB/9:3.1 11.2IP [sm] | L3 7.0/5/6/2;6.0/4/7/1;5.2/4/3/3
+  Home: Connelly Early LHP 5-4 | ERA 3.30 FIP 4.75 xERA 4.55 K/9 8.7 HH% 42.9 Brl% 11.6 71.0IP | AGG xFIP 3.79 SIERA 3.67 K-BB%:17.7% Stf+:102 90.1IP | L14 xFIP 3.97 SIERA 3.98 K/9:10.8 BB/9:4.5 10.0IP [sm] | L3 7.0/0/7/3;5.1/4/6/1;4.2/2/6/4
 
 BULLPEN -- TEX
   Closer: Jacob Latz (L) -- 1.69 ERA, 28.4% K%, 10 SV, 2 HLD
@@ -1109,8 +956,6 @@ WEATHER
 
 PARK: Fenway Park
   Park factor: 102 (3yr) | HR: 80 | Runs: 104
-
-PLATE UMPIRE: Not yet assigned
 
 
 BEFORE SUBMITTING: verify each bet clears the 4-pt minimum edge gate.

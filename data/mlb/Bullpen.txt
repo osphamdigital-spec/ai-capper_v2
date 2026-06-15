@@ -8,6 +8,7 @@ ATH	Mark Leiter Jr.	R	Middle Reliever	13 (H)					23 (H)	36	1.1	31	28.2	5.02	4	5	
 ATH	Justin Sterner	R	Middle Reliever		15 (BS)				7 (H)	22	1.1	33	32	3.38	1	11	10	4	14.9%	23.4%	8.4	5.5%	2.0
 ATH	Scott Barlow	R	Middle Reliever	12 (H)			14 (W)		18	44	2.2	32	30.2	4.11	2	10	13	3	13.8%	18.8%	7.3	12.8%	5.0
 ATH	Luis Medina	R	Middle Reliever				21		29 (H)	50	3.2	22	29.2	3.03	0	3	4	4	11.8%	25.6%	9.7	9.6%	3.6
+ATH	Brady Basso	L	Middle Reliever	AAA	AAA	AAA	AAA	AAA	AAA	0	0	3	2.2	6.75	0	1	0	2	6.7%	7.1%	3.4	7.1%	3.4
 ATH	José Suarez	L	Long Reliever	22 (W)			12		27 (L)	61	3.4	22	34.2	5.71	1	1	2	3	12.1%	24.2%	10.4	11.5%	4.9
 ATH	Brooks Kriske	R	60-Day IL							0	0	2	2.2	0.00	0	0	0	0	10.5%	18.2%	6.8	9.1%	3.4
 
@@ -148,10 +149,10 @@ TEAM	PLAYER	THR	PROJECTED ROLE	Sat 6/13	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6
 New York Yankees				Pitcher Usage						Last 6 Days		Results more_vert											
 TEAM	PLAYER	THR	PROJECTED ROLE	Sat 6/13	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 NYY	David Bednar	R	Closer	13 (Sv)					27 (W)	40	2.2	28	28.2	3.77	14	0	11	4	14.7%	28.6%	11.3	9.5%	3.8
+NYY	Camilo Doval	R	Setup Man		18			8 (W)	14	40	2.1	30	25.2	5.26	1	3	4	7	10.8%	21.3%	8.1	4.6%	1.8
 NYY	Fernando Cruz	R	Setup Man	24 (W)	23			25 (Sv)		72	3.2	34	31.1	2.01	1	11	14	3	17.1%	30.5%	11.5	14.5%	5.5
-NYY	Brent Headrick	L	Setup Man		12		12		17	41	1.1	34	32.2	1.93	0	7	14	4	15.5%	25.7%	9.9	10.0%	3.9
+NYY	Brent Headrick	L	Middle Reliever		12		12		17	41	1.1	34	32.2	1.93	0	7	14	4	15.5%	25.7%	9.9	10.0%	3.9
 NYY	Tim Hill	L	Middle Reliever					1	11	12	1.1	32	26.1	4.10	0	8	12	6	5.1%	11.7%	4.4	5.4%	2.1
-NYY	Camilo Doval	R	Middle Reliever		18			8 (W)	14	40	2.1	30	25.2	5.26	1	3	4	7	10.8%	21.3%	8.1	4.6%	1.8
 NYY	Jake Bird	R	Middle Reliever		20			15 (H)	17	52	1.1	25	20	4.95	0	7	5	5	12.3%	25.6%	10.4	7.8%	3.2
 NYY	Ryan Yarbrough	L	Middle Reliever				27		12	39	2.2	14	23.1	3.47	1	0	0	2	9.4%	18.4%	6.9	10.2%	3.9
 NYY	Paul Blackburn	R	Long Reliever					24	14 (BS)	38	1.1	20	30.1	2.97	0	0	2	2	8.1%	16.5%	6.2	8.7%	3.3
@@ -180,8 +181,7 @@ TBR	Casey Legumina	R	Middle Reliever				2 (H)		12 (W)	14	1.2	22	29.1	3.07	0	3	3	
 TBR	Craig Kimbrel	R	Middle Reliever	17	IL	IL	IL	IL	IL	17	0.2	16	16.2	5.94	0	1	2	3	12.6%	25.0%	9.7	8.3%	3.2
 TBR	Cam Booser	L	Middle Reliever	24					10 (H)	34	2.1	4	5.1	0.00	0	1	1	0	17.3%	35.0%	11.8	10.0%	3.4
 TBR	Cole Sulser	R	Middle Reliever	39			18			57	0.1	24	26.1	6.49	2	4	5	3	11.4%	20.0%	8.5	9.6%	4.1
-TBR	Steven Matz	L	Middle Reliever				9			9	0.1	12	47.1	5.89	0	0	0	2	9.4%	18.1%	7.0	9.3%	3.6
-TBR	Ian Seymour	L	Long Reliever						55	55	4	27	35	4.89	2	9	10	2	13.6%	25.7%	9.8	10.8%	4.1
+TBR	Steven Matz	L	Long Reliever				9			9	0.1	12	47.1	5.89	0	0	0	2	9.4%	18.1%	7.0	9.3%	3.6
 TBR	Jesse Scholtens	R	15-Day IL							0	0	9	37.2	3.82	0	0	4	2	8.8%	18.3%	7.2	6.7%	2.6
 TBR	Michael Grove	R	60-Day IL							0	0												
 TBR	Edwin Uceta	R	60-Day IL							0	0												
@@ -406,15 +406,16 @@ SDP	Bryan Hoeing	R	60-Day IL							0	0
 TEAM	PLAYER	THR	PROJECTED ROLE	Sat 6/13	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
 San Francisco Giants				Pitcher Usage						Last 6 Days		Results more_vert											
 TEAM	PLAYER	THR	PROJECTED ROLE	Sat 6/13	Fri 6/12	Thu 6/11	Wed 6/10	Tue 6/9	Mon 6/8	P	IP	G G - Games Pitched	IP IP - Innings Pitched	ERA ERA - Earned Run Average ((ER*9)/IP)	Sv SV - Saves	HLD HLD - Holds	SD Shutdowns: appearances with at least 0.06 WPA	MD Meltdowns: appearances with less than or equal to -0.06 WPA	SwStr% SwStr% - Percentage of Strikes that were swung at and missed	K% K% - Strikeout Percentage (SO/TBF)	K/9 K/9 - Strikeouts per 9 Innings ((SO*9)/IP)	BB% BB% - Walk Percentage (BB/TBF)	BB/9 BB/9 - Walks per 9 Innings ((BB*9)/IP)
-SFG	Keaton Winn	R	Closer						22 (L,B)	22	0.2	29	30.2	3.23	1	11	7	5	11.6%	21.8%	7.6	7.6%	2.6
-SFG	Caleb Kilian	R	Setup Man	15						15	1	29	30.2	3.23	4	3	11	1	11.7%	26.6%	10.0	11.7%	4.4
+SFG	Caleb Kilian	R	Closer	15						15	1	29	30.2	3.23	4	3	11	1	11.7%	26.6%	10.0	11.7%	4.4
+SFG	Ryan Walker	R	Setup Man	11	16	AAA	AAA	AAA	AAA	27	2	18	17.1	5.71	3	2	2	4	5.9%	18.8%	7.8	12.5%	5.2
 SFG	Erik Miller	L	Setup Man		9			14		23	0.1	24	19.2	4.58	2	8	6	6	11.3%	29.3%	12.4	18.5%	7.8
-SFG	Ryan Walker	R	Middle Reliever	11	16	AAA	AAA	AAA	AAA	27	2	18	17.1	5.71	3	2	2	4	5.9%	18.8%	7.8	12.5%	5.2
-SFG	Sam Hentges	L	Middle Reliever	17	12			26		55	2.2	14	11.1	1.59	0	1	2	1	10.4%	23.6%	10.3	23.6%	10.3
 SFG	Dylan Smith	R	Middle Reliever	22				23	3	48	2.1	6	5	0.00	1	0	1	1	12.5%	31.6%	10.8	10.5%	3.6
+SFG	Sam Hentges	L	Middle Reliever	17	12			26		55	2.2	14	11.1	1.59	0	1	2	1	10.4%	23.6%	10.3	23.6%	10.3
+SFG	JT Brubaker	R	Middle Reliever		21			23		44	3	24	36	3.00	0	1	1	3	8.8%	17.6%	6.5	11.5%	4.3
 SFG	Reiver Sanmartin	L	Middle Reliever	30			31 (W)	IL	IL	61	3.1	2	3.1	8.10	0	0	0	1	6.6%	26.7%	10.8	6.7%	2.7
-SFG	JT Brubaker	R	Long Reliever		21			23		44	3	24	36	3.00	0	1	1	3	8.8%	17.6%	6.5	11.5%	4.3
+SFG	Tristan Beck	R	Long Reliever	AAA	AAA	AAA	AAA	27		27	2	6	8	9.00	0	0	0	1	7.2%	7.7%	3.4	5.1%	2.3
 SFG	Matt Gage	L	15-Day IL							0	0	29	24	2.63	1	5	6	5	9.7%	18.6%	7.1	12.7%	4.9
+SFG	Keaton Winn	R	15-Day IL						22 (L,B)	22	0.2	29	30.2	3.23	1	11	7	5	11.6%	21.8%	7.6	7.6%	2.6
 SFG	Jason Foley	R	60-Day IL							0	0												
 SFG	Joel Peguero	R	60-Day IL							0	0	11	11.1	2.38	0	1	0	2	10.1%	10.4%	4.0	8.3%	3.2
 SFG	José Buttó	R	60-Day IL							0	0	3	2	22.50	0	0	0	1	14.3%	31.3%	22.5	25.0%	18.0

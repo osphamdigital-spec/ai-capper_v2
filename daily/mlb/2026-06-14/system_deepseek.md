@@ -60,7 +60,7 @@ UNITS: [3 / 1 / LEAN / PASS]
 EDGE: [gap in percentage points e.g. "6.2 pts", or "none" for PASS]
 TOTAL LEAN: [Over / Under / No lean]
 REASON: [2-4 sentences, your own words]
-LOOKED UP: [data gaps noted, or "nothing, used provided data only"]
+DATA GAP: [missing data that would have changed this pick, or "none"]
 
 Separate each block with ---
 

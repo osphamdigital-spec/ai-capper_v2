@@ -1,6 +1,6 @@
 ═══════════════════════════════════════════════════════
 MLB SLATE — Sunday, June 14 2026 (US Eastern Time)
-15 games | Prompt built at 10:08 PM ET | Source: TheOddsAPI median of 9 books
+15 games | Prompt built at 10:20 PM ET | Source: TheOddsAPI median of 9 books
 ═══════════════════════════════════════════════════════
 
 GAME 1: MIA @ PIT  12:16 PM ET  PNC Park, Pittsburgh, PA
@@ -44,18 +44,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- MIA
   Closer: Pete Fairbanks (R) -- 6.63 ERA, 31.4% K%, 8 SV, 2 HLD
     Usage last 6: Sat - | Fri - | Thu 13p(Sv) | Wed - | Tue 24p(W) | Mon -
-  Setup: Anthony Bender (R) -- 3.07 ERA, 30.0% K%, 2 SV, 7 HLD
+  Setup Man: Anthony Bender (R) -- 3.07 ERA, 30.0% K%, 2 SV, 7 HLD
     Usage last 6: Sat 27p(L) | Fri - | Thu 19p(H) | Wed - | Tue 11p(H) | Mon -
-  Setup: Michael Petersen (R) -- 3.07 ERA, 28.6% K%, 1 SV, 9 HLD
+  Setup Man: Michael Petersen (R) -- 3.07 ERA, 28.6% K%, 1 SV, 9 HLD
     Usage last 6: Sat 29p | Fri - | Thu 14p(H) | Wed - | Tue 26p | Mon -
+  Middle Reliever: Calvin Faucher (R) -- 3.45 ERA, 25.2% K%, 1 SV, 6 HLD
+    Usage last 6: Sat 15p | Fri - | Thu 13p(H) | Wed - | Tue 12p(BS) | Mon -
+  Middle Reliever: John King (L) -- 2.48 ERA, 20.2% K%, 1 SV, 3 HLD
+    Usage last 6: Sat 11p | Fri 18p | Thu - | Wed - | Tue - | Mon -
+  Middle Reliever: Cade Gibson (L) -- 5.73 ERA, 20.4% K%
+    Usage last 6: Sat 22p | Fri - | Thu - | Wed 15p | Tue - | Mon -
 
 BULLPEN -- PIT
   Closer: Gregory Soto (L) -- 3.26 ERA, 29.2% K%, 10 SV, 6 HLD
     Usage last 6: Sat 13p(Sv) | Fri - | Thu - | Wed 8p(Sv) | Tue - | Mon -
-  Setup: Dennis Santana (R) -- 4.82 ERA, 17.3% K%, 2 SV, 4 HLD
+  Setup Man: Dennis Santana (R) -- 4.82 ERA, 17.3% K%, 2 SV, 4 HLD
     Usage last 6: Sat - | Fri - | Thu 16p | Wed - | Tue 31p | Mon -
-  Setup: Evan Sisk (L) -- 1.86 ERA, 30.3% K%, 3 HLD
+  Setup Man: Evan Sisk (L) -- 1.86 ERA, 30.3% K%, 3 HLD
     Usage last 6: Sat - | Fri - | Thu 31p | Wed 8p(W) | Tue - | Mon -
+  Middle Reliever: Mason Montgomery (L) -- 4.33 ERA, 28.8% K%, 7 HLD
+    Usage last 6: Sat 15p(BS) | Fri - | Thu - | Wed - | Tue - | Mon -
+  Middle Reliever: Yohan Ramírez (R) -- 4.31 ERA, 25.7% K%, 1 SV, 3 HLD
+    Usage last 6: Sat 23p(W) | Fri - | Thu 35p | Wed - | Tue - | Mon -
+  Middle Reliever: Isaac Mattson (R) -- 4.12 ERA, 17.2% K%, 7 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue - | Mon -
 
 WEATHER
   wx:78.7F Overcast wind:5.7mph S 15%rain
@@ -106,16 +118,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- SD
   Closer: Mason Miller (R) -- 0.94 ERA, 50.9% K%, 18 SV
     Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 14p | Mon 19p
-  Setup: Jason Adam (R) -- 1.44 ERA, 16.3% K%, 1 SV, 14 HLD
+  Setup Man: Jason Adam (R) -- 1.44 ERA, 16.3% K%, 1 SV, 14 HLD
     Usage last 6: Sat 16p | Fri - | Thu - | Wed - | Tue 26p | Mon 18p(H)
-  Setup: Adrian Morejon (L) -- 4.15 ERA, 28.9% K%, 1 SV, 11 HLD
+  Setup Man: Adrian Morejon (L) -- 4.15 ERA, 28.9% K%, 1 SV, 11 HLD
     Usage last 6: Sat 2p | Fri - | Thu - | Wed - | Tue 34p | Mon 13p(W)
+  Middle Reliever: Bradgley Rodriguez (R) -- 2.23 ERA, 21.5% K%, 3 HLD
+    Usage last 6: Sat 16p | Fri - | Thu - | Wed - | Tue 17p | Mon 17p
+  Middle Reliever: David Morgan (R) -- 4.42 ERA, 26.1% K%
+    Usage last 6: Sat - | Fri 18p | Thu - | Wed - | Tue 29p | Mon -
+  Middle Reliever: Wandy Peralta (L) -- 2.18 ERA, 16.4% K%, 2 HLD
+    Usage last 6: Sat - | Fri 30p | Thu - | Wed 14p(W) | Tue - | Mon -
 
 BULLPEN -- BAL
-  Closer: Rico Garcia (R) -- 1.26 ERA, 29.8% K%, 4 SV, 9 HLD
+  Co-Closer: Rico Garcia (R) -- 1.26 ERA, 29.8% K%, 4 SV, 9 HLD
     Usage last 6: Sat - | Fri - | Thu 16p(H) | Wed - | Tue 15p(L) | Mon -
-  Setup: Yennier Cano (R) -- 2.28 ERA, 23.9% K%, 4 HLD
+  Co-Closer: Andrew Kittredge (R) -- 6.32 ERA, 20.8% K%, 1 SV, 2 HLD
+    Usage last 6: Sat - | Fri 9p | Thu 6p(Sv) | Wed - | Tue 19p | Mon -
+  Setup Man: Yennier Cano (R) -- 2.28 ERA, 23.9% K%, 4 HLD
     Usage last 6: Sat - | Fri 16p | Thu - | Wed 13p | Tue - | Mon -
+  Middle Reliever: Anthony Nunez (R) -- 5.13 ERA, 26.4% K%, 3 SV, 6 HLD
+    Usage last 6: Sat - | Fri 21p | Thu - | Wed - | Tue - | Mon 33p
+  Middle Reliever: Keegan Akin (L) -- 7.32 ERA, 14.3% K%
+    Usage last 6: Sat 12p | Fri 12p | Thu - | Wed - | Tue 17p | Mon -
+  Middle Reliever: Tyler Wells (R) -- 3.55 ERA, 24.2% K%, 8 HLD
+    Usage last 6: Sat - | Fri - | Thu 39p(W) | Wed - | Tue 8p | Mon -
 
 WEATHER
   wx:92.5F Overcast wind:12.5mph S 0%rain
@@ -166,16 +192,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- SEA
   Closer: Andrés Muñoz (R) -- 5.18 ERA, 34.3% K%, 10 SV
     Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue - | Mon 20p(Sv)
-  Setup: José A. Ferrer (L) -- 2.97 ERA, 19.1% K%, 3 SV, 8 HLD
+  Setup Man: José A. Ferrer (L) -- 2.97 ERA, 19.1% K%, 3 SV, 8 HLD
     Usage last 6: Sat 10p | Fri - | Thu - | Wed - | Tue 43p(W,B) | Mon -
+  Middle Reliever: Eduard Bazardo (R) -- 2.30 ERA, 20.5% K%, 12 HLD
+    Usage last 6: Sat 15p | Fri - | Thu - | Wed - | Tue - | Mon 18p
+  Middle Reliever: Gabe Speier (L) -- 2.00 ERA, 22.4% K%, 1 SV, 8 HLD
+    Usage last 6: Sat 5p | Fri - | Thu - | Wed - | Tue 12p(H) | Mon -
+  Middle Reliever: Alex Hoppe (R) -- 5.21 ERA, 25.0% K%, 1 HLD
+    Usage last 6: Sat 12p | Fri - | Thu 28p | Wed - | Tue 9p(H) | Mon -
+  Middle Reliever: Nick Davila (R) -- 0.00 ERA, 15.8% K%, 1 SV, 1 HLD
+    Usage last 6: Sat - | Fri - | Thu 18p | Wed - | Tue 14p(Sv) | Mon -
 
 BULLPEN -- WAS
   Closer: Clayton Beeter (R) -- 3.72 ERA, 22.6% K%, 4 SV, 3 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 11p(H) | Mon 16p(W)
-  Setup: Orlando Ribalta (R) -- 1.80 ERA, 18.2% K%, 2 SV, 4 HLD
+  Setup Man: Orlando Ribalta (R) -- 1.80 ERA, 18.2% K%, 2 SV, 4 HLD
     Usage last 6: Sat 11p(H) | Fri - | Thu - | Wed 10p | Tue 15p | Mon -
-  Setup: Brad Lord (R) -- 2.20 ERA, 20.0% K%, 1 SV, 3 HLD
+  Setup Man: Brad Lord (R) -- 2.20 ERA, 20.0% K%, 1 SV, 3 HLD
     Usage last 6: Sat 23p | Fri - | Thu - | Wed - | Tue 57p(W) | Mon -
+  Middle Reliever: Gus Varland (R) -- 5.26 ERA, 20.2% K%, 5 SV, 6 HLD
+    Usage last 6: Sat - | Fri 15p | Thu - | Wed 13p | Tue - | Mon 22p(Sv)
+  Middle Reliever: Richard Lovelady (L) -- 2.89 ERA, 17.9% K%, 4 SV, 6 HLD
+    Usage last 6: Sat 20p(H) | Fri - | Thu - | Wed - | Tue 4p(H) | Mon 14p
+  Middle Reliever: PJ Poulin (L) -- 3.20 ERA, 16.5% K%, 2 SV, 5 HLD
+    Usage last 6: Sat 15p(H) | Fri - | Thu - | Wed - | Tue - | Mon -
 
 WEATHER
   wx:91.6F Clear sky wind:11.7mph S 0%rain
@@ -226,18 +266,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- NYY
   Closer: David Bednar (R) -- 3.77 ERA, 28.6% K%, 14 SV
     Usage last 6: Sat 13p(Sv) | Fri - | Thu - | Wed - | Tue - | Mon 27p(W)
-  Setup: Camilo Doval (R) -- 5.26 ERA, 21.3% K%, 1 SV, 3 HLD
+  Setup Man: Camilo Doval (R) -- 5.26 ERA, 21.3% K%, 1 SV, 3 HLD
     Usage last 6: Sat - | Fri 18p | Thu - | Wed - | Tue 8p(W) | Mon 14p
-  Setup: Fernando Cruz (R) -- 2.01 ERA, 30.5% K%, 1 SV, 11 HLD
+  Setup Man: Fernando Cruz (R) -- 2.01 ERA, 30.5% K%, 1 SV, 11 HLD
     Usage last 6: Sat 24p(W) | Fri 23p | Thu - | Wed - | Tue 25p(Sv) | Mon -
+  Middle Reliever: Brent Headrick (L) -- 1.93 ERA, 25.7% K%, 7 HLD
+    Usage last 6: Sat - | Fri 12p | Thu - | Wed 12p | Tue - | Mon 17p
+  Middle Reliever: Tim Hill (L) -- 4.10 ERA, 11.7% K%, 8 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 1p | Mon 11p
+  Middle Reliever: Jake Bird (R) -- 4.95 ERA, 25.6% K%, 7 HLD
+    Usage last 6: Sat - | Fri 20p | Thu - | Wed - | Tue 15p(H) | Mon 17p
 
 BULLPEN -- TOR
   Closer: Louis Varland (R) -- 0.96 ERA, 33.8% K%, 12 SV, 5 HLD
     Usage last 6: Sat 13p(L) | Fri 16p(Sv) | Thu - | Wed - | Tue 16p(W) | Mon -
-  Setup: Tyler Rogers (R) -- 1.91 ERA, 15.3% K%, 2 SV, 15 HLD
+  Setup Man: Tyler Rogers (R) -- 1.91 ERA, 15.3% K%, 2 SV, 15 HLD
     Usage last 6: Sat 22p | Fri 7p(H) | Thu - | Wed 14p | Tue - | Mon -
-  Setup: Jeff Hoffman (R) -- 5.83 ERA, 36.5% K%, 5 SV, 7 HLD
+  Setup Man: Jeff Hoffman (R) -- 5.83 ERA, 36.5% K%, 5 SV, 7 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed 21p | Tue 15p | Mon -
+  Middle Reliever: Braydon Fisher (R) -- 2.70 ERA, 27.1% K%, 1 SV, 8 HLD
+    Usage last 6: Sat - | Fri 26p(H) | Thu - | Wed 27p | Tue - | Mon -
+  Middle Reliever: Mason Fluharty (L) -- 3.90 ERA, 31.1% K%, 9 HLD
+    Usage last 6: Sat - | Fri 13p(H) | Thu - | Wed 17p | Tue 8p | Mon -
+  Middle Reliever: Tommy Nance (R) -- 3.52 ERA, 28.0% K%, 1 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed 16p | Tue - | Mon 11p
 
 WEATHER
   wx:64.6F Overcast wind:6.8mph E 51%rain (retractable — check roof status for park factor)
@@ -289,18 +341,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- AZ
   Closer: Paul Sewald (R) -- 3.20 ERA, 29.5% K%, 16 SV
     Usage last 6: Sat - | Fri 13p(Sv) | Thu 16p | Wed - | Tue - | Mon -
-  Setup: Kevin Ginkel (R) -- 2.70 ERA, 28.0% K%, 4 HLD
+  Setup Man: Kevin Ginkel (R) -- 2.70 ERA, 28.0% K%, 4 HLD
     Usage last 6: Sat - | Fri 20p(W) | Thu - | Wed - | Tue 8p | Mon -
-  Setup: Juan Morillo (R) -- 2.67 ERA, 32.7% K%, 1 SV, 8 HLD
+  Setup Man: Juan Morillo (R) -- 2.67 ERA, 32.7% K%, 1 SV, 8 HLD
     Usage last 6: Sat 15p(L) | Fri - | Thu - | Wed 5p | Tue - | Mon -
+  Middle Reliever: Jonathan Loáisiga (R) -- 3.12 ERA, 16.0% K%, 1 SV, 4 HLD
+    Usage last 6: Sat - | Fri 11p | Thu - | Wed 6p | Tue - | Mon -
+  Middle Reliever: Taylor Clarke (R) -- 2.12 ERA, 14.0% K%, 11 HLD
+    Usage last 6: Sat - | Fri 36p | Thu - | Wed - | Tue 22p | Mon -
+  Middle Reliever: Ryan Thompson (R) -- 2.28 ERA, 15.5% K%, 5 HLD
+    Usage last 6: Sat - | Fri 18p | Thu - | Wed - | Tue 9p | Mon -
 
 BULLPEN -- CIN
   Closer: Tony Santillan (R) -- 5.67 ERA, 20.8% K%, 3 SV, 11 HLD
     Usage last 6: Sat 14p(Sv) | Fri - | Thu - | Wed 9p(BS) | Tue 16p | Mon -
-  Setup: Brock Burke (L) -- 3.00 ERA, 20.7% K%, 1 SV, 7 HLD
+  Setup Man: Brock Burke (L) -- 3.00 ERA, 20.7% K%, 1 SV, 7 HLD
     Usage last 6: Sat - | Fri 28p(L) | Thu - | Wed - | Tue 14p | Mon -
-  Setup: Tejay Antone (R) -- 2.87 ERA, 21.5% K%, 1 SV, 1 HLD
+  Setup Man: Tejay Antone (R) -- 2.87 ERA, 21.5% K%, 1 SV, 1 HLD
     Usage last 6: Sat - | Fri 21p | Thu - | Wed - | Tue 16p(W,B) | Mon 13p
+  Middle Reliever: Sam Moll (L) -- 2.89 ERA, 25.6% K%, 1 SV, 2 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 13p | Mon -
+  Middle Reliever: Caleb Ferguson (L) -- 2.08 ERA, 24.3% K%, 1 HLD
+    Usage last 6: Sat 20p | Fri - | Thu - | Wed 15p(H) | Tue 3p | Mon -
+  Middle Reliever: Zach Maxwell (R) -- 10.13 ERA, 14.0% K%, 1 SV, 1 HLD
+    Usage last 6: Sat - | Fri 32p | Thu - | Wed 24p(H) | Tue 9p(Sv) | Mon -
 
 WEATHER
   wx:82.1F Overcast wind:15.4mph SW 20%rain
@@ -351,18 +415,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- ATL
   Closer: Raisel Iglesias (R) -- 1.16 ERA, 30.3% K%, 14 SV
     Usage last 6: Sat 16p(Sv) | Fri - | Thu - | Wed - | Tue 24p(L) | Mon -
-  Setup: Robert Suarez (R) -- 0.59 ERA, 22.8% K%, 4 SV, 11 HLD
+  Setup Man: Robert Suarez (R) -- 0.59 ERA, 22.8% K%, 4 SV, 11 HLD
     Usage last 6: Sat 14p(H) | Fri - | Thu - | Wed - | Tue 7p | Mon -
-  Setup: Dylan Lee (L) -- 1.14 ERA, 34.8% K%, 14 HLD
+  Setup Man: Dylan Lee (L) -- 1.14 ERA, 34.8% K%, 14 HLD
     Usage last 6: Sat 7p(H) | Fri - | Thu - | Wed 3p | Tue - | Mon -
+  Middle Reliever: Didier Fuentes (R) -- 2.25 ERA, 29.2% K%, 1 SV, 4 HLD
+    Usage last 6: Sat 13p(H) | Fri - | Thu - | Wed 13p | Tue - | Mon -
+  Middle Reliever: Dylan Dodd (L) -- 1.26 ERA, 31.5% K%, 1 SV, 1 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 31p | Mon -
+  Middle Reliever: James Karinchak (R) -- 0.00 ERA, 25.0% K%
+    Usage last 6: Sat - | Fri - | Thu - | Wed 19p | Tue - | Mon -
 
 BULLPEN -- NYM
   Closer: Devin Williams (R) -- 5.01 ERA, 35.9% K%, 10 SV
     Usage last 6: Sat - | Fri 33p(Sv) | Thu 16p(Sv) | Wed - | Tue - | Mon -
-  Setup: Luke Weaver (R) -- 2.40 ERA, 22.7% K%, 8 HLD
+  Setup Man: Luke Weaver (R) -- 2.40 ERA, 22.7% K%, 8 HLD
     Usage last 6: Sat - | Fri - | Thu 11p(H) | Wed - | Tue - | Mon -
-  Setup: Brooks Raley (L) -- 2.08 ERA, 27.7% K%, 10 HLD
+  Setup Man: Brooks Raley (L) -- 2.08 ERA, 27.7% K%, 10 HLD
     Usage last 6: Sat - | Fri 22p | Thu 20p(W) | Wed - | Tue - | Mon -
+  Middle Reliever: Huascar Brazobán (R) -- 2.08 ERA, 21.9% K%, 5 HLD
+    Usage last 6: Sat - | Fri 19p | Thu - | Wed - | Tue - | Mon -
+  Middle Reliever: A.J. Minter (L) -- 0.00 ERA, 24.0% K%
+    Usage last 6: Sat - | Fri - | Thu 14p | Wed - | Tue - | Mon -
+  Middle Reliever: Austin Warren (R) -- 2.84 ERA, 25.2% K%
+    Usage last 6: Sat 40p | Fri - | Thu - | Wed 33p(L) | Tue - | Mon -
 
 WEATHER
   wx:88.3F Partly cloudy wind:13.0mph S 0%rain
@@ -413,18 +489,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- DET
   Closer: Kenley Jansen (R) -- 4.50 ERA, 32.3% K%, 7 SV, 1 HLD
     Usage last 6: Sat 9p | Fri - | Thu - | Wed - | Tue - | Mon -
-  Setup: Will Vest (R) -- 6.53 ERA, 25.3% K%, 1 SV, 6 HLD
+  Setup Man: Will Vest (R) -- 6.53 ERA, 25.3% K%, 1 SV, 6 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue - | Mon -
-  Setup: Kyle Finnegan (R) -- 1.93 ERA, 14.7% K%, 1 SV, 9 HLD
+  Setup Man: Kyle Finnegan (R) -- 1.93 ERA, 14.7% K%, 1 SV, 9 HLD
     Usage last 6: Sat 15p | Fri - | Thu - | Wed - | Tue 22p(H) | Mon -
+  Middle Reliever: Tyler Holton (L) -- 4.02 ERA, 20.1% K%, 5 HLD
+    Usage last 6: Sat 6p | Fri - | Thu 25p | Wed - | Tue 16p | Mon -
+  Middle Reliever: Drew Anderson (R) -- 3.92 ERA, 28.5% K%, 2 SV, 4 HLD
+    Usage last 6: Sat - | Fri 21p | Thu - | Wed - | Tue 17p(H) | Mon -
+  Middle Reliever: Enmanuel De Jesus (L) -- 4.78 ERA, 21.6% K%, 1 SV
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 15p | Mon -
 
 BULLPEN -- CLE
   Closer: Cade Smith (R) -- 2.48 ERA, 38.0% K%, 23 SV
     Usage last 6: Sat 31p(Sv) | Fri 13p(Sv) | Thu - | Wed - | Tue - | Mon 22p
-  Setup: Hunter Gaddis (R) -- 3.86 ERA, 16.5% K%, 1 SV, 11 HLD
+  Setup Man: Hunter Gaddis (R) -- 3.86 ERA, 16.5% K%, 1 SV, 11 HLD
     Usage last 6: Sat 17p(H) | Fri 13p(H) | Thu - | Wed - | Tue - | Mon 23p(BS)
-  Setup: Shawn Armstrong (R) -- 3.32 ERA, 25.6% K%, 5 HLD
+  Setup Man: Shawn Armstrong (R) -- 3.32 ERA, 25.6% K%, 5 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 9p | Mon 16p(L)
+  Middle Reliever: Colin Holderman (R) -- 1.73 ERA, 30.3% K%, 5 HLD
+    Usage last 6: Sat 15p(H) | Fri - | Thu - | Wed - | Tue 12p | Mon 18p
+  Middle Reliever: Tim Herrin (L) -- 2.92 ERA, 20.9% K%, 11 HLD
+    Usage last 6: Sat 13p(H) | Fri - | Thu - | Wed - | Tue 24p(L) | Mon 10p(H)
+  Middle Reliever: Daniel Espino (R) -- -- ERA, -- K%
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue - | Mon -
 
 WEATHER
   wx:79.7F Mainly clear wind:12.1mph SW 30%rain
@@ -476,14 +564,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- LAD
   Closer: Tanner Scott (L) -- 2.48 ERA, 32.4% K%, 7 SV, 5 HLD
     Usage last 6: Sat - | Fri - | Thu 18p(Sv) | Wed - | Tue 17p | Mon -
-  Setup: Will Klein (R) -- 2.25 ERA, 27.1% K%, 1 SV, 8 HLD
+  Setup Man: Will Klein (R) -- 2.25 ERA, 27.1% K%, 1 SV, 8 HLD
     Usage last 6: Sat - | Fri - | Thu 22p | Wed - | Tue 21p(W) | Mon -
-  Setup: Alex Vesia (L) -- 2.74 ERA, 33.3% K%, 2 SV, 10 HLD
+  Setup Man: Alex Vesia (L) -- 2.74 ERA, 33.3% K%, 2 SV, 10 HLD
     Usage last 6: Sat 8p | Fri - | Thu 4p(H) | Wed 9p(H) | Tue - | Mon -
+  Middle Reliever: Blake Treinen (R) -- 3.86 ERA, 23.7% K%, 1 SV, 6 HLD
+    Usage last 6: Sat - | Fri 16p | Thu - | Wed - | Tue 31p | Mon -
+  Middle Reliever: Edgardo Henriquez (R) -- 3.42 ERA, 26.2% K%, 4 HLD
+    Usage last 6: Sat - | Fri 16p | Thu 15p | Wed - | Tue - | Mon -
+  Middle Reliever: Kyle Hurt (R) -- 4.22 ERA, 30.7% K%, 1 SV, 5 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed 20p(L,B) | Tue - | Mon -
 
 BULLPEN -- CHW
-  Closer: Seranthony Domínguez (R) -- 3.60 ERA, 27.6% K%, 11 SV, 2 HLD
+  Closer Committee: Seranthony Domínguez (R) -- 3.60 ERA, 27.6% K%, 11 SV, 2 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed 14p(H) | Tue 13p | Mon -
+  Closer Committee: Grant Taylor (R) -- 1.82 ERA, 36.4% K%, 2 SV, 4 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 21p(W) | Mon -
+  Closer Committee: Sean Newcomb (L) -- 2.29 ERA, 22.9% K%, 1 SV, 5 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed 27p(H) | Tue - | Mon -
+  Closer Committee: Bryan Hudson (L) -- 2.25 ERA, 20.6% K%, 3 SV, 4 HLD
+    Usage last 6: Sat - | Fri 7p | Thu - | Wed 16p(Sv) | Tue - | Mon -
+  Middle Reliever: Tyler Davis (R) -- 4.03 ERA, 21.6% K%, 1 SV
+    Usage last 6: Sat 9p | Fri - | Thu - | Wed - | Tue 9p | Mon -
+  Middle Reliever: Brandon Eisert (L) -- 5.17 ERA, 24.3% K%
+    Usage last 6: Sat 27p | Fri - | Thu - | Wed - | Tue 21p | Mon -
 
 WEATHER
   wx:68.7F Partly cloudy wind:11.2mph NW 0%rain
@@ -534,18 +638,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- HOU
   Closer: Josh Hader (L) -- 0.00 ERA, 43.8% K%, 2 SV
     Usage last 6: Sat - | Fri 20p(Sv) | Thu - | Wed 11p | Tue - | Mon 12p(W)
-  Setup: Bryan King (L) -- 2.37 ERA, 18.3% K%, 6 SV, 6 HLD
+  Setup Man: Bryan King (L) -- 2.37 ERA, 18.3% K%, 6 SV, 6 HLD
     Usage last 6: Sat 17p(W) | Fri 18p(H) | Thu - | Wed 3p | Tue - | Mon 12p
-  Setup: Bryan Abreu (R) -- 6.56 ERA, 27.4% K%, 5 SV, 5 HLD
+  Setup Man: Bryan Abreu (R) -- 6.56 ERA, 27.4% K%, 5 SV, 5 HLD
     Usage last 6: Sat 8p(Sv) | Fri - | Thu - | Wed 7p(L) | Tue - | Mon 8p(Sv)
+  Middle Reliever: Enyel De Los Santos (R) -- 4.50 ERA, 23.2% K%, 4 SV, 5 HLD
+    Usage last 6: Sat 16p(BS) | Fri 27p | Thu - | Wed 13p | Tue - | Mon 25p
+  Middle Reliever: Steven Okert (L) -- 2.78 ERA, 20.6% K%, 7 HLD
+    Usage last 6: Sat - | Fri 28p | Thu - | Wed - | Tue - | Mon -
+  Middle Reliever: Nate Pearson (R) -- 3.12 ERA, 22.9% K%, 1 SV
+    Usage last 6: Sat - | Fri 15p(W) | Thu - | Wed - | Tue - | Mon -
 
 BULLPEN -- KC
   Closer: Alex Lange (R) -- 4.13 ERA, 24.6% K%, 4 SV, 1 HLD
     Usage last 6: Sat 31p(L) | Fri - | Thu - | Wed 32p(L) | Tue 19p(Sv) | Mon -
-  Setup: Lucas Erceg (R) -- 5.81 ERA, 17.7% K%, 12 SV, 2 HLD
+  Closer Committee: John Schreiber (R) -- 2.83 ERA, 18.1% K%, 1 SV, 4 HLD
+    Usage last 6: Sat 28p | Fri - | Thu - | Wed 18p | Tue 10p(H) | Mon -
+  Setup Man: Lucas Erceg (R) -- 5.81 ERA, 17.7% K%, 12 SV, 2 HLD
     Usage last 6: Sat - | Fri 43p | Thu - | Wed 16p(H) | Tue - | Mon -
-  Setup: Daniel Lynch IV (L) -- 1.86 ERA, 24.8% K%, 1 SV, 9 HLD
+  Setup Man: Daniel Lynch IV (L) -- 1.86 ERA, 24.8% K%, 1 SV, 9 HLD
     Usage last 6: Sat 13p(H) | Fri - | Thu - | Wed 17p(BS) | Tue 13p(H) | Mon -
+  Middle Reliever: Matt Strahm (L) -- 5.40 ERA, 19.1% K%, 9 HLD
+    Usage last 6: Sat 8p(BS) | Fri 14p | Thu - | Wed 21p(BS) | Tue - | Mon -
+  Middle Reliever: Steven Cruz (R) -- 5.95 ERA, 29.5% K%
+    Usage last 6: Sat - | Fri 21p | Thu - | Wed 19p | Tue 10p(W) | Mon -
 
 WEATHER
   wx:74.6F Clear sky wind:11.0mph N 0%rain
@@ -596,18 +712,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- PHI
   Closer: Jhoan Duran (R) -- 1.90 ERA, 38.5% K%, 18 SV
     Usage last 6: Sat 11p(Sv) | Fri - | Thu - | Wed 10p(Sv) | Tue 8p(L,B) | Mon 9p(Sv)
-  Setup: Brad Keller (R) -- 4.15 ERA, 23.7% K%, 3 SV, 13 HLD
+  Setup Man: Brad Keller (R) -- 4.15 ERA, 23.7% K%, 3 SV, 13 HLD
     Usage last 6: Sat 32p | Fri - | Thu - | Wed 3p(H) | Tue - | Mon 20p(H)
-  Setup: José Alvarado (L) -- 5.76 ERA, 27.5% K%, 1 SV, 8 HLD
+  Setup Man: José Alvarado (L) -- 5.76 ERA, 27.5% K%, 1 SV, 8 HLD
     Usage last 6: Sat 15p | Fri - | Thu - | Wed 19p(H) | Tue 12p | Mon -
+  Middle Reliever: Orion Kerkering (R) -- 2.03 ERA, 25.9% K%, 1 SV, 5 HLD
+    Usage last 6: Sat 17p | Fri - | Thu - | Wed - | Tue 22p | Mon -
+  Middle Reliever: Jonathan Bowlan (R) -- 3.92 ERA, 25.3% K%, 1 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed 4p | Tue - | Mon -
+  Middle Reliever: Tanner Banks (L) -- 6.20 ERA, 23.8% K%, 2 HLD
+    Usage last 6: Sat - | Fri 28p(L) | Thu - | Wed - | Tue - | Mon -
 
 BULLPEN -- MIL
   Closer: Trevor Megill (R) -- 4.32 ERA, 32.1% K%, 8 SV, 6 HLD
     Usage last 6: Sat 16p | Fri - | Thu - | Wed 17p | Tue - | Mon -
-  Setup: Abner Uribe (R) -- 3.80 ERA, 25.0% K%, 5 SV, 7 HLD
+  Setup Man: Abner Uribe (R) -- 3.80 ERA, 25.0% K%, 5 SV, 7 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue - | Mon 15p(W)
-  Setup: Aaron Ashby (L) -- 2.85 ERA, 31.6% K%, 2 HLD
+  Setup Man: Aaron Ashby (L) -- 2.85 ERA, 31.6% K%, 2 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed 20p | Tue - | Mon 36p
+  Middle Reliever: Grant Anderson (R) -- 2.76 ERA, 21.1% K%, 5 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue - | Mon 28p
+  Middle Reliever: Joel Kuhnel (R) -- 4.40 ERA, 16.4% K%, 4 SV, 4 HLD
+    Usage last 6: Sat 12p | Fri - | Thu - | Wed - | Tue 23p | Mon 20p
+  Middle Reliever: Drew Rom (L) -- 4.50 ERA, 36.8% K%
+    Usage last 6: Sat 32p | Fri - | Thu - | Wed - | Tue - | Mon 25p
 
 WEATHER
   wx:69.1F Mainly clear wind:15.6mph NW 0%rain (retractable — check roof status for park factor)
@@ -659,14 +787,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- STL
   Closer: Riley O'Brien (R) -- 3.86 ERA, 24.8% K%, 17 SV, 1 HLD
     Usage last 6: Sat 31p | Fri - | Thu - | Wed - | Tue - | Mon -
-  Setup: George Soriano (R) -- 2.83 ERA, 20.5% K%, 2 SV, 9 HLD
+  Setup Man: George Soriano (R) -- 2.83 ERA, 20.5% K%, 2 SV, 9 HLD
     Usage last 6: Sat - | Fri 8p | Thu 8p | Wed - | Tue - | Mon -
-  Setup: JoJo Romero (L) -- 3.41 ERA, 23.5% K%, 17 HLD
+  Setup Man: JoJo Romero (L) -- 3.41 ERA, 23.5% K%, 17 HLD
     Usage last 6: Sat 4p | Fri - | Thu 23p(L) | Wed 14p | Tue - | Mon -
+  Middle Reliever: Ryne Stanek (R) -- 5.40 ERA, 26.4% K%, 1 SV, 11 HLD
+    Usage last 6: Sat 9p | Fri 23p(L,B) | Thu - | Wed - | Tue - | Mon -
+  Middle Reliever: Gordon Graceffo (R) -- 2.14 ERA, 13.4% K%, 1 SV, 4 HLD
+    Usage last 6: Sat - | Fri 13p(H) | Thu 9p | Wed - | Tue - | Mon -
+  Middle Reliever: Justin Bruihl (L) -- 4.55 ERA, 15.6% K%, 5 HLD
+    Usage last 6: Sat - | Fri - | Thu 10p | Wed - | Tue 21p | Mon -
 
 BULLPEN -- MIN
-  Closer: Yoendrys Gómez (R) -- 4.13 ERA, 21.8% K%, 5 SV, 5 HLD
+  Closer Committee: Yoendrys Gómez (R) -- 4.13 ERA, 21.8% K%, 5 SV, 5 HLD
     Usage last 6: Sat - | Fri 15p | Thu - | Wed 27p(Sv) | Tue - | Mon -
+  Closer Committee: Anthony Banda (L) -- 4.55 ERA, 20.6% K%, 1 SV, 9 HLD
+    Usage last 6: Sat - | Fri 9p(W) | Thu - | Wed 30p(H) | Tue - | Mon -
+  Closer Committee: Andrew Morris (R) -- 5.10 ERA, 22.1% K%, 2 SV, 5 HLD
+    Usage last 6: Sat - | Fri 9p(Sv) | Thu - | Wed 39p | Tue - | Mon -
+  Closer Committee: Travis Adams (R) -- 6.89 ERA, 23.9% K%, 2 SV, 1 HLD
+    Usage last 6: Sat 37p | Fri - | Thu - | Wed 31p(H) | Tue - | Mon -
+  Middle Reliever: Taylor Rogers (L) -- 5.33 ERA, 19.3% K%, 2 SV, 6 HLD
+    Usage last 6: Sat - | Fri 22p(H) | Thu - | Wed 14p(W) | Tue 17p | Mon -
+  Middle Reliever: Eric Orze (R) -- 5.06 ERA, 20.0% K%, 1 SV, 6 HLD
+    Usage last 6: Sat - | Fri 16p(BS) | Thu - | Wed - | Tue 23p | Mon -
 
 WEATHER
   wx:68.5F Clear sky wind:14.8mph NW 0%rain
@@ -718,14 +862,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- COL
   Closer: Antonio Senzatela (R) -- 2.11 ERA, 21.5% K%, 3 SV, 2 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed 14p(W,B) | Tue 22p | Mon -
-  Setup: Juan Mejia (R) -- 5.97 ERA, 24.5% K%, 3 SV, 4 HLD
+  Setup Man: Juan Mejia (R) -- 5.97 ERA, 24.5% K%, 3 SV, 4 HLD
     Usage last 6: Sat 18p | Fri - | Thu - | Wed 10p | Tue - | Mon -
-  Setup: Seth Halvorsen (R) -- 3.31 ERA, 20.8% K%, 2 HLD
+  Setup Man: Seth Halvorsen (R) -- 3.31 ERA, 20.8% K%, 2 HLD
     Usage last 6: Sat 25p | Fri 22p | Thu - | Wed - | Tue 14p | Mon -
+  Middle Reliever: Brennan Bernardino (L) -- 4.18 ERA, 18.2% K%, 3 HLD
+    Usage last 6: Sat - | Fri 9p | Thu - | Wed 15p | Tue 11p | Mon -
+  Middle Reliever: Jaden Hill (R) -- 5.32 ERA, 21.9% K%, 11 HLD
+    Usage last 6: Sat 16p | Fri - | Thu - | Wed - | Tue 14p | Mon -
+  Middle Reliever: Eiberson Castellano (R) -- -- ERA, -- K%
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue - | Mon -
 
 BULLPEN -- ATH
-  Closer: Elvis Alvarado (R) -- 5.40 ERA, 32.3% K%, 2 SV, 4 HLD
+  Closer Committee: Elvis Alvarado (R) -- 5.40 ERA, 32.3% K%, 2 SV, 4 HLD
     Usage last 6: Sat 19p(Sv) | Fri - | Thu - | Wed 14p(Sv) | Tue 20p(H) | Mon -
+  Closer Committee: Hogan Harris (L) -- 2.67 ERA, 25.8% K%, 6 SV, 10 HLD
+    Usage last 6: Sat - | Fri 21p(Sv) | Thu - | Wed 17p(H) | Tue - | Mon 35p(BS)
+  Closer Committee: Mason Barnett (R) -- 0.00 ERA, 37.1% K%, 1 SV
+    Usage last 6: Sat - | Fri 12p(W) | Thu - | Wed - | Tue 31p(Sv) | Mon -
+  Middle Reliever: Mark Leiter Jr. (R) -- 5.02 ERA, 25.2% K%, 4 SV, 5 HLD
+    Usage last 6: Sat 13p(H) | Fri - | Thu - | Wed - | Tue - | Mon 23p(H)
+  Middle Reliever: Justin Sterner (R) -- 3.38 ERA, 23.4% K%, 1 SV, 11 HLD
+    Usage last 6: Sat - | Fri 15p(BS) | Thu - | Wed - | Tue - | Mon 7p(H)
+  Middle Reliever: Scott Barlow (R) -- 4.11 ERA, 18.8% K%, 2 SV, 10 HLD
+    Usage last 6: Sat 12p(H) | Fri - | Thu - | Wed 14p(W) | Tue - | Mon 18p
 
 WEATHER
   wx:86.7F Clear sky wind:7.8mph SW 0%rain
@@ -774,18 +934,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- CHC
   Closer: Daniel Palencia (R) -- 2.87 ERA, 23.9% K%, 3 SV
     Usage last 6: Sat - | Fri - | Thu - | Wed 18p(L) | Tue - | Mon -
-  Setup: Jacob Webb (R) -- 2.76 ERA, 27.8% K%, 1 SV, 4 HLD
+  Setup Man: Jacob Webb (R) -- 2.76 ERA, 27.8% K%, 1 SV, 4 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed 12p(BS) | Tue - | Mon -
-  Setup: Caleb Thielbar (L) -- 3.50 ERA, 26.7% K%, 2 SV, 3 HLD
+  Setup Man: Caleb Thielbar (L) -- 3.50 ERA, 26.7% K%, 2 SV, 3 HLD
     Usage last 6: Sat 23p | Fri - | Thu - | Wed 20p(H) | Tue - | Mon -
+  Middle Reliever: Hoby Milner (L) -- 3.86 ERA, 11.8% K%, 1 SV, 5 HLD
+    Usage last 6: Sat - | Fri 14p | Thu 10p | Wed - | Tue 12p | Mon -
+  Middle Reliever: Phil Maton (R) -- 6.17 ERA, 23.6% K%, 5 HLD
+    Usage last 6: Sat 21p | Fri - | Thu 8p(H) | Wed 12p(H) | Tue - | Mon -
+  Middle Reliever: Ryan Rolison (L) -- 2.25 ERA, 25.0% K%
+    Usage last 6: Sat - | Fri - | Thu 17p | Wed - | Tue 20p | Mon -
 
 BULLPEN -- SF
   Closer: Caleb Kilian (R) -- 3.23 ERA, 26.6% K%, 4 SV, 3 HLD
     Usage last 6: Sat 15p | Fri - | Thu - | Wed - | Tue - | Mon -
-  Setup: Ryan Walker (R) -- 5.71 ERA, 18.8% K%, 3 SV, 2 HLD
+  Setup Man: Ryan Walker (R) -- 5.71 ERA, 18.8% K%, 3 SV, 2 HLD
     Usage last 6: Sat 11p | Fri 16p | Thu - | Wed - | Tue - | Mon -
-  Setup: Erik Miller (L) -- 4.58 ERA, 29.3% K%, 2 SV, 8 HLD
+  Setup Man: Erik Miller (L) -- 4.58 ERA, 29.3% K%, 2 SV, 8 HLD
     Usage last 6: Sat - | Fri 9p | Thu - | Wed - | Tue 14p | Mon -
+  Middle Reliever: Dylan Smith (R) -- 0.00 ERA, 31.6% K%, 1 SV
+    Usage last 6: Sat 22p | Fri - | Thu - | Wed - | Tue 23p | Mon 3p
+  Middle Reliever: Sam Hentges (L) -- 1.59 ERA, 23.6% K%, 1 HLD
+    Usage last 6: Sat 17p | Fri 12p | Thu - | Wed - | Tue 26p | Mon -
+  Middle Reliever: JT Brubaker (R) -- 3.00 ERA, 17.6% K%, 1 HLD
+    Usage last 6: Sat - | Fri 21p | Thu - | Wed - | Tue 23p | Mon -
 
 WEATHER
   wx:65.3F Clear sky wind:13.0mph W 0%rain
@@ -833,18 +1005,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- TB
   Closer: Bryan Baker (R) -- 1.98 ERA, 27.5% K%, 18 SV, 1 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 13p(Sv) | Mon 12p(Sv)
-  Setup: Kevin Kelly (R) -- 2.43 ERA, 20.0% K%, 2 SV, 14 HLD
+  Setup Man: Kevin Kelly (R) -- 2.43 ERA, 20.0% K%, 2 SV, 14 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 6p(H) | Mon 16p(H)
-  Setup: Garrett Cleavinger (L) -- 5.74 ERA, 31.0% K%, 2 SV, 8 HLD
+  Setup Man: Garrett Cleavinger (L) -- 5.74 ERA, 31.0% K%, 2 SV, 8 HLD
     Usage last 6: Sat 10p | Fri - | Thu - | Wed 23p(Sv) | Tue - | Mon 13p(H)
+  Middle Reliever: Casey Legumina (R) -- 3.07 ERA, 18.0% K%, 3 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed 2p(H) | Tue - | Mon 12p(W)
+  Middle Reliever: Craig Kimbrel (R) -- 5.94 ERA, 25.0% K%, 1 HLD
+    Usage last 6: Sat 17p | Fri - | Thu - | Wed - | Tue - | Mon -
+  Middle Reliever: Cam Booser (L) -- 0.00 ERA, 35.0% K%, 1 HLD
+    Usage last 6: Sat 24p | Fri - | Thu - | Wed - | Tue - | Mon 10p(H)
 
 BULLPEN -- LAA
   Closer: Kirby Yates (R) -- 4.38 ERA, 30.2% K%, 1 SV
     Usage last 6: Sat 9p | Fri - | Thu - | Wed - | Tue 12p | Mon 24p(BS)
-  Setup: Sam Bachman (R) -- 1.99 ERA, 26.8% K%, 11 HLD
+  Setup Man: Sam Bachman (R) -- 1.99 ERA, 26.8% K%, 11 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed 9p | Tue - | Mon 16p(H)
-  Setup: Chase Silseth (R) -- 1.82 ERA, 24.3% K%, 6 HLD
+  Setup Man: Chase Silseth (R) -- 1.82 ERA, 24.3% K%, 6 HLD
     Usage last 6: Sat - | Fri 16p(H) | Thu - | Wed 15p(BS) | Tue - | Mon -
+  Middle Reliever: Drew Pomeranz (L) -- 5.06 ERA, 16.0% K%, 7 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed - | Tue 6p | Mon -
+  Middle Reliever: Ryan Zeferjahn (R) -- 5.06 ERA, 27.9% K%, 2 SV, 5 HLD
+    Usage last 6: Sat - | Fri 9p(Sv) | Thu - | Wed 21p(W) | Tue - | Mon 25p
+  Middle Reliever: Brent Suter (L) -- 4.42 ERA, 20.5% K%, 3 HLD
+    Usage last 6: Sat 16p | Fri - | Thu - | Wed - | Tue 35p | Mon -
 
 WEATHER
   wx:81.5F Clear sky wind:7.4mph SW 0%rain
@@ -895,18 +1079,30 @@ LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time
 BULLPEN -- TEX
   Closer: Jacob Latz (L) -- 1.69 ERA, 28.4% K%, 10 SV, 2 HLD
     Usage last 6: Sat - | Fri - | Thu 15p(W) | Wed 17p(Sv) | Tue - | Mon -
-  Setup: Jakob Junis (R) -- 1.57 ERA, 18.5% K%, 4 SV, 6 HLD
+  Setup Man: Jakob Junis (R) -- 1.57 ERA, 18.5% K%, 4 SV, 6 HLD
     Usage last 6: Sat - | Fri - | Thu - | Wed 21p(W) | Tue - | Mon -
-  Setup: Cole Winn (R) -- 5.82 ERA, 25.5% K%, 1 SV, 6 HLD
+  Setup Man: Cole Winn (R) -- 5.82 ERA, 25.5% K%, 1 SV, 6 HLD
     Usage last 6: Sat 18p(L) | Fri - | Thu 12p(H) | Wed - | Tue 8p | Mon -
+  Middle Reliever: Tyler Alexander (L) -- 3.21 ERA, 18.0% K%, 2 SV, 6 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed 11p | Tue - | Mon -
+  Middle Reliever: Robby Ahlstrom (L) -- 0.00 ERA, 18.2% K%
+    Usage last 6: Sat 19p | Fri - | Thu 14p | Wed - | Tue 14p | Mon -
+  Middle Reliever: Peyton Gray (R) -- 4.03 ERA, 21.2% K%, 2 HLD
+    Usage last 6: Sat 19p | Fri - | Thu - | Wed 20p | Tue - | Mon -
 
 BULLPEN -- BOS
   Closer: Aroldis Chapman (L) -- 0.44 ERA, 34.6% K%, 14 SV
     Usage last 6: Sat 15p(Sv) | Fri - | Thu - | Wed - | Tue - | Mon -
-  Setup: Garrett Whitlock (R) -- 2.91 ERA, 30.7% K%, 9 HLD
+  Setup Man: Garrett Whitlock (R) -- 2.91 ERA, 30.7% K%, 9 HLD
     Usage last 6: Sat 11p(W) | Fri - | Thu - | Wed - | Tue 17p | Mon -
-  Setup: Justin Slaten (R) -- 6.75 ERA, 27.9% K%, 7 HLD
+  Setup Man: Justin Slaten (R) -- 6.75 ERA, 27.9% K%, 7 HLD
     Usage last 6: Sat 16p | Fri - | Thu - | Wed 19p | Tue - | Mon -
+  Middle Reliever: Greg Weissert (R) -- 3.86 ERA, 24.1% K%, 4 HLD
+    Usage last 6: Sat - | Fri - | Thu - | Wed 3p | Tue - | Mon 17p
+  Middle Reliever: Tommy Kahnle (R) -- 0.00 ERA, 18.8% K%
+    Usage last 6: Sat - | Fri 10p | Thu - | Wed - | Tue 15p | Mon -
+  Middle Reliever: Danny Coulombe (L) -- 5.65 ERA, 14.5% K%, 5 HLD
+    Usage last 6: Sat 6p(H) | Fri 14p | Thu - | Wed - | Tue - | Mon 22p
 
 WEATHER
   wx:83.5F Overcast wind:14.7mph S 2%rain

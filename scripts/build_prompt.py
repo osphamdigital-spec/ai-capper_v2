@@ -1104,20 +1104,29 @@ def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict, gm_li_data: dict | N
             f"    Usage last 6: {_usage_str(r.get('usage_last6', []))}",
         ]
 
+    # Role priority order for selection. Any role containing "IL" is excluded.
+    ROLE_ORDER = [
+        "Closer",
+        "Closer Committee",
+        "Setup Man",
+        "Middle Reliever",
+        "Long Reliever",
+    ]
+    MAX_ARMS = 6
+
+    def _role_rank(role: str) -> int:
+        for i, r in enumerate(ROLE_ORDER):
+            if r in role:
+                return i
+        return len(ROLE_ORDER)  # unknown roles sort last
+
+    # Exclude IL arms, then sort by priority, then cap at MAX_ARMS
+    available = [r for r in relievers if "IL" not in r.get("role", "")]
+    selected  = sorted(available, key=lambda r: _role_rank(r.get("role", "")))[:MAX_ARMS]
+
     lines = []
-
-    # Closer (use first "Closer" match, falling back to any "Closer*" role)
-    closer = next((r for r in relievers if r["role"] == "Closer"), None)
-    if not closer:
-        closer = next((r for r in relievers if "Closer" in r["role"]), None)
-    if closer:
-        lines.extend(_reliever_lines(closer, "Closer"))
-
-    # Up to 2 setup men
-    for r in [r for r in relievers if "Setup" in r["role"]][:2]:
-        lines.extend(_reliever_lines(r, "Setup"))
-
-    # Taxed: any reliever with 30+ pitches in either of the last 2 days
+    for r in selected:
+        lines.extend(_reliever_lines(r, r.get("role", "Reliever")))
 
     return lines
 

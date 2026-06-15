@@ -493,7 +493,7 @@ def fmt_lineups(lineups: dict | None, away_abbr: str, home_abbr: str) -> list:
 
     if away_status == "not_yet_confirmed" and home_status == "not_yet_confirmed":
         return [
-            "LINEUPS: not yet confirmed — run fetch_lineups.py closer to game time",
+            "LINEUPS: not yet confirmed",
             "",
         ]
 
@@ -631,9 +631,9 @@ def fmt_line_move(opening: dict, current_snap: dict | None) -> str | None:
     if not opening or not current_snap:
         return None
 
-    # Same timestamp = only one fetch today, nothing to compare yet
+    # Same timestamp = only one fetch today, nothing to compare yet — suppress line entirely
     if opening.get("fetched_at") == current_snap.get("fetched_at"):
-        return "  Line move : no movement yet — re-run fetch_odds.py closer to game time"
+        return None
 
     # Compare moneyline — report each side that changed
     o_ml = opening.get("moneyline", {})
@@ -994,6 +994,92 @@ def _fmt_platoon_matchup(
     return lines
 
 
+def _fmt_pitcher_oneline(
+    pitcher: dict | None,
+    side: str,
+    season_pitchers: dict,
+    last14_pitchers: dict,
+    stuff_plus: dict | None = None,
+) -> str:
+    """
+    Collapse the 4-line pitcher block into a single pipe-delimited line.
+    Preserves every value: ERA/FIP/xERA/K9/Whiff/HH%/Brl%/IP,
+    AGG xFIP/SIERA/K-BB%/Stf+/IP, L14 xFIP/SIERA/K9/BB9/IP/[sm], L3 starts.
+    """
+    if not pitcher or not pitcher.get("name"):
+        return f"  {side}: TBD"
+
+    def _f(v, spec=".2f"):
+        return format(v, spec) if v is not None else "--"
+
+    name = pitcher["name"]
+    hand = pitcher.get("hand") or "?"
+    w    = pitcher.get("wins")
+    l    = pitcher.get("losses")
+    wl   = f"{w}-{l}" if (w is not None and l is not None) else "?-?"
+    ip   = pitcher.get("innings_pitched")
+
+    # ── Segment 1: season Savant stats ────────────────────────────────────────
+    era  = _f(pitcher.get("era"))
+    fip  = pitcher.get("fip")
+    xera = _f(pitcher.get("xera"))
+    k9   = _f(pitcher.get("k_per_9"), ".1f")
+    hh   = _f(pitcher.get("hard_hit_pct"), ".1f")
+    brl  = _f(pitcher.get("barrel_pct"), ".1f")
+    whiff = pitcher.get("whiff_rate")
+    whiff_part = f" Whiff:{_f(whiff, '.1f')}%" if whiff is not None else ""
+    fip_part   = f" FIP {_f(fip)}" if fip is not None else ""
+    ip_part    = f"{ip}IP" if ip is not None else "--IP"
+    seg1 = f"ERA {era}{fip_part} xERA {xera} K/9 {k9}{whiff_part} HH% {hh} Brl% {brl} {ip_part}"
+    if pitcher.get("small_sample"):
+        seg1 += " [sm]"
+
+    segments = [f"  {side}: {name} {hand}HP {wl}", seg1]
+
+    # ── Segment 2: FanGraphs AGG (season xFIP/SIERA) ─────────────────────────
+    season_key = fuzzy_match_player(name, season_pitchers)
+    if season_key:
+        s     = season_pitchers[season_key]
+        xfip  = _f(s.get("xfip"))
+        siera = _f(s.get("siera"))
+        kbb   = f"{s['k_bb_pct'] * 100:.1f}%" if s.get("k_bb_pct") is not None else "--"
+        s_ip  = s.get("ip", "--")
+        stf_key  = fuzzy_match_player(name, stuff_plus or {})
+        stf_val  = (stuff_plus or {}).get(stf_key) if stf_key else None
+        stf_part = f" Stf+:{int(stf_val)}" if stf_val is not None else ""
+        segments.append(f"AGG xFIP {xfip} SIERA {siera} K-BB%:{kbb}{stf_part} {s_ip}IP")
+    else:
+        season_key = None  # explicit for L14 fallback check
+
+    # ── Segment 3: FanGraphs L14 ──────────────────────────────────────────────
+    last14_key = fuzzy_match_player(name, last14_pitchers)
+    if last14_key:
+        s14 = last14_pitchers[last14_key]
+        l14_ip = s14.get("ip") or 0
+        if l14_ip >= 3:
+            sm_flag = " [sm]" if l14_ip < 12 else ""
+            segments.append(
+                f"L14 xFIP {_f(s14.get('xfip'))} SIERA {_f(s14.get('siera'))}"
+                f" K/9:{_f(s14.get('k9'), '.1f')} BB/9:{_f(s14.get('bb9'), '.1f')}"
+                f" {l14_ip}IP{sm_flag}"
+            )
+    elif season_key:
+        segments.append("L14 no data")
+
+    # ── Segment 4: last-3 starts ──────────────────────────────────────────────
+    recent = pitcher.get("recent_starts")
+    if recent and recent.get("starts"):
+        starts    = recent["starts"]
+        has_kb    = any("k" in s and "bb" in s for s in starts)
+        if has_kb:
+            parts = [f"{s['ip']}/{s['er']}/{s.get('k','-')}/{s.get('bb','-')}" for s in starts]
+        else:
+            parts = [f"{s['ip']}/{s['er']}" for s in starts]
+        segments.append(f"L3 {';'.join(parts)}")
+
+    return " | ".join(segments)
+
+
 def _fmt_starter_advanced_lines(
     pitcher: dict | None,
     season_pitchers: dict,
@@ -1198,7 +1284,8 @@ def _fmt_park_factors_block(
 # GAME BLOCK BUILDER
 # ─────────────────────────────────────────────────────────────────────────────
 
-def build_game_block(game: dict, i: int, total: int, sport: str, static_data: dict | None = None) -> str:
+def build_game_block(game: dict, i: int, total: int, sport: str, static_data: dict | None = None,
+                     hoist_lineups: bool = False, hoist_umpire: bool = False) -> str:
     """
     Build the complete data block for one game. Returns a multi-line string.
 
@@ -1221,14 +1308,11 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
     time_str = fmt_time(game["commence_et"])
 
     # Venue info lives in the weather context block (that's where stadium data is stored)
-    weather    = ctx.get("weather") or {}
-    venue      = weather.get("venue", "Venue TBD")
-    city       = weather.get("city", "")
-    venue_city = f"{venue}, {city}" if city else venue
+    weather = ctx.get("weather") or {}
+    venue   = weather.get("venue", "Venue TBD")
 
-    # Compact game header — no decorative DIVIDER, number only (2a)
     lines = [
-        f"GAME {i}: {away['abbr']} @ {home['abbr']}  {time_str} ET  {venue_city}",
+        f"GAME {i}: {away['abbr']} @ {home['abbr']}  {time_str} ET  {venue}",
         "",
     ]
 
@@ -1337,42 +1421,30 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
 
     # Emit any data-quality flags BEFORE the stat line so they are impossible
     # to miss. Flags are set by fetch_pitchers.py on late re-runs.
+    sd = static_data or {}
     lines.extend(fmt_pitcher_flags(ctx.get("pitcher_away")))
-    lines.append(fmt_pitcher(ctx.get("pitcher_away"), "Away"))
-    if static_data:
-        lines.extend(_fmt_starter_advanced_lines(
-            ctx.get("pitcher_away"),
-            static_data.get("pitchers_season", {}),
-            static_data.get("pitchers_l14", {}),
-            static_data.get("stuff_plus", {}),
-        ))
-    rs_away = fmt_recent_starts(ctx.get("pitcher_away"))
-    if rs_away:
-        lines.append(rs_away)
+    lines.append(_fmt_pitcher_oneline(
+        ctx.get("pitcher_away"), "Away",
+        sd.get("pitchers_season", {}), sd.get("pitchers_l14", {}), sd.get("stuff_plus", {}),
+    ))
     if away_tbd:
         lines.append("  NOTE: TBD starter -- pass on this game unless starter confirmed before your submission. Do not estimate edge without confirmed pitcher data.")
     lines.extend(fmt_pitcher_flags(ctx.get("pitcher_home")))
-    lines.append(fmt_pitcher(ctx.get("pitcher_home"), "Home"))
-    if static_data:
-        lines.extend(_fmt_starter_advanced_lines(
-            ctx.get("pitcher_home"),
-            static_data.get("pitchers_season", {}),
-            static_data.get("pitchers_l14", {}),
-            static_data.get("stuff_plus", {}),
-        ))
-    rs_home = fmt_recent_starts(ctx.get("pitcher_home"))
-    if rs_home:
-        lines.append(rs_home)
+    lines.append(_fmt_pitcher_oneline(
+        ctx.get("pitcher_home"), "Home",
+        sd.get("pitchers_season", {}), sd.get("pitchers_l14", {}), sd.get("stuff_plus", {}),
+    ))
     if home_tbd:
         lines.append("  NOTE: TBD starter -- pass on this game unless starter confirmed before your submission. Do not estimate edge without confirmed pitcher data.")
     lines.append("")
 
     # ── Lineups ───────────────────────────────────────────────────────────────
     # Only shown when fetch_lineups.py has run — omitted silently otherwise.
-    # Confirmed lineups usually post 2-3 hours before first pitch.
-    lineup_lines = fmt_lineups(ctx.get("lineups"), away["abbr"], home["abbr"])
-    if lineup_lines:
-        lines.extend(lineup_lines)
+    # When all games are unconfirmed, hoist_lineups=True suppresses per-game block.
+    if not hoist_lineups:
+        lineup_lines = fmt_lineups(ctx.get("lineups"), away["abbr"], home["abbr"])
+        if lineup_lines:
+            lines.extend(lineup_lines)
 
     # ── Bullpen ───────────────────────────────────────────────────────────────
     # Priority: static Bullpen.txt data (richer) > fetch_bullpen.py output.
@@ -1416,8 +1488,10 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
         ))
 
     # ── Umpire ────────────────────────────────────────────────────────────────
-    lines.append(f"PLATE UMPIRE: {fmt_umpire(ctx.get('umpire'))}")
-    lines.append("")
+    # When all games are unassigned, hoist_umpire=True suppresses per-game line.
+    if not hoist_umpire:
+        lines.append(f"PLATE UMPIRE: {fmt_umpire(ctx.get('umpire'))}")
+        lines.append("")
 
     return "\n".join(lines)
 
@@ -1505,6 +1579,40 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
         "",
     ]
 
+    # ── Detect global boilerplate to hoist ───────────────────────────────────
+    # Lineups: if fetch_lineups.py ran for ANY game and ALL statuses are unconfirmed,
+    # say it once in the header and suppress per-game LINEUPS blocks.
+    def _lineup_status(g):
+        lu = (g.get("context") or {}).get("lineups")
+        if lu is None:
+            return None  # never fetched
+        away_s = lu.get("away", {}).get("status", "not_yet_confirmed")
+        home_s = lu.get("home", {}).get("status", "not_yet_confirmed")
+        if away_s == "not_yet_confirmed" and home_s == "not_yet_confirmed":
+            return "unconfirmed"
+        return "confirmed"
+
+    statuses = [_lineup_status(g) for g in games]
+    lineups_fetched = any(s is not None for s in statuses)
+    all_lineups_unconfirmed = lineups_fetched and all(s in (None, "unconfirmed") for s in statuses)
+
+    # Umpires: if ALL games have no umpire assigned, say it once in header.
+    def _umpire_assigned(g):
+        u = (g.get("context") or {}).get("umpire")
+        return bool(u and u.get("name"))
+
+    all_umpires_unassigned = not any(_umpire_assigned(g) for g in games)
+
+    if all_lineups_unconfirmed:
+        parts.append("[All lineups unconfirmed at build time — run fetch_lineups.py closer to game time]")
+        parts.append("")
+    if all_umpires_unassigned:
+        parts.append("[Plate umpires not yet assigned for this slate]")
+        parts.append("")
+
+    hoist_lu  = all_lineups_unconfirmed
+    hoist_ump = all_umpires_unassigned
+
     # Instructions, staking rules, output format and model-specific text all
     # live in build_system_prompt() / system_{model}.md — NOT in this file.
     # ─────────────────────────────────────────────────────────────────────────
@@ -1512,7 +1620,8 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
     # ─────────────────────────────────────────────────────────────────────────
     # ── Game blocks ───────────────────────────────────────────────────────────
     for i, game in enumerate(games, start=1):
-        parts.append(build_game_block(game, i, len(games), sport, static_data=static_data))
+        parts.append(build_game_block(game, i, len(games), sport, static_data=static_data,
+                                      hoist_lineups=hoist_lu, hoist_umpire=hoist_ump))
 
     parts.append("")
     parts.append("BEFORE SUBMITTING: verify each bet clears the 4-pt minimum edge gate.")

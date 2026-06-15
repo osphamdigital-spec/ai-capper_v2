@@ -1428,16 +1428,33 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
 
 def load_model_instruction(model_name: str, project_root: Path) -> str | None:
     """
-    Load the model's self-authored method from docs/methods/method_{model}_v1.md.
+    Load the model's self-authored method, selecting the highest version that exists.
 
-    Returns the full file content (stripped), or None if the file does not exist.
+    Scans docs/methods/ for method_{model}_v{N}.md files and loads the one with
+    the largest N. Falls back to v1, then returns None if no version exists.
     A missing method file is not an error — the prompt still builds, the model
     simply has no method appended until it self-authors one.
     """
-    method_path = project_root / "docs" / "methods" / f"method_{model_name.lower()}_v1.md"
-    if not method_path.exists():
+    methods_dir = project_root / "docs" / "methods"
+    model_key   = model_name.lower()
+
+    # Find all versioned files for this model: method_{model}_v{N}.md
+    candidates = []
+    for f in methods_dir.glob(f"method_{model_key}_v*.md"):
+        # Extract version number from filename, e.g. method_deepseek_v2.md → 2
+        stem = f.stem  # e.g. "method_deepseek_v2"
+        try:
+            version = int(stem.rsplit("_v", 1)[1])
+            candidates.append((version, f))
+        except (IndexError, ValueError):
+            pass  # skip files that don't match the pattern
+
+    if not candidates:
         return None
-    return method_path.read_text(encoding="utf-8").strip()
+
+    # Load the highest version number
+    _, best_path = max(candidates, key=lambda x: x[0])
+    return best_path.read_text(encoding="utf-8").strip()
 
 
 # ─────────────────────────────────────────────────────────────────────────────

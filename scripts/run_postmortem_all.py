@@ -206,6 +206,13 @@ def main():
         "--sport", default="mlb",
         help="Sport code (default: mlb)."
     )
+    parser.add_argument(
+        "--rerun", action="store_true",
+        help=(
+            "Clear all per-model postmortem files for this date and re-run from scratch. "
+            "Use when previous run sent before fetch_results.py had populated scores."
+        )
+    )
     args = parser.parse_args()
 
     date  = args.date or today_et()
@@ -240,6 +247,21 @@ def main():
         print(f"  Or specify the correct date:")
         print(f"    python scripts/run_postmortem_all.py --date YYYY-MM-DD\n")
         sys.exit(1)
+
+    # --rerun: delete existing per-model postmortem files so the skip guard doesn't fire.
+    # This is the recovery path for "ran postmortem before fetch_results.py".
+    picks_dir_pm = PROJECT_ROOT / "picks" / sport / date
+    if args.rerun:
+        cleared = []
+        for model in AUTOMATED_MODELS:
+            per_model_file = picks_dir_pm / f"{model}_postmortem.txt"
+            if per_model_file.exists():
+                per_model_file.unlink()
+                cleared.append(model)
+        if cleared:
+            print(f"\n  --rerun: cleared existing postmortem files for: {', '.join(cleared)}")
+        else:
+            print(f"\n  --rerun: no existing postmortem files to clear.")
 
     print(f"\n{'=' * 60}")
     print(f"  RUN POST-MORTEM ALL  {sport.upper()}  {date}")

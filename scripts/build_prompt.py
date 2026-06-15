@@ -326,10 +326,7 @@ def fmt_bullpen(bullpen: dict | None, abbr: str) -> list:
     if not bullpen:
         return []
 
-    # ── Line 1: ERA and closer ────────────────────────────────────────────────
-    era = bullpen.get("team_bullpen_era")
-    era_part = f"ERA {era:.2f}" if era is not None else ""
-
+    # ── Line 1: closer ───────────────────────────────────────────────────────
     closer = bullpen.get("closer", {})
     closer_name = closer.get("name")
     if closer_name:
@@ -338,9 +335,7 @@ def fmt_bullpen(bullpen: dict | None, abbr: str) -> list:
     else:
         closer_part = "Closer: unknown"
 
-    # Join ERA and closer, skipping ERA if it wasn't fetched
-    stat_parts = [p for p in [era_part, closer_part] if p]
-    first_line = f"  {abbr}: {' | '.join(stat_parts)}"
+    first_line = f"  {abbr}: {closer_part}"
 
     # ── Line 2: Taxed relievers ───────────────────────────────────────────────
     taxed = bullpen.get("taxed_relievers", [])
@@ -1123,10 +1118,6 @@ def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict, gm_li_data: dict | N
         lines.extend(_reliever_lines(r, "Setup"))
 
     # Taxed: any reliever with 30+ pitches in either of the last 2 days
-    # Team bullpen ERA: mean ERA of all relievers with data
-    eras = [r["era"] for r in relievers if r.get("era") is not None]
-    if eras:
-        lines.append(f"  Bullpen ERA (season avg): {sum(eras) / len(eras):.2f}")
 
     return lines
 

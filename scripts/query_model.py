@@ -64,6 +64,7 @@ Appends (post-mortem mode):
 """
 
 import argparse
+import json
 import os
 import sys
 from datetime import datetime
@@ -1056,6 +1057,109 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
 # POST-MORTEM MODE
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _build_outcome_summaries(model: str, sport: str, date: str) -> str | None:
+    """
+    Build one OUTCOME line per game the model engaged with, using:
+      - picks/{sport}/{date}/{model}.json  (model's picks + graded results)
+      - results/{sport}/{date}/results.json  (final scores)
+
+    Returns a formatted block string, or None if either file is missing.
+    Only includes games present in the model's picks JSON (all games they saw).
+    Bets and leans listed first, passes after, sorted by action within groups.
+
+    NOTE: Starter IP/ER and "bullpen decisive" are not in the current data files.
+    The format uses scores + model's call + graded result, which is fully factual.
+    """
+    picks_path   = PROJECT_ROOT / "picks" / sport / date / f"{model}.json"
+    results_path = PROJECT_ROOT / "results" / sport / date / "results.json"
+
+    if not picks_path.exists() or not results_path.exists():
+        return None
+
+    try:
+        picks_data   = json.loads(picks_path.read_text(encoding="utf-8"))
+        results_data = json.loads(results_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+
+    # Build a lookup: game_id -> result record
+    result_by_id = {g["game_id"]: g for g in results_data.get("games", [])}
+
+    # Also build lookup by matchup string as fallback (away_abbr @ home_abbr)
+    result_by_matchup = {}
+    for g in results_data.get("games", []):
+        key = f"{g.get('away_abbr','')} @ {g.get('home_abbr','')}"
+        result_by_matchup[key] = g
+
+    picks = picks_data.get("picks", [])
+
+    # Sort: bets first, then leans, then passes (within each group keep original order)
+    ACTION_RANK = {"bet": 0, "lean": 1, "pass": 2}
+    picks_sorted = sorted(picks, key=lambda p: ACTION_RANK.get(p.get("action", "pass"), 2))
+
+    lines = []
+    for p in picks_sorted:
+        matchup   = p.get("matchup", "")
+        game_id   = p.get("game_id", "")
+        action    = p.get("action", "pass")
+        pick_side = p.get("pick_side")
+        price     = p.get("price")
+        result    = p.get("result")  # WIN / LOSS / PUSH / None (ungraded)
+
+        # Look up the final score
+        res = result_by_id.get(game_id) or result_by_matchup.get(matchup)
+        if res:
+            away  = res.get("away_abbr", "?")
+            home  = res.get("home_abbr", "?")
+            ascore = res.get("away_score")
+            hscore = res.get("home_score")
+            score_str = f"{away} {ascore} @ {home} {hscore}" if ascore is not None else matchup
+            winner_abbr = away if res.get("winner") == "away" else home
+        else:
+            score_str   = matchup
+            winner_abbr = "?"
+
+        # Resolve pick_side ("away"/"home") to team abbreviation using result data
+        def _side_to_abbr(side, result_record):
+            if not side or not result_record:
+                return side or "?"
+            if side == "away":
+                return result_record.get("away_abbr", side)
+            if side == "home":
+                return result_record.get("home_abbr", side)
+            return side  # already an abbr or unknown
+
+        # Build the "your call" portion
+        if action == "bet" and pick_side:
+            team_abbr  = _side_to_abbr(pick_side, res)
+            price_str  = f" {int(price):+d}" if isinstance(price, (int, float)) else (f" {price}" if price else "")
+            result_str = f" → {result.upper()}" if result else " → (ungraded)"
+            call = f"Bet: {team_abbr}{price_str}{result_str}"
+        elif action == "lean" and pick_side:
+            team_abbr = _side_to_abbr(pick_side, res)
+            call = f"Lean: {team_abbr} (no stake)"
+        else:
+            call = "Pass"
+
+        lines.append(f"OUTCOME: {score_str} | Winner: {winner_abbr} | {call}")
+
+    if not lines:
+        return None
+
+    anti_hindsight = (
+        "GAME OUTCOMES below are factual results. Use them ONLY to identify whether a "
+        "signal that was AVAILABLE IN THE PRE-GAME DATA predicted the outcome. "
+        "Do NOT reason from the result itself ('I should have known X would lose'). "
+        "A bet with sound pre-game process and a bad result is still a good bet. "
+        "If no pre-game signal pointed to the outcome, the result was variance — say so."
+    )
+
+    block = "GAME OUTCOMES (factual — for post-mortem reference only)\n"
+    block += anti_hindsight + "\n\n"
+    block += "\n".join(lines)
+    return block
+
+
 def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_effort: str):
     """
     Read the post-mortem prompt and the model's original picks, send a review
@@ -1114,6 +1218,13 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
     if pm_text_filled != pm_text:
         print(f"Placeholder      : substituted '{display_label}' for name placeholder")
 
+    # --- Build per-game outcome summaries (factual scores + model's call) ---
+    outcome_block = _build_outcome_summaries(model, sport, date)
+    if outcome_block:
+        print(f"Outcome summaries: built ({outcome_block.count('OUTCOME:')} games)")
+    else:
+        print(f"Outcome summaries: not available (missing picks JSON or results JSON)")
+
     # --- Build input list -------------------------------------------------
     # System message sets the review framing; original picks give context.
     system_msg = (
@@ -1130,9 +1241,16 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
             "content": f"Here were your original picks:\n\n{raw_text}"
         })
 
+    # Append outcome summaries before the post-mortem questions if available.
+    # This gives the model factual scores to anchor its review without requiring
+    # the operator to manually paste results into the template.
+    pm_content = pm_text_filled
+    if outcome_block:
+        pm_content = outcome_block + "\n\n---\n\n" + pm_text_filled
+
     input_messages.append({
         "role": "user",
-        "content": f"Here are the results and post-mortem questions:\n\n{pm_text_filled}"
+        "content": f"Here are the results and post-mortem questions:\n\n{pm_content}"
     })
 
     # --- Dry run exit point -----------------------------------------------

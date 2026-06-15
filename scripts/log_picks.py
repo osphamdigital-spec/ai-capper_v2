@@ -257,7 +257,7 @@ def parse_fields(block: str) -> dict:
     """
     Parse the key: value fields out of a game block or any structured block.
 
-    Handles multi-line values (REASON and LOOKED UP can run across several lines).
+    Handles multi-line values (REASON and DATA GAP can run across several lines).
     A new field starts when a line matches the pattern: ^[A-Z ]+: value
     """
     fields = {}
@@ -328,7 +328,8 @@ def parse_game_block(
     units_raw  = fields.get("UNITS", "").strip()
     edge_raw   = fields.get("EDGE", "").strip()
     reason     = fields.get("REASON", "").strip()
-    looked_up  = fields.get("LOOKED UP", "").strip()
+    # Accept both "DATA GAP" (current) and "LOOKED UP" (legacy pre-Jun-15 files)
+    data_gap   = (fields.get("DATA GAP") or fields.get("LOOKED UP") or "").strip()
 
     action                 = parse_action(units_raw)
     pick_side, pick_market = parse_pick_side_and_market(pick_raw, away_abbr, home_abbr)
@@ -342,15 +343,15 @@ def parse_game_block(
     # so the issue is visible in the JSON rather than silently corrupting data.
     CONTAMINATION_MARKERS = ("LEG 1:", "LEG 2:", "SLATE SUMMARY", "BEST BET:")
     parse_warning = None
-    for field_name in ("reason", "looked_up"):
-        field_val = reason if field_name == "reason" else looked_up
+    for field_name in ("reason", "data_gap"):
+        field_val = reason if field_name == "reason" else data_gap
         for marker in CONTAMINATION_MARKERS:
             if marker in field_val:
                 truncated = field_val[:field_val.find(marker)].strip()
                 if field_name == "reason":
                     reason = truncated
                 else:
-                    looked_up = truncated
+                    data_gap = truncated
                 parse_warning = (
                     f"field '{field_name}' contained '{marker}' — "
                     "parlay/summary content bled in; field truncated"
@@ -381,7 +382,7 @@ def parse_game_block(
 
         # The model's reasoning — kept for display and transparency
         "reason":      reason,
-        "looked_up":   looked_up,
+        "data_gap":    data_gap,
 
         # Grading fields — populated later by grade_picks.py
         "result":        None,   # "win" | "loss" | "push" | "void"

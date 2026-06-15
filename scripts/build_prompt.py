@@ -1959,7 +1959,7 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
     #   UNITS    -> stake tier (needed for unit-weighted ROI)
     #   EDGE     -> confidence level (for calibration tracking)
     #   REASON   -> kept for display and model comparison, not parsed numerically
-    #   LOOKED UP -> transparency: did the model browse or use only given data?
+    #   DATA GAP -> data not in the prompt that would have changed this pick (S3 request loop)
     # ─────────────────────────────────────────────────────────────────────────
     parts.append(
         "NOW MAKE YOUR PICKS.\n"
@@ -1983,7 +1983,7 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
         "EDGE: [your gap in percentage points e.g. \"6.2 pts\" -- or \"none\" for PASS]\n"
         "TOTAL LEAN: [Over / Under / No lean — required for every game]\n"
         "REASON: [2-4 sentences in your own words]\n"
-        "LOOKED UP: [what you researched beyond the data, or \"nothing, used provided data only\"]\n"
+        "DATA GAP: [data NOT in this prompt that would have changed this pick — be specific, e.g. \"closer availability for KC\", \"home/away splits for Meyer\"; or \"none\"]\n"
         "\n"
         "POSTPONEMENT NOTE: If a game is postponed before first pitch, treat it as PASS.\n"
         "Log it as: PICK: PASS | PRICE: N/A | UNITS: PASS | REASON: Postponed — no result.\n"
@@ -2123,7 +2123,7 @@ def build_system_prompt(sport_label: str, model: str | None, project_root: Path)
         "EDGE: [gap in percentage points e.g. \"6.2 pts\", or \"none\" for PASS]",
         "TOTAL LEAN: [Over / Under / No lean]",
         "REASON: [2-4 sentences, your own words]",
-        "LOOKED UP: [data gaps noted, or \"nothing, used provided data only\"]",
+        "DATA GAP: [missing data that would have changed this pick, or \"none\"]",
         "",
         "Separate each block with ---",
         "",

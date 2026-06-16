@@ -1,0 +1,178 @@
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: MIA has a massive platoon advantage against LHP (126 wRC+), which directly conflicts with PHI's pitching edge via Luzardo. The conflicting signals and small sample sizes for both starters make this game too noisy to handicap with confidence.
+DATA GAP: none
+
+---
+
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Toronto's starting pitcher is TBD, which is an automatic pass under my data integrity rules.
+DATA GAP: TBD starter
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Foster Griffin's L14 sample is too small to trust his recent improvement, and Michael Wacha's underlying SIERA (4.54) doesn't support a strong road favorite or underdog stance. The total market is also flagged as suspect.
+DATA GAP: Suspect total market
+
+---
+
+## GAME: CHW @ NYY
+PICK: LEAN: CHW ML
+PRICE: +128
+UNITS: LEAN
+EDGE: 7.2 pts
+TOTAL LEAN: Over
+REASON: The market overvalues Gerrit Cole's name brand despite his small-sample return and worse SIERA (4.41) compared to Davis Martin (4.23). However, the hard slate ceiling of 3 bets forces me to pass on this play to prioritize higher-edge opportunities.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Kodai Senga lacks L14 data and has a poor overall SIERA (4.55), while Brady Singer's underlying metrics are slightly better. The Mets being favored on the road with these pitching metrics offers no value.
+DATA GAP: Senga L14 data
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Atlanta has the advantage in pitching, platoon splits, and home field, but the -155 price implies a 60.8% win probability that leaves no room for edge. The Giants' strong platoon split vs RHP keeps them in the game enough to invalidate the underdog price.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: CLE ML
+PRICE: +134
+UNITS: 1
+EDGE: 8.3 pts
+TOTAL LEAN: Under
+REASON: Robert Gasser's aggregate SIERA (5.00) is dismal, and his small-sample L14 success is heavily discounted. Cleveland possesses a massive bullpen advantage and a solid SIERA from Cecconi, making the +134 road underdog price highly profitable.
+DATA GAP: none
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: San Diego has the pitching edge with Michael King, but St. Louis holds the platoon and home-field advantages in a pitcher-friendly park. The conflicting edges result in a coin-flip game with no actionable market value.
+DATA GAP: SD ML suspect price
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Edward Cabrera's SIERA (3.85) is strong, but the Cubs are heavily juiced to -186, implying a 65% win probability that exceeds my model's estimate. The Rockies' offense is too volatile to trust on the road as an underdog.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: MIN ML
+PRICE: +122
+UNITS: 1
+EDGE: 7.4 pts
+TOTAL LEAN: Under
+REASON: Zebby Matthews' 3.93 SIERA gives the Twins a distinct pitching advantage over Kumar Rocker (4.51 SIERA), who is also in a small-sample spot. The Twins' superior platoon split vs RHP and the pitcher-friendly environment at Globe Life Field push the value firmly to the underdog.
+DATA GAP: none
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Hunter Brown's massive platoon advantage for Houston is offset by his extremely small sample size and Framber Valdez's solid underlying metrics. The conflicting signals and lack of reliable data on Brown's current form dictate a pass.
+DATA GAP: Brown L14 data
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Reid Detmers has an excellent SIERA (3.27), but Arizona's massive 118 wRC+ vs LHP perfectly counters his pitching advantage. The market has priced this efficiently at a pick'em, leaving no edge on either side.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: While Pittsburgh has a slight edge in starting pitching SIERA, Sutter Health Park's extreme hitter-friendly environment (121 run factor) introduces massive variance. Both starters are in small-sample spots, making the risk-to-reward ratio unplayable.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Logan Gilbert is an elite pitcher, but the -147 market price implies a 59.5% win probability that is too close to my 62.4% estimate to clear the 4-point edge gate. The Orioles' strong platoon split vs RHP keeps them competitive enough to avoid laying this price.
+DATA GAP: none
+
+---
+
+## GAME: TB @ LAD
+PICK: TB ML
+PRICE: +130
+UNITS: 1
+EDGE: 9.2 pts
+TOTAL LEAN: Over
+REASON: Drew Rasmussen's elite 3.60 SIERA and dominant recent form completely outclass Justin Wrobleski's 4.74 SIERA. The Dodgers' home-field and platoon advantages are already baked into the inflated -143 price, leaving massive value on the Rays as a road underdog.
+DATA GAP: none
+
+---
+
+## PARLAY
+LEG 1: TB ML +130
+LEG 2: CLE ML +134
+COMBINED PRICE: +438
+TRUE PROBABILITY ESTIMATE: 26.8%
+UNITS: 1
+REASON: Both legs rely on significant starting pitching SIERA advantages and massive bullpen disparities that the market is underestimating due to small-sample noise on the opposing starters. The games are in different leagues and uncorrelated, providing a strong mathematical edge on the combined payout.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Every game with a 7+ point edge involved at least one starting pitcher flagged with a small sample size, strictly capping all plays at 1 unit per my data integrity rules.

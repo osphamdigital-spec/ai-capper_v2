@@ -1,0 +1,138 @@
+## GAME: MIA @ PHI
+PICK: MIA ML
+PRICE: +154
+UNITS: 3
+EDGE: 20.9 pts
+TOTAL LEAN: No lean
+REASON: MIA wRC+ 126 vs LHP punishes Luzardo’s otherwise excellent 3.23 xFIP, while PHI’s 84 wRC+ vs RHP limits damage against Phillips’s ordinary 3.86 xFIP. Projected runs MIA 4.3, PHI 3.5; Pythagorean gives MIA ~59% win probability, market only 38%. Bullpens fair, no weather concerns.
+DATA GAP: none
+---
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TOR starter TBD – automatic pass per data integrity rules. No projection possible without confirmed pitcher.
+DATA GAP: TOR starting pitcher unknown
+---
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: WAS projected 56.7% vs market 55.5%, edge only 1.2 pts. Wacha and Griffin both near league-average with weak offenses (wRC+ 94 and 92) — no exploitable gap.
+DATA GAP: none
+---
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: CHW shows +10.4% edge, but Cole’s small-sample flag caps stakes at 1 unit and slate limit already reached with three larger-edge 3-unit plays. Pass to respect portfolio constraints.
+DATA GAP: none
+---
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Senga and Singer project near-even; NYM 53.2% market vs ~50% estimate produces only 3.2 pt edge for CIN, below 4-pt gate. Low-confidence environment.
+DATA GAP: none
+---
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: ATL projected 58.1% vs market 59.5% — edge -1.4 pts. Strong ATL offense (121 wRC+) meets weak Houser, but Holmes is capable; no value either side.
+DATA GAP: none
+---
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: CLE +14.8% edge exists but Gasser’s small-sample flag prevents 3-unit play; limited to 1 unit, and slate ceiling forces prioritization of three larger-unit edges. Pass in this portfolio.
+DATA GAP: none
+---
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Best SD ML flagged stale/suspect — treating market as absent per data integrity rules. Cannot derive reliable implied probability.
+DATA GAP: suspect price on SD ML
+---
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: CHC projected 64.4% vs market 63.6%, edge 0.8 pts. Cabrera’s superior 3.70 xFIP vs Feltner’s 4.54 not enough to clear gate despite platoon advantage.
+DATA GAP: none
+---
+## GAME: MIN @ TEX
+PICK: MIN ML
+PRICE: +122
+UNITS: 3
+EDGE: 12.4 pts
+TOTAL LEAN: No lean
+REASON: Globe Life’s 0.83 park factor magnifies pitching edge: Matthews’ 3.98 xFIP is well above replacement, Rocker’s 4.35 is fringe. MIN offense (101 wRC+) projected 3.69 runs, TEX 3.20 — Pythagorean 56.4% vs market 44.0%. Bullpen committees are a wash.
+DATA GAP: none
+---
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: HOU edge 6.1 pts on ML -148 is actionable but limited to 1 unit; already at slate cap with three higher-stake plays. Pass to respect ceiling.
+DATA GAP: none
+---
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: LAA edge 4.6 pts on Detmers vs scuffling Kelly would be 1-unit bet, but slate ceiling forces choice of higher-edge 3-unit opportunities. Pass for portfolio efficiency.
+DATA GAP: none
+---
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Large edge (13.6%) exists but Perkins’ extremely small AGG sample (27 IP) and L14 [sm] flag raise reliability concerns; I’d cap at 1 unit, and slate limit pushes to stronger clean 3-unit plays.
+DATA GAP: none
+---
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: SEA -147 projects 68.8% win (10.7% edge) with Gilbert’s elite 3.23 xFIP in T-Mobile’s 0.86 run environment. Clean data, but slot already filled by three slightly larger-edge plays; solid but passed due to ceiling.
+DATA GAP: none
+---
+## GAME: TB @ LAD
+PICK: TB ML
+PRICE: +130
+UNITS: 3
+EDGE: 15.2 pts
+TOTAL LEAN: No lean
+REASON: Rasmussen’s 3.43 xFIP dominates Wrobleski’s 4.67; TB’s 97 wRC+ vs LHP is enough, LAD 110 vs RHP limited by elite arm. Projected TB 4.74, LAD 4.00 — Pythagorean 57.7% vs market 42.5%. Bullpens solid, no weather impact.
+DATA GAP: none
+---
+## SLATE SUMMARY
+BEST BET: MIA ML +154
+WHY THIS ONE: Largest edge on the board at 20.9 points — MIA’s elite 126 wRC+ vs LHP faces a pitcher in Luzardo who cannot fully suppress a lineup this hot, while Phillips keeps PHI’s weak right-handed offense in check.

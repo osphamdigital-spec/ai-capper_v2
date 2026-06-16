@@ -1,0 +1,111 @@
+GAME 1: MIA @ PHI
+- Starters: Tyler Phillips (MIA) vs Jesús Luzardo (PHI)
+- Phillips: AGG xFIP 3.86, SIERA 4.19, K-BB% 12.3%, but [sm] small sample (16.1IP AGG). Wait, the AGG is 16.1IP? That says [sm] next to L14 but AGG shows 16.1IP. Actually looking closely: "AGG xFIP 3.86 SIERA 4.19 K-BB%:12.3% Stf+:94 16.1IP | L14 xFIP 3.78 SIERA 3.84 K/9:9.0 BB/9:3.6 5.0IP [sm]". So AGG is 16.1IP? That's tiny. Wait, maybe the 16.1IP is L14? No, format is: AGG xFIP ... Stf+:94 16.1IP | L14... So AGG is only 16.1 IP? That's definitely small sample. Actually maybe that's career/minor? Regardless, it's small.
+- Luzardo: AGG xFIP 3.23, SIERA 3.41, K-BB% 20.3%, 262.1 IP. Clean data.
+- Phillips [sm] in L14 but AGG is only 16.1IP. That's a small-sample starter. So no 3-unit play if I bet PHI.
+- Market: PHI -175 (implied ~63.6%), best -171 (implied ~63.1%)
+- My estimate: Luzardo much better than Phillips. Phillips has ERA 1.86 but xERA 3.65, FIP 3.49. Luzardo ERA 4.35 but xERA 3.44, FIP 3.33. SIERA gap: 3.41 vs 4.19 = 0.78 runs. That's ~3.1% edge from pitching alone (0.5% per 0.25 run = 1.56 points? Wait instructions say ±0.5% per 0.25-run SIERA differential. 0.78/0.25 = 3.12. 3.12 * 0.5 = 1.56%). Actually that seems low. Let me recheck: "Pitching gap: ±0.5% per 0.25-run SIERA differential (typically ±2% to ±4%)." So 0.78 gap = 3.12 * 0.5 = 1.56%. But maybe I should use the typical range? Hmm.
+- Bullpen: MIA - Fairbanks used Sun, Bender Sat, Petersen Thu, Faucher Sun. Duran (PHI) used Sat, Keller Sat, Alvarado Sat. Both have some usage but not terrible. PHI closer Duran rested Sun. Actually looking at MIA: Fairbanks Sun 14p, Bender Sat, Petersen Thu, Faucher Sun. PHI: Duran Sat, Keller Sat, Alvarado Sat. So leverage arms: PHI Duran, Keller, Alvarado all rested Sunday. MIA Fairbanks pitched Sun. Bender Sat. So PHI has fresher leverage arms? MIA has 0 fresh? Fairbanks Sun, Bender Sat, Petersen Thu. So maybe 1 fresh (Petersen)? PHI: Duran Sat, Keller Sat, Alvarado Sat. So all 3 used Sat, rested Sun. So PHI leverage arms are fresher. That's maybe +1% for PHI.
+- Offense platoon: MIA vs LHP wRC+ 126. PHI vs RHP wRC+ 84. Wait, Phillips is RHP, Luzardo is LHP. So MIA bats vs LHP (Luzardo) and PHI bats vs RHP (Phillips). MIA vs LHP: 126. PHI vs RHP: 84. Gap is huge: 42 points. Instructions: ±0.5% per 10-point wRC+ gap. So 42/10 = 4.2 * 0.5 = 2.1%. But wait, this favors MIA (they hit LHP well, PHI hits RHP poorly). So MIA offense is better in this matchup.
+- Park: Citizens Bank Park 102/104, slight hitter.
+- Weather: Clear, 77F, wind 7.2mph S. S wind at CBP can help carry slightly? Not extreme.
+- So pitching favors PHI (~1.5%), bullpen favors PHI (~1%), offense favors MIA (~2%), park slight offense. Net maybe flat to slight PHI. Market has PHI -175. Implied prob: 175/(175+100) = 63.6%. I might have PHI at 62-64%. Probably no 4-point edge. Also PHI offense is bad vs RHP (84 wRC+), but Phillips is not proven. I'll PASS this. Too messy, small sample on Phillips, and offense gap is large favoring MIA.
+
+GAME 2: TOR @ BOS
+- Away starter: TBD. Rule: Either starter TBD → PASS that game.
+- PASS.
+
+GAME 3: KC @ WAS
+- Starters: Michael Wacha (KC) vs Foster Griffin (WSH)
+- Wacha: AGG xFIP 4.47, SIERA 4.54, K-BB% 11.5%, 260.2 IP. L14 xFIP 4.46, SIERA 5.32. Not small sample.
+- Griffin: AGG xFIP 3.82, SIERA 3.78, K-BB% 16.5%, 78.0 IP. L14 xFIP 2.94, SIERA 3.11, but flagged [sm]. Wait, "L14 xFIP 2.94 SIERA 3.11 K/9:7.4 BB/9:0.0 11.0IP [sm]". The [sm] is on L14, but AGG is 78.0 IP. Is he small sample overall? 78 IP is borderline but usually acceptable. However, the L14 has [sm]. The instructions say "Starter flagged [small sample] -> no 3-unit play on that game." I need to check if Foster Griffin is considered small sample. The data shows AGG 78.0IP. That's a decent sample. But the note [sm] is only on L14. However, his AGG SIERA is based on 78 IP. I think he's not a small sample starter in the AGG sense. But wait, looking at the format, usually [sm] appears after L14 line if the L14 is small sample. For example, in Game 1, Phillips had "[sm]" after L14 5.0IP. For Griffin, it's after L14 11.0IP [sm]. So maybe not AGG small sample. But for Wacha, no [sm]. Griffin's AGG is 78 IP which is fine.
+- Market: WAS -134 (implied ~57.3%), best -130 (implied ~56.5%). KC +115 to +121.
+- SIERA gap: Wacha 4.54 vs Griffin 3.78 = 0.76 runs. Favors WAS. Using 0.5% per 0.25 run = 1.5% edge for WAS.
+- Bullpen: KC - Lange used Sat, Schreiber Sat, Erceg Fri, Lynch IV Sun, Strahm Sat, Cruz Sun. WAS - Beeter Sun, Ribalta Sat, Lord Sat, Varland -, Lovelady Sat, Poulin Sun. WAS leverage arms: Beeter Sun (1 day rest), Ribalta Sat, Lord Sat. KC leverage: Lange Sat, Schreiber Sat, Erceg Fri, Lynch Sun. Both somewhat used. Maybe slight edge to neither. But KC's pen looks more taxed. Actually WAS Beeter, Ribalta, Lord all used Sat/Sun. KC also used Sat/Sun. Call it neutral.
+- Offense platoon: KC vs LHP: 94. WAS vs RHP: 92. Very slight KC edge (2 points), negligible.
+- Park: Nationals Park 103/106, slight hitter.
+- Weather: Clear, 81.5F.
+- My estimate: WAS has better starter by ~0.75 SIERA. Market implied ~57%. I might have WAS at 58-59%. Not enough for 4 points. Also Wacha is veteran, could keep it close. PASS.
+
+GAME 4: CHW @ NYY
+- Starters: Davis Martin (CWS) vs Gerrit Cole (NYY)
+- Martin: AGG xFIP 4.09, SIERA 4.23, K-BB% 12.9%, 215.0 IP. L14 xFIP 4.25, SIERA 4.61, [sm]. Wait, L14 has [sm] after 10.2IP. But AGG is 215 IP, so not small sample.
+- Cole: AGG xFIP 4.57, SIERA 4.41, K-BB% 13.5%, 22.0 IP [sm]. Wait, the AGG line says: "AGG xFIP 4.57 SIERA 4.41 K-BB%:13.5% Stf+:100 22.0IP | L14 xFIP 5.63 SIERA 5.08 K/9:5.8 BB/9:2.9 9.1IP [sm]". The AGG is only 22.0 IP! That's small sample. Gerrit Cole is flagged small sample in AGG (22 IP). So no 3-unit play on this game if I bet either side.
+- Market: NYY -145 (implied ~59.2%), best -141 (implied ~58.5%).
+- SIERA gap: Martin 4.23 vs Cole 4.41. Actually Martin's SIERA is better than Cole's! But Cole is Gerrit Cole with only 22 IP coming back from injury presumably. His xERA is 2.79 though. FIP 4.19. ERA 2.45. Very mixed signals.
+- Offense: CHW vs RHP: 98. NYY vs RHP: 99. Essentially equal.
+- Bullpen: CHW - Dominguez Sun, Taylor Sun, Newcomb Sun, Hudson Sun. All used yesterday! NYY - Bednar Sat, Doval Sun, Cruz Sat, Headrick Sun, Hill Sun. NYY also used heavily. Both pens somewhat taxed.
+- Park: Yankee Stadium 101/116 HR. Slight hitter.
+- My estimate: Hard to price Cole at small sample. Market loves NYY. But Martin's SIERA is actually better. However, Martin's ERA is 2.41 vs xERA 3.78, so some regression. I might estimate NYY at 57%, market 59%. No edge. PASS.
+
+GAME 5: NYM @ CIN
+- Starters: Kodai Senga (NYM) vs Brady Singer (CIN)
+- Senga: AGG xFIP 4.43, SIERA 4.55, K-BB% 11.1%, 133.1 IP. L14 no data. ERA 9.00, FIP 6.15, xERA 4.74. But only 20 IP this year [sm]? The AGG is 133.1 IP, but current year is 20 IP. Is he small sample? The line says "20.0IP [sm]". But AGG is 133.1. I think [sm] refers to current season/IP. Instructions say "Starter flagged [small sample] -> no 3-unit play on that game." Senga has [sm] on his current year line. However, his AGG data exists. But the [sm] flag is there. I'll treat him as small sample to be safe, or at least not bet 3 units.
+- Singer: AGG xFIP 4.35, SIERA 4.29, K-BB% 13.0%, 230.2 IP. L14 xFIP 3.88, SIERA 3.82, [sm]. So Singer also has [sm] on L14. AGG is fine.
+- Market: NYM -123 (implied ~55.2%), CIN +105. Best NYM -119 (54.3% implied).
+- SIERA gap: Senga 4.55 vs Singer 4.29 = 0.26 runs. Favors CIN slightly (~0.5%).
+- But Senga's current ERA is 9.00! FIP 6.15. He's been terrible in 20 IP. Singer has been much better lately (L14 SIERA 3.82). However, Singer's ERA is 5.61 overall.
+- Offense: NYM vs RHP: 91. CIN vs RHP: 89. Negligible.
+- Bullpen: NYM very rested - no one used since Thu/Fri. CIN: Santillan Sat, Burke Fri, Antone Sun, Moll Sun. NYM pen is fresher. That's +1% for NYM.
+- Park: GABP 101/121 HR. Hitter park.
+- Weather: 75.9F, wind 10.6 NW. NW wind might knock down flies? Not sure.
+- My estimate: Senga has been awful. Market still prices NYM -123. I think CIN is the right side, but Singer has volatility. NYM bullpen fresh. Gap? Let's see: market implies NYM 55%. If I think CIN wins ~48%, that's no edge. Actually with Senga pitching like he is, maybe CIN is 50%? Then no edge on +105 (implied 48.8%). Hmm. If I make CIN 52%, gap is +3.2%. Not enough. And Senga is [sm], Singer L14 [sm]. Probably PASS.
+
+GAME 6: SF @ ATL
+- Starters: Adrian Houser (SF) vs Grant Holmes (ATL)
+- Houser: AGG xFIP 4.48, SIERA 4.62, K-BB% 9.3%, 190 IP. L14 xFIP 4.85, SIERA 4.08, [sm]. AGG fine.
+- Holmes: AGG xFIP 4.22, SIERA 4.33, K-BB% 12.5%, 180.2 IP. L14 xFIP 6.02, SIERA 5.43, [sm].
+- Market: ATL -166 (implied ~62.4%), best -155 (implied ~60.8%). SF +140/+142.
+- SIERA gap: 4.33 vs 4.62 = 0.29 runs. Favors ATL slightly (~0.6%).
+- Offense: SF vs RHP: 107. ATL vs RHP: 121. Gap 14 points favors ATL ~0.7%.
+- Bullpen: SF - Kilian Sun/Sat, Walker Sat, Miller Fri, Hentges Sat, Brubaker Fri. ATL - Iglesias Sat, Suarez Sat, Lee Sat, Fuentes Sat. ATL pen used heavily Sat. SF also used. ATL has better pen overall but recent usage.
+- Weather: Dense drizzle, 31% rain. "Pass only if rain risk is extreme." 31% is not extreme? But dense drizzle and 31% rain might affect game. But not extreme. However, weather gaps downgrade confidence. I'll note it but probably not force pass.
+- Park: Truist 99/99. Neutral.
+- My estimate: ATL is better team, home, slight pitching and offense edge. Market 62%. I might have ATL at 62-63%. No 4-point edge. PASS.
+
+GAME 7: CLE @ MIL
+- Starters: Slade Cecconi (CLE) vs Robert Gasser (MIL)
+- Cecconi: AGG xFIP 4.12, SIERA 4.22, K-BB% 13.4%, 204.2 IP. L14 xFIP 3.00, SIERA 3.39, [sm]. AGG fine.
+- Gasser: AGG xFIP 5.85, SIERA 5.00, K-BB% 9.5%, 24.0 IP. [sm]! AGG is 24 IP. That's small sample. Also L14 [sm]. So no 3-unit play.
+- Market: MIL -154 (implied ~60.6%), best -148 (59.2%). CLE +130/+134.
+- SIERA gap: Cecconi 4.22 vs Gasser 5.00 = 0.78 runs. Favors CLE (~1.5%).
+- Offense: CLE vs LHP: 100. MIL vs RHP: 113. Gap 13 points favors MIL ~0.65%.
+- Bullpen: CLE - Smith Sat, Gaddis Sat, Armstrong -, Holderman Sat, Herrin Sat. Used Sat. MIL - Megill -, Uribe Sun, Ashby Sun, Anderson -, Kuhnel Sat, Rom Sat. MIL leverage arms: Uribe and Ashby used Sun. Megill rested. CLE Smith used Sat. Both okay. Maybe slight edge CLE since Smith is better than Megill? But Smith used Sat. Neutral.
+- Park: American Family Field 98/96. Slight pitcher. Roof? 70.1F clear, 10% rain. Probably open.
+- My estimate: Cecconi is significantly better by SIERA. Gasser small sample and 5.00 SIERA. But MIL offense better. CLE is road dog. Market has MIL ~60%. I might have MIL at 56%, CLE at 44%. Gap of +4% for CLE? Let's calculate: If CLE true prob is 44%, market implies 39.7% at +130. That's 4.3 points. At +134, implied 42.7%, gap 1.3 points. Best ML for CLE is +134 (BetOnline.ag). Wait, the best-ML says +134 for CLE. Market median is +130/-154. So cleanest line for CLE is +134. Implied probability = 100/(134+100) = 42.7%. My estimate needs to be 46.7%+ for 4-point gap. Do I think CLE wins 47%? With Cecconi (4.22 SIERA) vs Gasser (5.00 SIERA), and CLE offense 100 vs LHP vs MIL 113 vs RHP. Pitching edge 1.5% to CLE. Offense edge 0.65% to MIL. Net +0.85% CLE. Starting from 50/50? No, home field. Usually home is +4%. So baseline maybe MIL 54%, CLE 46%. Add pitching edge +1.5% for CLE (reduces MIL by 1.5), offense +0.65% for MIL. So MIL 54 -1.5 +0.65 = 53.15%. CLE 46 +1.5 -0.65 = 46.85%. That's ~47%. Market +134 implies 42.7%. Gap = 4.3 points! That's right at the edge. But wait, Gasser is small sample. Instructions say no 3-unit play. 1 unit is okay. But is the data clean? The price +134 is from BetOnline.ag which is listed as best-ML, not flagged stale. Is it clean? The total prices are flagged suspect, but ML is not flagged. So CLE ML +134 is available.
+- However, I need to be careful. The market implied probability from the main line is +130 (43.5%). But I use "market's implied probability from the cleanest available moneyline." The cleanest available for CLE is +134. So implied = 42.7%. My estimate 47%. Gap = 4.3 pts. That qualifies for 1 unit.
+- But I need to check: CLE has been L10 4-6, rdiff -3. MIL 43-26, rdiff +112. MIL is much better team. Does my model account for that? I ignore team W-L and run differential per instructions. So I don't care.
+- Is there a better bet? Let me check others. This might be a 1-unit play.
+
+GAME 8: SD @ STL
+- Starters: Michael King (SD) vs Andre Pallante (STL)
+- King: AGG xFIP 4.21, SIERA 4.13, K-BB% 14.2%, 154 IP. L14 xFIP 5.04, SIERA 5.07, [sm]. AGG fine.
+- Pallante: AGG xFIP 4.20, SIERA 4.43, K-BB% 7.9%, 232.1 IP. L14 xFIP 4.32, SIERA 4.15, [sm]. AGG fine.
+- Market: SD -102, STL -116. Best SD -102, STL -111.
+- SIERA gap: King 4.13 vs Pallante 4.43 = 0.30 runs. Favors SD (~0.6%).
+- Offense: SD vs RHP: 82. STL vs RHP: 96. Gap 14 points favors STL (~0.7%).
+- Bullpen: SD - Morejon Sun, Adam Sun, Rodriguez Sun. Used Sun heavily. STL - O'Brien -, Soriano Sun, Romero Sun, Stanek -, Graceffo -, Bruihl -. STL Soriano and Romero used Sun. SD used 3 leverage arms Sun. Maybe slight edge STL.
+- Park: Busch 97/78 HR. Pitcher.
+- My estimate: King slightly better pitcher, but STL offense much better (96 vs 82). Pallante has low K-BB% but keeps ball on ground? SIERA 4.43. I think market is fair. SD -102 implies 50.5%. I might have SD at 48%. No edge. PASS.
+
+GAME 9: COL @ CHC
+- Starters: Ryan Feltner (COL) vs Edward Cabrera (CHC)
+- Feltner: AGG xFIP 4.54, SIERA 4.69, K-BB% 9.1%, 66.2 IP. L14 xFIP 5.21, SIERA 5.29, [sm]. AGG somewhat small at 66.2 but not flagged [sm]. I'll treat as acceptable but not for 3-unit.
+- Cabrera: AGG xFIP 3.70, SIERA 3.85, K-BB% 16.1%, 200.2 IP. L14 xFIP 2.97, SIERA 3.38, [sm]. AGG fine.
+- Market: CHC -191 (implied ~65.6%), best -186 (65.0%). COL +163/+168.
+- SIERA gap: 3.85 vs 4.69 = 0.84 runs. Favors CHC (~1.7%).
+- Offense: COL vs RHP: 91. CHC vs RHP: 104. Gap 13 points favors CHC (~0.65%).
+- Bullpen: COL - Senzatela Wed, Mejia Sat, Halvorsen Sat, Bernardino Wed. CHC - Palencia Wed, Webb Sun, Thielbar Sat, Milner Sun. CHC pen fresher? COL pen not great. CHC has better leverage arms available.
+- Park: Wrigley 98/108 HR. Wind 15mph W. West wind at Wrigley usually blows in from LF? Actually Wrigley wind is tricky. West wind might blow out to RF? Or in from RF? Not sure. I'll ignore beyond ±0.5%.
+- My estimate: CHC is heavy favorite. Market 65%. I might have CHC at 66-67%. With -191, need 67.4% to break even. Gap maybe 1-2 points. Not enough. Also Feltner is meh but Cabrera has been excellent lately (L14 SIERA 3.38). But [sm] on L14. PASS.
+
+GAME 10: MIN @ TEX
+- Starters: Zebby Matthews (MIN) vs Kumar Rocker (TEX)
+- Matthews: AGG xFIP 4.02, SIERA 3.93, K-BB% 16.9%, 115.2 IP. L14 xFIP 5.72, SIERA 5.79, [sm]. AGG fine.
+- Rocker: AGG xFIP 4.35, SIERA 4.51, K-BB% 9.8%, 122.1 IP. L14 xFIP 3.75, SIERA 4.26, [sm]. AGG fine.
+- Market: TEX -138 (implied ~58.0%), best -134 (57.3%). MIN +118/+122.
+- SIERA gap: Matthews 3.93 vs Rocker 4.51 = 0.58 runs. Favors MIN (~1.2%).
+- Offense: MIN vs RHP: 101. TEX vs RHP: 97. Gap 4 points favors MIN (~0.2%).
+- Bullpen: MIN - Gomez Sun, Banda Sun, Morris Sun, Adams -, Rogers -, Orze -. MIN used leverage arms Sun. TEX - Latz Sun, Junis Sun, Winn Sat, Alexander -. TEX used Latz and Junis Sun. Both used. MIN pen has been shaky (Gomez 4.01, Banda 4.50). TEX has Latz 1.62, Junis 1.84. TEX pen is much better. Bullpen stress? MIN leverage arms: Gomez Sun, Banda Sun, Morris Sun. All used yesterday. TEX: Latz Sun, Junis Sun. Also used. But TEX has fresh Winn (Sat). MIN's next best is Adams (rested) but 6.89 ERA. So TEX bullpen is significantly better. I'll give +1% to TEX for bullpen quality/freshness.
+- Park: Globe Life Field 91/83. Pitcher-friendly. Roof? 89.2F clear. Probably closed? It's hot (89F). Usually closed when hot. Roof-closed factor 92. Even more pitcher-friendly.
+- My estimate: Pitching favors MIN by ~1.2%, offense slight MIN, bullpen favors TEX by ~1%. Net maybe slight MIN. But home field +4% for TEX. So baseline TEX 54%, MIN 46%. Add pitching +1.2% MIN, offense +0.2% MIN, bullpen +1% TEX. TEX 

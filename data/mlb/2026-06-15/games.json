@@ -284,26 +284,26 @@
         "mlb_id": 687473,
         "hand": "R",
         "status": "probable",
-        "era": 6.0,
-        "whip": 1.44,
-        "strikeouts": 9,
-        "innings_pitched": "9.0",
+        "era": 7.24,
+        "whip": 1.76,
+        "strikeouts": 10,
+        "innings_pitched": "13.2",
         "wins": 0,
-        "losses": 1,
-        "home_runs": 0,
-        "walks": 2,
+        "losses": 2,
+        "home_runs": 2,
+        "walks": 5,
         "hit_batters": 0,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 9.0,
-        "fip": 1.77,
+        "k_per_9": 6.6,
+        "fip": 4.64,
         "xera": null,
         "whiff_rate": null,
         "hard_hit_pct": 48.3,
         "barrel_pct": 10.3,
         "small_sample": true,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
             {
@@ -321,9 +321,17 @@
               "er": 0,
               "k": 4,
               "bb": 1
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "4.2",
+              "er": 5,
+              "k": 1,
+              "bb": 3
             }
           ],
-          "rolling_era": 4.5
+          "rolling_era": 6.75
         }
       },
       "pitcher_home": {
@@ -331,36 +339,28 @@
         "mlb_id": 554430,
         "hand": "R",
         "status": "probable",
-        "era": 2.22,
+        "era": 2.01,
         "whip": 0.85,
-        "strikeouts": 53,
-        "innings_pitched": "56.2",
-        "wins": 5,
+        "strikeouts": 62,
+        "innings_pitched": "62.2",
+        "wins": 6,
         "losses": 1,
         "home_runs": 7,
-        "walks": 12,
+        "walks": 15,
         "hit_batters": 2,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 8.4,
-        "fip": 3.58,
+        "k_per_9": 8.9,
+        "fip": 3.39,
         "xera": 3.22,
         "whiff_rate": null,
         "hard_hit_pct": 37.0,
         "barrel_pct": 8.2,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 29",
-              "opponent": "???",
-              "ip": "6.0",
-              "er": 4,
-              "k": 4,
-              "bb": 1
-            },
             {
               "date": "Jun 4",
               "opponent": "???",
@@ -376,80 +376,88 @@
               "er": 1,
               "k": 5,
               "bb": 0
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 0,
+              "k": 9,
+              "bb": 3
             }
           ],
-          "rolling_era": 3.32
+          "rolling_era": 1.42
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:50Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Citizens Bank Park",
         "city": "Philadelphia, PA",
         "roof": "outdoor",
-        "temp_f": 74.4,
-        "wind_mph": 7.8,
-        "wind_dir": "W",
-        "precipitation_pct": 0,
-        "conditions": "Clear sky",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:14Z"
+        "fetched_at": "2026-06-16T12:09:33Z"
       },
       "team_away": {
         "name": "Miami Marlins",
         "abbr": "MIA",
         "team_id": 146,
         "wins": 36,
-        "losses": 36,
-        "pct": ".500",
-        "run_differential": 0,
+        "losses": 37,
+        "pct": ".493",
+        "run_differential": -7,
         "runs_scored": 310,
-        "runs_allowed": 310,
-        "games_played": 72,
-        "rs_per_game": 4.3,
+        "runs_allowed": 317,
+        "games_played": 73,
+        "rs_per_game": 4.2,
         "ra_per_game": 4.3,
-        "last10_wins": 8,
-        "last10_losses": 2,
+        "last10_wins": 7,
+        "last10_losses": 3,
         "home_wins": 23,
         "home_losses": 16,
         "away_wins": 13,
-        "away_losses": 20,
-        "streak": "W1",
+        "away_losses": 21,
+        "streak": "L1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 4.6
       },
       "team_home": {
         "name": "Philadelphia Phillies",
         "abbr": "PHI",
         "team_id": 143,
-        "wins": 38,
+        "wins": 39,
         "losses": 33,
-        "pct": ".535",
-        "run_differential": -23,
-        "runs_scored": 285,
+        "pct": ".542",
+        "run_differential": -16,
+        "runs_scored": 292,
         "runs_allowed": 308,
-        "games_played": 71,
-        "rs_per_game": 4.0,
+        "games_played": 72,
+        "rs_per_game": 4.1,
         "ra_per_game": 4.3,
         "last10_wins": 6,
         "last10_losses": 4,
-        "home_wins": 19,
+        "home_wins": 20,
         "home_losses": 17,
         "away_wins": 19,
         "away_losses": 16,
-        "streak": "L1",
+        "streak": "W1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 4.9
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -480,7 +488,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:10:51Z"
+        "fetched_at": "2026-06-16T12:10:10Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -505,27 +513,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:10:56Z"
+        "fetched_at": "2026-06-16T12:10:15Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Liam Hicks",
+              "pos": "DH",
+              "bat_order": 1
+            },
+            {
+              "name": "Otto Lopez",
+              "pos": "SS",
+              "bat_order": 2
+            },
+            {
+              "name": "Kyle Stowers",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Xavier Edwards",
+              "pos": "2B",
+              "bat_order": 4
+            },
+            {
+              "name": "Heriberto Hern\u00e1ndez",
+              "pos": "LF",
+              "bat_order": 5
+            },
+            {
+              "name": "Owen Caissie",
+              "pos": "RF",
+              "bat_order": 6
+            },
+            {
+              "name": "Jakob Marsee",
+              "pos": "CF",
+              "bat_order": 7
+            },
+            {
+              "name": "Joe Mack",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Javier Sanoja",
+              "pos": "3B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Kyle Schwarber",
+              "pos": "DH",
+              "bat_order": 1
+            },
+            {
+              "name": "Trea Turner",
+              "pos": "SS",
+              "bat_order": 2
+            },
+            {
+              "name": "Bryce Harper",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Brandon Marsh",
+              "pos": "LF",
+              "bat_order": 4
+            },
+            {
+              "name": "Bryson Stott",
+              "pos": "2B",
+              "bat_order": 5
+            },
+            {
+              "name": "J.T. Realmuto",
+              "pos": "C",
+              "bat_order": 6
+            },
+            {
+              "name": "Gabriel Rincones Jr.",
+              "pos": "RF",
+              "bat_order": 7
+            },
+            {
+              "name": "Justin Crawford",
+              "pos": "CF",
+              "bat_order": 8
+            },
+            {
+              "name": "Edmundo Sosa",
+              "pos": "3B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Tripp Gibson",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -540,90 +640,97 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -135",
+        "away": "+1.5 -149",
         "home": "-1.5 +115",
-        "time": "15:08"
+        "time": "15:43"
       },
       "opening_total": {
-        "line": 7.5,
+        "line": 8.0,
         "over": "-110",
-        "under": "-110",
-        "time": "15:07"
+        "under": "-122",
+        "time": "15:43"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -115",
-          "home": "-1.5 -105"
+          "away": "+1.5 -161",
+          "home": "-1.5 +120"
         },
         "betway": {
-          "away": "+1.5 -120",
-          "home": "-1.5 +100"
+          "away": "+1.5 -140",
+          "home": "-1.5 +110"
         },
         "williamhill": {
-          "away": "+1.5 -115",
-          "home": "-1.5 -105"
+          "away": "+1.5 -145",
+          "home": "-1.5 +122"
         }
       },
       "current_total": {
         "bet365": {
-          "line": 7.5,
-          "over": "-110",
-          "under": "-110"
+          "line": 8.0,
+          "over": "-116",
+          "under": "-116"
         },
         "betway": {
-          "line": 7.5,
-          "over": "-110",
-          "under": "-110"
+          "line": 8.0,
+          "over": "-112",
+          "under": "-108"
         },
         "williamhill": {
-          "line": 7.5,
+          "line": 8.0,
           "over": "-110",
-          "under": "-110"
+          "under": "-115"
         }
       },
       "rl_movement": [
         {
-          "time": "Today 02:08",
-          "away": "+1.5 -115",
-          "home": "-1.5 -105"
+          "time": "Jun 15 21:14",
+          "away": "+1.5 -161",
+          "home": "-1.5 +120"
         },
         {
-          "time": "Jun 14 20:03",
-          "away": "+1.5 -120",
-          "home": "-1.5 +100"
+          "time": "Jun 15 20:37",
+          "away": "+1.5 -172",
+          "home": "-1.5 +130"
         },
         {
-          "time": "Jun 14 15:45",
-          "away": "+1.5 -125",
-          "home": "-1.5 +105"
-        },
-        {
-          "time": "Jun 14 15:08",
-          "away": "+1.5 -135",
+          "time": "Jun 15 15:43",
+          "away": "+1.5 -149",
           "home": "-1.5 +115"
         }
       ],
       "total_movement": [
         {
-          "time": "Jun 14 20:49",
-          "line": 7.5,
-          "over": "-110",
-          "under": "-110"
+          "time": "Today 07:05",
+          "line": 8.0,
+          "over": "-116",
+          "under": "-116"
         },
         {
-          "time": "Jun 14 17:05",
+          "time": "Today 02:28",
           "line": 7.5,
-          "over": "-105",
+          "over": "-125",
           "under": "-115"
         },
         {
-          "time": "Jun 14 15:07",
-          "line": 7.5,
+          "time": "Today 00:00",
+          "line": 8.0,
           "over": "-110",
-          "under": "-110"
+          "under": "-122"
+        },
+        {
+          "time": "Jun 15 21:24",
+          "line": 7.5,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 15 15:43",
+          "line": 8.0,
+          "over": "-110",
+          "under": "-122"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:06",
+      "fetched_at": "2026-06-16T08:08:23",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -915,52 +1022,64 @@
         "hand": "R",
         "status": "probable",
         "era": 13.5,
-        "whip": 2.25,
-        "strikeouts": 3,
-        "innings_pitched": "4.0",
+        "whip": 2.13,
+        "strikeouts": 4,
+        "innings_pitched": "8.0",
         "wins": 0,
-        "losses": 0,
+        "losses": 1,
         "home_runs": 1,
-        "walks": 5,
+        "walks": 6,
         "hit_batters": 0,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 6.8,
-        "fip": 8.6,
+        "k_per_9": 4.5,
+        "fip": 5.97,
         "xera": null,
         "whiff_rate": null,
         "hard_hit_pct": 38.5,
         "barrel_pct": 7.7,
         "small_sample": true,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
-        "recent_starts": null
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "4.0",
+              "er": 6,
+              "k": 1,
+              "bb": 1
+            }
+          ],
+          "rolling_era": 13.5
+        }
       },
       "pitcher_home": {
         "name": "Andrew Alvarez",
         "mlb_id": 674841,
         "hand": "L",
         "status": "probable",
-        "era": 3.7,
-        "whip": 1.44,
-        "strikeouts": 26,
-        "innings_pitched": "24.1",
+        "era": 3.49,
+        "whip": 1.45,
+        "strikeouts": 31,
+        "innings_pitched": "28.1",
         "wins": 1,
         "losses": 0,
         "home_runs": 2,
-        "walks": 11,
+        "walks": 12,
         "hit_batters": 0,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 9.6,
-        "fip": 3.39,
+        "k_per_9": 9.8,
+        "fip": 3.1,
         "xera": 4.74,
         "whiff_rate": null,
         "hard_hit_pct": 45.5,
         "barrel_pct": 7.6,
         "small_sample": true,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
             {
@@ -978,80 +1097,88 @@
               "er": 2,
               "k": 4,
               "bb": 5
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "4.0",
+              "er": 1,
+              "k": 5,
+              "bb": 1
             }
           ],
-          "rolling_era": 3.12
+          "rolling_era": 2.84
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:51Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Nationals Park",
         "city": "Washington, DC",
         "roof": "outdoor",
-        "temp_f": 81.9,
-        "wind_mph": 10.1,
-        "wind_dir": "W",
-        "precipitation_pct": 0,
-        "conditions": "Mainly clear",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:15Z"
+        "fetched_at": "2026-06-16T12:09:34Z"
       },
       "team_away": {
         "name": "Kansas City Royals",
         "abbr": "KC",
         "team_id": 118,
         "wins": 29,
-        "losses": 43,
-        "pct": ".403",
-        "run_differential": -49,
-        "runs_scored": 288,
-        "runs_allowed": 337,
-        "games_played": 72,
+        "losses": 44,
+        "pct": ".397",
+        "run_differential": -53,
+        "runs_scored": 291,
+        "runs_allowed": 344,
+        "games_played": 73,
         "rs_per_game": 4.0,
         "ra_per_game": 4.7,
-        "last10_wins": 5,
-        "last10_losses": 5,
+        "last10_wins": 4,
+        "last10_losses": 6,
         "home_wins": 17,
         "home_losses": 21,
         "away_wins": 12,
-        "away_losses": 22,
-        "streak": "W1",
+        "away_losses": 23,
+        "streak": "L1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 5.0
       },
       "team_home": {
         "name": "Washington Nationals",
         "abbr": "WSH",
         "team_id": 120,
-        "wins": 37,
+        "wins": 38,
         "losses": 35,
-        "pct": ".514",
-        "run_differential": 13,
-        "runs_scored": 392,
-        "runs_allowed": 379,
-        "games_played": 72,
-        "rs_per_game": 5.4,
-        "ra_per_game": 5.3,
-        "last10_wins": 6,
-        "last10_losses": 4,
-        "home_wins": 14,
+        "pct": ".521",
+        "run_differential": 17,
+        "runs_scored": 399,
+        "runs_allowed": 382,
+        "games_played": 73,
+        "rs_per_game": 5.5,
+        "ra_per_game": 5.2,
+        "last10_wins": 7,
+        "last10_losses": 3,
+        "home_wins": 15,
         "home_losses": 21,
         "away_wins": 23,
         "away_losses": 14,
-        "streak": "W2",
+        "streak": "W3",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 6.2
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -1075,7 +1202,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:01Z"
+        "fetched_at": "2026-06-16T12:10:20Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -1100,27 +1227,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:06Z"
+        "fetched_at": "2026-06-16T12:10:25Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Lane Thomas",
+              "pos": "CF",
+              "bat_order": 1
+            },
+            {
+              "name": "Bobby Witt Jr.",
+              "pos": "SS",
+              "bat_order": 2
+            },
+            {
+              "name": "Jac Caglianone",
+              "pos": "RF",
+              "bat_order": 3
+            },
+            {
+              "name": "Maikel Garcia",
+              "pos": "3B",
+              "bat_order": 4
+            },
+            {
+              "name": "Starling Marte",
+              "pos": "DH",
+              "bat_order": 5
+            },
+            {
+              "name": "Salvador Perez",
+              "pos": "1B",
+              "bat_order": 6
+            },
+            {
+              "name": "Nick Loftin",
+              "pos": "2B",
+              "bat_order": 7
+            },
+            {
+              "name": "Carter Jensen",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Isaac Collins",
+              "pos": "LF",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "James Wood",
+              "pos": "DH",
+              "bat_order": 1
+            },
+            {
+              "name": "Luis Garc\u00eda Jr.",
+              "pos": "1B",
+              "bat_order": 2
+            },
+            {
+              "name": "Curtis Mead",
+              "pos": "3B",
+              "bat_order": 3
+            },
+            {
+              "name": "CJ Abrams",
+              "pos": "SS",
+              "bat_order": 4
+            },
+            {
+              "name": "Dylan Crews",
+              "pos": "RF",
+              "bat_order": 5
+            },
+            {
+              "name": "Daylen Lile",
+              "pos": "LF",
+              "bat_order": 6
+            },
+            {
+              "name": "Jacob Young",
+              "pos": "CF",
+              "bat_order": 7
+            },
+            {
+              "name": "Keibert Ruiz",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Nasim Nu\u00f1ez",
+              "pos": "2B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Chad Whitson",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -1135,74 +1354,107 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -180",
-        "home": "-1.5 +150",
-        "time": "20:11"
+        "away": "-1.5 +160",
+        "home": "+1.5 -217",
+        "time": "16:04"
       },
       "opening_total": {
-        "line": 9.0,
+        "line": 8.5,
         "over": "-110",
-        "under": "-110",
-        "time": "20:11"
+        "under": "-122",
+        "time": "16:05"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -170",
+          "away": "+1.5 -196",
           "home": "-1.5 +145"
         },
         "betway": {
-          "away": "+1.5 -165",
-          "home": "-1.5 +125"
+          "away": "+1.5 -190",
+          "home": "-1.5 +140"
         },
         "williamhill": {
-          "away": "+1.5 -170",
-          "home": "-1.5 +143"
+          "away": "+1.5 -178",
+          "home": "-1.5 +150"
         }
       },
       "current_total": {
         "bet365": {
           "line": 9.0,
           "over": "-115",
-          "under": "-105"
+          "under": "-125"
         },
         "betway": {
-          "line": 9.0,
-          "over": "-115",
-          "under": "-105"
+          "line": 8.5,
+          "over": "-120",
+          "under": "+100"
         },
         "williamhill": {
-          "line": 9.0,
-          "over": "-115",
-          "under": "-105"
+          "line": 8.5,
+          "over": "-120",
+          "under": "+100"
         }
       },
       "rl_movement": [
         {
-          "time": "Jun 14 20:13",
-          "away": "+1.5 -170",
+          "time": "Today 07:08",
+          "away": "+1.5 -196",
           "home": "-1.5 +145"
         },
         {
-          "time": "Jun 14 20:11",
-          "away": "+1.5 -180",
+          "time": "Jun 15 22:17",
+          "away": "+1.5 -200",
           "home": "-1.5 +150"
+        },
+        {
+          "time": "Jun 15 20:41",
+          "away": "+1.5 -208",
+          "home": "-1.5 +155"
+        },
+        {
+          "time": "Jun 15 16:08",
+          "away": "+1.5 -200",
+          "home": "-1.5 +150"
+        },
+        {
+          "time": "Jun 15 16:04",
+          "away": "-1.5 +160",
+          "home": "+1.5 -217"
         }
       ],
       "total_movement": [
         {
-          "time": "Jun 14 20:43",
+          "time": "Today 01:38",
           "line": 9.0,
           "over": "-115",
-          "under": "-105"
+          "under": "-125"
         },
         {
-          "time": "Jun 14 20:11",
-          "line": 9.0,
-          "over": "-110",
+          "time": "Today 01:31",
+          "line": 8.5,
+          "over": "-127",
+          "under": "-104"
+        },
+        {
+          "time": "Jun 15 20:39",
+          "line": 8.5,
+          "over": "-122",
           "under": "-110"
+        },
+        {
+          "time": "Jun 15 18:02",
+          "line": 8.5,
+          "over": "-116",
+          "under": "-116"
+        },
+        {
+          "time": "Jun 15 16:08",
+          "line": 8.0,
+          "over": "-125",
+          "under": "-115"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:09",
+      "fetched_at": "2026-06-16T08:08:26",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -1493,26 +1745,26 @@
         "mlb_id": 668964,
         "hand": "R",
         "status": "probable",
-        "era": 4.05,
-        "whip": 1.08,
-        "strikeouts": 26,
-        "innings_pitched": "33.1",
+        "era": 5.71,
+        "whip": 1.24,
+        "strikeouts": 27,
+        "innings_pitched": "34.2",
         "wins": 0,
-        "losses": 1,
-        "home_runs": 6,
-        "walks": 7,
+        "losses": 2,
+        "home_runs": 7,
+        "walks": 10,
         "hit_batters": 0,
         "source": "mlb_official",
         "source_priority": 1,
         "k_per_9": 7.0,
-        "fip": 4.51,
+        "fip": 5.03,
         "xera": 3.39,
         "whiff_rate": null,
         "hard_hit_pct": 43.6,
         "barrel_pct": 6.9,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
             {
@@ -1530,9 +1782,17 @@
               "er": 1,
               "k": 0,
               "bb": 1
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "1.1",
+              "er": 7,
+              "k": 1,
+              "bb": 3
             }
           ],
-          "rolling_era": 2.7
+          "rolling_era": 15.43
         }
       },
       "pitcher_home": {
@@ -1540,36 +1800,28 @@
         "mlb_id": 695505,
         "hand": "R",
         "status": "probable",
-        "era": 2.14,
-        "whip": 0.99,
-        "strikeouts": 88,
-        "innings_pitched": "75.2",
-        "wins": 7,
+        "era": 2.01,
+        "whip": 1.02,
+        "strikeouts": 95,
+        "innings_pitched": "80.2",
+        "wins": 8,
         "losses": 1,
         "home_runs": 9,
-        "walks": 23,
+        "walks": 26,
         "hit_batters": 0,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 10.5,
-        "fip": 3.23,
+        "k_per_9": 10.6,
+        "fip": 3.16,
         "xera": 2.92,
         "whiff_rate": null,
         "hard_hit_pct": 38.4,
         "barrel_pct": 9.2,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 26",
-              "opponent": "???",
-              "ip": "5.1",
-              "er": 2,
-              "k": 8,
-              "bb": 2
-            },
             {
               "date": "Jun 3",
               "opponent": "???",
@@ -1585,80 +1837,88 @@
               "er": 2,
               "k": 7,
               "bb": 2
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 0,
+              "k": 7,
+              "bb": 3
             }
           ],
-          "rolling_era": 3.24
+          "rolling_era": 2.2
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:52Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Great American Ball Park",
         "city": "Cincinnati, OH",
         "roof": "outdoor",
-        "temp_f": 73.8,
-        "wind_mph": 5.6,
-        "wind_dir": "NW",
-        "precipitation_pct": 0,
-        "conditions": "Clear sky",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:16Z"
+        "fetched_at": "2026-06-16T12:09:35Z"
       },
       "team_away": {
         "name": "New York Mets",
         "abbr": "NYM",
         "team_id": 121,
         "wins": 32,
-        "losses": 39,
-        "pct": ".451",
-        "run_differential": -11,
+        "losses": 40,
+        "pct": ".444",
+        "run_differential": -23,
         "runs_scored": 288,
-        "runs_allowed": 299,
-        "games_played": 71,
-        "rs_per_game": 4.1,
-        "ra_per_game": 4.2,
-        "last10_wins": 6,
-        "last10_losses": 4,
+        "runs_allowed": 311,
+        "games_played": 72,
+        "rs_per_game": 4.0,
+        "ra_per_game": 4.3,
+        "last10_wins": 5,
+        "last10_losses": 5,
         "home_wins": 18,
         "home_losses": 18,
         "away_wins": 14,
-        "away_losses": 21,
-        "streak": "W1",
+        "away_losses": 22,
+        "streak": "L1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 4.4
       },
       "team_home": {
         "name": "Cincinnati Reds",
         "abbr": "CIN",
         "team_id": 113,
-        "wins": 33,
+        "wins": 34,
         "losses": 37,
-        "pct": ".471",
-        "run_differential": -58,
-        "runs_scored": 293,
+        "pct": ".479",
+        "run_differential": -46,
+        "runs_scored": 305,
         "runs_allowed": 351,
-        "games_played": 70,
-        "rs_per_game": 4.2,
-        "ra_per_game": 5.0,
-        "last10_wins": 2,
-        "last10_losses": 8,
-        "home_wins": 17,
+        "games_played": 71,
+        "rs_per_game": 4.3,
+        "ra_per_game": 4.9,
+        "last10_wins": 3,
+        "last10_losses": 7,
+        "home_wins": 18,
         "home_losses": 18,
         "away_wins": 16,
         "away_losses": 19,
-        "streak": "L1",
+        "streak": "W1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 3.1
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -1696,7 +1956,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:11Z"
+        "fetched_at": "2026-06-16T12:10:30Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -1735,27 +1995,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:16Z"
+        "fetched_at": "2026-06-16T12:10:35Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Carson Benge",
+              "pos": "RF",
+              "bat_order": 1
+            },
+            {
+              "name": "Bo Bichette",
+              "pos": "SS",
+              "bat_order": 2
+            },
+            {
+              "name": "Juan Soto",
+              "pos": "LF",
+              "bat_order": 3
+            },
+            {
+              "name": "Jared Young",
+              "pos": "1B",
+              "bat_order": 4
+            },
+            {
+              "name": "A.J. Ewing",
+              "pos": "CF",
+              "bat_order": 5
+            },
+            {
+              "name": "Marcus Semien",
+              "pos": "2B",
+              "bat_order": 6
+            },
+            {
+              "name": "Brett Baty",
+              "pos": "3B",
+              "bat_order": 7
+            },
+            {
+              "name": "MJ Melendez",
+              "pos": "DH",
+              "bat_order": 8
+            },
+            {
+              "name": "Francisco Alvarez",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Blake Dunn",
+              "pos": "CF",
+              "bat_order": 1
+            },
+            {
+              "name": "JJ Bleday",
+              "pos": "LF",
+              "bat_order": 2
+            },
+            {
+              "name": "Sal Stewart",
+              "pos": "DH",
+              "bat_order": 3
+            },
+            {
+              "name": "Spencer Steer",
+              "pos": "1B",
+              "bat_order": 4
+            },
+            {
+              "name": "Eugenio Su\u00e1rez",
+              "pos": "3B",
+              "bat_order": 5
+            },
+            {
+              "name": "Noelvi Marte",
+              "pos": "RF",
+              "bat_order": 6
+            },
+            {
+              "name": "Matt McLain",
+              "pos": "SS",
+              "bat_order": 7
+            },
+            {
+              "name": "Tyler Stephenson",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Edwin Arroyo",
+              "pos": "2B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Mark Wegner",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -1770,97 +2122,87 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -180",
-        "home": "-1.5 +150",
-        "time": "20:03"
+        "away": "-1.5 +120",
+        "home": "+1.5 -161",
+        "time": "18:18"
       },
       "opening_total": {
-        "line": 8.0,
-        "over": "-115",
-        "under": "-105",
-        "time": "20:03"
+        "line": 9.5,
+        "over": "-110",
+        "under": "-122",
+        "time": "18:18"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -180",
-          "home": "-1.5 +150"
+          "away": "-1.5 +120",
+          "home": "+1.5 -161"
         },
         "betway": {
-          "away": "+1.5 -190",
-          "home": "-1.5 +140"
+          "away": "-1.5 +125",
+          "home": "+1.5 -165"
         },
         "williamhill": {
-          "away": "+1.5 -178",
-          "home": "-1.5 +150"
+          "away": "-1.5 +130",
+          "home": "+1.5 -155"
         }
       },
       "current_total": {
         "bet365": {
-          "line": 8.5,
+          "line": 10.0,
           "over": "-115",
           "under": "-125"
         },
         "betway": {
-          "line": 8.5,
-          "over": "+105",
-          "under": "-125"
-        },
-        "williamhill": {
-          "line": 8.0,
+          "line": 9.5,
           "over": "-115",
           "under": "-105"
+        },
+        "williamhill": {
+          "line": 9.5,
+          "over": "-120",
+          "under": "+100"
         }
       },
       "rl_movement": [
         {
-          "time": "Today 03:41",
-          "away": "+1.5 -180",
-          "home": "-1.5 +150"
-        },
-        {
-          "time": "Jun 14 22:12",
-          "away": "+1.5 -185",
-          "home": "-1.5 +155"
-        },
-        {
-          "time": "Jun 14 20:03",
-          "away": "+1.5 -180",
-          "home": "-1.5 +150"
+          "time": "Jun 15 18:18",
+          "away": "-1.5 +120",
+          "home": "+1.5 -161"
         }
       ],
       "total_movement": [
         {
-          "time": "Today 03:44",
-          "line": 8.5,
+          "time": "Today 00:33",
+          "line": 10.0,
           "over": "-115",
           "under": "-125"
         },
         {
-          "time": "Today 00:53",
-          "line": 8.0,
-          "over": "-115",
-          "under": "-105"
-        },
-        {
-          "time": "Jun 14 23:07",
-          "line": 8.5,
-          "over": "-115",
-          "under": "-125"
-        },
-        {
-          "time": "Jun 14 22:59",
-          "line": 8.0,
-          "over": "-115",
-          "under": "-105"
-        },
-        {
-          "time": "Jun 14 20:04",
-          "line": 8.0,
-          "over": "-110",
+          "time": "Today 00:31",
+          "line": 9.5,
+          "over": "-122",
           "under": "-110"
+        },
+        {
+          "time": "Jun 15 23:25",
+          "line": 9.5,
+          "over": "-116",
+          "under": "-116"
+        },
+        {
+          "time": "Jun 15 21:26",
+          "line": 9.0,
+          "over": "-116",
+          "under": "-116"
+        },
+        {
+          "time": "Jun 15 18:18",
+          "line": 9.5,
+          "over": "-110",
+          "under": "-122"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:13",
+      "fetched_at": "2026-06-16T08:08:29",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -2066,42 +2408,72 @@
       "closing_snapshot": null
     },
     "context": {
-      "pitcher_away": null,
+      "pitcher_away": {
+        "name": "Wandy Peralta",
+        "mlb_id": 593974,
+        "hand": "L",
+        "status": "probable",
+        "era": 2.12,
+        "whip": 1.38,
+        "strikeouts": 24,
+        "innings_pitched": "34.0",
+        "wins": 1,
+        "losses": 0,
+        "home_runs": 3,
+        "walks": 17,
+        "hit_batters": 2,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 6.4,
+        "fip": 4.51,
+        "xera": 4.43,
+        "whiff_rate": null,
+        "hard_hit_pct": 35.8,
+        "barrel_pct": 4.2,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "1.0",
+              "er": 0,
+              "k": 1,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 0.0
+        }
+      },
       "pitcher_home": {
         "name": "Dustin May",
         "mlb_id": 669160,
         "hand": "R",
         "status": "probable",
-        "era": 4.21,
-        "whip": 1.25,
-        "strikeouts": 66,
-        "innings_pitched": "72.2",
-        "wins": 4,
+        "era": 3.75,
+        "whip": 1.14,
+        "strikeouts": 75,
+        "innings_pitched": "81.2",
+        "wins": 5,
         "losses": 6,
         "home_runs": 5,
-        "walks": 20,
+        "walks": 21,
         "hit_batters": 5,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 8.2,
-        "fip": 3.21,
+        "k_per_9": 8.3,
+        "fip": 3.01,
         "xera": 3.65,
         "whiff_rate": null,
         "hard_hit_pct": 47.4,
         "barrel_pct": 6.7,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 27",
-              "opponent": "???",
-              "ip": "7.0",
-              "er": 1,
-              "k": 9,
-              "bb": 0
-            },
             {
               "date": "Jun 2",
               "opponent": "???",
@@ -2117,80 +2489,88 @@
               "er": 0,
               "k": 6,
               "bb": 1
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "9.0",
+              "er": 0,
+              "k": 9,
+              "bb": 1
             }
           ],
-          "rolling_era": 1.93
+          "rolling_era": 1.31
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:52Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Busch Stadium",
         "city": "St. Louis, MO",
         "roof": "outdoor",
-        "temp_f": 79.8,
-        "wind_mph": 6.2,
-        "wind_dir": "W",
-        "precipitation_pct": 0,
-        "conditions": "Clear sky",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:17Z"
+        "fetched_at": "2026-06-16T12:09:36Z"
       },
       "team_away": {
         "name": "San Diego Padres",
         "abbr": "SD",
         "team_id": 135,
         "wins": 37,
-        "losses": 33,
-        "pct": ".529",
-        "run_differential": -10,
+        "losses": 34,
+        "pct": ".521",
+        "run_differential": -13,
         "runs_scored": 272,
-        "runs_allowed": 282,
-        "games_played": 70,
-        "rs_per_game": 3.9,
+        "runs_allowed": 285,
+        "games_played": 71,
+        "rs_per_game": 3.8,
         "ra_per_game": 4.0,
         "last10_wins": 5,
         "last10_losses": 5,
         "home_wins": 19,
         "home_losses": 19,
         "away_wins": 18,
-        "away_losses": 14,
-        "streak": "W2",
+        "away_losses": 15,
+        "streak": "L1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 4.1
       },
       "team_home": {
         "name": "St. Louis Cardinals",
         "abbr": "STL",
         "team_id": 138,
-        "wins": 38,
+        "wins": 39,
         "losses": 31,
-        "pct": ".551",
-        "run_differential": 12,
-        "runs_scored": 319,
+        "pct": ".557",
+        "run_differential": 15,
+        "runs_scored": 322,
         "runs_allowed": 307,
-        "games_played": 69,
+        "games_played": 70,
         "rs_per_game": 4.6,
         "ra_per_game": 4.4,
         "last10_wins": 7,
         "last10_losses": 3,
-        "home_wins": 19,
+        "home_wins": 20,
         "home_losses": 16,
         "away_wins": 19,
         "away_losses": 15,
-        "streak": "L1",
+        "streak": "W1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 6.7
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -2228,7 +2608,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:21Z"
+        "fetched_at": "2026-06-16T12:10:40Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -2253,27 +2633,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:26Z"
+        "fetched_at": "2026-06-16T12:10:45Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Fernando Tatis Jr.",
+              "pos": "RF",
+              "bat_order": 1
+            },
+            {
+              "name": "Jackson Merrill",
+              "pos": "CF",
+              "bat_order": 2
+            },
+            {
+              "name": "Manny Machado",
+              "pos": "DH",
+              "bat_order": 3
+            },
+            {
+              "name": "Gavin Sheets",
+              "pos": "LF",
+              "bat_order": 4
+            },
+            {
+              "name": "Xander Bogaerts",
+              "pos": "SS",
+              "bat_order": 5
+            },
+            {
+              "name": "Will Wagner",
+              "pos": "3B",
+              "bat_order": 6
+            },
+            {
+              "name": "Ty France",
+              "pos": "1B",
+              "bat_order": 7
+            },
+            {
+              "name": "Sung-Mun Song",
+              "pos": "2B",
+              "bat_order": 8
+            },
+            {
+              "name": "Rodolfo Dur\u00e1n",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "JJ Wetherholt",
+              "pos": "2B",
+              "bat_order": 1
+            },
+            {
+              "name": "Iv\u00e1n Herrera",
+              "pos": "DH",
+              "bat_order": 2
+            },
+            {
+              "name": "Alec Burleson",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Jordan Walker",
+              "pos": "RF",
+              "bat_order": 4
+            },
+            {
+              "name": "Lars Nootbaar",
+              "pos": "LF",
+              "bat_order": 5
+            },
+            {
+              "name": "Masyn Winn",
+              "pos": "SS",
+              "bat_order": 6
+            },
+            {
+              "name": "Jimmy Crooks",
+              "pos": "C",
+              "bat_order": 7
+            },
+            {
+              "name": "Blaze Jordan",
+              "pos": "3B",
+              "bat_order": 8
+            },
+            {
+              "name": "Nathan Church",
+              "pos": "CF",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Laz Diaz",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -2288,69 +2760,80 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -180",
-        "home": "-1.5 +150",
-        "time": "00:18"
+        "away": "-1.5 +150",
+        "home": "+1.5 -200",
+        "time": "15:51"
       },
       "opening_total": {
-        "line": 8.5,
-        "over": "-105",
-        "under": "-115",
-        "time": "00:17"
+        "line": 8.0,
+        "over": "-110",
+        "under": "-122",
+        "time": "15:51"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -180",
+          "away": "+1.5 -200",
           "home": "-1.5 +150"
         },
         "betway": {
-          "away": "+1.5 -180",
-          "home": "-1.5 +135"
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
         },
         "williamhill": {
-          "away": "+1.5 -178",
-          "home": "-1.5 +150"
+          "away": "-1.5 +158",
+          "home": "+1.5 -190"
         }
       },
       "current_total": {
         "bet365": {
-          "line": 8.5,
-          "over": "-110",
-          "under": "-110"
+          "line": 8.0,
+          "over": "-116",
+          "under": "-116"
         },
         "betway": {
-          "line": 8.5,
-          "over": "-105",
-          "under": "-115"
+          "line": 8.0,
+          "over": "-118",
+          "under": "-104"
         },
         "williamhill": {
-          "line": 8.5,
+          "line": 8.0,
           "over": "-110",
           "under": "-110"
         }
       },
       "rl_movement": [
         {
-          "time": "Today 00:18",
-          "away": "+1.5 -180",
+          "time": "Today 07:11",
+          "away": "+1.5 -200",
           "home": "-1.5 +150"
+        },
+        {
+          "time": "Jun 15 15:51",
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
         }
       ],
       "total_movement": [
         {
-          "time": "Today 00:54",
-          "line": 8.5,
-          "over": "-110",
-          "under": "-110"
+          "time": "Today 07:06",
+          "line": 8.0,
+          "over": "-116",
+          "under": "-116"
         },
         {
-          "time": "Today 00:17",
-          "line": 8.5,
-          "over": "-105",
+          "time": "Jun 15 15:53",
+          "line": 7.5,
+          "over": "-125",
           "under": "-115"
+        },
+        {
+          "time": "Jun 15 15:51",
+          "line": 8.0,
+          "over": "-110",
+          "under": "-122"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:15",
+      "fetched_at": "2026-06-16T08:08:32",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -2599,18 +3082,18 @@
         "mlb_id": 547179,
         "hand": "R",
         "status": "probable",
-        "era": 7.54,
-        "whip": 1.9,
-        "strikeouts": 55,
-        "innings_pitched": "65.2",
+        "era": 7.13,
+        "whip": 1.85,
+        "strikeouts": 60,
+        "innings_pitched": "70.2",
         "wins": 2,
         "losses": 8,
-        "home_runs": 11,
-        "walks": 24,
-        "hit_batters": 3,
+        "home_runs": 12,
+        "walks": 25,
+        "hit_batters": 4,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 7.5,
+        "k_per_9": 7.6,
         "fip": 4.84,
         "xera": 5.66,
         "whiff_rate": null,
@@ -2618,17 +3101,9 @@
         "barrel_pct": 9.2,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 29",
-              "opponent": "???",
-              "ip": "3.2",
-              "er": 3,
-              "k": 2,
-              "bb": 2
-            },
             {
               "date": "Jun 3",
               "opponent": "???",
@@ -2644,9 +3119,17 @@
               "er": 1,
               "k": 7,
               "bb": 2
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 1,
+              "k": 5,
+              "bb": 1
             }
           ],
-          "rolling_era": 9.0
+          "rolling_era": 6.75
         }
       },
       "pitcher_home": {
@@ -2654,36 +3137,28 @@
         "mlb_id": 684007,
         "hand": "L",
         "status": "probable",
-        "era": 4.44,
+        "era": 4.26,
         "whip": 1.06,
-        "strikeouts": 81,
-        "innings_pitched": "81.0",
+        "strikeouts": 84,
+        "innings_pitched": "86.2",
         "wins": 4,
         "losses": 6,
         "home_runs": 17,
-        "walks": 21,
+        "walks": 22,
         "hit_batters": 3,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 9.0,
-        "fip": 4.72,
+        "k_per_9": 8.7,
+        "fip": 4.58,
         "xera": 3.67,
         "whiff_rate": null,
         "hard_hit_pct": 40.1,
         "barrel_pct": 10.8,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 29",
-              "opponent": "???",
-              "ip": "5.1",
-              "er": 5,
-              "k": 2,
-              "bb": 1
-            },
             {
               "date": "Jun 4",
               "opponent": "???",
@@ -2699,38 +3174,46 @@
               "er": 0,
               "k": 7,
               "bb": 2
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 1,
+              "k": 3,
+              "bb": 1
             }
           ],
-          "rolling_era": 6.06
+          "rolling_era": 3.78
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:52Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Wrigley Field",
         "city": "Chicago, IL",
         "roof": "outdoor",
-        "temp_f": 68.5,
-        "wind_mph": 6.8,
-        "wind_dir": "SW",
-        "precipitation_pct": 1,
-        "conditions": "Mainly clear",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:18Z"
+        "fetched_at": "2026-06-16T12:09:37Z"
       },
       "team_away": {
         "name": "Colorado Rockies",
         "abbr": "COL",
         "team_id": 115,
         "wins": 27,
-        "losses": 45,
-        "pct": ".375",
-        "run_differential": -90,
-        "runs_scored": 329,
-        "runs_allowed": 419,
-        "games_played": 72,
+        "losses": 46,
+        "pct": ".370",
+        "run_differential": -91,
+        "runs_scored": 333,
+        "runs_allowed": 424,
+        "games_played": 73,
         "rs_per_game": 4.6,
         "ra_per_game": 5.8,
         "last10_wins": 3,
@@ -2738,41 +3221,41 @@
         "home_wins": 14,
         "home_losses": 20,
         "away_wins": 13,
-        "away_losses": 25,
-        "streak": "W1",
+        "away_losses": 26,
+        "streak": "L1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 6.1
       },
       "team_home": {
         "name": "Chicago Cubs",
         "abbr": "CHC",
         "team_id": 112,
-        "wins": 37,
+        "wins": 38,
         "losses": 35,
-        "pct": ".514",
-        "run_differential": 9,
-        "runs_scored": 329,
-        "runs_allowed": 320,
-        "games_played": 72,
+        "pct": ".521",
+        "run_differential": 10,
+        "runs_scored": 334,
+        "runs_allowed": 324,
+        "games_played": 73,
         "rs_per_game": 4.6,
         "ra_per_game": 4.4,
         "last10_wins": 5,
         "last10_losses": 5,
-        "home_wins": 20,
+        "home_wins": 21,
         "home_losses": 15,
         "away_wins": 17,
         "away_losses": 20,
-        "streak": "L1",
+        "streak": "W1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 4.0
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -2796,7 +3279,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:31Z"
+        "fetched_at": "2026-06-16T12:10:50Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -2835,27 +3318,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:36Z"
+        "fetched_at": "2026-06-16T12:10:55Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Willi Castro",
+              "pos": "2B",
+              "bat_order": 1
+            },
+            {
+              "name": "Tyler Freeman",
+              "pos": "RF",
+              "bat_order": 2
+            },
+            {
+              "name": "TJ Rumfield",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Hunter Goodman",
+              "pos": "DH",
+              "bat_order": 4
+            },
+            {
+              "name": "Ezequiel Tovar",
+              "pos": "SS",
+              "bat_order": 5
+            },
+            {
+              "name": "Cole Carrigg",
+              "pos": "CF",
+              "bat_order": 6
+            },
+            {
+              "name": "Jake McCarthy",
+              "pos": "LF",
+              "bat_order": 7
+            },
+            {
+              "name": "Kyle Karros",
+              "pos": "3B",
+              "bat_order": 8
+            },
+            {
+              "name": "Braxton Fulford",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Pete Crow-Armstrong",
+              "pos": "CF",
+              "bat_order": 1
+            },
+            {
+              "name": "Alex Bregman",
+              "pos": "3B",
+              "bat_order": 2
+            },
+            {
+              "name": "Michael Busch",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Seiya Suzuki",
+              "pos": "DH",
+              "bat_order": 4
+            },
+            {
+              "name": "Ian Happ",
+              "pos": "LF",
+              "bat_order": 5
+            },
+            {
+              "name": "Nico Hoerner",
+              "pos": "2B",
+              "bat_order": 6
+            },
+            {
+              "name": "Mois\u00e9s Ballesteros",
+              "pos": "C",
+              "bat_order": 7
+            },
+            {
+              "name": "Matt Shaw",
+              "pos": "RF",
+              "bat_order": 8
+            },
+            {
+              "name": "Dansby Swanson",
+              "pos": "SS",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "James Hoye",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -2870,24 +3445,24 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -125",
+        "away": "+1.5 -139",
         "home": "-1.5 +105",
-        "time": "20:15"
+        "time": "16:59"
       },
       "opening_total": {
-        "line": 9.0,
-        "over": "-125",
-        "under": "+105",
-        "time": "20:15"
+        "line": 10.0,
+        "over": "-110",
+        "under": "-122",
+        "time": "16:58"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -120",
-          "home": "-1.5 +100"
+          "away": "+1.5 -127",
+          "home": "-1.5 -104"
         },
         "betway": {
-          "away": "+1.5 -115",
-          "home": "-1.5 -105"
+          "away": "+1.5 -120",
+          "home": "-1.5 +100"
         },
         "williamhill": {
           "away": "+1.5 -120",
@@ -2897,47 +3472,75 @@
       "current_total": {
         "bet365": {
           "line": 9.5,
-          "over": "-115",
-          "under": "-125"
+          "over": "-116",
+          "under": "-116"
         },
         "betway": {
-          "line": 9.0,
-          "over": "-124",
-          "under": "+102"
+          "line": 9.5,
+          "over": "-115",
+          "under": "-105"
         },
         "williamhill": {
-          "line": 9.0,
-          "over": "-120",
-          "under": "+100"
+          "line": 9.5,
+          "over": "-110",
+          "under": "-110"
         }
       },
       "rl_movement": [
         {
-          "time": "Jun 14 23:40",
-          "away": "+1.5 -120",
-          "home": "-1.5 +100"
+          "time": "Today 01:11",
+          "away": "+1.5 -127",
+          "home": "-1.5 -104"
         },
         {
-          "time": "Jun 14 20:15",
-          "away": "+1.5 -125",
+          "time": "Jun 15 22:27",
+          "away": "+1.5 -132",
+          "home": "-1.5 +101"
+        },
+        {
+          "time": "Jun 15 21:17",
+          "away": "+1.5 -143",
+          "home": "-1.5 +110"
+        },
+        {
+          "time": "Jun 15 16:59",
+          "away": "+1.5 -139",
           "home": "-1.5 +105"
         }
       ],
       "total_movement": [
         {
-          "time": "Jun 14 20:23",
+          "time": "Today 00:26",
           "line": 9.5,
-          "over": "-115",
-          "under": "-125"
+          "over": "-116",
+          "under": "-116"
         },
         {
-          "time": "Jun 14 20:15",
+          "time": "Jun 15 21:26",
           "line": 9.0,
+          "over": "-116",
+          "under": "-116"
+        },
+        {
+          "time": "Jun 15 21:16",
+          "line": 9.5,
+          "over": "-110",
+          "under": "-122"
+        },
+        {
+          "time": "Jun 15 17:39",
+          "line": 9.5,
+          "over": "-120",
+          "under": "-120"
+        },
+        {
+          "time": "Jun 15 17:09",
+          "line": 9.5,
           "over": "-125",
-          "under": "+105"
+          "under": "-115"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:18",
+      "fetched_at": "2026-06-16T08:08:38",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -3123,42 +3726,80 @@
       "closing_snapshot": null
     },
     "context": {
-      "pitcher_away": null,
+      "pitcher_away": {
+        "name": "Mike Paredes",
+        "mlb_id": 702474,
+        "hand": "R",
+        "status": "probable",
+        "era": 4.2,
+        "whip": 1.0,
+        "strikeouts": 10,
+        "innings_pitched": "15.0",
+        "wins": 0,
+        "losses": 0,
+        "home_runs": 2,
+        "walks": 6,
+        "hit_batters": 2,
+        "source": "mlb_official",
+        "source_priority": 1,
+        "k_per_9": 6.0,
+        "fip": 5.1,
+        "xera": null,
+        "whiff_rate": null,
+        "hard_hit_pct": 37.9,
+        "barrel_pct": 0.0,
+        "small_sample": true,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 10",
+              "opponent": "???",
+              "ip": "3.0",
+              "er": 1,
+              "k": 4,
+              "bb": 2
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "4.2",
+              "er": 2,
+              "k": 2,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 3.52
+        }
+      },
       "pitcher_home": {
         "name": "MacKenzie Gore",
         "mlb_id": 669022,
         "hand": "L",
         "status": "probable",
-        "era": 4.18,
-        "whip": 1.35,
-        "strikeouts": 76,
-        "innings_pitched": "71.0",
+        "era": 4.27,
+        "whip": 1.31,
+        "strikeouts": 86,
+        "innings_pitched": "78.0",
         "wins": 4,
-        "losses": 5,
-        "home_runs": 6,
-        "walks": 33,
+        "losses": 6,
+        "home_runs": 8,
+        "walks": 35,
         "hit_batters": 2,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 9.6,
-        "fip": 3.54,
+        "k_per_9": 9.9,
+        "fip": 3.65,
         "xera": 4.25,
         "whiff_rate": null,
         "hard_hit_pct": 44.4,
         "barrel_pct": 8.6,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 29",
-              "opponent": "???",
-              "ip": "6.1",
-              "er": 0,
-              "k": 3,
-              "bb": 1
-            },
             {
               "date": "Jun 3",
               "opponent": "???",
@@ -3174,51 +3815,59 @@
               "er": 2,
               "k": 6,
               "bb": 3
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "7.0",
+              "er": 4,
+              "k": 10,
+              "bb": 2
             }
           ],
-          "rolling_era": 3.38
+          "rolling_era": 5.4
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:52Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Globe Life Field",
         "city": "Arlington, TX",
         "roof": "retractable",
-        "temp_f": 84.2,
-        "wind_mph": 8.6,
-        "wind_dir": "E",
-        "precipitation_pct": 6,
-        "conditions": "Clear sky",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "note": "Retractable roof \u2014 may be open or closed at game time",
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:19Z"
+        "fetched_at": "2026-06-16T12:09:38Z"
       },
       "team_away": {
         "name": "Minnesota Twins",
         "abbr": "MIN",
         "team_id": 142,
-        "wins": 33,
+        "wins": 34,
         "losses": 40,
-        "pct": ".452",
-        "run_differential": -42,
-        "runs_scored": 338,
-        "runs_allowed": 380,
-        "games_played": 73,
+        "pct": ".459",
+        "run_differential": -40,
+        "runs_scored": 342,
+        "runs_allowed": 382,
+        "games_played": 74,
         "rs_per_game": 4.6,
         "ra_per_game": 5.2,
-        "last10_wins": 4,
-        "last10_losses": 6,
+        "last10_wins": 5,
+        "last10_losses": 5,
         "home_wins": 20,
         "home_losses": 19,
-        "away_wins": 13,
+        "away_wins": 14,
         "away_losses": 21,
-        "streak": "W1",
+        "streak": "W2",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 4.8
       },
       "team_home": {
@@ -3226,29 +3875,29 @@
         "abbr": "TEX",
         "team_id": 140,
         "wins": 35,
-        "losses": 36,
-        "pct": ".493",
-        "run_differential": 6,
-        "runs_scored": 285,
-        "runs_allowed": 279,
-        "games_played": 71,
+        "losses": 37,
+        "pct": ".486",
+        "run_differential": 4,
+        "runs_scored": 287,
+        "runs_allowed": 283,
+        "games_played": 72,
         "rs_per_game": 4.0,
         "ra_per_game": 3.9,
         "last10_wins": 5,
         "last10_losses": 5,
         "home_wins": 17,
-        "home_losses": 14,
+        "home_losses": 15,
         "away_wins": 18,
         "away_losses": 22,
-        "streak": "W1",
+        "streak": "L1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 3.9
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -3279,7 +3928,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:41Z"
+        "fetched_at": "2026-06-16T12:11:00Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -3304,27 +3953,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:46Z"
+        "fetched_at": "2026-06-16T12:11:04Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Austin Martin",
+              "pos": "RF",
+              "bat_order": 1
+            },
+            {
+              "name": "Byron Buxton",
+              "pos": "CF",
+              "bat_order": 2
+            },
+            {
+              "name": "Kody Clemens",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Royce Lewis",
+              "pos": "3B",
+              "bat_order": 4
+            },
+            {
+              "name": "Josh Bell",
+              "pos": "DH",
+              "bat_order": 5
+            },
+            {
+              "name": "Kyler Fedko",
+              "pos": "LF",
+              "bat_order": 6
+            },
+            {
+              "name": "Luke Keaschall",
+              "pos": "2B",
+              "bat_order": 7
+            },
+            {
+              "name": "Ryan Kreidler",
+              "pos": "SS",
+              "bat_order": 8
+            },
+            {
+              "name": "Alex Jackson",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Joc Pederson",
+              "pos": "DH",
+              "bat_order": 1
+            },
+            {
+              "name": "Josh Jung",
+              "pos": "3B",
+              "bat_order": 2
+            },
+            {
+              "name": "Wyatt Langford",
+              "pos": "LF",
+              "bat_order": 3
+            },
+            {
+              "name": "Brandon Nimmo",
+              "pos": "RF",
+              "bat_order": 4
+            },
+            {
+              "name": "Jake Burger",
+              "pos": "1B",
+              "bat_order": 5
+            },
+            {
+              "name": "Alejandro Osuna",
+              "pos": "CF",
+              "bat_order": 6
+            },
+            {
+              "name": "Cody Freeman",
+              "pos": "2B",
+              "bat_order": 7
+            },
+            {
+              "name": "Nicky Lopez",
+              "pos": "SS",
+              "bat_order": 8
+            },
+            {
+              "name": "Elias D\u00edaz",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Derek Thomas",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -3339,68 +4080,86 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -160",
-        "home": "-1.5 +135",
-        "time": "00:33"
+        "away": "+1.5 -200",
+        "home": "-1.5 +150",
+        "time": "15:55"
       },
       "opening_total": {
-        "line": 8.0,
-        "over": "-110",
-        "under": "-110",
-        "time": "00:33"
+        "line": 8.5,
+        "over": "-104",
+        "under": "-127",
+        "time": "15:54"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -155",
-          "home": "-1.5 +130"
+          "away": "+1.5 -196",
+          "home": "-1.5 +145"
         },
         "betway": {
-          "away": "+1.5 -150",
-          "home": "-1.5 +115"
+          "away": "+1.5 -180",
+          "home": "-1.5 +135"
         },
         "williamhill": {
-          "away": "+1.5 -155",
-          "home": "-1.5 +130"
+          "away": "+1.5 -178",
+          "home": "-1.5 +150"
         }
       },
       "current_total": {
         "bet365": {
-          "line": 8.0,
-          "over": "-110",
-          "under": "-110"
+          "line": 8.5,
+          "over": "-115",
+          "under": "-125"
         },
         "betway": {
-          "line": 8.0,
-          "over": "-110",
-          "under": "-110"
+          "line": 8.5,
+          "over": "+100",
+          "under": "-120"
         },
         "williamhill": {
           "line": 8.0,
-          "over": "-110",
-          "under": "-110"
+          "over": "-115",
+          "under": "-105"
         }
       },
       "rl_movement": [
         {
-          "time": "Today 00:53",
-          "away": "+1.5 -155",
-          "home": "-1.5 +130"
+          "time": "Jun 15 21:15",
+          "away": "+1.5 -196",
+          "home": "-1.5 +145"
         },
         {
-          "time": "Today 00:33",
-          "away": "+1.5 -160",
-          "home": "-1.5 +135"
+          "time": "Jun 15 15:55",
+          "away": "+1.5 -200",
+          "home": "-1.5 +150"
         }
       ],
       "total_movement": [
         {
-          "time": "Today 00:33",
+          "time": "Today 06:33",
+          "line": 8.5,
+          "over": "-115",
+          "under": "-125"
+        },
+        {
+          "time": "Today 03:43",
           "line": 8.0,
-          "over": "-110",
+          "over": "-122",
           "under": "-110"
+        },
+        {
+          "time": "Jun 15 16:08",
+          "line": 8.0,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 15 15:54",
+          "line": 8.5,
+          "over": "-104",
+          "under": "-127"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:21",
+      "fetched_at": "2026-06-16T08:08:35",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -3687,58 +4446,56 @@
     },
     "context": {
       "pitcher_away": {
-        "name": "Troy Melton",
-        "mlb_id": 675512,
+        "name": "Drew Anderson",
+        "mlb_id": 623454,
         "hand": "R",
         "status": "probable",
-        "era": 2.81,
-        "whip": 1.01,
-        "strikeouts": 14,
-        "innings_pitched": "25.2",
-        "wins": 3,
-        "losses": 0,
-        "home_runs": 5,
-        "walks": 6,
+        "era": 3.88,
+        "whip": 1.29,
+        "strikeouts": 58,
+        "innings_pitched": "46.1",
+        "wins": 2,
+        "losses": 3,
+        "home_runs": 6,
+        "walks": 19,
         "hit_batters": 1,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 4.9,
-        "fip": 5.36,
-        "xera": 4.31,
+        "starter_change_flag": {
+          "old_name": "Troy Melton",
+          "old_id": 675512,
+          "new_name": "Drew Anderson",
+          "detected_at": "2026-06-16T12:09:08Z"
+        },
+        "k_per_9": 11.3,
+        "fip": 3.57,
+        "xera": 2.95,
         "whiff_rate": null,
-        "hard_hit_pct": 38.3,
-        "barrel_pct": 6.2,
-        "small_sample": true,
+        "hard_hit_pct": 40.9,
+        "barrel_pct": 7.3,
+        "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
             {
-              "date": "May 29",
+              "date": "May 20",
               "opponent": "???",
-              "ip": "7.0",
-              "er": 1,
-              "k": 1,
-              "bb": 1
-            },
-            {
-              "date": "Jun 3",
-              "opponent": "???",
-              "ip": "8.0",
-              "er": 2,
-              "k": 5,
+              "ip": "4.2",
+              "er": 0,
+              "k": 7,
               "bb": 2
             },
             {
-              "date": "Jun 9",
+              "date": "Jun 15",
               "opponent": "???",
-              "ip": "5.0",
-              "er": 4,
+              "ip": "2.2",
+              "er": 1,
               "k": 5,
-              "bb": 0
+              "bb": 2
             }
           ],
-          "rolling_era": 3.15
+          "rolling_era": 1.23
         }
       },
       "pitcher_home": {
@@ -3746,36 +4503,28 @@
         "mlb_id": 678906,
         "hand": "R",
         "status": "probable",
-        "era": 3.71,
-        "whip": 1.27,
-        "strikeouts": 49,
-        "innings_pitched": "51.0",
+        "era": 4.31,
+        "whip": 1.34,
+        "strikeouts": 58,
+        "innings_pitched": "54.1",
         "wins": 3,
-        "losses": 5,
-        "home_runs": 6,
-        "walks": 24,
-        "hit_batters": 4,
+        "losses": 6,
+        "home_runs": 9,
+        "walks": 26,
+        "hit_batters": 6,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 8.6,
-        "fip": 4.35,
+        "k_per_9": 9.6,
+        "fip": 4.89,
         "xera": 3.99,
         "whiff_rate": null,
         "hard_hit_pct": 39.9,
         "barrel_pct": 5.1,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 29",
-              "opponent": "???",
-              "ip": "5.0",
-              "er": 3,
-              "k": 7,
-              "bb": 4
-            },
             {
               "date": "Jun 4",
               "opponent": "???",
@@ -3791,51 +4540,59 @@
               "er": 5,
               "k": 5,
               "bb": 3
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "3.1",
+              "er": 5,
+              "k": 9,
+              "bb": 2
             }
           ],
-          "rolling_era": 7.71
+          "rolling_era": 10.22
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:52Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Minute Maid Park",
         "city": "Houston, TX",
         "roof": "retractable",
-        "temp_f": 80.0,
-        "wind_mph": 5.5,
-        "wind_dir": "SE",
-        "precipitation_pct": 38,
-        "conditions": "Thunderstorm",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "note": "Retractable roof \u2014 may be open or closed at game time",
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:20Z"
+        "fetched_at": "2026-06-16T12:09:39Z"
       },
       "team_away": {
         "name": "Detroit Tigers",
         "abbr": "DET",
         "team_id": 116,
-        "wins": 29,
+        "wins": 30,
         "losses": 42,
-        "pct": ".408",
-        "run_differential": -12,
-        "runs_scored": 288,
-        "runs_allowed": 300,
-        "games_played": 71,
+        "pct": ".417",
+        "run_differential": -6,
+        "runs_scored": 297,
+        "runs_allowed": 303,
+        "games_played": 72,
         "rs_per_game": 4.1,
         "ra_per_game": 4.2,
         "last10_wins": 6,
         "last10_losses": 4,
         "home_wins": 18,
         "home_losses": 16,
-        "away_wins": 11,
+        "away_wins": 12,
         "away_losses": 26,
-        "streak": "L2",
+        "streak": "W1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 5.5
       },
       "team_home": {
@@ -3843,29 +4600,29 @@
         "abbr": "HOU",
         "team_id": 117,
         "wins": 33,
-        "losses": 40,
-        "pct": ".452",
-        "run_differential": -39,
-        "runs_scored": 333,
-        "runs_allowed": 372,
-        "games_played": 73,
-        "rs_per_game": 4.6,
+        "losses": 41,
+        "pct": ".446",
+        "run_differential": -45,
+        "runs_scored": 336,
+        "runs_allowed": 381,
+        "games_played": 74,
+        "rs_per_game": 4.5,
         "ra_per_game": 5.1,
         "last10_wins": 5,
         "last10_losses": 5,
         "home_wins": 16,
-        "home_losses": 19,
+        "home_losses": 20,
         "away_wins": 17,
         "away_losses": 21,
-        "streak": "L1",
+        "streak": "L2",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 4.5
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -3874,7 +4631,7 @@
         },
         "taxed_relievers": [],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:51Z"
+        "fetched_at": "2026-06-16T12:11:09Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -3899,27 +4656,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:11:55Z"
+        "fetched_at": "2026-06-16T12:11:14Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Kevin McGonigle",
+              "pos": "SS",
+              "bat_order": 1
+            },
+            {
+              "name": "Gleyber Torres",
+              "pos": "2B",
+              "bat_order": 2
+            },
+            {
+              "name": "Kerry Carpenter",
+              "pos": "DH",
+              "bat_order": 3
+            },
+            {
+              "name": "Riley Greene",
+              "pos": "LF",
+              "bat_order": 4
+            },
+            {
+              "name": "Dillon Dingler",
+              "pos": "C",
+              "bat_order": 5
+            },
+            {
+              "name": "Colt Keith",
+              "pos": "3B",
+              "bat_order": 6
+            },
+            {
+              "name": "Spencer Torkelson",
+              "pos": "1B",
+              "bat_order": 7
+            },
+            {
+              "name": "Zach McKinstry",
+              "pos": "RF",
+              "bat_order": 8
+            },
+            {
+              "name": "James Outman",
+              "pos": "CF",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Jeremy Pe\u00f1a",
+              "pos": "SS",
+              "bat_order": 1
+            },
+            {
+              "name": "Yordan Alvarez",
+              "pos": "DH",
+              "bat_order": 2
+            },
+            {
+              "name": "Christian Walker",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Isaac Paredes",
+              "pos": "3B",
+              "bat_order": 4
+            },
+            {
+              "name": "Jose Altuve",
+              "pos": "2B",
+              "bat_order": 5
+            },
+            {
+              "name": "Taylor Trammell",
+              "pos": "LF",
+              "bat_order": 6
+            },
+            {
+              "name": "Cam Smith",
+              "pos": "RF",
+              "bat_order": 7
+            },
+            {
+              "name": "Brice Matthews",
+              "pos": "CF",
+              "bat_order": 8
+            },
+            {
+              "name": "Christian V\u00e1zquez",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Paul Clemons",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -3934,97 +4783,86 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -205",
-        "home": "-1.5 +170",
-        "time": "15:11"
+        "away": "+1.5 -179",
+        "home": "-1.5 +135",
+        "time": "15:59"
       },
       "opening_total": {
-        "line": 8.5,
-        "over": "-125",
-        "under": "+105",
-        "time": "15:11"
+        "line": 7.5,
+        "over": "-122",
+        "under": "-110",
+        "time": "15:59"
       },
       "current_rl": {
         "bet365": {
           "away": "+1.5 -185",
-          "home": "-1.5 +155"
-        },
-        "betway": {
-          "away": "+1.5 -190",
           "home": "-1.5 +140"
         },
+        "betway": {
+          "away": "+1.5 -165",
+          "home": "-1.5 +125"
+        },
         "williamhill": {
-          "away": "+1.5 -190",
-          "home": "-1.5 +158"
+          "away": "+1.5 -170",
+          "home": "-1.5 +143"
         }
       },
       "current_total": {
         "bet365": {
-          "line": 8.5,
-          "over": "-120",
-          "under": "+100"
+          "line": 8.0,
+          "over": "-115",
+          "under": "-125"
         },
         "betway": {
-          "line": 8.5,
-          "over": "-120",
-          "under": "+100"
+          "line": 7.5,
+          "over": "-115",
+          "under": "-105"
         },
         "williamhill": {
-          "line": 8.5,
+          "line": 7.5,
           "over": "-120",
           "under": "+100"
         }
       },
       "rl_movement": [
         {
-          "time": "Jun 14 18:40",
+          "time": "Jun 15 21:15",
           "away": "+1.5 -185",
-          "home": "-1.5 +155"
+          "home": "-1.5 +140"
         },
         {
-          "time": "Jun 14 15:46",
-          "away": "+1.5 -200",
-          "home": "-1.5 +165"
-        },
-        {
-          "time": "Jun 14 15:11",
-          "away": "+1.5 -205",
-          "home": "-1.5 +170"
+          "time": "Jun 15 15:59",
+          "away": "+1.5 -179",
+          "home": "-1.5 +135"
         }
       ],
       "total_movement": [
         {
-          "time": "Jun 14 20:57",
-          "line": 8.5,
-          "over": "-120",
-          "under": "+100"
-        },
-        {
-          "time": "Jun 14 20:25",
-          "line": 9.0,
+          "time": "Today 00:24",
+          "line": 8.0,
           "over": "-115",
           "under": "-125"
         },
         {
-          "time": "Jun 14 15:52",
-          "line": 8.5,
-          "over": "-120",
-          "under": "+100"
+          "time": "Jun 15 21:26",
+          "line": 7.5,
+          "over": "-122",
+          "under": "-110"
         },
         {
-          "time": "Jun 14 15:22",
-          "line": 9.0,
+          "time": "Jun 15 16:08",
+          "line": 8.0,
           "over": "-115",
           "under": "-125"
         },
         {
-          "time": "Jun 14 15:11",
-          "line": 8.5,
-          "over": "-125",
-          "under": "+105"
+          "time": "Jun 15 15:59",
+          "line": 7.5,
+          "over": "-122",
+          "under": "-110"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:24",
+      "fetched_at": "2026-06-16T08:08:41",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -4315,36 +5153,28 @@
         "mlb_id": 700712,
         "hand": "R",
         "status": "probable",
-        "era": 2.44,
-        "whip": 1.36,
-        "strikeouts": 55,
-        "innings_pitched": "55.1",
+        "era": 2.6,
+        "whip": 1.35,
+        "strikeouts": 58,
+        "innings_pitched": "62.1",
         "wins": 4,
-        "losses": 4,
-        "home_runs": 4,
-        "walks": 33,
-        "hit_batters": 3,
+        "losses": 5,
+        "home_runs": 5,
+        "walks": 35,
+        "hit_batters": 4,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 8.9,
-        "fip": 4.0,
+        "k_per_9": 8.4,
+        "fip": 4.16,
         "xera": 3.27,
         "whiff_rate": null,
         "hard_hit_pct": 32.5,
         "barrel_pct": 6.0,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 29",
-              "opponent": "???",
-              "ip": "6.0",
-              "er": 1,
-              "k": 5,
-              "bb": 3
-            },
             {
               "date": "Jun 3",
               "opponent": "???",
@@ -4360,9 +5190,17 @@
               "er": 0,
               "k": 7,
               "bb": 5
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "7.0",
+              "er": 3,
+              "k": 3,
+              "bb": 2
             }
           ],
-          "rolling_era": 2.12
+          "rolling_era": 3.0
         }
       },
       "pitcher_home": {
@@ -4370,36 +5208,28 @@
         "mlb_id": 669194,
         "hand": "R",
         "status": "probable",
-        "era": 5.19,
-        "whip": 1.23,
-        "strikeouts": 57,
-        "innings_pitched": "76.1",
-        "wins": 2,
+        "era": 4.97,
+        "whip": 1.24,
+        "strikeouts": 62,
+        "innings_pitched": "83.1",
+        "wins": 3,
         "losses": 5,
-        "home_runs": 17,
+        "home_runs": 18,
         "walks": 22,
-        "hit_batters": 4,
+        "hit_batters": 5,
         "source": "mlb_official",
         "source_priority": 1,
         "k_per_9": 6.7,
-        "fip": 5.52,
+        "fip": 5.39,
         "xera": 5.34,
         "whiff_rate": null,
         "hard_hit_pct": 43.8,
         "barrel_pct": 10.7,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 30",
-              "opponent": "???",
-              "ip": "5.1",
-              "er": 4,
-              "k": 3,
-              "bb": 0
-            },
             {
               "date": "Jun 4",
               "opponent": "???",
@@ -4415,81 +5245,89 @@
               "er": 7,
               "k": 2,
               "bb": 1
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "7.0",
+              "er": 2,
+              "k": 5,
+              "bb": 0
             }
           ],
-          "rolling_era": 7.16
+          "rolling_era": 5.5
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:52Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Chase Field",
         "city": "Phoenix, AZ",
         "roof": "retractable",
-        "temp_f": 98.4,
-        "wind_mph": 12.3,
-        "wind_dir": "N",
-        "precipitation_pct": 4,
-        "conditions": "Overcast",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "note": "Retractable roof \u2014 may be open or closed at game time",
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:21Z"
+        "fetched_at": "2026-06-16T12:09:40Z"
       },
       "team_away": {
         "name": "Los Angeles Angels",
         "abbr": "LAA",
         "team_id": 108,
         "wins": 29,
-        "losses": 43,
-        "pct": ".403",
-        "run_differential": -38,
-        "runs_scored": 323,
-        "runs_allowed": 361,
-        "games_played": 72,
+        "losses": 44,
+        "pct": ".397",
+        "run_differential": -39,
+        "runs_scored": 326,
+        "runs_allowed": 365,
+        "games_played": 73,
         "rs_per_game": 4.5,
         "ra_per_game": 5.0,
-        "last10_wins": 6,
-        "last10_losses": 4,
+        "last10_wins": 5,
+        "last10_losses": 5,
         "home_wins": 17,
         "home_losses": 20,
         "away_wins": 12,
-        "away_losses": 23,
-        "streak": "L1",
+        "away_losses": 24,
+        "streak": "L2",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 5.8
       },
       "team_home": {
         "name": "Arizona Diamondbacks",
         "abbr": "AZ",
         "team_id": 109,
-        "wins": 36,
+        "wins": 37,
         "losses": 35,
-        "pct": ".507",
-        "run_differential": -20,
-        "runs_scored": 300,
-        "runs_allowed": 320,
-        "games_played": 71,
+        "pct": ".514",
+        "run_differential": -19,
+        "runs_scored": 304,
+        "runs_allowed": 323,
+        "games_played": 72,
         "rs_per_game": 4.2,
         "ra_per_game": 4.5,
         "last10_wins": 4,
         "last10_losses": 6,
-        "home_wins": 21,
+        "home_wins": 22,
         "home_losses": 14,
         "away_wins": 15,
         "away_losses": 21,
-        "streak": "W1",
+        "streak": "W2",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 2.7
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -4534,7 +5372,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:12:00Z"
+        "fetched_at": "2026-06-16T12:11:19Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -4566,27 +5404,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:12:05Z"
+        "fetched_at": "2026-06-16T12:11:23Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Zach Neto",
+              "pos": "SS",
+              "bat_order": 1
+            },
+            {
+              "name": "Mike Trout",
+              "pos": "CF",
+              "bat_order": 2
+            },
+            {
+              "name": "Wade Meckler",
+              "pos": "LF",
+              "bat_order": 3
+            },
+            {
+              "name": "Jo Adell",
+              "pos": "RF",
+              "bat_order": 4
+            },
+            {
+              "name": "Nolan Schanuel",
+              "pos": "1B",
+              "bat_order": 5
+            },
+            {
+              "name": "Denzer Guzman",
+              "pos": "3B",
+              "bat_order": 6
+            },
+            {
+              "name": "Logan O'Hoppe",
+              "pos": "C",
+              "bat_order": 7
+            },
+            {
+              "name": "Donovan Walton",
+              "pos": "DH",
+              "bat_order": 8
+            },
+            {
+              "name": "Oswald Peraza",
+              "pos": "2B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Ketel Marte",
+              "pos": "2B",
+              "bat_order": 1
+            },
+            {
+              "name": "Geraldo Perdomo",
+              "pos": "SS",
+              "bat_order": 2
+            },
+            {
+              "name": "Corbin Carroll",
+              "pos": "RF",
+              "bat_order": 3
+            },
+            {
+              "name": "Gabriel Moreno",
+              "pos": "C",
+              "bat_order": 4
+            },
+            {
+              "name": "Lourdes Gurriel Jr.",
+              "pos": "DH",
+              "bat_order": 5
+            },
+            {
+              "name": "Nolan Arenado",
+              "pos": "3B",
+              "bat_order": 6
+            },
+            {
+              "name": "Jordan Lawlar",
+              "pos": "CF",
+              "bat_order": 7
+            },
+            {
+              "name": "Pavin Smith",
+              "pos": "1B",
+              "bat_order": 8
+            },
+            {
+              "name": "Tommy Troy",
+              "pos": "LF",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Vic Carapazza",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -4601,107 +5531,96 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -220",
-        "home": "-1.5 +180",
-        "time": "15:27"
+        "away": "-1.5 +155",
+        "home": "+1.5 -208",
+        "time": "16:31"
       },
       "opening_total": {
-        "line": 9.0,
-        "over": "+100",
-        "under": "-120",
-        "time": "15:30"
+        "line": 8.5,
+        "over": "-127",
+        "under": "-104",
+        "time": "16:31"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -185",
-          "home": "-1.5 +155"
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
         },
         "betway": {
-          "away": "+1.5 -190",
-          "home": "-1.5 +140"
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
         },
         "williamhill": {
-          "away": "-1.5 +152",
-          "home": "+1.5 -214"
+          "away": "-1.5 +139",
+          "home": "+1.5 -194"
         }
       },
       "current_total": {
         "bet365": {
           "line": 9.0,
+          "over": "-115",
+          "under": "-125"
+        },
+        "betway": {
+          "line": 8.5,
           "over": "-120",
           "under": "+100"
         },
-        "betway": {
-          "line": 9.0,
-          "over": "-105",
-          "under": "-115"
-        },
         "williamhill": {
-          "line": 9.0,
+          "line": 8.5,
           "over": "-120",
           "under": "+100"
         }
       },
       "rl_movement": [
         {
-          "time": "Today 05:01",
-          "away": "+1.5 -185",
-          "home": "-1.5 +155"
+          "time": "Today 03:15",
+          "away": "-1.5 +140",
+          "home": "+1.5 -190"
         },
         {
-          "time": "Jun 14 22:53",
+          "time": "Today 00:11",
+          "away": "-1.5 +150",
+          "home": "+1.5 -200"
+        },
+        {
+          "time": "Jun 15 23:17",
+          "away": "+1.5 -222",
+          "home": "-1.5 +165"
+        },
+        {
+          "time": "Jun 15 16:31",
           "away": "-1.5 +155",
-          "home": "+1.5 -210"
-        },
-        {
-          "time": "Jun 14 22:05",
-          "away": "+1.5 -190",
-          "home": "-1.5 +160"
-        },
-        {
-          "time": "Jun 14 20:13",
-          "away": "-1.5 +155",
-          "home": "+1.5 -210"
-        },
-        {
-          "time": "Jun 14 20:10",
-          "away": "+1.5 -185",
-          "home": "-1.5 +155"
+          "home": "+1.5 -208"
         }
       ],
       "total_movement": [
         {
-          "time": "Jun 14 22:45",
-          "line": 9.0,
-          "over": "-120",
-          "under": "+100"
-        },
-        {
-          "time": "Jun 14 17:53",
+          "time": "Today 07:11",
           "line": 9.0,
           "over": "-115",
           "under": "-125"
         },
         {
-          "time": "Jun 14 17:53",
-          "line": 9.0,
-          "over": "-115",
-          "under": "-105"
+          "time": "Today 07:09",
+          "line": 8.5,
+          "over": "-127",
+          "under": "-104"
         },
         {
-          "time": "Jun 14 17:41",
+          "time": "Jun 15 21:18",
           "line": 8.5,
-          "over": "-125",
-          "under": "+105"
+          "over": "-122",
+          "under": "-110"
         },
         {
-          "time": "Jun 14 17:40",
+          "time": "Jun 15 16:31",
           "line": 8.5,
-          "over": "-120",
-          "under": "+100"
+          "over": "-127",
+          "under": "-104"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:28",
+      "fetched_at": "2026-06-16T08:08:44",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -4992,36 +5911,28 @@
         "mlb_id": 683003,
         "hand": "R",
         "status": "probable",
-        "era": 4.73,
-        "whip": 1.43,
-        "strikeouts": 14,
-        "innings_pitched": "13.1",
+        "era": 6.23,
+        "whip": 1.62,
+        "strikeouts": 18,
+        "innings_pitched": "17.1",
         "wins": 1,
-        "losses": 0,
-        "home_runs": 2,
-        "walks": 5,
+        "losses": 1,
+        "home_runs": 4,
+        "walks": 6,
         "hit_batters": 0,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 9.4,
-        "fip": 4.08,
+        "k_per_9": 9.3,
+        "fip": 5.06,
         "xera": null,
         "whiff_rate": null,
         "hard_hit_pct": 46.2,
         "barrel_pct": 10.3,
         "small_sample": true,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 29",
-              "opponent": "???",
-              "ip": "4.1",
-              "er": 5,
-              "k": 6,
-              "bb": 2
-            },
             {
               "date": "Jun 4",
               "opponent": "???",
@@ -5037,9 +5948,17 @@
               "er": 2,
               "k": 4,
               "bb": 1
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "4.0",
+              "er": 5,
+              "k": 4,
+              "bb": 1
             }
           ],
-          "rolling_era": 4.73
+          "rolling_era": 4.85
         }
       },
       "pitcher_home": {
@@ -5047,36 +5966,28 @@
         "mlb_id": 669372,
         "hand": "R",
         "status": "probable",
-        "era": 3.15,
-        "whip": 1.15,
-        "strikeouts": 65,
-        "innings_pitched": "71.1",
-        "wins": 4,
+        "era": 2.91,
+        "whip": 1.16,
+        "strikeouts": 68,
+        "innings_pitched": "77.1",
+        "wins": 5,
         "losses": 3,
         "home_runs": 8,
-        "walks": 30,
+        "walks": 32,
         "hit_batters": 4,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 8.2,
-        "fip": 4.17,
+        "k_per_9": 7.9,
+        "fip": 4.08,
         "xera": 3.8,
         "whiff_rate": null,
         "hard_hit_pct": 37.7,
         "barrel_pct": 6.3,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 30",
-              "opponent": "???",
-              "ip": "6.0",
-              "er": 0,
-              "k": 4,
-              "bb": 3
-            },
             {
               "date": "Jun 4",
               "opponent": "???",
@@ -5092,6 +6003,14 @@
               "er": 5,
               "k": 5,
               "bb": 3
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 0,
+              "k": 3,
+              "bb": 2
             }
           ],
           "rolling_era": 3.06
@@ -5099,73 +6018,73 @@
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:52Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Sutter Health Park",
         "city": "Sacramento, CA",
         "roof": "outdoor",
-        "temp_f": 89.5,
-        "wind_mph": 11.3,
-        "wind_dir": "SW",
-        "precipitation_pct": 0,
-        "conditions": "Clear sky",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:22Z"
+        "fetched_at": "2026-06-16T12:09:41Z"
       },
       "team_away": {
         "name": "Pittsburgh Pirates",
         "abbr": "PIT",
         "team_id": 134,
         "wins": 36,
-        "losses": 36,
-        "pct": ".500",
-        "run_differential": 14,
-        "runs_scored": 359,
-        "runs_allowed": 345,
-        "games_played": 72,
-        "rs_per_game": 5.0,
-        "ra_per_game": 4.8,
-        "last10_wins": 3,
-        "last10_losses": 7,
+        "losses": 37,
+        "pct": ".493",
+        "run_differential": 5,
+        "runs_scored": 361,
+        "runs_allowed": 356,
+        "games_played": 73,
+        "rs_per_game": 4.9,
+        "ra_per_game": 4.9,
+        "last10_wins": 2,
+        "last10_losses": 8,
         "home_wins": 20,
         "home_losses": 19,
         "away_wins": 16,
-        "away_losses": 17,
-        "streak": "L1",
+        "away_losses": 18,
+        "streak": "L2",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 3.9
       },
       "team_home": {
         "name": "Athletics",
         "abbr": "ATH",
         "team_id": 133,
-        "wins": 35,
+        "wins": 36,
         "losses": 36,
-        "pct": ".493",
-        "run_differential": -51,
-        "runs_scored": 320,
-        "runs_allowed": 371,
-        "games_played": 71,
-        "rs_per_game": 4.5,
+        "pct": ".500",
+        "run_differential": -42,
+        "runs_scored": 331,
+        "runs_allowed": 373,
+        "games_played": 72,
+        "rs_per_game": 4.6,
         "ra_per_game": 5.2,
-        "last10_wins": 5,
-        "last10_losses": 5,
-        "home_wins": 15,
+        "last10_wins": 6,
+        "last10_losses": 4,
+        "home_wins": 16,
         "home_losses": 19,
         "away_wins": 20,
         "away_losses": 17,
-        "streak": "L1",
+        "streak": "W1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 6.1
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -5196,7 +6115,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:12:14Z"
+        "fetched_at": "2026-06-16T12:11:28Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -5235,27 +6154,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:12:19Z"
+        "fetched_at": "2026-06-16T12:11:33Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Spencer Horwitz",
+              "pos": "1B",
+              "bat_order": 1
+            },
+            {
+              "name": "Brandon Lowe",
+              "pos": "2B",
+              "bat_order": 2
+            },
+            {
+              "name": "Bryan Reynolds",
+              "pos": "DH",
+              "bat_order": 3
+            },
+            {
+              "name": "Ryan O'Hearn",
+              "pos": "RF",
+              "bat_order": 4
+            },
+            {
+              "name": "Nick Gonzales",
+              "pos": "SS",
+              "bat_order": 5
+            },
+            {
+              "name": "Endy Rodr\u00edguez",
+              "pos": "C",
+              "bat_order": 6
+            },
+            {
+              "name": "Tyler Callihan",
+              "pos": "3B",
+              "bat_order": 7
+            },
+            {
+              "name": "Jake Mangum",
+              "pos": "CF",
+              "bat_order": 8
+            },
+            {
+              "name": "Esmerlyn Valdez",
+              "pos": "LF",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Nick Kurtz",
+              "pos": "1B",
+              "bat_order": 1
+            },
+            {
+              "name": "Shea Langeliers",
+              "pos": "C",
+              "bat_order": 2
+            },
+            {
+              "name": "Tyler Soderstrom",
+              "pos": "LF",
+              "bat_order": 3
+            },
+            {
+              "name": "Jacob Wilson",
+              "pos": "SS",
+              "bat_order": 4
+            },
+            {
+              "name": "Carlos Cortes",
+              "pos": "DH",
+              "bat_order": 5
+            },
+            {
+              "name": "Zack Gelof",
+              "pos": "3B",
+              "bat_order": 6
+            },
+            {
+              "name": "Lawrence Butler",
+              "pos": "RF",
+              "bat_order": 7
+            },
+            {
+              "name": "Henry Bolte",
+              "pos": "CF",
+              "bat_order": 8
+            },
+            {
+              "name": "Jeff McNeil",
+              "pos": "2B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Charlie Ramos",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -5270,107 +6281,84 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -190",
-        "home": "-1.5 +160",
-        "time": "15:11"
+        "away": "+1.5 -179",
+        "home": "-1.5 +135",
+        "time": "16:24"
       },
       "opening_total": {
         "line": 10.5,
-        "over": "-125",
-        "under": "+105",
-        "time": "15:11"
+        "over": "-122",
+        "under": "-110",
+        "time": "16:24"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -180",
-          "home": "-1.5 +150"
+          "away": "+1.5 -179",
+          "home": "-1.5 +135"
         },
         "betway": {
-          "away": "+1.5 -190",
-          "home": "-1.5 +140"
+          "away": "+1.5 -165",
+          "home": "-1.5 +125"
         },
         "williamhill": {
-          "away": "+1.5 -178",
-          "home": "-1.5 +150"
+          "away": "+1.5 -165",
+          "home": "-1.5 +140"
         }
       },
       "current_total": {
         "bet365": {
-          "line": 10.5,
-          "over": "-115",
-          "under": "-105"
-        },
-        "betway": {
-          "line": 10.5,
-          "over": "-115",
-          "under": "-105"
-        },
-        "williamhill": {
-          "line": 10.5,
-          "over": "-115",
-          "under": "-105"
-        }
-      },
-      "rl_movement": [
-        {
-          "time": "Today 05:07",
-          "away": "+1.5 -180",
-          "home": "-1.5 +150"
-        },
-        {
-          "time": "Jun 14 20:13",
-          "away": "+1.5 -170",
-          "home": "-1.5 +145"
-        },
-        {
-          "time": "Jun 14 15:52",
-          "away": "+1.5 -185",
-          "home": "-1.5 +155"
-        },
-        {
-          "time": "Jun 14 15:22",
-          "away": "-1.5 +150",
-          "home": "+1.5 -200"
-        },
-        {
-          "time": "Jun 14 15:11",
-          "away": "+1.5 -190",
-          "home": "-1.5 +160"
-        }
-      ],
-      "total_movement": [
-        {
-          "time": "Today 01:21",
-          "line": 10.5,
-          "over": "-115",
-          "under": "-105"
-        },
-        {
-          "time": "Jun 14 21:49",
           "line": 11.0,
           "over": "-115",
           "under": "-125"
         },
-        {
-          "time": "Jun 14 21:45",
+        "betway": {
           "line": 10.5,
           "over": "-120",
           "under": "+100"
         },
-        {
-          "time": "Jun 14 20:55",
+        "williamhill": {
           "line": 10.5,
-          "over": "-115",
-          "under": "-105"
+          "over": "-120",
+          "under": "+100"
+        }
+      },
+      "rl_movement": [
+        {
+          "time": "Today 02:25",
+          "away": "+1.5 -179",
+          "home": "-1.5 +135"
         },
         {
-          "time": "Jun 14 15:52",
+          "time": "Jun 15 21:17",
+          "away": "+1.5 -185",
+          "home": "-1.5 +140"
+        },
+        {
+          "time": "Jun 15 20:40",
+          "away": "+1.5 -196",
+          "home": "-1.5 +145"
+        },
+        {
+          "time": "Jun 15 16:24",
+          "away": "+1.5 -179",
+          "home": "-1.5 +135"
+        }
+      ],
+      "total_movement": [
+        {
+          "time": "Today 00:39",
           "line": 11.0,
           "over": "-115",
           "under": "-125"
+        },
+        {
+          "time": "Jun 15 16:24",
+          "line": 10.5,
+          "over": "-122",
+          "under": "-110"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:32",
+      "fetched_at": "2026-06-16T08:08:47",
       "source": "covers.com/bet365",
       "country_code": "au"
     },
@@ -5661,36 +6649,28 @@
         "mlb_id": 607259,
         "hand": "R",
         "status": "probable",
-        "era": 2.43,
+        "era": 2.6,
         "whip": 1.16,
-        "strikeouts": 44,
-        "innings_pitched": "77.2",
+        "strikeouts": 50,
+        "innings_pitched": "83.0",
         "wins": 6,
         "losses": 2,
-        "home_runs": 6,
-        "walks": 13,
+        "home_runs": 7,
+        "walks": 14,
         "hit_batters": 2,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 5.1,
-        "fip": 3.55,
+        "k_per_9": 5.4,
+        "fip": 3.57,
         "xera": 4.43,
         "whiff_rate": null,
         "hard_hit_pct": 31.7,
         "barrel_pct": 6.6,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 29",
-              "opponent": "???",
-              "ip": "7.0",
-              "er": 2,
-              "k": 5,
-              "bb": 0
-            },
             {
               "date": "Jun 3",
               "opponent": "???",
@@ -5706,9 +6686,17 @@
               "er": 3,
               "k": 2,
               "bb": 0
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "5.1",
+              "er": 3,
+              "k": 6,
+              "bb": 1
             }
           ],
-          "rolling_era": 5.5
+          "rolling_era": 6.61
         }
       },
       "pitcher_home": {
@@ -5716,36 +6704,28 @@
         "mlb_id": 641778,
         "hand": "L",
         "status": "probable",
-        "era": 5.47,
-        "whip": 1.29,
-        "strikeouts": 36,
-        "innings_pitched": "52.2",
+        "era": 5.37,
+        "whip": 1.31,
+        "strikeouts": 40,
+        "innings_pitched": "58.2",
         "wins": 2,
         "losses": 5,
-        "home_runs": 15,
-        "walks": 18,
-        "hit_batters": 0,
+        "home_runs": 16,
+        "walks": 21,
+        "hit_batters": 1,
         "source": "mlb_official",
         "source_priority": 1,
-        "k_per_9": 6.2,
-        "fip": 6.46,
+        "k_per_9": 6.1,
+        "fip": 6.41,
         "xera": 5.2,
         "whiff_rate": null,
         "hard_hit_pct": 39.6,
         "barrel_pct": 11.2,
         "small_sample": false,
         "advanced_source": "baseball_savant",
-        "advanced_fetched_at": "2026-06-15T10:09:52Z",
+        "advanced_fetched_at": "2026-06-16T12:09:08Z",
         "recent_starts": {
           "starts": [
-            {
-              "date": "May 26",
-              "opponent": "???",
-              "ip": "6.0",
-              "er": 1,
-              "k": 4,
-              "bb": 1
-            },
             {
               "date": "Jun 2",
               "opponent": "???",
@@ -5761,38 +6741,46 @@
               "er": 2,
               "k": 5,
               "bb": 0
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 3,
+              "k": 4,
+              "bb": 3
             }
           ],
-          "rolling_era": 2.76
+          "rolling_era": 3.86
         }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
-      "pitchers_fetched_at": "2026-06-15T10:09:52Z",
+      "pitchers_fetched_at": "2026-06-16T12:09:08Z",
       "weather": {
         "venue": "Dodger Stadium",
         "city": "Los Angeles, CA",
         "roof": "outdoor",
-        "temp_f": 69.2,
-        "wind_mph": 7.9,
-        "wind_dir": "SW",
-        "precipitation_pct": 0,
-        "conditions": "Clear sky",
+        "temp_f": null,
+        "wind_mph": null,
+        "wind_dir": null,
+        "precipitation_pct": null,
+        "conditions": null,
         "source": "open_meteo",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:23Z"
+        "fetched_at": "2026-06-16T12:09:42Z"
       },
       "team_away": {
         "name": "Tampa Bay Rays",
         "abbr": "TB",
         "team_id": 139,
         "wins": 41,
-        "losses": 27,
-        "pct": ".603",
-        "run_differential": 8,
-        "runs_scored": 308,
-        "runs_allowed": 300,
-        "games_played": 68,
+        "losses": 28,
+        "pct": ".594",
+        "run_differential": 7,
+        "runs_scored": 311,
+        "runs_allowed": 304,
+        "games_played": 69,
         "rs_per_game": 4.5,
         "ra_per_game": 4.4,
         "last10_wins": 5,
@@ -5800,41 +6788,41 @@
         "home_wins": 24,
         "home_losses": 9,
         "away_wins": 17,
-        "away_losses": 18,
-        "streak": "W1",
+        "away_losses": 19,
+        "streak": "L1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 3.7
       },
       "team_home": {
         "name": "Los Angeles Dodgers",
         "abbr": "LAD",
         "team_id": 119,
-        "wins": 45,
+        "wins": 46,
         "losses": 27,
-        "pct": ".625",
-        "run_differential": 141,
-        "runs_scored": 386,
-        "runs_allowed": 245,
-        "games_played": 72,
-        "rs_per_game": 5.4,
+        "pct": ".630",
+        "run_differential": 142,
+        "runs_scored": 390,
+        "runs_allowed": 248,
+        "games_played": 73,
+        "rs_per_game": 5.3,
         "ra_per_game": 3.4,
-        "last10_wins": 5,
-        "last10_losses": 5,
-        "home_wins": 22,
+        "last10_wins": 6,
+        "last10_losses": 4,
+        "home_wins": 23,
         "home_losses": 12,
         "away_wins": 23,
         "away_losses": 15,
-        "streak": "L1",
+        "streak": "W1",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:10:24Z",
+        "fetched_at": "2026-06-16T12:09:42Z",
         "l10_rs_per_game": 5.8
       },
       "teamstats_source": "mlb_official",
       "teamstats_source_priority": 1,
-      "teamstats_fetched_at": "2026-06-15T10:10:24Z",
+      "teamstats_fetched_at": "2026-06-16T12:09:42Z",
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
@@ -5879,7 +6867,7 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:12:24Z"
+        "fetched_at": "2026-06-16T12:11:38Z"
       },
       "bullpen_home": {
         "team_bullpen_era": null,
@@ -5911,27 +6899,119 @@
           }
         ],
         "source": "mlb_stats_api",
-        "fetched_at": "2026-06-15T10:12:28Z"
+        "fetched_at": "2026-06-16T12:11:43Z"
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Yandy D\u00edaz",
+              "pos": "DH",
+              "bat_order": 1
+            },
+            {
+              "name": "Jonathan Aranda",
+              "pos": "1B",
+              "bat_order": 2
+            },
+            {
+              "name": "Junior Caminero",
+              "pos": "3B",
+              "bat_order": 3
+            },
+            {
+              "name": "Ryan Vilade",
+              "pos": "LF",
+              "bat_order": 4
+            },
+            {
+              "name": "Ben Williamson",
+              "pos": "2B",
+              "bat_order": 5
+            },
+            {
+              "name": "Austin Slater",
+              "pos": "RF",
+              "bat_order": 6
+            },
+            {
+              "name": "Cedric Mullins",
+              "pos": "CF",
+              "bat_order": 7
+            },
+            {
+              "name": "Nick Fortes",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Taylor Walls",
+              "pos": "SS",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Shohei Ohtani",
+              "pos": "DH",
+              "bat_order": 1
+            },
+            {
+              "name": "Andy Pages",
+              "pos": "CF",
+              "bat_order": 2
+            },
+            {
+              "name": "Freddie Freeman",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Mookie Betts",
+              "pos": "SS",
+              "bat_order": 4
+            },
+            {
+              "name": "Max Muncy",
+              "pos": "3B",
+              "bat_order": 5
+            },
+            {
+              "name": "Kyle Tucker",
+              "pos": "RF",
+              "bat_order": 6
+            },
+            {
+              "name": "Ryan Ward",
+              "pos": "LF",
+              "bat_order": 7
+            },
+            {
+              "name": "Dalton Rushing",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Alex Freeland",
+              "pos": "2B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-15T10:12:29Z"
+        "fetched_at": "2026-06-16T12:11:44Z"
       },
       "umpire": {
-        "name": null,
+        "name": "Dan Merzel",
         "source": "mlb_official",
         "source_priority": 1,
-        "fetched_at": "2026-06-15T10:12:48Z",
-        "status": "unassigned"
+        "fetched_at": "2026-06-16T12:12:04Z",
+        "status": "assigned"
       }
     },
     "result": {
@@ -5946,97 +7026,92 @@
     },
     "covers_lines": {
       "opening_rl": {
-        "away": "+1.5 -155",
-        "home": "-1.5 +130",
-        "time": "15:26"
+        "away": "+1.5 -196",
+        "home": "-1.5 +145",
+        "time": "16:35"
       },
       "opening_total": {
-        "line": 9.0,
-        "over": "-105",
-        "under": "-115",
-        "time": "15:37"
+        "line": 8.0,
+        "over": "-127",
+        "under": "-104",
+        "time": "16:35"
       },
       "current_rl": {
         "bet365": {
-          "away": "+1.5 -140",
-          "home": "-1.5 +120"
+          "away": "+1.5 -179",
+          "home": "-1.5 +135"
         },
         "betway": {
-          "away": "+1.5 -150",
-          "home": "-1.5 +115"
+          "away": "+1.5 -180",
+          "home": "-1.5 +135"
         },
         "williamhill": {
-          "away": "+1.5 -140",
-          "home": "-1.5 +118"
+          "away": "+1.5 -165",
+          "home": "-1.5 +140"
         }
       },
       "current_total": {
         "bet365": {
-          "line": 9.0,
-          "over": "-110",
-          "under": "-110"
+          "line": 8.0,
+          "over": "-125",
+          "under": "-115"
         },
         "betway": {
-          "line": 9.0,
-          "over": "-106",
-          "under": "-114"
+          "line": 8.5,
+          "over": "+100",
+          "under": "-120"
         },
         "williamhill": {
-          "line": 9.0,
-          "over": "-110",
-          "under": "-110"
+          "line": 8.5,
+          "over": "-105",
+          "under": "-115"
         }
       },
       "rl_movement": [
         {
-          "time": "Jun 14 20:26",
-          "away": "+1.5 -140",
-          "home": "-1.5 +120"
+          "time": "Jun 15 20:41",
+          "away": "+1.5 -179",
+          "home": "-1.5 +135"
         },
         {
-          "time": "Jun 14 20:15",
-          "away": "+1.5 -150",
-          "home": "-1.5 +125"
-        },
-        {
-          "time": "Jun 14 15:26",
-          "away": "+1.5 -155",
-          "home": "-1.5 +130"
+          "time": "Jun 15 16:35",
+          "away": "+1.5 -196",
+          "home": "-1.5 +145"
         }
       ],
       "total_movement": [
         {
-          "time": "Today 05:12",
-          "line": 9.0,
-          "over": "-110",
-          "under": "-110"
-        },
-        {
-          "time": "Jun 14 23:48",
-          "line": 9.0,
-          "over": "-105",
-          "under": "-115"
-        },
-        {
-          "time": "Jun 14 23:40",
-          "line": 8.5,
+          "time": "Today 04:17",
+          "line": 8.0,
           "over": "-125",
           "under": "-115"
         },
         {
-          "time": "Jun 14 20:16",
-          "line": 9.0,
-          "over": "+100",
-          "under": "-120"
+          "time": "Jun 15 21:26",
+          "line": 8.5,
+          "over": "-110",
+          "under": "-122"
         },
         {
-          "time": "Jun 14 17:42",
-          "line": 9.0,
+          "time": "Jun 15 18:43",
+          "line": 8.0,
+          "over": "-125",
+          "under": "-115"
+        },
+        {
+          "time": "Jun 15 16:43",
+          "line": 8.5,
+          "over": "-110",
+          "under": "-122"
+        },
+        {
+          "time": "Jun 15 16:38",
+          "line": 8.5,
           "over": "-115",
           "under": "-125"
         }
       ],
-      "fetched_at": "2026-06-15T06:09:36",
+      "fetched_at": "2026-06-16T08:08:50",
       "source": "covers.com/bet365",
       "country_code": "au"
     },

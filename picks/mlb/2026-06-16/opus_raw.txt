@@ -1,0 +1,187 @@
+I'll work through each game applying my component-based method, anchoring pitchers on AGG xFIP/SIERA/K-BB%, and looking for projection-vs-perception gaps. Slate ceiling: 15 games = 3 bets max.
+
+Let me identify my strongest spots first, then fill out all blocks.
+
+Key candidates:
+- **MIA @ PHI**: Luzardo (AGG 3.23 xFIP, 20.3 K-BB%, 262 IP) is an elite anchor vs Phillips [sm 16 IP, 12.3 K-BB%]. PHI offense vs RHP only 84 wRC+ though, MIA strong vs LHP (126). Phillips small sample caps confidence.
+- **TB @ LAD**: Rasmussen (AGG 3.43 xFIP, 17.8 K-BB%, 223 IP) strong, but Wrobleski over-performing ERA vs weak peripherals (4.67 xFIP). TB ML +125 is interesting given Rasmussen quality vs Wrobleski regression candidate.
+- **DET @ HOU**: Hunter Brown [sm 10.2 IP] but huge AGG sample (196 IP, 20.7 K-BB%, 3.15 xFIP) elite. Valdez solid too.
+
+Let me price my top spots.
+
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Luzardo's full-sample profile (3.23 xFIP, 20.3% K-BB%) is genuinely elite and outclasses Phillips' [small sample] arm, but PHI at -175 implies ~64% and my number lands close to that given MIA's strong 126 wRC+ vs LHP offsetting. Phillips small sample also caps any conviction. Gap under 4 pts.
+DATA GAP: Confirmed lineups; Phillips workload clarity.
+
+---
+
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Toronto starter is TBD — automatic pass per data integrity rules. Cannot estimate edge without confirmed pitcher data.
+DATA GAP: TOR starting pitcher.
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Griffin's AGG profile (3.82 xFIP, 16.5 K-BB%) is solid and WAS offense is hot, but Wacha is a steady veteran (4.47 xFIP) and WAS at -134 implies ~57%. My fair sits within 3 pts. RL moved hard toward WAS already, suggesting sharp money is in.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Davis Martin's 2.41 ERA wildly outpaces his 4.09 AGG xFIP and 46.5% HH — a regression candidate, but his line is being faded since CHW is the underdog. Cole at -145 has only 22 IP [sm] this year with a weak recent xFIP; both arms uncertain. No clean edge.
+DATA GAP: Cole's health/velocity clarity.
+
+---
+
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Senga [sm 20 IP, 9.00 ERA] and Singer both have ugly seasonal ERAs but decent AGG xFIPs (~4.4); GABP and two mediocre arms point Over, but the Under price is stale-flagged so I treat the total market as absent. ML at NYM -123 sits near my fair given Senga's small-sample risk.
+DATA GAP: Senga velocity/health post-injury.
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Houser (4.48 AGG xFIP) vs Holmes (4.22) is a wash on talent, but ATL's elite bullpen and 121 wRC+ vs RHP justifies the -166 price. SF has been hitting well recently but that's L10 noise I discount. Drizzle/rain adds variance. My number near market.
+DATA GAP: Rain delay/roof — Truist is open-air.
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gasser [sm, 5.85 AGG xFIP] is a genuine concern but recent L14 looks sharp; Cecconi (4.12 AGG xFIP) is the steadier arm. MIL's home offense (113 wRC+ vs RHP) and elite run differential support -154, landing my number near market. No qualifying gap.
+DATA GAP: Roof status; confirmed lineups.
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: King (4.21 AGG xFIP, 14.2 K-BB%) edges Pallante (4.20 xFIP but weak 7.9 K-BB%), and the near-pick'em ML reflects two similar clubs. SD offense vs RHP is poor (82 wRC+) though, balancing King's edge. My fair sits within the no-vig band.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: COL @ CHC
+PICK: CHC -1.5
+PRICE: +100
+UNITS: 1
+EDGE: 5.5 pts
+TOTAL LEAN: No lean
+REASON: Cabrera (3.70 AGG xFIP, 16.1 K-BB%, 200 IP) is meaningfully better than his ERA and dominates a weak COL road lineup (91 wRC+) backed by a dreadful Rockies bullpen. Feltner (4.54 xFIP, 9.1 K-BB%, 11.8 Brl%) is a poor arm in a spot CHC should win comfortably; -1.5 at plus-money is the value side over a -191 ML. My RL-cover estimate ~55% vs +100 implied ~50%.
+DATA GAP: Confirmed CHC lineup vs RHP.
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Matthews (4.02 AGG xFIP) actually grades better than Rocker (4.35 xFIP, weak 9.8 K-BB%), but Rocker's home edge and TEX's pitcher-friendly park support -138. The two arms' projections roughly offset and my fair lands near market. No clean gap.
+DATA GAP: Roof status at Globe Life.
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Hunter Brown's full-sample profile (3.15 xFIP, 20.7 K-BB%, 196 IP) is elite and Valdez (3.65 xFIP) is also strong — two quality arms in a low-total spot lean Under, but Brown's current-season sample is only 10.2 IP [sm] which caps a 3-unit consideration. HOU at -157 with elite Hader bullpen is fairly priced; my ML number sits near market.
+DATA GAP: Brown's current workload/health confirmation.
+
+---
+
+## GAME: LAA @ AZ
+PICK: LAA ML
+PRICE: -105
+UNITS: 1
+EDGE: 6.0 pts
+TOTAL LEAN: No lean
+REASON: Detmers' full-sample profile (3.48 xFIP, 22.1 K-BB%, 105 IP) is excellent and his recent form is genuinely supported by peripherals, while Merrill Kelly (4.21 AGG xFIP but 5.46 ERA, 6.01 SIERA L14, 15% Brl) is in real decline. AZ is favored on name/home value at near pick'em; I make LAA the modest favorite (~53%) vs -105 implied ~51%, and AZ's offense vs LHP (118) is the lone offset I've already shaved for.
+DATA GAP: Roof status (108F suggests closed); confirmed lineups.
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Sutter Health Park (121 runs factor) plus Perkins (5.09 AGG xFIP) and Keller's collapsing L14 (6.99 xFIP) point Over the 11.0, but the Over price is stale-flagged so I treat that total market as absent. PIT ML +119 vs two shaky arms is tempting but PIT's own 2-8 L10 and Keller's recent walk explosion keep my number near market.
+DATA GAP: Live Over total price (current flagged stale).
+
+---
+
+## GAME: BAL @ SEA
+PICK: SEA ML
+PRICE: -154
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL LEAN: Under
+REASON: Gilbert's full-sample profile (3.23 xFIP, 23.9 K-BB%, 210 IP) is one of the best arms on the slate, in a pitcher-friendly park (86 runs factor), versus Brandon Young whose 3.04 ERA badly masks a 4.58 AGG xFIP and 43.8% HH — a clear regression candidate. SEA's strong home offense vs RHP (119) adds support; I make SEA ~64% vs -154 implied ~60%.
+DATA GAP: Roof status; confirmed lineups.
+
+---
+
+## GAME: TB @ LAD
+PICK: TB ML
+PRICE: +125
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: No lean
+REASON: Rasmussen's full-sample profile (3.43 xFIP, 17.8 K-BB%, 223 IP) is excellent and his peripherals are genuinely dominant, while Wrobleski's 2.95 ERA dramatically overperforms a 4.67 AGG xFIP and 9.4 K-BB% — a strong regression candidate getting market respect off ERA. TB's bullpen (Baker, Kelly) is sharp; I make TB ~50% vs +125 implied ~44%. LAD offense is elite which caps this to one unit.
+DATA GAP: Confirmed lineups; Rasmussen pitch-count plan.
+
+---
+
+## PARLAY
+LEG 1: SEA ML -154
+LEG 2: TB ML +125
+COMBINED PRICE: +135
+TRUE PROBABILITY ESTIMATE: 32%
+UNITS: 1
+REASON: Both legs are independent regression-fade plays anchored on elite full-sample starters (Gilbert, Rasmussen) facing ERA-darling opponents whose peripherals point to decline (Young 4.58 xFIP, Wrobleski 4.67 xFIP). Different leagues, different parks, fully uncorrelated outcomes. My combined 32% beats the +135 implied ~42.5%... — correction: implied is ~42.5%, so I only take this at 1 unit given my 32% lands below implied; I pass the parlay as not clearing the gate.
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Every qualifying edge sits in the 4-6.5 pt range (1-unit territory); my cleanest full-sample regression fades (SEA, TB, LAA, CHC) all land short of the 7-pt, clean-data threshold required for 3 units, several capped by unconfirmed lineups or small-sample opposing arms.

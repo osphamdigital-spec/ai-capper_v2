@@ -1,0 +1,168 @@
+**## GAME: MIA @ PHI**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Luzardo holds clear edge on xFIP/SIERA/Stf+/K-BB% (3.23/3.41/107/20.3% vs Phillips 3.86/4.19/94/12.3%), but Phillips carries explicit small-sample flags (<50 IP recent) capping any edge at 1 unit. Market PHI -175 implies ~63.6%; my adjusted prob ~66-67% after park/platoon/bullpen (Duran fresh vs taxed MIA pen). Gap under 4 pts.
+DATA GAP: none
+
+---
+
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: TOR starter TBD — automatic pass per rules. No confirmed pitcher data available.
+DATA GAP: TOR starter TBD
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Griffin shows stronger recent xFIP/SIERA (2.94/3.11) vs Wacha (4.46/5.32), but both carry small-sample flags on L14 and overall volume limits edge. Market WAS -134 implies ~57.3%; estimated gap after adjustments <4 pts with bullpen and park factors.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Cole small sample (22 IP) and Martin also flagged; metrics favor Cole but insufficient clean data for 4+ pt edge. Market NYY -145 implies ~59.2%; bullpen and platoon neutral after adjustments.
+DATA GAP: both starters small-sample flags
+
+---
+
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Senga and Singer both small-sample or poor recent metrics with high xFIP; market CIN +105 implies ~48.8% for NYM. No qualifying gap after discounting ERA and applying bullpen penalties.
+DATA GAP: both starters limited IP/recent data
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Houser and Holmes post weak xFIP/SIERA/Stf+ marks; ATL bullpen elite but market ATL -166 implies ~62.4%. Estimated gap <4 pts with park and platoon factors.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Cecconi and Gasser both flagged small-sample on L14; metrics mixed with Gasser higher Stf+ but poor ERA. Market MIL -154 implies ~60.6%; gap insufficient after bullpen and roof considerations.
+DATA GAP: both starters small-sample flags
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: King and Pallante post similar xFIP around 4.2; market near even. No 4-pt gap after park (pitcher-friendly STL) and bullpen adjustments.
+DATA GAP: none
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Feltner and Cabrera show Cabrera edge on xFIP/SIERA/Stf+ but market CHC -191 implies ~65.6%. Gap under 4 pts after Coors adjustment and bullpen. Note on +100 RL but still insufficient.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Matthews and Rocker metrics close after Stf+/K-BB% weighting; market TEX -138 implies ~58%. No qualifying edge with small-sample elements and park.
+DATA GAP: none
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Valdez and Brown (very small sample) metrics favor HOU but insufficient volume for clean 4+ pt gap. Market HOU -157 implies ~61.1%; bullpen freshness neutral.
+DATA GAP: Brown small-sample flag
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Detmers strong xFIP/SIERA/Stf+ (3.48/3.27/105) vs Kelly weak marks, but Kelly volume and park/roof factors narrow gap. Market near even; estimated edge <4 pts.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Keller and Perkins post similar adjusted metrics with Keller higher volume but weaker recent xFIP. Market ATH -136 implies ~57.6%; gap insufficient with hitter-friendly park variance.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Young and Gilbert metrics favor Gilbert on xFIP/SIERA/Stf+/K-BB%; market SEA -154 implies ~60.6%. Gap under 4 pts after park and bullpen.
+DATA GAP: none
+
+---
+
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Rasmussen strong metrics (xFIP 3.43/Stf+108) vs Wrobleski weaker but small-sample; market LAD -148 implies ~59.7%. Estimated gap <4 pts with park and bullpen.
+DATA GAP: Wrobleski small-sample flag
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No game cleared the 4-pt edge gate with clean data after applying xFIP/SIERA/Stf+/K-BB% weighting, small-sample caps, bullpen adjustments, and park/platoon factors. Zero bets is the correct default outcome.

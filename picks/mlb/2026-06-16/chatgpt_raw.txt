@@ -1,0 +1,152 @@
+## GAME: MIA @ PHI
+PICK: MIA ML
+PRICE: +154
+UNITS: 1
+EDGE: 6.2 pts
+TOTAL LEAN: Over
+REASON: Luzardo is the better starter on pure skill, but the market is paying for that twice while ignoring a large platoon gap: Miami owns a 126 wRC+ vs LHP and Philadelphia sits at 84 vs RHP. Philly’s bullpen and home field keep it from becoming a bigger position, but I still make MIA 45.6% to win versus a 39.4% implied price.
+DATA GAP: Unconfirmed lineups; if Miami sits multiple core right-handed bats, this edge shrinks.
+
+---
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Toronto’s starter is TBD, and that is an automatic pass under the slate rules. Boston’s lefty profile is interesting, but I do not estimate an edge without confirmed opposing starter data.
+DATA GAP: Confirmed TOR starter and finalized lineup.
+
+---
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Washington has the better bullpen freshness and a modest home edge, but neither starter creates a clean separator and the price is close to fair. The total has moved up and some pricing is flagged suspect, so I am staying off both markets.
+DATA GAP: none
+
+---
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Davis Martin’s ERA still looks better than the contact profile underneath it, but Cole is working from a small overall sample and I do not want to pay favorite tax at this number. The Yankees are the right side on paper, just not by enough to clear the edge gate.
+DATA GAP: Unconfirmed lineups, especially any Yankees rest day bats.
+
+---
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: This is a high-variance park with two starters carrying ugly recent run-prevention signals, which pushes me away from the side. The Mets have the better late bullpen path, but not enough to overcome the volatility and price.
+DATA GAP: none
+
+---
+## GAME: SF @ ATL
+PICK: LEAN: ATL ML
+PRICE: -155
+UNITS: LEAN
+EDGE: 2.4 pts
+TOTAL LEAN: Under
+REASON: Atlanta has the better offense split, the much better bullpen, and home field, but Holmes is not dominant enough for me to lay this number confidently. Houser’s weakness keeps ATL as the only side I would look at, just short of a bet.
+DATA GAP: Weather risk from drizzle and any pregame lineup scratches.
+
+---
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Milwaukee’s offense versus right-handed pitching is strong enough to justify favoritism, but Gasser’s small sample and Cleveland’s solid bullpen keep the game too close for a wager. With roof status still unconfirmed, I also do not want the total.
+DATA GAP: Roof status.
+
+---
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: King has the better strikeout-and-skill base, but San Diego’s offense against righties has been weak enough to give St. Louis back the run-share edge. With the best away ML flagged suspect, the available prices do not create a clean side bet.
+DATA GAP: none
+
+---
+## GAME: COL @ CHC
+PICK: LEAN: CHC -1.5
+PRICE: +100
+UNITS: LEAN
+EDGE: 2.5 pts
+TOTAL LEAN: No lean
+REASON: Feltner plus the Colorado bullpen is the weak point in this matchup, and the Cubs are the preferred side if backing the favorite. I still do not get enough margin confidence from Edward Cabrera’s volatility to make the run line a full play.
+DATA GAP: none
+
+---
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Matthews has better underlying skill than his ERA, but his recent shape is poor and Minnesota’s bullpen is not trustworthy enough behind him. Texas deserves to be favored at home in a pitcher-friendly park, though not by enough for me to bet it.
+DATA GAP: Roof status.
+
+---
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The listed away starter/team assignment is internally inconsistent, and Brown’s current season sample is also small. I am not forcing a price opinion on a game with avoidable integrity questions.
+DATA GAP: Corrected starter listing and roof status.
+
+---
+## GAME: LAA @ AZ
+PICK: LEAN: LAA ML
+PRICE: -104
+UNITS: LEAN
+EDGE: 3.2 pts
+TOTAL LEAN: No lean
+REASON: Detmers is the better starter by a clear margin on xFIP, SIERA, strikeout-minus-walk rate, and recent form, while Kelly’s contact profile is dangerous. Arizona’s elite 118 wRC+ vs LHP plus the better bullpen and home field keep this just below the bet threshold.
+DATA GAP: Roof status and confirmed Arizona lineup.
+
+---
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: This park adds volatility and both starters have conflicting indicators, with Keller’s recent shape poor and Perkins still not fully established. I do not want a side when the environment inflates variance and the market number already accounts for offense.
+DATA GAP: none
+
+---
+## GAME: BAL @ SEA
+PICK: SEA ML
+PRICE: -147
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: No lean
+REASON: Gilbert gives Seattle the clearest starter edge here, and the Mariners also bring the stronger platoon offense against a contact-prone righty. In a run-suppressing home park, that setup reduces upset paths enough for me to make SEA 64.3% versus a 59.5% implied line.
+DATA GAP: Roof status.
+
+---
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Rasmussen is good enough that I cannot lay the Dodgers at this price, but Tampa’s below-average split versus lefties and Los Angeles’ lineup depth keep me off the dog as well. This is close to properly priced from both directions.
+DATA GAP: Unconfirmed lineups.
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

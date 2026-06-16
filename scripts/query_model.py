@@ -1057,6 +1057,135 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
 # POST-MORTEM MODE
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _build_confirmed_section(model: str, sport: str, date: str) -> str | None:
+    """
+    Build the CONFIRMED DATA EVALUATION block for the post-mortem prompt.
+
+    Only includes games where this model BET or LEANED (not passes).
+    Reads:
+      - picks/{sport}/{date}/{model}.json          (to find bet/lean games)
+      - data/{sport}/{date}/confirmed_data.json    (lineup + umpire data)
+
+    Returns a formatted block string, or None if confirmed_data.json is absent
+    (i.e. fetch_confirmed_data.py hasn't been run yet for this slate).
+    """
+    picks_path    = PROJECT_ROOT / "picks" / sport / date / f"{model}.json"
+    confirmed_path = PROJECT_ROOT / "data" / sport / date / "confirmed_data.json"
+
+    if not confirmed_path.exists():
+        return None
+    if not picks_path.exists():
+        return None
+
+    try:
+        picks_raw      = json.loads(picks_path.read_text(encoding="utf-8"))
+        confirmed_data = json.loads(confirmed_path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+    # picks JSON is {"picks": [...], ...} — extract the list
+    picks_data = picks_raw.get("picks", picks_raw) if isinstance(picks_raw, dict) else picks_raw
+
+    games_confirmed = confirmed_data.get("games", {})
+
+    # Find games where model BET or LEANED
+    engaged_games = []
+    for pick in picks_data:
+        action = (pick.get("action") or "").lower()
+        if action not in ("bet", "lean"):
+            continue
+        matchup = pick.get("matchup", "")
+        if matchup not in games_confirmed:
+            continue
+        engaged_games.append((pick, games_confirmed[matchup]))
+
+    if not engaged_games:
+        return None
+
+    ANTI_HINDSIGHT = (
+        "## CONFIRMED DATA EVALUATION (lineup + umpire) — was NOT available pre-game\n"
+        "Using ONLY the pre-game STATS of these players/umpire — NOT the game result — "
+        "would this confirmed data have changed your pick? You MUST cite a specific "
+        "pre-game-knowable reason (platoon mismatch, key hitter resting, umpire zone "
+        "tendency). If the confirmed lineup matches your team-level assumption, say "
+        "'no change'. Do NOT reason from what happened in the game. A would-change "
+        "call with no specific pre-game reason is invalid."
+    )
+
+    blocks = [ANTI_HINDSIGHT]
+
+    for pick, cd in engaged_games:
+        matchup      = pick.get("matchup", "")
+        action       = pick.get("action", "").upper()
+        pick_side    = pick.get("pick_side", "")
+        price        = pick.get("price", "")
+        units        = pick.get("units", "")
+        bet_type     = pick.get("bet_type", "ML")
+        away_abbr, _, home_abbr = matchup.partition(" @ ")
+
+        # Resolve pick label
+        if action == "BET":
+            price_str = f" {price}" if price and price != "N/A" else ""
+            units_str = f" ({units}u)" if units and units not in ("PASS", "LEAN") else ""
+            call_label = f"BET {pick_side} {bet_type}{price_str}{units_str}"
+        else:
+            call_label = f"LEAN {pick_side}"
+
+        # Away team bats vs home SP; home team bats vs away SP
+        away_hand = cd.get("away_sp_hand", "R")
+        home_hand = cd.get("home_sp_hand", "R")
+
+        block_lines = [
+            f"\n---\n",
+            f"### GAME: {matchup} — YOUR CALL: {call_label}\n",
+        ]
+
+        # Away batting order (bats vs home SP hand)
+        away_lu  = cd.get("away_lineup", [])
+        away_avg = cd.get("away_avg_wrc")
+        block_lines.append(
+            f"{away_abbr} BATTING ORDER (vs {home_hand}HP):"
+        )
+        for i, batter in enumerate(away_lu, 1):
+            wrc = batter.get("wrc_plus")
+            wrc_str = f"wRC+ vs {'LHP' if home_hand == 'L' else 'RHP'}: {int(wrc)}" if wrc is not None else "wRC+: N/A"
+            block_lines.append(f"  {i}. {batter['name']} — {wrc_str}")
+        if away_avg is not None:
+            block_lines.append(f"  [lineup avg wRC+: {away_avg}]")
+
+        block_lines.append("")
+
+        # Home batting order (bats vs away SP hand)
+        home_lu  = cd.get("home_lineup", [])
+        home_avg = cd.get("home_avg_wrc")
+        block_lines.append(
+            f"{home_abbr} BATTING ORDER (vs {away_hand}HP):"
+        )
+        for i, batter in enumerate(home_lu, 1):
+            wrc = batter.get("wrc_plus")
+            wrc_str = f"wRC+ vs {'LHP' if away_hand == 'L' else 'RHP'}: {int(wrc)}" if wrc is not None else "wRC+: N/A"
+            block_lines.append(f"  {i}. {batter['name']} — {wrc_str}")
+        if home_avg is not None:
+            block_lines.append(f"  [lineup avg wRC+: {home_avg}]")
+
+        block_lines.append("")
+        umpire = cd.get("umpire") or "unknown"
+        block_lines.append(f"HOME PLATE UMPIRE: {umpire}")
+        block_lines.append("")
+
+        # Response fields
+        block_lines.extend([
+            "CONFIRMED LINEUP vs YOUR ASSUMPTION: [materially different / roughly as expected]",
+            "WOULD CHANGE? [no change / lean→bet / bet→pass / bet→other side / bet→higher stake / bet→lower stake]",
+            "PRE-GAME REASON (required if WOULD CHANGE ≠ no change):",
+            "UMPIRE WOULD CHANGE? [yes/no] — pre-game reason:",
+        ])
+
+        blocks.append("\n".join(block_lines))
+
+    return "\n".join(blocks)
+
+
 def _build_outcome_summaries(model: str, sport: str, date: str) -> str | None:
     """
     Build one OUTCOME line per game the model engaged with, using:
@@ -1225,6 +1354,15 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
     else:
         print(f"Outcome summaries: not available (missing picks JSON or results JSON)")
 
+    # --- Build confirmed data evaluation section (lineup + umpire) ----------
+    # Only injected if fetch_confirmed_data.py has been run for this date.
+    # Covers bet/lean games only — not passes.
+    confirmed_block = _build_confirmed_section(model, sport, date)
+    if confirmed_block:
+        print(f"Confirmed data:    built (bet/lean games only)")
+    else:
+        print(f"Confirmed data:    not available (run fetch_confirmed_data.py first)")
+
     # --- Build input list -------------------------------------------------
     # System message sets the review framing; original picks give context.
     system_msg = (
@@ -1241,12 +1379,14 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
             "content": f"Here were your original picks:\n\n{raw_text}"
         })
 
-    # Append outcome summaries before the post-mortem questions if available.
-    # This gives the model factual scores to anchor its review without requiring
-    # the operator to manually paste results into the template.
+    # Assemble post-mortem content: outcome summaries → post-mortem questions
+    # → confirmed data evaluation (appended last so it doesn't contaminate the
+    # standard post-mortem analysis with pre-game data the model didn't have).
     pm_content = pm_text_filled
     if outcome_block:
         pm_content = outcome_block + "\n\n---\n\n" + pm_text_filled
+    if confirmed_block:
+        pm_content = pm_content + "\n\n" + confirmed_block
 
     input_messages.append({
         "role": "user",

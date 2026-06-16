@@ -1,0 +1,102 @@
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-15
+==================================================================
+
+  MIA    0  @  PHI    7
+  KC     3  @  WAS    7
+  NYM    0  @  CIN   12 <-- WIN (CIN ML -131)
+  SD     0  @  STL    3
+  COL    4  @  CHC    5
+  MIN    4  @  TEX    2
+  DET    9  @  HOU    3
+  LAA    3  @  AZ     4 <-- LOSS (LAA ML +118)
+  PIT    2  @  ATH   11
+  TB     3  @  LAD    4
+
+  Final:    1/2 bets won (Parlay lost)
+==================================================================
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: CIN ML
+RESULT: WIN
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+WHY: The pitching mismatch was as massive as projected. Chase Burns (2.98 SIERA) against Tobias Myers (5.36 SIERA) at -131 was a glaring market inefficiency. Even without knowing the 12-0 blowout result, the pricing was completely wrong for a top-tier pitcher matching up against a regression-heavy starter.
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: NYM @ CIN
+PICK: CIN ML
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Chase Burns is an elite arm, and getting him at -131 against a highly vulnerable starter in Tobias Myers is a long-term profitable position that we will take every single time.
+
+GAME: LAA @ AZ
+PICK: LAA ML
+RESULT: LOSS
+PROCESS: INCORRECT TEAM STRENGTH
+WOULD-BET-AGAIN: NO
+WHY: We severely underestimated Arizona’s offensive baseline against right-handed pitching. We based the bet on Arizona "sputtering to an 80 wRC+ vs RHP," but their actual roster configuration and talent level vs RHP is much closer to league average.
+
+GAME: PARLAY (CIN ML / LAA ML)
+PICK: CIN ML + LAA ML
+RESULT: LOSS
+PROCESS: INCORRECT TEAM STRENGTH
+WOULD-BET-AGAIN: NO
+WHY: While the Cincinnati leg was excellent, the parlays compounded a bad projection on the Angels leg where we underestimated the opposing offense.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+None.
+
+---
+
+## S3: DATA REQUEST
+NONE
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+NONE
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: NYM @ CIN — YOUR CALL: BET home ML -131 (3u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+UMPIRE WOULD CHANGE? no
+
+---
+
+### GAME: COL @ CHC — YOUR CALL: LEAN home
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? lean→bet
+PRE-GAME REASON: Colorado's confirmed lineup vs LHP is historically bad at a combined 56.9 wRC+ (featuring multiple black holes like Cole Carrigg's -62 wRC+). Facing Shota Imanaga, this lineup was completely dead on arrival. Even at -195, the Cubs ML represented a massive edge against a lineup this weak.
+UMPIRE WOULD CHANGE? no
+
+---
+
+### GAME: LAA @ AZ — YOUR CALL: BET away ML 118 (3u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? bet→pass
+PRE-GAME REASON: The Diamondbacks' confirmed lineup against right-handed pitching is significantly stronger (98.7 average wRC+) than our pre-game assumption of 80 wRC+. With high-end bats like Jordan Lawlar (190 wRC+ vs RHP), Gabriel Moreno (132), and Corbin Carroll (123) all starting, the supposed matchup edge for Walbert Ureña completely evaporates.
+UMPIRE WOULD CHANGE? no
+
+---
+
+### GAME: PIT @ ATH — YOUR CALL: LEAN home
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? lean→pass
+PRE-GAME REASON: Pittsburgh rolled out an elite lineup against right-handed pitching (132.6 average wRC+), featuring five batters with a wRC+ vs RHP above 140. With Oakland's pitching already presenting high variance, leaning on the Athletics against a lineup this hot was a bad pre-game risk.
+UMPIRE WOULD CHANGE? no
+
+---
+
+### GAME: TB @ LAD — YOUR CALL: LEAN away
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+UMPIRE WOULD CHANGE? no

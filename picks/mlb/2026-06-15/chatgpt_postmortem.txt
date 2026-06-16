@@ -1,0 +1,106 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: NONE  
+WHY: Even after review, I do not see a pre-game 3-unit edge that I can defend on process alone. PHI and CIN were good leans, but neither clearly clears my full-strength threshold without forcing hindsight.  
+SOURCE: Original price/edge framework; anti-hindsight review of pre-game inputs only.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: LAA @ AZ  
+PICK: LAA ML +118  
+RESULT: LOSS  
+PROCESS: INCORRECT TEAM STRENGTH  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: The core bet thesis depended on Angels having the better offense split vs RHP and Arizona being over-faded off an 80 wRC+ team mark vs RHP. That was the weakest part of the handicap. Even before first pitch, that team-level number was vulnerable to lineup composition noise, and Arizona’s likely top-end talent vs RHP was stronger than I treated it. I still had a live underdog case because of price and starter comparison, but the offensive gap was not sturdy enough to support a full 1u with confidence, especially with Arizona also holding the better bullpen.  
+SOURCE: My original writeup relied on team split offense vs RHP, starter grades, and bullpen comparison.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: PIT @ ATH  
+YOUR CALL: LEAN  
+FINAL RESULT: ATH won 11-2  
+WHAT YOU MISSED: If I had the confirmed lineup pre-lock, Pittsburgh’s lineup quality vs RHP was stronger than my generic team-level assumption. The confirmed PIT order averaged 132.6 wRC+ vs RHP with eight credible bats, which is a real pre-game upgrade in a high-variance scoring environment. That would have strengthened the underdog case even though the game lost badly.  
+SOURCE: Confirmed lineup block provided post-mortem; PIT hitter-level wRC+ vs RHP.  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Projected lineups before pick submission, not just confirmed lineups after  
+WHICH GAME(S): LAA @ AZ, PIT @ ATH, MIA @ PHI, NYM @ CIN  
+WOULD HAVE CHANGED A BET? YES  
+WHY: My largest miss came from leaning too hard on aggregate team splits when lineup-specific offensive strength could materially differ.
+
+TYPE: DATA  
+ITEM: More reliable starter confirmation / likely opener-bulk usage for TBD teams  
+WHICH GAME(S): SD @ STL, MIN @ TEX  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Those were automatic passes under the rules. Better pitcher certainty would have allowed an actual projection instead of a forced skip.
+
+TYPE: SOURCE  
+ITEM: Park/roof status feed delivered before writeup lock  
+WHICH GAME(S): MIN @ TEX, DET @ HOU, LAA @ AZ  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Roof status meaningfully affects run environment and can slightly alter side value when one team’s edge is bullpen/contact-management based.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Reduce confidence in team-level split edges for side bets unless they are supported by projected lineup-weighted hitting strength; where lineup data is missing, haircut offensive edges derived mainly from aggregate wRC+ splits.  
+WHAT IN MY METHOD COULD BE SHARPER: I was too comfortable treating Arizona’s weak team wRC+ vs RHP as a stable offense-negative in the LAA cap. That kind of aggregate number can be distorted by injuries, bench exposure, and roster churn.  
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): My LAA bet was built substantially on “Angels better offense split vs RHP” and “Arizona 80 wRC+ vs RHP.” In the lineup review, Arizona’s actual batting order was much closer to neutral overall and included several above-average bats vs RHP. On the other side, PIT’s confirmed lineup showed how much a lineup-weighted view can strengthen or weaken a team-level baseline.  
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: MIA @ PHI — YOUR CALL: LEAN home
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): NONE  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game umpire tendency was provided that would materially alter the Wheeler/PHI edge.
+
+---
+
+### GAME: NYM @ CIN — YOUR CALL: LEAN home
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): NONE  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game umpire tendency was provided that would materially change the Burns-vs-bullpen tradeoff.
+
+---
+
+### GAME: LAA @ AZ — YOUR CALL: BET away ML 118 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→lower stake  
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): My original edge leaned too heavily on Arizona’s poor aggregate offense vs RHP. The confirmed Arizona lineup was stronger than that blanket team split suggested, with multiple above-average bats vs RHP, so the offensive gap I gave the Angels was too aggressive.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire zone profile was provided to justify a pricing adjustment.
+
+---
+
+### GAME: PIT @ ATH — YOUR CALL: LEAN away
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? lean→bet  
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): Pittsburgh’s confirmed lineup was substantially stronger vs RHP than a generic team-level assumption, averaging 132.6 wRC+ vs RHP with real depth through the order. In a hitter-friendly environment, that would have been enough to push the underdog from lean into at least a small bet consideration.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game umpire tendency was provided that would alter the side enough.
+
+---
+
+### Bottom line
+The big process lesson from this slate is not “dogs lost, favorites won.” It’s that my one actual wager, LAA, rested too much on a broad team-split view of Arizona’s offense. Meanwhile, the best specific missed edge was lineup-driven and pointed toward upgrading PIT pre-game, even though that would have lost. That’s exactly the kind of distinction anti-hindsight is supposed to preserve.

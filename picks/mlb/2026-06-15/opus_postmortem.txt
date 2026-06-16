@@ -1,0 +1,67 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: LAD ML -164 (technically labeled "no best bet," only 1u qualifying play)
+RESULT: WIN
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES (as the only qualifying play)
+
+The process was sound: Martinez's ERA/xFIP gap (2.43 vs 4.45) was real and pre-game knowable, LAD's offensive and bullpen edges were correctly weighted, and the 1-unit cap acknowledging small-sample L14 noise on both starters was disciplined. I correctly declined to inflate it to a best bet given the modest 5-pt edge. The 4-3 final reinforces that the cap was appropriate — this was a close game, not a blowout, so the edge was real but thin. No change.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: TB @ LAD
+PICK: LAD ML -164 (1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The regression read on Martinez was anchored in true-talent metrics (xFIP/SIERA), not the shiny ERA. LAD's lineup and bullpen advantages were correctly priced as pushing past -164. The 1u sizing correctly reflected genuine two-sided L14 noise. Outcome (one-run win) matches the "thin but real edge" thesis — I'd make this identical bet again.
+SOURCE: Pre-game AGG xFIP/SIERA, LAD lineup wRC+ vs RHP, bullpen depth comparison.
+
+---
+
+PART B — PASSES WHERE I NOW IDENTIFY A MISSED EDGE
+
+I will be disciplined here. The big losers among my passes (NYM 0-12, PIT 2-11, MIA 0-7) were favorites I had inside the no-bet band on the *correct* side, so the lopsided scores are variance noise, not missed signals. But two passes deserve honest scrutiny:
+
+GAME: DET @ HOU
+YOUR CALL: PASS
+FINAL RESULT: DET 9 @ HOU 3
+WHAT YOU MISSED: I explicitly flagged Melton as a regression candidate (2.81 ERA / 5.36 FIP / 4.9 K/9) — a genuine pre-game signal pointing AWAY from HOU. I then anchored to "HOU -130 prices ~57%, inside the band" and the Hader/King bullpen edge to stay off DET. But my own pitching analysis identified the favorite's starter as the weaker true-talent arm against a Teng line I called "ugly L14." When BOTH starters are flagged negative and the public-priced favorite is the one with the bigger ERA-FIP gap, that's a contrarian DET-lean spot I dismissed too quickly. Not necessarily a full bet, but a defensible small dog play I waved off via the bullpen tiebreaker.
+SOURCE: Melton 5.36 FIP / 4.9 K/9 regression flag (my own pre-game note).
+WOULD THIS HAVE BECOME A BET? MAYBE — DET +110ish was a fair-to-live underdog given the starter mismatch; at most a 1u dog, more likely a lean.
+
+(All other passes — PHI, WAS, CIN, STL, CHC, MIN, AZ, ATH — were correctly inside the band or TBD-disqualified. No missed edges; the blowout margins are variance, not pre-game-predictable.)
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: Pitcher ERA–xFIP gap ranking across the slate (a single sorted view of every starter's regression direction and magnitude)
+WHICH GAME(S): DET@HOU, LAA@AZ, TB@LAD
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: I individually noted regression flags on Melton, Ureña, and Martinez but evaluated each in isolation. A sorted slate-wide view would surface the *relative* spots where the favorite is the worse-regressing arm (DET@HOU) versus where the dog is (caught the LAD spot). This would systematize my contrarian-dog hunting rather than relying on the bullpen tiebreaker to default me onto the chalk.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: When my own pitching analysis flags the priced FAVORITE's starter as the larger ERA-xFIP regression candidate AND the dog's starter is merely "mediocre" (not flagged worse), treat that as a contrarian dog trigger rather than defaulting to PASS via bullpen edge.
+WHAT IN MY METHOD COULD BE SHARPER: I let the Hader/King bullpen edge act as a tiebreaker that pushed me back onto the chalk in DET@HOU — but bullpen edge matters most in close/late games, while a 6-inning starter regression gap affects the bulk of the game. I'm over-weighting reliever quality relative to starter true-talent in pass decisions.
+EVIDENCE FROM TODAY (pre-game, not outcome): My own pre-game note flagged Melton (2.81 ERA / 5.36 FIP) as a regression candidate while pricing HOU as the favorite — an internal contradiction I resolved toward the chalk.
+CONFIDENCE: LOW (one slate; needs to prove out across many spots before adoption — bullpen edges do legitimately matter and I don't want to overcorrect into bad dogs).
+
+---
+
+## CONFIRMED DATA EVALUATION — TB @ LAD
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected, with two notable wrinkles. I assumed LAD ~110 wRC+ vs RHP; confirmed lineup averages 118.9 — *better* than my assumption, with Ohtani (172), Freeman (151), Rushing (145), Ward (134), Pages (132) all elite. However, Betts (65) and Muncy (75) confirmed cold vs RHP, which I hadn't priced. Net: lineup is at or slightly above my team-level read. TB lineup avg 95.9 vs LHP is respectable (Díaz 155, Caminero 149) — a touch livelier than I implied, which is why this stayed a one-run game.
+
+WOULD CHANGE? no change
+
+PRE-GAME REASON: The confirmed LAD lineup (118.9 avg, three 145+ bats) supports or slightly strengthens my "tilts further than -164" thesis. Betts/Muncy being cold trims it back toward my original 67% estimate rather than pushing me higher — so it nets to roughly my pre-game number. No reason to alter stake or side. If anything it validates the 1u-not-best-bet call: the lineup edge was real but TB's top-of-order (Díaz/Caminero/Vilade all 129+) kept TB live enough to justify not overstaking.
+
+UMPIRE WOULD CHANGE? no — Dan Merzel carries no extreme pre-game zone tendency that would shift a moneyline side; umpire profile matters for the total lean (Over), not the LAD ML decision.

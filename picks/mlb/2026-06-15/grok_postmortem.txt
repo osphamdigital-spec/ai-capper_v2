@@ -1,0 +1,32 @@
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: CIN ML -131 (1u)  
+RESULT: WIN  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+
+**S2: FULL SLATE REVIEW**  
+
+**PART A**  
+GAME: NYM @ CIN  
+PICK: CIN ML -131 (1u)  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Pre-game xFIP/SIERA/K-BB% gap between Burns and Myers met the 4-pt edge threshold after home/bullpen adjustments; small-sample cap on Myers correctly limited stake to 1u.  
+SOURCE: Pre-game xFIP 3.02 / SIERA 2.91 / Stf+ 113 for Burns vs 5.35 xFIP for Myers.  
+
+**PART B** — No blocks. All passes were correct on pre-game criteria (small-sample flags, TBD starters, or sub-4-pt edges). No identifiable pre-game signal was missed that would have justified a bet.
+
+**S3: DATA REQUEST**  
+NONE
+
+**S4: METHOD CHANGE PROPOSAL**  
+NONE
+
+**CONFIRMED DATA EVALUATION**  
+GAME: NYM @ CIN — YOUR CALL: BET home ML -131 (1u)  
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Lineup wRC+ averages (NYM 100.6 / CIN 96.4) do not override the large starter-quality gap that drove the original bet.  
+
+UMPIRE WOULD CHANGE? no — pre-game reason: No zone tendency data available pre-game that would have altered the 4-pt edge calculation.

@@ -1,0 +1,83 @@
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** LAA ML (+118) at ARI  
+**RESULT:** LOSS  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** NO  
+
+**IF NO — NEW BEST BET:** CIN ML (-131) vs NYM  
+**WHY:** The confirmed pre-game lineups reveal that the ARI offense we labeled “in an abyss” at 80 wRC+ vs RHP actually fielded a 98.7 wRC+ lineup – nearly league average. Jordan Lawlar (190 wRC+), Gabriel Moreno (132), and Corbin Carroll (123) were all in the order, drastically altering the true offensive projection. The 22.6‑point edge collapses upon this correction. Cincinnati, despite a slightly stronger NYM lineup than we assumed, still held a clear and sizable pitching mismatch (Burns’ elite projection vs Myers’ replacement level) and would have remained the strongest standalone play on the board.  
+**SOURCE:** Confirmed batting orders with wRC+ splits provided post‑game.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** NYM @ CIN  
+**PICK:** CIN ML -131 (3u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT (with minor lineup oversight)  
+**WOULD‑BET‑AGAIN:** YES – LOW STAKE (see below)  
+**WHY:** The core edge was the pitching mismatch, which was correctly identified and massive. The confirmed NYM lineup was stronger (100.6 wRC+) than the 91 wRC+ we penciled in, meaning the pre‑game edge was realistically smaller than 11.0 points. The bet would still have been positive, but a reduced unit size would have been more appropriate given the narrower gap.  
+**SOURCE:** Confirmed lineups.
+
+---
+
+**GAME:** LAA @ AZ  
+**PICK:** LAA ML +118 (3u)  
+**RESULT:** LOSS  
+**PROCESS:** INCORRECT TEAM STRENGTH / OVERWEIGHTED FORM  
+**WOULD‑BET‑AGAIN:** NO  
+**WHY:** The pre‑game analysis relied on a season‑level team wRC+ versus RHP (80) and short‑term run‑scoring form (2.7 RS L10), assuming that version of the Arizona offense would take the field. The actual lineup included multiple above‑average bats; its 98.7 wRC+ neutralized the supposed Angel advantage and eliminated any meaningful edge. The 22.6‑point gap was an artifact of stale offensive assumptions.  
+**SOURCE:** Confirmed Arizona batting order – Lawlar 190, Moreno 132, Carroll 123 wRC+ vs RHP.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU MISSED A PRE‑GAME EDGE
+
+All passes were correct given the pre‑game data available at the time. The Athletics’ 7.7‑point edge was acknowledged but voluntarily passed due to the Jared Jones small‑sample flag and our two‑bet slate ceiling. No missed edge actionable within our ruleset.  
+**Skip all – correct passes.**
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** DATA  
+**ITEM:** Daily starting lineups with individual wRC+ vs the handedness of the opposing starter, plus a weighted lineup average wRC+.  
+**WHICH GAME(S):** LAA @ AZ, NYM @ CIN (and all future bets)  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** For LAA, seeing ARI’s actual 98.7 wRC+ lineup (instead of the season‑wide 80) would have reduced the edge below the 4‑point betting threshold, turning the bet into a pass. For NYM @ CIN, knowing NYM’s lineup was 100.6 wRC+ rather than 91 would have prompted a lower unit allocation, though the bet would still have been made.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** Never use a season‑long team wRC+ split against a handedness when a daily lineup with individual platoon wRC+ values is available. Replace team‑level offensive strength estimates with the actual projected lineup wRC+ weighted by projected plate appearances.  
+**WHAT IN MY METHOD COULD BE SHARPER:** Offensive projection accuracy. The LAA bet wholly depended on ARI fielding a bottom‑tier offense, an assumption that dissolved the moment the real lineup was examined.  
+**EVIDENCE FROM TODAY:** Original ARI offensive assumption: 80 wRC+ vs RHP. Actual lineup vs RHP: 98.7 wRC+ (Lawlar 190, Moreno 132, Carroll 123). The error created a phantom 22.6‑point edge.  
+**CONFIDENCE:** MEDIUM — the fix is straightforward and grounded in a clear pre‑game knowable fact, but must be tested over many slates for robustness.
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: NYM @ CIN — YOUR CALL: BET home ML -131 (3u)
+
+**NYM BATTING ORDER (vs RHP):** avg wRC+ 100.6 (Soto 172, Young 149, Alvarez 112)  
+**CIN BATTING ORDER (vs RHP):** avg wRC+ 96.4 (Bleday 166, Dunn 107, Stewart 107)  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** bet → lower stake  
+**PRE‑GAME REASON:** NYM offense was 100.6 wRC+, not the 91 we plugged in from team‑level data. The pitching edge alone would still have made CIN a bet, but the narrower margin warrants a smaller unit size.  
+**UMPIRE WOULD CHANGE?** no — no pre‑game reason to adjust based on Wegner’s zone tendencies.
+
+---
+
+### GAME: LAA @ AZ — YOUR CALL: BET away ML +118 (3u)
+
+**LAA BATTING ORDER (vs RHP):** avg wRC+ 100.8 (Meckler 161, Trout 132, Neto 110)  
+**AZ BATTING ORDER (vs RHP):** avg wRC+ 98.7 (Lawlar 190, Moreno 132, Carroll 123)  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** bet → pass  
+**PRE‑GAME REASON:** Our model assumed a “dormant” Arizona offense at 80 wRC+. With Lawlar, Moreno, and Carroll all in the order, the actual lineup was nearly identical to the Angels’ and erased the perceived offensive mismatch. The edge would no longer meet the 4‑point threshold.  
+**UMPIRE WOULD CHANGE?** no — no pre‑game reason to adjust based on Carapazza’s zone tendencies.

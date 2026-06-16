@@ -1,0 +1,75 @@
+## POST-MORTEM REVIEW — MLB 2026-06-15
+
+### S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: **NONE DESIGNATED** — no 3-unit play met the threshold.
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? N/A
+IF NO — NEW BEST BET: **CIN ML -131 (1u)** was the slate’s only wager and the strongest pre-game edge at 4.5 pts. / WHY: A 4.5-point edge is sufficient for a 1-unit play but falls short of the typical 5-point+ gate I require for a best bet. / SOURCE: Pre-game SIERA/K-BB% differential between Chase Burns and Tobias Myers, converted to win probability and compared to the -131 implied line.
+
+---
+
+### S2: FULL SLATE REVIEW
+
+#### PART A — GAMES YOU BET
+
+GAME: NYM @ CIN
+PICK: CIN ML -131 (1u)
+RESULT: WIN
+PROCESS: **CORRECT PROCESS FAIR RESULT**
+WOULD-BET-AGAIN: **YES**
+WHY: The bet was driven by a severe, pre-game starting-pitching mismatch: Chase Burns (2.98 SIERA, 24.5% K-BB%, 100+ IP) against Tobias Myers (5.36 SIERA, 4.9% K-BB%). The -131 line implied 56.7%; my adjusted true probability was 61.2%, producing a 4.5-point edge above the 4-point minimum. The data gap on Myers’ L14 form was noted but did not provide evidence of improvement; ignoring a 2.4-run SIERA gap backed by a 19.6-point K-BB% differential would have been process-driven malpractice. The result aligned with the edge, but the process would remain correct even with a loss unless Myers had shown pre-game L14 improvement that I dismissed (he had no L14 data at all).
+SOURCE: Aggregate SIERA, K-BB%, and innings pitched for both starters; market line.
+
+#### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+**NONE** — No pre-game edges were missed among the passed games. All passes were justified by the data available at the time: TBD starters (automatic pass under data-integrity rules), small-sample flags without trustworthy L14 resolution, market lines that tracked estimated true probabilities within 2 points, or SIERA gaps too narrow to clear the 4-point wagering threshold.
+
+---
+
+### S3: DATA REQUEST
+
+TYPE: **STAT**  
+ITEM: **L14 SIERA / xFIP / K-BB% for small-sample flagged starting pitchers** (Spence, Alvarez, Gusto, Melton, Jones).  
+WHICH GAME(S): KC @ WAS, MIA @ PHI, DET @ HOU, PIT @ ATH.  
+WOULD HAVE CHANGED A BET? **MAYBE**  
+WHY: Aggregate data on sub-40 IP starters hides recent form. If L14 metrics showed a meaningful departure from the aggregate (e.g., Melton’s contact profile worsening or Alvarez showing a new pitch mix), a reliable run-prevention gap might have emerged, converting a pass into a 1-unit play or confirming the stay-away.
+
+TYPE: **DATA**  
+ITEM: **Quantified bullpen fatigue/rest index** (e.g., high-leverage arms unavailable, bullpen IP over last 3 days, rest days for top relievers).  
+WHICH GAME(S): MIA @ PHI, TB @ LAD, COL @ CHC.  
+WOULD HAVE CHANGED A BET? **MAYBE**  
+WHY: My notes referenced bullpen usage only qualitatively. A numerical fatigue score could have widened the TB@LAD gap if Los Angeles’ leverage arms were fully rested, or adjusted the MIA@PHI price if Philadelphia’s pen was taxed. Without hard numbers, these adjustments were conservatively zeroed out.
+
+TYPE: **DATA**  
+ITEM: **Umpire zone-tendency profile** (tight/loose strike zone relative to league average, historical impact on contact-heavy vs. high-K profiles).  
+WHICH GAME(S): NYM @ CIN (Mark Wegner).  
+WOULD HAVE CHANGED A BET? **MAYBE**  
+WHY: A demonstrably tight zone tends to penalize pitch-to-contact arms like Myers (4.9% K-BB%) more than elite strikeout pitchers like Burns (24.5% K-BB%). If Wegner’s pre-game profile showed an unusually small zone, the underdog’s reliance on defense and weak contact would be further devalued, potentially adding fractional edge.
+
+---
+
+### S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: **Apply a “replacement-level floor” penalty to starting pitchers with aggregate SIERA > 5.00 and K-BB% < 8%, increasing the win-probability share assigned to the opposing elite starter in extreme mismatch games (>1.5 run SIERA gap and >15 pt K-BB% gap).**
+
+WHAT IN MY METHOD COULD BE SHARPER: The current win-probability conversion appears to flatten tail-end mismatches, treating a 5.36 SIERA / 4.9% K-BB% pitcher as merely “below average” rather than near replacement-level. This may systematically understate the favorite’s true probability when an ace faces a contact-heavy, low-whiff starter.
+
+EVIDENCE FROM TODAY: Chase Burns (2.98 SIERA, 24.5% K-BB%) vs. Tobias Myers (5.36 SIERA, 4.9% K-BB%). The 2.38-run SIERA gap and 19.6-point K-BB% gap are extreme; Myers’ sub-5% K-BB% indicates minimal swing-and-miss ability and consistent hard contact allowed. Historical baselines suggest such profiles perform worse than their already poor SIERA against elite offenses, yet my model output only a 61.2% true probability for Cincinnati. A steeper penalty for sub-replacement-level contact profiles may better capture the true gap.
+
+CONFIDENCE: **LOW** — single-slate observation; requires backtesting across historical matchups involving sub-8% K-BB% starters before adoption.
+
+---
+
+### CONFIRMED DATA EVALUATION
+
+#### GAME: NYM @ CIN — YOUR CALL: BET home ML -131 (1u)
+
+NYM BATTING ORDER (vs RHP): 5 of 9 hitters posted wRC+ below 85 vs RHP, anchored by extreme platoon liabilities in Bichette (66), Semien (74), Baty (77), and Vientos (55).  
+CIN BATTING ORDER (vs RHP): 4 of 9 hitters posted wRC+ below 80 vs RHP, with a below-average bottom third. Lineup average 96.4 wRC+.
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: **roughly as expected**
+
+WOULD CHANGE? **no change**
+
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): N/A
+
+UMPIRE WOULD CHANGE? **no** — pre-game reason: I do not have a pre-game, statistically grounded umpire tendency profile for Mark Wegner that would materially alter the 2.4-run SIERA gap between Burns and Myers; absent evidence that his zone systematically neutralizes a 19.6-point K-BB% differential, umpire variance remains noise secondary to starter quality.

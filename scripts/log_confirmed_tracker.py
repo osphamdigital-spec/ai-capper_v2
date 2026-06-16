@@ -68,30 +68,43 @@ def _parse_confirmed_blocks(postmortem_text: str) -> list[dict]:
     Extract per-game CONFIRMED DATA EVALUATION blocks from a model's post-mortem.
     Returns list of dicts with raw field values.
 
-    Looks for the section header and then per-game blocks starting with '### GAME:'.
-    Each block is parsed for the 4 structured response fields.
+    Three section header formats across models:
+      Standard: "## CONFIRMED DATA EVALUATION (lineup + umpire)"  [chatgpt/deepseek/gemini/kimi/qwen/sonnet]
+      Opus:     "## CONFIRMED DATA EVALUATION — TB @ LAD"         [game name in header, no ### GAME: sub-blocks]
+      Grok:     "**CONFIRMED DATA EVALUATION**"                   [bold, game blocks use "GAME:" not "### GAME:"]
+
+    Terminator uses [^#] to avoid stopping at ### GAME: sub-headers (### starts with ##).
     """
-    # Find the confirmed data evaluation section
+    # Group 1: optional header suffix (e.g. " — TB @ LAD" for Opus, "" or "**" for others)
+    # Group 2: section body
     section_match = re.search(
-        r"## CONFIRMED DATA EVALUATION.*?(?=\n##|\Z)",
+        r"(?:##\s+|\*\*)CONFIRMED DATA EVALUATION([^\n]*)\n(.*?)(?=\n##[^#]|\Z)",
         postmortem_text,
         re.DOTALL | re.IGNORECASE,
     )
     if not section_match:
         return []
 
-    section_text = section_match.group(0)
+    header_suffix = section_match.group(1)
+    section_body  = section_match.group(2)
 
-    # Split on per-game blocks
-    game_blocks = re.split(r"\n### GAME:", section_text)
-    # First element is the section header — skip
-    game_blocks = game_blocks[1:]
+    # Opus pattern: game name embedded in section header ("## CONFIRMED DATA EVALUATION — TEAM @ TEAM").
+    # Entire section body is one game block; YOUR CALL is not labeled in Opus body text.
+    opus_game_match = re.match(r"\s*[—–-]+\s*(.+)", header_suffix.strip())
+    if opus_game_match:
+        game_name   = opus_game_match.group(1).strip()
+        game_blocks = [f" {game_name} — YOUR CALL: \n{section_body}"]
+    else:
+        # Split on GAME: lines with any # prefix (###, ####) or none (Grok).
+        # Use re.MULTILINE + ^|\n so blocks starting at position 0 are caught.
+        game_blocks = re.split(r"(?:^|\n)(?:#{2,4}\s+)?GAME:", section_body, flags=re.MULTILINE)
+        game_blocks = game_blocks[1:]  # skip preamble before first game block
 
     results = []
     for block in game_blocks:
-        # First line is "MATCHUP — YOUR CALL: ..."
+        # First line is "MATCHUP — YOUR CALL: ..." (YOUR CALL may be empty for Opus format)
         first_line = block.split("\n")[0].strip()
-        matchup_match = re.match(r"(.+?)\s*[—–-]+\s*YOUR CALL:\s*(.+)", first_line)
+        matchup_match = re.match(r"(.+?)\s*[—–-]+\s*YOUR CALL:\s*(.*)", first_line)
         if not matchup_match:
             continue
         matchup   = matchup_match.group(1).strip()

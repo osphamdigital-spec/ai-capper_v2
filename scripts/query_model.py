@@ -133,7 +133,8 @@ CHATGPT_MAX_TOKENS_POSTMORTEM = 8000
 
 # grok-4.3 uses the Responses API with reasoning (same architecture as ChatGPT).
 # Reasoning tokens consume the shared budget -- 16000 matches ChatGPT headroom.
-GROK_MAX_TOKENS_PICKS = 16000
+GROK_MAX_TOKENS_PICKS      = 16000
+GROK_MAX_TOKENS_POSTMORTEM = 16000
 
 # qwen3.7-max: 16000 gives headroom for thinking + response on large slates.
 QWEN_MAX_TOKENS_PICKS = 16000
@@ -1438,6 +1439,8 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
         pm_max_tokens = DEEPSEEK_MAX_TOKENS_POSTMORTEM
     elif model == "kimi":
         pm_max_tokens = KIMI_MAX_TOKENS_POSTMORTEM
+    elif model == "grok":
+        pm_max_tokens = GROK_MAX_TOKENS_POSTMORTEM
     else:
         pm_max_tokens = MAX_OUTPUT_TOKENS
     # For Anthropic models the system/prompt split is reconstructed from input_messages

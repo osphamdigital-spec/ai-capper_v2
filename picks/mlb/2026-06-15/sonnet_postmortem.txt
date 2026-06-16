@@ -1,0 +1,233 @@
+# MLB POST-MORTEM REVIEW — 2026-06-15
+
+---
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** No Best Bet declared (all games blocked by small-sample flags)
+**RESULT:** N/A — no 3-unit play was made
+
+**WOULD YOU STILL DECLARE NO BEST BET? YES**
+
+The pre-game reasoning was sound. The small-sample flags on at least one starter in every qualifying game were real data integrity constraints, not overcaution. In retrospect, LAD ML at 5.3 pts edge was the strongest single candidate — and it won — but the Martinez L14 [sm] flag (11 IP) was a legitimate blocker. The discipline of not elevating to 3 units under genuine uncertainty is correct process regardless of outcome. The wins in PHI, CIN, DET, and LAD all came through at 1 unit, which was the appropriate stake given the data state.
+
+**No change to Best Bet protocol.**
+
+---
+
+## S2: FULL SLATE REVIEW
+
+---
+
+### PART A — GAMES BET
+
+---
+
+**GAME:** MIA @ PHI
+**PICK:** PHI -1.5 RL -105
+**RESULT:** WIN (PHI 7, MIA 0)
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Every pre-game signal aligned cleanly. Wheeler's AGG xFIP 2.89/SIERA 2.90 and Stf+ 109 were among the best anchors on the slate. Gusto's [sm] flag was properly noted as a confidence limiter without blocking the bet — the AGG xFIP 4.47 was a sufficient gap signal even without L14 data. PHI's bullpen (Duran 1.90 ERA, Kerkering) vs. MIA's taxed relief corps (Fairbanks 6.63 ERA, Petersen/Bender used Saturday) was correctly identified as a secondary edge. The RL at -105 vs. an implied market -212 ML represented genuine value. The 7-0 final is a comfortable cover but the process would have been sound even in a 4-2 PHI win.
+**SOURCE:** Wheeler AGG xFIP/SIERA anchor; Gusto [sm] flag properly weighted; bullpen wear differential; price gap between ML and RL.
+
+---
+
+**GAME:** NYM @ CIN
+**PICK:** CIN ML -139
+**RESULT:** WIN (CIN 12, NYM 0)
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Burns's elite AGG profile (xFIP 2.92/SIERA 2.98, Stf+ 113, HH% 38.4%) was the core anchor, and the Myers xFIP 5.35/SIERA 5.36 gap was severe. The L14 [sm] flag on Burns was correctly handled — it blocked a 3-unit play but not the 1-unit bet given the AGG strength. The 12-0 final is a blowout that validates the process, but the reasoning was correct before first pitch. One note: the margin was so extreme it likely had some variance on top of the edge, but that's irrelevant to process evaluation.
+**SOURCE:** Burns AGG xFIP/SIERA; Myers K-BB% 4.9% and no L14 data; Devin Williams 5.01 ERA in NYM closer role; GABP park factor contextualized by Burns HH%.
+
+---
+
+**GAME:** COL @ CHC
+**PICK:** CHC -1.5 RL +100
+**RESULT:** LOSS (CHC 5, COL 4 — CHC wins ML but fails to cover RL)
+**PROCESS:** CORRECT PROCESS / BAD VARIANCE
+**WOULD-BET-AGAIN:** YES / LOWER STAKE — the RL target was the right structure at +100, but the COL lineup vs. LHP was more dangerous than the AGG 68 wRC+ suggested once confirmed lineups are factored in (see confirmed data section below).
+**WHY:** The pre-game case was coherent: COL's wRC+ 68 vs. LHP was a real signal, Lorenzen's ERA 7.54 was a legitimate concern even with the xFIP wash vs. Imanaga, and CHC's lineup depth (Happ 159, Busch 133, Crow-Armstrong 125) was genuine. The RL at +100 was correctly identified as market-neutral with positive expected value at ~58% estimated cover. A 5-4 CHC win is a one-run game — within normal variance range for any starting pitcher matchup where AGG anchors are near 4.30 for both starters. The COL bullpen being shaky (Mejia 5.97, Hill 5.32) was accurate but CHC's bullpen had to hold a thin lead, which introduces variance. No single pre-game data point predicted a one-run game; this is bad variance on a sound bet.
+
+The one honest caveat: Imanaga's L14 [sm] flag (11.0 IP) meant I had less conviction on his recent form, and that uncertainty was noted pre-game. That flag was a legitimate reason to stay at 1 unit rather than 2, which was the correct call.
+**SOURCE:** COL wRC+ 68 vs. LHP (AGG); Lorenzen ERA 7.54; CHC lineup depth; COL bullpen ERA values; RL +100 price vs. estimated 58% cover probability.
+
+---
+
+**GAME:** DET @ HOU
+**PICK:** DET ML +114
+**RESULT:** WIN (DET 9, HOU 3)
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** The pre-game case was built on Teng's L14 deterioration (xFIP 5.57/SIERA 5.28, BB/9 5.0, L3 showing consistent early exits with multiple ER) vs. Melton's cleaner L14 (3.84 xFIP/3.82 SIERA, 13.0 IP, no [sm] flag). The bullpen wear angle was correctly identified — HOU's Abreu at 6.56 ERA and Bryan King used on back-to-back days vs. DET's Finnegan (1.93 ERA) and Jansen fresh. The +114 at estimated 48% DET win probability was genuine plus-money value. The 9-3 final is a comfortable margin that reflects the starter gap playing out. The retractable roof call on rain risk was also correct.
+**SOURCE:** Teng L14 xFIP 5.57 and L3 ER pattern; Melton L14 no [sm] flag; HOU bullpen ERA and usage pattern; DET bullpen freshness; price gap at +114.
+
+---
+
+**GAME:** TB @ LAD
+**PICK:** LAD ML -158
+**RESULT:** WIN (LAD 4, TB 3)
+**PROCESS:** CORRECT PROCESS / FAIR RESULT — though the margin was tighter than the edge suggested, the pre-game case was sound.
+**WOULD-BET-AGAIN:** YES
+**WHY:** The LAD lineup (wRC+ 110 vs. RHP, Ohtani 172, Freeman 151) vs. Lauer (FIP 6.46, xERA 5.20, Brl% 11.2%) was the primary engine. Martinez's L14 degradation (xFIP 5.77/SIERA 6.59, K/9 2.5) was real but offset by LAD's superior bullpen (Tanner Scott 2.48 ERA, Vesia 2.74 ERA). TB's L10 RS of 3.7 and 5.2% Brl% correctly signaled offensive limitations. The 4-3 final is tighter than the 5.3 pt gap suggested — this is fair variance, not a process error. The LAD bullpen likely had to work, which was within the pre-game model. The [sm] flags on both starters blocking a 3-unit play was the right call given the actual game tightness.
+**SOURCE:** Lauer FIP/xERA/Brl%; Martinez L14 xFIP/SIERA degradation; LAD wRC+ vs. RHP with key bats; TB Brl% and L10 RS; LAD bullpen ERA values.
+
+---
+
+**PARLAY: PHI -1.5 RL + CIN ML**
+**RESULT:** WIN (+152 on 1 unit)
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Both legs won. The independence assumption (different parks, different times, no shared personnel) was correct. The combined true probability estimate of ~39% at +152 implied ~39.7% — essentially a breakeven play with slightly positive edge from the individual leg edges. The parlay paid as constructed.
+
+---
+
+### PART B — PASSES WHERE A PRE-GAME EDGE WAS MISSED
+
+---
+
+**GAME:** PIT @ ATH
+**YOUR CALL:** PASS
+**FINAL RESULT:** ATH 11, PIT 2 — ATH dominant win
+**WHAT YOU MISSED:** The pre-game reasoning correctly identified both starters as small-sample and the park run environment as extreme (121 factor). However, the ATH bullpen edge was under-examined. Ginn's AGG xFIP 3.78 was meaningfully better than Jones's 4.26, and the [sm] flags on both starters in a 121-factor park actually argues *for* the home team in a blowout scenario rather than against betting. The ATH -125 ML at ~55.6% implied probability may have underpriced their actual win probability given park + starter combination. The "near pick'em" framing undersold ATH's structural advantages.
+
+That said — the [sm] flags on both starters are a legitimate blocker per my own data integrity rules. The correct critique is that I should have spent more time on the ATH bullpen profile before passing entirely, rather than citing it as ancillary.
+**SOURCE:** Ginn AGG xFIP 3.78 vs. Jones 4.26; Sutter Health Park 121 run factor; ATH bullpen depth (underweighted).
+**WOULD THIS HAVE BECOME A BET? MAYBE** — the [sm] flag rule would still have been a limiting factor, but an ATH ML at -125 with better bullpen examination might have cleared a 1-unit threshold.
+
+---
+
+**GAME:** KC @ WAS
+**YOUR CALL:** PASS
+**FINAL RESULT:** WAS 7, KC 3 — WAS wins as home favorite
+**WHAT YOU MISSED:** The pass was correct given the data integrity concerns (Spence 4 IP all season, Alvarez BB/9 spike in L14). The WAS home advantage and better bullpen were noted in the lean. No pre-game signal was ignored — the pass was based on genuine uncertainty about both pitching profiles. This is a **correct pass** and should not have been a bet. The outcome confirms the lean direction (WAS over) but the lean was identified pre-game.
+**SOURCE:** Pass was correctly structured; WAS -141 ML lean was noted.
+**WOULD THIS HAVE BECOME A BET? NO** — insufficient pitching data integrity to build a 4+ pt gap.
+
+*All other passes (SD @ STL, MIN @ TEX, LAA @ AZ) were correct passes under the TBD starter rule or data integrity flags. No missed edge identified.*
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT
+**ITEM:** Bullpen usage/availability data by pitcher — specifically days of rest, pitches thrown in last 3 appearances, and leverage index of recent appearances
+**WHICH GAME(S):** DET @ HOU (Abreu/King usage was estimated), TB @ LAD (Tanner Scott/Vesia freshness), PIT @ ATH (ATH bullpen depth underexamined)
+**WOULD HAVE CHANGED A BET? MAYBE**
+**WHY:** The HOU bullpen wear angle in DET @ HOU was directionally correct (Abreu ERA 6.56, Bryan King used Friday/Saturday noted) but the exact pitch counts and leverage context were estimated rather than known. Confirmed availability data would have sharpened the DET edge estimate — possibly from 4.4 pts to 5+ pts, which might have changed staking. For PIT @ ATH, cleaner bullpen depth data might have converted the pass to a 1-unit ATH ML.
+
+---
+
+**TYPE:** STAT
+**ITEM:** Starter L3 ERA/IP with game-by-game split (not just aggregate L14)
+**WHICH GAME(S):** DET @ HOU (Teng L3 pattern was available and cited correctly), COL @ CHC (Lorenzen's L3 would have sharpened RL vs. ML decision), TB @ LAD (Martinez's L3 K/9 degradation noted but granularity limited)
+**WOULD HAVE CHANGED A BET? MAYBE**
+**WHY:** The L3 data I had on Teng was directionally useful (5.0IP/3ER, 5.0IP/4ER, 4.0IP/5ER) and proved correct. Having this same granularity for Lorenzen and Martinez would have helped calibrate whether the RL (+100) vs. ML was the right structure for CHC, and whether LAD ML at -158 was the right target vs. a RL play.
+
+---
+
+**TYPE:** DATA
+**ITEM:** Confirmed starting lineup wRC+ splits (vs. LHP/RHP) available pre-game, not post-game
+**WHICH GAME(S):** COL @ CHC (COL vs. LHP lineup depth was critical), MIA @ PHI (PHI lineup vs. RHP for RL confidence)
+**WOULD HAVE CHANGED A BET? YES**
+**WHY:** The COL confirmed lineup (avg wRC+ 56.9 vs. LHP, with Carrigg at -62 and Fulford at 5) was more extreme than the AGG team-level 68 wRC+ suggested. Had I known Carrigg (-62 vs. LHP) and Fulford (5 vs. LHP) were in the lineup, the RL confidence on CHC would have increased — though the eventual 5-4 result means Lorenzen's ERA 7.54 introduced enough variance that the RL still lost. This data would have strengthened process conviction, not necessarily changed the bet structure.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When both starters carry AGG xFIP anchors within 0.10 of each other (near-wash matchup), weight the *team offensive split vs. starter handedness* at the confirmed lineup level more heavily than the starter gap in determining bet structure (ML vs. RL) and edge calculation.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** In COL @ CHC, the starter gap (Imanaga 4.28 vs. Lorenzen 4.31 xFIP — essentially identical) meant the edge was almost entirely derived from COL's wRC+ 68 vs. LHP and CHC's wRC+ 104 vs. RHP. When the starter gap is near-zero, the offensive split becomes the primary signal, and the RL target (+100) may have been aggressive relative to the ML (-204) in a game where Lorenzen's ERA 7.54 introduced high variance regardless of process. The method should flag: *if starter gap < 0.15 xFIP points AND RL is the pick structure, require higher confirmed lineup offensive split confidence before committing to RL over ML.*
+
+**EVIDENCE FROM TODAY (pre-game data only):** Imanaga AGG xFIP 4.28 vs. Lorenzen AGG xFIP 4.31 — 0.03 pt gap, essentially zero. The RL bet was almost entirely dependent on COL wRC+ 68 vs. LHP being sustained in-game. The [sm] flag on Imanaga L14 further reduced confidence in starter suppression. Pre-game, I noted the edge was "roughly a wash on process" for the starters — that language should have triggered a ML-only structure or a reduced unit size rather than RL.
+
+**CONFIDENCE: MEDIUM** — one game is not enough to adopt this as a firm rule, but the pre-game data already contained the signal (near-identical xFIP anchors, L14 [sm] flag on home starter, RL dependent entirely on offense split) that should have pushed toward ML structure.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+---
+
+### GAME: MIA @ PHI — YOUR CALL: BET PHI -1.5 RL -105
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected. MIA's lineup (avg wRC+ 98.8 vs. RHP) is below-average but not dramatically so — consistent with the pre-game assumption of a weak offense facing Wheeler. PHI's lineup (avg wRC+ 91.9 vs. RHP) is notably lower than expected, dragged down by Derek Hill (34), Edmundo Sosa (38), and Alec Bohm (65). The top of the order (Schwarber 144, Harper 169, Marsh 143) is elite, but the bottom of the order is significantly weaker than the team-level framing suggested.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected for MIA; PHI lineup shows more bottom-order weakness than assumed, but top-order dominance was the RL engine.
+
+**WOULD CHANGE?** No change. The RL bet was anchored on Wheeler's suppression of MIA (not PHI's offense producing runs), and the top of PHI's order (Schwarber 144, Harper 169, Marsh 143) was more than sufficient to cover -1.5 against an xFIP 4.47 starter with a [sm] flag. PHI's bottom-order weakness (Hill 34, Sosa 38) was offset by the volume of production from 1-4.
+
+**UMPIRE WOULD CHANGE? No** — No pre-game-knowable reason to adjust for Tripp Gibson's zone tendency that would materially alter the bet structure here. Wheeler's elite strikeout profile (Stf+ 109) suggests he benefits from any strike zone, and Gibson's tendencies don't create a specific mismatch with Wheeler's pitch mix that I can identify from pre-game data alone.
+
+---
+
+### GAME: NYM @ CIN — YOUR CALL: BET CIN ML -139
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected. NYM (avg wRC+ 100.6 vs. RHP) is near-average, consistent with the pre-game framing. Notable: Juan Soto (172) and Jared Young (149) in the middle of the order are dangerous against any pitcher, but Burns's HH% 38.4% suppression profile was pre-game known. CIN (avg wRC+ 96.4 vs. RHP) is slightly below the 104 assumed team average — the lineup is more dependent on Bleday (166) carrying production.
+
+**WOULD CHANGE?** No change. Burns's elite profile (AGG xFIP 2.92, Stf+ 113) was sufficient to suppress even Soto/Young in a 1-unit bet context. The CIN lineup at 96.4 avg wRC+ is adequate against Myers (xFIP 5.35, K-BB% 4.9%). The bet structure was correct.
+
+**UMPIRE WOULD CHANGE? No** — Mark Wegner's zone tendencies don't create a specific pre-game-knowable mismatch with Burns's pitch profile that would alter the bet direction or size.
+
+---
+
+### GAME: COL @ CHC — YOUR CALL: BET CHC -1.5 RL +100
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — specifically more extreme than assumed. COL's confirmed lineup (avg wRC+ 56.9 vs. LHP) is below even the pre-game 68 wRC+ assumption, with Cole Carrigg (-62 vs. LHP) and Braxton Fulford (5 vs. LHP) adding essentially zero offensive threat. Ezequiel Tovar at 53 and TJ Rumfield at 64 compound the weakness. This is one of the most extreme lineup-vs-handedness mismatches confirmed in this slate.
+
+**WOULD CHANGE?** Bet → Higher Stake (not materially — would have moved from 1 unit to 1.5 units). The pre-game COL wRC+ 68 was already the primary RL engine, but the confirmed lineup at 56.9 — with two hitters effectively below replacement level vs. LHP — strengthens the case. The specific pre-game reason: Carrigg at -62 and Fulford at 5 against Imanaga (LHP) represent automatic outs in the lineup, creating a de facto 7-hitter lineup instead of 9. This would have increased RL confidence from ~58% estimated cover to ~61-62%, potentially justifying a 1.5-unit stake.
+
+**Note:** This wouldn't have changed the eventual loss outcome (CHC won 5-4, a one-run game where variance dominated), but the pre-game confirmed data genuinely strengthened the case. The loss is still correct process / bad variance even with confirmed lineup data.
+
+**UMPIRE WOULD CHANGE? No** — James Hoye's zone tendencies don't create a specific pre-game-knowable edge that alters this bet's direction. Neither Imanaga nor Lorenzen has a profile specifically exploited or penalized by Hoye's known tendencies based on pre-game data available.
+
+---
+
+### GAME: DET @ HOU — YOUR CALL: BET DET ML +114
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — HOU's lineup is significantly stronger than the pre-game team-level framing suggested. HOU (avg wRC+ 108.3 vs. RHP) features Yordan Alvarez at 199 wRC+ vs. RHP — an elite bat that represents an extreme leverage threat against any starter, including Melton. Christian Walker (131) and Taylor Trammell (119) add to a lineup that is actually above-average despite Teng's deterioration.
+
+DET's lineup (avg wRC+ 100.0 vs. RHP) is near-average, with McGonigle (134), Greene (134), and Dingler (153) providing genuine power.
+
+**WOULD CHANGE?** Bet → Lower Stake. The HOU lineup with Yordan Alvarez at 199 wRC+ vs. RHP represents a specific pre-game threat that was underweighted in the original analysis. Alvarez alone against a starter with Melton's profile (AGG xFIP 4.30) is a meaningful risk. The DET ML at +114 remains a positive expected value bet given the starter/bullpen lean, but the confirmed Alvarez (199) presence would have tempered the unit size from 1 to 0.75. The bullpen angle (Abreu 6.56 ERA, King taxed) was correctly identified as DET's insurance, but one elite bat like Alvarez can single-handedly erase a bullpen advantage.
+
+**Pre-game reason:** Yordan Alvarez 199 wRC+ vs. RHP, confirmed in lineup, creates a single-hitter leverage threat that significantly raises HOU's win probability ceiling even with a deteriorating starter. This is a legitimate pre-game-knowable adjustment.
+
+**UMPIRE WOULD CHANGE? No** — Paul Clemons's zone tendencies don't create a specific pre-game-knowable mismatch with either Teng or Melton's pitch profiles that would alter the bet direction.
+
+---
+
+### GAME: TB @ LAD — YOUR CALL: BET LAD ML -158
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different in one direction only: TB's lineup (avg wRC+ 95.9 vs. LHP) is actually stronger than the pre-game "TB's L10 RS is only 3.7" framing implied. Yandy Díaz (155 vs. LHP), Junior Caminero (149 vs. LHP), and Ryan Vilade (129 vs. LHP) represent a top-heavy TB lineup that can score against Lauer more than the recent run suppression suggested. The L10 RS of 3.7 was a real signal but may have reflected opponent quality and ballpark contexts more than true offensive capability.
+
+LAD's lineup (avg wRC+ 118.9 vs. RHP) is even stronger than the assumed 110 team-level wRC+ — with Ohtani (172), Freeman (151), Ward (134), Rushing (145), and Pages (132) creating an elite run-production environment. Notably, Mookie Betts at 65 and Max Muncy at 75 are the weak spots, which was not visible from team-level data.
+
+**WOULD CHANGE?** No change — the LAD ML was correct and remains correct. The TB lineup being stronger than assumed (Díaz 155, Caminero 149) is offset by LAD's lineup superiority (avg 118.9 vs. RHP) and the Lauer FIP 6.46 anchor. The bet direction is unchanged. However, the TB lineup strength pre-game data might have reduced confidence from 67.4% estimated win to ~65%, keeping LAD ML viable at -158 but less comfortable.
+
+**Pre-game reason:** TB's confirmed top-of-order strength (Díaz 155, Caminero 149 vs. LHP) against Lauer (Brl% 11.2%) was underweighted in the original analysis by relying too heavily on the L10 RS team total. The individual hitter splits would have been a sharper signal.
+
+**UMPIRE WOULD CHANGE? No** — Dan Merzel's zone tendencies don't create a specific pre-game-knowable mismatch with Lauer or Martinez's profiles that would alter the bet direction or size.
+
+---
+
+## SLATE SUMMARY SCORECARD
+
+| Game | Pick | Result | Process |
+|------|------|--------|---------|
+| MIA @ PHI | PHI -1.5 RL -105 | **WIN** | Correct process / Fair result |
+| NYM @ CIN | CIN ML -139 | **WIN** | Correct process / Fair result |
+| COL @ CHC | CHC -1.5 RL +100 | **LOSS** | Correct process / Bad variance |
+| DET @ HOU | DET ML +114 | **WIN** | Correct process / Fair result |
+| TB @ LAD | LAD ML -158 | **WIN** | Correct process / Fair result |
+| PHI + CIN Parlay | +152 | **WIN** | Correct process / Fair result |
+| KC @ WAS | PASS | WAS wins | Correct pass — data integrity |
+| SD @ STL | PASS | STL wins | Correct pass — TBD starter |
+| MIN @ TEX | PASS | MIN wins | Correct pass — TBD starter |
+| LAA @ AZ | PASS | AZ wins | Correct pass — data integrity |
+| PIT @ ATH | PASS | ATH blowout | Possibly missable — ATH bullpen underweighted |
+
+**Record on bets:** 4-1 (straight), 1-0 (parlay)
+**Process grade:** 4 correct process wins, 1 correct process loss. No incorrect process bets identified. One possible missed edge (PIT @ ATH) noted for review.

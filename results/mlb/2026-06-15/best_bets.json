@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-15",
+  "sport": "mlb",
+  "graded_at": "2026-06-16T09:06:08Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "deepseek",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "LAA ML (+118) at ARI",
+      "why_this": "Largest detected edge of the day (22.6 pts). Combines a torrid LAA offense, a dormant ARI lineup, and an ordinary opponent starter, all amplified by the roof\u2011closed park environment.",
+      "resolved_game": "LAA @ AZ",
+      "resolved_pick": "LAA ML",
+      "resolved_price": 118,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "CIN ML (Game 3: NYM @ CIN)",
+      "why_this": "Chase Burns (2.98 SIERA) holds an elite pitching advantage over Tobias Myers (5.36 SIERA), creating a massive projection gap at cheap -131 odds.",
+      "resolved_game": "NYM @ CIN",
+      "resolved_pick": "CIN ML",
+      "resolved_price": -131,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.2901
+    },
+    {
+      "model": "grok",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "sonnet",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    }
+  ],
+  "summary": {
+    "wins": 1,
+    "losses": 1,
+    "skips": 6,
+    "record": "1-1 (50.0%)"
+  }
+}

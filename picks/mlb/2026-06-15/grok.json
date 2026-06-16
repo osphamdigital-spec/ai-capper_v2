@@ -20,10 +20,11 @@
       "reason": "Wheeler's elite xFIP/SIERA/K-BB% edge is real but Gusto's small-sample profile (under 50 IP) and market price at -205 already bake in most of the advantage; estimated PHI win probability sits at 66-68% versus 67% implied, gap under 4 pts.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "fa294eb768832d8c8870b2c0559291c1",
@@ -41,10 +42,11 @@
       "reason": "Both starters carry small-sample flags with limited innings and unreliable recent xFIP/SIERA reads; no clean pitcher-quality gap to exploit against a tight market line.",
       "data_gap": "both starters small sample",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "6b47a66c52d27dacd1c7bbcd808713c1",
@@ -61,11 +63,12 @@
       "edge": "7.3 pts",
       "reason": "Burns posts elite recent xFIP 3.02/SIERA 2.91/Stf+ 113 and 24.5% K-BB% while Myers shows poor 5.35 xFIP on limited 33 IP; home park and bullpen edge push CIN win probability to 64% versus 56.7% implied at best price.",
       "data_gap": "Myers small sample caps stake at 1 unit",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.7634,
+      "clv": 8,
+      "closing_line": -139,
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "6dc67dec6b0c9f4a591f05d0f5912d23",
@@ -83,10 +86,11 @@
       "reason": "Away starter TBD at build time; rules require pass on unconfirmed pitching matchups regardless of other factors.",
       "data_gap": "TBD starter",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "9c2784938a40031b48e75139185e2491",
@@ -104,10 +108,11 @@
       "reason": "Starters post nearly identical xFIP/SIERA profiles; CHC home edge and team form are already reflected in the -204 market price with no 4-pt gap after adjustments.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "35d9a6cb5c11499a313b0205abf1c1f9",
@@ -125,10 +130,11 @@
       "reason": "Away starter TBD at build time; rules require pass on unconfirmed pitching matchups regardless of other factors.",
       "data_gap": "TBD starter",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "d5349ae869ae1b1c6c38042687a3e57b",
@@ -146,10 +152,11 @@
       "reason": "Melton small-sample flag limits any edge; Teng's average metrics and home bullpen do not create a 4-pt gap versus the -125 market after standard adjustments.",
       "data_gap": "Melton small sample",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "38a1ef501107d0410c8595f25612567d",
@@ -167,10 +174,11 @@
       "reason": "Comparable xFIP/SIERA reads for both starters produce only a modest home adjustment that falls short of the 4-pt edge threshold against the -128 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "8e54fa4eee405d90f575942ad15b1d52",
@@ -188,10 +196,11 @@
       "reason": "Jones small-sample flag (13 IP) caps any potential edge; Ginn's solid but not dominant metrics versus a near-even market yield no qualifying gap.",
       "data_gap": "Jones small sample",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     },
     {
       "game_id": "da125dfa2d7fe97d5836e50dd394db59",
@@ -209,10 +218,11 @@
       "reason": "Similar starter metrics after xFIP/SIERA weighting; LAD home and team quality are fully priced at -158 with estimated win probability gap under 4 pts.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-16T09:06:08Z"
     }
   ],
   "parlay": null,
@@ -226,5 +236,6 @@
     "passes": 9,
     "units_risked": 1,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-16T09:06:08Z"
 }

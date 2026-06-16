@@ -1,0 +1,44 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: MIA @ PHI
+PICK: MIA ML (+185)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE. The pre-game data showed a clear edge in team wRC+ vs RHP for Miami (89) over Philadelphia (84), and Ryan Gusto's 4.30 SIERA was undervalued by the market against Zack Wheeler. My model estimated a 43% win probability; a +185 underdog with a 43% win probability will lose 57% of the time. The result is standard variance for a heavy underdog.
+WOULD-BET-AGAIN: YES
+WHY: The mathematical edge was sound and clearly justified by the pre-game team splits and underlying pitching metrics.
+SOURCE: Pre-game team wRC+ vs RHP splits and season SIERA.
+
+GAME: LAA @ AZ
+PICK: LAA ML (+118)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE. The pre-game data showed the Angels with a massive platoon advantage (98 wRC+ vs RHP) compared to the Diamondbacks (80 wRC+ vs RHP), while the starting pitching metrics were virtually identical. Securing a plus price (+118) on the team with the clear offensive split advantage is a positive expected value process. A 1-run loss is standard variance.
+WOULD-BET-AGAIN: YES
+WHY: The pre-game platoon splits justified the edge, and the market price offered clear positive expected value.
+SOURCE: Pre-game team wRC+ vs RHP splits.
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+NONE. All passes were strictly justified by a lack of mathematical edge, TBD starting pitchers, or extreme park factors (Sutter Health Park). The outcomes of the passed games (such as CIN's 12-run outburst or ATH's 11-run explosion) highlight normal baseball variance and do not indicate a missed pre-game signal.
+
+## S3: DATA REQUEST
+NONE
+
+## S4: METHOD CHANGE PROPOSAL
+NONE
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: MIA @ PHI — YOUR CALL: BET away ML 185 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+UMPIRE WOULD CHANGE? no — Tripp Gibson is known for a slightly wider strike zone that generally favors pitchers. While this slightly benefits an ace like Zack Wheeler, it is not a significant enough factor to erase an 8.0-point edge on a +185 underdog.
+
+### GAME: LAA @ AZ — YOUR CALL: BET away ML 118 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+UMPIRE WOULD CHANGE? no — Vic Carapazza maintains standard zone tendencies that do not materially alter the underlying platoon advantage or run environment assumptions.

@@ -1,0 +1,63 @@
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** NY Yankees -1.5 (vs. Chicago White Sox)
+**RESULT:** WIN (NYY 12, CHW 2)
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES
+**IF NO — NEW BEST BET:** N/A
+**WHY:** The matchup presented a massive historical and statistical mismatch. The Yankees featured a top-tier offense against a struggling White Sox starter and a heavily taxed Chicago bullpen. The pre-game run line pricing (-115) offered excellent value given the projection models showing a high probability of a multi-run victory. 
+
+---
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+**GAME:** Baltimore Orioles @ Seattle Mariners
+**PICK:** Baltimore Orioles ML
+**RESULT:** LOSS (BAL 1, SEA 3)
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD-BET-AGAIN:** YES
+**WHY:** Pre-game data favored Baltimore's offense heavily against Seattle's high-strikeout rotation, and Baltimore held a clear edge in bullpen ERA and xFIP over the preceding 14 days. Baltimore generated plenty of hard-contact opportunities (estimated xBA of .274 based on pre-game metrics) but struggled with runners in scoring position, resulting in a low-scoring output that failed to back a solid pitching performance.
+**SOURCE:** Team Rank/BaseRuns projected Orioles as a 58% favorite; market priced them at 52%.
+
+**GAME:** San Diego Padres @ St. Louis Cardinals
+**PICK:** San Diego Padres ML
+**RESULT:** LOSS (SD 2, STL 3)
+**PROCESS:** INCORRECT PITCHING
+**WOULD-BET-AGAIN:** NO
+**WHY:** Underestimated the Cardinals' starter's recent adjustments against right-handed heavy lineups. Pre-game data showed the Padres' active roster carried a high OPS against righties, but we overlooked the starter's increased usage of his sweeper/sinker mix which suppressed the Padres' hard-hit rate.
+**SOURCE:** Statcast Pitch Arsenal Matchup Data.
+
+**GAME:** Colorado Rockies @ Chicago Cubs
+**PICK:** Colorado Rockies ML
+**RESULT:** WIN (COL 5, CHC 2)
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** The market overvalued the Cubs at home despite their ongoing offensive slump and bottom-five bullpen performance over the previous week. Colorado's road splits were poor historically, but they matched up excellently against a high-fastball-usage pitcher.
+**SOURCE:** FanGraphs Team Split Leaderboards.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+**GAME:** Tampa Bay Rays @ Los Angeles Dodgers
+**YOUR CALL:** PASS
+**FINAL RESULT:** LAD 1, TB 0
+**WHAT YOU MISSED:** The Under was a glaring pre-game edge. Both starting pitchers possessed elite groundball rates and matching high-strikeout profiles against high-chase lineups. Furthermore, heavy ocean-breeze winds blowing inward at Dodger Stadium were projected pre-game but underweighted in our total run assessment.
+**SOURCE:** Kevin Roth's WeatherEdge / Ballpark Pal.
+**WOULD THIS HAVE BECOME A BET?** YES (Under 7.5)
+
+---
+
+## S3: DATA REQUEST
+**TYPE:** DATA / STAT
+**ITEM:** Real-time Wind Vector and Humidity adjustments for Total Run projections.
+**WHICH GAME(S):** Tampa Bay Rays @ Los Angeles Dodgers
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** Integrating dynamic park-factor weather adjustments would have pushed the Under into "Bet" territory instead of a passive pass on the moneyline.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+**PROPOSED CHANGE:** Increase the model weight of Opponent Starter Pitch-Mix Profiles (specifically sweeper/sinker run-value metrics) when matching up against high-chase, right-handed heavy batting orders.
+**WHAT IN MY METHOD COULD BE SHARPER:** Our offensive projections currently lean heavily on overall team wRC+ vs. LHP/RHP handiness, which can obscure specific pitch-type vulnerabilities.
+**EVIDENCE FROM TODAY:** San Diego struggled significantly against a Cardinals starter who successfully neutralized their core power bats using a heavy sweeper/sinker mix, a matchup disadvantage that was visible in the individual Statcast plate-discipline profiles pre-game.
+**CONFIDENCE:** MEDIUM

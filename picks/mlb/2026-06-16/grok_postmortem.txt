@@ -1,0 +1,23 @@
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: NONE  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+
+No game cleared the 4-pt edge threshold with clean data pre-game. Zero bets remains correct.
+
+**S2: FULL SLATE REVIEW**
+
+**PART A — GAMES YOU BET**  
+No bets placed. All 15 games were passes.
+
+**PART B — PASSES AND LEANS**  
+No blocks qualify. Every pass decision rested on documented pre-game data gaps (small samples, TBD starters, or sub-4-pt edges after xFIP/SIERA/Stf+/K-BB% + bullpen/park adjustments). No specific pre-game signal was overlooked that would have justified a bet under existing rules.
+
+**S3: DATA REQUEST**  
+NONE
+
+**S4: METHOD CHANGE PROPOSAL**  
+PROPOSED CHANGE: Raise the minimum innings threshold for “clean data” from the current implicit level to 60 IP (or last 8 starts) before allowing a 3-unit bet; keep 2-unit bets at current 45 IP / 6-start floor.  
+WHAT IN MY METHOD COULD BE SHARPER: Explicit volume floor prevents borderline small-sample games from ever reaching the 4-pt edge calculation.  
+EVIDENCE FROM TODAY: Multiple games (Cole 22 IP, Brown very small sample, Wrobleski, Gasser, etc.) were already flagged and correctly passed; formalizing the higher bar simply codifies the existing caution.  
+CONFIDENCE: LOW

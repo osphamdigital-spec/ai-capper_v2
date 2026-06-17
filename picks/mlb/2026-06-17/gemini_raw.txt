@@ -1,0 +1,157 @@
+## GAME: NYM @ CIN
+PICK: NYM ML
+PRICE: -129
+UNITS: 1
+EDGE: 6.5 pts
+TOTAL LEAN: No lean
+REASON: Nolan McLean has a clear starting pitching advantage with a 3.41 SIERA and 3.24 xFIP compared to Nick Lodolo's 3.76 SIERA and 3.91 xFIP. Additionally, the platoon matchup heavily favors the Mets, whose offense possesses a 107 wRC+ against lefties, while Cincinnati struggles with an 89 wRC+ against righties. This creates a projected win probability of 62.8%, yielding a 6.5-percentage-point edge over the market price.
+DATA GAP: none
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Luinder Avila is flagged as a small-sample starter with highly volatile underlying metrics, making this matchup high in variance. The Royals' offense also represents a weak split against right-handed pitching, prompting a pass.
+DATA GAP: more stable sample size for Avila
+
+---
+
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The moneyline price for the Miami Marlins is flagged as stale/suspect across multiple sportsbooks, requiring us to treat this market as absent. Consequently, we must pass on this matchup despite Sandy Alcantara's recent strong form.
+DATA GAP: clean, non-stale market prices for Miami ML
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Casey Mize and Peter Lambert project closely, with only a marginal edge that does not cross the required 4-percentage-point threshold. Without a clear starting pitching or bullpen advantage, we pass.
+DATA GAP: none
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The starting pitcher for San Diego is unconfirmed at the time of compilation, triggering an automatic pass under our strict data integrity rules.
+DATA GAP: confirmed starting pitcher for San Diego
+
+---
+
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Shohei Ohtani gives the Dodgers a major starting pitching edge, but the heavy market price of -172 leaves no valuable margin against our projection. We pass on this highly efficient line.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sam Aldegheri is a small-sample starter with highly volatile underlying projection metrics. This high-variance profile, combined with Arizona's strong LHP split, makes this game an easy pass.
+DATA GAP: none
+
+---
+
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starting pitchers are flagged as small-sample options with short recent outings and high performance volatility. We pass on this game to avoid high-variance pitching matchups.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Carlos Rodón gives the Yankees a clear pitching edge, but the heavy market line of -178 leaves no actionable edge. We pass on backing the heavy home favorite here.
+DATA GAP: none
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The starting pitcher for San Francisco remains unconfirmed at compilation time, triggering an immediate pass.
+DATA GAP: confirmed starting pitcher for San Francisco
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gavin Williams is the superior starting pitcher, but Cleveland's offense struggles heavily against righties (89 wRC+), neutralizing the edge against Brandon Sproat. The projected margin is too slim to back either side.
+DATA GAP: none
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Colorado's starting pitcher, Sean Sullivan, is a small-sample starter with highly volatile baseline numbers. We pass on this matchup due to lack of stable data on the away starter.
+DATA GAP: larger sample size for Sean Sullivan
+
+---
+
+## GAME: PIT @ ATH
+PICK: PIT ML
+PRICE: -119
+UNITS: 3
+EDGE: 8.2 pts
+TOTAL LEAN: No lean
+REASON: Braxton Ashcraft represents a massive starting pitching upgrade with a 3.35 SIERA and 3.27 xFIP compared to Aaron Civale's lackluster 4.84 SIERA and 4.97 xFIP. Sutter Health Park's hitter-friendly nature amplifies this discrepancy, giving Pittsburgh's offense (105 wRC+ vs RHP) a major boost. Our model projects Pittsburgh with a 62.5% win probability, creating an elite 8.2-percentage-point edge against the -119 market price.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: George Kirby projects well at home, but the market price of -140 is highly efficient and leaves no positive edge against our projected win probability. We pass.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: PIT ML @ ATH
+WHY THIS ONE: Braxton Ashcraft holds a massive structural advantage over Aaron Civale in aggregate metrics (3.35 vs 4.84 SIERA). This pitching gap, combined with Pittsburgh's strong split-specific offense, is amplified by the hitter-friendly environment to create an elite 8.2-percentage-point edge.

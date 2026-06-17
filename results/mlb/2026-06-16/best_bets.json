@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-16",
+  "sport": "mlb",
+  "graded_at": "2026-06-17T04:55:37Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "deepseek",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "MIA ML +154",
+      "why_this": "Largest edge on the board at 20.9 points \u2014 MIA\u2019s elite 126 wRC+ vs LHP faces a pitcher in Luzardo who cannot fully suppress a lineup this hot, while Phillips keeps PHI\u2019s weak right-handed offense in check.",
+      "resolved_game": "MIA @ PHI",
+      "resolved_pick": "MIA ML",
+      "resolved_price": 154,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "grok",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "kimi",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "sonnet",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "LAA ML (-105) \u2014 3 units, LAA @ AZ",
+      "why_this": "Detmers' blended xFIP (~3.23) vs. Kelly's blended xFIP (~4.92) represents the widest true pitcher quality gap on the slate, and the market has LAA as a near-pick'em at -105 \u2014 8.1 points of edge at a price where a win nearly doubles the unit.",
+      "resolved_game": "LAA @ AZ",
+      "resolved_pick": "LAA ML",
+      "resolved_price": -105,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.8571
+    }
+  ],
+  "summary": {
+    "wins": 1,
+    "losses": 1,
+    "skips": 4,
+    "record": "1-1 (50.0%)"
+  }
+}

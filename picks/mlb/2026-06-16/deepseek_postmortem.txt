@@ -1,0 +1,85 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: MIA ML +154  
+RESULT: LOSS  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: / WHY: / SOURCE:  
+*Based on the pre‑game data available at decision time, MIA still offered the largest edge (20.9 pts). The loss was driven by a lineup that deviated sharply from the underlying team‑level stat, which was not knowable in advance. Process remains sound.*
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** MIA @ PHI  
+**PICK:** MIA ML +154  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD‑BET‑AGAIN:** YES (with same pre‑game data; lower stake if lineup had been known)  
+**WHY:** MIA’s season‑long 126 wRC+ vs LHP and PHI’s 84 vs RHP created a large Pythagorean edge. The actual lineup’s 106 wRC+ was not knowable at bet time – no pre‑game signal indicated that key lefty‑mashers would be absent or severely downgraded. The result is variance on an otherwise strong bet.  
+**SOURCE:** Original model
+
+**GAME:** MIN @ TEX  
+**PICK:** MIN ML +122  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD‑BET‑AGAIN:** YES  
+**WHY:** The pitching mismatch (Matthews vs Rocker) drove a 12.4‑pt edge. MIN’s offense over‑performed relative to its confirmed lineup, and the bet cashed comfortably.  
+**SOURCE:** Original model
+
+**GAME:** TB @ LAD  
+**PICK:** TB ML +130  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD‑BET‑AGAIN:** YES  
+**WHY:** Rasmussen’s xFIP advantage and the original projection of 4.74–4.00 runs were valid. The actual lineups made the relative matchup even better for TB (LAD’s confirmed wRC+ vs RHP was 85.3, not the assumed 110). Losing 1‑0 despite that improved edge is clear variance.  
+**SOURCE:** Original model
+
+---
+
+### PART B — PASSES AND LEANS (missed edge)
+**NONE**
+
+All passes were either correct negatives (sub‑4‑pt edge, suspect prices), correctly capped by small‑sample rules, or forced by the slate portfolio ceiling. No pre‑game edge was overlooked.
+
+---
+
+## S3: DATA REQUEST
+**TYPE:** DATA  
+**ITEM:** Confirmed starting lineups with individual batter wRC+ splits (platoon) for both teams, including any late‑breaking injury/rest announcements that would materially alter the projected lineup’s wRC+ capability.  
+**WHICH GAME(S):** MIA @ PHI, MIN @ TEX, TB @ LAD – and any game where the edge relies heavily on a team‑level platoon stat.  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** MIA’s actual lineup wRC+ of 106 (vs assumed 126) would have lowered the edge enough to reduce stake or pass. MIN’s edge would have been softened, and TB’s edge would have been confirmed as even larger – enabling better risk‑sizing.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+**PROPOSED CHANGE:** Introduce a “lineup certainty” discount when team‑level platoon wRC+ is the primary edge driver and the actual lineup is not yet confirmed. When the edge exceeds 15 points, reduce the units deployed by one (e.g., 3u → 2u) unless the probable lineup can be verified from pre‑game reports. Additionally, for any bet with a wRC+ gulf >20 points on one side, cross‑check whether that team has recently rested or lost key hitters – if so, double‑check that the aggregate stat still reflects the expected nine.  
+**WHAT IN MY METHOD COULD BE SHARPER:** The method correctly identifies value but implicitly assumes the season‑long platoon number holds for that day’s nine hitters. A simple lineup‑aware adjustment would protect against bets like MIA today, where the actual lineup undercut the edge dramatically.  
+**EVIDENCE FROM TODAY:** MIA’s team wRC+ vs LHP (126) was over 20 points higher than the lineup that actually took the field (106). That gap was invisible to the pre‑game process that reported “no data gap.” A modest stake reduction would have limited the damage.  
+**CONFIDENCE:** MEDIUM — one day is not enough to set a firm rule, but the pattern is clear enough to justify testing a formal adjustment.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: MIA @ PHI — YOUR CALL: BET away ML 154 (3u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different (MIA wRC+ 106 vs assumed 126; PHI wRC+ 91.9 vs assumed 84)  
+**WOULD CHANGE?** bet → lower stake  
+**PRE‑GAME REASON:** MIA’s actual lineup is significantly weaker against LHP, losing the extreme offensive advantage that drove the 20.9‑pt edge. PHI’s lineup is slightly stronger as well. The run projection gap narrows materially, reducing the edge. Still potentially bettable but at reduced size.  
+**UMPIRE WOULD CHANGE?** no — no pre‑game tendency of Sean Barber’s that would alter the ML value.
+
+### GAME: MIN @ TEX — YOUR CALL: BET away ML 122 (3u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different (MIN wRC+ 90 vs assumed 101; TEX wRC+ 123.6 vs likely league‑average assumption)  
+**WOULD CHANGE?** bet → lower stake  
+**PRE‑GAME REASON:** MIN’s offense projects lower and TEX’s projects much higher, shrinking the projected run differential. The pitching edge remains, but the overall advantage is less than 12.4 pts, warranting a lower unit allocation.  
+**UMPIRE WOULD CHANGE?** no — Márquez does not have a known extreme split that would shift the ML.
+
+### GAME: TB @ LAD — YOUR CALL: BET away ML 130 (3u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different, but in TB’s favour (TB wRC+ 90.4 vs 97; LAD wRC+ 85.3 vs 110)  
+**WOULD CHANGE?** no change  
+**PRE‑GAME REASON:** LAD’s lineup is far weaker against RHP than assumed while TB’s decline is small, increasing the relative edge. The bet’s fundamentals actually strengthen – if anything, it would confirm the full 3‑unit allocation.  
+**UMPIRE WOULD CHANGE?** no — Bellino’s zone data does not foreseeably tilt the matchup.

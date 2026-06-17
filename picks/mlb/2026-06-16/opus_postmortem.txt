@@ -1,0 +1,123 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: None declared ("NO BEST BET — no 3-unit play identified")
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES — declining to force a 3-unit play was correct. Every edge sat in the 4-6.5 pt band with data caveats. Going 2-2 on the four 1-unit plays vindicates the decision not to stake any of them at 3 units.
+IF NO — NEW BEST BET: N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+---
+
+GAME: COL @ CHC
+PICK: CHC -1.5 (+100, 1u)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: The pre-game case was sound: Cabrera's 3.70 xFIP / 16.1 K-BB% genuinely outclassed Feltner (4.54 xFIP, 9.1 K-BB%, 11.8 Brl%), and the COL bullpen ranks among the league's worst. The confirmed COL lineup actually reinforces the read — Sullivan (56), Tovar (48), Karros (77), Castro (81) form a soft bottom third; the only outlier is Carrigg's 269 (clearly an unstable small-sample number). No pre-game data point predicted a 5-2 COL win. This was a starter-quality edge that didn't cash — variance, not a flaw. The one honest caution: -1.5 at +100 needs ~55% RL coverage and I had the edge thin; the RL (vs ML) added correlated variance I accepted knowingly.
+SOURCE: AGG xFIP/K-BB% deltas, COL bullpen ranking.
+
+---
+
+GAME: LAA @ AZ
+PICK: LAA ML (-105, 1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Detmers' full-sample 3.48 xFIP / 22.1 K-BB% vs a declining Merrill Kelly (5.46 ERA, 6.01 SIERA L14) was a clean projection-vs-perception gap with the market pricing AZ up on name/home. Confirmed AZ lineup vs LHP strengthens it: behind Marte/Carroll, the bottom four (Del Castillo -83, Pavin Smith -100, Gurriel 81, Arenado 87) is brutal vs lefties. I had pre-shaved for AZ's 118 wRC+ vs LHP, but the confirmed order shows that figure is top-heavy — the actual lineup was weaker than my team-level input.
+SOURCE: Detmers AGG profile, Kelly SIERA decline, confirmed AZ vs-LHP order.
+
+---
+
+GAME: BAL @ SEA
+PICK: SEA ML (-154, 1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Gilbert (3.23 xFIP, 23.9 K-BB%) in an 86-runs park vs Young's regression profile (3.04 ERA / 4.58 xFIP, 43.8% HH) was my cleanest anchor of the slate. Note for honesty: the confirmed BAL lineup vs RHP (avg 117.3, with Alonso 139, Basallo 137, Ward 122) is materially stronger than my "regression fade" framing implied — Baltimore was a tougher out than I priced. The win came despite that, on Gilbert's quality. Process holds, but I should flag that the offensive side of the matchup was closer than my note suggested.
+SOURCE: Gilbert AGG profile, park factor, Young HH%.
+
+---
+
+GAME: TB @ LAD
+PICK: TB ML (+125, 1u)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Rasmussen (3.43 xFIP, 17.8 K-BB%) vs Wrobleski's overperformance (2.95 ERA / 4.67 xFIP, 9.4 K-BB%) was a legitimate dog-value fade, and I correctly capped it at 1u for LAD's elite offense. The final was 1-0 LAD — a coin-flip outcome entirely consistent with my ~50% estimate at +125. Confirmed lineups actually validate the price: TB vs LHP was top-heavy (Slater 47, Simpson 32, Fortes 66, Walls 52 in the bottom four), and the LAD order vs RHP was surprisingly soft below Freeman (Betts 65, Muncy 75, Robinson -100). A 1-run loss is the definition of variance on a +125 dog.
+SOURCE: Rasmussen/Wrobleski AGG deltas, +125 price vs ~50% estimate.
+
+---
+
+PART B — PASSES/LEANS WITH MISSED EDGE
+
+Reviewing each lean honestly:
+
+- **NYM @ CIN** (leaned Over, result 8 total runs): Under territory — no missed edge, the lean was wrong directionally but immaterial (no bet, total flagged stale).
+- **DET @ HOU** (leaned Under, 6 total): Under hit — correct lean, correct pass given Brown's 10.2 IP small sample capped it. No bet justified.
+- **PIT @ ATH** (leaned Over, 11 total runs on an 11.0): essentially a push-ish lean, no actionable edge missed.
+- **TOR @ BOS**: passed on TBD pitcher — TOR won 6-1, but I had zero pitcher data. Correct, mandatory pass. No identifiable pre-game edge.
+
+GAME: NONE
+No pass contains a specific pre-game edge I can defend in hindsight without reasoning from results. All passes hold.
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: Batting-order stability / projected-lineup confidence flag (which confirmed lineups deviate most from season-typical order)
+WHICH GAME(S): LAA @ AZ, TB @ LAD
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: My team-level wRC+ inputs (AZ 118 vs LHP, LAD offense "elite") were both top-heavy in the confirmed orders. A lineup-depth signal would have let me size LAA up and TB closer to fair earlier, rather than blanket-shaving.
+
+TYPE: STAT
+ITEM: Reliever availability / recent usage for bottom-tier bullpens
+WHICH GAME(S): COL @ CHC
+WOULD HAVE CHANGED A BET? NO
+WHY: COL bullpen was already a known weakness; usage wouldn't have flipped the -1.5 decision, but it sharpens RL-vs-ML choice.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: When choosing between ML and run line (-1.5), require a higher coverage threshold before taking the RL at plus-money — the RL adds correlated variance on top of an already-thin edge.
+WHAT IN MY METHOD COULD BE SHARPER: On COL @ CHC I had only ~5.5 pts of edge and converted that into a -1.5 RL needing ~55% coverage. A starter-quality edge often produces a win without a 2-run margin; taking ML (-191 implied) vs RL (+100) trades coverage for price. I leaned to price without fully accounting that the RL doubles down on the same variance I was already thin on.
+EVIDENCE FROM TODAY (pre-game): My own note priced RL-cover at ~55% vs +100 — a 5% margin, the thinnest of my four bets, yet structurally the highest-variance bet form. The edge math didn't justify the variance multiplier.
+CONFIDENCE: LOW (one slate; directional only)
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### COL @ CHC
+CONFIRMED LINEUP vs ASSUMPTION: roughly as expected (CHC avg 114.3 matches "should win comfortably"; COL soft bottom third confirmed)
+WOULD CHANGE? no change
+PRE-GAME REASON: Lineups align with my read; Carrigg's 269 is unstable noise, not a reason to fade.
+UMPIRE WOULD CHANGE? no — no Traynor zone data cited pre-game.
+
+### LAA @ AZ
+CONFIRMED LINEUP vs ASSUMPTION: materially different (weaker than priced) — AZ bottom four vs LHP (Del Castillo -83, Smith -100) far below the 118 team figure I used
+WOULD CHANGE? bet→higher stake (marginally)
+PRE-GAME REASON: The confirmed AZ vs-LHP order is top-heavy (Marte/Carroll carry it); the 118 team wRC+ overstated lineup depth against Detmers. A deeper-than-priced edge would justify nudging toward higher stake, though small-sample caution keeps it modest.
+UMPIRE WOULD CHANGE? no — no Moscoso data cited.
+
+### BAL @ SEA
+CONFIRMED LINEUP vs ASSUMPTION: materially different (BAL stronger than priced) — avg 117.3 with Alonso/Basallo/Ward all 120+
+WOULD CHANGE? no change (still bet), but lower conviction
+PRE-GAME REASON: My "regression fade" framing implied a soft BAL bat; the confirmed order was genuinely strong vs RHP. The bet still holds on Gilbert + park, but I'd shade SEA closer to ~61% than 64% — would not have un-bet it.
+UMPIRE WOULD CHANGE? no — no Hamari data cited.
+
+### TB @ LAD
+CONFIRMED LINEUP vs ASSUMPTION: roughly as expected on net — TB top-heavy (Slater 47, Simpson 32 deep), LAD soft below Freeman (Betts 65, Muncy 75) partially offsetting
+WOULD CHANGE? no change
+PRE-GAME REASON: Both lineups had soft bottoms; the LAD weakness vs RHP slightly supports the dog, but not enough to change the 1u sizing. Confirms the +125 was fair value.
+UMPIRE WOULD CHANGE? no — no Bellino data cited.
+
+---
+
+**Bottom line:** 2-2 on four disciplined 1-unit plays, all defensible on pre-game process. Both losses (COL RL, TB +125) were variance — COL a thin-edge RL that doubled my variance, TB a 1-0 coin flip exactly where I priced it. The only genuine self-critique is the RL-vs-ML choice on COL and the recurring pattern that my team-level wRC+ inputs ran top-heavy versus the confirmed orders. No best bet was the right call.

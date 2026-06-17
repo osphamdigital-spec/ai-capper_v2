@@ -1,0 +1,146 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+
+IF NO — NEW BEST BET: LAA ML  
+WHY: The original writeup already had Detmers as the clear starter edge. The only thing holding it below bet threshold was Arizona’s team-level 118 wRC+ vs LHP and bullpen/home edge. The confirmed Arizona lineup came in far weaker than that team-level assumption, with an 80.1 lineup-average wRC+ vs LHP, which materially reduced the main reason to stay off the Angels.  
+SOURCE: Original LAA@AZ reasoning + confirmed lineup table.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: MIA @ PHI  
+PICK: MIA ML +154  
+RESULT: LOSS  
+PROCESS: MISSED LINEUP  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: The pre-game case depended heavily on Miami’s large team split edge vs LHP. I explicitly noted lineup risk, and the confirmed lineup did come in weaker than the team-level 126 wRC+ split I leaned on. Miami’s confirmed lineup average vs LHP was 106.0, still playable at a big dog price, but not as strong as the raw team split implied. Philadelphia’s lineup was also weaker vs RHP than average, so I would not flip sides, but I would reduce exposure because the core offensive edge was overstated.  
+SOURCE: Original MIA writeup; confirmed lineup averages MIA 106.0 vs LHP, PHI 91.9 vs RHP.
+
+---
+
+GAME: BAL @ SEA  
+PICK: SEA ML -147  
+RESULT: WIN  
+PROCESS: MISSED LINEUP  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: The starter/park logic was sound: Gilbert plus Seattle’s run environment was a legitimate pre-game edge. But I also justified the play by saying Seattle had the stronger platoon offense against a contact-prone righty, and the confirmed lineups did not support that. Baltimore’s lineup average vs RHP was 117.3, Seattle’s was 92.7. That does not automatically kill the play because the Gilbert edge still mattered, but it clearly weakens the original case and should have reduced stake size.  
+SOURCE: Original BAL@SEA writeup; confirmed lineup averages BAL 117.3 vs RHP, SEA 92.7 vs RHP.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: SF @ ATL  
+YOUR CALL: LEAN  
+FINAL RESULT: ATL win / suspended listing conflict noted  
+WHAT YOU MISSED: The confirmed lineups undercut my stated offensive-split reason for Atlanta. I said Atlanta had the better offense split, but the confirmed lineups showed SF with a 117.7 average wRC+ vs RHP versus ATL at 94.2. That is a meaningful pre-game correction and should have removed the Atlanta lean.  
+SOURCE: Confirmed lineup table for SF@ATL.  
+WOULD THIS HAVE BECOME A BET? NO
+
+---
+
+GAME: LAA @ AZ  
+YOUR CALL: LEAN  
+FINAL RESULT: LAA win  
+WHAT YOU MISSED: The confirmed Arizona lineup was much weaker vs LHP than the team-level split that kept this below the bet line. My original hesitation was Arizona’s elite 118 wRC+ vs LHP, but the actual lineup averaged just 80.1 vs LHP. Since I already had Detmers as the clear starter edge, that lineup downgrade likely pushes the Angels from lean to bet.  
+SOURCE: Original LAA@AZ writeup + confirmed lineup table.  
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+## S3: DATA REQUEST
+TYPE: DATA  
+ITEM: Projected lineups with handedness-adjusted lineup strength before posting picks  
+WHICH GAME(S): MIA @ PHI, LAA @ AZ, BAL @ SEA, SF @ ATL  
+WOULD HAVE CHANGED A BET? YES  
+WHY: In all four, team-level split assumptions were materially different from the confirmed batting orders.
+
+---
+
+TYPE: STAT  
+ITEM: Lineup-level projected wRC+ / xwOBA by handedness, not just team season split  
+WHICH GAME(S): MIA @ PHI, LAA @ AZ, BAL @ SEA, SF @ ATL  
+WOULD HAVE CHANGED A BET? YES  
+WHY: Team-level split stats were too blunt and overstated or misstated the actual nine-man offensive expectation.
+
+---
+
+TYPE: SOURCE  
+ITEM: Earlier bullpen availability feed with likely usable leverage arms  
+WHICH GAME(S): MIA @ PHI, KC @ WAS, CLE @ MIL  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Several close-price decisions were partially held back by bullpen uncertainty; better same-day availability could sharpen side confidence.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+PROPOSED CHANGE: Reduce the weight of team-level platoon splits when lineups are unconfirmed, and cap stake size unless projected/confirmed lineup-level split strength agrees with the team number.
+
+WHAT IN MY METHOD COULD BE SHARPER: I let season team split data carry too much of the offensive case in a few games where batting-order quality was the actual swing factor. If the edge depends on “Team X crushes LHP” or “Team Y is weak vs RHP,” I should demand lineup-level confirmation before turning that into a real-money position or a strong lean.
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):  
+- MIA bet relied on Miami’s 126 team wRC+ vs LHP; confirmed lineup came in at 106.0.  
+- LAA lean stayed below threshold because Arizona’s team split vs LHP was 118; confirmed lineup was only 80.1.  
+- SEA bet cited a platoon-offense edge that the confirmed lineup table contradicted: BAL 117.3 vs RHP, SEA 92.7.  
+- ATL lean cited the better offense split, but confirmed lineup averages showed SF 117.7 vs RHP, ATL 94.2.
+
+CONFIDENCE: HIGH
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: MIA @ PHI — YOUR CALL: BET away ML 154 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→lower stake  
+PRE-GAME REASON: My edge depended on Miami’s strong right-handed/platoon profile versus a lefty. The confirmed Miami lineup’s average wRC+ vs LHP was 106.0, notably below the team-level 126 split I used in the writeup. That weakens, but does not erase, the dog case because Luzardo/start-price logic still exists and Philadelphia’s lineup vs RHP was also only 91.9.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game zone tendency was provided that would meaningfully alter the side.
+
+---
+
+### GAME: SF @ ATL — YOUR CALL: LEAN home
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→pass  
+PRE-GAME REASON: I said Atlanta had the better offense split, but the confirmed lineups showed the opposite: SF 117.7 average wRC+ vs RHP, ATL 94.2. Since the original ATL case was already below bet threshold and depended in part on the offense edge, that lineup information removes the lean.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency supplied that would offset the lineup correction.
+
+---
+
+### GAME: COL @ CHC — YOUR CALL: LEAN home
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: The confirmed lineups were close enough in profile to the original assumption: Chicago still looked like the better offense, but not by enough to upgrade the run line into a bet given my hesitation about favorite margin confidence.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No supplied strike-zone tendency strong enough to move a run-line decision.
+
+---
+
+### GAME: LAA @ AZ — YOUR CALL: LEAN away
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? lean→bet  
+PRE-GAME REASON: The only major reason this stayed below bet threshold was Arizona’s team-level damage versus lefties. The confirmed lineup average vs LHP was only 80.1, far below that assumption. Combined with the original Detmers edge, that would have been enough to make LAA a full play.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game umpire signal provided that would materially alter side value.
+
+---
+
+### GAME: BAL @ SEA — YOUR CALL: BET home ML -147 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→lower stake  
+PRE-GAME REASON: The bet still had a real starter/park foundation through Gilbert, but my offensive justification was too strong. The confirmed lineups showed Baltimore as the stronger lineup vs RHP (117.3) and Seattle as weaker (92.7), so I would still lean Seattle on the mound/park setup but with reduced confidence and smaller stake.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire-zone information supplied that would change the side.
+
+---
+
+### Bottom line
+Good call: SEA side on the mound/park angle.  
+Bad process spot: I leaned too hard on team-level platoon numbers without lineup-level confirmation.  
+Biggest fix: if the split is the reason, wait for the actual nine hitters.

@@ -1,7 +1,7 @@
 # PIPELINE OVERVIEW — AI CAPPER
 
 End-to-end workflow from data fetch to graded results.
-Updated: 2026-06-10
+Updated: 2026-06-17
 
 ---
 
@@ -32,19 +32,17 @@ python scripts/run_daily.py mlb --date 2026-06-03   # override date
 
 ## PHASE 2 — MODEL PICKS (automated for 6 models)
 
-Phase 2 is now automated via query_model.py for 6 of 8 models.
+Phase 2 is fully automated via query_model.py for all 8 models.
 
-AUTOMATED MODELS (API connected):
-  chatgpt   gpt-5.4          web search OFF  medium reasoning
-  grok      grok-4.3         web search OFF  medium reasoning
-  deepseek  deepseek-v4-pro  web search OFF  thinking enabled
-  kimi      kimi-k2.6        web search OFF  thinking enabled
-  qwen      qwen3.7-max      web search OFF  thinking enabled
-  gemini    gemini-3.5-flash web search OFF  medium thinking_level
-
-MANUAL MODELS (API not yet connected):
-  opus      Claude Opus      paste into claude.ai manually
-  sonnet    Claude Sonnet    paste into claude.ai manually
+AUTOMATED MODELS (all API connected):
+  chatgpt   gpt-5.4           web search OFF  medium reasoning
+  grok      grok-4.3          web search OFF  medium reasoning
+  deepseek  deepseek-v4-pro   web search OFF  thinking enabled
+  kimi      kimi-k2.6         web search OFF  thinking enabled
+  qwen      qwen3.7-max       web search OFF  thinking enabled
+  gemini    gemini-3.5-flash  web search OFF  medium thinking_level
+  opus      claude-opus-4-8   web search OFF  medium reasoning
+  sonnet    claude-sonnet-4-6 web search OFF  medium reasoning
 
 PICKS QUERY COMMAND (run once per model per slate):
   python scripts/query_model.py --model grok --date 2026-06-10
@@ -54,9 +52,16 @@ PICKS QUERY COMMAND (run once per model per slate):
   python scripts/query_model.py --model qwen --date 2026-06-10
   python scripts/query_model.py --model gemini --date 2026-06-10
 
-OR run all 6 at once:
+OR run all 8 at once:
   python scripts/run_picks_all.py --date 2026-06-10
   python scripts/run_picks_all.py   # uses today's date automatically
+
+OR use the integrated pre-game orchestrator (recommended):
+  python scripts/run_daily.py mlb --with-picks
+  python scripts/run_daily.py mlb --date 2026-06-10 --with-picks
+
+  This chains: fetch pipeline → build prompts → run_picks_all → log_all_picks in one command.
+  Without --with-picks: stops after prompts (preserves the pre-send prompt-review checkpoint).
 
 FLAGS:
   --reasoning low/medium/high   override default reasoning effort
@@ -111,6 +116,7 @@ When `fetch_results.py --date 2026-06-06` runs it does three additional things a
 1. **Pastes results into today's post mortem** — finds `picks/mlb/2026-06-06/post_mortem_2026-06-06.txt` (created the previous day) and replaces the `[OPERATOR WILL PASTE RESULTS HERE]` placeholder with the actual game scores. Also fills in the date in the SLATE header.
 2. **Creates tomorrow's picks folder** — `picks/mlb/2026-06-07/` ready for the next slate.
 3. **Creates tomorrow's blank post mortem** — copies `docs/post_mortem_template.txt` into `picks/mlb/2026-06-07/post_mortem_2026-06-07.txt` with the date pre-filled.
+4. **Creates empty raw.txt stubs for each model** — touches `{model}_raw.txt` for every model in `docs/model_roster.md` in tomorrow's picks folder. These stubs are what `run_postmortem_all.py`'s 0-byte guard checks to confirm the pipeline ran for that date.
 
 > **Date logic:** given `--date 2026-06-06`, today's post mortem = `picks/mlb/2026-06-06/`, tomorrow's folder = `picks/mlb/2026-06-07/`. The tomorrow folder was created by *yesterday's* run of this script.
 
@@ -120,11 +126,20 @@ When `fetch_results.py --date 2026-06-06` runs it does three additional things a
 
 Each model gets the graded results pasted into its post-mortem file (now done automatically by `fetch_results.py` -- see above). The model then reviews its picks against the results.
 
-Post-mortem queries are automated for all 9 models (grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet, fable):
+Post-mortem queries are automated for all 8 models (grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet):
   python scripts/query_model.py --model grok --date 2026-06-10 --postmortem
   (repeat for each model)
 
-OR run all 9 at once:
+OR use the integrated post-game orchestrator (recommended):
+  python scripts/run_daily_2.py mlb
+  python scripts/run_daily_2.py mlb --date 2026-06-10
+
+  This chains: fetch_results → grade_picks → fetch_confirmed_data → run_postmortem_all.
+  Guards: requires logged {model}.json pick files; halts if confirmed data is incomplete
+  (boxscores not posted yet); use --skip-confirmed to override and proceed without it.
+  Halt-then-rerun is safe: all steps are idempotent on re-run.
+
+OR run post-mortems alone:
   python scripts/run_postmortem_all.py --date 2026-06-10
   python scripts/run_postmortem_all.py   # uses today's date automatically
 
@@ -139,7 +154,8 @@ run_postmortem_all.py after a partial failure is safe.
 
 Post-mortem output is NOT auto-injected into method docs, MODEL_INSTRUCTIONS.md, or
 any prompt file. Routing responses into method updates or calibration changes is a
-separate, manually-gated step that has not yet been built (v2 Phase 5).
+separate, manually-gated step (operator reviews, decides whether to promote). The
+injection of calibration stats into future prompts is Phase 5b — not yet built.
 
 Template: `docs/post_mortem_template.txt`
 Saved to: `picks/mlb/{date}/post_mortem_{date}.txt` (auto-created by previous day's `fetch_results.py` run)
@@ -153,7 +169,8 @@ Saved to: `picks/mlb/{date}/post_mortem_{date}.txt` (auto-created by previous da
 | 6–9 PM | 4–7 AM | Run `run_daily.py` — locks opening snapshot, builds morning prompt |
 | 9 PM–midnight | 7–10 AM | Paste into models, save raw responses, run `log_picks.py` |
 | ~2h before first pitch | varies | Re-run `fetch_lineups.py`, `fetch_umpires.py`, `build_prompt.py` for updated prompt |
-| Morning after games | varies | Run `fetch_results.py` then `grade_picks.py` |
+| Morning after games | varies | Run `run_daily_2.py mlb` — chains results → confirmed data → post-mortems |
+| Morning after games | varies | If too early for boxscores: wait, then re-run same command (`--skip-confirmed` to override) |
 
 ---
 
@@ -198,4 +215,7 @@ picks/mlb/{date}/{model}.json       parsed picks (structured)
 picks/mlb/{date}/post_mortem_{date}.txt  post-mortem notes
 results/mlb/{date}/results.json     final game scores
 results/mlb/{date}/grades.json      W/L + units per pick
+results/mlb/{date}/best_bets.json   per-model best bet results
+data/mlb/{date}/confirmed_data.json confirmed lineups + HP umpire (post-game)
+picks/mlb/{date}/{model}_postmortem.txt  individual post-mortem per model (x8)
 ```

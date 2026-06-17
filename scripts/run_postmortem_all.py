@@ -2,7 +2,7 @@
 """
 scripts/run_postmortem_all.py
 
-Run post-mortem queries for all 9 API-connected models for a given slate date.
+Run post-mortem queries for all 8 API-connected models for a given slate date.
 Calls query_model.py --postmortem for each model in sequence and prints a summary.
 
 Usage:
@@ -10,7 +10,7 @@ Usage:
     python scripts/run_postmortem_all.py          # uses today's date in US Eastern Time
 
 Connected models (in run order):
-    grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet, fable
+    grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet
 
 Notes:
   - Each model receives only the template + results, not prior models' responses.
@@ -213,10 +213,32 @@ def main():
             "Use when previous run sent before fetch_results.py had populated scores."
         )
     )
+    parser.add_argument(
+        "--models", default=None,
+        help=(
+            "Comma-separated allowlist of models to run (e.g. grok,chatgpt,deepseek). "
+            "Default: all 8 automated models. Use to skip models with integrity issues "
+            "(e.g. counts.games=0 in their picks JSON). run_daily_2.py sets this "
+            "automatically based on the picks integrity check."
+        )
+    )
     args = parser.parse_args()
 
     date  = args.date or today_et()
     sport = args.sport
+
+    # Apply --models allowlist filter if provided
+    models_to_run = AUTOMATED_MODELS
+    if args.models:
+        allowlist = [m.strip() for m in args.models.split(",")]
+        models_to_run = [m for m in AUTOMATED_MODELS if m in allowlist]
+        skipped_by_filter = [m for m in AUTOMATED_MODELS if m not in allowlist]
+        if not models_to_run:
+            print(f"\n  ERROR: --models filter produced an empty model list.")
+            print(f"  Check spelling: {args.models}")
+            sys.exit(1)
+        if skipped_by_filter:
+            print(f"\n  --models filter active. Skipping: {', '.join(skipped_by_filter)}")
 
     pm_path = PROJECT_ROOT / "picks" / sport / date / f"post_mortem_{date}.txt"
 
@@ -272,7 +294,7 @@ def main():
     wall_start = time.time()
     results    = []   # list of (model, ok, elapsed, detail)
 
-    for model in AUTOMATED_MODELS:
+    for model in models_to_run:
         print(f"\n{'=' * 60}")
         print(f"  POST-MORTEM: {model.upper()}  ({date})")
         print(f"{'=' * 60}")

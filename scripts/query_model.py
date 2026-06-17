@@ -114,10 +114,14 @@ ANTHROPIC_MAX_TOKENS_POSTMORTEM = 8000
 DEEPSEEK_MAX_TOKENS_PICKS      = 32000
 DEEPSEEK_MAX_TOKENS_POSTMORTEM = 16000
 
-# kimi-k2.6 max output is 32k. Use the ceiling for picks so large slates
-# are not truncated mid-response.
-KIMI_MAX_TOKENS_PICKS      = 32000
-KIMI_MAX_TOKENS_POSTMORTEM = 16000
+# kimi-k2.6 uses max_tokens as a SHARED budget for reasoning_content + content.
+# On a 15-game slate the reasoning trace alone consumes ~25k-30k tokens before
+# the structured content field is written. 64k gives the thinking phase room to
+# complete on full slates while leaving ~10k-30k for structured output.
+# (Kimi's per-step limit is well above 64k; 32k was not a model ceiling —
+# it conflated "API accepts up to X" with "model can think AND output within X".)
+KIMI_MAX_TOKENS_PICKS      = 64000
+KIMI_MAX_TOKENS_POSTMORTEM = 64000
 
 # Gemini needs more output room than other models -- it truncates responses
 # on large slates if max_tokens is set to 8000. 16000 is used for picks only;
@@ -142,6 +146,12 @@ QWEN_MAX_TOKENS_PICKS = 16000
 # Output token budget.
 # Responses API uses max_output_tokens; Chat Completions uses max_tokens.
 MAX_OUTPUT_TOKENS = 8000
+
+# Diagnostic side-channel: _call_kimi stores the reasoning_content here when
+# content is empty, so run_picks can write it to {model}_reasoning_raw.txt
+# for debugging. Never written to {model}_raw.txt (which is picks output only).
+# Dict wrapper avoids the need for a `global` declaration inside _call_kimi.
+_kimi_diagnostic_reasoning: dict = {"content": ""}
 
 # Default reasoning effort per mode.
 # Grok and ChatGPT use "medium" for picks; DeepSeek uses "high" (maps to
@@ -518,8 +528,16 @@ def _call_kimi(
         (response_text, input_tokens, output_tokens, reasoning_tokens_or_None)
 
     kimi-k2.6 does NOT accept temperature, top_p, presence_penalty, or
-    frequency_penalty -- only model, messages, extra_body, and max_tokens
-    are passed. No web search tool, no reasoning_effort level param.
+    frequency_penalty -- only model, messages, extra_body, max_tokens, and
+    stream/stream_options are passed. No web search tool, no reasoning_effort param.
+
+    stream=True is required for thinking models: non-streaming calls can time out
+    at the HTTP layer before the long reasoning phase completes. stream_options
+    include_usage=True ensures token counts (including reasoning_tokens) arrive
+    in the final chunk — without it the usage block is null on all chunks.
+
+    reasoning_content is NOT a typed attribute on the OpenAI SDK StreamingChoice
+    delta — direct attribute access raises AttributeError. Always use hasattr guard.
     """
     from openai import OpenAI
 
@@ -528,33 +546,78 @@ def _call_kimi(
     extra_body, _ = _kimi_thinking_params(reasoning_effort)
 
     try:
-        response = client.chat.completions.create(
-            model      = model_id,
-            messages   = input_messages,
-            max_tokens = max_tokens,
-            extra_body = extra_body,
+        stream = client.chat.completions.create(
+            model          = model_id,
+            messages       = input_messages,
+            max_tokens     = max_tokens,
+            extra_body     = extra_body,
+            stream         = True,
+            stream_options = {"include_usage": True},
         )
     except Exception as e:
         _handle_api_errors(e, "MOONSHOT_API_KEY")
 
-    msg    = response.choices[0].message
-    text   = msg.content or ""
+    # Accumulate content and reasoning_content separately from the stream.
+    content_chunks   = []
+    reasoning_chunks = []
+    finish_reason    = None
+    _usage           = None
+    _usage_details   = None
 
-    # kimi-k2.6 separates thinking from response: reasoning_content = thinking
-    # trace, content = final answer. Always prefer content. Only fall back to
-    # reasoning_content if content is genuinely absent (API edge case).
-    reasoning_content = getattr(msg, "reasoning_content", "") or ""
-    if not text and reasoning_content:
-        # content is empty -- this is an API anomaly. Log and use reasoning_content
-        # as a last resort so we get something rather than nothing.
-        print("  WARNING: Kimi content field empty -- falling back to reasoning_content")
-        print("           This is an API anomaly; response may be thinking trace only.")
-        text = reasoning_content
-    elif reasoning_content and not text.strip():
-        text = reasoning_content
+    for chunk in stream:
+        if not chunk.choices:
+            # Usage-only final chunk (sent after the finish_reason chunk)
+            if hasattr(chunk, "usage") and chunk.usage:
+                _usage         = chunk.usage
+                _usage_details = getattr(chunk.usage, "completion_tokens_details", None)
+            continue
+        delta = chunk.choices[0].delta
+        if hasattr(delta, "content") and delta.content:
+            content_chunks.append(delta.content)
+        # reasoning_content is not a typed SDK attribute — hasattr guard required
+        if hasattr(delta, "reasoning_content"):
+            rc = getattr(delta, "reasoning_content")
+            if rc:
+                reasoning_chunks.append(rc)
+        fr = chunk.choices[0].finish_reason
+        if fr:
+            finish_reason = fr
+        if hasattr(chunk, "usage") and chunk.usage:
+            _usage         = chunk.usage
+            _usage_details = getattr(chunk.usage, "completion_tokens_details", None)
 
-    # Strip thinking trace from picks output: picks always start with a GAME block.
-    # Post-mortem output starts with section headers (## S1:) -- no stripping needed.
+    text              = "".join(content_chunks).strip()
+    reasoning_content = "".join(reasoning_chunks)
+
+    # Capture token usage from the accumulated stream usage block.
+    input_tokens     = _usage.prompt_tokens     if _usage else 0
+    output_tokens    = _usage.completion_tokens if _usage else 0
+    details          = _usage_details
+    reasoning_tokens = getattr(details, "reasoning_tokens", None) if details else None
+    if reasoning_tokens == 0:
+        reasoning_tokens = None
+
+    # Empty content means the reasoning trace consumed the full token budget
+    # before the model could write any structured output to the content field.
+    # This is a FAILED call — do NOT fall back to reasoning_content as picks output.
+    # The reasoning trace has no PICK:/UNITS:/EDGE: fields and cannot be parsed.
+    # Store it via the module-level side-channel so run_picks can write a diagnostic
+    # file without confusing it with a real picks raw file.
+    if not text:
+        _kimi_diagnostic_reasoning["content"] = reasoning_content
+        finish = getattr(response.choices[0], "finish_reason", "unknown")
+        rt_note = (f"  reasoning_tokens : {reasoning_tokens:,}\n"
+                   if reasoning_tokens else "")
+        print(f"\n  ERROR: Kimi content field is empty (finish_reason={finish}).")
+        print(f"  reasoning_content: {len(reasoning_content):,} chars")
+        print(rt_note, end="")
+        print(f"  The reasoning trace consumed the max_tokens={max_tokens:,} shared budget")
+        print(f"  before the structured content field could be written.")
+        print(f"  Returning empty — run_picks will write diagnostic file and fail.")
+        return "", input_tokens, output_tokens, reasoning_tokens
+
+    # Strip any preamble before the first GAME block (edge case where content
+    # begins with a brief prose header before the structured game blocks).
     import re as _re
     lines = text.splitlines()
     first_game = next(
@@ -564,21 +627,8 @@ def _call_kimi(
     )
     if first_game and first_game > 0:
         stripped_chars = sum(len(l) + 1 for l in lines[:first_game])
-        print(f"  INFO: Stripped {stripped_chars} chars of thinking trace before first GAME block")
+        print(f"  INFO: Stripped {stripped_chars} chars before first GAME block")
         text = "\n".join(lines[first_game:])
-
-    if not text:
-        finish = getattr(response.choices[0], "finish_reason", "unknown")
-        print(f"  WARNING: Kimi returned empty content (finish_reason={finish})")
-        print(f"  Response message fields: {[f for f in dir(msg) if not f.startswith('_')]}")
-
-    input_tokens  = response.usage.prompt_tokens
-    output_tokens = response.usage.completion_tokens
-
-    details = getattr(response.usage, "completion_tokens_details", None)
-    reasoning_tokens = getattr(details, "reasoning_tokens", None) if details else None
-    if reasoning_tokens == 0:
-        reasoning_tokens = None
 
     return text, input_tokens, output_tokens, reasoning_tokens
 
@@ -1034,6 +1084,26 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
               f"({picks_max_tokens:,}).")
         print(f"         Response may be truncated. Consider increasing max_tokens.")
 
+    # --- Kimi empty-content guard ----------------------------------------
+    # _call_kimi returns "" when content was empty (reasoning trace consumed
+    # the full shared token budget before structured output was written).
+    # Write the reasoning trace to a diagnostic file — NEVER to {model}_raw.txt,
+    # which is reserved for structured picks output only. Fail loudly.
+    if model == "kimi" and not response_text:
+        out_dir = PROJECT_ROOT / "picks" / sport / date
+        out_dir.mkdir(parents=True, exist_ok=True)
+        rc = _kimi_diagnostic_reasoning.get("content", "")
+        if rc:
+            diag_path = out_dir / f"{model}_reasoning_raw.txt"
+            diag_path.write_text(rc, encoding="utf-8")
+            print(f"\n  Diagnostic : reasoning trace saved → {diag_path.name}")
+            print(f"               ({len(rc):,} chars — thinking trace only, NOT parseable as picks)")
+        print(f"\nERROR: Kimi picks call FAILED — content field was empty.")
+        print(f"  {model}_raw.txt has NOT been written.")
+        print(f"  The reasoning trace consumed the full max_tokens={picks_max_tokens:,} budget.")
+        print(f"  Retry: python scripts/query_model.py --model {model} --date {date}")
+        sys.exit(1)
+
     # --- Save output ------------------------------------------------------
     out_dir  = PROJECT_ROOT / "picks" / sport / date
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -1334,6 +1404,32 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
 
     print(f"Reasoning effort : {reasoning_effort}")
     print(f"Web search       : disabled")
+
+    # --- Integrity gate: skip if picks JSON has zero parsed game blocks -------
+    # counts.games == 0 means the picks call either failed (empty raw file) or
+    # the parser could not extract game blocks from the response. Either way the
+    # model has no structured game context to review — firing the API call would
+    # produce fabricated analysis with no grounding.
+    # NOTE: counts.bets == 0 is NOT a gate trigger — all-pass slates are valid.
+    picks_json_path = PROJECT_ROOT / "picks" / sport / date / f"{model}.json"
+    if picks_json_path.exists():
+        try:
+            picks_doc    = json.loads(picks_json_path.read_text(encoding="utf-8"))
+            games_parsed = picks_doc.get("counts", {}).get("games", None)
+            if games_parsed == 0:
+                raw_size = raw_path.stat().st_size if raw_path.exists() else 0
+                if raw_size == 0:
+                    cause = "empty raw file (picks fetch failed or 0-byte response)"
+                else:
+                    cause = f"parse failure ({raw_size:,}-byte raw file — log_picks extracted 0 game blocks)"
+                print(f"\nINTEGRITY GATE: {model}.json has counts.games=0 — {cause}")
+                print(f"Post-mortem skipped: no structured game context available to review.")
+                print(f"Fix picks first, then retry post-mortem:")
+                print(f"  python scripts/query_model.py --model {model} --date {date}")
+                print(f"  python scripts/query_model.py --model {model} --date {date} --postmortem")
+                sys.exit(1)
+        except (json.JSONDecodeError, OSError):
+            pass  # malformed JSON — proceed and let _build_outcome_summaries handle it
 
     # --- Resolve API credentials early (needed for placeholder substitution) -
     api_key, model_id, display_label = _resolve_model_config(model)

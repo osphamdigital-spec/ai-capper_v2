@@ -1,0 +1,77 @@
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** NO BEST BET — no three-unit play identified; SEA ML (-147, 1u) was the only wager on the slate.  
+**RESULT:** N/A  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** NO  
+**IF NO — NEW BEST BET:** NONE  
+**WHY:** No pre-game edge reached the three-unit threshold. Logan Gilbert’s SIERA advantage justified only a one-unit moneyline play, and the model correctly identified that nothing on the slate warranted best-bet status.  
+**SOURCE:** Pre-game aggregate SIERA, park factor, and team-level platoon data.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** BAL @ SEA  
+**PICK:** SEA ML -147 (1 unit)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES — under the identical pre-game information set.  
+**WHY:** The wager was built on a 1.58-run aggregate SIERA edge for Logan Gilbert over Brandon Young, a pitcher-friendly park, and the team-level assumption that Seattle held a measurable platoon edge. Stripping vig from the -147 line produced a 4.1-point margin (62.1 % vs. 58.0 %), which cleared the one-unit gate on the data available at the time.  
+**SOURCE:** Aggregate SIERA, team wRC+ platoon splits, park factors.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+**NONE.**  
+Every pass was correctly classified pre-game. No overlooked pre-game signal (pitching mismatch, mispriced line, bullpen overuse, or hidden platoon edge) would have retroactively moved any other game across the four-point betting gate with the data available at lock.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+**TYPE:** STAT  
+**ITEM:** Confirmed batting order with individual hitter wRC+ vs. the scheduled starter’s handedness.  
+**WHICH GAME(S):** All games, with emphasis on any side already graded as a one- or two-unit lean.  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** In SEA@BAL the confirmed Mariners lineup averaged 92.7 wRC+ vs. RHP (three hitters below 80, two near replacement level), while the Orioles averaged 117.3 wRC+ vs. RHP with no hitter below 90. That profile directly contradicts the team-level platoon edge I priced into Seattle’s win probability and would have collapsed the 4.1-point margin below the betting gate.
+
+**TYPE:** DATA  
+**ITEM:** Umpire-specific run-suppression or strike-zone tendency metrics.  
+**WHICH GAME(S):** All games.  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** In edge cases near the four-point gate, a pitcher-friendly umpire can nudge true-talent win probability enough to flip a pass into a one-unit play (or vice versa).
+
+**TYPE:** DATA  
+**ITEM:** Real-time bullpen availability sheet (specific relievers active/available, not generic days-rest).  
+**WHICH GAME(S):** All games.  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** “Fresh leverage arms” is a blunt filter. Knowing whether a club’s top two high-leverage arms are actually available would tighten late-inning win-probability estimates.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+**PROPOSED CHANGE:** Require a secondary confirming signal (confirmed velocity drop, whiff-rate decline, or arsenal-change report) before allowing a sub-30-inning last-two-weeks SIERA spike to fully negate an aggregate starting-pitching edge.  
+**WHAT IN MY METHOD COULD BE SHARPER:** The current model lets short-run SIERA volatility automatically cap a play or erase an edge without verifying whether the spike is true skill decline or noise.  
+**EVIDENCE FROM TODAY (cite pre-game data, not the outcome):**  
+- Zebby Matthews’ aggregate metrics were superior to Kumar Rocker’s, yet a last-two-weeks SIERA spike toward 5.80 triggered an automatic pass.  
+- Mitch Keller’s aggregate profile was superior to Jack Perkins’, yet “severe” last-two-weeks degradation compressed the edge below two points.  
+In both cases the aggregate sample was the more robust pre-game signal, but the model deferred entirely to short-run volatility.  
+**CONFIDENCE:** LOW — single-slate observation; proposal requires many slates to validate.
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: BAL @ SEA — YOUR CALL: BET home ML -147 (1u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+
+**WOULD CHANGE?** bet→pass  
+
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):**  
+The confirmed Mariners lineup averages 92.7 wRC+ vs. RHP, featuring three hitters below 80 wRC+ (including two near-replacement-level bats) and a bottom-third lineup overall. The Orioles lineup averages 117.3 wRC+ vs. RHP with every hitter at 90 or above. This directly contradicts the pre-game assumption that Seattle owned a platoon edge and removes the offensive run-support component I priced into Gilbert’s win probability. Without that platoon boost, the 4.1-point margin almost certainly collapses below the four-point gate.
+
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No pre-game umpire zone or run-suppression data was provided in the prompt to incorporate.

@@ -1,0 +1,157 @@
+## GAME: NYM @ CIN
+PICK: NYM ML
+PRICE: -129
+UNITS: 1
+EDGE: 4.8 pts
+TOTAL LEAN: No lean
+REASON: McLean holds clear edge in xFIP/SIERA (3.24/3.41 vs Lodolo 3.91/3.76) and K-BB% despite both carrying small-sample flags on recent work. NYM bullpen looks fresher overall. Market implies ~56% for NYM; my model gives them ~61% after park adjustment. Gap meets minimum but small samples cap at 1 unit.
+DATA GAP: none
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Avila's underlying metrics are poor (xFIP 6.04) while Littell is merely average. WAS home edge and recent form suggest value on home side but gap falls short of 4 points after full adjustments.
+DATA GAP: none
+
+---
+
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Alcantara shows solid recent xFIP but Painter's sample is tiny. PHI bullpen strength offsets any narrow starter edge; market line too tight for required gap.
+DATA GAP: none
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Mize carries strong surface numbers but limited innings; Lambert average. No pitcher-quality gap large enough after bullpen and park considerations.
+DATA GAP: none
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Away starter TBD; explicit pass per rules regardless of other factors.
+DATA GAP: none
+
+---
+
+## GAME: TB @ LAD
+PICK: LAD ML
+PRICE: -172
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL LEAN: No lean
+REASON: Ohtani dominates underlying metrics (xFIP 2.98, K-BB% 23.3%) over McClanahan. LAD home advantage and bullpen depth push estimated win probability to ~70% vs market ~63%. Gap qualifies at 1 unit only due to McClanahan's recent small sample.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both starters show mediocre xFIP/SIERA in limited work. AZ home and bullpen freshness close any minor gap; line offers insufficient edge.
+DATA GAP: none
+
+---
+
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Scherzer's underlying numbers are damaged by small sample and high walk rates; Bennett also limited. No decisive pitcher edge after adjustments.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Rodón holds modest xFIP advantage but Kay's recent form is respectable. NYY bullpen depth and market pricing leave gap under threshold.
+DATA GAP: none
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Away starter TBD; explicit pass per rules.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Williams posts solid aggregate metrics but Sproat's sample limits confidence. MIL home strength and bullpen keep estimated gap below 4 points.
+DATA GAP: none
+
+---
+
+## GAME: COL @ CHC
+PICK: CHC ML
+PRICE: -180
+UNITS: 1
+EDGE: 4.3 pts
+TOTAL LEAN: No lean
+REASON: Assad shows usable xFIP edge over Sullivan's tiny sample. CHC home park and bullpen push win probability to ~68% vs market ~64%. Gap meets minimum; small sample on visitor caps stake.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ashcraft holds strong xFIP/K-BB% but Civale's metrics and ATH home factors keep overall gap under 4 points after bullpen review.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Kirby's xFIP/SIERA edge is real but Bradish's underlying remain playable. SEA home and market line compress gap below threshold.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No qualifying 7-point clean edge surfaced after strict application of small-sample caps, TBD rules, and slate ceilings.

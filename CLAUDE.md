@@ -22,8 +22,9 @@ The shared prompt (Layer B) carries only: the edge gate, unit map, slate ceiling
 and data-integrity rules. No analysis sequences, no bullpen formulas, no run
 estimation recipes. Those were Layer C — removed in v2.
 
-**Current phase:** Step 1 — system prompt and CLAUDE.md converted to v2 architecture.
-Post-mortem loop, calibration injection, and promotion engine are FUTURE work, not yet built.
+**Current phase:** v2 operational — data pipeline, picks, grading, post-mortem loop, and
+calibration stats are all running daily. Remaining work: calibration injection into prompts
+(Phase 5b), promotion engine (Phase 6), multi-sport (Phase 7).
 
 **Owner:** Mark. New to Claude Code — explain commands clearly, show what you're about to do
 before doing it, and never assume prior terminal knowledge.
@@ -126,9 +127,10 @@ Each model now decides its own analysis approach via its method doc.
 - [x] Phase 2: Pick logger (log_picks.py / log_all_picks.py)
 - [x] Phase 3: Auto-grader (fetch_results.py + grade_picks.py)
 - [x] v2 Step 1: System prompt converted to Layer B (no house methodology)
-- [ ] v2 Step 2: Method authoring — run authoring query per model, save method docs
-- [ ] Phase 4: Stats engine (unit-weighted ROI, calibration, leaderboard)
-- [ ] Phase 5: Post-mortem loop + calibration injection (future)
+- [x] v2 Step 2: Method authoring — all 8 models have self-authored method docs in docs/methods/
+- [x] Phase 4: Stats engine (unit-weighted ROI, calibration, leaderboard) — calc_calibration.py
+- [x] Phase 5a: Post-mortem loop — run_postmortem_all.py + confirmed-data injection live daily
+- [ ] Phase 5b: Calibration injection into prompts (pull per-model stats into next-slate prompt)
 - [ ] Phase 6: Promotion engine (future)
 - [ ] Phase 7: Extend to NBA/NHL
 - [ ] Phase 8: Website (only after 30-day validation)
@@ -137,9 +139,11 @@ Each model now decides its own analysis approach via its method doc.
 
 ## AUTOMATED PIPELINE SCRIPTS
 
+run_daily.py          -- PRE-GAME orchestrator: fetch pipeline → build prompts → [--with-picks: picks + log]
+run_daily_2.py        -- POST-GAME orchestrator: fetch results → confirmed data → post-mortems
 query_model.py        -- sends picks or post-mortem query to a single model API
-run_picks_all.py      -- runs picks queries for all 8 connected models
-run_postmortem_all.py -- runs post-mortem queries for all 8 connected models
+run_picks_all.py      -- runs picks queries for all 8 connected models (called by run_daily.py --with-picks)
+run_postmortem_all.py -- runs post-mortem queries for all 8 connected models (called by run_daily_2.py)
 
 Connected models (API): chatgpt, grok, deepseek, kimi, qwen, gemini, opus, sonnet
 

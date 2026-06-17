@@ -1,0 +1,28 @@
+**S1: BEST BET RE-EVALUATION**
+
+ORIGINAL BEST BET: **CLE ML +134 (1 unit)** — my only declared bet on the card.  
+RESULT: **LOSS**  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? **YES**
+
+---
+
+**S2: FULL SLATE REVIEW**
+
+### PART A — GAMES YOU BET
+
+**GAME:** CLE @ MIL  
+**PICK:** CLE ML +134 (1 unit)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** My fair line on CLE was +113 (~47 % win probability) against the cleanest available market price of +134 (42.7 % implied), giving a +4.3 percentage-point edge. The specific pre-game data that places this result in the “normal loss” bucket: Gasser carried only **24.0 IP [sm]** with a **5.00 SIERA / 5.85 xFIP**, signaling extreme volatility and a short-start profile that increases bullpen randomness; coupled with a pitcher-friendly park (**American Family Field 98/96**), the matchup projected as a tight, low-scoring affair where a +EV underdog is still mathematically expected to lose more often than it wins. The defeat sits comfortably inside the expected loss distribution for a side priced at ~47 %.  
+**SOURCE:** Game 7 pre-game log — Cecconi AGG SIERA 4.22, Gasser AGG SIERA 5.00 in 24.0 IP [sm], park factor 98/96.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+**GAME:** NYM @ CIN  
+**YOUR CALL:** PASS  
+**FINAL RESULT:** CIN 5, NYM 3  
+**WHAT YOU MISSED:** I anchored entirely on Senga’s **133.1 IP AGG (SIERA 4.55)** and treated his **20 IP [sm]** current-year line as discardable noise. However, that small-sample line contained extreme skill-degradation signals: **9.00 ERA, 6.15

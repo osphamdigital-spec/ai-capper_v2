@@ -1,0 +1,113 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET (no 3-unit play identified)
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: CLE @ MIL
+PICK: CLE ML +134
+RESULT: LOSS
+PROCESS: MISSED LINEUP
+WOULD-BET-AGAIN: NO
+WHY: I completely missed the massive platoon disadvantage CLE had against LHP Gasser. Their confirmed lineup vs LHP had a dismal 58.6 wRC+, while MIL's vs RHP was 124.4. I over-indexed on pitcher SIERA and bullpen, ignoring the actual hitters on the field and their severe splits.
+SOURCE: Confirmed lineup platoon wRC+ splits.
+
+GAME: MIN @ TEX
+PICK: MIN ML +122
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pre-game edge was sound based on Matthews' SIERA advantage over Rocker and the pitcher-friendly park. The offense exploding for 12 runs was good variance, but the foundational pitching edge held up and the math was correct.
+SOURCE: Starting pitcher SIERA and park factors.
+
+GAME: TB @ LAD
+PICK: TB ML +130
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Rasmussen's elite 3.60 SIERA vs Wrobleski's 4.74 SIERA was the correct side. A 1-0 loss in a game where my pitching edge was validated is simply bad offensive variance. The pre-game math and process were correct.
+SOURCE: Starting pitcher SIERA.
+
+GAME: PARLAY (TB + CLE)
+PICK: TB ML + CLE ML +438
+RESULT: LOSS
+PROCESS: INCORRECT TEAM STRENGTH
+WOULD-BET-AGAIN: NO
+WHY: The CLE leg was fundamentally flawed due to missed platoon splits. Parlays amplify flawed legs, and combining a bad process bet with a good one ruins the overall EV. 
+SOURCE: Lineup platoon splits.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: CHW @ NYY
+YOUR CALL: LEAN CHW ML
+FINAL RESULT: NYY won 12-2
+WHAT YOU MISSED: I fell into the "small sample return" trap for Gerrit Cole and overvalued Davis Martin's SIERA. I also ignored the top-end power in the NYY lineup (Ben Rice 178 wRC+) compared to CHW's more balanced but less dangerous lineup, which is critical when facing a pitcher with Cole's pedigree.
+SOURCE: Starting pitcher pedigree / market correction.
+WOULD THIS HAVE BECOME A BET? NO
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA
+ITEM: Confirmed starting lineup platoon wRC+ (vs specific LHP/RHP) rather than season-long team aggregate splits.
+WHICH GAME(S): CLE @ MIL, MIN @ TEX
+WOULD HAVE CHANGED A BET? YES
+WHY: CLE's confirmed lineup vs LHP was 58.6 wRC+, which would have immediately invalidated the CLE ML bet. MIN's lineup vs RHP was 90.0 vs TEX's 123.6, which would have lowered the stake on MIN.
+
+TYPE: DATA
+ITEM: Bullpen availability and fatigue metrics (pitch counts over the last 3 days) for both teams.
+WHICH GAME(S): All games, specifically TB @ LAD and CLE @ MIL.
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: In tight games decided by late-inning relievers, knowing which bullpen arms are taxed or unavailable is crucial for pricing the late-game win probability.
+
+TYPE: STAT
+ITEM: Umpire pitch-zone tendencies (wide/narrow) cross-referenced with starting pitcher command metrics (BB%, Zone%).
+WHICH GAME(S): TB @ LAD, MIN @ TEX
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: A narrow-zone umpire heavily penalizes pitchers with poor command, which could shift the edge in low-scoring or high-variance pitching matchups.
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Implement a hard rule to cross-reference the confirmed starting lineup's platoon wRC+ against the opposing starter's handedness. If the lineup wRC+ is below 80 or above 120, it must override or heavily discount a < 3 point SIERA edge.
+WHAT IN MY METHOD COULD BE SHARPER: I relied too heavily on aggregate team splits and starting pitcher SIERA, ignoring how a specific confirmed lineup (with replacements or resting stars) drastically changes the platoon dynamic.
+EVIDENCE FROM TODAY: CLE @ MIL. CLE's confirmed lineup vs LHP had a 58.6 wRC+, while MIL's vs RHP was 124.4. I bet CLE based on SIERA and bullpen, ignoring the massive lineup platoon disadvantage that was knowable pre-game once lineups were confirmed.
+CONFIDENCE: HIGH
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: CHW @ NYY — YOUR CALL: LEAN away
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+UMPIRE WOULD CHANGE? no — pre-game reason: Mike Muchlinski's zone tendencies do not drastically alter the fundamental pitching mismatch I misjudged.
+
+---
+
+### GAME: CLE @ MIL — YOUR CALL: BET away ML 134 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? bet→pass
+PRE-GAME REASON: CLE's confirmed lineup vs LHP (Gasser) is incredibly weak (58.6 wRC+), with multiple negative or sub-70 wRC+ hitters (Halpin, Arias, Kwan, Bazzana). MIL's lineup vs RHP (Cecconi) is dominant (124.4 wRC+). This massive platoon mismatch completely invalidates the SIERA edge I thought CLE had.
+UMPIRE WOULD CHANGE? no — pre-game reason: Ryan Additon's zone does not overcome a 65+ point wRC+ platoon disadvantage.
+
+---
+
+### GAME: MIN @ TEX — YOUR CALL: BET away ML 122 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? bet→lower stake
+PRE-GAME REASON: TEX's confirmed lineup vs RHP is elite (123.6 wRC+, featuring Freeman at 291 and Diaz at 203), whereas MIN's is below average (90.0). This offensive mismatch reduces the confidence in the MIN ML bet, suggesting a lower stake, as TEX's lineup can easily break out against a small-sample starter like Matthews.
+UMPIRE WOULD CHANGE? no — pre-game reason: Alfonso Márquez's zone does not negate TEX's massive top-end power advantage.
+
+---
+
+### GAME: TB @ LAD — YOUR CALL: BET away ML 130 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: Both lineups are slightly below average against the respective pitcher handedness (TB 90.4 vs LHP, LAD 85.3 vs RHP). The bet was based on the massive starting pitching SIERA edge, and the lineup data doesn't contradict this.
+UMPIRE WOULD CHANGE? no — pre-game reason: Dan Bellino's zone does not alter the fundamental SIERA advantage Rasmussen holds over Wrobleski.

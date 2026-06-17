@@ -1,0 +1,161 @@
+I'll work through this 14-game slate. Slate ceiling is 2 bets max. Lineups unconfirmed, so I shave confidence and avoid 3-unit plays built on thin offensive reads. Let me identify projection-vs-perception gaps.
+
+Key candidates: Mize (HOU) shows a sparkling 2.27 ERA but AGG xFIP 3.91/SIERA 3.85 — classic regression candidate, but he's the road dog. McLean has strong AGG (xFIP 3.24, K-BB 19.4%) vs Lodolo whose AGG is solid too. Scherzer in Game 8 is a disaster (10.23 ERA, 8.78 FIP, sm samples) but AGG xFIP 4.90 suggests some life — too uncertain. Aldegheri (LAA) has AGG xFIP 6.07, K-BB 2.3% — terrible — facing E-Rod; AZ should be favored more heavily but my read on Aldegheri's true talent supports AZ.
+
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: McLean's AGG profile (xFIP 3.24, K-BB 19.4%) is strong and Lodolo's seasonal ERA overstates his decline (AGG SIERA 3.76), so this is roughly two comparable arms. NYM at -133 is near my fair number with their weak vs-RHP wRC+ of 89 offsetting the edge. No gap.
+DATA GAP: confirmed lineups
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Avila (AGG xFIP 6.04, K-BB -1.5%) is genuinely dreadful and Littell is a contact-prone fly-baller in a hitter park, so I lean Over the 10. But WAS at -130 already prices in the pitching gap, and KC's bullpen is shaky enough that the side has no value. No qualifying edge.
+DATA GAP: roof/lineups n/a
+
+---
+
+## GAME: MIA @ PHI
+PICK: MIA ML
+PRICE: -102
+UNITS: 1
+EDGE: 5.5 pts
+TOTAL LEAN: No lean
+REASON: Alcantara's AGG (xFIP 4.19) plus a dominant L14 (3.26 xFIP, 0.8 BB/9 over 22 IP) is trending up, while Painter's 6.43 ERA reflects real struggles backed by AGG SIERA 4.78 and weak K-BB 9.1%. The market shaded toward PHI on name value, but I make MIA closer to a coin flip; at -102 (51% implied) my estimate is ~56%. Fairbanks closer concern noted but game projects competitive.
+DATA GAP: confirmed lineups would firm this read
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Mize's 2.27 ERA is a regression mirage (AGG xFIP 3.91/SIERA 3.85), and as the road side at -110 I have no edge backing him. Lambert similarly outperforming his AGG xFIP 4.43. Two regression candidates priced near pick'em — no actionable side.
+DATA GAP: roof status
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: SD starter is TBD — automatic pass per data integrity rules.
+DATA GAP: SD starting pitcher
+
+---
+
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Ohtani (AGG xFIP 2.98, K-BB 23.3%) vs McClanahan (AGG xFIP 3.69) is a strong pitching duel and LAD at -182 is fairly priced for a dominant home team. No value on the heavy chalk and the RL at +117 still requires a two-run win against a sharp TB club. Lean Under the lowered 7.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ AZ
+PICK: AZ ML
+PRICE: -167
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL LEAN: No lean
+REASON: Aldegheri's AGG profile is alarming (xFIP 6.07, SIERA 5.69, K-BB just 2.3%) — his 2.12 ERA over 17 IP is pure luck and a fade signal. E-Rod is the steadier arm (AGG SIERA 4.58) at home, and AZ's lineup (118 vs LHP, Carroll 216) is markedly better. Market at -167 (62.5% no-vig ~64%) undersells Aldegheri's true-talent gap; I'm ~68%.
+DATA GAP: roof status, confirmed lineups
+
+---
+
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Scherzer's recent line is catastrophic but his AGG xFIP 4.90 keeps true talent murky, and Bennett is a small-sample arm too (15.1 IP). Both starters carry [sm] flags on recent data, leaving the price near pick'em with too much noise to bet confidently.
+DATA GAP: Scherzer health/velocity, lineups
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Rodón's AGG (xFIP 3.94, K-BB 15.8%) is solid vs Kay (AGG xFIP 4.64) and NYY is the better team, but -186 fully prices that. CHW's strong vs-LHP wRC+ of 128 actually argues against laying this much chalk. RL at +110 tempting but no clean edge.
+DATA GAP: lineups
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: SF starter is TBD — automatic pass.
+DATA GAP: SF starting pitcher
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gavin Williams (AGG xFIP 3.77, K-BB 15.3%) is clearly superior to Sproat (5.70 ERA, AGG xFIP 4.28), but MIL is the far better team at home with a red-hot offense, and the market correctly has CLE as a near-coinflip dog despite the pitching edge. My number lands within 3 pts of the line.
+DATA GAP: roof status
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Sullivan has only 3 career IP — pure small sample, no reliable anchor — so I won't build a side on it. Assad's AGG (xFIP 4.36) is unremarkable. CHC at -187 is steep chalk I can't price with confidence given the unknown COL arm.
+DATA GAP: Sullivan true-talent baseline
+
+---
+
+## GAME: PIT @ ATH
+PICK: PIT ML
+PRICE: -120
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: Over
+REASON: Ashcraft's AGG profile is excellent (xFIP 3.27, SIERA 3.35, K-BB 20.0%) and significantly better than Civale (AGG xFIP 4.97, SIERA 4.84, weak K-BB). In a high-variance hitter park the better-arm edge compresses, but PIT at -120 (54.5%) undervalues a genuine starter mismatch; I'm ~59%. Lean Over given the 121 runs park factor.
+DATA GAP: confirmed lineups
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Kirby's AGG (xFIP 3.37, K-BB 18.4%) edges Bradish (AGG xFIP 3.72) and SEA's pitcher-park suppresses runs, but SEA at -143 with a 5.92-ERA closer in Muñoz prices this fairly. BAL's strong vs-RHP lineup (Rutschman, Alonso) keeps it close. Lean Under the 7.5 in this run-suppressing park.
+DATA GAP: roof status
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: All edges are modest (4-5.5 pts) with unconfirmed lineups capping confidence; per ceiling I'd prioritize MIA ML and AZ ML as my two 1-unit plays, with PIT as a third lean if I held only two slots — slate ceiling of 2 means I stand on MIA and AZ.

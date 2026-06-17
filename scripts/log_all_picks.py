@@ -172,7 +172,22 @@ def main():
         ok, elapsed, _ = run_log_picks(model, args.sport, target_date, raw_path)
 
         if ok:
-            results.append((model, "OK", elapsed))
+            # Double-check actual parse count in the output JSON.
+            # log_picks exits 2 on parse-to-zero, but guard here too in case
+            # any path exits 0 with zero games (belt-and-braces).
+            try:
+                import json as _json2
+                out_doc      = _json2.loads(json_path.read_text(encoding="utf-8"))
+                games_parsed = out_doc.get("counts", {}).get("games", 0)
+                if games_parsed == 0 and raw_path.stat().st_size > 0:
+                    results.append((model, "WARN: 0 games from non-empty raw", elapsed))
+                    print(f"\n  WARN: {model} log_picks exited OK but counts.games=0 "
+                          f"with {raw_path.stat().st_size:,}-byte raw file.")
+                    print(f"  Possible unrecognised format or empty content field fallback.")
+                else:
+                    results.append((model, "OK", elapsed))
+            except Exception:
+                results.append((model, "OK", elapsed))
         else:
             results.append((model, "FAILED", elapsed))
             print(f"\n  ERROR: log_picks.py exited with non-zero code for {model}")

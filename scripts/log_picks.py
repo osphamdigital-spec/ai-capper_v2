@@ -500,9 +500,10 @@ def parse_response(raw_text: str, game_lookup: dict) -> tuple[list, dict | None,
     """
     Split the full model response into sections and parse each one.
 
-    Handles two header formats observed across models:
-      Standard: ## GAME: DET @ TB  (our prompt spec — ## markers separate all sections)
-      Bare:     GAME: DET @ TB     (some models drop the ## marker)
+    Handles three header formats observed across models:
+      Standard:  ## GAME: DET @ TB   (our prompt spec — ## markers separate all sections)
+      Bare:      GAME: DET @ TB      (some models drop the ## marker)
+      Numbered:  GAME N: DET @ TB    (e.g. Kimi's thinking-mode format: GAME 1:, GAME 7:)
 
     The bare-format path explicitly locates PARLAY and SLATE SUMMARY before
     splitting game blocks, so those sections never bleed into the last game.
@@ -549,13 +550,17 @@ def parse_response(raw_text: str, game_lookup: dict) -> tuple[list, dict | None,
         game_text = raw_text[:first_section]
         tail_text = raw_text[first_section:]
 
-        # Parse game blocks from the clean prefix only
+        # Parse game blocks from the clean prefix only.
+        # Split on GAME: (bare) or GAME N: (numbered, e.g. Kimi's thinking format).
+        # The lookahead anchors to line-start via the preceding \n so mid-line
+        # "GAME 7:" text in prose fields cannot trigger a false split.
         picks = []
-        for part in re.split(r"\n(?=GAME:)", game_text):
+        for part in re.split(r"\n(?=GAME(?: \d+)?:)", game_text):
             part = part.strip()
-            if not part.startswith("GAME:"):
+            m = re.match(r"GAME(?: \d+)?:\s*", part)
+            if not m:
                 continue
-            body = part[len("GAME:"):].strip().replace("\n---", "").strip()
+            body = part[m.end():].strip().replace("\n---", "").strip()
             result = parse_game_block(body, game_lookup)
             if result:
                 picks.append(result)
@@ -638,6 +643,21 @@ def log_picks(model: str, sport: str, date: str, input_path: Path):
     print(f"\nStep 2: Parsing model response...")
     picks, parlay, summary = parse_response(raw_text, game_lookup)
     print(f"  Parsed {len(picks)} game blocks")
+
+    # Loud-fail if a non-empty raw file produced zero game blocks.
+    # This catches unrecognised output formats (e.g. empty content field fallback
+    # to reasoning trace, which has no PICK:/UNITS:/EDGE: fields) before they
+    # silently write an empty picks JSON with counts.games=0.
+    # exit(2) distinguishes format/parse failure from a normal crash (exit 1).
+    # Do NOT re-call the API — fix the underlying cause, then re-run log_picks.
+    raw_size = len(raw_text)
+    if len(picks) == 0 and raw_size > 0:
+        print(f"\nERROR: non-empty raw file ({raw_size:,} bytes) parsed to 0 game blocks.")
+        print(f"  Possible causes:")
+        print(f"    - Empty content field: model returned reasoning trace only (no PICK:/UNITS:/EDGE: fields)")
+        print(f"    - Unrecognised format: check {model}_raw.txt and extend parse_response() if needed")
+        print(f"  Do NOT re-call the API to fix this — re-parse after resolving the format issue.")
+        sys.exit(2)
 
     # Deduplicate: keep the LAST occurrence of each matchup.
     # Sonnet does a self-audit pass that emits revised GAME blocks after the

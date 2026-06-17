@@ -1,0 +1,157 @@
+## GAME: NYM @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: McLean’s SIERA/xFIP profile is better than Lodolo’s and Cincinnati’s leverage arms are more taxed, but McLean’s recent small-sample volatility keeps the projected gap short of the 4-point minimum.
+DATA GAP: none
+
+---
+
+## GAME: KC @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Littell owns a large skill advantage over the small-sample Avila, yet Kansas City’s rested-enough bullpen and neutral offensive splits limit the edge to roughly 3 points, below the betting threshold.
+DATA GAP: none
+
+---
+
+## GAME: MIA @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Alcantara is the better starter by a clear margin, but both bullpens are taxed and the away moneyline is flagged stale, preventing a confident price on either side.
+DATA GAP: none
+
+---
+
+## GAME: DET @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Mize’s underlying metrics are stronger than Lambert’s, but Detroit’s offensive platoon disadvantage and Houston’s adequate bullpen rest compress the edge under 2 points.
+DATA GAP: none
+
+---
+
+## GAME: SD @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: San Diego’s starter is listed as TBD. Under the non-negotiable data-integrity rules, no edge can be estimated without confirmed starting-pitcher data.
+DATA GAP: none
+
+---
+
+## GAME: TB @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ohtani is the superior starter and Los Angeles owns the platoon edge, but the market has already compressed the Dodgers’ line beyond -170, leaving less than a 2-point gap against my win probability.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Rodriguez holds a sizeable run-prevention advantage over the small-sample Aldegheri, yet the market prices Arizona near -165, capping my edge around 3 points.
+DATA GAP: none
+
+---
+
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Scherzer’s current-season degradation makes his aggregate SIERA unreliable, Bennett is himself a small-sample arm, and the Toronto moneyline is flagged stale.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Rodón is the better starter, but Chicago’s strong wRC+ split against lefties and both pens being worked hard keep the Yankees’ edge inside the market price.
+DATA GAP: none
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: San Francisco’s starter is TBD. The game is unplayable under the data-integrity rules regardless of the home team’s advantage.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Williams is slightly better than Sproat, but Milwaukee’s large offensive platoon edge and a rested-enough bullpen erase any meaningful probability gap.
+DATA GAP: none
+
+---
+
+## GAME: COL @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sullivan is a true small-sample starter with no reliable aggregate track, forcing a pass regardless of matchup shape.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ ATH
+PICK: PIT ML
+PRICE: -119
+UNITS: 1
+EDGE: 4.2 pts
+TOTAL LEAN: No lean
+REASON: Ashcraft’s SIERA/xFIP and K-BB% profile is roughly 1.5 runs better than Civale’s, while Pittsburgh’s leverage relief corps enters with multiple fresh arms against an Oakland pen that has leaned heavily on its high-leverage arms over the past three days. The market prices this near pick’em, giving a clear run-prevention edge to the Pirates.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Kirby is the superior starter and Bradish shows recent degradation, but Seattle’s bullpen has been worked hard and the market line already captures most of the pitching gap.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE:

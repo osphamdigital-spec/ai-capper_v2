@@ -107,6 +107,12 @@ ANTHROPIC_MODELS = ("opus", "sonnet", "fable")
 ANTHROPIC_MAX_TOKENS_PICKS      = 16000
 ANTHROPIC_MAX_TOKENS_POSTMORTEM = 8000
 
+# Sonnet picks with extended thinking: max_tokens covers thinking + output combined.
+# Sonnet used ~10k output tokens on a 14-game slate; 10k thinking budget + 14k output
+# headroom = 24k total. Opus uses the shared default (thinking OFF).
+SONNET_MAX_TOKENS_PICKS      = 24000
+SONNET_THINKING_BUDGET_PICKS = 10000
+
 # Per-model output token budgets for picks mode.
 # DeepSeek splits the budget between reasoning tokens and response tokens --
 # with only 8000 total, reasoning consumes half and the response is truncated.
@@ -139,6 +145,15 @@ CHATGPT_MAX_TOKENS_POSTMORTEM = 8000
 # Reasoning tokens consume the shared budget -- 16000 matches ChatGPT headroom.
 GROK_MAX_TOKENS_PICKS      = 16000
 GROK_MAX_TOKENS_POSTMORTEM = 16000
+GROK_REASONING_PICKS      = "high"    # raised from medium -- full slate warrants deep reasoning
+GROK_REASONING_POSTMORTEM = "medium"  # raised from low
+
+# Gemini 3.5 Flash: thinkingLevel maps via OpenAI compat reasoning_effort.
+# Picks: medium (default for gemini-3.5-flash -- balanced).
+# Post-mortem: medium (reviewing results warrants real thinking; "low" produced
+# thin 503-prone responses with very little analytical depth).
+GEMINI_REASONING_PICKS      = "medium"
+GEMINI_REASONING_POSTMORTEM = "medium"
 
 # qwen3.7-max: 16000 gives headroom for thinking + response on large slates.
 QWEN_MAX_TOKENS_PICKS = 16000
@@ -763,11 +778,16 @@ def _call_anthropic(
     api_key: str,
     model_id: str,
     max_tokens: int = ANTHROPIC_MAX_TOKENS_PICKS,
+    thinking_budget: int | None = None,
 ) -> tuple[str, int, int, int | None]:
     """
     Send messages to the Anthropic API using the native SDK with prompt caching.
     The system prompt is marked ephemeral so the API caches it across calls --
     reducing cost and latency for repeat queries on the same slate.
+
+    thinking_budget: when set, enables extended thinking with that token budget.
+    max_tokens must exceed thinking_budget (it covers thinking + output combined).
+    Only passed for Sonnet picks -- Opus and post-mortems use thinking=disabled (default).
 
     Returns (response_text, input_tokens, output_tokens, None).
     Reasoning tokens are not exposed separately by the Anthropic API.
@@ -776,19 +796,23 @@ def _call_anthropic(
 
     client = ant.Anthropic(api_key=api_key)
 
+    create_kwargs = dict(
+        model      = model_id,
+        max_tokens = max_tokens,
+        system     = [
+            {
+                "type": "text",
+                "text": system_text,
+                "cache_control": {"type": "ephemeral"},
+            }
+        ],
+        messages   = [{"role": "user", "content": prompt_text}],
+    )
+    if thinking_budget is not None:
+        create_kwargs["thinking"] = {"type": "enabled", "budget_tokens": thinking_budget}
+
     try:
-        response = client.messages.create(
-            model      = model_id,
-            max_tokens = max_tokens,
-            system     = [
-                {
-                    "type": "text",
-                    "text": system_text,
-                    "cache_control": {"type": "ephemeral"},
-                }
-            ],
-            messages   = [{"role": "user", "content": prompt_text}],
-        )
+        response = client.messages.create(**create_kwargs)
     except ant.AuthenticationError as e:
         print(f"ERROR: Anthropic API authentication failed -- check CLAUDE_API_KEY in .env")
         print(f"       Detail: {e}")
@@ -903,11 +927,13 @@ def _call_api(
     max_tokens: int = MAX_OUTPUT_TOKENS,
     system_text: str = "",
     prompt_text: str = "",
+    thinking_budget: int | None = None,
 ) -> tuple[str, int, int, int | None]:
     """Dispatch to the correct API caller for the given model name."""
     if model in ANTHROPIC_MODELS:
         # Native Anthropic SDK with prompt caching; ignores input_messages format
-        return _call_anthropic(system_text, prompt_text, api_key, model_id, max_tokens)
+        return _call_anthropic(system_text, prompt_text, api_key, model_id, max_tokens,
+                               thinking_budget=thinking_budget)
     elif model == "grok":
         return _call_grok(input_messages, api_key, model_id, reasoning_effort, web_search)
     elif model == "chatgpt":
@@ -1056,26 +1082,33 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
     print(f"Sending to       : {endpoint}  ...")
 
     # Per-model output token budgets for picks mode.
-    if model in ANTHROPIC_MODELS:
-        picks_max_tokens = ANTHROPIC_MAX_TOKENS_PICKS
+    # Sonnet picks: extended thinking ON -- max_tokens covers thinking + output combined.
+    # Opus picks: thinking OFF -- uses shared Anthropic default.
+    if model == "sonnet":
+        picks_max_tokens   = SONNET_MAX_TOKENS_PICKS
+        picks_thinking_budget = SONNET_THINKING_BUDGET_PICKS
+    elif model in ANTHROPIC_MODELS:
+        picks_max_tokens   = ANTHROPIC_MAX_TOKENS_PICKS
+        picks_thinking_budget = None
     elif model == "deepseek":
-        picks_max_tokens = DEEPSEEK_MAX_TOKENS_PICKS
+        picks_max_tokens, picks_thinking_budget = DEEPSEEK_MAX_TOKENS_PICKS, None
     elif model == "kimi":
-        picks_max_tokens = KIMI_MAX_TOKENS_PICKS
+        picks_max_tokens, picks_thinking_budget = KIMI_MAX_TOKENS_PICKS, None
     elif model == "gemini":
-        picks_max_tokens = GEMINI_MAX_TOKENS_PICKS
+        picks_max_tokens, picks_thinking_budget = GEMINI_MAX_TOKENS_PICKS, None
     elif model == "chatgpt":
-        picks_max_tokens = CHATGPT_MAX_TOKENS_PICKS
+        picks_max_tokens, picks_thinking_budget = CHATGPT_MAX_TOKENS_PICKS, None
     elif model == "grok":
-        picks_max_tokens = GROK_MAX_TOKENS_PICKS
+        picks_max_tokens, picks_thinking_budget = GROK_MAX_TOKENS_PICKS, None
     elif model == "qwen":
-        picks_max_tokens = QWEN_MAX_TOKENS_PICKS
+        picks_max_tokens, picks_thinking_budget = QWEN_MAX_TOKENS_PICKS, None
     else:
-        picks_max_tokens = MAX_OUTPUT_TOKENS
+        picks_max_tokens, picks_thinking_budget = MAX_OUTPUT_TOKENS, None
     response_text, input_tokens, output_tokens, reasoning_tokens = _call_api(
         model, input_messages, api_key, model_id, reasoning_effort,
         web_search=True, max_tokens=picks_max_tokens,
         system_text=system_text, prompt_text=prompt_text,
+        thinking_budget=picks_thinking_budget,
     )
 
     # --- Token cap warning -----------------------------------------------
@@ -1739,14 +1772,29 @@ if __name__ == "__main__":
     date = args.date or _today_et()
 
     # Resolve reasoning effort: explicit flag wins, otherwise use mode default.
-    # DeepSeek keeps thinking enabled for post-mortem too (cheap, worth having),
-    # so its postmortem default is "high" rather than the global "low".
+    # DeepSeek/Kimi/Qwen: thinking enabled = always "high".
+    # Grok: picks=high, postmortem=medium (per GROK_REASONING_* constants).
+    # All others: global REASONING_PICKS / REASONING_POSTMORTEM defaults.
     if args.reasoning:
         reasoning_effort = args.reasoning
     elif args.postmortem:
-        reasoning_effort = "high" if args.model in ("deepseek", "kimi", "qwen") else REASONING_POSTMORTEM
+        if args.model in ("deepseek", "kimi", "qwen"):
+            reasoning_effort = "high"
+        elif args.model == "grok":
+            reasoning_effort = GROK_REASONING_POSTMORTEM
+        elif args.model == "gemini":
+            reasoning_effort = GEMINI_REASONING_POSTMORTEM
+        else:
+            reasoning_effort = REASONING_POSTMORTEM
     else:
-        reasoning_effort = "high" if args.model in ("deepseek", "kimi", "qwen") else REASONING_PICKS
+        if args.model in ("deepseek", "kimi", "qwen"):
+            reasoning_effort = "high"
+        elif args.model == "grok":
+            reasoning_effort = GROK_REASONING_PICKS
+        elif args.model == "gemini":
+            reasoning_effort = GEMINI_REASONING_PICKS
+        else:
+            reasoning_effort = REASONING_PICKS
 
     if args.authoring:
         mode_label = "authoring"

@@ -67,6 +67,7 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime
 from pathlib import Path
 
@@ -182,6 +183,34 @@ REASONING_POSTMORTEM = "low"
 # xhigh is an OpenAI-only tier (gpt-5.4); it maps to "max" for DeepSeek.
 VALID_REASONING_EFFORTS = ("none", "low", "medium", "high", "xhigh")
 
+# ─────────────────────────────────────────────────────────────────────────────
+# RETRY CONFIGURATION
+# Per-call exponential backoff inside query_model.py.
+# Total attempts = 1 initial + len(_RETRY_DELAYS) retries.
+# The outer wrappers (run_postmortem_all.py 90s retry, run_daily_2_retry.ps1
+# exponential backoff) kick in if ALL of these attempts fail.
+# ─────────────────────────────────────────────────────────────────────────────
+
+class _TransientAPIError(Exception):
+    """
+    Raised by _handle_api_errors (and _call_anthropic) for errors that are
+    safe to retry: 5xx server errors, 429 rate limits, timeouts, and
+    connection drops. _call_api_with_retry() catches this and sleeps before
+    the next attempt.
+
+    Permanent errors (401 auth, 400 bad request, 403, 404) are NOT wrapped
+    here — those sys.exit(1) immediately since retrying cannot help.
+    """
+    def __init__(self, original: Exception):
+        super().__init__(str(original))
+        self.original = original
+
+# 3 total attempts: initial + 2 retries at 10s and 30s.
+# Short enough not to frustrate standalone use; the outer wrappers handle
+# longer waits (90s / 180s / 360s...) if all inner attempts still fail.
+_RETRY_ATTEMPTS = 3
+_RETRY_DELAYS   = [10, 30]   # seconds to wait before attempt 2 and 3
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # DEPENDENCY CHECK
@@ -270,24 +299,51 @@ def _today_et() -> str:
 
 def _handle_api_errors(e, key_env_var: str):
     """
-    Print a clear error message for common API failure modes and exit.
-    Called from both _call_grok and _call_chatgpt to avoid duplication.
+    Classify an API exception as transient or permanent and act accordingly.
+
+    Transient (raise _TransientAPIError — _call_api_with_retry will retry):
+      429 RateLimitError, 5xx server errors, APITimeoutError, APIConnectionError
+
+    Permanent (sys.exit(1) — retrying cannot fix these):
+      401 AuthenticationError, 400/403/404 and other 4xx client errors
+
+    Called from all per-model _call_* functions so error handling is defined
+    in one place instead of duplicated across 6 callers.
     """
-    from openai import AuthenticationError, RateLimitError, APITimeoutError, APIError
+    from openai import (AuthenticationError, RateLimitError, APITimeoutError,
+                        APIConnectionError, APIStatusError, APIError)
+
     if isinstance(e, AuthenticationError):
         print(f"ERROR: API authentication failed -- check {key_env_var} in .env")
         print(f"       Detail: {e}")
+        sys.exit(1)
     elif isinstance(e, RateLimitError):
-        print(f"ERROR: Rate limit hit -- wait and retry")
+        print(f"ERROR: Rate limit (429) -- will retry with backoff")
         print(f"       Detail: {e}")
+        raise _TransientAPIError(e)
     elif isinstance(e, APITimeoutError):
-        print(f"ERROR: Request timed out -- check your connection and retry")
+        print(f"ERROR: Request timed out -- will retry with backoff")
         print(f"       Detail: {e}")
+        raise _TransientAPIError(e)
+    elif isinstance(e, APIConnectionError):
+        print(f"ERROR: Connection error -- will retry with backoff")
+        print(f"       Detail: {e}")
+        raise _TransientAPIError(e)
+    elif isinstance(e, APIStatusError):
+        if e.status_code >= 500:
+            print(f"ERROR: Server error ({e.status_code}) -- will retry with backoff")
+            print(f"       Detail: {e}")
+            raise _TransientAPIError(e)
+        else:
+            # 400 bad request, 403 forbidden, 404 not found, etc. — permanent
+            print(f"ERROR: API error ({e.status_code}) -- {e}")
+            sys.exit(1)
     elif isinstance(e, APIError):
         print(f"ERROR: API error -- {e}")
+        sys.exit(1)
     else:
         print(f"ERROR: Unexpected error -- {e}")
-    sys.exit(1)
+        sys.exit(1)
 
 
 def _extract_text_from_output(output_items) -> str:
@@ -560,6 +616,13 @@ def _call_kimi(
 
     extra_body, _ = _kimi_thinking_params(reasoning_effort)
 
+    # Accumulate content and reasoning_content separately from the stream.
+    content_chunks   = []
+    reasoning_chunks = []
+    finish_reason    = None
+    _usage           = None
+    _usage_details   = None
+
     try:
         stream = client.chat.completions.create(
             model          = model_id,
@@ -569,37 +632,34 @@ def _call_kimi(
             stream         = True,
             stream_options = {"include_usage": True},
         )
-    except Exception as e:
-        _handle_api_errors(e, "MOONSHOT_API_KEY")
-
-    # Accumulate content and reasoning_content separately from the stream.
-    content_chunks   = []
-    reasoning_chunks = []
-    finish_reason    = None
-    _usage           = None
-    _usage_details   = None
-
-    for chunk in stream:
-        if not chunk.choices:
-            # Usage-only final chunk (sent after the finish_reason chunk)
+        # Stream loop is inside the same try block so mid-stream network
+        # drops are caught and classified as transient just like connection
+        # errors on the initial request.
+        for chunk in stream:
+            if not chunk.choices:
+                # Usage-only final chunk (sent after the finish_reason chunk)
+                if hasattr(chunk, "usage") and chunk.usage:
+                    _usage         = chunk.usage
+                    _usage_details = getattr(chunk.usage, "completion_tokens_details", None)
+                continue
+            delta = chunk.choices[0].delta
+            if hasattr(delta, "content") and delta.content:
+                content_chunks.append(delta.content)
+            # reasoning_content is not a typed SDK attribute — hasattr guard required
+            if hasattr(delta, "reasoning_content"):
+                rc = getattr(delta, "reasoning_content")
+                if rc:
+                    reasoning_chunks.append(rc)
+            fr = chunk.choices[0].finish_reason
+            if fr:
+                finish_reason = fr
             if hasattr(chunk, "usage") and chunk.usage:
                 _usage         = chunk.usage
                 _usage_details = getattr(chunk.usage, "completion_tokens_details", None)
-            continue
-        delta = chunk.choices[0].delta
-        if hasattr(delta, "content") and delta.content:
-            content_chunks.append(delta.content)
-        # reasoning_content is not a typed SDK attribute — hasattr guard required
-        if hasattr(delta, "reasoning_content"):
-            rc = getattr(delta, "reasoning_content")
-            if rc:
-                reasoning_chunks.append(rc)
-        fr = chunk.choices[0].finish_reason
-        if fr:
-            finish_reason = fr
-        if hasattr(chunk, "usage") and chunk.usage:
-            _usage         = chunk.usage
-            _usage_details = getattr(chunk.usage, "completion_tokens_details", None)
+    except _TransientAPIError:
+        raise  # already printed; let _call_api_with_retry handle backoff
+    except Exception as e:
+        _handle_api_errors(e, "MOONSHOT_API_KEY")
 
     text              = "".join(content_chunks).strip()
     reasoning_content = "".join(reasoning_chunks)
@@ -818,10 +878,20 @@ def _call_anthropic(
         print(f"       Detail: {e}")
         sys.exit(1)
     except ant.RateLimitError as e:
-        print(f"ERROR: Rate limit hit -- wait and retry")
+        print(f"ERROR: Anthropic rate limit (429) -- will retry with backoff")
         print(f"       Detail: {e}")
-        sys.exit(1)
+        raise _TransientAPIError(e)
+    except ant.InternalServerError as e:
+        print(f"ERROR: Anthropic server error (5xx) -- will retry with backoff")
+        print(f"       Detail: {e}")
+        raise _TransientAPIError(e)
     except Exception as e:
+        # Catch any other APIStatusError subclass with a 5xx status code
+        status = getattr(e, "status_code", None)
+        if status is not None and status >= 500:
+            print(f"ERROR: Anthropic server error ({status}) -- will retry with backoff")
+            print(f"       Detail: {e}")
+            raise _TransientAPIError(e)
         print(f"ERROR: Anthropic API error -- {e}")
         sys.exit(1)
 
@@ -953,6 +1023,52 @@ def _call_api(
     else:
         print(f"ERROR: No API caller for model '{model}'.")
         sys.exit(1)
+
+
+def _call_api_with_retry(
+    model: str,
+    input_messages: list[dict],
+    api_key: str,
+    model_id: str,
+    reasoning_effort: str,
+    web_search: bool,
+    max_tokens: int = MAX_OUTPUT_TOKENS,
+    system_text: str = "",
+    prompt_text: str = "",
+    thinking_budget: int | None = None,
+) -> tuple[str, int, int, int | None]:
+    """
+    Wrapper around _call_api() with exponential backoff for transient errors.
+
+    Retry schedule (_RETRY_ATTEMPTS=3, _RETRY_DELAYS=[10, 30]):
+      Attempt 1 — immediate
+      Attempt 2 — wait 10s after attempt 1 fails
+      Attempt 3 — wait 30s after attempt 2 fails
+      All failed — sys.exit(1) so the outer wrappers can retry the pipeline:
+        run_postmortem_all.py : one fixed 90s retry per model
+        run_daily_2_retry.ps1 : exponential backoff (90 / 180 / 360s ...)
+
+    Permanent errors (auth failure, bad request) bypass this and sys.exit(1)
+    immediately from _handle_api_errors — no retry is attempted for those.
+    """
+    for attempt in range(_RETRY_ATTEMPTS):
+        try:
+            return _call_api(
+                model, input_messages, api_key, model_id, reasoning_effort,
+                web_search, max_tokens, system_text, prompt_text, thinking_budget,
+            )
+        except _TransientAPIError:
+            if attempt < _RETRY_ATTEMPTS - 1:
+                wait = _RETRY_DELAYS[attempt]
+                print(f"\n  Transient error on attempt {attempt + 1}/{_RETRY_ATTEMPTS} — "
+                      f"retrying in {wait}s...")
+                time.sleep(wait)
+            else:
+                print(f"\n  All {_RETRY_ATTEMPTS} internal attempts failed.")
+                print(f"  The outer retry wrappers will handle further retries.")
+                sys.exit(1)
+
+    sys.exit(1)  # unreachable — satisfies type checker
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1104,7 +1220,7 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
         picks_max_tokens, picks_thinking_budget = QWEN_MAX_TOKENS_PICKS, None
     else:
         picks_max_tokens, picks_thinking_budget = MAX_OUTPUT_TOKENS, None
-    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api(
+    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api_with_retry(
         model, input_messages, api_key, model_id, reasoning_effort,
         web_search=True, max_tokens=picks_max_tokens,
         system_text=system_text, prompt_text=prompt_text,
@@ -1575,7 +1691,7 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
     # For Anthropic models the system/prompt split is reconstructed from input_messages
     pm_system = input_messages[0]["content"] if input_messages else ""
     pm_user   = "\n\n".join(m["content"] for m in input_messages[1:])
-    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api(
+    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api_with_retry(
         model, input_messages, api_key, model_id, reasoning_effort,
         web_search=False, max_tokens=pm_max_tokens,
         system_text=pm_system, prompt_text=pm_user,
@@ -1708,7 +1824,7 @@ def run_authoring(model: str, dry_run: bool, reasoning_effort: str):
     print(f"Model ID         : {model_id}")
     print(f"Sending to       : {endpoint}  ...")
 
-    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api(
+    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api_with_retry(
         model, input_messages, api_key, model_id, reasoning_effort,
         web_search=False, max_tokens=MAX_OUTPUT_TOKENS,
         system_text=system_text, prompt_text=query_text,

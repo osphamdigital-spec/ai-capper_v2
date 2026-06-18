@@ -14,15 +14,17 @@ Steps (in order):
                                             missing or older than 7 days. Never blocks.
     1. fetch_odds.py           REQUIRED  -- creates games.json with odds
     2. fetch_covers_lines.py   OPTIONAL  -- adds opening RL/total prices + movement history from Covers.com
-    3. fetch_pitchers.py       REQUIRED  -- adds probable pitchers + gamePks
-    4. fetch_pitcher_advanced  OPTIONAL  -- Baseball Savant advanced metrics
-    5. fetch_weather.py        REQUIRED  -- adds weather per stadium
-    6. fetch_teamstats.py      REQUIRED  -- adds team standings and form
-    7. fetch_bullpen.py              OPTIONAL  -- reliever usage last 3 days, taxed flags
-    8. fetch_lineups.py              OPTIONAL  -- confirmed lineups + IL (2-3h before first pitch)
-    9. fetch_umpire_inference.py     OPTIONAL  -- inferred HP from yesterday's crew rotation
-   10. fetch_umpires.py              OPTIONAL  -- confirmed umpires from MLB API (1-2h before)
-   11. build_prompt.py               REQUIRED  -- generates daily/{sport}/{date}/prompt.md
+    3. fetch_opener.py         OPTIONAL  -- true opening lines from Covers.com (Playwright; adds odds.covers_opener)
+    4. fetch_pitchers.py           REQUIRED  -- adds probable pitchers + gamePks
+    5. fetch_pitcher_advanced.py   OPTIONAL  -- Baseball Savant advanced metrics
+    6. fetch_weather.py            REQUIRED  -- adds weather per stadium
+    7. fetch_teamstats.py          REQUIRED  -- adds team standings and form
+    8. fetch_bullpen.py            OPTIONAL  -- reliever usage last 3 days, taxed flags
+    9. fetch_lineups.py            OPTIONAL  -- confirmed lineups + IL (2-3h before first pitch)
+   10. rotowire_expected_lineups.py OPTIONAL -- expected lineups snapshot (sideline; Rotowire only serves today)
+   11. fetch_umpire_inference.py   OPTIONAL  -- inferred HP from yesterday's crew rotation
+   12. fetch_umpires.py            OPTIONAL  -- confirmed umpires from MLB API (1-2h before)
+   13. build_prompt.py             REQUIRED  -- generates daily/{sport}/{date}/prompt.md
 
 Required steps: pipeline stops immediately if any of these fail.
 Optional steps: failure is logged clearly, pipeline continues.
@@ -77,11 +79,19 @@ _STATIC_FILES: dict[str, list[str]] = {
         "Bullpen.txt",
         "park_factors_all.txt",
         "park_factors_roof_closed.txt",
+        "lineup_tracker.txt",
     ],
     # Other sports have no static files yet — add here when they're added.
 }
 
 _STATIC_STALE_DAYS = 7   # warn if a file hasn't been updated in this many days
+
+# Per-file overrides for staleness threshold (in days). Files not listed here use _STATIC_STALE_DAYS.
+# lineup_tracker.txt holds projected batting orders — outdated by next day, so threshold is 1 day.
+_STALE_DAYS_OVERRIDE: dict[str, int] = {
+    "lineup_tracker.txt": 1,
+    "Bullpen.txt":        2,   # bullpen usage roles change within days
+}
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -160,7 +170,10 @@ def _check_static_files(sport: str) -> None:
         else:
             age_str = f"{age_days} days old"
 
-        if age_days >= _STATIC_STALE_DAYS:
+        # Use per-file staleness threshold if one exists
+        stale_threshold = _STALE_DAYS_OVERRIDE.get(filename, _STATIC_STALE_DAYS)
+
+        if age_days >= stale_threshold:
             print(f"  WARNING  {filename:<36}  ({age_str} -- refresh recommended)")
             warnings += 1
         else:
@@ -353,12 +366,14 @@ def run_daily(sport: str, date: str = None):
     pipeline = [
         ("Odds",         "fetch_odds.py",               ["--sport", sport, "--date", target_date], True),
         ("Covers Lines", "fetch_covers_lines.py",      ["--sport", sport, "--date", target_date], False),
+        ("Opener Lines", "fetch_opener.py",            ["--sport", sport, "--date", target_date], False),  # optional — Covers true opener (Playwright)
         ("Pitchers",     "fetch_pitchers.py",          ["--date", target_date],                   True),
         ("Pitcher Adv.", "fetch_pitcher_advanced.py",  ["--sport", sport, "--date", target_date], False),
         ("Weather",      "fetch_weather.py",           ["--date", target_date],                   True),
         ("Team Stats",   "fetch_teamstats.py", ["--sport", sport, "--date", target_date], True),
         ("Bullpen",      "fetch_bullpen.py",   ["--sport", sport, "--date", target_date], False),  # optional
         ("Lineups",      "fetch_lineups.py",          ["--sport", sport, "--date", target_date], False),  # optional — confirmed ~2-3h before first pitch
+        ("Rotowire Exp", "rotowire_expected_lineups.py", ["--sport", sport, "--date", target_date], False),  # sideline — EXPECTED lineups; captured pre-game (Rotowire only serves today)
         ("Umpire Infer", "fetch_umpire_inference.py", ["--date", target_date],                   False),  # optional — early estimate from crew rotation
         ("Umpires",      "fetch_umpires.py",          ["--date", target_date],                   False),  # optional — confirmed ~1-2h before first pitch
         ("Build Prompt", "build_prompt.py",    ["--sport", sport, "--date", target_date], True),

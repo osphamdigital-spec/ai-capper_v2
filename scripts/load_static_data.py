@@ -16,6 +16,7 @@ Files handled:
   data/mlb/park_factors_all.txt       -- park factors all conditions (3yr rolling)
   data/mlb/park_factors_roof_closed.txt -- park factors roof-closed only
   data/mlb/team_barrels.txt           -- team offensive Barrel% and HardHit% (FanGraphs export)
+  data/mlb/lineup_tracker.txt        -- projected batting orders by date (FanGraphs roster resource)
 
 Usage (standalone test):
     python scripts/load_static_data.py
@@ -551,6 +552,220 @@ def load_team_barrels() -> dict:
         result[games_abbr] = entry
 
     logger.info("Loaded team barrel%% for %d teams from team_barrels.txt", len(result))
+    return result
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# PUBLIC LOAD FUNCTIONS — lineup tracker (projected batting orders)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def load_lineup_tracker(target_date: str | None = None) -> dict:
+    """
+    Parse lineup_tracker.txt — FanGraphs roster-resource export.
+
+    The file has one block per team, separated by repeated 'Name\\tRole\\t...'
+    header rows. Each data row is a player with columns:
+      Name | Role (1-9=batting slot, Bench/IL/AAA/DFA) | Ovr | Last 7 Days |
+      {dated columns: 'POS ( slot )' or blank/IL/AAA/INJ...}
+
+    The file does NOT embed team codes, so we resolve them by cross-referencing
+    the first few starters in each block against splits_vs_LHP.txt (which has a
+    FanGraphs TEAM column per player).
+
+    Args:
+        target_date: The date column to extract, formatted as 'Wed 6/18' (matching
+                     the column headers). If None, uses the first (most recent) column.
+
+    Returns dict keyed by games.json team abbreviation (str):
+      {
+        "LAA": {
+          "opponent_hand": "L",          # "L" or "R" (from column header)
+          "starters": [                  # ordered 1–9
+            {"slot": 1, "name": "Zach Neto", "pos": "SS"},
+            ...
+          ],
+          "bench": [{"name": "...", "status": "Bench"}],
+          "il":    [{"name": "...", "status": "IL"}],
+        },
+        ...
+        "_meta": {"target_date": "Wed 6/18", "source": "lineup_tracker.txt"}
+      }
+
+    If lineup_tracker.txt is missing, returns {}.
+    If a block's team cannot be resolved, it is logged and skipped.
+    """
+    filepath = DATA_DIR / "lineup_tracker.txt"
+    rows = _load_tsv(filepath)
+    if rows is None:
+        logger.warning("Missing file: lineup_tracker.txt — returning empty dict")
+        return {}
+
+    # ── Step 1: split into per-team blocks ──────────────────────────────────
+    # A block boundary is any row where col[0].strip() == "Name".
+    # FanGraphs repeats the header row twice at each block start — we skip dupes.
+    blocks: list[list[list[str]]] = []  # list of blocks; each block = list of rows
+    current_block: list[list[str]] = []
+    last_was_header = False
+
+    for row in rows:
+        is_header = (len(row) >= 1 and row[0].strip() == "Name")
+        if is_header:
+            if not last_was_header:
+                # First header of a new block — save the old block if non-empty
+                if current_block:
+                    blocks.append(current_block)
+                current_block = [row]  # store header so we can read date columns
+            else:
+                # Second (duplicate) header — skip it, keep current_block header
+                pass
+            last_was_header = True
+        else:
+            last_was_header = False
+            current_block.append(row)
+
+    if current_block:
+        blocks.append(current_block)
+
+    # ── Step 2: load a player→FG-team mapping from splits for team resolution ──
+    # splits_vs_LHP is reliable: includes all active MLB batters with their team code.
+    _splits = _batter_splits_file(DATA_DIR / "splits_vs_LHP.txt")
+    # build {player_name_lower: fg_team_code}
+    _player_team: dict[str, str] = {
+        k.lower(): v["team"] for k, v in _splits.items() if v.get("team")
+    }
+
+    # ── Step 3: parse each block ─────────────────────────────────────────────
+    result: dict = {}
+
+    for block in blocks:
+        if not block:
+            continue
+
+        # The first row of the block is the header — extract date column indices.
+        header = block[0]
+        # Columns: 0=Name 1=Role 2=Ovr 3=Last7Days 4=col4 5=col5 ...
+        # Dated columns start at index 4.
+        date_cols = header[4:] if len(header) > 4 else []
+
+        # Find the target column index within the date_cols list.
+        target_col_idx: int | None = None
+        target_col_label: str = ""
+        opp_hand: str = ""
+
+        if date_cols:
+            if target_date:
+                # Find by partial match (e.g. "Wed 6/18" matches "Wed 6/18 vs. R")
+                for i, col in enumerate(date_cols):
+                    if target_date in col:
+                        target_col_idx = i
+                        target_col_label = col.strip()
+                        break
+            if target_col_idx is None:
+                # Fall back to first dated column (most recent)
+                target_col_idx = 0
+                target_col_label = date_cols[0].strip()
+
+            # Extract opponent handedness from column header: "Wed 6/18 vs. L" → "L"
+            if "vs. L" in target_col_label:
+                opp_hand = "L"
+            elif "vs. R" in target_col_label:
+                opp_hand = "R"
+
+        data_rows = block[1:]
+
+        # ── Resolve team for this block ──────────────────────────────────────
+        fg_team: str | None = None
+        for row in data_rows:
+            if len(row) < 2:
+                continue
+            role = row[1].strip()
+            # Only use active starters (slot 1-9) for team resolution
+            if role.isdigit() and 1 <= int(role) <= 9:
+                name = row[0].strip().lower()
+                found = _player_team.get(name)
+                if found:
+                    fg_team = found
+                    break
+
+        if not fg_team:
+            logger.warning(
+                "lineup_tracker: could not resolve team for a block (first player: %r) — skipping",
+                data_rows[0][0] if data_rows else "?"
+            )
+            continue
+
+        # Remap FG code → games.json abbreviation
+        games_abbr = fg_to_games_abbr(fg_team)
+
+        # ── Parse players ────────────────────────────────────────────────────
+        starters: list[dict] = []
+        bench:    list[dict] = []
+        il:       list[dict] = []
+
+        for row in data_rows:
+            if len(row) < 2:
+                continue
+            name = row[0].strip()
+            role = row[1].strip()
+            if not name:
+                continue
+
+            # Get the value from the target date column (absolute index = 4 + target_col_idx)
+            cell = ""
+            if target_col_idx is not None:
+                abs_idx = 4 + target_col_idx
+                cell = row[abs_idx].strip() if len(row) > abs_idx else ""
+
+            # Parse cell: "SS ( 1 )" → pos="SS", slot=1 | "IL"/"AAA"/"INJ" → status
+            pos = ""
+            slot: int | None = None
+            cell_upper = cell.upper()
+
+            if "(" in cell and ")" in cell:
+                # Format: "POS ( N )"
+                try:
+                    pos_part = cell[:cell.index("(")].strip()
+                    slot_part = cell[cell.index("(") + 1: cell.index(")")].strip()
+                    pos = pos_part
+                    slot = int(slot_part)
+                except (ValueError, IndexError):
+                    pass
+
+            if role.isdigit() and 1 <= int(role) <= 9:
+                # Starters: use the role column as the expected slot (more stable
+                # than the per-date cell which can occasionally be blank on off-days).
+                starters.append({
+                    "slot": int(role),
+                    "name": name,
+                    "pos":  pos or "?",          # position from today's cell
+                    "today_cell": cell or "—",   # raw cell value for transparency
+                })
+            elif role == "Bench":
+                bench.append({"name": name, "today_cell": cell or "—"})
+            elif role in ("IL", "AAA", "DFA", "INJ", "SUSP"):
+                il.append({"name": name, "status": role, "today_cell": cell or "—"})
+            # Players with a team-code role (traded away / org assignment) are skipped
+
+        # Sort starters by slot number
+        starters.sort(key=lambda p: p["slot"])
+
+        result[games_abbr] = {
+            "opponent_hand": opp_hand,
+            "target_date":   target_col_label,
+            "starters":      starters,
+            "bench":         bench,
+            "il":            il,
+        }
+
+    result["_meta"] = {
+        "target_date": target_date or "(most recent column)",
+        "source":      "lineup_tracker.txt",
+    }
+
+    logger.info(
+        "Loaded projected lineups for %d teams from lineup_tracker.txt",
+        len(result) - 1,
+    )
     return result
 
 

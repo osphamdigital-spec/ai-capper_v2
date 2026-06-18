@@ -1,0 +1,104 @@
+Looking at this slate, I'll identify the spots where market perception (seasonal ERA, W-L) diverges from predictive metrics, then apply strict gates.
+
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gray is the superior arm (3.24 xFIP, 19.6 K-BB%, 243 IP sample) facing Yesavage who carries a [small sample] L14 with 6.8 BB/9 red flag and a thin 61 IP AGG line. Market has BOS -124 which is fair; Yesavage's shiny 3.78 ERA masks a 4.31 xFIP. My fair line on BOS is roughly -130, only ~3 pts edge — under the gate.
+DATA GAP: Lineups unconfirmed; Yesavage L14 walk spike could be injury-related.
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: MIL is heavily favored and the lineup vs LHP is elite (136 wRC+, Vaughn/Chourio mashing) while CLE vs LHP is a brutal 48 wRC+. But MIL -147 already prices this; Drohan has only 18 IP AGG [small sample] which caps confidence. Messick is legitimately good (3.39 xFIP, 18.4 K-BB%) so I can't justify laying the price or backing the punchless CLE bats.
+DATA GAP: Roof status affects total only; Drohan small sample limits read.
+
+---
+
+## GAME: MIN @ TEX
+PICK: MIN ML
+PRICE: +106
+UNITS: 1
+EDGE: 5.5 pts
+TOTAL LEAN: No lean
+REASON: Joe Ryan is a clear true-talent edge (3.27 SIERA, 22.9 K-BB%, 248 IP, Stf+108) over Leiter, whose AGG is mediocre (4.34 SIERA, 12.9 K-BB%) and whose L14 is a disaster. Market has this MIN +106 (no-vig ~46%) but Ryan's reliability against a fading Leiter pushes my MIN estimate to ~51.5%. MIN bats are average vs RHP and Ryan suppresses TEX's contact-heavy lineup in a pitcher park.
+DATA GAP: TEX bullpen T3 thin (2/5) but Latz/Junis fresh; lineups unconfirmed.
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Woo is excellent (3.38 SIERA, 21.3 K-BB%, Stf+110) and underpriced by his 4.28 ERA, but SEA -149 already reflects this. Baz's L14 [small sample] shows velocity/K collapse (3.4 K/9) which is a red flag, yet BAL's strong vs-RHP lineup (124 wRC+) keeps this from being a layup. My SEA fair sits near -150, no edge. Two pitcher-friendly arms in a suppressive park lean the total under.
+DATA GAP: Roof status; Baz L14 K-rate drop needs velocity confirmation.
+
+---
+
+## GAME: NYM @ PHI
+PICK: NYM ML
+PRICE: +104
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL LEAN: Over
+REASON: This is my favorite profile: Manaea's AGG is excellent (3.21 SIERA, 23.2 K-BB%, Stf+109) and his ugly 4.78 ERA is pure perception, while Nola's 5.86 ERA matches a deteriorating profile (L14 5.59 SIERA, 6.0 BB/9). Nola's AGG is decent but his recent form and CBP HR park (113) hurt him versus Soto/Young. Market is a near coin flip (+104) but I make NYM the slight favorite at ~53%.
+DATA GAP: Both starters carry L14 small-sample tags; lineups unconfirmed.
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Burke's AGG is weak (4.67 SIERA, 10.4 K-BB%, Stf+93) and his L14 is unusable [small sample], facing the league's hottest offense in a HR park. NYY -157 is steep but probably fair given the talent gap; Weathers has a solid AGG (3.66 SIERA) but a poor L14. My NYY number lands near -160, no edge. Wind blowing and two contact-vulnerable arms lean over.
+DATA GAP: Lineups unconfirmed; Burke 4 IP L14 sample unreadable.
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: 68% rain with [PPD RISK] flag — I avoid committing to a game with significant postponement risk. Beyond that, Pérez has a poor AGG (4.73 SIERA, 9.2 K-BB%, Stf+86) and Roupp's peripherals (2.97 FIP, low Brl%) are quietly strong, so ATL -142 looks slightly rich, but rain risk makes this an automatic stand-down.
+DATA GAP: Weather/PPD is the decisive factor; will not bet under PPD risk.
+
+---
+
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Both lefties have comparable AGG profiles (Liberatore 4.37 SIERA, Cameron 4.18) and STL's lefty-mashing lineup (139 wRC+ vs LHP, Crooks/Nootbaar/Herrera) faces Cameron while KC's 114 vs LHP faces Liberatore. RL movement here was wildly chaotic (suspect). ML is near pick'em (+102) and my number sits within 3 pts — no qualifying edge.
+DATA GAP: Erratic RL movement suggests unstable market; lineups unconfirmed.
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Away starter is TBD — automatic pass per data integrity rules. No edge can be honestly estimated without confirmed pitching.
+DATA GAP: LAA starter TBD.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No game offered a clean 7+ pt gap; both qualifying plays (MIN, NYM) rely on starter true-talent edges over ERA-darling/declining opponents but only clear the 4-pt gate at 1 unit, and both opponents carry small-sample L14 tags that bar a 3-unit rating.

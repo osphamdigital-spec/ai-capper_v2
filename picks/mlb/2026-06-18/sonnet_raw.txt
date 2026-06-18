@@ -1,0 +1,102 @@
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Gray's AGG xFIP 3.24 is strong and L14 is consistent; Yesavage's L14 xFIP 6.08 is directionally alarming despite small sample. BOS bullpen is fully fresh with Chapman/Whitlock elite, but TOR's lineup wRC+ 113 vs RHP is the best on the board and partially offsets. My BOS win probability lands ~58-59%, which is ~5 pts above vig-removed implied of 53.3%—this clears the gate but with 9 games (2-bet ceiling) I have stronger plays ranked above it.
+DATA GAP: Confirmed lineup order would clarify TOR platoon impact; wind direction (S at 21 mph at Fenway) adds run environment uncertainty.
+
+---
+
+## GAME: CLE @ MIL
+PICK: MIL ML
+PRICE: -147
+UNITS: 1
+EDGE: 6.7 pts
+TOTAL LEAN: Under
+REASON: CLE's wRC+ vs LHP is a catastrophic 48—by far the most extreme platoon disadvantage on the slate—facing Drohan whose L14 xFIP 3.13 (trending better than AGG 3.83) further widens the gap. MIL is 45-26 with a hot offense (L10 RS 7.1, wRC+ 136 vs LHP) against Messick whose AGG xFIP 3.39 is fine but L14 trends poorly. My MIL win prob estimate is ~64%; vig-removed market is 57.3%. Both starters carry [sm] flags blocking any 3-unit play.
+DATA GAP: Roof status at American Family Field affects park factor; confirmed would refine run environment slightly.
+
+---
+
+## GAME: MIN @ TEX
+PICK: LEAN: MIN
+PRICE: -124
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: Under
+REASON: Ryan (AGG xFIP 3.60) is clearly the better arm over Leiter (AGG xFIP 4.43), and Leiter's L14 xFIP 7.00 in 9.2 IP [sm] is directionally alarming even treated as noise. However, MIN's closer is unavailable (T1 0/1), TEX lineup (wRC+ 115 vs RHP) outperforms MIN's (101), and Globe Life Park (91 factor) compresses run differentials. My MIN win probability lands ~57%, vs vig-removed implied 53.3%—gap of only ~3.7 pts falls below the 4-pt gate.
+DATA GAP: Leiter's true command trend (BB/9 4.7 in L14) is critical; additional starts would clarify.
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Under
+REASON: Woo (AGG xFIP 3.47) materially outpitches Baz (AGG xFIP 4.09), and Woo's L14 is consistent. However, BAL lineup (wRC+ 124 vs RHP) is strong; SEA closer Muñoz sits at 5.68 ERA; T-Mobile's pitcher-friendly environment (93) compresses margin. My SEA win probability reaches only ~60%, vs vig-removed implied 57.7%—gap of ~2.3 pts fails the gate.
+DATA GAP: Baz L14 in only 10.2 IP [sm] makes his true ERA estimate unreliable; roof status affects park factor.
+
+---
+
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: Nola's L14 xFIP 5.69 with BB/9 of 6.0 (9.0 IP [sm]) is a severe red flag, and his L3 shows short outings and recurring trouble; Manaea's AGG xFIP 3.46 is solid. NYM at +104 offers value but NYM's bullpen is significantly depleted (T3 2/6 available) while PHI's is elite and fully fresh (Duran 1.90, Kerkering 2.03). PHI's bullpen advantage negates the starter edge. 21 mph SW wind at CBP in 89°F with PHI's elite pen makes late-inning NYM leads fragile—gap calculation (~4.9 pts) clears gate but confidence in sustaining a win is low; passing with this slate context and the depleted NYM 'pen.
+DATA GAP: Nola's true walk rate trend is the swing variable; another start would clarify.
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: Over
+REASON: NYY is the class team (45-27, L10 8-2) and Burke (AGG xFIP 4.81) is a clear downgrade over Weathers (AGG xFIP 3.63). However, Weathers' L14 xFIP 5.26 [sm] trends badly, and my NYY win probability (~63%) exceeds vig-removed implied 58.9% by only ~4.1 pts—barely clearing the gate but not ranking among my top-2 plays given the slate ceiling.
+DATA GAP: Weathers' recent form in small sample is the primary uncertainty.
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: ATL has elite bullpen depth (Iglesias 1.16, Suarez 0.59, Lee 1.14—all fully fresh), superior team record (46-27), and Roupp's L3 shows struggles. However, the 68% rain probability creates substantial postponement risk—I do not bet games with meaningful PPD exposure as the line price represents no value if the game is postponed.
+DATA GAP: Weather confirmation 1-2 hours prior to first pitch is required; 68% rain makes this unplayable at build time.
+
+---
+
+## GAME: STL @ KC
+PICK: STL ML
+PRICE: +102
+UNITS: 1
+EDGE: 7.2 pts
+TOTAL LEAN: No lean
+REASON: STL (40-32) is the materially superior team facing KC (30-45) at near-even odds (+102). STL's lineup wRC+ 139 vs LHP is elite—Crooks, Nootbaar, Herrera among the best vs-southpaw hitters on the slate—and they face Cameron (AGG xFIP 3.98, slightly better process but severely punished by STL platoon advantage). Liberatore (AGG xFIP 4.26) is mediocre but KC's lineup (wRC+ 114 vs LHP) is middle-of-road. My STL win probability is ~55%, vs vig-removed implied 47.8%—a 7.2-pt gap. Unit capped at 1 (not 3) because (a) Liberatore carries [sm] flag blocking 3-unit eligibility on this game, and (b) the RL data shows multiple erratic large swings suggesting market uncertainty not explained by visible data.
+DATA GAP: Erratic RL movement pattern (six large swings) with no visible explanation; possible lineup or injury news not reflected in this build.
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Away starter TBD — automatic pass per hard filter. No edge calculable without confirmed pitcher data.
+DATA GAP: LAA starter identity is the entire missing variable.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Both qualifying plays (STL ML, MIL ML) are blocked from 3-unit status—STL by the Liberatore [sm] flag, MIL by both starters carrying [sm] flags.

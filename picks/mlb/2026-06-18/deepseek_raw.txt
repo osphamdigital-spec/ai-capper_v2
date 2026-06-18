@@ -1,0 +1,102 @@
+## GAME: TOR @ BOS
+PICK: TOR ML
+PRICE: +111
+UNITS: 3
+EDGE: 10.2 pts
+TOTAL LEAN: No lean
+REASON: Yesavage AGG SIERA 4.43 vs Gray 3.45 gives BOS a moderate pitching edge, but the platoon mismatch is massive — TOR 113 wRC+ vs RHP against BOS 92 wRC+ is a 21-point gap that overwhelms the pitching difference. Gray's xERA 4.55 and HH% 35.9 suggest regression, while Yesavage's L14 walk spike (6.8 BB/9) warrants the full 50% edge discount applied here. Fenway's 104 runs park factor and 21-mph wind out to left amplify the better offense. Market has this backward at +111 for TOR.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Extreme platoon splits — CLE 48 wRC+ vs LHP, MIL 136 wRC+ — create a massive model edge for MIL, but Drohan's 18.0 IP career sample [sm] caps any bet at 1 unit and raises reliability concerns. The 48 wRC+ for CLE may be a small-sample split due for regression toward team talent level. Pass rather than chase an edge built on shaky split data with a small-sample starter.
+DATA GAP: CLE wRC+ vs LHP may be noisy small-sample split; Drohan overall projection based on just 18.0 IP.
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ryan's elite SIERA 3.27 vs Leiter's poor 4.34 points strongly to MIN, but TEX offense (115 wRC+ vs RHP) and home field pull the projection toward a near-toss-up. My formula produces an extreme TEX edge that I don't fully trust — the multiplicative run model may over-amplify when both offense and pitching are far from average. Market MIN -121 feels roughly correct. No clear edge to exploit.
+DATA GAP: None, but model uncertainty on extreme multiplicative projection.
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Woo is an elite arm (SIERA 3.38, K-BB% 21.3%) in baseball's most pitcher-friendly park (T-Mobile 86 runs factor). BAL's 124 wRC+ vs RHP is excellent but their 13-21 road record and Baz's below-average peripherals (SIERA 4.17, xERA 4.55) make the +131 price fair rather than value. Model edge exists but the road environment and ace opponent suppress true win probability well below my raw projection.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Manaea's SIERA 3.21 dominates Nola's 3.87, and NYM's 105 wRC+ edges PHI's 92 vs LHP — the model gives NYM a ~14-point edge. But NYM's bullpen has only 2 of 6 middle relievers available (T3: 2/6), and Citizens Bank Park has 21-mph wind blowing out at 89 degrees. A thin pen behind a pitcher averaging ~5.2 IP per start in a high-scoring environment creates too much late-game variance to commit units.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Burke's poor peripherals (SIERA 4.67, K-BB% 10.4%) project NYY to score well, but NYY's 94 wRC+ vs RHP split seems discordant with their 45-27 record and 5.3 RS/game — suggesting the platoon split may be unreliable or heavily regressed. Weathers' SIERA 3.66 is solid. The market NYY -149 squares with overall team quality, and I don't trust my model's CHW-favored output given the split-data suspicion.
+DATA GAP: NYY wRC+ vs RHP of 94 appears inconsistent with overall team performance — possible data reliability issue on platoon split.
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Modest 5.9-pt edge for SF at +122 based on Pérez's poor peripherals (SIERA 4.73, Stf+ 86) vs Roupp's adequate 4.12, but the 68% rain risk with "PPD RISK" flag makes this too volatile. ATL's elite bullpen (Iglesias 1.16 ERA, Suarez 0.59, Lee 1.14) would dominate late innings if the game is shortened. Pass on weather uncertainty.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: STL ML
+PRICE: +105
+UNITS: 3
+EDGE: 10.0 pts
+TOTAL LEAN: No lean
+REASON: STL's elite 139 wRC+ vs LHP is the slate's best platoon split, facing Cameron (SIERA 4.18, Stf+ 96 — league-average arm). Liberatore's SIERA 4.37 is only slightly worse, and KC's bullpen is thin (T3: just 2/5 available, Erceg 43-pitch outing still lingering). Kauffman's neutral park doesn't suppress the STL advantage. KC is getting favorite treatment at -115 based on home field, but the offensive talent gap is too large to ignore. Liberatore's L14 wobble (5.04 xFIP in 8.2 IP) warrants a 20% discount applied, leaving edge at 10.0 pts.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: LAA starter is TBD — automatic pass per system rules. No edge can be estimated without confirmed pitcher data.
+DATA GAP: TBD starter
+
+---
+
+## SLATE SUMMARY
+BEST BET: TOR +111 (Game 1 at BOS)
+WHY THIS ONE: Largest raw edge on the slate driven by a 21-point platoon wRC+ gap that the market is mispricing. Gray's surface 8-1 record and 3.03 ERA are masking underlying regression signals (xERA 4.55, HH% 35.9), while Yesavage's AGG body of work remains solid despite the L14 walk spike already priced into the discount.

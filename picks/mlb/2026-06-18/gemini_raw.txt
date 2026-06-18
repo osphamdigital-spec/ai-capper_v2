@@ -1,0 +1,101 @@
+## GAME: TOR @ BOS
+PICK: LEAN: BOS ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: Over
+REASON: Trey Yesavage is penalized for a poor L14 trend and is flagged as a small sample starter. Although Boston's offense is weak against righties, the projected edge is below our 4-point gate threshold. A high-wind environment at Fenway makes the Over a strong lean.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: MIL ML
+PRICE: -145
+UNITS: 1
+EDGE: 9.1 pts
+TOTAL LEAN: No lean
+REASON: Cleveland has struggled immensely against left-handed pitching this season, posting an abysmal 48 wRC+ split. This heavily suppresses their run expectation against Shane Drohan, despite his small sample size. Milwaukee’s potent offense against lefties (136 wRC+) should find success against Parker Messick, leading to a strong projection edge for the Brewers.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Joe Ryan is a strong starter, but Jack Leiter's penalty is balanced by Texas's solid 115 wRC+ vs RHP and superior bullpen. The projection aligns closely with the market, offering no clear edge.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: LEAN: BAL ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: Under
+REASON: Bryan Woo and Shane Baz project closely in this pitcher-friendly environment. The market price for Seattle is slightly too high, but the edge on Baltimore is well below the 4-point gate.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ PHI
+PICK: NYM ML
+PRICE: +109
+UNITS: 1
+EDGE: 13.3 pts
+TOTAL LEAN: No lean
+REASON: Our model projects Sean Manaea to significantly outperform Aaron Nola, who receives a 10% penalty due to a poor L14 SIERA. Furthermore, the Mets' offense matches up well against righties (105 wRC+), while the Phillies struggle slightly against lefties (92 wRC+). In a high-wind environment at Citizens Bank Park, this pitching mismatch is amplified, giving the Mets a clear projection advantage.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ryan Weathers and Sean Burke project closely when accounting for team splits and the wind factor at Yankee Stadium. The market pricing is highly efficient here, leaving no actionable edge.
+DATA GAP: none
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: With a 68% chance of rain, this game carries significant postponement risk. Even if played, the projected edge on either side is negligible, making a pass the only correct action.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: LEAN: STL ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: none
+TOTAL LEAN: No lean
+REASON: While our model identifies a decent 7.8 percentage-point edge on the Cardinals ML due to their superior matchup against left-handed pitching, we are passing on this game to remain within our strict slate limit of 2 bets max. We prioritize the higher-edge plays on the Mets and Brewers today.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The starting pitcher for the Angels is unconfirmed (TBD). Under our strict data integrity guidelines, we must pass on this game.
+DATA GAP: confirmed starting pitcher for LAA
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

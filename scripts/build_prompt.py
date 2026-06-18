@@ -50,6 +50,7 @@ try:
         load_park_factors,
         load_park_factors_roof_closed,
         load_team_barrels,
+        load_lineup_tracker,
         fuzzy_match_player,
         games_abbr_to_fg,
     )
@@ -910,6 +911,7 @@ def _fmt_platoon_matchup(
     home_abbr: str,
     splits_lhp: dict,
     splits_rhp: dict,
+    projected_lineups: dict | None = None,
 ) -> list:
     """
     PLATOON MATCHUP block.
@@ -933,7 +935,14 @@ def _fmt_platoon_matchup(
     MIN_PA = 50
 
     def _one_side(team_abbr, lineup_side, splits, hand_label):
-        """Build wRC+ lines for one team batting against a given hand."""
+        """
+        Build wRC+ lines for one team batting against a given hand.
+        Three-tier precedence:
+          1. CONFIRMED — MLB Stats API confirmed lineup (fetch_lineups.py)
+          2. REGULARS  — lineup_tracker.txt recent-actuals batting order
+          3. AGGREGATE — full-team season average from splits
+        """
+        # Tier 1: confirmed lineup from fetch_lineups.py
         confirmed = (
             lineup_side is not None
             and lineup_side.get("status") == "confirmed"
@@ -944,8 +953,18 @@ def _fmt_platoon_matchup(
             batter_stats = _lineup_wrc_stats(order, splits, min_pa=MIN_PA)
             status_tag   = "CONFIRMED"
         else:
-            _, batter_stats = _team_wrc_aggregate(team_abbr, splits, min_pa=MIN_PA)
-            status_tag      = "SEASON AGGREGATE"
+            # Tier 2: recent-actuals pattern from lineup_tracker.txt (not a projection)
+            proj = (projected_lineups or {}).get(team_abbr, {})
+            proj_starters = proj.get("starters", [])
+            if proj_starters:
+                # Build an order list compatible with _lineup_wrc_stats
+                proj_order = [{"name": p["name"]} for p in proj_starters]
+                batter_stats = _lineup_wrc_stats(proj_order, splits, min_pa=MIN_PA)
+                status_tag   = "REGULARS"
+            else:
+                # Tier 3: full-team season aggregate
+                _, batter_stats = _team_wrc_aggregate(team_abbr, splits, min_pa=MIN_PA)
+                status_tag      = "SEASON AGGREGATE"
 
         # Compact: vs_{hand}: wRC+:{avg} ({status}) key:Name1 wrc,Name2 wrc
         block = []
@@ -954,7 +973,7 @@ def _fmt_platoon_matchup(
             avg_wrc = round(sum(w for _, w, _ in batter_stats) / len(batter_stats))
             sorted_s = sorted(batter_stats, key=lambda x: x[1], reverse=True)
             key_parts = [f"{p[0].split()[-1]}{int(round(p[1]))}" for p in sorted_s[:3]]
-            status_short = "CFM" if status_tag == "CONFIRMED" else "AGG"
+            status_short = {"CONFIRMED": "CFM", "REGULARS": "REG", "SEASON AGGREGATE": "AGG"}.get(status_tag, "AGG")
             block.append(
                 f"  vs_{hand_label}: wRC+:{avg_wrc}({status_short}) "
                 f"key:{','.join(key_parts)}"
@@ -1210,7 +1229,49 @@ def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict, gm_li_data: dict | N
     available = [r for r in relievers if "IL" not in r.get("role", "")]
     selected  = sorted(available, key=lambda r: _role_rank(r.get("role", "")))[:MAX_ARMS]
 
+    # ── Leverage-tier availability index ────────────────────────────────────
+    # Summarises how many arms in each tier are fresh vs. taxed today.
+    # "Taxed" = pitched ≥16 pitches in any of the 3 most recent days.
+    # Displayed as a single compact line before the per-arm detail.
+    _TAXED_THRESHOLD = 15   # pitches in last 3 days → "taxed"
+
+    def _recent_pitches(r: dict) -> int:
+        """Sum pitch counts across the 3 most-recent usage columns."""
+        return sum(
+            _extract_pitch_count(v) or 0
+            for v in r.get("usage_last6", [])[:3]
+        )
+
+    def _tier_label(role: str) -> str:
+        if "Closer" in role:
+            return "T1"
+        if "Setup" in role:
+            return "T2"
+        if "Middle" in role or "Long" in role:
+            return "T3"
+        return "T?"
+
+    tier_summary: dict[str, list[str]] = {"T1": [], "T2": [], "T3": []}
+    for r in available:
+        tl = _tier_label(r.get("role", ""))
+        if tl not in tier_summary:
+            continue
+        recent = _recent_pitches(r)
+        status = "taxed" if recent > _TAXED_THRESHOLD else "avail"
+        tier_summary[tl].append(status)
+
+    tier_parts = []
+    for tl in ("T1", "T2", "T3"):
+        arms = tier_summary[tl]
+        if not arms:
+            continue
+        n_avail = sum(1 for s in arms if s == "avail")
+        tier_parts.append(f"{tl}: {n_avail}/{len(arms)} avail")
+
     lines = []
+    if tier_parts:
+        lines.append(f"  [Bullpen: {' | '.join(tier_parts)}]")
+
     for r in selected:
         lines.extend(_reliever_lines(r, r.get("role", "Reliever")))
 
@@ -1407,6 +1468,7 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
             away["abbr"], home["abbr"],
             static_data.get("splits_lhp", {}),
             static_data.get("splits_rhp", {}),
+            projected_lineups=static_data.get("lineup_tracker", {}),
         ))
 
     # ── Starting pitchers ─────────────────────────────────────────────────────
@@ -1804,46 +1866,60 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
     )
 
     parts.append(
-        "TOTALS APPROACH\n"
-        "You MUST state a TOTAL LEAN for every game (Over / Under / No lean), even if\n"
-        "you are passing on the side bet. Use this sequence:\n"
+        "RUN LINE (RL) APPROACH\n"
+        "The Run Line and the Moneyline are SEPARATE markets. Evaluate both independently.\n"
         "\n"
-        "  1. Estimate expected combined runs using L10 RS/G where available (more\n"
-        "       current than season RS/G), otherwise use season RS/G:\n"
-        "       (Away RS/G + Home RA/G + Home RS/G + Away RA/G) / 2\n"
+        "  When to prefer RL over ML:\n"
+        "    - You have a 7+ pt edge on a team BUT the ML price is -140 or worse.\n"
+        "      Check if RL -1.5 at better odds still gives 4+ pts of edge. If yes,\n"
+        "      RL -1.5 offers better EV than ML. Bet RL instead.\n"
+        "    - You have a moderate edge (4-6 pts) on the underdog. RL +1.5 at better\n"
+        "      price may convert a marginal ML play into a clear edge.\n"
+        "    - Line movement shows RL price tightening (sharp action covering the 1.5).\n"
+        "\n"
+        "  When RL does NOT help:\n"
+        "    - Your edge is marginal (4-5 pts) on the favourite — RL -1.5 shrinks the\n"
+        "      win probability enough to erase the edge. Stick with ML or pass.\n"
+        "    - A coinflip game — neither side RL makes sense.\n"
+        "\n"
+        "  Syntax: PICK: TOR RL or PICK: BOS RL (parser infers -1.5 for favourite,\n"
+        "  +1.5 for underdog from the matchup odds). Price is the RL price.\n"
+    )
+
+    parts.append(
+        "TOTALS APPROACH\n"
+        "Totals and sides are INDEPENDENT MARKETS. A game can produce one side bet\n"
+        "(ML or RL) AND one totals bet. Both count toward the slate ceiling.\n"
+        "The TOTAL field in the output format is a full betting slot — not a note.\n"
+        "\n"
+        "Evaluate totals using this sequence for every game:\n"
+        "\n"
+        "  1. Estimate expected combined runs using L10 RS/G where available:\n"
+        "       (Away L10 RS/G + Home L10 RA/G + Home L10 RS/G + Away L10 RA/G) / 2\n"
+        "       Use season RS/G if L10 is absent.\n"
         "  2. Adjust for park factor — a factor of 105 adds roughly +0.3 to +0.5 runs;\n"
         "       a factor of 95 subtracts the same. Coors always inflates.\n"
-        "       For retractable roofs: use roof-closed park factors if roof is likely\n"
-        "       closed (cold weather, rain); use outdoor park factors if roof is likely\n"
-        "       open (warm, clear).\n"
-        "  3. Adjust for starter quality — each elite starter (xFIP < 3.50) suppresses\n"
-        "       roughly 0.5 to 0.8 runs vs an average starter. A small-sample or opener\n"
-        "       starter adds 0.3 to 0.5 runs (treat as bullpen game).\n"
-        "  4. Adjust for bullpen — a taxed bullpen (closer or 2+ relievers used\n"
-        "       yesterday) on either team adds roughly 0.3 to 0.5 runs in late innings.\n"
-        "  5. Adjust for wind — wind blowing out > 12 mph adds roughly +0.3 to +0.5 runs;\n"
-        "       wind blowing in > 12 mph subtracts the same.\n"
-        "  6. State your estimated total as a number of runs, then the gap versus\n"
-        "       the posted line in runs. Express a totals edge as a run gap, never\n"
-        "       as a win-probability percentage. Staking is your call.\n"
-        "  7. Total line movement of 0.5+ points signals sharp action — factor it in.\n"
+        "       For retractable roofs: use roof-closed factors if rain/cold expected.\n"
+        "  3. Adjust for starter quality — elite starter (xFIP < 3.50) suppresses\n"
+        "       0.5-0.8 runs. Small-sample/opener starter adds 0.3-0.5 (bullpen game).\n"
+        "  4. Adjust for bullpen — taxed bullpen on either side adds 0.3-0.5 runs late.\n"
+        "  5. Adjust for wind — blowing out >12 mph adds +0.3 to +0.5; in subtracts.\n"
+        "  6. State your estimated total as a number, then the gap vs the posted line.\n"
+        "       A gap of 1.0+ runs IS a bettable edge if two or more factors align.\n"
+        "       A gap of 0.5-0.9 runs = lean only. Under 0.5 = no bet.\n"
+        "  7. Total line movement of 0.5+ points = sharp action — factor it in.\n"
         "\n"
-        "  Strong UNDER candidates: elite starter matchup, pitcher-friendly park,\n"
-        "    cold/windy-in conditions, dome or roof confirmed closed.\n"
-        "  Strong OVER candidates: weak or small-sample starters, hitter-friendly park\n"
-        "    (esp. Coors), wind blowing out, both bullpens taxed, warm humid weather.\n"
-        "  No lean: your estimate is within 0.5 runs of the posted total.\n"
+        "  TOTALS CONFIRMATION RULE: At least TWO of the five factors (park, starter\n"
+        "  quality, bullpen, wind, run-scoring environment) must point the same way\n"
+        "  for a totals BET. One factor alone = lean only, not a bet.\n"
         "\n"
-        "  PARK CAUTION — HIGH-SCORING ENVIRONMENTS: In parks with a runs factor\n"
-        "  above 115, Under bets carry extreme variance regardless of starter quality.\n"
-        "  Treat this as a hard caution: the high-scoring environment note is not a\n"
-        "  suggestion. Do not fade this warning based on matchup quality alone.\n"
+        "  Strong UNDER: elite starter matchup, pitcher-friendly park, cold/wind-in,\n"
+        "    dome/roof closed.\n"
+        "  Strong OVER: weak/small-sample starters, hitter-friendly park (esp. Coors),\n"
+        "    wind out, both bullpens taxed, warm humid weather.\n"
         "\n"
-        "  TOTALS CONFIRMATION RULE: A lean based on a single factor (one elite\n"
-        "  starter, one park) is a weak lean only. For a lean to convert to a\n"
-        "  bet, at least two of the five factors (park, starter quality, bullpen,\n"
-        "  wind, run-scoring environment) must point in the same direction.\n"
-        "  One-factor totals bets are not published.\n"
+        "  PARK CAUTION: In parks with runs factor above 115, Under bets carry extreme\n"
+        "  variance regardless of starter quality. Hard caution — do not fade it.\n"
     )
 
     parts.append(
@@ -1875,10 +1951,28 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
     parts.append(
         "SMALL SAMPLE CHECK:\n"
         "\n"
-        "  If either starter is marked [small sample] in the pitcher block,\n"
-        "  you may not assign 3+ units or Best Bet designation. Their ERA\n"
-        "  is not predictive. Cite at least one non-ERA indicator (K/9, K-BB%,\n"
-        "  Brl%, L3 ERA trend, or last-3-starts data) if you bet at all.\n"
+        "  If either starter is marked [small sample] or [sm] in the pitcher block:\n"
+        "    - No 3-unit play or Best Bet designation on that game.\n"
+        "    - Cite at least one non-ERA indicator (K/9, K-BB%, Brl%, L3 ERA trend,\n"
+        "      or last-3-starts data) if you bet at all. ERA is not predictive.\n"
+        "\n"
+        "  VOLUME FLOOR (applies even without a [small sample] flag):\n"
+        "    - A starter with fewer than 60 IP in the AGG section is below the\n"
+        "      3-unit volume floor. Assign 1 unit maximum on games where that\n"
+        "      starter's AGG xFIP/SIERA is your primary edge signal.\n"
+        "    - A starter with fewer than 8 starts in the AGG section carries\n"
+        "      the same 1-unit ceiling regardless of ERA/xFIP quality.\n"
+        "    - Exception: if the volume-floor starter is on the OPPOSING side\n"
+        "      (i.e. you are fading them), the floor does not apply to your\n"
+        "      stake — but you must state you are fading a small-volume arm.\n"
+        "\n"
+        "  SIERA SPIKE RULE:\n"
+        "    - If a starter's AGG SIERA exceeds their AGG xFIP by more than\n"
+        "      0.50 (e.g. SIERA 4.85, xFIP 4.20), that divergence is a red\n"
+        "      flag for contact management issues not captured by strikeout\n"
+        "      and walk rates alone. Do NOT base a 3-unit play solely on xFIP\n"
+        "      when SIERA diverges this sharply — require a corroborating\n"
+        "      indicator (L14 trends, Brl%, platoon advantage, park factor).\n"
         "\n"
         "OPENER/BULK FLAG:\n"
         "\n"
@@ -1977,13 +2071,16 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
         "A pass is data, not a non-answer.\n"
         "\n"
         "## GAME: {AWAY_ABBR} @ {HOME_ABBR}\n"
-        "PICK: [team abbr + ML, or team abbr + RL, or Over {line}, or Under {line}, or PASS, or LEAN: side]\n"
+        "PICK: [team abbr + ML, or team abbr + RL, or PASS, or LEAN: side]\n"
         "PRICE: [exact American odds e.g. -128, or N/A for PASS]\n"
         "UNITS: [3 / 1 / LEAN / PASS]\n"
-        "EDGE: [your gap in percentage points e.g. \"6.2 pts\" -- or \"none\" for PASS]\n"
-        "TOTAL LEAN: [Over / Under / No lean — required for every game]\n"
-        "REASON: [2-4 sentences in your own words]\n"
-        "DATA GAP: [data NOT in this prompt that would have changed this pick — be specific, e.g. \"closer availability for KC\", \"home/away splits for Meyer\"; or \"none\"]\n"
+        "EDGE: [your gap in percentage points e.g. \"6.2 pts\" — or \"none\" for PASS]\n"
+        "TOTAL: [Over {line} / Under {line} / Lean Over / Lean Under / No bet]\n"
+        "TOTAL PRICE: [American odds for the total e.g. -110, or N/A]\n"
+        "TOTAL UNITS: [1 / LEAN / No bet]\n"
+        "TOTAL EDGE: [run gap vs posted line e.g. \"1.4 runs\" — or \"none\"]\n"
+        "REASON: [2-4 sentences — cover both side pick and totals analysis]\n"
+        "DATA GAP: [data NOT in this prompt that would have changed this pick — or \"none\"]\n"
         "\n"
         "POSTPONEMENT NOTE: If a game is postponed before first pitch, treat it as PASS.\n"
         "Log it as: PICK: PASS | PRICE: N/A | UNITS: PASS | REASON: Postponed — no result.\n"
@@ -2258,6 +2355,13 @@ def build_prompt_main(sport: str = "mlb", date: str = None, model: str = None):
             "park_factors":    load_park_factors(),
             "park_roof":       load_park_factors_roof_closed(),
             "team_barrels":    load_team_barrels(),
+            # Convert YYYY-MM-DD to the column-header format used in lineup_tracker.txt
+            # e.g. "2026-06-18" → "Thu 6/18"  (abbreviated weekday, no leading zero on month/day)
+            "lineup_tracker":  load_lineup_tracker(
+                datetime.strptime(target_date, "%Y-%m-%d").strftime("%a %-m/%-d")
+                if not sys.platform.startswith("win")
+                else datetime.strptime(target_date, "%Y-%m-%d").strftime("%a %#m/%#d")
+            ),
         }
         print("  Static data loaded.")
 

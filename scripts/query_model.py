@@ -871,8 +871,12 @@ def _call_anthropic(
     if thinking_budget is not None:
         create_kwargs["thinking"] = {"type": "enabled", "budget_tokens": thinking_budget}
 
+    # Use streaming — required by Anthropic for requests that may exceed 10 minutes.
+    # client.messages.stream() accumulates the full response and exposes usage
+    # stats via stream.get_final_message() at the end of the context manager.
     try:
-        response = client.messages.create(**create_kwargs)
+        with client.messages.stream(**create_kwargs) as stream:
+            response = stream.get_final_message()
     except ant.AuthenticationError as e:
         print(f"ERROR: Anthropic API authentication failed -- check CLAUDE_API_KEY in .env")
         print(f"       Detail: {e}")
@@ -1116,6 +1120,32 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
 
     prompt_text = prompt_path.read_text(encoding="utf-8")
 
+    # --- Phase 5b: inject per-model calibration stats ----------------------
+    # Reads picks/calibration/{model}_calibration.md if it exists.
+    # calc_calibration.py generates this file after each graded day.
+    # Appended at the END of the prompt so it never interferes with data blocks.
+    calib_path = PROJECT_ROOT / "picks" / "calibration" / f"{model}_calibration.md"
+    if calib_path.exists():
+        try:
+            calib_text = calib_path.read_text(encoding="utf-8").strip()
+            if calib_text:
+                prompt_text = (
+                    prompt_text.rstrip()
+                    + "\n\n"
+                    + "---\n"
+                    + "## YOUR CALIBRATION RECORD (as of last graded slate)\n"
+                    + "Use this to self-assess — not to chase losses or press winners.\n"
+                    + "If ROI is negative, review whether your gap calculations are honest.\n"
+                    + "If win rate is below 50%, check whether you are overconfident on prices.\n\n"
+                    + calib_text
+                    + "\n"
+                )
+                print(f"Calibration      : injected ({calib_path.name})")
+        except Exception as e:
+            print(f"Calibration      : skipped (read error: {e})")
+    else:
+        print(f"Calibration      : not available (run calc_calibration.py first)")
+
     # --- Load system prompt (permanent instructions) -----------------------
     # Falls back gracefully when the system file is missing so pre-refactor
     # prompt files (which contain instructions inline) still work.
@@ -1277,14 +1307,52 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
 # POST-MORTEM MODE
 # ─────────────────────────────────────────────────────────────────────────────
 
+def _load_rotowire_index(sport: str, date: str) -> dict:
+    """
+    Load rotowire_lineups.json and return a lookup keyed by frozenset of team abbrs.
+    Returns {} if the file is absent (pre-game capture was not run or failed).
+    """
+    path = PROJECT_ROOT / "data" / sport / date / "rotowire_lineups.json"
+    if not path.exists():
+        return {}
+    try:
+        games = json.loads(path.read_text(encoding="utf-8"))
+        return {
+            frozenset({g["away_abbr"], g["home_abbr"]}): g
+            for g in games
+            if "away_abbr" in g and "home_abbr" in g
+        }
+    except Exception:
+        return {}
+
+
+def _fmt_rotowire_side(order: list[dict], abbr: str, vs_hand: str, status: str) -> list[str]:
+    """
+    Format one side's Rotowire expected batting order into prompt lines.
+    vs_hand is the opposing SP hand ('L' or 'R') — for label context only.
+    """
+    hand_label = "LHP" if vs_hand == "L" else "RHP"
+    lines = [f"{abbr} EXPECTED ORDER (vs {hand_label}, status: {status}):"]
+    for p in order:
+        bat_order = p.get("bat_order", "?")
+        name      = p.get("name", "?")
+        pos       = p.get("pos", "")
+        bats      = p.get("bats", "")
+        pos_bats  = f"{pos}/{bats}" if pos and bats else (pos or bats)
+        lines.append(f"  {bat_order}. {name}" + (f" ({pos_bats})" if pos_bats else ""))
+    return lines
+
+
 def _build_confirmed_section(model: str, sport: str, date: str) -> str | None:
     """
     Build the CONFIRMED DATA EVALUATION block for the post-mortem prompt.
 
     Only includes games where this model BET or LEANED (not passes).
     Reads:
-      - picks/{sport}/{date}/{model}.json          (to find bet/lean games)
-      - data/{sport}/{date}/confirmed_data.json    (lineup + umpire data)
+      - picks/{sport}/{date}/{model}.json              (to find bet/lean games)
+      - data/{sport}/{date}/confirmed_data.json        (actual lineup + umpire)
+      - data/{sport}/{date}/rotowire_lineups.json      (pre-game expected lineup,
+                                                        optional — added if present)
 
     Returns a formatted block string, or None if confirmed_data.json is absent
     (i.e. fetch_confirmed_data.py hasn't been run yet for this slate).
@@ -1302,6 +1370,10 @@ def _build_confirmed_section(model: str, sport: str, date: str) -> str | None:
         confirmed_data = json.loads(confirmed_path.read_text(encoding="utf-8"))
     except Exception:
         return None
+
+    # Load Rotowire pre-game expected lineups (optional — absent if run_daily.py
+    # was not executed that morning or Rotowire was unreachable).
+    rotowire_idx = _load_rotowire_index(sport, date)
 
     # picks JSON is {"picks": [...], ...} — extract the list
     picks_data = picks_raw.get("picks", picks_raw) if isinstance(picks_raw, dict) else picks_raw
@@ -1322,9 +1394,17 @@ def _build_confirmed_section(model: str, sport: str, date: str) -> str | None:
     if not engaged_games:
         return None
 
+    has_rotowire = bool(rotowire_idx)
     ANTI_HINDSIGHT = (
-        "## CONFIRMED DATA EVALUATION (lineup + umpire) — was NOT available pre-game\n"
-        "Using ONLY the pre-game STATS of these players/umpire — NOT the game result — "
+        "## CONFIRMED DATA EVALUATION (lineup + umpire)\n"
+        + (
+            "PRE-GAME EXPECTED (Rotowire) is shown first — this WAS knowable before "
+            "first pitch. ACTUAL CONFIRMED (MLB API) follows — this was NOT available "
+            "pre-game. "
+            if has_rotowire else
+            "The confirmed lineup was NOT available pre-game. "
+        )
+        + "Using ONLY the pre-game STATS of these players/umpire — NOT the game result — "
         "would this confirmed data have changed your pick? You MUST cite a specific "
         "pre-game-knowable reason (platoon mismatch, key hitter resting, umpire zone "
         "tendency). If the confirmed lineup matches your team-level assumption, say "
@@ -1360,6 +1440,31 @@ def _build_confirmed_section(model: str, sport: str, date: str) -> str | None:
             f"### GAME: {matchup} — YOUR CALL: {call_label}\n",
         ]
 
+        # ── PRE-GAME EXPECTED (Rotowire) ──────────────────────────────────────
+        # Show what was knowable before first pitch, if we captured it.
+        rw_game = rotowire_idx.get(frozenset({away_abbr, home_abbr}))
+        if rw_game:
+            block_lines.append("#### PRE-GAME EXPECTED LINEUPS (Rotowire — knowable before first pitch)")
+            rw_away_hand = cd.get("away_sp_hand", "R")  # away SP throws → home batters face it
+            rw_home_hand = cd.get("home_sp_hand", "R")  # home SP throws → away batters face it
+            away_rw_lines = _fmt_rotowire_side(
+                rw_game.get("away_order", []),
+                away_abbr,
+                vs_hand=rw_home_hand,   # away bats vs home SP
+                status=rw_game.get("away_status", "unknown"),
+            )
+            home_rw_lines = _fmt_rotowire_side(
+                rw_game.get("home_order", []),
+                home_abbr,
+                vs_hand=rw_away_hand,   # home bats vs away SP
+                status=rw_game.get("home_status", "unknown"),
+            )
+            block_lines.extend(away_rw_lines)
+            block_lines.append("")
+            block_lines.extend(home_rw_lines)
+            block_lines.append("")
+            block_lines.append("#### ACTUAL CONFIRMED LINEUPS (MLB API — post-game)")
+
         # Away batting order (bats vs home SP hand)
         away_lu  = cd.get("away_lineup", [])
         away_avg = cd.get("away_avg_wrc")
@@ -1394,12 +1499,19 @@ def _build_confirmed_section(model: str, sport: str, date: str) -> str | None:
         block_lines.append("")
 
         # Response fields
-        block_lines.extend([
+        response_fields = []
+        if rw_game:
+            # Model can compare expected vs actual — did the lineup change materially?
+            response_fields.append(
+                "EXPECTED vs ACTUAL: [lineup matched / key change — who was added/dropped]"
+            )
+        response_fields.extend([
             "CONFIRMED LINEUP vs YOUR ASSUMPTION: [materially different / roughly as expected]",
             "WOULD CHANGE? [no change / lean→bet / bet→pass / bet→other side / bet→higher stake / bet→lower stake]",
             "PRE-GAME REASON (required if WOULD CHANGE ≠ no change):",
             "UMPIRE WOULD CHANGE? [yes/no] — pre-game reason:",
         ])
+        block_lines.extend(response_fields)
 
         blocks.append("\n".join(block_lines))
 

@@ -1,0 +1,102 @@
+## GAME: TOR @ BOS
+PICK: LEAN: BOS ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.5 pts
+TOTAL LEAN: No lean
+REASON: Sonny Gray’s SIERA/xFIP profile is nearly a full run better than Trey Yesavage’s, and Boston’s leverage arms are fresher. Toronto’s offense carries the platoon edge, but Fenway’s low HR factor and soggy south wind suppress extra-base noise. Yesavage’s small-sample aggregate keeps the edge below the betting gate.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: LEAN: MIL ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.4 pts
+TOTAL LEAN: No lean
+REASON: Milwaukee’s 136 wRC+ against lefties dwarfs Cleveland’s 48, giving the Brewers a massive matchup edge at the plate. Both starters carry small-sample flags and Cleveland’s bullpen is fully rested, trimming the margin. Milwaukee’s own high-leverage fatigue keeps this from clearing the gate.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: LEAN: MIN ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.0 pts
+TOTAL LEAN: No lean
+REASON: Joe Ryan’s strike-zone dominance and SIERA gap over a degrading Jack Leiter is the largest pitching mismatch on the slate, amplified by Globe Life’s pitcher-friendly dimensions. Minnesota’s missing closer and a rested Texas bullpen offset some of that advantage, leaving the edge short of four points.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: LEAN: SEA ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 1.8 pts
+TOTAL LEAN: No lean
+REASON: Bryan Woo’s elite SIERA/xFIP and recent form give Seattle the starter edge over a scuffling Shane Baz, and T-Mobile Park suppresses offense. Baltimore’s fresher bullpen and slightly stronger platoon numbers against righties claw back most of the gap.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ PHI
+PICK: LEAN: NYM ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 3.5 pts
+TOTAL LEAN: No lean
+REASON: Sean Manaea’s aggregate SIERA is more than half a run lower than Aaron Nola’s, and Nola’s recent walk-driven degradation adds another downgrade. The Mets also carry the platoon edge against Nola, though Manaea’s own small-sample track record caps confidence at a lean.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: LEAN: NYY ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: 2.2 pts
+TOTAL LEAN: No lean
+REASON: Ryan Weathers holds a clean SIERA and K-BB% advantage over Sean Burke, who is walking batters at an untenable rate in recent turns. The White Sox counter with a fully rested back end, which narrows the late-inning gap and keeps the edge below the betting threshold.
+DATA GAP: none
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: A 68 percent chance of rain and light drizzle create unacceptable postponement risk, forcing a pass regardless of the pitching matchup. Even if the game plays, both bullpens are fully rested and the starter gap is modest.
+DATA GAP: Roof status and confirmed first-pitch weather would clarify PPD probability.
+
+---
+
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Noah Cameron and Matthew Liberatore are statistical twins by SIERA/xFIP, and the Cardinals’ sizable platoon edge against lefties is the only clear separator. Kansas City’s home field and a rested bullpen balance the ledger, leaving no meaningful edge.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Los Angeles has not announced a starter, which triggers an automatic pass under the data-integrity rules. Gage Jump’s small-sample aggregate for Oakland adds further uncertainty to an already unpriceable game.
+DATA GAP: Confirmed LAA starter and bullpen usage clarity would be required.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No 3-unit play today.

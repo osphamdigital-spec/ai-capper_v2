@@ -1,0 +1,102 @@
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Sonny Gray holds a significant underlying pitching edge over Trey Yesavage, but Toronto's strong platoon wRC+ against right-handers offsets Boston's weak offensive splits. The gap does not clear the 4-point threshold.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Milwaukee's massive platoon advantage against left-handed pitching is neutralized by Cleveland's superior season-long starting pitching metrics and a small-sample discount on Shane Drohan's recent run. The market price accurately reflects the matchup.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Joe Ryan's elite strikeout and walk metrics give Minnesota a pitching edge, but Texas boasts a notably better lineup against right-handed pitching in a pitcher-friendly park. The opposing strengths cancel out, leaving no actionable edge.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Bryan Woo's excellent underlying run prevention gives Seattle an edge on the mound, but Baltimore's potent offense against right-handers keeps the game competitive. The market has already priced in Seattle's home-field and pitching advantages.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ PHI
+PICK: NYM ML
+PRICE: +109
+UNITS: 1
+EDGE: 5.4 pts
+TOTAL LEAN: Over
+REASON: Sean Manaea's superior SIERA and the Mets' solid platoon wRC+ against right-handers provide a distinct edge over Aaron Nola and a Phillies lineup that struggles against lefties. While the Phillies' bullpen is stronger and the park is hitter-friendly, the starting pitching and offensive split gap yields a clear 5.4-point advantage for New York.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ryan Weathers holds a moderate underlying pitching advantage over Sean Burke, but the Yankees' bullpen and home-field edge are already baked into the steep -149 price. The gap falls well short of the minimum requirement.
+DATA GAP: none
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: With a 68% chance of rain and high postponement risk, this game is an automatic pass regardless of the underlying metrics. Avoiding extreme weather variance and potential voids is paramount.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: LEAN: STL ML
+PRICE: +105
+UNITS: LEAN
+EDGE: 3.8 pts
+TOTAL LEAN: No lean
+REASON: St. Louis possesses a massive platoon wRC+ advantage against left-handed pitching, which slightly outweighs Kansas City's marginal edge in starting pitcher SIERA. However, the calculated 3.8-point gap falls just short of the 4-point edge gate, forcing a lean rather than a bet.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: The Angels' starting pitcher is TBD, which triggers an automatic pass under my data integrity rules. No edge can be calculated without confirmed pitcher data.
+DATA GAP: Angels starting pitcher confirmation
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

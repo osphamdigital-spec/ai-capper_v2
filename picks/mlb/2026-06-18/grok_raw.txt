@@ -1,0 +1,102 @@
+## GAME: TOR @ BOS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Gray shows clear advantages in aggregate xFIP (3.24), SIERA (3.45), and K-BB% (19.6%) over Yesavage, with strong recent form, while the visitor's L14 metrics are poor and flagged small sample; after park, platoon, and bullpen adjustments my BOS win probability estimate is 58.5% against the market's 55.4% implied from -124, producing only a 3.1-point gap below the minimum edge gate.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ MIL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Messick and Drohan post similar Stf+ and aggregate metrics with both flagged small sample on recent samples; MIL's strong home record and offense give them a modest edge but my estimated MIL win probability of 58% falls short of the 4-point gap needed versus the -147 market implied probability of 59.5%.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Ryan posts strong aggregate xFIP/SIERA and K-BB% while Leiter's L14 numbers are weak though his overall Stf+ is comparable; platoon edge to TEX and Globe Life pitcher park offset much of the starter gap, yielding my estimated MIN win probability of 54.5% against the -124 market implied 55.4% for a sub-4-point gap.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Woo holds clear advantages in aggregate xFIP (3.47), SIERA (3.38), Stf+ (110), and recent form over Baz whose L14 is poor and small-sample flagged; T-Mobile Park favors pitchers but my estimated SEA win probability of 62% produces only a 2.2-point gap versus the -149 market implied 59.8%.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Manaea shows strong aggregate xFIP/SIERA/K-BB% and excellent recent L14 while Nola's L14 is weak though aggregates are close; road start and Citizens Bank Park offset much of the edge, leaving my estimated NYM win probability at 48% against the +104 market implied 49% for a negligible gap.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Weathers holds better aggregate xFIP/SIERA/K-BB% than Burke despite both recent samples flagged small; NYY's home strength and bullpen freshness add to the edge but my estimated NYY win probability of 62.5% yields only a 1.5-point gap versus the -157 market implied 61%.
+DATA GAP: none
+
+---
+
+## GAME: SF @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Roupp posts superior aggregate xFIP (3.83) and Stf+ (98) to Pérez despite the latter's better L14; ATL home advantage and team form are offset by the starter gap, resulting in my estimated ATL win probability of 56.5% against the -142 market implied 58.7% for a sub-4-point gap.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: Cameron and Liberatore post comparable aggregate metrics with both recent samples small-sample flagged; STL's better record provides a slight edge but my estimated STL win probability of 48% against the +102 market implied 49.5% produces no meaningful gap.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL LEAN: No lean
+REASON: LAA starter remains TBD with no confirmed data available, triggering an automatic pass per data integrity rules regardless of other factors like Jump's small-sample metrics or park.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE:

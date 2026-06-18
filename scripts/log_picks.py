@@ -288,12 +288,14 @@ def parse_fields(block: str) -> dict:
 def parse_game_block(
     block: str,
     game_lookup: dict,
-) -> dict | None:
+) -> tuple[dict, dict | None] | None:
     """
-    Parse one ## GAME: block into a structured pick record.
+    Parse one ## GAME: block into (side_pick, total_pick).
 
-    Returns a dict ready to be stored in the picks JSON, or None if the
-    game header can't be matched to a known game.
+    side_pick  — always present when the block is valid (action may be "pass")
+    total_pick — present when TOTAL: field is Over/Under/Lean; None otherwise
+
+    Returns None if the game header can't be matched to a known game.
     """
     lines = block.strip().split("\n")
     if not lines:
@@ -323,13 +325,17 @@ def parse_game_block(
     body = "\n".join(lines[1:])
     fields = parse_fields(body)
 
-    pick_raw   = fields.get("PICK", "").strip()
-    price_raw  = fields.get("PRICE", "").strip()
-    units_raw  = fields.get("UNITS", "").strip()
-    edge_raw   = fields.get("EDGE", "").strip()
-    reason     = fields.get("REASON", "").strip()
+    pick_raw        = fields.get("PICK", "").strip()
+    price_raw       = fields.get("PRICE", "").strip()
+    units_raw       = fields.get("UNITS", "").strip()
+    edge_raw        = fields.get("EDGE", "").strip()
+    reason          = fields.get("REASON", "").strip()
+    total_raw       = fields.get("TOTAL", "").strip()
+    total_price_raw = fields.get("TOTAL PRICE", "").strip()
+    total_units_raw = fields.get("TOTAL UNITS", "").strip()
+    total_edge_raw  = fields.get("TOTAL EDGE", "").strip()
     # Accept both "DATA GAP" (current) and "LOOKED UP" (legacy pre-Jun-15 files)
-    data_gap   = (fields.get("DATA GAP") or fields.get("LOOKED UP") or "").strip()
+    data_gap        = (fields.get("DATA GAP") or fields.get("LOOKED UP") or "").strip()
 
     action                 = parse_action(units_raw)
     pick_side, pick_market = parse_pick_side_and_market(pick_raw, away_abbr, home_abbr)
@@ -361,7 +367,70 @@ def parse_game_block(
         if parse_warning:
             break   # one warning per block is enough
 
-    return {
+    # ── Parse TOTAL: field as an independent second pick ─────────────────────
+    # TOTAL: Over 8.5  → bet on the over
+    # TOTAL: Under 7.5 → bet on the under
+    # TOTAL: Lean Over / Lean Under → lean, no units
+    # TOTAL: No bet / No lean / absent → skip
+    total_pick = None   # dict, or None if no total bet/lean
+    total_str = total_raw.upper().strip()
+    if total_str and total_str not in ("NO BET", "NO LEAN", "NONE", "N/A", ""):
+        t_side = None
+        t_action = None
+        if total_str.startswith("OVER"):
+            t_side = "over"
+            t_action = "bet"
+        elif total_str.startswith("UNDER"):
+            t_side = "under"
+            t_action = "bet"
+        elif "LEAN OVER" in total_str:
+            t_side = "over"
+            t_action = "lean"
+        elif "LEAN UNDER" in total_str:
+            t_side = "under"
+            t_action = "lean"
+
+        if t_side:
+            t_price = parse_price(total_price_raw)
+            t_units_str = total_units_raw.upper().strip()
+            if t_action == "lean" or t_units_str in ("LEAN", ""):
+                t_units = 0
+                t_action = "lean"
+            elif t_units_str == "NO BET":
+                t_units = 0
+                t_action = "pass"
+            else:
+                t_units = parse_units(t_units_str) if t_units_str else 0
+                if t_units and t_units > 0:
+                    t_action = "bet"
+                else:
+                    t_action = "lean"
+            t_edge = total_edge_raw.lower() if total_edge_raw else None
+
+            total_pick = {
+                "game_id":     game_info["game_id"],
+                "matchup":     header,
+                "away_abbr":   away_abbr,
+                "home_abbr":   home_abbr,
+                "action":      t_action,
+                "pick_raw":    total_raw,
+                "pick_side":   t_side,
+                "pick_market": "total",
+                "price":       t_price,
+                "units":       t_units,
+                "units_raw":   total_units_raw or t_action.upper(),
+                "edge":        t_edge,
+                "reason":      reason,
+                "data_gap":    data_gap,
+                "result":        None,
+                "profit_units":  None,
+                "clv":           None,
+                "closing_line":  None,
+                "parse_warning": None,
+                "_is_total":   True,   # internal flag so summary tables can label it
+            }
+
+    side_pick = {
         # Join key — links this pick to game data and results
         "game_id":     game_info["game_id"],
         "matchup":     header,
@@ -378,21 +447,24 @@ def parse_game_block(
         # Staking and confidence
         "units":       units,        # 0 for pass/lean, 1/3 for bets
         "units_raw":   units_raw,    # original string ("PASS", "1", "LEAN", etc.)
-        "edge":        edge,         # numeric gap string e.g. "6.2 pts" (v3.1+) or "none" for pass
+        "edge":        edge,         # numeric gap string e.g. "6.2 pts"
 
-        # The model's reasoning — kept for display and transparency
+        # The model's reasoning
         "reason":      reason,
         "data_gap":    data_gap,
 
         # Grading fields — populated later by grade_picks.py
-        "result":        None,   # "win" | "loss" | "push" | "void"
-        "profit_units":  None,   # float, positive for wins, negative for losses
-        "clv":           None,   # closing line value (pick price vs closing price)
-        "closing_line":  None,   # what the line closed at
+        "result":        None,
+        "profit_units":  None,
+        "clv":           None,
+        "closing_line":  None,
 
-        # Parser health — set when contamination was detected and corrected
+        # Parser health
         "parse_warning": parse_warning,
     }
+
+    # Return side pick + optional total pick (caller decides how to store both)
+    return side_pick, total_pick
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -525,7 +597,10 @@ def parse_response(raw_text: str, game_lookup: dict) -> tuple[list, dict | None,
                 body = part[len("## GAME:"):].strip().replace("\n---", "").strip()
                 result = parse_game_block(body, game_lookup)
                 if result:
-                    picks.append(result)
+                    side_pick, total_pick = result
+                    picks.append(side_pick)
+                    if total_pick:
+                        picks.append(total_pick)
             elif part.startswith("## PARLAY"):
                 parlay = parse_parlay_block(part[len("## PARLAY"):].strip())
             elif part.startswith("## SLATE SUMMARY"):
@@ -563,7 +638,10 @@ def parse_response(raw_text: str, game_lookup: dict) -> tuple[list, dict | None,
             body = part[m.end():].strip().replace("\n---", "").strip()
             result = parse_game_block(body, game_lookup)
             if result:
-                picks.append(result)
+                side_pick, total_pick = result
+                picks.append(side_pick)
+                if total_pick:
+                    picks.append(total_pick)
 
         # Parse PARLAY from the tail (between PARLAY and SLATE SUMMARY)
         parlay = None
@@ -664,7 +742,9 @@ def log_picks(model: str, sport: str, date: str, input_path: Path):
     # initial output — later blocks supersede earlier ones for the same game.
     seen: dict[str, int] = {}
     for i, p in enumerate(picks):
-        seen[p["matchup"]] = i   # last index wins
+        # Key by matchup + market so side and total picks coexist for the same game
+        market = p.get("pick_market") or ("total" if p.get("_is_total") else "ml")
+        seen[(p["matchup"], market)] = i   # last index wins
     deduped = [picks[i] for i in sorted(seen.values())]
     if len(deduped) < len(picks):
         dropped = len(picks) - len(deduped)
@@ -716,7 +796,7 @@ def log_picks(model: str, sport: str, date: str, input_path: Path):
         "best_bet_skip":     best_bet_skip,
         "best_bet_skip_reason": skip_reason,
         "counts": {
-            "games":        len(picks),
+            "games":        len({p["matchup"] for p in picks}),
             "bets":         len(bets),
             "leans":        len(leans),
             "passes":       len(passes),
@@ -742,7 +822,9 @@ def log_picks(model: str, sport: str, date: str, input_path: Path):
 
     for p in picks:
         action_str = p["action"].upper()[:4]   # BET / LEA / PAS
-        pick_str   = p["pick_raw"][:16]
+        # Label totals picks so they're visually distinct from side picks
+        label_prefix = "[TOT] " if p.get("_is_total") else ""
+        pick_str   = (label_prefix + (p["pick_raw"] or ""))[:16]
         price_str  = str(p["price"]) if p["price"] is not None else "N/A"
         units_str  = str(p["units"]) if p["units"] else p["units_raw"]
         edge_str   = (p["edge"] or "").upper()[:6]

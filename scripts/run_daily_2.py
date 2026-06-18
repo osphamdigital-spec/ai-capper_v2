@@ -3,7 +3,7 @@
 scripts/run_daily_2.py
 
 Post-game orchestrator — the counterpart to run_daily.py.
-Chains fetch_results → fetch_confirmed_data → run_postmortem_all
+Chains fetch_results → fetch_confirmed_data → run_postmortem_all → calc_calibration
 in the correct order, with guards, so it stops being run manually
 one script at a time.
 
@@ -436,6 +436,26 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
         else:
             print(f"\n  OK — all {len(ok_models)} post-mortem(s) complete.")
 
+    # ── SIDELINE: LINEUP ACCURACY COMPARISON ──────────────────────────────────
+    # Diagnostic only — compares Rotowire EXPECTED (captured pre-game by
+    # run_daily.py) vs MLB ACTUAL confirmed lineups vs tracker REGULARS.
+    # Always non-fatal; reports coverage if any source is missing.
+    print(f"\n{'-' * 55}")
+    print(f"  SIDELINE: Lineup accuracy comparison")
+    print(f"{'-' * 55}")
+    run_step("Compare Lineups", "compare_lineups.py", ["--sport", sport, "--date", target_date])
+
+    # ── STEP 4: CALIBRATION UPDATE ────────────────────────────────────────────
+    # Refresh per-model calibration stats after grading is complete.
+    # Only runs when postmortems are all OK — avoids partial-night skew.
+    # Output: picks/calibration/{model}_calibration.md  (overwrites previous).
+    # These files are read by Phase 5b to inject stats into the next prompt.
+    if ok_models and not incomplete:
+        print(f"\n{'-' * 55}")
+        print(f"  STEP 4: Calibration update")
+        print(f"{'-' * 55}")
+        run_step("Calc Calibration", "calc_calibration.py", ["--sport", sport])
+
     # ── FINAL SUMMARY ─────────────────────────────────────────────────────────
     print(f"\n{'=' * 55}")
     print(f"  POST-GAME PIPELINE COMPLETE  {sport.upper()}  {target_date}")
@@ -449,6 +469,8 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
     print(f"    data/{sport}/{target_date}/confirmed_data.json")
     print(f"    picks/{sport}/{target_date}/{{model}}_postmortem.txt  (x8)")
     print(f"    picks/{sport}/{target_date}/post_mortem_{target_date}.txt")
+    if ok_models and not incomplete:
+        print(f"    picks/calibration/{{model}}_calibration.md  (x8 — updated)")
     print(f"{'=' * 55}\n")
 
     # Exit 2 = postmortems incomplete (retry-able). 0 = all good.

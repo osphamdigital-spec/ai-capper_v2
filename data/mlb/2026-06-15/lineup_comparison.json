@@ -1,0 +1,346 @@
+{
+  "sport": "mlb",
+  "date": "2026-06-15",
+  "games": 10,
+  "coverage": {
+    "rotowire_games": 0,
+    "mlb_confirmed_games": 10,
+    "tracker_teams": 30
+  },
+  "summary": {
+    "rotowire_vs_actual_pct": null,
+    "tracker_vs_actual_pct": 86.1,
+    "rotowire_scored_slots": 0,
+    "tracker_scored_slots": 180
+  },
+  "detail": [
+    {
+      "matchup": "ATH@PIT",
+      "teams": {
+        "ATH": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 9,
+            "of": 9,
+            "pct": 100.0,
+            "missed": [],
+            "extra": []
+          }
+        },
+        "PIT": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "esmerlyn valdez"
+            ],
+            "extra": [
+              "jared triolo"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "matchup": "CHC@COL",
+      "teams": {
+        "CHC": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "matt shaw"
+            ],
+            "extra": [
+              "carson kelly"
+            ]
+          }
+        },
+        "COL": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 7,
+            "of": 9,
+            "pct": 77.8,
+            "missed": [
+              "braxton fulford",
+              "tyler freeman"
+            ],
+            "extra": [
+              "edouard julien",
+              "troy johnston"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "matchup": "MIA@PHI",
+      "teams": {
+        "MIA": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 9,
+            "of": 9,
+            "pct": 100.0,
+            "missed": [],
+            "extra": []
+          }
+        },
+        "PHI": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "edmundo sosa"
+            ],
+            "extra": [
+              "alec bohm"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "matchup": "DET@HOU",
+      "teams": {
+        "DET": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "gleyber torres"
+            ],
+            "extra": [
+              "hao yu lee"
+            ]
+          }
+        },
+        "HOU": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 6,
+            "of": 9,
+            "pct": 66.7,
+            "missed": [
+              "brice matthews",
+              "christian vazquez",
+              "taylor trammell"
+            ],
+            "extra": [
+              "jake meyers",
+              "joey loperfido",
+              "yainer diaz"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "matchup": "AZ@LAA",
+      "teams": {
+        "AZ": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 9,
+            "of": 9,
+            "pct": 100.0,
+            "missed": [],
+            "extra": []
+          }
+        },
+        "LAA": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "denzer guzman"
+            ],
+            "extra": [
+              "vaughn grissom"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "matchup": "CIN@NYM",
+      "teams": {
+        "CIN": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "noelvi marte"
+            ],
+            "extra": [
+              "nathaniel lowe"
+            ]
+          }
+        },
+        "NYM": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 9,
+            "of": 9,
+            "pct": 100.0,
+            "missed": [],
+            "extra": []
+          }
+        }
+      }
+    },
+    {
+      "matchup": "LAD@TB",
+      "teams": {
+        "LAD": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "alex freeland"
+            ],
+            "extra": [
+              "tommy edman"
+            ]
+          }
+        },
+        "TB": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 5,
+            "of": 9,
+            "pct": 55.6,
+            "missed": [
+              "austin slater",
+              "ben williamson",
+              "nick fortes",
+              "ryan vilade"
+            ],
+            "extra": [
+              "chandler simpson",
+              "hunter feduccia",
+              "richie palacios",
+              "victor mesa"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "matchup": "KC@WAS",
+      "teams": {
+        "KC": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 7,
+            "of": 9,
+            "pct": 77.8,
+            "missed": [
+              "nick loftin",
+              "starling marte"
+            ],
+            "extra": [
+              "kameron misner",
+              "michael massey"
+            ]
+          }
+        },
+        "WAS": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 9,
+            "of": 9,
+            "pct": 100.0,
+            "missed": [],
+            "extra": []
+          }
+        }
+      }
+    },
+    {
+      "matchup": "SD@STL",
+      "teams": {
+        "SD": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "sung mun song"
+            ],
+            "extra": [
+              "samad taylor"
+            ]
+          }
+        },
+        "STL": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 9,
+            "of": 9,
+            "pct": 100.0,
+            "missed": [],
+            "extra": []
+          }
+        }
+      }
+    },
+    {
+      "matchup": "MIN@TEX",
+      "teams": {
+        "MIN": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 5,
+            "of": 9,
+            "pct": 55.6,
+            "missed": [
+              "alex jackson",
+              "austin martin",
+              "kyler fedko",
+              "ryan kreidler"
+            ],
+            "extra": [
+              "brooks lee",
+              "trevor larnach",
+              "tristan gray",
+              "victor caratini"
+            ]
+          }
+        },
+        "TEX": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 7,
+            "of": 9,
+            "pct": 77.8,
+            "missed": [
+              "cody freeman",
+              "nicky lopez"
+            ],
+            "extra": [
+              "ezequiel duran",
+              "josh smith"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

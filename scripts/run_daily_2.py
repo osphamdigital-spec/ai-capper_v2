@@ -209,6 +209,34 @@ def _check_picks_integrity(sport: str, date: str) -> tuple[list[str], list[str]]
     return ok_models, skip_models
 
 
+# Minimum chars a valid post-mortem response must contain.
+# Matches the same threshold in run_postmortem_all.py.
+_PM_MIN_CHARS = 300
+
+
+def _verify_postmortems(sport: str, date: str, ok_models: list[str]) -> list[str]:
+    """
+    Check that every model in ok_models has a non-trivial per-model postmortem file.
+
+    ok_models is the list that passed the integrity gate (counts.games > 0).
+    Models that were skipped by the integrity gate are excluded — they never
+    had valid picks so no postmortem was expected.
+
+    Returns a list of model names whose postmortem is missing or shorter than
+    _PM_MIN_CHARS (indicating an empty or truncated response).
+    """
+    picks_dir  = PROJECT_ROOT / "picks" / sport / date
+    incomplete = []
+
+    for model in ok_models:
+        pm_file = picks_dir / f"{model}_postmortem.txt"
+        size    = pm_file.stat().st_size if pm_file.exists() else 0
+        if size < _PM_MIN_CHARS:
+            incomplete.append((model, size))
+
+    return incomplete
+
+
 def _print_section(title: str):
     """Print a consistent section header matching run_daily.py's style."""
     print(f"\n{'=' * 55}")
@@ -363,8 +391,10 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
         # query_model.py reads confirmed_data.json and injects the confirmed-data
         # section automatically — no extra args needed here.
         #
-        # Per-model failures are handled internally (retry logic, skip guard, summary).
-        # We do NOT halt on non-zero exit — a single failed model is not a chain failure.
+        # run_postmortem_all handles per-model skipping (already-done guard),
+        # one built-in retry per model at 90s, and its own failure summary.
+        # We do NOT halt here on non-zero exit — verification below decides
+        # whether a retry of the whole pipeline is needed.
         pm_args = ["--sport", sport, "--date", target_date]
         if rerun:
             pm_args.append("--rerun")
@@ -374,12 +404,39 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
             pm_args.extend(["--models", ",".join(ok_models)])
 
         run_step("Run Postmortem All", "run_postmortem_all.py", pm_args)
-    # Non-zero exit = one or more models failed internally. Already reported by
-    # run_postmortem_all's own summary. Chain does not halt.
 
-    # ── FINAL SUMMARY ─────────────────────────────────────────────────────────
+    # ── FINAL VERIFICATION ────────────────────────────────────────────────────
+    # Check that every model that had valid picks now has a non-trivial
+    # postmortem file on disk. Any model whose file is missing or shorter
+    # than _PM_MIN_CHARS chars either failed its API call or was never run.
+    #
+    # Exit code 2 signals "incomplete — safe to retry" to the PowerShell
+    # wrapper (run_daily_2_retry.ps1). On re-run, run_postmortem_all's
+    # model_already_done() guard skips completed models automatically so
+    # only the missing ones are re-attempted. Steps 1 and 2 are idempotent.
     total_elapsed = time.time() - wall_start
 
+    if ok_models:
+        incomplete = _verify_postmortems(sport, target_date, ok_models)
+
+        print(f"\n{'=' * 55}")
+        print(f"  VERIFICATION  {sport.upper()}  {target_date}")
+        print(f"{'=' * 55}")
+
+        if incomplete:
+            print(f"\n  INCOMPLETE — {len(incomplete)} of {len(ok_models)} post-mortem(s) missing or too short:")
+            for model, size in incomplete:
+                status = "missing" if size == 0 else f"{size} bytes (below {_PM_MIN_CHARS}-char minimum)"
+                print(f"    {model}: {status}")
+            print(f"\n  On retry, completed models will be skipped automatically.")
+            print(f"  Re-run with the retry wrapper:")
+            print(f"    .\\run_daily_2_retry.ps1 {sport}")
+            print(f"  Or re-run manually (completed models will be skipped):")
+            print(f"    python scripts/run_daily_2.py {sport} --date {target_date}")
+        else:
+            print(f"\n  OK — all {len(ok_models)} post-mortem(s) complete.")
+
+    # ── FINAL SUMMARY ─────────────────────────────────────────────────────────
     print(f"\n{'=' * 55}")
     print(f"  POST-GAME PIPELINE COMPLETE  {sport.upper()}  {target_date}")
     print(f"  Total: {total_elapsed:.0f}s")
@@ -393,6 +450,12 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
     print(f"    picks/{sport}/{target_date}/{{model}}_postmortem.txt  (x8)")
     print(f"    picks/{sport}/{target_date}/post_mortem_{target_date}.txt")
     print(f"{'=' * 55}\n")
+
+    # Exit 2 = postmortems incomplete (retry-able). 0 = all good.
+    # Exit 1 is reserved for hard pipeline errors (fetch_results failure, etc.)
+    # and is raised via sys.exit(1) earlier in the function.
+    if ok_models and incomplete:
+        sys.exit(2)
 
 
 # ─────────────────────────────────────────────────────────────────────────────

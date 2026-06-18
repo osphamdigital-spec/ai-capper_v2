@@ -1,0 +1,182 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: NONE  
+WHY: I still would not force a 3-unit designation from this slate. The two actual bets were both modest-edge prices, and most of the strongest eventual winners on my card were intentionally held as leans because the pre-game edge did not clear my threshold without confirmed lineups.  
+SOURCE: Original card / threshold rules
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: KC @ WAS  
+PICK: WAS ML -126  
+RESULT: LOSS  
+PROCESS: MISREAD PRICE  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: The pre-game case for Washington depended on two ideas: (1) KC’s starter being a real enough liability to erase Littell’s own limitations, and (2) Washington having the better run-environment fit plus fresher leverage relief. The confirmed lineups do not support a clear Nats offensive edge: KC’s lineup avg vs RHP was 107.1, Washington’s was 103.0, so my “Washington offense projects better” angle was too thin for a -126 favorite. I still had a reasonable anti-Avila starting-pitcher argument, but that alone was not enough to justify laying the price with only a modest bullpen edge.  
+SOURCE: Confirmed lineup averages in prompt; original reasoning
+
+---
+
+GAME: TOR @ BOS  
+PICK: TOR ML +123  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game logic held up. Toronto got the stronger split setup versus a lefty, and the confirmed lineups did not undercut that. TOR’s top of the order vs LHP was exactly the profile I wanted: Springer 126, Guerrero 156, Okamoto 131, with enough right-handed quality to justify a plus-money shot. Boston’s lineup vs RHP was not especially threatening in aggregate either. This was a sound plus-price bet based on available pre-game split and bullpen logic.  
+SOURCE: Confirmed TOR/BOS lineups; original reasoning
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: MIA @ PHI  
+YOUR CALL: LEAN  
+FINAL RESULT: MIA win  
+WHAT YOU MISSED: The confirmed lineups would have pushed this from lean to bet. My original hesitation was Philadelphia’s home-field/bullpen edge and uncertainty around Harper/Schwarber availability. Once confirmed, Philadelphia’s lineup avg vs RHP was just 46.7, with major holes throughout the order outside Harper. That is not just “a little weaker than expected”; it materially changes the baseline and strengthens the Alcantara side enough to clear the threshold at near even money.  
+SOURCE: Confirmed PHI lineup in prompt  
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+GAME: LAA @ AZ  
+YOUR CALL: LEAN  
+FINAL RESULT: AZ win  
+WHAT YOU MISSED: The confirmed lineup data meaningfully strengthened Arizona’s side. Arizona’s lineup avg vs LHP was 121.0, while the Angels’ avg vs LHP was only 87.6 despite a few strong individual bats. My original writeup acknowledged Arizona’s offensive split edge, but these confirmed orders suggest that edge was larger and deeper than I treated it pre-lineup.  
+SOURCE: Confirmed LAA/AZ lineups in prompt  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: CHW @ NYY  
+YOUR CALL: LEAN  
+FINAL RESULT: NYY win  
+WHAT YOU MISSED: The confirmed lineups would have flipped me off the White Sox dog lean. My original thought was that Chicago had “crushed left-handed pitching,” making the big underdog attractive. But the actual lineup posted only a 77.6 avg wRC+ vs LHP, while the Yankees’ lineup vs LHP was 107.0 with several elite split bats. That means my pre-game team-level split assumption was not supported by the actual hitters available.  
+SOURCE: Confirmed CHW/NYY lineups in prompt  
+WOULD THIS HAVE BECOME A BET? NO
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Confirmed lineups delivered in a machine-readable, pre-lock format with team-level split summary and top-6 weighted contribution  
+WHICH GAME(S): MIA @ PHI, LAA @ AZ, CHW @ NYY, NYM @ CIN  
+WOULD HAVE CHANGED A BET? YES  
+WHY: These were the clearest examples where lineup confirmation materially altered the offensive baseline versus the handedness split I was pricing.
+
+---
+
+TYPE: STAT  
+ITEM: Bullpen availability index by leverage tier, not just generic bullpen strength  
+WHICH GAME(S): KC @ WAS, DET @ HOU, BAL @ SEA  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I referenced bullpen trust/freshness, but a sharper leverage-ready availability input would improve price sensitivity, especially in near-fair games.
+
+---
+
+TYPE: SOURCE  
+ITEM: Starting pitcher confirmation feed earlier in workflow for TBD games  
+WHICH GAME(S): SD @ STL, SF @ ATL  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Both were automatic passes under current rules due to TBD starters. Earlier certainty would at least allow a true fair-price projection.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Require a stronger penalty for favorite bets when the projected offensive edge is modest and not yet lineup-confirmed; conversely, allow near-threshold underdogs to upgrade faster once confirmed lineups materially support the split thesis.  
+WHAT IN MY METHOD COULD BE SHARPER: I was a little too comfortable converting a thin team-context edge into a favorite price on Washington without confirmation, while also staying too conservative on a near-even underdog like Miami despite lineup uncertainty that had more downside for the favorite than for the dog.  
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):  
+- KC @ WAS: confirmed lineup averages were KC 107.1 vs RHP and WAS 103.0 vs RHP, so the offensive edge I assigned Washington was not strong enough to justify -126.  
+- MIA @ PHI: confirmed PHI lineup avg vs RHP was 46.7, a dramatic downgrade from generic Phillies team baseline assumptions; that should have triggered an upgrade on Miami once confirmed.  
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: NYM @ CIN — YOUR CALL: LEAN away
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: The confirmed lineups support the original Mets split edge: NYM lineup avg 99.0 vs LHP, CIN 81.7 vs RHP. That validates the lean but does not force a bet at the existing price in a high-variance park.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific zone tendency supplied, so no valid pre-game adjustment.
+
+---
+
+### GAME: KC @ WAS — YOUR CALL: BET home ML -126 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→lower stake  
+PRE-GAME REASON: The confirmed lineups did not show the Washington offensive edge I was pricing. KC’s lineup avg vs RHP was slightly stronger than WAS’s, so the favorite case rested too heavily on bullpen/freshness and anti-starter assumptions.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency supplied.
+
+---
+
+### GAME: MIA @ PHI — YOUR CALL: LEAN away
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? lean→bet  
+PRE-GAME REASON: Philadelphia’s confirmed lineup vs RHP was dramatically weaker than a normal Phillies baseline, with a 46.7 avg wRC+ and multiple subpar bats around Harper. That materially strengthens Miami’s side with the better starter case already in hand.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency supplied.
+
+---
+
+### GAME: LAA @ AZ — YOUR CALL: LEAN home
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? lean→bet  
+PRE-GAME REASON: Arizona’s lineup avg vs LHP was 121.0 against an Angels lineup avg of 87.6. That is a larger split advantage than I was treating pre-lineup and likely enough to clear the edge gate despite Rodriguez not being dominant.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency supplied.
+
+---
+
+### GAME: TOR @ BOS — YOUR CALL: BET away ML 123 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Toronto’s lineup still had the right-handed/anti-lefty shape I wanted, especially at the top, and Boston’s order did not present a strong counter. The original plus-money bet remains justified.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency supplied.
+
+---
+
+### GAME: CHW @ NYY — YOUR CALL: LEAN away
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→other side  
+PRE-GAME REASON: More precisely, lean→other side/no-bet. The White Sox lineup posted only a 77.6 avg wRC+ vs LHP, so the “crushed lefties” premise did not hold for the actual hitters available. Meanwhile NYY’s lineup vs LHP was robust at 107.0 with multiple premium split bats.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency supplied.
+
+---
+
+### GAME: COL @ CHC — YOUR CALL: LEAN home
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Both lineups were strong enough that my main issue remained price, not side. Chicago still had enough starter/bullpen edge, but not enough to force a bigger-money favorite into bet range.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency supplied.
+
+---
+
+### GAME: PIT @ ATH — YOUR CALL: LEAN away
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: The lineup gap was not big enough to alter the original logic. Pittsburgh still looked like the slightly better side on starter profile and overall price, but the park/variance environment still argued against escalating to a full bet.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency supplied.
+
+---
+
+## Bottom-line self-review
+
+What worked:
+- Plus-money underdog selection in TOR was good process.
+- Conservative passing on TBD-starter games was still correct process.
+- Several leans were on the right side because the initial split and bullpen reads were directionally sound.
+
+What failed:
+- I overpriced Washington as a favorite without enough confirmed offensive separation.
+- I was too slow to upgrade Miami and Arizona once lineup-sensitive logic would have supported it.
+- The CHW lean shows I relied too much on broad team split language without enough concern for who was actually in the lineup.
+
+What I’d change next slate:
+- Be stricter laying juice before confirmed lineups.
+- Be more aggressive upgrading near-threshold dogs/favorites once lineups clearly validate the split thesis.
+- Treat “team crushes X-handed pitching” as provisional unless the actual posted lineup supports it.

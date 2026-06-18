@@ -1,0 +1,79 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+IF NO — NEW BEST BET: TOR ML +123 / WHY: With an 8.2-point edge and plus-money pricing, this was mathematically the strongest play on the board. While I capped it at 1 unit due to small-sample pitching data, the combination of a perceived massive platoon advantage and a pitching edge makes it the most justifiable 3-unit candidate in retrospect. / SOURCE: Pre-game wRC+ platoon splits and SIERA projections.
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: KC @ WAS
+PICK: WAS ML -126
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: The pre-game SIERA gap between Zack Littell (4.55) and Luinder Avila (6.26) was a massive 1.71 runs. Assuming equal offensive environments (both at 92 wRC+), this translates to a clear and significant run-prevention edge. Losing a 1-unit bet on a 60% win probability is standard baseball variance, especially when dealing with small-sample pitching data.
+SOURCE: Pre-game SIERA and team wRC+ averages.
+
+GAME: TOR @ BOS
+PICK: TOR ML +123
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES (with caveat, see Confirmed Data Evaluation)
+WHY: Based on the team-level data available at the time of the pick, getting plus-money (+123) on a team with a 15-point platoon advantage (101 vs 86 wRC+) and a slight pitching edge (4.58 vs 4.88 SIERA) was an excellent mathematical spot. The 8.2-point edge was accurately identified from the macro data.
+SOURCE: Pre-game team wRC+ splits and SIERA.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE. The passes were well-reasoned and mostly correct. Avoiding heavy favorites with minimal edges (LAD, AZ, CHC), avoiding extreme variance environments (Sutter Health Park), and strictly passing on TBD starters (SD, SF) all represent sound bankroll preservation. 
+
+---
+
+## S3: DATA REQUEST
+TYPE: DATA
+ITEM: Confirmed starting lineups and specific batting order platoon splits (rather than team-season averages).
+WHICH GAME(S): All (specifically TOR @ BOS and KC @ WAS).
+WOULD HAVE CHANGED A BET? YES
+WHY: As demonstrated in the TOR @ BOS evaluation, team-average wRC+ can mask severe drop-offs in the bottom of a specific day's lineup, completely erasing a perceived platoon advantage.
+
+TYPE: DATA
+ITEM: Bullpen leverage arms availability and rest days.
+WHICH GAME(S): All.
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: When starters have small-sample L14 data, they are often on shorter leashes. Knowing which high-leverage relievers are rested or fatigued is crucial for late-game win probability.
+
+TYPE: STAT
+ITEM: Starting pitcher pitch mix and velocity trends over L3 starts.
+WHICH GAME(S): KC @ WAS, TOR @ BOS.
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Supplementing SIERA with recent velocity/mix data could help validate if a starter's underlying performance is trending up or down, helping to mitigate small-sample SIERA traps.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+PROPOSED CHANGE: Lower the edge threshold for betting in extreme hitter-friendly parks (like GABP or Coors) when a clear, confirmed platoon advantage exists, even if the starting pitching SIERA gap is narrow.
+WHAT IN MY METHOD COULD BE SHARPER: I currently rely heavily on SIERA gaps to overcome park factors. However, in extreme hitter parks, a platoon advantage might amplify the run environment and scoring variance more than SIERA suggests, making the team with the platoon edge more valuable than a strict SIERA comparison implies.
+EVIDENCE FROM TODAY: NYM @ CIN. The Mets had a clear platoon advantage against Lodolo (LHP). I passed because the SIERA gap (3.41 vs 3.76) was too narrow to overcome the park factor. The Mets won 9-1. The platoon advantage in a hitter park might be worth more than a 0.35 SIERA gap.
+CONFIDENCE: LOW
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: KC @ WAS — YOUR CALL: BET home ML -126 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE: bet→lower stake
+PRE-GAME REASON: The confirmed KC lineup (107.1 wRC+ vs RHP) is much stronger than my team-average assumption (92 wRC+), featuring heavy hitters like Witt (115), Caglianone (118), and Misner (169). Meanwhile, the WAS lineup (103.0 wRC+) is closer to my assumption but features a very weak bottom third (Nuñez 31, Tena 74). This reduces the offensive gap and makes the KC offense significantly more dangerous against Littell than modeled, slightly eroding the edge and justifying a smaller stake.
+UMPIRE WOULD CHANGE: no — Bill Miller has a slightly wider zone which generally favors pitchers, but it doesn't change the directional bet decision.
+
+---
+
+### GAME: TOR @ BOS — YOUR CALL: BET away ML 123 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE: bet→pass
+PRE-GAME REASON: The confirmed TOR lineup vs LHP (91.8 wRC+) is significantly weaker than the season average (101 wRC+) due to bottom-of-the-order hitters with terrible splits like Lukes (34), Schneider (56), Straw (74), and Giménez (40). Meanwhile, the BOS lineup vs RHP (94.6 wRC+) is stronger than the 86 wRC+ I assumed, bolstered by Contreras (142) and IKF (115). The massive 15-point platoon advantage that drove the original 8.2-point edge is completely neutralized by the specific lineup construction. Without the platoon edge, the 0.30 SIERA gap is not enough to justify a bet.
+UMPIRE WOULD CHANGE: no — Scott Barry is generally a neutral/slightly pitcher-friendly umpire, which does not alter the fundamental decision to pass.

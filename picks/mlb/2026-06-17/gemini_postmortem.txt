@@ -1,0 +1,68 @@
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-17
+==================================================================
+
+  Final: 2-0 on active bets (+2.84 Units overall)
+  - NYM ML (-129): WIN (+0.78u)
+  - PIT ML (-119): WIN (+2.06u based on 2.45u return on 3u risk)
+
+==================================================================
+
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** PIT ML @ ATH  
+**RESULT:** WIN  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES  
+**WHY:** Braxton Ashcraft's massive underlying advantage over Aaron Civale (3.35 SIERA vs. 4.84 SIERA) was the strongest starting pitching discrepancy on the entire board. When combined with Sutter Health Park's hitter-friendly nature, backing the elite pitching profile was the correct, high-edge process, even before the game resulted in a comfortable 12-4 blowout.
+
+---
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+**GAME:** NYM @ CIN  
+**PICK:** NYM ML  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Nolan McLean’s superior metrics (3.41 SIERA / 3.24 xFIP) over Nick Lodolo (3.76 SIERA / 3.91 xFIP) paired perfectly with the favorable platoon splits (Mets 107 wRC+ vs. LHP vs. Reds 89 wRC+ vs. RHP) to make -129 a highly valuable price.  
+**SOURCE:** Pre-game projection models  
+
+---
+
+**GAME:** PIT @ ATH  
+**PICK:** PIT ML  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Our model identified an elite 8.2-percentage-point edge on Pittsburgh due to the massive gap in starting pitching quality. Braxton Ashcraft’s metrics compared to Aaron Civale’s sub-par numbers justified a maximum unit play on the road favorite.  
+**SOURCE:** Pre-game projection models  
+
+---
+
+## S3: DATA REQUEST
+**NONE**
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+**NONE**
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: NYM @ CIN — YOUR CALL: BET away ML -129 (1u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** While the Mets' lineup average (99.0 wRC+ vs. LHP) was slightly lower than the season-long team projection of 107 due to weak spots in the bottom half (Baty 65, Alvarez 63, Ewing 21), Cincinnati's confirmed lineup was even worse (81.7 average wRC+ vs. RHP). The relative offensive disparity, combined with McLean's clear starting pitching edge, kept the handicap completely intact.  
+**UMPIRE WOULD CHANGE?** no  
+
+---
+
+### GAME: PIT @ ATH — YOUR CALL: BET away ML -119 (3u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** bet→lower stake (3u to 1u)  
+**PRE-GAME REASON:** The confirmed Pittsburgh lineup (92.1 average wRC+ vs. RHP) was significantly weaker than our team-level assumption of 105 wRC+, featuring four hitters with a wRC+ below 45 (Cook 35, Valdez 39, Triolo 39, Ozuna 43). Conversely, Oakland fielded a surprisingly strong lineup vs. RHP (96.9 average wRC+). While the starting pitching advantage of Ashcraft (3.35 SIERA) over Civale (4.84 SIERA) remained vast enough to justify a 1-unit bet on Pittsburgh, the offense's loss of depth neutralized the projected run-scoring advantage, making a 3-unit maximum bet too risky in hindsight.  
+**UMPIRE WOULD CHANGE?** no

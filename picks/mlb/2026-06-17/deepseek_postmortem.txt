@@ -1,0 +1,90 @@
+### S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** PIT ML –119  
+**RESULT:** WIN  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES  
+**IF NO – NEW BEST BET:** N/A  
+
+---
+
+### S2: FULL SLATE REVIEW
+#### PART A – GAMES YOU BET
+
+**GAME:** CHW @ NYY  
+**PICK:** CHW ML +163 (3u)  
+**RESULT:** LOSS  
+**PROCESS:** MISSED LINEUP  
+**WOULD-BET-AGAIN:** NO  
+**WHY:** Pre‑game reasoning cited a 128 wRC+ vs LHP for the White Sox, but the confirmed lineup had an average wRC+ of only 77.6, with five hitters below 30. This drastically undercut the offensive projection that generated the 9.3‑pt edge. Without that line‑up data the bet was placed on a flawed team‑strength assumption.  
+**SOURCE:** Confirmed CHW batting order vs LHP (post‑slate data) — available pre‑game only as a data gap.
+
+---
+
+**GAME:** PIT @ ATH  
+**PICK:** PIT ML –119 (3u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (but see S5 lineup adjustment → lower stake)  
+**WHY:** The edge was built on a strong pitching mismatch (Ashcraft 3.35 SIERA vs Civale 4.84) in a hitter‑friendly park. The confirmed lineup (wRC+ 92.1) was weaker than the generic projection, but the pitching dominance was intact and still offered a clear edge. The result was in line with process, not variance.  
+**SOURCE:** Starting pitcher true‑talent ratings and park factors (pre‑game).
+
+---
+
+#### PART B – PASSES AND LEANS WHERE A SPECIFIC PRE‑GAME EDGE WAS MISSED
+**None.** Every pass was explicitly compared to the two 3‑unit bets and discarded either due to a unit cap (small‑sample starter) or a slightly smaller edge within the 2‑bet limit. No alternative bet offered a larger edge than the two chosen, so no regret.
+
+---
+
+### S3: DATA REQUEST (to operator / data desk)
+
+**TYPE:** DATA  
+**ITEM:** Confirmed starting lineups, including individual platoon wRC+ for every batter.  
+**WHICH GAME(S):** All games, but especially CHW @ NYY and PIT @ ATH.  
+**WOULD HAVE CHANGED A BET?** YES (CHW: would have passed or drastically reduced stake; PIT: likely lower stake).  
+**WHY:** The CHW edge relied entirely on a team‑wide 128 wRC+ vs LHP, which collapsed when the actual lineup was populated with seven hitters below 100 and five below 30. For PIT, the weaker‑than‑average line‑up (92.1 wRC+) would have shrunk the run projection and potentially reduced the bet from 3 to 1‑2 units.
+
+---
+
+### S4: METHOD CHANGE PROPOSAL (to my own method document)
+
+**PROPOSED CHANGE:**  
+*Do not place any bet whose edge is heavily dependent on a platoon split unless the exact batting order and individual platoon wRC+ for each hitter are confirmed. If lineups are unconfirmed, either cap the bet at 1 unit or treat the team’s split as league‑average until the order is known.*
+
+**WHAT IN MY METHOD COULD BE SHARPER:**  
+Platoon‑split edge bets must be grounded in the specific hitters that will actually face the opposing starter, not a roster‑wide average. The CHW bet failed because the method used an aggregate team number (128 wRC+) that was wholly unrepresentative of the nine men who played.
+
+**EVIDENCE FROM TODAY (pre‑game data only):**  
+- Pre‑game assumption: CHW wRC+ 128 vs LHP.  
+- Confirmed lineup (unknown pre‑game): average wRC+ 77.6, with Benintendi (27), Peters (−40), Quero (22), Gonzalez (90), Antonacci (7) all well below average.  
+- This mismatch would have eliminated the 9.3‑pt edge entirely; therefore a bet placed without that data was structurally unsound.
+
+**CONFIDENCE:** HIGH (single‑day evidence matches a recurring pattern in method leaks).
+
+---
+
+### S5: CONFIRMED DATA EVALUATION (lineup + umpire) — was NOT available pre‑game
+
+---
+
+#### GAME: CHW @ NYY — YOUR CALL: BET away ML +163 (3u)
+
+**CHW BATTING ORDER (vs LHP) avg wRC+: 77.6**  
+**NYY BATTING ORDER (vs LHP) avg wRC+: 107.0**  
+**HOME PLATE UMPIRE:** Emil Jimenez
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** bet→pass  
+**PRE‑GAME REASON:** The assumption of a 128 wRC+ vs LHP was the entire foundation of the 47.3% win probability and the 9.3‑pt edge. The actual lineup is 50 points worse, populated by multiple sub‑replacement level bats. The projected win probability with this order would almost certainly fall below the market implied 38.0%, eliminating any positive expectation.  
+**UMPIRE WOULD CHANGE?** no — Emil Jimenez has no extreme platoon or run‑environment tendencies that would independently materially shift a 9‑pt edge.
+
+---
+
+#### GAME: PIT @ ATH — YOUR CALL: BET away ML –119 (3u)
+
+**PIT BATTING ORDER (vs RHP) avg wRC+: 92.1**  
+**ATH BATTING ORDER (vs RHP) avg wRC+: 96.9**  
+**HOME PLATE UMPIRE:** David Rackley
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected (both sides around league average)  
+**WOULD CHANGE?** bet→lower stake  
+**PRE‑GAME REASON:** The original 6.43‑run projection for PIT was likely based on an above‑average lineup. With a 92.1 wRC+ (below 100), PIT’s run projection would be modestly lower, shrinking the gap to ATH’s 4.73 runs and reducing the 9.36‑pt edge. The bet would still be positive, but no longer a full 3‑unit max play — likely 1–2 units.  
+**UMPIRE WOULD CHANGE?** no — David Rackley has a neutral zone and no known batter/pitcher biases that would disrupt the pitching mismatch edge.

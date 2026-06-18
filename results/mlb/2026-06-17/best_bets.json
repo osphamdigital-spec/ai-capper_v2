@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-17",
+  "sport": "mlb",
+  "graded_at": "2026-06-18T05:29:45Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "deepseek",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "PIT ML -119 (3 units)",
+      "why_this": "Largest edge on the board (9.36 pts) with a clean SP matchup: Ashcraft\u2019s elite run prevention vs. Civale\u2019s susceptibility in a high\u2011run park creates a strong projection gap to market.",
+      "resolved_game": "PIT @ ATH",
+      "resolved_pick": "PIT ML",
+      "resolved_price": -119,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.521
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "PIT ML @ ATH",
+      "why_this": "Braxton Ashcraft holds a massive structural advantage over Aaron Civale in aggregate metrics (3.35 vs 4.84 SIERA). This pitching gap, combined with Pittsburgh's strong split-specific offense, is amplified by the hitter-friendly environment to create an elite 8.2-percentage-point edge.",
+      "resolved_game": "PIT @ ATH",
+      "resolved_pick": "PIT ML",
+      "resolved_price": -119,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.521
+    },
+    {
+      "model": "grok",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "sonnet",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    }
+  ],
+  "summary": {
+    "wins": 2,
+    "losses": 0,
+    "skips": 6,
+    "record": "2-0 (100.0%)"
+  }
+}

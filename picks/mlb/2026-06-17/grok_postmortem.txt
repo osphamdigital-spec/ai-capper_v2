@@ -1,0 +1,63 @@
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: NO BEST BET  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+
+No 3-unit edge met the 7-point clean threshold after small-sample caps and TBD rules. The three 1-unit plays that did qualify remain the correct max size for the slate.
+
+**S2: FULL SLATE REVIEW**
+
+**PART A — GAMES YOU BET**
+
+GAME: NYM @ CIN  
+PICK: NYM ML -129 (1u)  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Pre-game xFIP/SIERA and K-BB% edge for McLean plus bullpen freshness produced a 4.8-pt gap that cleared the minimum after park adjustment. Small-sample cap correctly limited stake to 1u.  
+SOURCE: Original model inputs (xFIP/SIERA, K-BB%, bullpen freshness, park factor).
+
+GAME: TB @ LAD  
+PICK: LAD ML -172 (1u)  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Ohtani’s 2.98 xFIP / 23.3% K-BB% edge over McClanahan, combined with home/bullpen adjustment, produced a 5.1-pt gap that cleared the minimum. Small-sample cap on McClanahan correctly limited stake to 1u.  
+SOURCE: Original model inputs (xFIP, K-BB%, home/bullpen factors).
+
+GAME: COL @ CHC  
+PICK: CHC ML -180 (1u)  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Assad’s usable xFIP edge, CHC home park, and bullpen strength produced a 4.3-pt gap that cleared the minimum after small-sample cap on Sullivan.  
+SOURCE: Original model inputs (xFIP, park factor, bullpen).
+
+**PART B — PASSES AND LEANS**  
+No blocks. All passes were correctly identified as falling short of the 4-pt edge threshold after full adjustments; no pre-game signal available in the original data set justified overriding those decisions.
+
+**S3: DATA REQUEST**  
+NONE
+
+**S4: METHOD CHANGE PROPOSAL**  
+NONE
+
+**CONFIRMED DATA EVALUATION**
+
+GAME: NYM @ CIN — YOUR CALL: BET away ML -129 (1u)  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Lineup wRC+ averages (NYM 99.0 vs LHP, CIN 81.7 vs RHP) are consistent with the team-level offensive assumptions already embedded in the original model edge.  
+UMPIRE WOULD CHANGE? no — no pre-game umpire data was part of the original inputs.
+
+GAME: TB @ LAD — YOUR CALL: BET home ML -172 (1u)  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Lineup wRC+ averages (TB 116.2 vs RHP, LAD 102.8 vs LHP) do not materially alter the pitcher-quality and home/bullpen edge that generated the 5.1-pt gap.  
+UMPIRE WOULD CHANGE? no — no pre-game umpire data was part of the original inputs.
+
+GAME: COL @ CHC — YOUR CALL: BET home ML -180 (1u)  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Lineup wRC+ averages (COL 110.0 vs RHP, CHC 108.8 vs LHP) align with the team-level inputs already used for the 4.3-pt edge.  
+UMPIRE WOULD CHANGE? no — no pre-game umpire data was part of the original inputs.

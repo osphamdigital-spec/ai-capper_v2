@@ -1,0 +1,95 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET DECLARED (slate summary explicitly noted “NO BEST BET — no 3-unit play identified today”)
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+IF NO — NEW BEST BET: NONE / WHY: The slate produced only one edge that cleared the 1-unit betting threshold (PIT @ ATH at 4.2 points). No other game reached the 4-point minimum required for a 1-unit play, and nothing approached the stricter standard for a 3-unit Best Bet. Promoting the Pirates to Best Bet status would be outcome-biased revisionism. / SOURCE: Pre-game edge thresholds.
+
+---
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET (one block per bet; NO BETS if none)
+
+GAME: PIT @ ATH
+PICK: PIT ML -119 (1 UNIT)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pre-game case rested on three independent, quantified pillars: (1) Ashcraft’s SIERA/xFIP and K-BB% profile was roughly 1.5 runs better than Civale’s, giving Pittsburgh a significant starter-quality edge; (2) Oakland’s high-leverage relief corps had been heavily leaned on over the prior three days while Pittsburgh’s leverage arms entered fresh, creating a structural bullpen-rest differential; and (3) the market priced the game near pick’em (-119), producing a 4.2-point probability gap against my win model. Those inputs were all available pre-game and justified the wager regardless of the final run differential.
+SOURCE: Aggregate SIERA/xFIP, K-BB%, bullpen usage logs, market line.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+[NONE — All passes were consistent with the stated thresholds and pre-game data. No pre-game signal that was available at lock was ignored or mispriced in retrospect.]
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA
+ITEM: Confirmed starting-pitcher identities and aggregate SIERA/xFIP for all “TBD” rotation slots, delivered prior to slate lock.
+WHICH GAME(S): SD @ STL, SF @ ATL
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Both games were auto-passed under non-negotiable data-integrity rules due to unconfirmed starters. If the eventual starter had carried a reliable multi-season track record, a bettable edge may have emerged; if the starter was a replacement-level or small-sample arm, it would have confirmed the pass.
+
+TYPE: STAT
+ITEM: Pre-game confirmed batting order with split wRC+ versus the opposing starter’s handedness (as opposed to post-game or seasonal team averages).
+WHICH GAME(S): MIA @ PHI, CLE @ MIL, TOR @ BOS, CHW @ NYY
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: My model currently relies on aggregated team platoon estimates. Having the actual nine-hitter wRC+ splits pre-game would sharpen the offensive component of win probability and could push a ~3-point estimated edge across the 4-point betting threshold in games where platoon advantages were cited but not quantified at the lineup level.
+
+TYPE: STAT
+ITEM: Granular leverage-relief usage: innings pitched and total pitches thrown over the last 72 hours, separated by high-leverage designation.
+WHICH GAME(S): MIA @ PHI, CHW @ NYY, BAL @ SEA, NYM @ CIN
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: I used coarse “taxed” versus “rested” bullpen labels. Knowing exactly which high-leverage arms were unavailable or fatigued would refine the late-game win-probability estimate, particularly in games where both pens were flagged as worked hard or where a clear starter edge could be amplified by opponent relief fatigue.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Treat a “stale moneyline” flag on the side holding the clearly superior starting pitcher as a potential value signal (market inertia) rather than an automatic pass trigger. Currently, when my model identifies a clear starter edge and simultaneously flags the corresponding moneyline as stale, it interprets the combination as unbettable uncertainty. Going forward, a stale line on the side my pitching model already favors should be evaluated as a possible failure of the market to adjust, not as a deterrent.
+
+WHAT IN MY METHOD COULD BE SHARPER: The directional interpretation of stale-line flags relative to independently derived win probability. A stale line should be read in the context of the model’s existing edge, not as a standalone uncertainty discount.
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): In MIA @ PHI, I had Alcantara as “the better starter by a clear margin” and separately noted “the away moneyline is flagged stale” — two pre-game data points both pointing toward Miami value, yet I used the stale flag to justify a pass. In TOR @ BOS, I noted “Scherzer’s current-season degradation” (creating a TOR pitching advantage) and “the Toronto moneyline is flagged stale” — again two signals aligning on Toronto, but the stale flag contributed to a pass. If the stale flag simply means the market has not moved toward the side my starter metrics already support, that is an edge, not a red flag.
+
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire) — was NOT available pre-game
+
+### GAME: PIT @ ATH — YOUR CALL: BET away ML -119 (1u)
+
+PIT BATTING ORDER (vs RHP):
+  1. Spencer Horwitz — wRC+ vs RHP: 142
+  2. Tyler Callihan — wRC+ vs RHP: 235
+  3. Billy Cook — wRC+ vs RHP: 35
+  4. Esmerlyn Valdez — wRC+ vs RHP: 39
+  5. Nick Gonzales — wRC+ vs RHP: 115
+  6. Marcell Ozuna — wRC+ vs RHP: 43
+  7. Jake Mangum — wRC+ vs RHP: 109
+  8. Jared Triolo — wRC+ vs RHP: 39
+  9. Henry Davis — wRC+ vs RHP: 72
+  [lineup avg wRC+: 92.1]
+
+ATH BATTING ORDER (vs RHP):
+  1. Nick Kurtz — wRC+ vs RHP: 181
+  2. Shea Langeliers — wRC+ vs RHP: 120
+  3. Tyler Soderstrom — wRC+ vs RHP: 116
+  4. Max Muncy — wRC+ vs RHP: 75
+  5. Jonah Heim — wRC+ vs RHP: 30
+  6. Zack Gelof — wRC+ vs RHP: 111
+  7. Lawrence Butler — wRC+ vs RHP: 51
+  8. Henry Bolte — wRC+ vs RHP: 89
+  9. Alika Williams — wRC+ vs RHP: 99
+  [lineup avg wRC+: 96.9]
+
+HOME PLATE UMPIRE: David Rackley
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): N/A
+UMPIRE WOULD CHANGE? no — pre-game reason: David Rackley’s historical zone tendencies are not integrated into my win-probability model, and there is no pre-game knowable umpire-specific signal (e.g., an extreme hitter-friendly zone) that would override the 4.2-point edge built on SIERA/xFIP, K-BB%, and bullpen-rest differentials.

@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-17",
+  "sport": "mlb",
+  "fetched_at": "2026-06-18T05:29:44Z",
+  "games": [
+    {
+      "game_id": "93a412d9ba2735490b741d924fea7ef1",
+      "mlb_game_pk": 824503,
+      "matchup": "NYM @ CIN",
+      "away_abbr": "NYM",
+      "home_abbr": "CIN",
+      "away_score": 9,
+      "home_score": 1,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "bab3782d628eabfc050d79656a55fa50",
+      "mlb_game_pk": 822721,
+      "matchup": "KC @ WAS",
+      "away_abbr": "KC",
+      "home_abbr": "WAS",
+      "away_score": 6,
+      "home_score": 2,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "70301ecea46dd4e6c12d0c003013a4ee",
+      "mlb_game_pk": 823450,
+      "matchup": "MIA @ PHI",
+      "away_abbr": "MIA",
+      "home_abbr": "PHI",
+      "away_score": 12,
+      "home_score": 4,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "db80e9d6153bc82e7a3612d55fd10ece",
+      "mlb_game_pk": 824178,
+      "matchup": "DET @ HOU",
+      "away_abbr": "DET",
+      "home_abbr": "HOU",
+      "away_score": 2,
+      "home_score": 4,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "c8afc0ecd9f70b910f3f7ffbf71274e4",
+      "mlb_game_pk": 823044,
+      "matchup": "SD @ STL",
+      "away_abbr": "SD",
+      "home_abbr": "STL",
+      "away_score": 6,
+      "home_score": 1,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "a75cee44d2cbdcedb356612df99cd692",
+      "mlb_game_pk": 823940,
+      "matchup": "TB @ LAD",
+      "away_abbr": "TB",
+      "home_abbr": "LAD",
+      "away_score": 4,
+      "home_score": 5,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "44a3fa0a32ffae8dd220f1a4d54ae239",
+      "mlb_game_pk": 825072,
+      "matchup": "LAA @ AZ",
+      "away_abbr": "LAA",
+      "home_abbr": "AZ",
+      "away_score": 1,
+      "home_score": 8,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "1b3b5ac473b471165355ca855853dbb2",
+      "mlb_game_pk": 824746,
+      "matchup": "TOR @ BOS",
+      "away_abbr": "TOR",
+      "home_abbr": "BOS",
+      "away_score": 3,
+      "home_score": 0,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "9cfb18a4e0091ae6c9ccb03c48deb277",
+      "mlb_game_pk": 823536,
+      "matchup": "CHW @ NYY",
+      "away_abbr": "CHW",
+      "home_abbr": "NYY",
+      "away_score": 5,
+      "home_score": 10,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "a834545628bda1d53eb52e89728b336f",
+      "mlb_game_pk": 824913,
+      "matchup": "SF @ ATL",
+      "away_abbr": "SF",
+      "home_abbr": "ATL",
+      "away_score": 7,
+      "home_score": 5,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "4d8279537f3ea7c4d1d53160da26d2c6",
+      "mlb_game_pk": 823774,
+      "matchup": "CLE @ MIL",
+      "away_abbr": "CLE",
+      "home_abbr": "MIL",
+      "away_score": 4,
+      "home_score": 9,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "3c667b5e84c7e18c7697c0f83852679a",
+      "mlb_game_pk": 824668,
+      "matchup": "COL @ CHC",
+      "away_abbr": "COL",
+      "home_abbr": "CHC",
+      "away_score": 6,
+      "home_score": 8,
+      "winner": "home",
+      "status": "final"
+    },
+    {
+      "game_id": "ab9ae62c321b17a5d765118cc9bb3fbf",
+      "mlb_game_pk": 824992,
+      "matchup": "PIT @ ATH",
+      "away_abbr": "PIT",
+      "home_abbr": "ATH",
+      "away_score": 12,
+      "home_score": 4,
+      "winner": "away",
+      "status": "final"
+    },
+    {
+      "game_id": "1d049adfd45ba69776089a9846e60034",
+      "mlb_game_pk": 823127,
+      "matchup": "BAL @ SEA",
+      "away_abbr": "BAL",
+      "home_abbr": "SEA",
+      "away_score": 5,
+      "home_score": 3,
+      "winner": "away",
+      "status": "final"
+    }
+  ],
+  "summary": {
+    "final": 14,
+    "in_progress": 0,
+    "postponed": 0,
+    "unmatched": 1
+  }
+}

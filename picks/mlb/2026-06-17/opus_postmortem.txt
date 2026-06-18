@@ -1,0 +1,106 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: NO BEST BET (no 3-unit play; stood on MIA ML and AZ ML as twin 1u plays)
+RESULT: N/A — but both 1u plays (MIA, AZ) and the lean-overflow PIT all WON
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES — to the decision NOT to elevate to a 3u play.
+IF NO — N/A
+
+The discipline was sound. All edges were genuinely modest (4–5.5 pts) on unconfirmed lineups. The fact that all three plays won does not retroactively justify a 3u bet — the process correctly identified that no single edge cleared the confidence threshold for a best bet. Going 3-for-3 here is a strong day, not evidence the confidence reads were too conservative. Hold the standard.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: MIA @ PHI
+PICK: MIA ML -102 (1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The thesis — Painter's 6.43 ERA backed by genuinely weak AGG SIERA 4.78 and K-BB 9.1% against an Alcantara on an upward L14 trend — was a clean projection-vs-perception gap. Market shaded PHI on name value; I made it ~56% at 51% implied. Confirmed lineup (below) actually strengthens this materially.
+SOURCE: AGG SIERA, K-BB%, L14 trend
+
+GAME: LAA @ AZ
+PICK: AZ ML -167 (1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Aldegheri's AGG (xFIP 6.07, K-BB 2.3%) flagged his 2.12 ERA as pure luck — textbook fade. E-Rod steadier, AZ lineup superior vs LHP. The only wrinkle: laying -167 on a thin-talent read is the heaviest chalk I bet, and it's defensible only because the pitcher gap was extreme, not marginal.
+SOURCE: AGG xFIP/SIERA/K-BB%, lineup wRC+ vs LHP
+
+GAME: PIT @ ATH
+PICK: PIT ML -120 (1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Ashcraft's AGG (xFIP 3.27, K-BB 20.0%) vs Civale (xFIP 4.97, weak K-BB) was a real starter mismatch the -120 underpriced. Note this was originally a "third lean" I'd have shelved under a strict 2-bet ceiling — yet I appear to have placed it. Worth flagging: I should be honest that I exceeded my own stated ceiling. It won, but that's a process leak, not a vindication.
+
+SOURCE: AGG xFIP/SIERA/K-BB%
+
+**Process note:** My slate summary said "stand on MIA and AZ" given a 2-bet ceiling, yet PIT is listed as a 1u bet. That is a discipline inconsistency. The ceiling exists for a reason; going 3-for-3 must not be read as license to relax it.
+
+PART B — PASSES WHERE I NOW IDENTIFY A MISSED EDGE
+
+GAME: KC @ WAS
+YOUR CALL: PASS (lean Over)
+FINAL RESULT: KC 6 @ WAS 2
+WHAT YOU MISSED: I correctly identified Avila as dreadful (AGG xFIP 6.04, K-BB -1.5%) but talked myself out of the KC side because "WAS at -130 already prices in the pitching gap." With a starter that bad, the underdog side (KC) likely had value the market under-applied — I anchored to WAS being favored rather than questioning whether -130 was even right given the K-BB -1.5% disaster.
+SOURCE: AGG xFIP 6.04, K-BB -1.5%
+WOULD THIS HAVE BECOME A BET? MAYBE — KC ML was plausibly live, but I had no confirmed lineup and the bullpen concern was real. A lean at most.
+
+(All other passes were correct or driven by TBD starters / small-sample noise — no genuine missed edge.)
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: Bullpen rest/availability and recent reliever fatigue (last 3 days' usage)
+WHICH GAME(S): KC @ WAS, MIA @ PHI
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: My KC pass hinged on "shaky KC bullpen." A concrete availability/fatigue read would let me price the relief gap rather than waving it off qualitatively.
+
+TYPE: DATA
+ITEM: Confirmed starter for TBD slots earlier in the day
+WHICH GAME(S): SD @ STL, SF @ ATL
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Two automatic passes were forced solely by TBD arms; earlier confirmation could have surfaced 1–2 more edges.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: When a starter's AGG profile is genuinely extreme (e.g., K-BB% near zero or negative, xFIP > 6.0), test the opposing-side ML even when that side is the market underdog, rather than defaulting to "the favorite price already accounts for it."
+WHAT IN MY METHOD COULD BE SHARPER: On KC @ WAS I let "WAS is favored" anchor me away from a side, despite my own data calling the WAS starter one of the worst on the slate. I should treat an extreme negative pitcher read as a reason to independently re-derive a fair line, not to assume the market got the direction right.
+EVIDENCE FROM TODAY (pre-game): Avila AGG K-BB -1.5%, xFIP 6.04 — comparable in severity to Aldegheri (6.07), whom I DID bet against. I applied the fade logic to AZ but not symmetrically to KC.
+CONFIDENCE: LOW (one slate; needs many-sample validation before adoption)
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### MIA @ PHI
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different — in MIA's favor
+WOULD CHANGE? bet→higher stake (marginally; would respect the 1u ceiling absent confirmation pre-bet, but this validates conviction)
+PRE-GAME REASON: The confirmed PHI lineup is catastrophic vs RHP — avg wRC+ 46.7 with Marchán (-23), Hill (34), Rincones Jr. (-100), and Turner depressed at 71. Harper (169) is the only real threat. MIA's lineup at 97.9 is more than double PHI's offensive output projection. This is a far larger position-player gap than I assumed at a "near coin flip." A confirmed read like this pre-bet would justify higher conviction.
+UMPIRE WOULD CHANGE? no — no Kelley zone data cited; no basis to adjust.
+
+### LAA @ AZ
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected — slightly against my read
+PRE-GAME REASON: Notably, LAA's confirmed lineup vs LHP is stronger than my "AZ markedly better" framing implied — Trout (134), Adell (151), Peraza (139), Siri (222), Neto (122) is a live group against E-Rod, a LHP. AZ at 121.0 is still superior, but the gap is narrower than my note suggested. This doesn't flip the bet — Aldegheri's profile remains the core thesis — but it's a flag that I underweighted LAA's vs-LHP punch when laying -167.
+WOULD CHANGE? no change (bet stands, but with a mental note it was thinner than I credited)
+UMPIRE WOULD CHANGE? no — no Pawol zone data cited.
+
+### PIT @ ATH
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different — against my read
+PRE-GAME REASON: This is the important one. ATH's confirmed lineup vs RHP (avg 96.9) is essentially EQUAL to PIT's (92.1), and features Kurtz (181), Langeliers (120), Soderstrom (116), Gelof (111). Meanwhile PIT's lineup is top-heavy — Horwitz (142), Callihan (235) — but collapses 3-6 (Cook 35, Valdez 39, Ozuna 43). My side rested on the starter edge (Ashcraft >> Civale), which is real, but I implicitly assumed a PIT position-player edge that the confirmed lineups do NOT support. In a 121-park-factor hitter's park, an equal-offense matchup compresses my pitching edge more than I priced.
+WOULD CHANGE? bet→lower stake (or PASS-adjacent) — the lineup parity in a launching pad weakens the thesis; this was thinner than I rated it.
+UMPIRE WOULD CHANGE? no — no Rackley zone data cited.
+
+---
+
+### Bottom-line honesty
+3-for-3 is a great result, but two findings deserve more weight than the W's:
+1. **I exceeded my own 2-bet ceiling** by placing PIT. The win masks a discipline leak.
+2. **PIT's pre-game lineup parity** means it was a thinner bet than I graded — the result was good, the edge was smaller than claimed. Do not let the outcome reinforce the sizing.

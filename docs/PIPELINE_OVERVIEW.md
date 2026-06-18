@@ -135,8 +135,13 @@ OR use the integrated post-game orchestrator (recommended):
   python scripts/run_daily_2.py mlb --date 2026-06-10
 
   This chains: fetch_results → grade_picks → fetch_confirmed_data → run_postmortem_all.
-  Guards: requires logged {model}.json pick files; halts if confirmed data is incomplete
-  (boxscores not posted yet); use --skip-confirmed to override and proceed without it.
+  Guards:
+    - Requires logged {model}.json pick files for the date.
+    - fetch_results.py aborts if any game is still in progress or not yet started
+      (safeguard added 2026-06-18). Wait until all games complete, then re-run.
+      Bypass with: python scripts/fetch_results.py --force-results (use sparingly).
+    - Halts if confirmed data is incomplete (boxscores not posted yet);
+      use --skip-confirmed to override and proceed without it.
   Halt-then-rerun is safe: all steps are idempotent on re-run.
 
 OR run post-mortems alone:

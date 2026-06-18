@@ -142,7 +142,7 @@ def fetch_schedule_results(date: str) -> list[dict]:
 # MAIN
 # ─────────────────────────────────────────────────────────────────────────────
 
-def fetch_results(sport: str = "mlb", date: str = None):
+def fetch_results(sport: str = "mlb", date: str = None, force: bool = False):
     """
     Fetch final scores for all games on the slate and write them to disk.
 
@@ -201,6 +201,35 @@ def fetch_results(sport: str = "mlb", date: str = None):
         sys.exit(1)
 
     print(f"  API returned {len(mlb_results)} game(s)\n")
+
+    # ── Safeguard: abort if any game is not yet final ─────────────────────────
+    # Prevents the post-game pipeline from firing while games are still live.
+    # Games that are postponed/cancelled/suspended are terminal and excluded
+    # from this check — they will never have final scores.
+    TERMINAL_STATUSES = {"final", "postponed", "cancelled", "suspended"}
+    not_final = [r for r in mlb_results if r["status"] not in TERMINAL_STATUSES]
+
+    if not_final and not force:
+        in_progress = [r for r in not_final if r["status"] == "in_progress"]
+        not_started = [r for r in not_final if r["status"] not in ("in_progress",)]
+        print(f"{'!'*55}")
+        print(f"  SAFEGUARD: Not all games are final — aborting.")
+        print()
+        if in_progress:
+            print(f"  In progress ({len(in_progress)}):")
+            for r in in_progress:
+                print(f"    {r['away_name']} @ {r['home_name']}  [{r['status_raw']}]")
+        if not_started:
+            print(f"  Not yet started ({len(not_started)}):")
+            for r in not_started:
+                print(f"    {r['away_name']} @ {r['home_name']}  [{r['status_raw']}]")
+        print()
+        print(f"  Wait until all games finish, then re-run:")
+        print(f"    python scripts/run_daily_2.py {sport} --date {target_date}")
+        print(f"  Or bypass (e.g. for single postponed slate):")
+        print(f"    python scripts/fetch_results.py --sport {sport} --date {target_date} --force-results")
+        print(f"{'!'*55}")
+        sys.exit(1)
 
     # ── Match and update games.json ───────────────────────────────────────────
     print("Step 2: Matching results to games and updating games.json...")
@@ -464,8 +493,15 @@ if __name__ == "__main__":
         "--no-grade", action="store_true",
         help="Skip auto-running grade_picks.py after fetching results."
     )
+    parser.add_argument(
+        "--force-results", action="store_true",
+        help=(
+            "Bypass the all-games-final safeguard. Use only when you are certain "
+            "all relevant games are done (e.g. a slate where most games are postponed)."
+        )
+    )
     args = parser.parse_args()
-    summary_text = fetch_results(sport=args.sport, date=args.date)
+    summary_text = fetch_results(sport=args.sport, date=args.date, force=args.force_results)
     create_post_mortem_files(
         sport=args.sport,
         results_date=args.date or today_et(),

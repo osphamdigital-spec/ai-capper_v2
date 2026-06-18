@@ -774,7 +774,7 @@ def grade_picks(sport: str = "mlb", date: str = None):
         tn_ = tu_ - tr_   # net = returned - risked
         total_ = tw_ + tl_
         wp_    = f"{tw_/total_*100:.1f}%" if total_ > 0 else "—"
-        wl_r   = f"{tw_/tl_:.2f}" if tl_ > 0 else ("∞" if tw_ > 0 else "—")
+        wl_r   = f"{tw_/tl_:.2f}" if tl_ > 0 else ("INF" if tw_ > 0 else "—")
         roi_   = f"{'+' if tn_ >= 0 else ''}{tn_/tr_*100:.1f}%" if tr_ > 0 else "—"
         net_d  = f"{'+' if tn_ >= 0 else ''}${tn_*100:.0f}"
         rec_   = fmt_record(tw_, tl_)
@@ -787,14 +787,14 @@ def grade_picks(sport: str = "mlb", date: str = None):
     bb_net  = sum(s["best_bet_units_result"] or 0 for s in ranked)
     bb_risk = sum(s["best_bet_units_wagered"]     for s in ranked)
     bb_wp   = f"{bbw/(bbw+bbl)*100:.1f}%" if (bbw + bbl) > 0 else "—"
-    bb_wlr  = f"{bbw/bbl:.2f}" if bbl > 0 else ("∞" if bbw > 0 else "—")
+    bb_wlr  = f"{bbw/bbl:.2f}" if bbl > 0 else ("INF" if bbw > 0 else "—")
     bb_roi  = f"{'+' if bb_net >= 0 else ''}${bb_net*100:.0f}"
     bb_roip = f"{'+' if bb_net >= 0 else ''}{bb_net/bb_risk*100:.1f}%" if bb_risk > 0 else "—"
     print(f"  {'Best Bet':<8}  {all_bb:<14}  {bb_wp:>7}  {bb_wlr:>9}  ${bb_risk*100:>7.0f}  {bb_roi:>8}  {bb_roip:>7}")
 
     # Overall row
     all_wp2 = f"{tw/(tw+tl)*100:.1f}%" if (tw + tl) > 0 else "—"
-    all_wlr = f"{tw/tl:.2f}" if tl > 0 else ("∞" if tw > 0 else "—")
+    all_wlr = f"{tw/tl:.2f}" if tl > 0 else ("INF" if tw > 0 else "—")
     all_net_d = f"{'+' if tn >= 0 else ''}${tn*100:.0f}"
     all_roi_p = f"{'+' if tn >= 0 else ''}{tn/tr*100:.1f}%" if tr > 0 else "—"
     print(f"  {'-'*8}  {'-'*14}  {'-'*7}  {'-'*9}  {'-'*8}  {'-'*8}  {'-'*7}")

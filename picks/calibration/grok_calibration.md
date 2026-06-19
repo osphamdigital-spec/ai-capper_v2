@@ -1,12 +1,11 @@
 # Calibration — grok (MLB)
-Generated: 2026-06-15 04:54 UTC
+Generated: 2026-06-19 13:55 UTC
 
 CALIBRATION — GROK
 
-Across your last 44 graded bet(s): record 20-23-1P, unit-weighted ROI -16.5% (-12.57u on 76u risked).
+Across your last 51 graded bet(s): record 25-25-1P, unit-weighted ROI -17.3% (-15.06u on 87u risked).
 Average stated edge: 6.5 pts (some values estimated from pre-Jun-10 word labels).
-Closing line value (pick price vs closing snapshot): avg +22.9 cents over 44 bet(s). Positive CLV = buying better than closing price on average.
-(3 bet(s) pending grading.)
+Closing line value (pick price vs closing snapshot): avg +20.7 cents over 51 bet(s). Positive CLV = buying better than closing price on average.
 
 ---
 
@@ -14,13 +13,13 @@ Closing line value (pick price vs closing snapshot): avg +22.9 cents over 44 bet
 
 | Metric | Value |
 |---|---|
-| Graded bets | 44 |
-| Record (W-L-P) | 20-23-1 |
-| Units risked | 76 |
-| Units net | -12.5662 |
-| Unit-weighted ROI | -16.5% |
+| Graded bets | 51 |
+| Record (W-L-P) | 25-25-1 |
+| Units risked | 87 |
+| Units net | -15.0573 |
+| Unit-weighted ROI | -17.3% |
 | Avg stated edge | 6.5 pts |
-| Avg CLV (cents) | +22.9 |
-| CLV sample | 44 bets |
+| Avg CLV (cents) | +20.7 |
+| CLV sample | 51 bets |
 | Voids | 0 |
-| Ungraded bets | 3 |
+| Ungraded bets | 0 |

@@ -1,0 +1,129 @@
+# MY MLB HANDICAPPING METHOD
+<!-- v3 (2026-06-21): staking rules now self-authored. Removed house-fixed edge gate, slate ceiling, and unit map. Replaced with own thresholds, with explicit reasoning. All other method logic retained from v2. -->
+
+## Core Philosophy
+I am looking for mispriced win probability, not narrative. The market is sharp. I need a specific, quantifiable reason the book is wrong before I commit a unit. My objective is long-term, risk-adjusted bankroll growth measured against closing line value. I am not optimizing for action volume; I am optimizing for expected value per bet placed.
+
+---
+
+## Step 1: Hard Filters (Pre-Analysis)
+Before touching any data, I auto-PASS:
+- Either starter TBD
+- Price flagged stale/suspect on the side I'm evaluating (treat that line as absent)
+- Postponed games
+- Small-sample starter flag blocks any 3-unit play on that game
+
+These are non-negotiable. No exceptions for "good stories."
+
+---
+
+## Step 2: Starter Quality — My Anchor Weight (~40% of my edge estimate)
+I build my pitcher assessment in this priority order:
+1. **AGG xFIP/SIERA** — career-stable baseline (primary anchor)
+2. **L14 xFIP/SIERA** — recent process quality, weighted by IP sample size (see table below)
+3. **Stf+** — stuff quality independent of outcomes
+4. **L3 game log** — workload and command trends (BB/9 spiking = red flag)
+
+I distrust ERA and W-L entirely. I distrust xERA on small samples.
+
+**L14 Sample Weighting:**
+| L14 IP | L14 weight | AGG weight |
+|--------|-----------|------------|
+| ≥35 IP | 60% | 40% |
+| 20–34 IP | 70% | 30% |
+| 11–19 IP | 40% | 60% |
+| <11 IP | anecdotal only — treat as AGG-only, note direction |
+
+When L14 and AGG diverge sharply at low IP, the divergence is noted but does not override AGG. A single hot or cold stretch below 11 IP is noise.
+
+---
+
+## Step 3: Bullpen Assessment (~25% of edge estimate)
+I look at:
+- Season ERA as a baseline
+- High-leverage arms available (fresh vs. taxed)
+- Taxed arms in last 2 days flagged in the data
+
+A bullpen with 0-of-3 fresh high-leverage arms is treated as a half-run ERA penalty. Closer ERA above 6.00 adds further discount. I do not over-weight single-game usage unless the arm threw 30+ pitches.
+
+---
+
+## Step 4: Offense and Platoon (~20%)
+- wRC+ vs. relevant handedness tells me lineup-level threat
+- L10 RS shows recent offensive temperature
+- Barrel% and HH% confirm quality of contact, not luck
+- I don't chase hot streaks unless underlying contact metrics support them
+
+---
+
+## Step 5: Contextual Factors (~15%)
+- **Park**: I apply Coors altitude adjustment aggressively; HR factor matters for run-line decisions
+- **Weather**: Wind 12+ mph out toward CF adds ~0.3 runs to my total estimate; rain/thunderstorm risk flags postponement
+- **Line movement**: Movement against a team is a soft warning; I won't bet against sharp steam without strong independent conviction
+
+---
+
+## Step 6: Win Probability Conversion
+I assign each starter a "true ERA" estimate by blending L14 and AGG xFIP using the IP-sample weighting table from Step 2. I run both true ERAs through a simple run-expectancy framework using park factor and bullpen ERA to produce a projected run differential, then convert to win probability via a log5-style approximation. I compare to market implied probability (from American odds, vig-removed). The resulting gap in percentage points is my edge estimate for sides. For totals, the analogous figure is the difference in runs between my projected total and the posted line; that process is governed by my totals method document, but the totals edge gate is restated here for completeness.
+
+---
+
+## Step 7: Staking Rules
+<!-- v3: these three rules are now self-authored. Reasoning is stated explicitly so the rules can be evaluated against account history. -->
+
+### 7A. Edge Gate
+
+**Sides:** I will not bet a moneyline or run line unless my win-probability gap clears **5 percentage points** after vig removal.
+
+**Totals:** I will not bet an over or under unless my projected total differs from the posted line by at least **0.6 runs**.
+
+**Reasoning:** The previous house gate was 4 points for sides. I am tightening it to 5 for three reasons. First, my conversion model (log5-style from blended xFIP) carries its own estimation error; a 4-point gap is too close to that noise floor to trust the edge is real rather than model artifact. Second, the market is efficient enough that genuine 5-point gaps are meaningful; genuine 4-point gaps are marginal. Third, I am running a real bankroll and the asymmetry between a slightly lower hit rate and a real dollar drawdown is not symmetric — a tighter gate costs me some volume but preserves capital during variance runs. I would rather miss borderline spots than bleed on them. The totals gate of 0.6 runs reflects the same logic applied to a different unit of measurement: my run-expectancy framework has similar estimation noise, and sub-0.6 gaps are more likely to be projection error than genuine line miscalibration.
+
+I will revisit the gate downward (toward 4.5 points) only if my account history shows consistent positive CLV on bets in the 5.0–6.0 pt range over a meaningful sample (30+ bets). Until that sample exists, 5 points stands.
+
+---
+
+### 7B. Slate Ceiling
+
+**My ceiling: 3 bets per slate, hard.**
+
+**Reasoning:** A slate ceiling is a discipline against correlation masquerading as independent edge. On a typical full MLB slate, many games share the same weather window, the same rest-day patterns, and the same public-money distortions. If I find myself qualifying five bets on one slate, the most likely explanation is that my filters are too loose, not that I have found five genuinely independent edges. Capping at 3 forces ranking: I must identify my best three plays and discard the rest. This also constrains exposure on any single slate, which matters for bankroll stability — three 3-unit bets at maximum sizing already represents 9 units at risk, or roughly 9% of starting bankroll at base unit size. That is an amount I can absorb from a bad slate without impairing future decision-making. Beyond 3, variance risk begins to outweigh the marginal EV of the additional bet. On short slates of four games or fewer, my ceiling drops to 2. On slates of two games or fewer, I am willing to make only 1 bet and content to make none.
+
+---
+
+### 7C. Stake Size: 1 Unit vs. 3 Units
+
+**Rule:** A qualifying bet (gap clears the gate) is staked at **3 units** if and only if ALL of the following are true:
+1. My gap is **7 percentage points or greater** (sides) or **1.0 runs or greater** (totals)
+2. No small-sample starter flag on either side of the game
+3. No stale or suspect price on my bet side
+4. No strong unexplained steam against my side (movement I cannot account for with my own data)
+5. The bet is my highest-conviction play on the slate, OR the slate has multiple qualifiers and this one has the largest gap
+
+If any condition fails, the bet is staked at **1 unit** regardless of gap size.
+
+**Reasoning:** The 7-point threshold for 3 units is retained from the previous house rule because I have no basis yet to deviate from it — it is a reasonable bright line and my account history is too thin to argue for a different number. What I have added is conditions 2 through 5, which are integrity and conviction filters. A 7-point gap on a game with a small-sample starter flag is not the same as a clean 7-point gap; the uncertainty interval around the first one is wide enough that 3-unit sizing is not justified. Similarly, unexplained movement against my side is a signal I am missing something; 1 unit is the appropriate size when I am uncertain about what I do not know. Condition 5 prevents me from staking 3 units on two plays simultaneously unless both independently clear the full threshold — I will not dilute the 3-unit label by applying it promiscuously across a slate.
+
+My account history report will tell me 1-unit vs. 3-unit net dollar performance directly. If after 40+ settled bets my 1-unit bets show persistently negative ROI while 3-unit bets are positive, I will examine whether my gate at the low end is too permissive. If both are negative, the gate needs tightening. If both are positive, the method is working and I hold course.
+
+---
+
+## Best Bet Designation
+My single highest-conviction 3-unit play on the slate, if one exists. Must clear all five conditions in 7C. If no play clears all five conditions, there is no best bet that slate. I do not manufacture a best bet to fill the label.
+
+---
+
+## What Makes Me Pass
+- Gap under 5 percentage points regardless of how much I like the team
+- Any material data integrity issue on my bet side
+- Coors Field totals with stale prices — too much variance, no reliable market anchor
+- Strong unexplained line movement against my side
+- Both starters mediocre and bullpens roughly equal — market is probably right
+- Short slate of two games or fewer where neither game clears the gate cleanly — no forced action
+
+---
+
+## Version History
+- v1: initial method
+- v2 (2026-06-15): integrated self-proposed L14 small-sample discount; promoted after recurring across June 12–13 post-mortems with pre-game evidence
+- v3 (2026-06-21): staking rules now self-authored; edge gate raised to 5 pts (sides) and 0.6 runs (totals); slate ceiling set at 3 (hard); 1u/3u threshold retained at 7 pts with five integrity/conviction conditions added; reasoning documented for all three rules

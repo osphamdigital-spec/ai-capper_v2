@@ -1,0 +1,122 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: NONE  
+WHY: I still would not force a best bet from this slate. The only actual wager, MIL -145, was not strong enough pre-game to justify promotion beyond 1 unit because I had already flagged Cleveland’s bullpen freshness as a real offset. The leans that won stayed below my threshold for valid reasons at the time.  
+SOURCE: Original slate notes; no pre-game edge cleared my 3-unit bar.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: CLE @ MIL  
+PICK: MIL ML -145  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game case was real: Milwaukee had the slate’s clearest split-offense advantage vs LHP, home field, and a reasonable enough starting matchup to make them the right favorite. I also explicitly kept it to 1 unit because Cleveland’s bullpen condition was better. Nothing in the available pre-game data clearly pointed to Cleveland as the better side at that price. If anything, the later confirmed lineup data would have strengthened Milwaukee, not weakened it.  
+SOURCE: Original projection cited MIL 136 wRC+ vs LHP vs CLE 48 vs LHP; confirmed lineup snapshot also showed MIL lineup avg wRC+ 144.4 vs LHP and CLE 78.4 vs LHP.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: STL @ KC  
+YOUR CALL: LEAN  
+FINAL RESULT: KC win  
+WHAT YOU MISSED: The confirmed lineup would have materially strengthened the STL case pre-game, regardless of the result. My original edge already depended on STL’s lefty-mashing profile, and the actual STL lineup vs LHP was stronger than expected while the actual KC lineup vs LHP was weaker than expected. That is exactly the type of lineup confirmation I said would matter.  
+SOURCE: Confirmed STL lineup avg wRC+ vs LHP 125.1; confirmed KC lineup avg wRC+ vs LHP 82.4. Also individual STL bats vs LHP were strong: Herrera 178, Crooks 222, Velázquez 210, Blaze Jordan 160.  
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Earlier and more reliable confirmed lineups / stronger pre-lock expected-lineup feed  
+WHICH GAME(S): STL @ KC; CLE @ MIL; MIN @ TEX; NYM @ PHI  
+WOULD HAVE CHANGED A BET? YES  
+WHY: STL likely upgrades from lean to bet. CLE/MIL likely stays a bet but with more confidence. MIN/TEX and NYM/PHI remain close, but better lineup certainty sharpens whether a lean reaches threshold.
+
+TYPE: DATA  
+ITEM: Roof status feed integrated directly into the game card  
+WHICH GAME(S): MIN @ TEX; CLE @ MIL; BAL @ SEA  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I flagged roof status multiple times because it affects run environment and slightly side confidence, especially in already thin-edge games.
+
+TYPE: SOURCE  
+ITEM: Pre-game umpire assignment with a usable zone/BB/K/run-environment profile  
+WHICH GAME(S): MIN @ TEX; NYM @ PHI; CLE @ MIL  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: On close side/total calls, a strong hitter/pitcher umpire can matter at the margin. Not enough alone to force sides here, but useful in sorting leans from passes.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Give a bit more weight to lineup-contingent offensive edges when my writeup already says the handicap is driven by a split profile, and be more willing to convert a lean to a bet when confirmations strongly reinforce that exact thesis.  
+WHAT IN MY METHOD COULD BE SHARPER: I correctly identified lineup dependence, but I was still too static in the initial price confidence on STL @ KC. If a handicap is explicitly “this team’s split lineup is the edge,” then I should define in advance how much confirmation upgrades the position.  
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): My STL writeup said “confirmed St. Louis lineup matters because this edge is driven by their lefty-mashing profile.” The actual confirmed lineup, using only pre-game-known player split stats, was much stronger for STL and weaker for KC than the expected team-level assumption.  
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: CLE @ MIL — YOUR CALL: BET home ML -145 (1u)
+
+EXPECTED vs ACTUAL: key change — MIL added Yelich and changed several support bats; CLE order also changed notably  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→higher stake  
+PRE-GAME REASON: The confirmed MIL lineup was even stronger vs LHP than my already-positive team assumption, while CLE’s confirmed lineup remained weak vs LHP. Milwaukee’s lineup avg wRC+ vs LHP was 144.4, with several premium right-handed/split assets active (Chourio 182, Vaughn 314, Sánchez 195, Yelich 128). That strengthens the original platoon thesis rather than undermining it.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game umpire signal in the prompt strong enough to alter the side.
+
+---
+
+### GAME: MIN @ TEX — YOUR CALL: LEAN away
+
+EXPECTED vs ACTUAL: key change — both lineups changed, especially Minnesota top/bottom and Texas leadoff/middle  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Minnesota lost some expected lineup strength, which offsets the original starting-pitching edge from Ryan over Leiter. Texas also did not roll out an imposing confirmed split lineup, but not enough changed to create a clear 4-point side edge. The game still profiles as “better starter, not enough support to force a play.”  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency provided that would have materially shifted a side this close.
+
+---
+
+### GAME: NYM @ PHI — YOUR CALL: LEAN away
+
+EXPECTED vs ACTUAL: key change — both lineups changed significantly, especially the middle of the Mets order and top of Phillies order  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→pass  
+PRE-GAME REASON: The Mets’ confirmed lineup was weaker vs RHP than the expected shape that supported the dog lean, and Philadelphia’s lineup still retained enough competent bats vs LHP to keep home-field/bullpen value intact. Since my original edge was already small and lineup-sensitive, the weaker Mets offense would have erased it rather than upgraded it.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire-based edge in the prompt.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: LEAN away
+
+EXPECTED vs ACTUAL: key change — STL added/shifted several strong vs-LHP bats; KC lineup came in lighter vs LHP than expected  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? lean→bet  
+PRE-GAME REASON: This is the clearest lineup-driven change on the slate. My original lean was based on STL’s split offense vs LHP and bullpen health, held back only by the Cameron-over-Liberatore starter gap. The confirmed lineups increased the STL split-offense edge substantially: STL lineup avg 125.1 vs LHP versus KC 82.4, with multiple high-split STL bats active. That would have pushed the dog over my threshold pre-game.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No umpire factor supplied that would outweigh the lineup upgrade.
+
+---
+
+## Bottom-line self-review
+
+What worked:
+- I was right to keep several ugly/favorite-tax spots as passes.
+- I correctly identified Minnesota and the Mets as the more appealing side in their games, even if I kept them as leans.
+- I correctly noted STL was close and that lineup confirmation was the key variable.
+
+What failed:
+- The only actual bet lost, though I still think the pre-game reasoning was sound.
+- I was a bit too conservative in translating lineup-dependent edges into actionable thresholds, especially STL.
+
+What I’d change:
+- Predefine a more explicit “lineup confirmation upgrade” rule for split-driven handicaps.
+- Keep resisting hindsight: MIL was not a bad bet just because it lost; STL was the one spot where a real pre-game upgrade was available and should have mattered more.

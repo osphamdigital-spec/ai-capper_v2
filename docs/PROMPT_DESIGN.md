@@ -1,5 +1,5 @@
 # PROMPT DESIGN — AI CAPPER
-# Last updated: 2026-06-10
+# Last updated: 2026-06-19
 
 This document shows the exact prompt template as it appears when `build_prompt.py`
 generates a prompt. It is the reference for reviewing or modifying the prompt format.
@@ -140,7 +140,7 @@ ODDS APPROACH:
 - The "heavy favourites" note was added in Task 2. Threshold is -180. See `build_prompt.py:_heavy_fav_notes()`.
 - The plus-money dog language was intentional — we want models to consider underdogs with genuine edge.
 - The parlay rules are strict: both legs must have independent edge, neither shorter than -180.
-- **TOTALS APPROACH** instruction block is appended after the PARLAY rules (before game blocks). It requires models to state a TOTAL LEAN (Over / Under / No lean) for every game regardless of whether they place a side bet. Uses a 7-step sequence: baseline RS/G estimate (using L10 RS/G where available), park factor adjustment, starter quality adjustment (xFIP), bullpen fatigue adjustment, wind adjustment, gap threshold (0.8+ runs = lean, 1.2+ = potential bet), and line movement. Expanded 2026-06-08 to add L10 RS/G, wind guidance, retractable-roof park-factor direction, and opener/small-sample adjustments.
+- **TOTALS APPROACH** — removed from Layer B in v2. Each model now has a self-authored totals method in docs/methods/method_{model}_totals_v1.md (all 8 authored 2026-06-19). Layer B only provides the TOTALS GATE rules (gap thresholds) and the output format slots. The old 7-step TOTALS APPROACH block is dead code (inside `if False:` at line 1737 of build_prompt.py) — it is never sent to models.
 
 ---
 
@@ -200,8 +200,11 @@ BULLPEN -- {HOME}
   (Static Bullpen.txt shows role, ERA, K%, and last 6 days pitch counts with actual dates.
    Falls back to fetch_bullpen.py format — closer + taxed relievers — when static absent.)
 
+STADIUM
+  {Venue} — LF {lf}ft | CF {cf}ft | RF {rf}ft            [from static STADIUM_DIMENSIONS table in build_prompt.py]
+
 WEATHER ({Venue})
-  {temp}°F | {wind_mph} mph {wind_dir} | {conditions} | {precip}% rain
+  {temp}°F | {wind_mph} mph {wind_dir} ({wind_effect}) | {conditions} | {precip}% rain
   (Retractable roof — if open, use outdoor park factors; if closed, use roof-closed park factors shown below.)
                                                      [only if roof=retractable]
   [PPD RISK: {n}% precipitation — postponement possible]
@@ -305,7 +308,10 @@ PICK: [team + ML, or team + RL, or Over, or Under, or PASS, or LEAN: side]
 PRICE: [exact american odds e.g. -128, or N/A]
 UNITS: [3 / 1 / LEAN / PASS]
 EDGE: [gap in percentage points e.g. "6.2 pts" -- or "none" for PASS]
-TOTAL LEAN: [Over / Under / No lean — required for every game]
+TOTAL: [Over {line} / Under {line} / Lean Over / Lean Under / No bet]
+TOTAL PRICE: [American odds for the total e.g. -110, or N/A]
+TOTAL UNITS: [3 / 1 / LEAN / No bet]
+TOTAL EDGE: [run gap e.g. "1.4 runs", or "none"]
 REASON: [2-4 sentences in your own words]
 LOOKED UP: [what you researched beyond the data, or "nothing, used provided data only"]
 
@@ -337,7 +343,10 @@ Do not add any text outside these blocks.
 | `PRICE:` | Odds at pick time — stored for CLV calculation when closing lines are fetched |
 | `UNITS:` | Stake tier — used for unit-weighted ROI calculation |
 | `EDGE:` | Probability gap in percentage points -- e.g. "6.2 pts". Enables quantitative calibration tracking. Replaces THIN/REAL/STRONG/NONE label system as of v3.1. |
-| `TOTAL LEAN:` | Model's totals assessment — every game, even PASS games. Enables tracking of totals accuracy vs side accuracy independently |
+| `TOTAL:` | Over/Under bet or lean — required for every game. Full bet or lean direction with line. |
+| `TOTAL PRICE:` | Odds at pick time for the total — stored for CLV calculation |
+| `TOTAL UNITS:` | Stake tier for totals — 3/1/LEAN/No bet. Graded by grade_picks.py vs combined runs |
+| `TOTAL EDGE:` | Run gap in runs (e.g. "1.4 runs"). Parsed by log_picks.py into total_pick JSON dict with `_is_total: True` flag |
 | `REASON:` | Kept for display and model comparison — not parsed numerically |
 | `LOOKED UP:` | Transparency field -- models state what external information they referenced beyond the prompt data. Web search is currently disabled at the API level for all models; this field will show 'nothing, used provided data only' for all automated models until web search is re-enabled. |
 | `## PARLAY` | Optional — only included when both legs independently have edge |

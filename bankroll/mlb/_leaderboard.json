@@ -1,0 +1,54 @@
+{
+  "updated_at": "2026-06-19T13:55:04Z",
+  "v3_start_date": "2026-06-20",
+  "ranks": [
+    {
+      "rank": 1,
+      "model": "kimi",
+      "balance": 10000.0,
+      "bets": 0
+    },
+    {
+      "rank": 2,
+      "model": "chatgpt",
+      "balance": 10000.0,
+      "bets": 0
+    },
+    {
+      "rank": 3,
+      "model": "opus",
+      "balance": 10000.0,
+      "bets": 0
+    },
+    {
+      "rank": 4,
+      "model": "gemini",
+      "balance": 10000.0,
+      "bets": 0
+    },
+    {
+      "rank": 5,
+      "model": "deepseek",
+      "balance": 10000.0,
+      "bets": 0
+    },
+    {
+      "rank": 6,
+      "model": "qwen",
+      "balance": 10000.0,
+      "bets": 0
+    },
+    {
+      "rank": 7,
+      "model": "sonnet",
+      "balance": 10000.0,
+      "bets": 0
+    },
+    {
+      "rank": 8,
+      "model": "grok",
+      "balance": 10000.0,
+      "bets": 0
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** TOR +111 (3u) at BOS  
+**RESULT:** WIN  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET? YES**  
+The edge was built on a massive platoon gap, favorable park/wind, and regression signals on the opposing pitcher. The bet was well-supported by pre-game data. It won, and the process was sound — though the confirmed lineups later showed the platoon gap was narrower than team-level splits suggested (see S2 lineup evaluation). With the data available at decision time, it was the right best bet.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** TOR @ BOS  
+**PICK:** TOR ML +111 (3u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+The platoon edge (21-point wRC+ gap), park factors, and pitching regression indicators created genuine value. The win reflects that value, even though the actual lineups later reduced the platoon gap. No process error.  
+**WOULD-BET-AGAIN:** YES (same stake with same edge, though I now prefer line-up-confirmed projections)  
+**WHY:** The underlying methodology — exploiting a large platoon mismatch with a wind‑blowing‑out park — is repeatable.  
+**SOURCE:** original model
+
+---
+
+**GAME:** STL @ KC  
+**PICK:** STL ML +105 (3u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+STL’s elite wRC+ vs LHP (139 team‑level, 125 actual lineup) against a league‑average lefty and a thin KC bullpen made this a solid bet. Liberatore’s poor performance (11 ER in the actual game) was within the variance expected from a 4.37‑SIERA pitcher — no specific pre-game data predicted a blow‑up. The loss falls under bad variance.  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The edge was robust (40+ point wRC+ gap even with actual lineups). A repeat of this setup would get the same unit allocation.  
+**SOURCE:** original model
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE‑GAME EDGE YOU MISSED
+*None.* All passes were correct at decision time. The bullpen/wind concerns on NYM, the shaky split data on CHW, and the small‑sample or extreme‑projection doubts on CLE, MIN, BAL, SF all held valid. No missed edge.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+**TYPE:** STAT  
+**ITEM:** Individual‑player platoon splits (wRC+ vs pitcher handedness) assembled into a projected lineup average, updated when confirmed lineups are released.  
+**WHICH GAME(S):** TOR @ BOS (critical), and any future platoon‑based bets.  
+**WOULD HAVE CHANGED A BET?** YES — for TOR, the actual lineup wRC+ of 96.1 (not 113) vs BOS’s 96.2 would have eliminated the platoon edge, turning a 3‑unit bet into a pass or much lower stake.  
+**WHY:** Team‑level splits masked the missing high‑wRC+ bats (Kirk, Sánchez). Lineup‑specific projections would have prevented an overstatement of the edge.
+
+**TYPE:** STAT  
+**ITEM:** Umpire strike‑zone run factor and called‑strike probability relative to league average, included for every game.  
+**WHICH GAME(S):** All games, especially those with park/wind or thin‑bullpen variables.  
+**WOULD HAVE CHANGED A BET?** MAYBE — for TOR, an extreme hitters’ umpire could have amplified the bullpen‑thin NYM pass or altered confidence in other games. Without the data pre‑game, it’s unknown.  
+**WHY:** Umpires can significantly shift expected run environments; this data would sharpen model in‑game projections.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+**PROPOSED CHANGE:**  
+When forming an edge primarily from team‑level platoon splits (e.g., team wRC+ vs RHP/LHP), require **confirmed lineups** with individual‑player projections to validate the split. If confirmed lineups are not available (e.g., bets placed before lineups are released), apply an automatic 20–30% discount to the platoon edge to account for the risk that actual lineups deviate from team averages — especially if late‑scratch risk is high.
+
+**WHAT IN MY METHOD COULD BE SHARPER:**  
+Today’s TOR bet used a 113 vs 92 wRC+ gap that disappeared in the actual lineups (96.1 vs 96.2). The edge was purely a platoon‑mismatch signal, yet the actual lineups were materially different from the team‑level benchmark. Incorporating lineup‑confirmed splits would have flagged this.
+
+**EVIDENCE FROM TODAY (pre‑game data only):**  
+- Expected TOR lineup (Rotowire) suggested a 113 wRC+ vs RHP, but the confirmed lineup (available shortly before first pitch) averaged only 96.1.  
+- The Raw platoon gap shrank from 21 points to essentially zero.  
+- The model assigned 3 units to a 10.2‑point edge; a discount triggered by “lineup not confirmed” or use of actual lineup splits would have reduced the stake or eliminated the bet.
+
+**CONFIDENCE:** MEDIUM — the pattern is common enough to warrant a systematic rule, but further testing over multiple slates is needed before finalizing.
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: TOR @ BOS — YOUR CALL: BET away ML +111 (3u)
+
+**EXPECTED vs ACTUAL:** Key changes — TOR added Schneider (49 wRC+), Straw (102), Valenzuela (127) while dropping Kirk (high vs RHP), Okamoto moved down, Giménez (82) stayed. BOS inserted Eaton (N/A), Wong (130), Monasterio (59), dropped Yoshida, Mayer, Gasper.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — TOR actual wRC+ vs RHP = 96.1 (assumption 113); BOS actual = 96.2 (assumption 92). The platoon gap vanished.
+
+**WOULD CHANGE?** **bet → pass**  
+**PRE-GAME REASON (required):** The betting case rested entirely on a 21‑point wRC+ advantage. The confirmed lineups reduced it to 0.1 points, leaving no meaningful offensive platoon edge. The bet would have been a pass with this information.
+
+**UMPIRE WOULD CHANGE?** No — no specific pre‑game tendency known for Manny Gonzalez that would alter the bet.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: BET away ML +105 (3u)
+
+**EXPECTED vs ACTUAL:** Key changes — STL actual inserted Crooks (222 wRC+), Torres (28), Fermín (110); dropped Walker, Burleson, Winn. KC inserted Tolbert (37), Massey (87); dropped Witt (superstar), Garcia, Loftin.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected for the bet — STL wRC+ vs LHP = 125.1 (still excellent, though slightly below team 139); KC wRC+ vs LHP = 82.4 (extremely weak). The platoon gap remained ~43 points, fully supporting a bet.
+
+**WOULD CHANGE?** **no change**  
+**PRE-GAME REASON:** The large offensive mismatch persisted in the confirmed lineups, so the bet’s foundation was intact.
+
+**UMPIRE WOULD CHANGE?** No — no pre‑game umpire data available.

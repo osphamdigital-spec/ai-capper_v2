@@ -19,11 +19,12 @@
       "edge": "10.2 pts",
       "reason": "Yesavage AGG SIERA 4.43 vs Gray 3.45 gives BOS a moderate pitching edge, but the platoon mismatch is massive — TOR 113 wRC+ vs RHP against BOS 92 wRC+ is a 21-point gap that overwhelms the pitching difference. Gray's xERA 4.55 and HH% 35.9 suggest regression, while Yesavage's L14 walk spike (6.8 BB/9) warrants the full 50% edge discount applied here. Fenway's 104 runs park factor and 21-mph wind out to left amplify the better offense. Market has this backward at +111 for TOR.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 3.33,
+      "clv": 5,
+      "closing_line": 106,
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "872e319f5c105d18457014bc855cdc85",
@@ -41,10 +42,11 @@
       "reason": "Extreme platoon splits — CLE 48 wRC+ vs LHP, MIL 136 wRC+ — create a massive model edge for MIL, but Drohan's 18.0 IP career sample [sm] caps any bet at 1 unit and raises reliability concerns. The 48 wRC+ for CLE may be a small-sample split due for regression toward team talent level. Pass rather than chase an edge built on shaky split data with a small-sample starter.",
       "data_gap": "CLE wRC+ vs LHP may be noisy small-sample split; Drohan overall projection based on just 18.0 IP.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "bb47b41c0a375d2df45331898a1e7ec1",
@@ -62,10 +64,11 @@
       "reason": "Ryan's elite SIERA 3.27 vs Leiter's poor 4.34 points strongly to MIN, but TEX offense (115 wRC+ vs RHP) and home field pull the projection toward a near-toss-up. My formula produces an extreme TEX edge that I don't fully trust — the multiplicative run model may over-amplify when both offense and pitching are far from average. Market MIN -121 feels roughly correct. No clear edge to exploit.",
       "data_gap": "None, but model uncertainty on extreme multiplicative projection.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "cad6df1fc1aadca9fdbb359d7d43e40f",
@@ -83,10 +86,11 @@
       "reason": "Woo is an elite arm (SIERA 3.38, K-BB% 21.3%) in baseball's most pitcher-friendly park (T-Mobile 86 runs factor). BAL's 124 wRC+ vs RHP is excellent but their 13-21 road record and Baz's below-average peripherals (SIERA 4.17, xERA 4.55) make the +131 price fair rather than value. Model edge exists but the road environment and ace opponent suppress true win probability well below my raw projection.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "7fc018ccf3790baea15d29b581f9d0ce",
@@ -104,10 +108,11 @@
       "reason": "Manaea's SIERA 3.21 dominates Nola's 3.87, and NYM's 105 wRC+ edges PHI's 92 vs LHP — the model gives NYM a ~14-point edge. But NYM's bullpen has only 2 of 6 middle relievers available (T3: 2/6), and Citizens Bank Park has 21-mph wind blowing out at 89 degrees. A thin pen behind a pitcher averaging ~5.2 IP per start in a high-scoring environment creates too much late-game variance to commit units.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "adfa73cc70f5a62d6d0bb903eaa0f24b",
@@ -125,10 +130,11 @@
       "reason": "Burke's poor peripherals (SIERA 4.67, K-BB% 10.4%) project NYY to score well, but NYY's 94 wRC+ vs RHP split seems discordant with their 45-27 record and 5.3 RS/game — suggesting the platoon split may be unreliable or heavily regressed. Weathers' SIERA 3.66 is solid. The market NYY -149 squares with overall team quality, and I don't trust my model's CHW-favored output given the split-data suspicion.",
       "data_gap": "NYY wRC+ vs RHP of 94 appears inconsistent with overall team performance — possible data reliability issue on platoon split.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "e92122c8f905eb41a57faabf21daf468",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "Modest 5.9-pt edge for SF at +122 based on Pérez's poor peripherals (SIERA 4.73, Stf+ 86) vs Roupp's adequate 4.12, but the 68% rain risk with \"PPD RISK\" flag makes this too volatile. ATL's elite bullpen (Iglesias 1.16 ERA, Suarez 0.59, Lee 1.14) would dominate late innings if the game is shortened. Pass on weather uncertainty.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "13234b203ca4ea57ec2f1381b3e6a046",
@@ -166,11 +173,12 @@
       "edge": "10.0 pts",
       "reason": "STL's elite 139 wRC+ vs LHP is the slate's best platoon split, facing Cameron (SIERA 4.18, Stf+ 96 — league-average arm). Liberatore's SIERA 4.37 is only slightly worse, and KC's bullpen is thin (T3: just 2/5 available, Erceg 43-pitch outing still lingering). Kauffman's neutral park doesn't suppress the STL advantage. KC is getting favorite treatment at -115 based on home field, but the offensive talent gap is too large to ignore. Liberatore's L14 wobble (5.04 xFIP in 8.2 IP) warrants a 20% discount applied, leaving edge at 10.0 pts.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 3,
+      "closing_line": 102,
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "4d7345756b0575f6a757888c78a290f2",
@@ -188,10 +196,11 @@
       "reason": "LAA starter is TBD — automatic pass per system rules. No edge can be estimated without confirmed pitcher data.",
       "data_gap": "TBD starter",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     }
   ],
   "parlay": null,
@@ -208,5 +217,6 @@
     "passes": 7,
     "units_risked": 6,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-19T13:38:47Z"
 }

@@ -1688,6 +1688,137 @@ def load_model_instruction(model_name: str, project_root: Path) -> str | None:
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# v3 BANKROLL ACCOUNT INJECTION
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _fmt_bucket(b: dict) -> str:
+    """Format one by-type bucket as 'bets / W-L / +$net'."""
+    net = b.get("dollars_net", 0.0)
+    sign = "+" if net >= 0 else "-"
+    return f"{b.get('bets', 0)} / {b.get('w', 0)}-{b.get('l', 0)} / {sign}${abs(net):,.0f}"
+
+
+def render_account_block(model: str, sport: str, date: str, project_root: Path) -> str:
+    """
+    Build the v3 bankroll account block injected into the per-model prompt.
+
+    Returns "" (nothing) when:
+      - no model specified, or
+      - bankroll/{sport}/_config.json is missing, or
+      - the slate date is BEFORE v3_start_date.
+    So v2 prompts are completely untouched -- the block only appears from the
+    first v3 slate onward.
+
+    RAW OBSERVATIONS ONLY. No verdicts, no interpretation. The model draws its
+    own conclusions (or none). The small-sample warning is the first thing read.
+    """
+    if not model:
+        return ""
+    bdir = project_root / "bankroll" / sport
+    cfg_path = bdir / "_config.json"
+    if not cfg_path.exists():
+        return ""
+    try:
+        cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return ""
+    v3_start = cfg.get("v3_start_date")
+    if not v3_start or date < v3_start:
+        return ""  # pre-v3 slate -> no block at all
+
+    acct_path = bdir / f"{model}.json"
+    start_bal = float(cfg.get("starting_balance", 10000.0))
+
+    L = [DIVIDER,
+         "YOUR ACCOUNT — v3 bankroll (your own history only)",
+         DIVIDER]
+
+    acct = None
+    if acct_path.exists():
+        try:
+            acct = json.loads(acct_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            acct = None
+
+    n_bets = acct["summary"]["bets"] if acct else 0
+
+    # ── Empty case: no settled bets yet (expected for the first v3 slates) ──
+    if not acct or n_bets == 0:
+        L.append(
+            f"Balance: ${start_bal:,.2f} (starting balance). No settled bets yet — v3 has "
+            "just begun. There is nothing to analyze. Pick on your method alone this slate."
+        )
+        return "\n".join(L) + "\n"
+
+    s = acct["summary"]
+    bal = acct["current_balance"]
+    net = bal - start_bal
+    net_sign = "+" if net >= 0 else "-"
+    risked = s.get("dollars_risked", 0.0)
+    roi = s.get("roi_pct")
+    roi_str = f"{roi:+.1f}%" if roi is not None else "n/a"
+    avg_clv = s.get("avg_clv")
+    clv_str = f"{avg_clv:+.1f}c average over {s.get('clv_count', 0)} bets" if avg_clv is not None \
+        else f"n/a ({s.get('clv_count', 0)} bets with closing line)"
+    bt = s["by_type"]
+
+    L += [
+        f"SMALL-SAMPLE WARNING: {n_bets} settled bets is far too few to draw reliable",
+        "conclusions about your method. Variance dominates at this size. These are",
+        "raw observations, not verdicts — do not overfit. Drawing no conclusion is",
+        "a valid response.",
+        "",
+        f"Balance: ${bal:,.2f}   (start ${start_bal:,.2f} — net {net_sign}${abs(net):,.2f})",
+        f"Record:  {s['wins']}-{s['losses']}-{s['pushes']} (W-L-P) over {n_bets} settled bets",
+        f"ROI:     {roi_str} on ${risked:,.0f} risked",
+        f"CLV:     {clv_str}",
+        "",
+        "By bet type — THREE OVERLAPPING VIEWS of the SAME bets. Each of the three",
+        "groups (fav/dog, stake size, market) independently sums to your total bet",
+        "count; categories are NOT additive across groups. Fav/dog is split purely by",
+        "odds sign (−odds vs +odds), so a −110 coinflip and a −350 heavy favorite both",
+        "count as \"favorite.\"",
+        "  (bets / W-L / net $)",
+        f"  Favorites (−odds):  {_fmt_bucket(bt['favorite'])}",
+        f"  Underdogs (+odds):  {_fmt_bucket(bt['underdog'])}",
+        "  ----",
+        f"  1-unit bets:        {_fmt_bucket(bt['1u'])}",
+        f"  3-unit bets:        {_fmt_bucket(bt['3u'])}",
+        "  ----",
+        f"  Moneyline:          {_fmt_bucket(bt['ml'])}",
+        f"  Run line:           {_fmt_bucket(bt['rl'])}",
+        f"  Totals (O/U):       {_fmt_bucket(bt['total'])}",
+        "",
+    ]
+
+    # ── Leaderboard: own rank + gap-to-leader only (no other models' details) ──
+    lb_path = bdir / "_leaderboard.json"
+    if lb_path.exists():
+        try:
+            lb = json.loads(lb_path.read_text(encoding="utf-8"))
+            ranks = lb.get("ranks", [])
+            total_models = len(ranks)
+            my_row = next((r for r in ranks if r["model"] == model), None)
+            leader = ranks[0] if ranks else None
+            if my_row and leader:
+                gap = my_row["balance"] - leader["balance"]
+                gap_sign = "+" if gap >= 0 else "-"
+                L.append(f"Leaderboard: you are rank {my_row['rank']} of {total_models}. "
+                         f"Leader has ${leader['balance']:,.2f}.")
+                L.append(f"Gap to leader: {gap_sign}${abs(gap):,.2f}.")
+                L.append("")
+        except (json.JSONDecodeError, KeyError, IndexError):
+            pass
+
+    L += [
+        "These are facts about YOUR OWN past bets only. You cannot see other",
+        "competitors' picks or methods. Reason from your own method; use this",
+        "history only insofar as the sample supports it.",
+    ]
+    return "\n".join(L) + "\n"
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # PROMPT ASSEMBLER
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -1766,6 +1897,15 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
         parts.append("[Plate umpires not yet assigned for this slate]")
         parts.append("")
 
+    # ── v3 bankroll account injection ─────────────────────────────────────────
+    # Raw own-history observations, gated on V3_START_DATE. Returns "" for pre-v3
+    # slates, so v2 prompts are unchanged. Sits before the game blocks so the
+    # model reads its standing, then handicaps the slate.
+    account_block = render_account_block(model, sport, date, Path(__file__).resolve().parent.parent)
+    if account_block:
+        parts.append(account_block)
+        parts.append("")
+
     hoist_lu  = all_lineups_unconfirmed
     hoist_ump = all_umpires_unassigned
 
@@ -1780,8 +1920,9 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
                                       hoist_lineups=hoist_lu, hoist_umpire=hoist_ump))
 
     parts.append("")
-    parts.append("BEFORE SUBMITTING: verify each bet clears the 4-pt minimum edge gate.")
-    parts.append("Apply slate ceiling, team quality check, and small-sample checks.")
+    parts.append("BEFORE SUBMITTING: apply the edge gate, slate ceiling, and 1u/3u rule")
+    parts.append("from YOUR OWN method document. Respect the fixed data-integrity rules")
+    parts.append("(TBD starter = PASS, stale price = absent, postponed = PASS).")
     parts.append("")
 
     return "\n".join(parts)
@@ -2275,31 +2416,26 @@ def build_system_prompt(sport_label: str, model: str | None, project_root: Path)
         "",
         "WHAT IS FIXED (the competition rules — identical for every competitor):",
         "",
-        "EDGE GATE",
-        "A bet requires at least a 4 percentage-point gap between your estimated win",
-        "probability and the market's implied probability. Below 4 points: LEAN or PASS.",
+        "UNIT DENOMINATIONS (fixed — for leaderboard comparability, NOT methodology)",
+        "  Every bet is staked at either 1 unit or 3 units. Those are the only two",
+        "  stake sizes. LEAN = zero stake (noted, not bet). PASS = no action.",
+        "  WHEN to use 1u vs 3u, your minimum edge to bet at all, and how many bets",
+        "  you make per slate are YOUR decisions — defined in your method document.",
+        "  The best bet is your single highest-conviction 3-unit play, or none.",
         "",
-        "UNIT MAP",
-        "  Gap 4 to under 7 pts   -> 1 unit",
-        "  Gap 7+ pts, clean data -> 3 units (the ceiling; nothing rates higher)",
-        "  Gap under 4 pts        -> LEAN or PASS, zero stake",
+        "YOU AUTHOR YOUR OWN STAKING DISCIPLINE",
+        "  There is no house edge gate, no house slate ceiling, and no house",
+        "  1u-vs-3u threshold. Your method document states your own edge gate, your",
+        "  own max bets per slate (or 'no ceiling'), and your own 1u/3u rule. Apply",
+        "  the rules you wrote. State your win-probability estimate and the gap as",
+        "  numbers on every bet so your calibration can still be measured.",
         "",
-        "SLATE CEILINGS (hard, not targets)",
-        "  1-7 games:  1 bet max",
-        "  8-14 games: 2 bets max",
-        "  15+ games:  3 bets max",
-        "  A total (Over/Under) and a side (ML/RL) on the same game are two",
-        "  independent bets — both count toward the ceiling.",
-        "",
-        "TOTALS GATE (Over/Under is a real, stakeable bet — not a note)",
+        "TOTALS (Over/Under is a real, stakeable bet — not a note)",
         "Totals are priced in RUNS, not win-probability points. Compare your own",
         "estimated combined runs to the posted total; the gap in runs is your edge.",
-        "  Gap under 0.5 runs    -> No bet",
-        "  Gap 0.5 to under 1.0  -> LEAN (no stake)",
-        "  Gap 1.0 to under 1.5  -> 1 unit",
-        "  Gap 1.5+ runs, clean  -> 3 units (the ceiling)",
-        "How you estimate combined runs is entirely your own method. State your",
-        "estimated total as a number and the run gap so it can be measured.",
+        "Your run-gap threshold to bet, and your 1u-vs-3u rule on totals, are YOUR",
+        "decisions — defined in your totals method. State your estimated total as a",
+        "number and the run gap so it can be measured.",
         "",
         "DATA INTEGRITY (non-negotiable)",
         "  Either starter TBD             -> PASS that game.",

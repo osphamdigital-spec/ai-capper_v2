@@ -1,0 +1,842 @@
+{
+  "date": "2026-06-18",
+  "sport": "mlb",
+  "fetched_at": "2026-06-19T13:39:01Z",
+  "games": {
+    "TOR @ BOS": {
+      "game_pk": 824748,
+      "matchup": "TOR @ BOS",
+      "umpire": "Manny Gonzalez",
+      "away_sp_hand": "R",
+      "home_sp_hand": "R",
+      "away_lineup": [
+        {
+          "name": "George Springer",
+          "wrc_plus": 70.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "wrc_plus": 94.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Davis Schneider",
+          "wrc_plus": 49.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Myles Straw",
+          "wrc_plus": 102.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Ernie Clement",
+          "wrc_plus": 119.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Nathan Lukes",
+          "wrc_plus": 120.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Kazuma Okamoto",
+          "wrc_plus": 102.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Brandon Valenzuela",
+          "wrc_plus": 127.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Andr\u00e9s Gim\u00e9nez",
+          "wrc_plus": 82.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "home_lineup": [
+        {
+          "name": "Nate Eaton",
+          "wrc_plus": null,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Ceddanne Rafaela",
+          "wrc_plus": 110.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Wilyer Abreu",
+          "wrc_plus": 90.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Willson Contreras",
+          "wrc_plus": 142.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Jarren Duran",
+          "wrc_plus": 78.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Isiah Kiner-Falefa",
+          "wrc_plus": 115.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Caleb Durbin",
+          "wrc_plus": 46.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Connor Wong",
+          "wrc_plus": 130.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Andruw Monasterio",
+          "wrc_plus": 59.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "away_avg_wrc": 96.1,
+      "home_avg_wrc": 96.2
+    },
+    "CLE @ MIL": {
+      "game_pk": 823772,
+      "matchup": "CLE @ MIL",
+      "umpire": "Lance Barksdale",
+      "away_sp_hand": "L",
+      "home_sp_hand": "L",
+      "away_lineup": [
+        {
+          "name": "Travis Bazzana",
+          "wrc_plus": 66.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Daniel Schneemann",
+          "wrc_plus": 131.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Brayan Rocchio",
+          "wrc_plus": 104.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Rhys Hoskins",
+          "wrc_plus": 74.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Kyle Manzardo",
+          "wrc_plus": 163.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Gabriel Arias",
+          "wrc_plus": -100.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Steven Kwan",
+          "wrc_plus": 50.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Kahlil Watson",
+          "wrc_plus": null,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Austin Hedges",
+          "wrc_plus": 139.0,
+          "split_used": "vs_LHP"
+        }
+      ],
+      "home_lineup": [
+        {
+          "name": "Christian Yelich",
+          "wrc_plus": 128.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Jackson Chourio",
+          "wrc_plus": 182.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Brice Turang",
+          "wrc_plus": 52.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Andrew Vaughn",
+          "wrc_plus": 314.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Jake Bauers",
+          "wrc_plus": 122.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Gary S\u00e1nchez",
+          "wrc_plus": 195.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Garrett Mitchell",
+          "wrc_plus": 86.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Cooper Pratt",
+          "wrc_plus": null,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "David Hamilton",
+          "wrc_plus": 76.0,
+          "split_used": "vs_LHP"
+        }
+      ],
+      "away_avg_wrc": 78.4,
+      "home_avg_wrc": 144.4
+    },
+    "MIN @ TEX": {
+      "game_pk": 822889,
+      "matchup": "MIN @ TEX",
+      "umpire": "Mike Estabrook",
+      "away_sp_hand": "R",
+      "home_sp_hand": "R",
+      "away_lineup": [
+        {
+          "name": "Kyler Fedko",
+          "wrc_plus": null,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Byron Buxton",
+          "wrc_plus": 163.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Kody Clemens",
+          "wrc_plus": 125.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Royce Lewis",
+          "wrc_plus": 79.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Josh Bell",
+          "wrc_plus": 82.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Brooks Lee",
+          "wrc_plus": 106.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Victor Caratini",
+          "wrc_plus": 62.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Ryan Kreidler",
+          "wrc_plus": 72.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Luke Keaschall",
+          "wrc_plus": 74.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "home_lineup": [
+        {
+          "name": "Justin Foscue",
+          "wrc_plus": 39.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Josh Jung",
+          "wrc_plus": 130.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Wyatt Langford",
+          "wrc_plus": 85.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Brandon Nimmo",
+          "wrc_plus": 110.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Nicky Lopez",
+          "wrc_plus": 76.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Josh Smith",
+          "wrc_plus": 83.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Jake Burger",
+          "wrc_plus": 97.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Cody Freeman",
+          "wrc_plus": 291.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Kyle Higashioka",
+          "wrc_plus": 79.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "away_avg_wrc": 95.4,
+      "home_avg_wrc": 110.0
+    },
+    "BAL @ SEA": {
+      "game_pk": 823125,
+      "matchup": "BAL @ SEA",
+      "umpire": "Tyler Jones",
+      "away_sp_hand": "R",
+      "home_sp_hand": "R",
+      "away_lineup": [
+        {
+          "name": "Taylor Ward",
+          "wrc_plus": 122.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Gunnar Henderson",
+          "wrc_plus": 95.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Jeremiah Jackson",
+          "wrc_plus": 91.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Pete Alonso",
+          "wrc_plus": 139.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Samuel Basallo",
+          "wrc_plus": 137.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Leody Taveras",
+          "wrc_plus": 123.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Colton Cowser",
+          "wrc_plus": 112.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Blaze Alexander",
+          "wrc_plus": 127.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Jackson Holliday",
+          "wrc_plus": 110.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "home_lineup": [
+        {
+          "name": "J.P. Crawford",
+          "wrc_plus": 138.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Cal Raleigh",
+          "wrc_plus": 80.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Josh Naylor",
+          "wrc_plus": 100.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Dominic Canzone",
+          "wrc_plus": 160.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Cole Young",
+          "wrc_plus": 113.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Colt Emerson",
+          "wrc_plus": 175.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Mitch Garver",
+          "wrc_plus": 65.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Victor Robles",
+          "wrc_plus": 62.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Miles Mastrobuoni",
+          "wrc_plus": 12.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "away_avg_wrc": 117.3,
+      "home_avg_wrc": 100.6
+    },
+    "NYM @ PHI": {
+      "game_pk": 823448,
+      "matchup": "NYM @ PHI",
+      "umpire": "Brian Walsh",
+      "away_sp_hand": "L",
+      "home_sp_hand": "R",
+      "away_lineup": [
+        {
+          "name": "Carson Benge",
+          "wrc_plus": 85.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Bo Bichette",
+          "wrc_plus": 66.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Juan Soto",
+          "wrc_plus": 172.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Mark Vientos",
+          "wrc_plus": 55.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Zack Short",
+          "wrc_plus": 6.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Marcus Semien",
+          "wrc_plus": 74.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Brett Baty",
+          "wrc_plus": 77.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "MJ Melendez",
+          "wrc_plus": 98.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Francisco Alvarez",
+          "wrc_plus": 112.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "home_lineup": [
+        {
+          "name": "Justin Crawford",
+          "wrc_plus": 19.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Kyle Schwarber",
+          "wrc_plus": 172.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Bryce Harper",
+          "wrc_plus": 92.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Alec Bohm",
+          "wrc_plus": 98.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Brandon Marsh",
+          "wrc_plus": 118.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Edmundo Sosa",
+          "wrc_plus": 95.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Bryson Stott",
+          "wrc_plus": 141.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "J.T. Realmuto",
+          "wrc_plus": 41.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Gabriel Rincones Jr.",
+          "wrc_plus": null,
+          "split_used": "vs_LHP"
+        }
+      ],
+      "away_avg_wrc": 82.8,
+      "home_avg_wrc": 97.0
+    },
+    "CHW @ NYY": {
+      "game_pk": 823533,
+      "matchup": "CHW @ NYY",
+      "umpire": "Gabe Morales",
+      "away_sp_hand": "R",
+      "home_sp_hand": "L",
+      "away_lineup": [
+        {
+          "name": "Chase Meidroth",
+          "wrc_plus": 163.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Andrew Benintendi",
+          "wrc_plus": 27.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Miguel Vargas",
+          "wrc_plus": 216.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Colson Montgomery",
+          "wrc_plus": 114.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Edgar Quero",
+          "wrc_plus": 22.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Braden Montgomery",
+          "wrc_plus": 99.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Sam Antonacci",
+          "wrc_plus": 7.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Jacob Gonzalez",
+          "wrc_plus": 90.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Tristan Peters",
+          "wrc_plus": -40.0,
+          "split_used": "vs_LHP"
+        }
+      ],
+      "home_lineup": [
+        {
+          "name": "Ben Rice",
+          "wrc_plus": 178.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Paul Goldschmidt",
+          "wrc_plus": 75.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Cody Bellinger",
+          "wrc_plus": 138.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Jasson Dom\u00ednguez",
+          "wrc_plus": 64.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Anthony Volpe",
+          "wrc_plus": 63.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Spencer Jones",
+          "wrc_plus": 106.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Jos\u00e9 Caballero",
+          "wrc_plus": 102.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Ryan McMahon",
+          "wrc_plus": 83.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "J.C. Escarra",
+          "wrc_plus": 3.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "away_avg_wrc": 77.6,
+      "home_avg_wrc": 90.2
+    },
+    "SF @ ATL": {
+      "game_pk": 824911,
+      "matchup": "SF @ ATL",
+      "umpire": null,
+      "away_sp_hand": "R",
+      "home_sp_hand": "L",
+      "away_lineup": [],
+      "home_lineup": [],
+      "away_avg_wrc": null,
+      "home_avg_wrc": null
+    },
+    "STL @ KC": {
+      "game_pk": 824098,
+      "matchup": "STL @ KC",
+      "umpire": "Ryan Blakney",
+      "away_sp_hand": "L",
+      "home_sp_hand": "L",
+      "away_lineup": [
+        {
+          "name": "JJ Wetherholt",
+          "wrc_plus": 110.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Iv\u00e1n Herrera",
+          "wrc_plus": 178.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Jimmy Crooks",
+          "wrc_plus": 222.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Nelson Vel\u00e1zquez",
+          "wrc_plus": 210.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Nathan Church",
+          "wrc_plus": 72.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Bryan Torres",
+          "wrc_plus": 28.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Blaze Jordan",
+          "wrc_plus": 160.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Jos\u00e9 Ferm\u00edn",
+          "wrc_plus": 110.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Pedro Pag\u00e9s",
+          "wrc_plus": 36.0,
+          "split_used": "vs_LHP"
+        }
+      ],
+      "home_lineup": [
+        {
+          "name": "Lane Thomas",
+          "wrc_plus": 106.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Tyler Tolbert",
+          "wrc_plus": 37.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Jac Caglianone",
+          "wrc_plus": 117.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Starling Marte",
+          "wrc_plus": 68.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Salvador Perez",
+          "wrc_plus": 101.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Carter Jensen",
+          "wrc_plus": 69.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Nick Loftin",
+          "wrc_plus": 116.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Isaac Collins",
+          "wrc_plus": 41.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Michael Massey",
+          "wrc_plus": 87.0,
+          "split_used": "vs_LHP"
+        }
+      ],
+      "away_avg_wrc": 125.1,
+      "home_avg_wrc": 82.4
+    },
+    "LAA @ ATH": {
+      "game_pk": 824989,
+      "matchup": "LAA @ ATH",
+      "umpire": "Shane Livensparger",
+      "away_sp_hand": "R",
+      "home_sp_hand": "L",
+      "away_lineup": [
+        {
+          "name": "Zach Neto",
+          "wrc_plus": 122.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Nick Madrigal",
+          "wrc_plus": 52.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Jo Adell",
+          "wrc_plus": 151.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Vaughn Grissom",
+          "wrc_plus": 70.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Oswald Peraza",
+          "wrc_plus": 139.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Christian Moore",
+          "wrc_plus": null,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Denzer Guzman",
+          "wrc_plus": -100.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Logan O'Hoppe",
+          "wrc_plus": 91.0,
+          "split_used": "vs_LHP"
+        },
+        {
+          "name": "Wade Meckler",
+          "wrc_plus": -37.0,
+          "split_used": "vs_LHP"
+        }
+      ],
+      "home_lineup": [
+        {
+          "name": "Zack Gelof",
+          "wrc_plus": 111.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Nick Kurtz",
+          "wrc_plus": 181.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Shea Langeliers",
+          "wrc_plus": 120.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Tyler Soderstrom",
+          "wrc_plus": 116.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Jacob Wilson",
+          "wrc_plus": 96.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Jonah Heim",
+          "wrc_plus": 30.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Colby Thomas",
+          "wrc_plus": -32.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Henry Bolte",
+          "wrc_plus": 89.0,
+          "split_used": "vs_RHP"
+        },
+        {
+          "name": "Alika Williams",
+          "wrc_plus": 99.0,
+          "split_used": "vs_RHP"
+        }
+      ],
+      "away_avg_wrc": 61.0,
+      "home_avg_wrc": 90.0
+    }
+  }
+}

@@ -1,0 +1,175 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: NO BEST BET — no 3-unit play identified
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A  
+**WHY:** The slate was correctly graded as low-confidence. Every edge topped out below the betting gate, and the confirmed lineups later showed even more volatility (SEA, NYM downgrades; MIL upgrade). A no-bet slate was the right discipline.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+**Note:** No unit bets were placed today; all picks were zero-unit leans. The blocks below review process on those leans.
+
+### PART A — GAMES YOU BET (zero-unit lean review)
+
+**GAME:** TOR @ BOS  
+**PICK:** LEAN BOS ML (0U)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Pre-game reasoning centered on a nearly full-run SIERA/xFIP gap favoring Sonny Gray over Trey Yesavage, a fresher Boston bullpen, and Fenway park factors suppressing Toronto’s extra-base power. The confirmed Boston lineup was roughly equivalent to the projection; no pre-game data suggested Toronto would overcome Gray’s profile in a one-run game. A 4-3 defeat is well within the noise of a pitching-dominant matchup.  
+**SOURCE:** SIERA/xFIP, bullpen rest, park factors.
+
+---
+
+**GAME:** CLE @ MIL  
+**PICK:** LEAN MIL ML (0U)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Milwaukee’s platoon edge against left-handed pitching was massive on paper (136 wRC+ vs. Cleveland’s 48), and the actual Brewers lineup posted even more extreme split numbers. Cleveland’s rested bullpen was already factored in as a margin-trimmer. There was no pre-game signal that Cleveland’s weak split lineup would flip the script against a loaded Milwaukee order.  
+**SOURCE:** Team wRC+ splits, starter small-sample flags, bullpen rest.
+
+---
+
+**GAME:** MIN @ TEX  
+**PICK:** LEAN MIN ML (0U)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (as a lean or higher)  
+**WHY:** Joe Ryan’s strike-zone metrics and SIERA advantage over Jack Leiter played out as the pre-game data predicted. Globe Life’s pitcher-friendly dimensions aligned with the low-scoring environment for Texas. Minnesota’s lineup executed despite missing its closer.  
+**SOURCE:** SIERA, K-BB%, park factors.
+
+---
+
+**GAME:** BAL @ SEA  
+**PICK:** LEAN SEA ML (0U)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Bryan Woo’s elite SIERA/xFIP profile over Shane Baz and T-Mobile Park’s suppression of offense were the decisive pre-game edges. Baltimore’s fresher bullpen was already priced into the modest 1.8-pt edge. No reason to deviate.  
+**SOURCE:** SIERA/xFIP, park factors, bullpen rest.
+
+---
+
+**GAME:** NYM @ PHI  
+**PICK:** LEAN NYM ML (0U)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Sean Manaea’s half-run SIERA advantage over Aaron Nola and Nola’s recent walk-driven degradation were clear pre-game signals. The Mets’ platoon edge against Nola was supported by the data. The edge stayed at a lean due to Manaea’s own small-sample volatility, which proved a prudent cap.  
+**SOURCE:** SIERA, recent walk rates, platoon splits.
+
+---
+
+**GAME:** CHW @ NYY  
+**PICK:** LEAN NYY ML (0U)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Ryan Weathers’ SIERA and K-BB% advantage over a walk-prone Sean Burke was a sound pre-game pitching edge. The confirmed White Sox lineup was even weaker than projected (multiple sub-replacement platoon bats). The 5-1 result is not explained by any pre-game data point and falls under starter variance / bullpen meltdown.  
+**SOURCE:** SIERA, K-BB%, walk rates, lineup projections.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+**NONE.**  
+The correct passes (SF@ATL weather, STL@KC twin starters, LAA@ATH no starter) remain correct. For the leans, no pre-game data point that was available at lock was overlooked; the deviations were driven by post-hoc lineup changes not reflected in the Rotowire expected orders.
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT  
+**ITEM:** Real-time confirmed batting order with split-specific wRC+ (or comparable platoon projections) rather than expected/projections-only lineups.  
+**WHICH GAME(S):** MIL, SEA, NYM (slate-wide)  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** The actual lineups for MIL (Yelich inserted, 314/195/182 wRC+ anchors), SEA (Rodríguez/Raley out, Mastrobuoni 12 wRC+), and NYM (Short 6 wRC+, Vientos 55 wRC+) deviated materially from expected orders. Knowing the confirmed splits pre-game would have upgraded MIL to a full bet and downgraded/voided the SEA and NYM leans.
+
+---
+
+**TYPE:** STAT  
+**ITEM:** Umpire-specific zone tendency profiles (pitcher-friendly / hitter-friendly / borderline call rates).  
+**WHICH GAME(S):** TOR@BOS, BAL@SEA, CLE@MIL  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** Pitching-mismatch leans (Gray, Woo, etc.) are sensitive to zone size; a pitcher-friendly umpire amplifies the edge, while a tight zone erodes it.
+
+---
+
+**TYPE:** DATA  
+**ITEM:** Granular high-leverage bullpen availability (exact arms unavailable due to back-to-back or 3-in-4 usage, not just general “fatigue”).  
+**WHICH GAME(S):** MIL, BOS, MIN  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** “Fatigue” is vague; knowing whether the top 2-3 leverage arms are definitively down would refine late-inning edge calculations for close leans.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**NONE.**  
+One slate is insufficient evidence to modify weightings. The process correctly capped all plays at leans and identified no best bet, which accurately reflected the high lineup uncertainty and small-sample pitching flags across the board. Any adjustment based solely on today would be outcome-biased.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: TOR @ BOS — YOUR CALL: LEAN home
+
+**EXPECTED vs ACTUAL:** Key changes — Nate Eaton (wRC+ N/A) in for Mickey Gasper atop the order; Connor Wong (130 wRC+ vs RHP) in for Masataka Yoshida; Andruw Monasterio (59 wRC+ vs RHP) in for Marcelo Mayer.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** The core of Rafaela/Abreu/Contreras/Duran remained intact; Wong’s 130 wRC+ vs RHP is a platoon upgrade over Yoshida against Gray, while Monasterio is a mild downgrade. Net effect is neutral.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No umpire zone-size data provided to suggest a material shift in the pitching/batting environment.
+
+---
+
+### GAME: CLE @ MIL — YOUR CALL: LEAN home
+
+**EXPECTED vs ACTUAL:** Key changes — Christian Yelich (128 wRC+ vs LHP) inserted at leadoff; Jake Bauers (122) and David Hamilton (76) in for Blake Perkins/Joey Ortiz; William Contreras out.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** lean→bet  
+**PRE-GAME REASON:** Yelich is an elite lefty-masher when available, and the confirmed lineup featured Andrew Vaughn (314 wRC+ vs LHP) and Gary Sánchez (195) behind him. The aggregate platoon firepower far exceeded the Rotowire projection and would have cleared the threshold to a full bet on Milwaukee.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No specific zone-size data for Lance Barksdale provided to alter the run-scoring environment.
+
+---
+
+### GAME: MIN @ TEX — YOUR CALL: LEAN away
+
+**EXPECTED vs ACTUAL:** Key changes — Justin Foscue (39 wRC+ vs RHP) in for Joc Pederson; Nicky Lopez (76) in for Ezequiel Duran; Cody Freeman (291 wRC+ vs RHP) inserted.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** lean→higher stake  
+**PRE-GAME REASON:** Texas removed Joc Pederson and inserted Justin Foscue (39 wRC+ vs RHP) and Nicky Lopez (76), significantly weakening the top and middle of the order against Ryan. While Freeman’s 291 wRC+ is likely small-sample noise, the net downgrade versus projection adds to Minnesota’s pitching edge.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No pre-game umpire tendency data provided.
+
+---
+
+### GAME: BAL @ SEA — YOUR CALL: LEAN home
+
+**EXPECTED vs ACTUAL:** Key changes — Baltimore removed Adley Rutschman for Jeremiah Jackson (91 wRC+ vs RHP). Seattle removed Julio Rodríguez and Luke Raley, inserting Mitch Garver (65 wRC+ vs RHP) and Miles Mastrobuoni (12 wRC+ vs RHP).  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** lean→lower stake / lean→pass  
+**PRE-GAME REASON:** Seattle’s removal of Julio Rodríguez and Luke Raley — two projected middle-order bats — and insertion of Mastrobuoni (12 wRC+ vs RHP) and Garver (65) strips the Mariners of their primary power threats against Baz, materially reducing run-support expectations for Woo.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No umpire data provided.
+
+---
+
+### GAME: NYM @ PHI — YOUR CALL: LEAN away
+
+**EXPECTED vs ACTUAL:** Key changes — Mets inserted Mark Vientos (55 wRC+ vs RHP) and Zack Short (6 wRC+ vs RHP) for Jared Young and A.J. Ewing. Phillies inserted Justin Crawford (19 wRC+ vs LHP) for Trea Turner and Gabriel Rincones Jr. (wRC+ N/A).  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** lean→lower stake / lean→pass  
+**PRE-GAME REASON:** The Mets’ confirmed lineup featured Zack Short (6 wRC+ vs RHP) in the heart of the order, a catastrophic platoon downgrade that would erode the pre-game offensive edge against Nola and shrink the margin below lean territory.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No umpire data provided.
+
+---
+
+### GAME: CHW @ NYY — YOUR CALL: LEAN home
+
+**EXPECTED vs ACTUAL:** Key changes — White Sox inserted Andrew Benintendi (27 wRC+ vs LHP), Jacob Gonzalez (90), and Tristan Peters (-40 wRC+ vs LHP) for Randal Grichuk, Everson Pereira, and Luisangel Acuña. Yankees inserted Anthony Volpe (63 wRC+ vs RHP) for Jazz Chisholm.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different (CHW much weaker)  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** Chicago’s confirmed lineup was even weaker than projected, with three bats at or below replacement level versus lefties (Peters -40, Antonacci 7, Quero 22). New York’s core remained largely intact; the downgrade from Chisholm to Volpe is modest. This reinforces, not diminishes, the Yankees’ pre-game edge.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No umpire data provided.

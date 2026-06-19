@@ -20,10 +20,11 @@
       "reason": "Gray's AGG xFIP 3.24 is strong and L14 is consistent; Yesavage's L14 xFIP 6.08 is directionally alarming despite small sample. BOS bullpen is fully fresh with Chapman/Whitlock elite, but TOR's lineup wRC+ 113 vs RHP is the best on the board and partially offsets. My BOS win probability lands ~58-59%, which is ~5 pts above vig-removed implied of 53.3%—this clears the gate but with 9 games (2-bet ceiling) I have stronger plays ranked above it.",
       "data_gap": "Confirmed lineup order would clarify TOR platoon impact; wind direction (S at 21 mph at Fenway) adds run environment uncertainty.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "872e319f5c105d18457014bc855cdc85",
@@ -40,11 +41,12 @@
       "edge": "6.7 pts",
       "reason": "CLE's wRC+ vs LHP is a catastrophic 48—by far the most extreme platoon disadvantage on the slate—facing Drohan whose L14 xFIP 3.13 (trending better than AGG 3.83) further widens the gap. MIL is 45-26 with a hot offense (L10 RS 7.1, wRC+ 136 vs LHP) against Messick whose AGG xFIP 3.39 is fine but L14 trends poorly. My MIL win prob estimate is ~64%; vig-removed market is 57.3%. Both starters carry [sm] flags blocking any 3-unit play.",
       "data_gap": "Roof status at American Family Field affects park factor; confirmed would refine run environment slightly.",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -147,
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "bb47b41c0a375d2df45331898a1e7ec1",
@@ -62,10 +64,11 @@
       "reason": "Ryan (AGG xFIP 3.60) is clearly the better arm over Leiter (AGG xFIP 4.43), and Leiter's L14 xFIP 7.00 in 9.2 IP [sm] is directionally alarming even treated as noise. However, MIN's closer is unavailable (T1 0/1), TEX lineup (wRC+ 115 vs RHP) outperforms MIN's (101), and Globe Life Park (91 factor) compresses run differentials. My MIN win probability lands ~57%, vs vig-removed implied 53.3%—gap of only ~3.7 pts falls below the 4-pt gate.",
       "data_gap": "Leiter's true command trend (BB/9 4.7 in L14) is critical; additional starts would clarify.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "cad6df1fc1aadca9fdbb359d7d43e40f",
@@ -83,10 +86,11 @@
       "reason": "Woo (AGG xFIP 3.47) materially outpitches Baz (AGG xFIP 4.09), and Woo's L14 is consistent. However, BAL lineup (wRC+ 124 vs RHP) is strong; SEA closer Muñoz sits at 5.68 ERA; T-Mobile's pitcher-friendly environment (93) compresses margin. My SEA win probability reaches only ~60%, vs vig-removed implied 57.7%—gap of ~2.3 pts fails the gate.",
       "data_gap": "Baz L14 in only 10.2 IP [sm] makes his true ERA estimate unreliable; roof status affects park factor.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "7fc018ccf3790baea15d29b581f9d0ce",
@@ -104,10 +108,11 @@
       "reason": "Nola's L14 xFIP 5.69 with BB/9 of 6.0 (9.0 IP [sm]) is a severe red flag, and his L3 shows short outings and recurring trouble; Manaea's AGG xFIP 3.46 is solid. NYM at +104 offers value but NYM's bullpen is significantly depleted (T3 2/6 available) while PHI's is elite and fully fresh (Duran 1.90, Kerkering 2.03). PHI's bullpen advantage negates the starter edge. 21 mph SW wind at CBP in 89°F with PHI's elite pen makes late-inning NYM leads fragile—gap calculation (~4.9 pts) clears gate but confidence in sustaining a win is low; passing with this slate context and the depleted NYM 'pen.",
       "data_gap": "Nola's true walk rate trend is the swing variable; another start would clarify.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "adfa73cc70f5a62d6d0bb903eaa0f24b",
@@ -125,10 +130,11 @@
       "reason": "NYY is the class team (45-27, L10 8-2) and Burke (AGG xFIP 4.81) is a clear downgrade over Weathers (AGG xFIP 3.63). However, Weathers' L14 xFIP 5.26 [sm] trends badly, and my NYY win probability (~63%) exceeds vig-removed implied 58.9% by only ~4.1 pts—barely clearing the gate but not ranking among my top-2 plays given the slate ceiling.",
       "data_gap": "Weathers' recent form in small sample is the primary uncertainty.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "e92122c8f905eb41a57faabf21daf468",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "ATL has elite bullpen depth (Iglesias 1.16, Suarez 0.59, Lee 1.14—all fully fresh), superior team record (46-27), and Roupp's L3 shows struggles. However, the 68% rain probability creates substantial postponement risk—I do not bet games with meaningful PPD exposure as the line price represents no value if the game is postponed.",
+      "reason": "postponed",
       "data_gap": "Weather confirmation 1-2 hours prior to first pitch is required; 68% rain makes this unplayable at build time.",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "13234b203ca4ea57ec2f1381b3e6a046",
@@ -166,11 +173,12 @@
       "edge": "7.2 pts",
       "reason": "STL (40-32) is the materially superior team facing KC (30-45) at near-even odds (+102). STL's lineup wRC+ 139 vs LHP is elite—Crooks, Nootbaar, Herrera among the best vs-southpaw hitters on the slate—and they face Cameron (AGG xFIP 3.98, slightly better process but severely punished by STL platoon advantage). Liberatore (AGG xFIP 4.26) is mediocre but KC's lineup (wRC+ 114 vs LHP) is middle-of-road. My STL win probability is ~55%, vs vig-removed implied 47.8%—a 7.2-pt gap. Unit capped at 1 (not 3) because (a) Liberatore carries [sm] flag blocking 3-unit eligibility on this game, and (b) the RL data shows multiple erratic large swings suggesting market uncertainty not explained by visible data.",
       "data_gap": "Erratic RL movement pattern (six large swings) with no visible explanation; possible lineup or injury news not reflected in this build.",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": 102,
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "4d7345756b0575f6a757888c78a290f2",
@@ -188,10 +196,11 @@
       "reason": "Away starter TBD — automatic pass per hard filter. No edge calculable without confirmed pitcher data.",
       "data_gap": "LAA starter identity is the entire missing variable.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     }
   ],
   "parlay": null,
@@ -205,5 +214,6 @@
     "passes": 6,
     "units_risked": 2,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-19T13:38:47Z"
 }

@@ -1,0 +1,117 @@
+{
+  "date": "2026-06-18",
+  "sport": "mlb",
+  "graded_at": "2026-06-19T13:38:47Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "deepseek",
+      "skip": false,
+      "skip_reason": null,
+      "best_bet_raw": "TOR +111 (Game 1 at BOS)",
+      "why_this": "Largest raw edge on the slate driven by a 21-point platoon wRC+ gap that the market is mispricing. Gray's surface 8-1 record and 3.03 ERA are masking underlying regression signals (xERA 4.55, HH% 35.9), while Yesavage's AGG body of work remains solid despite the L14 walk spike already priced into the discount.",
+      "resolved_game": "TOR @ BOS",
+      "resolved_pick": "TOR ML",
+      "resolved_price": 111,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 3.33
+    },
+    {
+      "model": "gemini",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "grok",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "sonnet",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    }
+  ],
+  "summary": {
+    "wins": 1,
+    "losses": 0,
+    "skips": 7,
+    "record": "1-0 (100.0%)"
+  }
+}

@@ -1,0 +1,61 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET IDENTIFIED
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES (I would still not identify a 3-unit best bet today, as no game cleared the high-confidence threshold pre-game)
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: NYM @ PHI
+PICK: NYM ML (+109)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pre-game edge of 5.4 points was validated by the starting pitching matchup (Manaea's SIERA vs Nola) and the Mets' platoon advantage. The result aligns with the pre-game probabilistic model without relying on fluke in-game variance.
+SOURCE: Pre-game SIERA and platoon wRC+ data.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE. All passes were based on sound pre-game thresholds (sub-4.0 pt edge, weather, TBD pitcher). Underdog wins on passed games (CHW, TOR) are market variance when no specific pre-game signal was missed.
+
+---
+
+## S3: DATA REQUEST
+TYPE: DATA
+ITEM: Bullpen Leverage Availability / Rest Status
+WHICH GAME(S): ALL
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: While starting pitching and lineup splits are heavily weighted, late-game bullpen fatigue can swing close games. Knowing exact rest days for top 3 relievers would sharpen close-game edges and potentially turn leans into bets or passes.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+PROPOSED CHANGE: Increase the weight of starting pitcher strikeout-to-walk ratio (K-BB%) relative to SIERA when evaluating pitcher-friendly parks.
+WHAT IN MY METHOD COULD BE SHARPER: In MIN @ TEX, I noted Joe Ryan's elite K and walk metrics but passed due to TEX's lineup in a pitcher-friendly park. K-BB% is a stronger predictor of run prevention in large parks than SIERA alone, as it eliminates balls in play variance.
+EVIDENCE FROM TODAY: MIN @ TEX pre-game data showed Joe Ryan's elite K/BB metrics, which I weighed equally against the park factor, resulting in a pass. MIN won 9-3, suggesting the K/BB dominance overpowered the park factor.
+CONFIDENCE: LOW
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: NYM @ PHI — YOUR CALL: BET away ML 109 (1u)
+
+EXPECTED vs ACTUAL: key change — Trea Turner (PHI) and Jared Young/A.J. Ewing (NYM) were dropped; Justin Crawford and Gabriel Rincones (PHI) and Mark Vientos/Zack Short (NYM) were added.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE: bet→higher stake
+PRE-GAME REASON: Trea Turner, a premium right-handed bat, is out of the PHI lineup against LHP Sean Manaea. This significantly worsens their already poor platoon splits, increasing the NYM edge. While NYM also has some lineup changes (Short's 6 wRC+ vs RHP is a drag), the loss of Turner is a massive blow to PHI's run expectancy against a lefty, pushing the edge higher.
+UMPIRE WOULD CHANGE: no — Brian Walsh has no extreme pre-game zone tendencies that would override the lineup change.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: LEAN away
+
+EXPECTED vs ACTUAL: key change — Bobby Witt Jr. (KC) and Jordan Walker/Masyn Winn (STL) were dropped; Tyler Tolbert/Michael Massey (KC) and Jimmy Crooks/Bryan Torres (STL) were added.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE: lean→bet
+PRE-GAME REASON: The confirmed STL lineup features massive platoon advantages against LHP, with Jimmy Crooks (222 wRC+ vs LHP), Nelson Velazquez (210), and Ivan Herrera (178) all starting. This creates a much larger offensive gap against KC's LHP (avg 82.4 wRC+) than the season-long averages suggested, pushing the edge past the 4.0 threshold for a full bet.
+UMPIRE WOULD CHANGE: no — Ryan Blakney has no extreme pre-game zone tendencies that would override the lineup change.

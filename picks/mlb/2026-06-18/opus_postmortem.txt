@@ -1,0 +1,98 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: NO BEST BET (no 3-unit play identified)
+RESULT: N/A — correctly declined to force a best bet
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES (i.e., still no best bet)
+
+The discipline here was correct. Both qualifying plays (MIN, NYM) won, but they cleared only the 4-pt gate at 1 unit and both opponents carried small-sample L14 tags that legitimately barred a 3-unit rating. Two 1-unit wins on +106/+104 prices is a clean, profitable slate. Forcing a best bet to chase a "feel" would have violated the gate framework. The fact that both winners hit does NOT retroactively justify upgrading either — the pre-game uncertainty (unconfirmed lineups, L14 sample tags) was real.
+
+IF NO — N/A.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: MIN @ TEX
+PICK: MIN ML +106 (1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Joe Ryan's true-talent edge (3.27 SIERA, 22.9 K-BB%, 248 IP) over a fading Leiter (4.34 SIERA, disaster L14) was the entire thesis, and it held. Getting a plus price (+106) on the superior arm against an ERA-quality opponent is exactly the market-vs-predictive-metric divergence the method targets. Process and result aligned.
+SOURCE: Joe Ryan SIERA/K-BB%; Leiter AGG SIERA and L14.
+
+GAME: NYM @ PHI
+PICK: NYM ML +104 (1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Classic ERA-perception fade — Manaea's 4.78 ERA masking a 3.21 SIERA / 23.2 K-BB% vs Nola's deteriorating 5.86 ERA / 5.59 L14 SIERA / 6.0 BB/9. Making NYM the slight favorite at +104 was a sound, gated edge. Result fair.
+SOURCE: Manaea vs Nola AGG SIERA and K-BB%; Nola L14 walk rate.
+
+---
+
+### PART B — PASSES/LEANS WITH A MISSED PRE-GAME EDGE
+
+Reviewing each pass honestly:
+
+- **TOR @ BOS**: Passed on a ~3pt edge under gate. TOR won, but the pre-game read favored BOS (Gray superior). No pre-game signal pointed to TOR — variance. Correct pass.
+- **CLE @ MIL**: MIL heavily favored, CLE punchless vs LHP (48 wRC+). CLE won 4-2. The Drohan 18-IP small sample was flagged as a confidence cap — that flag was the correct reason to avoid laying -147, and it earns its keep here. No missed edge; variance result on a justified pass.
+- **BAL @ SEA**: Passed, Under lean correct (3 total runs). No bet missed.
+- **CHW @ NYY**: NYY -157 deemed fair, passed. CHW won. Burke L14 was "unreadable" (4 IP) — correctly flagged as no-edge rather than a fade signal. No pre-game data pointed to CHW. Variance.
+- **STL @ KC**: Flagged "erratic RL movement / unstable market" as the pass reason. KC won 14-6. No directional pre-game edge was identifiable. Honest variance on a justified pass.
+- **SF @ ATL**: PPD risk → stand-down. Game postponed. **This was the single best pass of the slate** — the PPD flag was decisive and correct.
+- **LAA @ ATH**: TBD starter → automatic pass. Correct integrity rule.
+
+**No Part B blocks qualify.** I cannot name a specific pre-game data point that pointed to any of the upset winners (TOR, CLE, CHW, KC). All were variance against sound passes. Writing a block to claim otherwise would be hindsight reasoning.
+
+NONE.
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: DATA
+ITEM: Confirmed/projected lineup batting-order with platoon wRC+ delivered before lock, not just team-level vs-LHP/RHP aggregates.
+WHICH GAME(S): MIN @ TEX, NYM @ PHI (both bets)
+WOULD HAVE CHANGED A BET? NO (this slate) / MAYBE (generally)
+WHY: In MIN @ TEX, the confirmed TEX lineup (avg 110 wRC+ vs RHP, Cody Freeman 291) was actually *stronger* than my team-level assumption, and MIN's was weaker (95.4, Fedko/Kreidler in). That would have made me slightly *less* confident pre-game — not enough to pass given Ryan's edge, but the granularity matters. I was betting the pitcher, not the bats, so the lineup degradation didn't break the thesis. Knowing it pre-game is still better.
+
+TYPE: STAT
+ITEM: Pitcher velocity-trend (last-3-start FB velo delta) to validate or dismiss L14 K-rate collapse flags.
+WHICH GAME(S): BAL @ SEA (Baz), CLE @ MIL (Drohan)
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: I flagged Baz's 3.4 K/9 L14 as needing "velocity confirmation" and could not resolve it. A velo trend would let me distinguish injury/decline from noise, potentially converting a SEA pass into a play or confirming the small-sample dismissal.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: None warranted from today's data.
+WHAT IN MY METHOD COULD BE SHARPER: Nothing identified that one slate justifies revisiting.
+EVIDENCE FROM TODAY: Both bets followed the SIERA/K-BB%-vs-ERA divergence template and won fairly; all passes were defensible under existing gates, and the two flag rules that fired (PPD on SF/ATL, TBD on LAA/ATH) worked exactly as intended. The CLE small-sample cap and the erratic-RL pass both produced "wrong" results but for correct process reasons — I will NOT loosen those gates based on two variance outcomes, which is precisely the trap S4 warns against.
+CONFIDENCE: LOW
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: MIN @ TEX — BET MIN ML +106 (1u)
+
+EXPECTED vs ACTUAL: Key changes — MIN dropped Larnach (leadoff) for unknown Kyler Fedko (N/A) and swapped in Kreidler for Tristan Gray; Royce Lewis fell from cleanup feel. TEX swapped Foscue (39) leadoff for Pederson, dropped Duran/Osuna, added Cody Freeman (291 small-sample) and Nicky Lopez.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: Roughly as expected at the team level — MIN actual 95.4 (I called bats "average vs RHP"), TEX actual 110.0 (slightly stronger than my "contact-heavy" framing).
+WOULD CHANGE? no change
+PRE-GAME REASON: The thesis was Ryan's pitching edge suppressing TEX, not MIN's offense outscoring. Even with TEX at 110 and MIN at 95, the pitcher-talent gap (Ryan 3.27 SIERA vs Leiter 4.34) and plus price held the edge above gate. The Freeman 291 is a tiny-sample mirage I would have correctly discounted pre-game.
+UMPIRE WOULD CHANGE? no — Estabrook is a roughly neutral-zone umpire; no pre-game tendency strong enough to move a pitcher-talent-based ML.
+
+### GAME: NYM @ PHI — BET NYM ML +104 (1u)
+
+EXPECTED vs ACTUAL: Material changes — NYM lost Jared Young, A.J. Ewing and used Vientos (55) cleanup, Zack Short (6) at 5; lineup degraded to 82.8 avg. PHI subbed Justin Crawford (19) leadoff for Schwarber-at-2, dropped Harper to 3 in a weaker order (97.0).
+CONFIRMED LINEUP vs YOUR ASSUMPTION: Materially different on NYM side — my thesis leaned on "Soto/Young" and Young was absent, with a much punchier 82.8 order than assumed.
+WOULD CHANGE? bet→lower stake (toward pass consideration)
+PRE-GAME REASON: My stated reason cited "Soto/Young" as the lineup edge versus Nola. With Young out and Zack Short (6 wRC+) / Vientos (55) hollowing the middle, the NYM offensive support for the Manaea-over-Nola pitching edge weakens. The pitching divergence (Manaea 3.21 vs Nola 5.86/5.59 L14) still carries it, but at +104 with a degraded lineup I would have trimmed conviction — likely still a play, but a clear lower-stake/recheck spot rather than a clean 1u. This is a legitimate pre-game adjustment, independent of the result.
+UMPIRE WOULD CHANGE? no — Walsh carries no zone tendency extreme enough to alter a near-pick'em ML.
+
+---
+
+**Bottom line:** 2-0 on bets, both fair-process wins; the one structurally important note is that I leaned on a NYM lineup name (Young) who didn't play — knowable pre-game at lock and worth catching next time. All passes defensible; resist loosening gates on variance.

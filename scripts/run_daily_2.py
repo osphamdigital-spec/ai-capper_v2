@@ -3,7 +3,7 @@
 scripts/run_daily_2.py
 
 Post-game orchestrator — the counterpart to run_daily.py.
-Chains fetch_results → fetch_confirmed_data → run_postmortem_all → calc_calibration
+Chains fetch_results → fetch_confirmed_data → run_postmortem_all → calc_calibration → build_bankroll
 in the correct order, with guards, so it stops being run manually
 one script at a time.
 
@@ -456,6 +456,21 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
         print(f"{'-' * 55}")
         run_step("Calc Calibration", "calc_calibration.py", ["--sport", sport])
 
+    # ── STEP 5: BANKROLL UPDATE (v3) ──────────────────────────────────────────
+    # Rebuild per-model bankroll accounts + leaderboard from graded picks.
+    # Idempotent and downstream of grading ONLY — runs whenever grading happened
+    # (independent of post-mortem completeness), because the bankroll feeds the
+    # NEXT slate's prompt injection and must stay current even on a night where
+    # some post-mortems are incomplete. Non-fatal: a failure here never halts the
+    # pipeline. Skipped under --no-grade (no fresh results to ingest).
+    # Pre-v3: build_bankroll only counts dates >= v3_start_date, so this is a
+    # no-op on balances until v3 goes live.
+    if not no_grade:
+        print(f"\n{'-' * 55}")
+        print(f"  STEP 5: Bankroll update (v3)")
+        print(f"{'-' * 55}")
+        run_step("Build Bankroll", "build_bankroll.py", ["--sport", sport])
+
     # ── FINAL SUMMARY ─────────────────────────────────────────────────────────
     print(f"\n{'=' * 55}")
     print(f"  POST-GAME PIPELINE COMPLETE  {sport.upper()}  {target_date}")
@@ -471,6 +486,8 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
     print(f"    picks/{sport}/{target_date}/post_mortem_{target_date}.txt")
     if ok_models and not incomplete:
         print(f"    picks/calibration/{{model}}_calibration.md  (x8 — updated)")
+    if not no_grade:
+        print(f"    bankroll/{sport}/{{model}}.json + _leaderboard.json  (updated)")
     print(f"{'=' * 55}\n")
 
     # Exit 2 = postmortems incomplete (retry-able). 0 = all good.

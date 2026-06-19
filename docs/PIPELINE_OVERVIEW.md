@@ -1,7 +1,7 @@
 # PIPELINE OVERVIEW — AI CAPPER
 
 End-to-end workflow from data fetch to graded results.
-Updated: 2026-06-17
+Updated: 2026-06-19
 
 ---
 
@@ -167,6 +167,24 @@ Saved to: `picks/mlb/{date}/post_mortem_{date}.txt` (auto-created by previous da
 
 ---
 
+## STANDALONE OPERATOR-RUN SCRIPTS (not part of run_daily.py)
+
+These are run manually, on your own schedule:
+
+| Script | When to run | Output |
+|--------|------------|--------|
+| `fetch_wind_edge.py` | After crookedfence.org updates (~10 AM ET, unpredictable) | `data/mlb/crookedfence_archive/YYYY-MM-DD_{predictions,results}.json` + refreshes dataset |
+| `compile_crookedfence_dataset.py` | Run automatically by fetch_wind_edge.py; or run standalone | `data/mlb/crookedfence_dataset.{csv,jsonl}` — growing reverse-engineering dataset |
+
+```
+python scripts/fetch_wind_edge.py            # fetch + archive + compile in one command
+python scripts/compile_crookedfence_dataset.py  # recompile dataset only
+```
+
+The daily prompt does NOT depend on CrookedFence output. Stadium dimensions come from a static `STADIUM_DIMENSIONS` table in `build_prompt.py` (all 30 MLB parks). Wind comes from Open-Meteo via `fetch_weather.py`.
+
+---
+
 ## DAILY TIMING GUIDE
 
 | AEST | ET | Action |
@@ -214,13 +232,17 @@ up automatically on the next prompt build.
 ```
 data/mlb/{date}/games.json          raw data (odds + all context)
 daily/mlb/{date}/prompt.md          base prompt (all models)
-daily/mlb/{date}/prompt_{model}.md  per-model prompt (8 files)
+daily/mlb/{date}/prompt_{model}.md  per-model prompt (8 files, includes ML + totals methods)
 picks/mlb/{date}/{model}_raw.txt    raw model response (backup)
-picks/mlb/{date}/{model}.json       parsed picks (structured)
+picks/mlb/{date}/{model}.json       parsed picks (structured; includes total_pick with _is_total:True)
 picks/mlb/{date}/post_mortem_{date}.txt  post-mortem notes
 results/mlb/{date}/results.json     final game scores
-results/mlb/{date}/grades.json      W/L + units per pick
+results/mlb/{date}/grades.json      W/L + units per pick (sides and totals graded separately)
 results/mlb/{date}/best_bets.json   per-model best bet results
 data/mlb/{date}/confirmed_data.json confirmed lineups + HP umpire (post-game)
 picks/mlb/{date}/{model}_postmortem.txt  individual post-mortem per model (x8)
+
+data/mlb/crookedfence_archive/YYYY-MM-DD_predictions.json  CF today predictions (operator-fetched)
+data/mlb/crookedfence_archive/YYYY-MM-DD_results.json      CF yesterday results (operator-fetched)
+data/mlb/crookedfence_dataset.{csv,jsonl}                   reverse-engineering master dataset
 ```

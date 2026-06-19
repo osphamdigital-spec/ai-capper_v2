@@ -1,0 +1,159 @@
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-18
+=======================================================
+
+  TOR    4 <--  @  BOS    3
+  CLE    4 <--  @  MIL    2
+  MIN    9 <--  @  TEX    3
+  BAL    0  @  SEA    3 <--
+  NYM    6 <--  @  PHI    4
+  CHW    5 <--  @  NYY    1
+  STL    6  @  KC    14 <--
+  LAA    0  @  ATH    5 <--
+  SF     ?  @  ATL    ?  [postponed]
+
+  Final:    8/9 games
+  Postponed: 1
+==================================================================
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET -- no 3-unit play identified today
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? N/A
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+**GAME:** CLE @ MIL  
+**PICK:** MIL ML (-145)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The matchup splits played out exactly as expected in the confirmed lineups: Milwaukee put out an elite vs-LHP lineup averaging 144.4 wRC+ (including Jackson Chourio at 182 and Andrew Vaughn at 314), while Cleveland's vs-LHP lineup was successfully suppressed to a 78.4 wRC+ average. Backing a potent offense with a massive split advantage at -145 is a mathematically sound play that we will accept losing to variance.  
+**SOURCE:** MLB API Confirmed Lineups  
+
+---
+
+**GAME:** NYM @ PHI  
+**PICK:** NYM ML (+109)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The pre-game pitching model correctly identified Sean Manaea's edge over Aaron Nola (who carried a 10% L14 SIERA penalty). Even though the Mets' confirmed lineup was ultimately weaker than expected, the pitching mismatch and high-wind environment at Citizens Bank Park played out to secure the plus-money win.  
+**SOURCE:** MLB API Confirmed Lineups  
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+NONE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+NONE
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+NONE
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+---
+
+### GAME: TOR @ BOS — YOUR CALL: LEAN home
+
+#### EXPECTED vs ACTUAL:
+*   **TOR:** Expected lineup was replaced with a slightly different order; Davis Schneider (49 wRC+ vs RHP) and Myles Straw (102 wRC+ vs RHP) were added, while Vladimir Guerrero Jr. remained in the lineup (94 wRC+). [Lineup average wRC+: 96.1]
+*   **BOS:** Connor Wong (130 wRC+ vs RHP) and Andruw Monasterio (59 wRC+ vs RHP) were added; Masataka Yoshida and Mickey Gasper were dropped. [Lineup average wRC+: 96.2]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Roughly as expected. Both offenses graded out to almost identical overall averages (~96 wRC+ vs RHP).
+
+#### WOULD CHANGE?
+no change
+
+#### UMPIRE WOULD CHANGE?
+no — Manny Gonzalez does not present extreme enough zone tendencies to alter a low-conviction lean.
+
+---
+
+### GAME: CLE @ MIL — YOUR CALL: BET home ML -145 (1u)
+
+#### EXPECTED vs ACTUAL:
+*   **CLE:** Daniel Schneemann (131 wRC+ vs LHP) and Kahlil Watson were added; David Fry and Stuart Fairchild were dropped. [Lineup average wRC+: 78.4]
+*   **MIL:** Christian Yelich (128 wRC+ vs LHP) and Jake Bauers (122 wRC+ vs LHP) were added; William Contreras and Joey Ortiz were dropped. [Lineup average wRC+: 144.4]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Roughly as expected. Despite missing Contreras, Milwaukee fielded an incredibly potent vs-LHP lineup (144.4 average wRC+), while Cleveland's remained heavily suppressed (78.4 average wRC+), reinforcing our pre-game edge.
+
+#### WOULD CHANGE?
+no change
+
+#### UMPIRE WOULD CHANGE?
+no — Lance Barksdale has a standard neutral zone.
+
+---
+
+### GAME: BAL @ SEA — YOUR CALL: LEAN away
+
+#### EXPECTED vs ACTUAL:
+*   **BAL:** Jeremiah Jackson (91 wRC+ vs RHP) was added; Adley Rutschman was dropped. [Lineup average wRC+: 117.3]
+*   **SEA:** Mitch Garver (65 wRC+ vs RHP) and Miles Mastrobuoni (12 wRC+ vs RHP) were added; superstars Julio Rodriguez and Luke Raley were both rested. [Lineup average wRC+: 100.6]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Materially different. Seattle sat their key offensive catalyst, Julio Rodriguez, along with Luke Raley, which severely weakened their lineup card and inserted a massive black hole in Miles Mastrobuoni (12 wRC+ vs RHP).
+
+#### WOULD CHANGE?
+lean→bet (BAL ML)
+
+#### PRE-GAME REASON:
+Seattle resting both Julio Rodriguez and Luke Raley drastically reduces their projected run expectation. With Baltimore maintaining a highly potent lineup (117.3 average wRC+ vs RHP) even without Rutschman, this confirmed lineup news would have pushed our projected edge on Baltimore well past our 4-point gate threshold, turning a lean into a clear value bet on the Orioles.
+
+#### UMPIRE WOULD CHANGE?
+no
+
+---
+
+### GAME: NYM @ PHI — YOUR CALL: BET away ML 109 (1u)
+
+#### EXPECTED vs ACTUAL:
+*   **NYM:** Mark Vientos (55 wRC+ vs RHP) and Zack Short (6 wRC+ vs RHP) were added; Jared Young and A.J. Ewing were dropped. [Lineup average wRC+: 82.8]
+*   **PHI:** Justin Crawford (19 wRC+ vs LHP) and Gabriel Rincones Jr. were added; Trea Turner was rested. [Lineup average wRC+: 97.0]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Materially different. The Mets' lineup was heavily downgraded by the inclusion of Zack Short (6 wRC+) and Mark Vientos (55 wRC+ vs RHP), which plummeted their overall split average to a weak 82.8 wRC+.
+
+#### WOULD CHANGE?
+bet→pass
+
+#### PRE-GAME REASON:
+The Mets' actual starting lineup lost its offensive depth, presenting multiple automatic outs in the bottom half of the card. This drop in offensive capability (82.8 wRC+ vs RHP) negates the expected advantage we had over Aaron Nola, rendering the +109 price tag no longer value-positive. We would have passed.
+
+#### UMPIRE WOULD CHANGE?
+no
+
+---
+
+### GAME: STL @ KC — YOUR CALL: LEAN away
+
+#### EXPECTED vs ACTUAL:
+*   **STL:** Jimmy Crooks (222 wRC+ vs LHP), Bryan Torres (28 wRC+ vs LHP), and Jose Fermin (110 wRC+ vs LHP) were added; Jordan Walker and Masyn Winn were rested. [Lineup average wRC+: 125.1]
+*   **KC:** Tyler Tolbert (37 wRC+ vs LHP) and Michael Massey (87 wRC+ vs LHP) were added; superstar MVP candidate Bobby Witt Jr. and third baseman Maikel Garcia were rested. [Lineup average wRC+: 82.4]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Materially different. Kansas City resting Bobby Witt Jr. represents a massive loss in offensive projection. St. Louis fielded an elite vs-LHP lineup card (125.1 average wRC+), creating a stark talent mismatch.
+
+#### WOULD CHANGE?
+lean→bet (STL ML)
+
+#### PRE-GAME REASON:
+With Bobby Witt Jr. confirmed out of the lineup, Kansas City’s offense lost its engine. Facing a Cardinals lineup that matches up historically well against lefties (125.1 average wRC+ actual), this lineup news creates an enormous projection gap. This extreme value would have prompted us to override our "strict slate limit" rule and place a bet on the Cardinals ML.
+
+#### UMPIRE WOULD CHANGE?
+no

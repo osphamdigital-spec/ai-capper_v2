@@ -1,12 +1,12 @@
 # Calibration — opus (MLB)
-Generated: 2026-06-15 04:54 UTC
+Generated: 2026-06-19 13:55 UTC
 
 CALIBRATION — OPUS
 
-Across your last 32 graded bet(s): record 14-16-2P, unit-weighted ROI -24.2% (-9.21u on 38u risked).
+Across your last 46 graded bet(s): record 24-20-2P, unit-weighted ROI -5.5% (-2.98u on 54u risked).
 Average stated edge: 5.6 pts (some values estimated from pre-Jun-10 word labels).
-Closing line value (pick price vs closing snapshot): avg +37.0 cents over 32 bet(s). Positive CLV = buying better than closing price on average.
-(5 bet(s) pending grading.)
+Closing line value (pick price vs closing snapshot): avg +30.8 cents over 46 bet(s). Positive CLV = buying better than closing price on average.
+(1 bet(s) pending grading.)
 
 ---
 
@@ -14,13 +14,13 @@ Closing line value (pick price vs closing snapshot): avg +37.0 cents over 32 bet
 
 | Metric | Value |
 |---|---|
-| Graded bets | 32 |
-| Record (W-L-P) | 14-16-2 |
-| Units risked | 38 |
-| Units net | -9.2099 |
-| Unit-weighted ROI | -24.2% |
+| Graded bets | 46 |
+| Record (W-L-P) | 24-20-2 |
+| Units risked | 54 |
+| Units net | -2.9848 |
+| Unit-weighted ROI | -5.5% |
 | Avg stated edge | 5.6 pts |
-| Avg CLV (cents) | +37.0 |
-| CLV sample | 32 bets |
+| Avg CLV (cents) | +30.8 |
+| CLV sample | 46 bets |
 | Voids | 0 |
-| Ungraded bets | 5 |
+| Ungraded bets | 1 |

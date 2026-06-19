@@ -20,10 +20,11 @@
       "reason": "Sonny Gray holds a significant underlying pitching edge over Trey Yesavage, but Toronto's strong platoon wRC+ against right-handers offsets Boston's weak offensive splits. The gap does not clear the 4-point threshold.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "872e319f5c105d18457014bc855cdc85",
@@ -41,10 +42,11 @@
       "reason": "Milwaukee's massive platoon advantage against left-handed pitching is neutralized by Cleveland's superior season-long starting pitching metrics and a small-sample discount on Shane Drohan's recent run. The market price accurately reflects the matchup.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "bb47b41c0a375d2df45331898a1e7ec1",
@@ -62,10 +64,11 @@
       "reason": "Joe Ryan's elite strikeout and walk metrics give Minnesota a pitching edge, but Texas boasts a notably better lineup against right-handed pitching in a pitcher-friendly park. The opposing strengths cancel out, leaving no actionable edge.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "cad6df1fc1aadca9fdbb359d7d43e40f",
@@ -83,10 +86,11 @@
       "reason": "Bryan Woo's excellent underlying run prevention gives Seattle an edge on the mound, but Baltimore's potent offense against right-handers keeps the game competitive. The market has already priced in Seattle's home-field and pitching advantages.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "7fc018ccf3790baea15d29b581f9d0ce",
@@ -103,11 +107,12 @@
       "edge": "5.4 pts",
       "reason": "Sean Manaea's superior SIERA and the Mets' solid platoon wRC+ against right-handers provide a distinct edge over Aaron Nola and a Phillies lineup that struggles against lefties. While the Phillies' bullpen is stronger and the park is hitter-friendly, the starting pitching and offensive split gap yields a clear 5.4-point advantage for New York.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.09,
+      "clv": 5,
+      "closing_line": 104,
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "adfa73cc70f5a62d6d0bb903eaa0f24b",
@@ -125,10 +130,11 @@
       "reason": "Ryan Weathers holds a moderate underlying pitching advantage over Sean Burke, but the Yankees' bullpen and home-field edge are already baked into the steep -149 price. The gap falls well short of the minimum requirement.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "e92122c8f905eb41a57faabf21daf468",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "With a 68% chance of rain and high postponement risk, this game is an automatic pass regardless of the underlying metrics. Avoiding extreme weather variance and potential voids is paramount.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "13234b203ca4ea57ec2f1381b3e6a046",
@@ -167,10 +174,11 @@
       "reason": "St. Louis possesses a massive platoon wRC+ advantage against left-handed pitching, which slightly outweighs Kansas City's marginal edge in starting pitcher SIERA. However, the calculated 3.8-point gap falls just short of the 4-point edge gate, forcing a lean rather than a bet.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "4d7345756b0575f6a757888c78a290f2",
@@ -188,10 +196,11 @@
       "reason": "The Angels' starting pitcher is TBD, which triggers an automatic pass under my data integrity rules. No edge can be calculated without confirmed pitcher data.",
       "data_gap": "Angels starting pitcher confirmation",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     }
   ],
   "parlay": null,
@@ -205,5 +214,6 @@
     "passes": 7,
     "units_risked": 1,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-19T13:38:47Z"
 }

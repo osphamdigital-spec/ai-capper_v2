@@ -1958,6 +1958,136 @@ def run_authoring(model: str, dry_run: bool, reasoning_effort: str):
                  input_tokens, output_tokens, reasoning_tokens, output_path)
 
 
+def _highest_method_version(model: str, totals: bool = False) -> tuple[int, Path | None]:
+    """
+    Return (highest_version, path) for the model's method doc.
+      totals=False -> method_{model}_v{N}.md (ML/RL only, excludes totals)
+      totals=True  -> method_{model}_totals_v{N}.md
+    Returns (0, None) if none exist.
+    """
+    methods_dir = PROJECT_ROOT / "docs" / "methods"
+    best_v, best_path = 0, None
+    pattern = f"method_{model}_totals_v*.md" if totals else f"method_{model}_v*.md"
+    for f in methods_dir.glob(pattern):
+        # When matching the ML/RL pattern, the totals files also match the glob
+        # (method_{model}_v*.md does NOT match totals, but be explicit anyway).
+        if not totals and "_totals_v" in f.stem:
+            continue
+        try:
+            v = int(f.stem.rsplit("_v", 1)[1])
+        except (IndexError, ValueError):
+            continue
+        if v > best_v:
+            best_v, best_path = v, f
+    return best_v, best_path
+
+
+def run_reauthoring(model: str, dry_run: bool, reasoning_effort: str, kind: str = "sides"):
+    """
+    v3 RE-AUTHORING. Send the v3 re-authoring query to a model and save its reply
+    as a NEW version of its method doc (never overwrites).
+
+      kind="sides"  : template authoring_query_v3.md
+                      revises method_{model}_v{N}.md      -> method_{model}_v{N+1}.md
+      kind="totals" : template authoring_query_v3_totals.md
+                      revises method_{model}_totals_v{N}.md -> method_{model}_totals_v{N+1}.md
+
+    The model reads the v3 rules-of-the-game (it now owns its edge gate, slate
+    ceiling, and 1u/3u threshold) plus the account-history block format it will
+    receive each slate, then revises its own method. Web search disabled.
+    """
+    is_totals     = (kind == "totals")
+    template_name = "authoring_query_v3_totals.md" if is_totals else "authoring_query_v3.md"
+    template_path = PROJECT_ROOT / "docs" / "methods" / template_name
+    if not template_path.exists():
+        print(f"ERROR: v3 re-authoring template not found: {template_path}")
+        sys.exit(1)
+
+    cur_v, cur_path = _highest_method_version(model, totals=is_totals)
+    if cur_path is None:
+        which = "totals method" if is_totals else "method"
+        print(f"ERROR: no existing {which} doc found for '{model}'.")
+        print(f"       Re-authoring revises an existing method; use --authoring for a first method.")
+        sys.exit(1)
+
+    if is_totals:
+        output_path = PROJECT_ROOT / "docs" / "methods" / f"method_{model}_totals_v{cur_v + 1}.md"
+    else:
+        output_path = PROJECT_ROOT / "docs" / "methods" / f"method_{model}_v{cur_v + 1}.md"
+    target_v = cur_v + 1
+    if output_path.exists():
+        print(f"ERROR: target method file already exists: {output_path}")
+        print(f"       Remove or rename it first. Never silently overwrite a method doc.")
+        sys.exit(1)
+
+    current_method = cur_path.read_text(encoding="utf-8").strip()
+    template       = template_path.read_text(encoding="utf-8")
+    query_text     = template.replace("{CURRENT_METHOD}", current_method).replace("{MODEL}", model)
+
+    # Totals re-authoring sees the model's finalized SIDES method so its slate-ceiling
+    # statement stays consistent with the sides ceiling (prevents cross-market conflict).
+    if is_totals and "{SIDES_METHOD}" in query_text:
+        _, sides_path = _highest_method_version(model, totals=False)
+        sides_text = sides_path.read_text(encoding="utf-8").strip() if sides_path else "(no sides method on file)"
+        query_text = query_text.replace("{SIDES_METHOD}", sides_text)
+
+    doc_label = "totals (Over/Under) method document" if is_totals else "method document"
+    system_text = (
+        f"You are an independent professional sports bettor revising your personal "
+        f"{doc_label}. Your task is to write the revised {doc_label} described "
+        f"in the user message. Do NOT produce picks, game blocks, or any "
+        f"## GAME: output. Output ONLY the method document text, nothing else."
+    )
+
+    print(f"Mode             : re-authoring (v3, {kind})")
+    print(f"Template         : {template_path}  ({len(template):,} chars)")
+    print(f"Current method   : {cur_path.name}  (v{cur_v})")
+    print(f"Output file      : {output_path.name}  (v{target_v})")
+    print(f"Full query size  : {len(query_text):,} chars")
+    print(f"Reasoning effort : {reasoning_effort}")
+    print(f"Web search       : disabled")
+
+    input_messages = [
+        {"role": "system", "content": system_text},
+        {"role": "user",   "content": query_text},
+    ]
+
+    if dry_run:
+        print()
+        print("--- DRY RUN: system message ---")
+        print(f"  {system_text}")
+        print()
+        print("--- DRY RUN: user message (first 1200 chars) ---")
+        safe    = query_text[:1200].encode("ascii", errors="replace").decode("ascii")
+        print("  " + safe.replace("\n", "\n  "))
+        print(f"  ... [{len(query_text) - 1200} more chars, ending with the current method doc]")
+        print()
+        print(f"No API call made. Output would be written to: {output_path}")
+        return
+
+    api_key, model_id, display_label = _resolve_model_config(model)
+    print(f"Model ID         : {model_id}")
+    print(f"Sending ...")
+
+    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api_with_retry(
+        model, input_messages, api_key, model_id, reasoning_effort,
+        web_search=False, max_tokens=MAX_OUTPUT_TOKENS,
+        system_text=system_text, prompt_text=query_text,
+    )
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(response_text, encoding="utf-8")
+    written_bytes = output_path.stat().st_size
+    if written_bytes == 0:
+        print(f"ERROR: output file is empty after write -- {output_path}")
+        sys.exit(1)
+    print(f"  File verified: {written_bytes:,} bytes -> {output_path.name}")
+    print()
+    print("Done.")
+    _print_usage(display_label, model_id, reasoning_effort,
+                 input_tokens, output_tokens, reasoning_tokens, output_path)
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # ENTRY POINT
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1985,6 +2115,10 @@ if __name__ == "__main__":
                         help="Run post-mortem review instead of picks query")
     parser.add_argument("--authoring",  action="store_true",
                         help="Send one-time method-authoring query; saves reply to docs/methods/method_{model}_v1.md")
+    parser.add_argument("--reauthor",   action="store_true",
+                        help="v3 re-authoring (sides): model revises its method to add its own staking rules; saves to method_{model}_v{N+1}.md")
+    parser.add_argument("--reauthor-totals", action="store_true", dest="reauthor_totals",
+                        help="v3 re-authoring (totals): model revises its totals method to own its run-gap gate/units; saves to method_{model}_totals_v{N+1}.md")
     parser.add_argument("--dry-run",    action="store_true",
                         help="Print what would be sent without calling the API")
     parser.add_argument("--reasoning",  default=None,
@@ -2024,7 +2158,11 @@ if __name__ == "__main__":
         else:
             reasoning_effort = REASONING_PICKS
 
-    if args.authoring:
+    if args.reauthor_totals:
+        mode_label = "reauthor-totals"
+    elif args.reauthor:
+        mode_label = "reauthor"
+    elif args.authoring:
         mode_label = "authoring"
     elif args.postmortem:
         mode_label = "postmortem"
@@ -2035,7 +2173,14 @@ if __name__ == "__main__":
           f"mode={mode_label}  reasoning={reasoning_effort}{dry_label}")
     print()
 
-    if args.authoring:
+    if args.reauthor or args.reauthor_totals:
+        run_reauthoring(
+            model            = args.model,
+            dry_run          = args.dry_run,
+            reasoning_effort = reasoning_effort,
+            kind             = "totals" if args.reauthor_totals else "sides",
+        )
+    elif args.authoring:
         run_authoring(
             model            = args.model,
             dry_run          = args.dry_run,

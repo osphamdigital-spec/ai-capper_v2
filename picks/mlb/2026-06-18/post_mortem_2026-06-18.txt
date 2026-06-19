@@ -8,8 +8,23 @@ can name the specific pre-game data point that justified it.
 If you cannot, choose an error category.
 Return NONE where no block genuinely qualifies.
 
-FINAL RESULTS
-[OPERATOR WILL PASTE RESULTS HERE]
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-18
+=======================================================
+
+  TOR    4 <--  @  BOS    3
+  CLE    4 <--  @  MIL    2
+  MIN    9 <--  @  TEX    3
+  BAL    0  @  SEA    3 <--
+  NYM    6 <--  @  PHI    4
+  CHW    5 <--  @  NYY    1
+  STL    6  @  KC    14 <--
+  LAA    0  @  ATH    5 <--
+  SF     ?  @  ATL    ?  [postponed]
+
+  Final:    8/9 games
+  Postponed: 1
+==================================================================
 
 ## S1: BEST BET RE-EVALUATION
 ORIGINAL BEST BET:
@@ -67,3 +82,923 @@ PROPOSED CHANGE:
 WHAT IN MY METHOD COULD BE SHARPER:
 EVIDENCE FROM TODAY (cite pre-game data, not the outcome):
 CONFIDENCE: LOW / MEDIUM / HIGH
+
+
+---
+## GROK RESPONSE
+
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: NO BEST BET -- no 3-unit play identified today  
+RESULT: N/A (no bet placed)  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+
+No pre-game edge reached the minimum threshold on any game, so the decision to have no best bet remains unchanged.
+
+**S2: FULL SLATE REVIEW**  
+PART A — GAMES YOU BET  
+None (all passes)
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED  
+None. Every pass was driven by an explicit, quantified edge gap below the 4-point minimum after all listed adjustments (xFIP/SIERA/K-BB%, Stf+, L14 form, park, platoon, bullpen). No pre-game data point was overlooked that would have closed those gaps.
+
+**S3: DATA REQUEST**  
+NONE
+
+**S4: METHOD CHANGE PROPOSAL**  
+NONE
+
+---
+## CHATGPT RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: NONE  
+WHY: I still would not force a best bet from this slate. The only actual wager, MIL -145, was not strong enough pre-game to justify promotion beyond 1 unit because I had already flagged Cleveland’s bullpen freshness as a real offset. The leans that won stayed below my threshold for valid reasons at the time.  
+SOURCE: Original slate notes; no pre-game edge cleared my 3-unit bar.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: CLE @ MIL  
+PICK: MIL ML -145  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game case was real: Milwaukee had the slate’s clearest split-offense advantage vs LHP, home field, and a reasonable enough starting matchup to make them the right favorite. I also explicitly kept it to 1 unit because Cleveland’s bullpen condition was better. Nothing in the available pre-game data clearly pointed to Cleveland as the better side at that price. If anything, the later confirmed lineup data would have strengthened Milwaukee, not weakened it.  
+SOURCE: Original projection cited MIL 136 wRC+ vs LHP vs CLE 48 vs LHP; confirmed lineup snapshot also showed MIL lineup avg wRC+ 144.4 vs LHP and CLE 78.4 vs LHP.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: STL @ KC  
+YOUR CALL: LEAN  
+FINAL RESULT: KC win  
+WHAT YOU MISSED: The confirmed lineup would have materially strengthened the STL case pre-game, regardless of the result. My original edge already depended on STL’s lefty-mashing profile, and the actual STL lineup vs LHP was stronger than expected while the actual KC lineup vs LHP was weaker than expected. That is exactly the type of lineup confirmation I said would matter.  
+SOURCE: Confirmed STL lineup avg wRC+ vs LHP 125.1; confirmed KC lineup avg wRC+ vs LHP 82.4. Also individual STL bats vs LHP were strong: Herrera 178, Crooks 222, Velázquez 210, Blaze Jordan 160.  
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Earlier and more reliable confirmed lineups / stronger pre-lock expected-lineup feed  
+WHICH GAME(S): STL @ KC; CLE @ MIL; MIN @ TEX; NYM @ PHI  
+WOULD HAVE CHANGED A BET? YES  
+WHY: STL likely upgrades from lean to bet. CLE/MIL likely stays a bet but with more confidence. MIN/TEX and NYM/PHI remain close, but better lineup certainty sharpens whether a lean reaches threshold.
+
+TYPE: DATA  
+ITEM: Roof status feed integrated directly into the game card  
+WHICH GAME(S): MIN @ TEX; CLE @ MIL; BAL @ SEA  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I flagged roof status multiple times because it affects run environment and slightly side confidence, especially in already thin-edge games.
+
+TYPE: SOURCE  
+ITEM: Pre-game umpire assignment with a usable zone/BB/K/run-environment profile  
+WHICH GAME(S): MIN @ TEX; NYM @ PHI; CLE @ MIL  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: On close side/total calls, a strong hitter/pitcher umpire can matter at the margin. Not enough alone to force sides here, but useful in sorting leans from passes.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Give a bit more weight to lineup-contingent offensive edges when my writeup already says the handicap is driven by a split profile, and be more willing to convert a lean to a bet when confirmations strongly reinforce that exact thesis.  
+WHAT IN MY METHOD COULD BE SHARPER: I correctly identified lineup dependence, but I was still too static in the initial price confidence on STL @ KC. If a handicap is explicitly “this team’s split lineup is the edge,” then I should define in advance how much confirmation upgrades the position.  
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): My STL writeup said “confirmed St. Louis lineup matters because this edge is driven by their lefty-mashing profile.” The actual confirmed lineup, using only pre-game-known player split stats, was much stronger for STL and weaker for KC than the expected team-level assumption.  
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: CLE @ MIL — YOUR CALL: BET home ML -145 (1u)
+
+EXPECTED vs ACTUAL: key change — MIL added Yelich and changed several support bats; CLE order also changed notably  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→higher stake  
+PRE-GAME REASON: The confirmed MIL lineup was even stronger vs LHP than my already-positive team assumption, while CLE’s confirmed lineup remained weak vs LHP. Milwaukee’s lineup avg wRC+ vs LHP was 144.4, with several premium right-handed/split assets active (Chourio 182, Vaughn 314, Sánchez 195, Yelich 128). That strengthens the original platoon thesis rather than undermining it.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game umpire signal in the prompt strong enough to alter the side.
+
+---
+
+### GAME: MIN @ TEX — YOUR CALL: LEAN away
+
+EXPECTED vs ACTUAL: key change — both lineups changed, especially Minnesota top/bottom and Texas leadoff/middle  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Minnesota lost some expected lineup strength, which offsets the original starting-pitching edge from Ryan over Leiter. Texas also did not roll out an imposing confirmed split lineup, but not enough changed to create a clear 4-point side edge. The game still profiles as “better starter, not enough support to force a play.”  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire tendency provided that would have materially shifted a side this close.
+
+---
+
+### GAME: NYM @ PHI — YOUR CALL: LEAN away
+
+EXPECTED vs ACTUAL: key change — both lineups changed significantly, especially the middle of the Mets order and top of Phillies order  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→pass  
+PRE-GAME REASON: The Mets’ confirmed lineup was weaker vs RHP than the expected shape that supported the dog lean, and Philadelphia’s lineup still retained enough competent bats vs LHP to keep home-field/bullpen value intact. Since my original edge was already small and lineup-sensitive, the weaker Mets offense would have erased it rather than upgraded it.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific umpire-based edge in the prompt.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: LEAN away
+
+EXPECTED vs ACTUAL: key change — STL added/shifted several strong vs-LHP bats; KC lineup came in lighter vs LHP than expected  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? lean→bet  
+PRE-GAME REASON: This is the clearest lineup-driven change on the slate. My original lean was based on STL’s split offense vs LHP and bullpen health, held back only by the Cameron-over-Liberatore starter gap. The confirmed lineups increased the STL split-offense edge substantially: STL lineup avg 125.1 vs LHP versus KC 82.4, with multiple high-split STL bats active. That would have pushed the dog over my threshold pre-game.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No umpire factor supplied that would outweigh the lineup upgrade.
+
+---
+
+## Bottom-line self-review
+
+What worked:
+- I was right to keep several ugly/favorite-tax spots as passes.
+- I correctly identified Minnesota and the Mets as the more appealing side in their games, even if I kept them as leans.
+- I correctly noted STL was close and that lineup confirmation was the key variable.
+
+What failed:
+- The only actual bet lost, though I still think the pre-game reasoning was sound.
+- I was a bit too conservative in translating lineup-dependent edges into actionable thresholds, especially STL.
+
+What I’d change:
+- Predefine a more explicit “lineup confirmation upgrade” rule for split-driven handicaps.
+- Keep resisting hindsight: MIL was not a bad bet just because it lost; STL was the one spot where a real pre-game upgrade was available and should have mattered more.
+
+---
+## DEEPSEEK RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** TOR +111 (3u) at BOS  
+**RESULT:** WIN  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET? YES**  
+The edge was built on a massive platoon gap, favorable park/wind, and regression signals on the opposing pitcher. The bet was well-supported by pre-game data. It won, and the process was sound — though the confirmed lineups later showed the platoon gap was narrower than team-level splits suggested (see S2 lineup evaluation). With the data available at decision time, it was the right best bet.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** TOR @ BOS  
+**PICK:** TOR ML +111 (3u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+The platoon edge (21-point wRC+ gap), park factors, and pitching regression indicators created genuine value. The win reflects that value, even though the actual lineups later reduced the platoon gap. No process error.  
+**WOULD-BET-AGAIN:** YES (same stake with same edge, though I now prefer line-up-confirmed projections)  
+**WHY:** The underlying methodology — exploiting a large platoon mismatch with a wind‑blowing‑out park — is repeatable.  
+**SOURCE:** original model
+
+---
+
+**GAME:** STL @ KC  
+**PICK:** STL ML +105 (3u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+STL’s elite wRC+ vs LHP (139 team‑level, 125 actual lineup) against a league‑average lefty and a thin KC bullpen made this a solid bet. Liberatore’s poor performance (11 ER in the actual game) was within the variance expected from a 4.37‑SIERA pitcher — no specific pre-game data predicted a blow‑up. The loss falls under bad variance.  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The edge was robust (40+ point wRC+ gap even with actual lineups). A repeat of this setup would get the same unit allocation.  
+**SOURCE:** original model
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE‑GAME EDGE YOU MISSED
+*None.* All passes were correct at decision time. The bullpen/wind concerns on NYM, the shaky split data on CHW, and the small‑sample or extreme‑projection doubts on CLE, MIN, BAL, SF all held valid. No missed edge.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+**TYPE:** STAT  
+**ITEM:** Individual‑player platoon splits (wRC+ vs pitcher handedness) assembled into a projected lineup average, updated when confirmed lineups are released.  
+**WHICH GAME(S):** TOR @ BOS (critical), and any future platoon‑based bets.  
+**WOULD HAVE CHANGED A BET?** YES — for TOR, the actual lineup wRC+ of 96.1 (not 113) vs BOS’s 96.2 would have eliminated the platoon edge, turning a 3‑unit bet into a pass or much lower stake.  
+**WHY:** Team‑level splits masked the missing high‑wRC+ bats (Kirk, Sánchez). Lineup‑specific projections would have prevented an overstatement of the edge.
+
+**TYPE:** STAT  
+**ITEM:** Umpire strike‑zone run factor and called‑strike probability relative to league average, included for every game.  
+**WHICH GAME(S):** All games, especially those with park/wind or thin‑bullpen variables.  
+**WOULD HAVE CHANGED A BET?** MAYBE — for TOR, an extreme hitters’ umpire could have amplified the bullpen‑thin NYM pass or altered confidence in other games. Without the data pre‑game, it’s unknown.  
+**WHY:** Umpires can significantly shift expected run environments; this data would sharpen model in‑game projections.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+**PROPOSED CHANGE:**  
+When forming an edge primarily from team‑level platoon splits (e.g., team wRC+ vs RHP/LHP), require **confirmed lineups** with individual‑player projections to validate the split. If confirmed lineups are not available (e.g., bets placed before lineups are released), apply an automatic 20–30% discount to the platoon edge to account for the risk that actual lineups deviate from team averages — especially if late‑scratch risk is high.
+
+**WHAT IN MY METHOD COULD BE SHARPER:**  
+Today’s TOR bet used a 113 vs 92 wRC+ gap that disappeared in the actual lineups (96.1 vs 96.2). The edge was purely a platoon‑mismatch signal, yet the actual lineups were materially different from the team‑level benchmark. Incorporating lineup‑confirmed splits would have flagged this.
+
+**EVIDENCE FROM TODAY (pre‑game data only):**  
+- Expected TOR lineup (Rotowire) suggested a 113 wRC+ vs RHP, but the confirmed lineup (available shortly before first pitch) averaged only 96.1.  
+- The Raw platoon gap shrank from 21 points to essentially zero.  
+- The model assigned 3 units to a 10.2‑point edge; a discount triggered by “lineup not confirmed” or use of actual lineup splits would have reduced the stake or eliminated the bet.
+
+**CONFIDENCE:** MEDIUM — the pattern is common enough to warrant a systematic rule, but further testing over multiple slates is needed before finalizing.
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: TOR @ BOS — YOUR CALL: BET away ML +111 (3u)
+
+**EXPECTED vs ACTUAL:** Key changes — TOR added Schneider (49 wRC+), Straw (102), Valenzuela (127) while dropping Kirk (high vs RHP), Okamoto moved down, Giménez (82) stayed. BOS inserted Eaton (N/A), Wong (130), Monasterio (59), dropped Yoshida, Mayer, Gasper.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — TOR actual wRC+ vs RHP = 96.1 (assumption 113); BOS actual = 96.2 (assumption 92). The platoon gap vanished.
+
+**WOULD CHANGE?** **bet → pass**  
+**PRE-GAME REASON (required):** The betting case rested entirely on a 21‑point wRC+ advantage. The confirmed lineups reduced it to 0.1 points, leaving no meaningful offensive platoon edge. The bet would have been a pass with this information.
+
+**UMPIRE WOULD CHANGE?** No — no specific pre‑game tendency known for Manny Gonzalez that would alter the bet.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: BET away ML +105 (3u)
+
+**EXPECTED vs ACTUAL:** Key changes — STL actual inserted Crooks (222 wRC+), Torres (28), Fermín (110); dropped Walker, Burleson, Winn. KC inserted Tolbert (37), Massey (87); dropped Witt (superstar), Garcia, Loftin.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected for the bet — STL wRC+ vs LHP = 125.1 (still excellent, though slightly below team 139); KC wRC+ vs LHP = 82.4 (extremely weak). The platoon gap remained ~43 points, fully supporting a bet.
+
+**WOULD CHANGE?** **no change**  
+**PRE-GAME REASON:** The large offensive mismatch persisted in the confirmed lineups, so the bet’s foundation was intact.
+
+**UMPIRE WOULD CHANGE?** No — no pre‑game umpire data available.
+
+---
+## KIMI RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: NO BEST BET — no 3-unit play identified
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A  
+**WHY:** The slate was correctly graded as low-confidence. Every edge topped out below the betting gate, and the confirmed lineups later showed even more volatility (SEA, NYM downgrades; MIL upgrade). A no-bet slate was the right discipline.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+**Note:** No unit bets were placed today; all picks were zero-unit leans. The blocks below review process on those leans.
+
+### PART A — GAMES YOU BET (zero-unit lean review)
+
+**GAME:** TOR @ BOS  
+**PICK:** LEAN BOS ML (0U)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Pre-game reasoning centered on a nearly full-run SIERA/xFIP gap favoring Sonny Gray over Trey Yesavage, a fresher Boston bullpen, and Fenway park factors suppressing Toronto’s extra-base power. The confirmed Boston lineup was roughly equivalent to the projection; no pre-game data suggested Toronto would overcome Gray’s profile in a one-run game. A 4-3 defeat is well within the noise of a pitching-dominant matchup.  
+**SOURCE:** SIERA/xFIP, bullpen rest, park factors.
+
+---
+
+**GAME:** CLE @ MIL  
+**PICK:** LEAN MIL ML (0U)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Milwaukee’s platoon edge against left-handed pitching was massive on paper (136 wRC+ vs. Cleveland’s 48), and the actual Brewers lineup posted even more extreme split numbers. Cleveland’s rested bullpen was already factored in as a margin-trimmer. There was no pre-game signal that Cleveland’s weak split lineup would flip the script against a loaded Milwaukee order.  
+**SOURCE:** Team wRC+ splits, starter small-sample flags, bullpen rest.
+
+---
+
+**GAME:** MIN @ TEX  
+**PICK:** LEAN MIN ML (0U)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (as a lean or higher)  
+**WHY:** Joe Ryan’s strike-zone metrics and SIERA advantage over Jack Leiter played out as the pre-game data predicted. Globe Life’s pitcher-friendly dimensions aligned with the low-scoring environment for Texas. Minnesota’s lineup executed despite missing its closer.  
+**SOURCE:** SIERA, K-BB%, park factors.
+
+---
+
+**GAME:** BAL @ SEA  
+**PICK:** LEAN SEA ML (0U)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Bryan Woo’s elite SIERA/xFIP profile over Shane Baz and T-Mobile Park’s suppression of offense were the decisive pre-game edges. Baltimore’s fresher bullpen was already priced into the modest 1.8-pt edge. No reason to deviate.  
+**SOURCE:** SIERA/xFIP, park factors, bullpen rest.
+
+---
+
+**GAME:** NYM @ PHI  
+**PICK:** LEAN NYM ML (0U)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Sean Manaea’s half-run SIERA advantage over Aaron Nola and Nola’s recent walk-driven degradation were clear pre-game signals. The Mets’ platoon edge against Nola was supported by the data. The edge stayed at a lean due to Manaea’s own small-sample volatility, which proved a prudent cap.  
+**SOURCE:** SIERA, recent walk rates, platoon splits.
+
+---
+
+**GAME:** CHW @ NYY  
+**PICK:** LEAN NYY ML (0U)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES (as a lean)  
+**WHY:** Ryan Weathers’ SIERA and K-BB% advantage over a walk-prone Sean Burke was a sound pre-game pitching edge. The confirmed White Sox lineup was even weaker than projected (multiple sub-replacement platoon bats). The 5-1 result is not explained by any pre-game data point and falls under starter variance / bullpen meltdown.  
+**SOURCE:** SIERA, K-BB%, walk rates, lineup projections.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+**NONE.**  
+The correct passes (SF@ATL weather, STL@KC twin starters, LAA@ATH no starter) remain correct. For the leans, no pre-game data point that was available at lock was overlooked; the deviations were driven by post-hoc lineup changes not reflected in the Rotowire expected orders.
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT  
+**ITEM:** Real-time confirmed batting order with split-specific wRC+ (or comparable platoon projections) rather than expected/projections-only lineups.  
+**WHICH GAME(S):** MIL, SEA, NYM (slate-wide)  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** The actual lineups for MIL (Yelich inserted, 314/195/182 wRC+ anchors), SEA (Rodríguez/Raley out, Mastrobuoni 12 wRC+), and NYM (Short 6 wRC+, Vientos 55 wRC+) deviated materially from expected orders. Knowing the confirmed splits pre-game would have upgraded MIL to a full bet and downgraded/voided the SEA and NYM leans.
+
+---
+
+**TYPE:** STAT  
+**ITEM:** Umpire-specific zone tendency profiles (pitcher-friendly / hitter-friendly / borderline call rates).  
+**WHICH GAME(S):** TOR@BOS, BAL@SEA, CLE@MIL  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** Pitching-mismatch leans (Gray, Woo, etc.) are sensitive to zone size; a pitcher-friendly umpire amplifies the edge, while a tight zone erodes it.
+
+---
+
+**TYPE:** DATA  
+**ITEM:** Granular high-leverage bullpen availability (exact arms unavailable due to back-to-back or 3-in-4 usage, not just general “fatigue”).  
+**WHICH GAME(S):** MIL, BOS, MIN  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** “Fatigue” is vague; knowing whether the top 2-3 leverage arms are definitively down would refine late-inning edge calculations for close leans.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**NONE.**  
+One slate is insufficient evidence to modify weightings. The process correctly capped all plays at leans and identified no best bet, which accurately reflected the high lineup uncertainty and small-sample pitching flags across the board. Any adjustment based solely on today would be outcome-biased.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: TOR @ BOS — YOUR CALL: LEAN home
+
+**EXPECTED vs ACTUAL:** Key changes — Nate Eaton (wRC+ N/A) in for Mickey Gasper atop the order; Connor Wong (130 wRC+ vs RHP) in for Masataka Yoshida; Andruw Monasterio (59 wRC+ vs RHP) in for Marcelo Mayer.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** The core of Rafaela/Abreu/Contreras/Duran remained intact; Wong’s 130 wRC+ vs RHP is a platoon upgrade over Yoshida against Gray, while Monasterio is a mild downgrade. Net effect is neutral.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No umpire zone-size data provided to suggest a material shift in the pitching/batting environment.
+
+---
+
+### GAME: CLE @ MIL — YOUR CALL: LEAN home
+
+**EXPECTED vs ACTUAL:** Key changes — Christian Yelich (128 wRC+ vs LHP) inserted at leadoff; Jake Bauers (122) and David Hamilton (76) in for Blake Perkins/Joey Ortiz; William Contreras out.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** lean→bet  
+**PRE-GAME REASON:** Yelich is an elite lefty-masher when available, and the confirmed lineup featured Andrew Vaughn (314 wRC+ vs LHP) and Gary Sánchez (195) behind him. The aggregate platoon firepower far exceeded the Rotowire projection and would have cleared the threshold to a full bet on Milwaukee.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No specific zone-size data for Lance Barksdale provided to alter the run-scoring environment.
+
+---
+
+### GAME: MIN @ TEX — YOUR CALL: LEAN away
+
+**EXPECTED vs ACTUAL:** Key changes — Justin Foscue (39 wRC+ vs RHP) in for Joc Pederson; Nicky Lopez (76) in for Ezequiel Duran; Cody Freeman (291 wRC+ vs RHP) inserted.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** lean→higher stake  
+**PRE-GAME REASON:** Texas removed Joc Pederson and inserted Justin Foscue (39 wRC+ vs RHP) and Nicky Lopez (76), significantly weakening the top and middle of the order against Ryan. While Freeman’s 291 wRC+ is likely small-sample noise, the net downgrade versus projection adds to Minnesota’s pitching edge.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No pre-game umpire tendency data provided.
+
+---
+
+### GAME: BAL @ SEA — YOUR CALL: LEAN home
+
+**EXPECTED vs ACTUAL:** Key changes — Baltimore removed Adley Rutschman for Jeremiah Jackson (91 wRC+ vs RHP). Seattle removed Julio Rodríguez and Luke Raley, inserting Mitch Garver (65 wRC+ vs RHP) and Miles Mastrobuoni (12 wRC+ vs RHP).  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** lean→lower stake / lean→pass  
+**PRE-GAME REASON:** Seattle’s removal of Julio Rodríguez and Luke Raley — two projected middle-order bats — and insertion of Mastrobuoni (12 wRC+ vs RHP) and Garver (65) strips the Mariners of their primary power threats against Baz, materially reducing run-support expectations for Woo.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No umpire data provided.
+
+---
+
+### GAME: NYM @ PHI — YOUR CALL: LEAN away
+
+**EXPECTED vs ACTUAL:** Key changes — Mets inserted Mark Vientos (55 wRC+ vs RHP) and Zack Short (6 wRC+ vs RHP) for Jared Young and A.J. Ewing. Phillies inserted Justin Crawford (19 wRC+ vs LHP) for Trea Turner and Gabriel Rincones Jr. (wRC+ N/A).  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** lean→lower stake / lean→pass  
+**PRE-GAME REASON:** The Mets’ confirmed lineup featured Zack Short (6 wRC+ vs RHP) in the heart of the order, a catastrophic platoon downgrade that would erode the pre-game offensive edge against Nola and shrink the margin below lean territory.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No umpire data provided.
+
+---
+
+### GAME: CHW @ NYY — YOUR CALL: LEAN home
+
+**EXPECTED vs ACTUAL:** Key changes — White Sox inserted Andrew Benintendi (27 wRC+ vs LHP), Jacob Gonzalez (90), and Tristan Peters (-40 wRC+ vs LHP) for Randal Grichuk, Everson Pereira, and Luisangel Acuña. Yankees inserted Anthony Volpe (63 wRC+ vs RHP) for Jazz Chisholm.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different (CHW much weaker)  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** Chicago’s confirmed lineup was even weaker than projected, with three bats at or below replacement level versus lefties (Peters -40, Antonacci 7, Quero 22). New York’s core remained largely intact; the downgrade from Chisholm to Volpe is modest. This reinforces, not diminishes, the Yankees’ pre-game edge.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No umpire data provided.
+
+---
+## QWEN RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET IDENTIFIED
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES (I would still not identify a 3-unit best bet today, as no game cleared the high-confidence threshold pre-game)
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: NYM @ PHI
+PICK: NYM ML (+109)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pre-game edge of 5.4 points was validated by the starting pitching matchup (Manaea's SIERA vs Nola) and the Mets' platoon advantage. The result aligns with the pre-game probabilistic model without relying on fluke in-game variance.
+SOURCE: Pre-game SIERA and platoon wRC+ data.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE. All passes were based on sound pre-game thresholds (sub-4.0 pt edge, weather, TBD pitcher). Underdog wins on passed games (CHW, TOR) are market variance when no specific pre-game signal was missed.
+
+---
+
+## S3: DATA REQUEST
+TYPE: DATA
+ITEM: Bullpen Leverage Availability / Rest Status
+WHICH GAME(S): ALL
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: While starting pitching and lineup splits are heavily weighted, late-game bullpen fatigue can swing close games. Knowing exact rest days for top 3 relievers would sharpen close-game edges and potentially turn leans into bets or passes.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+PROPOSED CHANGE: Increase the weight of starting pitcher strikeout-to-walk ratio (K-BB%) relative to SIERA when evaluating pitcher-friendly parks.
+WHAT IN MY METHOD COULD BE SHARPER: In MIN @ TEX, I noted Joe Ryan's elite K and walk metrics but passed due to TEX's lineup in a pitcher-friendly park. K-BB% is a stronger predictor of run prevention in large parks than SIERA alone, as it eliminates balls in play variance.
+EVIDENCE FROM TODAY: MIN @ TEX pre-game data showed Joe Ryan's elite K/BB metrics, which I weighed equally against the park factor, resulting in a pass. MIN won 9-3, suggesting the K/BB dominance overpowered the park factor.
+CONFIDENCE: LOW
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: NYM @ PHI — YOUR CALL: BET away ML 109 (1u)
+
+EXPECTED vs ACTUAL: key change — Trea Turner (PHI) and Jared Young/A.J. Ewing (NYM) were dropped; Justin Crawford and Gabriel Rincones (PHI) and Mark Vientos/Zack Short (NYM) were added.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE: bet→higher stake
+PRE-GAME REASON: Trea Turner, a premium right-handed bat, is out of the PHI lineup against LHP Sean Manaea. This significantly worsens their already poor platoon splits, increasing the NYM edge. While NYM also has some lineup changes (Short's 6 wRC+ vs RHP is a drag), the loss of Turner is a massive blow to PHI's run expectancy against a lefty, pushing the edge higher.
+UMPIRE WOULD CHANGE: no — Brian Walsh has no extreme pre-game zone tendencies that would override the lineup change.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: LEAN away
+
+EXPECTED vs ACTUAL: key change — Bobby Witt Jr. (KC) and Jordan Walker/Masyn Winn (STL) were dropped; Tyler Tolbert/Michael Massey (KC) and Jimmy Crooks/Bryan Torres (STL) were added.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE: lean→bet
+PRE-GAME REASON: The confirmed STL lineup features massive platoon advantages against LHP, with Jimmy Crooks (222 wRC+ vs LHP), Nelson Velazquez (210), and Ivan Herrera (178) all starting. This creates a much larger offensive gap against KC's LHP (avg 82.4 wRC+) than the season-long averages suggested, pushing the edge past the 4.0 threshold for a full bet.
+UMPIRE WOULD CHANGE: no — Ryan Blakney has no extreme pre-game zone tendencies that would override the lineup change.
+
+---
+## GEMINI RESPONSE
+
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-18
+=======================================================
+
+  TOR    4 <--  @  BOS    3
+  CLE    4 <--  @  MIL    2
+  MIN    9 <--  @  TEX    3
+  BAL    0  @  SEA    3 <--
+  NYM    6 <--  @  PHI    4
+  CHW    5 <--  @  NYY    1
+  STL    6  @  KC    14 <--
+  LAA    0  @  ATH    5 <--
+  SF     ?  @  ATL    ?  [postponed]
+
+  Final:    8/9 games
+  Postponed: 1
+==================================================================
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET -- no 3-unit play identified today
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? N/A
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+**GAME:** CLE @ MIL  
+**PICK:** MIL ML (-145)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The matchup splits played out exactly as expected in the confirmed lineups: Milwaukee put out an elite vs-LHP lineup averaging 144.4 wRC+ (including Jackson Chourio at 182 and Andrew Vaughn at 314), while Cleveland's vs-LHP lineup was successfully suppressed to a 78.4 wRC+ average. Backing a potent offense with a massive split advantage at -145 is a mathematically sound play that we will accept losing to variance.  
+**SOURCE:** MLB API Confirmed Lineups  
+
+---
+
+**GAME:** NYM @ PHI  
+**PICK:** NYM ML (+109)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The pre-game pitching model correctly identified Sean Manaea's edge over Aaron Nola (who carried a 10% L14 SIERA penalty). Even though the Mets' confirmed lineup was ultimately weaker than expected, the pitching mismatch and high-wind environment at Citizens Bank Park played out to secure the plus-money win.  
+**SOURCE:** MLB API Confirmed Lineups  
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+NONE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+NONE
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+NONE
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+---
+
+### GAME: TOR @ BOS — YOUR CALL: LEAN home
+
+#### EXPECTED vs ACTUAL:
+*   **TOR:** Expected lineup was replaced with a slightly different order; Davis Schneider (49 wRC+ vs RHP) and Myles Straw (102 wRC+ vs RHP) were added, while Vladimir Guerrero Jr. remained in the lineup (94 wRC+). [Lineup average wRC+: 96.1]
+*   **BOS:** Connor Wong (130 wRC+ vs RHP) and Andruw Monasterio (59 wRC+ vs RHP) were added; Masataka Yoshida and Mickey Gasper were dropped. [Lineup average wRC+: 96.2]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Roughly as expected. Both offenses graded out to almost identical overall averages (~96 wRC+ vs RHP).
+
+#### WOULD CHANGE?
+no change
+
+#### UMPIRE WOULD CHANGE?
+no — Manny Gonzalez does not present extreme enough zone tendencies to alter a low-conviction lean.
+
+---
+
+### GAME: CLE @ MIL — YOUR CALL: BET home ML -145 (1u)
+
+#### EXPECTED vs ACTUAL:
+*   **CLE:** Daniel Schneemann (131 wRC+ vs LHP) and Kahlil Watson were added; David Fry and Stuart Fairchild were dropped. [Lineup average wRC+: 78.4]
+*   **MIL:** Christian Yelich (128 wRC+ vs LHP) and Jake Bauers (122 wRC+ vs LHP) were added; William Contreras and Joey Ortiz were dropped. [Lineup average wRC+: 144.4]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Roughly as expected. Despite missing Contreras, Milwaukee fielded an incredibly potent vs-LHP lineup (144.4 average wRC+), while Cleveland's remained heavily suppressed (78.4 average wRC+), reinforcing our pre-game edge.
+
+#### WOULD CHANGE?
+no change
+
+#### UMPIRE WOULD CHANGE?
+no — Lance Barksdale has a standard neutral zone.
+
+---
+
+### GAME: BAL @ SEA — YOUR CALL: LEAN away
+
+#### EXPECTED vs ACTUAL:
+*   **BAL:** Jeremiah Jackson (91 wRC+ vs RHP) was added; Adley Rutschman was dropped. [Lineup average wRC+: 117.3]
+*   **SEA:** Mitch Garver (65 wRC+ vs RHP) and Miles Mastrobuoni (12 wRC+ vs RHP) were added; superstars Julio Rodriguez and Luke Raley were both rested. [Lineup average wRC+: 100.6]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Materially different. Seattle sat their key offensive catalyst, Julio Rodriguez, along with Luke Raley, which severely weakened their lineup card and inserted a massive black hole in Miles Mastrobuoni (12 wRC+ vs RHP).
+
+#### WOULD CHANGE?
+lean→bet (BAL ML)
+
+#### PRE-GAME REASON:
+Seattle resting both Julio Rodriguez and Luke Raley drastically reduces their projected run expectation. With Baltimore maintaining a highly potent lineup (117.3 average wRC+ vs RHP) even without Rutschman, this confirmed lineup news would have pushed our projected edge on Baltimore well past our 4-point gate threshold, turning a lean into a clear value bet on the Orioles.
+
+#### UMPIRE WOULD CHANGE?
+no
+
+---
+
+### GAME: NYM @ PHI — YOUR CALL: BET away ML 109 (1u)
+
+#### EXPECTED vs ACTUAL:
+*   **NYM:** Mark Vientos (55 wRC+ vs RHP) and Zack Short (6 wRC+ vs RHP) were added; Jared Young and A.J. Ewing were dropped. [Lineup average wRC+: 82.8]
+*   **PHI:** Justin Crawford (19 wRC+ vs LHP) and Gabriel Rincones Jr. were added; Trea Turner was rested. [Lineup average wRC+: 97.0]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Materially different. The Mets' lineup was heavily downgraded by the inclusion of Zack Short (6 wRC+) and Mark Vientos (55 wRC+ vs RHP), which plummeted their overall split average to a weak 82.8 wRC+.
+
+#### WOULD CHANGE?
+bet→pass
+
+#### PRE-GAME REASON:
+The Mets' actual starting lineup lost its offensive depth, presenting multiple automatic outs in the bottom half of the card. This drop in offensive capability (82.8 wRC+ vs RHP) negates the expected advantage we had over Aaron Nola, rendering the +109 price tag no longer value-positive. We would have passed.
+
+#### UMPIRE WOULD CHANGE?
+no
+
+---
+
+### GAME: STL @ KC — YOUR CALL: LEAN away
+
+#### EXPECTED vs ACTUAL:
+*   **STL:** Jimmy Crooks (222 wRC+ vs LHP), Bryan Torres (28 wRC+ vs LHP), and Jose Fermin (110 wRC+ vs LHP) were added; Jordan Walker and Masyn Winn were rested. [Lineup average wRC+: 125.1]
+*   **KC:** Tyler Tolbert (37 wRC+ vs LHP) and Michael Massey (87 wRC+ vs LHP) were added; superstar MVP candidate Bobby Witt Jr. and third baseman Maikel Garcia were rested. [Lineup average wRC+: 82.4]
+
+#### CONFIRMED LINEUP vs YOUR ASSUMPTION:
+Materially different. Kansas City resting Bobby Witt Jr. represents a massive loss in offensive projection. St. Louis fielded an elite vs-LHP lineup card (125.1 average wRC+), creating a stark talent mismatch.
+
+#### WOULD CHANGE?
+lean→bet (STL ML)
+
+#### PRE-GAME REASON:
+With Bobby Witt Jr. confirmed out of the lineup, Kansas City’s offense lost its engine. Facing a Cardinals lineup that matches up historically well against lefties (125.1 average wRC+ actual), this lineup news creates an enormous projection gap. This extreme value would have prompted us to override our "strict slate limit" rule and place a bet on the Cardinals ML.
+
+#### UMPIRE WOULD CHANGE?
+no
+
+---
+## OPUS RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: NO BEST BET (no 3-unit play identified)
+RESULT: N/A — correctly declined to force a best bet
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES (i.e., still no best bet)
+
+The discipline here was correct. Both qualifying plays (MIN, NYM) won, but they cleared only the 4-pt gate at 1 unit and both opponents carried small-sample L14 tags that legitimately barred a 3-unit rating. Two 1-unit wins on +106/+104 prices is a clean, profitable slate. Forcing a best bet to chase a "feel" would have violated the gate framework. The fact that both winners hit does NOT retroactively justify upgrading either — the pre-game uncertainty (unconfirmed lineups, L14 sample tags) was real.
+
+IF NO — N/A.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: MIN @ TEX
+PICK: MIN ML +106 (1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Joe Ryan's true-talent edge (3.27 SIERA, 22.9 K-BB%, 248 IP) over a fading Leiter (4.34 SIERA, disaster L14) was the entire thesis, and it held. Getting a plus price (+106) on the superior arm against an ERA-quality opponent is exactly the market-vs-predictive-metric divergence the method targets. Process and result aligned.
+SOURCE: Joe Ryan SIERA/K-BB%; Leiter AGG SIERA and L14.
+
+GAME: NYM @ PHI
+PICK: NYM ML +104 (1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Classic ERA-perception fade — Manaea's 4.78 ERA masking a 3.21 SIERA / 23.2 K-BB% vs Nola's deteriorating 5.86 ERA / 5.59 L14 SIERA / 6.0 BB/9. Making NYM the slight favorite at +104 was a sound, gated edge. Result fair.
+SOURCE: Manaea vs Nola AGG SIERA and K-BB%; Nola L14 walk rate.
+
+---
+
+### PART B — PASSES/LEANS WITH A MISSED PRE-GAME EDGE
+
+Reviewing each pass honestly:
+
+- **TOR @ BOS**: Passed on a ~3pt edge under gate. TOR won, but the pre-game read favored BOS (Gray superior). No pre-game signal pointed to TOR — variance. Correct pass.
+- **CLE @ MIL**: MIL heavily favored, CLE punchless vs LHP (48 wRC+). CLE won 4-2. The Drohan 18-IP small sample was flagged as a confidence cap — that flag was the correct reason to avoid laying -147, and it earns its keep here. No missed edge; variance result on a justified pass.
+- **BAL @ SEA**: Passed, Under lean correct (3 total runs). No bet missed.
+- **CHW @ NYY**: NYY -157 deemed fair, passed. CHW won. Burke L14 was "unreadable" (4 IP) — correctly flagged as no-edge rather than a fade signal. No pre-game data pointed to CHW. Variance.
+- **STL @ KC**: Flagged "erratic RL movement / unstable market" as the pass reason. KC won 14-6. No directional pre-game edge was identifiable. Honest variance on a justified pass.
+- **SF @ ATL**: PPD risk → stand-down. Game postponed. **This was the single best pass of the slate** — the PPD flag was decisive and correct.
+- **LAA @ ATH**: TBD starter → automatic pass. Correct integrity rule.
+
+**No Part B blocks qualify.** I cannot name a specific pre-game data point that pointed to any of the upset winners (TOR, CLE, CHW, KC). All were variance against sound passes. Writing a block to claim otherwise would be hindsight reasoning.
+
+NONE.
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: DATA
+ITEM: Confirmed/projected lineup batting-order with platoon wRC+ delivered before lock, not just team-level vs-LHP/RHP aggregates.
+WHICH GAME(S): MIN @ TEX, NYM @ PHI (both bets)
+WOULD HAVE CHANGED A BET? NO (this slate) / MAYBE (generally)
+WHY: In MIN @ TEX, the confirmed TEX lineup (avg 110 wRC+ vs RHP, Cody Freeman 291) was actually *stronger* than my team-level assumption, and MIN's was weaker (95.4, Fedko/Kreidler in). That would have made me slightly *less* confident pre-game — not enough to pass given Ryan's edge, but the granularity matters. I was betting the pitcher, not the bats, so the lineup degradation didn't break the thesis. Knowing it pre-game is still better.
+
+TYPE: STAT
+ITEM: Pitcher velocity-trend (last-3-start FB velo delta) to validate or dismiss L14 K-rate collapse flags.
+WHICH GAME(S): BAL @ SEA (Baz), CLE @ MIL (Drohan)
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: I flagged Baz's 3.4 K/9 L14 as needing "velocity confirmation" and could not resolve it. A velo trend would let me distinguish injury/decline from noise, potentially converting a SEA pass into a play or confirming the small-sample dismissal.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: None warranted from today's data.
+WHAT IN MY METHOD COULD BE SHARPER: Nothing identified that one slate justifies revisiting.
+EVIDENCE FROM TODAY: Both bets followed the SIERA/K-BB%-vs-ERA divergence template and won fairly; all passes were defensible under existing gates, and the two flag rules that fired (PPD on SF/ATL, TBD on LAA/ATH) worked exactly as intended. The CLE small-sample cap and the erratic-RL pass both produced "wrong" results but for correct process reasons — I will NOT loosen those gates based on two variance outcomes, which is precisely the trap S4 warns against.
+CONFIDENCE: LOW
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: MIN @ TEX — BET MIN ML +106 (1u)
+
+EXPECTED vs ACTUAL: Key changes — MIN dropped Larnach (leadoff) for unknown Kyler Fedko (N/A) and swapped in Kreidler for Tristan Gray; Royce Lewis fell from cleanup feel. TEX swapped Foscue (39) leadoff for Pederson, dropped Duran/Osuna, added Cody Freeman (291 small-sample) and Nicky Lopez.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: Roughly as expected at the team level — MIN actual 95.4 (I called bats "average vs RHP"), TEX actual 110.0 (slightly stronger than my "contact-heavy" framing).
+WOULD CHANGE? no change
+PRE-GAME REASON: The thesis was Ryan's pitching edge suppressing TEX, not MIN's offense outscoring. Even with TEX at 110 and MIN at 95, the pitcher-talent gap (Ryan 3.27 SIERA vs Leiter 4.34) and plus price held the edge above gate. The Freeman 291 is a tiny-sample mirage I would have correctly discounted pre-game.
+UMPIRE WOULD CHANGE? no — Estabrook is a roughly neutral-zone umpire; no pre-game tendency strong enough to move a pitcher-talent-based ML.
+
+### GAME: NYM @ PHI — BET NYM ML +104 (1u)
+
+EXPECTED vs ACTUAL: Material changes — NYM lost Jared Young, A.J. Ewing and used Vientos (55) cleanup, Zack Short (6) at 5; lineup degraded to 82.8 avg. PHI subbed Justin Crawford (19) leadoff for Schwarber-at-2, dropped Harper to 3 in a weaker order (97.0).
+CONFIRMED LINEUP vs YOUR ASSUMPTION: Materially different on NYM side — my thesis leaned on "Soto/Young" and Young was absent, with a much punchier 82.8 order than assumed.
+WOULD CHANGE? bet→lower stake (toward pass consideration)
+PRE-GAME REASON: My stated reason cited "Soto/Young" as the lineup edge versus Nola. With Young out and Zack Short (6 wRC+) / Vientos (55) hollowing the middle, the NYM offensive support for the Manaea-over-Nola pitching edge weakens. The pitching divergence (Manaea 3.21 vs Nola 5.86/5.59 L14) still carries it, but at +104 with a degraded lineup I would have trimmed conviction — likely still a play, but a clear lower-stake/recheck spot rather than a clean 1u. This is a legitimate pre-game adjustment, independent of the result.
+UMPIRE WOULD CHANGE? no — Walsh carries no zone tendency extreme enough to alter a near-pick'em ML.
+
+---
+
+**Bottom line:** 2-0 on bets, both fair-process wins; the one structurally important note is that I leaned on a NYM lineup name (Young) who didn't play — knowable pre-game at lock and worth catching next time. All passes defensible; resist loosening gates on variance.
+
+---
+## SONNET RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** NO BEST BET (no 3-unit play identified)
+**RESULT:** N/A — no best bet designated
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** N/A
+
+**REFLECTION:** The decision to withhold a Best Bet designation was correct process. Both qualifying plays were legitimately blocked by [sm] flags on starters. Both bets lost. Had I forced a Best Bet, the elevated stake would have compounded the damage. The gate-keeping held appropriately.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** CLE @ MIL
+**PICK:** MIL ML -147
+**RESULT:** LOSS
+
+**PROCESS:** CORRECT PROCESS / BAD VARIANCE — with one confirmed-lineup asterisk (see confirmed data section below)
+
+**WOULD-BET-AGAIN:** YES / LOWER STAKE
+
+**WHY:** The core thesis was valid from pre-game data: CLE's team-level wRC+ vs LHP of 48 is the most extreme platoon disadvantage on the slate, and Drohan's L14 xFIP 3.13 is genuinely strong. The bet cleared the 4-pt gate at 6.7 pts. However, the confirmed lineup reveals that the actual CLE order had Manzardo (163 wRC+ vs LHP) and Hedges (139) providing real threats, while Gabriel Arias's -100 wRC+ vs LHP was partially offset by Schneemann (131) replacing a lower-wRC+ expected name. The team-level 48 wRC+ figure was likely a small-sample aggregate that masked individual variance within the lineup. That's a data granularity issue, not a process error — but it's worth flagging. The [sm] flags on both starters correctly suppressed the stake to 1u. Losing on a 64% win-probability estimate is normal variance at this sample size.
+
+**SOURCE:** Pre-game CLE wRC+ vs LHP 48; Drohan L14 xFIP 3.13; MIL L10 RS 7.1; both starters [sm] flags limiting to 1u.
+
+---
+
+**GAME:** STL @ KC
+**PICK:** STL ML +102
+**RESULT:** LOSS
+
+**PROCESS:** CORRECT PROCESS / BAD VARIANCE — with one pre-game data point worth examining (erratic RL movement flag was noted and correctly raised caution)
+
+**WOULD-BET-AGAIN:** YES
+
+**WHY:** The pre-game process was sound: STL (40-32) vs KC (30-45), STL lineup wRC+ 139 vs LHP against a KC LHP, near-even pricing at +102. The 7.2-pt edge was the largest on the slate. The erratic RL movement was flagged as a DATA GAP in the original write-up — this was the one pre-game signal pointing toward uncertainty, and it correctly suppressed the stake to 1u rather than 2u. The confirmed lineup (STL avg 125.1 wRC+ vs LHP, KC avg 82.4) further validates the thesis — the platoon advantage was real and present. A 55% win-probability team losing at +102 is within normal variance. The score (KC 14, STL 6) suggests a blowout, but post-game score is irrelevant to process evaluation; no pre-game data pointed reliably to a KC offensive eruption against Liberatore at that level.
+
+**SOURCE:** STL wRC+ 139 vs LHP; STL 40-32 vs KC 30-45; +102 pricing representing 7.2-pt edge; erratic RL movement correctly flagged and stake-suppressed.
+
+---
+
+### PART B — PASSES AND LEANS WHERE A SPECIFIC PRE-GAME EDGE WAS MISSED
+
+---
+
+**GAME:** MIN @ TEX
+**YOUR CALL:** LEAN (no stake)
+**FINAL RESULT:** MIN won 9-3
+**WHAT YOU MISSED:** The lean was directionally correct but the gate was set at 4 pts and the gap calculated at only ~3.7 pts. However, the confirmed lineup data reveals TEX's actual order was materially weaker than expected: Foscue (39 wRC+ vs RHP) replaced what was expected to be a stronger leadoff, and the overall TEX lineup averaged 110 wRC+ vs RHP — lower than the pre-game assumed 115. Simultaneously, Leiter's BB/9 of 4.7 in the L14 sample was a pre-game-knowable command concern that, combined with Ryan's solid 3.60 AGG xFIP, may have warranted a slight upward revision to MIN win probability. The closer unavailability (T1 0/1) for MIN was a legitimate downward factor that was correctly weighted. In hindsight the 3.7-pt gap was likely understated by ~1-2 pts given Leiter's command metrics — which were available pre-game.
+
+**SOURCE:** Leiter BB/9 4.7 in L14 (pre-game knowable); TEX lineup wRC+ assumption of 115 was slightly overstated given confirmed names.
+**WOULD THIS HAVE BECOME A BET?** MAYBE — gap revision from 3.7 to ~5 pts would have cleared the 4-pt gate, but closer unavailability and [sm] flag on Leiter would likely have kept it at 1u maximum.
+
+---
+
+**GAME:** NYM @ PHI
+**YOUR CALL:** PASS
+**FINAL RESULT:** NYM won 6-4
+**WHAT YOU MISSED:** The pass was correct on process grounds — NYM's bullpen depletion (T3 2/6 available) was a legitimate concern, and Nola's BB/9 6.0 in a small sample was a red flag that pointed toward PHI starter risk. NYM +104 was the identified value side, but the bullpen depletion was treated as a decisive negative. Pre-game data did not provide a reliable basis to quantify how severely the bullpen depletion would actually materialize in a given game. This is a correct pass — no specific pre-game signal pointed to NYM sustaining the lead against PHI's elite pen. **No block warranted here — this was a correct pass.**
+
+*(Block omitted — this was a valid pass with no missed edge.)*
+
+---
+
+**GAME:** CHW @ NYY
+**YOUR CALL:** PASS
+**FINAL RESULT:** CHW won 5-1
+**WHAT YOU MISSED:** The NYY win probability of ~63% was above the gate (4.1 pts above vig-removed implied 58.9%), but the bet was passed due to slate rank ceiling (2-bet max with stronger plays ranked above). The outcome was a CHW upset. Pre-game data showed Weathers' L14 xFIP 5.26 [sm] trending badly — this was the available signal. However, a 63% estimated win probability still means NYY loses ~37% of the time. There is no specific pre-game signal that reliably pointed to a CHW win given the available data. **This was correct variance management — the pass was justified by slate rank ceiling, not by missing an edge on the other side.**
+
+*(Block omitted — correct pass by slate management rules.)*
+
+---
+
+## S2 CONFIRMED DATA EVALUATION
+
+---
+
+### GAME: CLE @ MIL — YOUR CALL: BET home ML -147 (1u)
+
+**EXPECTED vs ACTUAL:** Key change — Bobby Witt Jr. equivalent for MIL: Yelich and Chourio not in expected order; Schneemann replaced an expected CLE slot; Arias dropped to 6th with -100 wRC+ vs LHP confirmed. MIL order materially upgraded at top with Yelich (128) and Chourio (182) replacing lighter expected names.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different in MIL's favor — actual MIL lineup averaged 144.4 wRC+ vs LHP vs the expected build which did not confirm Yelich in the order. CLE's actual lineup averaged 78.4 wRC+ vs LHP — significantly higher than the team-level 48 assumption driven by individual outliers (Manzardo 163, Hedges 139).
+
+**WOULD CHANGE?** BET → HIGHER STAKE (marginally, if MIL confirmation was pre-game-knowable)
+
+**PRE-GAME REASON:** The confirmed MIL lineup with Yelich (128 wRC+ vs LHP) added at leadoff and Chourio (182) batting second represents a stronger top of order than the expected lineup showed. If these names were confirmed pre-game, the MIL offensive edge over Messick would have been even wider, potentially moving the edge from 6.7 pts toward 8+ pts — which could have warranted 2u given the MIL offensive upside. However, the [sm] flags on both starters remained a hard cap. Net assessment: same bet, potentially slightly higher confidence but still capped at 1u by [sm] rule.
+
+**UMPIRE WOULD CHANGE?** No — no pre-game-knowable Lance Barksdale zone tendency in the available data that would materially shift the run environment estimate for this specific matchup.
+
+---
+
+### GAME: MIN @ TEX — YOUR CALL: LEAN away
+
+**EXPECTED vs ACTUAL:** TEX lineup materially different — Foscue (39 wRC+ vs RHP) started at leadoff instead of Pederson; Nicky Lopez (76) and Cody Freeman (291 in small sample) replaced expected names. MIN had Fedko (N/A) replacing Larnach at leadoff; Tristan Gray absent, Ryan Kreidler (72) filled in.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different for TEX — weaker than assumed. The expected TEX wRC+ vs RHP of 115 appears overstated; actual lineup averaged 110 wRC+ vs RHP with Foscue (39) at the top. MIN lineup slightly weaker than expected (Fedko unknown, Kreidler 72 replacing Gray), averaging 95.4 vs RHP.
+
+**WOULD CHANGE?** LEAN → BET
+
+**PRE-GAME REASON:** The TEX lineup confirmed weaker than the expected build assumed. Foscue (39 wRC+ vs RHP) replacing Pederson at leadoff is a material downgrade for TEX's ability to generate early runs against Ryan. If Rotowire had confirmed Foscue starting over Pederson pre-game, the TEX offensive threat assessment would have dropped meaningfully, potentially pushing MIN win probability from ~57% toward ~59-60% — clearing the 4-pt gate with more confidence and moving from lean to a 1u bet. The additional factor: MIN's lineup, while slightly weaker than expected at the top, still had Buxton (163) and Clemens (125) intact in the heart of the order. Combined with Leiter's pre-game BB/9 of 4.7 in L14, the TEX starter risk was real and the lineup confirmation would have shifted the call.
+
+**UMPIRE WOULD CHANGE?** No — Mike Estabrook has no pre-game-knowable zone tendency in available data that would materially alter this call.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: BET away ML +102 (1u)
+
+**EXPECTED vs ACTUAL:** STL lineup significantly changed from expected — Jordan Walker absent, Jimmy Crooks (222 wRC+ vs LHP) added at 3rd, Bryan Torres (28) and José Fermín (110) appeared instead of Masyn Winn/Alec Burleson. KC had Witt absent, Tyler Tolbert (37) replacing a key piece.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** STL — mixed impact. Crooks at 222 wRC+ vs LHP is a massive upgrade; Torres at 28 is a downgrade. Net STL average 125.1 wRC+ vs LHP — solid but uneven. KC — materially weaker without Witt; Tolbert (37 wRC+ vs LHP) replacing a high-impact bat. KC actual lineup averaged only 82.4 wRC+ vs LHP.
+
+**WOULD CHANGE?** BET → HIGHER STAKE
+
+**PRE-GAME REASON:** Bobby Witt Jr.'s absence from the KC confirmed lineup (replaced by Tolbert at 37 wRC+ vs LHP) is a substantial downgrade for KC's offense. Witt is KC's most dangerous hitter — removing him from the order against a LHP-facing scenario weakens KC's ability to threaten Liberatore. If Witt's absence was pre-game-knowable (injury scratch reported pre-lineup lock), this alone would have pushed the STL edge above 7.2 pts, potentially toward 9+ pts, and could have warranted 2u — with the Liberatore [sm] flag as the remaining cap at 1u maximum. STL's Crooks addition at 222 wRC+ vs LHP further strengthened the STL platoon advantage over Cameron.
+
+**UMPIRE WOULD CHANGE?** No — Ryan Blakney has no pre-game-knowable zone tendency in available data that would change the call.
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT
+**ITEM:** Individual batter wRC+ vs handedness splits (confirmed starting lineup) available 60-90 minutes pre-game, not just projected — specifically flagging high-variance outliers (≥150 or ≤30 wRC+ vs starter hand) that diverge from team-level aggregate
+**WHICH GAME(S):** CLE @ MIL, STL @ KC, MIN @ TEX
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** The team-level CLE wRC+ 48 vs LHP masked Manzardo (163) and Hedges (139) as legitimate threats. Confirmed individual splits for the actual lineup would have refined the CLE threat model upward, potentially lowering MIL edge slightly. In STL @ KC, Witt's absence (Tolbert 37) was a material KC offensive downgrade not visible in team aggregates. In MIN @ TEX, Foscue (39) replacing Pederson was a material TEX weakening. Individual confirmed splits would have sharpened all three estimates.
+
+---
+
+**TYPE:** DATA
+**ITEM:** Pre-game injury/scratch report for confirmed lineup absences — specifically whether a named starter is confirmed OUT (not just "questionable") before the 60-minute window, with a flag when a top-3 lineup contributor by wRC+ is scratched
+**WHICH GAME(S):** STL @ KC (Witt absent), MIN @ TEX (Pederson absent)
+**WOULD HAVE CHANGED A BET?** YES — STL @ KC toward higher stake; MIN @ TEX lean toward bet
+**WHY:** Witt's absence from KC's lineup is a meaningful change to the KC offensive threat vs Liberatore. Pederson's absence from TEX is a leadoff downgrade. Neither was flagged in available pre-game data, but both were pre-game-knowable with a confirmed scratch report.
+
+---
+
+**TYPE:** STAT
+**ITEM:** Bullpen usage/availability over rolling 3-day window (not just T1/T3 flags) — specifically individual reliever pitch counts from prior 2 days and projected availability status
+**WHICH GAME(S):** CLE @ MIL, NYM @ PHI
+**WOULD HAVE CHANGED A BET?** MAYBE
+**WHY:** MIL's bullpen status (fully fresh per Chapman/Whitlock equivalents) was cited as an asset. CLE's late-game bullpen performance (holding MIL to 2 runs) suggests their pen was stronger than the team's offensive wRC+ implied. More granular rolling availability data would have refined the late-game scenario modeling. In NYM @ PHI, the T3 2/6 flag for NYM was a decisive factor in the pass — knowing which specific relievers were unavailable (closers vs middle relief) would have been more actionable than the aggregate flag.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When a team-level wRC+ vs pitcher handedness is flagged as extreme (≤60 or ≥130), require individual lineup spot review before finalizing the edge calculation — specifically identify whether the extreme average is driven by 2-3 outlier players or is broadly distributed. A broadly distributed extreme (6+ of 9 hitters below 70) is a stronger signal than a mean pulled by 2-3 very low/high individual scores with moderate names elsewhere.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** The CLE wRC+ 48 vs LHP was used as a monolithic team-level signal, but the confirmed lineup showed Manzardo (163), Hedges (139), and Schneemann (131) as legitimate threats within that aggregate. If only 3-4 hitters are truly suppressed while others are neutral or above average, the effective threat to the opposing starter is higher than the aggregate implies. The current method takes team-level aggregates at face value without stress-testing the distribution.
+
+**EVIDENCE FROM TODAY (pre-game data):** CLE's team wRC+ 48 vs LHP was the primary basis for the MIL bet. Pre-game data did show individual splits were available in principle — the confirmed lineup revealed the distribution was not uniform. The original write-up cited "CLE's wRC+ vs LHP is a catastrophic 48" without qualifying whether this was broadly distributed or concentrated in a few very low hitters dragging down the mean.
+
+**CONFIDENCE:** MEDIUM — one-day evidence is insufficient to adopt, but the signal is directionally consistent: team aggregates that are extreme (in either direction) warrant a distribution check before using as a strong edge signal. Propose tracking this across 10+ slates to validate.

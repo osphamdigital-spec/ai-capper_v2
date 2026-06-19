@@ -1,0 +1,66 @@
+{
+  "model": "kimi",
+  "sport": "mlb",
+  "v3_start_date": "2026-06-20",
+  "unit_base_usd": 100,
+  "starting_balance": 10000.0,
+  "current_balance": 10000.0,
+  "updated_at": "2026-06-19T13:55:04Z",
+  "summary": {
+    "bets": 0,
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "voids": 0,
+    "dollars_risked": 0,
+    "dollars_net": 0.0,
+    "roi_pct": null,
+    "avg_clv": null,
+    "clv_count": 0,
+    "by_type": {
+      "favorite": {
+        "bets": 0,
+        "w": 0,
+        "l": 0,
+        "dollars_net": 0.0
+      },
+      "underdog": {
+        "bets": 0,
+        "w": 0,
+        "l": 0,
+        "dollars_net": 0.0
+      },
+      "1u": {
+        "bets": 0,
+        "w": 0,
+        "l": 0,
+        "dollars_net": 0.0
+      },
+      "3u": {
+        "bets": 0,
+        "w": 0,
+        "l": 0,
+        "dollars_net": 0.0
+      },
+      "ml": {
+        "bets": 0,
+        "w": 0,
+        "l": 0,
+        "dollars_net": 0.0
+      },
+      "rl": {
+        "bets": 0,
+        "w": 0,
+        "l": 0,
+        "dollars_net": 0.0
+      },
+      "total": {
+        "bets": 0,
+        "w": 0,
+        "l": 0,
+        "dollars_net": 0.0
+      }
+    }
+  },
+  "history": []
+}

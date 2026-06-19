@@ -1,0 +1,6 @@
+{
+  "_comment": "v3 bankroll configuration. Single source of truth read by build_bankroll.py and the prompt injection in build_prompt.py. EDIT v3_start_date to the FIRST v3 slate date (the first slate run after re-authored methods go live). Bankroll ingests ONLY graded picks on dates >= v3_start_date; v2 slates are never counted. Default below is a placeholder -- CONFIRM before going live.",
+  "v3_start_date": "2026-06-19",
+  "unit_base_usd": 100,
+  "starting_balance": 10000.0
+}

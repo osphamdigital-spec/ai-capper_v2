@@ -20,10 +20,11 @@
       "reason": "Gray is the better starter on aggregate skill and recent shape, and Boston’s leverage bullpen is in cleaner condition than Toronto’s. The problem is Toronto owns the clearly better split offense vs RHP, while Yesavage’s underlying skill is only middling and his recent form is noisy enough to keep this from being a fade-at-any-price spot. With strong wind and unconfirmed lineups, the side looks too conflicted for a qualified edge.",
       "data_gap": "Confirmed lineups, especially whether Toronto’s top right-handed bats all start, would tighten the side and total view.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "872e319f5c105d18457014bc855cdc85",
@@ -40,11 +41,12 @@
       "edge": "4.4 pts",
       "reason": "Milwaukee gets the biggest platoon separator on the slate: a 136 wRC+ vs LHP against a Cleveland lineup sitting at 48 vs LHP, which is hard to ignore even with Messick being the slightly steadier starter. Drohan is not dominant enough for a bigger stake, but the Brewers’ run-share outlook is still better once the split context and home field are added. Cleveland’s fresher bullpen keeps this at 1 unit instead of 3.",
       "data_gap": "Roof status matters a bit for run environment, and confirmed lineups would matter if Milwaukee rests multiple core right-handed bats.",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 2,
+      "closing_line": -147,
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "bb47b41c0a375d2df45331898a1e7ec1",
@@ -62,10 +64,11 @@
       "reason": "Ryan is the best starter in this game by a clear margin, and Texas is still asking Leiter to survive too much contact risk with shaky recent form. The Rangers claw back equity with the better split offense, home field, and a fresher late bullpen, which trims Minnesota’s edge below the betting threshold. In a run-suppressing park, I prefer the better starter but not enough to fire.",
       "data_gap": "Roof status would sharpen the total and slightly affect side confidence.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "cad6df1fc1aadca9fdbb359d7d43e40f",
@@ -83,10 +86,11 @@
       "reason": "Woo owns the better underlying profile and should benefit from the park, but Baltimore’s offense vs RHP is strong enough to keep Seattle from clearing the price comfortably. Baltimore also has a live bullpen path if Baz can get the game into the middle innings. That leaves Seattle as the right side on paper but not at a number I can justify betting.",
       "data_gap": "Roof status and confirmed lineups would help, especially if either club sits one of its core right-handed bats.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "7fc018ccf3790baea15d29b581f9d0ce",
@@ -104,10 +108,11 @@
       "reason": "Manaea’s skill indicators are better than his ERA, and Nola’s ERA should improve some, but his recent shape and contact profile still leave him short of ace pricing. The Mets also get the better offensive split matchup, while Philadelphia answers with the superior rested bullpen and home field. Hot weather and strong wind push volatility up, so I prefer the dog, just not enough for a bet.",
       "data_gap": "Confirmed lineups are important here because a single missing middle-order bat would move the fair price on both side and total.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "adfa73cc70f5a62d6d0bb903eaa0f24b",
@@ -125,10 +130,11 @@
       "reason": "New York has the stronger bullpen and the better overall roster, but this price asks for too much from a favorite with only a modest starter edge and a merely average split matchup. Burke is imperfect, yet Chicago’s bullpen is fresh enough to keep them live if he gives five decent innings. I do not want to pay premium favorite tax in a hot, homer-friendly setup.",
       "data_gap": "Confirmed lineups would matter if New York rests key right-handed thump or Chicago loads its better bats vs LHP.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "e92122c8f905eb41a57faabf21daf468",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "Atlanta has the better team context and a major bullpen advantage, but Roupp’s underlying numbers are better than Martín Pérez’s and keep the starting-pitching gap from supporting the current favorite price. The weather risk adds another layer of uncertainty, and I do not want to force a side when the market is already charging for Atlanta’s late-game edge. This is close to an ATL lean, not a bet.",
+      "reason": "postponed",
       "data_gap": "Rain/postponement status is the main missing variable; confirmed weather and lineups could change the pass.",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "13234b203ca4ea57ec2f1381b3e6a046",
@@ -167,10 +174,11 @@
       "reason": "St. Louis gets the better offensive split by a meaningful margin against a lefty, and the Cardinals also bring the healthier bullpen into the late innings. Cameron is the better starter than Liberatore, though, and that keeps Kansas City from being a clean fade at home. I like the underdog shape, but the starter gap leaves it just short of the 4-point gate.",
       "data_gap": "Confirmed St. Louis lineup matters because this edge is driven by their lefty-mashing profile.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "4d7345756b0575f6a757888c78a290f2",
@@ -188,10 +196,11 @@
       "reason": "The Angels have a TBD starter, so this game is an automatic pass under the data-integrity rules. The park and total setup scream volatility, but without a confirmed pitcher I cannot price the side honestly. No bet until the starter is known.",
       "data_gap": "Confirmed Angels starter is required; that single item would materially change both side and total projections.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     }
   ],
   "parlay": null,
@@ -205,5 +214,6 @@
     "passes": 5,
     "units_risked": 1,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-19T13:38:47Z"
 }

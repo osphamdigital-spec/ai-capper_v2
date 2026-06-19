@@ -20,10 +20,11 @@
       "reason": "Gray is the superior arm (3.24 xFIP, 19.6 K-BB%, 243 IP sample) facing Yesavage who carries a [small sample] L14 with 6.8 BB/9 red flag and a thin 61 IP AGG line. Market has BOS -124 which is fair; Yesavage's shiny 3.78 ERA masks a 4.31 xFIP. My fair line on BOS is roughly -130, only ~3 pts edge — under the gate.",
       "data_gap": "Lineups unconfirmed; Yesavage L14 walk spike could be injury-related.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "872e319f5c105d18457014bc855cdc85",
@@ -41,10 +42,11 @@
       "reason": "MIL is heavily favored and the lineup vs LHP is elite (136 wRC+, Vaughn/Chourio mashing) while CLE vs LHP is a brutal 48 wRC+. But MIL -147 already prices this; Drohan has only 18 IP AGG [small sample] which caps confidence. Messick is legitimately good (3.39 xFIP, 18.4 K-BB%) so I can't justify laying the price or backing the punchless CLE bats.",
       "data_gap": "Roof status affects total only; Drohan small sample limits read.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "bb47b41c0a375d2df45331898a1e7ec1",
@@ -61,11 +63,12 @@
       "edge": "5.5 pts",
       "reason": "Joe Ryan is a clear true-talent edge (3.27 SIERA, 22.9 K-BB%, 248 IP, Stf+108) over Leiter, whose AGG is mediocre (4.34 SIERA, 12.9 K-BB%) and whose L14 is a disaster. Market has this MIN +106 (no-vig ~46%) but Ryan's reliability against a fading Leiter pushes my MIN estimate to ~51.5%. MIN bats are average vs RHP and Ryan suppresses TEX's contact-heavy lineup in a pitcher park.",
       "data_gap": "TEX bullpen T3 thin (2/5) but Latz/Junis fresh; lineups unconfirmed.",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.06,
+      "clv": 230,
+      "closing_line": -124,
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "cad6df1fc1aadca9fdbb359d7d43e40f",
@@ -83,10 +86,11 @@
       "reason": "Woo is excellent (3.38 SIERA, 21.3 K-BB%, Stf+110) and underpriced by his 4.28 ERA, but SEA -149 already reflects this. Baz's L14 [small sample] shows velocity/K collapse (3.4 K/9) which is a red flag, yet BAL's strong vs-RHP lineup (124 wRC+) keeps this from being a layup. My SEA fair sits near -150, no edge. Two pitcher-friendly arms in a suppressive park lean the total under.",
       "data_gap": "Roof status; Baz L14 K-rate drop needs velocity confirmation.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "7fc018ccf3790baea15d29b581f9d0ce",
@@ -103,11 +107,12 @@
       "edge": "5.0 pts",
       "reason": "This is my favorite profile: Manaea's AGG is excellent (3.21 SIERA, 23.2 K-BB%, Stf+109) and his ugly 4.78 ERA is pure perception, while Nola's 5.86 ERA matches a deteriorating profile (L14 5.59 SIERA, 6.0 BB/9). Nola's AGG is decent but his recent form and CBP HR park (113) hurt him versus Soto/Young. Market is a near coin flip (+104) but I make NYM the slight favorite at ~53%.",
       "data_gap": "Both starters carry L14 small-sample tags; lineups unconfirmed.",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.04,
+      "clv": 0,
+      "closing_line": 104,
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "adfa73cc70f5a62d6d0bb903eaa0f24b",
@@ -125,10 +130,11 @@
       "reason": "Burke's AGG is weak (4.67 SIERA, 10.4 K-BB%, Stf+93) and his L14 is unusable [small sample], facing the league's hottest offense in a HR park. NYY -157 is steep but probably fair given the talent gap; Weathers has a solid AGG (3.66 SIERA) but a poor L14. My NYY number lands near -160, no edge. Wind blowing and two contact-vulnerable arms lean over.",
       "data_gap": "Lineups unconfirmed; Burke 4 IP L14 sample unreadable.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "e92122c8f905eb41a57faabf21daf468",
@@ -143,13 +149,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "68% rain with [PPD RISK] flag — I avoid committing to a game with significant postponement risk. Beyond that, Pérez has a poor AGG (4.73 SIERA, 9.2 K-BB%, Stf+86) and Roupp's peripherals (2.97 FIP, low Brl%) are quietly strong, so ATL -142 looks slightly rich, but rain risk makes this an automatic stand-down.",
+      "reason": "postponed",
       "data_gap": "Weather/PPD is the decisive factor; will not bet under PPD risk.",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "13234b203ca4ea57ec2f1381b3e6a046",
@@ -167,10 +174,11 @@
       "reason": "Both lefties have comparable AGG profiles (Liberatore 4.37 SIERA, Cameron 4.18) and STL's lefty-mashing lineup (139 wRC+ vs LHP, Crooks/Nootbaar/Herrera) faces Cameron while KC's 114 vs LHP faces Liberatore. RL movement here was wildly chaotic (suspect). ML is near pick'em (+102) and my number sits within 3 pts — no qualifying edge.",
       "data_gap": "Erratic RL movement suggests unstable market; lineups unconfirmed.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     },
     {
       "game_id": "4d7345756b0575f6a757888c78a290f2",
@@ -188,10 +196,11 @@
       "reason": "Away starter is TBD — automatic pass per data integrity rules. No edge can be honestly estimated without confirmed pitching.",
       "data_gap": "LAA starter TBD.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-19T13:38:47Z"
     }
   ],
   "parlay": null,
@@ -205,5 +214,6 @@
     "passes": 7,
     "units_risked": 2,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-19T13:38:47Z"
 }

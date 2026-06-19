@@ -1538,37 +1538,21 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
     lines.append(fmt_weather(ctx.get("weather")))
     lines.append("")
 
-    # ── CrookedFence wind/park edge ───────────────────────────────────────────
-    # Sourced from crookedfence.org/data.json (fetch_wind_edge.py).
-    # HR edge and runs edge are % adjustments vs baseline for this park+wind combo.
-    # Signal: hitter_strong / hitter / neutral / pitcher / pitcher_strong / roof.
+    # ── Stadium dimensions (raw input for totals) ─────────────────────────────
+    # We feed RAW park dimensions and let each model reason about wind effect on
+    # its own (the raw wind speed + compass direction is already in the WEATHER
+    # line above). We deliberately do NOT inject CrookedFence's pre-computed
+    # HR%/runs% edge — that black-box signal is archived for reverse-engineering
+    # (fetch_wind_edge.py) but kept out of the prompt so models stay independent.
+    # Dimensions are still sourced from wind_edge.json (a public, factual field).
     if wind_edge:
-        sig      = (wind_edge.get("signal") or "").replace("_", " ").upper()
-        hr_pct   = wind_edge.get("hr_edge_pct")
-        run_pct  = wind_edge.get("runs_edge_pct")
-        effect   = wind_edge.get("wind_effect") or ""
-        w_mph    = wind_edge.get("wind_mph")
-        lf       = wind_edge.get("lf_ft")
-        cf       = wind_edge.get("cf_ft")
-        rf       = wind_edge.get("rf_ft")
-
-        hr_str  = f"{hr_pct:+}%"  if hr_pct  is not None else "n/a"
-        run_str = f"{run_pct:+}%" if run_pct is not None else "n/a"
-
-        wind_parts = []
-        if w_mph is not None:
-            wind_parts.append(f"wind:{w_mph}mph")
-        if effect:
-            wind_parts.append(effect)
-        wind_summary = " ".join(wind_parts) if wind_parts else ""
-
-        dim_str = ""
+        lf = wind_edge.get("lf_ft")
+        cf = wind_edge.get("cf_ft")
+        rf = wind_edge.get("rf_ft")
         if lf and cf and rf:
-            dim_str = f"  dims:LF{lf}/CF{cf}/RF{rf}"
-
-        lines.append("WIND EDGE (CrookedFence)")
-        lines.append(f"  signal:{sig}  HR:{hr_str}  runs:{run_str}  {wind_summary}{dim_str}")
-        lines.append("")
+            lines.append("STADIUM")
+            lines.append(f"  {venue} — LF {lf}ft | CF {cf}ft | RF {rf}ft")
+            lines.append("")
 
     # ── Park factors ──────────────────────────────────────────────────────────
     # Keyed by home team (park doesn't change). Uses static FanGraphs 3yr rolling data.
@@ -1595,35 +1579,73 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
 # MODEL INSTRUCTION LOADER
 # ─────────────────────────────────────────────────────────────────────────────
 
-def load_model_instruction(model_name: str, project_root: Path) -> str | None:
+def _load_highest_version(methods_dir: Path, pattern: str) -> str | None:
     """
-    Load the model's self-authored method, selecting the highest version that exists.
-
-    Scans docs/methods/ for method_{model}_v{N}.md files and loads the one with
-    the largest N. Falls back to v1, then returns None if no version exists.
-    A missing method file is not an error — the prompt still builds, the model
-    simply has no method appended until it self-authors one.
+    Glob method docs matching `pattern` (e.g. "method_kimi_v*.md") and return the
+    text of the highest version number. Returns None if no file matches.
     """
-    methods_dir = project_root / "docs" / "methods"
-    model_key   = model_name.lower()
-
-    # Find all versioned files for this model: method_{model}_v{N}.md
     candidates = []
-    for f in methods_dir.glob(f"method_{model_key}_v*.md"):
-        # Extract version number from filename, e.g. method_deepseek_v2.md → 2
-        stem = f.stem  # e.g. "method_deepseek_v2"
+    for f in methods_dir.glob(pattern):
+        stem = f.stem  # e.g. "method_deepseek_v2" or "method_deepseek_totals_v1"
         try:
             version = int(stem.rsplit("_v", 1)[1])
             candidates.append((version, f))
         except (IndexError, ValueError):
-            pass  # skip files that don't match the pattern
-
+            pass  # skip files that don't match the version pattern
     if not candidates:
         return None
-
-    # Load the highest version number
     _, best_path = max(candidates, key=lambda x: x[0])
     return best_path.read_text(encoding="utf-8").strip()
+
+
+def load_model_instruction(model_name: str, project_root: Path) -> str | None:
+    """
+    Load the model's self-authored method(s), selecting the highest version of each.
+
+    Two method docs are loaded and combined when present:
+      method_{model}_v{N}.md         -- the ML / run-line method (the original)
+      method_{model}_totals_v{N}.md  -- the self-authored Over/Under method (added
+                                        in the June 2026 totals-authoring round)
+
+    The totals method is appended after the ML/RL method under a clear header so
+    each market's strategy stays distinct but both reach the model every slate.
+
+    A missing method file is not an error — the prompt still builds. Returns None
+    only if NEITHER file exists for this model.
+    """
+    methods_dir = project_root / "docs" / "methods"
+    model_key   = model_name.lower()
+
+    # ML/RL method: method_{model}_v{N}.md  — but NOT method_{model}_totals_v{N}.md.
+    # The totals glob below is separate; exclude it here by checking the stem.
+    ml_candidates = []
+    for f in methods_dir.glob(f"method_{model_key}_v*.md"):
+        stem = f.stem
+        try:
+            version = int(stem.rsplit("_v", 1)[1])
+            ml_candidates.append((version, f))
+        except (IndexError, ValueError):
+            pass
+    ml_method = None
+    if ml_candidates:
+        _, best_path = max(ml_candidates, key=lambda x: x[0])
+        ml_method = best_path.read_text(encoding="utf-8").strip()
+
+    # Totals method: method_{model}_totals_v{N}.md
+    totals_method = _load_highest_version(methods_dir, f"method_{model_key}_totals_v*.md")
+
+    if ml_method is None and totals_method is None:
+        return None
+
+    parts = []
+    if ml_method:
+        parts.append(ml_method)
+    if totals_method:
+        parts.append(
+            "\n\n=== TOTALS (OVER/UNDER) METHOD — applies to the TOTAL bet slot ===\n\n"
+            + totals_method
+        )
+    return "\n".join(parts)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -2233,6 +2255,18 @@ def build_system_prompt(sport_label: str, model: str | None, project_root: Path)
         "  1-7 games:  1 bet max",
         "  8-14 games: 2 bets max",
         "  15+ games:  3 bets max",
+        "  A total (Over/Under) and a side (ML/RL) on the same game are two",
+        "  independent bets — both count toward the ceiling.",
+        "",
+        "TOTALS GATE (Over/Under is a real, stakeable bet — not a note)",
+        "Totals are priced in RUNS, not win-probability points. Compare your own",
+        "estimated combined runs to the posted total; the gap in runs is your edge.",
+        "  Gap under 0.5 runs    -> No bet",
+        "  Gap 0.5 to under 1.0  -> LEAN (no stake)",
+        "  Gap 1.0 to under 1.5  -> 1 unit",
+        "  Gap 1.5+ runs, clean  -> 3 units (the ceiling)",
+        "How you estimate combined runs is entirely your own method. State your",
+        "estimated total as a number and the run gap so it can be measured.",
         "",
         "DATA INTEGRITY (non-negotiable)",
         "  Either starter TBD             -> PASS that game.",
@@ -2253,12 +2287,15 @@ def build_system_prompt(sport_label: str, model: str | None, project_root: Path)
         "No prose between blocks. All reasoning lives in the REASON field.",
         "",
         "## GAME: {AWAY_ABBR} @ {HOME_ABBR}",
-        "PICK: [team abbr + ML, or RL, or Over {line}, or Under {line}, or PASS, or LEAN: side]",
+        "PICK: [team abbr + ML, or RL, or PASS, or LEAN: side]",
         "PRICE: [exact American odds e.g. -128, or N/A for PASS]",
         "UNITS: [3 / 1 / LEAN / PASS]",
         "EDGE: [gap in percentage points e.g. \"6.2 pts\", or \"none\" for PASS]",
-        "TOTAL LEAN: [Over / Under / No lean]",
-        "REASON: [2-4 sentences, your own words]",
+        "TOTAL: [Over {line} / Under {line} / Lean Over / Lean Under / No bet]",
+        "TOTAL PRICE: [American odds for the total e.g. -110, or N/A]",
+        "TOTAL UNITS: [3 / 1 / LEAN / No bet]",
+        "TOTAL EDGE: [your run gap vs the posted line e.g. \"1.4 runs\", or \"none\"]",
+        "REASON: [2-4 sentences — cover both the side pick and the total]",
         "DATA GAP: [missing data that would have changed this pick, or \"none\"]",
         "",
         "Separate each block with ---",

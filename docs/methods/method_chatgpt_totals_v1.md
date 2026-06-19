@@ -1,0 +1,427 @@
+# TOTALS METHODOLOGY — chatgpt (self-authored, v1)
+# Persistent Over/Under strategy. Authored 2026-06-19 via the totals
+# method-authoring round. Applied to every slate alongside the ML/RL method.
+
+# 1. RUN ESTIMATION
+
+I begin with a neutral baseline derived from the two teams' season scoring and prevention profiles.
+
+### Step 1: Team Run Expectation
+
+For each offense:
+
+Expected Team Runs =
+(Team RS + Opponent RA) ÷ 2
+
+Example:
+
+TOR expected runs =
+(TOR RS + BOS RA) ÷ 2
+
+BOS expected runs =
+(BOS RS + TOR RA) ÷ 2
+
+Combined Total =
+Away Expected Runs + Home Expected Runs
+
+This forms approximately 60% of the projection.
+
+### Step 2: Offensive Quality Adjustment
+
+Adjust each team expectation using:
+
+* Platoon wRC+ versus starter handedness
+* Team Brl%
+* Team HH%
+* L10RS
+
+Guidelines:
+
+* wRC+ 110–119: +0.2 runs
+* wRC+ 120+: +0.4 runs
+* wRC+ 90–99: -0.2 runs
+* wRC+ <90: -0.4 runs
+
+L10RS:
+
+* ≥1 run above season RS: +0.2
+* ≥1 run below season RS: -0.2
+
+Brl% and HH% only matter when both support the same direction:
+
+* Top-tier contact profile: +0.1 to +0.2
+* Weak profile: -0.1 to -0.2
+
+### Step 3: Run Differential Context
+
+Run differential is a stability filter rather than a projection driver.
+
+* Strong positive differential: +0.1
+* Strong negative differential: -0.1
+
+Maximum adjustment ±0.2.
+
+---
+
+# 2. PARK & ENVIRONMENT
+
+Park effects modify the combined run projection.
+
+### Runs Factor
+
+Runs Factor:
+
+* 95–99: -0.1 to -0.3 runs
+* 100–104: neutral
+* 105–109: +0.2 to +0.4 runs
+* 110+: +0.5 to +0.8 runs
+
+### HR Factor
+
+Used primarily for totals near key numbers (7.5, 8.5, 9.5).
+
+* HR 90–94: -0.1
+* HR <90: -0.2 to -0.4
+* HR 106–110: +0.1 to +0.3
+* HR >110: +0.3 to +0.5
+
+### Stadium Dimensions
+
+Dimensions act as modifiers.
+
+Examples:
+
+* Short RF/LF (<325 ft): small Over boost
+* Deep power alleys (>385 ft): small Under boost
+* Extremely asymmetric parks: increase variance but not necessarily expected runs
+
+Maximum dimensions adjustment:
+±0.3 runs.
+
+---
+
+# 3. WEATHER
+
+Weather is the largest non-pitching adjustment.
+
+### Temperature
+
+Below 60°F:
+-0.2 to -0.5 runs
+
+60–75°F:
+Neutral
+
+76–85°F:
++0.2 to +0.4 runs
+
+86°F+:
++0.4 to +0.8 runs
+
+### Wind
+
+I evaluate direction relative to stadium dimensions.
+
+#### Wind Out
+
+5–10 mph:
++0.2 runs
+
+11–15 mph:
++0.4 runs
+
+16–20 mph:
++0.7 runs
+
+20+ mph:
++1.0 run
+
+#### Wind In
+
+5–10 mph:
+-0.2 runs
+
+11–15 mph:
+-0.5 runs
+
+16–20 mph:
+-0.8 runs
+
+20+ mph:
+-1.2 runs
+
+#### Crosswind
+
+Generally:
+
+±0.0 to ±0.2
+
+Unless paired with extreme park asymmetry.
+
+### Rain
+
+Light rain probability alone does not affect projection.
+
+Potential delay risk increases variance and reduces confidence.
+
+### Dome / Roof Closed
+
+Ignore weather entirely.
+
+---
+
+# 4. PITCHING & BULLPEN
+
+## Starting Pitchers
+
+I use a blended evaluation.
+
+Priority:
+
+1. AGG xFIP/SIERA
+2. Current-season FIP/xERA
+3. K-BB%
+4. Stuff+
+5. L14
+6. L3
+
+### AGG Baseline
+
+AGG metrics are my anchor.
+
+AGG xFIP/SIERA:
+
+<3.40:
+-0.4 to -0.7 runs
+
+3.40–3.80:
+-0.2 to -0.4
+
+4.20–4.60:
++0.2 to +0.4
+
+> 4.60:
+> +0.4 to +0.8
+
+### Stuff+
+
+95–104:
+Neutral
+
+105–110:
+-0.1
+
+111–120:
+-0.2
+
+120+:
+-0.3
+
+Below 95:
++0.1 to +0.3
+
+### K-BB%
+
+20%+:
+Under leaning
+
+15–20%:
+Mild Under
+
+10–15%:
+Neutral
+
+Below 10%:
+Over leaning
+
+### L14 Form
+
+L14 never overrides AGG.
+
+Difference between AGG and L14:
+
+±0.2 to ±0.5 run modifier.
+
+Small-sample flags reduce L14 weight by roughly half.
+
+### Contact Quality
+
+HH% and Brl% allowed:
+
+Strong suppression:
+-0.1 to -0.3
+
+Poor suppression:
++0.1 to +0.3
+
+---
+
+## Bullpen
+
+Bullpen affects late-game scoring.
+
+### Availability Tiers
+
+Fresh bullpen:
+
+T1 full
+T2 full
+T3 mostly available
+
+Adjustment:
+-0.2 to -0.5
+
+Average bullpen:
+
+Neutral
+
+Taxed bullpen:
+
+Missing multiple T1/T2 arms
+
+Adjustment:
++0.3 to +0.8
+
+### Usage
+
+Recent outings:
+
+25+ pitches previous day:
+likely unavailable
+
+20+ pitches multiple times in last 3 days:
+fatigue penalty
+
+If both bullpens are taxed:
+
++0.5 to +1.0 runs
+
+---
+
+# 5. EDGE & STAKING
+
+After all adjustments:
+
+Projected Total =
+Base Total + Offense + Pitching + Bullpen + Park + Weather
+
+### Edge Calculation
+
+Edge =
+Projected Total − Posted Total
+
+### Pass
+
+<0.5 runs
+
+No bet
+
+### Lean
+
+0.5–0.9 runs
+
+Lean only
+
+### 1 Unit
+
+1.0–1.4 runs
+
+Playable edge
+
+### 3 Units
+
+1.5+ runs
+
+Strong wager
+
+Only if:
+
+* No major uncertainty flags
+* Confirmed starters
+* No severe weather uncertainty
+
+### Market Movement
+
+I use movement as confirmation, not projection.
+
+#### Supports Position
+
+Movement toward my side:
+
+Confidence increase
+
+#### Opposes Position
+
+Movement against my side:
+
+Re-evaluate assumptions
+
+#### Significant Moves
+
+0.5 run move or major juice shift:
+
+Can upgrade or downgrade confidence by one tier but never reverse the projection by itself.
+
+---
+
+# 6. WHAT I FADE
+
+Automatic Pass situations:
+
+### TBD Starter
+
+Mandatory pass.
+
+### Severe Data Uncertainty
+
+* Small-sample starter with limited professional innings
+* Incomplete bullpen information
+* Uncertain weather conditions
+
+### Extreme Weather
+
+* Forecast likely to cause delays
+* Swirling winds difficult to model
+
+### Contradictory Signals
+
+Examples:
+
+* Elite pitching but extreme weather boost
+* Weak offenses but heavily taxed bullpens
+
+If projection confidence is low despite numerical edge:
+
+Pass.
+
+### Extreme-Variance Environments
+
+Games where scoring distribution becomes unusually wide due to:
+
+* Very strong wind
+* Coors-type offensive environments
+* Multiple unstable pitchers
+
+Require substantially larger edge before betting.
+
+### Poor Market Number
+
+If only stale or suspect prices are available:
+
+Pass regardless of projection.
+
+---
+
+# 7. FINAL DECISION RULE
+
+My projection is driven primarily by:
+
+1. Team scoring/prevention baseline
+2. Platoon offensive strength
+3. Starting pitching quality
+4. Bullpen availability
+5. Weather
+6. Park effects
+7. Market confirmation
+
+I bet totals only when multiple independent factors align in the same direction. Single-factor edges are generally insufficient. The objective is not to predict every total accurately, but to identify the subset of games where projected runs differ meaningfully from the market number while maintaining confidence in the underlying drivers.

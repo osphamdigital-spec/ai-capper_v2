@@ -1,0 +1,177 @@
+ I'll author my own totals methodology for this MLB forecasting experiment. This is a self-contained strategy document I'll apply to every slate going forward.
+
+---
+
+# **TOTALS METHODOLOGY — K2.6**
+
+## 1. RUN ESTIMATION
+
+I estimate expected combined runs through a weighted composite of four inputs, anchored on **pitcher quality** and **current offensive form**, with secondary weights on season baselines and platoon advantages.
+
+**Base Estimate = (Away Expected Runs + Home Expected Runs)**
+
+**Away Team Expected Runs:**
+- Start with their **L10RS** (last-10-game runs scored per game) — this captures current offensive momentum. Weight: **40%**
+- Add their season **RS** (runs scored per game) as a stabilizer. Weight: **20%**
+- Subtract the **home starter's expected runs allowed**: I use a 50/50 blend of their **AGG xFIP** (stabilized multi-year) and **L14 xFIP** (recent form), converted to runs per 9 innings. If L14 is flagged [sm] (small sample), weight 80% AGG / 20% L14. Weight: **30%**
+- Adjust for **platoon wRC+ vs RHP/LHP**: If wRC+ > 110, add 0.15 runs per 10 points above 110. If < 90, subtract 0.15 runs per 10 points below 90. Weight: **10%**
+
+**Home Team Expected Runs:** Same structure, using home team's offensive stats and away starter's pitching stats.
+
+**Pitcher-to-Runs Conversion:** xFIP is already scaled to runs per 9 innings, so I use it directly as "expected runs allowed per 9 IP." I assume ~5.5 IP for an average start, scaling the starter's contribution accordingly, with the remaining 3.5 IP filled by bullpen (see Section 4).
+
+**Example math for TOR @ BOS:**
+- TOR L10RS = 4.2, season RS = 4.1 → weighted offense = (4.2×0.4) + (4.1×0.2) = 2.50
+- vs Gray (AGG xFIP 3.24, L14 xFIP 3.53, no [sm] flag): (3.24×0.5 + 3.53×0.5) = 3.39 → scaled to 5.5 IP = 2.07 runs
+- TOR vs RHP wRC+ = 113 (slight platoon edge): +0.15 × 1.3 = +0.20
+- TOR expected runs ≈ 2.50 + 2.07 + 0.20 = **4.77** (but this double-counts; correction: the offense baseline already embeds pitcher quality, so I use a cleaner approach)
+
+**Refined Approach (to avoid double-counting):**
+
+I use a **simpler, more robust formula** to avoid the circularity above:
+
+1. **Offensive baseline** = (L10RS × 0.5) + (Season RS × 0.3) + (League average 4.3 × 0.2) = weighted team scoring rate
+2. **Pitcher suppression** = (AGG xFIP × 0.6) + (L14 xFIP × 0.4) [or 80/20 if L14 is [sm]]
+3. **Team expected runs** = (Offensive baseline × 0.55) + (Pitcher suppression × 0.45) — this blends how much the offense drives scoring vs how much the pitcher suppresses it
+4. **Scale to 5.5 IP for starter**, then add bullpen expectation (see Section 4)
+
+**Combined Runs = Away Expected + Home Expected**
+
+---
+
+## 2. PARK & ENVIRONMENT
+
+Park effects are applied as **multipliers to the combined run estimate**, not additive adjustments.
+
+- **Runs factor**: Use directly. 104 = multiply estimate by 1.04. 96 = multiply by 0.96.
+- **HR factor**: Used as a secondary check. If HR factor < 85 AND combined estimate is heavily HR-dependent (both teams Brl% > 8.0), apply an additional -0.3 runs. If HR factor > 115 AND both teams Brl% > 7.0, add +0.3 runs.
+- **Stadium dimensions**: Short porches (RF/LF < 315 ft) add +0.2 runs if wind is favorable (see Section 3). Very short porches (< 310 ft) add +0.3. Deep alleys (CF > 410 ft) subtract -0.2.
+
+**Fenway example**: Runs 104 (×1.04), HR 80 (suppresses HRs despite short LF). The Green Monster turns deep flies into doubles, not HRs. With Brl% at 6.6/7.0 (not extreme), no additional HR adjustment. LF 310ft is short but the Monster makes it play deeper for HRs — I treat Fenway as neutral-to-slight-inflate on total runs, not a HR park.
+
+---
+
+## 3. WEATHER
+
+I apply weather adjustments **after** park factor, as additive run modifiers:
+
+**Temperature:**
+- < 50°F: -0.4 runs
+- 50–59°F: -0.2 runs
+- 60–69°F: -0.1 runs
+- 70–79°F: 0 runs (baseline)
+- 80–89°F: +0.2 runs
+- 90°F+: +0.3 runs
+
+**Wind (requires knowing park orientation — I infer from standard MLB park layouts):**
+
+- **Wind OUT to RF/LF** (blowing toward short porch): +0.3 runs per 10 mph above 5 mph. Max +0.9 at 25+ mph.
+- **Wind IN from RF/LF** (blowing from outfield toward plate): -0.3 runs per 10 mph above 5 mph. Max -0.9.
+- **Wind OUT to CF** (straight away): +0.2 runs per 10 mph above 5 mph. Max +0.6.
+- **Wind IN from CF**: -0.2 runs per 10 mph above 5 mph. Max -0.6.
+- **Crosswind** (parallel to foul lines): ±0.1 runs depending on which field it favors; generally neutral if truly perpendicular.
+- **Dome / roof closed**: No wind effect. Temperature fixed at 72°F. No adjustment.
+
+**Rain chance:**
+- > 60%: Mandatory PASS (game integrity risk, potential delay shortening)
+- 40–60%: -0.2 runs (slight suppression from humid/heavy air)
+- < 40%: No adjustment
+
+**Fenway example**: 81.2°F → +0.2 runs. Wind 20.9 mph S. Fenway faces roughly NE (home plate to CF). A 20.9 mph S wind is roughly blowing from left-center toward right field — somewhat cross, somewhat out to RF. The short RF porch (302 ft) is downwind. I treat this as **wind out to RF at ~15 mph effective** = +0.3 to +0.4 runs. Overcast with 25% rain → no rain adjustment.
+
+---
+
+## 4. PITCHING & BULLPEN
+
+**Starter Quality Gap:**
+- Calculate the difference between **AGG xFIP** and **L14 xFIP** for each starter.
+- If L14 xFIP > AGG xFIP by 1.0+ runs: Starter is struggling — add +0.4 runs to opponent's expected total.
+- If L14 xFIP < AGG xFIP by 1.0+ runs: Starter is hot — subtract -0.4 runs.
+- If [sm] on L14: shrink the gap adjustment by 50% (less reliable).
+
+**Stuff+ (Stf+):**
+- > 110: Elite stuff, add -0.2 runs to opponent's total (swing-and-miss suppresses contact)
+- 95–105: Average, no adjustment
+- < 90: Poor stuff, add +0.2 runs
+
+**K-BB%:**
+- > 20%: Strong command, -0.2 runs
+- 15–20%: Solid, -0.1 runs
+- 10–15%: Marginal, no adjustment
+- < 10%: Poor, +0.2 runs
+
+**Bullpen Fatigue (post-starter innings ~3.5 IP):**
+- Calculate bullpen "freshness score": T1 avail + (T2 avail × 0.5) + (T3 avail × 0.25)
+  - TOR: 0 + (1×0.5) + (5×0.25) = 0 + 0.5 + 1.25 = 1.75
+  - BOS: 1 + (2×0.5) + (3×0.25) = 1 + 1.0 + 0.75 = 2.75
+- Scale: 3.0+ = excellent (league-average bullpen ERA), 2.0–2.9 = good (-0.1 runs), 1.0–1.9 = taxed (+0.3 runs), < 1.0 = exhausted (+0.6 runs)
+- Also check if closer has pitched in last 2 days with >15 pitches — if so, and T1 avail = 0, that's a red flag for late-inning leakage.
+
+**Bullpen expected runs** = League average 4.5 runs/9 × (3.5/9) × bullpen fatigue multiplier
+- Fresh (3.0+): ×0.95
+- Good (2.0–2.9): ×1.0
+- Taxed (1.0–1.9): ×1.15
+- Exhausted (<1.0): ×1.30
+
+---
+
+## 5. EDGE & STAKING
+
+After computing my **estimated total (E)**, I compare it to the **current posted total line (P)**.
+
+**Edge = |E − P|**
+
+- **Edge ≥ 1.0 runs**: Full bet (1 unit if 1-7 game slate, eligible for 2nd/3rd unit if 8+ games)
+- **Edge 0.7–0.99 runs**: Lean (LEAN unit — tracked separately, 0.5 unit risk mentally)
+- **Edge 0.5–0.69 runs**: Micro-lean (no bet, note only)
+- **Edge < 0.5 runs**: PASS
+
+**Unit escalation to 3 units:**
+- Only if edge ≥ 1.5 runs AND I have confidence in data quality (no [sm] flags on key pitchers, no TBD starters, no stale prices, weather < 40% rain)
+- 3 units reserved for "best bet" totals where multiple signals align (park inflate + wind out + taxed bullpens + struggling starter)
+
+**Line Movement as Signal:**
+- If total line has moved **0.5+ points** toward my direction since open (e.g., open 8.5, now 9.0, and I have Over): this validates my read — I maintain full confidence.
+- If line has moved **0.5+ points against me**: I reduce edge estimate by 0.2 runs (market disagreement). If this drops me below 1.0 edge, downgrade to lean.
+- If line has moved **hard one way on juice** (e.g., open -110/-110, now -140/+120 on Over) without moving the number: treat as sharp action. If it aligns with me, add +0.1 edge. If against me, subtract -0.2 edge.
+
+**Price selection:**
+- Always take the best available price (best-TT or best current total).
+- If best price is flagged stale/suspect, use the next best confirmed price.
+- Never bet into a line where both sides are worse than -120 (poor CLV capture).
+
+---
+
+## 6. WHAT I FADE (Mandatory Passes)
+
+Regardless of calculated edge, I will NOT bet totals in the following conditions:
+
+1. **TBD starter**: Mandatory PASS. No exceptions.
+2. **Postponed / PPD**: PASS.
+3. **Small-sample starter with [sm] flag AND no reliable AGG**: If a rookie debut or < 20 IP with no multi-year track record, the variance is too high. PASS unless I have 2+ years of minor league data translated (I don't — the data block doesn't provide it).
+4. **Extreme wind (> 25 mph) at a bandbox park**: Wind + short porch creates binary outcomes (slugfest or pitchers' duel). Variance too high. PASS.
+5. **Rain chance > 60%**: Game integrity risk. PASS.
+6. **Bullpen completely exhausted on BOTH sides** (both teams T1+T2 avail ≤ 1): The game becomes a random walk after the 5th inning. Variance explosion. PASS.
+7. **Coors Field or equivalent extreme park** (Runs factor > 115): Total lines are already inflated; the market is efficient here. I only bet Coors if my edge exceeds 1.5 runs after all adjustments.
+8. **Line of 6.5 or lower, or 12.5 or higher**: Extreme totals have asymmetric juice and market efficiency. I require 1.5+ edge to bet these.
+9. **Stale/suspect price on BOTH sides of the total**: If I can't get a fair price, I can't calculate CLV. PASS.
+
+---
+
+## SUMMARY WORKFLOW
+
+For each game:
+1. **Check passes** — TBD? Rain > 60%? Both sides stale? If yes, PASS.
+2. **Estimate team runs** — Offense baseline + pitcher suppression + platoon + park + weather + starter gap + stuff + bullpen fatigue.
+3. **Sum to combined estimate (E)**.
+4. **Compare to posted line (P)** — calculate edge.
+5. **Adjust for line movement** — validate or reduce edge.
+6. **Map to bet/lean/pass** using edge thresholds.
+7. **Select best price**, fill output slot.
+
+This methodology is designed to be **replicable, quantitative, and defensible** — every adjustment has a stated rule and magnitude. I will not deviate from these rules without formally amending this document.
+
+---
+
+*Methodology authored: June 19, 2026*  
+*Applies to all future slates unless revised*

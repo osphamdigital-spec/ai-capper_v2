@@ -2,16 +2,19 @@
 """
 scripts/fetch_wind_edge.py
 
-Fetches today's wind/park edge data from CrookedFence (crookedfence.org/data.json)
-and writes it to data/mlb/YYYY-MM-DD/wind_edge.json.
+STANDALONE, OPERATOR-RUN. This is NOT part of the daily pipeline (run_daily.py).
+CrookedFence (crookedfence.org) updates on its own unpredictable schedule, so the
+operator runs this manually whenever the site has refreshed. The daily prompt does
+NOT depend on it — stadium dimensions come from a static table in build_prompt.py
+and wind comes from Open-Meteo (fetch_weather.py).
 
-Two purposes:
-  1. DAILY USE — wind_edge.json is read by build_prompt.py and injected into each
-     game block so models can factor park+wind edge into totals/run-line picks.
-
-  2. ARCHIVE (reverse-engineering) — raw JSON is saved to
-     data/mlb/crookedfence_archive/YYYY-MM-DD_raw.json so we can accumulate a
-     dataset and reverse-engineer their formula if the site ever goes down.
+Sole purpose: build the reverse-engineering ARCHIVE + DATASET.
+  1. Fetches crookedfence.org/results.json (yesterday's graded outcomes) and
+     crookedfence.org/data.json (today's predictions) and archives both raw to
+     data/mlb/crookedfence_archive/YYYY-MM-DD_{results,predictions}.json.
+  2. Writes a clean data/mlb/YYYY-MM-DD/wind_edge.json (parsed predictions).
+  3. Refreshes the flat master dataset (compile_crookedfence_dataset.py) so the
+     CSV/JSONL grow with each operator run.
 
 CrookedFence data fields (per game):
   signal       -- hitter / hitter_strong / pitcher / pitcher_strong / neutral / roof
@@ -20,18 +23,18 @@ CrookedFence data fields (per game):
   wind_effect  -- OUT / IN / IN-CROSS / OUT-CROSS / ROOF CLOSED
   wind_mph     -- integer wind speed
   temp_f       -- game-time temperature
-  humidity_pct -- humidity %
   pitcher data -- HR/9, ERA, WHIP, GO/AO, profile tag per starter
   stadium_dims -- LF / CF / RF in feet
 
-Usage:
+Usage (run manually when the site has updated):
     python scripts/fetch_wind_edge.py
-    python scripts/fetch_wind_edge.py --date 2026-06-18
-    python scripts/fetch_wind_edge.py --sport mlb --date 2026-06-18
+    python scripts/fetch_wind_edge.py --sport mlb --date 2026-06-19
 
 Output:
+    data/mlb/crookedfence_archive/YYYY-MM-DD_predictions.json
+    data/mlb/crookedfence_archive/YYYY-MM-DD_results.json
     data/mlb/YYYY-MM-DD/wind_edge.json
-    data/mlb/crookedfence_archive/YYYY-MM-DD_raw.json
+    data/mlb/crookedfence_dataset.{csv,jsonl}   (refreshed)
 """
 
 import argparse
@@ -329,6 +332,15 @@ def fetch_wind_edge(sport: str, date: str):
         print(f"  {label:<28} {sig:<16} {hr_str:>8} {runs_str:>10}  {wx_str}")
 
     print(f"\n  Wind edge data saved: {out_path.relative_to(PROJECT_ROOT)}  ({len(games)} games)")
+
+    # ── Refresh the reverse-engineering dataset from the full archive ──────────
+    # Operator runs one command; the master CSV/JSONL stay current automatically.
+    try:
+        from compile_crookedfence_dataset import compile_dataset
+        print()
+        compile_dataset(sport=sport)
+    except Exception as e:
+        print(f"  NOTE: dataset compile skipped ({e}) — run compile_crookedfence_dataset.py manually")
 
 
 # ─────────────────────────────────────────────────────────────────────────────

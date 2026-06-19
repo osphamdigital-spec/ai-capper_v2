@@ -252,25 +252,42 @@ def _signal_label(signal: str) -> str:
 
 def fetch_wind_edge(sport: str, date: str):
     """
-    Fetch CrookedFence data.json, parse it, and write two output files:
-      data/mlb/YYYY-MM-DD/wind_edge.json   -- clean per-game edge data for build_prompt.py
-      data/mlb/crookedfence_archive/YYYY-MM-DD_raw.json  -- raw archive for reverse-engineering
-    """
-    print(f"  Fetching CrookedFence wind/park edge data for {date} ...")
+    Fetch both CrookedFence files and write output:
 
-    # ── Fetch raw JSON ─────────────────────────────────────────────────────────
+      data.json  (today's predictions):
+        data/mlb/YYYY-MM-DD/wind_edge.json          -- clean data for build_prompt.py
+        data/mlb/crookedfence_archive/YYYY-MM-DD_predictions.json  -- raw archive
+
+      results.json (yesterday's graded results):
+        data/mlb/crookedfence_archive/YYYY-MM-DD_results.json      -- raw archive
+        (used to build reverse-engineering dataset over time)
+    """
+    archive_dir = PROJECT_ROOT / "data" / sport / "crookedfence_archive"
+    archive_dir.mkdir(parents=True, exist_ok=True)
+
+    # ── Fetch and archive yesterday's results ──────────────────────────────────
+    print(f"  Fetching CrookedFence results (yesterday) ...")
+    results_raw = _fetch_json(RESULTS_URL)
+    if results_raw is not None:
+        results_path = archive_dir / f"{date}_results.json"
+        results_path.write_text(json.dumps(results_raw, indent=2), encoding="utf-8")
+        n_results = len(results_raw.get("games", results_raw) if isinstance(results_raw, dict) else results_raw)
+        print(f"  Results archived: {results_path.relative_to(PROJECT_ROOT)}  ({n_results} games)")
+    else:
+        print("  WARNING: Could not fetch results.json — archive skipped (non-fatal)")
+
+    # ── Fetch today's predictions ──────────────────────────────────────────────
+    print(f"  Fetching CrookedFence predictions (today: {date}) ...")
     raw = _fetch_json(CROOKEDFENCE_URL)
     if raw is None:
         print("  ERROR: Could not fetch crookedfence.org/data.json")
         print("  Pipeline will continue — wind_edge block will be absent from prompts today.")
         sys.exit(1)
 
-    # ── Archive raw JSON (for reverse-engineering dataset) ─────────────────────
-    archive_dir = PROJECT_ROOT / "data" / sport / "crookedfence_archive"
-    archive_dir.mkdir(parents=True, exist_ok=True)
-    archive_path = archive_dir / f"{date}_raw.json"
+    # ── Archive raw predictions JSON ───────────────────────────────────────────
+    archive_path = archive_dir / f"{date}_predictions.json"
     archive_path.write_text(json.dumps(raw, indent=2), encoding="utf-8")
-    print(f"  Raw archive saved: {archive_path.relative_to(PROJECT_ROOT)}")
+    print(f"  Predictions archived: {archive_path.relative_to(PROJECT_ROOT)}")
 
     # ── Parse into clean game records ─────────────────────────────────────────
     games = _parse_raw(raw)

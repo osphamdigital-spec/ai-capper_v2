@@ -1,0 +1,203 @@
+Working through the slate, applying my edge gate (4.0 pts sides, 0.8 runs totals), and lineup-unconfirmed caps (no 3u on thin offensive reads).
+
+Lineups are unconfirmed across the board, which caps my conviction. I'll focus on the cleanest fundamental edges.
+
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: Brown's 1.74 ERA sits far below his 3.74 SIERA (regression candidate, and his L14 is [sm] and ugly), while Gausman's AGG SIERA 3.69 with 18.6 K-BB% is the steadier arm — but the market already prices CHC near pick'em, leaving no side edge. My total lands near 7.2 vs posted 7.0, under the gate. Both bullpens are heavily taxed (0 fresh T1/T2 both sides), which adds Over risk but not enough.
+DATA GAP: Confirmed lineups; roof/wind interaction irrelevant here.
+
+---
+
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Skubal (2.79 SIERA, 26.7 K-BB%, Stf+122) is a clear talent edge over Fedde (5.46 SIERA, 4.0 K-BB% — a true-talent disaster), and the market's -202 reflects that fairly; my fair line sits near -210, no edge. Skubal's L14 is [sm] so no 3u anchor anyway. My total ~7.3 vs 7.5 posted, under gate. CHW pen is fully fresh (3/3 T1), which limits Over upside.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: Schlittler's 1.82 ERA overstates his 3.45 SIERA but he's still a clear class edge over Lowder (5.10 SIERA, 5.8 K-BB%, and a [sm] L14 with a 7.3 BB/9 command red flag); NYY at -275 is fully priced, no value, and the -1.5 at -125 doesn't beat my fair RL either. My total ~8.7 vs 8.5, within noise. Yankee Stadium short porches plus a regression-prone Schlittler add Over lean but under gate.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Bachar carries a strong SIERA (2.56) but on just 9.2 AGG IP — a [sm] flag that bars any anchor or 3u, and Roupp's peripherals (2.97 FIP, 3.3 Brl%) are better than his 4.24 ERA. This is a coin-flip market (+100/-118) and my number agrees. Thunderstorm/roof status unresolved; loanDepot suppresses runs anyway. No actionable edge.
+DATA GAP: Roof status (closed → park factor 100); confirmed lineups; Bachar sample too thin to trust.
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: Jax (AGG SIERA 3.99, Stf+106) vs Cavalli (SIERA 3.89) is close on talent; TB at -126 home looks roughly fair given my fair line near -130. Both starters carry [sm] L14 flags. Dome zeroes weather; my total ~7.7 vs 7.5 posted, under gate. TB pen has 0 fresh T2 arms, a mild Over nudge, not enough.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Misiorowski (2.69 SIERA, 28.0 K-BB%, Stf+121, clean full sample) is a genuine ace edge over Pérez (4.73 SIERA, 9.2 K-BB%, Stf+86 — a real talent gap), but MIL is already -166 and my fair line sits near -170, no margin. MIL's offense vs LHP is elite (136 wRC+) which I'd love, but Pérez's recent results and ATL's lights-out fresh pen (Iglesias/Suarez/Lee) cap the Over read. My total ~7.6 vs 7.5, under gate.
+DATA GAP: Confirmed lineups would sharpen the MIL-vs-LHP edge.
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Under 7.0
+TOTAL PRICE: +100
+TOTAL UNITS: 1
+TOTAL EDGE: 0.9 runs
+REASON: deGrom (3.25 SIERA, 22.8 K-BB%, clean full sample, strong L14) is elite, Vásquez is a contact-disaster (47% HH, 13.5 Brl%, 6.7 K-BB%, xERA 6.55) but both offenses are bottom-tier vs RHP and Globe Life is strongly run-suppressing (Runs 83). My bottom-up number lands ~6.1: deGrom shuts down a weak SD bat, and TEX's offense is below-average. Posted 7.0 at plus-money on the Under clears my 0.8 gate; +100 price shades it favorably. Sized 1u given the gap is in the 1u band and lineups unconfirmed.
+DATA GAP: Roof status (closed → factor 92, even more Under-friendly); confirmed lineups.
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.5 runs
+REASON: Imai's surface 6.43 ERA looks scary but his AGG numbers (4.82 SIERA, 35 IP only) are thin and his L14 is [sm]; Bibee (4.18 SIERA, full sample) is the steadier arm and CLE is a near pick'em road dog at +104. My fair line sits near pick'em — no side edge. Total ~7.5 vs 8.0 posted leans Under but under the 0.8 gate; HOU's top reliever (Hader) status and thin sample on Imai add uncertainty.
+DATA GAP: Roof status; confirmed lineups; Imai sample thin.
+
+---
+
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: McGreevy (xERA 5.41 vs 2.99 ERA — heavy regression candidate, 9.6 K-BB%) and Lugo (xERA 5.27, 4.47 SIERA) are both flawed arms; STL's monster wRC+ vs RHP (163) is lineup-confirmation-dependent and inflated by small samples, so I won't anchor on it. KC at -119 is roughly fair. My total ~8.8 vs 9.0, within noise.
+DATA GAP: Confirmed lineups (the 163 wRC+ figure needs vetting).
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors — automatic LEAN/pass per my method; variance too high to price totals or sides reliably, and I especially distrust the run estimation at altitude. Freeland's 7.98 ERA is grim but his AGG (4.40 SIERA) is league-average and Chandler is unproven; not a spot I'll touch.
+DATA GAP: none — Coors is a structural pass regardless.
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sutter Health Park (Runs 121) is an extreme-park variance flag — caps to LEAN either way per §6. LAA's wRC+ vs LHP is dreadful (70) but Springs is a below-average arm (4.60 SIERA), and ATH's pen is gutted (1/3 T1, 1/5 T3 fresh). Too much variance and too many unknowns to stake.
+DATA GAP: Confirmed lineups; extreme park caps any bet regardless.
+
+---
+
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: Soroka (3.63 SIERA, 18.7 K-BB%, clean sample) is the better arm over Prielipp (4.11 SIERA, [sm] L14), and AZ at -170 is roughly fair to my ~-165 fair line. Both pens fully fresh. 103°F adds carry but Chase Field with roof likely closed neutralizes wind; my total ~8.4 vs 8.5, within noise.
+DATA GAP: Roof status (closed → factor 104); confirmed lineups.
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Gibson is a [sm] disaster (-2.3 K-BB%, 6.0 BB/9, 21 IP) and Sasaki's surface looks rough but his L14 is sharp (3.37 SIERA) though also [sm] — neither anchors a 3u. LAD at -206 is fully priced; the -1.5 at -107 is tempting but my fair RL doesn't clear the gate against a wild Gibson who could be pulled early either way. Total ~9.6 vs 9.5, within noise.
+DATA GAP: Confirmed lineups; both starters sample-flagged.
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Miller's 1.54 ERA vastly overstates his AGG SIERA (4.28) — a classic regression candidate the market may be overpricing — but Suarez (3.74 SIERA, clean) is the better true-talent arm, which actually argues mildly for BOS at +104, not against. BOS's bat vs RHP is weak (92 wRC+) and L10 (2-8) is grim though I don't trust momentum. My fair line is near pick'em, no edge. Total ~6.8 vs 6.5, T-Mobile suppresses; under gate.
+DATA GAP: Confirmed lineups; roof status.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Lineups are unconfirmed slate-wide (capping conviction), and no side cleared my 4.0-pt gate with a fair price. The lone qualifier is a 1u Under in SD @ TEX (deGrom + extreme run-suppressing park + two weak offenses, ~0.9-run gap at plus-money), which falls in the 1u band, not 3u.

@@ -1,0 +1,199 @@
+**## GAME: TOR @ CHC**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Pitcher quality nearly even with Gausman holding a minor recent xFIP/SIERA edge; platoon slight TOR advantage offset by Wrigley home/park factors for CHC and taxed bullpens on both sides. Estimated win probabilities near 50/50, well below 4 pt edge gate versus market ~54.5% CHC implied. Total projection ~8.3 runs versus posted 7.0 insufficient for bet after adjustments.
+DATA GAP: L14 small sample on Brown
+
+---
+
+**## GAME: CHW @ DET**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Skubal elite aggregate but L14 flagged small sample; Fedde poor metrics create gap but market DET ~67% implied already prices most of the advantage after home/platoon/bullpen factors. Estimated DET win probability 62-64%, edge below 4 pts. Total projection ~8.4 runs versus posted 7.5-8.0 insufficient gap.
+DATA GAP: L14 small sample on Skubal; no L14 data on Fedde
+
+---
+
+**## GAME: CIN @ NYY**
+PICK: CIN ML +238
+PRICE: +238
+UNITS: 1
+EDGE: 10.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Schlittler strong aggregate xFIP/SIERA/K-BB% versus Lowder poor metrics creates large pitcher gap favoring CIN despite NYY home edge and record; platoon minor offset but overall estimated CIN win probability 40% versus market implied ~29.6% from +238 yields clear 10+ pt edge. Total projection ~9.1 runs versus 8.5 yields only 0.6 run gap below threshold. 
+DATA GAP: L14 small sample on Lowder
+
+---
+
+**## GAME: SF @ MIA**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Roupp average metrics but both starters carry explicit L14 small samples capping any edge; Bachar strong aggregate but tiny 9 IP sample unreliable. Estimated probabilities near 48-52% after park/home/platoon adjustments, below 4 pt gate versus market ~54% MIA implied. Total projection ~8.2 runs versus 8.0-8.5 insufficient gap.
+DATA GAP: L14 small samples on both starters
+
+---
+
+**## GAME: WAS @ TB**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Starters carry similar aggregate xFIP/SIERA with minor edge to Jax but both L14 flagged small sample; home/platoon factors favor TB modestly. Estimated win probabilities 52-54% TB versus market ~55.7% implied, edge below gate. Total projection ~8.4 runs versus posted 7.5-8.0 insufficient gap after weather neutral.
+DATA GAP: L14 small samples on both starters
+
+---
+
+**## GAME: MIL @ ATL**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Misiorowski elite aggregate and clean L14 but Pérez poor metrics offset by ATL home, strong fresh bullpen, and platoon adjustments; estimated MIL win probability 58-60% versus market ~62.4% implied yields sub-4 pt edge. Total projection ~8.2 runs versus 7.5 yields 0.7 run gap just below threshold.
+DATA GAP: L14 small sample on Pérez
+
+---
+
+**## GAME: SD @ TEX**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: deGrom solid aggregate versus Vásquez poor but L14 small sample on Vásquez caps edge; TEX home and pitcher-friendly park priced into market ~61% implied. Estimated probabilities 58-60% TEX, edge below 4 pts. Total projection ~7.8 runs versus 7.0 yields 0.8 run gap but side does not qualify.
+DATA GAP: L14 small sample on Vásquez
+
+---
+
+**## GAME: CLE @ HOU**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Bibee solid aggregate and clean L14 versus Imai poor but L14 small sample; pitching favors CLE but HOU home and platoon edge create near-even probabilities around 50-52%. Market HOU ~55% implied yields sub-4 pt edge. Total projection ~8.7 runs versus 8.0-8.5 insufficient gap.
+DATA GAP: L14 small sample on Imai
+
+---
+
+**## GAME: STL @ KC**
+PICK: STL ML -111
+PRICE: -111
+UNITS: 1
+EDGE: 6.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Massive platoon wRC+ differential (163 vs 100) heavily favors STL offense versus similar average pitcher metrics; STL superior record and bullpen availability add to estimated STL win probability 59% versus market implied ~52.6% from -111 yields 6+ pt edge. Total projection ~8.9 runs versus 9.0 yields negligible gap below threshold.
+DATA GAP: L14 small sample on Lugo
+
+---
+
+**## GAME: PIT @ COL**
+PICK: COL ML +123
+PRICE: +123
+UNITS: 1
+EDGE: 8.2 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Similar pitcher aggregates but extreme Coors park factor (+14% runs) and home advantage heavily boost COL win probability to estimated 53% versus market implied ~44.8% from +123 yields 8+ pt edge despite high variance environment. Total projection ~12.0 runs versus 11.5 yields only 0.5 run gap below threshold.
+DATA GAP: L14 small samples on both starters
+
+---
+
+**## GAME: LAA @ ATH**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Soriano solid aggregate but both starters L14 small sample; pitching edge to LAA offset by ATH home, hitter-friendly park, and platoon factors. Estimated probabilities near 48-52% after adjustments versus market ~62% ATH implied, edge below gate. Total projection ~9.8 runs versus 10.0 insufficient gap.
+DATA GAP: L14 small samples on both starters
+
+---
+
+**## GAME: MIN @ AZ**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Soroka strong aggregate versus Prielipp average but L14 small sample on Prielipp; home/platoon favor AZ modestly creating estimated AZ win probability 56-58% versus market ~63% implied yields sub-4 pt edge on MIN. Total projection ~9.4 runs versus 8.5 yields 0.9 run gap but side does not qualify for total consideration.
+DATA GAP: L14 small sample on Prielipp
+
+---
+
+**## GAME: BAL @ LAD**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starters carry L14 small samples and mediocre aggregates; LAD home strength and record priced heavily into market ~67% implied with estimated probabilities 62-65% LAD yielding sub-4 pt edge. Total projection ~9.4 runs versus 9.5 negligible gap.
+DATA GAP: L14 small samples and limited IP on both starters
+
+---
+
+**## GAME: BOS @ SEA**
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Suarez solid aggregate but L14 small sample; Miller average with clean L14; pitching slight edge to BOS offset by SEA home and pitcher-friendly park. Estimated probabilities near 48-52% versus market ~55% SEA implied, edge below 4 pts. Total projection ~7.2 runs versus 6.5 yields 0.7 run gap.
+DATA GAP: L14 small sample on Suarez
+
+---
+
+**## SLATE SUMMARY**
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: All qualifying edges capped at 1 unit due to L14 small-sample flags on at least one starter per game; no clean-data 7+ pt edges available.

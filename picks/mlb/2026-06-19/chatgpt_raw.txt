@@ -1,0 +1,184 @@
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gausman and Brown grade much closer than the surface ERAs suggest once Brown is regressed back toward his 3.67/3.74 AGG skill line, and both taxed bullpens add enough late variance that I do not have a side edge at the current price. The total has already been pushed from 7.5 to 7.0, and decent starters versus shaky bullpen availability pull in opposite directions, leaving no actionable run gap.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Skubal is the best starter edge on the slate, but DET -193 bakes in most of it and CHW's fresh bullpen plus Detroit's middling offense keep me off both the ML and RL. The total has already been bet down hard from 8.5 toward 7.5/8.0, and Skubal plus Chicago's weak split vs lefties offsets the Fedde-over risk enough for a pass.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The Yankees deserve to be a large favorite behind the better starter, deeper bullpen, and Cincinnati's weaker run-prevention profile, but my number does not clear the current ML or RL by enough to pay the premium. Warm conditions and the Reds' bullpen issues support runs, yet 8.5 is already a corrected number and New York's 94 wRC+ vs RHP keeps me from forcing an over.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Roupp's underlying line and the Giants' 118 wRC+ vs RHP make SF tempting, but Bachar is effectively a small-sample/uncertain-length starter and Miami's bullpen is healthy enough to erase a thin pregame edge. The total move to 8.5 in a normally suppressive park leaves little room once roof status and starter usage uncertainty are accounted for.
+DATA GAP: unconfirmed lineups; roof status
+
+---
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cavalli and Jax grade fairly close on my numbers, and while Washington is live here the edge is not big enough to clear the price with lineups still unconfirmed and Tampa carrying a strong home split. In the dome, 7.5 already reflects the mediocre recent Rays offense and decent starting-pitching outlook, so I do not have a totals gap either.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: MIL @ ATL
+PICK: MIL ML
+PRICE: -163
+UNITS: 1
+EDGE: 6.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: I make Milwaukee 68.5% to win (fair about -217): Misiorowski is a clear starter edge, Milwaukee's offense owns a 136 wRC+ vs LHP, and Pérez's underlying skill base is much weaker than his ERA. Atlanta's elite, rested bullpen keeps this at 1u and also keeps me off the total, since the Brewers' offensive edge is strong but late-run suppression matters.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: deGrom and the fresher Texas leverage arms justify the Rangers being favored, but San Diego's 129 wRC+ vs RHP keeps the side too close to fair for me at the current number. I lean over because both offenses profile well against righties and Vásquez's contact risk is real, but Globe Life roof status matters too much when the posted total is only 7.0.
+DATA GAP: unconfirmed lineups; roof status
+
+---
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Houston has the better offensive split against RHP, but Cleveland brings the steadier starter/bullpen combination and leaves my side number very close to market. The total move from 8.5 to 8.0 largely matches my projection, and Imai's noisy form plus likely roof influence are enough to keep me out.
+DATA GAP: unconfirmed lineups; roof status
+
+---
+## GAME: STL @ KC
+PICK: STL ML
+PRICE: -111
+UNITS: 1
+EDGE: 5.9 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: I make St. Louis 58.5% to win (fair about -141): the Cardinals' massive 163 wRC+ vs RHP is the biggest platoon separator in this game, and they also hold the cleaner bullpen outlook. I lean over, because neither starter's underlying contact/whiff profile is trustworthy, but Kauffman's run shape is less explosive than the raw matchup suggests so the totals edge stays short of a bet.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Pittsburgh has the better matchup against Freeland, but Coors volatility and a less reliable Pirates bullpen make the favorite price too thin for me to press, and I do not play run lines here by rule. My total is only modestly above 11.5, which is not enough to bet in the widest-scoring environment on the board.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The Athletics are the reasonable side because LAA owns just a 70 wRC+ vs LHP, but Oakland's heavily taxed bullpen and the high-variance park keep -157 from being attractive enough. The over has ingredients, yet that weak Angels split versus lefties stops my projection short of a wager at 10.0.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Arizona deserves favoritism behind Soroka, the better home split, and the slightly stronger bullpen, but my fair price is too close to market to justify a bet. With likely roof closure, two competent pens, and no major offensive mismatch, 8.5 also lands near my total projection.
+DATA GAP: unconfirmed lineups; roof status
+
+---
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 9.5
+TOTAL PRICE: -105
+TOTAL UNITS: 1
+TOTAL EDGE: 1.1 runs
+REASON: I project 10.6 runs here: both lineups have strong splits vs RHP, Gibson's small-sample profile is dangerous against this Dodgers offense, and Baltimore can still contribute against a Sasaki line that is more good-than-dominant right now. The cool weather and a solid Dodgers bullpen keep this to 1u, and the side price already reflects Los Angeles' clear overall edge.
+DATA GAP: unconfirmed lineups
+
+---
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Suárez plus Seattle's 79 wRC+ vs LHP make Boston live, but Miller's current form and the park's run suppression leave my side number only a hair away from the best plus price. At 6.5, the total is already near the floor of my projection, so I would rather pass than force an under in a number this tight.
+DATA GAP: unconfirmed lineups; roof status
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

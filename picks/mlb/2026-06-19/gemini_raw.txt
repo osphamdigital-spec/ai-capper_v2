@@ -1,0 +1,198 @@
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Ben Brown is flagged with a short-term small sample [sm] tag, triggering a mandatory pass on the totals market. In the side market, the projected win probability for both teams sits near a coin-flip, which does not provide enough value to overcome the market vig and satisfy our 5.0 percentage point edge gate.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Tarik Skubal carries an [sm] flag on his L14 split, forcing an automatic pass on the totals market. While Skubal gives Detroit a major pitching advantage over Erick Fedde, the market price of -193 is highly efficient and leaves no actionable edge on the side.
+DATA GAP: none
+
+---
+
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Rhett Lowder's short-term small sample flag [sm] removes the totals market from consideration today. On the side, Yankee Stadium's high price on the home favorite (-268) reflects the true disparity between Schlittler and Lowder, leaving no edge on either team.
+DATA GAP: none
+
+---
+
+## GAME: SF @ MIA
+PICK: SF ML
+PRICE: +104
+UNITS: 1
+EDGE: 5.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Landen Roupp and Lake Bachar both carry [sm] flags, which disqualifies the totals market. However, San Francisco possesses a significant offensive advantage (118 vs_RHP wRC+) over Miami's below-average offense, creating a 5.5 percentage point edge on the plus-money underdog.
+DATA GAP: none
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starting pitchers carry [sm] flags, which invalidates our baseline totals calculation. On the side, our model projects Washington as a neutral 50.0% play, which falls just short of the 5.0 percentage point edge gate required to trigger a bet at +114.
+DATA GAP: none
+
+---
+
+## GAME: MIL @ ATL
+PICK: MIL ML
+PRICE: +148
+UNITS: 1
+EDGE: 17.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Martín Pérez is flagged with a short-term [sm] tag, which forces a pass on the total. On the moneyline, Milwaukee has an elite starter in Jacob Misiorowski (2.69 SIERA) and a platoon offense (136 wRC+ vs LHP) that should dismantle Pérez, offering an enormous 17.5 percentage point edge that is capped at 1 unit due to the starting pitching sample constraint.
+DATA GAP: none
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Randy Vásquez is flagged [sm] in his L14, leading to a mandatory pass on the totals market. Texas is heavily favored with Jacob deGrom on the mound, but the current market price of -155 is priced accurately and offers no betting value.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Tatsuya Imai's small sample size flags the total as a pass. In the side market, Houston's solid offense matches up well with Tanner Bibee, but the projected moneyline edge on Cleveland at +113 is only 3.5 percentage points, failing to meet our 5.0 percentage point trigger.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Seth Lugo's [sm] tag prevents a play on the game total. While St. Louis boasts an explosive 163 wRC+ against right-handed pitching, the pitching matchup is extremely tight, and the resulting moneyline edge of 4.0 percentage points does not warrant a bet.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ COL
+PICK: COL ML
+PRICE: +123
+UNITS: 1
+EDGE: 6.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field is a mandatory pass for totals under our environmental volatility rules. On the moneyline, both starters are relatively even (Chandler 4.48 SIERA vs Freeland 4.40 SIERA), making this game a 50/50 projection and offering solid value on the home underdog at +123, capped at 1 unit due to the [sm] flags.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starting pitchers are flagged [sm], making the totals market a pass. On the side, the Angels' catastrophic offense vs LHP (70 wRC+) offsets José Soriano's slight pitching advantage, leading to an efficient market price and no clear edge.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Connor Prielipp's L14 [sm] flag makes the total a pass. In the moneyline market, Michael Soroka is highly rated by our aggregate metrics, making the market price of -170 highly accurate and leaving no value on either side.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starting pitchers are flagged [sm], with Trey Gibson possessing under 20.0 IP on the season, forcing a pass on the total. The moneyline market is appropriately set given the elite offenses on both sides and the starting pitching instability.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ SEA
+PICK: BOS ML
+PRICE: +108
+UNITS: 1
+EDGE: 8.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Ranger Suarez's [sm] tag makes the total a pass. On the side, Seattle is horrific against left-handed pitching (79 wRC+), while Suarez (3.74 SIERA) and a fully fresh Boston bullpen present a strong pitching edge that yields an 8.0 percentage point moneyline advantage, capped at 1 unit due to the [sm] restriction.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today

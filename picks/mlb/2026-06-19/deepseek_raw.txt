@@ -1,0 +1,185 @@
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gausman and Brown project similar run suppression, but both bullpens have T1 and T2 empty — a bullpen Armageddon fade for the total. Slight edge on TOR (5.6 pts) not enough to surpass other slate options.
+DATA GAP: none
+
+---
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: DET shows huge win-prob edge (16.5 pts) but falls outside the three strongest plays today. Total Over 7.5 advantage of 1.23 runs also strong, but prioritization gives way to larger edges.
+DATA GAP: none
+
+---
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: NYY has material edge (8.4 pts) with Schlittler out-pitching Lowder, but the -268 price and a small‑sample L14 for Lowder limit its spot on this slate. Total Over 8.5 (1.46 runs) also a near‑miss.
+DATA GAP: none
+
+---
+## GAME: SF @ MIA
+PICK: MIA ML
+PRICE: -112
+UNITS: 1
+EDGE: 20.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Roupp’s low‑strikeout, high‑contact profile meets a Miami lineup with strong RHP platoon; Bachar’s ultra‑elite SIERA in a tiny sample gets discounted. My model sees MIA as ~72% to win vs market 52%, edge of 20.4 pts. Total under 8.5 had a large edge but is left off due to slate limits.
+DATA GAP: none
+
+---
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: WAS holds a 6.8‑pt win edge and the Over 7.5 a 1.55‑run edge, but both are just outside the top tier of today’s opportunities. Close calls, not enough to unseat the chosen three.
+DATA GAP: none
+
+---
+## GAME: MIL @ ATL
+PICK: MIL ML
+PRICE: -163
+UNITS: 3
+EDGE: 21.1 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Misiorowski’s elite SIERA (2.44 blended) vs Pérez’s below‑average projection plus MIL’s massive platoon edge (136 wRC+ vs LHP) give MIL an 81.7% win chance, far above the market’s 60.6%. No small‑sample flags, so 3‑unit best‑bet.
+DATA GAP: none
+
+---
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: deGrom’s dominance and TEX’s offensive edge yield an 8.6‑pt gap; strong but not the largest today. Total is too low to bet.
+DATA GAP: none
+
+---
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: CLE’s 14.4‑pt edge with Bibee’s solid form and HOU’s bullpen hole is excellent, but the slate cap forces a pass. Total Over 8.0 (0.80 runs) also solid but secondary.
+DATA GAP: none
+
+---
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Suspect total prices remove the total from consideration. Side edge only 0.9 pts, well below my gate.
+DATA GAP: Total prices flagged suspect — market effectively absent.
+
+---
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 11.5
+TOTAL PRICE: -106
+TOTAL UNITS: 3
+TOTAL EDGE: 3.64 runs
+REASON: Coors’ 1.30 park factor, additional +0.5 run altitude boost, and two below‑average pitchers (Chandler, Freeland) produce a 15.14 projected total, 3.64 runs above the posted 11.5. No small‑sample starter flags, so 3‑unit bet.
+DATA GAP: none
+
+---
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The total Over 10.0 shows a 1.99‑run edge, but with two 3‑unit plays already locked in, this one sits just outside today’s best three.
+DATA GAP: none
+
+---
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Projected totals and win probabilities closely align with the market; no actionable edge.
+DATA GAP: none
+
+---
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: LAD has a 6.5‑pt edge and the Over 9.5 a 1.92‑run edge — both strong but squeezed out by the slate limit. Passes only due to competition from even larger gaps.
+DATA GAP: none
+
+---
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: BOS’s 4.6‑pt edge is real but too small for this slate; total Under 6.5 fails after adjusting for line movement (required 0.75, got 0.62).
+DATA GAP: none
+
+---
+## SLATE SUMMARY
+BEST BET: MIL ML 3u (Game 6)
+WHY THIS ONE: Misiorowski’s 2.44 blended SIERA and MIL’s top‑tier platoon advantage create a 21.1‑point edge, the largest win‑probability gap on the board with clean data.

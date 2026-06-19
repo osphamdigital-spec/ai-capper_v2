@@ -572,14 +572,18 @@ def parse_response(raw_text: str, game_lookup: dict) -> tuple[list, dict | None,
     """
     Split the full model response into sections and parse each one.
 
-    Handles three header formats observed across models:
+    Handles four header formats observed across models:
       Standard:  ## GAME: DET @ TB   (our prompt spec — ## markers separate all sections)
+      Bold:      **## GAME: DET @ TB**  (Grok sometimes wraps headers in bold markdown)
       Bare:      GAME: DET @ TB      (some models drop the ## marker)
       Numbered:  GAME N: DET @ TB    (e.g. Kimi's thinking-mode format: GAME 1:, GAME 7:)
 
     The bare-format path explicitly locates PARLAY and SLATE SUMMARY before
     splitting game blocks, so those sections never bleed into the last game.
     """
+    # Strip bold markdown wrapping from headers (e.g. **## GAME:** -> ## GAME:)
+    raw_text = re.sub(r"\*\*(## (?:GAME|SLATE SUMMARY|PARLAY)[^*]*)\*\*", r"\1", raw_text)
+
     uses_headers = bool(re.search(r"^## GAME:", raw_text, re.MULTILINE))
 
     if uses_headers:

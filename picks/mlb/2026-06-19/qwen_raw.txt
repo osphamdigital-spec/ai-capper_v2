@@ -1,0 +1,199 @@
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.0
+TOTAL PRICE: -118
+TOTAL UNITS: 1
+TOTAL EDGE: 2.7 runs
+REASON: Gausman and Brown both project well below a 4.50 xFIP, and the platoon advantages for both lineups push the run expectation higher. Wrigley's wind blowing in slightly suppresses the total, but the underlying pitching metrics and contact profiles easily clear the 7.0 market line; Brown's small-sample L14 restricts this to a 1-unit play.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Skubal is elite but Fedde lacks recent L14 data, creating a blind spot in the run prevention baseline. The total line movement and slugfest contact profiles are intriguing, but data integrity rules force a pass on both the side and the total.
+DATA GAP: Fedde L14 data
+
+---
+
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.5
+TOTAL PRICE: -115
+TOTAL UNITS: 1
+TOTAL EDGE: 1.8 runs
+REASON: Both lineups feature elite barrel rates and hard-hit percentages, creating a high-ceiling slugfest profile against two pitchers with vulnerable underlying metrics. Yankee Stadium's short porch and warm weather further inflate the run environment, easily clearing the 8.5 total; Lowder's small-sample L14 keeps this at 1 unit.
+DATA GAP: none
+
+---
+
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both Roupp and Bachar fall well short of the 12 L14 IP threshold and carry small-sample flags, triggering the blind pitching matchup pass rule for totals. The side market lacks sufficient edge to justify action given the extreme variance of two unproven starters.
+DATA GAP: Full L14 samples for both starters
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cavalli and Jax both present small-sample L14 data, invalidating the totals model. On the side, Jax's slight xFIP advantage is offset by Washington's superior platoon wRC+ and TB's taxed bullpen, resulting in no clear edge against the market price.
+DATA GAP: Full L14 samples for both starters
+
+---
+
+## GAME: MIL @ ATL
+PICK: MIL ML
+PRICE: -163
+UNITS: 1
+EDGE: 7.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Misiorowski's elite 2.68 xFIP and 121 Stf+ completely outclass Perez, while Milwaukee's 136 wRC+ against LHP provides a massive platoon advantage. The market underprices Milwaukee's true win probability, but Perez's small-sample L14 restricts the stake to 1 unit.
+DATA GAP: none
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Globe Life Field's extreme pitcher-friendly park factors heavily suppress the total, and the slate ceiling is already reached with higher-conviction plays. San Diego's elite 129 wRC+ against RHP neutralizes deGrom's advantage, leaving no actionable edge on the side.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Imai's small-sample L14 and Hader's recent usage create too much late-game variance for a confident total play. The side market accurately prices Houston's slight bullpen advantage, leaving no mathematical edge against the -120 moneyline.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: STL ML
+PRICE: -111
+UNITS: 1
+EDGE: 6.9 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: St. Louis boasts an elite 163 wRC+ against RHP, completely overwhelming Kansas City's league-average pitching staff. The market fails to fully account for this massive platoon disparity, offering excellent value on the Cardinals despite Lugo's small-sample L14.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field's 130 park runs factor triggers an automatic pass on the total due to unmodelable extreme variance. The side market is equally infected by the high-variance environment, and neither starter possesses the underlying metrics to justify a road favorite play.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: While LA's 70 wRC+ against LHP is a massive disadvantage, the -157 price on Oakland leaves less than a 4.0% edge after adjusting for the small-sample L14 flags on both starters. The total is bypassed due to the slate ceiling and the extreme hitter-friendly park factors.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Arizona's moneyline is overpriced given Prielipp's solid xFIP and the Diamondbacks' mediocre platoon splits. The total projects slightly over the market, but the slate ceiling is full and Chase Field's roof status introduces unnecessary environmental variance.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both Gibson and Sasaki carry small-sample L14 flags, making the high total line highly volatile and forcing a pass. The Dodgers' heavy moneyline offers no value against a Baltimore lineup with a 124 wRC+ against RHP.
+DATA GAP: Full L14 samples for both starters
+
+---
+
+## GAME: BOS @ SEA
+PICK: BOS ML
+PRICE: +108
+UNITS: 1
+EDGE: 7.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Seattle's abysmal 79 wRC+ against LHP is a massive liability against Suarez, who pairs a strong 3.59 xFIP with excellent platoon-suppressing metrics. The plus-money price on Boston provides outstanding expected value, though Suarez's 11.1 L14 IP keeps this at 1 unit.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Every single game on this slate features at least one starting pitcher with a small-sample L14 flag or fewer than 12 recent innings, strictly triggering my proprietary downgrade rule and preventing any 3-unit high-conviction wagers.

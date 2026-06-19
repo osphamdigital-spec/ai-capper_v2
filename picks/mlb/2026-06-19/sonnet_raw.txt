@@ -1,0 +1,200 @@
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starters carry large-sample AGG xFIP in the 3.67–3.68 range — nearly identical suppression quality. Market at -122 CHC already prices their home advantage and slight offensive edge (wRC+ 106 vs RHP for CHC, 113 for TOR). Both T1/T2 bullpen arms are unavailable on both sides, which neutralizes that as a differentiator. No quantifiable edge clears my 5-point gate. Over price flagged as suspect, and the Under at -107 posted on 7.0 doesn't show enough edge vs. my estimate (~7.1 runs) with two competent but not elite starters and flat park (Runs 96).
+DATA GAP: Ben Brown L14 flagged [sm] (10.1 IP); limits confidence in his recent form vs. his 3.67 AGG xFIP baseline.
+
+---
+
+## GAME: CHW @ DET
+PICK: LEAN: DET ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: ~4 pts
+TOTAL: Lean Under
+TOTAL PRICE: N/A
+TOTAL UNITS: LEAN
+TOTAL EDGE: ~0.6 runs
+REASON: Skubal's AGG xFIP 2.68 / SIERA 2.79 with Stf+ 122 is genuinely elite; L14 is [sm] at 4.2 IP so I anchor entirely to his career stabilized numbers. Fedde's AGG xFIP 5.32 / SIERA 5.46 with a K-BB% of only 4.0% and no L14 data at all gives me very high confidence the pitching mismatch is real. CWS offense vs. LHP at wRC+ 91 exacerbates the problem. However, my DET win probability estimate lands around 68% vs. the vig-removed market of ~64.9%, putting the gap near 3–4 points — just below my 5-point gate. The total opened at 8.0–8.5 and the market has pushed it down to 7.5; the sharp line movement toward the Under confirms my own lean that Skubal will keep CWS quiet (wRC+ 91 vs. LHP), and Fedde can get through lineups with soft stuff despite poor underlying metrics. I'll note the DET RL -1.5 at +105 as directionally interesting but the gap is insufficient for a staked bet.
+DATA GAP: Fedde L14 entirely absent; no recent form data to supplement or contradict his career profile.
+
+---
+
+## GAME: CIN @ NYY
+PICK: NYY ML
+PRICE: -268
+UNITS: 1
+EDGE: 5.4 pts
+TOTAL: Lean Over
+TOTAL PRICE: N/A
+TOTAL UNITS: LEAN
+TOTAL EDGE: ~0.8 runs
+REASON: Rhett Lowder is the clear differentiator: AGG xFIP 4.92 / SIERA 5.10 with Stf+ 85 and a K-BB% of only 5.8% across his entire 47-IP career. His L3 shows consistent inability to get deep into games (3.0, 3.0, and 5.2 IP) with elevated walks. Facing a NYY lineup (season RS/G 5.2, L10 6.3, rdiff +118) that is running hot and at home, the mismatch is severe. Schlittler's blended xFIP (3.58, using 40% L14 / 60% AGG given his 12.2 IP non-flagged L14) is solidly above average. My NYY win probability estimate is 76%, against a vig-removed market of ~70.6% at the best available price (-268 LowVig), yielding a 5.4-point gap. NYY T1/T2/T3 fully available and fresh. CIN T1 unavailable (Santillan, 5.46 ERA). The Under price is flagged as suspect so I treat that side as absent; the Over at -113 on a posted 8.5 shows directional lean (Lowder allows runs) but doesn't clear my 1.0-run gate for a staked bet given the movement from 9.0 down to 8.5 already absorbed the obvious Lowder discount.
+DATA GAP: Lowder's AGG is only 47 IP total — his "career" stabilized number is still thin; Stf+ and the L3 log corroborate the weak profile.
+
+---
+
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Lake Bachar's AGG sample is only 9.2 IP — effectively anecdotal — so I anchor to his AGG xFIP 2.96, but that's based on so little data that any edge built on his suppression is extremely fragile. The RL has flipped direction multiple times (opened SF-1.5 heavy, reversed hard to MIA -1.5 heavy, then partially reversed again) — that instability signals information I cannot see. Under price flagged as suspect. The retractable roof status is unknown and material for park factor. Too many uncertainty flags to build a confident edge here.
+DATA GAP: Bachar AGG 9.2 IP [sm]; roof status unknown; RL direction reversals signal off-slate information.
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Jax's AGG xFIP (3.62) and Cavalli's (3.91) are both reasonable but both L14s are [sm] at 10 IP. The total saw a bizarre intraday move from 8.0 to 8.5 and then immediately back to 7.5 — that's a direction reversal pattern that triggers my cap at Lean regardless of computed edge under my totals rules. Over price is flagged as suspect. TB's T2 arms are both unavailable (Kelly taxed at 33 pitches Wednesday, Cleavinger also used Wednesday), which partially offsets their home edge. No clear mispricing on the ML with both starters in the same quality tier.
+DATA GAP: Both starters have [sm] L14s; Over price absent (stale); total line reversal pattern.
+
+---
+
+## GAME: MIL @ ATL
+PICK: LEAN: MIL ML
+PRICE: N/A
+UNITS: LEAN
+EDGE: ~4 pts
+TOTAL: Lean Under
+TOTAL PRICE: N/A
+TOTAL UNITS: LEAN
+TOTAL EDGE: ~0.7 runs
+REASON: Misiorowski is the best starting pitcher on this slate: AGG xFIP 2.68 with 16 IP L14 (qualifies for 60/40 weighting) producing a blended xFIP of approximately 2.21, plus Stf+ 121 and L3 of 7.0/0/8/0; 7.0/0/8/3; 9.0/0/15/0 — staggering. MIL's win probability is probably around 64%, against a vig-removed market of ~60.5% at the best price (-163 LowVig), yielding a gap of roughly 3.5–4 points — just shy of my 5-point gate. The ATL bullpen is elite and fully fresh (Iglesias 1.16, Suarez 0.59, Lee 1.14), which constrains my upside on MIL's win probability. MIL's T2 is 0/2 available (Uribe and Ashby both used), adding modest late-game risk. Total lean Under given Misiorowski's expected suppression of ATL (~2 runs) and Pérez's AGG xFIP of 4.63 adding MIL runs, but the combination nets to roughly 6.8-7.2 runs vs the 7.5 line — not quite 1.0 run gap for a staked total.
+DATA GAP: Pérez L14 is [sm] at 10.1 IP — treated as AGG-only; ATL bullpen usage is near-zero for the past several days, which is a positive for this game.
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: deGrom blended xFIP (using 60/40 on his 12 IP non-flagged L14): 60%×3.25 + 40%×3.32 = 3.28 — elite. Vásquez AGG xFIP 5.28 / SIERA 5.16 with an xERA of 6.55 is a deeply negative profile. This pitching mismatch is already priced into TEX being -159 favorites at home. My TEX win probability estimate lands around 63-64% vs. vig-removed market of ~62%, gap of roughly 1-2 points. The extreme pitcher mismatch is already priced. Park is pitcher-friendly (Runs 83) and roof status unknown (11% rain / retractable). Total movement from 7.5 to 7.0 already absorbed the Vásquez discount. Under at +103 (LowVig) doesn't clear my 1.0-run gate.
+DATA GAP: Vásquez L14 [sm] (9.0 IP); Globe Life roof status unknown; retractable park factor uncertainty.
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Imai's profile is concerning (AGG xFIP 4.57, Stf+ 87, ERA 6.43) but his L14 [sm] at 5.2 IP is entirely unreliable, and his L3 shows one catastrophic start (0.2/5/1/1) mixed with solid ones, making him hard to model confidently. Bibee's AGG xFIP 4.16 is average. The RL shows wild directional flip-flopping (four reversals in 10 minutes this morning) — that instability signals off-slate information and triggers my cap. Hader is unavailable (taxed Tue/Wed). Rain at 14% with a retractable roof adds further uncertainty. No edge clears my gate.
+DATA GAP: Imai L14 [sm] (5.2 IP); Houston roof status unknown; RL reversal pattern multiple times in rapid succession.
+
+---
+
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both TT prices flagged as suspect — total market treated as absent entirely. On the ML: Lugo's L14 is [sm] (8.1 IP) so I anchor to AGG xFIP 4.44; McGreevy's AGG xFIP 4.23 with Stf+ 85 is also below average. Two similarly mediocre starters with the market priced at STL -119 / KC +101 reflects the record differential (STL 40-33 vs KC 31-45). KC's key bat (Jordan wRC+ 542, presumably a short sample) is suspicious, and that wRC+ 163 vs RHP lineup figure would drive enormous projected runs. My STL win probability aligns roughly with the market. No edge.
+DATA GAP: Both total prices stale/suspect; Jordan 542 wRC+ is almost certainly a very small sample outlier; Lugo L14 [sm].
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Under
+TOTAL PRICE: N/A
+TOTAL UNITS: LEAN
+TOTAL EDGE: ~0.6 runs lean Under
+REASON: Coors mandatory pass threshold check: park Runs factor 130, Chandler AGG xFIP 4.52 (not ≥4.50 both), Freeland AGG xFIP 4.35 — both starters are replacement-level/poor. This triggers my "Lean max, never full units" rule for extreme hitter's parks with two replacement-level starters. Total at 11.5 is where Coors games frequently price, and my estimate at altitude with these starters would be 12.5–13+ theoretically. However, the Lean Under actually is the directional lean here because the market has already priced in the altitude effect at 11.5, and with Chandler's recent L14 xFIP 3.09 (only 5.2 IP [sm]), the upside surprise would be more suppression than expected. But I will not stake a bet here under my Coors extreme-park rule with two below-average starters. Lean only, no units.
+DATA GAP: Chandler L14 [sm] (5.2 IP); Freeland L14 [sm] (10.2 IP); Coors variance makes any model estimate nearly meaningless.
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starters have [sm] flagged L14 samples — Soriano 11.0 IP [sm] and Springs 9.0 IP [sm] — so I anchor entirely to AGG: Soriano xFIP 3.60, Springs xFIP 4.64. That suggests ATH starter should help them, but Springs' recent L3 is poor (3.2, 5.0, 4.0 IP; allowing 4, 5, 6 ER). Sutter Health Park is a hitter's park (Runs 121) with high variance. ATH T1 committee is depleted (2 of 3 used in recent days, Barnett unavailable). Total has shown multiple direction reversals (9.5 → 10.0 → 9.5 → 10.0). ATH -162 feels largely priced in. No edge clears gate with this level of data uncertainty.
+DATA GAP: Both starters [sm] L14; total line multiple reversals; park factor high with depleted ATH pen.
+
+---
+
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Soroka blended xFIP (using 60/40 on 14 IP non-flagged L14): 60%×3.83 + 40%×3.58 = 3.73 — solid mid-rotation. Prielipp AGG xFIP 4.23 / SIERA 4.11, L14 [sm] at 10.1 IP. AZ platoon advantage is significant (wRC+ 106 vs LHP, with Troy 227, Carroll 216, Lawlar 164 — those are likely small samples but still directionally real). AZ already priced as -170 favorites. My AZ win probability estimate (~65%) aligns roughly with vig-removed market (~64.7%). No meaningful edge. Weather: 103.5°F with roof status unknown — major uncertainty on park factor and run environment. Total stable at 8.5 throughout (no movement), which suggests market is satisfied. No total edge.
+DATA GAP: Prielipp L14 [sm]; Chase Field roof status unknown at 103°F (essentially must close); three AZ wRC+ leaders appear to be very small sample outliers.
+
+---
+
+## GAME: BAL @ LAD
+PICK: LAD RL
+PRICE: -105
+UNITS: 1
+EDGE: 8.8 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Trey Gibson is flagged [sm] (21.1 IP total AGG, 19.1 IP AGG base), which blocks any 3-unit play, but the edge is still clearly actionable at 1 unit. His profile is alarming: AGG xFIP 5.31, SIERA 5.81, K-BB% of -2.3% (more walks than strikeouts), xERA unavailable due to sample, and L3 of 5.2/1/1/4; 4.2/3/0/1; 4.1/6/7/5 — the last start was 4.1 IP, 6 ER, 5 walks. Against a LAD lineup with RS/G 5.3, L10 6.3, rdiff +144 and wRC+ 121 vs RHP (Ohtani 172, Freeman 151, Rushing 145), the probability of LAD winning by 2+ is substantially higher than the -105 price implies (~51.2%). Sasaki's blended xFIP (using 40/60 on his 11.1 IP [sm] L14, giving approximately 3.78) is solidly above average with strong recent form. LAD bullpen is fully fresh with Tanner Scott (2.32), Klein (2.12), Vesia (2.59) — elite depth. My estimated LAD -1.5 cover probability is ~60%, gap of 8.8 points above the vig-removed implied probability. [sm] flag on Gibson blocks 3u — this is 1 unit. Total at 9.5 has been stable throughout; neither Sasaki (erratic L14) nor Gibson (tiny sample) give me a clean run total edge above 1.0 runs.
+DATA GAP: Gibson [sm] flag is the primary limiter; Sasaki L14 also [sm] at 11.1 IP; LAD lineups unconfirmed.
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Miller's blended xFIP (40% L14 2.83 / 60% AGG 4.23 on 14 IP) = 3.66, and his recent L3 is genuinely excellent: 5.0/0, 6.0/0, 8.0/2 IP. Suarez blended (40% L14 3.56 / 60% AGG 3.59 on 11.1 IP [sm]) = 3.57. These are nearly identical starters and both are solid. Market has SEA as slight favorite at -122, which is reasonable given home field and Miller's recent form. My SEA win probability estimate (~54%) doesn't deviate enough from vig-removed ~55% to generate a side edge. The Under price is flagged as suspect (absent); the Over at -113 on a 6.5 line is the only available total play. My run estimate for this pitcher-friendly park (Runs 86, potentially roof closed) is around 7.0–7.2, which would give a 0.5–0.7 run gap — below my 1.0-run gate. Lean territory only and the Under isn't available. PASS.
+DATA GAP: Suarez L14 [sm] (11.1 IP); T-Mobile roof status unknown; Under price absent (stale).
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+
+Two 1-unit bets qualify: LAD RL (-1.5, -105) and NYY ML (-268). Neither clears my 9-point gap threshold required to unlock 3 units — LAD RL is blocked by Gibson's [sm] flag (one of the four required conditions fails regardless of gap size), and NYY ML carries a 5.4-point gap that is well within my 5-point gate but nowhere near the 9-point 3u threshold. The slate features several interesting pitching mismatches (Misiorowski, Skubal, deGrom vs. poor opposition) that are almost entirely priced in by efficient markets. No play on this slate meets all four 3u conditions simultaneously.

@@ -1,0 +1,199 @@
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gausman and Brown are effectively a wash in AGG SIERA/xFIP, both bullpens are exhausted with zero fresh leverage arms, and my run estimate lands within a half-run of the 7.0 line once Wrigley’s pitcher-friendly factors are applied. No side or total edge clears the minimum gate.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ DET
+PICK: DET ML
+PRICE: -193
+UNITS: 1
+EDGE: 5.6 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Skubal carries a two-plus-run SIERA/xFIP gap over Fedde, Detroit still has two fresh leverage arms, and Chicago’s offense carries a sub-91 wRC+ against lefties. The total opened 8.5 and was bet down to 7.5, but my run estimate sits near 8.0 and does not clear the 1.0-run edge gate.
+DATA GAP: none
+
+---
+
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Schlittler is the superior starter, but the NYY win probability implied by -268 already prices in most of the pitching gap, and the Yankees’ season wRC+ vs RHP sits below average. My projected total of roughly 9.1 runs is too close to the 8.5 line to justify a stake.
+DATA GAP: none
+
+---
+
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Bachar’s microscopic AGG sample and the [sm] flag on Roupp remove any 3-unit eligibility, the side market is priced within a point of fair, and my run estimate of 8.4 aligns too closely with the 8.5 total. Passing both markets.
+DATA GAP: none
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cavalli and Jax both carry [sm] flags that erode confidence in their run-prevention profiles, and the side is a coin-flip once bullpen freshness is weighed. My total estimate of 8.9 runs produces a 1.4-run gap to the 7.5 line, but with both starters flagged small-sample I prefer to preserve the bet quota.
+DATA GAP: none
+
+---
+
+## GAME: MIL @ ATL
+PICK: MIL ML
+PRICE: -163
+UNITS: 1
+EDGE: 5.9 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Misiorowski’s elite SIERA/xFIP gives him a two-run skill gap over Pérez, and Milwaukee’s 136 wRC+ against left-handed pitching is the largest platoon edge on the slate. The total looks low at 7.5, but Pérez’s [sm] flag blocks a 3-unit stake and I am already using a side bet in this game.
+DATA GAP: none
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: deGrom is the clear pitching edge, but Globe Life’s extreme pitcher-friendly environment and San Diego’s 129 wRC+ against righties offset enough of the gap to keep the TEX implied probability within 3.5 pts of fair. My run estimate of 7.8 runs is only three-tenths above the 7.0 line, failing the 1.0-run gate.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Bibee and Imai are separated by less than half a run in AGG SIERA, and while Houston’s offense has a 16-point wRC+ edge, it is not enough to overcome the flat moneyline pricing. My run estimate of 8.8 runs falls short of the 1.0-run edge gate against the 8.0 total.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: St. Louis’s 163 wRC+ against righties is real, but the moneyline already prices in most of that platoon thunder, leaving a side edge of only three points. The total sits at 9.0 with my projection at 9.5, a half-run gap that does not reach the 1.0-run minimum.
+DATA GAP: none
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field is a mandatory side pass under my variance rules, and while the park inflates run scoring, the 11.5 total already captures most of that altitude premium, leaving my projected 12.2 runs short of the 1.0-run edge gate.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Soriano and Springs both carry [sm] flags, the side market is priced within a point of fair after accounting for Los Angeles’s 70 wRC+ against lefties, and my total estimate of 11.2 runs clears the 1.0-run gate but not by enough to justify a stake given dual small-sample starters.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Soroka’s half-run SIERA edge over Prielipp is already embedded in the -167 AZ price, Minnesota’s bullpen is fully rested, and my run estimate of 9.2 runs is only three-tenths above the 8.5 total, failing the 1.0-run threshold.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gibson’s tiny sample and Sasaki’s [sm] flag remove 3-unit eligibility, the LAD moneyline is too heavy to yield a side edge above 3.5 pts once the small-sample risk is priced, and my total estimate of 9.4 runs mirrors the 9.5 line.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 6.5
+TOTAL PRICE: -113
+TOTAL UNITS: 1
+TOTAL EDGE: 1.3 runs
+REASON: Miller’s shiny ERA is not supported by his 4.23 AGG xFIP, while Suarez’s strike-zone control and Seattle’s 79 wRC+ against lefties are offset by a taxed Mariner bullpen and a pitcher-friendly park that still does not justify a 6.5 line. My combined run estimate of 7.8 runs gives a 1.3-run edge to the over, clearing the 1.0-run gate for a 1-unit stake.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE:

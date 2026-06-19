@@ -370,6 +370,7 @@ def run_daily(sport: str, date: str = None):
         ("Pitchers",     "fetch_pitchers.py",          ["--date", target_date],                   True),
         ("Pitcher Adv.", "fetch_pitcher_advanced.py",  ["--sport", sport, "--date", target_date], False),
         ("Weather",      "fetch_weather.py",           ["--date", target_date],                   True),
+        ("Wind Edge",    "fetch_wind_edge.py", ["--sport", sport, "--date", target_date], False),  # optional — CrookedFence park+wind HR/runs edge
         ("Team Stats",   "fetch_teamstats.py", ["--sport", sport, "--date", target_date], True),
         ("Bullpen",      "fetch_bullpen.py",   ["--sport", sport, "--date", target_date], False),  # optional
         ("Lineups",      "fetch_lineups.py",          ["--sport", sport, "--date", target_date], False),  # optional — confirmed ~2-3h before first pitch

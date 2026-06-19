@@ -1346,7 +1346,8 @@ def _fmt_park_factors_block(
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_game_block(game: dict, i: int, total: int, sport: str, static_data: dict | None = None,
-                     hoist_lineups: bool = False, hoist_umpire: bool = False) -> str:
+                     hoist_lineups: bool = False, hoist_umpire: bool = False,
+                     wind_edge: dict | None = None) -> str:
     """
     Build the complete data block for one game. Returns a multi-line string.
 
@@ -1537,6 +1538,38 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
     lines.append(fmt_weather(ctx.get("weather")))
     lines.append("")
 
+    # ── CrookedFence wind/park edge ───────────────────────────────────────────
+    # Sourced from crookedfence.org/data.json (fetch_wind_edge.py).
+    # HR edge and runs edge are % adjustments vs baseline for this park+wind combo.
+    # Signal: hitter_strong / hitter / neutral / pitcher / pitcher_strong / roof.
+    if wind_edge:
+        sig      = (wind_edge.get("signal") or "").replace("_", " ").upper()
+        hr_pct   = wind_edge.get("hr_edge_pct")
+        run_pct  = wind_edge.get("runs_edge_pct")
+        effect   = wind_edge.get("wind_effect") or ""
+        w_mph    = wind_edge.get("wind_mph")
+        lf       = wind_edge.get("lf_ft")
+        cf       = wind_edge.get("cf_ft")
+        rf       = wind_edge.get("rf_ft")
+
+        hr_str  = f"{hr_pct:+}%"  if hr_pct  is not None else "n/a"
+        run_str = f"{run_pct:+}%" if run_pct is not None else "n/a"
+
+        wind_parts = []
+        if w_mph is not None:
+            wind_parts.append(f"wind:{w_mph}mph")
+        if effect:
+            wind_parts.append(effect)
+        wind_summary = " ".join(wind_parts) if wind_parts else ""
+
+        dim_str = ""
+        if lf and cf and rf:
+            dim_str = f"  dims:LF{lf}/CF{cf}/RF{rf}"
+
+        lines.append("WIND EDGE (CrookedFence)")
+        lines.append(f"  signal:{sig}  HR:{hr_str}  runs:{run_str}  {wind_summary}{dim_str}")
+        lines.append("")
+
     # ── Park factors ──────────────────────────────────────────────────────────
     # Keyed by home team (park doesn't change). Uses static FanGraphs 3yr rolling data.
     # Roof-closed factor shown separately when venue has a retractable roof.
@@ -1597,7 +1630,8 @@ def load_model_instruction(model_name: str, project_root: Path) -> str | None:
 # PROMPT ASSEMBLER
 # ─────────────────────────────────────────────────────────────────────────────
 
-def build_prompt(games: list, sport: str, date: str, model: str | None = None, static_data: dict | None = None) -> str:
+def build_prompt(games: list, sport: str, date: str, model: str | None = None, static_data: dict | None = None,
+                 wind_edge_map: dict | None = None) -> str:
     """
     Assemble the USER MESSAGE portion of the prompt: slate header + game blocks.
     Instructions, staking rules, output format, and model-specific content are
@@ -1682,8 +1716,13 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
     # ─────────────────────────────────────────────────────────────────────────
     # ── Game blocks ───────────────────────────────────────────────────────────
     for i, game in enumerate(games, start=1):
+        # Look up wind edge entry by AWAY@HOME 3-char key
+        away_key = game["away"]["abbr"][:3].upper() if game.get("away", {}).get("abbr") else ""
+        home_key = game["home"]["abbr"][:3].upper() if game.get("home", {}).get("abbr") else ""
+        we_entry = (wind_edge_map or {}).get(f"{away_key}@{home_key}")
         parts.append(build_game_block(game, i, len(games), sport, static_data=static_data,
-                                      hoist_lineups=hoist_lu, hoist_umpire=hoist_ump))
+                                      hoist_lineups=hoist_lu, hoist_umpire=hoist_ump,
+                                      wind_edge=we_entry))
 
     parts.append("")
     parts.append("BEFORE SUBMITTING: verify each bet clears the 4-pt minimum edge gate.")
@@ -2365,11 +2404,32 @@ def build_prompt_main(sport: str = "mlb", date: str = None, model: str = None):
         }
         print("  Static data loaded.")
 
+    # ── Load CrookedFence wind/park edge data (optional) ─────────────────────
+    # Produced by fetch_wind_edge.py. Indexed here by a "AWAY@HOME" key using
+    # the first 3 chars of each team name (uppercased) so it survives minor
+    # name variations. build_game_block() receives only the matching game's entry.
+    wind_edge_map: dict[str, dict] = {}
+    wind_edge_path = project_root / "data" / sport / target_date / "wind_edge.json"
+    if wind_edge_path.exists():
+        try:
+            we_list = json.loads(wind_edge_path.read_text(encoding="utf-8"))
+            for entry in we_list:
+                away_key = (entry.get("away_team") or "")[:3].upper()
+                home_key = (entry.get("home_team") or "")[:3].upper()
+                if away_key and home_key:
+                    wind_edge_map[f"{away_key}@{home_key}"] = entry
+            print(f"  Wind edge data loaded ({len(wind_edge_map)} games from wind_edge.json)")
+        except Exception as e:
+            print(f"  NOTE: Could not load wind_edge.json ({e}) — wind edge block will be absent")
+    else:
+        print("  NOTE: wind_edge.json not found — run fetch_wind_edge.py to enable wind edge block")
+
     print("\nBuilding prompt...")
     sport_label = SPORT_LABELS.get(sport, sport.upper())
 
     # Build the two-file output: system_{model}.md and prompt_{model}.md
-    prompt_text = build_prompt(games, sport, target_date, model=model, static_data=static_data)
+    prompt_text = build_prompt(games, sport, target_date, model=model, static_data=static_data,
+                               wind_edge_map=wind_edge_map)
     system_text = build_system_prompt(sport_label, model, project_root)
 
     out_dir  = project_root / "daily" / sport / target_date

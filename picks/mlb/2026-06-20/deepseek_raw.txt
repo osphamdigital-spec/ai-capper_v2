@@ -1,0 +1,189 @@
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sean Newcomb is missing SIERA/xFIP metrics, preventing reliable run projection. Total prices are flagged as stale across all books. Game abandoned due to incomplete data.
+DATA GAP: missing Newcomb SIERA/xFIP
+
+---
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: NYY ML had a 7.3‑pt edge but was passed due to the slate’s three‑bet ceiling and the presence of larger edges elsewhere (PIT, MIN, SD). Total edge (0.23 runs) well below gate; Under is banned by Yankee Stadium’s HR park factor ≥110.
+DATA GAP: none
+
+---
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: TOR had a 4.74‑pt side edge and the total had an Under edge of 0.75 runs, but total prices are suspect and the game was deprioritised under the slate ceiling in favour of higher‑conviction bets. Passed both markets.
+DATA GAP: none
+
+---
+## GAME: SD @ TEX
+PICK: SD ML
+PRICE: +116
+UNITS: 1
+EDGE: 9.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Buehler’s blended SIERA (3.94) outperforms Eovaldi’s (3.88) slightly and the Padres’ platoon advantage vs RHP (wRC+ 129) pushes their projected runs to 3.53 vs 3.21. Market gives SD only a 45.3% win probability against a modelled 54.3% — a 9.5‑point mispricing. Under had a 1.16‑run edge but was not bet due to the slate cap.
+DATA GAP: none
+
+---
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: MIL side edge (5.79 pts) and Under edge (0.70 runs) both qualified but were overtaken by larger edges on the slate. Passed to stay within the bet limit.
+DATA GAP: none
+
+---
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: SF side edge only 3.15 pts (below the 4‑pt gate). Total Under edge hinges on roof status; if closed it falls to 0.38 runs, below the 0.50 threshold. Over is banned by HR factor ≤85. No actionable bet.
+DATA GAP: none
+
+---
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Ian Seymour has only 6.0 career IP — a small‑sample starter that curbs confidence. Side edge negligible (≤0.4 pts), Over edge only 0.22 runs. Under is banned by Tropicana’s HR factor ≥110. All markets passed.
+DATA GAP: none
+
+---
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cleveland’s side edge (0.89 pts) is far below gate. Total Over edge 0.27 runs, Under banned by Minute Maid’s HR factor. Roof likely closed, suppressing any weather boost. No bet.
+DATA GAP: none
+
+---
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Philadelphia had a 5.36‑pt side edge but was excluded by the slate cap in favour of higher‑edge plays. Total Under is banned (HR park) and the Over edge was negative. Pass.
+DATA GAP: none
+
+---
+## GAME: PIT @ COL
+PICK: PIT ML
+PRICE: -200
+UNITS: 3
+EDGE: 14.3 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Skenes’ elite SIERA (2.83) against Sugano’s 5.18, amplified by Coors Field, projects a Pirates runaway (8.65 vs 4.15 runs). Market win probability for PIT is only 65.1% vs modelled 79.4% — a 14.3‑pt mispricing. Total Over had a 3.64‑run edge but was not bet due to the two‑play 3‑unit limit.
+DATA GAP: none
+
+---
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: LAA side edge only 3.84 pts. Total Over edge (3.40 runs) was large but was overtaken by higher‑priority 3‑unit plays on the slate; passed to respect the ceiling.
+DATA GAP: none
+
+---
+## GAME: MIN @ AZ
+PICK: MIN ML
+PRICE: +115
+UNITS: 3
+EDGE: 13.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Twins’ offence is humming (L10RS 6.0) while Gallen’s L14 SIERA sits at 5.00. Taj Bradley is solid for Arizona, but Minnesota’s run projection (5.39 vs 4.41) gives them a 59.1% win probability against a market 45.7% — a gap of 13.4 points. Total Over is banned by Chase Field’s HR factor ≤85; Under edge didn’t reach gate.
+DATA GAP: none
+
+---
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Dodgers side edge (4.98 pts) and Over edge (1.16 runs) both qualified but were left off the card due to the slate cap and the presence of even stronger opportunities. Under is banned.
+DATA GAP: none
+
+---
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Seattle’s side edge (3.13 pts) is below gate. Under edge (0.74 runs) qualified but was not selected; both bullpens are missing closers, adding late‑game uncertainty. No bet.
+DATA GAP: none
+
+---
+## PARLAY
+(No qualifying parlay)
+
+---
+## SLATE SUMMARY
+BEST BET: PIT ML -200 (Game 10)
+WHY THIS ONE: Skenes‑vs‑Sugano mismatch in Coors creates a 14.3‑point win‑probability gap — the largest edge on the board — with Pittsburgh projected as a 79.4% favourite against a 65.1% market.

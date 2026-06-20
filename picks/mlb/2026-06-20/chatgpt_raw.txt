@@ -1,0 +1,185 @@
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: CHW has the better split versus RHP and Melton’s aggregate indicators are shaky, but Newcomb’s starter data is too incomplete for me to trust a road-dog ticket. Detroit’s top-end bullpen availability is a little cleaner, which narrows any White Sox edge late. The total market is absent because both prices are flagged suspect.
+DATA GAP: Full starter skill metrics for Sean Newcomb
+
+---
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: New York is the right side on talent and split context against Abbott, but -200 does not clear my price discipline with the Yankees lineup still unposted and Warren’s recent command wobble. The only usable total side is the under, and that conflicts with warm conditions plus Abbott’s weak underlying profile. Easy pass.
+DATA GAP: Full confirmed Yankees lineup
+
+---
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starters project below average, but the bullpen picture cuts both ways: Toronto has stronger late arms overall while Chicago’s highest-leverage availability is thin. With unconfirmed lineups and no trustworthy total market, I don’t have a clean enough separator to back either side. Pass.
+DATA GAP: Confirmed lineups
+
+---
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: San Diego is close to playable as a dog because of the better platoon split versus RHP and stronger bullpen, but Eovaldi remains the best starter in the game and keeps my fair number near market. My total projection lands close to 7.5 once the park suppression is applied, especially if the roof is closed. Pass.
+DATA GAP: Roof status and confirmed lineups
+
+---
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Milwaukee’s elite production versus lefties keeps this competitive, but Sale plus Atlanta’s much fresher bullpen remove most of the dog appeal. The total is too fragile at 7.0 because both starters are strong, yet the Brewers’ vs-LHP profile and warm weather push against an under bet. Pass.
+DATA GAP: Confirmed lineups
+
+---
+## GAME: SF @ MIA
+PICK: SF ML
+PRICE: +122
+UNITS: 1
+EDGE: 4.3 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: San Francisco gets the better platoon context against Meyer, and McDonald’s underlying skill set is materially better than his ERA line. Miami has the bullpen edge, so this stays 1u, but my projection makes this game much closer to a coin flip than the +122 tag implies. The total is near fair once I account for Miami’s weaker split versus RHP and the park effect.
+DATA GAP: Confirmed lineups and roof status
+
+---
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: My side number is close to pick’em: Washington has the better offense and the more established starter, while Tampa keeps it tight with home field and bullpen quality. The over model is respectable, but Seymour’s tiny trustworthy sample creates too much uncertainty to force a totals bet. Pass.
+DATA GAP: More reliable MLB sample on Ian Seymour
+
+---
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Houston is a bit pricey given its weak split versus lefties, but Cleveland’s offense has not been strong enough for me to take the dog into the Astros’ bullpen edge. My total lands a little below market, though not by enough to justify an under with two volatile starters. Pass.
+DATA GAP: Confirmed lineups and roof status
+
+---
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sánchez is the best arm in the game and supports Philly, but the Phillies’ weak split versus RHP makes -180 too expensive in a lower-total setup. The under has some logic off the starting pitching, yet warm conditions and only middling bullpen availability keep it below my threshold. Pass.
+DATA GAP: Confirmed lineups
+
+---
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Over
+TOTAL PRICE: -103
+TOTAL UNITS: LEAN
+TOTAL EDGE: 1.1 runs
+REASON: Pittsburgh has the obvious side edge behind Skenes, but laying a big ML in Coors is outside my preferred risk profile and I avoid run-line exposure there. My raw total projects above 10.5 because Sugano and the Colorado middle relief are both vulnerable in this environment, but Coors variance keeps it to a lean only. No side bet.
+DATA GAP: Exact wind direction relative to field
+
+---
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 9.5
+TOTAL PRICE: -110
+TOTAL UNITS: 1
+TOTAL EDGE: 1.9 runs
+REASON: Both starters have much weaker estimators than their ERAs, Oakland’s bullpen is one of the most taxed groups on the slate, and Sutter Health remains a major run amplifier. My projected total is 11.4, so 9.5 is still light even after accounting for the market’s awareness of the park. I pass the side because the same run environment widens outcomes and makes the total the cleaner angle.
+DATA GAP: Confirmed lineups
+
+---
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 9.0
+TOTAL PRICE: -107
+TOTAL UNITS: 1
+TOTAL EDGE: 1.0 runs
+REASON: Gallen’s current skill profile has been well below name value, Bradley is more solid than dominant, and Minnesota’s recent scoring form pushes this into playable over territory. With Arizona competent enough to contribute and Chase likely playing neutral-to-slightly hitter-friendly, I project 10.0 runs. I pass the side because Arizona’s bullpen advantage offsets most of Minnesota’s starter edge.
+DATA GAP: Roof status and confirmed lineups
+
+---
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The Dodgers deserve a large price edge with Yamamoto over Rogers, but Baltimore’s strong split versus RHP and fresh bullpen keep me from laying the heavy favorite tax. I also can’t get to the total because Baltimore’s scoring path is too dependent on damaging an elite starter. Pass.
+DATA GAP: Confirmed lineups
+
+---
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Seattle merits slight favorite status on Hancock and home field, but its weak split versus lefties keeps the side price from becoming a bet. T-Mobile points me under, yet the only usable total side is the over price and that does not match my projection. Pass.
+DATA GAP: Roof status and confirmed lineups
+
+---
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: N/A

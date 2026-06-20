@@ -1,0 +1,1158 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T14:00:20.031656+00:00",
+  "games": [
+    {
+      "away": "TOR",
+      "home": "CHC",
+      "stadium": "Wrigley Field",
+      "game_time": "1:20 PM CT",
+      "signal": "neutral",
+      "hr_edge": 2,
+      "runs_edge": 1,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Wrigley Field",
+        "city": "Chicago, IL",
+        "lf_ft": 355,
+        "cf_ft": 400,
+        "rf_ft": 353
+      },
+      "away_pitcher": {
+        "name": "Kevin Gausman",
+        "throws": "R",
+        "hr9": 1.03,
+        "goao": 0.85,
+        "era": "3.41",
+        "whip": "1.03",
+        "ip": 87.0,
+        "k9": "8.90",
+        "bb9": "1.66",
+        "sample_size": 1,
+        "profile": "BAL"
+      },
+      "home_pitcher": {
+        "name": "Ben Brown",
+        "throws": "R",
+        "hr9": 0.15,
+        "goao": 1.03,
+        "era": "1.74",
+        "whip": "0.97",
+        "ip": 62.0,
+        "k9": "8.85",
+        "bb9": "2.76",
+        "sample_size": 1,
+        "profile": "gb/HR-SUPPRESS"
+      },
+      "weather": {
+        "temp_f": 69,
+        "wind_speed_mph": 2,
+        "wind_from": "W",
+        "wind_effect": "OUT-CROSS",
+        "humidity_pct": 75,
+        "pressure_hpa": 1014,
+        "precip_pct": 5,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": 2,
+        "runs_pct": 1
+      },
+      "odds": {
+        "total": 7.5,
+        "total_price": 107,
+        "spread": null,
+        "home_ml": -121,
+        "away_ml": 110,
+        "book": "LowVig.ag"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 7.6 \u2248 market 7.5"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "CWS",
+      "home": "DET",
+      "stadium": "Comerica Park",
+      "game_time": "6:40 PM ET",
+      "signal": "pitcher",
+      "hr_edge": -3,
+      "runs_edge": -2,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Comerica Park",
+        "city": "Detroit, MI",
+        "lf_ft": 345,
+        "cf_ft": 420,
+        "rf_ft": 330
+      },
+      "away_pitcher": {
+        "name": "Erick Fedde",
+        "throws": "R",
+        "hr9": 1.91,
+        "goao": 0.77,
+        "era": "4.50",
+        "whip": "1.41",
+        "ip": 66.0,
+        "k9": "6.00",
+        "bb9": "3.55",
+        "sample_size": 1,
+        "profile": "fb/HR-PRONE"
+      },
+      "home_pitcher": {
+        "name": "Tarik Skubal",
+        "throws": "L",
+        "hr9": 0.56,
+        "goao": 1.47,
+        "era": "2.81",
+        "whip": "0.98",
+        "ip": 48.0,
+        "k9": "9.19",
+        "bb9": "1.31",
+        "sample_size": 1,
+        "profile": "GB/HR-SUPPRESS"
+      },
+      "weather": {
+        "temp_f": 74,
+        "wind_speed_mph": 13,
+        "wind_from": "WNW",
+        "wind_effect": "OUT",
+        "humidity_pct": 70,
+        "pressure_hpa": 1011,
+        "precip_pct": 3,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": -3,
+        "runs_pct": -2
+      },
+      "odds": {
+        "total": 8.0,
+        "total_price": -106,
+        "spread": null,
+        "home_ml": -225,
+        "away_ml": 180,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 7.9 \u2248 market 8.0"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "CIN",
+      "home": "NYY",
+      "stadium": "Yankee Stadium",
+      "game_time": "7:05 PM ET",
+      "signal": "hitter_strong",
+      "hr_edge": 10,
+      "runs_edge": 4,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Yankee Stadium",
+        "city": "Bronx, NY",
+        "lf_ft": 318,
+        "cf_ft": 408,
+        "rf_ft": 314
+      },
+      "away_pitcher": {
+        "name": "Rhett Lowder",
+        "throws": "R",
+        "hr9": 0.57,
+        "goao": 0.98,
+        "era": "4.60",
+        "whip": "1.43",
+        "ip": 47.0,
+        "k9": "7.09",
+        "bb9": "4.79",
+        "sample_size": 1,
+        "profile": "gb/HR-SUPPRESS"
+      },
+      "home_pitcher": {
+        "name": "Cam Schlittler",
+        "throws": "R",
+        "hr9": 0.51,
+        "goao": 0.91,
+        "era": "1.82",
+        "whip": "0.91",
+        "ip": 89.0,
+        "k9": "9.71",
+        "bb9": "1.82",
+        "sample_size": 1,
+        "profile": "BAL/HR-SUPPRESS"
+      },
+      "weather": {
+        "temp_f": 82,
+        "wind_speed_mph": 14,
+        "wind_from": "NW",
+        "wind_effect": "OUT-CROSS",
+        "humidity_pct": 46,
+        "pressure_hpa": 1006,
+        "precip_pct": 3,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": 10,
+        "runs_pct": 4
+      },
+      "odds": {
+        "total": 8.5,
+        "total_price": -120,
+        "spread": null,
+        "home_ml": -275,
+        "away_ml": 210,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 8.9 \u2248 market 8.5"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "WSH",
+      "home": "TB",
+      "stadium": "Tropicana Field",
+      "game_time": "7:10 PM ET",
+      "signal": "pitcher",
+      "hr_edge": -3,
+      "runs_edge": -4,
+      "roof": "dome",
+      "stadium_profile": {
+        "name": "Tropicana Field",
+        "city": "St. Petersburg, FL",
+        "lf_ft": 315,
+        "cf_ft": 404,
+        "rf_ft": 322
+      },
+      "away_pitcher": {
+        "name": "Cade Cavalli",
+        "throws": "R",
+        "hr9": 0.72,
+        "goao": 1.11,
+        "era": "3.98",
+        "whip": "1.39",
+        "ip": 74.2,
+        "k9": "9.76",
+        "bb9": "3.01",
+        "sample_size": 1,
+        "profile": "GB/HR-SUPPRESS"
+      },
+      "home_pitcher": {
+        "name": "Griffin Jax",
+        "throws": "R",
+        "hr9": 1.43,
+        "goao": 1.13,
+        "era": "3.68",
+        "whip": "1.36",
+        "ip": 44.0,
+        "k9": "8.39",
+        "bb9": "3.68",
+        "sample_size": 1,
+        "profile": "GB"
+      },
+      "weather": {
+        "temp_f": 72,
+        "wind_speed_mph": 0,
+        "wind_from": "N",
+        "wind_effect": "ROOF CLOSED",
+        "humidity_pct": 50,
+        "pressure_hpa": 1013,
+        "precip_pct": 0,
+        "source": "roof_closed"
+      },
+      "edge": {
+        "hr_pct": -3,
+        "runs_pct": -4
+      },
+      "odds": {
+        "total": 8.0,
+        "total_price": 100,
+        "spread": null,
+        "home_ml": -125,
+        "away_ml": 100,
+        "book": "BetOnline.ag"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 7.9 \u2248 market 8.0"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "SF",
+      "home": "MIA",
+      "stadium": "LoanDepot Park",
+      "game_time": "7:10 PM ET",
+      "signal": "pitcher",
+      "hr_edge": -6,
+      "runs_edge": -4,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "LoanDepot Park",
+        "city": "Miami, FL",
+        "lf_ft": 335,
+        "cf_ft": 407,
+        "rf_ft": 326
+      },
+      "away_pitcher": {
+        "name": "Landen Roupp",
+        "throws": "R",
+        "hr9": 0.48,
+        "goao": 1.51,
+        "era": "4.24",
+        "whip": "1.29",
+        "ip": 74.1,
+        "k9": "9.93",
+        "bb9": "3.87",
+        "sample_size": 1,
+        "profile": "GB/HR-SUPPRESS"
+      },
+      "home_pitcher": {
+        "name": "TBD",
+        "profile": "???"
+      },
+      "weather": {
+        "temp_f": 88,
+        "wind_speed_mph": 11,
+        "wind_from": "SE",
+        "wind_effect": "IN-CROSS",
+        "humidity_pct": 80,
+        "pressure_hpa": 1018,
+        "precip_pct": 4,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": -6,
+        "runs_pct": -4
+      },
+      "odds": {
+        "total": 8.0,
+        "total_price": -115,
+        "spread": null,
+        "home_ml": -117,
+        "away_ml": 107,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 7.7 \u2248 market 8.0"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "MIL",
+      "home": "ATL",
+      "stadium": "Truist Park",
+      "game_time": "7:15 PM ET",
+      "signal": "pitcher_strong",
+      "hr_edge": -10,
+      "runs_edge": -8,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Truist Park",
+        "city": "Cumberland, GA",
+        "lf_ft": 335,
+        "cf_ft": 400,
+        "rf_ft": 325
+      },
+      "away_pitcher": {
+        "name": "Jacob Misiorowski",
+        "throws": "R",
+        "hr9": 0.41,
+        "goao": 0.98,
+        "era": "1.34",
+        "whip": "0.74",
+        "ip": 87.0,
+        "k9": "13.55",
+        "bb9": "2.28",
+        "sample_size": 1,
+        "profile": "gb/HR-SUPPRESS"
+      },
+      "home_pitcher": {
+        "name": "Mart\u00edn P\u00e9rez",
+        "throws": "L",
+        "hr9": 0.87,
+        "goao": 1.15,
+        "era": "2.90",
+        "whip": "1.05",
+        "ip": 62.0,
+        "k9": "7.40",
+        "bb9": "3.05",
+        "sample_size": 1,
+        "profile": "GB"
+      },
+      "weather": {
+        "temp_f": 74,
+        "wind_speed_mph": 7,
+        "wind_from": "NW",
+        "wind_effect": "OUT-CROSS",
+        "humidity_pct": 77,
+        "pressure_hpa": 1017,
+        "precip_pct": 4,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": -10,
+        "runs_pct": -8
+      },
+      "odds": {
+        "total": 7.5,
+        "total_price": -115,
+        "spread": null,
+        "home_ml": 145,
+        "away_ml": -163,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 7.1 \u2248 market 7.5"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "SD",
+      "home": "TEX",
+      "stadium": "Globe Life Field",
+      "game_time": "7:05 PM CT",
+      "signal": "hitter",
+      "hr_edge": 3,
+      "runs_edge": 0,
+      "roof": "closed",
+      "stadium_profile": {
+        "name": "Globe Life Field",
+        "city": "Arlington, TX",
+        "lf_ft": 330,
+        "cf_ft": 400,
+        "rf_ft": 326
+      },
+      "away_pitcher": {
+        "name": "Randy V\u00e1squez",
+        "throws": "R",
+        "hr9": 1.33,
+        "goao": 0.6,
+        "era": "3.63",
+        "whip": "1.32",
+        "ip": 74.1,
+        "k9": "7.02",
+        "bb9": "2.66",
+        "sample_size": 1,
+        "profile": "FB"
+      },
+      "home_pitcher": {
+        "name": "Jacob deGrom",
+        "throws": "R",
+        "hr9": 1.53,
+        "goao": 0.63,
+        "era": "3.17",
+        "whip": "0.99",
+        "ip": 76.2,
+        "k9": "10.45",
+        "bb9": "1.76",
+        "sample_size": 1,
+        "profile": "FB/HR-PRONE"
+      },
+      "weather": {
+        "temp_f": 72,
+        "wind_speed_mph": 0,
+        "wind_from": "N",
+        "wind_effect": "ROOF CLOSED",
+        "humidity_pct": 50,
+        "pressure_hpa": 1013,
+        "precip_pct": 0,
+        "source": "roof_closed"
+      },
+      "edge": {
+        "hr_pct": 3,
+        "runs_pct": 0
+      },
+      "odds": {
+        "total": 7.0,
+        "total_price": -120,
+        "spread": null,
+        "home_ml": -167,
+        "away_ml": 135,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 7.1 \u2248 market 7.0"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "CLE",
+      "home": "HOU",
+      "stadium": "Minute Maid Park",
+      "game_time": "7:10 PM CT",
+      "signal": "hitter_strong",
+      "hr_edge": 9,
+      "runs_edge": 4,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Minute Maid Park",
+        "city": "Houston, TX",
+        "lf_ft": 315,
+        "cf_ft": 409,
+        "rf_ft": 326
+      },
+      "away_pitcher": {
+        "name": "Tanner Bibee",
+        "throws": "R",
+        "hr9": 1.61,
+        "goao": 0.78,
+        "era": "3.96",
+        "whip": "1.18",
+        "ip": 84.0,
+        "k9": "7.61",
+        "bb9": "2.79",
+        "sample_size": 1,
+        "profile": "fb/HR-PRONE"
+      },
+      "home_pitcher": {
+        "name": "Tatsuya Imai",
+        "throws": "R",
+        "hr9": 1.29,
+        "goao": 1.42,
+        "era": "6.43",
+        "whip": "1.51",
+        "ip": 35.0,
+        "k9": "9.51",
+        "bb9": "6.17",
+        "sample_size": 1,
+        "profile": "GB"
+      },
+      "weather": {
+        "temp_f": 89,
+        "wind_speed_mph": 11,
+        "wind_from": "SSE",
+        "wind_effect": "IN-CROSS",
+        "humidity_pct": 100,
+        "pressure_hpa": 1011,
+        "precip_pct": 7,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": 9,
+        "runs_pct": 4
+      },
+      "odds": {
+        "total": 8.5,
+        "total_price": -106,
+        "spread": null,
+        "home_ml": -122,
+        "away_ml": 100,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 8.9 \u2248 market 8.5"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "STL",
+      "home": "KC",
+      "stadium": "Kauffman Stadium",
+      "game_time": "7:15 PM CT",
+      "signal": "hitter",
+      "hr_edge": 4,
+      "runs_edge": 2,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Kauffman Stadium",
+        "city": "Kansas City, MO",
+        "lf_ft": 330,
+        "cf_ft": 410,
+        "rf_ft": 330
+      },
+      "away_pitcher": {
+        "name": "Michael McGreevy",
+        "throws": "R",
+        "hr9": 1.26,
+        "goao": 1.07,
+        "era": "2.99",
+        "whip": "1.11",
+        "ip": 78.1,
+        "k9": "5.86",
+        "bb9": "2.18",
+        "sample_size": 1,
+        "profile": "gb"
+      },
+      "home_pitcher": {
+        "name": "Seth Lugo",
+        "throws": "R",
+        "hr9": 0.79,
+        "goao": 0.76,
+        "era": "3.86",
+        "whip": "1.35",
+        "ip": 79.1,
+        "k9": "7.49",
+        "bb9": "2.84",
+        "sample_size": 1,
+        "profile": "fb/HR-SUPPRESS"
+      },
+      "weather": {
+        "temp_f": 84,
+        "wind_speed_mph": 7,
+        "wind_from": "SSE",
+        "wind_effect": "IN-CROSS",
+        "humidity_pct": 34,
+        "pressure_hpa": 985,
+        "precip_pct": 0,
+        "source": "open-meteo"
+      },
+      "edge": {
+        "hr_pct": 4,
+        "runs_pct": 2
+      },
+      "odds": {
+        "total": 9.0,
+        "total_price": -115,
+        "spread": null,
+        "home_ml": -103,
+        "away_ml": -122,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 9.2 \u2248 market 9.0"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "PIT",
+      "home": "COL",
+      "stadium": "Coors Field",
+      "game_time": "6:40 PM MT",
+      "signal": "hitter_strong",
+      "hr_edge": 31,
+      "runs_edge": 18,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Coors Field",
+        "city": "Denver, CO",
+        "lf_ft": 347,
+        "cf_ft": 415,
+        "rf_ft": 350
+      },
+      "away_pitcher": {
+        "name": "Bubba Chandler",
+        "throws": "R",
+        "hr9": 1.06,
+        "goao": 0.62,
+        "era": "4.76",
+        "whip": "1.38",
+        "ip": 68.0,
+        "k9": "9.00",
+        "bb9": "5.43",
+        "sample_size": 1,
+        "profile": "FB"
+      },
+      "home_pitcher": {
+        "name": "Kyle Freeland",
+        "throws": "L",
+        "hr9": 2.15,
+        "goao": 1.02,
+        "era": "7.98",
+        "whip": "1.70",
+        "ip": 58.2,
+        "k9": "7.52",
+        "bb9": "2.45",
+        "sample_size": 1,
+        "profile": "gb/HR-PRONE"
+      },
+      "weather": {
+        "temp_f": 84,
+        "wind_speed_mph": 6,
+        "wind_from": "ENE",
+        "wind_effect": "OUT-CROSS",
+        "humidity_pct": 46,
+        "pressure_hpa": 1017,
+        "precip_pct": 2,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": 31,
+        "runs_pct": 18
+      },
+      "odds": {
+        "total": 11.5,
+        "total_price": -106,
+        "spread": null,
+        "home_ml": 116,
+        "away_ml": -143,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "OVER",
+        "edge_runs": 2.0,
+        "confidence": "HIGH",
+        "reason": "\ud83d\udd34 STRONG OVER \u2014 WindOut expects 13.5 runs, line is 11.5"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "LAA",
+      "home": "ATH",
+      "stadium": "Sutter Health Park",
+      "game_time": "6:40 PM PT",
+      "signal": "hitter_strong",
+      "hr_edge": 30,
+      "runs_edge": 20,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Sutter Health Park",
+        "city": "West Sacramento, CA",
+        "lf_ft": 330,
+        "cf_ft": 403,
+        "rf_ft": 325
+      },
+      "away_pitcher": {
+        "name": "Jos\u00e9 Soriano",
+        "throws": "R",
+        "hr9": 0.93,
+        "goao": 1.43,
+        "era": "2.79",
+        "whip": "1.23",
+        "ip": 87.0,
+        "k9": "9.52",
+        "bb9": "4.34",
+        "sample_size": 1,
+        "profile": "GB"
+      },
+      "home_pitcher": {
+        "name": "Jeffrey Springs",
+        "throws": "L",
+        "hr9": 2.16,
+        "goao": 0.73,
+        "era": "5.13",
+        "whip": "1.32",
+        "ip": 79.0,
+        "k9": "7.75",
+        "bb9": "2.62",
+        "sample_size": 1,
+        "profile": "fb/HR-PRONE"
+      },
+      "weather": {
+        "temp_f": 75,
+        "wind_speed_mph": 10,
+        "wind_from": "SW",
+        "wind_effect": "OUT",
+        "humidity_pct": 51,
+        "pressure_hpa": 1011,
+        "precip_pct": 0,
+        "source": "open-meteo"
+      },
+      "edge": {
+        "hr_pct": 30,
+        "runs_pct": 20
+      },
+      "odds": {
+        "total": 10.0,
+        "total_price": -105,
+        "spread": null,
+        "home_ml": -157,
+        "away_ml": 140,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "OVER",
+        "edge_runs": 1.6,
+        "confidence": "HIGH",
+        "reason": "\ud83d\udd34 STRONG OVER \u2014 WindOut expects 11.6 runs, line is 10.0"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "MIN",
+      "home": "AZ",
+      "stadium": "Chase Field",
+      "game_time": "6:45 PM PT",
+      "signal": "hitter_strong",
+      "hr_edge": 13,
+      "runs_edge": 5,
+      "roof": "closed",
+      "stadium_profile": {
+        "name": "Chase Field",
+        "city": "Phoenix, AZ",
+        "lf_ft": 330,
+        "cf_ft": 401,
+        "rf_ft": 334
+      },
+      "away_pitcher": {
+        "name": "Connor Prielipp",
+        "throws": "L",
+        "hr9": 0.91,
+        "goao": 0.73,
+        "era": "5.26",
+        "whip": "1.35",
+        "ip": 49.2,
+        "k9": "9.24",
+        "bb9": "3.62",
+        "sample_size": 1,
+        "profile": "fb"
+      },
+      "home_pitcher": {
+        "name": "Michael Soroka",
+        "throws": "R",
+        "hr9": 0.67,
+        "goao": 0.82,
+        "era": "3.11",
+        "whip": "1.07",
+        "ip": 81.0,
+        "k9": "8.78",
+        "bb9": "1.89",
+        "sample_size": 1,
+        "profile": "BAL/HR-SUPPRESS"
+      },
+      "weather": {
+        "temp_f": 72,
+        "wind_speed_mph": 0,
+        "wind_from": "N",
+        "wind_effect": "ROOF CLOSED",
+        "humidity_pct": 50,
+        "pressure_hpa": 1013,
+        "precip_pct": 0,
+        "source": "roof_closed"
+      },
+      "edge": {
+        "hr_pct": 13,
+        "runs_pct": 5
+      },
+      "odds": {
+        "total": 8.5,
+        "total_price": -112,
+        "spread": null,
+        "home_ml": -170,
+        "away_ml": 144,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "OVER",
+        "edge_runs": 0.6,
+        "confidence": "LOW",
+        "reason": "\u26aa Slight over lean \u2014 9.1 vs 8.5"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "BAL",
+      "home": "LAD",
+      "stadium": "Dodger Stadium",
+      "game_time": "7:10 PM PT",
+      "signal": "hitter",
+      "hr_edge": 4,
+      "runs_edge": -3,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Dodger Stadium",
+        "city": "Los Angeles, CA",
+        "lf_ft": 330,
+        "cf_ft": 395,
+        "rf_ft": 330
+      },
+      "away_pitcher": {
+        "name": "Trey Gibson",
+        "throws": "R",
+        "hr9": 1.69,
+        "goao": 1.72,
+        "era": "5.91",
+        "whip": "1.59",
+        "ip": 21.1,
+        "k9": "5.06",
+        "bb9": "5.48",
+        "sample_size": 1,
+        "profile": "GB/HR-PRONE"
+      },
+      "home_pitcher": {
+        "name": "Roki Sasaki",
+        "throws": "R",
+        "hr9": 1.59,
+        "goao": 1.09,
+        "era": "4.76",
+        "whip": "1.33",
+        "ip": 62.1,
+        "k9": "9.24",
+        "bb9": "3.47",
+        "sample_size": 1,
+        "profile": "gb/HR-PRONE"
+      },
+      "weather": {
+        "temp_f": 72,
+        "wind_speed_mph": 8,
+        "wind_from": "WSW",
+        "wind_effect": "OUT",
+        "humidity_pct": 65,
+        "pressure_hpa": 995,
+        "precip_pct": 0,
+        "source": "open-meteo"
+      },
+      "edge": {
+        "hr_pct": 4,
+        "runs_pct": -3
+      },
+      "odds": {
+        "total": 9.5,
+        "total_price": 100,
+        "spread": null,
+        "home_ml": -206,
+        "away_ml": 173,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 9.7 \u2248 market 9.5"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "BOS",
+      "home": "SEA",
+      "stadium": "T-Mobile Park",
+      "game_time": "7:10 PM PT",
+      "signal": "pitcher",
+      "hr_edge": -5,
+      "runs_edge": -4,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "T-Mobile Park",
+        "city": "Seattle, WA",
+        "lf_ft": 331,
+        "cf_ft": 401,
+        "rf_ft": 326
+      },
+      "away_pitcher": {
+        "name": "Ranger Suarez",
+        "throws": "L",
+        "hr9": 0.51,
+        "goao": 0.76,
+        "era": "3.21",
+        "whip": "1.17",
+        "ip": 70.0,
+        "k9": "9.00",
+        "bb9": "2.70",
+        "sample_size": 1,
+        "profile": "fb/HR-SUPPRESS"
+      },
+      "home_pitcher": {
+        "name": "Bryce Miller",
+        "throws": "R",
+        "hr9": 1.03,
+        "goao": 0.73,
+        "era": "1.54",
+        "whip": "0.71",
+        "ip": 35.0,
+        "k9": "9.26",
+        "bb9": "1.29",
+        "sample_size": 1,
+        "profile": "fb"
+      },
+      "weather": {
+        "temp_f": 80,
+        "wind_speed_mph": 4,
+        "wind_from": "N",
+        "wind_effect": "IN",
+        "humidity_pct": 65,
+        "pressure_hpa": 1013,
+        "precip_pct": 1,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": -5,
+        "runs_pct": -4
+      },
+      "odds": {
+        "total": 6.5,
+        "total_price": -120,
+        "spread": null,
+        "home_ml": -130,
+        "away_ml": 110,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "SKIP",
+        "edge_runs": 0,
+        "confidence": "NONE",
+        "reason": "\u26aa No value \u2014 WindOut 6.3 \u2248 market 6.5"
+      },
+      "delay_risk": "LOW"
+    }
+  ],
+  "plays": [
+    {
+      "away": "LAA",
+      "home": "ATH",
+      "stadium": "Sutter Health Park",
+      "game_time": "6:40 PM PT",
+      "signal": "hitter_strong",
+      "hr_edge": 30,
+      "runs_edge": 20,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Sutter Health Park",
+        "city": "West Sacramento, CA",
+        "lf_ft": 330,
+        "cf_ft": 403,
+        "rf_ft": 325
+      },
+      "away_pitcher": {
+        "name": "Jos\u00e9 Soriano",
+        "throws": "R",
+        "hr9": 0.93,
+        "goao": 1.43,
+        "era": "2.79",
+        "whip": "1.23",
+        "ip": 87.0,
+        "k9": "9.52",
+        "bb9": "4.34",
+        "sample_size": 1,
+        "profile": "GB"
+      },
+      "home_pitcher": {
+        "name": "Jeffrey Springs",
+        "throws": "L",
+        "hr9": 2.16,
+        "goao": 0.73,
+        "era": "5.13",
+        "whip": "1.32",
+        "ip": 79.0,
+        "k9": "7.75",
+        "bb9": "2.62",
+        "sample_size": 1,
+        "profile": "fb/HR-PRONE"
+      },
+      "weather": {
+        "temp_f": 75,
+        "wind_speed_mph": 10,
+        "wind_from": "SW",
+        "wind_effect": "OUT",
+        "humidity_pct": 51,
+        "pressure_hpa": 1011,
+        "precip_pct": 0,
+        "source": "open-meteo"
+      },
+      "edge": {
+        "hr_pct": 30,
+        "runs_pct": 20
+      },
+      "odds": {
+        "total": 10.0,
+        "total_price": -105,
+        "spread": null,
+        "home_ml": -157,
+        "away_ml": 140,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "OVER",
+        "edge_runs": 1.6,
+        "confidence": "HIGH",
+        "reason": "\ud83d\udd34 STRONG OVER \u2014 WindOut expects 11.6 runs, line is 10.0"
+      },
+      "delay_risk": "LOW"
+    },
+    {
+      "away": "PIT",
+      "home": "COL",
+      "stadium": "Coors Field",
+      "game_time": "6:40 PM MT",
+      "signal": "hitter_strong",
+      "hr_edge": 31,
+      "runs_edge": 18,
+      "roof": "open",
+      "stadium_profile": {
+        "name": "Coors Field",
+        "city": "Denver, CO",
+        "lf_ft": 347,
+        "cf_ft": 415,
+        "rf_ft": 350
+      },
+      "away_pitcher": {
+        "name": "Bubba Chandler",
+        "throws": "R",
+        "hr9": 1.06,
+        "goao": 0.62,
+        "era": "4.76",
+        "whip": "1.38",
+        "ip": 68.0,
+        "k9": "9.00",
+        "bb9": "5.43",
+        "sample_size": 1,
+        "profile": "FB"
+      },
+      "home_pitcher": {
+        "name": "Kyle Freeland",
+        "throws": "L",
+        "hr9": 2.15,
+        "goao": 1.02,
+        "era": "7.98",
+        "whip": "1.70",
+        "ip": 58.2,
+        "k9": "7.52",
+        "bb9": "2.45",
+        "sample_size": 1,
+        "profile": "gb/HR-PRONE"
+      },
+      "weather": {
+        "temp_f": 84,
+        "wind_speed_mph": 6,
+        "wind_from": "ENE",
+        "wind_effect": "OUT-CROSS",
+        "humidity_pct": 46,
+        "pressure_hpa": 1017,
+        "precip_pct": 2,
+        "source": "wttr.in"
+      },
+      "edge": {
+        "hr_pct": 31,
+        "runs_pct": 18
+      },
+      "odds": {
+        "total": 11.5,
+        "total_price": -106,
+        "spread": null,
+        "home_ml": 116,
+        "away_ml": -143,
+        "book": "FanDuel"
+      },
+      "value": {
+        "direction": "OVER",
+        "edge_runs": 2.0,
+        "confidence": "HIGH",
+        "reason": "\ud83d\udd34 STRONG OVER \u2014 WindOut expects 13.5 runs, line is 11.5"
+      },
+      "delay_risk": "LOW"
+    }
+  ],
+  "big_dogs": [],
+  "summary": {
+    "total_games": 14,
+    "games_with_weather": 14,
+    "games_with_odds": 14,
+    "value_plays": 2
+  }
+}

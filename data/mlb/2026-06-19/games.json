@@ -533,11 +533,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 2,
+      "home_score": 16,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -1165,11 +1167,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 3,
+      "home_score": 4,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -1811,11 +1815,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 0,
+      "home_score": 5,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -2430,11 +2436,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 3,
+      "home_score": 4,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -3059,11 +3067,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 2,
+      "home_score": 5,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -3710,11 +3720,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 2,
+      "home_score": 3,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -4374,11 +4386,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 7,
+      "home_score": 9,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -5011,11 +5025,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 3,
+      "home_score": 9,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -5676,11 +5692,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 5,
+      "home_score": 6,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -6300,11 +6318,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 3,
+      "home_score": 4,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -6936,11 +6956,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 11,
+      "home_score": 12,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -7586,11 +7608,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 5,
+      "home_score": 9,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -8206,11 +8230,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 5,
+      "home_score": 6,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {
@@ -8853,11 +8879,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 6,
+      "home_score": 2,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-20T07:54:25Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "covers_lines": {

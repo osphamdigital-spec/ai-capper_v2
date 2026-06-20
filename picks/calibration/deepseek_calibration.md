@@ -1,11 +1,11 @@
 # Calibration — deepseek (MLB)
-Generated: 2026-06-19 13:55 UTC
+Generated: 2026-06-20 08:07 UTC
 
 CALIBRATION — DEEPSEEK
 
-Across your last 55 graded bet(s): record 21-34, unit-weighted ROI -27.3% (-27.89u on 102u risked).
-Average stated edge: 9.4 pts (some values estimated from pre-Jun-10 word labels).
-Closing line value (pick price vs closing snapshot): avg +17.9 cents over 55 bet(s). Positive CLV = buying better than closing price on average.
+Across your last 58 graded bet(s): record 22-36, unit-weighted ROI -30.3% (-33.00u on 109u risked).
+Average stated edge: 9.8 pts (some values estimated from pre-Jun-10 word labels).
+Closing line value (pick price vs closing snapshot): avg +17.2 cents over 58 bet(s). Positive CLV = buying better than closing price on average.
 (2 bet(s) pending grading.)
 
 ---
@@ -14,13 +14,13 @@ Closing line value (pick price vs closing snapshot): avg +17.9 cents over 55 bet
 
 | Metric | Value |
 |---|---|
-| Graded bets | 55 |
-| Record (W-L-P) | 21-34-0 |
-| Units risked | 102 |
-| Units net | -27.8939 |
-| Unit-weighted ROI | -27.3% |
-| Avg stated edge | 9.4 pts |
-| Avg CLV (cents) | +17.9 |
-| CLV sample | 55 bets |
+| Graded bets | 58 |
+| Record (W-L-P) | 22-36-0 |
+| Units risked | 109 |
+| Units net | -33.0010 |
+| Unit-weighted ROI | -30.3% |
+| Avg stated edge | 9.8 pts |
+| Avg CLV (cents) | +17.2 |
+| CLV sample | 58 bets |
 | Voids | 0 |
 | Ungraded bets | 2 |

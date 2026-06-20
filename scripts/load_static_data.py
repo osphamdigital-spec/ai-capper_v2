@@ -404,7 +404,14 @@ def load_bullpen() -> dict:
             "era":  _parse_float(row[14]),
             "sv":   _parse_float(row[15]),
             "hld":  _parse_float(row[16]),
+            # Shutdowns / Meltdowns — raw high-leverage outcome counts
+            # (SD = appearance with WPA >= 0.06; MD = appearance with WPA <= -0.06).
+            # A strong raw proxy for how often a reliever is used in, and wins/loses,
+            # leverage spots. Ship raw — each model draws its own conclusion.
+            "sd":   _parse_float(row[17]),
+            "md":   _parse_float(row[18]),
             # Rate stats
+            "swstr": _parse_pct(row[19]),
             "k_pct": _parse_pct(row[20]),
             "bb9":   _parse_float(row[23]),
         }

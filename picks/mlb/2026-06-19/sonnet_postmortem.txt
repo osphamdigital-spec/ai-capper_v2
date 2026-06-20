@@ -1,0 +1,259 @@
+# POST-MORTEM REVIEW — MLB 2026-06-19
+
+---
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** No Best Bet declared (no 3-unit play identified)
+**RESULT:** N/A — no play staked at 3 units
+
+**WOULD YOU STILL DECLARE NO BEST BET? YES**
+
+The two staked bets were both 1-unit plays correctly sized below the 3-unit threshold. LAD RL was blocked by Gibson's [sm] flag (a structural rule, not a judgment call). NYY ML carried only a 5.4-point gap well below the 9-point 3u threshold. Both wins are gratifying but neither pre-game profile changed enough to have justified 3 units. The no-Best-Bet call was correct process.
+
+**IF A GUN WERE HELD TO MY HEAD — RETROACTIVE BEST BET:** LAD RL -105 was the cleanest structural edge on the slate: an alarming pitcher profile (K-BB% of -2.3%, 6 ER in 4.1 IP last start) against an elite offense at a price that implied only ~51% cover probability while my model put it near 60%. The [sm] block was real and the 1-unit sizing was correct, but if forced to name the sharpest pre-game edge available, this was it.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** CIN @ NYY
+**PICK:** NYY ML -268 (1u)
+**RESULT:** WIN (NYY 5, CIN 0)
+
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+
+**WOULD-BET-AGAIN:** YES / SAME STAKE
+
+**WHY:** Every pre-game signal aligned. Lowder's profile (xFIP 4.92, SIERA 5.10, Stf+ 85, K-BB% 5.8%, L3 showing 3.0/3.0/5.2 IP) was a genuine weakness against a hot NYY lineup (RS/G 5.2, L10 6.3, wRC+ context strong). Schlittler's blended 3.58 xFIP gave NYY a clean pitching edge too. The 5.4-point gap at -268 (vig-removed ~70.6% vs. my 76%) was real. CIN bullpen missing Santillan. The shutout is a better result than the typical expected outcome (~4-5 NYY runs projected), but the directional call was sound. The NYY lineup coming in with confirmed avg wRC+ of 89.4 vs. RHP (see lineup section below) was slightly softer than the team-level wRC+ 121 assumption suggested — yet they still shut out CIN cleanly, which means Schlittler and the bullpen did more work than Lowder's failure. Result is within the distribution I expected.
+
+**SOURCE:** Lowder AGG xFIP 4.92 / SIERA 5.10 / Stf+ 85 / L3 IP log; NYY RS/G L10 6.3; CIN T1 unavailable (Santillan)
+
+---
+
+**GAME:** BAL @ LAD
+**PICK:** LAD RL -1.5, -105 (1u)
+**RESULT:** WIN (LAD 6, BAL 5)
+
+**PROCESS:** CORRECT PROCESS / BAD VARIANCE
+
+**WOULD-BET-AGAIN:** YES / SAME STAKE
+
+**WHY:** The pre-game edge was genuine and well-constructed. Gibson's K-BB% of -2.3%, L3 showing 4.1 IP / 6 ER / 5 walks, xFIP 5.31, SIERA 5.81 against a LAD lineup with Ohtani 172, Freeman 151, Rushing 145 wRC+ vs. RHP was exactly the mismatch I identified. The RL cover at -105 implied ~51.2% probability; I estimated ~60%. The final score of 6-5 means LAD won the ML but failed to cover the -1.5 RL. The [sm] flag on Gibson was the correct structural reason to cap at 1 unit rather than going higher — that cap did not cost me money here, but the sizing discipline was right given the uncertainty. The near-miss on the RL cover (6-5 instead of 7-5 or better) is pure variance. BAL's confirmed lineup (avg wRC+ 108.3 vs. RHP) was stronger than the typical BAL assumption might imply, which partially explains their ability to score 5 runs even against an elite LAD bullpen. I would make this exact bet again.
+
+**SOURCE:** Gibson K-BB% -2.3%, L3 4.1/6ER/5BB; LAD RS/G L10 6.3; LAD T1/T2/T3 fully fresh (Scott 2.32, Klein 2.12, Vesia 2.59)
+
+---
+
+### PART B — PASSES AND LEANS WHERE I NOW IDENTIFY A SPECIFIC PRE-GAME EDGE I MISSED
+
+---
+
+**GAME:** TOR @ CHC
+**YOUR CALL:** PASS
+**FINAL RESULT:** CHC 16, TOR 2
+
+**WHAT YOU MISSED:** The outcome (CHC winning 16-2) is dramatic, but I need to ask whether any pre-game signal pointed to this margin. The pre-game data I had: CHC wRC+ 106 vs. RHP, TOR wRC+ 113 vs. LHP (slight TOR offensive edge), starters with nearly identical AGG xFIP 3.67-3.68, Ben Brown L14 flagged [sm] at 10.1 IP. The 16-run output is an extreme outlier that no reasonable model would predict as a distribution center. The market priced CHC at -122 (roughly 55% win prob), which I assessed as fair. There is no pre-game data point that predicted a 14-run margin. My PASS was correct.
+
+**SOURCE:** CHC wRC+ 106 vs. RHP; starters near-identical xFIP; Ben Brown L14 [sm] limiting confidence in starter ceiling/floor
+**WOULD THIS HAVE BECOME A BET? NO** — the margin is variance, not a missed edge. The market correctly identified this as a coin-flip-adjacent game (55/45), and a 14-run blowout falls in the tail of the distribution. Chasing this result would be outcome-based reasoning.
+
+---
+
+**GAME:** CHW @ DET
+**YOUR CALL:** LEAN DET ML (no stake)
+**FINAL RESULT:** DET 4, CHW 3
+
+**WHAT YOU MISSED:** Nothing — this is a case where my lean was directionally correct, the outcome confirmed the lean, and my decision not to stake was driven by a ~3-4 point gap below my 5-point gate. The key pre-game edge was real (Skubal AGG xFIP 2.68, Fedde AGG xFIP 5.32, CWS wRC+ 91 vs. LHP), but the market had already priced most of it in. A 4-3 DET win is exactly within the expected distribution for a game where DET is legitimately favored. This is a correct no-bet: I identified the directional lean accurately, acknowledged the gap was sub-threshold, and did not stake. No missed edge — just a lean that proved correct without clearing the betting threshold.
+
+**SOURCE:** Skubal xFIP 2.68 vs. Fedde xFIP 5.32; CWS wRC+ 91 vs. LHP; ~3-4pt gap below 5pt gate
+**WOULD THIS HAVE BECOME A BET? NO** — the gap genuinely did not clear my threshold. DET -164 or wherever the market was had priced most of this mismatch. Would not change the call.
+
+---
+
+**GAME:** MIL @ ATL
+**YOUR CALL:** LEAN MIL ML (no stake)
+**FINAL RESULT:** ATL 3, MIL 2
+
+**WHAT YOU MISSED:** My lean was wrong directionally (MIL lost) but I need to evaluate the pre-game process. The lean toward MIL was driven by Misiorowski's extraordinary profile (blended xFIP ~2.21, Stf+ 121, L3 of 7.0/0/8/0; 7.0/0/8/3; 9.0/0/15/0). The counter-argument I identified was the elite ATL bullpen (Iglesias 1.16, Suarez 0.59, Lee 1.14) constraining MIL's late-game win probability. The confirmed ATL lineup (avg wRC+ 109.0 vs. RHP) was significantly stronger than the expected order suggested — notably Matt Olson (146), Drake Baldwin (132), Ozzie Albies (111), Dominic Smith (118), Jorge Mateo (122). The expected order had Michael Harris (CF/L) and did not include several of these contributors. However, even with the confirmed ATL lineup, Misiorowski's profile suggested suppression. ATL winning 3-2 is within normal variance for a game where I estimated MIL at ~64% win probability with a ~3.5-4pt gap — a coin flip within uncertainty bands. The no-stake decision was correct given the sub-5pt gap. The lean being wrong directionally is consistent with a 36% probability outcome.
+
+**SOURCE:** Misiorowski blended xFIP ~2.21, Stf+ 121; ATL bullpen ERA sub-1.20 across three arms; my estimated 64% MIL win prob vs. 60.5% market
+**WOULD THIS HAVE BECOME A BET? NO** — gap was 3.5-4 points, below the 5-point gate. Outcome is within expected variance.
+
+---
+
+**GAME:** SD @ TEX
+**YOUR CALL:** PASS
+**FINAL RESULT:** TEX 9, SD 7
+
+**WHAT YOU MISSED:** TEX winning is consistent with my directional assessment (I noted the pitching mismatch but found it priced in). The 16-run combined total (9+7) on a line of 7.0-7.5 is a significant over. Pre-game, I noted the Under at +103 on 7.0 didn't clear my 1.0-run gate. With a combined 16 runs, the over would have won easily. The question is whether any pre-game signal pointed to this. Vásquez AGG xFIP 5.28 / SIERA 5.16 / xERA 6.55 with L14 [sm] (9.0 IP) was genuinely alarming — I noted this. TEX Globe Life is Runs 83 (pitcher-friendly), which argued against the over. The unknown roof status was a genuine data gap. Vásquez's profile was bad enough that the over might have been a reasonable lean even at 7.0, but: (1) the park factor argued against it, (2) the roof was unknown, (3) the market had already moved from 7.5 to 7.0 absorbing some Vásquez discount. The 16-run result is a tail outcome that falls within Vásquez's bad distribution (xERA 6.55) combined with deGrom having an off night or a short outing. I don't think a confident Over lean was supportable pre-game given park + roof uncertainty.
+
+**SOURCE:** Vásquez xFIP 5.28, SIERA 5.16, xERA 6.55; TEX Runs park factor 83; roof status unknown; line moved 7.5→7.0 already
+**WOULD THIS HAVE BECOME A BET? NO** — park factor (Runs 83) and unknown roof status are genuine constraints. The over hitting big is partly Vásquez being Vásquez and partly variance beyond what the park factor suggests.
+
+---
+
+**GAME:** BOS @ SEA
+**YOUR CALL:** PASS
+**FINAL RESULT:** BOS 6, SEA 2
+
+**WHAT YOU MISSED:** BOS winning on the road at SEA is a meaningful result worth examining. Pre-game, I estimated SEA win probability at ~54% vs. vig-removed ~55% — nearly identical, so no ML edge. The question is whether BOS +122 (or wherever they were priced) represented value I missed. Miller's blended xFIP 3.66 with excellent recent form (5.0/0, 6.0/0, 8.0/2) was the SEA edge; Suarez blended 3.57 was nearly identical. Park factor Runs 86 (pitcher-friendly). BOS winning 6-2 means Suarez outperformed Miller on this day. But the pre-game profiles were nearly identical, and a 54/46 estimated split gives the away team a ~46% win probability — BOS winning at implied ~45% is within normal distribution. This is variance, not a missed edge. No pre-game signal specifically identified BOS as the value side.
+
+**SOURCE:** Miller blended xFIP 3.66 vs. Suarez blended 3.57; SEA home edge ~54% estimated vs. ~55% market; no meaningful gap
+**WOULD THIS HAVE BECOME A BET? NO** — near-identical starters with a sub-1pt gap. Correct pass.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: CHW @ DET — LEAN HOME (ML)
+
+**EXPECTED vs ACTUAL:** Key changes — Luisangel Acuna and Junior Perez dropped from expected CHW order; Andrew Benintendi and Tristan Peters entered. Colt Keith dropped from expected DET order; Matt Vierling entered at #3.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different at the bottom half of CHW (Benintendi wRC+ 27 vs. LHP, Peters wRC+ -40 vs. LHP replacing expected contributors); DET also changed with Vierling (wRC+ 29 vs. RHP) replacing what was expected to be a stronger middle-order bat.
+
+**WOULD CHANGE?** No change — lean stays lean.
+
+**PRE-GAME REASON:** The CHW confirmed lineup (avg wRC+ 89.2 vs. LHP) is directionally consistent with my pre-game assumption of wRC+ 91 vs. LHP — the confirmed data didn't move the needle materially. The late additions of Benintendi (27) and Peters (-40) confirm CHW's lineup weakness vs. LHP, which already supported the lean. DET's loss of Colt Keith (expected contributor) and insertion of Vierling (29 vs. RHP) slightly weakens their projected run total but doesn't change the dominant Skubal vs. Fedde mismatch. A ~3-4pt gap was still insufficient for a full bet — confirming the no-stake was correct even with lineup data.
+
+**UMPIRE WOULD CHANGE? NO** — Rob Drake is a slightly below-average strike zone ump by most metrics but nothing in his profile would shift a sub-threshold lean to a staked bet. No pre-game reason to change.
+
+---
+
+### GAME: CHW @ DET — LEAN UNDER
+
+**EXPECTED vs ACTUAL:** Same lineup changes as above (Benintendi, Peters replacing Acuna/Perez on CHW; Vierling replacing Keith on DET).
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** CHW confirmed avg wRC+ 89.2 vs. LHP is consistent with pre-game assumption. DET confirmed avg wRC+ 94.1 vs. RHP is reasonable but weaker than a full-strength lineup would suggest (Vierling 29 is a drag).
+
+**WOULD CHANGE?** No change — lean under stays lean.
+
+**PRE-GAME REASON:** The CHW lineup being even weaker at the bottom (Peters at -40 wRC+ vs. LHP) reinforces the Under lean — fewer expected CHW runs against Skubal. DET's lineup being slightly weaker (Vierling 29 replacing Keith) reduces DET projected runs slightly as well. The combined effect marginally increases the Under lean but not enough to cross my ~0.6-run gap into a staked total. The Under at 7.5 vs. my ~6.8-7.2 estimate remains within the lean range only.
+
+**UMPIRE WOULD CHANGE? NO** — Rob Drake's zone tendencies don't specifically favor Under outcomes at a magnitude that would change a sub-threshold lean.
+
+---
+
+### GAME: CIN @ NYY — BET HOME ML -268 (1u)
+
+**EXPECTED vs ACTUAL:** CIN: Noelvi Marte dropped, Edwin Arroyo entered; Eugenio Suarez dropped to 6th (from 5th expected). NYY: Jose Caballero dropped, Anthony Volpe entered; Shohei Ohtani absent from confirmed lineup entirely (major change).
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — most notably Ohtani's absence from the NYY lineup. Pre-game, I cited Ohtani (172 wRC+) as a key component of the NYY offensive threat. His absence represents a meaningful reduction in projected NYY run output. NYY confirmed avg wRC+ 89.4 vs. RHP is significantly below the team-level wRC+ assumptions I used (RS/G 5.2, L10 6.3, wRC+ context citing Ohtani 172, Freeman 151).
+
+**WOULD CHANGE?** Bet → lower stake (or bet → pass borderline)
+
+**PRE-GAME REASON:** Ohtani's absence is a legitimate pre-game-knowable reason to reduce confidence. With Ohtani (172 wRC+ vs. RHP) out, the NYY lineup is materially weaker than what I priced. The confirmed NYY avg wRC+ of 89.4 vs. RHP — with Dominguez at 64, Goldschmidt at 75, Volpe at 63, Escarra at 3 — is a dramatically softer lineup than the expected order (which included Ohtani at cleanup or leadoff). My 76% NYY win probability was built partly on that elite offensive threat. With Ohtani out, the true NYY win probability might be closer to 70-72%, which still beats the vig-removed ~70.6% but with a very narrow margin — potentially sub-threshold. If I had known Ohtani was out pre-game, I would have reduced the stake to 0.5u or possibly passed entirely depending on confirmation timing.
+
+The win happened anyway (5-0) because Lowder was genuinely terrible and Schlittler/bullpen were excellent — validating the pitching side of the edge — but the lineup-based component of my win probability estimate was built on false assumptions. The process had a flaw that got corrected by the pitcher mismatch.
+
+**UMPIRE WOULD CHANGE? NO** — Chris Segal has no notable zone tendency that would shift a 1u bet at these prices.
+
+---
+
+### GAME: CIN @ NYY — LEAN OVER
+
+**EXPECTED vs ACTUAL:** Same lineup changes as above. Ohtani absent is the key change.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — Ohtani out, NYY lineup avg wRC+ 89.4.
+
+**WOULD CHANGE?** No change — lean over correctly stayed a lean (and proved wrong directionally; game went Under with a 5-0 final). Ohtani's absence would have further reduced my Over lean (fewer expected NYY runs), not increased it. The Under at -113 was flagged as suspect/absent; the result of 5 total runs confirms the Over lean was incorrect directionally. The correct call in hindsight would have been lean Under, but I couldn't stake Under anyway (flagged as suspect). This is acceptable — I correctly didn't stake the Over and the lean proved wrong.
+
+**UMPIRE WOULD CHANGE? NO**
+
+---
+
+### GAME: MIL @ ATL — LEAN AWAY (ML)
+
+**EXPECTED vs ACTUAL:** MIL: Christian Yelich added to leadoff (not in expected order at all — major addition); Brice Turang moved to 3rd; Andrew Vaughn, Blake Perkins, Cooper Pratt, Joey Ortiz all dropped; David Hamilton, Jake Bauers, Sal Frelick, Gary Sánchez shuffled in. ATL: Michael Harris dropped; Jorge Mateo added; order restructured. Notably, expected ATL "Michael Harris (CF/L)" is absent.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different on both sides. MIL confirmed avg wRC+ 108.9 vs. LHP is stronger than a typical lineup projection would suggest — Yelich (128), Chourio (182), Sánchez (195) are meaningful contributors vs. LHP. ATL confirmed avg wRC+ 109.0 vs. RHP is solid and roughly consistent with ATL's general offensive strength.
+
+**WOULD CHANGE?** No change — lean away stays lean.
+
+**PRE-GAME REASON:** The MIL confirmed lineup is somewhat stronger vs. LHP (Sánchez 195, Chourio 182, Yelich 128) than what the expected order suggested. This marginally supports the MIL lean. However, Pérez is a RHP facing this confirmed MIL lineup, and MIL's wRC+ vs. RHP (not LHP) would be the relevant split — the LHP splits here may not all apply. The ATL lineup being solidly at 109.0 vs. RHP (the relevant split against Misiorowski, a RHP) means ATL can hit Misiorowski, which is a concern. Michael Harris being absent is neutral (Jorge Mateo replaces at comparable wRC+ 122). Net effect: slightly increases confidence in MIL offense but doesn't move the gap from ~3.5-4pts to ≥5pts. Lean stays lean, no stake.
+
+**UMPIRE WOULD CHANGE? NO** — Tom Hanahan has no specific zone tendency that shifts this calculus.
+
+---
+
+### GAME: MIL @ ATL — LEAN UNDER
+
+**EXPECTED vs ACTUAL:** Same lineup changes as above.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** MIL confirmed 108.9 avg wRC+ vs. LHP (but RHP splits matter for Pérez game); ATL confirmed 109.0 vs. RHP.
+
+**WOULD CHANGE?** No change — lean under stays lean (and proved correct directionally: 2+3=5 total runs vs. 7.5 line).
+
+**PRE-GAME REASON:** The ATL confirmed lineup at 109.0 avg wRC+ vs. RHP facing Misiorowski is solid but Misiorowski's blended xFIP ~2.21 with Stf+ 121 was the dominant factor. The result (5 total runs vs. 7.5 line) is consistent with the Under lean. The confirmed MIL lineup having some strong LHP hitters (Sánchez 195 vs. LHP) would apply to ATL's Pérez who is a RHP — so those splits don't carry over directly. The ~0.7-run lean Under gap was real and directionally correct. Cannot stake given the sub-1.0-run gate.
+
+**UMPIRE WOULD CHANGE? NO**
+
+---
+
+### GAME: PIT @ COL — LEAN UNDER
+
+**EXPECTED vs ACTUAL:** PIT: Bryan Reynolds, Marcell Ozuna, Esmerlyn Valdez all dropped; Ryan O'Hearn, Henry Davis, Tyler Callihan, Jake Mangum added. Callihan wRC+ 370 vs. LHP is an extreme small-sample outlier. COL: Troy Johnston, Kyle Karros mostly consistent; Cole Carrigg (269) and Braxton Fulford (169) appear in confirmed lineup — both small-sample outlier wRC+ figures.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — PIT dropped Reynolds, Ozuna (key RHB power hitters); COL confirmed lineup features multiple extreme wRC+ figures that are almost certainly small-sample artifacts (Carrigg 269, Fulford 169, Callihan 370). COL confirmed avg wRC+ 121.4 vs. RHP is inflated by these likely-small-sample outliers.
+
+**WOULD CHANGE?** No change — lean under stays lean (though the Coors extreme-park rule already capped this at lean-max).
+
+**PRE-GAME REASON:** PIT losing Reynolds and Ozuna from the expected order (both significant RHB hitters) reduces PIT projected run total, supporting the Under. COL's extreme wRC+ figures (Carrigg 269, Fulford 169) are almost certainly small-sample outliers, consistent with my pre-game flag about Coors making model estimates "nearly meaningless." The 4-3 final (7 total runs) vs. the 11.5 line is a massive Under result — but under my Coors rule I cannot stake regardless. The lean direction was correct; the magnitude of Under result (11.5 vs. actual 7) is driven partly by PIT's weakened lineup and partly by Coors variance in the suppressive direction (which Chandler's recent L14 xFIP 3.09 had hinted at as a possibility).
+
+**UMPIRE WOULD CHANGE? NO** — Clint Vondrak has no specific zone tendency relevant here.
+
+---
+
+### GAME: BAL @ LAD — BET HOME RL -1.5 -105 (1u)
+
+**EXPECTED vs ACTUAL:** BAL: Rutschman dropped, Tyler O'Neill and Coby Mayo entered; Adley Rutschman absent (major change for BAL). LAD: Ohtani absent (!); Kyle Tucker moved to leadoff; Tommy Edman added (wRC+ N/A — likely small sample or unavailable); Shohei Ohtani out.
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different on both sides. Most notably: Ohtani (172 wRC+ vs. RHP — my key cited LAD weapon) is absent from the confirmed LAD lineup. LAD confirmed avg wRC+ 112.5 is still above average but missing its most dangerous bat. BAL losing Rutschman (a stabilizing force) and gaining Coby Mayo (32 wRC+ vs. RHP) and Tyler O'Neill (105) is a mixed change — Mayo is significantly below expectation.
+
+**WOULD CHANGE?** Bet → lower stake
+
+**PRE-GAME REASON:** Ohtani's absence is a legitimate and material pre-game-knowable reduction in LAD projected offense. I specifically cited "Ohtani 172" as a key LAD bat in my RL reasoning. With Ohtani out, the LAD lineup is meaningfully weaker at projected runs. However, the dominant factor in the RL pick was Gibson's disastrous profile (K-BB% -2.3%, SIERA 5.81, xFIP 5.31, last start 4.1/6ER/5BB) — that starter-quality mismatch remains even without Ohtani. Sasaki's blended 3.78 xFIP was still solid. The RL barely covered (6-5), and with Ohtani in the lineup the LAD run total might have been 7-8 for a cleaner cover. With Ohtani out, I would have reduced confidence in the RL and perhaps staked 0.5u instead of 1u. Still a bet — the Gibson angle was too strong to pass — but smaller.
+
+BAL losing Rutschman and inserting Coby Mayo (32 wRC+ vs. RHP) is a partial offset — BAL's offense becomes slightly weaker too, which could mean Gibson allowing fewer than expected against a weakened BAL lineup as well. Mixed effects, but the key signal remains: Gibson is a liability regardless.
+
+**UMPIRE WOULD CHANGE? NO** — Nestor Ceja has no notable zone tendency that shifts this bet.
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** DATA / SOURCE: Team-level lineup confirmation pre-game (confirmed starters + lineup card availability timing)
+**ITEM:** Confirmed lineup data (specifically star player scratches like Ohtani) earlier in the pre-game window. Both the NYY and LAD decisions were affected by Ohtani's absence — a fact that was presumably available 30-60 minutes before first pitch but was not in my prompt. Knowing Ohtani was sitting for both games would have reduced the NYY ML stake and the LAD RL stake.
+**WHICH GAME(S):** CIN @ NYY; BAL @ LAD
+**WOULD HAVE CHANGED A BET? YES** — NYY ML from 1u to 0.5u or pass; LAD RL from 1u to 0.5u
+**WHY:** Ohtani is among the most impactful individual bats in baseball. His wRC+ 172 vs. RHP (NYY) and presumed similar profile vs. RHP (LAD) represent roughly +15 to +20 projected runs per game above a replacement-level at-bat, concentrated in lineup slots 1-4. His absence materially reduces win probability estimates that depend on offensive run support.
+
+---
+
+**TYPE:** STAT / SOURCE: Umpire zone metrics (K%, BB%, run-scoring tendency by umpire)
+**ITEM:** Home plate umpire zone tendency data (specifically: calls per game above/below average, over/under tendency, zone size expressed in run differential vs. average game). None of today's games featured an umpire whose tendencies I had data to evaluate.
+**WHICH GAME(S):** All games — Rob Drake (CHW/DET), Chris Segal (CIN/NYY), Tom Hanahan (MIL/ATL), Clint Vondrak (PIT/COL), Nestor Ceja (BAL/LAD)
+**WOULD HAVE CHANGED A BET? MAYBE**
+**WHY:** In close edge decisions (DET lean at 3-4pt gap, LAD RL at 8.8pt gap), umpire zone tendency can push a sub-threshold lean to a bet or increase/decrease confidence on totals. Specifically, if Rob Drake tends to expand the strike zone (increasing K rates, reducing walks), that would have incrementally supported the CHW/DET Under lean — though likely not enough to cross the gap. For COL/PIT, umpire tendency at Coors is particularly relevant because a tight zone dramatically affects run totals in a park already at Runs 130.
+
+---
+
+**TYPE:** DATA / SOURCE: Confirmed starting pitcher status (inning limit / pitch count restrictions on openers or recently returned pitchers)
+**ITEM:** For starters with [sm] L14 flags due to recent returns from injury or roster moves (specifically Imai in HOU, Springs in ATH, Gibson in LAD), any pre-game information about pitch count limitations or innings caps would substantially change the analysis. A starter who is on a 60-pitch limit behaves more like an opener, changing bullpen dependency calculations.
+**WHICH GAME(S):** CLE @ HOU (Imai); LAA @ ATH (Springs); BAL @ LAD (Gibson — though Gibson's profile was bad enough that innings limits wouldn't have changed the pick)
+**WOULD HAVE CHANGED A BET? MAYBE**
+**WHY:** For HOU, knowing Imai had a confirmed pitch limit would have changed the bullpen availability analysis (Hader already unavailable) and potentially moved the HOU game from PASS toward a more definitive ML edge for either side. For ATH, Springs' pitch limit would have changed the LAA @ ATH total estimate significantly.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** Implement a "star player availability flag" as a semi-required pre-game data point for any game featuring a top-15 MLB offensive player (by wRC+, OPS+, or fWAR) where that player has recent injury/maintenance risk. Specifically: if a player I cite by name in my pick reasoning (e.g., "Ohtani 172 wRC+") is absent from the confirmed lineup, the pick stake should automatically decrease by 50% (from 1u to 0.5u) or the gap estimate should be recalculated with that player removed before locking a stake.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** My current method uses team-level metrics (RS/G, wRC+ aggregate, rdiff) as primary offensive inputs. For most teams, this is appropriate — a 108 wRC+ lineup is roughly consistent regardless of which specific players are present on a given day. But for teams with one transcendent offensive player (Ohtani for LAD, Judge for NYY when healthy, etc.), the team-level metrics are heavily inflated by that one player. When that player rests or is injured, the team's actual offensive projection for that specific game can be 15-25% lower than the season aggregate suggests. My method does not currently have a systematic trigger to re-evaluate when a named key player is absent.
+
+**EVIDENCE FROM TODAY (pre-game data, not outcome):** I cited "Ohtani 172 wRC+ vs. RHP" in the LAD RL reasoning. The NYY team-level RS/G 5.2 / L10 6.3 was used without flagging

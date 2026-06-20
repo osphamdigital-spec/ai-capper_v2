@@ -1,0 +1,199 @@
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass due to missing advanced metrics for Newcomb and a small-sample L14 for Melton, leaving no reliable baseline to establish an edge. Total is an automatic pass because the best available Over/Under prices are flagged as suspect and stale.
+DATA GAP: Sean Newcomb missing AGG xFIP and SIERA; TT prices flagged stale.
+
+---
+
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass as both starters have small-sample L14 data and NYY's -200 moneyline offers zero value. Total is an automatic pass because the Over price is flagged as suspect and stale, rendering the market absent.
+DATA GAP: TT Over price flagged stale.
+
+---
+
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass as both starters carry small-sample L14 tags and the pricing on CHC lacks the requisite 4.0% edge gate. Total is an automatic pass because both Over and Under prices are flagged as suspect and stale.
+DATA GAP: TT prices flagged stale.
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass because SD's platoon advantage and bullpen edge are not enough to overcome Eovaldi and TEX's pricing at +116. Total is an automatic pass because Globe Life Field's 83 Park Runs factor falls below my <85 extreme variance threshold, triggering a mandatory fade.
+DATA GAP: Thunderstorm roof status unconfirmed at game time.
+
+---
+
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.0
+TOTAL PRICE: -113
+TOTAL UNITS: 3
+TOTAL EDGE: 4.19 runs
+REASON: Side is a pass as ATL's pitching and bullpen advantages are fully priced into the -128 line, yielding no edge. Total is a 3-unit Over because the elite AGG xFIPs of Harrison and Sale trigger a massive baseline addition in my model, which compounded with strong platoon wRC+ marks pushes my projection to 11.2 runs against a mispriced 7.0 market line.
+DATA GAP: none
+
+---
+
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass because SF's superior wRC+ against RHP and better bullpen do not generate a 4.0% edge against the +122 price. Total is an automatic pass because the Under price is flagged as suspect and stale, making the market untradeable.
+DATA GAP: TT Under price flagged stale.
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.0
+TOTAL PRICE: -105
+TOTAL UNITS: 3
+TOTAL EDGE: 2.20 runs
+REASON: Side is a pass as TB's pitching edge is accurately reflected in the -117 moneyline, leaving no mathematical gap. Total is a 3-unit Over because both starters possess strong AGG xFIPs that inflate my baseline projection, and Tropicana Field's 106 run factor pushes my estimated total to 10.2 runs against an 8.0 line.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass because CLE's +124 price does not offer enough value against HOU's superior bullpen and Arrighetti's solid SIERA. Total is a pass as my projected total of 8.53 runs sits virtually identical to the 8.5 market line, resulting in an edge well below the 0.50 run gate.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass as PHI's heavy favorite price at -180 offers no value despite Sánchez's elite SIERA and Stf+ metrics. Total is an automatic pass because the Over price is flagged as suspect and stale, rendering the market absent.
+DATA GAP: TT Over price flagged stale.
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass as PIT's heavy favorite price at -200 offers no mathematical edge despite Skenes' dominance. Total is an automatic pass because Coors Field's 130 Park Runs factor exceeds my >115 extreme variance threshold, making the environment unmodelable.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass as ATH's win probability is fully priced into the -164 line, yielding no edge for LAA at +148. Total is an automatic pass because Sutter Health Park's 121 Park Runs factor exceeds my >115 extreme variance threshold, triggering a mandatory fade.
+DATA GAP: none
+
+---
+
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass because MIN's +115 price does not provide the requisite 4.0% edge against Bradley's solid but not elite SIERA. Total is an automatic pass because the Under price is flagged as suspect and stale, making the market untradeable.
+DATA GAP: TT Under price flagged stale.
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.0
+TOTAL PRICE: -112
+TOTAL UNITS: 3
+TOTAL EDGE: 1.99 runs
+REASON: Side is a pass as LAD's heavy favorite price at -250 offers zero value despite Yamamoto's elite metrics. Total is a 3-unit Over driven by the strong average xFIP of the starters and BAL's potent 124 wRC+ against RHP, pushing my projection near 10 runs in a 104 run park environment against an 8.0 line.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side is a pass as SEA's pitching advantage is fully priced into the -119 line, leaving no edge for BOS. Total is an automatic pass because the Under price is flagged as suspect and stale, rendering the market absent.
+DATA GAP: TT Under price flagged stale.
+
+---
+
+## SLATE SUMMARY
+BEST BET: MIL @ ATL Over 7.0 (3 Units)
+WHY THIS ONE: The elite AGG xFIPs of Harrison and Sale trigger a massive baseline addition in my totals model, which compounded with strong platoon wRC+ marks creates a >4 run gap against a severely mispriced 7.0 market line.

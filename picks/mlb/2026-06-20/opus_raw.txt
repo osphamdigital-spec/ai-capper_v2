@@ -1,0 +1,201 @@
+I'll work through each game applying my method. Most games will pass — I bet projection-vs-perception gaps, not winners.
+
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Melton has only 25.2 AGG IP with weak peripherals (4.82 SIERA, 7.8% K-BB%, Stf+ 97) and a [sm] L14 — never anchors a play. Newcomb's 2.76 ERA is reliever-deployment-flavored. TT prices flagged stale so totals market is absent, and my number sits near the 9.0 line anyway. No clean read either way.
+DATA GAP: Melton full-sample stabilization; non-stale total price.
+
+---
+
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Warren's AGG SIERA 3.76/16.7% K-BB% is solid, and CIN's 89 wRC+ vs RHP is weak, but the market has NYY priced fully at -205 — no edge in laying that. NYY lineup not posted, so no 3u read possible. My xR lands near 9.0 vs posted 9.5 (Over price stale), under my gate. No actionable spot.
+DATA GAP: NYY confirmed lineup; non-stale Over price.
+
+---
+
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Two weak arms (Corbin 4.75 SIERA, Rea 5.00 SIERA with CHC T1 pen 0/2 fresh) point Over, but lineups unconfirmed and TT prices flagged stale — totals market absent. My xR ~9.4 vs 9.5 is inside the gate regardless. No staked play.
+DATA GAP: Confirmed lineups; non-stale total prices.
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Under 7.5
+TOTAL PRICE: -105
+TOTAL UNITS: LEAN
+TOTAL EDGE: 0.5 runs
+REASON: Two strong arms (Buehler AGG 4.05 SIERA but trending up, Eovaldi 3.59 SIERA/17.1% K-BB%) in a pitcher-friendly park (Runs 83, roof likely closed 92), both pens rested. My xR builds to ~7.0 vs posted 7.5. That's a 0.5-run Under lean — real but below my 0.8 gate, so zero stake, logged for CLV.
+DATA GAP: Roof status confirmation; confirmed lineups.
+
+---
+
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Two ace-level lefties (Harrison 3.11 SIERA, Sale 3.09 SIERA/116 Stf+) and two elite bullpens point Under, but MIL bats a 136 wRC+ vs LHP and ATL pen is fully fresh while MIL's T3 is 0/5. My xR ~7.0 lands right on the posted 7.0. No edge. Price on either ML reflects a true coinflip-ish game with no perception gap.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: McDonald has only 42.2 AGG IP with a 6.2 BB/9 L14 [sm] command flag — never anchors. Meyer's 2.75 ERA sits well above his 3.67 SIERA, a mild regression flag, but MIA offense is league-average vs RHP. My xR ~7.9 vs 8.0 is inside the gate. Under TT price flagged stale. No play.
+DATA GAP: Confirmed lineups; non-stale Under price; roof status.
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Seymour has only 6.0 AGG IP and 38.1 thin season IP — a small-sample arm that caps any total at LEAN per my fade rules. Cavalli is solid (3.71 SIERA, 16.8% K-BB%) but lineups unconfirmed. Trop is a HR park (119) but TB offense is muted (5.3% Brl). My xR ~7.9 vs 8.0, no edge.
+DATA GAP: Seymour stabilized profile; confirmed lineups.
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Arrighetti's 2.57 ERA vs 4.56 AGG SIERA is a classic regression flag I'd lean against, but CLE's offense is ice-cold (L10RS 2.9, 84 wRC+ vs LHP issue is moot — they're RHP-side). Cantillo AGG 4.62 SIERA is mediocre. My xR ~8.3 vs 8.5, inside gate. The ERA-darling regression isn't enough vs a weak CLE bat to justify HOU side value at -143.
+DATA GAP: Confirmed lineups; roof status.
+
+---
+
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Under 7.5
+TOTAL PRICE: -110
+TOTAL UNITS: LEAN
+TOTAL EDGE: 0.6 runs
+REASON: Sánchez is genuinely elite (2.66 SIERA, 24.3% K-BB%, 118 Stf+) and NYM bats only 92 wRC+ vs LHP; Peralta is solid (4.11 SIERA). My xR builds to ~6.9 vs posted 7.5 even in a hitter park (104 Runs). That's a 0.6-run Under lean — below my 0.8 gate, zero stake. PHI ML is fully priced at -189; no side edge.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors — automatic LEAN cap on totals per my fade rules; variance too high to stake either way. Skenes is dominant (2.83 SIERA) and would normally drag a total down, but Sugano (5.18 SIERA, 80 Stf+) plus altitude plus 16 mph wind out makes the number untrustworthy. PIT ML fully priced at -210; no side value.
+DATA GAP: Confirmed lineups (Coors caps regardless).
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Ureña's 2.60 ERA vs 4.60 AGG SIERA (9.3% K-BB%, 5.2 BB/9 L14) is a strong regression-fade signal, and Ginn (4.27 SIERA, 91 Stf+) is also mediocre in a hitter park (121 Runs). Both point Over, but my xR ~9.6 vs posted 9.5 is essentially on the line — no run-gap edge. Extreme park caps confidence anyway.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: This is my favorite spot type — Gallen's 5.35 ERA looks ugly but his 4.73 AGG SIERA is the real number, while Bradley (3.94 SIERA, 108 Stf+) is the better arm and is priced as the underdog/near-pick. The market already has this near pick'em (+111/-130), so the perception gap is mostly priced. My side edge on Bradley computes to ~3 pts, under my 4.0 gate. xR ~8.9 vs 9.0, no total edge.
+DATA GAP: Confirmed lineups; roof status.
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Yamamoto (3.31 SIERA, 20.1% K-BB%) is excellent and T.Rogers (5.86 ERA / 4.81 SIERA) is weak, but LAD is fully priced at -261 — no side value, and the -1.5 RL at -121 doesn't beat my fair number. BAL bats 124 wRC+ vs RHP keeps the Under honest; my xR ~7.8 vs 8.0, inside gate. No play.
+DATA GAP: Confirmed lineups.
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Under 7.5
+TOTAL PRICE: -125
+TOTAL UNITS: LEAN
+TOTAL EDGE: 0.5 runs
+REASON: T-Mobile is the most pitcher-friendly park here (Runs 86), both offenses are weak (BOS 92 wRC+ vs RHP, SEA 79 vs LHP), and Hancock (3.59 SIERA) is fine despite an ugly L14 [sm]. Early's 5.8 BB/9 L14 command flag adds some Over risk. My xR ~7.0 vs 7.5, but Under price at -125 shades my gate up to 1.0 — a 0.5-run lean stays zero stake.
+DATA GAP: Confirmed lineups; roof status.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No side cleared my 4.0-pt gate with the heavy favorites already fully priced, and no total reached even my 0.8-run staking threshold — three Under leans (SD/TEX, NYM/PHI, BOS/SEA) all landed in the 0.5-0.6 run noise band. An empty slate is a valid slate; I pass freely rather than manufacture volume.

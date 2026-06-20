@@ -1,0 +1,126 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: NONE / WHY: No pre-game edge on the board clearly separated enough for a 3u designation. Even the eventual win on BAL/LAD over was only a 1.1-run edge and was correctly sized as 1u. / SOURCE: original projections and stake rules
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: MIL @ ATL  
+PICK: MIL ML -163  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game case was real: I had a meaningful starter edge to Milwaukee, a strong Milwaukee split vs LHP, and I explicitly discounted the play to 1u because Atlanta's rested bullpen created late variance. That is exactly the kind of setup where a loss does not invalidate the bet. What I would change is not the side, but my confidence in the size of the edge: fair -217 may have been too aggressive given lineup uncertainty and Atlanta's run-prevention floor.  
+SOURCE: original projection; MIL 136 wRC+ vs LHP note; Atlanta bullpen caution in original writeup
+
+---
+
+GAME: STL @ KC  
+PICK: STL ML -111  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game signal was clear and specific: St. Louis had the stronger offensive split vs RHP and the cleaner bullpen outlook. That is a valid basis for a small road favorite. Nothing in the pre-game information provided here shows that KC should have been favored instead. If anything, the later confirmed lineups would have strengthened the original STL case rather than weakened it.  
+SOURCE: original projection; STL 163 wRC+ vs RHP note; bullpen edge note; confirmed lineup table
+
+---
+
+GAME: BAL @ LAD  
+PICK: Over 9.5 -105  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: This was the cleanest wager on the card. The pre-game thesis was independent and specific: both lineups projected well vs RHP, Gibson was the weaker arm in the matchup, and Baltimore still had enough offensive quality to contribute against Sasaki. The bet won for the same reasons it was made, not because of some random outlier input I did not model.  
+SOURCE: original 10.6-run projection; lineup split assumptions vs RHP; pitcher quality notes
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: BOS @ SEA  
+YOUR CALL: PASS  
+FINAL RESULT: BOS 6 @ SEA 2  
+WHAT YOU MISSED: I likely under-acted on the Boston side. The pre-game signal I already had was meaningful: Seattle carried just a 79 wRC+ vs LHP, and I also noted that Boston was live behind Suárez. That is a reasonably stable split-based edge, and I may have over-respected park suppression and Miller's form relative to Seattle's sustained weakness in this handedness matchup.  
+SOURCE: original note: “Suárez plus Seattle's 79 wRC+ vs LHP make Boston live”  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Earlier access to confirmed starting lineups  
+WHICH GAME(S): MIL @ ATL, STL @ KC, BAL @ LAD  
+WOULD HAVE CHANGED A BET? YES  
+WHY: STL likely would have moved to a stronger position; BAL over may have stayed a bet but with more precise sizing; MIL probably stays a bet but with a tighter projection band.
+
+---
+
+TYPE: DATA  
+ITEM: Reliable pre-first-pitch roof status  
+WHICH GAME(S): SD @ TEX, CLE @ HOU, MIN @ AZ, SF @ MIA, BOS @ SEA  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I explicitly passed several totals because run environment hinged on roof assumptions. That is actionable information, especially on 7.0/8.0-style totals.
+
+---
+
+TYPE: STAT / SOURCE  
+ITEM: Home-plate umpire tendency feed integrated into pregame prompt  
+WHICH GAME(S): BAL @ LAD, BOS @ SEA, CHW @ DET  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: On tight totals, zone profile can be enough to move a pass to a small play or reduce stake. It would not override core projections, but it matters near threshold.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Reduce confidence in large moneyline edges when they are driven heavily by team-level split stats and the lineup is still unconfirmed; cap those projections until confirmations arrive.  
+WHAT IN MY METHOD COULD BE SHARPER: I am probably too willing to convert strong team split numbers into a full fair-price edge before seeing the actual nine. The right process is not “never bet early,” but “apply a lineup-uncertainty haircut when the edge is mostly offensive and platoon-based.”  
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): Both MIL and STL bets were justified largely by offense-vs-handedness separation plus bullpen notes, and both were flagged with “unconfirmed lineups” as a data gap. That combination says the read may have been directionally right while the numeric edge may have been overstated pre-confirmation.  
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: MIL @ ATL — YOUR CALL: BET away ML -163 (1u)
+
+EXPECTED vs ACTUAL: key change — MIL added Yelich and changed several lower/mid-order names; ATL order also changed with no Michael Harris and Jorge Mateo entering  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): N/A  
+UMPIRE WOULD CHANGE? no — pre-game reason: no specific pre-game zone tendency supplied that would have moved a side projection enough
+
+Short note: Even though the names changed, the team-level assumption held. Milwaukee still projected as a strong enough lineup vs LHP, and Atlanta still looked competent vs RHP. The confirmation does not invalidate the original side.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: BET away ML -111 (1u)
+
+EXPECTED vs ACTUAL: key change — STL actual lineup remained strong and deep; KC actual lineup came in materially weaker than the expected version, especially around the middle/bottom  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→higher stake  
+PRE-GAME REASON: The confirmed platoon gap was even larger than assumed. STL's actual lineup averaged 126.6 wRC+ vs RHP, while KC's came in at 87.4, with several weaker KC bats replacing more threatening expected names. That would have increased the offensive-separation component of my projection.  
+UMPIRE WOULD CHANGE? no — pre-game reason: no supplied umpire tendency strong enough to alter side sizing
+
+---
+
+### GAME: BAL @ LAD — YOUR CALL: BET over 9.5 -105 (1u)
+
+EXPECTED vs ACTUAL: key change — BAL missed some expected star presence; LAD also differed notably from the expected top-end star configuration  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→lower stake  
+PRE-GAME REASON: The over case still stands because both confirmed lineups remained above average vs RHP, but the absence/change of some elite expected bats would trim the top-end scoring ceiling a bit. That likely reduces the projection margin somewhat without fully removing the over.  
+UMPIRE WOULD CHANGE? no — pre-game reason: no specific pre-game zone tendency supplied, and the core total edge was lineup/pitcher driven
+
+---
+
+If you want, I can also turn this into a **scorecard format** with:
+- record by bet type,
+- estimated CLV/process grade,
+- and a short “what I learned from this slate” summary.

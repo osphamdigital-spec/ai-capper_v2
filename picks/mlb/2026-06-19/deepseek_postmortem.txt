@@ -1,0 +1,91 @@
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** MIL ML 3u  
+**RESULT:** LOSS  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** NO  
+**IF NO — NEW BEST BET:** MIA ML / **WHY:** With the confirmed lineups now available pre‑game, the massive platoon edge assumed for MIL (136 wRC+ vs LHP) shrank to 108.9 – a material downgrade. The MIA edge (20.4 pts) remained intact with confirmed lineups and would have claimed the top slot. **SOURCE:** Confirmed lineups from MLB API.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** SF @ MIA  
+**PICK:** MIA ML  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD‑BET‑AGAIN:** YES  
+**WHY:** Roupp’s low‑strikeout profile facing a Miami lineup that still posted a 99.8 wRC+ vs RHP (close to expectation) gave Miami a meaningful win‑probability edge; the 20.4‑pt gap held up after confirmed lineup review.  
+**SOURCE:** Pre‑game model, confirmed lineups.
+
+---
+
+**GAME:** MIL @ ATL  
+**PICK:** MIL ML  
+**RESULT:** LOSS  
+**PROCESS:** INCORRECT TEAM STRENGTH  
+**WOULD‑BET‑AGAIN:** NO  
+**WHY:** The pre‑game reasoning relied on MIL’s “massive platoon edge (136 wRC+ vs LHP)”. The confirmed lineup posted only a 108.9 average wRC+ vs LHP, removing the primary basis for the 21.1‑pt edge. This was a pre‑game‑knowable fact (lineups released before first pitch).  
+**SOURCE:** Confirmed lineups – MIL batting order vs LHP (wRC+ data).
+
+---
+
+**GAME:** PIT @ COL  
+**PICK:** Over 11.5  
+**RESULT:** LOSS  
+**PROCESS:** INCORRECT TEAM STRENGTH  
+**WOULD‑BET‑AGAIN:** LOWER STAKE (or PASS, depending on recalculated edge)  
+**WHY:** The projected 15.14‑run total assumed PIT’s expected order featuring Reynolds, Ozuna, and Valdez. The actual PIT lineup vs LHP carried a 93.7 wRC+ with multiple sub‑100 hitters, drastically reducing projected runs. The pre‑game confirmed lineup would have cut the edge below the 3‑unit threshold.  
+**SOURCE:** Confirmed lineups – PIT batting order vs LHP.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE‑GAME EDGE YOU MISSED
+NONE – all passes were driven by slate‑limit prioritization of the three largest edges; no new pre‑game signal emerges as a clear missed bet.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+**TYPE:** DATA / STAT / SOURCE  
+**ITEM:** Confirmed starting lineups with individual platoon‑split wRC+ (vs LHP / vs RHP) before final bet placement.  
+**WHICH GAME(S):** MIL @ ATL, PIT @ COL, and any future slate.  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** In MIL@ATL, the confirmed lineup delivered a 108.9 wRC+ vs LHP instead of the modelled 136, collapsing the win‑probability edge. In PIT@COL, PIT’s 93.7 wRC+ vs LHP severely undercut the projected total. Having this data pre‑bet would have led to a lower‑stake or pass on both plays.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When a bet’s edge heavily depends on a platoon advantage (or any team‑strength assumption), wait for confirmed lineups. Re‑calculate the edge using the actual lineup’s platoon‑split numbers. If the confirmed lineup degrades the edge below the original threshold, scale down the stake or pass.  
+**WHAT IN MY METHOD COULD BE SHARPER:** Differentiate between “expected” and “confirmed” lineups – expected lineups from Rotowire are not always reliable, and a lineup change is a pre‑game signal that should adjust the model, not an after‑the‑fact excuse.  
+**EVIDENCE FROM TODAY (pre‑game data only):** MIL’s confirmed lineup (108.9 wRC+ vs LHP) vs the modelled 136 – a drop of ~27 points; PIT’s confirmed lineup (93.7 wRC+ vs LHP) vs the expected order with Reynolds/Ozuna/Valdez – estimated drop of 30+ points. Both turned large‑edge plays into marginal ones.  
+**CONFIDENCE:** MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: SF @ MIA — YOUR CALL: BET home ML -112 (1u)
+**EXPECTED vs ACTUAL:** lineups roughly matched — a few order tweaks, but core bats present.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected.  
+**WOULD CHANGE?** no change  
+**UMPIRE WOULD CHANGE?** no — Jacob Metz offers no extreme zone tendencies that would re‑weight the model.
+
+---
+
+### GAME: MIL @ ATL — YOUR CALL: BET away ML -163 (3u)
+**EXPECTED vs ACTUAL:** key changes — Vaughn, Perkins, Pratt, Ortiz out; Yelich, Hamilton, Bauers, Frelick in.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different — wRC+ vs LHP drops from modelled ~136 to actual 108.9.  
+**WOULD CHANGE?** bet → pass (edge would no longer rank among the slate’s strongest).  
+**PRE‑GAME REASON:** Plattoon advantage collapsed — the two biggest drags, Turang (52 wRC+) and Frelick (14 wRC+), were unknowable until the confirmed lineup posted, but that lineup was available before first pitch.  
+**UMPIRE WOULD CHANGE?** no.
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: BET over 11.5 -106 (3u)
+**EXPECTED vs ACTUAL:** key changes — Reynolds, Ozuna, Valdez, Cook out; O’Hearn, Davis, Callihan, Mangum in.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different — PIT’s avg wRC+ vs LHP falls from an estimated 130‑ish to 93.7.  
+**WOULD CHANGE?** bet → lower stake (the projected total would shrink, reducing the edge below 3‑unit confidence).  
+**PRE‑GAME REASON:** Over‑reliance on expected power bats that never played; the confirmed PIT lineup was extremely weak vs LHP, which was knowable pre‑game once lineups were released.  
+**UMPIRE WOULD CHANGE?** no.

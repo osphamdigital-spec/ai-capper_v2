@@ -1,0 +1,200 @@
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Newcomb has no xFIP/SIERA in the data — only ERA and IP — making it impossible to run a calibrated win-probability model on the away starter. The total prices are flagged suspect on both sides, eliminating that market. Without a reliable pitcher anchor for CHW, I cannot reach my 5-point edge gate even directionally.
+DATA GAP: Newcomb career xFIP/SIERA entirely missing; total prices stale.
+
+---
+
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: NYY ML at -200 (vig-removed ~65.1%) versus my estimate of ~68% produces only a ~2.9 pt gap — below my 5-point gate. Warren (3.71 AGG xFIP) has a decisive advantage over Abbott (4.92 xFIP) and the NYY offense is significantly hotter (L10RS 6.2, wRC+ 118 vs LHP), but the market has already priced this well. The Over price is flagged suspect, so the total market is effectively absent on that side; my model produces a strong Over projection (~11.5-12 runs vs the 9.5 line) but I cannot act on it without a valid Over price.
+DATA GAP: NYY confirmed lineup is empty; Over total price stale/suspect.
+
+---
+
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starters are mediocre (Corbin AGG xFIP 4.60, Rea AGG xFIP 5.06) with [sm]-flagged L14 samples offering nothing stable. CHC's closers (0/2 T1 available) are a meaningful late-inning liability, but TOR's T3 bullpen is also thin (2/6). The market's ~56% implied for CHC is close enough to my estimate that I can't reach the 5-point gate. Both total prices are stale/suspect, eliminating that market entirely.
+DATA GAP: Both total prices flagged; lineups unconfirmed; Rea L14 only 4.2 IP [sm] is essentially no data.
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Eovaldi (AGG 3.54 xFIP, L14 blending to ~3.92) and Buehler (AGG 3.77 xFIP, L14 [sm] anecdotal, use AGG) are virtually matched in starting quality. SD's bullpen is elite and fresh (Miller 0.90 ERA), giving an edge in late innings, but TEX home advantage absorbs most of that. My win estimate for TEX is ~53%, against a ~55.5% vig-removed implied — a 2.5 pt shortfall from my gate. The 7.5 total in a pitcher-friendly park (83 run factor, likely roof closed) is reasonable; no run-gap edge emerges.
+DATA GAP: Roof status for Globe Life Field unknown (8% rain); lineups unconfirmed.
+
+---
+
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.0
+TOTAL PRICE: -113
+TOTAL UNITS: 1
+TOTAL EDGE: 2.78 runs
+REASON: Side: Sale (2.30 ERA, 3.09 AGG xFIP, Stf+ 116) and Harrison (2.47 ERA, 3.16 AGG xFIP, Stf+ 106) are nearly equal elite arms, and the market's ~56% implied for ATL is within ~1-2 pts of my estimate — below gate. Total: the 7.0 line is set for two elite pitchers, but my model produces ~9.8 runs projected. MIL's offense is historically strong against LHP (wRC+ 136 vs LHP, key Vaughn 314, Chourio 182), driving significant expected run production even against Sale. Warm temperature (87.5°F, +0.26 run adjustment) and park factor (98) are mild contributors. Bullpen adjustment is neutral (MIL's depleted T3 doesn't trigger the T1/T2 mechanical penalty). Gap is 2.78 runs Over vs the 7.0 line, comfortably clearing my 1.0-run gate. Both starters carry [sm] L14 flags capping this at 1 unit.
+DATA GAP: Both starters [sm] on L14 (Sale 5.2 IP, Harrison 8.1 IP); lineups unconfirmed.
+
+---
+
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Meyer (3.72 AGG xFIP) and McDonald (3.49 AGG xFIP) are similar starting quality — both [sm]-flagged on L14, making the starter anchors imprecise. MIA implied ~58.5% vs my estimate ~55-57% — sub-5 pt gap, no side edge. The Under price is flagged suspect. Over at -102 is available, but with moderate drizzle (19% rain) and unknown roof status, my rain threshold adjustment (+0.3 runs required edge) applies, and with both starters at ~3.5-3.7 xFIP in a moderate park, I cannot generate a 1.3-run Over gap.
+DATA GAP: Under total price stale; roof status at loanDepot unknown; both starters [sm] on L14.
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Seymour's AGG is built on only 6.0 IP — effectively the [sm] problem extends to the entire pitching record, not just L14. I cannot anchor a reliable win probability on a starter with 6 IP of career data. Cavalli (3.89 AGG xFIP, 74.2 IP) is a solid enough arm but with TB's home dominance (25-9) and the TB closer (Baker, 1.91 ERA) fully fresh against a taxed TB setup corps, this is close to a coin flip. Market's ~54% for TB is consistent with my estimate — no edge.
+DATA GAP: Seymour career sample 6.0 IP total — essentially no stable baseline; lineups unconfirmed.
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Arrighetti (AGG 4.73 xFIP, L14 3.63 blending to ~4.29) faces Cantillo (AGG 4.53, L14 [sm] anecdotal). CLE is ice-cold (L10: 3-7, L10RS 2.9) and Cade Smith (their closer) is unavailable. HOU implied ~57.8% vs my estimate ~57-59% — at most 1-2 pts of gap, well under gate. Total 8.5 in a neutral park: with Arrighetti trending better and HOU's fresh bullpen (Hader, King available), I can't generate a 1.0-run gap Over or Under.
+DATA GAP: Roof status at Minute Maid unknown (23% rain); lineups unconfirmed; Cantillo L14 [sm].
+
+---
+
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sánchez (blended 2.57 xFIP after weighting, Stf+ 118) is one of the best arms in baseball and is pitching against a weak NYM lineup (wRC+ 92 vs LHP). Market implies PHI ~64.3% (vig-removed from -180); my estimate is ~66-67% — a 2-3 pt gap, below gate. The RL note (+115 for PHI -1.5) requires a ~52% cover estimate, and with PHI's setup corps depleted (Kerkering and Alvarado taxed), I'm skeptical of the blowout scenario. The Over price is stale/suspect; Under is -110, but two weak offenses and Sánchez's elite profile in a moderate park push my estimate right around 7.5 — not enough gap.
+DATA GAP: Over price stale; lineups unconfirmed; PHI T2 setup corps both taxed.
+
+---
+
+## GAME: PIT @ COL
+PICK: PIT ML
+PRICE: -200
+UNITS: 1
+EDGE: 7.2 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Skenes (L14/AGG blended: 2.62 xFIP, K-BB% 25.5%, 12.0 IP at 40/60 weighting) is the best available pitcher on this slate by a wide margin. Sugano is a 5.09 AGG xFIP arm with Stf+ 80 — plus a +0.1 run penalty from below-average stuff — facing a PIT lineup with wRC+ 133 vs RHP and key bats (Callihan 235, Lowe 162). My win probability estimate for PIT is ~72% vs a vig-removed market implied of ~65.1% — a 7.2 pt gap, above my 5-pt gate. The gap is supported by both the starter matchup edge and PIT's superior bullpen depth. I cannot back the 3u level because Sugano carries an [sm] flag on his L14, failing condition 1. The PIT total (Over 10.5) projects to a run gap of ~5.0 runs, but the slate ceiling is already filled by this play as the third bet; the total does not qualify under ceiling constraints.
+DATA GAP: Lineups unconfirmed; Coors weather amplifies variance significantly; roof is open (no retractable structure).
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 9.5
+TOTAL PRICE: -110
+TOTAL UNITS: 1
+TOTAL EDGE: 4.99 runs
+REASON: Side: Both teams are near-.500 with overlapping mediocre starting pitching. LAA at 30-47 with a worse overall profile doesn't generate a reliable 5-pt edge as an underdog at +148, and ATH at -164 with depleted T1/T2 closers (1/3 T1 available) creates concern about late-game reliability even as favorites. PASS the side. Total: Sutter Health Park carries a 121 runs factor — one of the most hitter-friendly venues in this data. Ureña blends to 4.77 xFIP (12.0 IP, 40% L14 weighting; L14 xFIP 5.29). Ginn uses AGG (4.08 xFIP, L14 [sm] set to zero). ATH offense is scorching (L10RS 7.0); my combined model projects ~14.5 runs before bullpen fatigue adjustment. ATH T1 closers 2/3 unavailable → +0.30 run penalty per my method (capped). Final adjusted estimate ~14.5 vs 9.5 posted line: gap of ~5.0 runs Over. Gap clearly clears the 1.0-run gate. Ginn's [sm] flag on L14 caps this at 1 unit — not eligible for 3u per my hard filter on starter flags.
+DATA GAP: Lineups unconfirmed; Ginn L14 [sm]; ATH park factor 121 increases variance considerably.
+
+---
+
+## GAME: MIN @ AZ
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starters carry [sm] L14 flags with thin supporting data (Bradley 11.0 IP, Gallen 11.1 IP) — AGG anchors are the only signal. AGG xFIP gap (Bradley 4.03 vs Gallen 4.63) favors MIN slightly, but vig-removed AZ implied at ~56.5% vs my estimate ~51-53% for AZ yields only a 3-6 pt potential gap in MIN's favor — and I cannot reach clean 5-pt conviction with two [sm] starters. The Under price is stale/suspect. The Over at -107 is available, but roof status at 100.9°F likely means closed (PF 104), making weather adjustment zero and leaving me with limited run projection upside — I cannot identify a 1.0-run gap Over from this data.
+DATA GAP: Under price stale; roof status unknown (Chase Field at 101°F almost certainly closed); both starters L14 [sm].
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Yamamoto (blended 3.13 xFIP, 16.1 IP L14 at 40/60 weighting) is elite, and Rogers (4.83 AGG xFIP, L14 [sm] anecdotal) is not. LAD implied ~71.4% (vig-removed from -250) vs my estimate of ~73-74% — a gap of only ~2 pts, well below gate. The RL at -121 for -1.5 is more efficient, but requires my cover estimate to exceed ~54.8%; with a dominant mismatch, I estimate ~58%, producing a gap of ~3 pts — still below gate. Market has priced this matchup correctly. Total: 8.0 posted; both offenses decent (LAD 5.2 RS/G, BAL 4.6) against Yamamoto suppression — my estimate lands close to 8.0 with Dodger Stadium's massive HR factor (135) creating volatility but a neutral Runs factor (104) keeping the projection near market.
+DATA GAP: Lineups unconfirmed; Rogers L14 [sm].
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Hancock (3.65 AGG xFIP, L14 [sm] 9.0 IP) vs Early (4.33 AGG xFIP, L14 [sm] 9.1 IP) — both L14 samples are small and unreliable, so I'm anchored entirely on AGG. SEA implied ~55.6% (vig-removed from -119) vs my estimate of ~55-57% for SEA — essentially no gap. BOS is 3-7 over L10 but Hancock's L14 [sm] deterioration (5.30 xFIP L14) is discarded per method. T-Mobile Park's 86 runs factor is the most pitcher-friendly environment on this slate; the Under price is stale/suspect, and my Over estimate (~7.2 runs) barely exceeds the 7.5 line in the wrong direction at +109 — not a qualifying edge.
+DATA GAP: Under total price stale; both starters L14 [sm]; SEA closer Muñoz heavily used (3 appearances last 6 days).
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+
+All three qualifying bets (MIL-ATL Over, PIT ML, LAA-ATH Over) are capped at 1 unit by [sm] starter flags, preventing any play from clearing the four-condition 3u gate. The PIT ML at a 7.2-pt edge is the highest-conviction play on the slate but Sugano's [sm] L14 flag triggers condition 1 failure. Slate ceiling reached at 3 bets (1u each).

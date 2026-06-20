@@ -1,0 +1,96 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET -- no 3-unit play identified today
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+**GAME:** SF @ MIA  
+**PICK:** SF ML (+104)  
+**RESULT:** LOSS (3-4)  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** San Francisco held a clear offensive advantage (actual 117.7 team wRC+ vs RHP compared to Miami's 99.8 wRC+). At plus-money, getting SF against a bottom-tier Miami team was a mathematically sound play that fell short by a single run in a standard high-variance baseball outcome.  
+**SOURCE:** Pre-game team splits vs. RHP.  
+
+---
+
+**GAME:** MIL @ ATL  
+**PICK:** MIL ML (+148)  
+**RESULT:** LOSS (2-3)  
+**PROCESS:** MISSED LINEUP  
+**WOULD-BET-AGAIN:** NO  
+**WHY:** Our massive 17.5% edge was predicated on Milwaukee deploying an elite, right-handed heavy platoon lineup (projected 136 wRC+ vs LHP) to smash Martín Pérez. Instead, the actual lineup rested multiple key platoon bats (Vaughn, Ortiz, Pratt) and started several left-handed bats with atrocious splits against lefties (Frelick 14 wRC+, Turang 52 wRC+, Hamilton 76 wRC+, Mitchell 86 wRC+). This dropped Milwaukee's actual lineup average vs LHP to 108.9 wRC+, completely neutralizing our offensive advantage.  
+**SOURCE:** Actual confirmed lineup versus projected platoon splits.  
+
+---
+
+**GAME:** PIT @ COL  
+**PICK:** COL ML (+123)  
+**RESULT:** WIN (4-3)  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Getting +123 on a home underdog at Coors Field in a projected coin-flip starting pitching matchup was a strong value play. The edge became even more pronounced once lineups were released and Pittsburgh rested their two biggest threats against LHP (Marcell Ozuna and Bryan Reynolds), leaving them with a weak 93.7 actual team wRC+ vs LHP.  
+**SOURCE:** Coors Field pitching baseline and vs. LHP splits.  
+
+---
+
+**GAME:** BOS @ SEA  
+**PICK:** BOS ML (+108)  
+**RESULT:** WIN (6-2)  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Seattle's lineup is historically putrid against left-handed pitching (87.0 actual wRC+ vs LHP in this game). Starting left-handed Ranger Suarez against them, backed by a rested bullpen, was an excellent situational matchup that was priced incorrectly by the market.  
+**SOURCE:** Seattle's team splits vs. LHP.  
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+NONE
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+NONE
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: SF @ MIA — YOUR CALL: BET away ML 104 (1u)
+**EXPECTED vs ACTUAL:** Lineup matched roughly as expected with minor batting order shuffles.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected.  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** N/A  
+**UMPIRE WOULD CHANGE?** no  
+
+---
+
+### GAME: MIL @ ATL — YOUR CALL: BET away ML 148 (1u)
+**EXPECTED vs ACTUAL:** Key change — Andrew Vaughn, Blake Perkins, Cooper Pratt, and Joey Ortiz were omitted from the starting lineup. Christian Yelich, David Hamilton, Jake Bauers, and Sal Frelick were added.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different.  
+**WOULD CHANGE?** bet→pass  
+**PRE-GAME REASON:** The 17.5% edge was entirely dependent on Milwaukee’s projected 136 wRC+ platoon advantage vs LHP Martín Pérez. Running out a lineup with Sal Frelick (14 wRC+ vs LHP), Brice Turang (52 wRC+), David Hamilton (76 wRC+), and Garrett Mitchell (86 wRC+) dragged the team average vs LHP down to 108.9 wRC+, erasing the mathematical edge that justified taking a heavy road underdog.  
+**UMPIRE WOULD CHANGE?** no  
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: BET home ML 123 (1u)
+**EXPECTED vs ACTUAL:** Key change — Bryan Reynolds, Marcell Ozuna, Esmerlyn Valdez, and Billy Cook were rested. Ryan O'Hearn, Henry Davis, Tyler Callihan, and Jake Mangum were added.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different (Pittsburgh's offense significantly downgraded).  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** While the lineup was materially different, it shifted heavily in Colorado's favor. Pittsburgh sitting Ozuna and Reynolds dropped their actual team wRC+ vs LHP to 93.7. The bet would remain Colorado ML (+123), and if not for the mandatory 1-unit small sample cap on the starting pitchers, this would have warranted a higher stake.  
+**UMPIRE WOULD CHANGE?** no  
+
+---
+
+### GAME: BOS @ SEA — YOUR CALL: BET away ML 108 (1u)
+**EXPECTED vs ACTUAL:** Lineups matched roughly as expected with minor bottom-of-the-order modifications.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected.  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** N/A  
+**UMPIRE WOULD CHANGE?** no

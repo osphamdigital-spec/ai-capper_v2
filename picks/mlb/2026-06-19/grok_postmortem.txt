@@ -1,0 +1,72 @@
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: NO BEST BET  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: N/A
+
+**S2: FULL SLATE REVIEW**
+
+**PART A — GAMES YOU BET**
+
+GAME: CIN @ NYY  
+PICK: CIN ML +238 (1u)  
+RESULT: LOSS  
+PROCESS: SMALL SAMPLE TRAP  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: The 10.4 pt edge rested primarily on Schlittler’s aggregate xFIP/SIERA/K-BB% edge over Lowder; the explicit L14 small-sample flag on Lowder was already noted pre-game and limited in how much weight that gap should receive.  
+SOURCE: Original DATA GAP note on Lowder.
+
+GAME: STL @ KC  
+PICK: STL ML -111 (1u)  
+RESULT: LOSS  
+PROCESS: SMALL SAMPLE TRAP  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: Edge was driven by the 163 vs 100 platoon wRC+ differential plus bullpen/record factors; L14 small-sample flag on Lugo was already flagged pre-game and should have capped size.  
+SOURCE: Original DATA GAP note on Lugo.
+
+GAME: PIT @ COL  
+PICK: COL ML +123 (1u)  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: Edge came from Coors park factor and home advantage after pitcher aggregates were near even; L14 small-sample flags on both starters were already noted pre-game and warranted smaller sizing.  
+SOURCE: Original DATA GAP note on both starters.
+
+**PART B — PASSES AND LEANS**  
+(No blocks — all passes were correctly identified as sub-4 pt edges or total gaps below threshold with no missed pre-game signal that would have qualified a bet.)
+
+**S3: DATA REQUEST**  
+TYPE: STAT  
+ITEM: L14 xFIP/SIERA and K-BB% for every starter (not just flagged games)  
+WHICH GAME(S): All games with an L14 flag  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Would allow consistent weighting of recent form versus aggregate instead of binary “small sample” flags that still permitted 1u bets.
+
+**S4: METHOD CHANGE PROPOSAL**  
+PROPOSED CHANGE: When any starter carries an L14 small-sample flag, require a minimum 7 pt estimated edge (instead of 4 pt) before placing even a 1u bet.  
+WHAT IN MY METHOD COULD BE SHARPER: Small-sample handling rule.  
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): Every game that received a bet (CIN, STL, COL) carried at least one L14 flag in the pre-game DATA GAP section; the current rule allowed 1u sizing on those edges.  
+CONFIDENCE: MEDIUM
+
+**CONFIRMED DATA EVALUATION**
+
+**GAME: CIN @ NYY — YOUR CALL: BET away ML 238 (1u)**  
+EXPECTED vs ACTUAL: key change — multiple lineup spots (CIN: Suarez dropped to 6th, Arroyo inserted; NYY: Volpe inserted, Escarra retained at bottom)  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→higher stake  
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): Actual NYY lineup posted a 89.4 wRC+ avg vs RHP (multiple hitters ≤75), materially weaker than the expected order that assumed stronger middle-order production; this widens the effective pitcher-driven edge already identified.  
+UMPIRE WOULD CHANGE? no — no pre-game zone or tendencies data existed for Segal.
+
+**GAME: STL @ KC — YOUR CALL: BET away ML -111 (1u)**  
+EXPECTED vs ACTUAL: key change — STL inserted Velázquez, Torres, Fermín; KC inserted Loftin, Rave, Tolbert (multiple expected regulars absent)  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? no change  
+PRE-GAME REASON: STL confirmed lineup still delivered a strong 126.6 wRC+ avg vs RHP and preserved the core platoon advantage cited pre-game; KC side remained below 100. No material shift in the estimated win probability.  
+UMPIRE WOULD CHANGE? no — no pre-game zone tendencies for Gibson were available.
+
+**GAME: PIT @ COL — YOUR CALL: BET home ML 123 (1u)**  
+EXPECTED vs ACTUAL: key change — PIT inserted O’Hearn, Davis, Callihan, Mangum; COL retained core but reordered around Goodman/TJ Rumfield  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? no change  
+PRE-GAME REASON: COL confirmed lineup still produced a 121.4 wRC+ avg vs RHP in Coors; PIT remained below 100. Park/home factor that drove the original edge is unchanged.  
+UMPIRE WOULD CHANGE? no — no pre-game zone tendencies for Vondrak were available.

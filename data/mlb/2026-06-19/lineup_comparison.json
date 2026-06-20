@@ -1,0 +1,17 @@
+{
+  "sport": "mlb",
+  "date": "2026-06-19",
+  "games": 14,
+  "coverage": {
+    "rotowire_games": 14,
+    "mlb_confirmed_games": 0,
+    "tracker_teams": 30
+  },
+  "summary": {
+    "rotowire_vs_actual_pct": null,
+    "tracker_vs_actual_pct": null,
+    "rotowire_scored_slots": 0,
+    "tracker_scored_slots": 0
+  },
+  "detail": []
+}

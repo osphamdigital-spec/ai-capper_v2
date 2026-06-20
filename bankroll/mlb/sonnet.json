@@ -1,28 +1,28 @@
 {
   "model": "sonnet",
   "sport": "mlb",
-  "v3_start_date": "2026-06-20",
+  "v3_start_date": "2026-06-19",
   "unit_base_usd": 100,
   "starting_balance": 10000.0,
-  "current_balance": 10000.0,
-  "updated_at": "2026-06-19T13:55:04Z",
+  "current_balance": 10200.0,
+  "updated_at": "2026-06-20T08:07:05Z",
   "summary": {
-    "bets": 0,
-    "wins": 0,
+    "bets": 2,
+    "wins": 2,
     "losses": 0,
     "pushes": 0,
     "voids": 0,
-    "dollars_risked": 0,
-    "dollars_net": 0.0,
-    "roi_pct": null,
-    "avg_clv": null,
-    "clv_count": 0,
+    "dollars_risked": 373.0,
+    "dollars_net": 200.0,
+    "roi_pct": 53.6,
+    "avg_clv": 4.5,
+    "clv_count": 2,
     "by_type": {
       "favorite": {
-        "bets": 0,
-        "w": 0,
+        "bets": 2,
+        "w": 2,
         "l": 0,
-        "dollars_net": 0.0
+        "dollars_net": 200.0
       },
       "underdog": {
         "bets": 0,
@@ -31,10 +31,10 @@
         "dollars_net": 0.0
       },
       "1u": {
-        "bets": 0,
-        "w": 0,
+        "bets": 2,
+        "w": 2,
         "l": 0,
-        "dollars_net": 0.0
+        "dollars_net": 200.0
       },
       "3u": {
         "bets": 0,
@@ -43,16 +43,16 @@
         "dollars_net": 0.0
       },
       "ml": {
-        "bets": 0,
-        "w": 0,
+        "bets": 1,
+        "w": 1,
         "l": 0,
-        "dollars_net": 0.0
+        "dollars_net": 100.0
       },
       "rl": {
-        "bets": 0,
-        "w": 0,
+        "bets": 1,
+        "w": 1,
         "l": 0,
-        "dollars_net": 0.0
+        "dollars_net": 100.0
       },
       "total": {
         "bets": 0,
@@ -62,5 +62,44 @@
       }
     }
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-06-19",
+      "game_id": "7ef2ffad2e845a48d3df860e1a91b43d",
+      "matchup": "CIN @ NYY",
+      "market": "ml",
+      "pick_raw": "NYY ML",
+      "pick_side": "home",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -268,
+      "stake_usd": 268.0,
+      "to_win_usd": 100.0,
+      "result": "win",
+      "profit_usd": 100.0,
+      "balance_after": 10100.0,
+      "clv": 7,
+      "closing_line": -275,
+      "edge": "5.4 pts"
+    },
+    {
+      "date": "2026-06-19",
+      "game_id": "150da5f2fa6db9e963e0b56fc2863769",
+      "matchup": "BAL @ LAD",
+      "market": "rl",
+      "pick_raw": "LAD RL",
+      "pick_side": "home",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -105,
+      "stake_usd": 105.0,
+      "to_win_usd": 100.0,
+      "result": "win",
+      "profit_usd": 100.0,
+      "balance_after": 10200.0,
+      "clv": 2,
+      "closing_line": -107,
+      "edge": "8.8 pts"
+    }
+  ]
 }

@@ -20,10 +20,11 @@
       "reason": "Gausman and Brown both project well below a 4.50 xFIP, and the platoon advantages for both lineups push the run expectation higher. Wrigley's wind blowing in slightly suppresses the total, but the underlying pitching metrics and contact profiles easily clear the 7.0 market line; Brown's small-sample L14 restricts this to a 1-unit play.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "3530063d3d9cd6eb5811962deca7c6ed",
@@ -40,12 +41,13 @@
       "edge": "2.7 runs",
       "reason": "Gausman and Brown both project well below a 4.50 xFIP, and the platoon advantages for both lineups push the run expectation higher. Wrigley's wind blowing in slightly suppresses the total, but the underlying pitching metrics and contact profiles easily clear the 7.0 market line; Brown's small-sample L14 restricts this to a 1-unit play.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "win",
+      "profit_units": 0.8475,
+      "clv": -3,
+      "closing_line": -115,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "2969ea2e73c33f58b97b82fe562cf617",
@@ -63,10 +65,11 @@
       "reason": "Skubal is elite but Fedde lacks recent L14 data, creating a blind spot in the run prevention baseline. The total line movement and slugfest contact profiles are intriguing, but data integrity rules force a pass on both the side and the total.",
       "data_gap": "Fedde L14 data",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "7ef2ffad2e845a48d3df860e1a91b43d",
@@ -84,10 +87,11 @@
       "reason": "Both lineups feature elite barrel rates and hard-hit percentages, creating a high-ceiling slugfest profile against two pitchers with vulnerable underlying metrics. Yankee Stadium's short porch and warm weather further inflate the run environment, easily clearing the 8.5 total; Lowder's small-sample L14 keeps this at 1 unit.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "7ef2ffad2e845a48d3df860e1a91b43d",
@@ -104,12 +108,13 @@
       "edge": "1.8 runs",
       "reason": "Both lineups feature elite barrel rates and hard-hit percentages, creating a high-ceiling slugfest profile against two pitchers with vulnerable underlying metrics. Yankee Stadium's short porch and warm weather further inflate the run environment, easily clearing the 8.5 total; Lowder's small-sample L14 keeps this at 1 unit.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -115,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "6bb329abaf86e99a6c742250c3251cec",
@@ -127,10 +132,11 @@
       "reason": "Both Roupp and Bachar fall well short of the 12 L14 IP threshold and carry small-sample flags, triggering the blind pitching matchup pass rule for totals. The side market lacks sufficient edge to justify action given the extreme variance of two unproven starters.",
       "data_gap": "Full L14 samples for both starters",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "bdebd82757453b3cdc93ee168dadf2bb",
@@ -148,10 +154,11 @@
       "reason": "Cavalli and Jax both present small-sample L14 data, invalidating the totals model. On the side, Jax's slight xFIP advantage is offset by Washington's superior platoon wRC+ and TB's taxed bullpen, resulting in no clear edge against the market price.",
       "data_gap": "Full L14 samples for both starters",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "2bbd4e284d32261d81b8ebd0263116c3",
@@ -168,11 +175,12 @@
       "edge": "7.0 pts",
       "reason": "Misiorowski's elite 2.68 xFIP and 121 Stf+ completely outclass Perez, while Milwaukee's 136 wRC+ against LHP provides a massive platoon advantage. The market underprices Milwaukee's true win probability, but Perez's small-sample L14 restricts the stake to 1 unit.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 3,
+      "closing_line": -166,
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "a072cb316f0d887f1c0251b417b34317",
@@ -190,10 +198,11 @@
       "reason": "Globe Life Field's extreme pitcher-friendly park factors heavily suppress the total, and the slate ceiling is already reached with higher-conviction plays. San Diego's elite 129 wRC+ against RHP neutralizes deGrom's advantage, leaving no actionable edge on the side.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "d06fe764bea53051487b94fc022806d1",
@@ -211,10 +220,11 @@
       "reason": "Imai's small-sample L14 and Hader's recent usage create too much late-game variance for a confident total play. The side market accurately prices Houston's slight bullpen advantage, leaving no mathematical edge against the -120 moneyline.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "828d9387e45dac20bd4336888bc32025",
@@ -231,11 +241,12 @@
       "edge": "6.9 pts",
       "reason": "St. Louis boasts an elite 163 wRC+ against RHP, completely overwhelming Kansas City's league-average pitching staff. The market fails to fully account for this massive platoon disparity, offering excellent value on the Cardinals despite Lugo's small-sample L14.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 8,
+      "closing_line": -119,
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "07f4bbde58b19584048fd125a63efb85",
@@ -253,10 +264,11 @@
       "reason": "Coors Field's 130 park runs factor triggers an automatic pass on the total due to unmodelable extreme variance. The side market is equally infected by the high-variance environment, and neither starter possesses the underlying metrics to justify a road favorite play.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "a8bc26eb19d767d6433749f35c2224ee",
@@ -274,10 +286,11 @@
       "reason": "While LA's 70 wRC+ against LHP is a massive disadvantage, the -157 price on Oakland leaves less than a 4.0% edge after adjusting for the small-sample L14 flags on both starters. The total is bypassed due to the slate ceiling and the extreme hitter-friendly park factors.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "68137f4094d6c3979398139c92d61aca",
@@ -295,10 +308,11 @@
       "reason": "Arizona's moneyline is overpriced given Prielipp's solid xFIP and the Diamondbacks' mediocre platoon splits. The total projects slightly over the market, but the slate ceiling is full and Chase Field's roof status introduces unnecessary environmental variance.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "150da5f2fa6db9e963e0b56fc2863769",
@@ -316,10 +330,11 @@
       "reason": "Both Gibson and Sasaki carry small-sample L14 flags, making the high total line highly volatile and forcing a pass. The Dodgers' heavy moneyline offers no value against a Baltimore lineup with a 124 wRC+ against RHP.",
       "data_gap": "Full L14 samples for both starters",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "5bc4e94f9d24204a3f0dd424ced4a8be",
@@ -336,11 +351,12 @@
       "edge": "7.0 pts",
       "reason": "Seattle's abysmal 79 wRC+ against LHP is a massive liability against Suarez, who pairs a strong 3.59 xFIP with excellent platoon-suppressing metrics. The plus-money price on Boston provides outstanding expected value, though Suarez's 11.1 L14 IP keeps this at 1 unit.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.08,
+      "clv": 4,
+      "closing_line": 104,
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     }
   ],
   "parlay": null,
@@ -354,5 +370,6 @@
     "passes": 11,
     "units_risked": 5,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-20T07:54:26Z"
 }

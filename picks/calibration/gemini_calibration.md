@@ -1,11 +1,11 @@
 # Calibration — gemini (MLB)
-Generated: 2026-06-19 13:55 UTC
+Generated: 2026-06-20 08:07 UTC
 
 CALIBRATION — GEMINI
 
-Across your last 51 graded bet(s): record 20-30-1P, unit-weighted ROI -10.6% (-10.66u on 101u risked).
+Across your last 55 graded bet(s): record 22-32-1P, unit-weighted ROI -9.9% (-10.35u on 105u risked).
 Average stated edge: 9.3 pts (some values estimated from pre-Jun-10 word labels).
-Closing line value (pick price vs closing snapshot): avg +30.8 cents over 51 bet(s). Positive CLV = buying better than closing price on average.
+Closing line value (pick price vs closing snapshot): avg +34.5 cents over 55 bet(s). Positive CLV = buying better than closing price on average.
 (2 bet(s) pending grading.)
 
 ---
@@ -14,13 +14,13 @@ Closing line value (pick price vs closing snapshot): avg +30.8 cents over 51 bet
 
 | Metric | Value |
 |---|---|
-| Graded bets | 51 |
-| Record (W-L-P) | 20-30-1 |
-| Units risked | 101 |
-| Units net | -10.6589 |
-| Unit-weighted ROI | -10.6% |
+| Graded bets | 55 |
+| Record (W-L-P) | 22-32-1 |
+| Units risked | 105 |
+| Units net | -10.3489 |
+| Unit-weighted ROI | -9.9% |
 | Avg stated edge | 9.3 pts |
-| Avg CLV (cents) | +30.8 |
-| CLV sample | 51 bets |
+| Avg CLV (cents) | +34.5 |
+| CLV sample | 55 bets |
 | Voids | 0 |
 | Ungraded bets | 2 |

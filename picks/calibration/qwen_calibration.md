@@ -1,11 +1,11 @@
 # Calibration — qwen (MLB)
-Generated: 2026-06-19 13:55 UTC
+Generated: 2026-06-20 08:07 UTC
 
 CALIBRATION — QWEN
 
-Across your last 59 graded bet(s): record 24-34-1P, unit-weighted ROI -20.3% (-18.47u on 91u risked).
+Across your last 64 graded bet(s): record 26-37-1P, unit-weighted ROI -20.4% (-19.54u on 96u risked).
 Average stated edge: 6.9 pts (some values estimated from pre-Jun-10 word labels).
-Closing line value (pick price vs closing snapshot): avg +25.5 cents over 59 bet(s). Positive CLV = buying better than closing price on average.
+Closing line value (pick price vs closing snapshot): avg +23.7 cents over 64 bet(s). Positive CLV = buying better than closing price on average.
 (2 bet(s) pending grading.)
 
 ---
@@ -14,13 +14,13 @@ Closing line value (pick price vs closing snapshot): avg +25.5 cents over 59 bet
 
 | Metric | Value |
 |---|---|
-| Graded bets | 59 |
-| Record (W-L-P) | 24-34-1 |
-| Units risked | 91 |
-| Units net | -18.4669 |
-| Unit-weighted ROI | -20.3% |
+| Graded bets | 64 |
+| Record (W-L-P) | 26-37-1 |
+| Units risked | 96 |
+| Units net | -19.5394 |
+| Unit-weighted ROI | -20.4% |
 | Avg stated edge | 6.9 pts |
-| Avg CLV (cents) | +25.5 |
-| CLV sample | 59 bets |
+| Avg CLV (cents) | +23.7 |
+| CLV sample | 64 bets |
 | Voids | 0 |
 | Ungraded bets | 2 |

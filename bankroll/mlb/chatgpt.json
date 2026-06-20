@@ -1,28 +1,28 @@
 {
   "model": "chatgpt",
   "sport": "mlb",
-  "v3_start_date": "2026-06-20",
+  "v3_start_date": "2026-06-19",
   "unit_base_usd": 100,
   "starting_balance": 10000.0,
-  "current_balance": 10000.0,
-  "updated_at": "2026-06-19T13:55:04Z",
+  "current_balance": 9826.0,
+  "updated_at": "2026-06-20T08:07:05Z",
   "summary": {
-    "bets": 0,
-    "wins": 0,
-    "losses": 0,
+    "bets": 3,
+    "wins": 1,
+    "losses": 2,
     "pushes": 0,
     "voids": 0,
-    "dollars_risked": 0,
-    "dollars_net": 0.0,
-    "roi_pct": null,
-    "avg_clv": null,
-    "clv_count": 0,
+    "dollars_risked": 379.0,
+    "dollars_net": -174.0,
+    "roi_pct": -45.9,
+    "avg_clv": 3.7,
+    "clv_count": 3,
     "by_type": {
       "favorite": {
-        "bets": 0,
-        "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "bets": 3,
+        "w": 1,
+        "l": 2,
+        "dollars_net": -174.0
       },
       "underdog": {
         "bets": 0,
@@ -31,10 +31,10 @@
         "dollars_net": 0.0
       },
       "1u": {
-        "bets": 0,
-        "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "bets": 3,
+        "w": 1,
+        "l": 2,
+        "dollars_net": -174.0
       },
       "3u": {
         "bets": 0,
@@ -43,10 +43,10 @@
         "dollars_net": 0.0
       },
       "ml": {
-        "bets": 0,
+        "bets": 2,
         "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "l": 2,
+        "dollars_net": -274.0
       },
       "rl": {
         "bets": 0,
@@ -55,12 +55,70 @@
         "dollars_net": 0.0
       },
       "total": {
-        "bets": 0,
-        "w": 0,
+        "bets": 1,
+        "w": 1,
         "l": 0,
-        "dollars_net": 0.0
+        "dollars_net": 100.0
       }
     }
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-06-19",
+      "game_id": "2bbd4e284d32261d81b8ebd0263116c3",
+      "matchup": "MIL @ ATL",
+      "market": "ml",
+      "pick_raw": "MIL ML",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -163,
+      "stake_usd": 163.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -163.0,
+      "balance_after": 9837.0,
+      "clv": 3,
+      "closing_line": -166,
+      "edge": "6.5 pts"
+    },
+    {
+      "date": "2026-06-19",
+      "game_id": "828d9387e45dac20bd4336888bc32025",
+      "matchup": "STL @ KC",
+      "market": "ml",
+      "pick_raw": "STL ML",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -111,
+      "stake_usd": 111.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -111.0,
+      "balance_after": 9726.0,
+      "clv": 8,
+      "closing_line": -119,
+      "edge": "5.9 pts"
+    },
+    {
+      "date": "2026-06-19",
+      "game_id": "150da5f2fa6db9e963e0b56fc2863769",
+      "matchup": "BAL @ LAD",
+      "market": "total",
+      "pick_raw": "Over 9.5",
+      "pick_side": "over",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -105,
+      "stake_usd": 105.0,
+      "to_win_usd": 100.0,
+      "result": "win",
+      "profit_usd": 100.0,
+      "balance_after": 9826.0,
+      "clv": 0,
+      "closing_line": -105,
+      "edge": "1.1 runs"
+    }
+  ]
 }

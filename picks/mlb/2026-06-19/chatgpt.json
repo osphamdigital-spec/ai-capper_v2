@@ -20,10 +20,11 @@
       "reason": "Gausman and Brown grade much closer than the surface ERAs suggest once Brown is regressed back toward his 3.67/3.74 AGG skill line, and both taxed bullpens add enough late variance that I do not have a side edge at the current price. The total has already been pushed from 7.5 to 7.0, and decent starters versus shaky bullpen availability pull in opposite directions, leaving no actionable run gap.",
       "data_gap": "unconfirmed lineups",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "2969ea2e73c33f58b97b82fe562cf617",
@@ -41,10 +42,11 @@
       "reason": "Skubal is the best starter edge on the slate, but DET -193 bakes in most of it and CHW's fresh bullpen plus Detroit's middling offense keep me off both the ML and RL. The total has already been bet down hard from 8.5 toward 7.5/8.0, and Skubal plus Chicago's weak split vs lefties offsets the Fedde-over risk enough for a pass.",
       "data_gap": "unconfirmed lineups",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "7ef2ffad2e845a48d3df860e1a91b43d",
@@ -62,10 +64,11 @@
       "reason": "The Yankees deserve to be a large favorite behind the better starter, deeper bullpen, and Cincinnati's weaker run-prevention profile, but my number does not clear the current ML or RL by enough to pay the premium. Warm conditions and the Reds' bullpen issues support runs, yet 8.5 is already a corrected number and New York's 94 wRC+ vs RHP keeps me from forcing an over.",
       "data_gap": "unconfirmed lineups",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "6bb329abaf86e99a6c742250c3251cec",
@@ -83,10 +86,11 @@
       "reason": "Roupp's underlying line and the Giants' 118 wRC+ vs RHP make SF tempting, but Bachar is effectively a small-sample/uncertain-length starter and Miami's bullpen is healthy enough to erase a thin pregame edge. The total move to 8.5 in a normally suppressive park leaves little room once roof status and starter usage uncertainty are accounted for.",
       "data_gap": "unconfirmed lineups; roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "bdebd82757453b3cdc93ee168dadf2bb",
@@ -104,10 +108,11 @@
       "reason": "Cavalli and Jax grade fairly close on my numbers, and while Washington is live here the edge is not big enough to clear the price with lineups still unconfirmed and Tampa carrying a strong home split. In the dome, 7.5 already reflects the mediocre recent Rays offense and decent starting-pitching outlook, so I do not have a totals gap either.",
       "data_gap": "unconfirmed lineups",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "2bbd4e284d32261d81b8ebd0263116c3",
@@ -124,11 +129,12 @@
       "edge": "6.5 pts",
       "reason": "I make Milwaukee 68.5% to win (fair about -217): Misiorowski is a clear starter edge, Milwaukee's offense owns a 136 wRC+ vs LHP, and Pérez's underlying skill base is much weaker than his ERA. Atlanta's elite, rested bullpen keeps this at 1u and also keeps me off the total, since the Brewers' offensive edge is strong but late-run suppression matters.",
       "data_gap": "unconfirmed lineups",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 3,
+      "closing_line": -166,
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "a072cb316f0d887f1c0251b417b34317",
@@ -146,10 +152,11 @@
       "reason": "deGrom and the fresher Texas leverage arms justify the Rangers being favored, but San Diego's 129 wRC+ vs RHP keeps the side too close to fair for me at the current number. I lean over because both offenses profile well against righties and Vásquez's contact risk is real, but Globe Life roof status matters too much when the posted total is only 7.0.",
       "data_gap": "unconfirmed lineups; roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "d06fe764bea53051487b94fc022806d1",
@@ -167,10 +174,11 @@
       "reason": "Houston has the better offensive split against RHP, but Cleveland brings the steadier starter/bullpen combination and leaves my side number very close to market. The total move from 8.5 to 8.0 largely matches my projection, and Imai's noisy form plus likely roof influence are enough to keep me out.",
       "data_gap": "unconfirmed lineups; roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "828d9387e45dac20bd4336888bc32025",
@@ -187,11 +195,12 @@
       "edge": "5.9 pts",
       "reason": "I make St. Louis 58.5% to win (fair about -141): the Cardinals' massive 163 wRC+ vs RHP is the biggest platoon separator in this game, and they also hold the cleaner bullpen outlook. I lean over, because neither starter's underlying contact/whiff profile is trustworthy, but Kauffman's run shape is less explosive than the raw matchup suggests so the totals edge stays short of a bet.",
       "data_gap": "unconfirmed lineups",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 8,
+      "closing_line": -119,
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "07f4bbde58b19584048fd125a63efb85",
@@ -209,10 +218,11 @@
       "reason": "Pittsburgh has the better matchup against Freeland, but Coors volatility and a less reliable Pirates bullpen make the favorite price too thin for me to press, and I do not play run lines here by rule. My total is only modestly above 11.5, which is not enough to bet in the widest-scoring environment on the board.",
       "data_gap": "unconfirmed lineups",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "a8bc26eb19d767d6433749f35c2224ee",
@@ -230,10 +240,11 @@
       "reason": "The Athletics are the reasonable side because LAA owns just a 70 wRC+ vs LHP, but Oakland's heavily taxed bullpen and the high-variance park keep -157 from being attractive enough. The over has ingredients, yet that weak Angels split versus lefties stops my projection short of a wager at 10.0.",
       "data_gap": "unconfirmed lineups",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "68137f4094d6c3979398139c92d61aca",
@@ -251,10 +262,11 @@
       "reason": "Arizona deserves favoritism behind Soroka, the better home split, and the slightly stronger bullpen, but my fair price is too close to market to justify a bet. With likely roof closure, two competent pens, and no major offensive mismatch, 8.5 also lands near my total projection.",
       "data_gap": "unconfirmed lineups; roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "150da5f2fa6db9e963e0b56fc2863769",
@@ -272,10 +284,11 @@
       "reason": "I project 10.6 runs here: both lineups have strong splits vs RHP, Gibson's small-sample profile is dangerous against this Dodgers offense, and Baltimore can still contribute against a Sasaki line that is more good-than-dominant right now. The cool weather and a solid Dodgers bullpen keep this to 1u, and the side price already reflects Los Angeles' clear overall edge.",
       "data_gap": "unconfirmed lineups",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "150da5f2fa6db9e963e0b56fc2863769",
@@ -292,12 +305,13 @@
       "edge": "1.1 runs",
       "reason": "I project 10.6 runs here: both lineups have strong splits vs RHP, Gibson's small-sample profile is dangerous against this Dodgers offense, and Baltimore can still contribute against a Sasaki line that is more good-than-dominant right now. The cool weather and a solid Dodgers bullpen keep this to 1u, and the side price already reflects Los Angeles' clear overall edge.",
       "data_gap": "unconfirmed lineups",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "win",
+      "profit_units": 0.9524,
+      "clv": 0,
+      "closing_line": -105,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "graded_at": "2026-06-20T07:54:26Z"
     },
     {
       "game_id": "5bc4e94f9d24204a3f0dd424ced4a8be",
@@ -315,10 +329,11 @@
       "reason": "Suárez plus Seattle's 79 wRC+ vs LHP make Boston live, but Miller's current form and the park's run suppression leave my side number only a hair away from the best plus price. At 6.5, the total is already near the floor of my projection, so I would rather pass than force an under in a number this tight.",
       "data_gap": "unconfirmed lineups; roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-20T07:54:26Z"
     }
   ],
   "parlay": null,
@@ -332,5 +347,6 @@
     "passes": 12,
     "units_risked": 3,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-20T07:54:26Z"
 }

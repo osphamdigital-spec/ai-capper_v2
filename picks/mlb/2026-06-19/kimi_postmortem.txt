@@ -1,0 +1,118 @@
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** NO BEST BET — no 3-unit play identified today  
+**RESULT:** N/A  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES  
+**IF NO — NEW BEST BET:** / **WHY:** / **SOURCE:**
+
+*Rationale:* The slate was dominated by small-sample starters, exhausted bullpens, and heavily juiced moneylines. The two cleanest edges (DET ML and MIL ML) both topped out at 1-unit due to either price or a [sm] flag, and the BOS/SEA Over, while structurally sound, was a total play with a 1.3-run edge — short of the 3-unit threshold. Designating a “best bet” out of a pool of 1-unit plays would have been cosmetic, not process-driven.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** CHW @ DET  
+**PICK:** DET ML -193 (1u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The pre-game architecture held exactly as projected: Skubal’s two-plus-run AGG SIERA/xFIP gap over Fedde was the controlling variable, Detroit entered with two fresh leverage arms to shorten the game, and Chicago’s lineup — confirmed post-game at an 89.2 wRC+ vs LHP — validated the pre-game sub-91 team weakness against left-handed pitching. The narrow 4-3 final is consistent with a low-scoring, starter-dominated profile.  
+**SOURCE:** AGG SIERA/xFIP, bullpen freshness index, team wRC+ vs LHP.
+
+---
+
+**GAME:** MIL @ ATL  
+**PICK:** MIL ML -163 (1u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The loss is explained by the specific pre-game data point that introduced variance: the **[sm] flag on Pérez**. That flag correctly forced a downgrade from 3-unit to 1-unit, acknowledging that Pérez’s true-talent distribution was wide. Misiorowski’s elite SIERA/xFIP (two-run gap) and Milwaukee’s 136 wRC+ vs LHP (largest platoon edge on the slate) were both structural advantages. A one-run loss (2-3) in a game decided by thin margin falls inside the variance band created by an uncertain opposing starter; no pre-game metric suggested Atlanta held the pitching or platoon advantage.  
+**SOURCE:** AGG SIERA/xFIP, team wRC+ vs LHP, [sm] starter flag.
+
+---
+
+**GAME:** BOS @ SEA  
+**PICK:** Over 6.5 -113 (1u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Miller’s 4.23 AGG xFIP against a much shinier ERA signaled immediate regression, while Seattle’s taxed bullpen and a 6.5 line that failed to account for Miller’s contact profile created a 1.3-run edge. The 8-run final confirmed that the run-prevention mismatch was more important than either offense’s modest platoon ratings.  
+**SOURCE:** AGG xFIP, bullpen workload metrics, park factor, line movement.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+None identified. All passes were consistent with the pre-game data set; no post-hoc review reveals a pre-game signal that should have converted a pass into a bet.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+**TYPE:** STAT  
+**ITEM:** Pre-game confirmed individual hitter platoon wRC+ for the *specific expected batting order* (not just team aggregates).  
+**WHICH GAME(S):** MIL @ ATL, CHW @ DET, BOS @ SEA  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** Team-level wRC+ vs LHP/RHP masked individual lineup construction noise. For example, the confirmed CHW lineup included Benintendi (27 wRC+ vs LHP) and Peters (-40), while Milwaukee’s confirmed order included Yelich (128 vs LHP). Knowing the exact expected nine and their platoon splits would sharpen run estimates and possibly alter stake sizing on edges that sit near the threshold.
+
+---
+
+**TYPE:** DATA  
+**ITEM:** Quantitative bullpen fatigue index (reliever pitch count + appearances over trailing 72 hours).  
+**WHICH GAME(S):** TOR @ CHC, BOS @ SEA  
+**WOULD HAVE CHANGED A BET?** MAYBE  
+**WHY:** Qualitative tags like “exhausted” or “taxed” lack granularity. A hard fatigue score would clarify whether a total edge clears the 1.0-run gate when multiple leverage arms are depleted, especially in games where the line is ≤7.5 and late-inning variance is elevated.
+
+---
+
+**TYPE:** SOURCE  
+**ITEM:** Minor-league / short-sample pitcher translation factors (AAA xFIP, pitch-model expected ERA) for [sm] flagged starters.  
+**WHICH GAME(S):** MIL @ ATL, WAS @ TB, BAL @ LAD  
+**WOULD HAVE CHANGED A BET?** YES  
+**WHY:** The [sm] flag currently forces an automatic 1-unit cap or a pass. If translated data showed that a [sm] starter like Pérez, Jax, or Gibson was likely to perform materially worse than his tiny MLB sample, the edge would clear the 3-unit gate or convert a pass into a bet.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to my own method document)
+
+**PROPOSED CHANGE:** When both bullpens carry an “exhausted” or “zero fresh leverage arms” tag, apply a dynamic +0.25-run adjustment to my total run estimate (or equivalently, a -0.25-run line adjustment) before measuring against the 1.0-run edge gate, provided the game is not at an extreme outlier park like Coors Field.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** The 1.0-run total edge gate is static; it does not account for the disproportionate impact of heavily taxed bullpens on late-inning scoring variance.
+
+**EVIDENCE FROM TODAY (cite pre-game data, not the outcome):** In TOR @ CHC, both bullpens were exhausted with zero fresh leverage arms, yet my run estimate landed within a half-run of the 7.0 line, producing a pass. The pre-game data explicitly noted the lack of available relief weapons, which increases the probability of multi-run innings once the starter exits. In BOS @ SEA, Seattle’s taxed bullpen was cited as a supporting factor for the over, but only as narrative reinforcement rather than a quantified line adjustment.
+
+**CONFIDENCE:** LOW (single-slate observation; requires backtesting across a multi-season sample before adoption).
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: CHW @ DET — YOUR CALL: BET home ML -193 (1u)
+
+**EXPECTED vs ACTUAL:** key change — CHW inserted Andrew Benintendi and Tristan Peters at the bottom of the order; DET inserted Matt Vierling at DH in place of Colt Keith.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** The confirmed CHW lineup averaged 89.2 wRC+ vs LHP, aligning with the pre-game team sub-91 weakness against left-handed pitching. Benintendi (27 wRC+ vs LHP) and Peters (-40) are even weaker than the expected bats, but their insertion was not knowable pre-game. The structural edge — Skubal’s two-run SIERA/xFIP gap over Fedde and Detroit’s fresh leverage arms — remains unchanged regardless of the bottom-of-order variance.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No pre-game umpire zone data for Rob Drake was provided; umpire tendencies do not alter a moneyline bet anchored by pitching and platoon edges.
+
+---
+
+### GAME: MIL @ ATL — YOUR CALL: BET away ML -163 (1u)
+
+**EXPECTED vs ACTUAL:** key change — MIL inserted Christian Yelich, David Hamilton, Jake Bauers, and Sal Frelick; omitted Andrew Vaughn, Blake Perkins, Cooper Pratt, and Joey Ortiz. ATL omitted Michael Harris and inserted Drake Baldwin and Jorge Mateo.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** While Yelich’s 128 wRC+ vs LHP strengthens Milwaukee’s top of the order, the **[sm] flag on Pérez** was the explicit limiting factor that capped the stake at 1 unit. Even with a stronger confirmed lineup, the uncertainty around Pérez’s true talent prevents 3-unit eligibility under my method. The directional edge (Milwaukee pitching + platoon) is unchanged.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No pre-game umpire zone data for Tom Hanahan was provided.
+
+---
+
+### GAME: BOS @ SEA — YOUR CALL: BET over 6.5 -113 (1u)
+
+**EXPECTED vs ACTUAL:** key change — BOS inserted Carlos Narváez and Andruw Monasterio for Masataka Yoshida and Isiah Kiner-Falefa; SEA inserted Dominic Canzone, Connor Joe, and Weston Wilson for J.P. Crawford, Mitch Garver, and Victor Robles.  
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON:** The actual BOS lineup averaged 82.2 wRC+ vs RHP and SEA averaged 87.0 wRC+ vs LHP, both consistent with the below-average offenses I cited pre-game (SEA 79 wRC+ vs lefties). The over bet was driven by Miller’s 4.23 xFIP/ERA divergence and Seattle’s taxed bullpen, not by lineup explosiveness, so the confirmed substitutions do not alter the run-prevention mismatch.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: No pre-game umpire zone data for Steven Jaschinski was provided.

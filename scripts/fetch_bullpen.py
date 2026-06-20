@@ -308,9 +308,11 @@ def build_bullpen_summary(
     or context.bullpen_home.
     """
     # Define the key dates relative to the slate
-    tgt          = datetime.strptime(target_date, "%Y-%m-%d")
-    yesterday    = (tgt - timedelta(days=1)).strftime("%Y-%m-%d")
-    two_days_ago = (tgt - timedelta(days=2)).strftime("%Y-%m-%d")
+    tgt            = datetime.strptime(target_date, "%Y-%m-%d")
+    yesterday      = (tgt - timedelta(days=1)).strftime("%Y-%m-%d")
+    two_days_ago   = (tgt - timedelta(days=2)).strftime("%Y-%m-%d")
+    three_days_ago = (tgt - timedelta(days=3)).strftime("%Y-%m-%d")
+    four_days_ago  = (tgt - timedelta(days=4)).strftime("%Y-%m-%d")
 
     # ── Aggregate per-pitcher data across all recent games ────────────────────
     # pitchers dict: player_id -> {name, by_date: {date: pitches}, saves_total}
@@ -363,13 +365,22 @@ def build_bullpen_summary(
         # Heavy usage = 25+ pitches yesterday (manager may skip them tonight)
         heavy_yesterday = pitched_yesterday and (pitches_yesterday or 0) >= HEAVY_USAGE_THRESHOLD
 
-        # Only include pitchers who are taxed in some way
-        # "Not taxed" means: didn't pitch yesterday, no back-to-back ending yesterday
-        if not pitched_yesterday and not consecutive_days:
+        # 3-in-4 = appeared on 3 or more of the last 4 days (cumulative overload,
+        # even if not strictly back-to-back ending yesterday).
+        days_pitched_last4 = sum(
+            1 for d in (yesterday, two_days_ago, three_days_ago, four_days_ago)
+            if info["by_date"].get(d) is not None
+        )
+        three_in_four = days_pitched_last4 >= 3
+
+        # Only include pitchers who are taxed in some way.
+        # "Not taxed" means: didn't pitch yesterday, no back-to-back ending
+        # yesterday, and not 3-in-4 overloaded.
+        if not pitched_yesterday and not consecutive_days and not three_in_four:
             continue
 
         # Determine severity of the flag
-        if heavy_yesterday or consecutive_days:
+        if heavy_yesterday or consecutive_days or three_in_four:
             flag = "likely_unavailable"
         else:
             # Pitched yesterday but lightly (< 25 pitches), not consecutive
@@ -380,6 +391,8 @@ def build_bullpen_summary(
             "pitches_yesterday":         pitches_yesterday,
             "pitches_two_days_ago":      pitches_two_days_ago,
             "appeared_consecutive_days": consecutive_days,
+            "days_pitched_last4":        days_pitched_last4,
+            "three_in_four":             three_in_four,
             "flag":                      flag,
         })
 
@@ -421,10 +434,11 @@ def fetch_bullpen(date: str = None, sport: str = "mlb"):
     """
     target_date = date or today_et()
 
-    # Look back 3 days before the slate date to check recent usage
-    # e.g. slate=2026-06-04 → look at games on 2026-06-01 through 2026-06-03
+    # Look back 4 days before the slate date to check recent usage.
+    # 4 days (not 3) so we can detect a "3-in-4" overload pattern.
+    # e.g. slate=2026-06-05 → look at games on 2026-06-01 through 2026-06-04
     tgt        = datetime.strptime(target_date, "%Y-%m-%d")
-    start_date = (tgt - timedelta(days=3)).strftime("%Y-%m-%d")
+    start_date = (tgt - timedelta(days=4)).strftime("%Y-%m-%d")
     end_date   = (tgt - timedelta(days=1)).strftime("%Y-%m-%d")
 
     print(f"\n{'='*55}")
@@ -608,6 +622,8 @@ def fetch_bullpen(date: str = None, sport: str = "mlb"):
                     p_yday = t.get("pitches_yesterday")
                     p_2day = t.get("pitches_two_days_ago")
                     consec = t.get("appeared_consecutive_days", False)
+                    t3in4  = t.get("three_in_four", False)
+                    d4     = t.get("days_pitched_last4")
                     flag   = t.get("flag", "")
 
                     # Build a readable detail string for the summary line
@@ -615,6 +631,7 @@ def fetch_bullpen(date: str = None, sport: str = "mlb"):
                     if p_yday is not None:  details.append(f"{p_yday}p yesterday")
                     if p_2day is not None:  details.append(f"{p_2day}p 2 days ago")
                     if consec:              details.append("consecutive")
+                    if t3in4:               details.append(f"3-in-4 ({d4}/4 days)")
 
                     detail_str = ", ".join(details)
                     flag_icon  = "!!" if flag == "likely_unavailable" else " ~"

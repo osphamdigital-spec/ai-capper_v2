@@ -1,0 +1,125 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET (no 3-unit play identified)
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: / WHY: / SOURCE: N/A. The strict proprietary downgrade rule regarding small-sample L14 flags was correctly applied across the entire slate, preventing any high-conviction 3-unit wagers. 
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: TOR @ CHC
+PICK: Over 7.0 (-118)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pre-game data regarding platoon advantages and underlying pitching metrics correctly identified a run environment that easily cleared the 7.0 market line. The 18 total runs were a fair realization of the expected offensive output.
+SOURCE: Pre-game xFIP and platoon wRC+ projections.
+
+GAME: CIN @ NYY
+PICK: Over 8.5 (-115)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: The pre-game data heavily supported a slugfest profile (elite barrel rates, short porch, warm weather, vulnerable pitchers). A 5-0 shutout in this specific environment is a low-probability outcome driven by cold hitting and pitchers outperforming their xFIP. The process was sound; the result was pure variance.
+SOURCE: Pre-game barrel rates, park factors, and xFIP.
+
+GAME: MIL @ ATL
+PICK: MIL ML (-163)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Based on the *expected* lineup and pre-game pitching metrics (Misiorowski's 2.68 xFIP vs Perez), the mathematical edge was clear. The 1-run loss is a standard variance outcome for a heavy favorite. (Note: The confirmed lineup significantly diluted the platoon advantage, which is addressed in the Method Change and Confirmed Data sections, but the pre-game *expected* process was correct).
+SOURCE: Pre-game expected lineup wRC+ vs LHP and starting pitcher xFIP.
+
+GAME: STL @ KC
+PICK: STL ML (-111)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: St. Louis maintained a massive wRC+ advantage in the confirmed lineup (126.6 vs KC's 87.4). The market mispriced the platoon disparity, and the 6-5 loss is simply bad variance in a game where the underlying win probability heavily favored the Cardinals.
+SOURCE: Pre-game and confirmed lineup wRC+ vs RHP.
+
+GAME: BOS @ SEA
+PICK: BOS ML (+108)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pre-game thesis that Seattle's lineup is severely vulnerable to LHP was validated by both the expected and confirmed lineups (featuring Raleigh's 15 wRC+ and Refsnyder's 41 wRC+ vs LHP). Getting plus money on a team with a massive platoon advantage was excellent expected value.
+SOURCE: Pre-game and confirmed lineup wRC+ vs LHP.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE. All passes were strictly enforced due to valid data gaps (small-sample L14 flags) or unmodelable extreme variance environments (Coors Field). No actionable pre-game edge was missed on the passed games.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA
+ITEM: Real-time confirmed lineup wRC+ vs specific pitcher handedness (specifically highlighting platoon splits for bench/role players).
+WHICH GAME(S): MIL @ ATL
+WOULD HAVE CHANGED A BET? YES
+WHY: Would have immediately highlighted Sal Frelick's 14 wRC+ vs LHP and David Hamilton's 76 wRC+ vs LHP. Seeing these extreme negative splits in the confirmed lineup would have revealed that the team's wRC+ vs LHP dropped from the expected 136 to 108.9, invalidating the core platoon advantage thesis and prompting a pass or lower stake.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Implement a "Lineup Confirmation Buffer" for bets heavily reliant on extreme platoon splits (e.g., projected >130 wRC+ vs LHP/RHP). Delay wagering until lineups are officially confirmed to ensure bench/role players don't dilute the expected advantage.
+WHAT IN MY METHOD COULD BE SHARPER: I am currently over-relying on projected/expected lineups when the variance of bench players' platoon splits is high. A team's aggregate wRC+ can swing wildly if a manager inserts a bench player with extreme reverse splits.
+EVIDENCE FROM TODAY: MIL expected 136 wRC+ vs LHP, but actual was 108.9 due to Frelick (14 wRC+ vs LHP) and Hamilton (76 wRC+ vs LHP) playing instead of projected starters. 
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: TOR @ CHC — YOUR CALL: BET over ML -118 (1u)
+
+EXPECTED vs ACTUAL: key change — McAdoo, Schneider, Dean, Ramirez, Conforto added; Guerrero, Clement, PCA, Bregman, Happ dropped.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): N/A. Despite the lineup changes, the core pre-game thesis of platoon advantages and underlying pitching metrics held up, and the game easily cleared the 7.0 total.
+UMPIRE WOULD CHANGE? no — Lance Barrett's zone tendencies do not materially alter the overwhelming offensive environment projected.
+
+---
+
+### GAME: CIN @ NYY — YOUR CALL: BET over ML -115 (1u)
+
+EXPECTED vs ACTUAL: key change — Arroyo, Volpe added; Marte, Caballero dropped.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): N/A. While Escarra (3 wRC+) and Volpe (63 wRC+) weakened the bottom of the NYY order, the top of both lineups (Rice 178, Bleday 166, Lowe 146, Bellinger 138) still provided the elite barrel rates required to justify the over.
+UMPIRE WOULD CHANGE? no — Chris Segal's zone does not negate the short porch and warm weather factors.
+
+---
+
+### GAME: MIL @ ATL — YOUR CALL: BET away ML -163 (1u)
+
+EXPECTED vs ACTUAL: key change — Yelich, Hamilton, Bauers, Frelick added; Vaughn, Perkins, Pratt, Ortiz dropped.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? bet→lower stake
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): The actual MIL lineup features Sal Frelick (14 wRC+ vs LHP) and David Hamilton (76 wRC+ vs LHP). This drastically lowers the lineup's average wRC+ against LHP from the expected 136 to 108.9. Since the massive platoon advantage was the primary pillar of the bet, seeing Frelick's extreme negative split vs LHP in the confirmed lineup warrants lowering the stake.
+UMPIRE WOULD CHANGE? no — Tom Hanahan's tendencies do not alter the platoon mismatch data.
+
+---
+
+### GAME: STL @ KC — YOUR CALL: BET away ML -111 (1u)
+
+EXPECTED vs ACTUAL: key change — Velazquez, Torres, Fermin, Loftin, Rave, Tolbert added; Crooks, Jordan, Church, Witt, Garcia, Misner dropped.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): N/A. STL's actual lineup still maintained a massive wRC+ advantage (126.6 vs KC's 87.4), validating the pre-game edge. The core thesis remains fully intact.
+UMPIRE WOULD CHANGE? no — Tripp Gibson's zone does not change the massive platoon disparity.
+
+---
+
+### GAME: BOS @ SEA — YOUR CALL: BET away ML 108 (1u)
+
+EXPECTED vs ACTUAL: key change — Narvaez, Monasterio, Canzone, Joe, Wilson added; Yoshida, Kiner-Falefa, Crawford, Garver, Robles dropped.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE ≠ no change): N/A. SEA's actual lineup still featured severe LHP vulnerabilities (Raleigh 15 wRC+, Refsnyder 41 wRC+), confirming the pre-game thesis that SEA's lineup is a massive liability against left-handed pitching. 
+UMPIRE WOULD CHANGE? no — Steven Jaschinski's tendencies do not alter SEA's structural weakness vs LHP.

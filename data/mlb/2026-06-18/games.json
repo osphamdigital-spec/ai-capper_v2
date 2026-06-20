@@ -587,7 +587,7 @@
       "home_score": 3,
       "winner": "away",
       "status": "final",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false
@@ -1262,7 +1262,7 @@
       "home_score": 2,
       "winner": "away",
       "status": "final",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false
@@ -1872,7 +1872,7 @@
       "home_score": 3,
       "winner": "away",
       "status": "final",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false
@@ -2541,7 +2541,7 @@
       "home_score": 3,
       "winner": "home",
       "status": "final",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false
@@ -3211,7 +3211,7 @@
       "home_score": 4,
       "winner": "away",
       "status": "final",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false
@@ -3898,7 +3898,7 @@
       "home_score": 1,
       "winner": "away",
       "status": "final",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false
@@ -4566,7 +4566,7 @@
       "home_score": null,
       "winner": null,
       "status": "postponed",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false
@@ -5238,7 +5238,7 @@
       "home_score": 14,
       "winner": "home",
       "status": "final",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false
@@ -5857,7 +5857,7 @@
       "home_score": 5,
       "winner": "home",
       "status": "final",
-      "fetched_at": "2026-06-19T13:38:46Z",
+      "fetched_at": "2026-06-20T06:47:52Z",
       "source": "mlb_official",
       "source_priority": 1,
       "verified": false

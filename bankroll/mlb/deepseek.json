@@ -1,28 +1,28 @@
 {
   "model": "deepseek",
   "sport": "mlb",
-  "v3_start_date": "2026-06-20",
+  "v3_start_date": "2026-06-19",
   "unit_base_usd": 100,
   "starting_balance": 10000.0,
-  "current_balance": 10000.0,
-  "updated_at": "2026-06-19T13:55:04Z",
+  "current_balance": 9293.0,
+  "updated_at": "2026-06-20T08:07:05Z",
   "summary": {
-    "bets": 0,
-    "wins": 0,
-    "losses": 0,
+    "bets": 3,
+    "wins": 1,
+    "losses": 2,
     "pushes": 0,
     "voids": 0,
-    "dollars_risked": 0,
-    "dollars_net": 0.0,
-    "roi_pct": null,
-    "avg_clv": null,
-    "clv_count": 0,
+    "dollars_risked": 919.0,
+    "dollars_net": -707.0,
+    "roi_pct": -76.9,
+    "avg_clv": 4.3,
+    "clv_count": 3,
     "by_type": {
       "favorite": {
-        "bets": 0,
-        "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "bets": 3,
+        "w": 1,
+        "l": 2,
+        "dollars_net": -707.0
       },
       "underdog": {
         "bets": 0,
@@ -31,22 +31,22 @@
         "dollars_net": 0.0
       },
       "1u": {
-        "bets": 0,
-        "w": 0,
+        "bets": 1,
+        "w": 1,
         "l": 0,
-        "dollars_net": 0.0
+        "dollars_net": 100.0
       },
       "3u": {
-        "bets": 0,
+        "bets": 2,
         "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "l": 2,
+        "dollars_net": -807.0
       },
       "ml": {
-        "bets": 0,
-        "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "bets": 2,
+        "w": 1,
+        "l": 1,
+        "dollars_net": -389.0
       },
       "rl": {
         "bets": 0,
@@ -55,12 +55,70 @@
         "dollars_net": 0.0
       },
       "total": {
-        "bets": 0,
+        "bets": 1,
         "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "l": 1,
+        "dollars_net": -318.0
       }
     }
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-06-19",
+      "game_id": "6bb329abaf86e99a6c742250c3251cec",
+      "matchup": "SF @ MIA",
+      "market": "ml",
+      "pick_raw": "MIA ML",
+      "pick_side": "home",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -112,
+      "stake_usd": 112.0,
+      "to_win_usd": 100.0,
+      "result": "win",
+      "profit_usd": 100.0,
+      "balance_after": 10100.0,
+      "clv": 6,
+      "closing_line": -118,
+      "edge": "20.4 pts"
+    },
+    {
+      "date": "2026-06-19",
+      "game_id": "2bbd4e284d32261d81b8ebd0263116c3",
+      "matchup": "MIL @ ATL",
+      "market": "ml",
+      "pick_raw": "MIL ML",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 3,
+      "price": -163,
+      "stake_usd": 489.0,
+      "to_win_usd": 300.0,
+      "result": "loss",
+      "profit_usd": -489.0,
+      "balance_after": 9611.0,
+      "clv": 3,
+      "closing_line": -166,
+      "edge": "21.1 pts"
+    },
+    {
+      "date": "2026-06-19",
+      "game_id": "07f4bbde58b19584048fd125a63efb85",
+      "matchup": "PIT @ COL",
+      "market": "total",
+      "pick_raw": "Over 11.5",
+      "pick_side": "over",
+      "fav_or_dog": "favorite",
+      "units": 3,
+      "price": -106,
+      "stake_usd": 318.0,
+      "to_win_usd": 300.0,
+      "result": "loss",
+      "profit_usd": -318.0,
+      "balance_after": 9293.0,
+      "clv": 4,
+      "closing_line": -110,
+      "edge": "3.64 runs"
+    }
+  ]
 }

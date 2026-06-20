@@ -1,12 +1,11 @@
 # Calibration — chatgpt (MLB)
-Generated: 2026-06-19 13:55 UTC
+Generated: 2026-06-20 08:07 UTC
 
 CALIBRATION — CHATGPT
 
-Across your last 17 graded bet(s): record 7-10, unit-weighted ROI -23.6% (-5.44u on 23u risked).
-Average stated edge: 5.7 pts.
-Closing line value (pick price vs closing snapshot): avg +4.8 cents over 17 bet(s). Positive CLV = buying better than closing price on average.
-PROVISIONAL — sample too small for reliable calibration (17 of ~20 minimum graded bets). Treat all figures as directional only.
+Across your last 20 graded bet(s): record 8-12, unit-weighted ROI -24.9% (-6.48u on 26u risked).
+Average stated edge: 5.8 pts.
+Closing line value (pick price vs closing snapshot): avg +4.7 cents over 20 bet(s). Positive CLV = buying better than closing price on average.
 (1 bet(s) pending grading.)
 
 ---
@@ -15,13 +14,13 @@ PROVISIONAL — sample too small for reliable calibration (17 of ~20 minimum gra
 
 | Metric | Value |
 |---|---|
-| Graded bets | 17 |
-| Record (W-L-P) | 7-10-0 |
-| Units risked | 23 |
-| Units net | -5.4354 |
-| Unit-weighted ROI | -23.6% |
-| Avg stated edge | 5.7 pts |
-| Avg CLV (cents) | +4.8 |
-| CLV sample | 17 bets |
+| Graded bets | 20 |
+| Record (W-L-P) | 8-12-0 |
+| Units risked | 26 |
+| Units net | -6.4830 |
+| Unit-weighted ROI | -24.9% |
+| Avg stated edge | 5.8 pts |
+| Avg CLV (cents) | +4.7 |
+| CLV sample | 20 bets |
 | Voids | 0 |
 | Ungraded bets | 1 |

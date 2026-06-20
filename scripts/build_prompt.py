@@ -45,7 +45,6 @@ try:
         load_pitchers_season,
         load_pitchers_last14,
         load_stuff_plus,
-        load_gm_li,
         load_bullpen,
         load_park_factors,
         load_park_factors_roof_closed,
@@ -345,6 +344,8 @@ def fmt_bullpen(bullpen: dict | None, abbr: str) -> list:
         for t in taxed:
             p_yday = t.get("pitches_yesterday")
             consec = t.get("appeared_consecutive_days", False)
+            t3in4  = t.get("three_in_four", False)
+            d4     = t.get("days_pitched_last4")
             flag   = t.get("flag", "")
 
             # Build a concise parenthetical reason for the AI
@@ -353,6 +354,8 @@ def fmt_bullpen(bullpen: dict | None, abbr: str) -> list:
                     detail = f"{p_yday}p yesterday"
                 elif consec:
                     detail = "2 consec days"
+                elif t3in4:
+                    detail = f"3-in-4 ({d4}/4 days)"
                 else:
                     detail = "taxed"
             else:
@@ -1157,14 +1160,15 @@ def _fmt_starter_advanced_lines(
     return result
 
 
-def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict, gm_li_data: dict | None = None) -> list:
+def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict) -> list:
     """
     Format one team's bullpen block from static Bullpen.txt data.
     Returns [] when no data exists for this team (caller falls back to fetch_bullpen.py output).
     Does NOT include the 'BULLPEN -- TEAM' header line — caller adds that.
 
-    gm_li_data: optional dict {player_name: float} from load_gm_li().
-                When provided, appends 'gmLI: X.XX' to each reliever line where available.
+    Each reliever line carries raw stats only (ERA, K%, SwStr%, SV, HLD, SD/MD).
+    SD/MD (shutdowns/meltdowns) are a raw high-leverage-usage proxy; no derived
+    verdict is computed — each model interprets the leverage signal itself.
     """
     relievers = bullpen_data.get(team_abbr)
     if not relievers:
@@ -1190,20 +1194,22 @@ def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict, gm_li_data: dict | N
         hand = r.get("throws", "?")
         era  = f"{r['era']:.2f}" if r.get("era") is not None else "--"
         kpct = f"{r['k_pct'] * 100:.1f}%" if r.get("k_pct") is not None else "--"
+        swstr = f"{r['swstr'] * 100:.1f}%" if r.get("swstr") is not None else None
         sv   = int(r["sv"])  if r.get("sv")  is not None else 0
         hld  = int(r["hld"]) if r.get("hld") is not None else 0
+        sd   = int(r["sd"])  if r.get("sd")  is not None else None
+        md   = int(r["md"])  if r.get("md")  is not None else None
         extras = []
         if sv:  extras.append(f"{sv} SV")
         if hld: extras.append(f"{hld} HLD")
+        # SD/MD — raw shutdown/meltdown counts (high-leverage usage proxy)
+        if sd is not None or md is not None:
+            extras.append(f"{sd or 0} SD/{md or 0} MD")
         stat_str = f"{era} ERA, {kpct} K%"
+        if swstr is not None:
+            stat_str += f", {swstr} SwStr%"
         if extras:
             stat_str += ", " + ", ".join(extras)
-        # gmLI — look up by name in gm_li_data (last-14-day leverage index)
-        if gm_li_data:
-            gmli_key = fuzzy_match_player(r["name"], gm_li_data)
-            gmli_val = gm_li_data.get(gmli_key) if gmli_key else None
-            if gmli_val is not None:
-                stat_str += f", gmLI: {gmli_val:.2f}"
         return [
             f"  {role_label}: {r['name']} ({hand}) -- {stat_str}",
             f"    Usage last 6: {_usage_str(r.get('usage_last6', []))}",
@@ -1555,9 +1561,8 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
     # Each team gets its own "BULLPEN -- TEAM" header per spec.
     bullpen_static = (static_data or {}).get("bullpen", {})
 
-    gm_li_static = (static_data or {}).get("gm_li", {})
-    static_away_bpen = _fmt_bullpen_static(away["abbr"], bullpen_static, gm_li_static)
-    static_home_bpen = _fmt_bullpen_static(home["abbr"], bullpen_static, gm_li_static)
+    static_away_bpen = _fmt_bullpen_static(away["abbr"], bullpen_static)
+    static_home_bpen = _fmt_bullpen_static(home["abbr"], bullpen_static)
     ctx_away_bpen    = fmt_bullpen(ctx.get("bullpen_away"), away["abbr"])
     ctx_home_bpen    = fmt_bullpen(ctx.get("bullpen_home"), home["abbr"])
 
@@ -2379,6 +2384,49 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
     return "\n".join(parts)
 
 
+# Minimum graded bets before a model's calibration is shown in its prompt.
+# Matches calc_calibration.py MIN_SAMPLE — below this the stats are too noisy
+# (calc_calibration writes a "PROVISIONAL" warning) and would invite the model
+# to over-react to small-sample variance. Gate keeps the feedback signal honest.
+CALIBRATION_MIN_SAMPLE = 20
+
+
+def load_calibration_block(model_name: str, project_root: Path) -> str | None:
+    """
+    Load the model's calibration summary for injection into its prompt.
+
+    Reads picks/calibration/{model}_calibration.md (written nightly by
+    calc_calibration.py) and returns the human-readable summary paragraph ONLY
+    — never the raw-stats table.
+
+    Gated: returns None when the file is missing, when graded-bet count is below
+    CALIBRATION_MIN_SAMPLE, or when the file is marked PROVISIONAL. This is
+    feedback data, not an instruction — the caller frames it as such.
+    """
+    cal_file = project_root / "picks" / "calibration" / f"{model_name.lower()}_calibration.md"
+    if not cal_file.exists():
+        return None
+
+    text = cal_file.read_text(encoding="utf-8")
+
+    # Gate 1: explicit provisional marker → too small to show.
+    if "PROVISIONAL" in text:
+        return None
+
+    # Gate 2: parse the authoritative "| Graded bets | N |" row.
+    m = re.search(r"\|\s*Graded bets\s*\|\s*(\d+)\s*\|", text)
+    if not m or int(m.group(1)) < CALIBRATION_MIN_SAMPLE:
+        return None
+
+    # Extract the summary paragraph: everything from the "Across your last ..."
+    # line up to (but not including) the "---" / "## Raw stats" delimiter.
+    summary = text.split("\n---", 1)[0]
+    start = summary.find("Across your last")
+    if start == -1:
+        return None
+    return summary[start:].strip()
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # SYSTEM PROMPT BUILDER
 # Permanent instructions sent as the system message — no date, no game data.
@@ -2498,6 +2546,22 @@ def build_system_prompt(sport_label: str, model: str | None, project_root: Path)
                 "",
             ])
 
+        # Calibration feedback — only once a model has enough graded bets
+        # (>= CALIBRATION_MIN_SAMPLE). Framed as data, never as instruction:
+        # how the model responds to its own track record is its decision.
+        calibration = load_calibration_block(model, project_root)
+        if calibration:
+            parts.extend([
+                "",
+                "YOUR CALIBRATION TO DATE (feedback data — not an instruction)",
+                "This is your own measured track record from prior slates. It is",
+                "information only; how you weigh it is your decision, and it changes",
+                "no competition rule.",
+                "",
+                calibration,
+                "",
+            ])
+
     return "\n".join(parts)
 
 
@@ -2595,7 +2659,6 @@ def build_prompt_main(sport: str = "mlb", date: str = None, model: str = None):
             "pitchers_season": load_pitchers_season(),
             "pitchers_l14":    load_pitchers_last14(),
             "stuff_plus":      load_stuff_plus(),    # col 10 of pitchers_xfip_siera.txt
-            "gm_li":           load_gm_li(),         # col 9 of pitchers_last14.txt (relievers)
             "bullpen":         load_bullpen(),
             "park_factors":    load_park_factors(),
             "park_roof":       load_park_factors_roof_closed(),

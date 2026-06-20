@@ -1,0 +1,76 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: No 3u best bet declared; lone qualifier was SD @ TEX Under 7.0 (+100, 1u)
+RESULT: LOSS (16 total runs)
+WOULD YOU STILL MAKE THIS YOUR BEST BET? N/A — it was correctly NOT labeled a best bet, only a 1u play.
+
+The decision to NOT force a 3u best bet on an unconfirmed-lineup slate was the correct discipline. I will not retroactively manufacture one.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: SD @ TEX
+PICK: Under 7.0 (+100, 1u)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE (with a caveat — see below)
+WOULD-BET-AGAIN: YES (lower confidence)
+WHY: The pre-game thesis was structurally sound: deGrom (3.25 SIERA, 22.8 K-BB%, clean sample) vs a run-suppressing Globe Life (Runs 83), two offenses I read as bottom-tier vs RHP, at plus money clearing my gate by ~0.9 runs. That is a defensible Under. The result (16 runs, deGrom hit) is the kind of high-variance tail a single start carries — one ace having a bad night does not invalidate the process.
+
+The honest caveat: the confirmed lineups (revealed post-game) show TEX's actual lineup averaged **110.9 wRC+ vs RHP** — above-average, not the "below-average offense" I assumed pre-game. Even using only the Rotowire EXPECTED order, Jung/Langford/Nimmo/E.Duran is not a weak top-five. My characterization of TEX's bats as "below-average vs RHP" was somewhat optimistic for the Under. That's a process flag, not pure variance.
+SOURCE: deGrom AGG SIERA 3.25; Globe Life Runs 83; posted total 7.0 +100; my fair ~6.1.
+
+---
+
+### PART B — PASSES I NOW QUESTION
+
+Honest scan: 13 of 14 passes were correct process. Most "close" games (CHW/DET 4-3, MIL/ATL 3-2, BAL/LAD 6-5, STL/KC 6-5) landed near my fair lines and confirm the passes. The blowouts (CHC 16, HOU 9, AZ 9) were not predictable from pre-game class edges — those are variance, not missed signals. I will only flag where a genuine pre-game data point pointed somewhere.
+
+GAME: SD @ TEX (the total, reconsidered as a pass)
+YOUR CALL: BET Under
+FINAL RESULT: 16 runs, Over
+WHAT YOU MISSED: My own "two bottom-tier offenses" premise was shakier than I treated it. The Rotowire EXPECTED TEX order was league-average-to-good vs RHP. The edge may have been narrower than 0.9 runs — possibly inside my gate once TEX's real offensive profile is priced. This argues for a pass, not a bet.
+SOURCE: Rotowire expected TEX lineup (Jung/Langford/Nimmo/E.Duran middle); not the bottom-tier read I applied.
+WOULD THIS HAVE BECOME A BET? MAYBE — leaning toward PASS had I vetted TEX's lineup wRC+ pre-game rather than assuming bottom-tier.
+
+No other pass produced a real missed pre-game edge. The TOR/CHC, CLE/HOU, MIN/AZ blowouts had class edges that DID predict the winner directionally, but I bet no sides there because prices were fair — and they were fair. No regret.
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: Pre-game lineup-weighted wRC+ vs handedness (computed from Rotowire expected order, not team-season aggregate)
+WHICH GAME(S): SD @ TEX, and all totals plays
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: I described TEX as "bottom-tier vs RHP" on a team-level impression. A lineup-weighted figure from the expected order would have shown ~league-average, likely shrinking my Under edge below the gate and pushing this to a pass.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: When a total bet's thesis depends on BOTH offenses being weak, require a lineup-weighted wRC+ check on the EXPECTED (Rotowire) order before staking — not a team-level vibe. If either expected lineup grades league-average-or-better vs the relevant hand, dock the run-edge estimate accordingly before applying the 0.8 gate.
+
+WHAT IN MY METHOD COULD BE SHARPER: I leaned on a "bottom-tier offense" assumption for TEX that the expected lineup did not support. My Under was effectively a one-pitcher (deGrom) bet dressed up as a two-sided structural edge. Single-pitcher-dependent Unders carry fat tails.
+
+EVIDENCE FROM TODAY (pre-game): Rotowire expected TEX order featured Jung, Langford, Nimmo, E.Duran across spots 2-5 — not a bottom-tier core. My pre-game writeup asserted "below-average" without weighting it.
+
+CONFIDENCE: LOW (one slate; directional flag only)
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: SD @ TEX
+
+EXPECTED vs ACTUAL: Key changes — TEX swapped Kelenic/N.Lopez/E.Díaz in for Burger-batting-6/Smith/Osuna/Higashioka shuffle; SD dropped to Bowen/Hunt at the bottom. Roughly similar offensive tier on both sides.
+CONFIRMED LINEUP vs YOUR ASSUMPTION: Materially different from my "bottom-tier TEX" assumption — confirmed TEX avg 110.9 wRC+ vs RHP is above-average. SD avg 98.1 is roughly league-average, slightly better than my "weak SD bat" read.
+WOULD CHANGE? bet→lower stake (or pass). Using ONLY pre-game stats: TEX's lineup grading above-average vs RHP undercuts the "two weak offenses" pillar of my Under. The deGrom + park edge alone likely doesn't clear 0.8 runs once TEX is priced as league-average.
+PRE-GAME REASON: TEX lineup-weighted wRC+ vs RHP ~111 (Jung 130, Pederson 114, Nimmo 110, E.Duran 111) contradicts my "below-average offense" premise — knowable from the expected order's component stats.
+UMPIRE WOULD CHANGE? No — Emil Jimenez carries no extreme zone tendency that would shift a totals read pre-game; no actionable signal.
+
+---
+
+**Bottom line:** Slate discipline was good — 13/14 passes correct, no forced best bet. The single bet had a real process flaw (an unvetted "weak offense" assumption on TEX), so I grade it as *borderline* between bad variance and a soft process error, leaning toward "should have been a pass." The corrective is concrete: weight the expected lineup before claiming an offense is bottom-tier.

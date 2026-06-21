@@ -8,8 +8,27 @@ can name the specific pre-game data point that justified it.
 If you cannot, choose an error category.
 Return NONE where no block genuinely qualifies.
 
-FINAL RESULTS
-[OPERATOR WILL PASTE RESULTS HERE]
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-20
+=======================================================
+
+  CHW    1  @  DET    4 <--
+  CIN   10 <--  @  NYY    2
+  TOR    8 <--  @  CHC    6
+  SD     6 <--  @  TEX    4
+  WAS    4 <--  @  TB     3
+  SF     3  @  MIA    6 <--
+  MIL    3  @  ATL    4 <--
+  CLE    8 <--  @  HOU    1
+  NYM    3  @  PHI   15 <--
+  PIT    1  @  COL    2 <--
+  LAA    7 <--  @  ATH    0
+  BAL    3 <--  @  LAD    2
+  BOS    5 <--  @  SEA    1
+  MIN   16 <--  @  AZ     8
+
+  Final:    14/14 games
+==================================================================
 
 ## S1: BEST BET RE-EVALUATION
 ORIGINAL BEST BET:
@@ -67,3 +86,912 @@ PROPOSED CHANGE:
 WHAT IN MY METHOD COULD BE SHARPER:
 EVIDENCE FROM TODAY (cite pre-game data, not the outcome):
 CONFIDENCE: LOW / MEDIUM / HIGH
+
+
+---
+## GROK RESPONSE
+
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: NO BEST BET  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? **YES**  
+
+No 3-unit (or even 1-unit) edge cleared the 4-pt separation threshold on any game after L14 small-sample adjustments, platoon, park, and bullpen factors. Staying at zero bets remains the correct decision.
+
+**S2: FULL SLATE REVIEW**
+
+**PART A — GAMES YOU BET**  
+None. All 14 games were correctly passed pre-game.
+
+**PART B — PASSES AND LEANS**  
+No blocks required. Every pass was driven by L14 [sm] flags on at least one starter that kept model/market gaps below the 4-pt threshold. No specific pre-game data point (xFIP, K-BB%, platoon splits, bullpen freshness, or park adjustment) showed a qualifying edge that was overlooked. Results were variance relative to the conservative thresholds in place.
+
+**S3: DATA REQUEST**  
+NONE
+
+**S4: METHOD CHANGE PROPOSAL**  
+NONE
+
+**Overall Analysis**  
+The slate was handled correctly by strict process. The repeated L14 [sm] flags across nearly every starter created a low-edge environment; the decision to require clear 4+ pt separation (or 3u qualification) prevented forced action. No pre-game signal existed in the supplied data that would have justified moving off PASS on any game. The conservative stance worked as intended.
+
+---
+## CHATGPT RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE  
+RESULT: NONE  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: NONE  
+WHY: I still do not see a legitimate 3-unit pre-game edge from the information I had at the time. The slate produced several upset winners, but I cannot justify promoting any of them to “best bet” status without using hindsight.  
+SOURCE: Original slate notes / pre-game pricing discipline
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: SF @ MIA  
+PICK: SF ML +122  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game case was real: SF had the better projected lineup split vs RHP, and my handicap viewed McDonald’s underlying skill as better than the market-facing ERA. The confirmed lineup did not undercut that thesis; if anything, it supported it. Miami’s bullpen edge was already acknowledged and was the reason this stayed 1u. I do not see a pre-game signal I ignored that should have turned this into a pass.  
+SOURCE: Original reasoning; confirmed lineup averages vs RHP: SF 117.7, MIA 91.6
+
+---
+
+GAME: LAA @ ATH  
+PICK: Over 9.5 (-110)  
+RESULT: LOSS  
+PROCESS: MISSED LINEUP  
+WOULD-BET-AGAIN: NO  
+WHY: My over case leaned on weak starters, a taxed A’s bullpen, and a hitter-friendly park, but the confirmed offenses matter a lot in a total this high. The A’s lineup, especially the lower half, was substantially weaker than a generic team-level assumption: Heim 30, Colby Thomas -32, Bolte 89, Muncy 75, Alika 99, with an overall lineup average of just 86.0 vs RHP. The Angels lineup was only moderate as well at 100.2. That should have reduced confidence enough to pass rather than bet.  
+SOURCE: Confirmed lineup data provided for LAA/ATH
+
+---
+
+GAME: MIN @ AZ  
+PICK: Over 9.0 (-107)  
+RESULT: WIN  
+PROCESS: MISSED LINEUP  
+WOULD-BET-AGAIN: NO  
+WHY: This won, but the process was not as good as the result. My pre-game writeup leaned on Gallen underperforming his name value, Bradley being solid-not-elite, and Minnesota recent scoring form. The confirmed lineups badly weakened the offensive baseline for both teams: MIN lineup avg 79.9 vs RHP, AZ lineup avg 54.9 vs RHP. That is not just “less than ideal”; it materially attacks the foundation of an over. A good outcome does not rescue a bad pre-lineup decision.  
+SOURCE: Confirmed lineup data provided for MIN/AZ
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: SD @ TEX  
+YOUR CALL: PASS  
+FINAL RESULT: SD 6 @ TEX 4  
+WHAT YOU MISSED: I already had San Diego “close to playable as a dog” because of the better split vs RHP and the stronger bullpen. In retrospect, the sharper pre-game takeaway is that when the better bullpen plus the better platoon profile are both on the dog side, I may have been too deferential to the starter gap alone.  
+SOURCE: Original note: “San Diego is close to playable as a dog because of the better platoon split versus RHP and stronger bullpen…”  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: WAS @ TB  
+YOUR CALL: PASS  
+FINAL RESULT: WAS 4 @ TB 3  
+WHAT YOU MISSED: My own pre-game note said my side number was “close to pick’em” and that Washington had the better offense plus the more established starter. If the market still had Tampa meaningfully favored, that likely implied some dog value I did not fully trust because of uncertainty around Seymour. The missed edge was not the result; it was that my base inputs already leaned Washington.  
+SOURCE: Original reasoning on offense/starter edge for WAS  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: PIT @ COL  
+YOUR CALL: LEAN  
+FINAL RESULT: PIT 1 @ COL 2  
+WHAT YOU MISSED: The confirmed lineups were stronger than a generic over assumption, especially Pittsburgh’s 124.7 lineup average vs RHP and Colorado’s 114.3. That is a real pre-game offensive signal. It would not have guaranteed an over, but it would have strengthened the lean materially.  
+SOURCE: Confirmed lineup data for PIT/COL  
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Earlier confirmed lineups, or at minimum a lineup-adjusted team offensive projection before bet lock  
+WHICH GAME(S): LAA @ ATH, MIN @ AZ, PIT @ COL  
+WOULD HAVE CHANGED A BET? YES  
+WHY: All three totals were materially sensitive to who was actually hitting. The confirmed lineups would have downgraded LAA/ATH and MIN/AZ overs, while strengthening PIT/COL over.
+
+---
+
+TYPE: STAT  
+ITEM: Starter role / expected pitch count / leash estimate for incomplete-sample SPs  
+WHICH GAME(S): CHW @ DET, WAS @ TB  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: My biggest hesitation in those games was uncertainty around how much trustworthy starter innings were actually available.
+
+---
+
+TYPE: SOURCE  
+ITEM: Standardized roof/wind feed with park-adjusted run impact  
+WHICH GAME(S): SD @ TEX, CLE @ HOU, MIN @ AZ, SF @ MIA, PIT @ COL  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I cited roof/wind uncertainty several times. A consistent feed would tighten total projections and could move borderline passes into bets.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Do not place full-stake overs before confirmed lineups when the wager depends on both offenses contributing; require a lineup-adjusted recheck before release, especially on totals of 9+.
+
+WHAT IN MY METHOD COULD BE SHARPER: I leaned too heavily on team-level offensive form and environment in totals spots without enough protection against weak confirmed batting orders.
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):  
+- LAA @ ATH: A’s confirmed lineup average vs RHP was only 86.0, with multiple major sinkholes in the bottom half.  
+- MIN @ AZ: Both confirmed lineups were materially worse than team-level assumptions, especially Arizona at 54.9 average vs RHP.  
+- PIT @ COL: Confirmed lineups were much stronger than a generic over baseline and would have upgraded the lean.
+
+CONFIDENCE: HIGH
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: SF @ MIA — YOUR CALL: BET away ML 122 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: The confirmed lineups supported the original handicap. SF’s order projected much better vs RHP than Miami’s, which matches the stated pre-game edge. No reason to downgrade or alter the side.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game umpire signal in my process here strong enough to move a side bet.
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: LEAN over
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? lean→bet  
+PRE-GAME REASON: Both lineups were stronger than a generic over setup, especially Pittsburgh’s top/middle vs RHP and Colorado’s solid middle. Since my raw total was already above market, stronger-than-expected offensive cards would have been enough to upgrade from lean to bet.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific plate-profile adjustment strong enough on its own to override the lineup/park case.
+
+---
+
+### GAME: LAA @ ATH — YOUR CALL: BET over ML -110 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→pass  
+PRE-GAME REASON: The A’s lineup was too weak for a full-game over that already needed both sides to help clear 9.5. The bottom half contained several clear offensive liabilities by pre-game split data, and the full lineup average vs RHP was only 86.0.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No umpire adjustment large enough to overcome the lineup downgrade.
+
+---
+
+### GAME: MIN @ AZ — YOUR CALL: BET over ML -107 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→pass  
+PRE-GAME REASON: The confirmed lineups were far weaker than the team-level offensive assumptions behind the over, particularly Arizona’s 54.9 average vs RHP and a light Minnesota card as well. That should have removed the margin in an over 9.0.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No plate-ump effect strong enough to offset such weak confirmed offensive personnel.
+
+---
+
+### Bottom line
+Record on actual bets: 1-2.  
+But the more important process review is:
+
+- **SF ML:** fine bet, bad result.  
+- **LAA/ATH over:** bad pre-lineup discipline.  
+- **MIN/AZ over:** won, but still a process miss due to lineups.  
+
+The main lesson is not “bet fewer overs” or “trust favorites less.” It is: **when a totals bet needs both offenses, confirmed lineup quality has to be weighted more heavily than broad team form.**
+
+---
+## DEEPSEEK RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** PIT ML -200 (3u)
+**RESULT:** LOSS
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES
+*Reasoning remains unchanged: Skenes’ elite underlying metrics vs. Sugano’s poor SIERA in Coors Field created a 14.3‑point win‑probability edge — the largest on the board. The loss was a high‑variance outcome, not a process failure.*
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** SD @ TEX  
+**PICK:** SD ML +116 (1u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+- Pre‑game model gave SD a 9.5‑pt win‑probability edge; Buehler’s blended SIERA + Padres’ strong platoon wRC+ vs RHP supported the value. Confirmed lineups were essentially neutral (SD 129 wRC+, TEX 131) and did not undermine the edge.  
+**WOULD‑BET‑AGAIN:** YES  
+**WHY:** The mispricing was well‑supported by pitching and platoon data; no overlooked pre‑game variable would have invalidated it.
+
+---
+
+**GAME:** PIT @ COL  
+**PICK:** PIT ML -200 (3u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+- The 14.3‑pt edge derived from an extreme SP mismatch and park effect was sound. Confirmed lineups (PIT 125 wRC+, COL 114) aligned with expectations and did not expose a hidden flaw.  
+**WOULD‑BET‑AGAIN:** YES  
+**WHY:** The bet was high‑conviction for good reason; the unfavourable result is attributable to Coors Field volatility, not a misread of pre‑game data.
+
+---
+
+**GAME:** MIN @ AZ  
+**PICK:** MIN ML +115 (3u)  
+**RESULT:** WIN  
+**PROCESS:** INCORRECT TEAM STRENGTH / OVERWEIGHTED FORM  
+- The rationale leaned heavily on recent runs (L10RS 6.0), but the confirmed lineup posted a 79.9 wRC+ — materially weaker than assumed. This overstatement of offensive strength reduced the true pre‑game edge, even though the bet won.  
+**WOULD‑BET‑AGAIN:** NO (with confirmed lineup knowledge)  
+**WHY:** If the actual lineup had been available, the run projection would have been substantially lower, likely dropping the edge below the betting gate. The win was variance‑aided.
+
+---
+
+### PART B — PASSES AND LEANS
+*No missed pre‑game edges identified; all passed games were either capped by the slate limit, below gate with available data, or correctly avoided due to incomplete information (CHW, BOS).*
+
+---
+
+## S3: DATA REQUEST
+**NONE** – All necessary metrics were present; the primary issue on MIN was overreliance on team‑level form without lineup details, which is a process adjustment, not a data gap.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+**PROPOSED CHANGE:** Incorporate projected lineups (when available) into run‑estimates, not just overall team rolling performance.  
+**WHAT IN MY METHOD COULD BE SHARPER:** Run projections should be adjusted when the day’s lineup deviates significantly from the lineup that produced recent hot streaks.  
+**EVIDENCE FROM TODAY:** MIN’s “offence is humming” (L10RS 6.0) was based on a different set of hitters; the confirmed lineup wRC+ of 79.9 would have lowered projected runs and likely pushed the edge below the 4‑pt gate.  
+**CONFIDENCE:** MEDIUM – This single instance warrants tracking over multiple slates before permanently altering the model.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: SD @ TEX
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** ROUGHLY AS EXPECTED (SD avg wRC+ 129.1 matched model assumption exactly)  
+**WOULD CHANGE?** no change  
+**UMPIRE WOULD CHANGE?** no — no pre‑game tendency flagged for Eddings.
+
+---
+
+### GAME: PIT @ COL
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** ROUGHLY AS EXPECTED (both lineups were strong enough to support the huge projected run gap)  
+**WOULD CHANGE?** no change  
+**UMPIRE WOULD CHANGE?** no — Hamari’s zone not flagged as extreme.
+
+---
+
+### GAME: MIN @ AZ
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** MATERIALLY DIFFERENT – assumed a humming offence, got a 79.9 wRC+ lineup full of backups.  
+**WOULD CHANGE?** bet→pass  
+**PRE‑GAME REASON:** The projected lineup’s abysmal wRC+ against RHP (79.9) would have slashed Minnesota’s run projection, eroding the 13.4‑pt edge. The recent L10RS/6.0 was generated by a different set of hitters and was not predictive for this specific lineup.  
+**UMPIRE WOULD CHANGE?** no — Hoye’s profile not a game‑changer.
+
+---
+## KIMI RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** NONE — no 3-unit play identified.  
+**RESULT:** N/A  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES  
+**IF NO — NEW BEST BET:** —  
+**WHY:** No play on the slate cleared the threshold for a 3-unit best bet. The NYY side was the largest edge (4.3 pts) but was correctly capped at 1 unit due to Warren’s [sm] L14 flag. The totals carried run cushions but not the combination of edge + certainty required for best-bet status. Nothing in the confirmed data retroactively upgrades any play to 3-unit status.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** CIN @ NYY  
+**PICK:** NYY ML -205 (1u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Pre-game data showed a 1.31-run SIERA advantage (Warren 3.76 vs. Abbott 5.07), a +29 wRC+ platoon edge for the Yankees vs. lefties, and a 4.3-point fair-value edge. The confirmed NYY lineup averaged 124.0 wRC+ vs. LHP, confirming the platoon mismatch. The confirmed Reds lineup averaged only 85.9 wRC+ vs. RHP, offering no pre-game signal of an offensive eruption. Warren’s [sm] L14 flag was already accounted for by capping the stake at 1 unit rather than 2 or 3. A 10-2 Reds victory is not justified by any pre-game data point available to me; it is severe negative variance.  
+**SOURCE:** Pre-game AGG SIERA, team platoon splits, confirmed lineup wRC+.
+
+---
+
+**GAME:** NYM @ PHI  
+**PICK:** Over 7.5 -105 (1u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (with lineup caveat noted below)  
+**WHY:** Sánchez’s elite 2.66 AGG SIERA was correctly weighed against Philadelphia’s taxed bullpen (0/2 T2 avail) and Peralta’s [sm]-flagged degradation. I projected 8.7 runs with a 1.2-run cushion over the 7.5 line. With the pre-game information I had, the over was the right side of the game.  
+**SOURCE:** Pre-game AGG SIERA, bullpen freshness index, Peralta [sm] flag.
+
+---
+
+**GAME:** PIT @ COL  
+**PICK:** Over 10.5 -110 (1u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Sugano’s 5.09 AGG xFIP and 80 Stuff+ were extreme negatives, and the confirmed Pirates lineup averaged 124.7 wRC+ vs. RHP. A 2.1-run edge at Coors Field is normally a strong position. A 1-2 final is an outlier at altitude; there is no pre-game run-suppression signal in Sugano’s profile that predicted a shutdown. Skenes’ elite upside is a known variance suppressor, but even elite pitchers typically allow 3–4 runs at Coors. The Pirates’ one-run output is not projectable from pre-game data.  
+**SOURCE:** Pre-game AGG xFIP, Stuff+, confirmed PIT lineup wRC+, Coors runs factor.
+
+---
+
+**GAME:** LAA @ ATH  
+**PICK:** Over 9.5 -115 (1u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES (but edge was overstated)  
+**WHY:** Pre-game estimates leaned on a 110 runs park factor and strong outbound wind, with Ginn (4.08 xFIP) and Ureña (4.43 xFIP) profiling as hittable. The Angels scored 7 runs, validating the park/wind inflation. The Athletics’ shutout is the sole reason for the loss; there was no pre-game signal that Ureña would blank them. That said, the confirmed A’s lineup (86.0 wRC+ vs. RHP) was weaker than my “near league average” team-level assumption, which would have narrowed the edge (see Confirmed Data Evaluation). Still, a total under 9.5 was not the pre-game expectation.  
+**SOURCE:** Pre-game park factor, wind report, AGG xFIP, confirmed lineup wRC+.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+**NONE.** All passes were supported by pre-game data. No retroactive pre-game signal emerges from the box scores that my model ignored.
+
+---
+
+## S3: DATA REQUEST
+
+| TYPE | ITEM | WHICH GAME(S) | WOULD HAVE CHANGED A BET? | WHY |
+|---|---|---|---|---|
+| STAT | Sean Newcomb’s AGG xFIP, SIERA, K-BB%, and Stuff+ (or a reliable MiLB translation / short-sample prior) | CHW @ DET | MAYBE | I passed the game entirely because the pitching-anchor foundation of the model collapsed without a stabilized run-suppression estimate for either starter. Even a regressed short-sample prior would have allowed me to price the side or total. |
+| DATA | Lineup-level wRC+ vs. LHP/RHP for confirmed starters (rather than only team-level aggregates) | All games; most acutely LAA @ ATH and NYM @ PHI | MAYBE | Team-level “near average” masked an 86.0 wRC+ A’s lineup vs. RHP and a 67.8 wRC+ Phillies lineup vs. RHP. Lineup-level platoon data would sharpen run estimates and potentially flip borderline total bets to passes. |
+| DATA | Umpire-specific run-environment tendencies (pitcher-friendly vs. hitter-friendly strike zone, historical ERA/RF under crew) | Slate-wide | MAYBE | Zone size impacts walk and strikeout rates, which flow into total run environments. Currently I do not integrate umpire data; adding it could adjust totals by 0.2–0.4 runs on the margin. |
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When a starting pitcher carries an **[sm] (small sample) flag** on L14 or seasonal aggregates, apply a Bayesian shrinkage penalty before feeding the number into the win-probability engine: regress the published AGG SIERA/xFIP **40% toward league average** (or the pitcher’s career baseline if available) rather than treating the raw AGG figure as a point estimate. If the [sm] flag is present, require a **minimum 5.0-point edge** (up from 3.5) to bet the side, and apply the same regressed figure to total run estimates.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** I currently treat AGG SIERA as a fixed true-talent estimate even when the model itself warns that the sample is small. This creates false precision and can inflate edges on volatile pitchers.
+
+**EVIDENCE FROM TODAY (cite pre-game data, not the outcome):** Will Warren entered with a 3.76 AGG SIERA but an **[sm] L14 flag**. I priced NYY at 69.1% (4.3-point edge) treating 3.76 as reliable. If regressed 40% toward a league-average ~4.40 SIERA, his effective run-suppression estimate becomes ~4.14, materially shrinking the gap vs. Abbott (5.07) and likely collapsing the 4.3-point edge toward market. The [sm] flag was the correct pre-game warning that the edge was overstated.
+
+**CONFIDENCE:** MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+---
+
+### GAME: CIN @ NYY — YOUR CALL: BET home ML -205 (1u)
+
+**CIN BATTING ORDER (vs RHP):** avg wRC+ 85.9  
+**NYY BATTING ORDER (vs LHP):** avg wRC+ 124.0
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):** N/A  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: no pre-game umpire zone/run-data available for Laz Diaz
+
+---
+
+### GAME: NYM @ PHI — YOUR CALL: BET over 7.5 -105 (1u)
+
+**NYM BATTING ORDER (vs LHP):** avg wRC+ 109.6  
+**PHI BATTING ORDER (vs RHP):** avg wRC+ 67.8
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** bet → pass  
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):** The confirmed Phillies lineup averages 67.8 wRC+ vs. RHP, which is roughly 32 points below league average — significantly worse than my model’s “19 points below average” assumption. A lineup that weak against Peralta removes approximately 0.5–0.6 runs from my total estimate, compressing my 1.2-run cushion below my 1.0-run total gate.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: no pre-game umpire zone/run-data available for Chad Whitson
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: BET over 10.5 -110 (1u)
+
+**PIT BATTING ORDER (vs RHP):** avg wRC+ 124.7  
+**COL BATTING ORDER (vs RHP):** avg wRC+ 114.3
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):** N/A  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: no pre-game umpire zone/run-data available for Adam Hamari
+
+---
+
+### GAME: LAA @ ATH — YOUR CALL: BET over 9.5 -115 (1u)
+
+**LAA BATTING ORDER (vs RHP):** avg wRC+ 100.2  
+**ATH BATTING ORDER (vs RHP):** avg wRC+ 86.0
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different (A’s weaker than expected)  
+**WOULD CHANGE?** bet → pass  
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):** The confirmed A’s lineup averages 86.0 wRC+ vs. RHP, which is 14 points below league average rather than the “near league average” my model assumed. That lineup weakness subtracts roughly 0.5–0.6 runs from my total estimate, shrinking my 1.5-run edge to approximately 0.9 runs — below my 1.0-run gate for a total play.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: no pre-game umpire zone/run-data available for Dan Bellino
+
+---
+## QWEN RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: MIL @ ATL Over 7.0 (3 Units)
+RESULT: PUSH
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+IF NO — NEW BEST BET: NONE
+WHY: The original best bet pushed, but more importantly, the underlying reasoning contained a critical logical flaw (treating elite pitching metrics as run-inflating). None of the other bets won, and the passes were correct based on stale data or variance thresholds, leaving no valid alternative best bet.
+SOURCE: Pre-game reasoning text and standard baseball metric definitions.
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: MIL @ ATL
+PICK: Over 7.0 (-113)
+RESULT: PUSH
+PROCESS: INCORRECT PITCHING
+WOULD-BET-AGAIN: NO
+WHY: The pre-game reasoning stated that "elite AGG xFIPs" triggered a "massive baseline addition" to the run projection. xFIP is a metric where lower is better for pitchers; elite xFIPs should suppress runs, not inflate them. This fundamental sign error invalidates the mathematical edge.
+SOURCE: Pre-game reasoning text vs. standard sabermetric definitions.
+
+GAME: WAS @ TB
+PICK: Over 8.0 (-105)
+RESULT: LOSS
+PROCESS: INCORRECT PITCHING
+WOULD-BET-AGAIN: NO
+WHY: Same inverted pitching logic as the MIL/ATL game ("strong AGG xFIPs that inflate my baseline projection"). Additionally, the model failed to properly account for TB's weak confirmed wRC+ against RHP (94.4) in a pitcher-friendly dome environment.
+SOURCE: Pre-game reasoning text and confirmed lineup platoon splits.
+
+GAME: BAL @ LAD
+PICK: Over 8.0 (-112)
+RESULT: LOSS
+PROCESS: INCORRECT TEAM STRENGTH
+WOULD-BET-AGAIN: NO
+WHY: The pre-game reasoning explicitly cited BAL's "potent 124 wRC+ against RHP" to justify the Over. The confirmed lineup's actual average wRC+ vs RHP was only 108.7. Overstating the lineup's platoon strength by over 15 points artificially inflated the projection.
+SOURCE: Pre-game reasoning text vs. confirmed lineup data.
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+NONE
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA
+ITEM: Secondary/alternative book prices for Over/Under and Team Total markets when the primary book's prices are flagged as stale.
+WHICH GAME(S): CIN @ NYY, TOR @ CHC, SF @ MIA, NYM @ PHI, MIN @ AZ, BOS @ SEA
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Several games were automatic passes solely due to "suspect and stale" TT or O/U prices. Having access to a secondary book or live market would allow the model to evaluate these games rather than discarding nearly 40% of the slate.
+
+TYPE: STAT
+ITEM: Platoon-specific wRC+ for the exact confirmed starting lineups (rather than projected or team-level wRC+).
+WHICH GAME(S): BAL @ LAD (and all others)
+WOULD HAVE CHANGED A BET? YES
+WHY: The pre-game reasoning cited BAL's "potent 124 wRC+ against RHP", but the confirmed lineup's actual average wRC+ vs RHP was 108.7. Having exact confirmed lineup platoon splits pre-game would have corrected this overestimation and prevented the bad bet.
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Invert the xFIP and SIERA coefficients in the totals projection model.
+WHAT IN MY METHOD COULD BE SHARPER: The model currently appears to treat "strong/elite" (low) xFIPs as a positive addition to the run baseline. This is mathematically backwards. Elite pitching metrics must subtract from the projected total, while weak/high xFIPs should add to it.
+EVIDENCE FROM TODAY: In all three Over bets (MIL/ATL, WAS/TB, BAL/LAD), the pre-game reasoning explicitly cited "elite/strong AGG xFIPs" as the trigger to "inflate" or "add" to the baseline projection.
+CONFIDENCE: HIGH
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: MIL @ ATL — YOUR CALL: BET over ML -113 (3u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? bet→pass
+PRE-GAME REASON: The confirmed lineups show a distinct lack of platoon advantage against left-handed pitching. ATL's 82.9 wRC+ vs LHP is particularly weak, with Bart (-19) and Kim (-31) in the negatives, and MIL's is a mediocre 104.6. This confirms the left-handed pitchers should suppress runs, exposing the flawed "elite xFIP adds runs" logic and justifying a pass on the Over.
+UMPIRE WOULD CHANGE? no — Ron Kulpa is generally standard, with no extreme hitter-friendly bias to override the weak LHP lineup splits.
+
+### GAME: WAS @ TB — YOUR CALL: BET over ML -105 (3u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? bet→pass
+PRE-GAME REASON: TB's confirmed lineup against RHP yields a mere 94.4 wRC+, with several hitters (DeLuca 73, Mullins 62, Mesa Jr. 68) well below league average. This lack of right-handed power in a pitcher-friendly dome environment makes an 8.0 total too high, even with WAS's solid 111.5 wRC+ vs LHP.
+UMPIRE WOULD CHANGE? no — Ryan Additon's zone doesn't drastically inflate run expectancy enough to overcome a 94.4 wRC+ lineup.
+
+### GAME: BAL @ LAD — YOUR CALL: BET over ML -112 (3u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? bet→pass
+PRE-GAME REASON: The pre-game reasoning relied heavily on a "potent 124 wRC+ against RHP" for BAL. The confirmed lineup is only 108.7, dragged down by Mayo (32) and Jackson (91). LAD's lineup vs LHP is also mediocre (104.1), with Freeland (0) and Betts (82) struggling against lefties. The offensive environment is much weaker than the model assumed.
+UMPIRE WOULD CHANGE? no — Charlie Ramos is a standard umpire, with no extreme tendency to rescue the overstated lineup metrics.
+
+---
+## GEMINI RESPONSE
+
+An honest, process-driven post-mortem of the June 20, 2026 slate.
+
+Overall, the day ended in a minor profit (**+0.33 units**) despite dropped games on both heavy favorites (-200). Our plus-money underdog plays carried the day, but a critical look at our heavy-chalk logic reveals glaring process leaks.
+
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-20
+==================================================================
+  CIN   10 @  NYY    2 | Winner: CIN | Bet: NYY -200 → LOSS (-1.00u)
+  TOR    8 @  CHC    6 | Winner: TOR | Bet: TOR +117 → WIN (+1.17u)
+  SD     6 @  TEX    4 | Winner: SD  | Bet: SD +116  → WIN (+1.16u)
+  PIT    1 @  COL    2 | Winner: COL | Bet: PIT -200 → LOSS (-1.00u)
+
+  Net Slate Result: +0.33 units
+==================================================================
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+WHY: Our model correctly identified a high-variance slate with multiple small-sample starting pitchers. Capping exposures and refusing to flag a 3-unit play was the correct risk-management decision.
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+**GAME:** CIN @ NYY
+**PICK:** NYY ML (-200)
+**RESULT:** LOSS
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD-BET-AGAIN:** YES
+**WHY:** The pre-game numbers heavily favored New York: an elite 124.0 wRC+ lineup against Andrew Abbott's 5.07 SIERA, countered by a stable Will Warren (3.76 SIERA). However, high winds (16.3 mph) at Yankee Stadium introduce massive variance to fly-ball pitchers. While we correctly passed on the game total due to wind, we did not discount the moneyline. Despite the loss, a -200 favorite with a 6.2% edge remains a mathematically correct play over a long-run sample.
+**SOURCE:** Pre-game model metrics (SIERA & wRC+ splits).
+
+---
+
+**GAME:** TOR @ CHC
+**PICK:** TOR ML (+117)
+**RESULT:** WIN
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Our pre-game analysis targeted Colin Rea's weak metrics (5.00 SIERA) against Toronto's platoon-advantaged bats, alongside a severely taxed Chicago high-leverage bullpen. The late-inning bullpen leakage we anticipated played out perfectly in an 8-6 victory.
+**SOURCE:** Bullpen availability reports and starter SIERA splits.
+
+---
+
+**GAME:** SD @ TEX
+**PICK:** SD ML (+116)
+**RESULT:** WIN
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** San Diego's elite offense vs. RHP (129 wRC+), combined with a massive bullpen advantage featuring fresh leverage arms, offered exceptional value at +116. 
+**SOURCE:** Pre-game team wRC+ splits vs. RHP and bullpen rest status.
+
+---
+
+**GAME:** PIT @ COL
+**PICK:** PIT ML (-200)
+**RESULT:** LOSS
+**PROCESS:** MISREAD PRICE
+**WOULD-BET-AGAIN:** NO
+**WHY:** Laying -200 on a road favorite at Coors Field is a structural process error. While Paul Skenes (2.83 SIERA) was a massive paper upgrade over Tomoyuki Sugano (5.18 SIERA), Coors Field acts as an extreme variance equalizer. High altitude alters pitch movement (reducing spin-efficiency on elite fastballs/breaking pitches) and inflates BABIP. Paying -200 in an environment designed to generate high-variance outcomes was a severe pricing misread, regardless of the pitching mismatch.
+**SOURCE:** Historical Coors Field park factors and altitude-adjusted pitching degradation.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+*None. All passes and leans were structurally sound based on the 4-bet portfolio cap and small-sample flags.*
+
+---
+
+## S3: DATA REQUEST
+**TYPE:** DATA | **STAT:** Wind Direction Vectors
+**ITEM:** Stadium-specific wind angles and velocity vectors.
+**WHICH GAME(S):** CIN @ NYY
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** Knowing if 16.3 mph winds are blowing directly out (highly volatile, HR-friendly) or blowing in/across would have allowed us to adjust the Yankees ML downward, potentially triggering a pass on a steep -200 price tag.
+
+**TYPE:** STAT | **SOURCE:** Statcast (Altitude splits)
+**ITEM:** Pitch movement degradation (vertical/horizontal break loss) in high altitude.
+**WHICH GAME(S):** PIT @ COL
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** Understanding how much Skenes' elite arsenal grades out worse at Coors would have mathematically corrected his projection, dropping the edge below our 5.0% threshold and forcing a pass at -200.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+**PROPOSED CHANGE:** Implement an automatic "Coors Field / High-Altitude ML Cap" of -145. No road favorite playing in Denver may be bet at a price steeper than -145, regardless of the pitching matchup edge.
+**WHAT IN MY METHOD COULD BE SHARPER:** Environmental adjustments for high-altitude venues are currently treated as "totals-only" flags. We must integrate them into the side-pricing model because of how altitude neutralizes elite pitching arsenals.
+**EVIDENCE FROM TODAY:** Paul Skenes (elite 2.83 SIERA) was neutralized in a 2-1 defeat by a vastly inferior starting pitcher in Sugano (5.18 SIERA) at Coors. The venue minimized the skill gap.
+**CONFIDENCE:** HIGH
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: CIN @ NYY — YOUR CALL: BET home ML -200 (1u)
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** The confirmed lineups validated our massive split advantage assumption: NYY boasted a stellar 124.0 average wRC+ vs. LHP, whereas CIN rolled out a heavily degraded 85.9 average wRC+ vs. RHP.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: TOR @ CHC — YOUR CALL: BET away ML 117 (1u)
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** Lineups matched expected platoon splits.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: SD @ TEX — YOUR CALL: BET away ML 116 (1u)
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** SD fielded a highly competitive lineup matching our projected team numbers.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: SF @ MIA — YOUR CALL: LEAN away
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** Lineup data supported the lean, but we stayed disciplined due to the 4-bet slate limit.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: WAS @ TB — YOUR CALL: LEAN None
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** No material differences.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: CLE @ HOU — YOUR CALL: LEAN away
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** Houston's extremely weak confirmed lineup vs. LHP (59.5 average wRC+) validated our lean on Cleveland, but keeping it as a lean to respect the 4-bet ceiling was proper risk management.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: BET away ML -200 (1u)
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change (based *solely* on lineup cards)
+**PRE-GAME REASON:** The lineups on paper confirmed a massive offensive/pitching gap in favor of Pittsburgh (124.7 team wRC+ vs. COL's 114.3). While we should change our method regarding Coors Field pricing (see S4), the raw lineup sheets themselves matched our model's pre-game inputs.
+**UMPIRE WOULD CHANGE?** no
+
+---
+## OPUS RESPONSE
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** None — explicitly logged "NO BEST BET" / empty slate
+**RESULT:** N/A (no stake)
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES (i.e., I'd still pass)
+
+The slate, in hindsight, was a carnage of blowouts: CIN 10, PHI 15, CLE 8, LAA 7, MIN 16. Several of my "fully priced favorite" passes (NYY -205, HOU -143, AZ pick'em) lost outright. Had I manufactured a side play to chase volume, I'd likely have been laying one of those favorites and lost. The empty-slate discipline was vindicated — but vindicated partly by variance, not foresight. I did not have a pre-game signal pointing to NYY or HOU collapsing. So: correct to pass, lucky in magnitude.
+
+**IF NO — NEW BEST BET:** N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+**NO BETS.** All plays were sub-gate leans logged for CLV only; zero units staked. Nothing to grade as a win/loss.
+
+---
+
+### PART B — PASSES/LEANS WITH AN IDENTIFIABLE MISSED EDGE
+
+I am being strict here. Most passes were correct. The three Under leans all went Over (SD/TEX 10 total, NYM/PHI 18, BOS/SEA 6 — last one actually UNDER). I will only flag a block where pre-game data, not the result, pointed somewhere I didn't go.
+
+**GAME: NYM @ PHI**
+YOUR CALL: LEAN Under (0.6 runs, no stake)
+FINAL RESULT: PHI 15, NYM 3 (Over annihilated)
+WHAT YOU MISSED: My reasoning leaned on "Sánchez elite + NYM 92 wRC+ vs LHP." But the Under thesis quietly assumed Peralta (4.11 SIERA) would hold up. The pre-game knowable here is asymmetry: I built a two-sided Under off one elite arm and one mediocre arm, then treated it as a clean Under. A 4.11-SIERA arm in a 104-Runs park against any functional lineup is an Over-risk vector I underweighted relative to the Sánchez glow. This is a *correct pass* on staking (0.6 < 0.8), but the underlying lean direction was built on the strong half of the matchup. No bet was lost, so process held — but I should not log "Under lean" on a game where half the pitching is replacement-adjacent in a hitter park.
+SOURCE: Peralta 4.11 SIERA, PHI park Runs 104 (both pre-game).
+WOULD THIS HAVE BECOME A BET? NO — and correctly so. The lean itself was directionally shaky; the gate saved me.
+
+No other pass qualifies. CIN/NYY, CLE/HOU, MIN/AZ blowouts: I had no pre-game signal of those magnitudes. The favorites I declined to lay (NYY -205, HOU -143) losing is pure variance from my vantage — I passed for "no edge," not because I projected upsets. That is a correct pass with a result that happened to reward it.
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE: DATA**
+ITEM: Confirmed lineups delivered pre-decision (not post-hoc)
+WHICH GAME(S): SD/TEX, NYM/PHI, BOS/SEA — all three leans
+WOULD HAVE CHANGED A BET? MAYBE (see Confirmed Data Eval below — NYM/PHI in particular)
+WHY: Every lean carried "confirmed lineups" as its data gap. The PHI lineup posted at 67.8 avg wRC+ vs RHP would have *reinforced* my Under lean, not killed it — meaning the result was variance against a sound read. But the SD/TEX confirmed lineups (both ~130 avg) would have moved me *off* Under entirely.
+
+**TYPE: DATA**
+ITEM: Non-stale total prices (TT flagged stale on 6+ games)
+WHICH GAME(S): CHW/DET, CIN/NYY, TOR/CHC, SF/MIA, WAS/TB
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Multiple totals markets were simply absent to me due to stale pricing. I cannot bet a number I can't trust. TOR/CHC (two 4.75–5.00 SIERA arms) went 14 total — an Over I flagged directionally but couldn't price.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When constructing a total lean, weight the *weaker* of the two starters more heavily in hitter-friendly parks (Runs ≥ 100). An Under lean anchored by one elite arm + one ~4.1+ SIERA arm in a 104+ park should be downgraded a half-tier (or flipped to neutral) rather than logged as a clean Under.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** I let the elite arm (Sánchez, Eovaldi) set the narrative and treated the mediocre counterpart as a footnote. Totals are governed by the *floor* of the pitching matchup as much as the ceiling. My xR build may already do this mechanically, but my *written lean direction* over-indexed on the ace.
+
+**EVIDENCE FROM TODAY (pre-game only):** NYM/PHI — Peralta 4.11 SIERA in 104-Runs park, logged as Under lean. SD/TEX — Buehler "trending up," logged as Under in an 83-Runs park (this one is defensible). The pattern is that my Under leans clustered around games with one strong/one weak arm, and the weak arm is the swing variable I keep under-narrating.
+
+**CONFIDENCE:** LOW — one slate, three leans, none staked. Directional note only.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: SD @ TEX — YOUR CALL: LEAN Under
+CONFIRMED LINEUP vs YOUR ASSUMPTION: **materially different**
+WOULD CHANGE? **lean → pass (kill the Under lean)**
+PRE-GAME REASON: My Under was built on "two strong arms in pitcher park," implicitly assuming modest offenses. But both confirmed lineups post at ~130 avg wRC+ vs RHP — SD at 129.1, TEX at 131.1, with multiple 130+ bats and several inflated small-sample marks (Will Wagner 271, Cody Freeman 291, Elias Díaz 203). Even discounting small samples, these are not Under-friendly lineups. The 83-Runs park keeps it from flipping to a stake-able Over, but it removes my justification for an Under lean. Correct outcome: no lean, pure pass.
+UMPIRE WOULD CHANGE? No — Doug Eddings is a roughly neutral-to-slightly-tight zone, no material pre-game edge.
+
+### GAME: NYM @ PHI — YOUR CALL: LEAN Under
+CONFIRMED LINEUP vs YOUR ASSUMPTION: **roughly as expected (PHI even worse than assumed)**
+WOULD CHANGE? **no change** (lean stays; still sub-gate, still no stake)
+PRE-GAME REASON: PHI posts 67.8 avg wRC+ vs RHP — *weaker* than my team-level assumption, with a -100 (Rincones) and several 50–70 marks. NYM at 109.6 is a touch higher than my 92-vs-LHP figure but driven by small-sample spikes (Wagaman 205, Benge 168). On the confirmed data, my Under lean is *more* justified, not less. The 15-3 result is therefore variance against a sound read — exactly the case where I refuse to reason backward from the box score.
+UMPIRE WOULD CHANGE? No — Chad Whitson no notable extreme-zone pre-game signal.
+
+### GAME: BOS @ SEA — YOUR CALL: LEAN Under
+CONFIRMED LINEUP vs YOUR ASSUMPTION: **roughly as expected**
+WOULD CHANGE? **no change**
+PRE-GAME REASON: BOS 74.8 and SEA 73.9 avg wRC+ confirm two genuinely weak offenses, matching my "both bats weak" assumption (Cal Raleigh 15 vs LHP, Raley -28, Refsnyder 41). This validates the Under lean — and the game finished 6 total (Under 7.5). Correct read, correctly under-staked per the -125 price gate, lean would have cashed. Process and direction both sound.
+UMPIRE WOULD CHANGE? No — Paul Clemons no material pre-game zone edge.
+
+---
+
+**BOTTOM LINE:** Empty slate held up. The one genuine process note is that two of my three Under leans (SD/TEX especially) were softer than my write-ups implied once lineups confirmed — SD/TEX should have been a flat pass, not an Under lean. BOS/SEA and NYM/PHI were directionally correct reads; the PHI blowout was variance, not a missed signal. No stakes lost, discipline intact, but my lean-logging on one/strong-one/weak matchups needs tightening.
+
+---
+## SONNET RESPONSE
+
+# POST-MORTEM REVIEW — MLB 2026-06-20
+
+---
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** NO BEST BET (no 3u play identified; all three bets capped at 1u by [sm] flags)
+
+**RESULT:** N/A — no best bet was designated
+
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES — the decision not to designate a best bet was correct given the mechanical constraint. All three plays had [sm] L14 starter flags triggering hard condition-1 failures on the 3u gate. The PIT ML at 7.2 pts was the highest-conviction play, but Sugano's [sm] flag is a pre-game-knowable fact that legitimately blocked escalation. The outcome (PIT loss) is irrelevant to this evaluation — the process was sound.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** MIL @ ATL
+**PICK:** Over 7.0 (-113)
+**RESULT:** PUSH (MIL 3, ATL 4 = 7 total)
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** YES / SAME STAKE
+**WHY:** My model projected ~9.8 runs against a 7.0 line — a 2.78-run gap comfortably clearing the 1.0-run gate. The push at 7 is within normal variance for a two-elite-pitcher game. The outcome does not invalidate the model: Sale (Stf+ 116) and Harrison (Stf+ 106) both suppressed offenses as projected, but total landed exactly at the line, which is a fair push, not a signal failure. The pre-game logic — warm temperature (+0.26 run adjustment), MIL's elite wRC+ vs LHP, park factor 98 — was sound. The [sm] cap at 1u was correct given Sale's 5.2 IP and Harrison's 8.1 IP L14 samples.
+**SOURCE:** Sale AGG xFIP 3.09, Harrison AGG xFIP 3.16, 87.5°F temp, park factor 98, MIL wRC+ 136 vs LHP
+
+---
+
+**GAME:** PIT @ COL
+**PICK:** PIT ML (-200)
+**RESULT:** LOSS (PIT 1, COL 2)
+**PROCESS:** CORRECT PROCESS / BAD VARIANCE
+**WOULD-BET-AGAIN:** YES / SAME STAKE
+**WHY:** The specific pre-game data points that justified this bet remain valid: Skenes blended at 2.62 xFIP with K-BB% 25.5% is objectively elite; Sugano at 5.09 AGG xFIP with Stf+ 80 is objectively weak; PIT lineup avg wRC+ 124.7 vs RHP (confirmed) is strong. My 72% win probability estimate vs 65.1% vig-removed market implied represents a real 7.2-pt edge by my method. A 72% favorite loses roughly 28% of the time by definition — this is squarely inside that variance band. I cannot identify a pre-game signal I missed that predicted a 2-1 COL win over Skenes. The result was variance.
+
+The only pre-game caveat I noted — Coors amplifying variance significantly — is exactly what manifested. That caveat was already priced into my 1u cap (not a 3u play). The unit sizing was appropriate.
+**SOURCE:** Skenes blended xFIP 2.62 / K-BB% 25.5%, Sugano AGG xFIP 5.09 / Stf+ 80, PIT wRC+ 133 vs RHP, vig-removed implied 65.1%
+
+---
+
+**GAME:** LAA @ ATH
+**PICK:** Over 9.5 (-110)
+**RESULT:** LOSS (LAA 7, ATH 0 = 7 total)
+**PROCESS:** INCORRECT TEAM STRENGTH — specifically ATH offensive strength was overstated by L10RS metric relative to confirmed lineup reality
+**WOULD-BET-AGAIN:** NO / LOWER STAKE
+**WHY:** My model projected ~14.5 adjusted runs against a 9.5 line. The actual total was 7. While Sutter Health Park's 121 run factor and Ureña's 4.77 blended xFIP were legitimate signals, the ATH offense produced 0 runs — a severe underperformance. The confirmed lineup (avg wRC+ 86.0 vs RHP) was materially weaker than the L10RS 7.0 metric implied, which was the primary driver of my run projection. L10RS is a team-level rolling metric that can be distorted by a few blowout games; the actual lineup quality (86.0 avg wRC+ vs RHP, with Colby Thomas at -32 and Jonah Heim at 30) was considerably less threatening than a 7.0 RS/G figure suggested. This is a weighting error I can identify from pre-game data: I over-relied on L10RS as an offensive strength signal without cross-referencing lineup-level wRC+ data. The [sm] cap at 1u was the correct risk ceiling given Ginn's L14 flag, and it limited damage appropriately.
+**SOURCE:** ATH L10RS 7.0 (over-relied), confirmed lineup avg wRC+ 86.0 vs RHP (materially softer), Ureña blended xFIP 4.77
+
+---
+
+### PART B — PASSES WHERE A PRE-GAME EDGE WAS MISSED
+
+---
+
+**GAME:** CIN @ NYY
+**YOUR CALL:** PASS
+**FINAL RESULT:** CIN 10, NYY 2
+**WHAT YOU MISSED:** I correctly identified the Over as a potential play but noted the Over price as "stale/suspect" and declined to act. However, the fundamental pre-game signal was explicit in my own notes: I estimated ~11.5-12 runs projected vs a 9.5 line. If the Over price had been valid, I would have bet it. The stale price flag was a legitimate mechanical block — not a missed edge in the analytical sense. Warren's 3.71 AGG xFIP vs Abbott's 4.92 xFIP was clearly identified. The rule correctly blocked the play; the outcome is variance around a valid gate rule, not a missed analysis.
+**SOURCE:** NYY Over price flagged stale; model projection 11.5-12 runs vs 9.5 line; Abbott xFIP 4.92
+**WOULD THIS HAVE BECOME A BET?** MAYBE — only if the Over price had been validated as current
+
+---
+
+**GAME:** MIN @ AZ
+**YOUR CALL:** PASS
+**FINAL RESULT:** MIN 16, AZ 8 (24 total)
+**WHAT YOU MISSED:** I correctly identified the Over at -107 as the available price, noted the probable closed roof (Chase Field at 101°F), and determined I could not generate a 1.0-run Over gap from the available data. My reasoning: Bradley AGG 4.03 xFIP vs Gallen AGG 4.63 xFIP, both [sm]-flagged on L14, roof closed = zero weather adjustment, park factor 104. With two mediocre starters, a closed roof neutralizing temperature, and both L14 samples discarded, I estimated my projected run total was insufficient to clear the gate. The final score (24 runs) was extreme variance — I cannot identify a pre-game signal that predicted a 24-run total from two ~4.0-4.6 AGG xFIP starters in a neutral park (closed roof). This is variance, not a missed signal.
+**SOURCE:** Bradley AGG xFIP 4.03, Gallen AGG xFIP 4.63, Chase Field PF 104, roof almost certainly closed, both starters [sm] L14
+**WOULD THIS HAVE BECOME A BET?** NO — the data did not support the edge; the outcome was variance
+
+---
+
+**GAME:** NYM @ PHI
+**YOUR CALL:** PASS
+**FINAL RESULT:** PHI 15, NYM 3
+**WHAT YOU MISSED:** I correctly identified Sánchez as elite (blended 2.57 xFIP, Stf+ 118) and PHI at ~66-67% win probability vs 64.3% vig-removed — a 2-3 pt gap below my 5-pt gate. PHI's blowout win (15-3) makes this look like a miss, but I cannot identify a pre-game signal I underweighted. The side gap was legitimately sub-5 pts. The RL (+115 for PHI -1.5) would have required ~52% cover estimate, which I assessed at ~58%, producing a ~3-pt gap — also below gate. The PHI blowout likely reflects NYM offensive collapse against Sánchez rather than a systematic signal I missed. No block.
+**SOURCE:** PHI vig-removed implied 64.3%, my estimate 66-67%, RL gap estimate ~3 pts
+**WOULD THIS HAVE BECOME A BET?** NO — pre-game edge gap was sub-5 pts on all markets
+
+---
+
+**GAME:** BAL @ LAD
+**YOUR CALL:** PASS
+**FINAL RESULT:** BAL 3, LAD 2
+**WHAT YOU MISSED:** I correctly identified Yamamoto as elite (3.13 blended xFIP) and Rogers as weak (4.83 AGG xFIP, [sm] L14). My LAD win estimate was ~73-74% vs 71.4% vig-removed — only a ~2-pt gap. BAL winning at +250 range is variance. I cannot identify a pre-game signal that predicted BAL winning — Rogers' [sm] flag was already noted as a data gap, and no pre-game data pointed to an underdog upset. The result is pure variance against a correctly-priced favorite.
+**SOURCE:** Yamamoto blended xFIP 3.13, Rogers AGG xFIP 4.83, LAD vig-removed implied 71.4%
+**WOULD THIS HAVE BECOME A BET?** NO — gap was 2 pts vs 5-pt gate
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT
+**ITEM:** Lineup-weighted wRC+ projection at time of pick (not post-confirmation) — specifically a rolling 7-day or 14-day lineup composition estimate for teams with volatile roster construction (ATH, COL, WAS). L10RS as a team-level metric can be inflated by 2-3 blowout games that featured stronger lineups than what actually starts on any given day.
+**WHICH GAME(S):** LAA @ ATH (primary), PIT @ COL (secondary)
+**WOULD HAVE CHANGED A BET?** YES — for ATH Over specifically. The confirmed LAA lineup (avg 100.2 wRC+) and ATH lineup (avg 86.0 wRC+) together project significantly less offense than L10RS 7.0 suggested for ATH. A lineup-adjusted run estimate rather than L10RS-anchored run estimate would have reduced my ATH offensive projection and potentially pushed the Over estimate below my 1.0-run gate.
+**WHY:** ATH L10RS 7.0 was the single largest driver of my 14.5-run projection. Lineup-level wRC+ data (86.0 avg with multiple sub-100 hitters) tells a materially different offensive quality story.
+
+---
+
+**TYPE:** STAT
+**ITEM:** Park factor disaggregation by pitcher handedness — specifically away-team run factors for road LHP vs road RHP starters. Sutter Health Park's 121 run factor may apply differently to specific handedness matchups.
+**WHICH GAME(S):** LAA @ ATH
+**WOULD HAVE CHANGED A BET?** MAYBE — Ureña is a RHP; if the 121 factor is driven primarily by LHP vulnerability or RHP suppression in specific zones, this could refine the run projection.
+**WHY:** A blanket 121 park factor applied to any pitching matchup may overstate expected runs in specific pitcher-handedness contexts.
+
+---
+
+**TYPE:** DATA
+**ITEM:** Umpire strike zone tendency (calls/game above/below average, BB rate impact) — specifically for Ron Kulpa (MIL@ATL) and Adam Hamari (PIT@COL).
+**WHICH GAME(S):** MIL @ ATL, PIT @ COL
+**WOULD HAVE CHANGED A BET?** MAYBE — umpire zone tendencies are a legitimate pre-game signal for totals markets. A tight-zone umpire would reinforce an Under lean; a wide-zone umpire could reinforce an Over. For MIL@ATL Over specifically, this could have added or subtracted confidence at the margin.
+**WHY:** Umpire strike zone data is publicly available (Baseball Savant) and is a standard signal in sharp totals modeling that my current prompt does not include.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When L10RS is the primary offensive strength signal for a team total projection, require cross-validation against available lineup-level wRC+ data before finalizing the run estimate. Specifically: if the confirmed or projected lineup avg wRC+ (vs opposing pitcher handedness) is more than 15 points below what L10RS implies, apply a downward adjustment of 0.5-0.8 runs to the team's projected offensive contribution.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** L10RS is a lagging indicator that reflects the last 10 games' scoring regardless of who was actually in the lineup. A team on a hot L10 streak may have featured a fully healthy, top-lineup configuration during that stretch, while today's game features rest days, platoon moves, or injury replacements that substantially dilute offensive quality. My current method uses L10RS as a team-level offensive signal without requiring lineup-level validation.
+
+**EVIDENCE FROM TODAY (pre-game data, not outcome):** ATH L10RS was 7.0 — a strong signal used as the primary ATH offensive driver in my 14.5-run projection. The confirmed ATH lineup (avg wRC+ 86.0 vs RHP) included Colby Thomas (-32 wRC+), Jonah Heim (30 wRC+), and Henry Bolte (89 wRC+) — a meaningfully weaker offensive unit than 7.0 RS/G implied. This discrepancy was identifiable from lineup data: even without confirmation, a reasonable pre-game expectation of ATH's lineup construction should have flagged that their best offensive performers (Kurtz, Langeliers, Soderstrom) are not guaranteed to all appear in a given game's optimal configuration. The gap between L10RS signal and lineup-level signal was accessible in principle from the data structure I already receive.
+
+**CONFIDENCE:** MEDIUM — one game is insufficient to institutionalize a method change. This proposal should be evaluated over 15-20 similar cases where L10RS diverges from lineup wRC+ by >15 points before adoption. The directional logic is sound; the calibration threshold (15 points, 0.5-0.8 run adjustment) requires sample validation.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: MIL @ ATL — YOUR CALL: BET Over 7.0 (-113)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected — I assumed MIL's strong vs LHP profile (wRC+ 136 team) would be represented. The confirmed lineup shows Chourio (182), Gary Sánchez (195), and Contreras (125) as the core threats, consistent with my pre-game model. However, Sal Frelick (14 wRC+ vs LHP), Brice Turang (52), and Joey Ortiz (61) at the bottom are weaker than a blanket 136 team wRC+ implied. The lineup avg came in at 104.6 — notably softer than the 136 team figure I used as my primary MIL offensive anchor.
+
+**WOULD CHANGE?** BET → LOWER STAKE — marginally. The 104.6 confirmed lineup avg vs my assumed 136 team wRC+ is a meaningful gap. Had I weighted lineup-level wRC+ rather than team-level wRC+ vs LHP, my MIL offensive contribution estimate would have been lower, potentially reducing my projected total from ~9.8 toward ~8.5-9.0. This would still have cleared the 7.0 line's 1.0-run gate but with less margin, and might have reinforced the 1u cap rather than pushing toward 2u (which was already blocked by the [sm] flag). The bet direction was correct; the stake was already capped correctly.
+
+**PRE-GAME REASON:** MIL team wRC+ 136 vs LHP was the pre-game signal I used; the confirmed lineup included multiple sub-100 wRC+ hitters at spots 2, 5, 8, 9 that softened the actual offensive projection.
+
+**UMPIRE WOULD CHANGE?** NO — Ron Kulpa's zone tendency was not in my pre-game data. Without a specific pre-game-knowable Kulpa zone rating (e.g., Savant K-rate above/below average), I cannot make a valid umpire-based adjustment. No change.
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: BET PIT ML (-200)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected. PIT's confirmed lineup (avg 124.7 wRC+ vs RHP) aligns with my pre-game estimate of "key bats Callihan 235, Lowe 162." Callihan (235), Lowe (162), Horwitz (142), O'Hearn (142), Rodríguez (143) constitute a genuinely strong top-to-bottom lineup against Sugano — exactly as modeled. COL's lineup (avg 114.3 vs RHP) is more threatening than I estimated; Cole Carrigg (269 wRC+ vs RHP) and Troy Johnston (138) were not specifically flagged in my pre-game notes, and their presence in the middle of COL's order is a meaningful pre-game signal I underweighted.
+
+**WOULD CHANGE?** NO CHANGE — even with COL's lineup avg at 114.3 (stronger than a typical Coors non-contender), Sugano's 5.09 AGG xFIP with Stf+ 80 projects significant run allowance regardless. PIT's lineup advantage over COL's lineup remains (124.7 vs 114.3 avg wRC+), and Skenes' 2.62 blended xFIP still suppresses COL's offense substantially. The edge direction and magnitude were correct from pre-game data. COL's Carrigg (269) and Johnston (138) are concerning but face Skenes — the 2.62 xFIP already prices in that Skenes will be tested.
+
+**PRE-GAME REASON:** COL's middle-order quality was slightly underweighted in my pre-game notes; however, Skenes' elite xFIP adequately addresses that risk. No change to bet direction or stake.
+
+**UMPIRE WOULD CHANGE?** NO — Adam Hamari's zone tendency was not in my pre-game data. Without specific pre-game-knowable Hamari K-rate data, I cannot make a valid adjustment. No change.
+
+---
+
+### GAME: LAA @ ATH — YOUR CALL: BET Over 9.5 (-110)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — specifically ATH's confirmed lineup avg wRC+ vs RHP came in at 86.0, substantially below the offensive quality implied by ATH's L10RS of 7.0. The confirmed lineup features Colby Thomas (-32 wRC+), Jonah Heim (30 wRC+), Henry Bolte (89 wRC+), and Max Muncy (75 wRC+) — four of nine hitters below 90 wRC+. LAA's confirmed lineup avg (100.2 vs RHP) was roughly as expected for a middling offense, but Jo Adell (63 wRC+), Denzer Guzman (62 wRC+), and Tyler Heineman (17 wRC+) represent three low-impact hitters in the bottom half that I did not specifically model.
+
+**WOULD CHANGE?** BET → LOWER STAKE or PASS. The confirmed ATH lineup at 86.0 avg wRC+ vs RHP (vs L10RS-implied ~7.0 RS/G offensive strength) represents a pre-game-knowable discrepancy that would have reduced my ATH offensive projection by approximately 1.0-1.5 runs. Combined with LAA's confirmed lineup being slightly softer than assumed (100.2 avg, with three sub-70 wRC+ hitters), my revised run projection would have been approximately 12.5-13.0 adjusted rather than 14.5. This still clears the 1.0-run gate (gap of 3.0-3.5 runs), so the bet would likely survive — but the confidence margin narrows, warranting lower stake consideration.
+
+**PRE-GAME REASON:** ATH confirmed lineup avg wRC+ 86.0 vs RHP is materially weaker than the L10RS 7.0 signal used as the primary offensive anchor. Thomas (-32), Heim (30), Bolte (89), Muncy (75) are specifically identifiable as lineup weaknesses that deflate the ATH offensive contribution estimate.
+
+**UMPIRE WOULD CHANGE?** NO — Dan Bellino's zone tendency was not in my pre-game data. Without specific pre-game-knowable Bellino K-rate or walk-rate data, I cannot make a valid adjustment. No change.

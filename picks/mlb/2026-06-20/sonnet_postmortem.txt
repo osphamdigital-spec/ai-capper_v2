@@ -1,0 +1,165 @@
+# POST-MORTEM REVIEW — MLB 2026-06-20
+
+---
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** NO BEST BET (no 3u play identified; all three bets capped at 1u by [sm] flags)
+
+**RESULT:** N/A — no best bet was designated
+
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES — the decision not to designate a best bet was correct given the mechanical constraint. All three plays had [sm] L14 starter flags triggering hard condition-1 failures on the 3u gate. The PIT ML at 7.2 pts was the highest-conviction play, but Sugano's [sm] flag is a pre-game-knowable fact that legitimately blocked escalation. The outcome (PIT loss) is irrelevant to this evaluation — the process was sound.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** MIL @ ATL
+**PICK:** Over 7.0 (-113)
+**RESULT:** PUSH (MIL 3, ATL 4 = 7 total)
+**PROCESS:** CORRECT PROCESS / FAIR RESULT
+**WOULD-BET-AGAIN:** YES / SAME STAKE
+**WHY:** My model projected ~9.8 runs against a 7.0 line — a 2.78-run gap comfortably clearing the 1.0-run gate. The push at 7 is within normal variance for a two-elite-pitcher game. The outcome does not invalidate the model: Sale (Stf+ 116) and Harrison (Stf+ 106) both suppressed offenses as projected, but total landed exactly at the line, which is a fair push, not a signal failure. The pre-game logic — warm temperature (+0.26 run adjustment), MIL's elite wRC+ vs LHP, park factor 98 — was sound. The [sm] cap at 1u was correct given Sale's 5.2 IP and Harrison's 8.1 IP L14 samples.
+**SOURCE:** Sale AGG xFIP 3.09, Harrison AGG xFIP 3.16, 87.5°F temp, park factor 98, MIL wRC+ 136 vs LHP
+
+---
+
+**GAME:** PIT @ COL
+**PICK:** PIT ML (-200)
+**RESULT:** LOSS (PIT 1, COL 2)
+**PROCESS:** CORRECT PROCESS / BAD VARIANCE
+**WOULD-BET-AGAIN:** YES / SAME STAKE
+**WHY:** The specific pre-game data points that justified this bet remain valid: Skenes blended at 2.62 xFIP with K-BB% 25.5% is objectively elite; Sugano at 5.09 AGG xFIP with Stf+ 80 is objectively weak; PIT lineup avg wRC+ 124.7 vs RHP (confirmed) is strong. My 72% win probability estimate vs 65.1% vig-removed market implied represents a real 7.2-pt edge by my method. A 72% favorite loses roughly 28% of the time by definition — this is squarely inside that variance band. I cannot identify a pre-game signal I missed that predicted a 2-1 COL win over Skenes. The result was variance.
+
+The only pre-game caveat I noted — Coors amplifying variance significantly — is exactly what manifested. That caveat was already priced into my 1u cap (not a 3u play). The unit sizing was appropriate.
+**SOURCE:** Skenes blended xFIP 2.62 / K-BB% 25.5%, Sugano AGG xFIP 5.09 / Stf+ 80, PIT wRC+ 133 vs RHP, vig-removed implied 65.1%
+
+---
+
+**GAME:** LAA @ ATH
+**PICK:** Over 9.5 (-110)
+**RESULT:** LOSS (LAA 7, ATH 0 = 7 total)
+**PROCESS:** INCORRECT TEAM STRENGTH — specifically ATH offensive strength was overstated by L10RS metric relative to confirmed lineup reality
+**WOULD-BET-AGAIN:** NO / LOWER STAKE
+**WHY:** My model projected ~14.5 adjusted runs against a 9.5 line. The actual total was 7. While Sutter Health Park's 121 run factor and Ureña's 4.77 blended xFIP were legitimate signals, the ATH offense produced 0 runs — a severe underperformance. The confirmed lineup (avg wRC+ 86.0 vs RHP) was materially weaker than the L10RS 7.0 metric implied, which was the primary driver of my run projection. L10RS is a team-level rolling metric that can be distorted by a few blowout games; the actual lineup quality (86.0 avg wRC+ vs RHP, with Colby Thomas at -32 and Jonah Heim at 30) was considerably less threatening than a 7.0 RS/G figure suggested. This is a weighting error I can identify from pre-game data: I over-relied on L10RS as an offensive strength signal without cross-referencing lineup-level wRC+ data. The [sm] cap at 1u was the correct risk ceiling given Ginn's L14 flag, and it limited damage appropriately.
+**SOURCE:** ATH L10RS 7.0 (over-relied), confirmed lineup avg wRC+ 86.0 vs RHP (materially softer), Ureña blended xFIP 4.77
+
+---
+
+### PART B — PASSES WHERE A PRE-GAME EDGE WAS MISSED
+
+---
+
+**GAME:** CIN @ NYY
+**YOUR CALL:** PASS
+**FINAL RESULT:** CIN 10, NYY 2
+**WHAT YOU MISSED:** I correctly identified the Over as a potential play but noted the Over price as "stale/suspect" and declined to act. However, the fundamental pre-game signal was explicit in my own notes: I estimated ~11.5-12 runs projected vs a 9.5 line. If the Over price had been valid, I would have bet it. The stale price flag was a legitimate mechanical block — not a missed edge in the analytical sense. Warren's 3.71 AGG xFIP vs Abbott's 4.92 xFIP was clearly identified. The rule correctly blocked the play; the outcome is variance around a valid gate rule, not a missed analysis.
+**SOURCE:** NYY Over price flagged stale; model projection 11.5-12 runs vs 9.5 line; Abbott xFIP 4.92
+**WOULD THIS HAVE BECOME A BET?** MAYBE — only if the Over price had been validated as current
+
+---
+
+**GAME:** MIN @ AZ
+**YOUR CALL:** PASS
+**FINAL RESULT:** MIN 16, AZ 8 (24 total)
+**WHAT YOU MISSED:** I correctly identified the Over at -107 as the available price, noted the probable closed roof (Chase Field at 101°F), and determined I could not generate a 1.0-run Over gap from the available data. My reasoning: Bradley AGG 4.03 xFIP vs Gallen AGG 4.63 xFIP, both [sm]-flagged on L14, roof closed = zero weather adjustment, park factor 104. With two mediocre starters, a closed roof neutralizing temperature, and both L14 samples discarded, I estimated my projected run total was insufficient to clear the gate. The final score (24 runs) was extreme variance — I cannot identify a pre-game signal that predicted a 24-run total from two ~4.0-4.6 AGG xFIP starters in a neutral park (closed roof). This is variance, not a missed signal.
+**SOURCE:** Bradley AGG xFIP 4.03, Gallen AGG xFIP 4.63, Chase Field PF 104, roof almost certainly closed, both starters [sm] L14
+**WOULD THIS HAVE BECOME A BET?** NO — the data did not support the edge; the outcome was variance
+
+---
+
+**GAME:** NYM @ PHI
+**YOUR CALL:** PASS
+**FINAL RESULT:** PHI 15, NYM 3
+**WHAT YOU MISSED:** I correctly identified Sánchez as elite (blended 2.57 xFIP, Stf+ 118) and PHI at ~66-67% win probability vs 64.3% vig-removed — a 2-3 pt gap below my 5-pt gate. PHI's blowout win (15-3) makes this look like a miss, but I cannot identify a pre-game signal I underweighted. The side gap was legitimately sub-5 pts. The RL (+115 for PHI -1.5) would have required ~52% cover estimate, which I assessed at ~58%, producing a ~3-pt gap — also below gate. The PHI blowout likely reflects NYM offensive collapse against Sánchez rather than a systematic signal I missed. No block.
+**SOURCE:** PHI vig-removed implied 64.3%, my estimate 66-67%, RL gap estimate ~3 pts
+**WOULD THIS HAVE BECOME A BET?** NO — pre-game edge gap was sub-5 pts on all markets
+
+---
+
+**GAME:** BAL @ LAD
+**YOUR CALL:** PASS
+**FINAL RESULT:** BAL 3, LAD 2
+**WHAT YOU MISSED:** I correctly identified Yamamoto as elite (3.13 blended xFIP) and Rogers as weak (4.83 AGG xFIP, [sm] L14). My LAD win estimate was ~73-74% vs 71.4% vig-removed — only a ~2-pt gap. BAL winning at +250 range is variance. I cannot identify a pre-game signal that predicted BAL winning — Rogers' [sm] flag was already noted as a data gap, and no pre-game data pointed to an underdog upset. The result is pure variance against a correctly-priced favorite.
+**SOURCE:** Yamamoto blended xFIP 3.13, Rogers AGG xFIP 4.83, LAD vig-removed implied 71.4%
+**WOULD THIS HAVE BECOME A BET?** NO — gap was 2 pts vs 5-pt gate
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT
+**ITEM:** Lineup-weighted wRC+ projection at time of pick (not post-confirmation) — specifically a rolling 7-day or 14-day lineup composition estimate for teams with volatile roster construction (ATH, COL, WAS). L10RS as a team-level metric can be inflated by 2-3 blowout games that featured stronger lineups than what actually starts on any given day.
+**WHICH GAME(S):** LAA @ ATH (primary), PIT @ COL (secondary)
+**WOULD HAVE CHANGED A BET?** YES — for ATH Over specifically. The confirmed LAA lineup (avg 100.2 wRC+) and ATH lineup (avg 86.0 wRC+) together project significantly less offense than L10RS 7.0 suggested for ATH. A lineup-adjusted run estimate rather than L10RS-anchored run estimate would have reduced my ATH offensive projection and potentially pushed the Over estimate below my 1.0-run gate.
+**WHY:** ATH L10RS 7.0 was the single largest driver of my 14.5-run projection. Lineup-level wRC+ data (86.0 avg with multiple sub-100 hitters) tells a materially different offensive quality story.
+
+---
+
+**TYPE:** STAT
+**ITEM:** Park factor disaggregation by pitcher handedness — specifically away-team run factors for road LHP vs road RHP starters. Sutter Health Park's 121 run factor may apply differently to specific handedness matchups.
+**WHICH GAME(S):** LAA @ ATH
+**WOULD HAVE CHANGED A BET?** MAYBE — Ureña is a RHP; if the 121 factor is driven primarily by LHP vulnerability or RHP suppression in specific zones, this could refine the run projection.
+**WHY:** A blanket 121 park factor applied to any pitching matchup may overstate expected runs in specific pitcher-handedness contexts.
+
+---
+
+**TYPE:** DATA
+**ITEM:** Umpire strike zone tendency (calls/game above/below average, BB rate impact) — specifically for Ron Kulpa (MIL@ATL) and Adam Hamari (PIT@COL).
+**WHICH GAME(S):** MIL @ ATL, PIT @ COL
+**WOULD HAVE CHANGED A BET?** MAYBE — umpire zone tendencies are a legitimate pre-game signal for totals markets. A tight-zone umpire would reinforce an Under lean; a wide-zone umpire could reinforce an Over. For MIL@ATL Over specifically, this could have added or subtracted confidence at the margin.
+**WHY:** Umpire strike zone data is publicly available (Baseball Savant) and is a standard signal in sharp totals modeling that my current prompt does not include.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When L10RS is the primary offensive strength signal for a team total projection, require cross-validation against available lineup-level wRC+ data before finalizing the run estimate. Specifically: if the confirmed or projected lineup avg wRC+ (vs opposing pitcher handedness) is more than 15 points below what L10RS implies, apply a downward adjustment of 0.5-0.8 runs to the team's projected offensive contribution.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** L10RS is a lagging indicator that reflects the last 10 games' scoring regardless of who was actually in the lineup. A team on a hot L10 streak may have featured a fully healthy, top-lineup configuration during that stretch, while today's game features rest days, platoon moves, or injury replacements that substantially dilute offensive quality. My current method uses L10RS as a team-level offensive signal without requiring lineup-level validation.
+
+**EVIDENCE FROM TODAY (pre-game data, not outcome):** ATH L10RS was 7.0 — a strong signal used as the primary ATH offensive driver in my 14.5-run projection. The confirmed ATH lineup (avg wRC+ 86.0 vs RHP) included Colby Thomas (-32 wRC+), Jonah Heim (30 wRC+), and Henry Bolte (89 wRC+) — a meaningfully weaker offensive unit than 7.0 RS/G implied. This discrepancy was identifiable from lineup data: even without confirmation, a reasonable pre-game expectation of ATH's lineup construction should have flagged that their best offensive performers (Kurtz, Langeliers, Soderstrom) are not guaranteed to all appear in a given game's optimal configuration. The gap between L10RS signal and lineup-level signal was accessible in principle from the data structure I already receive.
+
+**CONFIDENCE:** MEDIUM — one game is insufficient to institutionalize a method change. This proposal should be evaluated over 15-20 similar cases where L10RS diverges from lineup wRC+ by >15 points before adoption. The directional logic is sound; the calibration threshold (15 points, 0.5-0.8 run adjustment) requires sample validation.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: MIL @ ATL — YOUR CALL: BET Over 7.0 (-113)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected — I assumed MIL's strong vs LHP profile (wRC+ 136 team) would be represented. The confirmed lineup shows Chourio (182), Gary Sánchez (195), and Contreras (125) as the core threats, consistent with my pre-game model. However, Sal Frelick (14 wRC+ vs LHP), Brice Turang (52), and Joey Ortiz (61) at the bottom are weaker than a blanket 136 team wRC+ implied. The lineup avg came in at 104.6 — notably softer than the 136 team figure I used as my primary MIL offensive anchor.
+
+**WOULD CHANGE?** BET → LOWER STAKE — marginally. The 104.6 confirmed lineup avg vs my assumed 136 team wRC+ is a meaningful gap. Had I weighted lineup-level wRC+ rather than team-level wRC+ vs LHP, my MIL offensive contribution estimate would have been lower, potentially reducing my projected total from ~9.8 toward ~8.5-9.0. This would still have cleared the 7.0 line's 1.0-run gate but with less margin, and might have reinforced the 1u cap rather than pushing toward 2u (which was already blocked by the [sm] flag). The bet direction was correct; the stake was already capped correctly.
+
+**PRE-GAME REASON:** MIL team wRC+ 136 vs LHP was the pre-game signal I used; the confirmed lineup included multiple sub-100 wRC+ hitters at spots 2, 5, 8, 9 that softened the actual offensive projection.
+
+**UMPIRE WOULD CHANGE?** NO — Ron Kulpa's zone tendency was not in my pre-game data. Without a specific pre-game-knowable Kulpa zone rating (e.g., Savant K-rate above/below average), I cannot make a valid umpire-based adjustment. No change.
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: BET PIT ML (-200)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Roughly as expected. PIT's confirmed lineup (avg 124.7 wRC+ vs RHP) aligns with my pre-game estimate of "key bats Callihan 235, Lowe 162." Callihan (235), Lowe (162), Horwitz (142), O'Hearn (142), Rodríguez (143) constitute a genuinely strong top-to-bottom lineup against Sugano — exactly as modeled. COL's lineup (avg 114.3 vs RHP) is more threatening than I estimated; Cole Carrigg (269 wRC+ vs RHP) and Troy Johnston (138) were not specifically flagged in my pre-game notes, and their presence in the middle of COL's order is a meaningful pre-game signal I underweighted.
+
+**WOULD CHANGE?** NO CHANGE — even with COL's lineup avg at 114.3 (stronger than a typical Coors non-contender), Sugano's 5.09 AGG xFIP with Stf+ 80 projects significant run allowance regardless. PIT's lineup advantage over COL's lineup remains (124.7 vs 114.3 avg wRC+), and Skenes' 2.62 blended xFIP still suppresses COL's offense substantially. The edge direction and magnitude were correct from pre-game data. COL's Carrigg (269) and Johnston (138) are concerning but face Skenes — the 2.62 xFIP already prices in that Skenes will be tested.
+
+**PRE-GAME REASON:** COL's middle-order quality was slightly underweighted in my pre-game notes; however, Skenes' elite xFIP adequately addresses that risk. No change to bet direction or stake.
+
+**UMPIRE WOULD CHANGE?** NO — Adam Hamari's zone tendency was not in my pre-game data. Without specific pre-game-knowable Hamari K-rate data, I cannot make a valid adjustment. No change.
+
+---
+
+### GAME: LAA @ ATH — YOUR CALL: BET Over 9.5 (-110)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** Materially different — specifically ATH's confirmed lineup avg wRC+ vs RHP came in at 86.0, substantially below the offensive quality implied by ATH's L10RS of 7.0. The confirmed lineup features Colby Thomas (-32 wRC+), Jonah Heim (30 wRC+), Henry Bolte (89 wRC+), and Max Muncy (75 wRC+) — four of nine hitters below 90 wRC+. LAA's confirmed lineup avg (100.2 vs RHP) was roughly as expected for a middling offense, but Jo Adell (63 wRC+), Denzer Guzman (62 wRC+), and Tyler Heineman (17 wRC+) represent three low-impact hitters in the bottom half that I did not specifically model.
+
+**WOULD CHANGE?** BET → LOWER STAKE or PASS. The confirmed ATH lineup at 86.0 avg wRC+ vs RHP (vs L10RS-implied ~7.0 RS/G offensive strength) represents a pre-game-knowable discrepancy that would have reduced my ATH offensive projection by approximately 1.0-1.5 runs. Combined with LAA's confirmed lineup being slightly softer than assumed (100.2 avg, with three sub-70 wRC+ hitters), my revised run projection would have been approximately 12.5-13.0 adjusted rather than 14.5. This still clears the 1.0-run gate (gap of 3.0-3.5 runs), so the bet would likely survive — but the confidence margin narrows, warranting lower stake consideration.
+
+**PRE-GAME REASON:** ATH confirmed lineup avg wRC+ 86.0 vs RHP is materially weaker than the L10RS 7.0 signal used as the primary offensive anchor. Thomas (-32), Heim (30), Bolte (89), Muncy (75) are specifically identifiable as lineup weaknesses that deflate the ATH offensive contribution estimate.
+
+**UMPIRE WOULD CHANGE?** NO — Dan Bellino's zone tendency was not in my pre-game data. Without specific pre-game-knowable Bellino K-rate or walk-rate data, I cannot make a valid adjustment. No change.

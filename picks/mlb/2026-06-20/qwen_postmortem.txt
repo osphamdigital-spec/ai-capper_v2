@@ -1,0 +1,81 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: MIL @ ATL Over 7.0 (3 Units)
+RESULT: PUSH
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+IF NO — NEW BEST BET: NONE
+WHY: The original best bet pushed, but more importantly, the underlying reasoning contained a critical logical flaw (treating elite pitching metrics as run-inflating). None of the other bets won, and the passes were correct based on stale data or variance thresholds, leaving no valid alternative best bet.
+SOURCE: Pre-game reasoning text and standard baseball metric definitions.
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: MIL @ ATL
+PICK: Over 7.0 (-113)
+RESULT: PUSH
+PROCESS: INCORRECT PITCHING
+WOULD-BET-AGAIN: NO
+WHY: The pre-game reasoning stated that "elite AGG xFIPs" triggered a "massive baseline addition" to the run projection. xFIP is a metric where lower is better for pitchers; elite xFIPs should suppress runs, not inflate them. This fundamental sign error invalidates the mathematical edge.
+SOURCE: Pre-game reasoning text vs. standard sabermetric definitions.
+
+GAME: WAS @ TB
+PICK: Over 8.0 (-105)
+RESULT: LOSS
+PROCESS: INCORRECT PITCHING
+WOULD-BET-AGAIN: NO
+WHY: Same inverted pitching logic as the MIL/ATL game ("strong AGG xFIPs that inflate my baseline projection"). Additionally, the model failed to properly account for TB's weak confirmed wRC+ against RHP (94.4) in a pitcher-friendly dome environment.
+SOURCE: Pre-game reasoning text and confirmed lineup platoon splits.
+
+GAME: BAL @ LAD
+PICK: Over 8.0 (-112)
+RESULT: LOSS
+PROCESS: INCORRECT TEAM STRENGTH
+WOULD-BET-AGAIN: NO
+WHY: The pre-game reasoning explicitly cited BAL's "potent 124 wRC+ against RHP" to justify the Over. The confirmed lineup's actual average wRC+ vs RHP was only 108.7. Overstating the lineup's platoon strength by over 15 points artificially inflated the projection.
+SOURCE: Pre-game reasoning text vs. confirmed lineup data.
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+NONE
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA
+ITEM: Secondary/alternative book prices for Over/Under and Team Total markets when the primary book's prices are flagged as stale.
+WHICH GAME(S): CIN @ NYY, TOR @ CHC, SF @ MIA, NYM @ PHI, MIN @ AZ, BOS @ SEA
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Several games were automatic passes solely due to "suspect and stale" TT or O/U prices. Having access to a secondary book or live market would allow the model to evaluate these games rather than discarding nearly 40% of the slate.
+
+TYPE: STAT
+ITEM: Platoon-specific wRC+ for the exact confirmed starting lineups (rather than projected or team-level wRC+).
+WHICH GAME(S): BAL @ LAD (and all others)
+WOULD HAVE CHANGED A BET? YES
+WHY: The pre-game reasoning cited BAL's "potent 124 wRC+ against RHP", but the confirmed lineup's actual average wRC+ vs RHP was 108.7. Having exact confirmed lineup platoon splits pre-game would have corrected this overestimation and prevented the bad bet.
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Invert the xFIP and SIERA coefficients in the totals projection model.
+WHAT IN MY METHOD COULD BE SHARPER: The model currently appears to treat "strong/elite" (low) xFIPs as a positive addition to the run baseline. This is mathematically backwards. Elite pitching metrics must subtract from the projected total, while weak/high xFIPs should add to it.
+EVIDENCE FROM TODAY: In all three Over bets (MIL/ATL, WAS/TB, BAL/LAD), the pre-game reasoning explicitly cited "elite/strong AGG xFIPs" as the trigger to "inflate" or "add" to the baseline projection.
+CONFIDENCE: HIGH
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: MIL @ ATL — YOUR CALL: BET over ML -113 (3u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? bet→pass
+PRE-GAME REASON: The confirmed lineups show a distinct lack of platoon advantage against left-handed pitching. ATL's 82.9 wRC+ vs LHP is particularly weak, with Bart (-19) and Kim (-31) in the negatives, and MIL's is a mediocre 104.6. This confirms the left-handed pitchers should suppress runs, exposing the flawed "elite xFIP adds runs" logic and justifying a pass on the Over.
+UMPIRE WOULD CHANGE? no — Ron Kulpa is generally standard, with no extreme hitter-friendly bias to override the weak LHP lineup splits.
+
+### GAME: WAS @ TB — YOUR CALL: BET over ML -105 (3u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? bet→pass
+PRE-GAME REASON: TB's confirmed lineup against RHP yields a mere 94.4 wRC+, with several hitters (DeLuca 73, Mullins 62, Mesa Jr. 68) well below league average. This lack of right-handed power in a pitcher-friendly dome environment makes an 8.0 total too high, even with WAS's solid 111.5 wRC+ vs LHP.
+UMPIRE WOULD CHANGE? no — Ryan Additon's zone doesn't drastically inflate run expectancy enough to overcome a 94.4 wRC+ lineup.
+
+### GAME: BAL @ LAD — YOUR CALL: BET over ML -112 (3u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different
+WOULD CHANGE? bet→pass
+PRE-GAME REASON: The pre-game reasoning relied heavily on a "potent 124 wRC+ against RHP" for BAL. The confirmed lineup is only 108.7, dragged down by Mayo (32) and Jackson (91). LAD's lineup vs LHP is also mediocre (104.1), with Freeland (0) and Betts (82) struggling against lefties. The offensive environment is much weaker than the model assumed.
+UMPIRE WOULD CHANGE? no — Charlie Ramos is a standard umpire, with no extreme tendency to rescue the overstated lineup metrics.

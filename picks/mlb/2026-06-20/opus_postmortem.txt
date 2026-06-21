@@ -1,0 +1,85 @@
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** None — explicitly logged "NO BEST BET" / empty slate
+**RESULT:** N/A (no stake)
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES (i.e., I'd still pass)
+
+The slate, in hindsight, was a carnage of blowouts: CIN 10, PHI 15, CLE 8, LAA 7, MIN 16. Several of my "fully priced favorite" passes (NYY -205, HOU -143, AZ pick'em) lost outright. Had I manufactured a side play to chase volume, I'd likely have been laying one of those favorites and lost. The empty-slate discipline was vindicated — but vindicated partly by variance, not foresight. I did not have a pre-game signal pointing to NYY or HOU collapsing. So: correct to pass, lucky in magnitude.
+
+**IF NO — NEW BEST BET:** N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+**NO BETS.** All plays were sub-gate leans logged for CLV only; zero units staked. Nothing to grade as a win/loss.
+
+---
+
+### PART B — PASSES/LEANS WITH AN IDENTIFIABLE MISSED EDGE
+
+I am being strict here. Most passes were correct. The three Under leans all went Over (SD/TEX 10 total, NYM/PHI 18, BOS/SEA 6 — last one actually UNDER). I will only flag a block where pre-game data, not the result, pointed somewhere I didn't go.
+
+**GAME: NYM @ PHI**
+YOUR CALL: LEAN Under (0.6 runs, no stake)
+FINAL RESULT: PHI 15, NYM 3 (Over annihilated)
+WHAT YOU MISSED: My reasoning leaned on "Sánchez elite + NYM 92 wRC+ vs LHP." But the Under thesis quietly assumed Peralta (4.11 SIERA) would hold up. The pre-game knowable here is asymmetry: I built a two-sided Under off one elite arm and one mediocre arm, then treated it as a clean Under. A 4.11-SIERA arm in a 104-Runs park against any functional lineup is an Over-risk vector I underweighted relative to the Sánchez glow. This is a *correct pass* on staking (0.6 < 0.8), but the underlying lean direction was built on the strong half of the matchup. No bet was lost, so process held — but I should not log "Under lean" on a game where half the pitching is replacement-adjacent in a hitter park.
+SOURCE: Peralta 4.11 SIERA, PHI park Runs 104 (both pre-game).
+WOULD THIS HAVE BECOME A BET? NO — and correctly so. The lean itself was directionally shaky; the gate saved me.
+
+No other pass qualifies. CIN/NYY, CLE/HOU, MIN/AZ blowouts: I had no pre-game signal of those magnitudes. The favorites I declined to lay (NYY -205, HOU -143) losing is pure variance from my vantage — I passed for "no edge," not because I projected upsets. That is a correct pass with a result that happened to reward it.
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE: DATA**
+ITEM: Confirmed lineups delivered pre-decision (not post-hoc)
+WHICH GAME(S): SD/TEX, NYM/PHI, BOS/SEA — all three leans
+WOULD HAVE CHANGED A BET? MAYBE (see Confirmed Data Eval below — NYM/PHI in particular)
+WHY: Every lean carried "confirmed lineups" as its data gap. The PHI lineup posted at 67.8 avg wRC+ vs RHP would have *reinforced* my Under lean, not killed it — meaning the result was variance against a sound read. But the SD/TEX confirmed lineups (both ~130 avg) would have moved me *off* Under entirely.
+
+**TYPE: DATA**
+ITEM: Non-stale total prices (TT flagged stale on 6+ games)
+WHICH GAME(S): CHW/DET, CIN/NYY, TOR/CHC, SF/MIA, WAS/TB
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Multiple totals markets were simply absent to me due to stale pricing. I cannot bet a number I can't trust. TOR/CHC (two 4.75–5.00 SIERA arms) went 14 total — an Over I flagged directionally but couldn't price.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When constructing a total lean, weight the *weaker* of the two starters more heavily in hitter-friendly parks (Runs ≥ 100). An Under lean anchored by one elite arm + one ~4.1+ SIERA arm in a 104+ park should be downgraded a half-tier (or flipped to neutral) rather than logged as a clean Under.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** I let the elite arm (Sánchez, Eovaldi) set the narrative and treated the mediocre counterpart as a footnote. Totals are governed by the *floor* of the pitching matchup as much as the ceiling. My xR build may already do this mechanically, but my *written lean direction* over-indexed on the ace.
+
+**EVIDENCE FROM TODAY (pre-game only):** NYM/PHI — Peralta 4.11 SIERA in 104-Runs park, logged as Under lean. SD/TEX — Buehler "trending up," logged as Under in an 83-Runs park (this one is defensible). The pattern is that my Under leans clustered around games with one strong/one weak arm, and the weak arm is the swing variable I keep under-narrating.
+
+**CONFIDENCE:** LOW — one slate, three leans, none staked. Directional note only.
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: SD @ TEX — YOUR CALL: LEAN Under
+CONFIRMED LINEUP vs YOUR ASSUMPTION: **materially different**
+WOULD CHANGE? **lean → pass (kill the Under lean)**
+PRE-GAME REASON: My Under was built on "two strong arms in pitcher park," implicitly assuming modest offenses. But both confirmed lineups post at ~130 avg wRC+ vs RHP — SD at 129.1, TEX at 131.1, with multiple 130+ bats and several inflated small-sample marks (Will Wagner 271, Cody Freeman 291, Elias Díaz 203). Even discounting small samples, these are not Under-friendly lineups. The 83-Runs park keeps it from flipping to a stake-able Over, but it removes my justification for an Under lean. Correct outcome: no lean, pure pass.
+UMPIRE WOULD CHANGE? No — Doug Eddings is a roughly neutral-to-slightly-tight zone, no material pre-game edge.
+
+### GAME: NYM @ PHI — YOUR CALL: LEAN Under
+CONFIRMED LINEUP vs YOUR ASSUMPTION: **roughly as expected (PHI even worse than assumed)**
+WOULD CHANGE? **no change** (lean stays; still sub-gate, still no stake)
+PRE-GAME REASON: PHI posts 67.8 avg wRC+ vs RHP — *weaker* than my team-level assumption, with a -100 (Rincones) and several 50–70 marks. NYM at 109.6 is a touch higher than my 92-vs-LHP figure but driven by small-sample spikes (Wagaman 205, Benge 168). On the confirmed data, my Under lean is *more* justified, not less. The 15-3 result is therefore variance against a sound read — exactly the case where I refuse to reason backward from the box score.
+UMPIRE WOULD CHANGE? No — Chad Whitson no notable extreme-zone pre-game signal.
+
+### GAME: BOS @ SEA — YOUR CALL: LEAN Under
+CONFIRMED LINEUP vs YOUR ASSUMPTION: **roughly as expected**
+WOULD CHANGE? **no change**
+PRE-GAME REASON: BOS 74.8 and SEA 73.9 avg wRC+ confirm two genuinely weak offenses, matching my "both bats weak" assumption (Cal Raleigh 15 vs LHP, Raley -28, Refsnyder 41). This validates the Under lean — and the game finished 6 total (Under 7.5). Correct read, correctly under-staked per the -125 price gate, lean would have cashed. Process and direction both sound.
+UMPIRE WOULD CHANGE? No — Paul Clemons no material pre-game zone edge.
+
+---
+
+**BOTTOM LINE:** Empty slate held up. The one genuine process note is that two of my three Under leans (SD/TEX especially) were softer than my write-ups implied once lineups confirmed — SD/TEX should have been a flat pass, not an Under lean. BOS/SEA and NYM/PHI were directionally correct reads; the PHI blowout was variance, not a missed signal. No stakes lost, discipline intact, but my lean-logging on one/strong-one/weak matchups needs tightening.

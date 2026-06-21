@@ -1,0 +1,74 @@
+{
+  "sport": "mlb",
+  "date": "2026-06-20",
+  "games": 2,
+  "coverage": {
+    "rotowire_games": 0,
+    "mlb_confirmed_games": 2,
+    "tracker_teams": 30
+  },
+  "summary": {
+    "rotowire_vs_actual_pct": null,
+    "tracker_vs_actual_pct": 81.5,
+    "rotowire_scored_slots": 0,
+    "tracker_scored_slots": 27
+  },
+  "detail": [
+    {
+      "matchup": "CHW@DET",
+      "teams": {
+        "CHW": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 8,
+            "of": 9,
+            "pct": 88.9,
+            "missed": [
+              "randal grichuk"
+            ],
+            "extra": [
+              "chase meidroth"
+            ]
+          }
+        },
+        "DET": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 7,
+            "of": 9,
+            "pct": 77.8,
+            "missed": [
+              "jake rogers",
+              "matt vierling"
+            ],
+            "extra": [
+              "colt keith",
+              "james outman"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "matchup": "CIN@NYY",
+      "teams": {
+        "CIN": {
+          "actual_n": 9,
+          "tracker_vs_actual": {
+            "match": 7,
+            "of": 9,
+            "pct": 77.8,
+            "missed": [
+              "jose trevino",
+              "noelvi marte"
+            ],
+            "extra": [
+              "eugenio suarez",
+              "tyler stephenson"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

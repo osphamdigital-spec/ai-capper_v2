@@ -1,0 +1,185 @@
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gasser (sm) and Elder start; both bullpens heavily taxed (MIL T3 0/5, ATL T1/T2 empty) creating chaotic late-game risk that overrides a mathematically large MIL edge. Total Market Over price is suspect, Under would require a run gap that does not exist.
+DATA GAP: none
+
+---
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.5
+TOTAL PRICE: -102
+TOTAL UNITS: 1
+TOTAL EDGE: 1.58 runs
+REASON: Burns vs. Rodríguez (sm); NYY offense suppressed by elite Burns, while CIN faces extremely weak Rodríguez at a hitter-friendly park (Yankee Stadium 102 Runs). Projected total 10.08 runs, edge 1.58 above posted 8.5. Small-sample starter restricts to 1 unit. Side edge for CIN is huge but best market price for CIN is flagged suspect, so side is PASS. Bet is Over 8.5 1u at -102.
+DATA GAP: none
+
+---
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Line movement note indicates possible roster/lineup change that could invalidate platoon and offensive projections. With uncertain data, both side and total are passes.
+DATA GAP: roster/lineup change – treat pitcher and lineup data as potentially stale
+
+---
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Webb dominant vs. Gusto (sm) gives SF a large edge, but small-sample Gusto restricts 3u. The Over has edge but loanDepot’s HR factor 81 prohibits Over bets; side alone does not make the final slate cut as stronger bets exist. Total is no bet due to fade rule.
+DATA GAP: none
+
+---
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: 13.3 pts (not bet on slate)
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Álvarez (sm) and Martinez start; my projection gives WAS a 57.5% win probability vs. market 44.2% (edge 13.3 pts). No totals market available (both prices flagged). Despite a strong edge, I prioritize other bets on this slate to stay within the 3-bet ceiling. Slight bullpen concerns on TB (T2 empty) also give me pause, but the edge remains real.
+DATA GAP: none
+
+---
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cecconi and Teng both project near league average; CLE bullpen severely depleted (T1/T2 empty) adds runs to HOU, resulting in a slight HOU lean but edge below 4 pts. Total edge is only 0.48 runs. No bet.
+DATA GAP: none
+
+---
+## GAME: STL @ KC
+PICK: STL ML
+PRICE: -120
+UNITS: 3
+EDGE: 8.4 pts
+TOTAL: Under 9.0
+TOTAL PRICE: -102
+TOTAL UNITS: 1
+TOTAL EDGE: 0.86 runs
+REASON: May’s elite form vs. Kolek’s regression creates a large gap; STL offense (123 wRC+ vs RHP) and Kolek’s low strikeouts push STL projected runs to 4.60 vs. KC 3.54. Pythagorean yields 61.7% win probability vs. market 53.3%. No small-sample flags and bullpens manageable qualify for 3 units. Total projected 8.14 runs vs. posted 9.0, but I deploy only 1 unit on Under due to lower priority; the Under is allowable (Kauffman HR 85). The STL ML side is the primary bet.
+DATA GAP: none
+
+---
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: 7.9 pts (not bet on slate)
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cease’s massive edge over Imanaga gives TOR 60.5% win probability vs. market 52.6% (edge 7.9 pts). Totals market is unavailable (both prices flagged). Bullpen issues on both sides raise some chaos risk, but the main reason for PASS is slate constraints — I already have two 3-unit bets and a 1-unit bet, so I cannot add this one without exceeding the 3-bet cap.
+DATA GAP: none
+
+---
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: TBD starter for San Diego — automatic pass per data integrity rules.
+DATA GAP: TBD starter
+
+---
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: 6.4 pts (not bet on slate)
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Jones (sm) vs. Lorenzen at Coors; PIT projected as 63% favorite, but small-sample flag restricts to 1u and the edge (6.4 pts) is slightly lower than other 1u candidates. No totals bet because Over price is suspect and Under would be a fade against the Coors environment. Passed due to slate ceiling.
+DATA GAP: none
+
+---
+## GAME: LAA @ ATH
+PICK: LAA ML
+PRICE: +110
+UNITS: 1
+EDGE: 14.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Detmers (3.00 L14 SIERA) dominates Perkins (sm); Sutter Health’s high run environment favors LAA offense (wRC+ 105 vs RHP). LAA projected win probability 60.5%, market only 46.5%. Edge 14.0 pts is the highest individual edge on the slate. Small-sample Perkins restricts to 1 unit. Bullpen edge also leans LAA (ATH T1 empty). Totals Over is suspect, Under not supported. Bet LAA ML 1u at +110.
+DATA GAP: none
+
+---
+## GAME: BAL @ LAD
+PICK: LAD ML
+PRICE: -205
+UNITS: 3
+EDGE: 9.9 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sheehan’s elite SIERA (3.43) and LAD’s top-tier offense (121 wRC+) face Brandon Young’s declining profile. Projection: LAD 6.50 runs, BAL 3.48 — LAD win probability 75.9% vs. market 66.0%. No small-sample flags, bullpen slightly depleted but not chaotic. Qualifies for 3 units. Totals projected 10.0 runs, edge on Over 1.0 runs but Over price is suspect, so no total bet.
+DATA GAP: none
+
+---
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Tolle and Gilbert both solid; bullpen depletion on both sides inflates uncertainty. Projected SEA win probability 55.6%, market 56.2% — no edge. Totals both flagged suspect. Pass.
+DATA GAP: none
+
+---
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Wheeler’s massive edge over Peterson gives PHI 64.5% win probability, but market already prices PHI at 65.5% — no edge. Total projected 8.32, edge only 0.32 runs either side. No action.
+DATA GAP: none
+
+---
+## SLATE SUMMARY
+BEST BET: LAD ML (-205) 3 units — edge 9.9 pts over market, strong pitcher mismatch, no data integrity flags, and highest raw edge among my 3-unit plays.
+WHY THIS ONE: Sheehan’s elite SIERA and LAD’s top offense create a 75.9% true win probability against a fadeable Brandon Young; market still offers value at -205 despite the heavy favorite price.

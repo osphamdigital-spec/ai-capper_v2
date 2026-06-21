@@ -1,0 +1,201 @@
+Let me work through the qualifying spots, focusing on my projection-vs-perception edges and applying my 4.0-pt sides gate and 0.8-run totals gate.
+
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: Gasser is [sm] flagged (24 IP) and Elder's strong ERA masks an ugly 4.04 xFIP/4.23 SIERA with Stf+ 85 — both arms below true-talent quality, so my numbers don't clear the side gate either way. My xR sits near 8.8 vs posted 8.5; Over price is stale-flagged anyway. No clean edge.
+DATA GAP: none
+
+---
+
+## GAME: CIN @ NYY
+PICK: NYY ML
+PRICE: -110
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Burns (3.29 SIERA, 21.6 K-BB%, elite arm) is the better starter, but Rodríguez is a disaster — 6.44 SIERA, -4.7% K-BB%, [sm] — facing a strong NYY offense in a HR park. The market has this near pick'em on the moneyline because Burns' name and the Reds' "form" distort it; I make NYY ~57% true vs ~52% implied. Total near my number, no totals edge. Capped at 1u because Rodríguez's awful line rests on a thin 13 IP sample.
+DATA GAP: lineups unconfirmed
+
+---
+
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: The 201-pt ML move flags potential roster/lineup staleness — data-integrity caution applies, I won't anchor a play on possibly-stale pitcher data. Martin is the better arm but the line already moved toward CHW. xR near 8.0 vs posted 8.0, no totals gap.
+DATA GAP: line move flagged as possible lineup change; treat as stale
+
+---
+
+## GAME: SF @ MIA
+PICK: SF ML
+PRICE: -144
+UNITS: 1
+EDGE: 4.6 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.5 runs
+REASON: Webb (3.63 SIERA, elite GB%, 16 IP of dominant recent form with zero walks) vastly outclasses Gusto, who carries a 5.59 SIERA and 1.9% K-BB% on a [sm] sample. SF's bats vs RHP (118 wRC+) are live. I make SF ~67% vs ~59% implied; lean Under from the pitching mismatch but only ~0.5 runs, below gate. Capped at 1u — Gusto's line is small-sample though the talent gap is real.
+DATA GAP: roof status; lineups unconfirmed
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: Martinez's 2.60 ERA badly overstates his 4.66 SIERA, and Alvarez is [sm] with command volatility (6.8 BB/9 L14). Both arms are below their surface ERAs, but that roughly cancels at the line; TB ~57% implied feels about right. Dome neutralizes weather; xR ~8.3 vs 8.0, no totals edge.
+DATA GAP: lineups unconfirmed
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Cecconi and Teng are roughly matched mid-tier arms (4.2-4.4 SIERA), HOU's bullpen is far fresher (T1/T2 fully available vs CLE 0/0), which nudges toward HOU but not enough to clear 4 pts. xR near 8.5 with thunderstorm/gust variance; possible rain delay risk. No edge.
+DATA GAP: roof status; rain delay risk
+
+---
+
+## GAME: STL @ KC
+PICK: STL ML
+PRICE: -124
+UNITS: 1
+EDGE: 4.3 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: May is in a clear true-talent groove (3.76 SIERA, 26 K-BB% over last 15 IP, zero-walk profile) and outclasses Kolek (4.15 SIERA, 12.1 K-BB%); STL's bats vs RHP (123 wRC+) are the better unit. I make STL ~60% vs ~56% implied. The 16+ mph wind with 26 mph gusts is a totals variance flag and the run gap is thin anyway, so no total. 1u — sound but moderate edge.
+DATA GAP: lineups unconfirmed; high-wind variance
+
+---
+
+## GAME: TOR @ CHC
+PICK: TOR ML
+PRICE: -121
+UNITS: 1
+EDGE: 4.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Cease (2.86 SIERA, 26.1 K-BB%, Stf+ 108) is the best starter on the board and meaningfully better than Imanaga (3.73 SIERA, fly-ball prone in a 108-HR park). TOR's lefty-platoon edge vs Imanaga plus the elite arm gets me to ~57% vs ~53% implied. Total 6.5 is low; my xR sits near 7.0, below the 0.8 gate. 1u on the side.
+DATA GAP: lineups unconfirmed; TOR vs-LHP sample thin (n=5)
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: SD starter is TBD — mandatory data-integrity pass.
+DATA GAP: away starter TBD
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field — my method auto-passes Coors totals (Runs factor 130, extreme variance) and the side rests on two volatile arms (Jones [sm], Lorenzen 4.45 SIERA) in a chaos environment. No play either market.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: LAA ML
+PRICE: +108
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.6 runs
+REASON: Detmers (3.35 SIERA, 21.4 K-BB%, 14 IP of zero-walk dominance) is a clearly superior arm to Perkins (4.06 SIERA, [sm], 5.0 BB/9 L14), and ATH's bullpen is gutted (T1 0/3, T3 1/5) in a hitter park where games stay close. I make LAA ~53% vs ~48% implied — getting plus money on the better team. Lean Over (Sutter Health 121 Runs, xR ~9.9 vs 9.5) but below the 0.8 gate. 1u dog with real edge.
+DATA GAP: lineups unconfirmed
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: LAD heavily favored at -215, but Young's surface ERA (3.18) hides an ugly 4.87 SIERA and 2.0% K-BB% L14, while Sheehan (3.43 SIERA) is the better arm and LAD has the deeper offense and pen — the price already reflects all of it. No edge at -215, and the -1.5 RL at -102 doesn't give me enough either. xR near my number.
+DATA GAP: lineups unconfirmed
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Tolle (3.71 SIERA, Stf+ 115) and Gilbert (3.45 SIERA, 20.8 K-BB%, elite) are both quality arms; SEA's slight edge at home (~58% implied) is fair, and BOS bullpen is depleted (T1 0/1). Both starters anchor a low total — my xR ~6.7 vs posted 6.5, no totals gap. Pitcher-friendly park reinforces the low number but no actionable edge.
+DATA GAP: roof status; lineups unconfirmed
+
+---
+
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Wheeler (3.38 SIERA, ace-level, dominant L14) is rightly a heavy favorite over Peterson (4.37 SIERA, [sm] AGG, 5.91 ERA), and PHI at -196 already prices the gap fully. The -1.5 RL at +110 is interesting but Peterson's GB tendency and NYM's competent pen keep blowout odds modest — not enough edge. xR near posted 8.0.
+DATA GAP: lineups unconfirmed
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No spot cleared my 7.0-pt sides threshold with clean data; every projection-vs-perception edge today rests on small-sample starters or lands in the 4-5 pt range, which my method stakes at 1 unit only.

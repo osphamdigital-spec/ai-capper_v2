@@ -249,6 +249,154 @@ def _print_summary(results: list[tuple], sport: str, date: str, total_elapsed: f
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# DATA COMPLETENESS GATE
+# Runs after all fetch steps, before build_prompt. Halts on missing pitcher
+# stats so prompts are never built on degraded data.
+#
+# KNOWN LIMITATION (v1): checks non-null, not freshness. A pitcher carrying
+# HH%/Brl% from a prior fetch while today's fetch failed would pass the gate
+# (stale-but-present). Out of scope for v1 — document and monitor.
+# ─────────────────────────────────────────────────────────────────────────────
+
+def preflight_data_gate(sport: str, date: str) -> bool:
+    """
+    Assert data completeness for every eligible starting pitcher before build_prompt runs.
+
+    Eligible pitcher = named, non-TBD, has a valid MLBAM ID, game not postponed/cancelled.
+    TBD starters are skipped — they trigger a PASS rule in the prompt, not a gate failure.
+
+    Assertions (all three must pass for every eligible pitcher):
+      1. Starting pitcher is named (present in games.json context block)
+      2. MLBAM ID (mlb_id) is populated — set by fetch_pitchers.py
+      3. hard_hit_pct AND barrel_pct are non-null — set by fetch_pitcher_advanced.py
+         xERA is intentionally excluded: legitimately None for low-BBE pitchers.
+
+    Interpreter warning (NOT a halt condition):
+      Prints a warning if the active interpreter differs from PYTHON, but does not
+      halt — run_daily.py already hardcodes PYTHON for all child processes, so data
+      assertions #1-3 catch any actual enrichment failures regardless of parent
+      interpreter.
+
+    This week's failures each assertion would have caught:
+      - Jun 20: wrong venv (hermes) → pybaseball ImportError → HH%/Brl% null
+                Caught by assertion #3 (HH%/Brl% null)
+                Interpreter warning also fires, pointing at root cause
+      - Jun 21: fetch_pitchers.py never run → mlb_id absent → enrichment skipped
+                Caught by assertion #2 (mlb_id absent)
+
+    Returns True when all assertions pass, False when any fail (caller halts pipeline).
+    """
+    import json as _json
+
+    print(f"\n{'=' * 55}")
+    print(f"  DATA COMPLETENESS GATE  {sport.upper()}  {date}")
+    print(f"{'=' * 55}")
+
+    # Interpreter warning — downgraded from HALT per design decision 2026-06-21.
+    # Child processes are always invoked via PYTHON regardless of parent interpreter,
+    # so a mismatch here does not mean advanced stats are absent — the data
+    # assertions below confirm that independently.
+    active = Path(sys.executable).resolve()
+    expected = Path(PYTHON).resolve()
+    if active != expected:
+        print(f"  WARNING: launched under unexpected interpreter: {sys.executable}")
+        print(f"  Expected: {PYTHON}")
+        print(f"  (child fetch scripts still use {PYTHON} -- data assertions below are the real gate)")
+        print()
+
+    games_path = PROJECT_ROOT / "data" / sport / date / "games.json"
+    if not games_path.exists():
+        print(f"  ERROR: games.json not found — run fetch_odds.py + fetch_pitchers.py first.")
+        print(f"{'=' * 55}\n")
+        return False
+
+    games = _json.loads(games_path.read_text(encoding="utf-8"))
+
+    _SKIP = {"postponed", "cancelled", "suspended"}
+
+    failures  = []   # collects human-readable failure strings
+    eligible  = 0    # pitchers checked (non-TBD, non-postponed, have mlb_id)
+
+    print(f"  {'Game':<15}  {'Side':<4}  {'Pitcher':<22}  {'ID':>7}  {'HH%':>5}  {'Brl%':>5}  Result")
+    print(f"  {'-'*15}  {'-'*4}  {'-'*22}  {'-'*7}  {'-'*5}  {'-'*5}  {'-'*6}")
+
+    for g in games:
+        status_raw = (g.get("status") or "").lower()
+        if any(s in status_raw for s in _SKIP):
+            continue   # postponed/cancelled — no gate check needed
+
+        matchup = f"{g['away']['abbr']}@{g['home']['abbr']}"
+        ctx = g.get("context") or {}
+
+        for side_key, side_label in [("pitcher_away", "Away"), ("pitcher_home", "Home")]:
+            p = ctx.get(side_key) or {}
+            pitcher_name = (p.get("name") or "").strip()
+
+            # TBD starters are excluded — the prompt issues a PASS for them separately
+            if not pitcher_name or "TBD" in pitcher_name.upper():
+                print(f"  {matchup:<15}  {side_label:<4}  {'TBD':<22}  {'—':>7}  {'—':>5}  {'—':>5}  SKIP(TBD)")
+                continue
+
+            mlb_id = p.get("mlb_id")
+            hh     = p.get("hard_hit_pct")
+            brl    = p.get("barrel_pct")
+
+            # Assertion #2: MLBAM ID present
+            if not mlb_id:
+                result_label = "FAIL(no_id)"
+                failures.append(
+                    f"{matchup} {side_label}: {pitcher_name} — no MLBAM ID "
+                    f"(fetch_pitchers.py may not have run)"
+                )
+                print(f"  {matchup:<15}  {side_label:<4}  {pitcher_name:<22}  {'—':>7}  {'—':>5}  {'—':>5}  {result_label}")
+                continue
+
+            eligible += 1
+
+            # Assertion #3: HH% and Brl% both non-null
+            missing = []
+            if hh  is None: missing.append("HH%")
+            if brl is None: missing.append("Brl%")
+
+            if missing:
+                result_label = f"FAIL({','.join(missing)}=null)"
+                failures.append(
+                    f"{matchup} {side_label}: {pitcher_name} — "
+                    f"{' and '.join(missing)} null (fetch_pitcher_advanced.py not run or wrong interpreter)"
+                )
+            else:
+                result_label = "OK"
+
+            hh_str  = f"{hh:.1f}"  if hh  is not None else "—"
+            brl_str = f"{brl:.1f}" if brl is not None else "—"
+            print(f"  {matchup:<15}  {side_label:<4}  {pitcher_name:<22}  {mlb_id:>7}  {hh_str:>5}  {brl_str:>5}  {result_label}")
+
+    print()
+
+    if not failures:
+        print(f"  Gate PASSED  ({eligible} eligible pitchers, all stats complete)")
+        print(f"{'=' * 55}\n")
+        return True
+
+    # Gate failed — print checklist and re-run instructions, then return False
+    print(f"  Gate FAILED  {len(failures)} pitcher(s) missing required stats:")
+    for msg in failures:
+        print(f"    - {msg}")
+    print()
+    print(f"  Fix:")
+    print(f"    1. Check the !!! WARNING banner above for which fetch step failed")
+    print(f"    2. Re-run pitcher advanced fetch:")
+    print(f"       {PYTHON} scripts\\fetch_pitcher_advanced.py --sport {sport} --date {date}")
+    print(f"    3. Then re-run the pipeline (fetches are idempotent):")
+    print(f"       {PYTHON} scripts\\run_daily.py {sport} --date {date}")
+    print()
+    print(f"  Override (only when data is genuinely unavailable, e.g. off-day):")
+    print(f"    {PYTHON} scripts\\run_daily.py {sport} --date {date} --skip-gate")
+    print(f"{'=' * 55}\n")
+    return False
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # MODEL-SPECIFIC PROMPT GENERATION
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -327,7 +475,7 @@ def _build_model_prompts(sport: str, date: str):
 # MAIN PIPELINE
 # ─────────────────────────────────────────────────────────────────────────────
 
-def run_daily(sport: str, date: str = None):
+def run_daily(sport: str, date: str = None, skip_gate: bool = False):
     """
     Execute the full daily pipeline for the given sport and date.
 
@@ -382,6 +530,20 @@ def run_daily(sport: str, date: str = None):
     results = []   # accumulates (name, status_label, elapsed) for summary
 
     for name, script, args, required in pipeline:
+        # Data completeness gate fires immediately before Build Prompt.
+        # All fetch steps have completed by this point; the gate confirms their
+        # output is usable before committing to expensive per-model prompt builds.
+        if name == "Build Prompt" and not skip_gate:
+            gate_ok = preflight_data_gate(sport, target_date)
+            if not gate_ok:
+                results.append(("Gate", "FAILED", 0.0))
+                for remaining_name, *_ in pipeline[len(results):]:
+                    results.append((remaining_name, "skipped", 0.0))
+                _print_summary(results, sport, target_date, time.time() - wall_start)
+                print(f"  Pipeline halted at data completeness gate.")
+                print(f"  Fix the missing stats (see above), then re-run.\n")
+                sys.exit(1)
+
         ok, elapsed = run_step(name, script, args)
 
         if ok:
@@ -442,6 +604,11 @@ if __name__ == "__main__":
         "--date", default=None,
         help="Override target date (YYYY-MM-DD). Default: today in US Eastern Time."
     )
+    parser.add_argument(
+        "--skip-gate", action="store_true",
+        help="Bypass the data completeness gate. Use only when data is genuinely "
+             "unavailable (off-day, postponed slate, pre-dawn run before Savant populates)."
+    )
     args = parser.parse_args()
 
-    run_daily(sport=args.sport, date=args.date)
+    run_daily(sport=args.sport, date=args.date, skip_gate=args.skip_gate)

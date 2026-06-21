@@ -1,0 +1,199 @@
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Robert Gasser is flagged as a small sample starter, which limits our model's starting pitching baseline projection accuracy. Additionally, the Over price is flagged as stale/suspect, so the totals market is treated as absent.
+DATA GAP: none
+
+---
+
+## GAME: CIN @ NYY
+PICK: CIN ML
+PRICE: -109
+UNITS: 1
+EDGE: 7.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Chase Burns (3.29 SIERA, 21.6% K-BB%) provides Cincinnati with a massive pitching advantage over Elmer Rodriguez, who struggles with a 6.44 aggregate SIERA. We are restricted to a 1-unit play because Rodriguez is flagged as a small-sample starter, but there is clear value on the Reds at this cheap price.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Significant moneyline movement of over 200 points toward Chicago suggests potential unconfirmed roster or lineup changes. We pass on this entire game to preserve data integrity and avoid trading on stale information.
+DATA GAP: none
+
+---
+
+## GAME: SF @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Logan Webb gives San Francisco a clear pitching advantage, but the best moneyline price of -140 does not provide the required 5.0 percentage point edge to trigger a play. The total is passed due to a suspect/stale price on the Under.
+DATA GAP: none
+
+---
+
+## GAME: WAS @ TB
+PICK: WSH ML
+PRICE: +121
+UNITS: 1
+EDGE: 8.8 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Washington's potent offense (5.4 RS/G) matches up well against Nick Martinez (4.66 SIERA). Andrew Alvarez has been solid in limited action, making the Nationals a strong value at plus money, though we downgrade this to a 1-unit play due to Alvarez's small-sample flag.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cleveland's bullpen is heavily taxed with zero high-leverage arms fresh, which neutralizes their pitching advantage. The projected edge on Houston's moneyline does not meet our minimum 5.0 percentage point gate.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: STL ML
+PRICE: -120
+UNITS: 1
+EDGE: 5.5 pts
+TOTAL: PASS
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Dustin May is in elite form (2.67 L14 SIERA) and the Cardinals' offense matches up exceptionally well against Stephen Kolek. High winds of over 15 mph require a mandatory pass on the total, but the moneyline edge remains playable.
+DATA GAP: none
+
+---
+
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Dylan Cease gives Toronto a starting pitching advantage, but the moneyline price of -117 does not provide a large enough edge to meet our 5.0 percentage point gate.
+DATA GAP: none
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The away starter is listed as TBD, triggering an immediate and mandatory pass on all markets for this game under our data integrity rules.
+DATA GAP: SD confirmed starting pitcher
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field requires a mandatory pass on totals and run lines due to high physical variance. The moneyline edge on Pittsburgh does not meet our 5.0 percentage point gate.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: LEAN: LAA ML
+PRICE: +110
+UNITS: LEAN
+EDGE: 5.4 pts
+TOTAL: Lean Over 9.5
+TOTAL PRICE: -105
+TOTAL UNITS: LEAN
+TOTAL EDGE: 1.45 runs
+REASON: We project a high-scoring game in Sutter Health Park due to a taxed Oakland bullpen and favorable environmental factors, showing an edge on both LAA and the Over. However, we pass on active betting here to remain under our daily 4-bet slate ceiling.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Emmet Sheehan gives the Dodgers a major starting pitching advantage over Brandon Young, but the heavy market price of -205 leaves no profitable edge.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: T-Mobile Park represents a heavy pitcher's environment, but both totals prices are flagged as stale/suspect, forcing a pass on the total. The moneyline offers no viable edge.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ PHI
+PICK: NYM ML
+PRICE: +171
+UNITS: 3
+EDGE: 11.1 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Zack Wheeler is an elite starter, but the market has over-adjusted, making Philadelphia heavily overvalued at -190. David Peterson is a solid left-hander (3.91 xFIP) facing a Phillies lineup that struggles against southpaws (92 wRC+), creating a massive double-digit edge on the Mets.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NYM ML +171 (Game 14)
+WHY THIS ONE: Market pricing has overvalued Zack Wheeler, allowing us to back a solid David Peterson (3.91 xFIP) and a fully rested Mets bullpen at a huge plus-money price against a Phillies offense that struggles against left-handed pitching (92 wRC+).

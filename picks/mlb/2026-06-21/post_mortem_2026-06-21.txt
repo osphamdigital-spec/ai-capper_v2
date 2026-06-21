@@ -1,0 +1,69 @@
+POST-MORTEM REVIEW
+MODEL: [write your model name here...]
+SLATE: MLB — 2026-06-21
+
+ANTI-HINDSIGHT: Evaluate pre-game reasoning only. Do NOT reference
+in-game events. A loss is CORRECT PROCESS/BAD VARIANCE ONLY if you
+can name the specific pre-game data point that justified it.
+If you cannot, choose an error category.
+Return NONE where no block genuinely qualifies.
+
+FINAL RESULTS
+[OPERATOR WILL PASTE RESULTS HERE]
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET:
+RESULT: WIN / LOSS
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES / NO
+IF NO — NEW BEST BET: / WHY: / SOURCE:
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET (one block per bet; NO BETS if none)
+
+GAME:
+PICK:
+RESULT: WIN / LOSS / PUSH
+PROCESS: [CORRECT PROCESS BAD VARIANCE / CORRECT PROCESS FAIR RESULT
+/ INCORRECT PITCHING / INCORRECT TEAM STRENGTH / MISREAD PRICE
+/ OVERWEIGHTED FORM / UNDERWEIGHTED FORM / SMALL SAMPLE TRAP
+/ MISSED BULLPEN / MISSED LINEUP / MISSED INJURY / MISSED WEATHER / OTHER]
+WOULD-BET-AGAIN: YES / NO / LOWER STAKE / HIGHER STAKE
+WHY:
+SOURCE:
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME
+EDGE YOU MISSED. Skip all correct passes entirely — do not write a block
+for them.
+
+GAME:
+YOUR CALL: PASS / LEAN
+FINAL RESULT:
+WHAT YOU MISSED:
+SOURCE:
+WOULD THIS HAVE BECOME A BET? YES / NO / MAYBE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+Data/stats NOT currently in the prompt that would have changed a decision.
+Max 3. NONE if none.
+
+TYPE: DATA / STAT / SOURCE
+ITEM:
+WHICH GAME(S):
+WOULD HAVE CHANGED A BET? YES / NO / MAYBE
+WHY:
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+A proposed change to how YOU weigh or interpret data you already receive.
+A PROPOSAL only — adopted only if it proves out over many slates, never
+from one day. NONE if none.
+
+PROPOSED CHANGE:
+WHAT IN MY METHOD COULD BE SHARPER:
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):
+CONFIDENCE: LOW / MEDIUM / HIGH

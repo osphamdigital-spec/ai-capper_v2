@@ -1,0 +1,133 @@
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** NONE — no 3-unit play identified.  
+**RESULT:** N/A  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES  
+**IF NO — NEW BEST BET:** —  
+**WHY:** No play on the slate cleared the threshold for a 3-unit best bet. The NYY side was the largest edge (4.3 pts) but was correctly capped at 1 unit due to Warren’s [sm] L14 flag. The totals carried run cushions but not the combination of edge + certainty required for best-bet status. Nothing in the confirmed data retroactively upgrades any play to 3-unit status.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+---
+
+**GAME:** CIN @ NYY  
+**PICK:** NYY ML -205 (1u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Pre-game data showed a 1.31-run SIERA advantage (Warren 3.76 vs. Abbott 5.07), a +29 wRC+ platoon edge for the Yankees vs. lefties, and a 4.3-point fair-value edge. The confirmed NYY lineup averaged 124.0 wRC+ vs. LHP, confirming the platoon mismatch. The confirmed Reds lineup averaged only 85.9 wRC+ vs. RHP, offering no pre-game signal of an offensive eruption. Warren’s [sm] L14 flag was already accounted for by capping the stake at 1 unit rather than 2 or 3. A 10-2 Reds victory is not justified by any pre-game data point available to me; it is severe negative variance.  
+**SOURCE:** Pre-game AGG SIERA, team platoon splits, confirmed lineup wRC+.
+
+---
+
+**GAME:** NYM @ PHI  
+**PICK:** Over 7.5 -105 (1u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (with lineup caveat noted below)  
+**WHY:** Sánchez’s elite 2.66 AGG SIERA was correctly weighed against Philadelphia’s taxed bullpen (0/2 T2 avail) and Peralta’s [sm]-flagged degradation. I projected 8.7 runs with a 1.2-run cushion over the 7.5 line. With the pre-game information I had, the over was the right side of the game.  
+**SOURCE:** Pre-game AGG SIERA, bullpen freshness index, Peralta [sm] flag.
+
+---
+
+**GAME:** PIT @ COL  
+**PICK:** Over 10.5 -110 (1u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Sugano’s 5.09 AGG xFIP and 80 Stuff+ were extreme negatives, and the confirmed Pirates lineup averaged 124.7 wRC+ vs. RHP. A 2.1-run edge at Coors Field is normally a strong position. A 1-2 final is an outlier at altitude; there is no pre-game run-suppression signal in Sugano’s profile that predicted a shutdown. Skenes’ elite upside is a known variance suppressor, but even elite pitchers typically allow 3–4 runs at Coors. The Pirates’ one-run output is not projectable from pre-game data.  
+**SOURCE:** Pre-game AGG xFIP, Stuff+, confirmed PIT lineup wRC+, Coors runs factor.
+
+---
+
+**GAME:** LAA @ ATH  
+**PICK:** Over 9.5 -115 (1u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES (but edge was overstated)  
+**WHY:** Pre-game estimates leaned on a 110 runs park factor and strong outbound wind, with Ginn (4.08 xFIP) and Ureña (4.43 xFIP) profiling as hittable. The Angels scored 7 runs, validating the park/wind inflation. The Athletics’ shutout is the sole reason for the loss; there was no pre-game signal that Ureña would blank them. That said, the confirmed A’s lineup (86.0 wRC+ vs. RHP) was weaker than my “near league average” team-level assumption, which would have narrowed the edge (see Confirmed Data Evaluation). Still, a total under 9.5 was not the pre-game expectation.  
+**SOURCE:** Pre-game park factor, wind report, AGG xFIP, confirmed lineup wRC+.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+**NONE.** All passes were supported by pre-game data. No retroactive pre-game signal emerges from the box scores that my model ignored.
+
+---
+
+## S3: DATA REQUEST
+
+| TYPE | ITEM | WHICH GAME(S) | WOULD HAVE CHANGED A BET? | WHY |
+|---|---|---|---|---|
+| STAT | Sean Newcomb’s AGG xFIP, SIERA, K-BB%, and Stuff+ (or a reliable MiLB translation / short-sample prior) | CHW @ DET | MAYBE | I passed the game entirely because the pitching-anchor foundation of the model collapsed without a stabilized run-suppression estimate for either starter. Even a regressed short-sample prior would have allowed me to price the side or total. |
+| DATA | Lineup-level wRC+ vs. LHP/RHP for confirmed starters (rather than only team-level aggregates) | All games; most acutely LAA @ ATH and NYM @ PHI | MAYBE | Team-level “near average” masked an 86.0 wRC+ A’s lineup vs. RHP and a 67.8 wRC+ Phillies lineup vs. RHP. Lineup-level platoon data would sharpen run estimates and potentially flip borderline total bets to passes. |
+| DATA | Umpire-specific run-environment tendencies (pitcher-friendly vs. hitter-friendly strike zone, historical ERA/RF under crew) | Slate-wide | MAYBE | Zone size impacts walk and strikeout rates, which flow into total run environments. Currently I do not integrate umpire data; adding it could adjust totals by 0.2–0.4 runs on the margin. |
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** When a starting pitcher carries an **[sm] (small sample) flag** on L14 or seasonal aggregates, apply a Bayesian shrinkage penalty before feeding the number into the win-probability engine: regress the published AGG SIERA/xFIP **40% toward league average** (or the pitcher’s career baseline if available) rather than treating the raw AGG figure as a point estimate. If the [sm] flag is present, require a **minimum 5.0-point edge** (up from 3.5) to bet the side, and apply the same regressed figure to total run estimates.
+
+**WHAT IN MY METHOD COULD BE SHARPER:** I currently treat AGG SIERA as a fixed true-talent estimate even when the model itself warns that the sample is small. This creates false precision and can inflate edges on volatile pitchers.
+
+**EVIDENCE FROM TODAY (cite pre-game data, not the outcome):** Will Warren entered with a 3.76 AGG SIERA but an **[sm] L14 flag**. I priced NYY at 69.1% (4.3-point edge) treating 3.76 as reliable. If regressed 40% toward a league-average ~4.40 SIERA, his effective run-suppression estimate becomes ~4.14, materially shrinking the gap vs. Abbott (5.07) and likely collapsing the 4.3-point edge toward market. The [sm] flag was the correct pre-game warning that the edge was overstated.
+
+**CONFIDENCE:** MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+---
+
+### GAME: CIN @ NYY — YOUR CALL: BET home ML -205 (1u)
+
+**CIN BATTING ORDER (vs RHP):** avg wRC+ 85.9  
+**NYY BATTING ORDER (vs LHP):** avg wRC+ 124.0
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):** N/A  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: no pre-game umpire zone/run-data available for Laz Diaz
+
+---
+
+### GAME: NYM @ PHI — YOUR CALL: BET over 7.5 -105 (1u)
+
+**NYM BATTING ORDER (vs LHP):** avg wRC+ 109.6  
+**PHI BATTING ORDER (vs RHP):** avg wRC+ 67.8
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different  
+**WOULD CHANGE?** bet → pass  
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):** The confirmed Phillies lineup averages 67.8 wRC+ vs. RHP, which is roughly 32 points below league average — significantly worse than my model’s “19 points below average” assumption. A lineup that weak against Peralta removes approximately 0.5–0.6 runs from my total estimate, compressing my 1.2-run cushion below my 1.0-run total gate.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: no pre-game umpire zone/run-data available for Chad Whitson
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: BET over 10.5 -110 (1u)
+
+**PIT BATTING ORDER (vs RHP):** avg wRC+ 124.7  
+**COL BATTING ORDER (vs RHP):** avg wRC+ 114.3
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):** N/A  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: no pre-game umpire zone/run-data available for Adam Hamari
+
+---
+
+### GAME: LAA @ ATH — YOUR CALL: BET over 9.5 -115 (1u)
+
+**LAA BATTING ORDER (vs RHP):** avg wRC+ 100.2  
+**ATH BATTING ORDER (vs RHP):** avg wRC+ 86.0
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** materially different (A’s weaker than expected)  
+**WOULD CHANGE?** bet → pass  
+**PRE-GAME REASON (required if WOULD CHANGE ≠ no change):** The confirmed A’s lineup averages 86.0 wRC+ vs. RHP, which is 14 points below league average rather than the “near league average” my model assumed. That lineup weakness subtracts roughly 0.5–0.6 runs from my total estimate, shrinking my 1.5-run edge to approximately 0.9 runs — below my 1.0-run gate for a total play.  
+**UMPIRE WOULD CHANGE?** no — pre-game reason: no pre-game umpire zone/run-data available for Dan Bellino

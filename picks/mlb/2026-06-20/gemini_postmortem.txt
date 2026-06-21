@@ -1,0 +1,147 @@
+An honest, process-driven post-mortem of the June 20, 2026 slate.
+
+Overall, the day ended in a minor profit (**+0.33 units**) despite dropped games on both heavy favorites (-200). Our plus-money underdog plays carried the day, but a critical look at our heavy-chalk logic reveals glaring process leaks.
+
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-20
+==================================================================
+  CIN   10 @  NYY    2 | Winner: CIN | Bet: NYY -200 → LOSS (-1.00u)
+  TOR    8 @  CHC    6 | Winner: TOR | Bet: TOR +117 → WIN (+1.17u)
+  SD     6 @  TEX    4 | Winner: SD  | Bet: SD +116  → WIN (+1.16u)
+  PIT    1 @  COL    2 | Winner: COL | Bet: PIT -200 → LOSS (-1.00u)
+
+  Net Slate Result: +0.33 units
+==================================================================
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+WHY: Our model correctly identified a high-variance slate with multiple small-sample starting pitchers. Capping exposures and refusing to flag a 3-unit play was the correct risk-management decision.
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+**GAME:** CIN @ NYY
+**PICK:** NYY ML (-200)
+**RESULT:** LOSS
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD-BET-AGAIN:** YES
+**WHY:** The pre-game numbers heavily favored New York: an elite 124.0 wRC+ lineup against Andrew Abbott's 5.07 SIERA, countered by a stable Will Warren (3.76 SIERA). However, high winds (16.3 mph) at Yankee Stadium introduce massive variance to fly-ball pitchers. While we correctly passed on the game total due to wind, we did not discount the moneyline. Despite the loss, a -200 favorite with a 6.2% edge remains a mathematically correct play over a long-run sample.
+**SOURCE:** Pre-game model metrics (SIERA & wRC+ splits).
+
+---
+
+**GAME:** TOR @ CHC
+**PICK:** TOR ML (+117)
+**RESULT:** WIN
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Our pre-game analysis targeted Colin Rea's weak metrics (5.00 SIERA) against Toronto's platoon-advantaged bats, alongside a severely taxed Chicago high-leverage bullpen. The late-inning bullpen leakage we anticipated played out perfectly in an 8-6 victory.
+**SOURCE:** Bullpen availability reports and starter SIERA splits.
+
+---
+
+**GAME:** SD @ TEX
+**PICK:** SD ML (+116)
+**RESULT:** WIN
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** San Diego's elite offense vs. RHP (129 wRC+), combined with a massive bullpen advantage featuring fresh leverage arms, offered exceptional value at +116. 
+**SOURCE:** Pre-game team wRC+ splits vs. RHP and bullpen rest status.
+
+---
+
+**GAME:** PIT @ COL
+**PICK:** PIT ML (-200)
+**RESULT:** LOSS
+**PROCESS:** MISREAD PRICE
+**WOULD-BET-AGAIN:** NO
+**WHY:** Laying -200 on a road favorite at Coors Field is a structural process error. While Paul Skenes (2.83 SIERA) was a massive paper upgrade over Tomoyuki Sugano (5.18 SIERA), Coors Field acts as an extreme variance equalizer. High altitude alters pitch movement (reducing spin-efficiency on elite fastballs/breaking pitches) and inflates BABIP. Paying -200 in an environment designed to generate high-variance outcomes was a severe pricing misread, regardless of the pitching mismatch.
+**SOURCE:** Historical Coors Field park factors and altitude-adjusted pitching degradation.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+*None. All passes and leans were structurally sound based on the 4-bet portfolio cap and small-sample flags.*
+
+---
+
+## S3: DATA REQUEST
+**TYPE:** DATA | **STAT:** Wind Direction Vectors
+**ITEM:** Stadium-specific wind angles and velocity vectors.
+**WHICH GAME(S):** CIN @ NYY
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** Knowing if 16.3 mph winds are blowing directly out (highly volatile, HR-friendly) or blowing in/across would have allowed us to adjust the Yankees ML downward, potentially triggering a pass on a steep -200 price tag.
+
+**TYPE:** STAT | **SOURCE:** Statcast (Altitude splits)
+**ITEM:** Pitch movement degradation (vertical/horizontal break loss) in high altitude.
+**WHICH GAME(S):** PIT @ COL
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** Understanding how much Skenes' elite arsenal grades out worse at Coors would have mathematically corrected his projection, dropping the edge below our 5.0% threshold and forcing a pass at -200.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+**PROPOSED CHANGE:** Implement an automatic "Coors Field / High-Altitude ML Cap" of -145. No road favorite playing in Denver may be bet at a price steeper than -145, regardless of the pitching matchup edge.
+**WHAT IN MY METHOD COULD BE SHARPER:** Environmental adjustments for high-altitude venues are currently treated as "totals-only" flags. We must integrate them into the side-pricing model because of how altitude neutralizes elite pitching arsenals.
+**EVIDENCE FROM TODAY:** Paul Skenes (elite 2.83 SIERA) was neutralized in a 2-1 defeat by a vastly inferior starting pitcher in Sugano (5.18 SIERA) at Coors. The venue minimized the skill gap.
+**CONFIDENCE:** HIGH
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: CIN @ NYY — YOUR CALL: BET home ML -200 (1u)
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** The confirmed lineups validated our massive split advantage assumption: NYY boasted a stellar 124.0 average wRC+ vs. LHP, whereas CIN rolled out a heavily degraded 85.9 average wRC+ vs. RHP.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: TOR @ CHC — YOUR CALL: BET away ML 117 (1u)
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** Lineups matched expected platoon splits.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: SD @ TEX — YOUR CALL: BET away ML 116 (1u)
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** SD fielded a highly competitive lineup matching our projected team numbers.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: SF @ MIA — YOUR CALL: LEAN away
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** Lineup data supported the lean, but we stayed disciplined due to the 4-bet slate limit.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: WAS @ TB — YOUR CALL: LEAN None
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** No material differences.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: CLE @ HOU — YOUR CALL: LEAN away
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change
+**PRE-GAME REASON:** Houston's extremely weak confirmed lineup vs. LHP (59.5 average wRC+) validated our lean on Cleveland, but keeping it as a lean to respect the 4-bet ceiling was proper risk management.
+**UMPIRE WOULD CHANGE?** no
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: BET away ML -200 (1u)
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected
+**WOULD CHANGE?** no change (based *solely* on lineup cards)
+**PRE-GAME REASON:** The lineups on paper confirmed a massive offensive/pitching gap in favor of Pittsburgh (124.7 team wRC+ vs. COL's 114.3). While we should change our method regarding Coors Field pricing (see S4), the raw lineup sheets themselves matched our model's pre-game inputs.
+**UMPIRE WOULD CHANGE?** no

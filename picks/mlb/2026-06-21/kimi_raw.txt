@@ -1,0 +1,199 @@
+## GAME: MIL @ ATL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The aggregate SIERA gap between Elder and Gasser is modest, and Milwaukee's leverage-arm availability (three fresh) neutralizes Atlanta's home-field advantage. My win-probability estimate sits within a point of the market, well short of the 3.5-point gate. The total of 8.5 is within 0.7 runs of my projection, so I have no total bet.
+DATA GAP: none
+
+---
+
+## GAME: CIN @ NYY
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.5
+TOTAL PRICE: -102
+TOTAL UNITS: 1
+TOTAL EDGE: 1.2 runs
+REASON: Rodríguez's aggregate xFIP near 6.80 faces a league-average Reds offense, while Burns's elite strikeout rate should suppress a Yankee lineup carrying a 94 wRC+ against righties. My expected combined runs are 9.7 after the Yankee Stadium park adjustment, creating a 1.2-run edge on the Over. The small-sample flag on the home starter caps any play in this game at one unit; the Cincinnati moneyline is stale and untreated.
+DATA GAP: none
+
+---
+
+## GAME: CHW @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The moneyline moved 201 points toward Chicago, making the starter and lineup data potentially stale; I will not bet into an information vacuum. Even pre-move the pitching gap and bullpen fatigue did not clear my 3.5-point side gate. The total line is similarly compromised by the uncertainty.
+DATA GAP: Confirmed reason for the 201-point line move toward Chicago.
+
+---
+
+## GAME: SF @ MIA
+PICK: SF ML
+PRICE: -140
+UNITS: 1
+EDGE: 5.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Webb's aggregate SIERA/xFIP is nearly two runs better than Gusto's, and San Francisco's offense carries a 118 wRC+ against right-handed pitching versus Miami's 99. I price the Giants at 63.8%, a 5.5-point edge over the -140 market. Gusto's small-sample flag caps the stake at one unit; my total projection sits too close to 8.0 to bet.
+DATA GAP: none
+
+---
+
+## GAME: WAS @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Alvarez's small-sample aggregate is actually a touch better than Martinez's, but Washington's bullpen advantage is offset by a nearly flat offensive platoon split. My win-probability estimate is within two points of the market. Both total prices are flagged stale.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ HOU
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The starting-pitcher SIERA gap is negligible, and while Cleveland's bullpen is exhausted, Houston's offensive edge against righties is only 13 wRC+ points, below my 15-point threshold. My estimated edge is 1.5 points, short of the gate. The total of 8.5 is within half a run of my projection.
+DATA GAP: none
+
+---
+
+## GAME: STL @ KC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: May has a significant SIERA edge on Kolek and the Cardinal offense leads by 31 wRC+ points, but a 42 percent rain chance and Kauffman's pitcher-friendly dimensions downgrade confidence. My estimated win probability is 56.9%, only a 2.3-point edge over the -120 market. The total of 9.0 aligns with my run estimate.
+DATA GAP: none
+
+---
+
+## GAME: TOR @ CHC
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cease brings a 2.86 SIERA that is a full run better than Imanaga's, but Toronto's bullpen has just one fresh leverage arm and the Blue Jays' platoon edge is only ten wRC+ points. My win-probability estimate is 56.2%, a 2.2-point edge that fails to clear the gate. Both total prices are flagged stale.
+DATA GAP: none
+
+---
+
+## GAME: SD @ TEX
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: San Diego's starter is TBD, which is an automatic pass per my data-integrity rules. No edge can be estimated without confirmed pitcher data. I will not force a total bet blind either.
+DATA GAP: Confirmed San Diego starting pitcher.
+
+---
+
+## GAME: PIT @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field side bets are excluded from my method due to extreme margin-of-victory variance. My run estimate of 12.1 runs is essentially on the 12.0 total line, offering no edge that clears the one-run gate. The high-altitude volatility keeps me off both markets.
+DATA GAP: none
+
+---
+
+## GAME: LAA @ ATH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Detmers has a half-run SIERA edge on Perkins, but the Angels' bullpen has just one fresh leverage arm and Oakland's offense carries a 115 wRC+ against lefties that erodes most of the pitching advantage. My side edge is under one point. My total projection is heavily over the line, but the Over price is flagged stale.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sheehan's SIERA is more than a run better than Young's, but the Baltimore offense is nearly even with Los Angeles against righties and the market already prices the Dodgers at -205. My estimated edge is only 1.7 points. The total of 9.0 is within half a run of my projection.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ SEA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gilbert has the better SIERA and Seattle's bullpen is fresher, but the Red Sox offense has been slightly less anemic than the Mariners' lineup against lefties. My win-probability estimate is 58.7%, a 1.4-point edge that does not clear the gate. Both total prices are flagged stale.
+DATA GAP: none
+
+---
+
+## GAME: NYM @ PHI
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Wheeler's SIERA is a full run better than Peterson's, but Philadelphia's offense manages only a 92 wRC+ against left-handed pitching and the market already taxes the Phillies at -190. My edge is 1.5 points. The total of 8.0 is within a run of my estimate.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No 3-unit play qualified today.

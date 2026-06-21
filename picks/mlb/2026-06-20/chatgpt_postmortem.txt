@@ -1,0 +1,161 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE  
+RESULT: NONE  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: NONE  
+WHY: I still do not see a legitimate 3-unit pre-game edge from the information I had at the time. The slate produced several upset winners, but I cannot justify promoting any of them to “best bet” status without using hindsight.  
+SOURCE: Original slate notes / pre-game pricing discipline
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: SF @ MIA  
+PICK: SF ML +122  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game case was real: SF had the better projected lineup split vs RHP, and my handicap viewed McDonald’s underlying skill as better than the market-facing ERA. The confirmed lineup did not undercut that thesis; if anything, it supported it. Miami’s bullpen edge was already acknowledged and was the reason this stayed 1u. I do not see a pre-game signal I ignored that should have turned this into a pass.  
+SOURCE: Original reasoning; confirmed lineup averages vs RHP: SF 117.7, MIA 91.6
+
+---
+
+GAME: LAA @ ATH  
+PICK: Over 9.5 (-110)  
+RESULT: LOSS  
+PROCESS: MISSED LINEUP  
+WOULD-BET-AGAIN: NO  
+WHY: My over case leaned on weak starters, a taxed A’s bullpen, and a hitter-friendly park, but the confirmed offenses matter a lot in a total this high. The A’s lineup, especially the lower half, was substantially weaker than a generic team-level assumption: Heim 30, Colby Thomas -32, Bolte 89, Muncy 75, Alika 99, with an overall lineup average of just 86.0 vs RHP. The Angels lineup was only moderate as well at 100.2. That should have reduced confidence enough to pass rather than bet.  
+SOURCE: Confirmed lineup data provided for LAA/ATH
+
+---
+
+GAME: MIN @ AZ  
+PICK: Over 9.0 (-107)  
+RESULT: WIN  
+PROCESS: MISSED LINEUP  
+WOULD-BET-AGAIN: NO  
+WHY: This won, but the process was not as good as the result. My pre-game writeup leaned on Gallen underperforming his name value, Bradley being solid-not-elite, and Minnesota recent scoring form. The confirmed lineups badly weakened the offensive baseline for both teams: MIN lineup avg 79.9 vs RHP, AZ lineup avg 54.9 vs RHP. That is not just “less than ideal”; it materially attacks the foundation of an over. A good outcome does not rescue a bad pre-lineup decision.  
+SOURCE: Confirmed lineup data provided for MIN/AZ
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: SD @ TEX  
+YOUR CALL: PASS  
+FINAL RESULT: SD 6 @ TEX 4  
+WHAT YOU MISSED: I already had San Diego “close to playable as a dog” because of the better split vs RHP and the stronger bullpen. In retrospect, the sharper pre-game takeaway is that when the better bullpen plus the better platoon profile are both on the dog side, I may have been too deferential to the starter gap alone.  
+SOURCE: Original note: “San Diego is close to playable as a dog because of the better platoon split versus RHP and stronger bullpen…”  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: WAS @ TB  
+YOUR CALL: PASS  
+FINAL RESULT: WAS 4 @ TB 3  
+WHAT YOU MISSED: My own pre-game note said my side number was “close to pick’em” and that Washington had the better offense plus the more established starter. If the market still had Tampa meaningfully favored, that likely implied some dog value I did not fully trust because of uncertainty around Seymour. The missed edge was not the result; it was that my base inputs already leaned Washington.  
+SOURCE: Original reasoning on offense/starter edge for WAS  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: PIT @ COL  
+YOUR CALL: LEAN  
+FINAL RESULT: PIT 1 @ COL 2  
+WHAT YOU MISSED: The confirmed lineups were stronger than a generic over assumption, especially Pittsburgh’s 124.7 lineup average vs RHP and Colorado’s 114.3. That is a real pre-game offensive signal. It would not have guaranteed an over, but it would have strengthened the lean materially.  
+SOURCE: Confirmed lineup data for PIT/COL  
+WOULD THIS HAVE BECOME A BET? YES
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Earlier confirmed lineups, or at minimum a lineup-adjusted team offensive projection before bet lock  
+WHICH GAME(S): LAA @ ATH, MIN @ AZ, PIT @ COL  
+WOULD HAVE CHANGED A BET? YES  
+WHY: All three totals were materially sensitive to who was actually hitting. The confirmed lineups would have downgraded LAA/ATH and MIN/AZ overs, while strengthening PIT/COL over.
+
+---
+
+TYPE: STAT  
+ITEM: Starter role / expected pitch count / leash estimate for incomplete-sample SPs  
+WHICH GAME(S): CHW @ DET, WAS @ TB  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: My biggest hesitation in those games was uncertainty around how much trustworthy starter innings were actually available.
+
+---
+
+TYPE: SOURCE  
+ITEM: Standardized roof/wind feed with park-adjusted run impact  
+WHICH GAME(S): SD @ TEX, CLE @ HOU, MIN @ AZ, SF @ MIA, PIT @ COL  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I cited roof/wind uncertainty several times. A consistent feed would tighten total projections and could move borderline passes into bets.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Do not place full-stake overs before confirmed lineups when the wager depends on both offenses contributing; require a lineup-adjusted recheck before release, especially on totals of 9+.
+
+WHAT IN MY METHOD COULD BE SHARPER: I leaned too heavily on team-level offensive form and environment in totals spots without enough protection against weak confirmed batting orders.
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome):  
+- LAA @ ATH: A’s confirmed lineup average vs RHP was only 86.0, with multiple major sinkholes in the bottom half.  
+- MIN @ AZ: Both confirmed lineups were materially worse than team-level assumptions, especially Arizona at 54.9 average vs RHP.  
+- PIT @ COL: Confirmed lineups were much stronger than a generic over baseline and would have upgraded the lean.
+
+CONFIDENCE: HIGH
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup + umpire)
+
+### GAME: SF @ MIA — YOUR CALL: BET away ML 122 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: The confirmed lineups supported the original handicap. SF’s order projected much better vs RHP than Miami’s, which matches the stated pre-game edge. No reason to downgrade or alter the side.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific pre-game umpire signal in my process here strong enough to move a side bet.
+
+---
+
+### GAME: PIT @ COL — YOUR CALL: LEAN over
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? lean→bet  
+PRE-GAME REASON: Both lineups were stronger than a generic over setup, especially Pittsburgh’s top/middle vs RHP and Colorado’s solid middle. Since my raw total was already above market, stronger-than-expected offensive cards would have been enough to upgrade from lean to bet.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No specific plate-profile adjustment strong enough on its own to override the lineup/park case.
+
+---
+
+### GAME: LAA @ ATH — YOUR CALL: BET over ML -110 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→pass  
+PRE-GAME REASON: The A’s lineup was too weak for a full-game over that already needed both sides to help clear 9.5. The bottom half contained several clear offensive liabilities by pre-game split data, and the full lineup average vs RHP was only 86.0.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No umpire adjustment large enough to overcome the lineup downgrade.
+
+---
+
+### GAME: MIN @ AZ — YOUR CALL: BET over ML -107 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet→pass  
+PRE-GAME REASON: The confirmed lineups were far weaker than the team-level offensive assumptions behind the over, particularly Arizona’s 54.9 average vs RHP and a light Minnesota card as well. That should have removed the margin in an over 9.0.  
+UMPIRE WOULD CHANGE? no — pre-game reason: No plate-ump effect strong enough to offset such weak confirmed offensive personnel.
+
+---
+
+### Bottom line
+Record on actual bets: 1-2.  
+But the more important process review is:
+
+- **SF ML:** fine bet, bad result.  
+- **LAA/ATH over:** bad pre-lineup discipline.  
+- **MIN/AZ over:** won, but still a process miss due to lineups.  
+
+The main lesson is not “bet fewer overs” or “trust favorites less.” It is: **when a totals bet needs both offenses, confirmed lineup quality has to be weighted more heavily than broad team form.**

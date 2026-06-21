@@ -238,6 +238,67 @@ STADIUMS = {
     },
 }
 
+# ─────────────────────────────────────────────────────────────────────────────
+# CF BEARING TABLE
+# ─────────────────────────────────────────────────────────────────────────────
+# Compass bearing in degrees (0 = North, 90 = East, clockwise) from home plate
+# to centre field for each MLB park.  Used to compute the angle between the
+# wind-to vector and the CF axis — raw geometry only; models interpret it.
+#
+# Convention: degrees clockwise from North; home-plate → CF direction.
+# is_estimate=True: value should be verified against a published azimuth source.
+#   Recommended sources: Andrew Clem orientation data (andrewclem.com/Baseball)
+#   or Seamheads ballpark database (seamheads.com/ballparks).
+# is_estimate=False: verified from multiple independent published sources.
+# None entry: dome (wind geometry not applicable) or orientation unknown.
+#
+# Structure: { team_name: (cf_bearing_deg: int, is_estimate: bool) | None }
+
+CF_BEARINGS: dict[str, tuple[int, bool] | None] = {
+    # ── VERIFIED (multiple independent published sources) ─────────────────────
+    "Chicago Cubs":             (43,  False),  # Wrigley Field — NE; well-documented; SW wind = out
+    "Colorado Rockies":         (42,  False),  # Coors Field — NNE; well-documented; SW wind = out
+
+    # ── ESTIMATED — verify against Andrew Clem / Seamheads ───────────────────
+    # Source for all estimates: published ballpark orientation literature cross-
+    # referenced with documented "blowing out" wind directions per park.
+    # Cite: Andrew Clem (andrewclem.com/Baseball) or Seamheads ballpark DB.
+    "Arizona Diamondbacks":     (348, True),   # Chase Field, Phoenix — NNW
+    "Atlanta Braves":           (250, True),   # Truist Park, Cumberland GA — WSW
+    "Baltimore Orioles":        (325, True),   # Camden Yards — NW
+    "Boston Red Sox":           ( 37, True),   # Fenway Park — NNE; Green Monster to W
+    "Chicago White Sox":        (337, True),   # Guaranteed Rate Field — NNW
+    "Cincinnati Reds":          (290, True),   # GABP — WNW; river to RF
+    "Cleveland Guardians":      (322, True),   # Progressive Field — NW
+    "Detroit Tigers":           (340, True),   # Comerica Park — NNW
+    "Houston Astros":           (314, True),   # Minute Maid Park — NW
+    "Kansas City Royals":       (  5, True),   # Kauffman Stadium — N
+    "Los Angeles Angels":       (290, True),   # Angel Stadium — WNW
+    "Los Angeles Dodgers":      (352, True),   # Dodger Stadium — NNW
+    "Miami Marlins":            (310, True),   # loanDepot park — NW
+    "Milwaukee Brewers":        (353, True),   # American Family Field — N
+    "Minnesota Twins":          (319, True),   # Target Field — NW
+    "New York Mets":            (349, True),   # Citi Field — NNW
+    "New York Yankees":         ( 23, True),   # Yankee Stadium — NNE
+    # Sutter Health Park (Sacramento) — A's home 2025+.  Home plate at
+    # 38.580286, -121.513927.  Park faces NE quadrant per operator research.
+    # PLACEHOLDER — midpoint of NE quadrant rule-of-thumb, NOT verified against
+    # satellite trace or published azimuth dataset.  Replace with measured value.
+    "Oakland Athletics":        ( 45, True),   # Sutter Health Park — NE placeholder (est)
+    "Athletics":                ( 45, True),   # same park, alternative API name
+    "Philadelphia Phillies":    (325, True),   # Citizens Bank Park — NW
+    "Pittsburgh Pirates":       (318, True),   # PNC Park — NW; river behind RF
+    "San Diego Padres":         (299, True),   # Petco Park — WNW
+    "San Francisco Giants":     ( 95, True),   # Oracle Park — E; bay to RF, city to CF
+    "Seattle Mariners":         (  8, True),   # T-Mobile Park — N
+    "St. Louis Cardinals":      (323, True),   # Busch Stadium — NW
+    "Tampa Bay Rays":           None,           # Tropicana Field — dome; not applicable
+    "Texas Rangers":            (331, True),   # Globe Life Field — NNW
+    "Toronto Blue Jays":        (344, True),   # Rogers Centre — NNW
+    "Washington Nationals":     ( 36, True),   # Nationals Park — NNE
+}
+
+
 # WMO weather interpretation codes → human-readable description
 # Source: Open-Meteo docs / WMO 306 standard
 WMO_CODES = {
@@ -334,6 +395,7 @@ def fetch_hourly_forecast(lat: float, lon: float) -> dict | None:
         "latitude":         lat,
         "longitude":        lon,
         "hourly":           "temperature_2m,windspeed_10m,winddirection_10m,"
+                            "windgusts_10m,relativehumidity_2m,surface_pressure,"
                             "precipitation_probability,weathercode",
         "temperature_unit": "fahrenheit",
         "windspeed_unit":   "mph",
@@ -351,11 +413,18 @@ def extract_game_hour_weather(forecast: dict, commence_et: str) -> dict:
       ["2026-06-01T00:00", "2026-06-01T01:00", ...]
     We match by constructing the target hour string: "YYYY-MM-DDTHH:00"
 
-    Returns a dict with temp_f, wind_mph, wind_dir, precipitation_pct, conditions.
+    Returns a dict with temp_f, wind_mph, wind_dir, wind_from_deg, wind_to_deg,
+    wind_gust_mph, humidity_pct, pressure_hpa, precipitation_pct, conditions.
     Returns all-None dict if the game hour isn't in the forecast window.
+
+    wind_from_deg: met convention — direction the wind blows FROM (0=N, 90=E).
+                   This is Open-Meteo's native winddirection_10m convention.
+    wind_to_deg:   (wind_from_deg + 180) % 360 — direction wind blows TOWARD.
     """
     empty = {
         "temp_f": None, "wind_mph": None, "wind_dir": None,
+        "wind_from_deg": None, "wind_to_deg": None,
+        "wind_gust_mph": None, "humidity_pct": None, "pressure_hpa": None,
         "precipitation_pct": None, "conditions": None,
     }
 
@@ -391,27 +460,48 @@ def extract_game_hour_weather(forecast: dict, commence_et: str) -> dict:
     temp_f       = safe_get("temperature_2m")
     wind_mph     = safe_get("windspeed_10m")
     wind_deg     = safe_get("winddirection_10m")
+    wind_gust    = safe_get("windgusts_10m")
+    humidity     = safe_get("relativehumidity_2m")
+    pressure     = safe_get("surface_pressure")
     precip_pct   = safe_get("precipitation_probability")
     weather_code = safe_get("weathercode")
 
     conditions = WMO_CODES.get(int(weather_code), f"Code {weather_code}") \
         if weather_code is not None else None
 
+    wind_from_deg = round(wind_deg) if wind_deg is not None else None
+    wind_to_deg   = (wind_from_deg + 180) % 360 if wind_from_deg is not None else None
+
     return {
-        "temp_f":           round(temp_f, 1) if temp_f is not None else None,
-        "wind_mph":         round(wind_mph, 1) if wind_mph is not None else None,
-        "wind_dir":         degrees_to_compass(wind_deg),
+        "temp_f":            round(temp_f, 1)    if temp_f    is not None else None,
+        "wind_mph":          round(wind_mph, 1)  if wind_mph  is not None else None,
+        "wind_dir":          degrees_to_compass(wind_deg),
+        "wind_from_deg":     wind_from_deg,
+        "wind_to_deg":       wind_to_deg,
+        "wind_gust_mph":     round(wind_gust, 1) if wind_gust is not None else None,
+        "humidity_pct":      round(humidity)      if humidity  is not None else None,
+        "pressure_hpa":      round(pressure, 1)  if pressure  is not None else None,
         "precipitation_pct": precip_pct,
-        "conditions":       conditions,
+        "conditions":        conditions,
     }
 
 
-def build_weather_entry(stadium: dict, weather_values: dict | None, is_dome: bool) -> dict:
+def build_weather_entry(
+    stadium: dict,
+    weather_values: dict | None,
+    is_dome: bool,
+    home_team_name: str = "",
+) -> dict:
     """
     Build the canonical weather context entry.
 
-    For domes: all weather fields are null with a note.
-    For outdoor/retractable: populate from the forecast.
+    For domes: all weather fields are null with a note; no wind geometry.
+    For outdoor/retractable: populate from the forecast including wind geometry.
+
+    Wind geometry fields (raw evidence, no derived verdict):
+      cf_bearing_deg    — home-plate → CF compass bearing from CF_BEARINGS table
+      cf_bearing_est    — True when the bearing is an estimate pending verification
+      wind_cf_angle_deg — min angle (0–180°) between wind-to vector and CF axis
     """
     entry = {
         "venue":  stadium["venue"],
@@ -424,21 +514,53 @@ def build_weather_entry(stadium: dict, weather_values: dict | None, is_dome: boo
             "temp_f":            None,
             "wind_mph":          None,
             "wind_dir":          None,
+            "wind_from_deg":     None,
+            "wind_to_deg":       None,
+            "wind_gust_mph":     None,
+            "humidity_pct":      None,
+            "pressure_hpa":      None,
             "precipitation_pct": None,
             "conditions":        None,
+            "cf_bearing_deg":    None,
+            "cf_bearing_est":    False,
+            "wind_cf_angle_deg": None,
             "note":              "Indoor stadium — weather not applicable",
             "source":            None,
             "source_priority":   None,
         })
     else:
-        entry.update(weather_values or {
+        fallback = {
             "temp_f": None, "wind_mph": None, "wind_dir": None,
+            "wind_from_deg": None, "wind_to_deg": None,
+            "wind_gust_mph": None, "humidity_pct": None, "pressure_hpa": None,
             "precipitation_pct": None, "conditions": None,
-        })
+        }
+        entry.update(weather_values or fallback)
+
+        # CF bearing lookup (raw geometry only — models interpret significance)
+        cf_entry  = CF_BEARINGS.get(home_team_name)
+        if cf_entry is None:
+            cf_bearing, cf_bearing_est = None, False
+            if home_team_name:
+                print(f"  WARNING: cf_bearing unknown for '{home_team_name}' "
+                      f"— wind_geo block will show cf_bearing: UNKNOWN in prompt")
+        else:
+            cf_bearing, cf_bearing_est = cf_entry
+
+        entry["cf_bearing_deg"] = cf_bearing
+        entry["cf_bearing_est"] = cf_bearing_est
+
+        wind_to = entry.get("wind_to_deg")
+        if wind_to is not None and cf_bearing is not None:
+            diff = abs(wind_to - cf_bearing)
+            entry["wind_cf_angle_deg"] = round(min(diff, 360 - diff))
+        else:
+            entry["wind_cf_angle_deg"] = None
+
         if stadium["roof"] == "retractable":
             entry["note"] = "Retractable roof — may be open or closed at game time"
-        entry["source"]           = "open_meteo"
-        entry["source_priority"]  = 1
+        entry["source"]          = "open_meteo"
+        entry["source_priority"] = 1
 
     entry["fetched_at"] = now_utc()
     return entry
@@ -509,14 +631,16 @@ def fetch_weather(date: str = None):
             if weather_values and weather_values.get("temp_f") is not None:
                 t  = weather_values["temp_f"]
                 w  = weather_values["wind_mph"]
+                g  = weather_values.get("wind_gust_mph")
                 wd = weather_values["wind_dir"]
                 c  = weather_values["conditions"]
                 p  = weather_values["precipitation_pct"]
-                print(f"  {matchup}: {t}°F, {w}mph {wd}, {c}, {p}% precip")
+                gust_str = f" gust {g}mph" if g is not None else ""
+                print(f"  {matchup}: {t}°F, {w}mph{gust_str} {wd}, {c}, {p}% precip")
             else:
                 print(f"  {matchup}: weather fetch failed or game time out of window")
 
-        weather_entry = build_weather_entry(stadium, weather_values, is_dome)
+        weather_entry = build_weather_entry(stadium, weather_values, is_dome, home_name)
 
         # Write into context block — preserve pitcher and umpire fields
         ctx = game.get("context") or {}
@@ -540,6 +664,23 @@ def fetch_weather(date: str = None):
     if no_stadium:
         print(f"  Missing stadium:   {no_stadium}")
     print(f"{'='*55}\n")
+
+    # ── CF bearing estimate warning ───────────────────────────────────────────
+    # List every venue in this slate that uses an estimated CF bearing so the
+    # operator can track verification against Andrew Clem or Seamheads.
+    est_venues = [
+        g["context"]["weather"].get("venue", g["home"]["name"])
+        for g in games
+        if g.get("context", {}).get("weather", {}).get("cf_bearing_est") is True
+    ]
+    if est_venues:
+        print(f"CF BEARING ESTIMATES — {len(est_venues)} venue(s) in this slate use")
+        print(f"  estimated bearings. Verify against:")
+        print(f"    Andrew Clem  : andrewclem.com/Baseball")
+        print(f"    Seamheads    : seamheads.com/ballparks")
+        for v in sorted(set(est_venues)):
+            print(f"    {v}")
+        print()
 
     # ── Print one completed context block ─────────────────────────────────────
     print("COMPLETED CONTEXT BLOCK — one outdoor game (MIA @ WAS):")

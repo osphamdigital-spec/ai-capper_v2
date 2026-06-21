@@ -264,9 +264,16 @@ def fmt_pitcher_flags(pitcher: dict | None) -> list:
 
 def fmt_weather(weather: dict | None) -> str:
     """
-    Format the weather section compactly.
+    Format the weather section.
     Dome: single token 'weather:dome'.
-    Outdoor/retractable: 'wx:{temp}F {cond} wind:{speed}mph {dir}'.
+    Outdoor/retractable: up to three lines —
+      wx:{temp}F {cond} wind:{speed}mph {dir} {precip}%rain [notes]
+      wind_geo: from {from}° / to {to}° | cf_bearing {cf}° | wind-cf angle {angle}°
+      air: gust {gust}mph | humidity {hum}% | pressure {hpa}hPa
+
+    wind_geo line is omitted for dome (no data) and when wind_from_deg is absent.
+    air line is shown whenever any of gust/humidity/pressure is present.
+    Estimated CF bearings are flagged with (est) inline — models see this tag.
     """
     if not weather:
         return "  wx:unavailable"
@@ -286,18 +293,53 @@ def fmt_weather(weather: dict | None) -> str:
     if temp is None:
         return "  wx:unavailable"
 
+    # ── Line 1: wx: (unchanged from previous format) ─────────────────────────
     t_part = f"{temp}F"
     c_part = f" {cond}" if cond else ""
-    w_part = f" wind:{wind}mph {wdir}" if (wind is not None and wdir) else (f" wind:{wind}mph" if wind is not None else "")
+    w_part = (f" wind:{wind}mph {wdir}" if (wind is not None and wdir)
+              else (f" wind:{wind}mph" if wind is not None else ""))
     p_part = f" {precip}%rain" if precip is not None else ""
-    line = f"  wx:{t_part}{c_part}{w_part}{p_part}"
-
+    line1  = f"  wx:{t_part}{c_part}{w_part}{p_part}"
     if roof == "retractable":
-        line += " (retractable — check roof status for park factor)"
+        line1 += " (retractable — check roof status for park factor)"
     if roof == "outdoor" and precip is not None and precip >= 50:
-        line += f" [PPD RISK]"
+        line1 += " [PPD RISK]"
 
-    return line
+    lines = [line1]
+
+    # ── Line 2: wind_geo (raw geometry; omit only when wind_from_deg absent) ─
+    wind_from = weather.get("wind_from_deg")
+    wind_to   = weather.get("wind_to_deg")
+    cf_bear   = weather.get("cf_bearing_deg")
+    cf_est    = weather.get("cf_bearing_est", False)
+    cf_angle  = weather.get("wind_cf_angle_deg")
+
+    if wind_from is not None:
+        # Print raw values even at low wind speed — do not null based on threshold
+        if cf_bear is not None:
+            est_tag   = "(est)" if cf_est else ""
+            cf_str    = f"{cf_bear}°{est_tag}"
+            angle_str = f"{cf_angle}°{est_tag}" if cf_angle is not None else "n/a"
+        else:
+            cf_str    = "UNKNOWN"
+            angle_str = None   # omit angle when bearing unknown
+
+        geo_parts = [f"from {wind_from}° / to {wind_to}°", f"cf_bearing {cf_str}"]
+        if angle_str is not None:
+            geo_parts.append(f"wind-cf angle {angle_str}")
+        lines.append("  wind_geo: " + " | ".join(geo_parts))
+
+    # ── Line 3: air (shown whenever any field is present) ────────────────────
+    gust     = weather.get("wind_gust_mph")
+    humidity = weather.get("humidity_pct")
+    pressure = weather.get("pressure_hpa")
+    if any(x is not None for x in (gust, humidity, pressure)):
+        gust_str = f"gust {gust}mph"           if gust     is not None else "gust n/a"
+        hum_str  = f"humidity {humidity}%"     if humidity is not None else "humidity n/a"
+        pres_str = f"pressure {pressure}hPa"   if pressure is not None else "pressure n/a"
+        lines.append(f"  air: {gust_str} | {hum_str} | {pres_str}")
+
+    return "\n".join(lines)
 
 
 def fmt_umpire(umpire: dict | None) -> str:
@@ -2664,6 +2706,20 @@ def build_prompt_main(sport: str = "mlb", date: str = None, model: str = None):
     if no_umpire:    print(f"  NOTE: {no_umpire} game(s) have no plate umpire assigned yet")
     if no_teamstats: print(f"  NOTE: {no_teamstats} game(s) missing team stats -- run fetch_teamstats.py")
     if no_bullpen:   print(f"  NOTE: {no_bullpen} game(s) missing bullpen data -- run fetch_bullpen.py")
+
+    # Build-time CF bearing estimate warning — lists every venue where the
+    # bearing in CF_BEARINGS is flagged as an estimate, so the operator can
+    # track which parks still need verification against a published source.
+    est_venues = sorted({
+        c.get("weather", {}).get("venue", "")
+        for c in ctx_list
+        if c.get("weather", {}).get("cf_bearing_est") is True
+    } - {""})
+    if est_venues:
+        print(f"  CF BEARING ESTIMATES ({len(est_venues)} venue(s)) — verify against "
+              f"Andrew Clem (andrewclem.com/Baseball) or Seamheads (seamheads.com/ballparks):")
+        for v in est_venues:
+            print(f"    {v}")
 
     # ── Load static FanGraphs reference data (MLB only) ───────────────────────
     # These files are manually refreshed weekly and don't change per-game.

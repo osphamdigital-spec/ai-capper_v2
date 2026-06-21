@@ -1,7 +1,7 @@
 # PIPELINE OVERVIEW — AI CAPPER
 
 End-to-end workflow from data fetch to graded results.
-Updated: 2026-06-19
+Updated: 2026-06-21
 
 ---
 
@@ -90,6 +90,51 @@ Repeat for all 8 models. Or use `log_all_picks.py` to batch-process all raw.txt 
 
 ---
 
+## PHASE 2b — CONFIRM-CHECK WATCHER (run after log_all_picks.py, before results)
+
+The confirm-check layer re-evaluates every wagered pick once the official batting lineup is confirmed. Each model gets a chance to HOLD, CANCEL, DOWNGRADE, or UPGRADE its pick based on the confirmed order vs the projected order used at pick time.
+
+**Step 1 — Build the watch set** (run once, immediately after log_all_picks.py):
+```
+python scripts/watch_set.py --date 2026-06-10
+```
+Output: `daily/mlb/{date}/_watch.json` — one entry per model+market pair on every bet or lean pick.
+
+**Step 2 — Run the lineup watcher** (runs continuously until all games resolve, typically T+2h after last game):
+```
+python scripts/run_lineup_watcher.py --date 2026-06-10
+```
+
+What it does:
+- Polls the MLB Stats API (`/api/v1/schedule?hydrate=lineups`) every 2 minutes
+- Groups games into 40-minute time clusters; fires the confirm-check round at T-60 of the earliest game in each cluster
+- For each cluster: calls `build_prompt.py --confirm-check` (assembles before/after wRC+ prompt), then `query_model.py --confirm-check --game-ids <ids>` for each model with picks on that cluster
+- Each model's response (HOLD / CANCEL / DOWNGRADE / UPGRADE) is written to `daily/{sport}/{date}/{model}_confirm.json`
+- Games still unconfirmed at first pitch receive an automatic HOLD (no API call fired)
+- Dedup via `_fired.json` — crash-safe; safe to restart mid-day
+- Exits when all model+game_id pairs are resolved
+
+**Output files:**
+```
+daily/mlb/{date}/_watch.json           watch set (built by watch_set.py)
+daily/mlb/{date}/_fired.json           dedup log (written by run_lineup_watcher.py)
+daily/mlb/{date}/{model}_confirm.json  confirm-check results per model (1 per model that had bets)
+daily/mlb/{date}/confirm_system_{model}.md   system prompt used for confirm-check call
+daily/mlb/{date}/confirm_prompt_{model}.md   user prompt used for confirm-check call
+```
+
+**Confirm-check outcomes:**
+| Outcome | Effect |
+|---------|--------|
+| HOLD | Proceed at original stake |
+| CANCEL | Pick voided — zero profit/loss, logged as cancelled (not a loss) |
+| DOWNGRADE | Stake reduced to cc_new_units |
+| UPGRADE | Stake increased to cc_new_units (subject to slate ceiling + 3u cap guards) |
+
+**If you don't run the watcher:** Grade as normal — `grade_picks.py` checks for `{model}_confirm.json` and skips cc logic if absent. No confirm-check on a given date means all picks are graded at original stake.
+
+---
+
 ## PHASE 3 — RESULTS & GRADING (semi-automated, Phase 3 in roadmap)
 
 After games finish (usually next morning AEST):
@@ -105,9 +150,15 @@ python scripts/fetch_results.py --date 2026-06-06
 python scripts/grade_picks.py --date 2026-06-06
 ```
 
+`grade_picks.py` automatically reads `daily/{sport}/{date}/{model}_confirm.json` if it exists and
+applies confirm-check adjustments before grading: CANCEL voids the pick (no stats contribution),
+DOWNGRADE/UPGRADE changes the effective stake. If no confirm JSON exists, picks grade at original stake.
+
 `grades.json` links back to `picks/{model}.json` via `game_id`. Each pick gets:
-`result: WIN | LOSS | PUSH | VOID`, `units_result: +2.73 | -1.0`, `closing_line` (for CLV, when added).
+`result: WIN | LOSS | PUSH | VOID | cancelled`, `units_result: +2.73 | -1.0`, `closing_line` (for CLV, when added).
+cc_* fields (cc_outcome, cc_driver, cc_new_units, cc_guard_override) are written onto every pick with a confirm-check entry.
 Per-model tier breakdown: `1u/3u/best bet/overall` (5u tier removed as of v3.1).
+Leaderboard one-liner shows a C column (e.g. `1C`) when any picks were cancelled on that date.
 
 ### fetch_results.py also manages post-mortem files automatically
 
@@ -134,7 +185,9 @@ OR use the integrated post-game orchestrator (recommended):
   python scripts/run_daily_2.py mlb
   python scripts/run_daily_2.py mlb --date 2026-06-10
 
-  This chains: fetch_results → grade_picks → fetch_confirmed_data → run_postmortem_all.
+  This chains: fetch_results → fetch_confirmed_data → run_postmortem_all.
+  (grade_picks.py is run separately — see below — because it must consume {model}_confirm.json
+  from the confirm-check watcher, which runs between pick logging and grading.)
   Guards:
     - Requires logged {model}.json pick files for the date.
     - fetch_results.py aborts if any game is still in progress or not yet started
@@ -192,6 +245,9 @@ The daily prompt does NOT depend on CrookedFence output. Stadium dimensions come
 | 6–9 PM | 4–7 AM | Run `run_daily.py` — locks opening snapshot, builds morning prompt |
 | 9 PM–midnight | 7–10 AM | Paste into models, save raw responses, run `log_picks.py` |
 | ~2h before first pitch | varies | Re-run `fetch_lineups.py`, `fetch_umpires.py`, `build_prompt.py` for updated prompt |
+| After log_all_picks.py | same day | Run `watch_set.py --date` then `run_lineup_watcher.py --date` (leave running — exits when all games resolve) |
+| During game day | auto | `run_lineup_watcher.py` fires confirm-checks per cluster as lineups confirm; writes `{model}_confirm.json` |
+| After watcher exits | same day | Run `grade_picks.py --date` (reads confirm JSON automatically) |
 | Morning after games | varies | Run `run_daily_2.py mlb` — chains results → confirmed data → post-mortems |
 | Morning after games | varies | If too early for boxscores: wait, then re-run same command (`--skip-confirmed` to override) |
 
@@ -230,17 +286,22 @@ up automatically on the next prompt build.
 ## FILE MAP
 
 ```
-data/mlb/{date}/games.json          raw data (odds + all context)
-daily/mlb/{date}/prompt.md          base prompt (all models)
-daily/mlb/{date}/prompt_{model}.md  per-model prompt (8 files, includes ML + totals methods)
-picks/mlb/{date}/{model}_raw.txt    raw model response (backup)
-picks/mlb/{date}/{model}.json       parsed picks (structured; includes total_pick with _is_total:True)
-picks/mlb/{date}/post_mortem_{date}.txt  post-mortem notes
-results/mlb/{date}/results.json     final game scores
-results/mlb/{date}/grades.json      W/L + units per pick (sides and totals graded separately)
-results/mlb/{date}/best_bets.json   per-model best bet results
-data/mlb/{date}/confirmed_data.json confirmed lineups + HP umpire (post-game)
-picks/mlb/{date}/{model}_postmortem.txt  individual post-mortem per model (x8)
+data/mlb/{date}/games.json                  raw data (odds + all context; context.lineups updated by watcher)
+daily/mlb/{date}/prompt.md                  base prompt (all models)
+daily/mlb/{date}/prompt_{model}.md          per-model prompt (8 files, includes ML + totals methods)
+daily/mlb/{date}/_watch.json                confirm-check watch set (built by watch_set.py)
+daily/mlb/{date}/_fired.json                dedup log of fired confirm-checks (written by run_lineup_watcher.py)
+daily/mlb/{date}/{model}_confirm.json       confirm-check results per model (HOLD/CANCEL/DOWNGRADE/UPGRADE per pick)
+daily/mlb/{date}/confirm_system_{model}.md  system prompt used for the confirm-check API call
+daily/mlb/{date}/confirm_prompt_{model}.md  user prompt used for the confirm-check API call
+picks/mlb/{date}/{model}_raw.txt            raw model response (backup)
+picks/mlb/{date}/{model}.json               parsed picks (structured; includes total_pick with _is_total:True)
+picks/mlb/{date}/post_mortem_{date}.txt     post-mortem notes
+results/mlb/{date}/results.json             final game scores
+results/mlb/{date}/grades.json              W/L + units per pick; cc_* fields if confirm-check ran
+results/mlb/{date}/best_bets.json           per-model best bet results; cancels field if any CANCELs
+data/mlb/{date}/confirmed_data.json         confirmed lineups + HP umpire (post-game)
+picks/mlb/{date}/{model}_postmortem.txt     individual post-mortem per model (x8)
 
 data/mlb/crookedfence_archive/YYYY-MM-DD_predictions.json  CF today predictions (operator-fetched)
 data/mlb/crookedfence_archive/YYYY-MM-DD_results.json      CF yesterday results (operator-fetched)

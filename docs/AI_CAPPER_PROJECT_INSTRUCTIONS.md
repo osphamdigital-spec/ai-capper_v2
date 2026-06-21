@@ -181,6 +181,12 @@ Completed:
 - Pick concentration tracking live (pick_concentration.py → docs/concentration_log.csv)
 - Model independence problem identified and addressed: prescriptive method mandates
   removed from shared prompt layer after pick-side concentration reached 82.1% (June 8)
+- Totals (Over/Under) betting added (June 19): all 8 models self-authored O/U methods;
+  TOTAL/TOTAL PRICE/TOTAL UNITS/TOTAL EDGE output slots; 0.5/1.0/1.5 run gate
+- Confirm-check watcher built (June 21): 5-script layer (watch_set.py, run_lineup_watcher.py,
+  build_prompt.py --confirm-check, query_model.py --confirm-check, grade_picks.py extended)
+  re-evaluates every wagered pick when official batting lineup confirms; outcomes:
+  HOLD / CANCEL / DOWNGRADE / UPGRADE; grade_picks.py consumes {model}_confirm.json automatically
 
 Key learnings from validation to date:
 - Volume bias: all models over-bet early slates. Fixed via professional bettor identity
@@ -219,9 +225,11 @@ FILES IN THIS PROJECT
 | docs/concentration_log.csv | Daily pick concentration metrics (output of pick_concentration.py) |
 | scripts/build_prompt.py | Generates daily prompt from fetched data; contains all 17 instruction blocks |
 | scripts/run_daily.py | Master runner — chains all fetch scripts then builds prompt |
-| scripts/run_picks_all.py | Sends prompt to all 6 connected model APIs |
+| scripts/run_picks_all.py | Sends prompt to all 8 connected model APIs |
 | scripts/log_picks.py / log_all_picks.py | Parses model output into per-model JSON |
-| scripts/fetch_results.py + grade_picks.py | Fetches scores, grades picks W/L/VOID, outputs grades.json |
+| scripts/fetch_results.py + grade_picks.py | Fetches scores, grades picks W/L/VOID/cancelled, outputs grades.json |
+| scripts/watch_set.py | Builds confirm-check watch set from Run-1 picks |
+| scripts/run_lineup_watcher.py | Continuous lineup polling loop; fires confirm-checks per cluster; auto-HOLDs at first pitch |
 | scripts/pick_concentration.py | Tracks daily pick-side concentration, appends to concentration_log.csv |
 
 PRINCIPLES — NON-NEGOTIABLE

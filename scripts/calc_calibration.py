@@ -30,13 +30,24 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 # Minimum graded bets before calibration is considered reliable
 MIN_SAMPLE = 20
 
-# All known models — used when --model is not specified
-ALL_MODELS = [
-    "chatgpt", "deepseek", "gemini", "grok",
-    "kimi", "opus", "qwen", "sonnet",
-    # Legacy names that appear in early dates
-    "chatgpt5.5", "gpt-5.2-high", "manus", "fable",
-]
+def load_roster(sport: str) -> list[str]:
+    """
+    Read active model names for a sport from docs/model_roster.md.
+    Mirrors build_bankroll.py — single source of truth for active models.
+    Stops at the next '## ' heading so retired/deprecated sections are excluded.
+    """
+    roster_path = PROJECT_ROOT / "docs" / "model_roster.md"
+    names: list[str] = []
+    in_section = False
+    target = f"## {sport.upper()}"
+    for line in roster_path.read_text(encoding="utf-8").splitlines():
+        stripped = line.strip()
+        if stripped.startswith("## "):
+            in_section = (stripped == target)
+            continue
+        if in_section and stripped and not stripped.startswith("#"):
+            names.append(stripped)
+    return names
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -287,20 +298,11 @@ def run(sport: str, model: str | None = None):
     if model:
         models = [model]
     else:
-        # Discover models that actually have picks files for this sport
-        picks_dir = PROJECT_ROOT / "picks" / sport
-        found = set()
-        if picks_dir.exists():
-            for date_dir in picks_dir.iterdir():
-                if date_dir.is_dir():
-                    for f in date_dir.glob("*.json"):
-                        # Exclude calibration/ and non-pick files
-                        if f.stem not in ("grades", "results"):
-                            found.add(f.stem)
-        # Canonical models first, then any others discovered
-        ordered = [m for m in ALL_MODELS if m in found]
-        ordered += sorted(found - set(ALL_MODELS))
-        models = ordered
+        # Use the active roster from model_roster.md — excludes deprecated models
+        models = load_roster(sport)
+        if not models:
+            print(f"ERROR: no active models found for sport '{sport}' in docs/model_roster.md")
+            return
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 

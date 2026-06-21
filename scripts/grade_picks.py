@@ -131,6 +131,31 @@ def find_best_bet_pick(best_bet_raw: str, picks: list, name_to_abbr: dict | None
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# CONFIRM-CHECK INDEX — keyed by (game_id, pick_market)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _load_confirm_index(model: str, sport: str, date: str, root: Path) -> dict:
+    """
+    Load confirm-check results for this model if the file exists.
+    Returns {(game_id, pick_market): cc_entry} or {} when no confirm-check ran.
+    """
+    path = root / "daily" / sport / date / f"{model}_confirm.json"
+    if not path.exists():
+        return {}
+    try:
+        doc = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    index: dict = {}
+    for entry in doc.get("picks", []):
+        gid    = entry.get("game_id")
+        market = entry.get("pick_market")
+        if gid and market:
+            index[(gid, market)] = entry
+    return index
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # GAME INDEX — keyed by game_id, built from games.json
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -250,8 +275,10 @@ def get_closing_price(pick_side: str, pick_market: str, odds: dict) -> int | Non
 # SINGLE BET GRADER
 # ─────────────────────────────────────────────────────────────────────────────
 
-def grade_single(pick: dict, game: dict) -> tuple:
-    """Grade one pick. Returns (outcome, profit_units, clv, closing_line)."""
+def grade_single(pick: dict, game: dict, units_override=None) -> tuple:
+    """Grade one pick. Returns (outcome, profit_units, clv, closing_line).
+    units_override: effective stake (cc_new_units); pick['units'] is never mutated.
+    """
     if pick.get("action") != "bet":
         return None, 0.0, None, None
 
@@ -259,7 +286,7 @@ def grade_single(pick: dict, game: dict) -> tuple:
     pick_market = pick.get("pick_market")
     pick_raw    = pick.get("pick_raw", "")
     price       = pick.get("price")
-    units       = pick.get("units", 0)
+    units       = units_override if units_override is not None else pick.get("units", 0)
 
     if not pick_side or not pick_market:
         return None, 0.0, None, None
@@ -396,8 +423,11 @@ def grade_picks(sport: str = "mlb", date: str = None):
         picks  = doc.get("picks", [])
         parlay = doc.get("parlay")
 
+        # Load confirm-check index for this model (empty dict if no cc ran)
+        cc_index = _load_confirm_index(model, sport, target_date, root)
+
         # ── Grade singles ─────────────────────────────────────────────────────
-        wins = losses = pushes = voids = 0
+        wins = losses = pushes = voids = cancels = 0
         units_risked = units_net = 0.0
         clv_values   = []
         # Per-tier accumulators: [wins, losses, units_risked, units_net]
@@ -407,6 +437,17 @@ def grade_picks(sport: str = "mlb", date: str = None):
             game = game_index.get(pick.get("game_id"))
             if not game:
                 continue
+
+            # Persist confirm-check fields onto the pick for audit trail and
+            # downstream use (post-mortems, confirmed_data_tracker, etc.).
+            # pick["units"] and pick["action"] are never overwritten.
+            cc_entry = cc_index.get((pick.get("game_id"), pick.get("pick_market")))
+            if cc_entry:
+                pick["cc_outcome"]        = cc_entry.get("cc_outcome")
+                pick["cc_driver"]         = cc_entry.get("cc_driver")
+                pick["cc_new_units"]      = cc_entry.get("cc_new_units")
+                pick["cc_guard_override"] = cc_entry.get("cc_guard_override")
+                pick["cc_cited_fact"]     = cc_entry.get("cc_cited_fact")
 
             # Postponed/cancelled/suspended — VOID: units returned, no win/loss
             if game.get("status") != "final":
@@ -420,7 +461,32 @@ def grade_picks(sport: str = "mlb", date: str = None):
                     voids += 1
                 continue
 
-            outcome, profit, clv, closing = grade_single(pick, game)
+            # CANCEL: confirm-check voided this pick pre-lock — no stake, no W/L
+            if (cc_entry
+                    and pick.get("cc_outcome") == "CANCEL"
+                    and pick.get("action") == "bet"):
+                pick["result"]       = "cancelled"
+                pick["profit_units"] = 0.0
+                pick["clv"]          = None
+                pick["closing_line"] = None
+                pick["graded_at"]    = graded_at
+                cancels += 1
+                continue
+
+            # Resolve effective stake: cc_new_units when confirm-check ran
+            # (HOLD == original; UPGRADE/DOWNGRADE change it).
+            cc_outcome_val = pick.get("cc_outcome")
+            cc_new_u       = pick.get("cc_new_units")
+            grading_units  = (
+                cc_new_u
+                if (cc_entry
+                    and cc_outcome_val in ("HOLD", "UPGRADE", "DOWNGRADE")
+                    and cc_new_u is not None)
+                else pick.get("units", 0)
+            )
+
+            outcome, profit, clv, closing = grade_single(pick, game,
+                                                         units_override=grading_units)
 
             pick["result"]       = outcome
             pick["profit_units"] = profit
@@ -431,7 +497,7 @@ def grade_picks(sport: str = "mlb", date: str = None):
             if outcome is None:
                 continue
 
-            u = pick.get("units", 0)
+            u = grading_units    # actual stake used; drives units_risked + tier buckets
             units_risked += u
             units_net    += profit
 
@@ -479,11 +545,22 @@ def grade_picks(sport: str = "mlb", date: str = None):
         best_bet_doc     = (doc.get("best_bet") or {}) if not is_best_bet_skip else {}
         best_bet_raw_str = best_bet_doc.get("best_bet", "")
         best_pick        = find_best_bet_pick(best_bet_raw_str, picks, name_to_abbr) if not is_best_bet_skip else None
-        best_bet_result  = best_pick.get("result")       if best_pick else None
+        best_bet_result  = best_pick.get("result")           if best_pick else None
         best_bet_profit  = best_pick.get("profit_units", 0.0) if best_pick else 0.0
-        best_bet_units   = best_pick.get("units", 0)    if best_pick else 0
 
-        # A voided best bet (postponed game) is unresolved — counts neither W nor L
+        # Use cc_new_units when confirm-check ran on this pick — explicit None
+        # check so cc_new_units=0 (a valid CANCEL outcome) is not treated as falsy.
+        best_bet_units = (
+            best_pick.get("cc_new_units")
+            if (best_pick and best_pick.get("cc_new_units") is not None)
+            else (best_pick.get("units", 0) if best_pick else 0)
+        )
+
+        # A cancelled best bet (confirm-check CANCEL) counts neither W nor L —
+        # tracked explicitly parallel to the skip pattern.
+        is_best_bet_cancelled = best_bet_result == "cancelled"
+
+        # A voided best bet (postponed game) is also unresolved — counts neither W nor L
         bb_w = 1 if best_bet_result == "win"  else 0
         bb_l = 1 if best_bet_result == "loss" else 0
         bb_p = 1 if best_bet_result == "push" else 0
@@ -493,6 +570,7 @@ def grade_picks(sport: str = "mlb", date: str = None):
             "model":          model,
             "skip":           is_best_bet_skip,
             "skip_reason":    doc.get("best_bet_skip_reason") if is_best_bet_skip else None,
+            "cancelled":      is_best_bet_cancelled,
             "best_bet_raw":   best_bet_raw_str,
             "why_this":       best_bet_doc.get("why_this", ""),
             "resolved_game":  best_pick.get("matchup")   if best_pick else None,
@@ -535,6 +613,7 @@ def grade_picks(sport: str = "mlb", date: str = None):
             "losses":           losses,
             "pushes":           pushes,
             "voids":            voids,
+            "cancels":          cancels,
             "units_risked":     round(units_risked, 2),
             "units_net":        round(units_net, 4),
             "win_rate":         win_rate,
@@ -566,7 +645,8 @@ def grade_picks(sport: str = "mlb", date: str = None):
                     "units_risked":   float(best_bet_units),
                     "units_returned": round(float(best_bet_units) + (best_bet_profit or 0.0), 4),
                     "roi_pct":        round(bb_roi * 100, 2) if bb_roi is not None else None,
-                    "skips":          1 if is_best_bet_skip else 0,
+                    "skips":          1 if is_best_bet_skip     else 0,
+                    "cancels":        1 if is_best_bet_cancelled else 0,
                 },
             },
             "overall": {
@@ -580,6 +660,7 @@ def grade_picks(sport: str = "mlb", date: str = None):
             # Flat best_bet fields used by display and aggregate calculations below
             "best_bet_raw":           best_bet_raw_str,
             "best_bet_skip":          is_best_bet_skip,
+            "best_bet_cancel":        is_best_bet_cancelled,
             "best_bet_wins":          bb_w,
             "best_bet_losses":        bb_l,
             "best_bet_pushes":        bb_p,
@@ -597,6 +678,8 @@ def grade_picks(sport: str = "mlb", date: str = None):
             bb_res_s = "unresolved"
         elif is_best_bet_skip:
             bb_res_s = "SKIP"
+        elif is_best_bet_cancelled:
+            bb_res_s = "CANCELLED"
         elif best_bet_result:
             bb_res_s = best_bet_result.upper()
         elif total_bets == 0 and not best_bet_raw_str:
@@ -605,7 +688,7 @@ def grade_picks(sport: str = "mlb", date: str = None):
             bb_res_s = "unresolved"  # picks exist but best bet couldn't be matched
         model_lines.append({
             "model": model, "wins": wins, "losses": losses,
-            "pushes": pushes, "voids": voids,
+            "pushes": pushes, "voids": voids, "cancels": cancels,
             "units_risked": units_risked, "net_s": net_s,
             "roi_s": roi_s, "bb_res_s": bb_res_s,
         })
@@ -614,47 +697,53 @@ def grade_picks(sport: str = "mlb", date: str = None):
     results_dir = root / "results" / sport / target_date
     results_dir.mkdir(parents=True, exist_ok=True)
     grades_path = results_dir / "grades.json"
-    total_bb_skips = sum(1 for s in all_stats.values() if s.get("best_bet_skip"))
+    total_bb_skips   = sum(1 for s in all_stats.values() if s.get("best_bet_skip"))
+    total_bb_cancels = sum(1 for s in all_stats.values() if s.get("best_bet_cancel"))
     grades_doc  = {
-        "date":             target_date,
-        "sport":            sport,
-        "graded_at":        graded_at,
-        "best_bet_skips":   total_bb_skips,
+        "date":               target_date,
+        "sport":              sport,
+        "graded_at":          graded_at,
+        "best_bet_skips":     total_bb_skips,
+        "best_bet_cancels":   total_bb_cancels,
         "models":           all_stats,
     }
     grades_path.write_text(json.dumps(grades_doc, indent=2), encoding="utf-8")
     print(f"\nStep 3: Saved -> {grades_path.relative_to(root)}")
 
     # ── Write best_bets.json ──────────────────────────────────────────────────
-    bb_wins   = sum(1 for b in best_bets_list if b["result"] == "win")
-    bb_losses = sum(1 for b in best_bets_list if b["result"] == "loss")
-    bb_skips  = sum(1 for b in best_bets_list if b.get("skip"))
-    bb_path   = results_dir / "best_bets.json"
-    bb_doc    = {
+    bb_wins    = sum(1 for b in best_bets_list if b["result"] == "win")
+    bb_losses  = sum(1 for b in best_bets_list if b["result"] == "loss")
+    bb_skips   = sum(1 for b in best_bets_list if b.get("skip"))
+    bb_cancels = sum(1 for b in best_bets_list if b.get("cancelled"))
+    bb_path    = results_dir / "best_bets.json"
+    bb_doc     = {
         "date":      target_date,
         "sport":     sport,
         "graded_at": graded_at,
         "best_bets": best_bets_list,
         "summary": {
-            "wins":    bb_wins,
-            "losses":  bb_losses,
-            "skips":   bb_skips,
-            "record":  fmt_record(bb_wins, bb_losses),
+            "wins":      bb_wins,
+            "losses":    bb_losses,
+            "skips":     bb_skips,
+            "cancels":   bb_cancels,
+            "record":    fmt_record(bb_wins, bb_losses),
         },
     }
     bb_path.write_text(json.dumps(bb_doc, indent=2), encoding="utf-8")
     print(f"         Saved -> {bb_path.relative_to(root)}\n")
 
     # ── Flush per-model one-liners ────────────────────────────────────────────
-    # Printed here so we can conditionally include the V column based on slate data
-    any_voids = any(m["voids"] > 0 for m in model_lines)
+    # V and C columns are shown only when the slate has any voids/cancels.
+    any_voids   = any(m["voids"]   > 0 for m in model_lines)
+    any_cancels = any(m["cancels"] > 0 for m in model_lines)
     for m in model_lines:
+        c_col = f" {m['cancels']}C" if any_cancels else ""
         if any_voids:
-            print(f"  {m['model']:<20}  {m['wins']}W {m['losses']}L {m['pushes']}P {m['voids']}V  "
+            print(f"  {m['model']:<20}  {m['wins']}W {m['losses']}L {m['pushes']}P {m['voids']}V{c_col}  "
                   f"{m['units_risked']:.0f}u  {m['net_s']}u  {m['roi_s']}  "
                   f"best bet: {m['bb_res_s']}")
         else:
-            print(f"  {m['model']:<20}  {m['wins']}W {m['losses']}L {m['pushes']}P  "
+            print(f"  {m['model']:<20}  {m['wins']}W {m['losses']}L {m['pushes']}P{c_col}  "
                   f"{m['units_risked']:.0f}u  {m['net_s']}u  {m['roi_s']}  "
                   f"best bet: {m['bb_res_s']}")
 

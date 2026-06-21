@@ -23,9 +23,11 @@ Writes:
 """
 
 import argparse
+import glob as _glob
 import json
 import re
 import sys
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 from tz_util import ET
@@ -2727,6 +2729,417 @@ def build_prompt_main(sport: str = "mlb", date: str = None, model: str = None):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# CONFIRM-CHECK PROMPT BUILDER
+# ─────────────────────────────────────────────────────────────────────────────
+
+def _find_method_doc(model: str, root: Path) -> tuple:
+    """
+    Find the highest-version method_{model}_v{N}.md in docs/methods/.
+    Returns (content, resolved_path_str). Exits if none found.
+
+    Candidates are sorted lexicographically; this works correctly as long as
+    version numbers stay below 10 (v1–v9). If a model ever reaches v10+,
+    switch to a numeric sort on the version suffix.
+    """
+    methods_dir = root / "docs" / "methods"
+    pattern     = str(methods_dir / f"method_{model}_v*.md")
+    candidates  = sorted(_glob.glob(pattern))
+    if not candidates:
+        print(f"ERROR: no method doc found for model '{model}' at {pattern}")
+        sys.exit(1)
+    path    = Path(candidates[-1])
+    content = path.read_text(encoding="utf-8")
+    return content, str(path)
+
+
+def _run1_wrc_for_team(
+    team_abbr:         str,
+    lineup_side:       dict | None,
+    projected_lineups: dict | None,
+    splits:            dict,
+    min_pa_guard:      int = 25,
+    min_pa_aggregate:  int = 50,
+) -> tuple:
+    """
+    Reconstruct the Run-1 wRC+ estimate for one team using the same three-tier
+    precedence as _fmt_platoon_matchup() — so the before/after comparison is
+    apples-to-apples with what the model actually saw in the Run-1 prompt.
+
+    Tier 1 CONFIRMED  — lineups were confirmed at Run-1 build time
+    Tier 2 REGULARS   — lineup_tracker.txt recent-actuals order
+    Tier 3 AGGREGATE  — full-team season average from splits
+
+    Returns (batter_stats, status_tag) where:
+      batter_stats : [(name, wrc_plus, pa), ...]   (empty list if no data)
+      status_tag   : "CFM" | "REG" | "AGG"
+    """
+    # Tier 1: lineup was already confirmed when Run 1 built the prompt
+    if (lineup_side is not None
+            and lineup_side.get("status") == "confirmed"):
+        order  = lineup_side.get("order", [])
+        stats  = _lineup_wrc_confirm(order, splits, min_pa=min_pa_guard)
+        return stats, "CFM"
+
+    # Tier 2: lineup_tracker.txt recent-actuals order
+    proj = (projected_lineups or {}).get(team_abbr, {})
+    proj_starters = proj.get("starters", [])
+    if proj_starters:
+        proj_order = [{"name": p["name"]} for p in proj_starters]
+        stats      = _lineup_wrc_confirm(proj_order, splits, min_pa=min_pa_guard)
+        return stats, "REG"
+
+    # Tier 3: full-team season aggregate
+    fg_code = games_abbr_to_fg(team_abbr) if _STATIC_DATA_AVAILABLE else None
+    if not fg_code:
+        return [], "AGG"
+    batters = [
+        (name, data["wrc_plus"], data.get("pa") or 0)
+        for name, data in splits.items()
+        if data.get("team") == fg_code
+        and data.get("wrc_plus") is not None
+        and (data.get("pa") or 0) >= min_pa_aggregate
+    ]
+    return batters, "AGG"
+
+
+def _lineup_wrc_confirm(order: list, splits: dict, min_pa: int = 25) -> list:
+    """
+    Look up wRC+ for each batter in a confirmed order list using fuzzy name match.
+    Returns [(name, wrc_plus, pa), ...] for players found; others silently omitted.
+    Mirrors _lineup_wrc_stats() from the Run-1 path.
+    """
+    results = []
+    for player in order:
+        name = player.get("name", "")
+        key  = fuzzy_match_player(name, splits) if _STATIC_DATA_AVAILABLE else None
+        if key:
+            data = splits[key]
+            wrc  = data.get("wrc_plus")
+            pa   = data.get("pa") or 0
+            if wrc is not None:
+                results.append((name, wrc, pa))
+    return results
+
+
+def _fmt_wrc_summary(batter_stats: list, vs_hand: str, status_tag: str,
+                     min_pa_excl: int = 25) -> str:
+    """
+    Format a single wRC+ summary line in the same style as the Run-1
+    PLATOON MATCHUP block, so before/after numbers are directly comparable.
+
+    Example:
+      vs_RHP: wRC+:112(CFM,n=7) Soto134(210) Judge91(180) ...
+    """
+    if not batter_stats:
+        return f"  vs_{vs_hand}: wRC+:no-data ({status_tag})"
+
+    qualified = [p for p in batter_stats if p[2] >= min_pa_excl]
+    lowpa     = [p for p in batter_stats if p[2] <  min_pa_excl]
+    pool      = qualified or batter_stats
+    avg_wrc   = round(sum(w for _, w, _ in pool) / len(pool))
+
+    def _bat(p):
+        return f"{p[0].split()[-1]}{int(round(p[1]))}({int(p[2])})"
+
+    sorted_stats = sorted(batter_stats, key=lambda x: x[1], reverse=True)
+    line = (
+        f"  vs_{vs_hand}: wRC+:{avg_wrc}({status_tag},n={len(pool)}) "
+        + " ".join(_bat(p) for p in sorted_stats[:8])
+    )
+    if lowpa:
+        line += f" | low-PA<{min_pa_excl}(excl): " + " ".join(_bat(p) for p in lowpa[:4])
+    return line
+
+
+def build_confirm_check_prompt(model: str, sport: str, date: str) -> None:
+    """
+    Build the confirm-check two-file output for one model:
+
+      daily/{sport}/{date}/confirm_system_{model}.md   — system prompt
+          Contains: instructions + full method_{model}_v{N}.md
+      daily/{sport}/{date}/confirm_prompt_{model}.md   — user message
+          Contains: per-game data blocks (one per confirmed-lineup game
+          where this model has a bet or lean)
+
+    The sentinel "---GAME BLOCKS---" in confirm_system_{model}.md marks the
+    split point — query_model.py --confirm-check reads the system file,
+    strips everything from the sentinel onwards (which is empty in the system
+    file), and sends the game-blocks file as the user message.  This exactly
+    mirrors the system_{model}.md / prompt_{model}.md split used at Run 1.
+
+    Only games where BOTH teams' lineups are confirmed at call time are
+    included.  Games still pending are handled by the auto-HOLD fallback in
+    run_lineup_watcher.py.
+
+    Reads:
+      picks/{sport}/{date}/{model}.json
+      data/{sport}/{date}/games.json
+      data/mlb/ static FanGraphs split files (wRC+ lookup)
+      docs/methods/method_{model}_v{N}.md
+
+    Writes:
+      daily/{sport}/{date}/confirm_system_{model}.md
+      daily/{sport}/{date}/confirm_prompt_{model}.md
+    """
+    root        = Path(__file__).parent.parent
+    picks_path  = root / "picks"  / sport / date / f"{model}.json"
+    games_path  = root / "data"   / sport / date / "games.json"
+    out_dir     = root / "daily"  / sport / date
+
+    if not picks_path.exists():
+        print(f"ERROR: picks file not found: {picks_path}")
+        sys.exit(1)
+    if not games_path.exists():
+        print(f"ERROR: games.json not found: {games_path}")
+        sys.exit(1)
+
+    picks_doc = json.loads(picks_path.read_text(encoding="utf-8"))
+    games_raw = json.loads(games_path.read_text(encoding="utf-8"))
+
+    method_text, method_path = _find_method_doc(model, root)
+    print(f"  Method doc       : {method_path}")
+
+    # ── Index games by game_id ────────────────────────────────────────────────
+    game_by_id = {g["game_id"]: g for g in games_raw}
+
+    # ── Load static splits for wRC+ (same files as Run 1) ─────────────────────
+    if _STATIC_DATA_AVAILABLE:
+        splits_lhp         = load_splits_vs_lhp()
+        splits_rhp         = load_splits_vs_rhp()
+        # lineup_tracker for Run-1 "before" Tier 2 reconstruction.
+        # Use the same date-column format as the main build path.
+        try:
+            date_col = (
+                datetime.strptime(date, "%Y-%m-%d").strftime("%a %-m/%-d")
+                if not sys.platform.startswith("win")
+                else datetime.strptime(date, "%Y-%m-%d").strftime("%a %#m/%#d")
+            )
+        except ValueError:
+            date_col = None
+        lineup_tracker = load_lineup_tracker(date_col) if date_col else {}
+    else:
+        splits_lhp = splits_rhp = lineup_tracker = {}
+
+    # ── Collect this model's bet/lean picks on confirmed-lineup games ─────────
+    picks = picks_doc.get("picks", [])
+    engaged = []   # list of (pick, game)
+    for pick in picks:
+        if (pick.get("action") or "").lower() not in ("bet", "lean"):
+            continue
+        gid  = pick.get("game_id")
+        game = game_by_id.get(gid)
+        if not game:
+            continue
+        ctx     = game.get("context") or {}
+        lineups = ctx.get("lineups") or {}
+        away_lu = lineups.get("away", {})
+        home_lu = lineups.get("home", {})
+        if (away_lu.get("status") != "confirmed"
+                or home_lu.get("status") != "confirmed"):
+            continue   # watcher handles auto-HOLD for still-pending games
+        engaged.append((pick, game))
+
+    if not engaged:
+        print(f"  No confirmed-lineup games for {model} — nothing written.")
+        return
+
+    n_games = len({p[0]["game_id"] for p in engaged})
+    print(f"  Confirmed games  : {n_games}")
+    print(f"  Picks to check   : {len(engaged)}")
+
+    # ── Group picks by game_id so ML+Total on the same game share one block ───
+    picks_by_game: dict = defaultdict(list)
+    game_obj_by_gid: dict = {}
+    for pick, game in engaged:
+        gid = pick["game_id"]
+        picks_by_game[gid].append(pick)
+        game_obj_by_gid[gid] = game
+
+    # ── Build system file (instructions + method doc) ─────────────────────────
+    sys_lines = []
+    sys_lines.append(f"# LINEUP CONFIRM-CHECK — SYSTEM INSTRUCTIONS")
+    sys_lines.append(f"# {sport.upper()}  {date}  model: {model}")
+    sys_lines.append("")
+    sys_lines.append(
+        "Lineups are now confirmed for the games below. During Run 1 you made "
+        "picks before lineups were posted. Your task is NOT to re-handicap each "
+        "game from scratch. Re-evaluate ONLY whether the specific pre-game edge "
+        "you cited still holds given the confirmed batting orders, any key "
+        "scratches, and any line movement since Run 1."
+    )
+    sys_lines.append("")
+    sys_lines.append(
+        "For each pick, output exactly the four fields shown. "
+        "CITED_FACT must name a specific player, wRC+ number, or line move — "
+        "not a general impression. NEW_UNITS must equal your original units on "
+        "HOLD; 0 on CANCEL; an adjusted number on DOWNGRADE/UPGRADE. "
+        "An UPGRADE must respect the gap→units map in your method below. "
+        "Do not add new bets not in your Run-1 picks."
+    )
+    sys_lines.append("")
+    sys_lines.append("## YOUR METHOD (gate and unit rules — apply exactly as written)")
+    sys_lines.append("")
+    sys_lines.append(method_text.strip())
+    sys_lines.append("")
+
+    system_text = "\n".join(sys_lines)
+
+    # ── Build prompt file (per-game data blocks) ──────────────────────────────
+    prompt_lines = []
+
+    for gid, game_picks in sorted(
+        picks_by_game.items(),
+        key=lambda kv: game_obj_by_gid[kv[0]].get("commence_et", "")
+    ):
+        game     = game_obj_by_gid[gid]
+        away     = game["away"]
+        home     = game["home"]
+        ctx      = game.get("context") or {}
+        lineups  = ctx.get("lineups") or {}
+        away_lu  = lineups.get("away", {})
+        home_lu  = lineups.get("home", {})
+        umpire   = ctx.get("umpire") or {}
+
+        away_abbr    = away["abbr"]
+        home_abbr    = home["abbr"]
+        matchup      = f"{away_abbr} @ {home_abbr}"
+        pitcher_away = ctx.get("pitcher_away") or {}
+        pitcher_home = ctx.get("pitcher_home") or {}
+        # AWAY SP hand → HOME batters face this hand
+        away_hand = pitcher_away.get("hand")
+        # HOME SP hand → AWAY batters face this hand
+        home_hand = pitcher_home.get("hand")
+
+        prompt_lines.append(f"## GAME: {matchup}  ({game.get('commence_et', '')})  [gid:{gid}]")
+        prompt_lines.append("")
+
+        # ── Run-1 pick(s) ─────────────────────────────────────────────────────
+        prompt_lines.append("### YOUR RUN-1 PICK(S)")
+        for pick in game_picks:
+            action = pick.get("action", "").upper()
+            raw    = pick.get("pick_raw", "")
+            side   = pick.get("pick_side", "")
+            market = (pick.get("pick_market") or "").upper()
+            price  = pick.get("price")
+            units  = pick.get("units")
+            reason = pick.get("reason", "")
+
+            price_str = fmt_american(price) if price is not None else "—"
+            units_str = f"{units}u" if units else "LEAN"
+            prompt_lines.append(
+                f"  {action} {raw}  {price_str}  {units_str}"
+                f"  [market:{market} side:{side}]"
+            )
+            prompt_lines.append(f"  Cited reason: {reason}")
+        prompt_lines.append("")
+
+        # ── Line movement since Run 1 ──────────────────────────────────────────
+        opening_snap = game.get("odds", {}).get("opening_snapshot", {})
+        current_snap = game.get("odds", {}).get("current_snapshot")
+        lm = fmt_line_move(opening_snap, current_snap)
+        if lm:
+            prompt_lines.append("LINE MOVEMENT SINCE RUN 1:")
+            prompt_lines.append(lm)
+            prompt_lines.append("")
+
+        # ── Confirmed lineups + before/after wRC+ ─────────────────────────────
+        prompt_lines.append("CONFIRMED LINEUPS + PLATOON wRC+ (before → after):")
+        prompt_lines.append("")
+
+        # (team, lineup_side, opp_hand_label, side_label)
+        for abbr, lu, opp_hand, side_label in [
+            (away_abbr, away_lu, home_hand, "AWAY"),
+            (home_abbr, home_lu, away_hand, "HOME"),
+        ]:
+            order = lu.get("order", [])
+            il    = lu.get("il_absences", [])
+
+            prompt_lines.append(f"  {abbr} ({side_label}) confirmed batting order:")
+            for p in order:
+                prompt_lines.append(
+                    f"    {p.get('bat_order', '?')}. {p.get('name', '?')}"
+                    f"  {p.get('pos', '')}"
+                )
+
+            if il:
+                il_str = ", ".join(
+                    f"{p['name']} ({p.get('pos', '')})" for p in il
+                )
+                prompt_lines.append(f"  {abbr} IL: {il_str}")
+            else:
+                prompt_lines.append(f"  {abbr} IL: none")
+
+            # wRC+ before/after — only when opposing starter hand is known
+            if opp_hand:
+                splits   = splits_lhp if opp_hand == "L" else splits_rhp
+                vs_label = f"{opp_hand}HP"
+
+                # BEFORE: reconstruct what Run-1 would have used
+                before_stats, before_tag = _run1_wrc_for_team(
+                    abbr, lu, lineup_tracker, splits
+                )
+                # AFTER: confirmed lineup
+                after_stats = _lineup_wrc_confirm(order, splits)
+                after_tag   = "CFM"
+
+                before_line = _fmt_wrc_summary(before_stats, vs_label, before_tag)
+                after_line  = _fmt_wrc_summary(after_stats,  vs_label, after_tag)
+                prompt_lines.append(f"  Run-1  {before_line.strip()}")
+                prompt_lines.append(f"  Now    {after_line.strip()}")
+            else:
+                prompt_lines.append(
+                    f"  (opposing starter hand unknown — wRC+ not computed)"
+                )
+
+            prompt_lines.append("")
+
+        # ── Umpire ─────────────────────────────────────────────────────────────
+        ump_name   = umpire.get("name") if umpire else None
+        ump_status = umpire.get("status") if umpire else None
+        if ump_name:
+            ump_str = ump_name
+            if ump_status == "inferred":
+                ump_str += " (est. — crew rotation, ~85% accurate)"
+            prompt_lines.append(f"PLATE UMPIRE: {ump_str}")
+            prompt_lines.append("")
+
+        # ── Required structured response — one block per pick ─────────────────
+        prompt_lines.append("### REQUIRED RESPONSE — complete one block per pick:")
+        prompt_lines.append("")
+        for pick in game_picks:
+            market = (pick.get("pick_market") or "").upper()
+            raw    = pick.get("pick_raw", "")
+            prompt_lines.append(f"PICK: {raw}  [market:{market}]")
+            prompt_lines.append("OUTCOME: HOLD | CANCEL | DOWNGRADE | UPGRADE")
+            prompt_lines.append("DRIVER: lineup | umpire | price | none")
+            prompt_lines.append(
+                "CITED_FACT: <specific confirmed-data point — "
+                "name a player, a wRC+ number, a line move; not a vibe>"
+            )
+            prompt_lines.append(
+                "NEW_UNITS: <same as original if HOLD; "
+                "0 if CANCEL; adjusted number if DOWNGRADE/UPGRADE>"
+            )
+            prompt_lines.append("")
+
+        prompt_lines.append(DIVIDER)
+        prompt_lines.append("")
+
+    # ── Write both files ──────────────────────────────────────────────────────
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    sys_path    = out_dir / f"confirm_system_{model}.md"
+    prompt_path = out_dir / f"confirm_prompt_{model}.md"
+
+    sys_path.write_text(system_text,              encoding="utf-8")
+    prompt_path.write_text("\n".join(prompt_lines), encoding="utf-8")
+
+    print(f"  System  -> {sys_path.relative_to(root)}  ({len(system_text):,} chars)")
+    print(f"  Prompt  -> {prompt_path.relative_to(root)}"
+          f"  ({len('\n'.join(prompt_lines)):,} chars)")
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # ENTRY POINT
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -2750,5 +3163,33 @@ if __name__ == "__main__":
             "docs/MODEL_INSTRUCTIONS.md and writes to prompt_{model}.md."
         )
     )
+    parser.add_argument(
+        "--confirm-check", action="store_true",
+        help=(
+            "Build confirm-check prompts instead of the daily slate prompt. "
+            "Requires --model. Reads {model}.json picks + confirmed lineups "
+            "from games.json. Writes confirm_system_{model}.md and "
+            "confirm_prompt_{model}.md to daily/{sport}/{date}/."
+        )
+    )
     args = parser.parse_args()
-    build_prompt_main(sport=args.sport, date=args.date, model=args.model)
+
+    if args.confirm_check:
+        if not args.model:
+            print("ERROR: --confirm-check requires --model")
+            sys.exit(1)
+        target_date = args.date or today_et()
+        print(f"\n{'='*55}")
+        print(f"  CONFIRM-CHECK PROMPT BUILD  {args.sport.upper()}  {target_date}")
+        print(f"  Model: {args.model}")
+        print(f"{'='*55}\n")
+        build_confirm_check_prompt(
+            model=args.model,
+            sport=args.sport,
+            date=target_date,
+        )
+        print(f"\n{'='*55}")
+        print(f"  DONE")
+        print(f"{'='*55}\n")
+    else:
+        build_prompt_main(sport=args.sport, date=args.date, model=args.model)

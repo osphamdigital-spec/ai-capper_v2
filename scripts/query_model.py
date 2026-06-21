@@ -1839,6 +1839,573 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# CONFIRM-CHECK MODE
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Per-model output token budgets for confirm-check calls.
+# Responses are short (4 fields per pick, bounded game set) —
+# half the picks budget is generous headroom for every model.
+_CONFIRM_MAX_TOKENS: dict = {
+    "grok":     8000,
+    "chatgpt":  8000,
+    "deepseek": 8000,
+    "kimi":    16000,
+    "qwen":     8000,
+    "gemini":   8000,
+    "opus":     4000,
+    "sonnet":   4000,
+    "fable":    4000,
+}
+
+# Valid structured-response field values (normalised to upper/lower after parse)
+_CONFIRM_FIELDS   = ("OUTCOME", "DRIVER", "CITED_FACT", "NEW_UNITS")
+_VALID_OUTCOMES   = {"HOLD", "CANCEL", "DOWNGRADE", "UPGRADE"}
+_VALID_DRIVERS    = {"lineup", "umpire", "price", "none"}
+
+
+def _slate_ceiling(n_games: int) -> int:
+    """Slate bet ceiling by game count — mirrors the staking rules in CLAUDE.md."""
+    if n_games <= 7:
+        return 1
+    elif n_games <= 14:
+        return 2
+    return 3
+
+
+def _parse_confirm_response(
+    response_text: str,
+    cluster_picks: list,
+) -> tuple:
+    """
+    Parse the model's confirm-check response into one result dict per pick.
+
+    The model is instructed to produce one block per pick:
+
+        PICK: MIL ML  [market:ML]
+        OUTCOME: HOLD
+        DRIVER: none
+        CITED_FACT: confirmed order matches assumed lineup; Misiorowski still starting
+        NEW_UNITS: 1
+
+    Matching strategy:
+      1. Split on "PICK:" lines to get one chunk per pick.
+      2. Within each chunk, extract OUTCOME/DRIVER/CITED_FACT/NEW_UNITS.
+      3. Match back to a pick in cluster_picks via [gid:...] tag (primary)
+         or fuzzy pick_raw + market (fallback).
+
+    Returns (results, warnings) where results is a list of result dicts
+    and warnings is a list of human-readable problem strings.
+    """
+    import re as _re
+
+    results:  list = []
+    warnings: list = []
+
+    # Build a fast lookup: (game_id, pick_market) -> pick
+    pick_by_key: dict = {}
+    for pick in cluster_picks:
+        key = (pick.get("game_id", ""), (pick.get("pick_market") or "").lower())
+        pick_by_key[key] = pick
+
+    # Split on PICK: lines (allow leading ##, bold markers, whitespace)
+    pick_header_re = _re.compile(
+        r'^\s*(?:#+\s*|[*_]{1,2})?PICK\s*:',
+        _re.IGNORECASE | _re.MULTILINE,
+    )
+    chunks = pick_header_re.split(response_text)
+    if chunks:
+        chunks = chunks[1:]   # discard pre-amble before first PICK:
+
+    if not chunks:
+        warnings.append("No PICK: blocks found in response — entire response unparsed")
+        return results, warnings
+
+    field_re = _re.compile(
+        r'^\s*(?:#+\s*|[*_]{1,2})?(OUTCOME|DRIVER|CITED_FACT|NEW_UNITS)\s*:\s*(.+)',
+        _re.IGNORECASE | _re.MULTILINE,
+    )
+
+    for chunk in chunks:
+        header_line = chunk.split("\n")[0].strip()
+
+        # Primary: extract game_id from [gid:...] tag written by build_prompt.py
+        gid_match   = _re.search(r'\[gid:([^\]]+)\]', header_line, _re.IGNORECASE)
+        block_gid   = gid_match.group(1).strip() if gid_match else None
+
+        # Market from [market:XX] tag
+        mkt_match    = _re.search(r'\[market:([^\]]+)\]', header_line, _re.IGNORECASE)
+        block_market = mkt_match.group(1).strip().lower() if mkt_match else None
+
+        # pick_raw: everything before the first [...] tag
+        block_raw = _re.sub(r'\[.*', '', header_line).strip()
+
+        # Extract the four fields from the rest of the chunk
+        field_map: dict = {}
+        for m in field_re.finditer(chunk):
+            key = m.group(1).upper()
+            val = _re.sub(r'[*_]+$', '', m.group(2).strip()).strip()
+            field_map[key] = val
+
+        missing = [f for f in _CONFIRM_FIELDS if f not in field_map]
+        block_warning = (
+            f"Block for '{block_raw}' missing fields {missing} — "
+            f"parsed what was found; review manually"
+        ) if missing else None
+
+        # Normalise OUTCOME
+        outcome_raw = field_map.get("OUTCOME", "")
+        outcome     = outcome_raw.upper().split()[0] if outcome_raw else ""
+        if outcome not in _VALID_OUTCOMES:
+            warnings.append(
+                f"Block for '{block_raw}': unrecognised OUTCOME '{outcome_raw}' — "
+                f"treated as parse failure, pick will auto-HOLD"
+            )
+            outcome = None
+
+        # Normalise DRIVER
+        driver_raw = field_map.get("DRIVER", "")
+        driver     = driver_raw.lower().split()[0] if driver_raw else "none"
+        if driver not in _VALID_DRIVERS:
+            driver = "none"
+
+        # Parse NEW_UNITS — first numeric token
+        nu_raw   = field_map.get("NEW_UNITS", "")
+        nu_match = _re.search(r'(\d+(?:\.\d+)?)', nu_raw)
+        try:
+            new_units = float(nu_match.group(1)) if nu_match else None
+            if new_units is not None:
+                new_units = int(new_units) if new_units == int(new_units) else new_units
+        except (ValueError, AttributeError):
+            new_units = None
+
+        cited_fact = field_map.get("CITED_FACT", "")
+
+        # Match back to a pick: primary path via game_id + market
+        matched_pick = None
+        if block_gid and block_market:
+            matched_pick = pick_by_key.get((block_gid, block_market))
+
+        # Fallback: fuzzy pick_raw token overlap across all picks for this gid
+        if matched_pick is None:
+            block_raw_tokens = set(block_raw.upper().split())
+            for pick in cluster_picks:
+                if block_gid and pick.get("game_id") != block_gid:
+                    continue
+                if block_market and (pick.get("pick_market") or "").lower() != block_market:
+                    continue
+                pick_tokens = set((pick.get("pick_raw") or "").upper().split())
+                if pick_tokens & block_raw_tokens:
+                    matched_pick = pick
+                    break
+
+        if matched_pick is None:
+            warnings.append(
+                f"Block for '{block_raw}' [gid:{block_gid} market:{block_market}] "
+                f"could not be matched to any pick — skipped"
+            )
+            continue
+
+        results.append({
+            "game_id":         matched_pick.get("game_id"),
+            "matchup":         matched_pick.get("matchup"),
+            "pick_raw":        matched_pick.get("pick_raw"),
+            "pick_market":     matched_pick.get("pick_market"),
+            "pick_side":       matched_pick.get("pick_side"),
+            "original_units":  matched_pick.get("units"),
+            "original_price":  matched_pick.get("price"),
+            "original_action": matched_pick.get("action"),
+            "outcome":         outcome,
+            "driver":          driver,
+            "cited_fact":      cited_fact,
+            "new_units_raw":   new_units,   # model's stated value before guards
+            "new_units":       new_units,   # may be overridden by guards below
+            "guard_override":  None,
+            "parse_warning":   block_warning,
+        })
+
+    return results, warnings
+
+
+def _total_wagered_units(model: str, sport: str, date: str, root: Path) -> float:
+    """
+    Sum units already wagered across all bet picks in {model}.json for this date.
+    Used by the UPGRADE guard to enforce the Run-1 slate ceiling slate-wide.
+    """
+    picks_path = root / "picks" / sport / date / f"{model}.json"
+    if not picks_path.exists():
+        return 0.0
+    try:
+        doc = json.loads(picks_path.read_text(encoding="utf-8"))
+        return sum(
+            float(p.get("units") or 0)
+            for p in doc.get("picks", [])
+            if (p.get("action") or "").lower() == "bet"
+        )
+    except Exception:
+        return 0.0
+
+
+def _n_slate_games(sport: str, date: str, root: Path) -> int:
+    """Return total game count for the slate (used by ceiling calculation)."""
+    games_path = root / "data" / sport / date / "games.json"
+    if not games_path.exists():
+        return 0
+    try:
+        return len(json.loads(games_path.read_text(encoding="utf-8")))
+    except Exception:
+        return 0
+
+
+def _apply_confirm_guards(
+    result: dict,
+    model:  str,
+    sport:  str,
+    date:   str,
+    root:   Path,
+) -> dict:
+    """
+    Enforce hard guards on a parsed confirm-check result. Mutates and returns
+    result, setting guard_override to a description when any rule fires.
+
+    Guards (in priority order):
+      1. Parse failure (outcome is None) — force HOLD at original units.
+      2. Price absent/suspect at Run 1 — block UPGRADE, force HOLD.
+      3. Absolute unit ceiling: new_units > 3 is impossible; clamp to 3.
+      4. UPGRADE sanity: new_units must be strictly > original_units.
+      5. Slate ceiling (slate-wide): total already wagered + delta must not
+         exceed the ceiling for this slate's game count.
+    """
+    outcome        = result.get("outcome")
+    new_units      = result.get("new_units")
+    original_units = result.get("original_units") or 0
+    original_price = result.get("original_price")
+
+    overrides = []
+
+    # Guard 1: parse failure
+    if outcome is None:
+        result["outcome"]   = "HOLD"
+        result["new_units"] = original_units
+        overrides.append("parse_failure→HOLD at original units")
+        outcome   = "HOLD"
+        new_units = original_units
+
+    # Guard 2: price absent at Run 1 — can't UPGRADE into a real bet
+    price_absent = (
+        original_price is None
+        or str(original_price).strip() in ("", "—", "N/A", "absent")
+    )
+    if price_absent and outcome == "UPGRADE":
+        result["outcome"]   = "HOLD"
+        result["new_units"] = original_units
+        overrides.append("price_absent→UPGRADE blocked, forced HOLD")
+        outcome   = "HOLD"
+        new_units = original_units
+
+    # Guard 3: absolute unit cap (3u is the hard ceiling per staking rules)
+    if new_units is not None and new_units > 3:
+        overrides.append(f"unit_cap→new_units clamped {new_units}→3")
+        result["new_units"] = 3
+        new_units = 3
+
+    # Guard 4: UPGRADE must strictly increase units
+    if outcome == "UPGRADE":
+        if new_units is None or new_units <= original_units:
+            result["outcome"]   = "HOLD"
+            result["new_units"] = original_units
+            overrides.append(
+                f"upgrade_no_increase→HOLD "
+                f"(new_units={new_units} not > original={original_units})"
+            )
+            outcome   = "HOLD"
+            new_units = original_units
+
+    # Guard 5: slate ceiling (slate-wide, not cluster-wide).
+    # Only applies on UPGRADE — HOLD adds no new exposure so the ceiling
+    # is irrelevant even if Run-1 bets already fill it.
+    if outcome == "UPGRADE" and not price_absent:
+        n_games     = _n_slate_games(sport, date, root)
+        ceiling     = _slate_ceiling(n_games)
+        already_bet = _total_wagered_units(model, sport, date, root)
+        final_units = result.get("new_units") or original_units
+        delta       = max(0.0, float(final_units) - float(original_units))
+        if already_bet + delta > ceiling:
+            headroom = max(0.0, ceiling - already_bet)
+            if headroom <= 0:
+                result["outcome"]   = "HOLD"
+                result["new_units"] = original_units
+                overrides.append(
+                    f"slate_ceiling→UPGRADE blocked "
+                    f"(already {already_bet}u wagered, ceiling {ceiling}u for {n_games} games)"
+                )
+            else:
+                capped = original_units + headroom
+                overrides.append(
+                    f"slate_ceiling→new_units capped {final_units}→{capped} "
+                    f"(ceiling {ceiling}u, already {already_bet}u)"
+                )
+                result["new_units"] = capped
+
+    if overrides:
+        result["guard_override"] = "; ".join(overrides)
+
+    return result
+
+
+def run_confirm_check(
+    model:            str,
+    sport:            str,
+    date:             str,
+    game_ids:         list,
+    dry_run:          bool,
+    reasoning_effort: str,
+):
+    """
+    Send one confirm-check API call for this model covering the given game_ids,
+    parse the structured response, apply guards, and write
+    daily/{sport}/{date}/{model}_confirm.json.
+
+    game_ids is the list assembled by run_lineup_watcher.py for this cluster.
+    Only picks for games in this list are included in the prompt and output.
+
+    The prompt file confirm_prompt_{model}.md was written by
+    build_prompt.py --confirm-check and contains one ## GAME: block per
+    confirmed game, each header tagged with [gid:{game_id}] for reliable
+    matching without any matchup-string join.
+
+    Reads:
+      daily/{sport}/{date}/confirm_system_{model}.md
+      daily/{sport}/{date}/confirm_prompt_{model}.md
+      picks/{sport}/{date}/{model}.json
+
+    Writes (merge-appends across clusters):
+      daily/{sport}/{date}/{model}_confirm.json
+    """
+    import re as _re
+    import datetime as _dt
+
+    daily_dir   = PROJECT_ROOT / "daily" / sport / date
+    picks_path  = PROJECT_ROOT / "picks" / sport / date / f"{model}.json"
+    sys_path    = daily_dir / f"confirm_system_{model}.md"
+    prompt_path = daily_dir / f"confirm_prompt_{model}.md"
+    out_path    = daily_dir / f"{model}_confirm.json"
+
+    for p, label in [
+        (sys_path,    "confirm_system"),
+        (prompt_path, "confirm_prompt"),
+        (picks_path,  "picks JSON"),
+    ]:
+        if not p.exists():
+            print(f"ERROR: {label} file not found: {p}")
+            sys.exit(1)
+
+    system_text = sys_path.read_text(encoding="utf-8")
+    prompt_text = prompt_path.read_text(encoding="utf-8")
+    picks_doc   = json.loads(picks_path.read_text(encoding="utf-8"))
+    all_picks   = picks_doc.get("picks", [])
+
+    requested_gids = set(game_ids)
+
+    # ── Filter prompt to only the game blocks for this cluster ────────────────
+    # The ## GAME: header embeds [gid:...] — extract game_id directly from
+    # the header, no matchup-string join needed, doubleheader-safe.
+    game_block_re = _re.compile(
+        r'^(## GAME:.*?)(?=^## GAME:|\Z)',
+        _re.MULTILINE | _re.DOTALL,
+    )
+    gid_tag_re = _re.compile(r'\[gid:([^\]]+)\]', _re.IGNORECASE)
+
+    gid_to_block: dict = {}
+    for m in game_block_re.finditer(prompt_text):
+        block = m.group(1)
+        hdr   = block.split("\n")[0]
+        gid_m = gid_tag_re.search(hdr)
+        if gid_m:
+            gid_to_block[gid_m.group(1).strip()] = block
+
+    filtered_blocks = [
+        gid_to_block[gid]
+        for gid in game_ids          # preserve watcher order
+        if gid in gid_to_block
+    ]
+
+    missing_in_prompt = requested_gids - set(gid_to_block.keys())
+    if missing_in_prompt:
+        print(f"  WARNING: {len(missing_in_prompt)} game_id(s) not in confirm_prompt "
+              f"(may still be unconfirmed): {missing_in_prompt}")
+
+    if not filtered_blocks:
+        print(f"  No matching game blocks for requested game_ids — nothing to send.")
+        return
+
+    filtered_prompt = "\n".join(filtered_blocks)
+
+    # ── Collect bet/lean picks for this cluster ───────────────────────────────
+    cluster_picks = [
+        p for p in all_picks
+        if p.get("game_id") in requested_gids
+        and (p.get("action") or "").lower() in ("bet", "lean")
+    ]
+
+    print(f"  System file      : {sys_path.name}  ({len(system_text):,} chars)")
+    print(f"  Games in cluster : {len(filtered_blocks)}")
+    print(f"  Picks in cluster : {len(cluster_picks)}")
+
+    # ── Dry run ───────────────────────────────────────────────────────────────
+    if dry_run:
+        print()
+        print("--- DRY RUN: system (first 300 chars) ---")
+        print(system_text[:300].encode("ascii", errors="replace").decode("ascii"))
+        print()
+        print("--- DRY RUN: prompt (first 500 chars) ---")
+        print(filtered_prompt[:500].encode("ascii", errors="replace").decode("ascii"))
+        print()
+        print("No API call made.")
+        return
+
+    # ── Dispatch to the correct API ───────────────────────────────────────────
+    api_key, model_id, display_label = _resolve_model_config(model)
+    max_tokens = _CONFIRM_MAX_TOKENS.get(model, 4000)
+
+    print(f"  Model            : {display_label}  ({model_id})")
+    print(f"  Reasoning effort : {reasoning_effort}")
+    print(f"  Max tokens       : {max_tokens}")
+    print(f"  Sending to API   ...")
+
+    input_messages = [
+        {"role": "system", "content": system_text},
+        {"role": "user",   "content": filtered_prompt},
+    ]
+
+    response_text, input_tokens, output_tokens, reasoning_tokens = _call_api_with_retry(
+        model, input_messages, api_key, model_id, reasoning_effort,
+        web_search=False,
+        max_tokens=max_tokens,
+        system_text=system_text,
+        prompt_text=filtered_prompt,
+        thinking_budget=None,
+    )
+
+    _print_usage(display_label, model_id, reasoning_effort,
+                 input_tokens, output_tokens, reasoning_tokens, out_path)
+
+    # ── Parse response ────────────────────────────────────────────────────────
+    results, parse_warnings = _parse_confirm_response(response_text, cluster_picks)
+
+    if parse_warnings:
+        print(f"\n  Parse warnings ({len(parse_warnings)}):")
+        for w in parse_warnings:
+            print(f"    - {w}")
+
+    # ── Apply guards ──────────────────────────────────────────────────────────
+    for result in results:
+        _apply_confirm_guards(result, model, sport, date, PROJECT_ROOT)
+
+    # ── Build output entries: one per cluster pick ────────────────────────────
+    # Picks with no matching parsed block get auto-HOLD with parse_warning.
+    parsed_keys = {(r["game_id"], r["pick_market"]) for r in results}
+
+    output_entries = []
+    for pick in cluster_picks:
+        gid    = pick.get("game_id")
+        market = pick.get("pick_market")
+
+        matched = next(
+            (r for r in results
+             if r.get("game_id") == gid and r.get("pick_market") == market),
+            None,
+        )
+
+        if matched:
+            entry = {
+                # Original Run-1 pick fields — never overwritten
+                "game_id":          gid,
+                "matchup":          pick.get("matchup"),
+                "pick_raw":         pick.get("pick_raw"),
+                "pick_market":      market,
+                "pick_side":        pick.get("pick_side"),
+                "original_action":  pick.get("action"),
+                "original_units":   pick.get("units"),
+                "original_price":   pick.get("price"),
+                "original_edge":    pick.get("edge"),
+                "original_reason":  pick.get("reason"),
+                # Confirm-check result
+                "cc_outcome":        matched["outcome"],
+                "cc_driver":         matched["driver"],
+                "cc_cited_fact":     matched["cited_fact"],
+                "cc_new_units":      matched["new_units"],
+                "cc_new_units_raw":  matched["new_units_raw"],
+                "cc_guard_override": matched.get("guard_override"),
+                "cc_parse_warning":  matched.get("parse_warning"),
+            }
+        else:
+            entry = {
+                "game_id":          gid,
+                "matchup":          pick.get("matchup"),
+                "pick_raw":         pick.get("pick_raw"),
+                "pick_market":      market,
+                "pick_side":        pick.get("pick_side"),
+                "original_action":  pick.get("action"),
+                "original_units":   pick.get("units"),
+                "original_price":   pick.get("price"),
+                "original_edge":    pick.get("edge"),
+                "original_reason":  pick.get("reason"),
+                "cc_outcome":        "HOLD",
+                "cc_driver":         "none",
+                "cc_cited_fact":     "",
+                "cc_new_units":      pick.get("units"),
+                "cc_new_units_raw":  None,
+                "cc_guard_override": None,
+                "cc_parse_warning":  "no matching block in response — auto-HOLD",
+            }
+
+        output_entries.append(entry)
+
+    # ── Merge with any prior-cluster entries in the same output file ──────────
+    existing_entries: list = []
+    if out_path.exists():
+        try:
+            existing_doc     = json.loads(out_path.read_text(encoding="utf-8"))
+            existing_entries = existing_doc.get("picks", [])
+            # Drop any stale entries for game_ids we're about to (re)write
+            existing_entries = [
+                e for e in existing_entries
+                if e.get("game_id") not in requested_gids
+            ]
+        except Exception:
+            existing_entries = []
+
+    all_entries = existing_entries + output_entries
+
+    checked_at = _dt.datetime.now(_dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    doc = {
+        "model":        model,
+        "date":         date,
+        "sport":        sport,
+        "checked_at":   checked_at,
+        "picks":        all_entries,
+        "raw_response": response_text,
+    }
+
+    daily_dir.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    print(f"\n  Written -> {out_path.relative_to(PROJECT_ROOT)}")
+    print(f"  Entries : {len(all_entries)} total "
+          f"({len(output_entries)} this cluster, {len(existing_entries)} prior)")
+
+    # Compact decision table
+    print()
+    for e in output_entries:
+        guard_flag = "  [GUARD]" if e.get("cc_guard_override") else ""
+        print(
+            f"  {e['matchup']:<18}  {e['pick_raw']:<12}  "
+            f"{e['cc_outcome']:<10}  {e['cc_driver']:<8}  "
+            f"{e['original_units']}u→{e['cc_new_units']}u{guard_flag}"
+        )
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # AUTHORING MODE
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -2128,6 +2695,16 @@ if __name__ == "__main__":
                             "xhigh is OpenAI-only (gpt-5.4). "
                             "Default: medium for picks, low for postmortem."
                         ))
+    parser.add_argument("--confirm-check", action="store_true", dest="confirm_check",
+                        help=(
+                            "Run confirm-check mode: re-evaluate picks after lineups confirm. "
+                            "Requires --game-ids."
+                        ))
+    parser.add_argument("--game-ids",  default=None, dest="game_ids",
+                        help=(
+                            "Comma-separated game_ids for this confirm-check cluster. "
+                            "Required with --confirm-check."
+                        ))
 
     args = parser.parse_args()
 
@@ -2158,7 +2735,9 @@ if __name__ == "__main__":
         else:
             reasoning_effort = REASONING_PICKS
 
-    if args.reauthor_totals:
+    if args.confirm_check:
+        mode_label = "confirm-check"
+    elif args.reauthor_totals:
         mode_label = "reauthor-totals"
     elif args.reauthor:
         mode_label = "reauthor"
@@ -2173,7 +2752,20 @@ if __name__ == "__main__":
           f"mode={mode_label}  reasoning={reasoning_effort}{dry_label}")
     print()
 
-    if args.reauthor or args.reauthor_totals:
+    if args.confirm_check:
+        if not args.game_ids:
+            print("ERROR: --confirm-check requires --game-ids")
+            sys.exit(1)
+        game_id_list = [g.strip() for g in args.game_ids.split(",") if g.strip()]
+        run_confirm_check(
+            model            = args.model,
+            sport            = args.sport,
+            date             = date,
+            game_ids         = game_id_list,
+            dry_run          = args.dry_run,
+            reasoning_effort = reasoning_effort,
+        )
+    elif args.reauthor or args.reauthor_totals:
         run_reauthoring(
             model            = args.model,
             dry_run          = args.dry_run,

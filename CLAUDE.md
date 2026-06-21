@@ -150,6 +150,13 @@ Each model now decides its own analysis approach via its method doc.
 - [x] Totals expansion — all 8 models authored O/U methods; TOTAL/TOTAL PRICE/TOTAL UNITS/TOTAL EDGE in output; log_picks.py + grade_picks.py already support totals
 - [x] CrookedFence integration — standalone operator-run fetch_wind_edge.py + reverse-engineering dataset (compile_crookedfence_dataset.py); NOT part of daily pipeline
 - [x] Stadium dimensions — static STADIUM_DIMENSIONS table (all 30 MLB parks) in build_prompt.py; no external dependency
+- [x] Confirm-check watcher — 5-script layer that re-checks wagered games once lineups officially confirm:
+      watch_set.py                         builds daily/{sport}/{date}/_watch.json from Run-1 picks (run after log_all_picks.py)
+      build_prompt.py --confirm-check      assembles before/after wRC+ data prompt per model (rebuilt before every cluster fire)
+      query_model.py --confirm-check       fires one AI call per model per cluster; parses HOLD/CANCEL/DOWNGRADE/UPGRADE; writes {model}_confirm.json
+      run_lineup_watcher.py                continuous MLB API polling loop; 40-min cluster batching; T-60 fire; _fired.json dedup; auto-HOLD at first pitch
+      grade_picks.py (extended)            consumes {model}_confirm.json — CANCEL voids pick from record, DOWNGRADE/UPGRADE adjusts stake; cc_* fields on every pick
+      Key output fields: C column in leaderboard one-liner; cancels/best_bet_cancel in grades.json; cc_outcome/cc_driver/cc_new_units/cc_guard_override on graded picks
 - [ ] Phase 5b: Calibration injection into prompts (pull per-model stats into next-slate prompt)
 - [ ] Phase 6: Promotion engine (future)
 - [ ] Phase 7: Extend to NBA/NHL
@@ -161,9 +168,15 @@ Each model now decides its own analysis approach via its method doc.
 
 run_daily.py          -- PRE-GAME orchestrator: fetch pipeline → build prompts → [--with-picks: picks + log]
 run_daily_2.py        -- POST-GAME orchestrator: fetch results → confirmed data → post-mortems
-query_model.py        -- sends picks or post-mortem query to a single model API
+query_model.py        -- sends picks, post-mortem, or confirm-check query to a single model API
 run_picks_all.py      -- runs picks queries for all 8 connected models (called by run_daily.py --with-picks)
 run_postmortem_all.py -- runs post-mortem queries for all 8 connected models (called by run_daily_2.py)
+
+CONFIRM-CHECK LAYER (run between log_all_picks.py and grade_picks.py):
+watch_set.py             -- builds _watch.json from Run-1 picks; run once after log_all_picks.py completes
+run_lineup_watcher.py    -- continuous loop: polls MLB API, fires confirm-checks when clusters confirm, auto-HOLDs at first pitch
+  Usage: python scripts/watch_set.py --date YYYY-MM-DD
+         python scripts/run_lineup_watcher.py --date YYYY-MM-DD   (runs until all games resolved)
 
 STANDALONE OPERATOR-RUN (NOT part of run_daily.py):
 fetch_wind_edge.py           -- fetches CrookedFence data.json + results.json, archives both, refreshes dataset

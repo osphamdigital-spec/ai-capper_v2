@@ -398,8 +398,8 @@
       "mlb_game_pk": 824664,
       "matchup": "TOR @ CHC",
       "commence_et": "2026-06-21T14:21:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-21T15:43:12Z",
       "models": [
         {
           "model": "grok",

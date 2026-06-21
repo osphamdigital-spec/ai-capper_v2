@@ -4976,16 +4976,108 @@
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "George Springer",
+              "pos": "DH",
+              "bat_order": 1
+            },
+            {
+              "name": "Vladimir Guerrero Jr.",
+              "pos": "1B",
+              "bat_order": 2
+            },
+            {
+              "name": "Kazuma Okamoto",
+              "pos": "3B",
+              "bat_order": 3
+            },
+            {
+              "name": "Alejandro Kirk",
+              "pos": "C",
+              "bat_order": 4
+            },
+            {
+              "name": "Daulton Varsho",
+              "pos": "CF",
+              "bat_order": 5
+            },
+            {
+              "name": "Ernie Clement",
+              "pos": "SS",
+              "bat_order": 6
+            },
+            {
+              "name": "Davis Schneider",
+              "pos": "2B",
+              "bat_order": 7
+            },
+            {
+              "name": "Jesús Sánchez",
+              "pos": "LF",
+              "bat_order": 8
+            },
+            {
+              "name": "Myles Straw",
+              "pos": "RF",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Pete Crow-Armstrong",
+              "pos": "CF",
+              "bat_order": 1
+            },
+            {
+              "name": "Alex Bregman",
+              "pos": "3B",
+              "bat_order": 2
+            },
+            {
+              "name": "Michael Busch",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Seiya Suzuki",
+              "pos": "DH",
+              "bat_order": 4
+            },
+            {
+              "name": "Ian Happ",
+              "pos": "LF",
+              "bat_order": 5
+            },
+            {
+              "name": "Matt Shaw",
+              "pos": "RF",
+              "bat_order": 6
+            },
+            {
+              "name": "Nico Hoerner",
+              "pos": "2B",
+              "bat_order": 7
+            },
+            {
+              "name": "Carson Kelly",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Dansby Swanson",
+              "pos": "SS",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-21T10:41:13Z"
+        "fetched_at": "2026-06-21T15:43:12Z"
       },
       "umpire": {
         "name": null,

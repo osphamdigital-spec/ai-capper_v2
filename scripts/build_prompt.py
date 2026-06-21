@@ -47,6 +47,7 @@ try:
         load_pitchers_season,
         load_pitchers_last14,
         load_stuff_plus,
+        load_pitchers_season_batted_ball,
         load_bullpen,
         load_park_factors,
         load_park_factors_roof_closed,
@@ -1075,17 +1076,22 @@ def _fmt_platoon_matchup(
     return lines
 
 
-def _fmt_pitcher_oneline(
+def _fmt_pitcher_oneline(  # noqa: PLR0913
     pitcher: dict | None,
     side: str,
     season_pitchers: dict,
     last14_pitchers: dict,
     stuff_plus: dict | None = None,
+    pitchers_bb: dict | None = None,
 ) -> str:
     """
-    Collapse the 4-line pitcher block into a single pipe-delimited line.
-    Preserves every value: ERA/FIP/xERA/K9/Whiff/HH%/Brl%/IP,
-    AGG xFIP/SIERA/K-BB%/Stf+/IP, L14 xFIP/SIERA/K9/BB9/IP/[sm], L3 starts.
+    Collapse the pitcher block into pipe-delimited segments.
+    Segments: ERA/FIP/xERA/K9/Whiff/HH%/Brl%/IP | AGG xFIP/SIERA/K-BB%/Stf+/IP
+              | AGG LD%/GB%/FB% (pitcher-season batted-ball) | L14 | L3 starts.
+
+    pitchers_bb: from load_pitchers_season_batted_ball() (pitchers_season_ld_gb_fb.txt).
+    Rendered as a distinct segment labelled "BB-profile" to avoid confusion with the
+    team_barrels GB%/FB% which are BATTER-side batted-ball rates.
     """
     if not pitcher or not pitcher.get("name"):
         return f"  {side}: TBD"
@@ -1131,6 +1137,19 @@ def _fmt_pitcher_oneline(
         segments.append(f"AGG xFIP {xfip} SIERA {siera} K-BB%:{kbb}{stf_part} {s_ip}IP")
     else:
         season_key = None  # explicit for L14 fallback check
+
+    # ── Segment 2b: pitcher-season batted-ball profile (LD%/GB%/FB%) ──────────
+    # Source: pitchers_season_ld_gb_fb.txt — PITCHER-side rates (what batters do
+    # against this starter). Labelled "BB-profile" to distinguish from the
+    # BATTER-side team_barrels GB%/FB% shown in the TEAM FORM block above.
+    if pitchers_bb:
+        bb_key = fuzzy_match_player(name, pitchers_bb)
+        if bb_key:
+            bb = pitchers_bb[bb_key]
+            ld  = f"{bb['ld_pct']*100:.1f}%" if bb.get("ld_pct") is not None else "--"
+            gb  = f"{bb['gb_pct']*100:.1f}%" if bb.get("gb_pct") is not None else "--"
+            fb  = f"{bb['fb_pct']*100:.1f}%" if bb.get("fb_pct") is not None else "--"
+            segments.append(f"BB-profile LD%:{ld} GB%:{gb} FB%:{fb}")
 
     # ── Segment 3: FanGraphs L14 ──────────────────────────────────────────────
     last14_key = fuzzy_match_player(name, last14_pitchers)
@@ -1562,10 +1581,16 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
         if brl_entry:
             brl_val = brl_entry.get("barrel_pct")
             hh_val  = brl_entry.get("hardhit_pct")
-            if brl_val is not None:
-                line += f" Brl%:{brl_val}"
-            if hh_val is not None:
-                line += f" HH%:{hh_val}"
+            gb_val  = brl_entry.get("gb_pct")
+            fb_val  = brl_entry.get("fb_pct")
+            pul_val = brl_entry.get("pull_pct")
+            la_val  = brl_entry.get("launch_angle")
+            if brl_val is not None: line += f" Brl%:{brl_val}"
+            if hh_val  is not None: line += f" HH%:{hh_val}"
+            if gb_val  is not None: line += f" GB%:{gb_val}"
+            if fb_val  is not None: line += f" FB%:{fb_val}"
+            if pul_val is not None: line += f" Pull%:{pul_val}"
+            if la_val  is not None: line += f" LA:{la_val}°"
         lines.append(line)
     lines.append("")
 
@@ -1598,6 +1623,7 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
     lines.append(_fmt_pitcher_oneline(
         ctx.get("pitcher_away"), "Away",
         sd.get("pitchers_season", {}), sd.get("pitchers_l14", {}), sd.get("stuff_plus", {}),
+        sd.get("pitchers_bb", {}),
     ))
     if away_tbd:
         lines.append("  NOTE: TBD starter -- pass on this game unless starter confirmed before your submission. Do not estimate edge without confirmed pitcher data.")
@@ -1605,6 +1631,7 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
     lines.append(_fmt_pitcher_oneline(
         ctx.get("pitcher_home"), "Home",
         sd.get("pitchers_season", {}), sd.get("pitchers_l14", {}), sd.get("stuff_plus", {}),
+        sd.get("pitchers_bb", {}),
     ))
     if home_tbd:
         lines.append("  NOTE: TBD starter -- pass on this game unless starter confirmed before your submission. Do not estimate edge without confirmed pitcher data.")
@@ -2735,6 +2762,7 @@ def build_prompt_main(sport: str = "mlb", date: str = None, model: str = None):
             "pitchers_season": load_pitchers_season(),
             "pitchers_l14":    load_pitchers_last14(),
             "stuff_plus":      load_stuff_plus(),    # col 10 of pitchers_xfip_siera.txt
+            "pitchers_bb":     load_pitchers_season_batted_ball(),  # LD%/GB%/FB% from pitchers_season_ld_gb_fb.txt
             "bullpen":         load_bullpen(),
             "park_factors":    load_park_factors(),
             "park_roof":       load_park_factors_roof_closed(),

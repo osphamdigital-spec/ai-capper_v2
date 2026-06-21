@@ -10,12 +10,14 @@ Files handled:
   data/mlb/splits_vs_RHP.txt          -- batter stats vs right-handed pitchers
   data/mlb/splits_home.txt            -- batter stats in home games
   data/mlb/splits_away.txt            -- batter stats in away games
-  data/mlb/pitchers_xfip_siera.txt    -- starter season xFIP, SIERA, K-BB% (2-yr blend)
-  data/mlb/pitchers_last14.txt        -- starter stats last 14 days
-  data/mlb/Bullpen.txt                -- all relievers with role, usage last 6 days
-  data/mlb/park_factors_all.txt       -- park factors all conditions (3yr rolling)
-  data/mlb/park_factors_roof_closed.txt -- park factors roof-closed only
-  data/mlb/team_barrels.txt           -- team offensive Barrel% and HardHit% (FanGraphs export)
+  data/mlb/pitchers_xfip_siera.txt        -- starter season xFIP, SIERA, K-BB%, Stuff+ (col 10)
+  data/mlb/pitchers_last14.txt            -- starter stats last 14 days
+  data/mlb/pitchers_season_ld_gb_fb.txt  -- starter season LD%/GB%/FB% batted-ball profile
+                                             (same roster as pitchers_xfip_siera; no Stuff+ col)
+  data/mlb/Bullpen.txt                    -- all relievers with role, usage last 6 days
+  data/mlb/park_factors_all.txt           -- park factors all conditions (3yr rolling)
+  data/mlb/park_factors_roof_closed.txt   -- park factors roof-closed only
+  data/mlb/team_barrels.txt               -- team offensive Barrel%/HardHit%/GB%/FB%/Pull%/LA°
   data/mlb/lineup_tracker.txt        -- projected batting orders by date (FanGraphs roster resource)
 
 Usage (standalone test):
@@ -322,6 +324,45 @@ def load_gm_li() -> dict:
     return _pitcher_extra_col(DATA_DIR / "pitchers_last14.txt", 9)
 
 
+def load_pitchers_season_batted_ball() -> dict:
+    """
+    Pitcher season batted-ball profile: LD%, GB%, FB% (2026 season, IP ≥ 5 filter).
+
+    Source: data/mlb/pitchers_season_ld_gb_fb.txt
+    Column layout:
+      0=# 1=Name 2=Team 3=K/9 4=BB/9 5=K-BB% 6=xFIP 7=SIERA 8=IP 9=gmLI
+      10=LD%  11=GB%  12=FB%
+
+    NOTE: This file does NOT contain Stuff+ (that is col 10 of pitchers_xfip_siera.txt).
+    load_pitchers_season() and load_stuff_plus() continue to read pitchers_xfip_siera.txt.
+    This loader reads only the three batted-ball columns; swapping filenames would silently
+    load LD% as Stuff+ — do not redirect the other loaders to this file.
+
+    Returns dict keyed by player name (str):
+      { "ld_pct": float | None, "gb_pct": float | None, "fb_pct": float | None }
+    """
+    filepath = DATA_DIR / "pitchers_season_ld_gb_fb.txt"
+    rows = _load_tsv(filepath)
+    if rows is None:
+        logger.warning("Missing file: %s — returning empty dict", filepath.name)
+        return {}
+
+    result = {}
+    for row in rows[1:]:   # skip header
+        if len(row) < 13:
+            continue
+        name = row[1].strip()
+        if not name:
+            continue
+        result[name] = {
+            "ld_pct": _parse_pct(row[10]),
+            "gb_pct": _parse_pct(row[11]),
+            "fb_pct": _parse_pct(row[12]),
+        }
+    logger.info("Loaded %d pitchers from %s", len(result), filepath.name)
+    return result
+
+
 # ─────────────────────────────────────────────────────────────────────────────
 # PUBLIC LOAD FUNCTIONS — bullpen
 # ─────────────────────────────────────────────────────────────────────────────
@@ -499,15 +540,18 @@ def load_park_factors_roof_closed() -> dict:
 
 def load_team_barrels() -> dict:
     """
-    Load team offensive Barrel% and HardHit% from static FanGraphs export.
+    Load team offensive batted-ball profile from static FanGraphs export.
 
     Source file: data/mlb/team_barrels.txt
-    Format: TSV with columns  #  Team  Barrel%  HardHit%
-    Values are percentage strings (e.g. "9.0%") -- stripped to floats.
+    Column layout:
+      0=# 1=Team 2=Barrel% 3=HardHit% 4=GB% 5=FB% 6=Pull% 7=LA(degrees, float)
+    Values at cols 2–6 are percentage strings (e.g. "9.0%"); col 7 is a plain float.
     FanGraphs abbreviations are remapped via _FG_TO_GAMES (e.g. WSN->WAS).
 
     Returns dict keyed by games.json team abbreviation:
-        { "NYY": {"barrel_pct": 10.6, "hardhit_pct": 43.2}, ... }
+        { "NYY": {"barrel_pct": 10.6, "hardhit_pct": 43.2,
+                  "gb_pct": 39.9, "fb_pct": 41.7, "pull_pct": 42.9,
+                  "launch_angle": 15.4}, ... }
     Returns empty dict if file not found or parse fails.
     """
     filepath = DATA_DIR / "team_barrels.txt"
@@ -526,36 +570,42 @@ def load_team_barrels() -> dict:
         print("WARNING: team_barrels.txt is empty")
         return {}
 
+    # Percentage columns stored as plain floats (e.g. 41.4, not 0.414) to match
+    # how barrel_pct and hardhit_pct are stored — avoid fractions in the prompt.
+    def _pct_as_float(s: str) -> float | None:
+        v = s.strip().rstrip("%")
+        try: return round(float(v), 1) if v else None
+        except ValueError: return None
+
     for row in rows[1:]:  # skip header row
-        # Expected columns: 0=rank#, 1=Team, 2=Barrel%, 3=HardHit%
-        # Guard against short or blank rows
-        if len(row) < 4:
+        # Columns: 0=rank#, 1=Team, 2=Barrel%, 3=HardHit%, 4=GB%, 5=FB%, 6=Pull%, 7=LA
+        if len(row) < 8:
             continue
         team_fg = row[1].strip()
         if not team_fg or team_fg == "Team":
             continue
 
-        brl_raw  = row[2].strip().rstrip("%")
-        hh_raw   = row[3].strip().rstrip("%")
-
         try:
-            brl_f = round(float(brl_raw), 1)
+            brl_f = round(float(row[2].strip().rstrip("%")), 1)
         except (ValueError, TypeError):
             print(f"WARNING: team_barrels.txt -- could not parse Barrel% for {team_fg!r}: {row[2]!r}")
             continue
 
-        try:
-            hh_f = round(float(hh_raw), 1)
-        except (ValueError, TypeError):
-            print(f"WARNING: team_barrels.txt -- could not parse HardHit% for {team_fg!r}: {row[3]!r}")
-            hh_f = None
+        hh_f  = _pct_as_float(row[3])
+        gb_f  = _pct_as_float(row[4])
+        fb_f  = _pct_as_float(row[5])
+        pul_f = _pct_as_float(row[6])
+        la_f  = _parse_float(row[7])   # degrees, not a percentage
 
         # Remap FanGraphs abbreviation to games.json abbreviation
         games_abbr = _FG_TO_GAMES.get(team_fg, team_fg)
 
         entry: dict = {"barrel_pct": brl_f}
-        if hh_f is not None:
-            entry["hardhit_pct"] = hh_f
+        if hh_f  is not None: entry["hardhit_pct"]    = hh_f
+        if gb_f  is not None: entry["gb_pct"]         = gb_f
+        if fb_f  is not None: entry["fb_pct"]         = fb_f
+        if pul_f is not None: entry["pull_pct"]       = pul_f
+        if la_f  is not None: entry["launch_angle"]   = la_f
         result[games_abbr] = entry
 
     logger.info("Loaded team barrel%% for %d teams from team_barrels.txt", len(result))

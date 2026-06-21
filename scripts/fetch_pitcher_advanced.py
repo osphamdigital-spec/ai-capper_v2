@@ -272,7 +272,8 @@ def fetch_savant_tables(season: int) -> tuple[dict, dict]:
         )
     except ImportError:
         print("ERROR: pybaseball is not installed.")
-        print("  Run: pip install pybaseball")
+        print(f"  Active interpreter: {sys.executable}")
+        print("  Run: pip install pybaseball  (under the correct interpreter above)")
         sys.exit(1)
 
     # ── Expected stats (xERA) ─────────────────────────────────────────────────

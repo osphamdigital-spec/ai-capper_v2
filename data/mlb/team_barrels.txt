@@ -1,31 +1,31 @@
-#	Team	Barrel% Barrel% - Percentage of batted balls that are classified as barrels	HardHit% HardHit% -  Percentage of batted balls with exit velocity of 95 mph or higher
-1	NYY	10.1%	41.5%
-2	LAD	9.9%	41.6%
-3	CIN	9.8%	38.4%
-4	ATL	9.3%	40.1%
-5	LAA	9.3%	38.2%
-6	CHW	9.3%	40.2%
-7	DET	9.3%	38.9%
-8	WSN	8.8%	39.4%
-9	NYM	8.8%	41.3%
-10	HOU	8.7%	38.0%
-11	BAL	8.5%	43.4%
-12	MIN	8.5%	37.1%
-13	ATH	8.5%	40.5%
-14	SDP	8.4%	40.6%
-15	SEA	8.3%	39.2%
-16	KCR	8.3%	42.3%
-17	PIT	8.2%	40.2%
-18	CHC	7.8%	40.1%
-19	STL	7.8%	41.0%
-20	PHI	7.5%	40.8%
-21	TEX	7.4%	40.3%
-22	MIL	7.1%	38.8%
-23	BOS	6.9%	37.9%
-24	SFG	6.9%	37.5%
-25	ARI	6.8%	37.6%
-26	COL	6.8%	37.5%
-27	TOR	6.5%	36.0%
-28	MIA	6.2%	37.6%
-29	CLE	6.1%	34.5%
-30	TBR	5.3%	34.2%
+#	Team	Barrel% Barrel% - Percentage of batted balls that are classified as barrels	HardHit% HardHit% -  Percentage of batted balls with exit velocity of 95 mph or higher	GB% GB% - Ground Ball Percentage (GB/BIP)	FB% FB% - Fly Ball Percentage (FB/BIP)	Pull% Pull% - Percentage of balls in play that were pulled by the batter	LA LA - Launch Angle (degree) - Vertical direction of the ball as it leaves the bat
+1	NYY	10.2%	41.4%	39.9%	41.7%	42.9%	15.4
+2	CIN	9.9%	38.3%	39.5%	41.1%	38.4%	17.0
+3	LAD	9.8%	41.6%	39.8%	38.7%	40.8%	14.2
+4	LAA	9.4%	38.2%	39.8%	40.5%	42.8%	15.5
+5	CHW	9.3%	40.1%	42.9%	38.0%	44.9%	13.4
+6	ATL	9.3%	40.0%	40.0%	40.5%	39.8%	15.2
+7	DET	9.2%	38.9%	36.6%	44.7%	40.1%	17.0
+8	WSN	8.8%	39.4%	42.3%	38.1%	41.2%	12.6
+9	HOU	8.8%	38.2%	42.0%	38.8%	42.3%	13.8
+10	NYM	8.8%	41.3%	42.7%	38.5%	39.3%	12.8
+11	MIN	8.6%	37.0%	39.3%	41.3%	44.0%	14.8
+12	ATH	8.6%	40.5%	43.0%	37.9%	37.3%	13.1
+13	SDP	8.5%	40.6%	45.4%	36.5%	41.0%	10.2
+14	BAL	8.5%	43.4%	41.7%	39.5%	40.5%	14.0
+15	KCR	8.3%	42.2%	36.8%	43.1%	39.6%	15.9
+16	SEA	8.2%	39.1%	40.4%	39.7%	44.0%	14.5
+17	PIT	8.2%	40.3%	44.4%	36.7%	41.0%	11.8
+18	CHC	7.7%	40.1%	40.2%	40.5%	41.7%	15.4
+19	STL	7.7%	41.0%	43.3%	37.0%	40.9%	12.6
+20	PHI	7.5%	40.8%	42.7%	37.9%	38.0%	12.5
+21	TEX	7.5%	40.1%	41.7%	38.8%	40.1%	13.4
+22	MIL	7.0%	38.8%	49.0%	34.1%	36.5%	8.5
+23	SFG	6.9%	37.5%	41.8%	38.8%	39.5%	14.4
+24	ARI	6.9%	37.7%	42.2%	37.7%	44.8%	13.4
+25	COL	6.8%	37.3%	40.3%	38.6%	43.3%	15.0
+26	BOS	6.8%	37.9%	43.4%	37.5%	42.4%	13.1
+27	TOR	6.6%	35.9%	42.9%	38.1%	41.7%	13.5
+28	MIA	6.2%	37.5%	43.8%	38.1%	41.7%	13.2
+29	CLE	6.1%	34.5%	39.1%	40.6%	44.8%	15.2
+30	TBR	5.3%	34.2%	44.1%	37.0%	35.7%	11.9

@@ -20,10 +20,11 @@
       "reason": "Sean Newcomb lacks any published AGG xFIP, SIERA, K-BB% or Stuff+ data, which breaks the pitching-anchor foundation of my model. Without a stabilized run-suppression estimate for either side I cannot price the moneyline or total to my required precision. I pass the game entirely.",
       "data_gap": "Newcomb missing AGG xFIP, SIERA, K-BB% and Stuff+.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "f34c6b3b5d4542734f725cdbf1200188",
@@ -40,11 +41,12 @@
       "edge": "4.3 pts",
       "reason": "Will Warren’s AGG SIERA (3.76) is more than a full run better than Andrew Abbott’s (5.07), and the Yankees carry a +29 wRC+ platoon edge versus lefties that the market underweights. I price NYY at 69.1% against a 64.8% implied probability, but Warren’s [sm] L14 flag caps me at 1 unit. The total projects to 9.9 runs, only 0.4 runs above the 9.5 line, so I pass it.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -205,
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "afc026eb30e790d723cc4d99d1551154",
@@ -62,10 +64,11 @@
       "reason": "The SIERA gap between Corbin and Rea is only ~0.25 runs, and both carry [sm] flags on their L14 samples. Toronto’s +4 wRC+ platoon edge and Chicago’s taxed bullpen (0/2 T1 avail) lift my TOR win-probability estimate to just 46.0%, a 1.4-point gap that sits below my 3.5-point gate. The total projects 9.9 runs, only 0.4 runs clear of the 9.5 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "3efd1785852b80caaeeb2e4b8e8db0f2",
@@ -83,10 +86,11 @@
       "reason": "Buehler and Eovaldi are virtually tied in AGG SIERA (~4.05 vs 3.59), and neither bullpen offers a leverage-fatigue edge. San Diego’s +15 wRC+ platoon advantage is cancelled by the pitcher-friendly park and Eovaldi’s slight skill edge, leaving my win-probability estimate within 0.5 points of the market. The total estimate is 7.6 runs, just 0.1 runs from the 7.5 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "954f9616bdfe5989a3ed4cc8cc1b3472",
@@ -104,10 +108,11 @@
       "reason": "Harrison and Sale are dead-even in AGG SIERA (~3.1), so the entire side edge comes from Milwaukee’s +26 wRC+ platoon advantage versus lefties; that only lifts MIL to 46.0% (1.3-point gap), below my gate. The total estimates 8.2 runs, a 1.2-run cushion to the 7.0 line, but I already have stronger total edges on the slate and respect the three-bet ceiling.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "a36cc8e7c18477f87bd91d87f8839f49",
@@ -125,10 +130,11 @@
       "reason": "McDonald and Meyer are separated by just 0.09 in AGG SIERA, and both bullpens are fully rested. San Francisco’s +19 wRC+ edge versus righties is trimmed by the pitcher-friendly park and Miami’s home-field, producing a 0.9-point win-probability gap. The total estimate is 8.4 runs, 0.4 runs short of the 1.0-run gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "71d79346a4e1f6058e517c895d646f2e",
@@ -146,10 +152,11 @@
       "reason": "Ian Seymour’s entire AGG sample is 6.0 IP, making his 3.31 SIERA unreliable; my model cannot price a starter with no stabilized track record. Cade Cavalli is fine, but the pitching uncertainty on the home side forces a full pass on both side and total.",
       "data_gap": "Seymour lacks a meaningful AGG body of work (6 IP).",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "d0bf798e1c85fe47d8160217d79b5a3e",
@@ -167,10 +174,11 @@
       "reason": "The starting SIERA gap is negligible (4.62 vs 4.56), and Cleveland’s bullpen is missing its only T1 arm while Houston’s is fully rested. Houston’s offense is 16 points below league average versus lefties, which only creates a 1.2-point edge for Cleveland—well short of my 3.5-point gate. The total projects 8.8 runs, 0.3 runs from the 8.5 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "6344d2ce9df189689ed256d05cfcffb4",
@@ -188,10 +196,11 @@
       "reason": "Cristopher Sánchez’s 2.66 AGG SIERA dwarfs Peralta’s 4.11, but Philadelphia’s offense is 19 points below average versus righties and their bullpen is taxed (0/2 T2 avail), capping my PHI win-probability edge at 2.3 points. The total is the play: Sánchez’s elite suppression is offset by Philly’s weak RHP offense and a taxed pen, while Peralta’s recent degradation [sm] adds runs; I project 8.7 combined runs, 1.2 clear of the 7.5 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "6344d2ce9df189689ed256d05cfcffb4",
@@ -208,12 +217,13 @@
       "edge": "1.2 runs",
       "reason": "Cristopher Sánchez’s 2.66 AGG SIERA dwarfs Peralta’s 4.11, but Philadelphia’s offense is 19 points below average versus righties and their bullpen is taxed (0/2 T2 avail), capping my PHI win-probability edge at 2.3 points. The total is the play: Sánchez’s elite suppression is offset by Philly’s weak RHP offense and a taxed pen, while Peralta’s recent degradation [sm] adds runs; I project 8.7 combined runs, 1.2 clear of the 7.5 line.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "win",
+      "profit_units": 0.9524,
+      "clv": 0,
+      "closing_line": -105,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "4bb2c510f37ac3221423f6fe96d81822",
@@ -231,10 +241,11 @@
       "reason": "I never bet sides at Coors Field because extreme altitude variance destroys the run-suppression edge my model is built on. The total is different: Sugano’s 5.09 AGG xFIP and 80 Stuff+ project a meltdown against Pittsburgh’s 133 wRC+ offense, while even Skenes cannot fully suppress Coors inflation; I estimate 12.6 runs, more than two full runs above the 10.5 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "4bb2c510f37ac3221423f6fe96d81822",
@@ -251,12 +262,13 @@
       "edge": "2.1 runs",
       "reason": "I never bet sides at Coors Field because extreme altitude variance destroys the run-suppression edge my model is built on. The total is different: Sugano’s 5.09 AGG xFIP and 80 Stuff+ project a meltdown against Pittsburgh’s 133 wRC+ offense, while even Skenes cannot fully suppress Coors inflation; I estimate 12.6 runs, more than two full runs above the 10.5 line.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -110,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "11f0aee64edb29086a8ca3368f0fe44f",
@@ -274,10 +286,11 @@
       "reason": "Ginn’s AGG xFIP (4.08) is only 0.35 runs better than Ureña’s (4.43), and both offenses are near league average versus righties, leaving a sub-1-point win-probability gap. The total is playable: Sutter Health’s 110 runs factor and a strong outbound wind lift my estimate to 11.0 runs, 1.5 runs north of the 9.5 total.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "11f0aee64edb29086a8ca3368f0fe44f",
@@ -294,12 +307,13 @@
       "edge": "1.5 runs",
       "reason": "Ginn’s AGG xFIP (4.08) is only 0.35 runs better than Ureña’s (4.43), and both offenses are near league average versus righties, leaving a sub-1-point win-probability gap. The total is playable: Sutter Health’s 110 runs factor and a strong outbound wind lift my estimate to 11.0 runs, 1.5 runs north of the 9.5 total.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -115,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "bc0eb3e2abd5d0ddb3e22dc71abf652a",
@@ -317,10 +331,11 @@
       "reason": "Bradley’s AGG SIERA (3.94) is 0.8 runs better than Gallen’s (4.73), but Arizona’s rested bullpen (3.5 freshness) and home-field keep my Minnesota edge at 1.6 points, below the gate. The total estimate is 9.2 runs, 0.2 runs from the 9.0 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "8e059160b850333f99e5414be7fede74",
@@ -338,10 +353,11 @@
       "reason": "Yamamoto’s 3.31 SIERA is elite, but the Dodgers’ offense is 8 points below average versus lefties and Baltimore’s bullpen is fully rested. The resulting LAD win-probability estimate is 72.7%, just 1.9 points above the market. The total projects 8.1 runs, 0.1 runs from the 8.0 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "c17cdf3ec5c9c493c782139a03e71bcc",
@@ -359,10 +375,11 @@
       "reason": "Hancock’s AGG SIERA (3.59) is 0.6 runs better than Early’s (4.21), but Seattle’s offense is 21 points below average versus lefties and both bullpens are taxed (1.5 freshness each). That yields a 1.1-point edge for Seattle, below my gate. The total estimate is 8.3 runs, 0.8 runs from the 8.0 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     }
   ],
   "parlay": null,
@@ -376,5 +393,6 @@
     "passes": 13,
     "units_risked": 4,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-21T07:53:54Z"
 }

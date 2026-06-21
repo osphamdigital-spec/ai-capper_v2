@@ -1,0 +1,407 @@
+{
+  "date": "2026-06-20",
+  "sport": "mlb",
+  "built_at": "2026-06-21T04:44:44Z",
+  "games": {
+    "a36cc8e7c18477f87bd91d87f8839f49": {
+      "game_id": "a36cc8e7c18477f87bd91d87f8839f49",
+      "mlb_game_pk": 823854,
+      "matchup": "SF @ MIA",
+      "commence_et": "2026-06-20T16:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "SF ML",
+          "units": 1,
+          "price": 122,
+          "reason": "San Francisco gets the better platoon context against Meyer, and McDonald’s underlying skill set is materially better than his ERA line. Miami has the bullpen edge, so this stays 1u, but my projection makes this game much closer to a coin flip than the +122 tag implies. The total is near fair once I account for Miami’s weaker split versus RHP and the park effect."
+        },
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LEAN: SF ML",
+          "units": 0,
+          "price": 122,
+          "reason": "San Francisco's offense matches up well with a 118 wRC+ against righties, and Trevor McDonald's 3.58 SIERA is competitive with Max Meyer. This play qualifies for a 1-unit bet with a 5.1 percentage point edge, but is demoted to a lean to comply with our strict 4-bet slate ceiling. The total is a pass due to short-term small sample starters."
+        }
+      ]
+    },
+    "4bb2c510f37ac3221423f6fe96d81822": {
+      "game_id": "4bb2c510f37ac3221423f6fe96d81822",
+      "mlb_game_pk": 824342,
+      "matchup": "PIT @ COL",
+      "commence_et": "2026-06-20T21:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over",
+          "units": 0,
+          "price": -103,
+          "reason": "Pittsburgh has the obvious side edge behind Skenes, but laying a big ML in Coors is outside my preferred risk profile and I avoid run-line exposure there. My raw total projects above 10.5 because Sugano and the Colorado middle relief are both vulnerable in this environment, but Coors variance keeps it to a lean only. No side bet."
+        },
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "PIT ML",
+          "units": 3,
+          "price": -200,
+          "reason": "Skenes’ elite SIERA (2.83) against Sugano’s 5.18, amplified by Coors Field, projects a Pirates runaway (8.65 vs 4.15 runs). Market win probability for PIT is only 65.1% vs modelled 79.4% — a 14.3‑pt mispricing. Total Over had a 3.64‑run edge but was not bet due to the two‑play 3‑unit limit."
+        },
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "PIT ML",
+          "units": 1,
+          "price": -200,
+          "reason": "Paul Skenes is a massive pitching upgrade (2.83 SIERA, 25.5% K-BB%) over Tomoyuki Sugano (5.18 SIERA). Pittsburgh also boasts a strong offense vs RHP (133 wRC+), creating a major mismatch. Coors Field environment dictates a mandatory pass on all totals and run lines, but the moneyline edge of 6.7 percentage points is highly playable and capped at 1 unit due to Sugano's small sample flag."
+        },
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 10.5",
+          "units": 1,
+          "price": -110,
+          "reason": "I never bet sides at Coors Field because extreme altitude variance destroys the run-suppression edge my model is built on. The total is different: Sugano’s 5.09 AGG xFIP and 80 Stuff+ project a meltdown against Pittsburgh’s 133 wRC+ offense, while even Skenes cannot fully suppress Coors inflation; I estimate 12.6 runs, more than two full runs above the 10.5 line."
+        },
+        {
+          "model": "sonnet",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "PIT ML",
+          "units": 1,
+          "price": -200,
+          "reason": "Skenes (L14/AGG blended: 2.62 xFIP, K-BB% 25.5%, 12.0 IP at 40/60 weighting) is the best available pitcher on this slate by a wide margin. Sugano is a 5.09 AGG xFIP arm with Stf+ 80 — plus a +0.1 run penalty from below-average stuff — facing a PIT lineup with wRC+ 133 vs RHP and key bats (Callihan 235, Lowe 162). My win probability estimate for PIT is ~72% vs a vig-removed market implied of ~65.1% — a 7.2 pt gap, above my 5-pt gate. The gap is supported by both the starter matchup edge and PIT's superior bullpen depth. I cannot back the 3u level because Sugano carries an [sm] flag on his L14, failing condition 1. The PIT total (Over 10.5) projects to a run gap of ~5.0 runs, but the slate ceiling is already filled by this play as the third bet; the total does not qualify under ceiling constraints."
+        }
+      ]
+    },
+    "11f0aee64edb29086a8ca3368f0fe44f": {
+      "game_id": "11f0aee64edb29086a8ca3368f0fe44f",
+      "mlb_game_pk": 824988,
+      "matchup": "LAA @ ATH",
+      "commence_et": "2026-06-20T22:06:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 9.5",
+          "units": 1,
+          "price": -110,
+          "reason": "Both starters have much weaker estimators than their ERAs, Oakland’s bullpen is one of the most taxed groups on the slate, and Sutter Health remains a major run amplifier. My projected total is 11.4, so 9.5 is still light even after accounting for the market’s awareness of the park. I pass the side because the same run environment widens outcomes and makes the total the cleaner angle."
+        },
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 9.5",
+          "units": 1,
+          "price": -115,
+          "reason": "Ginn’s AGG xFIP (4.08) is only 0.35 runs better than Ureña’s (4.43), and both offenses are near league average versus righties, leaving a sub-1-point win-probability gap. The total is playable: Sutter Health’s 110 runs factor and a strong outbound wind lift my estimate to 11.0 runs, 1.5 runs north of the 9.5 total."
+        },
+        {
+          "model": "sonnet",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 9.5",
+          "units": 1,
+          "price": -110,
+          "reason": "Side: Both teams are near-.500 with overlapping mediocre starting pitching. LAA at 30-47 with a worse overall profile doesn't generate a reliable 5-pt edge as an underdog at +148, and ATH at -164 with depleted T1/T2 closers (1/3 T1 available) creates concern about late-game reliability even as favorites. PASS the side. Total: Sutter Health Park carries a 121 runs factor — one of the most hitter-friendly venues in this data. Ureña blends to 4.77 xFIP (12.0 IP, 40% L14 weighting; L14 xFIP 5.29). Ginn uses AGG (4.08 xFIP, L14 [sm] set to zero). ATH offense is scorching (L10RS 7.0); my combined model projects ~14.5 runs before bullpen fatigue adjustment. ATH T1 closers 2/3 unavailable → +0.30 run penalty per my method (capped). Final adjusted estimate ~14.5 vs 9.5 posted line: gap of ~5.0 runs Over. Gap clearly clears the 1.0-run gate. Ginn's [sm] flag on L14 caps this at 1 unit — not eligible for 3u per my hard filter on starter flags."
+        }
+      ]
+    },
+    "bc0eb3e2abd5d0ddb3e22dc71abf652a": {
+      "game_id": "bc0eb3e2abd5d0ddb3e22dc71abf652a",
+      "mlb_game_pk": 825068,
+      "matchup": "MIN @ AZ",
+      "commence_et": "2026-06-20T22:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 9.0",
+          "units": 1,
+          "price": -107,
+          "reason": "Gallen’s current skill profile has been well below name value, Bradley is more solid than dominant, and Minnesota’s recent scoring form pushes this into playable over territory. With Arizona competent enough to contribute and Chase likely playing neutral-to-slightly hitter-friendly, I project 10.0 runs. I pass the side because Arizona’s bullpen advantage offsets most of Minnesota’s starter edge."
+        },
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "MIN ML",
+          "units": 3,
+          "price": 115,
+          "reason": "Twins’ offence is humming (L10RS 6.0) while Gallen’s L14 SIERA sits at 5.00. Taj Bradley is solid for Arizona, but Minnesota’s run projection (5.39 vs 4.41) gives them a 59.1% win probability against a market 45.7% — a gap of 13.4 points. Total Over is banned by Chase Field’s HR factor ≤85; Under edge didn’t reach gate."
+        }
+      ]
+    },
+    "3efd1785852b80caaeeb2e4b8e8db0f2": {
+      "game_id": "3efd1785852b80caaeeb2e4b8e8db0f2",
+      "mlb_game_pk": 822885,
+      "matchup": "SD @ TEX",
+      "commence_et": "2026-06-20T16:06:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "SD ML",
+          "units": 1,
+          "price": 116,
+          "reason": "Buehler’s blended SIERA (3.94) outperforms Eovaldi’s (3.88) slightly and the Padres’ platoon advantage vs RHP (wRC+ 129) pushes their projected runs to 3.53 vs 3.21. Market gives SD only a 45.3% win probability against a modelled 54.3% — a 9.5‑point mispricing. Under had a 1.16‑run edge but was not bet due to the slate cap."
+        },
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "SD ML",
+          "units": 1,
+          "price": 116,
+          "reason": "San Diego's offense is elite vs RHP (129 wRC+) and matches up well here. Walker Buehler is trending positively with a 3.29 L14 SIERA, while the Padres hold a major bullpen advantage with Mason Miller and setup arms fully fresh. The total is a pass as the projected total of 7.93 runs does not meet the 1.0-run edge threshold against the market line of 7.5."
+        },
+        {
+          "model": "opus",
+          "action": "lean",
+          "pick_side": "under",
+          "pick_market": "total",
+          "pick_raw": "Lean Under 7.5",
+          "units": 0,
+          "price": -105,
+          "reason": "Two strong arms (Buehler AGG 4.05 SIERA but trending up, Eovaldi 3.59 SIERA/17.1% K-BB%) in a pitcher-friendly park (Runs 83, roof likely closed 92), both pens rested. My xR builds to ~7.0 vs posted 7.5. That's a 0.5-run Under lean — real but below my 0.8 gate, so zero stake, logged for CLV."
+        }
+      ]
+    },
+    "f34c6b3b5d4542734f725cdbf1200188": {
+      "game_id": "f34c6b3b5d4542734f725cdbf1200188",
+      "mlb_game_pk": 823532,
+      "matchup": "CIN @ NYY",
+      "commence_et": "2026-06-20T13:36:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "NYY ML",
+          "units": 1,
+          "price": -200,
+          "reason": "The Yankees offense has an elite 118 wRC+ vs left-handed pitching and gets a highly favorable matchup against Andrew Abbott (5.07 SIERA). Will Warren is much more stable (3.76 SIERA), giving the Yankees a clear pitching edge. High winds at Yankee Stadium (16.3 mph) trigger a mandatory pass on the game total, but the moneyline edge of 6.2 percentage points remains highly playable at 1 unit."
+        },
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "NYY ML",
+          "units": 1,
+          "price": -205,
+          "reason": "Will Warren’s AGG SIERA (3.76) is more than a full run better than Andrew Abbott’s (5.07), and the Yankees carry a +29 wRC+ platoon edge versus lefties that the market underweights. I price NYY at 69.1% against a 64.8% implied probability, but Warren’s [sm] L14 flag caps me at 1 unit. The total projects to 9.9 runs, only 0.4 runs above the 9.5 line, so I pass it."
+        }
+      ]
+    },
+    "afc026eb30e790d723cc4d99d1551154": {
+      "game_id": "afc026eb30e790d723cc4d99d1551154",
+      "mlb_game_pk": 824665,
+      "matchup": "TOR @ CHC",
+      "commence_et": "2026-06-20T14:21:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "TOR ML",
+          "units": 1,
+          "price": 117,
+          "reason": "Toronto holds the platoon advantage with a 113 wRC+ against righty Colin Rea, who is struggling with a 5.00 SIERA. Chicago's high-leverage bullpen is severely taxed with both primary closer options unavailable, allowing late-inning run leakage. The total is a pass due to short-term small sample tags on both starting pitchers."
+        }
+      ]
+    },
+    "71d79346a4e1f6058e517c895d646f2e": {
+      "game_id": "71d79346a4e1f6058e517c895d646f2e",
+      "mlb_game_pk": 822967,
+      "matchup": "WAS @ TB",
+      "commence_et": "2026-06-20T16:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": null,
+          "pick_market": "ml",
+          "pick_raw": "LEAN: WSH ML",
+          "units": 0,
+          "price": 107,
+          "reason": "Washington holds an offensive split advantage (109 wRC+ vs LHP) and benefits from Tampa Bay's heavily taxed bullpen, which triggers a Phase 2 penalty. This qualifies for a 1-unit bet with a 5.6 percentage point edge but must be downgraded to a lean to fit within our 4-bet daily portfolio ceiling. The total is passed due to short-term small sample starters."
+        },
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 8.0",
+          "units": 3,
+          "price": -105,
+          "reason": "Side is a pass as TB's pitching edge is accurately reflected in the -117 moneyline, leaving no mathematical gap. Total is a 3-unit Over because both starters possess strong AGG xFIPs that inflate my baseline projection, and Tropicana Field's 106 run factor pushes my estimated total to 10.2 runs against an 8.0 line."
+        }
+      ]
+    },
+    "d0bf798e1c85fe47d8160217d79b5a3e": {
+      "game_id": "d0bf798e1c85fe47d8160217d79b5a3e",
+      "mlb_game_pk": 824180,
+      "matchup": "CLE @ HOU",
+      "commence_et": "2026-06-20T19:16:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LEAN: CLE ML",
+          "units": 0,
+          "price": 124,
+          "reason": "Cleveland has the split advantage (99 wRC+) against Spencer Arrighetti, while Houston's offense struggles heavily against lefties (84 wRC+ vs LHP) against Joey Cantillo. While this offers a 5.1 percentage point edge, it is demoted to a lean due to the 4-bet daily slate ceiling. The total is a pass due to short-term small sample flags on the starting pitching."
+        }
+      ]
+    },
+    "6344d2ce9df189689ed256d05cfcffb4": {
+      "game_id": "6344d2ce9df189689ed256d05cfcffb4",
+      "mlb_game_pk": 823447,
+      "matchup": "NYM @ PHI",
+      "commence_et": "2026-06-20T19:16:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.5",
+          "units": 1,
+          "price": -105,
+          "reason": "Cristopher Sánchez’s 2.66 AGG SIERA dwarfs Peralta’s 4.11, but Philadelphia’s offense is 19 points below average versus righties and their bullpen is taxed (0/2 T2 avail), capping my PHI win-probability edge at 2.3 points. The total is the play: Sánchez’s elite suppression is offset by Philly’s weak RHP offense and a taxed pen, while Peralta’s recent degradation [sm] adds runs; I project 8.7 combined runs, 1.2 clear of the 7.5 line."
+        },
+        {
+          "model": "opus",
+          "action": "lean",
+          "pick_side": "under",
+          "pick_market": "total",
+          "pick_raw": "Lean Under 7.5",
+          "units": 0,
+          "price": -110,
+          "reason": "Sánchez is genuinely elite (2.66 SIERA, 24.3% K-BB%, 118 Stf+) and NYM bats only 92 wRC+ vs LHP; Peralta is solid (4.11 SIERA). My xR builds to ~6.9 vs posted 7.5 even in a hitter park (104 Runs). That's a 0.6-run Under lean — below my 0.8 gate, zero stake. PHI ML is fully priced at -189; no side edge."
+        }
+      ]
+    },
+    "c17cdf3ec5c9c493c782139a03e71bcc": {
+      "game_id": "c17cdf3ec5c9c493c782139a03e71bcc",
+      "mlb_game_pk": 823126,
+      "matchup": "BOS @ SEA",
+      "commence_et": "2026-06-20T22:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "opus",
+          "action": "lean",
+          "pick_side": "under",
+          "pick_market": "total",
+          "pick_raw": "Lean Under 7.5",
+          "units": 0,
+          "price": -125,
+          "reason": "T-Mobile is the most pitcher-friendly park here (Runs 86), both offenses are weak (BOS 92 wRC+ vs RHP, SEA 79 vs LHP), and Hancock (3.59 SIERA) is fine despite an ugly L14 [sm]. Early's 5.8 BB/9 L14 command flag adds some Over risk. My xR ~7.0 vs 7.5, but Under price at -125 shades my gate up to 1.0 — a 0.5-run lean stays zero stake."
+        }
+      ]
+    },
+    "954f9616bdfe5989a3ed4cc8cc1b3472": {
+      "game_id": "954f9616bdfe5989a3ed4cc8cc1b3472",
+      "mlb_game_pk": 824909,
+      "matchup": "MIL @ ATL",
+      "commence_et": "2026-06-20T16:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.0",
+          "units": 3,
+          "price": -113,
+          "reason": "Side is a pass as ATL's pitching and bullpen advantages are fully priced into the -128 line, yielding no edge. Total is a 3-unit Over because the elite AGG xFIPs of Harrison and Sale trigger a massive baseline addition in my model, which compounded with strong platoon wRC+ marks pushes my projection to 11.2 runs against a mispriced 7.0 market line."
+        },
+        {
+          "model": "sonnet",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.0",
+          "units": 1,
+          "price": -113,
+          "reason": "Side: Sale (2.30 ERA, 3.09 AGG xFIP, Stf+ 116) and Harrison (2.47 ERA, 3.16 AGG xFIP, Stf+ 106) are nearly equal elite arms, and the market's ~56% implied for ATL is within ~1-2 pts of my estimate — below gate. Total: the 7.0 line is set for two elite pitchers, but my model produces ~9.8 runs projected. MIL's offense is historically strong against LHP (wRC+ 136 vs LHP, key Vaughn 314, Chourio 182), driving significant expected run production even against Sale. Warm temperature (87.5°F, +0.26 run adjustment) and park factor (98) are mild contributors. Bullpen adjustment is neutral (MIL's depleted T3 doesn't trigger the T1/T2 mechanical penalty). Gap is 2.78 runs Over vs the 7.0 line, comfortably clearing my 1.0-run gate. Both starters carry [sm] L14 flags capping this at 1 unit."
+        }
+      ]
+    },
+    "8e059160b850333f99e5414be7fede74": {
+      "game_id": "8e059160b850333f99e5414be7fede74",
+      "mlb_game_pk": 823937,
+      "matchup": "BAL @ LAD",
+      "commence_et": "2026-06-20T22:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 8.0",
+          "units": 3,
+          "price": -112,
+          "reason": "Side is a pass as LAD's heavy favorite price at -250 offers zero value despite Yamamoto's elite metrics. Total is a 3-unit Over driven by the strong average xFIP of the starters and BAL's potent 124 wRC+ against RHP, pushing my projection near 10 runs in a 104 run park environment against an 8.0 line."
+        }
+      ]
+    }
+  }
+}

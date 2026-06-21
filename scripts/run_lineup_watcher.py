@@ -298,10 +298,10 @@ def run_watcher(sport: str, date: str, poll_secs: int) -> None:
     games_path = data_dir  / "games.json"
     season     = date[:4]
 
-    print(f"\n{'═' * 55}")
+    print(f"\n{'=' * 55}")
     print(f"  LINEUP WATCHER  {sport.upper()}  {date}")
     print(f"  Poll: {poll_secs}s  |  Cluster window: {CLUSTER_WINDOW_MINS}min  |  Fire: T-{FIRE_BEFORE_MINS}min")
-    print(f"{'═' * 55}\n")
+    print(f"{'=' * 55}\n")
 
     watch_doc = _load_watch(watch_path)
     fired_doc = _load_fired(fired_path)
@@ -556,12 +556,12 @@ def run_watcher(sport: str, date: str, poll_secs: int) -> None:
 
         # ── Exit check ────────────────────────────────────────────────────────
         if _all_resolved(watch_doc, fired_doc):
-            print(f"\n{'═' * 55}")
+            print(f"\n{'=' * 55}")
             print(f"  SLATE WATCHER COMPLETE  {sport.upper()}  {date}")
             print(f"  Games watched   : {n_watch}")
             print(f"  API calls fired : {calls_fired}")
             print(f"  Auto-HOLDs      : {auto_holds}")
-            print(f"{'═' * 55}\n")
+            print(f"{'=' * 55}\n")
             return
 
         n_pending = sum(

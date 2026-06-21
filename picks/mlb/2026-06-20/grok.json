@@ -20,10 +20,11 @@
       "reason": "Both starters carry small-sample flags limiting any edge; Newcomb limited IP and Melton explicit [sm] with mediocre AGG xFIP cap separation below 4 pts after platoon, park, and bullpen adjustments. Market implied ~54.5-55.6% for DET aligns closely with my estimate. Totals market absent due to stale flags.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "f34c6b3b5d4542734f725cdbf1200188",
@@ -41,10 +42,11 @@
       "reason": "L14 [sm] flags on both starters cap any edge at 1u; Warren's AGG edge over Abbott is offset by platoon and bullpen factors leaving my WP estimate within 2 pts of market ~67% for NYY. No qualifying separation.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "afc026eb30e790d723cc4d99d1551154",
@@ -62,10 +64,11 @@
       "reason": "L14 [sm] flags on both starters; Corbin's modest AGG advantage over Rea is neutralized by park suppression and taxed bullpens, producing <3 pt gap versus market ~57% for CHC. Totals market absent.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "3efd1785852b80caaeeb2e4b8e8db0f2",
@@ -83,10 +86,11 @@
       "reason": "Buehler L14 [sm] caps edge; Eovaldi's slight AGG/K-BB% edge and pitcher-friendly park are countered by SD's strong platoon offense and fresher bullpen, keeping my estimate within 3 pts of market ~57% for TEX. No 4+ pt separation.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "954f9616bdfe5989a3ed4cc8cc1b3472",
@@ -104,10 +108,11 @@
       "reason": "Cleanest starters on slate but still L14 [sm] on Harrison; near-identical elite xFIP/SIERA/K-BB% values, MIL platoon advantage, and ATL bullpen freshness produce my ATL WP estimate of 56-58% versus market ~56-57%. Gap below 4 pts threshold.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "a36cc8e7c18477f87bd91d87f8839f49",
@@ -125,10 +130,11 @@
       "reason": "Both starters carry L14 [sm] flags; comparable AGG xFIP values, SF platoon edge, and park suppression keep my SF WP estimate at 47-50% versus market ~45.7%. Separation under 4 pts.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "71d79346a4e1f6058e517c895d646f2e",
@@ -146,10 +152,11 @@
       "reason": "L14 [sm] flags on both; similar AGG xFIP/SIERA, minor platoon and bullpen edges, and dome/park factors produce <3 pt gap versus market ~55% for TB.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "d0bf798e1c85fe47d8160217d79b5a3e",
@@ -167,10 +174,11 @@
       "reason": "L14 [sm] flags on both starters; comparable AGG metrics, weather/rain suppression, and platoon factors keep my HOU WP estimate within 2-3 pts of market ~59%. No qualifying edge.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "6344d2ce9df189689ed256d05cfcffb4",
@@ -188,10 +196,11 @@
       "reason": "Peralta L14 [sm] caps at 1u; Sánchez's elite AGG xFIP/K-BB% edge and poor NYM platoon vs LHP are largely priced into market ~65% for PHI, leaving <3 pt gap after bullpen and park adjustments.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "4bb2c510f37ac3221423f6fe96d81822",
@@ -209,10 +218,11 @@
       "reason": "Sugano L14 [sm] prevents 3u; massive Skenes AGG advantage is offset by extreme Coors park inflation, wind, and high variance, producing my PIT WP estimate of ~60-63% versus market ~67%. Gap favors COL by ~3-4 pts at best but does not clear strict 4 pt threshold after all factors.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "11f0aee64edb29086a8ca3368f0fe44f",
@@ -230,10 +240,11 @@
       "reason": "Ginn L14 [sm] caps edge; Ginn's AGG advantage and hitter-friendly park are tempered by taxed ATH bullpen and similar platoon marks, keeping my ATH WP estimate within 2 pts of market ~63%.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "bc0eb3e2abd5d0ddb3e22dc71abf652a",
@@ -251,10 +262,11 @@
       "reason": "Both L14 [sm] flags; Bradley's AGG/Stf+ edge over Gallen is neutralized by hot weather run inflation and comparable bullpens/platoon, producing <3 pt gap versus market ~56.5% for AZ.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "8e059160b850333f99e5414be7fede74",
@@ -272,10 +284,11 @@
       "reason": "Rogers L14 [sm] caps at 1u; Yamamoto's elite AGG edge is substantially offset by BAL's strong platoon vs RHP, keeping my LAD WP estimate at 68-72% versus market ~72%. Gap below threshold.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "c17cdf3ec5c9c493c782139a03e71bcc",
@@ -293,10 +306,11 @@
       "reason": "Both L14 [sm] flags; Hancock's AGG advantage is countered by BOS platoon and park suppression, producing my SEA WP estimate within 2-3 pts of market ~55.6%. No qualifying edge.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     }
   ],
   "parlay": null,
@@ -310,5 +324,6 @@
     "passes": 14,
     "units_risked": 0,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-21T07:53:54Z"
 }

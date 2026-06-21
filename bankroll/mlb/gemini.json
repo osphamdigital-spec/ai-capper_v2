@@ -4,37 +4,37 @@
   "v3_start_date": "2026-06-19",
   "unit_base_usd": 100,
   "starting_balance": 10000.0,
-  "current_balance": 10031.0,
-  "updated_at": "2026-06-20T08:07:05Z",
+  "current_balance": 9864.0,
+  "updated_at": "2026-06-21T07:53:55Z",
   "summary": {
-    "bets": 4,
-    "wins": 2,
-    "losses": 2,
+    "bets": 8,
+    "wins": 4,
+    "losses": 4,
     "pushes": 0,
     "voids": 0,
-    "dollars_risked": 400.0,
-    "dollars_net": 31.0,
-    "roi_pct": 7.8,
-    "avg_clv": 81.2,
-    "clv_count": 4,
+    "dollars_risked": 1000.0,
+    "dollars_net": -136.0,
+    "roi_pct": -13.6,
+    "avg_clv": 43.6,
+    "clv_count": 8,
     "by_type": {
       "favorite": {
-        "bets": 0,
+        "bets": 2,
         "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "l": 2,
+        "dollars_net": -400.0
       },
       "underdog": {
-        "bets": 4,
-        "w": 2,
+        "bets": 6,
+        "w": 4,
         "l": 2,
-        "dollars_net": 31.0
+        "dollars_net": 264.0
       },
       "1u": {
-        "bets": 4,
-        "w": 2,
-        "l": 2,
-        "dollars_net": 31.0
+        "bets": 8,
+        "w": 4,
+        "l": 4,
+        "dollars_net": -136.0
       },
       "3u": {
         "bets": 0,
@@ -43,10 +43,10 @@
         "dollars_net": 0.0
       },
       "ml": {
-        "bets": 4,
-        "w": 2,
-        "l": 2,
-        "dollars_net": 31.0
+        "bets": 8,
+        "w": 4,
+        "l": 4,
+        "dollars_net": -136.0
       },
       "rl": {
         "bets": 0,
@@ -138,6 +138,82 @@
       "clv": 4,
       "closing_line": 104,
       "edge": "8.0 pts"
+    },
+    {
+      "date": "2026-06-20",
+      "game_id": "f34c6b3b5d4542734f725cdbf1200188",
+      "matchup": "CIN @ NYY",
+      "market": "ml",
+      "pick_raw": "NYY ML",
+      "pick_side": "home",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -200,
+      "stake_usd": 200.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -200.0,
+      "balance_after": 9831.0,
+      "clv": 5,
+      "closing_line": -205,
+      "edge": "6.2 pts"
+    },
+    {
+      "date": "2026-06-20",
+      "game_id": "afc026eb30e790d723cc4d99d1551154",
+      "matchup": "TOR @ CHC",
+      "market": "ml",
+      "pick_raw": "TOR ML",
+      "pick_side": "away",
+      "fav_or_dog": "underdog",
+      "units": 1,
+      "price": 117,
+      "stake_usd": 100.0,
+      "to_win_usd": 117.0,
+      "result": "win",
+      "profit_usd": 117.0,
+      "balance_after": 9948.0,
+      "clv": 6,
+      "closing_line": 111,
+      "edge": "5.8 pts"
+    },
+    {
+      "date": "2026-06-20",
+      "game_id": "3efd1785852b80caaeeb2e4b8e8db0f2",
+      "matchup": "SD @ TEX",
+      "market": "ml",
+      "pick_raw": "SD ML",
+      "pick_side": "away",
+      "fav_or_dog": "underdog",
+      "units": 1,
+      "price": 116,
+      "stake_usd": 100.0,
+      "to_win_usd": 116.0,
+      "result": "win",
+      "profit_usd": 116.0,
+      "balance_after": 10064.0,
+      "clv": 3,
+      "closing_line": 113,
+      "edge": "5.8 pts"
+    },
+    {
+      "date": "2026-06-20",
+      "game_id": "4bb2c510f37ac3221423f6fe96d81822",
+      "matchup": "PIT @ COL",
+      "market": "ml",
+      "pick_raw": "PIT ML",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -200,
+      "stake_usd": 200.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -200.0,
+      "balance_after": 9864.0,
+      "clv": 10,
+      "closing_line": -210,
+      "edge": "6.7 pts"
     }
   ]
 }

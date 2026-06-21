@@ -20,10 +20,11 @@
       "reason": "Troy Melton carries a short-term small sample flag, which caps any potential side play. The total market price is flagged as suspect and stale, requiring a complete pass on the over/under. With no actionable edge on the side, we pass this game.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "f34c6b3b5d4542734f725cdbf1200188",
@@ -40,11 +41,12 @@
       "edge": "6.2 pts",
       "reason": "The Yankees offense has an elite 118 wRC+ vs left-handed pitching and gets a highly favorable matchup against Andrew Abbott (5.07 SIERA). Will Warren is much more stable (3.76 SIERA), giving the Yankees a clear pitching edge. High winds at Yankee Stadium (16.3 mph) trigger a mandatory pass on the game total, but the moneyline edge of 6.2 percentage points remains highly playable at 1 unit.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 5,
+      "closing_line": -205,
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "afc026eb30e790d723cc4d99d1551154",
@@ -61,11 +63,12 @@
       "edge": "5.8 pts",
       "reason": "Toronto holds the platoon advantage with a 113 wRC+ against righty Colin Rea, who is struggling with a 5.00 SIERA. Chicago's high-leverage bullpen is severely taxed with both primary closer options unavailable, allowing late-inning run leakage. The total is a pass due to short-term small sample tags on both starting pitchers.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.17,
+      "clv": 6,
+      "closing_line": 111,
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "3efd1785852b80caaeeb2e4b8e8db0f2",
@@ -82,11 +85,12 @@
       "edge": "5.8 pts",
       "reason": "San Diego's offense is elite vs RHP (129 wRC+) and matches up well here. Walker Buehler is trending positively with a 3.29 L14 SIERA, while the Padres hold a major bullpen advantage with Mason Miller and setup arms fully fresh. The total is a pass as the projected total of 7.93 runs does not meet the 1.0-run edge threshold against the market line of 7.5.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.16,
+      "clv": 3,
+      "closing_line": 113,
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "954f9616bdfe5989a3ed4cc8cc1b3472",
@@ -104,10 +108,11 @@
       "reason": "The side moneyline does not meet our minimum 5.0 percentage point edge gate. While the total shows a large raw edge, both Kyle Harrison and Chris Sale carry short-term small sample flags, triggering a mandatory pass on the over/under.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "a36cc8e7c18477f87bd91d87f8839f49",
@@ -125,10 +130,11 @@
       "reason": "San Francisco's offense matches up well with a 118 wRC+ against righties, and Trevor McDonald's 3.58 SIERA is competitive with Max Meyer. This play qualifies for a 1-unit bet with a 5.1 percentage point edge, but is demoted to a lean to comply with our strict 4-bet slate ceiling. The total is a pass due to short-term small sample starters.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "71d79346a4e1f6058e517c895d646f2e",
@@ -146,10 +152,11 @@
       "reason": "Washington holds an offensive split advantage (109 wRC+ vs LHP) and benefits from Tampa Bay's heavily taxed bullpen, which triggers a Phase 2 penalty. This qualifies for a 1-unit bet with a 5.6 percentage point edge but must be downgraded to a lean to fit within our 4-bet daily portfolio ceiling. The total is passed due to short-term small sample starters.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "d0bf798e1c85fe47d8160217d79b5a3e",
@@ -167,10 +174,11 @@
       "reason": "Cleveland has the split advantage (99 wRC+) against Spencer Arrighetti, while Houston's offense struggles heavily against lefties (84 wRC+ vs LHP) against Joey Cantillo. While this offers a 5.1 percentage point edge, it is demoted to a lean due to the 4-bet daily slate ceiling. The total is a pass due to short-term small sample flags on the starting pitching.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "6344d2ce9df189689ed256d05cfcffb4",
@@ -188,10 +196,11 @@
       "reason": "Neither the side nor the total offers a mathematical edge meeting our minimum thresholds. Philadelphia's bullpen is taxed but the market price on the Phillies ML is too steep to support, while the total is a mandatory pass due to Freddy Peralta's short-term small sample flag.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "4bb2c510f37ac3221423f6fe96d81822",
@@ -208,11 +217,12 @@
       "edge": "6.7 pts",
       "reason": "Paul Skenes is a massive pitching upgrade (2.83 SIERA, 25.5% K-BB%) over Tomoyuki Sugano (5.18 SIERA). Pittsburgh also boasts a strong offense vs RHP (133 wRC+), creating a major mismatch. Coors Field environment dictates a mandatory pass on all totals and run lines, but the moneyline edge of 6.7 percentage points is highly playable and capped at 1 unit due to Sugano's small sample flag.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 10,
+      "closing_line": -210,
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "11f0aee64edb29086a8ca3368f0fe44f",
@@ -230,10 +240,11 @@
       "reason": "Neither the side nor the total offers a mathematical edge meeting our minimum thresholds. The Athletics bullpen is highly taxed but the moneyline price reflects this, while the total is a mandatory pass due to J.T. Ginn's short-term small sample flag.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "bc0eb3e2abd5d0ddb3e22dc71abf652a",
@@ -251,10 +262,11 @@
       "reason": "Neither the side nor the total offers a mathematical edge meeting our minimum thresholds. Taj Bradley has a strong pitching baseline but the market has priced this game accurately, while the total is a mandatory pass due to both starters carrying short-term small sample flags.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "8e059160b850333f99e5414be7fede74",
@@ -272,10 +284,11 @@
       "reason": "Yoshinobu Yamamoto gives the Dodgers a massive starting pitching advantage over Trevor Rogers (4.81 SIERA). However, the moneyline price of -250 is too steep to find value, and the total is a mandatory pass because Rogers carries a short-term small sample flag.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "c17cdf3ec5c9c493c782139a03e71bcc",
@@ -293,10 +306,11 @@
       "reason": "Neither the side nor the total offers an actionable edge. Seattle struggles heavily vs lefties (79 wRC+), which balances Connelly Early's weaker metrics, and the total is a pass due to short-term small sample flags on both starting pitchers.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     }
   ],
   "parlay": null,
@@ -310,5 +324,6 @@
     "passes": 7,
     "units_risked": 4,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-21T07:53:54Z"
 }

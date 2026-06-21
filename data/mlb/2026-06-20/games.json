@@ -294,7 +294,29 @@
         "walks": 11,
         "hit_batters": 5,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.5,
+        "fip": 2.65,
+        "xera": 3.52,
+        "whiff_rate": null,
+        "hard_hit_pct": 35.1,
+        "barrel_pct": 4.4,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "3.0",
+              "er": 0,
+              "k": 4,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 0.0
+        }
       },
       "pitcher_home": {
         "name": "Troy Melton",
@@ -311,7 +333,45 @@
         "walks": 6,
         "hit_batters": 1,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 4.9,
+        "fip": 5.36,
+        "xera": 3.81,
+        "whiff_rate": null,
+        "hard_hit_pct": 38.3,
+        "barrel_pct": 6.2,
+        "small_sample": true,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 3",
+              "opponent": "???",
+              "ip": "8.0",
+              "er": 2,
+              "k": 5,
+              "bb": 2
+            },
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 4,
+              "k": 5,
+              "bb": 0
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 1,
+              "k": 5,
+              "bb": 3
+            }
+          ],
+          "rolling_era": 3.32
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -886,7 +946,45 @@
         "walks": 36,
         "hit_batters": 0,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 6.6,
+        "fip": 4.79,
+        "xera": 4.88,
+        "whiff_rate": null,
+        "hard_hit_pct": 38.6,
+        "barrel_pct": 6.9,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 3,
+              "k": 6,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 1,
+              "k": 5,
+              "bb": 3
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 1,
+              "k": 6,
+              "bb": 3
+            }
+          ],
+          "rolling_era": 2.81
+        }
       },
       "pitcher_home": {
         "name": "Will Warren",
@@ -903,7 +1001,45 @@
         "walks": 24,
         "hit_batters": 2,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 9.4,
+        "fip": 3.33,
+        "xera": 3.73,
+        "whiff_rate": null,
+        "hard_hit_pct": 38.8,
+        "barrel_pct": 6.2,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "4.1",
+              "er": 3,
+              "k": 5,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "4.0",
+              "er": 2,
+              "k": 1,
+              "bb": 3
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 2,
+              "k": 8,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 4.5
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -1423,7 +1559,45 @@
         "walks": 20,
         "hit_batters": 5,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 6.3,
+        "fip": 4.41,
+        "xera": 5.64,
+        "whiff_rate": null,
+        "hard_hit_pct": 42.6,
+        "barrel_pct": 7.9,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "3.0",
+              "er": 5,
+              "k": 3,
+              "bb": 4
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "3.2",
+              "er": 2,
+              "k": 3,
+              "bb": 0
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "3.2",
+              "er": 3,
+              "k": 4,
+              "bb": 3
+            }
+          ],
+          "rolling_era": 8.71
+        }
       },
       "pitcher_home": {
         "name": "Colin Rea",
@@ -1440,7 +1614,45 @@
         "walks": 28,
         "hit_batters": 5,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 6.8,
+        "fip": 5.03,
+        "xera": 5.53,
+        "whiff_rate": null,
+        "hard_hit_pct": 42.3,
+        "barrel_pct": 12.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 3",
+              "opponent": "???",
+              "ip": "5.1",
+              "er": 2,
+              "k": 3,
+              "bb": 2
+            },
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "4.2",
+              "er": 7,
+              "k": 2,
+              "bb": 3
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.1",
+              "er": 0,
+              "k": 3,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 5.28
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -1950,7 +2162,45 @@
         "walks": 22,
         "hit_batters": 3,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 7.8,
+        "fip": 3.46,
+        "xera": 4.38,
+        "whiff_rate": null,
+        "hard_hit_pct": 42.2,
+        "barrel_pct": 7.4,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "4.2",
+              "er": 1,
+              "k": 4,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 1,
+              "k": 5,
+              "bb": 0
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.1",
+              "er": 1,
+              "k": 7,
+              "bb": 1
+            }
+          ],
+          "rolling_era": 1.8
+        }
       },
       "pitcher_home": {
         "name": "Nathan Eovaldi",
@@ -1967,7 +2217,45 @@
         "walks": 21,
         "hit_batters": 6,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.6,
+        "fip": 4.66,
+        "xera": 4.44,
+        "whiff_rate": null,
+        "hard_hit_pct": 39.5,
+        "barrel_pct": 9.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 2",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 4,
+              "k": 7,
+              "bb": 1
+            },
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 4,
+              "k": 3,
+              "bb": 3
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "7.0",
+              "er": 3,
+              "k": 6,
+              "bb": 1
+            }
+          ],
+          "rolling_era": 5.3
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -2451,7 +2739,45 @@
         "walks": 18,
         "hit_batters": 4,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 11.0,
+        "fip": 3.05,
+        "xera": 3.25,
+        "whiff_rate": null,
+        "hard_hit_pct": 31.5,
+        "barrel_pct": 6.7,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "2.1",
+              "er": 8,
+              "k": 4,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 0,
+              "k": 3,
+              "bb": 0
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "6.1",
+              "er": 2,
+              "k": 7,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 6.14
+        }
       },
       "pitcher_home": {
         "name": "Chris Sale",
@@ -2468,7 +2794,45 @@
         "walks": 20,
         "hit_batters": 8,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 10.6,
+        "fip": 2.82,
+        "xera": 3.45,
+        "whiff_rate": null,
+        "hard_hit_pct": 31.2,
+        "barrel_pct": 6.0,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 4",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 3,
+              "k": 6,
+              "bb": 2
+            },
+            {
+              "date": "Jun 10",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 2,
+              "k": 6,
+              "bb": 1
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 0,
+              "k": 7,
+              "bb": 1
+            }
+          ],
+          "rolling_era": 2.65
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -2942,7 +3306,45 @@
         "walks": 15,
         "hit_batters": 6,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.6,
+        "fip": 3.87,
+        "xera": 4.5,
+        "whiff_rate": null,
+        "hard_hit_pct": 40.7,
+        "barrel_pct": 5.7,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 7",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 1,
+              "k": 6,
+              "bb": 3
+            },
+            {
+              "date": "Jun 13",
+              "opponent": "???",
+              "ip": "3.2",
+              "er": 4,
+              "k": 4,
+              "bb": 3
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "3.0",
+              "er": 3,
+              "k": 1,
+              "bb": 3
+            }
+          ],
+          "rolling_era": 6.17
+        }
       },
       "pitcher_home": {
         "name": "Max Meyer",
@@ -2959,7 +3361,45 @@
         "walks": 32,
         "hit_batters": 6,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 10.1,
+        "fip": 3.28,
+        "xera": 3.84,
+        "whiff_rate": null,
+        "hard_hit_pct": 43.2,
+        "barrel_pct": 8.2,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "5.1",
+              "er": 2,
+              "k": 5,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 1,
+              "k": 9,
+              "bb": 3
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 2,
+              "k": 7,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 2.76
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -3488,7 +3928,45 @@
         "walks": 25,
         "hit_batters": 11,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 9.8,
+        "fip": 3.42,
+        "xera": 4.5,
+        "whiff_rate": null,
+        "hard_hit_pct": 38.9,
+        "barrel_pct": 7.9,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 7",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 4,
+              "k": 2,
+              "bb": 1
+            },
+            {
+              "date": "Jun 13",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 3,
+              "k": 5,
+              "bb": 0
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "2.2",
+              "er": 2,
+              "k": 1,
+              "bb": 3
+            }
+          ],
+          "rolling_era": 6.39
+        }
       },
       "pitcher_home": {
         "name": "Ian Seymour",
@@ -3505,7 +3983,45 @@
         "walks": 19,
         "hit_batters": 2,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 9.6,
+        "fip": 4.64,
+        "xera": 3.76,
+        "whiff_rate": null,
+        "hard_hit_pct": 36.3,
+        "barrel_pct": 8.8,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "May 15",
+              "opponent": "???",
+              "ip": "2.0",
+              "er": 1,
+              "k": 2,
+              "bb": 0
+            },
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "4.0",
+              "er": 1,
+              "k": 5,
+              "bb": 1
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 3,
+              "k": 4,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 4.09
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -3980,7 +4496,45 @@
         "walks": 36,
         "hit_batters": 1,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.4,
+        "fip": 4.77,
+        "xera": 4.2,
+        "whiff_rate": null,
+        "hard_hit_pct": 37.5,
+        "barrel_pct": 9.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 7",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 7,
+              "k": 7,
+              "bb": 2
+            },
+            {
+              "date": "Jun 13",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 1,
+              "k": 4,
+              "bb": 0
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "8.0",
+              "er": 1,
+              "k": 9,
+              "bb": 1
+            }
+          ],
+          "rolling_era": 4.5
+        }
       },
       "pitcher_home": {
         "name": "Spencer Arrighetti",
@@ -3997,7 +4551,45 @@
         "walks": 32,
         "hit_batters": 10,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.6,
+        "fip": 3.81,
+        "xera": 4.56,
+        "whiff_rate": null,
+        "hard_hit_pct": 29.3,
+        "barrel_pct": 5.4,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 3,
+              "k": 7,
+              "bb": 4
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 4,
+              "k": 7,
+              "bb": 1
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 6,
+              "k": 8,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 6.5
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -4481,7 +5073,45 @@
         "walks": 33,
         "hit_batters": 4,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.8,
+        "fip": 4.05,
+        "xera": 3.84,
+        "whiff_rate": null,
+        "hard_hit_pct": 39.3,
+        "barrel_pct": 5.4,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 6,
+              "k": 5,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 1,
+              "k": 2,
+              "bb": 1
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "2.2",
+              "er": 10,
+              "k": 2,
+              "bb": 1
+            }
+          ],
+          "rolling_era": 11.2
+        }
       },
       "pitcher_home": {
         "name": "Cristopher S\u00e1nchez",
@@ -4498,7 +5128,45 @@
         "walks": 19,
         "hit_batters": 1,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 10.5,
+        "fip": 2.15,
+        "xera": 2.97,
+        "whiff_rate": null,
+        "hard_hit_pct": 43.2,
+        "barrel_pct": 9.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "7.0",
+              "er": 2,
+              "k": 10,
+              "bb": 1
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 4,
+              "k": 3,
+              "bb": 1
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 1,
+              "k": 5,
+              "bb": 1
+            }
+          ],
+          "rolling_era": 3.38
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -4925,7 +5593,45 @@
         "walks": 16,
         "hit_batters": 4,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 10.9,
+        "fip": 2.69,
+        "xera": 2.6,
+        "whiff_rate": null,
+        "hard_hit_pct": 35.9,
+        "barrel_pct": 5.8,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 2,
+              "k": 7,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 2,
+              "k": 10,
+              "bb": 1
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 2,
+              "k": 8,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 3.0
+        }
       },
       "pitcher_home": {
         "name": "Tomoyuki Sugano",
@@ -4942,7 +5648,45 @@
         "walks": 22,
         "hit_batters": 2,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 5.0,
+        "fip": 5.27,
+        "xera": 6.92,
+        "whiff_rate": null,
+        "hard_hit_pct": 45.2,
+        "barrel_pct": 14.5,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 3,
+              "k": 3,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 6,
+              "k": 2,
+              "bb": 2
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 1,
+              "k": 5,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 5.62
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -5407,7 +6151,45 @@
         "walks": 35,
         "hit_batters": 4,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.4,
+        "fip": 4.16,
+        "xera": 3.25,
+        "whiff_rate": null,
+        "hard_hit_pct": 33.1,
+        "barrel_pct": 5.7,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 0,
+              "k": 7,
+              "bb": 5
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "7.0",
+              "er": 3,
+              "k": 3,
+              "bb": 2
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 0,
+              "k": 6,
+              "bb": 0
+            }
+          ],
+          "rolling_era": 1.59
+        }
       },
       "pitcher_home": {
         "name": "J.T. Ginn",
@@ -5424,7 +6206,45 @@
         "walks": 32,
         "hit_batters": 4,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 7.9,
+        "fip": 4.08,
+        "xera": 3.84,
+        "whiff_rate": null,
+        "hard_hit_pct": 37.7,
+        "barrel_pct": 6.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 5,
+              "k": 5,
+              "bb": 3
+            },
+            {
+              "date": "Jun 15",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 0,
+              "k": 3,
+              "bb": 2
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.1",
+              "er": 4,
+              "k": 5,
+              "bb": 3
+            }
+          ],
+          "rolling_era": 4.76
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -5928,7 +6748,45 @@
         "walks": 30,
         "hit_batters": 2,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 10.0,
+        "fip": 4.2,
+        "xera": 4.26,
+        "whiff_rate": null,
+        "hard_hit_pct": 48.2,
+        "barrel_pct": 10.6,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "4.1",
+              "er": 5,
+              "k": 3,
+              "bb": 3
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "6.2",
+              "er": 4,
+              "k": 7,
+              "bb": 1
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 2,
+              "k": 4,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 6.19
+        }
       },
       "pitcher_home": {
         "name": "Zac Gallen",
@@ -5945,7 +6803,45 @@
         "walks": 23,
         "hit_batters": 3,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 5.9,
+        "fip": 5.04,
+        "xera": 5.68,
+        "whiff_rate": null,
+        "hard_hit_pct": 45.2,
+        "barrel_pct": 9.6,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "5.1",
+              "er": 4,
+              "k": 3,
+              "bb": 1
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 3,
+              "k": 4,
+              "bb": 2
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "4.0",
+              "er": 9,
+              "k": 2,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 9.39
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -6456,7 +7352,45 @@
         "walks": 22,
         "hit_batters": 1,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 6.5,
+        "fip": 4.46,
+        "xera": 4.2,
+        "whiff_rate": null,
+        "hard_hit_pct": 39.3,
+        "barrel_pct": 6.8,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 9",
+              "opponent": "???",
+              "ip": "5.2",
+              "er": 3,
+              "k": 3,
+              "bb": 1
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 2,
+              "k": 4,
+              "bb": 2
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "7.0",
+              "er": 0,
+              "k": 6,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 2.41
+        }
       },
       "pitcher_home": {
         "name": "Yoshinobu Yamamoto",
@@ -6473,7 +7407,45 @@
         "walks": 15,
         "hit_batters": 3,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.4,
+        "fip": 3.38,
+        "xera": 3.32,
+        "whiff_rate": null,
+        "hard_hit_pct": 37.3,
+        "barrel_pct": 7.1,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 6",
+              "opponent": "???",
+              "ip": "8.0",
+              "er": 1,
+              "k": 4,
+              "bb": 0
+            },
+            {
+              "date": "Jun 13",
+              "opponent": "???",
+              "ip": "8.1",
+              "er": 1,
+              "k": 7,
+              "bb": 0
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 3,
+              "k": 6,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 2.01
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,
@@ -6974,7 +7946,45 @@
         "walks": 29,
         "hit_batters": 6,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.6,
+        "fip": 4.99,
+        "xera": 4.41,
+        "whiff_rate": null,
+        "hard_hit_pct": 42.3,
+        "barrel_pct": 11.4,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "4.2",
+              "er": 2,
+              "k": 6,
+              "bb": 4
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "4.2",
+              "er": 6,
+              "k": 3,
+              "bb": 2
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "6.0",
+              "er": 1,
+              "k": 7,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 5.28
+        }
       },
       "pitcher_home": {
         "name": "Emerson Hancock",
@@ -6991,7 +8001,45 @@
         "walks": 17,
         "hit_batters": 4,
         "source": "mlb_official",
-        "source_priority": 1
+        "source_priority": 1,
+        "k_per_9": 8.5,
+        "fip": 3.8,
+        "xera": 4.56,
+        "whiff_rate": null,
+        "hard_hit_pct": 44.7,
+        "barrel_pct": 10.6,
+        "small_sample": false,
+        "advanced_source": "baseball_savant",
+        "advanced_fetched_at": "2026-06-21T10:09:51Z",
+        "recent_starts": {
+          "starts": [
+            {
+              "date": "Jun 8",
+              "opponent": "???",
+              "ip": "5.0",
+              "er": 1,
+              "k": 3,
+              "bb": 2
+            },
+            {
+              "date": "Jun 14",
+              "opponent": "???",
+              "ip": "4.0",
+              "er": 6,
+              "k": 2,
+              "bb": 0
+            },
+            {
+              "date": "Jun 20",
+              "opponent": "???",
+              "ip": "5.1",
+              "er": 5,
+              "k": 6,
+              "bb": 2
+            }
+          ],
+          "rolling_era": 7.53
+        }
       },
       "pitchers_source": "mlb_official",
       "pitchers_source_priority": 1,

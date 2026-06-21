@@ -20,10 +20,11 @@
       "reason": "Sean Newcomb is missing SIERA/xFIP metrics, preventing reliable run projection. Total prices are flagged as stale across all books. Game abandoned due to incomplete data.",
       "data_gap": "missing Newcomb SIERA/xFIP",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "f34c6b3b5d4542734f725cdbf1200188",
@@ -41,10 +42,11 @@
       "reason": "NYY ML had a 7.3‑pt edge but was passed due to the slate’s three‑bet ceiling and the presence of larger edges elsewhere (PIT, MIN, SD). Total edge (0.23 runs) well below gate; Under is banned by Yankee Stadium’s HR park factor ≥110.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "afc026eb30e790d723cc4d99d1551154",
@@ -62,10 +64,11 @@
       "reason": "TOR had a 4.74‑pt side edge and the total had an Under edge of 0.75 runs, but total prices are suspect and the game was deprioritised under the slate ceiling in favour of higher‑conviction bets. Passed both markets.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "3efd1785852b80caaeeb2e4b8e8db0f2",
@@ -82,11 +85,12 @@
       "edge": "9.5 pts",
       "reason": "Buehler’s blended SIERA (3.94) outperforms Eovaldi’s (3.88) slightly and the Padres’ platoon advantage vs RHP (wRC+ 129) pushes their projected runs to 3.53 vs 3.21. Market gives SD only a 45.3% win probability against a modelled 54.3% — a 9.5‑point mispricing. Under had a 1.16‑run edge but was not bet due to the slate cap.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.16,
+      "clv": 3,
+      "closing_line": 113,
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "954f9616bdfe5989a3ed4cc8cc1b3472",
@@ -104,10 +108,11 @@
       "reason": "MIL side edge (5.79 pts) and Under edge (0.70 runs) both qualified but were overtaken by larger edges on the slate. Passed to stay within the bet limit.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "a36cc8e7c18477f87bd91d87f8839f49",
@@ -125,10 +130,11 @@
       "reason": "SF side edge only 3.15 pts (below the 4‑pt gate). Total Under edge hinges on roof status; if closed it falls to 0.38 runs, below the 0.50 threshold. Over is banned by HR factor ≤85. No actionable bet.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "71d79346a4e1f6058e517c895d646f2e",
@@ -146,10 +152,11 @@
       "reason": "Ian Seymour has only 6.0 career IP — a small‑sample starter that curbs confidence. Side edge negligible (≤0.4 pts), Over edge only 0.22 runs. Under is banned by Tropicana’s HR factor ≥110. All markets passed.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "d0bf798e1c85fe47d8160217d79b5a3e",
@@ -167,10 +174,11 @@
       "reason": "Cleveland’s side edge (0.89 pts) is far below gate. Total Over edge 0.27 runs, Under banned by Minute Maid’s HR factor. Roof likely closed, suppressing any weather boost. No bet.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "6344d2ce9df189689ed256d05cfcffb4",
@@ -188,10 +196,11 @@
       "reason": "Philadelphia had a 5.36‑pt side edge but was excluded by the slate cap in favour of higher‑edge plays. Total Under is banned (HR park) and the Over edge was negative. Pass.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "4bb2c510f37ac3221423f6fe96d81822",
@@ -208,11 +217,12 @@
       "edge": "14.3 pts",
       "reason": "Skenes’ elite SIERA (2.83) against Sugano’s 5.18, amplified by Coors Field, projects a Pirates runaway (8.65 vs 4.15 runs). Market win probability for PIT is only 65.1% vs modelled 79.4% — a 14.3‑pt mispricing. Total Over had a 3.64‑run edge but was not bet due to the two‑play 3‑unit limit.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 10,
+      "closing_line": -210,
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "11f0aee64edb29086a8ca3368f0fe44f",
@@ -230,10 +240,11 @@
       "reason": "LAA side edge only 3.84 pts. Total Over edge (3.40 runs) was large but was overtaken by higher‑priority 3‑unit plays on the slate; passed to respect the ceiling.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "bc0eb3e2abd5d0ddb3e22dc71abf652a",
@@ -250,11 +261,12 @@
       "edge": "13.4 pts",
       "reason": "Twins’ offence is humming (L10RS 6.0) while Gallen’s L14 SIERA sits at 5.00. Taj Bradley is solid for Arizona, but Minnesota’s run projection (5.39 vs 4.41) gives them a 59.1% win probability against a market 45.7% — a gap of 13.4 points. Total Over is banned by Chase Field’s HR factor ≤85; Under edge didn’t reach gate.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 3.45,
+      "clv": 4,
+      "closing_line": 111,
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "8e059160b850333f99e5414be7fede74",
@@ -272,10 +284,11 @@
       "reason": "Dodgers side edge (4.98 pts) and Over edge (1.16 runs) both qualified but were left off the card due to the slate cap and the presence of even stronger opportunities. Under is banned.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     },
     {
       "game_id": "c17cdf3ec5c9c493c782139a03e71bcc",
@@ -293,10 +306,11 @@
       "reason": "Seattle’s side edge (3.13 pts) is below gate. Under edge (0.74 runs) qualified but was not selected; both bullpens are missing closers, adding late‑game uncertainty. No bet.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-21T07:53:54Z"
     }
   ],
   "parlay": {
@@ -306,8 +320,9 @@
     "true_probability_est": "",
     "units": 0,
     "reason": "",
-    "result": null,
-    "profit_units": null
+    "result": "void",
+    "profit_units": 0.0,
+    "graded_at": "2026-06-21T07:53:54Z"
   },
   "best_bet": {
     "best_bet": "PIT ML -200 (Game 10)",
@@ -322,5 +337,6 @@
     "passes": 11,
     "units_risked": 7,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-21T07:53:54Z"
 }

@@ -357,7 +357,7 @@ This is your own measured track record from prior slates. It is
 information only; how you weigh it is your decision, and it changes
 no competition rule.
 
-Across your last 83 graded bet(s): record 45-38, unit-weighted ROI +8.5% (+9.24u on 109u risked).
+Across your last 86 graded bet(s): record 45-40-1P, unit-weighted ROI +6.5% (+7.24u on 112u risked).
 Average stated edge: 5.9 pts (some values estimated from pre-Jun-10 word labels).
-Closing line value (pick price vs closing snapshot): avg +17.8 cents over 83 bet(s). Positive CLV = buying better than closing price on average.
+Closing line value (pick price vs closing snapshot): avg +17.3 cents over 86 bet(s). Positive CLV = buying better than closing price on average.
 (1 void(s) excluded from record; 6 bet(s) pending grading.)

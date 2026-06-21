@@ -222,13 +222,26 @@ def determine_outcome(
 
     elif pick_market == "rl":
         run_diff = away_score - home_score   # positive = away won
+        # Determine -1.5 (favourite) vs +1.5 (underdog) side.
+        # MLB convention: the ML favourite is the RL -1.5 team.
+        # Use the opening ML price for the picked side; fall back to scanning pick_raw.
+        ml = (
+            (odds.get("opening_snapshot") or {}).get("moneyline")
+            or (odds.get("current_snapshot") or {}).get("moneyline")
+            or {}
+        )
+        side_ml = ml.get(pick_side)
+        if side_ml is not None:
+            is_minus_1_5 = int(side_ml) < 0
+        else:
+            is_minus_1_5 = "-1.5" in pick_raw   # explicit line in pick_raw (older format)
         if pick_side == "away":
-            if "-1.5" in pick_raw:
+            if is_minus_1_5:
                 return "win" if run_diff >= 2 else "loss"
             else:
                 return "win" if run_diff > -2 else "loss"
         elif pick_side == "home":
-            if "-1.5" in pick_raw:
+            if is_minus_1_5:
                 return "win" if run_diff <= -2 else "loss"
             else:
                 return "win" if run_diff < 2 else "loss"

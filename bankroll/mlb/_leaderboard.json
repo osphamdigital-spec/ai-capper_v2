@@ -1,54 +1,54 @@
 {
-  "updated_at": "2026-06-20T08:07:05Z",
+  "updated_at": "2026-06-21T07:53:55Z",
   "v3_start_date": "2026-06-19",
   "ranks": [
     {
       "rank": 1,
-      "model": "sonnet",
-      "balance": 10200.0,
-      "bets": 2
-    },
-    {
-      "rank": 2,
-      "model": "kimi",
-      "balance": 10037.0,
-      "bets": 3
-    },
-    {
-      "rank": 3,
-      "model": "gemini",
-      "balance": 10031.0,
-      "bets": 4
-    },
-    {
-      "rank": 4,
       "model": "grok",
       "balance": 9912.0,
       "bets": 3
     },
     {
-      "rank": 5,
+      "rank": 2,
       "model": "opus",
       "balance": 9900.0,
       "bets": 1
     },
     {
-      "rank": 6,
+      "rank": 3,
+      "model": "gemini",
+      "balance": 9864.0,
+      "bets": 8
+    },
+    {
+      "rank": 4,
       "model": "chatgpt",
-      "balance": 9826.0,
-      "bets": 3
+      "balance": 9716.0,
+      "bets": 6
+    },
+    {
+      "rank": 5,
+      "model": "kimi",
+      "balance": 9707.0,
+      "bets": 7
+    },
+    {
+      "rank": 6,
+      "model": "sonnet",
+      "balance": 9685.0,
+      "bets": 5
     },
     {
       "rank": 7,
       "model": "qwen",
-      "balance": 9819.0,
-      "bets": 5
+      "balance": 9168.0,
+      "bets": 8
     },
     {
       "rank": 8,
       "model": "deepseek",
-      "balance": 9293.0,
-      "bets": 3
+      "balance": 9154.0,
+      "bets": 6
     }
   ]
 }

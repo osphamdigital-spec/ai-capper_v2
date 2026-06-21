@@ -1275,7 +1275,7 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
         if rc:
             diag_path = out_dir / f"{model}_reasoning_raw.txt"
             diag_path.write_text(rc, encoding="utf-8")
-            print(f"\n  Diagnostic : reasoning trace saved → {diag_path.name}")
+            print(f"\n  Diagnostic : reasoning trace saved -> {diag_path.name}")
             print(f"               ({len(rc):,} chars — thinking trace only, NOT parseable as picks)")
         print(f"\nERROR: Kimi picks call FAILED — content field was empty.")
         print(f"  {model}_raw.txt has NOT been written.")
@@ -1594,7 +1594,7 @@ def _build_outcome_summaries(model: str, sport: str, date: str) -> str | None:
         if action == "bet" and pick_side:
             team_abbr  = _side_to_abbr(pick_side, res)
             price_str  = f" {int(price):+d}" if isinstance(price, (int, float)) else (f" {price}" if price else "")
-            result_str = f" → {result.upper()}" if result else " → (ungraded)"
+            result_str = f" -> {result.upper()}" if result else " -> (ungraded)"
             call = f"Bet: {team_abbr}{price_str}{result_str}"
         elif action == "lean" and pick_side:
             team_abbr = _side_to_abbr(pick_side, res)
@@ -2401,7 +2401,7 @@ def run_confirm_check(
         print(
             f"  {e['matchup']:<18}  {e['pick_raw']:<12}  "
             f"{e['cc_outcome']:<10}  {e['cc_driver']:<8}  "
-            f"{e['original_units']}u→{e['cc_new_units']}u{guard_flag}"
+            f"{e['original_units']}u->{e['cc_new_units']}u{guard_flag}"
         )
 
 

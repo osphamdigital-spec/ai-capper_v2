@@ -935,7 +935,8 @@ def _fmt_platoon_matchup(
     # -- previously returned [] when both pitcher hands unknown, but Fix 5 shows
     # both LHP/RHP splits in that case so the model can reason under uncertainty.
 
-    MIN_PA = 50
+    MIN_PA = 50       # guard for the team-wide SEASON AGGREGATE pool
+    MIN_PA_BAT = 25   # per-bat guard: bats below this are shown but excluded from the average
 
     def _one_side(team_abbr, lineup_side, splits, hand_label):
         """
@@ -969,18 +970,32 @@ def _fmt_platoon_matchup(
                 _, batter_stats = _team_wrc_aggregate(team_abbr, splits, min_pa=MIN_PA)
                 status_tag      = "SEASON AGGREGATE"
 
-        # Compact: vs_{hand}: wRC+:{avg} ({status}) key:Name1 wrc,Name2 wrc
+        # Per-batter line: vs_{hand}: wRC+:{avg}({status},n) Last{wrc}({pa}) ... | low-PA(excl): ...
+        # Every batter is shown with wRC+ AND plate appearances so the model can
+        # judge sample size itself. Bats below MIN_PA_BAT are EXCLUDED from the
+        # average (so a tiny-sample outlier like Callihan 370 wRC+ in 8 PA cannot
+        # inflate the lineup figure) but are still printed under "low-PA(excl)".
         block = []
 
         if batter_stats:
-            avg_wrc = round(sum(w for _, w, _ in batter_stats) / len(batter_stats))
-            sorted_s = sorted(batter_stats, key=lambda x: x[1], reverse=True)
-            key_parts = [f"{p[0].split()[-1]}{int(round(p[1]))}" for p in sorted_s[:3]]
-            status_short = {"CONFIRMED": "CFM", "REGULARS": "REG", "SEASON AGGREGATE": "AGG"}.get(status_tag, "AGG")
-            block.append(
-                f"  vs_{hand_label}: wRC+:{avg_wrc}({status_short}) "
-                f"key:{','.join(key_parts)}"
+            status_short = {"CONFIRMED": "CFM", "REGULARS": "REG",
+                            "SEASON AGGREGATE": "AGG"}.get(status_tag, "AGG")
+            sorted_s  = sorted(batter_stats, key=lambda x: x[1], reverse=True)
+            qualified = [p for p in sorted_s if p[2] >= MIN_PA_BAT]
+            lowpa     = [p for p in sorted_s if p[2] <  MIN_PA_BAT]
+            pool      = qualified or sorted_s  # fall back to all if none clear the guard
+            avg_wrc   = round(sum(w for _, w, _ in pool) / len(pool))
+
+            def _bat(p):
+                return f"{p[0].split()[-1]}{int(round(p[1]))}({int(p[2])})"
+
+            line = (
+                f"  vs_{hand_label}: wRC+:{avg_wrc}({status_short},n={len(pool)}) "
+                + " ".join(_bat(p) for p in qualified)
             )
+            if lowpa:
+                line += f" | low-PA<{MIN_PA_BAT}(excl): " + " ".join(_bat(p) for p in lowpa)
+            block.append(line)
         else:
             block.append(f"  vs_{hand_label}: wRC+:no-data")
 
@@ -1080,8 +1095,11 @@ def _fmt_pitcher_oneline(
         l14_ip = s14.get("ip") or 0
         if l14_ip >= 3:
             sm_flag = " [sm]" if l14_ip < 12 else ""
+            # K-BB% is stored as a fraction (0.087 == 8.7%), same as the AGG segment.
+            kbb14 = f"{s14['k_bb_pct'] * 100:.1f}%" if s14.get("k_bb_pct") is not None else "--"
             segments.append(
                 f"L14 xFIP {_f(s14.get('xfip'))} SIERA {_f(s14.get('siera'))}"
+                f" K-BB%:{kbb14}"
                 f" K/9:{_f(s14.get('k9'), '.1f')} BB/9:{_f(s14.get('bb9'), '.1f')}"
                 f" {l14_ip}IP{sm_flag}"
             )

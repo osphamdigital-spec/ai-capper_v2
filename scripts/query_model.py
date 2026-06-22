@@ -98,7 +98,8 @@ DEFAULT_KIMI_MODEL      = "kimi-k2.6"
 DEFAULT_QWEN_MODEL      = "qwen3.7-max"
 DEFAULT_GEMINI_MODEL    = "gemini-3.5-flash"
 DEFAULT_OPUS_MODEL      = "claude-opus-4-8"
-DEFAULT_SONNET_MODEL    = "claude-sonnet-4-6"
+# DEFAULT_SONNET_MODEL / SONNET_MAX_TOKENS_PICKS / SONNET_THINKING_BUDGET_PICKS
+# removed 2026-06-22 — sonnet deprecated, dispatch branch gone
 DEFAULT_FABLE_MODEL     = "claude-fable-5"
 
 # Anthropic models share one key and use the native Anthropic SDK (not openai-compat)
@@ -107,12 +108,6 @@ ANTHROPIC_MODELS = ("opus", "fable")
 
 ANTHROPIC_MAX_TOKENS_PICKS      = 16000
 ANTHROPIC_MAX_TOKENS_POSTMORTEM = 8000
-
-# Sonnet picks with extended thinking: max_tokens covers thinking + output combined.
-# Sonnet used ~10k output tokens on a 14-game slate; 10k thinking budget + 14k output
-# headroom = 24k total. Opus uses the shared default (thinking OFF).
-SONNET_MAX_TOKENS_PICKS      = 24000
-SONNET_THINKING_BUDGET_PICKS = 10000
 
 # Per-model output token budgets for picks mode.
 # DeepSeek splits the budget between reasoning tokens and response tokens --

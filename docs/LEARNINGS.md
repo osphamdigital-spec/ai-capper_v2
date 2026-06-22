@@ -5,6 +5,10 @@ Add an entry whenever something is discovered or fixed. Never delete entries.
 
 ---
 
+2026-06-22: Recurring pattern — Windows cp1252 console crashes on non-ASCII chars in print() calls. calc_calibration.py prints "CALIBRATION ═══ KIMI" (U+2550 box-drawing char) which garbles/errors on cp1252 terminals. Same class as the watcher banner (U+2550) and query_model.py (U+2192 arrow) fixed earlier. Script logic ran clean — this is cosmetic only, but the pattern keeps recurring. Standing rule: any new print() banner, separator line, or decision table must use ASCII-only chars (=, -, >, |). Scan for U+2500–U+257F (box drawing), U+2190–U+21FF (arrows), and U+2550 specifically when adding or reviewing print() output. Files with known live instances still to fix: calc_calibration.py separator lines.
+
+---
+
 2026-06-22: Claude Sonnet 4.6 deprecated from active competition. Retired from the active roster effective this date. All historical records retained permanently: picks/mlb/*/sonnet.json, sonnet_raw.txt, sonnet_postmortem.txt, sonnet_confirm.json, picks/calibration/sonnet_calibration.md, docs/methods/method_sonnet_v*.md, docs/methods/method_sonnet_totals_v*.md, docs/methods/authoring_query_sonnet.md, daily/mlb/*/prompt_sonnet.md. Bankroll row frozen (not rewritten) in bankroll/mlb/sonnet.json; sonnet row remains in _leaderboard.json tagged "deprecated": true via deprecated_models in bankroll/mlb/_config.json. Active roster drops to 7: kimi, chatgpt, opus, gemini, deepseek, qwen, grok. Removed from: docs/model_roster.md (## MLB active list), AUTOMATED_MODELS in run_picks_all.py + run_postmortem_all.py, ANTHROPIC_MODELS + dispatch + _CONFIRM_MAX_TOKENS in query_model.py, ALL_MODELS in log_confirmed_tracker.py, method date-range table in _build_totals_methods.py, API connection table in MODEL_INSTRUCTIONS.md.
 
 ---

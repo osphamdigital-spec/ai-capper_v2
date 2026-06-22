@@ -3193,7 +3193,7 @@ def build_confirm_check_prompt(model: str, sport: str, date: str) -> None:
         for pick in game_picks:
             market = (pick.get("pick_market") or "").upper()
             raw    = pick.get("pick_raw", "")
-            prompt_lines.append(f"PICK: {raw}  [market:{market}]")
+            prompt_lines.append(f"PICK: {raw}  [market:{market} gid:{gid}]")
             prompt_lines.append("OUTCOME: HOLD | CANCEL | DOWNGRADE | UPGRADE")
             prompt_lines.append("DRIVER: lineup | umpire | price | none")
             prompt_lines.append(

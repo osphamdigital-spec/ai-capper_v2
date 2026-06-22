@@ -484,6 +484,9 @@ def run_watcher(sport: str, date: str, poll_secs: int) -> None:
                         continue
                     models_in_cluster.setdefault(model, []).append(gid)
 
+            # Dedup: model with ML+total on same game produces gid twice (one entry per pick)
+            models_in_cluster = {m: list(dict.fromkeys(gids)) for m, gids in models_in_cluster.items()}
+
             if not models_in_cluster:
                 continue
 

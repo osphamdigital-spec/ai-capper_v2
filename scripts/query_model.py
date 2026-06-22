@@ -1925,6 +1925,7 @@ def _parse_confirm_response(
         _re.IGNORECASE | _re.MULTILINE,
     )
 
+    matched_pairs: set = set()   # (game_id, market) pairs already claimed by a gid-matched block
     for chunk in chunks:
         header_line = chunk.split("\n")[0].strip()
 
@@ -1985,25 +1986,33 @@ def _parse_confirm_response(
         if block_gid and block_market:
             matched_pick = pick_by_key.get((block_gid, block_market))
 
-        # Fallback: fuzzy pick_raw token overlap across all picks for this gid
-        if matched_pick is None:
-            block_raw_tokens = set(block_raw.upper().split())
-            for pick in cluster_picks:
-                if block_gid and pick.get("game_id") != block_gid:
-                    continue
-                if block_market and (pick.get("pick_market") or "").lower() != block_market:
-                    continue
-                pick_tokens = set((pick.get("pick_raw") or "").upper().split())
-                if pick_tokens & block_raw_tokens:
-                    matched_pick = pick
-                    break
+        # Fallback: only when gid absent. Match iff exactly one unclaimed pick of
+        # this market exists in the cluster — unambiguous. Two or more = don't guess.
+        if matched_pick is None and not block_gid and block_market:
+            unclaimed = [
+                p for p in cluster_picks
+                if (p.get("pick_market") or "").lower() == block_market
+                and (p.get("game_id"), (p.get("pick_market") or "").lower()) not in matched_pairs
+            ]
+            if len(unclaimed) == 1:
+                matched_pick = unclaimed[0]
+            elif len(unclaimed) > 1:
+                warnings.append(
+                    f"Block for '{block_raw}' [market:{block_market}]: gid absent and "
+                    f"{len(unclaimed)} unclaimed picks of market '{block_market}' in cluster "
+                    f"— ambiguous, block skipped (pick will auto-HOLD)"
+                )
+                continue
 
         if matched_pick is None:
             warnings.append(
                 f"Block for '{block_raw}' [gid:{block_gid} market:{block_market}] "
-                f"could not be matched to any pick — skipped"
+                f"could not be matched to any pick — block skipped (pick will auto-HOLD)"
             )
             continue
+
+        # Mark claimed so a later block in this call can't bind to the same pick
+        matched_pairs.add((matched_pick.get("game_id"), (matched_pick.get("pick_market") or "").lower()))
 
         results.append({
             "game_id":         matched_pick.get("game_id"),
@@ -2127,7 +2136,8 @@ def _apply_confirm_guards(
         n_games     = _n_slate_games(sport, date, root)
         ceiling     = _slate_ceiling(n_games)
         already_bet = _total_wagered_units(model, sport, date, root)
-        final_units = result.get("new_units") or original_units
+        # 0 is a valid value (CANCEL / downgrade-to-zero), not a missing field
+        final_units = result.get("new_units") if result.get("new_units") is not None else original_units
         delta       = max(0.0, float(final_units) - float(original_units))
         if already_bet + delta > ceiling:
             headroom = max(0.0, ceiling - already_bet)

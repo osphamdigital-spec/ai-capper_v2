@@ -66,6 +66,7 @@ Appends (post-mortem mode):
 import argparse
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime
@@ -1336,170 +1337,190 @@ def _build_confirmed_section(model: str, sport: str, date: str) -> str | None:
     Build the CONFIRMED DATA EVALUATION block for the post-mortem prompt.
 
     Only includes games where this model BET or LEANED (not passes).
-    Reads:
-      - picks/{sport}/{date}/{model}.json              (to find bet/lean games)
-      - data/{sport}/{date}/confirmed_data.json        (actual lineup + umpire)
-      - data/{sport}/{date}/rotowire_lineups.json      (pre-game expected lineup,
-                                                        optional — added if present)
 
-    Returns a formatted block string, or None if confirmed_data.json is absent
-    (i.e. fetch_confirmed_data.py hasn't been run yet for this slate).
+    Source chain (no confirmed_data.json / fetch_confirmed_data.py needed):
+      - picks/{sport}/{date}/{model}.json            (bet/lean picks + game_ids)
+      - data/{sport}/{date}/games.json               (confirmed lineups from watcher)
+      - daily/{sport}/{date}/{model}_confirm.json    (cc_outcome/cc_driver/cc_cited_fact)
+      - daily/{sport}/{date}/confirm_prompt_{model}.md  (pre-computed wRC+ Run-1/Now lines)
+
+    Returns a formatted block string, or None if picks JSON or games.json is absent.
     """
-    picks_path    = PROJECT_ROOT / "picks" / sport / date / f"{model}.json"
-    confirmed_path = PROJECT_ROOT / "data" / sport / date / "confirmed_data.json"
+    picks_path   = PROJECT_ROOT / "picks"  / sport / date / f"{model}.json"
+    games_path   = PROJECT_ROOT / "data"   / sport / date / "games.json"
+    confirm_path = PROJECT_ROOT / "daily"  / sport / date / f"{model}_confirm.json"
+    cprompt_path = PROJECT_ROOT / "daily"  / sport / date / f"confirm_prompt_{model}.md"
 
-    if not confirmed_path.exists():
-        return None
-    if not picks_path.exists():
+    if not picks_path.exists() or not games_path.exists():
         return None
 
     try:
-        picks_raw      = json.loads(picks_path.read_text(encoding="utf-8"))
-        confirmed_data = json.loads(confirmed_path.read_text(encoding="utf-8"))
+        picks_raw = json.loads(picks_path.read_text(encoding="utf-8"))
+        games_raw = json.loads(games_path.read_text(encoding="utf-8"))
     except Exception:
         return None
 
-    # Load Rotowire pre-game expected lineups (optional — absent if run_daily.py
-    # was not executed that morning or Rotowire was unreachable).
-    rotowire_idx = _load_rotowire_index(sport, date)
-
-    # picks JSON is {"picks": [...], ...} — extract the list
     picks_data = picks_raw.get("picks", picks_raw) if isinstance(picks_raw, dict) else picks_raw
+    games_list = games_raw if isinstance(games_raw, list) else games_raw.get("games", [])
 
-    games_confirmed = confirmed_data.get("games", {})
+    # Index games.json entries by game_id
+    game_by_id = {g["game_id"]: g for g in games_list if g.get("game_id")}
 
-    # Find games where model BET or LEANED
-    engaged_games = []
+    # Load confirm-check decisions indexed by (game_id, pick_market)
+    cc_by_key: dict = {}
+    if confirm_path.exists():
+        try:
+            cc_data = json.loads(confirm_path.read_text(encoding="utf-8"))
+            for entry in cc_data.get("picks", []):
+                gid    = entry.get("game_id", "")
+                market = (entry.get("pick_market") or "").lower()
+                if gid:
+                    cc_by_key[(gid, market)] = entry
+                    # Also store without market as fallback key
+                    cc_by_key.setdefault((gid, ""), entry)
+        except Exception:
+            pass
+
+    # Parse per-game wRC+ blocks from confirm_prompt_{model}.md (already computed by
+    # build_prompt.py --confirm-check).  Extract lines starting with Run-1 / Now.
+    # Header format: ## GAME: CIN @ NYY  (...)  [gid:HASH]
+    cprompt_wrc: dict = {}  # gid -> {abbr -> [wrc_line, ...]}
+    if cprompt_path.exists():
+        try:
+            cprompt_text = cprompt_path.read_text(encoding="utf-8")
+            for blk_m in re.finditer(
+                r"##\s+GAME:[^\[]*\[gid:([A-Za-z0-9_]+)\](.*?)(?=\n##\s+GAME:|\Z)",
+                cprompt_text, re.DOTALL
+            ):
+                gid      = blk_m.group(1)
+                blk_body = blk_m.group(2)
+                wrc_lines = [
+                    l.strip() for l in blk_body.split("\n")
+                    if l.strip().startswith(("Run-1", "Now"))
+                ]
+                if wrc_lines:
+                    cprompt_wrc[gid] = wrc_lines
+        except Exception:
+            pass
+
+    # Collect bet/lean picks that have a games.json entry
+    engaged: list = []
     for pick in picks_data:
         action = (pick.get("action") or "").lower()
         if action not in ("bet", "lean"):
             continue
-        matchup = pick.get("matchup", "")
-        if matchup not in games_confirmed:
+        gid = pick.get("game_id", "")
+        if not gid or gid not in game_by_id:
             continue
-        engaged_games.append((pick, games_confirmed[matchup]))
+        engaged.append((pick, game_by_id[gid]))
 
-    if not engaged_games:
+    if not engaged:
         return None
 
-    has_rotowire = bool(rotowire_idx)
     ANTI_HINDSIGHT = (
-        "## CONFIRMED DATA EVALUATION (lineup + umpire)\n"
-        + (
-            "PRE-GAME EXPECTED (Rotowire) is shown first — this WAS knowable before "
-            "first pitch. ACTUAL CONFIRMED (MLB API) follows — this was NOT available "
-            "pre-game. "
-            if has_rotowire else
-            "The confirmed lineup was NOT available pre-game. "
-        )
-        + "Using ONLY the pre-game STATS of these players/umpire — NOT the game result — "
-        "would this confirmed data have changed your pick? You MUST cite a specific "
-        "pre-game-knowable reason (platoon mismatch, key hitter resting, umpire zone "
-        "tendency). If the confirmed lineup matches your team-level assumption, say "
-        "'no change'. Do NOT reason from what happened in the game. A would-change "
-        "call with no specific pre-game reason is invalid."
+        "## CONFIRMED DATA EVALUATION (lineup)\n"
+        "The lineup data below was NOT available when you placed your pick. "
+        "Using ONLY the pre-game stats of these confirmed players — NOT the game result — "
+        "evaluate whether the confirmed lineup materially changed your edge. "
+        "Cite a specific pre-game-knowable reason if you would have changed your pick "
+        "(platoon mismatch, key hitter resting, late-scratch). "
+        "Do NOT reason from what happened in the game. "
+        "A would-change call with no specific pre-game reason is invalid."
     )
-
     blocks = [ANTI_HINDSIGHT]
 
-    for pick, cd in engaged_games:
-        matchup      = pick.get("matchup", "")
-        action       = pick.get("action", "").upper()
-        pick_side    = pick.get("pick_side", "")
-        price        = pick.get("price", "")
-        units        = pick.get("units", "")
-        bet_type     = pick.get("bet_type", "ML")
-        away_abbr, _, home_abbr = matchup.partition(" @ ")
+    for pick, game in engaged:
+        matchup   = pick.get("matchup", "")
+        action    = (pick.get("action") or "").upper()
+        pick_side = pick.get("pick_side", "")
+        price     = pick.get("price", "")
+        units     = pick.get("units", "")
+        bet_type  = pick.get("bet_type", "ML")
+        gid       = pick.get("game_id", "")
+        market    = (pick.get("pick_market") or bet_type or "ml").lower()
 
-        # Resolve pick label
         if action == "BET":
-            price_str = f" {price}" if price and price != "N/A" else ""
-            units_str = f" ({units}u)" if units and units not in ("PASS", "LEAN") else ""
+            price_str  = f" {price}" if price and price != "N/A" else ""
+            units_str  = f" ({units}u)" if units and units not in ("PASS", "LEAN") else ""
             call_label = f"BET {pick_side} {bet_type}{price_str}{units_str}"
         else:
             call_label = f"LEAN {pick_side}"
 
-        # Away team bats vs home SP; home team bats vs away SP
-        away_hand = cd.get("away_sp_hand", "R")
-        home_hand = cd.get("home_sp_hand", "R")
+        away_abbr, _, home_abbr = matchup.partition(" @ ")
 
         block_lines = [
-            f"\n---\n",
+            "\n---\n",
             f"### GAME: {matchup} — YOUR CALL: {call_label}\n",
         ]
 
-        # ── PRE-GAME EXPECTED (Rotowire) ──────────────────────────────────────
-        # Show what was knowable before first pitch, if we captured it.
-        rw_game = rotowire_idx.get(frozenset({away_abbr, home_abbr}))
-        if rw_game:
-            block_lines.append("#### PRE-GAME EXPECTED LINEUPS (Rotowire — knowable before first pitch)")
-            rw_away_hand = cd.get("away_sp_hand", "R")  # away SP throws → home batters face it
-            rw_home_hand = cd.get("home_sp_hand", "R")  # home SP throws → away batters face it
-            away_rw_lines = _fmt_rotowire_side(
-                rw_game.get("away_order", []),
-                away_abbr,
-                vs_hand=rw_home_hand,   # away bats vs home SP
-                status=rw_game.get("away_status", "unknown"),
-            )
-            home_rw_lines = _fmt_rotowire_side(
-                rw_game.get("home_order", []),
-                home_abbr,
-                vs_hand=rw_away_hand,   # home bats vs away SP
-                status=rw_game.get("home_status", "unknown"),
-            )
-            block_lines.extend(away_rw_lines)
+        # ── Confirmed batting orders from games.json ───────────────────────────
+        lineups    = game.get("context", {}).get("lineups", {})
+        away_lu    = lineups.get("away", {})
+        home_lu    = lineups.get("home", {})
+
+        for abbr, lu in [(away_abbr, away_lu), (home_abbr, home_lu)]:
+            status    = lu.get("status", "unknown")
+            order     = lu.get("order", [])
+            il_raw    = lu.get("il_absences", [])
+            status_lbl = "CONFIRMED" if status == "confirmed" else f"status:{status}"
+            block_lines.append(f"{abbr} BATTING ORDER ({status_lbl}):")
+            for p in order:
+                bat  = p.get("bat_order", "?")
+                name = p.get("name", "?")
+                pos  = p.get("pos", "")
+                block_lines.append(f"  {bat}. {name}" + (f" ({pos})" if pos else ""))
+            # IL absences — may be list of strings or list of dicts
+            if il_raw:
+                il_names = [
+                    (x.get("name", str(x)) if isinstance(x, dict) else str(x))
+                    for x in il_raw
+                ]
+                block_lines.append(f"  IL: {', '.join(il_names)}")
+            else:
+                block_lines.append("  IL: none")
             block_lines.append("")
-            block_lines.extend(home_rw_lines)
+
+        # ── wRC+ Run-1 vs Now (extracted from confirm_prompt_{model}.md) ──────
+        wrc_lines = cprompt_wrc.get(gid)
+        if wrc_lines:
+            block_lines.append("LINEUP wRC+ (Run-1 = your prompt snapshot; Now = confirmed):")
+            for l in wrc_lines:
+                block_lines.append(f"  {l}")
             block_lines.append("")
-            block_lines.append("#### ACTUAL CONFIRMED LINEUPS (MLB API — post-game)")
+        else:
+            block_lines.append("LINEUP wRC+: not available (confirm-check prompt not found)")
+            block_lines.append("")
 
-        # Away batting order (bats vs home SP hand)
-        away_lu  = cd.get("away_lineup", [])
-        away_avg = cd.get("away_avg_wrc")
-        block_lines.append(
-            f"{away_abbr} BATTING ORDER (vs {home_hand}HP):"
-        )
-        for i, batter in enumerate(away_lu, 1):
-            wrc = batter.get("wrc_plus")
-            wrc_str = f"wRC+ vs {'LHP' if home_hand == 'L' else 'RHP'}: {int(wrc)}" if wrc is not None else "wRC+: N/A"
-            block_lines.append(f"  {i}. {batter['name']} — {wrc_str}")
-        if away_avg is not None:
-            block_lines.append(f"  [lineup avg wRC+: {away_avg}]")
-
-        block_lines.append("")
-
-        # Home batting order (bats vs away SP hand)
-        home_lu  = cd.get("home_lineup", [])
-        home_avg = cd.get("home_avg_wrc")
-        block_lines.append(
-            f"{home_abbr} BATTING ORDER (vs {away_hand}HP):"
-        )
-        for i, batter in enumerate(home_lu, 1):
-            wrc = batter.get("wrc_plus")
-            wrc_str = f"wRC+ vs {'LHP' if away_hand == 'L' else 'RHP'}: {int(wrc)}" if wrc is not None else "wRC+: N/A"
-            block_lines.append(f"  {i}. {batter['name']} — {wrc_str}")
-        if home_avg is not None:
-            block_lines.append(f"  [lineup avg wRC+: {home_avg}]")
-
-        block_lines.append("")
-        umpire = cd.get("umpire") or "unknown"
-        block_lines.append(f"HOME PLATE UMPIRE: {umpire}")
-        block_lines.append("")
-
-        # Response fields
-        response_fields = []
-        if rw_game:
-            # Model can compare expected vs actual — did the lineup change materially?
-            response_fields.append(
-                "EXPECTED vs ACTUAL: [lineup matched / key change — who was added/dropped]"
+        # ── Confirm-check decision (T-60 min) ─────────────────────────────────
+        cc = cc_by_key.get((gid, market)) or cc_by_key.get((gid, ""))
+        if cc:
+            cc_outcome = cc.get("cc_outcome", "")
+            cc_driver  = cc.get("cc_driver",  "")
+            cc_cited   = cc.get("cc_cited_fact", "")
+            cc_units   = cc.get("cc_new_units")
+            block_lines.append("CONFIRM-CHECK DECISION (T-60 min before first pitch):")
+            block_lines.append(f"  Outcome : {cc_outcome}")
+            block_lines.append(f"  Driver  : {cc_driver}")
+            if cc_cited:
+                block_lines.append(f"  Cited   : {cc_cited}")
+            if cc_outcome in ("CANCEL", "DOWNGRADE", "UPGRADE") and cc_units is not None:
+                block_lines.append(f"  Units   : {cc_units}")
+            warn = cc.get("cc_parse_warning")
+            if warn:
+                block_lines.append(f"  Warning : {warn}")
+        else:
+            block_lines.append(
+                "CONFIRM-CHECK DECISION: not available "
+                "(watcher did not fire for this game, or this is a LEAN with no action)"
             )
-        response_fields.extend([
+        block_lines.append("")
+
+        # ── Response fields ────────────────────────────────────────────────────
+        block_lines.extend([
             "CONFIRMED LINEUP vs YOUR ASSUMPTION: [materially different / roughly as expected]",
-            "WOULD CHANGE? [no change / lean→bet / bet→pass / bet→other side / bet→higher stake / bet→lower stake]",
-            "PRE-GAME REASON (required if WOULD CHANGE ≠ no change):",
-            "UMPIRE WOULD CHANGE? [yes/no] — pre-game reason:",
+            "WOULD CHANGE? [no change / lean->bet / bet->pass / bet->other side / bet->higher stake / bet->lower stake]",
+            "PRE-GAME REASON (required if WOULD CHANGE != no change):",
         ])
-        block_lines.extend(response_fields)
 
         blocks.append("\n".join(block_lines))
 
@@ -1700,8 +1721,8 @@ def run_postmortem(model: str, sport: str, date: str, dry_run: bool, reasoning_e
     else:
         print(f"Outcome summaries: not available (missing picks JSON or results JSON)")
 
-    # --- Build confirmed data evaluation section (lineup + umpire) ----------
-    # Only injected if fetch_confirmed_data.py has been run for this date.
+    # --- Build confirmed data evaluation section (lineup) --------------------
+    # Reads from games.json + {model}_confirm.json — no fetch_confirmed_data.py needed.
     # Covers bet/lean games only — not passes.
     confirmed_block = _build_confirmed_section(model, sport, date)
     if confirmed_block:

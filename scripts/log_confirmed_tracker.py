@@ -69,11 +69,13 @@ def _parse_confirmed_blocks(postmortem_text: str) -> list[dict]:
     Returns list of dicts with raw field values.
 
     Three section header formats across models:
-      Standard: "## CONFIRMED DATA EVALUATION (lineup + umpire)"  [chatgpt/deepseek/gemini/kimi/qwen/sonnet]
-      Opus:     "## CONFIRMED DATA EVALUATION — TB @ LAD"         [game name in header, no ### GAME: sub-blocks]
-      Grok:     "**CONFIRMED DATA EVALUATION**"                   [bold, game blocks use "GAME:" not "### GAME:"]
+      Standard: "## CONFIRMED DATA EVALUATION (lineup)"  [chatgpt/deepseek/gemini/kimi/qwen]
+      Opus:     "## CONFIRMED DATA EVALUATION — TB @ LAD"  [game name in header]
+      Grok:     "**CONFIRMED DATA EVALUATION**"            [bold, GAME: not ### GAME:]
 
-    Terminator uses [^#] to avoid stopping at ### GAME: sub-headers (### starts with ##).
+    Handles legacy "(lineup + umpire)" suffix from pre-2026-06-22 post-mortems.
+    Umpire fields (ump_would_change, ump_reason) are no longer emitted — removed 2026-06-22.
+    Terminator uses [^#] to avoid stopping at ### GAME: sub-headers.
     """
     # Group 1: optional header suffix (e.g. " — TB @ LAD" for Opus, "" or "**" for others)
     # Group 2: section body
@@ -121,25 +123,8 @@ def _parse_confirmed_blocks(postmortem_text: str) -> list[dict]:
             r"WOULD CHANGE\?\s*(.+?)(?:\n|$)", block
         )
         pre_game_reason = _extract(
-            r"PRE-GAME REASON[^:]*:\s*(.+?)(?:\n|UMPIRE|$)", block
+            r"PRE-GAME REASON[^:]*:\s*(.+?)(?:\n|$)", block
         )
-        umpire_line = _extract(
-            r"UMPIRE WOULD CHANGE\?\s*(.+?)(?:\n|$)", block
-        )
-
-        # Parse umpire_would_change and its reason from the combined field
-        # Format: "yes/no — pre-game reason: ..."
-        ump_change = "no"
-        ump_reason = ""
-        ump_match = re.match(r"(yes|no)\s*[—–-]+\s*pre-game reason:\s*(.*)", umpire_line, re.IGNORECASE)
-        if ump_match:
-            ump_change = ump_match.group(1).lower()
-            ump_reason = ump_match.group(2).strip()
-        elif umpire_line.lower().startswith("yes"):
-            ump_change = "yes"
-            ump_reason = re.sub(r"^yes\s*[—–-]*\s*", "", umpire_line, flags=re.IGNORECASE).strip()
-        elif umpire_line.lower().startswith("no"):
-            ump_change = "no"
 
         # Normalise would_change to known options (strip brackets if unfilled)
         wc_clean = would_change.strip("[]").lower()
@@ -156,8 +141,6 @@ def _parse_confirmed_blocks(postmortem_text: str) -> list[dict]:
             "confirmed_lineup": confirmed_lineup,
             "would_change":     wc_clean,
             "pre_game_reason":  pre_game_reason,
-            "ump_would_change": ump_change,
-            "ump_reason":       ump_reason,
         })
 
     return results
@@ -385,8 +368,8 @@ def run(sport: str, date: str, models: list[str]):
                 "would_change":           would_change,
                 "pre_game_reason":        pre_reason,
                 "reason_supported":       reason_supported,
-                "umpire_would_change":    b["ump_would_change"],
-                "umpire_pre_game_reason": b["ump_reason"],
+                "umpire_would_change":    b.get("ump_would_change", ""),   # retired 2026-06-22
+                "umpire_pre_game_reason": b.get("ump_reason", ""),          # retired 2026-06-22
                 "actual_game_result":     actual_score,
                 "hypothetical_result":    hypo,
                 "hypothetical_unit_delta": round(delta, 2),

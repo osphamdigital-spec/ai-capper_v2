@@ -3,14 +3,13 @@
 scripts/run_daily_2.py
 
 Post-game orchestrator — the counterpart to run_daily.py.
-Chains fetch_results → fetch_confirmed_data → run_postmortem_all → calc_calibration → build_bankroll
+Chains fetch_results → run_postmortem_all → calc_calibration → build_bankroll
 in the correct order, with guards, so it stops being run manually
 one script at a time.
 
 Usage:
     python scripts/run_daily_2.py mlb
     python scripts/run_daily_2.py mlb --date 2026-06-15
-    python scripts/run_daily_2.py mlb --date 2026-06-15 --skip-confirmed
     python scripts/run_daily_2.py mlb --date 2026-06-15 --rerun
     python scripts/run_daily_2.py mlb --date 2026-06-15 --no-grade
 
@@ -19,17 +18,14 @@ Chain (in order):
                                 grade_picks.py internally (unless --no-grade).
                                 Also manages post-mortem file (pastes results,
                                 creates tomorrow's folder/template/raw stubs).
-    2. fetch_confirmed_data.py REQUIRED by default — fetches confirmed lineups
-                                + HP umpire into confirmed_data.json.
-                                MUST run before step 3 or post-mortems go out
-                                without the confirmed-data section.
-                                Halt if confirmed game count < slate game count
-                                (boxscores not posted yet). Use --skip-confirmed
-                                to override and proceed without confirmed data.
-    3. run_postmortem_all.py   RUNS regardless of individual-model failures —
+    2. run_postmortem_all.py   RUNS regardless of individual-model failures —
                                 per-model failures are handled internally with
                                 retry logic. The orchestrator does not halt on
                                 a non-zero exit from this step.
+
+NOTE: fetch_confirmed_data.py (formerly step 2) is retired — confirmed lineup
+data is now sourced from games.json context.lineups (written by the watcher
+layer). --skip-confirmed is accepted but has no effect.
 
 Pre-flight guard:
     Checks that logged pick files ({model}.json) exist for the target date
@@ -263,7 +259,7 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
     print(f"  Date   : {target_date}")
     print(f"  Started: {datetime.now().strftime('%H:%M ET')}")
     if skip_confirmed:
-        print(f"  NOTE   : --skip-confirmed active — will not halt on missing confirmed data")
+        print(f"  NOTE   : --skip-confirmed passed (no-op — fetch_confirmed_data.py retired)")
 
     # ── PRE-FLIGHT: confirm logged pick files exist ───────────────────────────
     # grade_picks.py (auto-chained inside fetch_results) needs {model}.json files.
@@ -307,63 +303,7 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
         print(f"    python scripts/run_daily_2.py {sport} --date {target_date}")
         sys.exit(1)
 
-    # ── STEP 2: fetch_confirmed_data.py ──────────────────────────────────────
-    # Fetches confirmed batting orders + HP umpire into confirmed_data.json.
-    # MUST complete before step 3 — query_model.py injects the confirmed-data
-    # section from this file at post-mortem time.
-    #
-    # NOTE: sport is a POSITIONAL arg for fetch_confirmed_data.py (unlike --sport
-    # for the other scripts). The call below is intentionally different.
-    ok, elapsed = run_step(
-        "Fetch Confirmed Data",
-        "fetch_confirmed_data.py",
-        [sport, "--date", target_date],   # sport is positional here
-    )
-    # fetch_confirmed_data.py always exits 0 (per-game errors are caught internally).
-    # We can't rely on exit code — must check the output file instead.
-
-    # Partial-aware confirmed-data guard: compare confirmed count against slate size.
-    confirmed_count, slate_count = _check_confirmed_data(sport, target_date)
-    missing = slate_count - confirmed_count
-
-    if slate_count == 0:
-        # games.json itself is missing or empty — something is badly wrong
-        print(f"\n{'!' * 55}")
-        print(f"  WARNING: Could not read slate size from games.json.")
-        print(f"  Cannot verify confirmed data coverage.")
-        print(f"{'!' * 55}")
-        if not skip_confirmed:
-            print(f"\n  Halting. Use --skip-confirmed to proceed without confirmed data.")
-            sys.exit(1)
-
-    elif missing > 0:
-        # Partial or total confirmed-data failure
-        print(f"\n{'!' * 55}")
-        if confirmed_count == 0:
-            print(f"  WARNING: Confirmed data: 0 of {slate_count} games")
-            print(f"  All boxscores returned no data — likely too early.")
-        else:
-            print(f"  WARNING: Confirmed data: {confirmed_count} of {slate_count} games")
-            print(f"  {missing} game(s) missing — those post-mortems will have no")
-            print(f"  confirmed lineup section. Boxscores may not be posted yet.")
-        print(f"")
-        print(f"  To proceed with full confirmed data:")
-        print(f"    Wait for boxscores to post, then re-run:")
-        print(f"    python scripts/run_daily_2.py {sport} --date {target_date}")
-        print(f"")
-        print(f"  To proceed without confirmed data for missing games:")
-        print(f"    python scripts/run_daily_2.py {sport} --date {target_date} --skip-confirmed")
-        print(f"{'!' * 55}")
-
-        if not skip_confirmed:
-            sys.exit(1)
-        else:
-            print(f"\n  --skip-confirmed: proceeding with partial confirmed data ({confirmed_count}/{slate_count} games).")
-
-    else:
-        print(f"\n  Confirmed data: {confirmed_count}/{slate_count} games — all present.")
-
-    # ── PRE-STEP-3: integrity check — filter models with no game context ──────
+    # ── PRE-STEP-2: integrity check — filter models with no game context ──────
     # counts.games=0 in a picks JSON means fetch failure or parse failure.
     # Sending a post-mortem for these models produces groundless fabrication.
     # Pass only ok_models to run_postmortem_all via --models flag.
@@ -386,10 +326,10 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
         if skip_models:
             print(f"  Proceeding with {len(ok_models)} model(s): {', '.join(ok_models)}")
 
-        # ── STEP 3: run_postmortem_all.py ─────────────────────────────────────
+        # ── STEP 2: run_postmortem_all.py ─────────────────────────────────────
         # Sends post-mortem queries to all clean models via their respective APIs.
-        # query_model.py reads confirmed_data.json and injects the confirmed-data
-        # section automatically — no extra args needed here.
+        # query_model.py builds the confirmed-data section from games.json
+        # context.lineups + {model}_confirm.json (no confirmed_data.json needed).
         #
         # run_postmortem_all handles per-model skipping (already-done guard),
         # one built-in retry per model at 90s, and its own failure summary.
@@ -445,18 +385,18 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
     print(f"{'-' * 55}")
     run_step("Compare Lineups", "compare_lineups.py", ["--sport", sport, "--date", target_date])
 
-    # ── STEP 4: CALIBRATION UPDATE ────────────────────────────────────────────
+    # ── STEP 3: CALIBRATION UPDATE ────────────────────────────────────────────
     # Refresh per-model calibration stats after grading is complete.
     # Only runs when postmortems are all OK — avoids partial-night skew.
     # Output: picks/calibration/{model}_calibration.md  (overwrites previous).
     # These files are read by Phase 5b to inject stats into the next prompt.
     if ok_models and not incomplete:
         print(f"\n{'-' * 55}")
-        print(f"  STEP 4: Calibration update")
+        print(f"  STEP 3: Calibration update")
         print(f"{'-' * 55}")
         run_step("Calc Calibration", "calc_calibration.py", ["--sport", sport])
 
-    # ── STEP 5: BANKROLL UPDATE (v3) ──────────────────────────────────────────
+    # ── STEP 4: BANKROLL UPDATE (v3) ──────────────────────────────────────────
     # Rebuild per-model bankroll accounts + leaderboard from graded picks.
     # Idempotent and downstream of grading ONLY — runs whenever grading happened
     # (independent of post-mortem completeness), because the bankroll feeds the
@@ -467,7 +407,7 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
     # no-op on balances until v3 goes live.
     if not no_grade:
         print(f"\n{'-' * 55}")
-        print(f"  STEP 5: Bankroll update (v3)")
+        print(f"  STEP 4: Bankroll update (v3)")
         print(f"{'-' * 55}")
         run_step("Build Bankroll", "build_bankroll.py", ["--sport", sport])
 
@@ -481,7 +421,7 @@ def run_post_game(sport: str, date: str = None, no_grade: bool = False,
     if not no_grade:
         print(f"    results/{sport}/{target_date}/grades.json")
         print(f"    results/{sport}/{target_date}/best_bets.json")
-    print(f"    data/{sport}/{target_date}/confirmed_data.json")
+
     print(f"    picks/{sport}/{target_date}/{{model}}_postmortem.txt  (x8)")
     print(f"    picks/{sport}/{target_date}/post_mortem_{target_date}.txt")
     if ok_models and not incomplete:
@@ -506,8 +446,8 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(
         description=(
-            "Post-game orchestrator. Chains fetch_results → fetch_confirmed_data "
-            "→ run_postmortem_all in the correct order with guards. "
+            "Post-game orchestrator. Chains fetch_results → run_postmortem_all "
+            "→ calc_calibration → build_bankroll in the correct order with guards. "
             "Requires logged pick files ({model}.json) to exist for the target date."
         )
     )
@@ -525,11 +465,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--skip-confirmed", action="store_true",
-        help=(
-            "Proceed to post-mortems even if confirmed_data.json is missing "
-            "or incomplete. Post-mortems for games without confirmed data will "
-            "have no confirmed lineup section."
-        )
+        help="Deprecated/no-op. fetch_confirmed_data.py is retired; confirmed data comes from games.json."
     )
     parser.add_argument(
         "--rerun", action="store_true",

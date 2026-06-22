@@ -2906,13 +2906,16 @@ def _lineup_wrc_confirm(order: list, splits: dict, min_pa: int = 25) -> list:
 
 
 def _fmt_wrc_summary(batter_stats: list, vs_hand: str, status_tag: str,
-                     min_pa_excl: int = 25) -> str:
+                     min_pa_excl: int = 25, lineup_size: int | None = None) -> str:
     """
     Format a single wRC+ summary line in the same style as the Run-1
     PLATOON MATCHUP block, so before/after numbers are directly comparable.
 
     Example:
       vs_RHP: wRC+:112(CFM,n=7) Soto134(210) Judge91(180) ...
+
+    lineup_size: expected batter count (9). If provided and len(batter_stats) < 7,
+    appends [LOW-MATCH: n/lineup_size] to flag a low-confidence aggregate.
     """
     if not batter_stats:
         return f"  vs_{vs_hand}: wRC+:no-data ({status_tag})"
@@ -2932,6 +2935,8 @@ def _fmt_wrc_summary(batter_stats: list, vs_hand: str, status_tag: str,
     )
     if lowpa:
         line += f" | low-PA<{min_pa_excl}(excl): " + " ".join(_bat(p) for p in lowpa[:4])
+    if lineup_size is not None and len(batter_stats) < 7:
+        line += f" [LOW-MATCH: {len(batter_stats)}/{lineup_size}]"
     return line
 
 
@@ -3166,25 +3171,29 @@ def build_confirm_check_prompt(model: str, sport: str, date: str) -> None:
                 after_stats = _lineup_wrc_confirm(order, splits)
                 after_tag   = "CFM"
 
-                before_line = _fmt_wrc_summary(before_stats, vs_label, before_tag)
-                after_line  = _fmt_wrc_summary(after_stats,  vs_label, after_tag)
+                before_line = _fmt_wrc_summary(before_stats, vs_label, before_tag, lineup_size=9)
+                after_line  = _fmt_wrc_summary(after_stats,  vs_label, after_tag,  lineup_size=9)
                 prompt_lines.append(f"  Run-1  {before_line.strip()}")
                 prompt_lines.append(f"  Now    {after_line.strip()}")
+
+                # Named diff: only meaningful when Run-1 used projected order (REG tier)
+                if before_tag != "CFM":
+                    before_names = {s[0].split()[-1].lower() for s in before_stats}
+                    after_names  = {s[0].split()[-1].lower() for s in after_stats}
+                    scratched    = sorted(before_names - after_names)
+                    added        = sorted(after_names  - before_names)
+                    if scratched or added:
+                        parts = []
+                        if scratched:
+                            parts.append("SCRATCHED: " + ", ".join(scratched))
+                        if added:
+                            parts.append("ADDED: " + ", ".join(added))
+                        prompt_lines.append(f"  LINEUP CHANGE ({abbr}): " + " | ".join(parts))
             else:
                 prompt_lines.append(
                     f"  (opposing starter hand unknown — wRC+ not computed)"
                 )
 
-            prompt_lines.append("")
-
-        # ── Umpire ─────────────────────────────────────────────────────────────
-        ump_name   = umpire.get("name") if umpire else None
-        ump_status = umpire.get("status") if umpire else None
-        if ump_name:
-            ump_str = ump_name
-            if ump_status == "inferred":
-                ump_str += " (est. — crew rotation, ~85% accurate)"
-            prompt_lines.append(f"PLATE UMPIRE: {ump_str}")
             prompt_lines.append("")
 
         # ── Required structured response — one block per pick ─────────────────
@@ -3195,7 +3204,7 @@ def build_confirm_check_prompt(model: str, sport: str, date: str) -> None:
             raw    = pick.get("pick_raw", "")
             prompt_lines.append(f"PICK: {raw}  [market:{market} gid:{gid}]")
             prompt_lines.append("OUTCOME: HOLD | CANCEL | DOWNGRADE | UPGRADE")
-            prompt_lines.append("DRIVER: lineup | umpire | price | none")
+            prompt_lines.append("DRIVER: lineup | price | none")
             prompt_lines.append(
                 "CITED_FACT: <specific confirmed-data point — "
                 "name a player, a wRC+ number, a line move; not a vibe>"

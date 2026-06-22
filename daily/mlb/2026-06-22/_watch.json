@@ -1,0 +1,427 @@
+{
+  "date": "2026-06-22",
+  "sport": "mlb",
+  "built_at": "2026-06-22T12:31:15Z",
+  "games": {
+    "0fdd8b67a62fe347c0995afb9eb94c73": {
+      "game_id": "0fdd8b67a62fe347c0995afb9eb94c73",
+      "mlb_game_pk": 823692,
+      "matchup": "LAD @ MIN",
+      "commence_et": "2026-06-22T19:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LAD ML",
+          "units": 1,
+          "price": -148,
+          "reason": "I make Los Angeles 63.9% here, driven by the elite Dodgers split vs right-handed pitching, Minnesota’s poor split vs lefties, and a meaningful bullpen freshness edge behind the starters. Eric Lauer is the obvious risk point, which is why this stays 1 unit, and the total is a pass because his volatility is already reflected in the move to 9.5."
+        },
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "MIN ML",
+          "units": 3,
+          "price": 134,
+          "reason": "Run projection LAD 5.40, MIN 5.41 gives MIN 50.1% win; market MIN implied 41.7%, edge 8.4 pts. Lauer’s poor SIERA and depleted MIN bullpen create value on underdog. Total 10.81 vs 9.5, but Over banned (HR ≤85); Under edge negative. DATA GAP: none."
+        },
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LAD ML",
+          "units": 3,
+          "price": -148,
+          "reason": "The Dodgers hold a massive offensive advantage with a 121 wRC+ vs RHP against Zebby Matthews, while Minnesota's bats struggle heavily against lefties (85 wRC+ vs LHP). Minnesota's bullpen is severely fatigued and penalized, giving the Dodgers a massive late-game edge that clears our 8.0 percentage point threshold with no qualifiers holding it back."
+        },
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over",
+          "units": 0,
+          "price": null,
+          "reason": "The Dodgers hold a massive offensive advantage with a 121 wRC+ vs RHP against Zebby Matthews, while Minnesota's bats struggle heavily against lefties (85 wRC+ vs LHP). Minnesota's bullpen is severely fatigued and penalized, giving the Dodgers a massive late-game edge that clears our 8.0 percentage point threshold with no qualifiers holding it back."
+        },
+        {
+          "model": "qwen",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over 9.5",
+          "units": 0,
+          "price": 100,
+          "reason": "LAD has a massive platoon advantage but Lauer's poor xFIP and MIN's taxed bullpen create high variance. Passed on the side due to insufficient edge and the total due to my two-total slate cap."
+        }
+      ]
+    },
+    "fbfee8c921cea16428faf24b7ba19aed": {
+      "game_id": "fbfee8c921cea16428faf24b7ba19aed",
+      "mlb_game_pk": 823040,
+      "matchup": "AZ @ STL",
+      "commence_et": "2026-06-22T19:46:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "STL ML",
+          "units": 1,
+          "price": -140,
+          "reason": "I make St. Louis 64.1%: Andre Pallante is in much better current shape than Merrill Kelly, Arizona owns just an 87 wRC+ vs righties, and the Cardinals bring the far better platoon profile into this matchup. Arizona’s bullpen quality keeps this from 3 units, while the total is near fair once Busch’s run suppression offsets Kelly’s contact-risk profile."
+        },
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "STL ML",
+          "units": 3,
+          "price": -140,
+          "reason": "Run projection STL 5.83, AZ 3.77 gives STL 69.0% win; market STL implied 57.0%. Gap largely from Kelly’s 5.40 SIERA vs strong STL wRC+ 123. Total 9.60 vs 8.5 has Over edge 1.10 runs, but HR 78 bans Over. DATA GAP: none."
+        },
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "LEAN: STL",
+          "units": 0,
+          "price": null,
+          "reason": "Andre Pallante is a substantial upgrade over Merrill Kelly (5.39 SIERA, 7.51 xERA), and the Cardinals offense is dominant against right-handed pitching. The moneyline presents solid value, but is held as a lean under our 4-bet slate ceiling."
+        },
+        {
+          "model": "grok",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "STL ML -140",
+          "units": 1,
+          "price": -140,
+          "reason": "Pallante's solid AGG xFIP 4.11 and excellent L14 metrics over Kelly's poor 5.36 plus large platoon edge (STL 123 vs AZ 87 wRC+) and home field support STL win probability estimate of 63.5% (5.2 pt gap over best-ML implied 58.3%); clean data qualifies for 1u. Total projects 8.1-8.3 with pitcher-friendly park; no total bet."
+        },
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "STL ML",
+          "units": 1,
+          "price": -140,
+          "reason": "Pallante’s SIERA is more than a full run better than Kelly’s, and St. Louis holds a 36-point wRC+ platoon edge against the right-hander. Both bullpens are rested, so the 4.7-point win-probability gap clears the gate comfortably for a one-unit play. The total estimate sits at 9.0 runs, only 0.45 above the line, so it stays off."
+        },
+        {
+          "model": "opus",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "STL ML",
+          "units": 1,
+          "price": -140,
+          "reason": "Merrill Kelly is pitching like a replacement arm — AGG SIERA 5.39, 4.5% K-BB%, 88 Stf+, 7.51 xERA — facing STL's strong vs-RHP lineup (123 wRC+) at home, while Pallante (4.18 SIERA, hot L14 18.8% K-BB%, GB-heavy in a pitcher's park) is the clearly superior arm. Fair line on STL ~-178 (64%) vs market -140 (58.3%), a 5.1-point gap. Total projects ~8.2 vs posted 8.5, no edge. Both data clean, full-season starters — but I cap at 1u as the gap is under 7 points."
+        },
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "STL ML",
+          "units": 1,
+          "price": -140,
+          "reason": "STL boasts a massive 123 wRC+ against RHP compared to AZ's weak 87 wRC+, and Pallante's groundball profile plays well here. The edge is solid but falls short of the 6.5% threshold required for a 3-unit play."
+        }
+      ]
+    },
+    "541d3f8c1e87131917cbf8386a2563f6": {
+      "game_id": "541d3f8c1e87131917cbf8386a2563f6",
+      "mlb_game_pk": 824016,
+      "matchup": "BAL @ LAA",
+      "commence_et": "2026-06-22T21:39:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 9.0",
+          "units": 1,
+          "price": 100,
+          "reason": "The side is a pass because Baltimore has the better starter, but the Orioles’ weaker split vs lefties and both taxed bullpens make -155 too expensive. I project 10.7 runs: Sam Aldegheri’s underlying indicators are poor, both offenses have enough contact quality to cash in, and both relief groups are short on fresh top-end outs."
+        },
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "BAL ML",
+          "units": 1,
+          "price": -155,
+          "reason": "Aldegheri’s 6.91 SIERA and weak LAA bullpen project BAL 7.79, LAA 4.93; BAL win 69.9% vs market 59.3%. 3u prevented by Aldegheri [sm] flag → reduced to 1u. Total 12.72 vs 9.0 Under no edge. DATA GAP: none."
+        },
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "BAL ML",
+          "units": 1,
+          "price": -155,
+          "reason": "Sam Aldegheri is flagged with a small sample size and has struggled with a 6.98 SIERA and negative K-BB%. Kyle Bradish has been excellent with a 3.04 L14 SIERA, giving Baltimore a massive edge that we stake at 1 unit due to the small sample restriction on the opponent starter."
+        },
+        {
+          "model": "opus",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "BAL ML",
+          "units": 1,
+          "price": -160,
+          "reason": "Aldegheri is a major red flag — AGG SIERA 6.98, NEGATIVE -5.2% K-BB%, 6.8 BB/9 L14, on a thin 12 IP sample — facing Bradish (3.99 xFIP, scorching 24.5% L14 K-BB%) who is the far better arm. Fair line on BAL ~-205 (67%) vs market -160 (61.5%), a 5.4-point gap. Aldegheri [sm] AND LAA bullpen 0/1-0/2 fresh both support BAL but his thin sample caps me at 1u. Total leans Over ~9.6 vs 9.0 but only 0.6 runs (LEAN), and Over price flagged suspect."
+        },
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "BAL ML",
+          "units": 1,
+          "price": -155,
+          "reason": "BAL has a significant pitching advantage with Bradish facing Aldegheri, who has a disastrous 7.27 xFIP and negative K-BB%. Total leans over due to both bullpens being taxed, but passed due to the two-total slate cap."
+        },
+        {
+          "model": "qwen",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over 9.0",
+          "units": 0,
+          "price": 100,
+          "reason": "BAL has a significant pitching advantage with Bradish facing Aldegheri, who has a disastrous 7.27 xFIP and negative K-BB%. Total leans over due to both bullpens being taxed, but passed due to the two-total slate cap."
+        }
+      ]
+    },
+    "3e12cc318907e3d20b669757daa0601c": {
+      "game_id": "3e12cc318907e3d20b669757daa0601c",
+      "mlb_game_pk": 822964,
+      "matchup": "KC @ TB",
+      "commence_et": "2026-06-22T18:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over",
+          "units": 0,
+          "price": null,
+          "reason": "Tampa Bay's starting pitcher Drew Rasmussen is elite, but the Rays' bullpen is heavily penalized as both Tier 1 and Tier 2 high-leverage arms are highly taxed. The run total projection points slightly to the Over, but does not cross our strict 1.0-run edge gate."
+        },
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.5",
+          "units": 1,
+          "price": 100,
+          "reason": "Rasmussen’s elite underlying skills keep the side off the board, but the total is too low once Kansas City’s hot offense and Tampa Bay’s exhausted bullpen are priced in. My run estimate is ~9.25 against a 7.5 line, giving a 1.75-run edge that clears the totals gate for one unit. The Under price reflects market overreaction to Rasmussen’s recent dominance without accounting for relief-inning leakage."
+        },
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.5",
+          "units": 3,
+          "price": 100,
+          "reason": "TB's top two bullpen arms are taxed, forcing low-leverage arms into high-leverage spots against a KC team that has been scoring. Both starters have full recent samples and the plus-money price on a massive run gap makes this the top play."
+        }
+      ]
+    },
+    "5a8ab9f3ed0791629f4f9e10da52043a": {
+      "game_id": "5a8ab9f3ed0791629f4f9e10da52043a",
+      "mlb_game_pk": 823851,
+      "matchup": "TEX @ MIA",
+      "commence_et": "2026-06-22T18:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 8.5",
+          "units": 1,
+          "price": -102,
+          "reason": "Both starting pitchers carry elevated SIERAs over 4.60, and Tyler Phillips is flagged with a small sample size. Compounding this, both bullpens are heavily taxed and carry the Phase 2 fatigue penalty, creating a high-probability environment for late-game run leakage that easily pushes our projection past the 8.5 total."
+        },
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 8.5",
+          "units": 1,
+          "price": -105,
+          "reason": "Both bullpens are heavily taxed with T1 and T2 unavailable, and both starters possess sub-95 Stuff+ and poor K-BB rates. Downgraded from 3 units to 1 unit because both starters fall below the 12 L14 IP threshold."
+        }
+      ]
+    },
+    "da1236e8e0bc448283c6e1e28d578e43": {
+      "game_id": "da1236e8e0bc448283c6e1e28d578e43",
+      "mlb_game_pk": 823613,
+      "matchup": "CHC @ NYM",
+      "commence_et": "2026-06-22T19:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LEAN: CHC",
+          "units": 0,
+          "price": null,
+          "reason": "Kodai Senga is flagged as a small sample starter and has struggled mightily with a 4.91 SIERA and a 9.0 BB/9 over 24.0 IP. While the Cubs ML presents value, we pass on an active stake to preserve our daily slate ceiling for higher-conviction opportunities."
+        },
+        {
+          "model": "grok",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "CHC ML -116",
+          "units": 1,
+          "price": -116,
+          "reason": "Imanaga's strong AGG xFIP 3.88 and K-BB% edge over Senga's poor small-sample metrics plus favorable platoon vs LHP support CHC win probability estimate of 58.5% (gap 4.8 pts over best-ML implied 53.7%); qualifies for 1u under edge gate with Senga [sm] capping size. Total projects 8.3-8.5 with drizzle/PPD risk; no total bet."
+        },
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "CHC ML",
+          "units": 1,
+          "price": -116,
+          "reason": "CHC has a solid platoon advantage and Imanaga's underlying metrics are much stronger than Senga's disastrous 5.14 xFIP. Passed on the total due to a 64% rain chance, which exceeds my 40% high rain probability pass threshold."
+        }
+      ]
+    },
+    "22bf5f58b0fd7173739a6d0fb1bd280e": {
+      "game_id": "22bf5f58b0fd7173739a6d0fb1bd280e",
+      "mlb_game_pk": 824585,
+      "matchup": "CLE @ CHW",
+      "commence_et": "2026-06-22T19:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LEAN: CLE",
+          "units": 0,
+          "price": null,
+          "reason": "Gavin Williams is a significant starting pitching upgrade over Anthony Kay, and the Cleveland bullpen is elite and rested. The game total is unplayable due to suspect/stale book prices on the Under, and the side is logged as a lean to respect our slate ceiling."
+        },
+        {
+          "model": "qwen",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over 8.0",
+          "units": 0,
+          "price": 100,
+          "reason": "CLE's offense struggles against lefties, neutralizing their pitching advantage over Kay. The total leans over due to both bullpens being relatively fresh but the starters lacking elite swing-and-miss stuff; passed due to slate ceiling and better options."
+        }
+      ]
+    },
+    "66c3c3524e444f31fe9fc224ac058351": {
+      "game_id": "66c3c3524e444f31fe9fc224ac058351",
+      "mlb_game_pk": 823288,
+      "matchup": "ATL @ SD",
+      "commence_et": "2026-06-22T22:10:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.0",
+          "units": 1,
+          "price": 105,
+          "reason": "This is a classic matchup of two heavily fatigued and penalized bullpens that will force low-K middle relievers into high-leverage situations. Grant Holmes and Michael King are both average starters, and the market total of 7.0 is far too low given the extreme late-game run leakage expected from both sides."
+        },
+        {
+          "model": "grok",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "ATL ML -106",
+          "units": 1,
+          "price": -106,
+          "reason": "Similar starter AGG xFIP but ATL's large platoon edge (118 vs 93 wRC+), superior team record, and better bullpen support ATL win probability estimate of 56% (4.5 pt gap over best-ML implied 51.5%); qualifies for 1u. Total projects 7.8-8.0 in pitcher-friendly park; no total bet."
+        },
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.0",
+          "units": 1,
+          "price": 100,
+          "reason": "Both starters have struggled recently and both bullpens are exhausted, creating a high-variance environment that keeps the side off the board. My run estimate is ~9.8 against a 7.0 line at Petco, giving a 2.75-run edge that clears the totals gate for one unit."
+        },
+        {
+          "model": "qwen",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over 7.0",
+          "units": 0,
+          "price": 100,
+          "reason": "Both bullpens are heavily taxed, which inflates the total projection significantly despite Petco Park's pitcher-friendly dimensions. Passed on the side due to insufficient edge and the total due to the two-total slate cap."
+        }
+      ]
+    },
+    "7eeb2a9fecc4a8958efb172e75c65224": {
+      "game_id": "7eeb2a9fecc4a8958efb172e75c65224",
+      "mlb_game_pk": 824261,
+      "matchup": "NYY @ DET",
+      "commence_et": "2026-06-22T18:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "qwen",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over 8.0",
+          "units": 0,
+          "price": -118,
+          "reason": "NYY has a massive platoon advantage vs Valdez and DET's bullpen is taxed, projecting a high-scoring affair. Passed on the total due to my hard cap of two totals per slate, as other games offered superior expected value."
+        }
+      ]
+    }
+  }
+}

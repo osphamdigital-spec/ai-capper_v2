@@ -1,0 +1,185 @@
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: Cole's AGG SIERA (4.27) and Stf+ 100 don't justify the 2.57 ERA hype; Valdez is a roughly comparable mid-rotation arm with eroding L14 command. My fair line on a Cole-anchored game vs a quality LHP sits near the -125 market, no 4-point edge. My total projects ~7.7 vs posted 8.0, under my 0.8-run totals gate; Under price also flagged suspect.
+DATA GAP: Lineups unconfirmed; Cole [sm] 28 IP limits 3u eligibility anyway.
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.5 runs
+REASON: Rasmussen's AGG SIERA 2.99 / 23% K-BB% is genuinely elite and Wacha is a 4.45-SIERA arm, so TB ML is well-priced at -190 — no value laying that, and the -1.5 RL at +118 is fair, not a buy. My total projects ~7.0 vs posted 7.5 (Under lean), but 0.5 runs is just at LEAN territory, not a stake.
+DATA GAP: TB bullpen 0/1 T1 fresh — minor; lineups unconfirmed.
+
+---
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.2 runs
+REASON: Two below-average arms (Rocker 4.77 SIERA, Phillips 4.64 SIERA on thin AGG IP) in a pitcher-friendly park (Runs 94/roof-closed 100). My total lands ~8.3 vs posted 8.5, inside the gate. ML pick'em with both starters mediocre — no edge worth a stake; Phillips small-sample caps any conviction. Thunderstorm/roof status uncertain.
+DATA GAP: Roof status; Phillips [sm] AGG 17.2 IP.
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Away starter is TBD — mandatory pass per data-integrity rule. Also 61% rain with PPD risk.
+DATA GAP: PHI starter TBD; rain/PPD.
+
+---
+
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Home starter TBD — mandatory pass. Hunter Brown is also a [sm] 16 IP arm regardless.
+DATA GAP: TOR starter TBD.
+
+---
+
+## GAME: CHC @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Senga's ugly ERA tempts a CHC play, but his AGG SIERA 4.91 is only mediocre, not catastrophic, and Imanaga (3.74 SIERA) is the better arm — CHC ML at -120 already reflects that, no 4-point gap. Senga [sm] 24 IP caps conviction anyway. 64% rain with PPD risk forces a pass on the total.
+DATA GAP: Senga [sm]; 64% rain/PPD.
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Away starter TBD — mandatory pass.
+DATA GAP: MIL starter TBD.
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Gavin Williams' AGG SIERA 3.43 / 19.8% K-BB% is a real edge over Kay (4.53 SIERA, 105 Stf+ but weak K-BB), but the market only has CLE at -114 in a tight pitcher's park — my fair sits near -125, a borderline ~3-point gap, under my 4-point gate. Total projects ~7.6 vs posted 8.0, under gate; both total prices flagged suspect anyway.
+DATA GAP: Williams L14 [sm] command wobble; lineups unconfirmed.
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs
+REASON: Lauer (5.30 SIERA, 88 Stf+) is a poor arm but Matthews (4.21 SIERA) is only average, and LAD's bat advantage vs RHP is real — yet -155 already prices the Dodgers fairly, no clear 4-point edge. My total lands ~9.1 vs posted 9.5, under the totals gate; Over price flagged suspect.
+DATA GAP: Lineups unconfirmed.
+
+---
+
+## GAME: AZ @ STL
+PICK: STL ML
+PRICE: -140
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs
+REASON: Merrill Kelly is pitching like a replacement arm — AGG SIERA 5.39, 4.5% K-BB%, 88 Stf+, 7.51 xERA — facing STL's strong vs-RHP lineup (123 wRC+) at home, while Pallante (4.18 SIERA, hot L14 18.8% K-BB%, GB-heavy in a pitcher's park) is the clearly superior arm. Fair line on STL ~-178 (64%) vs market -140 (58.3%), a 5.1-point gap. Total projects ~8.2 vs posted 8.5, no edge. Both data clean, full-season starters — but I cap at 1u as the gap is under 7 points.
+DATA GAP: Lineups unconfirmed — shaves confidence, holds at 1u not 3u.
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors — automatic LEAN cap on the total per my method; variance too high to stake either way. Bennett [sm] 20 IP and Feltner are both shaky; no clean ML edge. Pass entirely.
+DATA GAP: Coors variance; Bennett [sm].
+
+---
+
+## GAME: BAL @ LAA
+PICK: BAL ML
+PRICE: -160
+UNITS: 1
+EDGE: 5.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.6 runs
+REASON: Aldegheri is a major red flag — AGG SIERA 6.98, NEGATIVE -5.2% K-BB%, 6.8 BB/9 L14, on a thin 12 IP sample — facing Bradish (3.99 xFIP, scorching 24.5% L14 K-BB%) who is the far better arm. Fair line on BAL ~-205 (67%) vs market -160 (61.5%), a 5.4-point gap. Aldegheri [sm] AND LAA bullpen 0/1-0/2 fresh both support BAL but his thin sample caps me at 1u. Total leans Over ~9.6 vs 9.0 but only 0.6 runs (LEAN), and Over price flagged suspect.
+DATA GAP: Aldegheri [sm] 12 IP caps stake; lineups unconfirmed.
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.2 runs
+REASON: Near pick'em with two comparable mid-rotation RHP (Holmes 4.66 SIERA, King 4.45 SIERA), both flagging ugly L14 command but on small recent samples I don't price off. ATL's bat edge vs RHP (118 wRC+) roughly offsets Petco's run suppression and SD's elite pen — no 4-point gap. Total projects ~6.9 vs posted 7.0, no edge in a pitcher's park.
+DATA GAP: Both starters' L14 command collapse [sm] — would matter if confirmed injury-related.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Both qualifying plays (STL ML, BAL ML) clear my 4-point gate but neither reaches the 7-point 3u trigger, and both rest on opponents with [small-sample] starter flags that cap conviction at 1 unit under my data-cleanliness rule.

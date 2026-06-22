@@ -1,0 +1,185 @@
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Over 8.0
+TOTAL PRICE: -118
+TOTAL UNITS: PASS
+TOTAL EDGE: 3.1 runs
+REASON: NYY has a massive platoon advantage vs Valdez and DET's bullpen is taxed, projecting a high-scoring affair. Passed on the total due to my hard cap of two totals per slate, as other games offered superior expected value.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.5
+TOTAL PRICE: +100
+TOTAL UNITS: 3
+TOTAL EDGE: 2.8 runs
+REASON: TB's top two bullpen arms are taxed, forcing low-leverage arms into high-leverage spots against a KC team that has been scoring. Both starters have full recent samples and the plus-money price on a massive run gap makes this the top play.
+DATA GAP: none
+
+---
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.5
+TOTAL PRICE: -105
+TOTAL UNITS: 1
+TOTAL EDGE: 3.3 runs
+REASON: Both bullpens are heavily taxed with T1 and T2 unavailable, and both starters possess sub-95 Stuff+ and poor K-BB rates. Downgraded from 3 units to 1 unit because both starters fall below the 12 L14 IP threshold.
+DATA GAP: none
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: PASS
+TOTAL EDGE: none
+REASON: PHI starter is TBD, triggering an automatic pass on both side and total markets per data integrity rules.
+DATA GAP: PHI starting pitcher
+
+---
+
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: PASS
+TOTAL EDGE: none
+REASON: TOR starter is TBD, triggering an automatic pass on both side and total markets per data integrity rules.
+DATA GAP: TOR starting pitcher
+
+---
+
+## GAME: CHC @ NYM
+PICK: CHC ML
+PRICE: -116
+UNITS: 1
+EDGE: 4.3 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: PASS
+TOTAL EDGE: none
+REASON: CHC has a solid platoon advantage and Imanaga's underlying metrics are much stronger than Senga's disastrous 5.14 xFIP. Passed on the total due to a 64% rain chance, which exceeds my 40% high rain probability pass threshold.
+DATA GAP: none
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: PASS
+TOTAL EDGE: none
+REASON: MIL starter is TBD, triggering an automatic pass on both side and total markets per data integrity rules.
+DATA GAP: MIL starting pitcher
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Over 8.0
+TOTAL PRICE: +100
+TOTAL UNITS: PASS
+TOTAL EDGE: 0.65 runs
+REASON: CLE's offense struggles against lefties, neutralizing their pitching advantage over Kay. The total leans over due to both bullpens being relatively fresh but the starters lacking elite swing-and-miss stuff; passed due to slate ceiling and better options.
+DATA GAP: none
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Over 9.5
+TOTAL PRICE: +100
+TOTAL UNITS: PASS
+TOTAL EDGE: 0.85 runs
+REASON: LAD has a massive platoon advantage but Lauer's poor xFIP and MIN's taxed bullpen create high variance. Passed on the side due to insufficient edge and the total due to my two-total slate cap.
+DATA GAP: none
+
+---
+
+## GAME: AZ @ STL
+PICK: STL ML
+PRICE: -140
+UNITS: 1
+EDGE: 4.7 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: PASS
+TOTAL EDGE: none
+REASON: STL boasts a massive 123 wRC+ against RHP compared to AZ's weak 87 wRC+, and Pallante's groundball profile plays well here. The edge is solid but falls short of the 6.5% threshold required for a 3-unit play.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: PASS
+TOTAL EDGE: none
+REASON: Coors Field features extreme variance and a Park Runs factor of 130, which triggers my automatic pass rule for extreme park factors on totals. Side is passed due to small sample starters and high variance.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAA
+PICK: BAL ML
+PRICE: -155
+UNITS: 1
+EDGE: 5.2 pts
+TOTAL: Lean Over 9.0
+TOTAL PRICE: +100
+TOTAL UNITS: PASS
+TOTAL EDGE: 0.9 runs
+REASON: BAL has a significant pitching advantage with Bradish facing Aldegheri, who has a disastrous 7.27 xFIP and negative K-BB%. Total leans over due to both bullpens being taxed, but passed due to the two-total slate cap.
+DATA GAP: none
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Over 7.0
+TOTAL PRICE: +100
+TOTAL UNITS: PASS
+TOTAL EDGE: 4.7 runs
+REASON: Both bullpens are heavily taxed, which inflates the total projection significantly despite Petco Park's pitcher-friendly dimensions. Passed on the side due to insufficient edge and the total due to the two-total slate cap.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: KC @ TB Over 7.5 (3 units)
+WHY THIS ONE: TB's top two bullpen arms are taxed, creating a massive late-inning run expectation against a KC team that has been hitting well, and the plus-money price on a 2.8-run edge with full-sample starters offers the highest risk-adjusted EV on the board.

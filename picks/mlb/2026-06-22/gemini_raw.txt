@@ -1,0 +1,185 @@
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gerrit Cole is flagged as a small sample starter with only 28.0 IP, limiting our maximum side exposure. The Detroit team total under is flagged as stale, making the overall total unplayable.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Over
+TOTAL PRICE: N/A
+TOTAL UNITS: LEAN
+TOTAL EDGE: 0.7 runs
+REASON: Tampa Bay's starting pitcher Drew Rasmussen is elite, but the Rays' bullpen is heavily penalized as both Tier 1 and Tier 2 high-leverage arms are highly taxed. The run total projection points slightly to the Over, but does not cross our strict 1.0-run edge gate.
+DATA GAP: none
+
+---
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.5
+TOTAL PRICE: -102
+TOTAL UNITS: 1
+TOTAL EDGE: 1.7 runs
+REASON: Both starting pitchers carry elevated SIERAs over 4.60, and Tyler Phillips is flagged with a small sample size. Compounding this, both bullpens are heavily taxed and carry the Phase 2 fatigue penalty, creating a high-probability environment for late-game run leakage that easily pushes our projection past the 8.5 total.
+DATA GAP: none
+
+---
+
+## GAME: PHI @ WSH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The away starting pitcher is TBD, triggering an automatic pass on all markets for this game.
+DATA GAP: confirmed away starting pitcher
+
+---
+
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The home starting pitcher is TBD, triggering an automatic pass on all markets for this game.
+DATA GAP: confirmed home starting pitcher
+
+---
+
+## GAME: CHC @ NYM
+PICK: LEAN: CHC
+PRICE: N/A
+UNITS: LEAN
+EDGE: 6.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Kodai Senga is flagged as a small sample starter and has struggled mightily with a 4.91 SIERA and a 9.0 BB/9 over 24.0 IP. While the Cubs ML presents value, we pass on an active stake to preserve our daily slate ceiling for higher-conviction opportunities.
+DATA GAP: none
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The away starting pitcher is TBD, triggering an automatic pass on all markets for this game.
+DATA GAP: confirmed away starting pitcher
+
+---
+
+## GAME: CLE @ CHW
+PICK: LEAN: CLE
+PRICE: N/A
+UNITS: LEAN
+EDGE: 5.8 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gavin Williams is a significant starting pitching upgrade over Anthony Kay, and the Cleveland bullpen is elite and rested. The game total is unplayable due to suspect/stale book prices on the Under, and the side is logged as a lean to respect our slate ceiling.
+DATA GAP: none
+
+---
+
+## GAME: LAD @ MIN
+PICK: LAD ML
+PRICE: -148
+UNITS: 3
+EDGE: 8.3 pts
+TOTAL: Lean Over
+TOTAL PRICE: N/A
+TOTAL UNITS: LEAN
+TOTAL EDGE: 0.5 runs
+REASON: The Dodgers hold a massive offensive advantage with a 121 wRC+ vs RHP against Zebby Matthews, while Minnesota's bats struggle heavily against lefties (85 wRC+ vs LHP). Minnesota's bullpen is severely fatigued and penalized, giving the Dodgers a massive late-game edge that clears our 8.0 percentage point threshold with no qualifiers holding it back.
+DATA GAP: none
+
+---
+
+## GAME: AZ @ STL
+PICK: LEAN: STL
+PRICE: N/A
+UNITS: LEAN
+EDGE: 6.7 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Andre Pallante is a substantial upgrade over Merrill Kelly (5.39 SIERA, 7.51 xERA), and the Cardinals offense is dominant against right-handed pitching. The moneyline presents solid value, but is held as a lean under our 4-bet slate ceiling.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field triggers an automatic pass on all total and run line markets due to extreme physical variance. The Boston moneyline does not meet our minimum 5.0 percentage point edge gate.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAA
+PICK: BAL ML
+PRICE: -155
+UNITS: 1
+EDGE: 7.2 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sam Aldegheri is flagged with a small sample size and has struggled with a 6.98 SIERA and negative K-BB%. Kyle Bradish has been excellent with a 3.04 L14 SIERA, giving Baltimore a massive edge that we stake at 1 unit due to the small sample restriction on the opponent starter.
+DATA GAP: none
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.0
+TOTAL PRICE: +105
+TOTAL UNITS: 1
+TOTAL EDGE: 2.8 runs
+REASON: This is a classic matchup of two heavily fatigued and penalized bullpens that will force low-K middle relievers into high-leverage situations. Grant Holmes and Michael King are both average starters, and the market total of 7.0 is far too low given the extreme late-game run leakage expected from both sides.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: LAD ML -148 @ MIN
+WHY THIS ONE: The Dodgers offense matches up beautifully against Zebby Matthews, while Minnesota's depleted bullpen and poor split against lefties leave them heavily exposed.

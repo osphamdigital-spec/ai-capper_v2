@@ -1,0 +1,185 @@
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The side gap is roughly 1.8 percentage points, well short of the 3.5-point gate, with Cole’s small-sample aggregate adding uncertainty. The total estimate sits near 10.2 runs against an 8.0 line, but both starters carry small-sample flags and the slate ceiling forces a pass in favor of cleaner edges.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.5
+TOTAL PRICE: +100
+TOTAL UNITS: 1
+TOTAL EDGE: 1.75 runs
+REASON: Rasmussen’s elite underlying skills keep the side off the board, but the total is too low once Kansas City’s hot offense and Tampa Bay’s exhausted bullpen are priced in. My run estimate is ~9.25 against a 7.5 line, giving a 1.75-run edge that clears the totals gate for one unit. The Under price reflects market overreaction to Rasmussen’s recent dominance without accounting for relief-inning leakage.
+DATA GAP: none
+
+---
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starters are small-sample arms with unreliable aggregates, and both bullpens are heavily fatigued. The side gap is well below the betting threshold, and while the raw total edge is above 1.0 runs, it loses out to stronger totals under the slate ceiling.
+DATA GAP: none
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Philadelphia’s starter is TBD and the weather shows a 61 percent chance of rain with postponement risk. These integrity issues trigger an automatic pass on both markets.
+DATA GAP: none
+
+---
+
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Toronto’s starter is TBD, which invokes the mandatory pass rule. No edge can be estimated without confirmed pitcher data.
+DATA GAP: Toronto starter identity and underlying metrics.
+
+---
+
+## GAME: CHC @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: A 64 percent chance of rain creates extreme postponement risk, forcing a full pass per the totals weather protocol and side pass triggers. Senga’s small-sample status adds secondary variance that reinforces no action.
+DATA GAP: none
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Milwaukee’s starter is TBD, making any probability estimate impossible. The game is skipped entirely.
+DATA GAP: Milwaukee starter identity and underlying metrics.
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The side gap is roughly 1.7 percentage points, short of the 3.5-point gate. The total estimate lands at 8.3 runs, just 0.3 shy of the 1.0-run threshold, so it stays off the board.
+DATA GAP: none
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The side gap is under one percentage point once the pitching mismatch and Minnesota’s exhausted bullpen are weighed. My total estimate is ~10.8, but Lauer’s small-sample flag and the slate ceiling force a pass in favor of cleaner total edges elsewhere.
+DATA GAP: none
+
+---
+
+## GAME: AZ @ STL
+PICK: STL ML
+PRICE: -140
+UNITS: 1
+EDGE: 4.7 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Pallante’s SIERA is more than a full run better than Kelly’s, and St. Louis holds a 36-point wRC+ platoon edge against the right-hander. Both bullpens are rested, so the 4.7-point win-probability gap clears the gate comfortably for a one-unit play. The total estimate sits at 9.0 runs, only 0.45 above the line, so it stays off.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field triggers an automatic side pass due to extreme variance. The total estimate is ~12.6, but Bennett’s small-sample status and the inherent volatility of altitude baseball keep it below the risk-adjusted threshold with only three bets available on the slate.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Bradish owns a massive SIERA edge over Aldegheri, but both bullpens are exhausted, which cancels any late-inning advantage and triggers the fatigue pass rule. The side gap is therefore ignored, and the total edge of ~1.3 runs loses out to stronger plays under the slate ceiling.
+DATA GAP: none
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.0
+TOTAL PRICE: +100
+TOTAL UNITS: 1
+TOTAL EDGE: 2.75 runs
+REASON: Both starters have struggled recently and both bullpens are exhausted, creating a high-variance environment that keeps the side off the board. My run estimate is ~9.8 against a 7.0 line at Petco, giving a 2.75-run edge that clears the totals gate for one unit.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: none

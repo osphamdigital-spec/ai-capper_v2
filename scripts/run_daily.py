@@ -475,7 +475,7 @@ def _build_model_prompts(sport: str, date: str):
 # MAIN PIPELINE
 # ─────────────────────────────────────────────────────────────────────────────
 
-def run_daily(sport: str, date: str = None, skip_gate: bool = False):
+def run_daily(sport: str, date: str = None, skip_gate: bool = False, with_picks: bool = False):
     """
     Execute the full daily pipeline for the given sport and date.
 
@@ -582,6 +582,18 @@ def run_daily(sport: str, date: str = None, skip_gate: bool = False):
     if base_prompt.exists():
         _build_model_prompts(sport, target_date)
 
+    # --with-picks: run all connected models via run_picks_all.py after prompts are ready.
+    if with_picks:
+        print(f"\n{'=' * 55}")
+        print(f"  --with-picks: launching picks for all models")
+        print(f"{'=' * 55}")
+        cmd = [PYTHON, str(SCRIPTS_DIR / "run_picks_all.py"), "--sport", sport, "--date", target_date]
+        result = subprocess.run(cmd)
+        if result.returncode != 0:
+            print(f"\n  WARNING: run_picks_all.py finished with errors (exit {result.returncode}).")
+            print(f"  Check output above. Re-run failed models manually:")
+            print(f"    python scripts/query_model.py --model <model> --date {target_date}")
+
 
 # ─────────────────────────────────────────────────────────────────────────────
 # ENTRY POINT
@@ -609,6 +621,10 @@ if __name__ == "__main__":
         help="Bypass the data completeness gate. Use only when data is genuinely "
              "unavailable (off-day, postponed slate, pre-dawn run before Savant populates)."
     )
+    parser.add_argument(
+        "--with-picks", action="store_true", default=False,
+        help="After building prompts, automatically run picks for all connected models."
+    )
     args = parser.parse_args()
 
-    run_daily(sport=args.sport, date=args.date, skip_gate=args.skip_gate)
+    run_daily(sport=args.sport, date=args.date, skip_gate=args.skip_gate, with_picks=args.with_picks)

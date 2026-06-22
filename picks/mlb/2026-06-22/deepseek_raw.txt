@@ -1,0 +1,159 @@
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: NYY ML edge 7.8 pts (62.7% vs 54.9%) but 1u only due to Cole [sm]; Over 8.0 edge 1.57 runs (exp 9.57 vs 8.0) but [sm] reduces to 1u. Neither selected under 3-bet slate ceiling. DATA GAP: none.
+
+---
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: TB ML edge 2.9 pts (66.3% vs 63.4%) below 4‑pt gate; Over 7.5 edge 1.02 runs (exp 8.52) qualifies 1u but not prioritized. DATA GAP: none.
+
+---
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: TEX ML edge 2.1 pts (48.6% vs 46.5%) below gate; Over 8.5 edge 1.23 runs but HR factor 81 bans Over bets. DATA GAP: none.
+
+---
+## GAME: PHI @ WSH
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: PHI starter TBD – mandatory pass. DATA GAP: missing starter.
+
+---
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: TOR starter TBD – mandatory pass. DATA GAP: missing starter.
+
+---
+## GAME: CHC @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: 64% rain, PPD risk – weather pass per method. DATA GAP: none.
+
+---
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: MIL starter TBD – mandatory pass. DATA GAP: missing starter.
+
+---
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: CLE ML edge 7.8 pts (58.7% vs 50.9%) qualifies 3u on edge alone, but downgraded to 1u under 3‑bet cap; not selected. Total prices all flagged suspect. DATA GAP: none.
+
+---
+## GAME: LAD @ MIN
+PICK: MIN ML
+PRICE: +134
+UNITS: 3
+EDGE: 8.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Run projection LAD 5.40, MIN 5.41 gives MIN 50.1% win; market MIN implied 41.7%, edge 8.4 pts. Lauer’s poor SIERA and depleted MIN bullpen create value on underdog. Total 10.81 vs 9.5, but Over banned (HR ≤85); Under edge negative. DATA GAP: none.
+
+---
+## GAME: AZ @ STL
+PICK: STL ML
+PRICE: -140
+UNITS: 3
+EDGE: 12.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Run projection STL 5.83, AZ 3.77 gives STL 69.0% win; market STL implied 57.0%. Gap largely from Kelly’s 5.40 SIERA vs strong STL wRC+ 123. Total 9.60 vs 8.5 has Over edge 1.10 runs, but HR 78 bans Over. DATA GAP: none.
+
+---
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: BOS ML edge 6.5 pts (60.0% vs 53.5%) and Over 11.5 edge 1.14 runs both 1u but Bennett [sm] and not selected under cap. DATA GAP: none.
+
+---
+## GAME: BAL @ LAA
+PICK: BAL ML
+PRICE: -155
+UNITS: 1
+EDGE: 10.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Aldegheri’s 6.91 SIERA and weak LAA bullpen project BAL 7.79, LAA 4.93; BAL win 69.9% vs market 59.3%. 3u prevented by Aldegheri [sm] flag → reduced to 1u. Total 12.72 vs 9.0 Under no edge. DATA GAP: none.
+
+---
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: ATL ML edge only 1.5 pts (52.0% vs 50.5%). Over 7.5 edge 1.42 runs qualifies 1u but not selected under 3‑bet cap. DATA GAP: none.
+
+---
+## SLATE SUMMARY
+BEST BET: STL ML -140 (3 units) — largest edge on the slate (12.0 pts), driven by Kelly’s extreme SIERA mismatch against STL’s righty-heavy offense, with no small‑sample flags.
+WHY THIS ONE: 69% win probability vs 57% implied, and both starting pitchers have clean data — makes it the highest‑conviction play.

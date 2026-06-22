@@ -306,41 +306,7 @@ def fmt_weather(weather: dict | None) -> str:
     if roof == "outdoor" and precip is not None and precip >= 50:
         line1 += " [PPD RISK]"
 
-    lines = [line1]
-
-    # ── Line 2: wind_geo (raw geometry; omit only when wind_from_deg absent) ─
-    wind_from = weather.get("wind_from_deg")
-    wind_to   = weather.get("wind_to_deg")
-    cf_bear   = weather.get("cf_bearing_deg")
-    cf_est    = weather.get("cf_bearing_est", False)
-    cf_angle  = weather.get("wind_cf_angle_deg")
-
-    if wind_from is not None:
-        # Print raw values even at low wind speed — do not null based on threshold
-        if cf_bear is not None:
-            est_tag   = "(est)" if cf_est else ""
-            cf_str    = f"{cf_bear}°{est_tag}"
-            angle_str = f"{cf_angle}°{est_tag}" if cf_angle is not None else "n/a"
-        else:
-            cf_str    = "UNKNOWN"
-            angle_str = None   # omit angle when bearing unknown
-
-        geo_parts = [f"from {wind_from}° / to {wind_to}°", f"cf_bearing {cf_str}"]
-        if angle_str is not None:
-            geo_parts.append(f"wind-cf angle {angle_str}")
-        lines.append("  wind_geo: " + " | ".join(geo_parts))
-
-    # ── Line 3: air (shown whenever any field is present) ────────────────────
-    gust     = weather.get("wind_gust_mph")
-    humidity = weather.get("humidity_pct")
-    pressure = weather.get("pressure_hpa")
-    if any(x is not None for x in (gust, humidity, pressure)):
-        gust_str = f"gust {gust}mph"           if gust     is not None else "gust n/a"
-        hum_str  = f"humidity {humidity}%"     if humidity is not None else "humidity n/a"
-        pres_str = f"pressure {pressure}hPa"   if pressure is not None else "pressure n/a"
-        lines.append(f"  air: {gust_str} | {hum_str} | {pres_str}")
-
-    return "\n".join(lines)
+    return line1
 
 
 def fmt_umpire(umpire: dict | None) -> str:
@@ -1046,7 +1012,7 @@ def _fmt_platoon_matchup(
 
         return block
 
-    lines = ["PLATOON MATCHUP"]
+    lines = ["PLATOON"]
 
     # Away batters face HOME pitcher
     if home_hand:
@@ -1293,7 +1259,6 @@ def _fmt_bullpen_static(team_abbr: str, bullpen_data: dict) -> list:
             stat_str += ", " + ", ".join(extras)
         return [
             f"  {role_label}: {r['name']} ({hand}) -- {stat_str}",
-            f"    Usage last 6: {_usage_str(r.get('usage_last6', []))}",
         ]
 
     # Role priority order for selection. Any role containing "IL" is excluded.
@@ -1371,10 +1336,12 @@ def _fmt_park_factors_block(
     weather_roof: str | None,
     park_data: dict,
     roof_data: dict,
+    dims: tuple | None = None,
 ) -> list:
     """
     PARK FACTORS block for the home team's venue.
     Returns [] if the home team has no park factor entry.
+    dims: optional (lf, cf, rf) tuple from STADIUM_DIMENSIONS — merged into the header line.
     """
     pf = park_data.get(home_abbr)
     if not pf:
@@ -1395,12 +1362,17 @@ def _fmt_park_factors_block(
     else:
         qualifier = ""
 
-    hr_str = f" | HR: {int(hr_fac)}" if hr_fac is not None else ""
-    r_str  = f" | Runs: {int(r_fac)}" if r_fac is not None else ""
+    hr_str = f" HR {int(hr_fac)}" if hr_fac is not None else ""
+    r_str  = f" Runs {int(r_fac)}" if r_fac is not None else ""
+    park_name = venue or pf.get('team_name', home_abbr)
+
+    dims_str = ""
+    if dims:
+        lf, cf, rf = dims
+        dims_str = f" | LF {lf} CF {cf} RF {rf}"
 
     lines = [
-        f"PARK: {venue or pf.get('team_name', home_abbr)}",
-        f"  Park factor: {int(factor)} (3yr){hr_str}{r_str}{qualifier}",
+        f"PARK {park_name}: factor {int(factor)}(3yr){hr_str}{r_str}{qualifier}{dims_str}",
     ]
 
     # Coors Field altitude note
@@ -1570,7 +1542,7 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
     # Placed BEFORE pitchers so the AI establishes team-level context first,
     # preventing it from anchoring to pitcher ERA before considering overall
     # team quality, run differential, and recent form.
-    lines.append("TEAM FORM")
+    lines.append("FORM")
     team_barrels = (static_data or {}).get("team_barrels", {})
     for team_ctx, side_str, abbr in [
         (ctx.get("team_away"), "away", away["abbr"]),
@@ -1607,7 +1579,7 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
         ))
 
     # ── Starting pitchers ─────────────────────────────────────────────────────
-    lines.append("STARTING PITCHERS")
+    lines.append("SP")
 
     # Helper: True when pitcher dict is missing or has no name (TBD)
     def _is_tbd(p: dict | None) -> bool:
@@ -1669,27 +1641,14 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
             lines.append("")
 
     # ── Weather ───────────────────────────────────────────────────────────────
-    lines.append(f"WEATHER")
+    lines.append("WX")
     lines.append(fmt_weather(ctx.get("weather")))
     lines.append("")
 
-    # ── Stadium dimensions (raw input for totals) ─────────────────────────────
-    # Sourced from the static STADIUM_DIMENSIONS table so the daily prompt has
-    # ZERO dependency on CrookedFence (which updates unpredictably). Park
-    # dimensions are fixed facts. Raw wind speed + compass direction is already
-    # in the WEATHER line above (from Open-Meteo); each model reasons about wind
-    # effect on its own. No pre-computed HR/runs edge is injected — models stay
-    # independent.
+    # ── Park (factors + dimensions merged into one line) ─────────────────────
+    # Dimensions from the static STADIUM_DIMENSIONS table; park factors from FanGraphs.
+    # Both are fixed per-venue facts — no CrookedFence dependency.
     dims = STADIUM_DIMENSIONS.get(home["abbr"])
-    if dims:
-        lf, cf, rf = dims
-        lines.append("STADIUM")
-        lines.append(f"  {venue} — LF {lf}ft | CF {cf}ft | RF {rf}ft")
-        lines.append("")
-
-    # ── Park factors ──────────────────────────────────────────────────────────
-    # Keyed by home team (park doesn't change). Uses static FanGraphs 3yr rolling data.
-    # Roof-closed factor shown separately when venue has a retractable roof.
     if static_data:
         lines.extend(_fmt_park_factors_block(
             home["abbr"],
@@ -1697,7 +1656,12 @@ def build_game_block(game: dict, i: int, total: int, sport: str, static_data: di
             (ctx.get("weather") or {}).get("roof"),
             static_data.get("park_factors", {}),
             static_data.get("park_roof", {}),
+            dims=dims,
         ))
+    elif dims:
+        lf, cf, rf = dims
+        lines.append(f"PARK {venue}: LF {lf} CF {cf} RF {rf}")
+        lines.append("")
 
     # ── Umpire ────────────────────────────────────────────────────────────────
     # When all games are unassigned, hoist_umpire=True suppresses per-game line.
@@ -1823,9 +1787,7 @@ def render_account_block(model: str, sport: str, date: str, project_root: Path) 
     acct_path = bdir / f"{model}.json"
     start_bal = float(cfg.get("starting_balance", 10000.0))
 
-    L = [DIVIDER,
-         "YOUR ACCOUNT — v3 bankroll (your own history only)",
-         DIVIDER]
+    L = ["YOUR ACCOUNT — v3 bankroll (your own history only)"]
 
     acct = None
     if acct_path.exists():
@@ -1953,10 +1915,7 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
     # PART 1: HEADER
     # ─────────────────────────────────────────────────────────────────────────
     parts = [
-        DIVIDER,
-        f"{sport_label} SLATE — {weekday}, {month} {day} {year} (US Eastern Time)",
-        f"{len(games)} games | Prompt built at {gen_time} | Source: TheOddsAPI median of {n_books} books",
-        DIVIDER,
+        f"{sport_label} SLATE — {weekday}, {month} {day} {year} ET | {len(games)} games | built {gen_time} | {n_books} books",
         "",
     ]
 
@@ -3228,8 +3187,9 @@ def build_confirm_check_prompt(model: str, sport: str, date: str) -> None:
     prompt_path.write_text("\n".join(prompt_lines), encoding="utf-8")
 
     print(f"  System  -> {sys_path.relative_to(root)}  ({len(system_text):,} chars)")
+    _prompt_len = len("\n".join(prompt_lines))
     print(f"  Prompt  -> {prompt_path.relative_to(root)}"
-          f"  ({len('\n'.join(prompt_lines)):,} chars)")
+          f"  ({_prompt_len:,} chars)")
 
 
 # ─────────────────────────────────────────────────────────────────────────────

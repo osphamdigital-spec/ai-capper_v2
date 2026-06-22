@@ -103,7 +103,7 @@ DEFAULT_FABLE_MODEL     = "claude-fable-5"
 
 # Anthropic models share one key and use the native Anthropic SDK (not openai-compat)
 # so prompt caching can be enabled via cache_control on the system block.
-ANTHROPIC_MODELS = ("opus", "sonnet", "fable")
+ANTHROPIC_MODELS = ("opus", "fable")
 
 ANTHROPIC_MAX_TOKENS_PICKS      = 16000
 ANTHROPIC_MAX_TOKENS_POSTMORTEM = 8000
@@ -974,9 +974,6 @@ def _resolve_model_config(model: str) -> tuple[str, str, str]:
         if model == "opus":
             model_id = os.environ.get("OPUS_MODEL", DEFAULT_OPUS_MODEL)
             label    = f"Claude Opus ({model_id})"
-        elif model == "sonnet":
-            model_id = os.environ.get("SONNET_MODEL", DEFAULT_SONNET_MODEL)
-            label    = f"Claude Sonnet ({model_id})"
         else:  # fable
             model_id = os.environ.get("FABLE_MODEL", DEFAULT_FABLE_MODEL)
             label    = f"Claude Fable ({model_id})"
@@ -985,7 +982,7 @@ def _resolve_model_config(model: str) -> tuple[str, str, str]:
             print("       Add it to .env: CLAUDE_API_KEY=your_key_here")
             sys.exit(1)
     else:
-        print(f"ERROR: Unknown model '{model}'. Supported: grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet, fable")
+        print(f"ERROR: Unknown model '{model}'. Supported: grok, chatgpt, deepseek, kimi, qwen, gemini, opus, fable")
         sys.exit(1)
 
     return api_key, model_id, label
@@ -1228,12 +1225,8 @@ def run_picks(model: str, sport: str, date: str, dry_run: bool, reasoning_effort
     print(f"Sending to       : {endpoint}  ...")
 
     # Per-model output token budgets for picks mode.
-    # Sonnet picks: extended thinking ON -- max_tokens covers thinking + output combined.
     # Opus picks: thinking OFF -- uses shared Anthropic default.
-    if model == "sonnet":
-        picks_max_tokens   = SONNET_MAX_TOKENS_PICKS
-        picks_thinking_budget = SONNET_THINKING_BUDGET_PICKS
-    elif model in ANTHROPIC_MODELS:
+    if model in ANTHROPIC_MODELS:
         picks_max_tokens   = ANTHROPIC_MAX_TOKENS_PICKS
         picks_thinking_budget = None
     elif model == "deepseek":
@@ -1853,7 +1846,6 @@ _CONFIRM_MAX_TOKENS: dict = {
     "qwen":     8000,
     "gemini":   8000,
     "opus":     4000,
-    "sonnet":   4000,
     "fable":    4000,
 }
 

@@ -31,7 +31,6 @@ TRIM = {
     "kimi":     {"start": "TOTALS METHODOLOGY", "end": None},
     "opus":     {"start": "TOTALS METHODOLOGY", "end": "A couple of notes for the experiment"},
     "qwen":     {"start": None, "end": None},
-    "sonnet":   {"start": None, "end": None},
 }
 
 

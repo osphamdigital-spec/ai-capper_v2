@@ -37,7 +37,7 @@ PROJECT_ROOT = SCRIPTS_DIR.parent
 
 # Models with confirmed API connections -- run in this order.
 # Keep sequential to avoid rate limit collisions between providers.
-AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini", "opus", "sonnet"]
+AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini", "opus"]
 
 # Seconds to wait before retrying a failed model.
 RETRY_DELAY = 90
@@ -152,20 +152,16 @@ def print_summary(results: list, total_elapsed: float, date: str, sport: str):
         for model, _ok, _elapsed, _detail in failed:
             print(f"    python scripts/query_model.py --model {model} --date {date}")
 
-    print(f"\n  Manual models (opus, sonnet): paste prompt into claude.ai")
-    print(f"  Prompt files: daily/{sport}/{date}/prompt_opus.md")
-    print(f"                daily/{sport}/{date}/prompt_sonnet.md")
     print(f"\n{'=' * 55}\n")
 
 
 def main():
     parser = argparse.ArgumentParser(
         description=(
-            "Run picks queries for all 6 API-connected models. "
+            "Run picks queries for all 7 API-connected models. "
             "Models run sequentially to avoid rate limit issues. "
             "Failed models are retried once after 90s. "
-            "Models with an existing output file are skipped. "
-            "Manual models (opus, sonnet) are not included."
+            "Models with an existing output file are skipped."
         )
     )
     parser.add_argument(

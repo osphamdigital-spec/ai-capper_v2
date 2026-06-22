@@ -14,13 +14,16 @@ opus
 gemini
 deepseek
 qwen
-sonnet
 grok
 
 ## Retired models
 
 fable (Claude Fable 5) — active 2026-06-12 only; removed 2026-06-13 after Anthropic
 gated access behind Mythos enrollment. June 12 record retained.
+
+sonnet (Claude Sonnet 4.6) — deprecated 2026-06-22. Retired from active competition.
+Historical record (picks, grades, post-mortems, methods, bankroll) retained permanently.
+Bankroll row frozen in _leaderboard.json via deprecated_models in bankroll/mlb/_config.json.
 
 ### Deprecated V1 legacy (do NOT factor into V2/V3 operations)
 

@@ -36,9 +36,9 @@ PYTHON = r"C:\Users\marko\AppData\Local\Programs\Python\Python312\python.exe"
 SCRIPTS_DIR  = Path(__file__).parent
 PROJECT_ROOT = SCRIPTS_DIR.parent
 
-# All 9 models are now API-connected. Run sequentially to avoid rate-limit collisions.
-# opus, sonnet, fable use the Anthropic SDK (CLAUDE_API_KEY).
-AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini", "opus", "sonnet"]
+# All 7 active models are API-connected. Run sequentially to avoid rate-limit collisions.
+# opus, fable use the Anthropic SDK (CLAUDE_API_KEY).
+AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini", "opus"]
 
 # Seconds to wait before retrying a failed model.
 RETRY_DELAY = 90

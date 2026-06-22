@@ -280,6 +280,15 @@ def build_bankroll(sport: str):
         )
         accounts.append(acct)
 
+    # Deprecated models: read their frozen account file (do NOT rewrite it),
+    # include in leaderboard so their historical record stays visible and ranked.
+    for dep_model in cfg.get("deprecated_models", []):
+        dep_path = out_dir / f"{dep_model}.json"
+        if dep_path.exists():
+            dep_acct = json.loads(dep_path.read_text(encoding="utf-8"))
+            dep_acct["deprecated"] = True
+            accounts.append(dep_acct)
+
     # ── leaderboard: rank by current balance, descending ──
     ranked = sorted(accounts, key=lambda a: a["current_balance"], reverse=True)
     leaderboard = {
@@ -291,6 +300,7 @@ def build_bankroll(sport: str):
                 "model": a["model"],
                 "balance": a["current_balance"],
                 "bets": a["summary"]["bets"],
+                "deprecated": a.get("deprecated", False),
             }
             for i, a in enumerate(ranked)
         ],

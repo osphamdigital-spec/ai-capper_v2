@@ -50,7 +50,7 @@ TRACKER_COLS = [
 ]
 
 ALL_MODELS = [
-    "chatgpt", "deepseek", "gemini", "grok", "kimi", "opus", "qwen", "sonnet",
+    "chatgpt", "deepseek", "gemini", "grok", "kimi", "opus", "qwen",
 ]
 
 WOULD_CHANGE_OPTIONS = {

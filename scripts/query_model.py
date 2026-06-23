@@ -1871,15 +1871,6 @@ _VALID_OUTCOMES   = {"HOLD", "CANCEL", "DOWNGRADE", "UPGRADE"}
 _VALID_DRIVERS    = {"lineup", "umpire", "price", "none"}
 
 
-def _slate_ceiling(n_games: int) -> int:
-    """Slate bet ceiling by game count — mirrors the staking rules in CLAUDE.md."""
-    if n_games <= 7:
-        return 1
-    elif n_games <= 14:
-        return 2
-    return 3
-
-
 def _parse_confirm_response(
     response_text: str,
     cluster_picks: list,
@@ -1937,12 +1928,14 @@ def _parse_confirm_response(
     for chunk in chunks:
         header_line = chunk.split("\n")[0].strip()
 
-        # Primary: extract game_id from [gid:...] tag written by build_prompt.py
-        gid_match   = _re.search(r'\[gid:([^\]]+)\]', header_line, _re.IGNORECASE)
+        # Primary: extract game_id from gid:... tag written by build_prompt.py.
+        # Token-based (not bracket-delimited) so it tolerates all forms the model
+        # may echo: [market:X gid:Y] (combined), [market:X] [gid:Y], [gid:Y market:X].
+        gid_match   = _re.search(r'gid:\s*([A-Za-z0-9_]+)', header_line, _re.IGNORECASE)
         block_gid   = gid_match.group(1).strip() if gid_match else None
 
-        # Market from [market:XX] tag
-        mkt_match    = _re.search(r'\[market:([^\]]+)\]', header_line, _re.IGNORECASE)
+        # Market token only — stop at whitespace/bracket so a trailing "gid:" can't leak in.
+        mkt_match    = _re.search(r'market:\s*([A-Za-z]+)', header_line, _re.IGNORECASE)
         block_market = mkt_match.group(1).strip().lower() if mkt_match else None
 
         # pick_raw: everything before the first [...] tag
@@ -2043,36 +2036,6 @@ def _parse_confirm_response(
     return results, warnings
 
 
-def _total_wagered_units(model: str, sport: str, date: str, root: Path) -> float:
-    """
-    Sum units already wagered across all bet picks in {model}.json for this date.
-    Used by the UPGRADE guard to enforce the Run-1 slate ceiling slate-wide.
-    """
-    picks_path = root / "picks" / sport / date / f"{model}.json"
-    if not picks_path.exists():
-        return 0.0
-    try:
-        doc = json.loads(picks_path.read_text(encoding="utf-8"))
-        return sum(
-            float(p.get("units") or 0)
-            for p in doc.get("picks", [])
-            if (p.get("action") or "").lower() == "bet"
-        )
-    except Exception:
-        return 0.0
-
-
-def _n_slate_games(sport: str, date: str, root: Path) -> int:
-    """Return total game count for the slate (used by ceiling calculation)."""
-    games_path = root / "data" / sport / date / "games.json"
-    if not games_path.exists():
-        return 0
-    try:
-        return len(json.loads(games_path.read_text(encoding="utf-8")))
-    except Exception:
-        return 0
-
-
 def _apply_confirm_guards(
     result: dict,
     model:  str,
@@ -2089,8 +2052,10 @@ def _apply_confirm_guards(
       2. Price absent/suspect at Run 1 — block UPGRADE, force HOLD.
       3. Absolute unit ceiling: new_units > 3 is impossible; clamp to 3.
       4. UPGRADE sanity: new_units must be strictly > original_units.
-      5. Slate ceiling (slate-wide): total already wagered + delta must not
-         exceed the ceiling for this slate's game count.
+
+    Note: v3 has no house slate ceiling — the number of bets per slate is each
+    model's own self-authored rule, so UPGRADE is bounded only by the 3-unit
+    stake cap (Guard 3) and the strict-increase sanity check (Guard 4).
     """
     outcome        = result.get("outcome")
     new_units      = result.get("new_units")
@@ -2137,32 +2102,8 @@ def _apply_confirm_guards(
             outcome   = "HOLD"
             new_units = original_units
 
-    # Guard 5: slate ceiling (slate-wide, not cluster-wide).
-    # Only applies on UPGRADE — HOLD adds no new exposure so the ceiling
-    # is irrelevant even if Run-1 bets already fill it.
-    if outcome == "UPGRADE" and not price_absent:
-        n_games     = _n_slate_games(sport, date, root)
-        ceiling     = _slate_ceiling(n_games)
-        already_bet = _total_wagered_units(model, sport, date, root)
-        # 0 is a valid value (CANCEL / downgrade-to-zero), not a missing field
-        final_units = result.get("new_units") if result.get("new_units") is not None else original_units
-        delta       = max(0.0, float(final_units) - float(original_units))
-        if already_bet + delta > ceiling:
-            headroom = max(0.0, ceiling - already_bet)
-            if headroom <= 0:
-                result["outcome"]   = "HOLD"
-                result["new_units"] = original_units
-                overrides.append(
-                    f"slate_ceiling→UPGRADE blocked "
-                    f"(already {already_bet}u wagered, ceiling {ceiling}u for {n_games} games)"
-                )
-            else:
-                capped = original_units + headroom
-                overrides.append(
-                    f"slate_ceiling→new_units capped {final_units}→{capped} "
-                    f"(ceiling {ceiling}u, already {already_bet}u)"
-                )
-                result["new_units"] = capped
+    # (v3) No house slate ceiling: UPGRADE is not capped by game-count anymore.
+    # Each model's own method document governs how many bets it makes per slate.
 
     if overrides:
         result["guard_override"] = "; ".join(overrides)
@@ -2381,6 +2322,7 @@ def run_confirm_check(
 
     # ── Merge with any prior-cluster entries in the same output file ──────────
     existing_entries: list = []
+    existing_raws:    list = []
     if out_path.exists():
         try:
             existing_doc     = json.loads(out_path.read_text(encoding="utf-8"))
@@ -2390,19 +2332,29 @@ def run_confirm_check(
                 e for e in existing_entries
                 if e.get("game_id") not in requested_gids
             ]
+            # Preserve prior clusters' raw model output (audit trail)
+            existing_raws = existing_doc.get("raw_responses", [])
         except Exception:
             existing_entries = []
+            existing_raws    = []
 
     all_entries = existing_entries + output_entries
 
     checked_at = _dt.datetime.now(_dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    this_raw = {
+        "checked_at": checked_at,
+        "game_ids":   list(game_ids),
+        "source":     "api",
+        "text":       response_text,
+    }
     doc = {
-        "model":        model,
-        "date":         date,
-        "sport":        sport,
-        "checked_at":   checked_at,
-        "picks":        all_entries,
-        "raw_response": response_text,
+        "model":         model,
+        "date":          date,
+        "sport":         sport,
+        "checked_at":    checked_at,
+        "picks":         all_entries,
+        "raw_responses": existing_raws + [this_raw],   # accumulates per cluster
+        "raw_response":  response_text,                 # latest cluster, back-compat
     }
 
     daily_dir.mkdir(parents=True, exist_ok=True)

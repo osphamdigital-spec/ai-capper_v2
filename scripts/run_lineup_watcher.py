@@ -253,7 +253,8 @@ def _write_auto_hold(
     }
 
     # Keep existing entries for other game_ids or other markets on same game
-    existing: list = []
+    existing:      list = []
+    existing_raws: list = []
     if out_path.exists():
         try:
             old      = json.loads(out_path.read_text(encoding="utf-8"))
@@ -261,17 +262,27 @@ def _write_auto_hold(
                 e for e in old.get("picks", [])
                 if not (e.get("game_id") == gid and e.get("pick_market") == market)
             ]
+            # Preserve prior clusters' raw model output (audit trail)
+            existing_raws = old.get("raw_responses", [])
         except Exception:
-            existing = []
+            existing      = []
+            existing_raws = []
 
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     daily_dir.mkdir(parents=True, exist_ok=True)
     doc = {
-        "model":        model,
-        "date":         date,
-        "sport":        sport,
-        "checked_at":   datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "picks":        existing + [new_entry],
-        "raw_response": None,
+        "model":         model,
+        "date":          date,
+        "sport":         sport,
+        "checked_at":    now_iso,
+        "picks":         existing + [new_entry],
+        "raw_responses": existing_raws + [{
+            "checked_at": now_iso,
+            "game_ids":   [gid],
+            "source":     "auto_hold",
+            "text":       None,
+        }],
+        "raw_response":  None,   # latest writer was a no-API auto-HOLD
     }
     out_path.write_text(json.dumps(doc, indent=2, ensure_ascii=False), encoding="utf-8")
 

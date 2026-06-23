@@ -1973,8 +1973,9 @@ def build_prompt(games: list, sport: str, date: str, model: str | None = None, s
                                       hoist_lineups=hoist_lu, hoist_umpire=hoist_ump))
 
     parts.append("")
-    parts.append("BEFORE SUBMITTING: apply the edge gate, slate ceiling, and 1u/3u rule")
-    parts.append("from YOUR OWN method document. Respect the fixed data-integrity rules")
+    parts.append("BEFORE SUBMITTING: apply the edge gate, your own max bets per slate")
+    parts.append("(per your method document), and the 1u/3u rule from YOUR OWN method")
+    parts.append("document. Respect the fixed data-integrity rules")
     parts.append("(TBD starter = PASS, stale price = absent, postponed = PASS).")
     parts.append("")
 

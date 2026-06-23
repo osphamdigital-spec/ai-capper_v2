@@ -190,7 +190,7 @@ Completed:
 
 Key learnings from validation to date:
 - Volume bias: all models over-bet early slates. Fixed via professional bettor identity
-  framing, 4-point minimum edge gate, slate ceilings, and 3-unit best bet requirement.
+  framing, 4-point minimum edge gate, and 3-unit best bet requirement.
 - ERA anchoring: ERA without FIP/xERA/SIERA is the most common cross-model reasoning
   failure. Documented in LEARNINGS.md.
 - Model independence is the product: homogenising reasoning methods across models

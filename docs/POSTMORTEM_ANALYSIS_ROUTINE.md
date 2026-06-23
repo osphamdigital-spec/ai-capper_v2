@@ -23,8 +23,11 @@ To run: ask Opus to "run the post-mortem analysis routine for <date>" (or the
 2. **Extract per-model S4 proposals and S3 data requests.** A valid candidate is
    a change to how the model weighs/interprets data it ALREADY receives — NOT a
    request for new data (that is an S3 item) and NOT a rewrite of a fixed
-   competition rule (slate ceiling, edge gate, unit map, anti-hindsight — these
-   are off-limits → log as REJECTED with the reason).
+   competition rule (edge gate, 1u/3u unit denominations, best-bet designation,
+   output format, data-integrity rules — these are off-limits → log as REJECTED
+   with the reason). Note: bets-per-slate is NOT off-limits — the house slate
+   ceiling was removed in v3, so a model's own max-bets-per-slate IS a valid
+   self-authored method element.
 
 3. **Check anti-hindsight integrity.** If an S4 cites a game OUTCOME as evidence
    ("X won, so..."), flag it. It may still be logged, but mark the evidence as

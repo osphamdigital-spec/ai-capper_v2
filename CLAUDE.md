@@ -19,9 +19,10 @@ versioned, never overwritten. These are the model's persistent external memory
 between stateless API calls. Each model also has a separate totals method in
 docs/methods/method_{model}_totals_v1.md (all 8 authored 2026-06-19).
 
-The shared prompt (Layer B) carries only: the edge gate, unit map, slate ceilings,
-and data-integrity rules. No analysis sequences, no bullpen formulas, no run
-estimation recipes. Those were Layer C — removed in v2.
+The shared prompt (Layer B) carries only: the edge gate, unit map, and
+data-integrity rules. No analysis sequences, no bullpen formulas, no run
+estimation recipes. Those were Layer C — removed in v2. (The house slate
+ceiling was removed in v3 — bets per slate is now each model's own rule.)
 
 **Current phase:** v2 operational — data pipeline, picks, grading, post-mortem loop, and
 calibration stats are all running daily. Totals (Over/Under) betting added 2026-06-19:
@@ -82,7 +83,6 @@ ai-capper_v2/
 - Edge gate: 4 pp minimum gap to bet (sides); 0.5–1.5 run gap for totals
 - Unit map: gap 4–7 → 1u, gap 7+ → 3u, gap <4 → LEAN/PASS
 - Totals gate: <0.5 runs → No bet; 0.5–0.9 → LEAN; 1.0–1.4 → 1u; 1.5+ → 3u
-- Slate ceilings: 1 bet max (1-7 games), 2 (8-14), 3 (15+) — a total and a side on the same game count as two separate bets
 - Data integrity: TBD starter = PASS, stale price = absent, postponed = PASS
 - Output format (machine-parsed) — includes TOTAL / TOTAL PRICE / TOTAL UNITS / TOTAL EDGE slots
 - Model-specific ML/RL method from docs/methods/method_{model}_v{N}.md
@@ -121,8 +121,7 @@ Each model now decides its own analysis approach via its method doc.
 - Best bet is the highest-conviction 3-unit play if one exists; if none, log
   as a skip on best bet (not a failure).
 - EDGE field is numeric ("6.2 pts" for sides, "1.4 runs" for totals)
-- Slate ceilings: 1 bet max (1-7 games), 2 bets max (8-14), 3 bets max (15+)
-- A total and a side on the same game are two independent bets — both count toward the ceiling
+- Bets per slate: NO house ceiling (removed in v3) — each model sets its own max bets per slate in its method document
 - TBD starter: mandatory PASS (both sides and totals)
 
 ---

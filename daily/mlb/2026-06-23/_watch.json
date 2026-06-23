@@ -1,0 +1,367 @@
+{
+  "date": "2026-06-23",
+  "sport": "mlb",
+  "built_at": "2026-06-23T14:44:53Z",
+  "games": {
+    "c905209c213ea7ae9708b815df0db1bc": {
+      "game_id": "c905209c213ea7ae9708b815df0db1bc",
+      "mlb_game_pk": 822718,
+      "matchup": "PHI @ WAS",
+      "commence_et": "2026-06-23T18:46:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 8.5",
+          "units": 1,
+          "price": -115,
+          "reason": "I make this total 9.5 runs. The over is supported by a high base scoring environment, Littell's very poor underlying contact/strikeout profile, Washington's taxed bullpen, and a Nationals lineup that has hit lefties well enough to keep Luzardo from turning this into a one-sided under script. The Phillies side leans positive, but not enough at the available favorite price to justify a separate wager."
+        },
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "PHI ML",
+          "units": 1,
+          "price": -168,
+          "reason": "Huge model edge (my 71.3% vs devigged 61.3%) driven by Littell’s 5.75 blended SIERA and WAS bullpen depletion. Edge survives conservative widening (Littell AGG 5.38 still yields 7.6‑pt edge). Small‑sample flags on Littell (L14 sm, meltdown flag) downgrade to 1u; no 3u allowed. Totals: small‑sample meltdown red flag forces pass despite large run gap."
+        },
+        {
+          "model": "grok",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "PHI ML -168",
+          "units": 1,
+          "price": -168,
+          "reason": "Luzardo's elite AGG xFIP 3.18, SIERA 3.41, and Stf+109 create a massive quality gap over Littell's poor 5.62 xFIP for my 67.9% win probability estimate versus the -168 implied 62.7%. PHI bullpen and team factors add support while platoon is neutral. Projected total around 9.1 runs versus 8.5 line for 0.6 run gap below threshold."
+        },
+        {
+          "model": "kimi",
+          "action": "lean",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LEAN: PHI ML",
+          "units": 0,
+          "price": -168,
+          "reason": "Luzardo’s 3.18 xFIP against Littell’s 5.62 xFIP and exhausted Washington bullpen (0.5) gives the Over 8.5 a 2.4-run edge worth 1 unit. The side edge is ~3.0 pts after penalizing Littell’s [sm], so it is only a lean."
+        },
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 8.5",
+          "units": 1,
+          "price": -115,
+          "reason": "Luzardo’s 3.18 xFIP against Littell’s 5.62 xFIP and exhausted Washington bullpen (0.5) gives the Over 8.5 a 2.4-run edge worth 1 unit. The side edge is ~3.0 pts after penalizing Littell’s [sm], so it is only a lean."
+        }
+      ]
+    },
+    "39e0cc872d2c36e97a7b36304a527072": {
+      "game_id": "39e0cc872d2c36e97a7b36304a527072",
+      "mlb_game_pk": 824584,
+      "matchup": "CLE @ CHW",
+      "commence_et": "2026-06-23T19:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "CLE ML",
+          "units": 1,
+          "price": -109,
+          "reason": "I price Cleveland at 57.6% to win. Messick has the better skill base, Chicago's lineup has been weak versus lefties, and the Guardians hold a clear late-game edge with the fresher and much deeper bullpen while Chicago's leverage group is heavily depleted. The total market is absent for me because the available prices are flagged stale/suspect."
+        },
+        {
+          "model": "grok",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "CLE ML -109",
+          "units": 1,
+          "price": -109,
+          "reason": "Messick's elite AGG xFIP 3.44 and strong K-BB% create a clear quality edge over Burke for my 57.2% win probability estimate versus the -109 implied 52.2%. CLE bullpen freshness adds support while platoon and park are neutral to slight negative. Projected total around 7.4 runs versus 7.0 line for 0.4 run gap below threshold."
+        },
+        {
+          "model": "kimi",
+          "action": "lean",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LEAN: CLE ML",
+          "units": 0,
+          "price": -109,
+          "reason": "Messick’s 3.44 xFIP and Cleveland’s fresh bullpen (3.25) give a raw 4.0-pt edge, but both starters carry [sm] flags that shave the margin to a lean once the wider confidence band is honored. The total is priced at my estimate."
+        }
+      ]
+    },
+    "d0f7ccaf67e696d2397f07d40f7f3702": {
+      "game_id": "d0f7ccaf67e696d2397f07d40f7f3702",
+      "mlb_game_pk": 824017,
+      "matchup": "BAL @ LAA",
+      "commence_et": "2026-06-23T21:39:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "chatgpt",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 9.0",
+          "units": 1,
+          "price": 103,
+          "reason": "After applying a small-sample confidence haircut to Ryan Johnson's projection, I still make this game 10.0 runs. Both offenses rate above average versus right-handed pitching, Baz is more contact-prone than his surface line suggests, and Los Angeles' unstable starter plus a non-elite bullpen path create enough late scoring upside to play the over at plus money. The small-sample driver keeps this at 1 unit only."
+        },
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "BAL ML",
+          "units": 1,
+          "price": -147,
+          "reason": "Very large edge (my 73.5% vs devigged 56.2%) from Johnson’s 6.45 SIERA and BAL bullpen advantage. Conservative widening (Johnson AGG 6.55) preserves edge. Small‑sample flag on Johnson prohibits 3u; 1u bet. Slate ceiling already filled – this bet not submitted despite qualifying."
+        },
+        {
+          "model": "kimi",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "BAL ML",
+          "units": 1,
+          "price": -147,
+          "reason": "Baz’s 4.39 xFIP against Johnson’s 7.00 [sm] xFIP creates a 4.5-pt win-probability gap, and Baltimore’s fresh leverage arms (2.75) support late-game stability. Johnson’s small-sample uncertainty caps the stake at 1 unit."
+        }
+      ]
+    },
+    "3c8c7e3e1d75b778dae56183c479e8b0": {
+      "game_id": "3c8c7e3e1d75b778dae56183c479e8b0",
+      "mlb_game_pk": 823614,
+      "matchup": "CHC @ NYM",
+      "commence_et": "2026-06-23T19:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "CHC ML",
+          "units": 1,
+          "price": 103,
+          "reason": "Massive edge (my 64.9% vs devigged 48.2%) built on Senga’s 5.13 blended SIERA and NYM bullpen tax. Conservative widening (Senga AGG 4.91) still yields 14.9‑pt edge. Both starters carry small‑sample flags – 3u not allowed; bet sized 1u. Total over 8.5 has 1.39‑run edge but dropped to stay within slate‑ceiling of three bets; edge still strong but lower priority than sides."
+        },
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "CHC ML",
+          "units": 1,
+          "price": 103,
+          "reason": "Edward Cabrera (3.94 xFIP) gives the Cubs a significant starting pitching advantage over a heavily regressed Kodai Senga (4.91 SIERA). Senga's small-sample status (24.0 IP) caps the moneyline stake at 1 unit, but the projected 58.5% win probability represents an excellent 9.2-point edge."
+        }
+      ]
+    },
+    "880267269fc4e95b1ac7fe887416bd21": {
+      "game_id": "880267269fc4e95b1ac7fe887416bd21",
+      "mlb_game_pk": 824501,
+      "matchup": "MIL @ CIN",
+      "commence_et": "2026-06-23T19:11:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "MIL ML",
+          "units": 1,
+          "price": -108,
+          "reason": "Very large edge (my 68.5% vs devigged 51.0%) from Lodolo’s poor SIERA and CIN bullpen issues (T1 empty, T2 short). Conservative widening (Lodolo AGG 4.86) preserves >15‑pt edge. Both starters have small‑sample L14, so no 3‑unit play; 1u bet. Line‑move caution noted but model signal overrides."
+        },
+        {
+          "model": "gemini",
+          "action": "lean",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "LEAN: MIL ML",
+          "units": 0,
+          "price": -108,
+          "reason": "The model projects Milwaukee with a 56.8% win probability behind Brandon Sproat's slightly stronger aggregate estimators relative to Nick Lodolo. This translates to a 4.9 percentage point edge, which falls just short of the mandatory 5.0% moneyline edge gate."
+        }
+      ]
+    },
+    "fc0edee924fad50f536c1f9d3840c663": {
+      "game_id": "fc0edee924fad50f536c1f9d3840c663",
+      "mlb_game_pk": 823043,
+      "matchup": "AZ @ STL",
+      "commence_et": "2026-06-23T19:46:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "STL ML",
+          "units": 1,
+          "price": -108,
+          "reason": "Strong edge (my 64.3% vs devigged 50.7%) from E‑Rod’s 5.00 blended SIERA and STL’s platoon‑neutral lineup. Edge survives conservative widening (Rodriguez AGG 4.80). Small‑sample flag on Rodriguez prohibits 3u; 1u bet. Slate ceiling already filled by three higher‑edge bets – this one not included because three bets already selected."
+        },
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "ml",
+          "pick_raw": "STL ML",
+          "units": 1,
+          "price": -108,
+          "reason": "Kyle Leahy (4.18 xFIP) matches up exceptionally well against a Diamondbacks offense that struggles heavily against right-handed pitching (85 wRC+). Conversely, Eduardo Rodriguez (4.80 SIERA) must navigate an elite Cardinals split offense (109 wRC+ vs LHP), creating a strong 7.1 percentage point edge for St. Louis."
+        }
+      ]
+    },
+    "bf29fc0fa42f9b3c5df76115d46b3773": {
+      "game_id": "bf29fc0fa42f9b3c5df76115d46b3773",
+      "mlb_game_pk": 824340,
+      "matchup": "BOS @ COL",
+      "commence_et": "2026-06-23T20:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "deepseek",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "BOS ML",
+          "units": 1,
+          "price": -161,
+          "reason": "Massive edge (my 76.1% vs devigged 60.3%) driven by Sullivan’s 6.74 SIERA, Coors park, and BOS platoon advantage. Conservative widening (Sullivan SIERA 5.5) yields 14‑pt edge. Sullivan’s tiny sample prohibits 3u; bet 1u. Total 10.5 over edge is enormous but small‑sample meltdown flag (Sullivan L14 diff >2.0 to AGG) forces totals fade."
+        },
+        {
+          "model": "kimi",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over 10.5",
+          "units": 0,
+          "price": -113,
+          "reason": "Coors Field side bets are excluded by method due to extreme margin-of-victory variance. My park-adjusted total is ~13.1, but Sullivan’s [sm] and the high-altitude volatility make the Over a lean only."
+        }
+      ]
+    },
+    "a43d950c1c96c23836217db2342cee9e": {
+      "game_id": "a43d950c1c96c23836217db2342cee9e",
+      "mlb_game_pk": 824262,
+      "matchup": "NYY @ DET",
+      "commence_et": "2026-06-23T18:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.5",
+          "units": 1,
+          "price": -107,
+          "reason": "Both offenses carry significant platoon advantages here, with Detroit holding a 114 wRC+ vs lefties and New York holding a 104 wRC+ vs righties. With a warm 74.7°F forecast and a 104 Runs park factor at Comerica Park, the model expects 9.1 runs, providing a solid 1.6-run edge over the market total."
+        },
+        {
+          "model": "grok",
+          "action": "bet",
+          "pick_side": "away",
+          "pick_market": "ml",
+          "pick_raw": "NYY ML -106",
+          "units": 1,
+          "price": -106,
+          "reason": "Rodón's recent L14 xFIP 3.27 and Stf+108 create a clear quality edge over Mize despite both L14 samples flagged small; NYY's superior team rdiff adds support for my 56% win probability estimate versus the -106 implied 51.5%. Bullpen freshness favors NYY slightly while platoon offsets some. Projected total around 8.2 runs versus 7.5 line for 0.7 run gap below threshold."
+        },
+        {
+          "model": "kimi",
+          "action": "lean",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Lean Over 7.5",
+          "units": 0,
+          "price": -107,
+          "reason": "Both Rodón and Mize carry [sm] flags, which widens the true-talent band enough to keep the side below my 3.5-pt gate. My run estimate is ~9.3, giving a 1.8-run edge to the Over, but dual small-sample variance caps the total at a lean."
+        },
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 7.5",
+          "units": 1,
+          "price": -107,
+          "reason": "Both offenses feature elite contact quality (HH% > 38%, Brl% > 7.5%) and above-average platoon wRC+ marks, colliding with two starters whose aggregate xFIPs (3.99 and 3.84) are significantly better than their recent surface results but still vulnerable to hard contact. The market total of 7.5 is far too low for this run environment, yielding a massive edge, though the [sm] tags on both starters cap this at 1 unit."
+        }
+      ]
+    },
+    "9fa5e76b55b273aa4d6f75fb24292c4b": {
+      "game_id": "9fa5e76b55b273aa4d6f75fb24292c4b",
+      "mlb_game_pk": 822963,
+      "matchup": "KC @ TB",
+      "commence_et": "2026-06-23T18:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "gemini",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 8.0",
+          "units": 3,
+          "price": -105,
+          "reason": "Luinder Avila (5.55 SIERA, 3.4% K-BB%) is highly vulnerable to traffic, while Shane McClanahan faces a resilient Royals lineup (109 wRC+ vs LHP). The Rays bullpen is also thin with Tier 1 closer Bryan Baker marked unavailable, pushing the model's projected total to 9.9 runs and triggering a maximum 3-unit play on the Over."
+        },
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "home",
+          "pick_market": "rl",
+          "pick_raw": "TB RL",
+          "units": 1,
+          "price": 110,
+          "reason": "Shane McClanahan's aggregate SIERA (4.00) holds a massive 1.55-run advantage over Luinder Avila (5.55), and Tampa Bay's lineup crushes left-handed pitching (109 wRC+). The run line offers plus-money value on a likely multi-run victory, but the small-sample L14 tags for both starters and Tampa Bay's taxed closer prevent a 3-unit upgrade. I pass the total to respect my 2-totals-per-slate ceiling."
+        }
+      ]
+    },
+    "11027b764d42622bddc30dee244472db": {
+      "game_id": "11027b764d42622bddc30dee244472db",
+      "mlb_game_pk": 823365,
+      "matchup": "SEA @ PIT",
+      "commence_et": "2026-06-23T18:41:00-04:00",
+      "confirmed": false,
+      "confirmed_at": null,
+      "models": [
+        {
+          "model": "qwen",
+          "action": "bet",
+          "pick_side": "over",
+          "pick_market": "total",
+          "pick_raw": "Over 8.5",
+          "units": 1,
+          "price": -110,
+          "reason": "Pittsburgh's bullpen is severely taxed with both T1 and T2 unavailable, and Seattle's T2 is also taxed, guaranteeing low-leverage arms will face two potent lineups (SEA 112 wRC+, PIT 125 wRC+) that both exceed the 38% HH / 7.5% Brl slugfest threshold. The market total of 8.5 ignores the late-inning bullpen fatigue and elite platoon offenses, creating a massive edge, though Mitch Keller's [sm] tag limits the stake to 1 unit."
+        }
+      ]
+    }
+  }
+}

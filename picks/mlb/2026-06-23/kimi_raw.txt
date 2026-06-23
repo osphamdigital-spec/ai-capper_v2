@@ -1,0 +1,213 @@
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Home starter Shane Bieber has no SIERA, xFIP or innings data, so I cannot estimate the pitching gap that drives my method. Without a clean starter comparison, both the side and total are unpriceable.
+DATA GAP: Home starter lacks all predictive pitcher stats; roof status unconfirmed.
+
+---
+
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Over 7.5
+TOTAL PRICE: -107
+TOTAL UNITS: LEAN
+TOTAL EDGE: 1.8 runs
+REASON: Both Rodón and Mize carry [sm] flags, which widens the true-talent band enough to keep the side below my 3.5-pt gate. My run estimate is ~9.3, giving a 1.8-run edge to the Over, but dual small-sample variance caps the total at a lean.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: McClanahan and Avila are both [sm], making the starter gap noisy despite Tampa Bay’s heavy moneyline. The total projects above 8.0 but is too dependent on Avila’s uncertain true talent to stake.
+DATA GAP: none
+
+---
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Quantrill’s [sm] removes any 3-unit path, and Alcantara’s recent excellence is already priced into the -156 line. The Over price is flagged stale, so the total market is incomplete.
+DATA GAP: none
+
+---
+
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Kirby is the better starter, but Pittsburgh’s 13-point platoon wRC+ edge and my 8.7-run total estimate—just 0.2 runs above the line—leave no side or total edge that clears my gate.
+DATA GAP: none
+
+---
+
+## GAME: PHI @ WAS
+PICK: LEAN: PHI ML
+PRICE: -168
+UNITS: LEAN
+EDGE: 3.0 pts
+TOTAL: Over 8.5
+TOTAL PRICE: -115
+TOTAL UNITS: 1
+TOTAL EDGE: 2.4 runs
+REASON: Luzardo’s 3.18 xFIP against Littell’s 5.62 xFIP and exhausted Washington bullpen (0.5) gives the Over 8.5 a 2.4-run edge worth 1 unit. The side edge is ~3.0 pts after penalizing Littell’s [sm], so it is only a lean.
+DATA GAP: none
+
+---
+
+## GAME: CHC @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cabrera and Senga both carry [sm], and the 203-point line move toward Chicago with a stale-data warning makes all prices suspect. I cannot trust the current numbers enough to bet either market.
+DATA GAP: Potential lineup/pitcher change per line-move note.
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sproat and Lodolo are both [sm], and the 204-point move toward Cincinnati flags potential roster changes that could invalidate the line. My total estimate is 9.6, too close to 9.5 for a bet.
+DATA GAP: Possible roster/lineup change per line-move note.
+
+---
+
+## GAME: CLE @ CHW
+PICK: LEAN: CLE ML
+PRICE: -109
+UNITS: LEAN
+EDGE: 2.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Messick’s 3.44 xFIP and Cleveland’s fresh bullpen (3.25) give a raw 4.0-pt edge, but both starters carry [sm] flags that shave the margin to a lean once the wider confidence band is honored. The total is priced at my estimate.
+DATA GAP: none
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Wrobleski and Rojas are both [sm], and the 67% rain probability with explicit PPD risk threatens game integrity. Passing both markets.
+DATA GAP: Weather/PPD risk.
+
+---
+
+## GAME: AZ @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: E-Rod and Leahy both carry [sm], removing any 3-unit eligibility and adding enough uncertainty that the side stays below my gate. My 8.85 total is too tight to 8.5 for a totals bet.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Over 10.5
+TOTAL PRICE: -113
+TOTAL UNITS: LEAN
+TOTAL EDGE: 2.6 runs
+REASON: Coors Field side bets are excluded by method due to extreme margin-of-victory variance. My park-adjusted total is ~13.1, but Sullivan’s [sm] and the high-altitude volatility make the Over a lean only.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAA
+PICK: BAL ML
+PRICE: -147
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Baz’s 4.39 xFIP against Johnson’s 7.00 [sm] xFIP creates a 4.5-pt win-probability gap, and Baltimore’s fresh leverage arms (2.75) support late-game stability. Johnson’s small-sample uncertainty caps the stake at 1 unit.
+DATA GAP: none
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: San Diego’s starter is TBD, which is a non-negotiable pass under data-integrity rules until confirmed pitcher data are available. No bet.
+DATA GAP: Home starter TBD.
+
+---
+
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both Civale and Ray carry [sm] flags, and both total prices are flagged stale. The side edge is only 1.8 pts after adjusting for San Francisco’s bullpen advantage.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: —

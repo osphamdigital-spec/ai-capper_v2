@@ -1,0 +1,213 @@
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Shane Bieber's pitching line is completely missing (ERA --, IP --), which I treat as equivalent to a TBD starter or unmodelable return from injury. Data integrity rules mandate a pass when a starter's baseline is absent.
+DATA GAP: Shane Bieber's current health status, velocity, and pitch mix data.
+
+---
+
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.5
+TOTAL PRICE: -107
+TOTAL UNITS: 1
+TOTAL EDGE: 3.14 runs
+REASON: Both offenses feature elite contact quality (HH% > 38%, Brl% > 7.5%) and above-average platoon wRC+ marks, colliding with two starters whose aggregate xFIPs (3.99 and 3.84) are significantly better than their recent surface results but still vulnerable to hard contact. The market total of 7.5 is far too low for this run environment, yielding a massive edge, though the [sm] tags on both starters cap this at 1 unit.
+DATA GAP: Full recent sample size (>= 12 L14 IP) for both Rodón and Mize to confirm current stuff metrics.
+
+---
+
+## GAME: KC @ TB
+PICK: TB RL
+PRICE: +110
+UNITS: 1
+EDGE: 7.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Shane McClanahan's aggregate SIERA (4.00) holds a massive 1.55-run advantage over Luinder Avila (5.55), and Tampa Bay's lineup crushes left-handed pitching (109 wRC+). The run line offers plus-money value on a likely multi-run victory, but the small-sample L14 tags for both starters and Tampa Bay's taxed closer prevent a 3-unit upgrade. I pass the total to respect my 2-totals-per-slate ceiling.
+DATA GAP: Bryan Baker's availability for the 9th inning, as his absence forces lower-leverage arms into high-variance spots.
+
+---
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cal Quantrill's data block is missing his aggregate xFIP and SIERA, leaving me without a reliable baseline for his run prevention profile against a Marlins team in a pitcher-friendly park. Without a robust multi-year or season-long underlying metric anchor, I cannot accurately project the side or total.
+DATA GAP: Cal Quantrill's aggregate xFIP, SIERA, and full-season batted-ball profile.
+
+---
+
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.5
+TOTAL PRICE: -110
+TOTAL UNITS: 1
+TOTAL EDGE: 3.09 runs
+REASON: Pittsburgh's bullpen is severely taxed with both T1 and T2 unavailable, and Seattle's T2 is also taxed, guaranteeing low-leverage arms will face two potent lineups (SEA 112 wRC+, PIT 125 wRC+) that both exceed the 38% HH / 7.5% Brl slugfest threshold. The market total of 8.5 ignores the late-inning bullpen fatigue and elite platoon offenses, creating a massive edge, though Mitch Keller's [sm] tag limits the stake to 1 unit.
+DATA GAP: Mitch Keller's full recent sample size to verify if his L14 xFIP spike (4.97) is a true stuff decline or just variance.
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The Phillies are heavy favorites (-168) with no run line value, and Zack Littell's terrible underlying metrics (5.38 SIERA) are already baked into the price. The total projects well over 8.5 due to Washington's taxed bullpen and hot offenses, but I am passing to strictly enforce my maximum of two totals bets per slate, as other games offered better price-to-edge ratios.
+DATA GAP: None, passing purely due to slate ceiling and price constraints.
+
+---
+
+## GAME: CHC @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The moneyline moved 203 points toward the Cubs, triggering a stale data warning that suggests a significant roster or lineup change not reflected in the provided splits. I refuse to bet into a market where my foundational platoon and pitching data is potentially obsolete.
+DATA GAP: Confirmed starting lineups and the reason for the massive line movement.
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Similar to the CHC/NYM game, the moneyline shifted 204 points toward the Reds, flagging the pitcher and lineup data as potentially stale. Handicapping a game with unverified lineup changes against my platoon-heavy methodology is a negative expected value proposition.
+DATA GAP: Confirmed starting lineups and injury/roster updates driving the line movement.
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The White Sox moneyline is flagged as suspect/stale book data, meaning the market is effectively absent for the home team. Without a reliable closing price to measure against, I cannot calculate a true edge or CLV, mandating an automatic pass.
+DATA GAP: Live, accurate moneyline pricing for the Chicago White Sox.
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The weather block indicates a 67% chance of heavy rain with a high postponement risk. High rain probability introduces unmodelable variance regarding game completion, bullpen usage, and suspended game rules, triggering an automatic pass.
+DATA GAP: Official word on whether the game will be played or postponed.
+
+---
+
+## GAME: AZ @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The side market is a coinflip with no discernible edge, and while the total projects over 8.5, I am already at my hard cap of two totals bets for this slate (NYY/DET and SEA/PIT). Adding a third total would violate my bankroll management rules designed to limit single-day variance exposure.
+DATA GAP: None, passing due to slate ceiling constraints.
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field's Park Runs factor is 130, which vastly exceeds my extreme park factor threshold of 115. The altitude-induced variance and run inflation break standard regression models, making any side or total bet here a pure coinflip rather than a calculated investment.
+DATA GAP: None, automatic pass due to extreme park factor rules.
+
+---
+
+## GAME: BAL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The Orioles are heavy favorites with no run line value, and my calculated win probability (60%) barely exceeds the market's implied probability (59.5%), failing the 4.0% edge gate. The total also falls short of the 0.5-run edge gate after adjusting for the poor starting pitching metrics.
+DATA GAP: None, the edge simply does not meet the minimum gate requirements.
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The San Diego starting pitcher is listed as TBD. Without a confirmed starter, I cannot calculate the baseline run prevention metrics or platoon adjustments required for my model, triggering an automatic pass.
+DATA GAP: San Diego's confirmed starting pitcher and their underlying SIERA/xFIP metrics.
+
+---
+
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both the Over and Under prices for the total are flagged as suspect/stale book data, rendering the total market absent. The side market lacks a sufficient edge to overcome the 4.0% gate, leaving no actionable, data-verified bets in this game.
+DATA GAP: Live, accurate total pricing from a reliable sportsbook.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: The slate is heavily populated with starters flagged for small sample sizes (< 12 L14 IP) or missing data, and my strict proprietary rules mandate that 3-unit bets require both starters to have a full recent sample size in a standard variance environment. Discipline dictates capping exposure at 1-unit plays today.

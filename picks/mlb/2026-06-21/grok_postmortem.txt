@@ -1,0 +1,41 @@
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: CIN ML -104  
+RESULT: WIN  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+
+**S2: FULL SLATE REVIEW**  
+
+**PART A — GAMES YOU BET**  
+
+GAME: CIN @ NYY  
+PICK: CIN ML -104  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Burns’ AGG xFIP/SIERA/K-BB% edge over Rodríguez was the largest single-game pitching differential on the slate; taxed NYY bullpen was already factored.  
+SOURCE: Pre-game AGG xFIP 3.29 / SIERA 3.29 / 21.6% K-BB% differential.  
+
+GAME: CIN @ NYY  
+PICK: Under 8.5  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Independent pitching-based total projection (7.4) cleared the 0.75-run gap rule vs the 8.5 line.  
+SOURCE: Pre-game total projection of 7.4 runs.  
+
+GAME: BAL @ LAD  
+PICK: LAD ML -215  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: Sheehan’s AGG xFIP 3.63 / K-BB% 20.4% plus LAD home offense and bullpen freshness produced a qualifying 4.8-pt edge with no pre-game counter-signal strong enough to flip the side.  
+SOURCE: Pre-game AGG xFIP and K-BB% differentials after park/bullpen adjustments.  
+
+**PART B — PASSES AND LEANS**  
+(none qualify)  
+
+**S3: DATA REQUEST**  
+NONE  
+
+**S4: METHOD CHANGE PROPOSAL**  
+NONE

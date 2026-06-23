@@ -598,7 +598,7 @@
           "status": "confirmed",
           "order": [
             {
-              "name": "Mauricio Dubón",
+              "name": "Mauricio Dub\u00f3n",
               "pos": "LF",
               "bat_order": 1
             },
@@ -656,11 +656,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 9,
+      "home_score": 4,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 824908
@@ -1022,7 +1024,7 @@
         }
       },
       "pitcher_home": {
-        "name": "Elmer Rodríguez",
+        "name": "Elmer Rodr\u00edguez",
         "mlb_id": 695684,
         "hand": "R",
         "status": "probable",
@@ -1135,7 +1137,7 @@
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
-          "name": "Emilio Pagán",
+          "name": "Emilio Pag\u00e1n",
           "available": true
         },
         "taxed_relievers": [
@@ -1247,7 +1249,7 @@
               "bat_order": 5
             },
             {
-              "name": "Eugenio Suárez",
+              "name": "Eugenio Su\u00e1rez",
               "pos": "3B",
               "bat_order": 6
             },
@@ -1278,7 +1280,7 @@
               "bat_order": 1
             },
             {
-              "name": "Jasson Domínguez",
+              "name": "Jasson Dom\u00ednguez",
               "pos": "RF",
               "bat_order": 2
             },
@@ -1298,7 +1300,7 @@
               "bat_order": 5
             },
             {
-              "name": "José Caballero",
+              "name": "Jos\u00e9 Caballero",
               "pos": "LF",
               "bat_order": 6
             },
@@ -1331,11 +1333,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 4,
+      "home_score": 1,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 823531
@@ -1810,7 +1814,7 @@
       "bullpen_away": {
         "team_bullpen_era": null,
         "closer": {
-          "name": "Seranthony Domínguez",
+          "name": "Seranthony Dom\u00ednguez",
           "available": true
         },
         "taxed_relievers": [
@@ -1905,11 +1909,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 4,
+      "home_score": 5,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 824260
@@ -2211,7 +2217,7 @@
         "cf_bearing_deg": 310,
         "cf_bearing_est": true,
         "wind_cf_angle_deg": 23,
-        "note": "Retractable roof — may be open or closed at game time",
+        "note": "Retractable roof \u2014 may be open or closed at game time",
         "source": "open_meteo",
         "source_priority": 1,
         "fetched_at": "2026-06-21T10:38:08Z"
@@ -2469,16 +2475,108 @@
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Luis Arraez",
+              "pos": "2B",
+              "bat_order": 1
+            },
+            {
+              "name": "Bryce Eldridge",
+              "pos": "DH",
+              "bat_order": 2
+            },
+            {
+              "name": "Casey Schmitt",
+              "pos": "LF",
+              "bat_order": 3
+            },
+            {
+              "name": "Rafael Devers",
+              "pos": "1B",
+              "bat_order": 4
+            },
+            {
+              "name": "Jung Hoo Lee",
+              "pos": "RF",
+              "bat_order": 5
+            },
+            {
+              "name": "Willy Adames",
+              "pos": "SS",
+              "bat_order": 6
+            },
+            {
+              "name": "Matt Chapman",
+              "pos": "3B",
+              "bat_order": 7
+            },
+            {
+              "name": "Drew Gilbert",
+              "pos": "CF",
+              "bat_order": 8
+            },
+            {
+              "name": "Daniel Susac",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Jakob Marsee",
+              "pos": "CF",
+              "bat_order": 1
+            },
+            {
+              "name": "Griffin Conine",
+              "pos": "RF",
+              "bat_order": 2
+            },
+            {
+              "name": "Xavier Edwards",
+              "pos": "2B",
+              "bat_order": 3
+            },
+            {
+              "name": "Kyle Stowers",
+              "pos": "1B",
+              "bat_order": 4
+            },
+            {
+              "name": "Otto Lopez",
+              "pos": "SS",
+              "bat_order": 5
+            },
+            {
+              "name": "Owen Caissie",
+              "pos": "DH",
+              "bat_order": 6
+            },
+            {
+              "name": "Esteury Ruiz",
+              "pos": "LF",
+              "bat_order": 7
+            },
+            {
+              "name": "Joe Mack",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Connor Norby",
+              "pos": "3B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-21T10:41:13Z"
+        "fetched_at": "2026-06-21T17:20:10Z"
       },
       "umpire": {
         "name": null,
@@ -2489,11 +2587,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 1,
+      "home_score": 2,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 823852
@@ -2795,7 +2895,7 @@
         "cf_bearing_deg": null,
         "cf_bearing_est": false,
         "wind_cf_angle_deg": null,
-        "note": "Indoor stadium — weather not applicable",
+        "note": "Indoor stadium \u2014 weather not applicable",
         "source": null,
         "source_priority": null,
         "fetched_at": "2026-06-21T10:38:08Z"
@@ -3052,7 +3152,7 @@
               "bat_order": 1
             },
             {
-              "name": "Luis García Jr.",
+              "name": "Luis Garc\u00eda Jr.",
               "pos": "1B",
               "bat_order": 2
             },
@@ -3077,7 +3177,7 @@
               "bat_order": 6
             },
             {
-              "name": "José Tena",
+              "name": "Jos\u00e9 Tena",
               "pos": "DH",
               "bat_order": 7
             },
@@ -3087,7 +3187,7 @@
               "bat_order": 8
             },
             {
-              "name": "Nasim Nuñez",
+              "name": "Nasim Nu\u00f1ez",
               "pos": "2B",
               "bat_order": 9
             }
@@ -3098,7 +3198,7 @@
           "status": "confirmed",
           "order": [
             {
-              "name": "Yandy Díaz",
+              "name": "Yandy D\u00edaz",
               "pos": "DH",
               "bat_order": 1
             },
@@ -3156,11 +3256,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 3,
+      "home_score": 4,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 822968
@@ -3462,7 +3564,7 @@
         "cf_bearing_deg": 314,
         "cf_bearing_est": true,
         "wind_cf_angle_deg": 19,
-        "note": "Retractable roof — may be open or closed at game time",
+        "note": "Retractable roof \u2014 may be open or closed at game time",
         "source": "open_meteo",
         "source_priority": 1,
         "fetched_at": "2026-06-21T10:38:09Z"
@@ -3747,7 +3849,7 @@
           "status": "confirmed",
           "order": [
             {
-              "name": "Jeremy Peña",
+              "name": "Jeremy Pe\u00f1a",
               "pos": "SS",
               "bat_order": 1
             },
@@ -3787,7 +3889,7 @@
               "bat_order": 8
             },
             {
-              "name": "Christian Vázquez",
+              "name": "Christian V\u00e1zquez",
               "pos": "C",
               "bat_order": 9
             }
@@ -3805,11 +3907,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 1,
+      "home_score": 2,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 824177
@@ -4311,7 +4415,7 @@
               "bat_order": 1
             },
             {
-              "name": "Iván Herrera",
+              "name": "Iv\u00e1n Herrera",
               "pos": "DH",
               "bat_order": 2
             },
@@ -4415,11 +4519,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 12,
+      "home_score": 10,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 824095
@@ -5014,7 +5120,7 @@
               "bat_order": 7
             },
             {
-              "name": "Jesús Sánchez",
+              "name": "Jes\u00fas S\u00e1nchez",
               "pos": "LF",
               "bat_order": 8
             },
@@ -5090,9 +5196,11 @@
     "result": {
       "away_score": null,
       "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "winner": null,
+      "status": "postponed",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 824664
@@ -5362,7 +5470,7 @@
         "cf_bearing_deg": 331,
         "cf_bearing_est": true,
         "wind_cf_angle_deg": 45,
-        "note": "Retractable roof — may be open or closed at game time",
+        "note": "Retractable roof \u2014 may be open or closed at game time",
         "source": "open_meteo",
         "source_priority": 1,
         "fetched_at": "2026-06-21T10:38:12Z"
@@ -5604,11 +5712,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 3,
+      "home_score": 4,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 822883
@@ -6160,11 +6270,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 8,
+      "home_score": 6,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 824343
@@ -6705,16 +6817,108 @@
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Zach Neto",
+              "pos": "SS",
+              "bat_order": 1
+            },
+            {
+              "name": "Wade Meckler",
+              "pos": "LF",
+              "bat_order": 2
+            },
+            {
+              "name": "Jo Adell",
+              "pos": "RF",
+              "bat_order": 3
+            },
+            {
+              "name": "Nolan Schanuel",
+              "pos": "1B",
+              "bat_order": 4
+            },
+            {
+              "name": "Denzer Guzman",
+              "pos": "3B",
+              "bat_order": 5
+            },
+            {
+              "name": "Christian Moore",
+              "pos": "2B",
+              "bat_order": 6
+            },
+            {
+              "name": "Donovan Walton",
+              "pos": "DH",
+              "bat_order": 7
+            },
+            {
+              "name": "Logan O'Hoppe",
+              "pos": "C",
+              "bat_order": 8
+            },
+            {
+              "name": "Jose Siri",
+              "pos": "CF",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Zack Gelof",
+              "pos": "2B",
+              "bat_order": 1
+            },
+            {
+              "name": "Nick Kurtz",
+              "pos": "1B",
+              "bat_order": 2
+            },
+            {
+              "name": "Jacob Wilson",
+              "pos": "SS",
+              "bat_order": 3
+            },
+            {
+              "name": "Tyler Soderstrom",
+              "pos": "LF",
+              "bat_order": 4
+            },
+            {
+              "name": "Jonah Heim",
+              "pos": "C",
+              "bat_order": 5
+            },
+            {
+              "name": "Joey Meneses",
+              "pos": "DH",
+              "bat_order": 6
+            },
+            {
+              "name": "Colby Thomas",
+              "pos": "RF",
+              "bat_order": 7
+            },
+            {
+              "name": "Henry Bolte",
+              "pos": "CF",
+              "bat_order": 8
+            },
+            {
+              "name": "Max Muncy",
+              "pos": "3B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-21T10:41:13Z"
+        "fetched_at": "2026-06-21T17:40:27Z"
       },
       "umpire": {
         "name": null,
@@ -6725,11 +6929,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 9,
+      "home_score": 7,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 824987
@@ -7274,7 +7480,7 @@
             "flag": "reduced"
           },
           {
-            "name": "Jonathan Hernández",
+            "name": "Jonathan Hern\u00e1ndez",
             "pitches_yesterday": 14,
             "pitches_two_days_ago": null,
             "appeared_consecutive_days": false,
@@ -7288,16 +7494,108 @@
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Taylor Ward",
+              "pos": "LF",
+              "bat_order": 1
+            },
+            {
+              "name": "Gunnar Henderson",
+              "pos": "SS",
+              "bat_order": 2
+            },
+            {
+              "name": "Pete Alonso",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Samuel Basallo",
+              "pos": "C",
+              "bat_order": 4
+            },
+            {
+              "name": "Coby Mayo",
+              "pos": "DH",
+              "bat_order": 5
+            },
+            {
+              "name": "Colton Cowser",
+              "pos": "CF",
+              "bat_order": 6
+            },
+            {
+              "name": "Leody Taveras",
+              "pos": "RF",
+              "bat_order": 7
+            },
+            {
+              "name": "Blaze Alexander",
+              "pos": "3B",
+              "bat_order": 8
+            },
+            {
+              "name": "Jeremiah Jackson",
+              "pos": "2B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Shohei Ohtani",
+              "pos": "DH",
+              "bat_order": 1
+            },
+            {
+              "name": "Andy Pages",
+              "pos": "CF",
+              "bat_order": 2
+            },
+            {
+              "name": "Freddie Freeman",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Mookie Betts",
+              "pos": "SS",
+              "bat_order": 4
+            },
+            {
+              "name": "Max Muncy",
+              "pos": "3B",
+              "bat_order": 5
+            },
+            {
+              "name": "Kyle Tucker",
+              "pos": "RF",
+              "bat_order": 6
+            },
+            {
+              "name": "Ryan Ward",
+              "pos": "LF",
+              "bat_order": 7
+            },
+            {
+              "name": "Alex Freeland",
+              "pos": "2B",
+              "bat_order": 8
+            },
+            {
+              "name": "Chuckie Robinson",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-21T10:41:13Z"
+        "fetched_at": "2026-06-21T17:32:21Z"
       },
       "umpire": {
         "name": null,
@@ -7308,11 +7606,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 12,
+      "home_score": 1,
+      "winner": "away",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 823934
@@ -7614,7 +7914,7 @@
         "cf_bearing_deg": 8,
         "cf_bearing_est": true,
         "wind_cf_angle_deg": 128,
-        "note": "Retractable roof — may be open or closed at game time",
+        "note": "Retractable roof \u2014 may be open or closed at game time",
         "source": "open_meteo",
         "source_priority": 1,
         "fetched_at": "2026-06-21T10:38:16Z"
@@ -7826,7 +8126,7 @@
       "bullpen_home": {
         "team_bullpen_era": null,
         "closer": {
-          "name": "Andrés Muñoz",
+          "name": "Andr\u00e9s Mu\u00f1oz",
           "available": true
         },
         "taxed_relievers": [
@@ -7840,7 +8140,7 @@
             "flag": "reduced"
           },
           {
-            "name": "José A. Ferrer",
+            "name": "Jos\u00e9 A. Ferrer",
             "pitches_yesterday": 18,
             "pitches_two_days_ago": null,
             "appeared_consecutive_days": false,
@@ -7892,11 +8192,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 1,
+      "home_score": 3,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 823123
@@ -8385,7 +8687,7 @@
             "flag": "likely_unavailable"
           },
           {
-            "name": "Cionel Pérez",
+            "name": "Cionel P\u00e9rez",
             "pitches_yesterday": 32,
             "pitches_two_days_ago": null,
             "appeared_consecutive_days": false,
@@ -8437,16 +8739,108 @@
       },
       "lineups": {
         "away": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Carson Benge",
+              "pos": "RF",
+              "bat_order": 1
+            },
+            {
+              "name": "Bo Bichette",
+              "pos": "SS",
+              "bat_order": 2
+            },
+            {
+              "name": "Juan Soto",
+              "pos": "LF",
+              "bat_order": 3
+            },
+            {
+              "name": "Jared Young",
+              "pos": "1B",
+              "bat_order": 4
+            },
+            {
+              "name": "A.J. Ewing",
+              "pos": "CF",
+              "bat_order": 5
+            },
+            {
+              "name": "Marcus Semien",
+              "pos": "2B",
+              "bat_order": 6
+            },
+            {
+              "name": "Brett Baty",
+              "pos": "3B",
+              "bat_order": 7
+            },
+            {
+              "name": "Francisco Alvarez",
+              "pos": "DH",
+              "bat_order": 8
+            },
+            {
+              "name": "Luis Torrens",
+              "pos": "C",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
         "home": {
-          "status": "not_yet_confirmed",
-          "order": [],
+          "status": "confirmed",
+          "order": [
+            {
+              "name": "Trea Turner",
+              "pos": "SS",
+              "bat_order": 1
+            },
+            {
+              "name": "Kyle Schwarber",
+              "pos": "DH",
+              "bat_order": 2
+            },
+            {
+              "name": "Bryce Harper",
+              "pos": "1B",
+              "bat_order": 3
+            },
+            {
+              "name": "Alec Bohm",
+              "pos": "3B",
+              "bat_order": 4
+            },
+            {
+              "name": "Edmundo Sosa",
+              "pos": "LF",
+              "bat_order": 5
+            },
+            {
+              "name": "Brandon Marsh",
+              "pos": "RF",
+              "bat_order": 6
+            },
+            {
+              "name": "J.T. Realmuto",
+              "pos": "C",
+              "bat_order": 7
+            },
+            {
+              "name": "Derek Hill",
+              "pos": "CF",
+              "bat_order": 8
+            },
+            {
+              "name": "Bryson Stott",
+              "pos": "2B",
+              "bat_order": 9
+            }
+          ],
           "il_absences": []
         },
-        "fetched_at": "2026-06-21T10:41:13Z"
+        "fetched_at": "2026-06-21T20:00:35Z"
       },
       "umpire": {
         "name": null,
@@ -8457,11 +8851,13 @@
       }
     },
     "result": {
-      "away_score": null,
-      "home_score": null,
-      "final_at": null,
-      "source": null,
-      "source_priority": null,
+      "away_score": 2,
+      "home_score": 6,
+      "winner": "home",
+      "status": "final",
+      "fetched_at": "2026-06-22T04:07:48Z",
+      "source": "mlb_official",
+      "source_priority": 1,
       "verified": false
     },
     "mlb_game_pk": 823449

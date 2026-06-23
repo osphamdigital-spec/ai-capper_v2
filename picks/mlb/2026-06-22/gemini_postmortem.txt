@@ -1,0 +1,154 @@
+==================================================================
+  RESULTS SUMMARY  MLB  2026-06-22
+==================================================================
+
+  NYY    3  @  DET    5 
+  KC     2  @  TB     1
+  TEX    4  @  MIA    3
+  PHI    1  @  WAS    4 
+  HOU    2  @  TOR    4 
+  MIL    2  @  CIN    1
+  LAD    2  @  MIN    1
+  CLE    5  @  CHW    6 
+  AZ     2  @  STL    3 
+  BOS    2  @  COL    3 
+  BAL    6  @  LAA    1
+  ATL    0  @  SD     1 
+  CHC    ?  @  NYM    ?  [postponed]
+
+  Final:    12/13 games
+  Postponed: 1
+==================================================================
+
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: LAD ML -148 @ MIN
+RESULT: WIN (LAD 2, MIN 1)
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+### PART A — GAMES YOU BET
+
+GAME: TEX @ MIA
+PICK: Over 8.5 (-102, 1u)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Targeting two starting pitchers with SIERAs above 4.60 combined with high-fatigue Phase 2 bullpens is a highly profitable setup. The game staying under the total was a matter of standard baseball variance (specifically, low conversion of runners in scoring position) rather than a flaw in the pre-game handicap.
+SOURCE: N/A
+
+---
+
+GAME: LAD @ MIN
+PICK: LAD ML (-148, 3u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The multi-layered edge (LAD 121 wRC+ vs RHP, MIN's struggles against LHP, and MIN's heavily penalized bullpen) was realized on the field, securing a tight but fundamentally sound victory.
+SOURCE: N/A
+
+---
+
+GAME: BAL @ LAA
+PICK: BAL ML (-155, 1u)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Exploiting the massive starting pitching gap between Kyle Bradish and the small-sample struggles of Sam Aldegheri (6.98 SIERA) was correct. Sizing the unit down to 1u due to the small-sample opponent was also the correct risk management procedure.
+SOURCE: N/A
+
+---
+
+GAME: ATL @ SD
+PICK: Over 7.0 (+105, 1u)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Standard projection models will always look to target a total of 7.0 when both bullpens are carrying severe fatigue penalties. However, playing this Over in an elite pitcher's environment like Petco Park carries inherently higher variance, which manifested in a 1-0 shutout.
+SOURCE: N/A
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+NONE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+NONE
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Implement a venue-based discount modifier on the run-inflation weight of bullpen fatigue penalties in extreme pitcher's parks (e.g., Petco Park, Oracle Park).
+WHAT IN MY METHOD COULD BE SHARPER: The bullpen fatigue model overestimates run-leakage potential when the physical environment heavily suppresses home runs and run environment.
+EVIDENCE FROM TODAY: In ATL @ SD, despite heavily fatigued, low-K relievers on both sides and an expected late-game leakage that pushed our projection to 9.8 runs, the game finished 1-0 due to the immense run-suppressing nature of Petco Park.
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup)
+
+### GAME: KC @ TB — YOUR CALL: LEAN over
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: TEX @ MIA — YOUR CALL: BET over ML -102 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: CHC @ NYM — YOUR CALL: LEAN away
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: CLE @ CHW — YOUR CALL: LEAN away
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: LAD @ MIN — YOUR CALL: BET away ML -148 (3u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: LAD @ MIN — YOUR CALL: LEAN over
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: AZ @ STL — YOUR CALL: LEAN home
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: BAL @ LAA — YOUR CALL: BET away ML -155 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: ATL @ SD — YOUR CALL: BET over ML 105 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A

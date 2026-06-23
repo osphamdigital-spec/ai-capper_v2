@@ -31,6 +31,18 @@ Deprecated V1 legacy (fable, manus, chatgpt5.5, gpt-5.2-high) excluded.
 
 ## Decisions
 
+### 2026-06-21 — opus — PROMOTED  ✅ IMPLEMENTED
+- **Change:** Non-viable favorite starter — don't auto-defer to the price. When opus's own SIERA/K-BB% read flags a listed FAVORITE's starter as functionally non-viable (K-BB% below ~5% over a meaningful recent window) AND the favorite is priced ≥ -180, do not pass on "price reflects it" grounds; force an explicit estimate of the dog's fair number before flagging the dog side or passing.
+- **Method version:** method_opus_v3.md (internal header v4; v1/v2 retained as history)
+- **Evidence:** 3-slate recurrence of the extreme-favorite-starter theme — 06-15 (fade priced favorite who is the larger regression candidate), 06-17 (test opposing ML when starter AGG profile extreme), 06-21 (BAL @ LAD: Young documented pre-game at 4.87 SIERA / 2.0% K-BB% L14, passed at -215 without quantifying the dog). Recurrence gate met; the 06-21 instance crystallized the prior-slate variants into one stable, testable trigger. Evidence pre-game throughout; opus explicitly flagged it "not a result-based critique."
+- **Owner reasoning:** Approved. The theme deferred on 06-20 only because the rule kept shifting each slate; 06-21 gave a concrete K-BB%/price trigger. Recurrence-gated, not confidence-gated (opus self-rated LOW).
+
+### 2026-06-21 — chatgpt / kimi / deepseek — PROMOTED (convergence)  ✅ IMPLEMENTED
+- **Change:** Small-sample starter → reduce stake / widen run-expectation uncertainty rather than betting the point estimate at full stake. Each model authored its own version of the shared theme: chatgpt (confidence haircut to total projections + totals gate raised to 1.0 runs when small-sample-driven); kimi (expand run-expectation CI ~50%, new 0.5-unit small-sample tier or pass even when the point-estimate gap clears the gate); deepseek (widen projected-runs band ~50% and re-test the edge at the unfavourable end; downgrade to 1u or pass when a small-sample starter primarily drives the edge).
+- **Method version:** method_chatgpt_v3.md, method_kimi_v3.md, method_deepseek_v4.md (each in the model's own style; prior versions retained)
+- **Evidence:** 3-model cross-model convergence on a single slate (06-21). chatgpt, kimi, and deepseek each independently filed a small-sample-starter stake-reduction S4 with pre-game evidence (CIN @ NYY / Rodríguez and SF @ MIA / Gusto small-sample flags accepted at full 1u). Convergence gate met (2+ models independently converged).
+- **Owner reasoning:** Approved via convergence. Each model promotes its OWN version — no identical rule copied across the three (consistent with the per-model-derivation precedent from the 06-15 L14 promotion). Self-rated confidences LOW–MEDIUM; promotion rests on the convergence signal, not any single model's confidence.
+
 <!-- Append newest entries at the top. Template:
 
 ### YYYY-MM-DD — <model> — PROMOTED / DECLINED / DEFERRED

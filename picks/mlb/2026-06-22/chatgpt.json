@@ -20,10 +20,11 @@
       "reason": "New York has the better platoon setup against Framber Valdez and Detroit’s bullpen is in worse shape, but Gerrit Cole is still a small-sample starter and that suppresses confidence enough to keep this below my side threshold. The total sits near fair: the Yankees can do damage vs lefties, yet Comerica is only mildly favorable and both starters still carry enough skill to keep me off an Over chase.",
       "data_gap": "Yankees lineup confirmation, especially any right-handed rest day",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "3e12cc318907e3d20b669757daa0601c",
@@ -41,10 +42,11 @@
       "reason": "Rasmussen is the clear best starter on the slate segment and Tampa is the right side if forced, but the -185 price asks for too much with Tampa’s leverage bullpen notably taxed. The total is also a pass because Rasmussen drives Under interest while both bullpens’ availability issues keep the late-run environment too unstable for a thin number.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "5a8ab9f3ed0791629f4f9e10da52043a",
@@ -62,10 +64,11 @@
       "reason": "Both starters grade as back-end arms and both bullpens are stressed, but the side is hard to separate because neither offense has a major platoon edge and Miami’s home price is already near my fair number. I project a mildly higher run environment than 8.5, but roof status at loanDepot materially affects the total projection and keeps this off the card.",
       "data_gap": "loanDepot roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "2bbd66d60ea2fc31f947643a281cfb84",
@@ -83,10 +86,11 @@
       "reason": "Philadelphia’s starter is TBD, so this is an automatic pass under my rules. The total is also a pass because the missing starter data and meaningful rain/postponement risk make the whole game too fragile to model honestly.",
       "data_gap": "Phillies starting pitcher and updated weather/postponement outlook",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "06b34739941eb6ab0d54c4cee040b202",
@@ -104,10 +108,11 @@
       "reason": "Toronto’s starter is TBD, so the side is an automatic pass even though Hunter Brown’s underlying skill is strong. The total also stays off the board because starter uncertainty plus possible roof effects create too much model spread around 7.5.",
       "data_gap": "Blue Jays starting pitcher and Rogers Centre roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "da1236e8e0bc448283c6e1e28d578e43",
@@ -122,13 +127,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "The Cubs have the better starter/offense blend against Kodai Senga, but Senga is still a small-sample arm and the weather adds enough postponement/delay uncertainty to keep this from becoming a play. The total is similarly fragile because drizzle/delay risk can distort both starter usage and bullpen entry points.",
+      "reason": "postponed",
       "data_gap": "updated weather/delay outlook and confirmed lineups",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "7adc5663e108dbde0834e58a957b5d3e",
@@ -146,10 +152,11 @@
       "reason": "Milwaukee’s starter is TBD, so the side is an automatic pass despite Brady Singer being attackable. The total is also a pass because I do not want to model Great American’s run environment without a confirmed opposing starter.",
       "data_gap": "Brewers starting pitcher",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "22bf5f58b0fd7173739a6d0fb1bd280e",
@@ -167,10 +174,11 @@
       "reason": "Gavin Williams has the better raw skill base, but Cleveland’s weak split vs lefties and Chicago’s home-field/platoon response offset enough of that edge that I do not clear my side gate. The total has already moved up to 8 and now looks close to fair with a pitcher-friendly park, middling offenses, and mixed bullpen signals.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "0fdd8b67a62fe347c0995afb9eb94c73",
@@ -187,11 +195,17 @@
       "edge": "4.2 pts",
       "reason": "I make Los Angeles 63.9% here, driven by the elite Dodgers split vs right-handed pitching, Minnesota’s poor split vs lefties, and a meaningful bullpen freshness edge behind the starters. Eric Lauer is the obvious risk point, which is why this stays 1 unit, and the total is a pass because his volatility is already reflected in the move to 9.5.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.6757,
+      "clv": 7,
+      "closing_line": -155,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "fbfee8c921cea16428faf24b7ba19aed",
@@ -208,11 +222,17 @@
       "edge": "5.8 pts",
       "reason": "I make St. Louis 64.1%: Andre Pallante is in much better current shape than Merrill Kelly, Arizona owns just an 87 wRC+ vs righties, and the Cardinals bring the far better platoon profile into this matchup. Arizona’s bullpen quality keeps this from 3 units, while the total is near fair once Busch’s run suppression offsets Kelly’s contact-risk profile.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.7143,
+      "clv": 3,
+      "closing_line": -143,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "4244628ff5c52a85f4e83f8dc171ed4e",
@@ -230,10 +250,11 @@
       "reason": "Boston is the more likely winner on paper, but Coors variance plus Jake Bennett’s small sample make the side too noisy for my card. The total has already been heavily adjusted downward from 12 to 11.5, and once I account for Boston’s weaker split vs righties and Colorado’s poor split vs lefties, I do not have enough cushion to fire in this environment.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "541d3f8c1e87131917cbf8386a2563f6",
@@ -251,10 +272,11 @@
       "reason": "The side is a pass because Baltimore has the better starter, but the Orioles’ weaker split vs lefties and both taxed bullpens make -155 too expensive. I project 10.7 runs: Sam Aldegheri’s underlying indicators are poor, both offenses have enough contact quality to cash in, and both relief groups are short on fresh top-end outs.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "541d3f8c1e87131917cbf8386a2563f6",
@@ -271,12 +293,18 @@
       "edge": "1.7 runs",
       "reason": "The side is a pass because Baltimore has the better starter, but the Orioles’ weaker split vs lefties and both taxed bullpens make -155 too expensive. I project 10.7 runs: Sam Aldegheri’s underlying indicators are poor, both offenses have enough contact quality to cash in, and both relief groups are short on fresh top-end outs.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 202,
+      "closing_line": -102,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "66c3c3524e444f31fe9fc224ac058351",
@@ -294,10 +322,11 @@
       "reason": "Atlanta has the better lineup split against right-handed pitching, but both starters bring shaky recent form and both bullpens are missing key freshness, leaving the side too conflict-heavy at near pick’em. The total is also a pass because Petco suppresses runs, yet the starter quality is not strong enough for a clean Under and the current number is too low for a comfortable Over.",
       "data_gap": "confirmed Padres lineup depth against right-handed pitching",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     }
   ],
   "parlay": null,
@@ -311,5 +340,6 @@
     "passes": 11,
     "units_risked": 3,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T06:44:50Z"
 }

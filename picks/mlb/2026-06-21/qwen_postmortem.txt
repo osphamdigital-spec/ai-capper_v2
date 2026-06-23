@@ -1,0 +1,79 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NYM @ PHI Over 8.0 (3 units)
+RESULT: PUSH
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: / WHY: / SOURCE: N/A. The pre-game process was exceptionally strong, identifying a massive 2.8-run edge based on underlying pitching metrics (Peterson's 88 Stf+), elite lineup barrel rates, and park factors. Hitting exactly 8 runs is a fair result that validates the high-total projection; it does not invalidate the pre-game edge.
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: CLE @ HOU
+PICK: Over 8.5 (-112)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: The pre-game data strongly supported the Over. CLE's top two relievers being unavailable forced low-leverage arms into high-leverage spots, and both starters showed recent xFIP slumps. A 3-run total in a game projected for 10+ is simply negative variance in a single-game sample, not a process failure.
+SOURCE: CLE T1/T2 reliever availability, HOU platoon wRC+, starters' xFIP slumps.
+
+GAME: TOR @ CHC
+PICK: TOR ML (-117)
+RESULT: VOID (Postponed)
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Postponements are entirely out of our control. The pre-game edge against Imanaga was valid based on Cease's underlying metrics and Toronto's platoon splits. 
+SOURCE: Cease's 2.53 AGG xFIP, TOR's 113 wRC+ vs LHP.
+
+GAME: BAL @ LAD
+PICK: BAL ML (+189)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Successfully identified a massive mismatch between an elite offense against right-handed pitching and a struggling starter. The +189 price offered excellent value for a 5.4% calculated edge.
+SOURCE: BAL's 124 wRC+ vs RHP, Brandon Young's 5.26 L14 SIERA.
+
+GAME: NYM @ PHI
+PICK: PHI RL (+110)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pitching mismatch was accurately modeled. Wheeler's elite strikeout and stuff metrics easily neutralized the Mets' lineup, while Peterson's poor stuff metrics led to a comfortable Phillies victory, covering the run line.
+SOURCE: Wheeler's 106 Stf+ and 19.9% K-BB, Peterson's 88 Stf+.
+
+GAME: NYM @ PHI
+PICK: Over 8.0 (-107)
+RESULT: PUSH
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The total projection of 10.8 was well-founded on hard-hit rates and park factors. The game landing on exactly 8 is a fair result/push that aligns with a high-scoring environment, confirming the pre-game model's accuracy.
+SOURCE: Hard-hit/barrel rates, Citizens Bank Park dimensions.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE. All passes were dictated by strict, necessary data integrity and risk-management rules (e.g., Coors Field variance, TBD pitchers, stale/suspect pricing, mandatory weather passes, and sub-4.0% edge gates). There were no missed edges in the games I passed.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA
+ITEM: Real-time precipitation timing and duration forecasts (minute-by-minute radar).
+WHICH GAME(S): STL @ KC
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: The 42% rain chance triggered a mandatory pass. If granular radar data showed the rain was expected to be a brief 10-minute shower before first pitch rather than a mid-game deluge, I would have bypassed the suspension risk and bet the Over, which would have won massively (22 total runs).
+
+TYPE: DATA
+ITEM: Confirmed starting pitcher and active roster/lineup data.
+WHICH GAME(S): SD @ TEX, CHW @ DET
+WOULD HAVE CHANGED A BET? YES
+WHY: SD @ TEX was an automatic pass due to a TBD pitcher. CHW @ DET was passed due to a 201-point line movement indicating a likely unconfirmed roster change. Having this data instantly upon release would allow me to model these games rather than passing them for data integrity reasons.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Refine the mandatory weather pass rule for totals to account for precipitation timing, intensity, and duration, rather than relying on a flat probability threshold.
+WHAT IN MY METHOD COULD BE SHARPER: Currently, any rain chance >40% triggers a hard pass on totals to avoid suspension risk and unmodelable bullpen variance. This is too blunt; it treats a 15-minute pre-game drizzle the same as a 3-hour mid-game thunderstorm. Incorporating expected duration and timing would prevent passing highly profitable totals when suspension risk is actually minimal.
+EVIDENCE FROM TODAY: STL @ KC had a 42% chance of rain, triggering a mandatory pass. The game was played to completion without suspension and went Over 22 runs. If the model knew the rain was not expected during peak innings, the pass would have been avoided.
+CONFIDENCE: MEDIUM

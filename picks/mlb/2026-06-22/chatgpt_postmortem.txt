@@ -1,0 +1,117 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: STL ML -140  
+WHY: It was my largest listed edge on the slate (5.8 pts), and the pre-game case was cleaner than LAD: better current starter form than Arizona, Arizona’s weak offensive split vs RHP (87 wRC+ in my writeup / 76 confirmed lineup snapshot), and the stronger STL platoon profile.  
+SOURCE: Original card notes for AZ @ STL; confirmed lineup snapshot showed STL lineup roughly in line with expectation and AZ still weak vs RHP.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: LAD @ MIN  
+PICK: LAD ML -148  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game case held up: Dodgers had the better lineup split vs RHP, Minnesota had the weaker split vs LHP, and I gave LAD the bullpen freshness edge. The confirmed lineups did not weaken that view at all. This was a sound 1-unit favorite, not an overreach.  
+SOURCE: Original projection of LAD 63.9%; confirmed lineup snapshot unchanged from assumption.
+
+---
+
+GAME: AZ @ STL  
+PICK: STL ML -140  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: This was the strongest side edge I posted and I still agree with it. The handicap was built on Pallante’s better current form, Arizona’s poor split vs righties, and STL’s superior offensive shape for this matchup. Confirmed lineups were roughly as expected, so there is no pre-game reason to downgrade it.  
+SOURCE: Original projection of STL 64.1%; confirmed lineup snapshot showed STL strong vs RHP and Arizona weak vs RHP.
+
+---
+
+GAME: BAL @ LAA  
+PICK: Over 9.0 +100  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: I can still name the pre-game reasons: I projected 10.7 runs because Aldegheri’s indicators were poor, both bullpens were taxed, and both lineups had enough contact quality to punish shaky pitching. The confirmed lineups did not materially reduce the Over case. I do think this was the thinnest of my three bets, but it was still supported by actual pre-game data rather than result-chasing logic.  
+SOURCE: Original total projection and bullpen note; confirmed lineup snapshot for both teams.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+NONE
+
+I do not see a pass where I can honestly say the pre-game data in hand should have forced a bet. Most of the non-bets were driven by explicit missing-starter, weather, or price-discipline rules, and I should not break those rules just because some dogs won.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Confirmed roof status feed before lock  
+WHICH GAME(S): TEX @ MIA, HOU @ TOR  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I explicitly flagged roof effects in both games as material to total projections. That is actionable pre-game information, especially in lower totals.
+
+---
+
+TYPE: DATA  
+ITEM: Standardized confirmed starting pitcher feed for TBD games at decision time  
+WHICH GAME(S): PHI @ WAS, HOU @ TOR, MIL @ CIN  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: My method correctly auto-passes TBD starter games. Earlier reliable confirmation would have allowed an actual model instead of a forced pass.
+
+---
+
+TYPE: SOURCE  
+ITEM: Bullpen availability report with leverage-tier usage buckets, not just general “taxed/fresh” labels  
+WHICH GAME(S): KC @ TB, BAL @ LAA, ATL @ SD  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Several decisions were close and bullpen state was a major swing factor. Better bullpen granularity would sharpen both side and total confidence.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Tighten total-bet thresholds when the edge depends heavily on bullpen stress rather than on both starting pitching and lineup split support.  
+WHAT IN MY METHOD COULD BE SHARPER: I was willing to fire BAL/LAA Over with only a modest market gap because the bullpen angle pushed my projection aggressively upward. That may be too fragile for a 1-unit total unless the offensive split data are also clearly strong on both sides.  
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): In BAL @ LAA, my writeup leaned heavily on poor Aldegheri indicators and taxed bullpens, while Baltimore’s own split vs LHP was described as weaker and several lineup components carried noisy samples. That is a sign the projection may have been more bullpen-sensitive than ideal.  
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup)
+
+### GAME: LAD @ MIN — YOUR CALL: BET away ML -148 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: The confirmed lineups matched the original split-based handicap. Dodgers still showed the clear stronger profile vs RHP, while Minnesota’s lineup remained weaker vs LHP. No key rest/scratch altered the edge.
+
+---
+
+### GAME: AZ @ STL — YOUR CALL: BET home ML -140 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: The confirmed lineups supported the original case. Arizona still projected weak vs RHP, and STL still brought the better offensive shape for the matchup. No meaningful downgrade from rest or late scratch.
+
+---
+
+### GAME: BAL @ LAA — YOUR CALL: BET over ML 100 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: Both lineups remained playable for an Over. Baltimore still had enough quality bats vs LHP despite some uneven split numbers, and the Angels still projected near-average or better vs RHP. No key absence materially lowered the run projection.
+
+---
+
+### Bottom-line self-review
+The good: the two sides I bet were solid, disciplined favorites with real pre-game edges, and both still look right on process.  
+The miss: the BAL/LAA Over was defensible, but it was the kind of total where bullpen assumptions did a lot of the lifting. That’s the one area I’d want to tighten methodologically.  
+The passes: I don’t think I missed some obvious slate winner. Most of the passes were correct restraint, not fear.

@@ -38,6 +38,44 @@ from pathlib import Path
 from tz_util import ET
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# TEAM ABBREVIATION ALIASES
+# Models frequently write an alternate abbreviation for a team than the canonical
+# one used in games.json (e.g. "WSH" instead of "WAS"). Without normalization the
+# pick-side parser fails to match the team token to away/home_abbr, leaving
+# pick_side=None and the pick ungradeable (e.g. gemini's "WSH ML" on 2026-06-21).
+#
+# Keys are alternate forms a model might emit; values are the canonical abbr in
+# games.json. Mirrors (and extends) COVERS_ABBR_REMAP in fetch_covers_lines.py.
+# Canonical set verified against data/mlb/*/games.json:
+#   ... AZ, CHW, KC, SD, SF, TB, WAS, ATH ...
+# ─────────────────────────────────────────────────────────────────────────────
+
+TEAM_ABBR_ALIASES = {
+    # From COVERS_ABBR_REMAP precedent (fetch_covers_lines.py):
+    "WSH": "WAS",   # Washington Nationals
+    "CWS": "CHW",   # Chicago White Sox
+    "ARI": "AZ",    # Arizona Diamondbacks
+    # Standard multi-letter alternates LLMs commonly emit for 2-letter canon abbrs:
+    "SFG": "SF",    # San Francisco Giants
+    "TBR": "TB",    # Tampa Bay Rays
+    "KCR": "KC",    # Kansas City Royals
+    "SDP": "SD",    # San Diego Padres
+    "OAK": "ATH",   # Athletics (now listed as ATH in games.json)
+    "WSN": "WAS",   # alternate Nationals form
+}
+
+
+def canonical_abbr(token: str) -> str:
+    """Map an alternate team abbreviation to its canonical games.json form.
+
+    Returns the token unchanged when it has no alias (already canonical or
+    genuinely unknown). Case-insensitive on input; always returns upper-case.
+    """
+    if not token:
+        return token
+    up = token.upper()
+    return TEAM_ABBR_ALIASES.get(up, up)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -210,12 +248,15 @@ def parse_pick_side_and_market(
     if first in ("UNDER", "UNDER ML", "UNDER TOTAL"):
         return "under", "total"
 
-    team_token = first
+    # Normalize alternate abbreviations (e.g. "WSH" -> "WAS") so the team token
+    # matches the canonical away/home_abbr from games.json. Both sides are run
+    # through canonical_abbr defensively in case games.json ever carries an alt.
+    team_token = canonical_abbr(first)
 
     # Determine side by matching against away/home abbreviation
-    if team_token == away_abbr.upper():
+    if team_token == canonical_abbr(away_abbr):
         side = "away"
-    elif team_token == home_abbr.upper():
+    elif team_token == canonical_abbr(home_abbr):
         side = "home"
     else:
         side = None   # unknown abbr — stored raw for manual review

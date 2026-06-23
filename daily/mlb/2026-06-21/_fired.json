@@ -1,0 +1,132 @@
+{
+  "fired": {
+    "chatgpt_c489d951af8ab8f1fd4ae78c8d3ecfd0": {
+      "fired_at": "2026-06-21T16:49:01Z",
+      "reason": "confirm-check"
+    },
+    "chatgpt_ec4cae25ad07349a66d527ea9274b717": {
+      "fired_at": "2026-06-21T16:49:01Z",
+      "reason": "confirm-check"
+    },
+    "chatgpt_6c9cb91ce383f581ac4ff00dd0d3248d": {
+      "fired_at": "2026-06-21T16:49:01Z",
+      "reason": "confirm-check"
+    },
+    "deepseek_c489d951af8ab8f1fd4ae78c8d3ecfd0": {
+      "fired_at": "2026-06-21T16:49:21Z",
+      "reason": "confirm-check"
+    },
+    "deepseek_6c9cb91ce383f581ac4ff00dd0d3248d": {
+      "fired_at": "2026-06-21T16:49:21Z",
+      "reason": "confirm-check"
+    },
+    "gemini_c489d951af8ab8f1fd4ae78c8d3ecfd0": {
+      "fired_at": "2026-06-21T16:49:28Z",
+      "reason": "confirm-check"
+    },
+    "gemini_a14b7bea51fe65613c31f6f978b654bf": {
+      "fired_at": "2026-06-21T16:49:28Z",
+      "reason": "confirm-check"
+    },
+    "gemini_6c9cb91ce383f581ac4ff00dd0d3248d": {
+      "fired_at": "2026-06-21T16:49:28Z",
+      "reason": "confirm-check"
+    },
+    "grok_c489d951af8ab8f1fd4ae78c8d3ecfd0": {
+      "fired_at": "2026-06-21T16:49:48Z",
+      "reason": "confirm-check"
+    },
+    "kimi_c489d951af8ab8f1fd4ae78c8d3ecfd0": {
+      "fired_at": "2026-06-21T16:51:24Z",
+      "reason": "confirm-check"
+    },
+    "opus_c489d951af8ab8f1fd4ae78c8d3ecfd0": {
+      "fired_at": "2026-06-21T16:51:33Z",
+      "reason": "confirm-check"
+    },
+    "opus_6c9cb91ce383f581ac4ff00dd0d3248d": {
+      "fired_at": "2026-06-21T16:51:33Z",
+      "reason": "confirm-check"
+    },
+    "sonnet_c489d951af8ab8f1fd4ae78c8d3ecfd0": {
+      "fired_at": "2026-06-21T16:51:41Z",
+      "reason": "confirm-check"
+    },
+    "sonnet_3385f13848d741d7dbed13f55c4e5406": {
+      "fired_at": "2026-06-21T16:51:41Z",
+      "reason": "confirm-check"
+    },
+    "qwen_ec4cae25ad07349a66d527ea9274b717": {
+      "fired_at": "2026-06-21T16:51:57Z",
+      "reason": "confirm-check"
+    },
+    "chatgpt_52936746b7bd1b536bb6d7d2bb159424": {
+      "fired_at": "2026-06-21T17:20:20Z",
+      "reason": "confirm-check"
+    },
+    "kimi_52936746b7bd1b536bb6d7d2bb159424": {
+      "fired_at": "2026-06-21T17:21:25Z",
+      "reason": "confirm-check"
+    },
+    "opus_52936746b7bd1b536bb6d7d2bb159424": {
+      "fired_at": "2026-06-21T17:21:33Z",
+      "reason": "confirm-check"
+    },
+    "opus_79c9ee89726e9d404bcade277b077b42": {
+      "fired_at": "2026-06-21T17:21:33Z",
+      "reason": "confirm-check"
+    },
+    "grok_79c9ee89726e9d404bcade277b077b42": {
+      "fired_at": "2026-06-21T17:21:45Z",
+      "reason": "confirm-check"
+    },
+    "qwen_79c9ee89726e9d404bcade277b077b42": {
+      "fired_at": "2026-06-21T17:22:11Z",
+      "reason": "confirm-check"
+    },
+    "sonnet_79c9ee89726e9d404bcade277b077b42": {
+      "fired_at": "2026-06-21T17:22:17Z",
+      "reason": "confirm-check"
+    },
+    "deepseek_69ef7f2129dac23a729038e1ae0119f7": {
+      "fired_at": "2026-06-21T19:07:26Z",
+      "reason": "confirm-check"
+    },
+    "deepseek_cf85c204537d496410ae11148df91af4": {
+      "fired_at": "2026-06-21T19:07:26Z",
+      "reason": "confirm-check"
+    },
+    "gemini_69ef7f2129dac23a729038e1ae0119f7": {
+      "fired_at": "2026-06-21T19:07:35Z",
+      "reason": "confirm-check"
+    },
+    "opus_69ef7f2129dac23a729038e1ae0119f7": {
+      "fired_at": "2026-06-21T19:07:42Z",
+      "reason": "confirm-check"
+    },
+    "grok_cf85c204537d496410ae11148df91af4": {
+      "fired_at": "2026-06-21T19:07:51Z",
+      "reason": "confirm-check"
+    },
+    "qwen_cf85c204537d496410ae11148df91af4": {
+      "fired_at": "2026-06-21T19:08:10Z",
+      "reason": "confirm-check"
+    },
+    "chatgpt_08abb04c1fb579ea1862e99efa0b8947": {
+      "fired_at": "2026-06-21T22:22:47Z",
+      "reason": "confirm-check"
+    },
+    "gemini_08abb04c1fb579ea1862e99efa0b8947": {
+      "fired_at": "2026-06-21T22:22:54Z",
+      "reason": "confirm-check"
+    },
+    "qwen_08abb04c1fb579ea1862e99efa0b8947": {
+      "fired_at": "2026-06-21T22:23:26Z",
+      "reason": "confirm-check"
+    },
+    "sonnet_08abb04c1fb579ea1862e99efa0b8947": {
+      "fired_at": "2026-06-21T22:23:33Z",
+      "reason": "confirm-check"
+    }
+  }
+}

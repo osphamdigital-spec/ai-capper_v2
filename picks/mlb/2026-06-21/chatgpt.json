@@ -20,10 +20,11 @@
       "reason": "Atlanta has the better full-game shape against a small-sample Robert Gasser, but Bryce Elder’s weak underlying skill and Atlanta’s taxed late-inning group keep the Braves price from clearing my side gate. My run estimate lands above 8.5, but the playable Over price is flagged suspect and I do not want the Under in a warm day game with two strong platoon offenses.",
       "data_gap": "confirmed lineups, especially any ATL rest day against a lefty",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
@@ -41,10 +42,11 @@
       "reason": "Chase Burns is the better starter, but the Yankees’ home edge and Cincinnati’s still-light team quality leave the side near fair and short of my threshold. My estimated total is 10.0: Elmer Rodríguez’s small-sample indicators are poor, Yankee Stadium boosts HR variance, and the weather is favorable enough that one shaky starter can push this game into the bullpens early.",
       "data_gap": "confirmed Yankees lineup strength and Elmer Rodríguez leash/usage expectation",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
@@ -61,12 +63,18 @@
       "edge": "1.5 runs",
       "reason": "Chase Burns is the better starter, but the Yankees’ home edge and Cincinnati’s still-light team quality leave the side near fair and short of my threshold. My estimated total is 10.0: Elmer Rodríguez’s small-sample indicators are poor, Yankee Stadium boosts HR variance, and the weather is favorable enough that one shaky starter can push this game into the bullpens early.",
       "data_gap": "confirmed Yankees lineup strength and Elmer Rodríguez leash/usage expectation",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 3,
+      "closing_line": -105,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "Ben Rice (178 wRC+ vs RHP) and JJ Bleday (166) are both in the confirmed lineups, and the total stayed 8.5.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "5b9a17363d625eecc39a522f99d7e6b5",
@@ -84,10 +92,11 @@
       "reason": "I make Chicago slightly better on the mound and at the plate, but the noted violent move toward the White Sox suggests possible stale pitcher or lineup inputs, so this is an automatic caution pass for me. The total also sits in a range where the market warning matters too much to trust a thin projection edge.",
       "data_gap": "explanation for the sharp market move and confirmed lineups",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "52936746b7bd1b536bb6d7d2bb159424",
@@ -105,10 +114,11 @@
       "reason": "Logan Webb gives San Francisco the clear starter edge, but Ryan Gusto’s small sample and Miami’s home/last-at-bat equity keep the side price from becoming a clean enough favorite bet. My estimated total is 9.8: the Giants project well against Gusto, Miami’s bullpen is strained, and even with a likely roof-driven neutral environment this number still comes out comfortably above 8.",
       "data_gap": "roof status and confirmed Miami bullpen availability",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "52936746b7bd1b536bb6d7d2bb159424",
@@ -125,12 +135,18 @@
       "edge": "1.8 runs",
       "reason": "Logan Webb gives San Francisco the clear starter edge, but Ryan Gusto’s small sample and Miami’s home/last-at-bat equity keep the side price from becoming a clean enough favorite bet. My estimated total is 9.8: the Giants project well against Gusto, Miami’s bullpen is strained, and even with a likely roof-driven neutral environment this number still comes out comfortably above 8.",
       "data_gap": "roof status and confirmed Miami bullpen availability",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 6,
+      "closing_line": -108,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "SF’s confirmed lineup still carries a 118 wRC+ vs RHP, and the total is unchanged at 8.0.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "a14b7bea51fe65613c31f6f978b654bf",
@@ -148,10 +164,11 @@
       "reason": "Washington has the better offensive profile and Tampa’s starter looks more beatable than his ERA, but Andrew Alvarez is still a small-sample arm and that uncertainty suppresses any side aggression. The total market is absent to me because both listed prices are flagged suspect.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "ec4cae25ad07349a66d527ea9274b717",
@@ -169,10 +186,11 @@
       "reason": "Houston’s offense and bullpen freshness are the separators, but the available favorite price is close to my fair number and not enough of a bargain. I project this total modestly above the market, mainly from two merely average starters and Cleveland’s less-fresh relief mix, but the edge is just below my betting threshold.",
       "data_gap": "roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "ec4cae25ad07349a66d527ea9274b717",
@@ -190,11 +208,17 @@
       "reason": "Houston’s offense and bullpen freshness are the separators, but the available favorite price is close to my fair number and not enough of a bargain. I project this total modestly above the market, mainly from two merely average starters and Cleveland’s less-fresh relief mix, but the edge is just below my betting threshold.",
       "data_gap": "roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "6c9cb91ce383f581ac4ff00dd0d3248d",
@@ -211,11 +235,17 @@
       "edge": "4.2 pts",
       "reason": "St. Louis has the cleaner side profile: better offense versus right-handed pitching, the stronger underlying starter in Dustin May, and a slight late-game edge despite both bullpens carrying some usage noise. I make the Cardinals 58.7% to win, enough to clear the -120 price, while my total projection is only slightly above 9 and not enough for a wager in a gusty, variance-adding environment.",
       "data_gap": "confirmed STL lineup, especially any rest for middle-order right-handed bats",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.8333,
+      "clv": 4,
+      "closing_line": -124,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "St. Louis still carries a 123 team wRC+ vs RHP versus Kansas City’s 86, with Alec Burleson (178) and Jordan Walker (153) both confirmed.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "79c9ee89726e9d404bcade277b077b42",
@@ -230,13 +260,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "Dylan Cease is the best pitcher in the game, but the market already prices Toronto as the road favorite and the Blue Jays’ taxed bullpen keeps me from laying it. The total market is absent because the playable prices shown are flagged suspect, and this is not a matchup where I want to force an opinion without a clean number.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "af71fc71bb598645a13d40236b310307",
@@ -254,10 +285,11 @@
       "reason": "San Diego’s starter is listed TBD, which makes this an automatic full-game pass under my rules. I do not estimate either side or total without confirmed opposing starter data.",
       "data_gap": "San Diego starting pitcher",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "e8be77d7e0434ff6005f40b113e2d7af",
@@ -275,10 +307,11 @@
       "reason": "Pittsburgh has the better side setup, but Coors inflates scoring and margin volatility enough that the favorite price does not qualify as a clean edge for me. My total projection is above 12, but the only playable listed total side is the Under, so the over market is effectively absent.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "69ef7f2129dac23a729038e1ae0119f7",
@@ -296,10 +329,11 @@
       "reason": "Reid Detmers is pitching well enough to make the Angels attractive on paper, but the Athletics’ strong split versus lefties and the hitter-friendly park offset much of that edge, leaving the dog short of my betting threshold. I project this total above the posted 9.5, but the available playable number is only on the Under side.",
       "data_gap": "confirmed Athletics lineup versus left-handed pitching",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "cf85c204537d496410ae11148df91af4",
@@ -317,10 +351,11 @@
       "reason": "Los Angeles is the right side on talent and bullpen shape, but the ML is too expensive for the actual gap and Dodger Stadium is not a park where I want to force a run-line condition. My total runs projection is above 9, yet the only clean total price available is the Under, so I pass both markets.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "71c529205c80b00be4370b29fc54ecb5",
@@ -338,10 +373,11 @@
       "reason": "Logan Gilbert and the park give Seattle the base case, but Boston’s lefty starter is good enough to keep the Mariners from clearing my edge gate at the available price. The total market is absent because the shown prices are flagged suspect, and this is already a low-run environment where number quality matters a lot.",
       "data_gap": "roof status",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "08abb04c1fb579ea1862e99efa0b8947",
@@ -359,10 +395,11 @@
       "reason": "Zack Wheeler is the biggest starter edge on the board, but the Phillies are priced close to that reality already and I do not chase a heavy favorite without extra discount. My estimated total is 8.8, so the Over is close, but Philadelphia’s weaker split versus lefties and Wheeler’s ability to suppress one side keep it to a lean only.",
       "data_gap": "confirmed Phillies lineup versus left-handed pitching",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "08abb04c1fb579ea1862e99efa0b8947",
@@ -380,11 +417,17 @@
       "reason": "Zack Wheeler is the biggest starter edge on the board, but the Phillies are priced close to that reality already and I do not chase a heavy favorite without extra discount. My estimated total is 8.8, so the Over is close, but Philadelphia’s weaker split versus lefties and Wheeler’s ability to suppress one side keep it to a lean only.",
       "data_gap": "confirmed Phillies lineup versus left-handed pitching",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "Total unchanged, and PHI’s confirmed vs-LHP team wRC+ stayed 102 from Run 1.",
+      "graded_at": "2026-06-23T04:37:30Z"
     }
   ],
   "parlay": null,
@@ -398,5 +441,6 @@
     "passes": 13,
     "units_risked": 3,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T04:37:30Z"
 }

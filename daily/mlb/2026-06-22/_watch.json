@@ -8,8 +8,8 @@
       "mlb_game_pk": 823692,
       "matchup": "LAD @ MIN",
       "commence_et": "2026-06-22T19:41:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T20:31:35Z",
       "models": [
         {
           "model": "chatgpt",
@@ -68,8 +68,8 @@
       "mlb_game_pk": 823040,
       "matchup": "AZ @ STL",
       "commence_et": "2026-06-22T19:46:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T19:51:10Z",
       "models": [
         {
           "model": "chatgpt",
@@ -148,8 +148,8 @@
       "mlb_game_pk": 824016,
       "matchup": "BAL @ LAA",
       "commence_et": "2026-06-22T21:39:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T22:25:47Z",
       "models": [
         {
           "model": "chatgpt",
@@ -218,8 +218,8 @@
       "mlb_game_pk": 822964,
       "matchup": "KC @ TB",
       "commence_et": "2026-06-22T18:41:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T18:38:33Z",
       "models": [
         {
           "model": "gemini",
@@ -258,8 +258,8 @@
       "mlb_game_pk": 823851,
       "matchup": "TEX @ MIA",
       "commence_et": "2026-06-22T18:41:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T19:00:44Z",
       "models": [
         {
           "model": "gemini",
@@ -288,8 +288,8 @@
       "mlb_game_pk": 823613,
       "matchup": "CHC @ NYM",
       "commence_et": "2026-06-22T19:11:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T20:17:26Z",
       "models": [
         {
           "model": "gemini",
@@ -328,8 +328,8 @@
       "mlb_game_pk": 824585,
       "matchup": "CLE @ CHW",
       "commence_et": "2026-06-22T19:41:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T20:15:24Z",
       "models": [
         {
           "model": "gemini",
@@ -358,8 +358,8 @@
       "mlb_game_pk": 823288,
       "matchup": "ATL @ SD",
       "commence_et": "2026-06-22T22:10:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T22:00:47Z",
       "models": [
         {
           "model": "gemini",
@@ -408,8 +408,8 @@
       "mlb_game_pk": 824261,
       "matchup": "NYY @ DET",
       "commence_et": "2026-06-22T18:11:00-04:00",
-      "confirmed": false,
-      "confirmed_at": null,
+      "confirmed": true,
+      "confirmed_at": "2026-06-22T19:26:57Z",
       "models": [
         {
           "model": "qwen",

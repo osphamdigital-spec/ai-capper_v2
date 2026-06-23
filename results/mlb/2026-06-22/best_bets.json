@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-22",
+  "sport": "mlb",
+  "graded_at": "2026-06-23T06:44:50Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "deepseek",
+      "skip": false,
+      "skip_reason": null,
+      "cancelled": false,
+      "best_bet_raw": "STL ML -140 (3 units) \u2014 largest edge on the slate (12.0 pts), driven by Kelly\u2019s extreme SIERA mismatch against STL\u2019s righty-heavy offense, with no small\u2011sample flags.",
+      "why_this": "69% win probability vs 57% implied, and both starting pitchers have clean data \u2014 makes it the highest\u2011conviction play.",
+      "resolved_game": "AZ @ STL",
+      "resolved_pick": "STL ML",
+      "resolved_price": -140,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.1429
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "cancelled": false,
+      "best_bet_raw": "LAD ML -148 @ MIN",
+      "why_this": "The Dodgers offense matches up beautifully against Zebby Matthews, while Minnesota's depleted bullpen and poor split against lefties leave them heavily exposed.",
+      "resolved_game": "LAD @ MIN",
+      "resolved_pick": "LAD ML",
+      "resolved_price": -148,
+      "resolved_units": 3,
+      "result": "win",
+      "profit_units": 2.027
+    },
+    {
+      "model": "grok",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": false,
+      "skip_reason": null,
+      "cancelled": false,
+      "best_bet_raw": "KC @ TB Over 7.5 (3 units)",
+      "why_this": "TB's top two bullpen arms are taxed, creating a massive late-inning run expectation against a KC team that has been hitting well, and the plus-money price on a 2.8-run edge with full-sample starters offers the highest risk-adjusted EV on the board.",
+      "resolved_game": "KC @ TB",
+      "resolved_pick": "Over 7.5",
+      "resolved_price": 100,
+      "resolved_units": 3,
+      "result": "loss",
+      "profit_units": -3.0
+    }
+  ],
+  "summary": {
+    "wins": 2,
+    "losses": 1,
+    "skips": 4,
+    "cancels": 0,
+    "record": "2-1 (66.7%)"
+  }
+}

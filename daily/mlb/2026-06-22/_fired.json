@@ -1,0 +1,128 @@
+{
+  "fired": {
+    "qwen_7eeb2a9fecc4a8958efb172e75c65224": {
+      "fired_at": "2026-06-22T21:12:45Z",
+      "reason": "confirm-check"
+    },
+    "qwen_3e12cc318907e3d20b669757daa0601c": {
+      "fired_at": "2026-06-22T21:12:45Z",
+      "reason": "confirm-check"
+    },
+    "qwen_5a8ab9f3ed0791629f4f9e10da52043a": {
+      "fired_at": "2026-06-22T21:12:45Z",
+      "reason": "confirm-check"
+    },
+    "gemini_3e12cc318907e3d20b669757daa0601c": {
+      "fired_at": "2026-06-22T21:12:54Z",
+      "reason": "confirm-check"
+    },
+    "gemini_5a8ab9f3ed0791629f4f9e10da52043a": {
+      "fired_at": "2026-06-22T21:12:54Z",
+      "reason": "confirm-check"
+    },
+    "kimi_3e12cc318907e3d20b669757daa0601c": {
+      "fired_at": "2026-06-22T21:14:25Z",
+      "reason": "confirm-check"
+    },
+    "gemini_da1236e8e0bc448283c6e1e28d578e43": {
+      "fired_at": "2026-06-22T22:13:13Z",
+      "reason": "confirm-check"
+    },
+    "gemini_0fdd8b67a62fe347c0995afb9eb94c73": {
+      "fired_at": "2026-06-22T22:13:13Z",
+      "reason": "confirm-check"
+    },
+    "gemini_22bf5f58b0fd7173739a6d0fb1bd280e": {
+      "fired_at": "2026-06-22T22:13:13Z",
+      "reason": "confirm-check"
+    },
+    "gemini_fbfee8c921cea16428faf24b7ba19aed": {
+      "fired_at": "2026-06-22T22:13:13Z",
+      "reason": "confirm-check"
+    },
+    "grok_da1236e8e0bc448283c6e1e28d578e43": {
+      "fired_at": "2026-06-22T22:13:31Z",
+      "reason": "confirm-check"
+    },
+    "grok_fbfee8c921cea16428faf24b7ba19aed": {
+      "fired_at": "2026-06-22T22:13:31Z",
+      "reason": "confirm-check"
+    },
+    "qwen_da1236e8e0bc448283c6e1e28d578e43": {
+      "fired_at": "2026-06-22T22:14:24Z",
+      "reason": "confirm-check"
+    },
+    "qwen_0fdd8b67a62fe347c0995afb9eb94c73": {
+      "fired_at": "2026-06-22T22:14:24Z",
+      "reason": "confirm-check"
+    },
+    "qwen_22bf5f58b0fd7173739a6d0fb1bd280e": {
+      "fired_at": "2026-06-22T22:14:24Z",
+      "reason": "confirm-check"
+    },
+    "qwen_fbfee8c921cea16428faf24b7ba19aed": {
+      "fired_at": "2026-06-22T22:14:24Z",
+      "reason": "confirm-check"
+    },
+    "chatgpt_0fdd8b67a62fe347c0995afb9eb94c73": {
+      "fired_at": "2026-06-22T22:14:31Z",
+      "reason": "confirm-check"
+    },
+    "chatgpt_fbfee8c921cea16428faf24b7ba19aed": {
+      "fired_at": "2026-06-22T22:14:31Z",
+      "reason": "confirm-check"
+    },
+    "deepseek_0fdd8b67a62fe347c0995afb9eb94c73": {
+      "fired_at": "2026-06-22T22:14:51Z",
+      "reason": "confirm-check"
+    },
+    "deepseek_fbfee8c921cea16428faf24b7ba19aed": {
+      "fired_at": "2026-06-22T22:14:51Z",
+      "reason": "confirm-check"
+    },
+    "kimi_fbfee8c921cea16428faf24b7ba19aed": {
+      "fired_at": "2026-06-22T22:15:36Z",
+      "reason": "confirm-check"
+    },
+    "opus_fbfee8c921cea16428faf24b7ba19aed": {
+      "fired_at": "2026-06-22T22:15:42Z",
+      "reason": "confirm-check"
+    },
+    "chatgpt_541d3f8c1e87131917cbf8386a2563f6": {
+      "fired_at": "2026-06-23T00:40:00Z",
+      "reason": "confirm-check"
+    },
+    "deepseek_541d3f8c1e87131917cbf8386a2563f6": {
+      "fired_at": "2026-06-23T00:40:18Z",
+      "reason": "confirm-check"
+    },
+    "gemini_541d3f8c1e87131917cbf8386a2563f6": {
+      "fired_at": "2026-06-23T00:40:40Z",
+      "reason": "confirm-check"
+    },
+    "gemini_66c3c3524e444f31fe9fc224ac058351": {
+      "fired_at": "2026-06-23T00:40:40Z",
+      "reason": "confirm-check"
+    },
+    "opus_541d3f8c1e87131917cbf8386a2563f6": {
+      "fired_at": "2026-06-23T00:40:47Z",
+      "reason": "confirm-check"
+    },
+    "qwen_541d3f8c1e87131917cbf8386a2563f6": {
+      "fired_at": "2026-06-23T00:41:28Z",
+      "reason": "confirm-check"
+    },
+    "qwen_66c3c3524e444f31fe9fc224ac058351": {
+      "fired_at": "2026-06-23T00:41:28Z",
+      "reason": "confirm-check"
+    },
+    "grok_66c3c3524e444f31fe9fc224ac058351": {
+      "fired_at": "2026-06-23T00:41:38Z",
+      "reason": "confirm-check"
+    },
+    "kimi_66c3c3524e444f31fe9fc224ac058351": {
+      "fired_at": "2026-06-23T00:43:24Z",
+      "reason": "confirm-check"
+    }
+  }
+}

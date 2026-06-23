@@ -17,3 +17,7 @@ RECLASSIFY: the quantified point adjustment depends on data NOT in the prompt, s
 the off-limits rule ("requests for new data → S3, not a method change") it is NOT a
 promotable method candidate. Route to the data desk as a recurring feature request
 (4-slate recurrence is strong signal the data would help). Gate NOT met for promotion.
+
+## CANDIDATE (building) — 2026-06-21. When a starting pitcher carries a small-sample flag, expand the run-expectation confidence interval by ~50% and lower the stake ceiling from 1u to 0.5u (or pass entirely), even if the point-estimate edge clears the usual gate. Status: first observation for kimi, but 3x cross-model convergence on the same slate (kimi + chatgpt + deepseek). NOT adopted.
+
+Method currently relies on deterministic SIERA/xFIP point estimates and caps small-sample spots at 1u — this underweights the uncertainty premium since the true outcome distribution is materially wider than the point estimate. Evidence is pre-game (CIN @ NYY and SF @ MIA both carried explicit small-sample starter flags, both taken at 1u). Confidence MEDIUM. Distinct from kimi's recurring bullpen-quantification S3 theme above (that one is a data request; this is a stake-sizing method change on data already in the prompt).

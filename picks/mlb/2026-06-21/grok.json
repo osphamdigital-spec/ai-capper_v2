@@ -20,10 +20,11 @@
       "reason": "Gasser’s small-sample AGG xFIP 5.15 is inferior to Elder’s 4.04 despite Stf+ edge; bullpen freshness favors MIL but not enough to clear 4-pt gate after park and platoon adjustments. Projected total near 8.7 vs 8.5 line yields sub-0.75 run gap.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
@@ -40,11 +41,17 @@
       "edge": "7.8 pts",
       "reason": "Burns’ elite AGG xFIP 3.29/SIERA 3.29/K-BB% 21.6% heavily outweigh Rodríguez’s poor small-sample metrics, producing a 7.8-pt edge on CIN despite road status; taxed NYY bullpen adds support. Pitching projects total at 7.4 runs vs 8.5 line.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.9615,
+      "clv": 0,
+      "closing_line": -104,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "NYY vs_RHP wRC+ 101(CFM,n=9)",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
@@ -61,12 +68,18 @@
       "edge": "1.1 runs",
       "reason": "Burns’ elite AGG xFIP 3.29/SIERA 3.29/K-BB% 21.6% heavily outweigh Rodríguez’s poor small-sample metrics, producing a 7.8-pt edge on CIN despite road status; taxed NYY bullpen adds support. Pitching projects total at 7.4 runs vs 8.5 line.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "win",
+      "profit_units": 0.885,
+      "clv": 2,
+      "closing_line": -115,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "CIN vs_RHP wRC+ 106(CFM,n=8)",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "5b9a17363d625eecc39a522f99d7e6b5",
@@ -84,10 +97,11 @@
       "reason": "Martin’s solid metrics vs Montero’s weaker L14 small-sample profile create only marginal win-prob gap after home/platoon adjustments; line movement noted but data conflicts keep edge below 4 pts. Total projection aligns closely with 8.0 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "52936746b7bd1b536bb6d7d2bb159424",
@@ -105,10 +119,11 @@
       "reason": "Webb’s strong AGG xFIP 3.38 edges Gusto’s small-sample numbers but not enough after Miami home and bullpen factors to reach 4-pt threshold. Projected total near 8.2 vs 8.0 produces sub-threshold run gap.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "a14b7bea51fe65613c31f6f978b654bf",
@@ -126,10 +141,11 @@
       "reason": "Alvarez small-sample profile vs Martinez’s solid but not dominant metrics yields win-prob gap under 4 pts after dome and bullpen adjustments. Total projection very close to 8.0 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "ec4cae25ad07349a66d527ea9274b717",
@@ -147,10 +163,11 @@
       "reason": "Cecconi’s L14 small-sample improvement vs Teng’s average metrics does not clear 4-pt edge after park and bullpen factors. Total near 8.3 vs 8.5 line yields insufficient run gap.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "6c9cb91ce383f581ac4ff00dd0d3248d",
@@ -168,10 +185,11 @@
       "reason": "May’s strong recent xFIP/SIERA vs Kolek’s solid numbers produces only marginal gap after park and bullpen adjustments; edge below 4 pts. Projected total near 8.8 vs 9.0 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "79c9ee89726e9d404bcade277b077b42",
@@ -186,13 +204,19 @@
       "units": 1,
       "units_raw": "1",
       "edge": "5.4 pts",
-      "reason": "Cease’s elite AGG xFIP 2.53/SIERA 2.86/K-BB% 26.1% creates clear advantage over Imanaga despite road game; Wrigley Park and bullpen freshness add support for 5.4-pt edge. Total projection aligns with 6.5 line within 0.5 runs.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "ML unchanged",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "af71fc71bb598645a13d40236b310307",
@@ -210,10 +234,11 @@
       "reason": "TBD starter triggers mandatory pass per data-integrity rules; no edge can be estimated without confirmed pitcher data.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "e8be77d7e0434ff6005f40b113e2d7af",
@@ -231,10 +256,11 @@
       "reason": "Jones and Lorenzen small-sample profiles create uncertain pitcher gap; Coors run inflation and wind factors do not produce 4-pt edge or 0.75-run total gap after adjustments.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "69ef7f2129dac23a729038e1ae0119f7",
@@ -252,10 +278,11 @@
       "reason": "Detmers’ solid metrics vs Perkins’ small-sample profile yields sub-4-pt edge after park and bullpen factors. Total projection near 9.2 vs 9.5 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "cf85c204537d496410ae11148df91af4",
@@ -272,11 +299,17 @@
       "edge": "4.8 pts",
       "reason": "Sheehan’s AGG xFIP 3.63 and K-BB% 20.4% outperform Young’s weaker numbers; LAD home offense and bullpen freshness support modest edge on heavy favorite after adjustments. Total near line with no qualifying run gap.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -215,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "ML unchanged",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "71c529205c80b00be4370b29fc54ecb5",
@@ -294,10 +327,11 @@
       "reason": "Tolle small-sample AGG xFIP vs Gilbert’s strong metrics produces only marginal win-prob gap after T-Mobile Park and bullpen factors; edge below 4 pts. Total projection close to 6.5 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "08abb04c1fb579ea1862e99efa0b8947",
@@ -315,10 +349,11 @@
       "reason": "Peterson’s weaker metrics vs Wheeler’s elite AGG xFIP 3.27/SIERA 3.38/K-BB% 19.9% create gap but not enough after Citizens Bank Park and bullpen adjustments to clear 4-pt threshold. Total near 8.0 line.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     }
   ],
   "parlay": null,
@@ -335,5 +370,6 @@
     "passes": 11,
     "units_risked": 4,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T04:37:30Z"
 }

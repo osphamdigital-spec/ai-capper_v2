@@ -1,0 +1,59 @@
+**S1: BEST BET RE-EVALUATION**  
+ORIGINAL BEST BET: NO BEST BET (no 3-unit play)  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES  
+IF NO — NEW BEST BET: N/A
+
+**S2: FULL SLATE REVIEW**
+
+**PART A — GAMES YOU BET**
+
+GAME: CHC @ NYM  
+PICK: CHC ML -116 (1u)  
+RESULT: VOID (postponed)  
+PROCESS: N/A (postponed pre-first pitch)  
+WOULD-BET-AGAIN: YES  
+WHY: Pitching edge and 4.8 pt gap were calculated on available pre-game data with no data gap flagged.  
+SOURCE: Original AGG xFIP / platoon evaluation.
+
+GAME: AZ @ STL  
+PICK: STL ML -140 (1u)  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: Pallante’s AGG xFIP + L14 form, platoon edge (123 vs 87 wRC+), and home field produced a clean 5.2 pt gap that met the 4 pt threshold.  
+SOURCE: Pre-game starter metrics and platoon splits.
+
+GAME: ATL @ SD  
+PICK: ATL ML -106 (1u)  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS BAD VARIANCE  
+WOULD-BET-AGAIN: YES  
+WHY: 4.5 pt edge from platoon advantage (118 vs 93 wRC+), team quality, and bullpen was within normal variance for a sub-60% probability; no pre-game data point contradicted the ATL side.  
+SOURCE: Original starter AGG xFIP comparison and platoon data.
+
+**PART B — PASSES AND LEANS**  
+(No blocks — no pre-game edge was missed on any passed game that would have cleared the 4 pt gate under the existing rules.)
+
+**S3: DATA REQUEST**  
+NONE
+
+**S4: METHOD CHANGE PROPOSAL**  
+NONE
+
+**CONFIRMED DATA EVALUATION (lineup)**
+
+GAME: CHC @ NYM — YOUR CALL: BET away ML -116 (1u)  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: N/A
+
+GAME: AZ @ STL — YOUR CALL: BET home ML -140 (1u)  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: N/A
+
+GAME: ATL @ SD — YOUR CALL: BET away ML -106 (1u)  
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: N/A

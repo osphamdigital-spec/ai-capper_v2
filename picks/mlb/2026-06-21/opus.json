@@ -20,10 +20,11 @@
       "reason": "Gasser is [sm] flagged (24 IP) and Elder's strong ERA masks an ugly 4.04 xFIP/4.23 SIERA with Stf+ 85 — both arms below true-talent quality, so my numbers don't clear the side gate either way. My xR sits near 8.8 vs posted 8.5; Over price is stale-flagged anyway. No clean edge.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
@@ -40,11 +41,17 @@
       "edge": "5.1 pts",
       "reason": "Burns (3.29 SIERA, 21.6 K-BB%, elite arm) is the better starter, but Rodríguez is a disaster — 6.44 SIERA, -4.7% K-BB%, [sm] — facing a strong NYY offense in a HR park. The market has this near pick'em on the moneyline because Burns' name and the Reds' \"form\" distort it; I make NYY ~57% true vs ~52% implied. Total near my number, no totals edge. Capped at 1u because Rodríguez's awful line rests on a thin 13 IP sample.",
       "data_gap": "lineups unconfirmed",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -110,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "NYY lineup confirmed with Rice (178 vs RHP) leading off and Bellinger (138) batting third; Reds order unchanged. Line moved -112→-110, a slight improvement on my number. The edge (Rodríguez 6.44 SIERA on thin sample vs Burns) is intact and still rests on the same [sm] sample, keeping it at 1u.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "5b9a17363d625eecc39a522f99d7e6b5",
@@ -62,10 +69,11 @@
       "reason": "The 201-pt ML move flags potential roster/lineup staleness — data-integrity caution applies, I won't anchor a play on possibly-stale pitcher data. Martin is the better arm but the line already moved toward CHW. xR near 8.0 vs posted 8.0, no totals gap.",
       "data_gap": "line move flagged as possible lineup change; treat as stale",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "52936746b7bd1b536bb6d7d2bb159424",
@@ -82,11 +90,17 @@
       "edge": "4.6 pts",
       "reason": "Webb (3.63 SIERA, elite GB%, 16 IP of dominant recent form with zero walks) vastly outclasses Gusto, who carries a 5.59 SIERA and 1.9% K-BB% on a [sm] sample. SF's bats vs RHP (118 wRC+) are live. I make SF ~67% vs ~59% implied; lean Under from the pitching mismatch but only ~0.5 runs, below gate. Capped at 1u — Gusto's line is small-sample though the talent gap is real.",
       "data_gap": "roof status; lineups unconfirmed",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -144,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "SF confirmed lineup matches Run-1 read exactly — vs_RHP 118 wRC+ intact (Eldridge 156, Lee 143, Devers 110); MIA still leads off Marsee (83 wRC+) with Conine excluded on low PA. ML unchanged at -144.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "a14b7bea51fe65613c31f6f978b654bf",
@@ -104,10 +118,11 @@
       "reason": "Martinez's 2.60 ERA badly overstates his 4.66 SIERA, and Alvarez is [sm] with command volatility (6.8 BB/9 L14). Both arms are below their surface ERAs, but that roughly cancels at the line; TB ~57% implied feels about right. Dome neutralizes weather; xR ~8.3 vs 8.0, no totals edge.",
       "data_gap": "lineups unconfirmed",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "ec4cae25ad07349a66d527ea9274b717",
@@ -125,10 +140,11 @@
       "reason": "Cecconi and Teng are roughly matched mid-tier arms (4.2-4.4 SIERA), HOU's bullpen is far fresher (T1/T2 fully available vs CLE 0/0), which nudges toward HOU but not enough to clear 4 pts. xR near 8.5 with thunderstorm/gust variance; possible rain delay risk. No edge.",
       "data_gap": "roof status; rain delay risk",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "6c9cb91ce383f581ac4ff00dd0d3248d",
@@ -145,11 +161,17 @@
       "edge": "4.3 pts",
       "reason": "May is in a clear true-talent groove (3.76 SIERA, 26 K-BB% over last 15 IP, zero-walk profile) and outclasses Kolek (4.15 SIERA, 12.1 K-BB%); STL's bats vs RHP (123 wRC+) are the better unit. I make STL ~60% vs ~56% implied. The 16+ mph wind with 26 mph gusts is a totals variance flag and the run gap is thin anyway, so no total. 1u — sound but moderate edge.",
       "data_gap": "lineups unconfirmed; high-wind variance",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.8065,
+      "clv": 0,
+      "closing_line": -124,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "79c9ee89726e9d404bcade277b077b42",
@@ -164,13 +186,19 @@
       "units": 1,
       "units_raw": "1",
       "edge": "4.4 pts",
-      "reason": "Cease (2.86 SIERA, 26.1 K-BB%, Stf+ 108) is the best starter on the board and meaningfully better than Imanaga (3.73 SIERA, fly-ball prone in a 108-HR park). TOR's lefty-platoon edge vs Imanaga plus the elite arm gets me to ~57% vs ~53% implied. Total 6.5 is low; my xR sits near 7.0, below the 0.8 gate. 1u on the side.",
+      "reason": "postponed",
       "data_gap": "lineups unconfirmed; TOR vs-LHP sample thin (n=5)",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "af71fc71bb598645a13d40236b310307",
@@ -188,10 +216,11 @@
       "reason": "SD starter is TBD — mandatory data-integrity pass.",
       "data_gap": "away starter TBD",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "e8be77d7e0434ff6005f40b113e2d7af",
@@ -209,10 +238,11 @@
       "reason": "Coors Field — my method auto-passes Coors totals (Runs factor 130, extreme variance) and the side rests on two volatile arms (Jones [sm], Lorenzen 4.45 SIERA) in a chaos environment. No play either market.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "69ef7f2129dac23a729038e1ae0119f7",
@@ -229,11 +259,17 @@
       "edge": "5.0 pts",
       "reason": "Detmers (3.35 SIERA, 21.4 K-BB%, 14 IP of zero-walk dominance) is a clearly superior arm to Perkins (4.06 SIERA, [sm], 5.0 BB/9 L14), and ATH's bullpen is gutted (T1 0/3, T3 1/5) in a hitter park where games stay close. I make LAA ~53% vs ~48% implied — getting plus money on the better team. Lean Over (Sutter Health 121 Runs, xR ~9.9 vs 9.5) but below the 0.8 gate. 1u dog with real edge.",
       "data_gap": "lineups unconfirmed",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.08,
+      "clv": 0,
+      "closing_line": 108,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "Confirmed lineups match Run-1 reads exactly — ATH vs_LHP 129 CFM (Heim 181, Kurtz 134), LAA vs_RHP 110 CFM unchanged; ML stayed +108 with no line move. Detmers' 3.35 SIERA / 21.4 K-BB% edge over Perkins (4.06 SIERA [sm]) and the gutted ATH pen (0/3, 1/5) all hold.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "cf85c204537d496410ae11148df91af4",
@@ -251,10 +287,11 @@
       "reason": "LAD heavily favored at -215, but Young's surface ERA (3.18) hides an ugly 4.87 SIERA and 2.0% K-BB% L14, while Sheehan (3.43 SIERA) is the better arm and LAD has the deeper offense and pen — the price already reflects all of it. No edge at -215, and the -1.5 RL at -102 doesn't give me enough either. xR near my number.",
       "data_gap": "lineups unconfirmed",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "71c529205c80b00be4370b29fc54ecb5",
@@ -272,10 +309,11 @@
       "reason": "Tolle (3.71 SIERA, Stf+ 115) and Gilbert (3.45 SIERA, 20.8 K-BB%, elite) are both quality arms; SEA's slight edge at home (~58% implied) is fair, and BOS bullpen is depleted (T1 0/1). Both starters anchor a low total — my xR ~6.7 vs posted 6.5, no totals gap. Pitcher-friendly park reinforces the low number but no actionable edge.",
       "data_gap": "roof status; lineups unconfirmed",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "08abb04c1fb579ea1862e99efa0b8947",
@@ -293,10 +331,11 @@
       "reason": "Wheeler (3.38 SIERA, ace-level, dominant L14) is rightly a heavy favorite over Peterson (4.37 SIERA, [sm] AGG, 5.91 ERA), and PHI at -196 already prices the gap fully. The -1.5 RL at +110 is interesting but Peterson's GB tendency and NYM's competent pen keep blowout odds modest — not enough edge. xR near posted 8.0.",
       "data_gap": "lineups unconfirmed",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     }
   ],
   "parlay": null,
@@ -310,5 +349,6 @@
     "passes": 9,
     "units_risked": 5,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T04:37:30Z"
 }

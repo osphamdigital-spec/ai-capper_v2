@@ -1,0 +1,98 @@
+## S1: BEST BET RE-EVALUATION
+
+ORIGINAL BEST BET: None — no 3-unit play identified
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: N/A
+WHY: Correctly declining to force a best bet was the right call. No spot cleared the 7.0-pt threshold, and the slate confirmed why — my four 1u sides went 2-2 (excluding the void). None of these would have survived as a 3-unit play on the merits, and forcing one would have been process drift. The discipline holds regardless of the day's noise.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: CIN @ NYY
+PICK: NYY ML -110
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: The pre-game edge was real and well-documented: Burns (3.29 SIERA, 21.6 K-BB%) vs Rodríguez (6.44 SIERA, negative K-BB% on 13 IP). I explicitly capped at 1u for the small-sample concern, which was the right risk control. A 4-1 final with the favorite arm losing is within variance for a ~57% true line. No pre-game data pointed to CIN winning — this was the better team losing a single game.
+SOURCE: SIERA, K-BB% splits, park HR factor
+
+GAME: SF @ MIA
+PICK: SF -144
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Webb (3.63 SIERA, elite GB%, zero-walk recent form) over Gusto (5.59 SIERA, 1.9% K-BB%) was the largest talent gap among my plays. A 2-1 final means Webb likely pitched fine and the offense (118 wRC+ vs RHP) simply didn't convert — a low-scoring loss is the textbook variance outcome for a strong favorite. No pre-game signal flagged MIA; the small-sample caution on Gusto was already priced via the 1u cap.
+SOURCE: SIERA, GB%, wRC+ vs RHP
+
+GAME: STL @ KC
+PICK: STL -124
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Right side, but I should note honestly: the 12-10 final means this won as a coin-flip slugfest, not because May out-pitched Kolek as projected. The high-wind/gust totals flag I cited as a reason to pass the total was actually a signal the game would be chaotic — the side won despite my pitching thesis, not because of it. Process sound, result fair.
+SOURCE: SIERA, K-BB%, wRC+ vs RHP, wind data
+
+GAME: TOR @ CHC
+PICK: TOR -121
+RESULT: VOID (postponed)
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: No graded result. The Cease-over-Imanaga edge was sound pre-game. Void, no learnings on outcome.
+SOURCE: SIERA, Stf+, HR park factor
+
+GAME: LAA @ ATH
+PICK: LAA +108
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Best-reasoned play on the board — better arm (Detmers 3.35 SIERA) at plus money with a documented gutted ATH bullpen (T1 0/3, T3 1/5) in a hitter park. The 9-7 final fits the bullpen-collapse thesis exactly. Getting +108 on the superior team with the relief-depth edge is precisely the projection-vs-perception spot the method targets.
+SOURCE: SIERA, K-BB%, bullpen availability tiers, park Runs factor
+
+---
+
+PART B — PASSES WITH MISSED EDGE
+
+GAME: BAL @ LAD
+YOUR CALL: PASS
+FINAL RESULT: BAL 12 @ LAD 1
+WHAT YOU MISSED: I correctly identified the core thesis pre-game — Young's 3.18 ERA masking a 4.87 SIERA and 2.0% K-BB% L14 — but concluded "the price already reflects all of it" at -215. That was the error in interpretation, not data. When a heavy favorite's listed starter has a 2.0% K-BB% over his recent window, -215 is rarely "fair"; a sub-3% K-BB% arm is functionally a bullpen game. I had the disqualifying signal and still deferred to the market on the favorite. A small BAL ML dog play was at least arguable. Not a clean miss — the price was genuinely high — but I underweighted my own SIERA read.
+SOURCE: SIERA, K-BB% L14
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+GAME: PIT @ COL
+YOUR CALL: PASS (Coors auto-pass)
+FINAL RESULT: PIT 8 @ COL 6
+WHAT YOU MISSED: Nothing actionable. Coors auto-pass on totals is correct; the side rested on two volatile arms. Result was chaos, exactly as flagged. No miss.
+SOURCE: N/A — correct pass
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: Listed-starter projected pitch count / IP ceiling (e.g., recent average IP per start, or "opener/bulk" designation)
+WHICH GAME(S): BAL @ LAD, CIN @ NYY
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: When a favorite's starter has a 2.0% K-BB% (Young) or 13 IP of disaster data (Rodríguez), knowing whether the team intends a short leash / bullpen game changes the price evaluation materially. A heavy favorite leaning on a depleted or untrustworthy arm early is a different bet than the line implies.
+
+TYPE: DATA
+ITEM: Confirmed lineups at lock time (vs the recurring "lineups unconfirmed" gap)
+WHICH GAME(S): All bet games
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Every play carried "lineups unconfirmed." For the platoon-dependent edges (TOR vs-LHP n=5, SF wRC+ vs RHP), confirmed lineups could move stake or confidence.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: When my own SIERA/K-BB% read identifies a listed favorite's starter as functionally non-viable (K-BB% below ~5% over a meaningful recent window), do not auto-defer to the market with "price reflects it" on heavy favorites (-180 or higher). Flag it as a candidate dog-side or pass, but force an explicit estimate of whether the market has actually priced the arm or just the team name.
+
+WHAT IN MY METHOD COULD BE SHARPER: I twice (BAL/LAD Young, and the Rodríguez logic) used "the price already reflects all of it" as a pass justification on heavy favorites where I had simultaneously documented a disqualifying starter profile. That phrase is doing too much work — it lets me wave off my own strongest signal. The projection-vs-perception engine should fire just as hard on a mispriced favorite as on a dog.
+
+EVIDENCE FROM TODAY (pre-game data only): On BAL/LAD I wrote that Young hides "an ugly 4.87 SIERA and 2.0% K-BB% L14" — a clear non-viable-starter signal — then passed on the grounds the -215 price was efficient. I never quantified what % the bad arm justified for the dog. That is an internal inconsistency in process, not a result-based critique.
+
+CONFIDENCE: LOW (one slate; the 2-2 record on sides and the high-favorite price caution both argue for restraint before changing anything)

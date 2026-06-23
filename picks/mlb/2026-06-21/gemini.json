@@ -20,10 +20,11 @@
       "reason": "Robert Gasser is flagged as a small sample starter, which limits our model's starting pitching baseline projection accuracy. Additionally, the Over price is flagged as stale/suspect, so the totals market is treated as absent.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
@@ -40,11 +41,17 @@
       "edge": "7.0 pts",
       "reason": "Chase Burns (3.29 SIERA, 21.6% K-BB%) provides Cincinnati with a massive pitching advantage over Elmer Rodriguez, who struggles with a 6.44 aggregate SIERA. We are restricted to a 1-unit play because Rodriguez is flagged as a small-sample starter, but there is clear value on the Reds at this cheap price.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.9174,
+      "clv": -5,
+      "closing_line": -104,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "Chase Burns (3.29 SIERA) faces Elmer Rodriguez (6.44 SIERA) with both team lineups confirmed unchanged",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "5b9a17363d625eecc39a522f99d7e6b5",
@@ -62,10 +69,11 @@
       "reason": "Significant moneyline movement of over 200 points toward Chicago suggests potential unconfirmed roster or lineup changes. We pass on this entire game to preserve data integrity and avoid trading on stale information.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "52936746b7bd1b536bb6d7d2bb159424",
@@ -83,10 +91,11 @@
       "reason": "Logan Webb gives San Francisco a clear pitching advantage, but the best moneyline price of -140 does not provide the required 5.0 percentage point edge to trigger a play. The total is passed due to a suspect/stale price on the Under.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "a14b7bea51fe65613c31f6f978b654bf",
@@ -95,7 +104,7 @@
       "home_abbr": "TB",
       "action": "bet",
       "pick_raw": "WSH ML",
-      "pick_side": null,
+      "pick_side": "away",
       "pick_market": "ml",
       "price": 121,
       "units": 1,
@@ -103,11 +112,17 @@
       "edge": "8.8 pts",
       "reason": "Washington's potent offense (5.4 RS/G) matches up well against Nick Martinez (4.66 SIERA). Andrew Alvarez has been solid in limited action, making the Nationals a strong value at plus money, though we downgrade this to a 1-unit play due to Alvarez's small-sample flag.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 6,
+      "closing_line": 115,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "ec4cae25ad07349a66d527ea9274b717",
@@ -125,10 +140,11 @@
       "reason": "Cleveland's bullpen is heavily taxed with zero high-leverage arms fresh, which neutralizes their pitching advantage. The projected edge on Houston's moneyline does not meet our minimum 5.0 percentage point gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "6c9cb91ce383f581ac4ff00dd0d3248d",
@@ -145,11 +161,17 @@
       "edge": "5.5 pts",
       "reason": "Dustin May is in elite form (2.67 L14 SIERA) and the Cardinals' offense matches up exceptionally well against Stephen Kolek. High winds of over 15 mph require a mandatory pass on the total, but the moneyline edge remains playable.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.8333,
+      "clv": 4,
+      "closing_line": -124,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "79c9ee89726e9d404bcade277b077b42",
@@ -164,13 +186,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "Dylan Cease gives Toronto a starting pitching advantage, but the moneyline price of -117 does not provide a large enough edge to meet our 5.0 percentage point gate.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "af71fc71bb598645a13d40236b310307",
@@ -188,10 +211,11 @@
       "reason": "The away starter is listed as TBD, triggering an immediate and mandatory pass on all markets for this game under our data integrity rules.",
       "data_gap": "SD confirmed starting pitcher",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "e8be77d7e0434ff6005f40b113e2d7af",
@@ -209,10 +233,11 @@
       "reason": "Coors Field requires a mandatory pass on totals and run lines due to high physical variance. The moneyline edge on Pittsburgh does not meet our 5.0 percentage point gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "69ef7f2129dac23a729038e1ae0119f7",
@@ -230,10 +255,16 @@
       "reason": "We project a high-scoring game in Sutter Health Park due to a taxed Oakland bullpen and favorable environmental factors, showing an edge on both LAA and the Over. However, we pass on active betting here to remain under our daily 4-bet slate ceiling.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": null,
+      "cc_guard_override": null,
+      "cc_cited_fact": "LAA vs_RHP confirmed wRC+ remains 110",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "69ef7f2129dac23a729038e1ae0119f7",
@@ -251,11 +282,17 @@
       "reason": "We project a high-scoring game in Sutter Health Park due to a taxed Oakland bullpen and favorable environmental factors, showing an edge on both LAA and the Over. However, we pass on active betting here to remain under our daily 4-bet slate ceiling.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": null,
+      "cc_guard_override": null,
+      "cc_cited_fact": "ATH vs_LHP confirmed wRC+ remains 129",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "cf85c204537d496410ae11148df91af4",
@@ -273,10 +310,11 @@
       "reason": "Emmet Sheehan gives the Dodgers a major starting pitching advantage over Brandon Young, but the heavy market price of -205 leaves no profitable edge.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "71c529205c80b00be4370b29fc54ecb5",
@@ -294,10 +332,11 @@
       "reason": "T-Mobile Park represents a heavy pitcher's environment, but both totals prices are flagged as stale/suspect, forcing a pass on the total. The moneyline offers no viable edge.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "08abb04c1fb579ea1862e99efa0b8947",
@@ -314,11 +353,17 @@
       "edge": "11.1 pts",
       "reason": "Zack Wheeler is an elite starter, but the market has over-adjusted, making Philadelphia heavily overvalued at -190. David Peterson is a solid left-hander (3.91 xFIP) facing a Phillies lineup that struggles against southpaws (92 wRC+), creating a massive double-digit edge on the Mets.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 5,
+      "closing_line": 166,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 3,
+      "cc_guard_override": null,
+      "cc_cited_fact": "Phillies vs_LHP wRC+ remains at 102 and Mets vs_RHP wRC+ remains at 103 with no lineup changes from Run 1",
+      "graded_at": "2026-06-23T04:37:30Z"
     }
   ],
   "parlay": null,
@@ -335,5 +380,6 @@
     "passes": 9,
     "units_risked": 6,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T04:37:30Z"
 }

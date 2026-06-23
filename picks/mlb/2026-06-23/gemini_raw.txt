@@ -1,0 +1,164 @@
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The home starting pitcher Shane Bieber has no recorded season stats or innings pitched, creating a data void. Per strict data integrity rules, games with unannounced or incomplete starting pitcher projections are an immediate pass.
+DATA GAP: Complete season pitching data for Shane Bieber.
+
+---
+
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.5
+TOTAL PRICE: -107
+TOTAL UNITS: 1
+TOTAL EDGE: 1.6 runs
+REASON: Both offenses carry significant platoon advantages here, with Detroit holding a 114 wRC+ vs lefties and New York holding a 104 wRC+ vs righties. With a warm 74.7°F forecast and a 104 Runs park factor at Comerica Park, the model expects 9.1 runs, providing a solid 1.6-run edge over the market total.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.0
+TOTAL PRICE: -105
+TOTAL UNITS: 3
+TOTAL EDGE: 1.9 runs
+REASON: Luinder Avila (5.55 SIERA, 3.4% K-BB%) is highly vulnerable to traffic, while Shane McClanahan faces a resilient Royals lineup (109 wRC+ vs LHP). The Rays bullpen is also thin with Tier 1 closer Bryan Baker marked unavailable, pushing the model's projected total to 9.9 runs and triggering a maximum 3-unit play on the Over.
+DATA GAP: none
+
+---
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Starting pitcher Cal Quantrill is flagged under the small sample rule with only 29.1 IP, and the Over total market price is flagged stale. The remaining moneyline edge is insufficient to trigger a bet.
+DATA GAP: clean total market pricing.
+
+---
+
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Despite Pittsburgh's bullpen being heavily penalized for fatigue under Phase 2, the moneyline edge on Seattle sits at a projected 51.1% vs a -124 market price, yielding no value. The totals projection of 9.0 runs is only 0.5 runs off the market line, resulting in a pass.
+DATA GAP: none
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The Under price for this total is flagged as stale/suspect, forcing a pass on the totals market. The moneyline projection on Philadelphia (57.9%) does not offer any value relative to their heavy -168 market price.
+DATA GAP: clean total market pricing.
+
+---
+
+## GAME: CHC @ NYM
+PICK: CHC ML
+PRICE: +103
+UNITS: 1
+EDGE: 9.2 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Edward Cabrera (3.94 xFIP) gives the Cubs a significant starting pitching advantage over a heavily regressed Kodai Senga (4.91 SIERA). Senga's small-sample status (24.0 IP) caps the moneyline stake at 1 unit, but the projected 58.5% win probability represents an excellent 9.2-point edge.
+DATA GAP: none
+
+---
+
+## GAME: MIL @ CIN
+PICK: LEAN: MIL ML
+PRICE: -108
+UNITS: LEAN
+EDGE: 4.9 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The model projects Milwaukee with a 56.8% win probability behind Brandon Sproat's slightly stronger aggregate estimators relative to Nick Lodolo. This translates to a 4.9 percentage point edge, which falls just short of the mandatory 5.0% moneyline edge gate.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both the home moneyline and total markets carry stale/suspect price flags. Per data integrity rules, this game must be passed entirely.
+DATA GAP: clean book pricing for moneyline and total markets.
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: This game has a heavy rain forecast (67% rain chance) and is flagged with significant postponement risk. Per model instructions, games with active PPD risk are a mandatory pass.
+DATA GAP: none
+
+---
+
+## GAME: AZ @ STL
+PICK: STL ML
+PRICE: -108
+UNITS: 1
+EDGE: 7.1 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Kyle Leahy (4.18 xFIP) matches up exceptionally well against a Diamondbacks offense that struggles heavily against right-handed pitching (85 wRC+). Conversely, Eduardo Rodriguez (4.80 SIERA) must navigate an elite Cardinals split offense (109 wRC+ vs LHP), creating a strong 7.1 percentage point edge for St. Louis.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Per Coors Field rules, all totals and run line markets are passed due to high environmental variance. The moneyline projection on Boston (63.1% vs -1

@@ -1,0 +1,87 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE  
+RESULT: N/A  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: NONE  
+WHY: I still do not see a 3-unit play from the pre-game information that was available. The one side I did bet, STL ML, won, but the edge was only moderate and came with lineup-usage noise. That is not enough to retroactively promote it to a best bet.  
+SOURCE: Original slate notes and stated edge thresholds
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: CIN @ NYY  
+PICK: Over 8.5 (-102)  
+RESULT: LOSS  
+PROCESS: SMALL SAMPLE TRAP  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: The over case depended heavily on Elmer Rodríguez’s poor small-sample indicators plus early-bullpen exposure in a homer-friendly park. That is a real pre-game angle, but I gave too much weight to unstable starter indicators and not enough weight to the possibility that the total was being carried by one fragile assumption. The weather/park logic was fine; the model’s confidence level in the projection was too high for the quality of the pitcher data.  
+SOURCE: Original note citing “Elmer Rodríguez’s small-sample indicators are poor,” Yankee Stadium HR boost, and favorable weather
+
+---
+
+GAME: SF @ MIA  
+PICK: Over 8.0 (-102)  
+RESULT: LOSS  
+PROCESS: SMALL SAMPLE TRAP  
+WOULD-BET-AGAIN: LOWER STAKE  
+WHY: Same general issue as CIN/NYY. I leaned on Ryan Gusto’s small sample, projected Giants damage against him, and expected Miami’s strained bullpen to matter. Those are legitimate pre-game inputs, but the edge estimate of 1.8 runs was too aggressive given the uncertainty around the pitcher sample and run environment uncertainty from roof status. The over thesis had logic; the confidence level was overstated.  
+SOURCE: Original note citing “Ryan Gusto’s small sample,” “Miami’s bullpen is strained,” and roof-status uncertainty
+
+---
+
+GAME: STL @ KC  
+PICK: STL ML (-120)  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: This was the cleanest actual bet on the card and the pre-game case still holds up: better offensive split profile, better starter grade, and slight late-game edge. The game landing high scoring does not change the side logic. Even with some bullpen-usage noise, this was a justified price-based play.  
+SOURCE: Original side projection of STL 58.7% and stated edges in offense/starter/bullpen shape
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+NONE
+
+I do not see a pass or lean where the pre-game information clearly supported a bet that I failed to make. Several passed games had outcomes that matched my directional thoughts on totals or sides, but in those spots I explicitly lacked a clean price, had suspect-market flags, missing starter info, or material lineup uncertainty. That is process-consistent, not a missed edge.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: STAT  
+ITEM: Starter reliability bands that separate projection confidence for true established SPs vs. arms with sub-threshold MLB samples  
+WHICH GAME(S): CIN @ NYY; SF @ MIA; WAS @ TB  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: My losing totals were both tied to uncertain pitcher samples. A formal confidence penalty could have reduced stake or kept those from reaching bet threshold.
+
+---
+
+TYPE: DATA  
+ITEM: Confirmed bullpen availability/expected leverage usage in a structured pre-game format rather than narrative uncertainty  
+WHICH GAME(S): MIL @ ATL; SF @ MIA; CLE @ HOU; STL @ KC  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: I referenced taxed/strained/fresh pens several times, but with mixed confidence. Cleaner bullpen status could sharpen both side and total thresholds.
+
+---
+
+TYPE: DATA  
+ITEM: Roof/open-air status plus park-condition run adjustment delivered pre-lock  
+WHICH GAME(S): SF @ MIA; CLE @ HOU; BOS @ SEA  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: In lower- or medium-run environments, uncertainty around roof status materially affects total confidence more than my current workflow reflects.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Add an automatic confidence haircut to total projections when the edge is driven primarily by one or both starters having small-sample MLB data, and require a larger run-edge threshold before betting those overs.  
+
+WHAT IN MY METHOD COULD BE SHARPER: I currently account for small-sample uncertainty qualitatively, but I did not reduce stake/edge aggressively enough when the over thesis was built around unstable pitcher indicators.  
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): In CIN @ NYY, the over relied on “Elmer Rodríguez’s small-sample indicators are poor.” In SF @ MIA, the over relied on “Ryan Gusto’s small sample.” In both cases I still treated the projected edge as bet-worthy at full 1-unit size. That suggests my uncertainty penalty is too soft when starter evaluation is not yet stable.  
+
+CONFIDENCE: MEDIUM

@@ -1,0 +1,83 @@
+To: Betting Operations & Data Desk
+From: MLB Analytics Lead
+Date: June 21, 2026
+
+---
+
+## S1: BEST BET RE-EVALUATION
+
+**ORIGINAL BEST BET:** NYM ML +171 (Game 14)
+**RESULT:** LOSS (NYM 2, PHI 6)
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** NO
+
+**IF NO — NEW BEST BET:** CIN ML -109 (Game 2)
+**WHY:** Chase Burns (3.29 SIERA, 21.6% K-BB%) facing Elmer Rodriguez (6.44 aggregate SIERA) represented the single largest starting pitching talent disparity on the entire slate. While our pre-game model restricted this to a 1-unit play due to Rodriguez's small-sample starter flag, a pitching mismatch of this magnitude at near-even money (-109) is a far more stable and reliable projection than backing David Peterson against Zack Wheeler. Fading an elite ace with our largest unit stake of the day was fundamentally flawed sizing.
+**SOURCE:** Pre-game starting pitching matchup baselines.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** CIN @ NYY (Game 2)
+**PICK:** CIN ML (-109)
+**RESULT:** WIN (CIN 4, NYY 1)
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Chase Burns completely dominated as projected. Elmer Rodriguez’s weak baseline SIERA (6.44) gave the Reds an immediate advantage that the market failed to price correctly. The 1-unit restriction due to the small-sample flag was proper risk management, but the core matchup analysis was pristine.
+**SOURCE:** Pre-game starting pitching baselines.
+
+---
+
+**GAME:** WAS @ TB (Game 5)
+**PICK:** WSH ML (+121)
+**RESULT:** LOSS (WAS 3, TB 4)
+**PROCESS:** CORRECT PROCESS BAD VARIANCE
+**WOULD-BET-AGAIN:** YES
+**WHY:** Getting +121 on a Washington offense scoring 5.4 runs per game against Nick Martinez (4.66 SIERA) was a mathematically sound position. Andrew Alvarez pitched well enough to keep Washington competitive, and a tight 4-3 road loss is standard, acceptable variance for a plus-money underdog.
+**SOURCE:** Pre-game offensive runs/game and opponent SIERA.
+
+---
+
+**GAME:** STL @ KC (Game 7)
+**PICK:** STL ML (-120)
+**RESULT:** WIN (STL 12, KC 10)
+**PROCESS:** CORRECT PROCESS FAIR RESULT
+**WOULD-BET-AGAIN:** YES
+**WHY:** Dustin May's elite current form (2.67 L14 SIERA) and the Cardinals' offensive matchup against Stephen Kolek were highly favorable. Passing on the game total due to high winds (15+ mph) was the correct environmental filter, allowing us to capture clean moneyline value in a high-scoring environment.
+**SOURCE:** Pre-game L14 SIERA and weather data.
+
+---
+
+**GAME:** NYM @ PHI (Game 14)
+**PICK:** NYM ML (+171)
+**RESULT:** LOSS (NYM 2, PHI 6)
+**PROCESS:** UNDERWEIGHTED PITCHING
+**WOULD-BET-AGAIN:** LOWER STAKE (1 unit maximum)
+**WHY:** While the model identified an 11.1% edge based on the Phillies' mediocre aggregate 92 wRC+ against left-handed pitching, we drastically underweighted the raw talent gap between Zack Wheeler and David Peterson. Structurally, risking 3 units (our max play) to fade a Tier-1 ace on the road is too aggressive. Team-level split data (92 wRC+) can be highly misleading when the opponent features elite individual hitters (e.g., Alec Bohm, Trea Turner) who match up exceptionally well against southpaws. 
+**SOURCE:** Pre-game starting pitching baselines.
+
+---
+
+### PART B — PASSES AND LEANS
+*None. All other passes and leans were correct or held under the daily slate limit according to our strict volume and data integrity filters.*
+
+---
+
+## S3: DATA REQUEST
+
+**TYPE:** STAT / FanGraphs
+**ITEM:** Projected active starting lineup split-weighted wRC+ vs. LHP (excluding bench/injured players)
+**WHICH GAME(S):** NYM @ PHI
+**WOULD HAVE CHANGED A BET?** YES
+**WHY:** Having the split stats of the *actual* starting 9 batters rather than the team's season-long aggregate vs. LHP would have shown that Philadelphia's top-of-the-order remains incredibly dangerous against lefties. This would have trimmed our projected edge on the Mets and prevented us from making this a 3-unit Best Bet.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+**PROPOSED CHANGE:** Cap all moneyline underdog bets at a maximum of 1.5 units when facing a Tier-1 starting pitcher (defined as a projected SIERA under 3.25 or an established elite ace), regardless of the model's calculated percentage edge.
+**WHAT IN MY METHOD COULD BE SHARPER:** Our unit sizing formula is currently too linear; it scales up unit size based on pure percentage edge without adjusting for the high-variance, low-floor nature of fading elite starting pitchers.
+**EVIDENCE FROM TODAY:** Fading Zack Wheeler with a 3-unit max play on David Peterson (+171) due to a raw 11.1% edge. Aces suppress opponent run equity so effectively that standard variance models overestimate the underdog's realizable equity.
+**CONFIDENCE:** HIGH

@@ -20,10 +20,11 @@
       "reason": "NYY has a massive platoon advantage vs Valdez and DET's bullpen is taxed, projecting a high-scoring affair. Passed on the total due to my hard cap of two totals per slate, as other games offered superior expected value.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "7eeb2a9fecc4a8958efb172e75c65224",
@@ -41,11 +42,17 @@
       "reason": "NYY has a massive platoon advantage vs Valdez and DET's bullpen is taxed, projecting a high-scoring affair. Passed on the total due to my hard cap of two totals per slate, as other games offered superior expected value.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "3e12cc318907e3d20b669757daa0601c",
@@ -63,10 +70,11 @@
       "reason": "TB's top two bullpen arms are taxed, forcing low-leverage arms into high-leverage spots against a KC team that has been scoring. Both starters have full recent samples and the plus-money price on a massive run gap makes this the top play.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "3e12cc318907e3d20b669757daa0601c",
@@ -83,12 +91,18 @@
       "edge": "2.8 runs",
       "reason": "TB's top two bullpen arms are taxed, forcing low-leverage arms into high-leverage spots against a KC team that has been scoring. Both starters have full recent samples and the plus-money price on a massive run gap makes this the top play.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 0,
+      "closing_line": 100,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 3,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "5a8ab9f3ed0791629f4f9e10da52043a",
@@ -106,10 +120,11 @@
       "reason": "Both bullpens are heavily taxed with T1 and T2 unavailable, and both starters possess sub-95 Stuff+ and poor K-BB rates. Downgraded from 3 units to 1 unit because both starters fall below the 12 L14 IP threshold.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "5a8ab9f3ed0791629f4f9e10da52043a",
@@ -126,12 +141,18 @@
       "edge": "3.3 runs",
       "reason": "Both bullpens are heavily taxed with T1 and T2 unavailable, and both starters possess sub-95 Stuff+ and poor K-BB rates. Downgraded from 3 units to 1 unit because both starters fall below the 12 L14 IP threshold.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 0,
+      "closing_line": -105,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "2bbd66d60ea2fc31f947643a281cfb84",
@@ -149,10 +170,11 @@
       "reason": "PHI starter is TBD, triggering an automatic pass on both side and total markets per data integrity rules.",
       "data_gap": "PHI starting pitcher",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "06b34739941eb6ab0d54c4cee040b202",
@@ -170,10 +192,11 @@
       "reason": "TOR starter is TBD, triggering an automatic pass on both side and total markets per data integrity rules.",
       "data_gap": "TOR starting pitcher",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "da1236e8e0bc448283c6e1e28d578e43",
@@ -188,13 +211,19 @@
       "units": 1,
       "units_raw": "1",
       "edge": "4.3 pts",
-      "reason": "CHC has a solid platoon advantage and Imanaga's underlying metrics are much stronger than Senga's disastrous 5.14 xFIP. Passed on the total due to a 64% rain chance, which exceeds my 40% high rain probability pass threshold.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "7adc5663e108dbde0834e58a957b5d3e",
@@ -212,10 +241,11 @@
       "reason": "MIL starter is TBD, triggering an automatic pass on both side and total markets per data integrity rules.",
       "data_gap": "MIL starting pitcher",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "22bf5f58b0fd7173739a6d0fb1bd280e",
@@ -233,10 +263,11 @@
       "reason": "CLE's offense struggles against lefties, neutralizing their pitching advantage over Kay. The total leans over due to both bullpens being relatively fresh but the starters lacking elite swing-and-miss stuff; passed due to slate ceiling and better options.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "22bf5f58b0fd7173739a6d0fb1bd280e",
@@ -254,11 +285,17 @@
       "reason": "CLE's offense struggles against lefties, neutralizing their pitching advantage over Kay. The total leans over due to both bullpens being relatively fresh but the starters lacking elite swing-and-miss stuff; passed due to slate ceiling and better options.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "0fdd8b67a62fe347c0995afb9eb94c73",
@@ -276,10 +313,11 @@
       "reason": "LAD has a massive platoon advantage but Lauer's poor xFIP and MIN's taxed bullpen create high variance. Passed on the side due to insufficient edge and the total due to my two-total slate cap.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "0fdd8b67a62fe347c0995afb9eb94c73",
@@ -297,11 +335,17 @@
       "reason": "LAD has a massive platoon advantage but Lauer's poor xFIP and MIN's taxed bullpen create high variance. Passed on the side due to insufficient edge and the total due to my two-total slate cap.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "fbfee8c921cea16428faf24b7ba19aed",
@@ -318,11 +362,17 @@
       "edge": "4.7 pts",
       "reason": "STL boasts a massive 123 wRC+ against RHP compared to AZ's weak 87 wRC+, and Pallante's groundball profile plays well here. The edge is solid but falls short of the 6.5% threshold required for a 3-unit play.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.7143,
+      "clv": 3,
+      "closing_line": -143,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "4244628ff5c52a85f4e83f8dc171ed4e",
@@ -340,10 +390,11 @@
       "reason": "Coors Field features extreme variance and a Park Runs factor of 130, which triggers my automatic pass rule for extreme park factors on totals. Side is passed due to small sample starters and high variance.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "541d3f8c1e87131917cbf8386a2563f6",
@@ -360,11 +411,17 @@
       "edge": "5.2 pts",
       "reason": "BAL has a significant pitching advantage with Bradish facing Aldegheri, who has a disastrous 7.27 xFIP and negative K-BB%. Total leans over due to both bullpens being taxed, but passed due to the two-total slate cap.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.6452,
+      "clv": 5,
+      "closing_line": -160,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "541d3f8c1e87131917cbf8386a2563f6",
@@ -382,11 +439,17 @@
       "reason": "BAL has a significant pitching advantage with Bradish facing Aldegheri, who has a disastrous 7.27 xFIP and negative K-BB%. Total leans over due to both bullpens being taxed, but passed due to the two-total slate cap.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "66c3c3524e444f31fe9fc224ac058351",
@@ -404,10 +467,11 @@
       "reason": "Both bullpens are heavily taxed, which inflates the total projection significantly despite Petco Park's pitcher-friendly dimensions. Passed on the side due to insufficient edge and the total due to the two-total slate cap.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "66c3c3524e444f31fe9fc224ac058351",
@@ -425,11 +489,17 @@
       "reason": "Both bullpens are heavily taxed, which inflates the total projection significantly despite Petco Park's pitcher-friendly dimensions. Passed on the side due to insufficient edge and the total due to the two-total slate cap.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     }
   ],
   "parlay": null,
@@ -446,5 +516,6 @@
     "passes": 10,
     "units_risked": 7,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T06:44:50Z"
 }

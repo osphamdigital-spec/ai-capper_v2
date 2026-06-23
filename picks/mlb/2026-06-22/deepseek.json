@@ -20,10 +20,11 @@
       "reason": "NYY ML edge 7.8 pts (62.7% vs 54.9%) but 1u only due to Cole [sm]; Over 8.0 edge 1.57 runs (exp 9.57 vs 8.0) but [sm] reduces to 1u. Neither selected under 3-bet slate ceiling. DATA GAP: none.",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "3e12cc318907e3d20b669757daa0601c",
@@ -41,10 +42,11 @@
       "reason": "TB ML edge 2.9 pts (66.3% vs 63.4%) below 4‑pt gate; Over 7.5 edge 1.02 runs (exp 8.52) qualifies 1u but not prioritized. DATA GAP: none.",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "5a8ab9f3ed0791629f4f9e10da52043a",
@@ -62,10 +64,11 @@
       "reason": "TEX ML edge 2.1 pts (48.6% vs 46.5%) below gate; Over 8.5 edge 1.23 runs but HR factor 81 bans Over bets. DATA GAP: none.",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "06b34739941eb6ab0d54c4cee040b202",
@@ -83,10 +86,11 @@
       "reason": "TOR starter TBD – mandatory pass. DATA GAP: missing starter.",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "da1236e8e0bc448283c6e1e28d578e43",
@@ -101,13 +105,14 @@
       "units": 0,
       "units_raw": "PASS",
       "edge": "none",
-      "reason": "64% rain, PPD risk – weather pass per method. DATA GAP: none.",
+      "reason": "postponed",
       "data_gap": "",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "7adc5663e108dbde0834e58a957b5d3e",
@@ -125,10 +130,11 @@
       "reason": "MIL starter TBD – mandatory pass. DATA GAP: missing starter.",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "22bf5f58b0fd7173739a6d0fb1bd280e",
@@ -146,10 +152,11 @@
       "reason": "CLE ML edge 7.8 pts (58.7% vs 50.9%) qualifies 3u on edge alone, but downgraded to 1u under 3‑bet cap; not selected. Total prices all flagged suspect. DATA GAP: none.",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "0fdd8b67a62fe347c0995afb9eb94c73",
@@ -166,11 +173,17 @@
       "edge": "8.4 pts",
       "reason": "Run projection LAD 5.40, MIN 5.41 gives MIN 50.1% win; market MIN implied 41.7%, edge 8.4 pts. Lauer’s poor SIERA and depleted MIN bullpen create value on underdog. Total 10.81 vs 9.5, but Over banned (HR ≤85); Under edge negative. DATA GAP: none.",
       "data_gap": "",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 2,
+      "closing_line": 132,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 3,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "fbfee8c921cea16428faf24b7ba19aed",
@@ -187,11 +200,17 @@
       "edge": "12.0 pts",
       "reason": "Run projection STL 5.83, AZ 3.77 gives STL 69.0% win; market STL implied 57.0%. Gap largely from Kelly’s 5.40 SIERA vs strong STL wRC+ 123. Total 9.60 vs 8.5 has Over edge 1.10 runs, but HR 78 bans Over. DATA GAP: none.",
       "data_gap": "",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 2.1429,
+      "clv": 3,
+      "closing_line": -143,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 3,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "4244628ff5c52a85f4e83f8dc171ed4e",
@@ -209,10 +228,11 @@
       "reason": "BOS ML edge 6.5 pts (60.0% vs 53.5%) and Over 11.5 edge 1.14 runs both 1u but Bennett [sm] and not selected under cap. DATA GAP: none.",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "541d3f8c1e87131917cbf8386a2563f6",
@@ -229,11 +249,17 @@
       "edge": "10.5 pts",
       "reason": "Aldegheri’s 6.91 SIERA and weak LAA bullpen project BAL 7.79, LAA 4.93; BAL win 69.9% vs market 59.3%. 3u prevented by Aldegheri [sm] flag → reduced to 1u. Total 12.72 vs 9.0 Under no edge. DATA GAP: none.",
       "data_gap": "",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.6452,
+      "clv": 5,
+      "closing_line": -160,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "66c3c3524e444f31fe9fc224ac058351",
@@ -251,10 +277,11 @@
       "reason": "ATL ML edge only 1.5 pts (52.0% vs 50.5%). Over 7.5 edge 1.42 runs qualifies 1u but not selected under 3‑bet cap. DATA GAP: none.",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     }
   ],
   "parlay": null,
@@ -271,5 +298,6 @@
     "passes": 9,
     "units_risked": 7,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T06:44:50Z"
 }

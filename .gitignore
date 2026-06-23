@@ -8,6 +8,12 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Node dependencies (Playwright etc.) — reinstallable, never commit
+node_modules/
+
+# Stray Windows reserved-name artifact (git cannot index it)
+nul
+
 # Editor / OS noise
 .DS_Store
 Thumbs.db

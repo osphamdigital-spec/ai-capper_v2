@@ -4,37 +4,37 @@
   "v3_start_date": "2026-06-19",
   "unit_base_usd": 100,
   "starting_balance": 10000.0,
-  "current_balance": 9707.0,
-  "updated_at": "2026-06-21T07:53:55Z",
+  "current_balance": 9365.0,
+  "updated_at": "2026-06-23T07:03:01Z",
   "summary": {
-    "bets": 7,
-    "wins": 3,
-    "losses": 4,
+    "bets": 12,
+    "wins": 4,
+    "losses": 8,
     "pushes": 0,
     "voids": 0,
-    "dollars_risked": 1004.0,
-    "dollars_net": -293.0,
-    "roi_pct": -29.2,
-    "avg_clv": 2.3,
-    "clv_count": 7,
+    "dollars_risked": 1586.0,
+    "dollars_net": -635.0,
+    "roi_pct": -40.0,
+    "avg_clv": 2.2,
+    "clv_count": 12,
     "by_type": {
       "favorite": {
-        "bets": 7,
-        "w": 3,
-        "l": 4,
-        "dollars_net": -293.0
+        "bets": 10,
+        "w": 4,
+        "l": 6,
+        "dollars_net": -435.0
       },
       "underdog": {
-        "bets": 0,
+        "bets": 2,
         "w": 0,
-        "l": 0,
-        "dollars_net": 0.0
+        "l": 2,
+        "dollars_net": -200.0
       },
       "1u": {
-        "bets": 7,
-        "w": 3,
-        "l": 4,
-        "dollars_net": -293.0
+        "bets": 12,
+        "w": 4,
+        "l": 8,
+        "dollars_net": -635.0
       },
       "3u": {
         "bets": 0,
@@ -43,10 +43,10 @@
         "dollars_net": 0.0
       },
       "ml": {
-        "bets": 3,
-        "w": 1,
-        "l": 2,
-        "dollars_net": -268.0
+        "bets": 5,
+        "w": 2,
+        "l": 3,
+        "dollars_net": -308.0
       },
       "rl": {
         "bets": 0,
@@ -55,10 +55,10 @@
         "dollars_net": 0.0
       },
       "total": {
-        "bets": 4,
+        "bets": 7,
         "w": 2,
-        "l": 2,
-        "dollars_net": -25.0
+        "l": 5,
+        "dollars_net": -327.0
       }
     }
   },
@@ -195,6 +195,101 @@
       "clv": 0,
       "closing_line": -115,
       "edge": "1.5 runs"
+    },
+    {
+      "date": "2026-06-21",
+      "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
+      "matchup": "CIN @ NYY",
+      "market": "total",
+      "pick_raw": "Over 8.5",
+      "pick_side": "over",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -102,
+      "stake_usd": 102.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -102.0,
+      "balance_after": 9605.0,
+      "clv": 3,
+      "closing_line": -105,
+      "edge": "1.2 runs"
+    },
+    {
+      "date": "2026-06-21",
+      "game_id": "52936746b7bd1b536bb6d7d2bb159424",
+      "matchup": "SF @ MIA",
+      "market": "ml",
+      "pick_raw": "SF ML",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -140,
+      "stake_usd": 140.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -140.0,
+      "balance_after": 9465.0,
+      "clv": 4,
+      "closing_line": -144,
+      "edge": "5.5 pts"
+    },
+    {
+      "date": "2026-06-22",
+      "game_id": "3e12cc318907e3d20b669757daa0601c",
+      "matchup": "KC @ TB",
+      "market": "total",
+      "pick_raw": "Over 7.5",
+      "pick_side": "over",
+      "fav_or_dog": "underdog",
+      "units": 1,
+      "price": 100,
+      "stake_usd": 100.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -100.0,
+      "balance_after": 9365.0,
+      "clv": 0,
+      "closing_line": 100,
+      "edge": "1.75 runs"
+    },
+    {
+      "date": "2026-06-22",
+      "game_id": "fbfee8c921cea16428faf24b7ba19aed",
+      "matchup": "AZ @ STL",
+      "market": "ml",
+      "pick_raw": "STL ML",
+      "pick_side": "home",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -140,
+      "stake_usd": 140.0,
+      "to_win_usd": 100.0,
+      "result": "win",
+      "profit_usd": 100.0,
+      "balance_after": 9465.0,
+      "clv": 3,
+      "closing_line": -143,
+      "edge": "4.7 pts"
+    },
+    {
+      "date": "2026-06-22",
+      "game_id": "66c3c3524e444f31fe9fc224ac058351",
+      "matchup": "ATL @ SD",
+      "market": "total",
+      "pick_raw": "Over 7.0",
+      "pick_side": "over",
+      "fav_or_dog": "underdog",
+      "units": 1,
+      "price": 100,
+      "stake_usd": 100.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -100.0,
+      "balance_after": 9365.0,
+      "clv": 0,
+      "closing_line": 100,
+      "edge": "2.75 runs"
     }
   ]
 }

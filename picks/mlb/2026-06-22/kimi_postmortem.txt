@@ -1,0 +1,98 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+---
+
+## S2: FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: AZ @ STL
+PICK: STL ML -140 (1 unit)
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Pallante’s SIERA edge, the 36-point wRC+ platoon advantage, and rested bullpens were all confirmed by the lineups and played out in a tight 3-2 win. The edge was built on stable, season-long skill metrics rather than noise, and the result was consistent with the pre-game probability.
+SOURCE: Pre-game SIERA differential, wRC+ platoon splits, bullpen rest status.
+
+---
+
+GAME: KC @ TB
+PICK: Over 7.5 (+100) (1 unit)
+RESULT: LOSS
+PROCESS: INCORRECT PITCHING
+WOULD-BET-AGAIN: NO
+WHY: I explicitly noted Rasmussen’s elite underlying skills pre-game but underweighted them relative to Kansas City’s offensive form and Tampa Bay’s bullpen fatigue. The specific pre-game data point justifying the low-scoring outcome was Rasmussen’s elite skill level; I failed to respect how much a top-tier starter can suppress a total even behind a tired relief corps. This was a weighting error, not variance.
+SOURCE: Pre-game notes citing Rasmussen’s elite underlying skills.
+
+---
+
+GAME: ATL @ SD
+PICK: Over 7.0 (+100) (1 unit)
+RESULT: LOSS
+PROCESS: OVERWEIGHTED FORM
+WOULD-BET-AGAIN: NO
+WHY: The entire over case rested on “both starters have struggled recently.” Recent form for starting pitchers is high-noise over short samples, and I had no cited degradation in underlying metrics (SIERA, xFIP, velocity decline) to support the call. Without a pre-game signal that true talent had dropped, betting a large total edge on recent struggle alone was a process flaw. I should have passed.
+SOURCE: Pre-game reasoning citing only recent starter struggles without accompanying skill-metric degradation.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+(No blocks — all passes were justified by the pre-game information available. No specific pre-game edge was overlooked.)
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: Season-long SIERA/xFIP (or 12-month rolling) for any starter flagged as “struggled recently”
+WHICH GAME(S): ATL @ SD (general application to form-based totals)
+WOULD HAVE CHANGED A BET? YES
+WHY: Would distinguish a true skill drop from short-term noise. If the starters’ underlying metrics were stable, I would have avoided the over and sidestepped the form-driven process error.
+
+---
+
+TYPE: DATA
+ITEM: Starting pitcher average innings per start / deep-game rate (≥6 IP, ≥7 IP) in games where bullpen fatigue pass is triggered
+WHICH GAME(S): BAL @ LAA (and future fatigue-pass spots)
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: A starter with a massive SIERA edge who regularly works deep limits the impact of an exhausted bullpen. Knowing Bradish’s expected length might have converted the auto-pass into a playable side.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Disallow “recent struggle” as a standalone bullish signal for totals (or sides) unless it is paired with confirmed underlying degradation (SIERA/xFIP spike, velocity loss, or hard-hit inflation).
+WHAT IN MY METHOD COULD BE SHARPER: The weight assigned to short-term pitcher form relative to stable skill metrics.
+EVIDENCE FROM TODAY: In ATL@SD, the over bet was driven entirely by “both starters have struggled recently” with no cited change in season-long skill level. In KC@TB, the over was played despite explicitly noting Rasmussen’s elite underlying skills, meaning form factors (KC’s hot offense, TB’s tired bullpen) were overweighted against stable talent. Both cases show recent-form reads either misled or were insufficient to overcome reliable pitching metrics.
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION
+
+### GAME: KC @ TB — YOUR CALL: BET over ML 100 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A — confirmed lineups matched the pre-game wRC+ snapshot exactly; no late scratches or platoon surprises.
+
+---
+
+### GAME: AZ @ STL — YOUR CALL: BET home ML -140 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A — St. Louis ran out its expected platoon-heavy lineup (Burleson, Walker, Nootbaar) and Arizona’s order matched the pre-game wRC+ sheet. No material changes.
+
+---
+
+### GAME: ATL @ SD — YOUR CALL: BET over ML 100 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A — San Diego’s low-PA bats (Wagner, Taylor, Durán) were already flagged in the pre-game Run-1 data with <25 PA warnings. Atlanta’s lineup was also unchanged. The confirmation added no new information.

@@ -1,0 +1,97 @@
+## S1: BEST BET RE-EVALUATION
+**ORIGINAL BEST BET:** STL ML -140 (3u)  
+**RESULT:** WIN  
+**WOULD YOU STILL MAKE THIS YOUR BEST BET?** YES  
+**IF NO — NEW BEST BET:** N/A  
+**WHY:** The 12.0‑point edge was driven by a clear and stable pre‑game signal — Kelly’s 5.40 SIERA vs. STL’s 123 wRC+ — without small‑sample flags, exactly the sort of high‑conviction advantage the method targets. No piece of pre‑game data called that advantage into question, and the result confirmed the edge.
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+**GAME:** LAD @ MIN  
+**PICK:** MIN ML +134 (3u)  
+**RESULT:** LOSS  
+**PROCESS:** CORRECT PROCESS BAD VARIANCE  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** The run projection (LAD 5.40, MIN 5.41) gave MIN a 50.1% win probability, making them essentially coin‑flip underdogs against an implied 41.7% market price — an 8.4‑point edge above the 4‑point gate. Lauer’s poor SIERA and a depleted MIN bullpen were explicitly mentioned as sources of market overreaction, not as reasons to fade the bet. No pre‑game data (weather, park, injury, bullpen usage, line movement) contradicted the value case. The outcome, a one‑run loss, is consistent with a near‑50% fair probability; variance is the primary explanation.  
+**SOURCE:** Pre‑game run projection & market pricing
+
+---
+
+**GAME:** AZ @ STL  
+**PICK:** STL ML -140 (3u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES  
+**WHY:** Kelly’s 5.40 SIERA against the strong right‑handed STL offense (123 wRC+) generated a wide 12.0‑point edge, the largest on the slate. No small‑sample or weather flags diluted the signal, and the confirmed lineups matched projections. The outcome aligns with the edge.  
+**SOURCE:** Starting pitcher SIERA, team wRC+, market price
+
+---
+
+**GAME:** BAL @ LAA  
+**PICK:** BAL ML -155 (1u)  
+**RESULT:** WIN  
+**PROCESS:** CORRECT PROCESS FAIR RESULT  
+**WOULD-BET-AGAIN:** YES (at the reduced stake)  
+**WHY:** Aldegheri’s 6.91 SIERA and weak LAA bullpen created a 10.5‑point edge, but the [sm] flag correctly forced a stake reduction to 1u. No pre‑game data suggested the flag was misapplied, and the confirmed lineups were as expected. The outcome matches the pre‑game advantage.  
+**SOURCE:** Starting pitcher SIERA/small‑sample flag, bullpen strength
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE‑GAME EDGE YOU MISSED
+
+*None.*  
+All passes were either mandatory (TBD starter, weather, PPD risk) or correctly filtered by the 3‑bet slate cap. No pre‑game edge that would have triggered a bet under the method was overlooked.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+**TYPE:** DATA / STAT / SOURCE  
+**ITEM:** None  
+**WHICH GAME(S):** N/A  
+**WOULD HAVE CHANGED A BET?** N/A  
+**WHY:** The three bets were driven by starter SIERA, team wRC+, and small‑sample flags — all of which were present. No additional data point (e.g., bullpen usage splits, umpire history) would have changed a bet based on pre‑game logic alone.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+**PROPOSED CHANGE:** When a bet’s edge is driven almost entirely by market mispricing and the projected win probability is extremely close to 50% (say 48–52%), add a secondary filter requiring a minimum absolute edge of 6 points (instead of 4) or raising the unit cap for such bets.  
+
+**WHAT IN MY METHOD COULD BE SHARPER:**  
+The MIN bet possessed an 8.4‑point edge, but the projected win probability was only 50.1% — a virtual coin flip. The edge arose from the line, not from the model’s conviction that one side was superior. In such cases, variance can easily overwhelm the edge, and the bet may not offer sufficient calibrated value relative to the risk of a close loss. Tightening requirements here would reduce noise without systematically filtering out strong projections.
+
+**EVIDENCE FROM TODAY (cite pre‑game data, not the outcome):**  
+Pre‑game run projection: LAD 5.40, MIN 5.41 → MIN win% 50.1%. The fair moneyline for MIN was roughly +100, and the available +134 provided an 8.4‑point edge. However, the projected gap in win probability was negligible, meaning the bet’s success depended entirely on the line being wrong by enough over a large sample; on any single day, a coin flip can lose without any flaw in the process. The method currently treats a 4‑point edge uniformly across all win‑probability ranges, which may overvalue near‑50% projections.
+
+**CONFIDENCE:** MEDIUM  
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup)
+
+### GAME: LAD @ MIN — YOUR CALL: BET home ML 134 (3u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE‑GAME REASON (required if WOULD CHANGE != no change):** N/A  
+
+---
+
+### GAME: AZ @ STL — YOUR CALL: BET home ML -140 (3u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE‑GAME REASON:** N/A  
+
+---
+
+### GAME: BAL @ LAA — YOUR CALL: BET away ML -155 (1u)
+
+**CONFIRMED LINEUP vs YOUR ASSUMPTION:** roughly as expected  
+**WOULD CHANGE?** no change  
+**PRE‑GAME REASON:** N/A

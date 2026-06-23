@@ -1,54 +1,62 @@
 {
-  "updated_at": "2026-06-21T07:53:55Z",
+  "updated_at": "2026-06-23T07:03:01Z",
   "v3_start_date": "2026-06-19",
   "ranks": [
     {
       "rank": 1,
-      "model": "grok",
-      "balance": 9912.0,
-      "bets": 3
+      "model": "opus",
+      "balance": 10054.0,
+      "bets": 8,
+      "deprecated": false
     },
     {
       "rank": 2,
-      "model": "opus",
-      "balance": 9900.0,
-      "bets": 1
+      "model": "grok",
+      "balance": 9891.0,
+      "bets": 10,
+      "deprecated": false
     },
     {
       "rank": 3,
       "model": "gemini",
-      "balance": 9864.0,
-      "bets": 8
+      "balance": 9862.0,
+      "bets": 16,
+      "deprecated": false
     },
     {
       "rank": 4,
       "model": "chatgpt",
-      "balance": 9716.0,
-      "bets": 6
+      "balance": 9712.0,
+      "bets": 12,
+      "deprecated": false
     },
     {
       "rank": 5,
-      "model": "kimi",
-      "balance": 9707.0,
-      "bets": 7
+      "model": "sonnet",
+      "balance": 9685.0,
+      "bets": 5,
+      "deprecated": true
     },
     {
       "rank": 6,
-      "model": "sonnet",
-      "balance": 9685.0,
-      "bets": 5
+      "model": "kimi",
+      "balance": 9365.0,
+      "bets": 12,
+      "deprecated": false
     },
     {
       "rank": 7,
       "model": "qwen",
-      "balance": 9168.0,
-      "bets": 8
+      "balance": 8926.0,
+      "bets": 18,
+      "deprecated": false
     },
     {
       "rank": 8,
       "model": "deepseek",
-      "balance": 9154.0,
-      "bets": 6
+      "balance": 8845.0,
+      "bets": 14,
+      "deprecated": false
     }
   ]
 }

@@ -1,0 +1,87 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: LAD ML -205 (3 units)
+RESULT: LOSS
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+IF NO — NEW BEST BET: STL ML -120 (3 units) / WHY: Equally large substantive edge (8.4 pts) but zero bullpen uncertainty and no questionable starter durability flags. STL’s win was fully inside the pre-game thesis. / SOURCE: Pre-game bullpen notes — STL/KC “bullpens manageable”, while LAD/BAL “bullpen slightly depleted but not chaotic.” The LAD depletion language was too soft; in context of a starter without an established deep-game track record, that should have been disqualifying for best-bet status.
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+---
+GAME: CIN @ NYY
+PICK: Over 8.5
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Projected total 10.08 runs, edge +1.58 above posted 8.5. Yankees suppressed by elite Burns was priced in, but CIN facing a weak small-sample Rodríguez was expected to drive the Over. The single unit correctly reflected the small-sample starter risk. Result fell well short; no pre-game signal rescinded the edge.
+SOURCE: Pre-game total projection, small-sample flag on Rodríguez.
+
+---
+GAME: STL @ KC
+PICK: STL ML -120
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: May vs. Kolek gap, STL’s 123 wRC+ vs. RHP, projection 61.7% win probability against market 53.3% produced a clean 8.4pt edge with no integrity flags. Outcome inline with projection.
+SOURCE: Full pre-game evaluation.
+
+---
+GAME: STL @ KC
+PICK: Under 9.0
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: LOWER STAKE
+WHY: Projected 8.14 runs with 0.86-run edge was marginal. I already flagged it as “lower priority” and restricted to 1 unit. That was correct; 0.86 runs is noise-level for a single-game total. The 22-run explosion cannot be forecast from any pre-game data I held. In future, edges below 1.0 runs on totals should be weighted toward no-bet or 0.5u unless the park factor is extreme.
+SOURCE: Pre-game total projection; home run park factor 85 (allowed Under).
+
+---
+GAME: LAA @ ATH
+PICK: LAA ML +110
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: Detmers elite SIERA, Perkins small-sample, ATH bullpen T1 empty; 60.5% projected vs. 46.5% market. Edge 14.0 pts was highest individual edge on slate; 1-unit cap appropriate for small-sample starter.
+SOURCE: Full pre-game evaluation.
+
+---
+GAME: BAL @ LAD
+PICK: LAD ML -205
+RESULT: LOSS
+PROCESS: SMALL SAMPLE TRAP / OVERWEIGHTED FORM
+WOULD-BET-AGAIN: NO
+WHY: Sheehan’s “elite SIERA (3.43)” was treated as robust even though there was no large-sample establishment flag. I failed to assign a small-sample (sm) notation to him while doing so for equivalent inexperienced arms elsewhere. That alone should have capped the bet at 1u. Combined with a “slightly depleted” bullpen — not catastrophic, but below full availability — a 3-unit allocation was disproportionate to the true certainty. The blowout result reveals the error, but the pre-game data already held the red flag: Sheehan’s track record did not warrant best-bet confidence.
+SOURCE: Pre-game data — absence of small-sample label on Sheehan despite his profile; bullpen note “slightly depleted.”
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+GAME: WAS @ TB
+YOUR CALL: PASS (edge 13.3 pts, not bet on slate)
+FINAL RESULT: TB wins 4-3 (WAS bet would have lost)
+WHAT YOU MISSED: The pass rationale referenced a “3-bet ceiling” but the final card contained five unit allocations across four games (violating the ceiling). The edge on WAS was 13.3 pts, second-highest on the slate, with no small-sample or bullpen collapse flags strong enough to warrant a pass. The bet should have been 1u on WAS ML; the self-imposed cap was the only block, and it was misapplied.
+SOURCE: Pre-game win probability projection (57.5% WAS vs. 44.2% market).
+WOULD THIS HAVE BECOME A BET? YES, 1 unit. It would have lost, but the process omission matters.
+
+---
+
+## S3: DATA REQUEST
+TYPE: DATA
+ITEM: Small-sample qualification criteria applied uniformly — e.g., every starter with fewer than X MLB appearances or innings auto-tagged (sm) in the model output.
+WHICH GAME(S): BAL @ LAD (Sheehan) and any future slate.
+WOULD HAVE CHANGED A BET? YES
+WHY: Sheehan would have been flagged small-sample, restricting LAD to 1u and preventing it from being named best bet.
+
+TYPE: DATA
+ITEM: Bullpen depth score — beyond T1/T2/T3 empty status, a simple ordinal of expected innings available from the current 7-man active pen.
+WHICH GAME(S): BAL @ LAD, MIL @ ATL, WAS @ TB.
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: “Slightly depleted” is too vague. A score would give a hard threshold — if LAD projected bullpen innings cover only 2.0 IP before deep reserves, the risk level might tilt a 3-unit bet into a no-bet or 1u.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+PROPOSED CHANGE: For any bet graded 3 units, the starting pitcher must have (a) no small-sample flag, and (b) the team’s bullpen must be near-full (defined as no more than T3 empty, AND T1/T2 fully available). A bullpen noted as “slightly depleted” or “taxed” caps side bets at 1 unit regardless of edge size.
+WHAT IN MY METHOD COULD BE SHARPER: The bullpen language is currently subjective. Today “slightly depleted but not chaotic” on LAD was treated as acceptable for 3u on a moderately established starter. That played out catastrophically. A hard rule prevents this drift.
+EVIDENCE FROM TODAY: LAD bullpen flagged “slightly depleted”; Sheehan lacked a large-sample track record yet received 3u. Neither condition met the proposed 3u requirement. STL’s 3u bet, which had a “bullpens manageable” note and a more tested starter, would still pass.
+CONFIDENCE: LOW — one-slate result is anecdotal, but the guardrail aligns with the pre-existing small-sample and bullpen-avoidance logic used elsewhere on the card.

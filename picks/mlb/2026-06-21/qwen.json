@@ -20,10 +20,11 @@
       "reason": "Both starters have L14 IP under 12, creating small-sample noise that suppresses side conviction. The Over price is flagged as suspect/stale, rendering the total market absent and unbettable.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
@@ -41,10 +42,11 @@
       "reason": "The CIN moneyline and the Under total are both flagged with suspect/stale pricing, removing those markets from consideration. Both starters also fall under the 12 L14 IP threshold, further reducing side conviction.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "5b9a17363d625eecc39a522f99d7e6b5",
@@ -62,10 +64,11 @@
       "reason": "A massive 201-point line movement toward CHW indicates a likely roster or lineup change, making the provided pitcher and lineup data potentially stale. I am passing the entire game to preserve data integrity and avoid unmodelable variance.",
       "data_gap": "Confirmation of roster/lineup changes causing the sharp ML move.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "52936746b7bd1b536bb6d7d2bb159424",
@@ -83,10 +86,11 @@
       "reason": "The Under total price is flagged as suspect, voiding the total market. On the side, SF's estimated edge falls just short of the 4.0% minimum gate against the -140 price, and Gusto's small L14 sample prevents a 3-unit upgrade.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "a14b7bea51fe65613c31f6f978b654bf",
@@ -104,10 +108,11 @@
       "reason": "Both the Over and Under total prices are flagged as suspect/stale, eliminating the total market. The side edge for WAS (+121) calculates to roughly 2.8%, which falls below the 4.0% minimum edge gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "ec4cae25ad07349a66d527ea9274b717",
@@ -125,10 +130,11 @@
       "reason": "CLE's T1 and T2 relievers are both unavailable, forcing low-leverage arms into high-leverage spots and adding a full run to the total projection. Combined with HOU's strong platoon wRC+ and both starters showing recent xFIP slumps, the Over 8.5 offers a massive 1.45-run edge.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "ec4cae25ad07349a66d527ea9274b717",
@@ -145,12 +151,18 @@
       "edge": "1.45 runs",
       "reason": "CLE's T1 and T2 relievers are both unavailable, forcing low-leverage arms into high-leverage spots and adding a full run to the total projection. Combined with HOU's strong platoon wRC+ and both starters showing recent xFIP slumps, the Over 8.5 offers a massive 1.45-run edge.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -3.0,
+      "clv": 8,
+      "closing_line": -120,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_new_units": 3,
+      "cc_guard_override": null,
+      "cc_cited_fact": "HOU's confirmed batting order retains its massive 114 wRC+ vs RHP, anchored by Yordan Alvarez's 199 wRC+, validating the high offensive projection against CLE's depleted bullpen.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "6c9cb91ce383f581ac4ff00dd0d3248d",
@@ -168,10 +180,11 @@
       "reason": "The weather block indicates a 42% chance of rain, which triggers my mandatory pass rule for totals due to suspension risk and unmodelable bullpen variance. I am also passing the side to avoid the same weather-related variance and potential delays.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "79c9ee89726e9d404bcade277b077b42",
@@ -186,13 +199,19 @@
       "units": 1,
       "units_raw": "1",
       "edge": "4.1 pts",
-      "reason": "Cease's elite AGG xFIP (2.53) and TOR's strong 113 wRC+ vs LHP give them a solid foundational advantage over Imanaga. Both total prices are flagged as suspect, and the side edge of 4.1% qualifies for a 1-unit bet, downgraded from 3 due to both starters having <12 L14 IP.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "TOR's confirmed lineup maintains a 109 wRC+ vs LHP, and the ML price remains unchanged at -117, preserving the original 4.1% edge.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "af71fc71bb598645a13d40236b310307",
@@ -210,10 +229,11 @@
       "reason": "The SD starting pitcher is TBD, which triggers an automatic pass for the entire game under my data integrity rules. No edge can be reliably calculated without confirmed pitcher data.",
       "data_gap": "SD starting pitcher confirmation.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "e8be77d7e0434ff6005f40b113e2d7af",
@@ -231,10 +251,11 @@
       "reason": "Coors Field has a Park Runs factor of 130, which exceeds my extreme park factor threshold of 115. The variance in this environment is too high for standard regression models, triggering an automatic pass on both sides and totals.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "69ef7f2129dac23a729038e1ae0119f7",
@@ -252,10 +273,11 @@
       "reason": "The Over total price is flagged as suspect, removing that market. On the side, ATH's estimated win probability edge against the -121 price is only 1.3%, falling well below the 4.0% minimum edge gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "cf85c204537d496410ae11148df91af4",
@@ -272,11 +294,17 @@
       "edge": "5.4 pts",
       "reason": "BAL boasts an elite 124 wRC+ vs RHP and faces Brandon Young, whose L14 SIERA has ballooned to 5.26. The Over price is suspect, but BAL's +189 moneyline offers a 5.4% edge against the market, qualifying for a 1-unit dog play.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.89,
+      "clv": 9,
+      "closing_line": 180,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "BAL's confirmed lineup retains its 109 vs_RHP wRC+ with Pete Alonso (139) and Samuel Basallo (137) intact, and the +189 moneyline remains unchanged.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "71c529205c80b00be4370b29fc54ecb5",
@@ -294,10 +322,11 @@
       "reason": "Both total prices are flagged as suspect, eliminating the total market. On the side, SEA's estimated edge against the -136 price is a mere 0.4%, which is far below the 4.0% minimum gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "08abb04c1fb579ea1862e99efa0b8947",
@@ -314,11 +343,17 @@
       "edge": "4.4 pts",
       "reason": "Zack Wheeler's elite stuff (106 Stf+, 19.9% K-BB) and David Peterson's poor 88 Stf+ create a massive pitching mismatch, supporting the PHI run line. The total projection inflates to 10.8 due to both teams' high hard-hit/barrel rates and Citizens Bank Park's hitter-friendly dimensions, yielding a massive 2.8-run edge on the Over.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.1,
+      "clv": 0,
+      "closing_line": 110,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "NYM vs_RHP wRC+ remains 103 and PHI vs_LHP wRC+ remains 102, with Juan Soto (172 wRC+) and Kyle Schwarber (172 wRC+) both confirmed in the unchanged lineups.",
+      "graded_at": "2026-06-23T04:37:30Z"
     },
     {
       "game_id": "08abb04c1fb579ea1862e99efa0b8947",
@@ -335,12 +370,18 @@
       "edge": "2.8 runs",
       "reason": "Zack Wheeler's elite stuff (106 Stf+, 19.9% K-BB) and David Peterson's poor 88 Stf+ create a massive pitching mismatch, supporting the PHI run line. The total projection inflates to 10.8 due to both teams' high hard-hit/barrel rates and Citizens Bank Park's hitter-friendly dimensions, yielding a massive 2.8-run edge on the Over.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "push",
+      "profit_units": 0.0,
+      "clv": 4,
+      "closing_line": -111,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 3,
+      "cc_guard_override": null,
+      "cc_cited_fact": "Total line remains unchanged at 8.0, and NYM's 103 wRC+ vs RHP and PHI's 102 wRC+ vs LHP are fully intact with no scratches.",
+      "graded_at": "2026-06-23T04:37:30Z"
     }
   ],
   "parlay": null,
@@ -357,5 +398,6 @@
     "passes": 11,
     "units_risked": 9,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T04:37:30Z"
 }

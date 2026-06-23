@@ -1,0 +1,19 @@
+{
+  "model": "opus",
+  "date": "2026-06-23",
+  "sport": "mlb",
+  "logged_at": "2026-06-23T14:44:52Z",
+  "picks": [],
+  "parlay": null,
+  "best_bet": null,
+  "best_bet_skip": false,
+  "best_bet_skip_reason": null,
+  "counts": {
+    "games": 0,
+    "bets": 0,
+    "leans": 0,
+    "passes": 0,
+    "units_risked": 0,
+    "parlay_units": 0
+  }
+}

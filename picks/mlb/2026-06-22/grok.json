@@ -20,10 +20,11 @@
       "reason": "Pitcher quality nearly even (Cole AGG xFIP 4.44 vs Valdez 4.37) with NYY platoon edge vs LHP but insufficient separation after bullpen and park adjustments to clear 4 pt gate; estimated NYY win probability 55% vs best-ML implied 56%. Total projects near 8.5 with neutral weather; no side bet so no total.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "3e12cc318907e3d20b669757daa0601c",
@@ -41,10 +42,11 @@
       "reason": "Rasmussen's elite AGG xFIP 2.82 and recent dominance create TB edge but market -185 implied 65% already prices most of it; my TB win probability estimate 63% yields sub-4 pt gap. Total near line with dome; no side qualifies.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "5a8ab9f3ed0791629f4f9e10da52043a",
@@ -62,10 +64,11 @@
       "reason": "Both starters small-sample with similar AGG xFIP around 4.5; platoon and park adjustments (MIA pitcher-friendly) keep estimated win probability within 2 pts of market 55% for MIA. Total near 8.5 with thunderstorm risk; no qualifying side.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "2bbd66d60ea2fc31f947643a281cfb84",
@@ -83,10 +86,11 @@
       "reason": "PHI starter TBD; data integrity rule requires pass.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "06b34739941eb6ab0d54c4cee040b202",
@@ -104,10 +108,11 @@
       "reason": "TOR starter TBD; data integrity rule requires pass.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "da1236e8e0bc448283c6e1e28d578e43",
@@ -122,13 +127,19 @@
       "units": 1,
       "units_raw": "1",
       "edge": "4.8 pts",
-      "reason": "Imanaga's strong AGG xFIP 3.88 and K-BB% edge over Senga's poor small-sample metrics plus favorable platoon vs LHP support CHC win probability estimate of 58.5% (gap 4.8 pts over best-ML implied 53.7%); qualifies for 1u under edge gate with Senga [sm] capping size. Total projects 8.3-8.5 with drizzle/PPD risk; no total bet.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "7adc5663e108dbde0834e58a957b5d3e",
@@ -146,10 +157,11 @@
       "reason": "MIL starter TBD; data integrity rule requires pass.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "22bf5f58b0fd7173739a6d0fb1bd280e",
@@ -167,10 +179,11 @@
       "reason": "Williams AGG xFIP 3.29 strong but L14 regression and platoon disadvantage vs Kay's LHP plus recent form keep estimated CLE win probability at 53% (sub-4 pt gap to market 52%). Total near line; no side.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "0fdd8b67a62fe347c0995afb9eb94c73",
@@ -188,10 +201,11 @@
       "reason": "Lauer poor AGG xFIP offset by strong platoon advantage and team quality but estimated LAD win probability 57% falls short of 4 pt edge vs market 60% implied. Total near line; no side.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "fbfee8c921cea16428faf24b7ba19aed",
@@ -208,11 +222,17 @@
       "edge": "5.2 pts",
       "reason": "Pallante's solid AGG xFIP 4.11 and excellent L14 metrics over Kelly's poor 5.36 plus large platoon edge (STL 123 vs AZ 87 wRC+) and home field support STL win probability estimate of 63.5% (5.2 pt gap over best-ML implied 58.3%); clean data qualifies for 1u. Total projects 8.1-8.3 with pitcher-friendly park; no total bet.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.7143,
+      "clv": 3,
+      "closing_line": -143,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "4244628ff5c52a85f4e83f8dc171ed4e",
@@ -230,10 +250,11 @@
       "reason": "Both starters small-sample with similar metrics; Coors 130 run factor and platoon advantage to BOS yield estimated BOS win probability 53% (sub-4 pt gap to market 55%). Extreme park variance noted but no bet.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "541d3f8c1e87131917cbf8386a2563f6",
@@ -251,10 +272,11 @@
       "reason": "Bradish strong AGG and L14 but Aldegheri [sm] poor metrics offset by platoon disadvantage; estimated BAL win probability 60% yields only 1-2 pt gap to market 61% implied. Total near line with taxed bullpens; no side.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "66c3c3524e444f31fe9fc224ac058351",
@@ -271,11 +293,17 @@
       "edge": "4.5 pts",
       "reason": "Similar starter AGG xFIP but ATL's large platoon edge (118 vs 93 wRC+), superior team record, and better bullpen support ATL win probability estimate of 56% (4.5 pt gap over best-ML implied 51.5%); qualifies for 1u. Total projects 7.8-8.0 in pitcher-friendly park; no total bet.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 3,
+      "closing_line": -109,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     }
   ],
   "parlay": null,
@@ -289,5 +317,6 @@
     "passes": 10,
     "units_risked": 3,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T06:44:50Z"
 }

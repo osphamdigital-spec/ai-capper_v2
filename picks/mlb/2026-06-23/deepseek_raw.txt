@@ -1,0 +1,198 @@
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Shane Bieber has no 2026 data (—IP, no SIERA) – effectively unprojectable. Treat as TBD; pass entire game per data integrity rule. Over total only clean but no run estimate without Bieber, so no totals bet.
+DATA GAP: Bieber 2026 stats missing – need 30+ IP sample or recent AGG SIERA.
+
+---
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Small edge on NYY (5.5 pts) does not survive conservative small‑sample widening after adjusting Rodón/Mize uncertainty. Over 7.5 edge (+0.75 runs) is modest and ranks behind three larger edges; passed to respect slate ceiling and small‑sample caution.
+DATA GAP: none
+
+---
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: KC ML edge (10.9 pts) collapses when Avila’s SIERA is pushed to conservative end (Avila is small‑sample); edge driven primarily by that projection – pass per widening rule. Total over 8.0 edge extremely high but model uncertainty too large given Avila’s 5.57 SIERA on small sample; not comfortable betting it.
+DATA GAP: none
+
+---
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cal Quantrill has only 29.1 IP, no AGG SIERA, and L14 data missing – cannot construct a reliable blended projection. Pass per small‑sample/data‑gap rule.
+DATA GAP: Quantrill AGG SIERA and L14 metrics missing; need at least 50 IP to project.
+
+---
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: SEA ML edge (8.1 pts) fails conservative small‑sample test: Keller’s SIERA improvement to AGG level drops edge below 4‑point gate. Over 8.5 edge only 0.05 runs, well below 0.5‑run threshold.
+DATA GAP: none
+
+---
+## GAME: PHI @ WAS
+PICK: PHI ML
+PRICE: -168
+UNITS: 1
+EDGE: 10.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Huge model edge (my 71.3% vs devigged 61.3%) driven by Littell’s 5.75 blended SIERA and WAS bullpen depletion. Edge survives conservative widening (Littell AGG 5.38 still yields 7.6‑pt edge). Small‑sample flags on Littell (L14 sm, meltdown flag) downgrade to 1u; no 3u allowed. Totals: small‑sample meltdown red flag forces pass despite large run gap.
+DATA GAP: none
+
+---
+## GAME: CHC @ NYM
+PICK: CHC ML
+PRICE: +103
+UNITS: 1
+EDGE: 16.8 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Massive edge (my 64.9% vs devigged 48.2%) built on Senga’s 5.13 blended SIERA and NYM bullpen tax. Conservative widening (Senga AGG 4.91) still yields 14.9‑pt edge. Both starters carry small‑sample flags – 3u not allowed; bet sized 1u. Total over 8.5 has 1.39‑run edge but dropped to stay within slate‑ceiling of three bets; edge still strong but lower priority than sides.
+DATA GAP: none
+
+---
+## GAME: MIL @ CIN
+PICK: MIL ML
+PRICE: -108
+UNITS: 1
+EDGE: 17.6 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Very large edge (my 68.5% vs devigged 51.0%) from Lodolo’s poor SIERA and CIN bullpen issues (T1 empty, T2 short). Conservative widening (Lodolo AGG 4.86) preserves >15‑pt edge. Both starters have small‑sample L14, so no 3‑unit play; 1u bet. Line‑move caution noted but model signal overrides.
+DATA GAP: none
+
+---
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: CHW moneyline price flagged suspect, and both total prices flagged stale – market considered absent. Cannot bet CLE without reliable two‑way probability calibration.
+DATA GAP: none
+
+---
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both total prices flagged suspect. MIN SP Kendry Rojas has only 14.1 career IP with no AGG SIERA – effectively unprojectable small sample. Heavy rain (67%) and PPD risk force pass. No bet.
+DATA GAP: Rojas AGG SIERA missing; need at least 50 IP.
+
+---
+## GAME: AZ @ STL
+PICK: STL ML
+PRICE: -108
+UNITS: 1
+EDGE: 13.6 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Strong edge (my 64.3% vs devigged 50.7%) from E‑Rod’s 5.00 blended SIERA and STL’s platoon‑neutral lineup. Edge survives conservative widening (Rodriguez AGG 4.80). Small‑sample flag on Rodriguez prohibits 3u; 1u bet. Slate ceiling already filled by three higher‑edge bets – this one not included because three bets already selected.
+DATA GAP: none
+
+---
+## GAME: BOS @ COL
+PICK: BOS ML
+PRICE: -161
+UNITS: 1
+EDGE: 15.8 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Massive edge (my 76.1% vs devigged 60.3%) driven by Sullivan’s 6.74 SIERA, Coors park, and BOS platoon advantage. Conservative widening (Sullivan SIERA 5.5) yields 14‑pt edge. Sullivan’s tiny sample prohibits 3u; bet 1u. Total 10.5 over edge is enormous but small‑sample meltdown flag (Sullivan L14 diff >2.0 to AGG) forces totals fade.
+DATA GAP: none
+
+---
+## GAME: BAL @ LAA
+PICK: BAL ML
+PRICE: -147
+UNITS: 1
+EDGE: 17.3 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Very large edge (my 73.5% vs devigged 56.2%) from Johnson’s 6.45 SIERA and BAL bullpen advantage. Conservative widening (Johnson AGG 6.55) preserves edge. Small‑sample flag on Johnson prohibits 3u; 1u bet. Slate ceiling already filled – this bet not submitted despite qualifying.
+DATA GAP: none
+
+---
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: TBD starter for SD – mandatory pass per data integrity rule.
+DATA GAP: SD starter TBD.
+
+---
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both total prices flagged suspect; total market absent. On side, ATH bullpen has T1 0/2 (unclear closer) and SF’s ray small‑sample L14 – but model edge only 5.2 pts, near gate. Given bullpen chaos and marginal edge not worth forcing bet past ceiling.
+DATA GAP: none
+
+---
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: none

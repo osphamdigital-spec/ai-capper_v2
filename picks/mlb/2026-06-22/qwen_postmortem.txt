@@ -1,0 +1,145 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: KC @ TB Over 7.5 (3 units)
+RESULT: LOSS
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO
+IF NO — NEW BEST BET: BAL ML (-155) / WHY: BAL offered the highest side edge (5.2 pts) with a massive pitching advantage, providing more stable risk-adjusted EV than a 3-unit total. Sides generally carry less variance than totals. / SOURCE: Pre-game edge calculation and xFIP/K-BB% differentials.
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: KC @ TB
+PICK: Over 7.5
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: LOWER STAKE
+WHY: The pre-game signal of TB's bullpen exhaustion was valid and correctly identified, but 3 units on a total is too aggressive given the inherent variance of totals and the possibility of starters pitching deep into the game. 
+SOURCE: Pre-game bullpen availability metrics and edge calculation.
+
+GAME: TEX @ MIA
+PICK: Over 8.5
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: 1 unit is the correct stake for a 3.3 run edge on a total, properly accounting for the starter IP threshold downgrade. The bullpens were indeed taxed, but the starters simply outpitched the projection.
+SOURCE: Pre-game bullpen usage and starter Stuff+/K-BB metrics.
+
+GAME: CHC @ NYM
+PICK: CHC ML
+RESULT: PUSH (VOID)
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The bet was voided due to weather/postponement, which is outside the model's control. The pre-game platoon and xFIP edge was sound and correctly triggered the 40% rain pass threshold for the total.
+SOURCE: Pre-game weather forecasts and pitching metrics.
+
+GAME: AZ @ STL
+PICK: STL ML
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The massive wRC+ split advantage for STL against RHP and Pallante's groundball profile played out exactly as expected to secure the win.
+SOURCE: Pre-game wRC+ splits and batted ball profile data.
+
+GAME: BAL @ LAA
+PICK: BAL ML
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The significant pitching advantage with Bradish facing Aldegheri (disastrous 7.27 xFIP and negative K-BB%) drove the edge, resulting in a comfortable and expected win.
+SOURCE: Pre-game xFIP and K-BB% metrics.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: STAT
+ITEM: Starter pitch count projections and average innings pitched per start over L10.
+WHICH GAME(S): KC @ TB, TEX @ MIA
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Knowing if the starters were projected to go deep into the game (e.g., high pitch count limits or recent deep outings) would allow me to discount the bullpen tax factor, potentially lowering the total edge and avoiding the 3u sizing on KC @ TB.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: Cap maximum unit size on Totals at 2u, or require a significantly higher edge (e.g., >4.0 runs) to justify a 3u total.
+WHAT IN MY METHOD COULD BE SHARPER: Totals are inherently higher variance than side bets. A 3u bet on a total exposes the bankroll to too much variance even with a strong edge, as a single starter pitching deep can easily override bullpen fatigue signals.
+EVIDENCE FROM TODAY: KC @ TB Over had a 2.8 run edge and was assigned 3u, but lost due to starter variance. Meanwhile, side bets with 4-5 pt edges (BAL, STL) won and provided stable returns, highlighting the superior risk-adjusted EV of sides over totals.
+CONFIDENCE: HIGH
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup)
+
+### GAME: NYY @ DET — YOUR CALL: LEAN over
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: KC @ TB — YOUR CALL: BET over ML 100 (3u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: TEX @ MIA — YOUR CALL: BET over ML -105 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: CHC @ NYM — YOUR CALL: BET away ML -116 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: CLE @ CHW — YOUR CALL: LEAN over
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: LAD @ MIN — YOUR CALL: LEAN over
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: AZ @ STL — YOUR CALL: BET home ML -140 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: BAL @ LAA — YOUR CALL: BET away ML -155 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: BAL @ LAA — YOUR CALL: LEAN over
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A
+
+---
+
+### GAME: ATL @ SD — YOUR CALL: LEAN over
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON: N/A

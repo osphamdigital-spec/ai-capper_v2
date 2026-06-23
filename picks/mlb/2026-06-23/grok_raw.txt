@@ -1,0 +1,213 @@
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Bieber has no IP or advanced stats listed, triggering the TBD/insufficient data rule. No edge calculation possible. Projected total around 8.8 runs versus 8.5 line for sub-threshold gap.
+DATA GAP: insufficient starter data for Bieber
+
+---
+
+## GAME: NYY @ DET
+PICK: NYY ML -106
+PRICE: -106
+UNITS: 1
+EDGE: 4.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Rodón's recent L14 xFIP 3.27 and Stf+108 create a clear quality edge over Mize despite both L14 samples flagged small; NYY's superior team rdiff adds support for my 56% win probability estimate versus the -106 implied 51.5%. Bullpen freshness favors NYY slightly while platoon offsets some. Projected total around 8.2 runs versus 7.5 line for 0.7 run gap below threshold.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: McClanahan's strong AGG xFIP 3.83 gives TB a pitching edge but my estimated win probability of 63% falls short of the -187 implied 65.2% by more than 2 pts. Avila's small 19IP sample adds caution. Projected total around 8.3 runs versus 8.0 line for sub-0.75 run gap.
+DATA GAP: small sample on Avila
+
+---
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Quantrill's 29IP small sample caps any potential edge while Alcantara's solid profile yields my estimated win probability of 59% versus the -155 implied 60.8%. No separation. Projected total around 8.6 runs versus 8.5 line for minimal gap.
+DATA GAP: small sample on Quantrill
+
+---
+
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Kirby's elite AGG xFIP 3.60 is offset by PIT's strong platoon wRC+125 versus RHP and Keller's respectable numbers, producing my estimated win probability of 56.5% versus the -124 implied 55.4% for under 2 pts edge. Projected total around 8.7 runs versus 8.5 line for sub-threshold gap.
+DATA GAP: none
+
+---
+
+## GAME: PHI @ WAS
+PICK: PHI ML -168
+PRICE: -168
+UNITS: 1
+EDGE: 5.2 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Luzardo's elite AGG xFIP 3.18, SIERA 3.41, and Stf+109 create a massive quality gap over Littell's poor 5.62 xFIP for my 67.9% win probability estimate versus the -168 implied 62.7%. PHI bullpen and team factors add support while platoon is neutral. Projected total around 9.1 runs versus 8.5 line for 0.6 run gap below threshold.
+DATA GAP: none
+
+---
+
+## GAME: CHC @ NYM
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Large line movement toward CHC flags potential stale pitcher/lineup data per the slate note, preventing reliable edge calculation despite Cabrera's AGG xFIP advantage. My estimated win probability of 53% versus +102 implied 49.5% lacks confirmed separation. Projected total around 8.4 runs versus 8.0 line for sub-threshold gap.
+DATA GAP: potential stale pitcher data due to line movement
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Large line movement toward CIN flags potential stale pitcher/lineup data per the slate note, preventing reliable edge calculation despite Sproat's AGG xFIP edge. My estimated win probability of 58% versus -108 implied 51.9% cannot be trusted. Projected total around 9.3 runs versus 9.5 line for minimal gap.
+DATA GAP: potential stale pitcher data due to line movement
+
+---
+
+## GAME: CLE @ CHW
+PICK: CLE ML -109
+PRICE: -109
+UNITS: 1
+EDGE: 5.0 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Messick's elite AGG xFIP 3.44 and strong K-BB% create a clear quality edge over Burke for my 57.2% win probability estimate versus the -109 implied 52.2%. CLE bullpen freshness adds support while platoon and park are neutral to slight negative. Projected total around 7.4 runs versus 7.0 line for 0.4 run gap below threshold.
+DATA GAP: none
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Rojas has only 14.1IP with no AGG xFIP listed and heavy rain creates PPD risk, triggering data integrity rules. No reliable edge possible. Projected total around 8.7 runs versus 8.5 line for sub-threshold gap.
+DATA GAP: small sample on Rojas and weather PPD risk
+
+---
+
+## GAME: AZ @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Rodriguez and Leahy have nearly identical AGG xFIP profiles with my estimated win probability of 50.5% versus the -105 implied 51.2% showing no separation. Projected total around 8.9 runs versus 8.5 line for 0.4 run gap below threshold.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Sullivan has only 7IP with poor AGG xFIP 7.52 in Coors' extreme 130 runs factor environment, creating high uncertainty and variance. My estimated win probability of 57% versus -162 implied 61.8% lacks confidence. Projected total around 10.8 runs versus 10.5 line for minimal gap.
+DATA GAP: small sample on Sullivan
+
+---
+
+## GAME: BAL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Johnson has only 13.1IP with poor AGG xFIP 7.00 while Baz is average, yielding my estimated win probability of 59% versus the -155 implied 60.8% for no edge. Projected total around 9.2 runs versus 9.0 line for sub-threshold gap.
+DATA GAP: small sample on Johnson
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: SD starter is TBD, triggering the data integrity rule to pass. No edge calculation possible. Projected total around 8.3 runs versus 8.0 line for sub-threshold gap.
+DATA GAP: TBD starter
+
+---
+
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Both starters have mediocre AGG xFIP around 5.0-5.2 with L14 samples flagged small, producing my estimated win probability of 49% versus the +105 implied 48.8% for no edge. Projected total around 8.6 runs versus 8.5 line for minimal gap.
+DATA GAP: L14 small samples on both starters
+
+---
+
+## SLATE SUMMARY
+BEST BET: PHI ML -168 (GAME 6)
+WHY THIS ONE: Largest confirmed pitching quality gap with Luzardo's elite metrics versus Littell's poor profile, yielding the highest conviction 5.2 pt edge among qualifying 1u plays.

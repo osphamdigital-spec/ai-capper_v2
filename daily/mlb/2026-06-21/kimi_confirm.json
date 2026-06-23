@@ -1,0 +1,47 @@
+{
+  "model": "kimi",
+  "date": "2026-06-21",
+  "sport": "mlb",
+  "checked_at": "2026-06-21T17:21:24Z",
+  "picks": [
+    {
+      "game_id": "c489d951af8ab8f1fd4ae78c8d3ecfd0",
+      "matchup": "CIN @ NYY",
+      "pick_raw": "Over 8.5",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -102,
+      "original_edge": "1.2 runs",
+      "original_reason": "Rodríguez's aggregate xFIP near 6.80 faces a league-average Reds offense, while Burns's elite strikeout rate should suppress a Yankee lineup carrying a 94 wRC+ against righties. My expected combined runs are 9.7 after the Yankee Stadium park adjustment, creating a 1.2-run edge on the Over. The small-sample flag on the home starter caps any play in this game at one unit; the Cincinnati moneyline is stale and untreated.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "CIN aggregate wRC+ vs RHP unchanged at 106; NYY aggregate wRC+ vs RHP unchanged at 101; total line static at 8.5",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "52936746b7bd1b536bb6d7d2bb159424",
+      "matchup": "SF @ MIA",
+      "pick_raw": "SF ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -140,
+      "original_edge": "5.5 pts",
+      "original_reason": "Webb's aggregate SIERA/xFIP is nearly two runs better than Gusto's, and San Francisco's offense carries a 118 wRC+ against right-handed pitching versus Miami's 99. I price the Giants at 63.8%, a 5.5-point edge over the -140 market. Gusto's small-sample flag caps the stake at one unit; my total projection sits too close to 8.0 to bet.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "SF aggregate wRC+ vs RHP remains 118(CFM,n=9), MIA aggregate wRC+ vs RHP remains 94(CFM,n=8), no lineup scratches, and ML is unchanged at -140",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    }
+  ],
+  "raw_response": "PICK: SF ML [market:ML]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: SF aggregate wRC+ vs RHP remains 118(CFM,n=9), MIA aggregate wRC+ vs RHP remains 94(CFM,n=8), no lineup scratches, and ML is unchanged at -140\nNEW_UNITS: 1"
+}

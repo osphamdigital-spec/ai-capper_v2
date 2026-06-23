@@ -1,0 +1,70 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: / WHY: / SOURCE:
+
+---
+
+## S2: FULL SLATE REVIEW
+
+PART A — GAMES YOU BET
+
+GAME: CIN @ NYY
+PICK: Over 8.5 (-102)
+RESULT: LOSS
+PROCESS: SMALL SAMPLE TRAP
+WOULD-BET-AGAIN: NO
+WHY: I flagged the home starter as small sample pre-game, which meant the run-distribution was inherently unstable. Betting a total into that uncertainty on the basis of a 1.2-run point estimate was a mistake; the wide variance band should have kept me off the market entirely rather than capping me at one unit.
+SOURCE: Original write-up explicitly noted a small-sample flag on the home starter.
+
+---
+
+GAME: SF @ MIA
+PICK: SF ML (-140)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Pre-game data showed a nearly two-run SIERA/xFIP gap in Webb’s favor and a 118–99 wRC+ platoon edge for the Giants. The specific pre-game data point that justified the tight loss was Gusto’s small-sample flag: it signaled that his true-talent band was wide enough to include a quality start/outlier performance, which capped my stake at one unit and made a 2–1 game a plausible variance outcome.
+SOURCE: Pre-game SIERA/xFIP, wRC+ split, and Gusto small-sample flag.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+NONE
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: Yankees team wRC+ vs RHP over the last 10 games (rolling offensive form)
+WHICH GAME(S): CIN @ NYY
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: The season-long 94 wRC+ may have masked a recent offensive sink; if rolling form was materially lower, my 9.7 run estimate would have been compressed and likely dropped below the betting threshold.
+
+---
+
+TYPE: DATA
+ITEM: Confirmed closing total price and juice for LAA @ ATH
+WHICH GAME(S): LAA @ ATH
+WOULD HAVE CHANGED A BET? YES
+WHY: My projection was significantly above the total line, but I passed solely because the price was flagged stale. A confirmed closing number would have allowed a one-unit over wager if the edge held.
+
+---
+
+TYPE: SOURCE
+ITEM: Confirmed catalyst for the 201-point line move toward Chicago (injury, lineup change, or sharp action)
+WHICH GAME(S): CHW @ DET
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Knowing whether the move was data-driven or market-driven would have let me determine if Detroit was mispriced after the adjustment, potentially opening a post-move side edge.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: When a starting pitcher carries a small-sample flag, expand the run-expectation confidence interval by roughly 50% and lower the stake ceiling from 1 unit to 0.5 units—or pass entirely—even if the point-estimate edge appears to clear the usual gate.
+WHAT IN MY METHOD COULD BE SHARPER: I currently rely on deterministic point estimates (SIERA/xFIP) and cap small-sample spots at 1 unit. This underweights the uncertainty premium; the outcome distribution is materially wider than the point estimate implies.
+EVIDENCE FROM TODAY: Both CIN @ NYY and SF @ MIA carried explicit small-sample flags on pitchers, yet the method accepted one-unit stakes based on static projections. The pre-game flags signaled unstable inputs, but the stake sizing did not adequately reflect that variance.
+CONFIDENCE: MEDIUM

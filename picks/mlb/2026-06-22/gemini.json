@@ -20,10 +20,11 @@
       "reason": "Gerrit Cole is flagged as a small sample starter with only 28.0 IP, limiting our maximum side exposure. The Detroit team total under is flagged as stale, making the overall total unplayable.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "3e12cc318907e3d20b669757daa0601c",
@@ -41,10 +42,11 @@
       "reason": "Tampa Bay's starting pitcher Drew Rasmussen is elite, but the Rays' bullpen is heavily penalized as both Tier 1 and Tier 2 high-leverage arms are highly taxed. The run total projection points slightly to the Over, but does not cross our strict 1.0-run edge gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "3e12cc318907e3d20b669757daa0601c",
@@ -62,11 +64,17 @@
       "reason": "Tampa Bay's starting pitcher Drew Rasmussen is elite, but the Rays' bullpen is heavily penalized as both Tier 1 and Tier 2 high-leverage arms are highly taxed. The run total projection points slightly to the Over, but does not cross our strict 1.0-run edge gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "5a8ab9f3ed0791629f4f9e10da52043a",
@@ -84,10 +92,11 @@
       "reason": "Both starting pitchers carry elevated SIERAs over 4.60, and Tyler Phillips is flagged with a small sample size. Compounding this, both bullpens are heavily taxed and carry the Phase 2 fatigue penalty, creating a high-probability environment for late-game run leakage that easily pushes our projection past the 8.5 total.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "5a8ab9f3ed0791629f4f9e10da52043a",
@@ -104,12 +113,18 @@
       "edge": "1.7 runs",
       "reason": "Both starting pitchers carry elevated SIERAs over 4.60, and Tyler Phillips is flagged with a small sample size. Compounding this, both bullpens are heavily taxed and carry the Phase 2 fatigue penalty, creating a high-probability environment for late-game run leakage that easily pushes our projection past the 8.5 total.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 3,
+      "closing_line": -105,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "06b34739941eb6ab0d54c4cee040b202",
@@ -127,10 +142,11 @@
       "reason": "The home starting pitcher is TBD, triggering an automatic pass on all markets for this game.",
       "data_gap": "confirmed home starting pitcher",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "da1236e8e0bc448283c6e1e28d578e43",
@@ -145,13 +161,19 @@
       "units": 0,
       "units_raw": "LEAN",
       "edge": "6.5 pts",
-      "reason": "Kodai Senga is flagged as a small sample starter and has struggled mightily with a 4.91 SIERA and a 9.0 BB/9 over 24.0 IP. While the Cubs ML presents value, we pass on an active stake to preserve our daily slate ceiling for higher-conviction opportunities.",
+      "reason": "postponed",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
+      "result": "void",
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "7adc5663e108dbde0834e58a957b5d3e",
@@ -169,10 +191,11 @@
       "reason": "The away starting pitcher is TBD, triggering an automatic pass on all markets for this game.",
       "data_gap": "confirmed away starting pitcher",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "22bf5f58b0fd7173739a6d0fb1bd280e",
@@ -190,10 +213,16 @@
       "reason": "Gavin Williams is a significant starting pitching upgrade over Anthony Kay, and the Cleveland bullpen is elite and rested. The game total is unplayable due to suspect/stale book prices on the Under, and the side is logged as a lean to respect our slate ceiling.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "0fdd8b67a62fe347c0995afb9eb94c73",
@@ -210,11 +239,17 @@
       "edge": "8.3 pts",
       "reason": "The Dodgers hold a massive offensive advantage with a 121 wRC+ vs RHP against Zebby Matthews, while Minnesota's bats struggle heavily against lefties (85 wRC+ vs LHP). Minnesota's bullpen is severely fatigued and penalized, giving the Dodgers a massive late-game edge that clears our 8.0 percentage point threshold with no qualifiers holding it back.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 2.027,
+      "clv": 7,
+      "closing_line": -155,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 3,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "0fdd8b67a62fe347c0995afb9eb94c73",
@@ -232,11 +267,17 @@
       "reason": "The Dodgers hold a massive offensive advantage with a 121 wRC+ vs RHP against Zebby Matthews, while Minnesota's bats struggle heavily against lefties (85 wRC+ vs LHP). Minnesota's bullpen is severely fatigued and penalized, giving the Dodgers a massive late-game edge that clears our 8.0 percentage point threshold with no qualifiers holding it back.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "fbfee8c921cea16428faf24b7ba19aed",
@@ -254,10 +295,16 @@
       "reason": "Andre Pallante is a substantial upgrade over Merrill Kelly (5.39 SIERA, 7.51 xERA), and the Cardinals offense is dominant against right-handed pitching. The moneyline presents solid value, but is held as a lean under our 4-bet slate ceiling.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "4244628ff5c52a85f4e83f8dc171ed4e",
@@ -275,10 +322,11 @@
       "reason": "Coors Field triggers an automatic pass on all total and run line markets due to extreme physical variance. The Boston moneyline does not meet our minimum 5.0 percentage point edge gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "541d3f8c1e87131917cbf8386a2563f6",
@@ -295,11 +343,17 @@
       "edge": "7.2 pts",
       "reason": "Sam Aldegheri is flagged with a small sample size and has struggled with a 6.98 SIERA and negative K-BB%. Kyle Bradish has been excellent with a 3.04 L14 SIERA, giving Baltimore a massive edge that we stake at 1 unit due to the small sample restriction on the opponent starter.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 0.6452,
+      "clv": 5,
+      "closing_line": -160,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "66c3c3524e444f31fe9fc224ac058351",
@@ -317,10 +371,11 @@
       "reason": "This is a classic matchup of two heavily fatigued and penalized bullpens that will force low-K middle relievers into high-leverage situations. Grant Holmes and Michael King are both average starters, and the market total of 7.0 is far too low given the extreme late-game run leakage expected from both sides.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-23T06:44:50Z"
     },
     {
       "game_id": "66c3c3524e444f31fe9fc224ac058351",
@@ -337,12 +392,18 @@
       "edge": "2.8 runs",
       "reason": "This is a classic matchup of two heavily fatigued and penalized bullpens that will force low-K middle relievers into high-leverage situations. Grant Holmes and Michael King are both average starters, and the market total of 7.0 is far too low given the extreme late-game run leakage expected from both sides.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 5,
+      "closing_line": 100,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "",
+      "graded_at": "2026-06-23T06:44:50Z"
     }
   ],
   "parlay": null,
@@ -359,5 +420,6 @@
     "passes": 7,
     "units_risked": 6,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-23T06:44:50Z"
 }

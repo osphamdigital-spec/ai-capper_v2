@@ -60,7 +60,11 @@ OR use the integrated pre-game orchestrator (recommended):
   python scripts/run_daily.py mlb --with-picks
   python scripts/run_daily.py mlb --date 2026-06-10 --with-picks
 
-  This chains: fetch pipeline → build prompts → run_picks_all → log_all_picks in one command.
+  This chains: fetch pipeline → build prompts → run_picks_all → log_all_picks →
+  watch_set → (prompt) run_lineup_watcher, all in one command.
+  The final step prompts "Run lineup watcher? [YES / NO]" with a 20-second timeout;
+  if you don't answer in 20s it auto-accepts YES and launches the watcher. Type NO/N
+  to skip (you can launch run_lineup_watcher.py manually later).
   Without --with-picks: stops after prompts (preserves the pre-send prompt-review checkpoint).
 
 FLAGS:

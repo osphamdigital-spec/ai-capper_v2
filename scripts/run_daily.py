@@ -8,6 +8,13 @@ Runs all fetch scripts in the correct order, then builds the prompt.
 Usage:
     python scripts/run_daily.py mlb
     python scripts/run_daily.py mlb --date 2026-06-03
+    python scripts/run_daily.py mlb --with-picks
+
+--with-picks chains the full post-prompt sequence in one command:
+    run_picks_all.py  -> log_all_picks.py -> watch_set.py
+    -> (interactive prompt, 20s timeout, default YES) -> run_lineup_watcher.py
+The watcher prompt auto-accepts YES if no answer arrives within 20 seconds;
+type NO/N to skip it and launch run_lineup_watcher.py manually later.
 
 Steps (in order):
     0. static file check       PRE-CHECK -- warns if FanGraphs files in data/{sport}/ are
@@ -212,6 +219,47 @@ def run_step(name: str, script: str, args: list) -> tuple[bool, float]:
         print(f"\n  EXIT CODE: {result.returncode}  ({name} failed)")
 
     return result.returncode == 0, elapsed
+
+
+def _confirm_run_watcher(timeout_secs: int = 20) -> bool:
+    """
+    Ask the operator whether to launch the continuous lineup watcher.
+
+    Returns True to run it, False to skip.
+
+    Behaviour:
+      - Explicit NO / N (case-insensitive)  -> False (skip)
+      - Explicit YES / Y (or anything else)  -> True  (run)
+      - No input within timeout_secs         -> True  (auto-accept default)
+
+    The prompt is read on a background thread so the main thread can enforce
+    the timeout. If the timer expires we stop waiting and default to YES; the
+    reader thread is a daemon, so it dies when the process moves on.
+    """
+    import threading
+
+    prompt_msg = f"\n  Run lineup watcher? [YES / NO] (Auto-accepting in {timeout_secs}s): "
+    answer: dict[str, str] = {}
+
+    def _reader():
+        try:
+            answer["value"] = input(prompt_msg)
+        except (EOFError, KeyboardInterrupt):
+            answer["value"] = ""
+
+    t = threading.Thread(target=_reader, daemon=True)
+    t.start()
+    t.join(timeout_secs)
+
+    if t.is_alive():
+        # Timed out — no input arrived. Default to YES.
+        print(f"\n  No response in {timeout_secs}s — auto-accepting (YES).")
+        return True
+
+    response = (answer.get("value") or "").strip().lower()
+    if response in ("n", "no"):
+        return False
+    return True
 
 
 def _print_summary(results: list[tuple], sport: str, date: str, total_elapsed: float):
@@ -582,7 +630,8 @@ def run_daily(sport: str, date: str = None, skip_gate: bool = False, with_picks:
     if base_prompt.exists():
         _build_model_prompts(sport, target_date)
 
-    # --with-picks: run all connected models via run_picks_all.py after prompts are ready.
+    # --with-picks: run all connected models via run_picks_all.py after prompts are ready,
+    # then carry straight through the post-picks chain: log → watch set → lineup watcher.
     if with_picks:
         print(f"\n{'=' * 55}")
         print(f"  --with-picks: launching picks for all models")
@@ -593,6 +642,23 @@ def run_daily(sport: str, date: str = None, skip_gate: bool = False, with_picks:
             print(f"\n  WARNING: run_picks_all.py finished with errors (exit {result.returncode}).")
             print(f"  Check output above. Re-run failed models manually:")
             print(f"    python scripts/query_model.py --model <model> --date {target_date}")
+
+        # Step 2: parse every model's _raw.txt into picks/{sport}/{date}/{model}.json.
+        # log_all_picks.py skips models already logged, so this is safe to always run.
+        # Positional sport arg (no --sport flag), matching its argparse signature.
+        run_step("Log All Picks", "log_all_picks.py", [sport, "--date", target_date])
+
+        # Step 3: build the confirm-check watch set from the freshly logged picks.
+        # watch_set.py uses --sport/--date flags.
+        run_step("Watch Set", "watch_set.py", ["--sport", sport, "--date", target_date])
+
+        # Step 4: optionally launch the continuous lineup watcher. Interactive prompt
+        # with a 20-second timeout that defaults to YES (run the watcher).
+        if _confirm_run_watcher(timeout_secs=20):
+            run_step("Lineup Watcher", "run_lineup_watcher.py", ["--sport", sport, "--date", target_date])
+        else:
+            print(f"\n  Skipped lineup watcher. Launch it later with:")
+            print(f"    python scripts/run_lineup_watcher.py --sport {sport} --date {target_date}\n")
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -623,7 +689,9 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--with-picks", action="store_true", default=False,
-        help="After building prompts, automatically run picks for all connected models."
+        help="After building prompts, run picks for all connected models, then chain "
+             "log_all_picks.py -> watch_set.py, and finally prompt (20s timeout, "
+             "default YES) to launch the continuous lineup watcher."
     )
     args = parser.parse_args()
 

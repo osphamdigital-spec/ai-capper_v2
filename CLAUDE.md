@@ -166,7 +166,7 @@ Each model now decides its own analysis approach via its method doc.
 
 ## AUTOMATED PIPELINE SCRIPTS
 
-run_daily.py          -- PRE-GAME orchestrator: fetch pipeline → build prompts → [--with-picks: picks + log]
+run_daily.py          -- PRE-GAME orchestrator: fetch pipeline → build prompts → [--with-picks: run_picks_all → log_all_picks → watch_set → (20s-timeout prompt, default YES) run_lineup_watcher]
 run_daily_2.py        -- POST-GAME orchestrator: fetch results → confirmed data → post-mortems
 query_model.py        -- sends picks, post-mortem, or confirm-check query to a single model API
 run_picks_all.py      -- runs picks queries for all 8 connected models (called by run_daily.py --with-picks)

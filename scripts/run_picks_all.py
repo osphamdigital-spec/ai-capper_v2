@@ -39,8 +39,9 @@ PROJECT_ROOT = SCRIPTS_DIR.parent
 # Keep sequential to avoid rate limit collisions between providers.
 AUTOMATED_MODELS = ["grok", "chatgpt", "deepseek", "kimi", "qwen", "gemini", "opus"]
 
-# Seconds to wait before retrying a failed model.
-RETRY_DELAY = 90
+# Retry config for transient failures (5xx / overload).
+# Each wait is seconds before that attempt.
+RETRY_DELAYS = [90, 180, 300]   # 3 retries: 90s, 3min, 5min
 
 # Minimum bytes a valid picks output file must contain.
 MIN_OUTPUT_BYTES = 300
@@ -92,18 +93,19 @@ def run_model(model: str, date: str, sport: str) -> tuple[bool, float, str]:
     result  = subprocess.run(cmd)  # streams stdout/stderr to terminal in real time
     elapsed = time.time() - t0
 
-    if result.returncode != 0:
-        # First attempt failed -- wait and retry once.
+    for attempt, wait in enumerate(RETRY_DELAYS, start=1):
+        if result.returncode == 0:
+            break
         print(f"\n  WARNING: {model} failed (exit {result.returncode}). "
-              f"Retrying in {RETRY_DELAY}s...")
-        time.sleep(RETRY_DELAY)
-        print(f"  Retrying {model}...")
+              f"Retry {attempt}/{len(RETRY_DELAYS)} in {wait}s...")
+        time.sleep(wait)
+        print(f"  Retrying {model} (attempt {attempt}/{len(RETRY_DELAYS)})...")
         print()
         result  = subprocess.run(cmd)
         elapsed = time.time() - t0
 
     if result.returncode != 0:
-        return False, elapsed, f"failed after retry (exit {result.returncode})"
+        return False, elapsed, f"failed after {len(RETRY_DELAYS)} retries (exit {result.returncode})"
 
     # Integrity check: output file must exist and have content.
     out_path = PROJECT_ROOT / "picks" / sport / date / f"{model}_raw.txt"

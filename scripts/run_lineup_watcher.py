@@ -24,6 +24,7 @@ Usage:
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import time
@@ -360,10 +361,30 @@ def run_watcher(sport: str, date: str, poll_secs: int) -> None:
     auto_holds  = 0
     tick        = 0
 
+    heartbeat_path = daily_dir / "_watcher_heartbeat.json"
+
     while True:
         tick   += 1
         now     = datetime.now(timezone.utc)
         now_str = now.strftime("%H:%M:%S UTC")
+
+        # ── Heartbeat writer ──────────────────────────────────────────────────
+        # Write at the top of every tick so run_daily.py can detect a live watcher.
+        # Atomic write (tmp → rename) so the file is never half-written.
+        try:
+            hb_tmp = heartbeat_path.with_suffix(".tmp")
+            hb_tmp.write_text(
+                json.dumps({
+                    "pid":       os.getpid(),
+                    "last_tick": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                    "date":      date,
+                    "tick":      tick,
+                }, indent=2),
+                encoding="utf-8",
+            )
+            hb_tmp.replace(heartbeat_path)
+        except Exception:
+            pass  # heartbeat failure is never fatal
 
         # ── Auto-HOLD pass ────────────────────────────────────────────────────
         # Any unconfirmed game whose first pitch has passed -> HOLD all wagering models.

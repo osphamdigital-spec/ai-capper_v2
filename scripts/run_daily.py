@@ -11,10 +11,10 @@ Usage:
     python scripts/run_daily.py mlb --with-picks
 
 --with-picks chains the full post-prompt sequence in one command:
-    run_picks_all.py  -> log_all_picks.py -> watch_set.py
-    -> (interactive prompt, 20s timeout, default YES) -> run_lineup_watcher.py
-The watcher prompt auto-accepts YES if no answer arrives within 20 seconds;
-type NO/N to skip it and launch run_lineup_watcher.py manually later.
+    run_picks_all.py -> log_all_picks.py -> watch_set.py
+    -> run_lineup_watcher.py (auto-spawned in a new detached console window)
+The watcher is fully detached -- run_daily.py does not wait on it.
+It survives the parent process exiting. No prompt, no countdown.
 
 Steps (in order):
     0. static file check       PRE-CHECK -- warns if FanGraphs files in data/{sport}/ are
@@ -55,7 +55,7 @@ import re
 import subprocess
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from tz_util import ET
 
@@ -221,45 +221,84 @@ def run_step(name: str, script: str, args: list) -> tuple[bool, float]:
     return result.returncode == 0, elapsed
 
 
-def _confirm_run_watcher(timeout_secs: int = 20) -> bool:
+def _check_stale_watcher(sport: str, date: str) -> None:
     """
-    Ask the operator whether to launch the continuous lineup watcher.
-
-    Returns True to run it, False to skip.
-
-    Behaviour:
-      - Explicit NO / N (case-insensitive)  -> False (skip)
-      - Explicit YES / Y (or anything else)  -> True  (run)
-      - No input within timeout_secs         -> True  (auto-accept default)
-
-    The prompt is read on a background thread so the main thread can enforce
-    the timeout. If the timer expires we stop waiting and default to YES; the
-    reader thread is a daemon, so it dies when the process moves on.
+    Warn if _watch.json exists for this date but the watcher heartbeat is absent
+    or stale (>5 min old) AND _fired.json is missing or has fewer entries than
+    games in the watch set. Printed before the --with-picks chain so the operator
+    knows a prior watcher may have died without firing.
     """
-    import threading
+    import json as _json
 
-    prompt_msg = f"\n  Run lineup watcher? [YES / NO] (Auto-accepting in {timeout_secs}s): "
-    answer: dict[str, str] = {}
+    daily_dir      = PROJECT_ROOT / "daily" / sport / date
+    watch_path     = daily_dir / "_watch.json"
+    heartbeat_path = daily_dir / "_watcher_heartbeat.json"
+    fired_path     = daily_dir / "_fired.json"
 
-    def _reader():
+    if not watch_path.exists():
+        return  # nothing to check yet
+
+    try:
+        watch_doc   = _json.loads(watch_path.read_text(encoding="utf-8"))
+        n_games     = len(watch_doc.get("games", {}))
+    except Exception:
+        return
+
+    # Count distinct game_ids in fired log
+    fired_games: set = set()
+    if fired_path.exists():
         try:
-            answer["value"] = input(prompt_msg)
-        except (EOFError, KeyboardInterrupt):
-            answer["value"] = ""
+            fired_doc = _json.loads(fired_path.read_text(encoding="utf-8"))
+            for entries in fired_doc.values():
+                for e in (entries if isinstance(entries, list) else []):
+                    fired_games.add(e.get("game_id"))
+        except Exception:
+            pass
 
-    t = threading.Thread(target=_reader, daemon=True)
-    t.start()
-    t.join(timeout_secs)
+    all_fired = len(fired_games) >= n_games and n_games > 0
 
-    if t.is_alive():
-        # Timed out — no input arrived. Default to YES.
-        print(f"\n  No response in {timeout_secs}s — auto-accepting (YES).")
-        return True
+    if all_fired:
+        return  # watcher already did its job
 
-    response = (answer.get("value") or "").strip().lower()
-    if response in ("n", "no"):
-        return False
-    return True
+    # Check heartbeat freshness
+    heartbeat_stale = True
+    if heartbeat_path.exists():
+        try:
+            hb = _json.loads(heartbeat_path.read_text(encoding="utf-8"))
+            last_tick = datetime.fromisoformat(hb.get("last_tick", ""))
+            age_secs  = (datetime.now(timezone.utc) - last_tick).total_seconds()
+            if age_secs <= 300:
+                heartbeat_stale = False
+        except Exception:
+            pass
+
+    if heartbeat_stale:
+        print(f"\n  WARNING: Watcher may not be running for {date}.")
+        print(f"  _watcher_heartbeat.json absent or >5 min old; {len(fired_games)}/{n_games} games fired.")
+        print(f"  Launch manually if needed:")
+        print(f"    python scripts/run_lineup_watcher.py --sport {sport} --date {date}\n")
+
+
+def _spawn_lineup_watcher(sport: str, date: str) -> None:
+    """
+    Spawn run_lineup_watcher.py in a new detached console window so it survives
+    the parent process exiting (Claude Code session, background task, etc.).
+
+    Uses CREATE_NEW_CONSOLE on Windows so the watcher gets its own terminal.
+    run_daily.py does NOT wait on the child — it is fully fire-and-forget.
+    Non-fatal: if the spawn fails we print a WARNING and continue.
+    """
+    cmd = [PYTHON, str(SCRIPTS_DIR / "run_lineup_watcher.py"), "--sport", sport, "--date", date]
+    try:
+        proc = subprocess.Popen(
+            cmd,
+            creationflags=subprocess.CREATE_NEW_CONSOLE,
+        )
+        print(f"\n  Lineup watcher launched in new window (PID {proc.pid})"
+              f" -- run_lineup_watcher.py --date {date}")
+    except Exception as exc:
+        print(f"\n  WARNING: Failed to spawn lineup watcher: {exc}")
+        print(f"  Launch manually: python scripts/run_lineup_watcher.py --sport {sport} --date {date}")
 
 
 def _print_summary(results: list[tuple], sport: str, date: str, total_elapsed: float):
@@ -632,6 +671,10 @@ def run_daily(sport: str, date: str = None, skip_gate: bool = False, with_picks:
     # --with-picks: run all connected models via run_picks_all.py after prompts are ready,
     # then carry straight through the post-picks chain: log → watch set → lineup watcher.
     if with_picks:
+        # Stale-watcher check: if _watch.json exists but the heartbeat is absent or >5 min
+        # old AND _fired.json is missing/incomplete, warn the operator before proceeding.
+        _check_stale_watcher(sport, target_date)
+
         print(f"\n{'=' * 55}")
         print(f"  --with-picks: launching picks for all models")
         print(f"{'=' * 55}")
@@ -649,14 +692,15 @@ def run_daily(sport: str, date: str = None, skip_gate: bool = False, with_picks:
 
         # Step 3: build the confirm-check watch set from the freshly logged picks.
         # watch_set.py uses --sport/--date flags.
-        run_step("Watch Set", "watch_set.py", ["--sport", sport, "--date", target_date])
+        watch_ok, _ = run_step("Watch Set", "watch_set.py", ["--sport", sport, "--date", target_date])
 
-        # Step 4: optionally launch the continuous lineup watcher. Interactive prompt
-        # with a 20-second timeout that defaults to YES (run the watcher).
-        if _confirm_run_watcher(timeout_secs=20):
-            run_step("Lineup Watcher", "run_lineup_watcher.py", ["--sport", sport, "--date", target_date])
+        # Step 4: spawn the lineup watcher in a detached console window so it
+        # survives the parent process exiting. No prompt, no countdown — fully automatic.
+        if watch_ok:
+            _spawn_lineup_watcher(sport, target_date)
         else:
-            print(f"\n  Skipped lineup watcher. Launch it later with:")
+            print(f"\n  WARNING: watch_set.py failed — skipping lineup watcher spawn.")
+            print(f"  Fix watch_set, then launch manually:")
             print(f"    python scripts/run_lineup_watcher.py --sport {sport} --date {target_date}\n")
 
 
@@ -689,8 +733,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--with-picks", action="store_true", default=False,
         help="After building prompts, run picks for all connected models, then chain "
-             "log_all_picks.py -> watch_set.py, and finally prompt (20s timeout, "
-             "default YES) to launch the continuous lineup watcher."
+             "log_all_picks.py -> watch_set.py -> auto-spawn run_lineup_watcher.py "
+             "in a new detached console window (no prompt, no countdown)."
     )
     args = parser.parse_args()
 

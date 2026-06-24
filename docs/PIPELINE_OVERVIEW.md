@@ -61,10 +61,10 @@ OR use the integrated pre-game orchestrator (recommended):
   python scripts/run_daily.py mlb --date 2026-06-10 --with-picks
 
   This chains: fetch pipeline → build prompts → run_picks_all → log_all_picks →
-  watch_set → (prompt) run_lineup_watcher, all in one command.
-  The final step prompts "Run lineup watcher? [YES / NO]" with a 20-second timeout;
-  if you don't answer in 20s it auto-accepts YES and launches the watcher. Type NO/N
-  to skip (you can launch run_lineup_watcher.py manually later).
+  watch_set → run_lineup_watcher (auto-spawned in a new detached console window).
+  The watcher is launched automatically with no prompt and no countdown.
+  It runs in its own window and survives the parent terminal closing.
+  To launch it manually instead: python scripts/run_lineup_watcher.py --date {date}
   Without --with-picks: stops after prompts (preserves the pre-send prompt-review checkpoint).
 
 FLAGS:
@@ -74,15 +74,12 @@ FLAGS:
 
 Output saved to: picks/mlb/{date}/{model}_raw.txt
 
-For manual models (opus, sonnet): open the matching prompt_{model}.md,
-paste into claude.ai, copy the full response, and save it manually to
-picks/mlb/{date}/{model}_raw.txt.
+All 7 active models run via API (run_picks_all.py). No manual paste required.
 
 After all raw.txt files are saved, parse into structured JSON:
 
 ```
-python scripts/log_picks.py --model sonnet --date 2026-06-04 --input picks/mlb/2026-06-04/sonnet_raw.txt
-python scripts/log_all_picks.py
+python scripts/log_all_picks.py mlb --date 2026-06-04
 ```
 
 Output: `picks/mlb/{date}/{model}.json` -- structured record with one entry per game:
@@ -90,7 +87,7 @@ Output: `picks/mlb/{date}/{model}.json` -- structured record with one entry per 
 
 Best bet skip: if no model identified a 3-unit play on a given day, the SLATE SUMMARY will contain "NO BEST BET -- no 3-unit play identified today". log_picks.py captures this as `best_bet_skip: true` in the model's JSON. grade_picks.py counts these as `best_bet_skips` in grades.json. Skip days are a valid and expected outcome -- do not treat them as parse errors.
 
-Repeat for all 8 models. Or use `log_all_picks.py` to batch-process all raw.txt files in a date folder.
+Repeat for all 7 active models. Or use `log_all_picks.py` to batch-process all raw.txt files in a date folder.
 
 ---
 
@@ -104,10 +101,14 @@ python scripts/watch_set.py --date 2026-06-10
 ```
 Output: `daily/mlb/{date}/_watch.json` — one entry per model+market pair on every bet or lean pick.
 
-**Step 2 — Run the lineup watcher** (runs continuously until all games resolve, typically T+2h after last game):
+**Step 2 — Lineup watcher** (auto-spawned by --with-picks; or launch manually):
 ```
 python scripts/run_lineup_watcher.py --date 2026-06-10
 ```
+When launched via `--with-picks`, this opens in a **new detached console window** and
+runs independently — it is not a child of run_daily.py and survives the parent terminal
+closing. A heartbeat file is written every poll tick:
+  `daily/mlb/{date}/_watcher_heartbeat.json`  — contains PID, last_tick (ISO UTC), date
 
 What it does:
 - Polls the MLB Stats API (`/api/v1/schedule?hydrate=lineups`) every 2 minutes
@@ -120,9 +121,10 @@ What it does:
 
 **Output files:**
 ```
-daily/mlb/{date}/_watch.json           watch set (built by watch_set.py)
-daily/mlb/{date}/_fired.json           dedup log (written by run_lineup_watcher.py)
-daily/mlb/{date}/{model}_confirm.json  confirm-check results per model (1 per model that had bets)
+daily/mlb/{date}/_watch.json                 watch set (built by watch_set.py)
+daily/mlb/{date}/_fired.json                 dedup log (written by run_lineup_watcher.py)
+daily/mlb/{date}/_watcher_heartbeat.json     liveness file (PID + last_tick timestamp)
+daily/mlb/{date}/{model}_confirm.json        confirm-check results per model
 daily/mlb/{date}/confirm_system_{model}.md   system prompt used for confirm-check call
 daily/mlb/{date}/confirm_prompt_{model}.md   user prompt used for confirm-check call
 ```

@@ -1,0 +1,185 @@
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: deGrom projects slightly better than Pérez, but MIA’s offensive platoon and TEX’s missing closer leave the true win probability too close to market for an edge above the 4% gate. Total is negligible gap against 7.5.
+DATA GAP: none
+
+---
+## GAME: CLE @ CHW
+PICK: CHW +109
+PRICE: +109
+UNITS: 3
+EDGE: 22.2 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: CHW’s run projection dominates behind Bibee’s L14 surge blending to a 3.86 SIERA while Fedde’s 5.15 SIERA and CLE’s league‑worst .292 wOBA vs RHP (wRC+ 92) create a wide gap. Bullpen edge also favors CHW — CLE missing closer Smith adds 0.30 runs to the host’s expected tally, lifting CHW to a 69.2% win probability against an implied 47%.
+DATA GAP: none
+
+---
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors inflates run expectancy, but the total adjustment is already baked into the 11.0 line; my projected 13.5-run expectation would be a 2.5-run edge, but Suárez’s small-sample L14 flag and the park’s HR variance keep it below a priority 3u bet on a slate with better spots.
+DATA GAP: none
+
+---
+## GAME: BAL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Gibson’s small-sample flag downgrades any play to 1 unit despite a +15% edge, and the edge is not large enough to command a 3u slot after prioritizing larger board-wide mismatches.
+DATA GAP: none
+
+---
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Skubal’s ace projection narrows the gap; my model gives NYY a 56.6% win probability as a dog, but the edge is below today’s premier plays and a 3u is off-limits with Weathers’ small-sample L14.
+DATA GAP: none
+
+---
+## GAME: KC @ TB
+PICK: KC +131
+PRICE: +131
+UNITS: 1
+EDGE: 17.5 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Cameron’s crafty lefty profile and TB’s league‑worst .289 wOBA vs LHP (wRC+ 89) drive a 2-run KC advantage. Tampa Bay’s missing closer Baker adds another 0.30 runs to KC’s ledger, and the market has barely moved, leaving a 17.5-pt gap even after a small-sample discount on Jax.
+DATA GAP: none
+
+---
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: SEA ML is flagged stale/suspect, so that market is absent. Model leans SEA but cannot bet without a clean price.
+DATA GAP: Clean SEA ML price
+
+---
+## GAME: PHI @ WAS
+PICK: WAS +117
+PRICE: +117
+UNITS: 3
+EDGE: 9.2 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Mikolas’ extreme ground-ball tilt (53.4% GB) pairs well with WAS’s top‑10 defense vs a PHI offense that has been league‑average over the last 10 games. Nola’s regression (4.19 SIERA L14) and WAS’s big platoon edge vs RHP (109 wRC+) against a tired PHI bullpen give the home dog a 54.3% win probability, 9 points above market.
+DATA GAP: none
+
+---
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Burrows vs Yesavage projects as a dead heat; both offenses and bullpens carry moderate depletion leaving true win probability within 1% of the market.
+DATA GAP: none
+
+---
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Lowder’s 5.11 SIERA offers value on CIN, but Drohan’s projection is less trustworthy with a 23-inning AGG anchor, and my slate is capped at three bets with higher-edge plays elsewhere.
+DATA GAP: none
+
+---
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Ohtani and Ryan both project strongly and the run tallies converge — my Pythagorean gives LAD 61.9% against a market 61.9%. No edge.
+DATA GAP: none
+
+---
+## GAME: AZ @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: AZ starter Bratt has zero stats — effectively a TBD starter. Game is a mandatory pass.
+DATA GAP: Bratt’s entire projection — cannot price game
+
+---
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: SD starter Sears has zero stats — effectively a TBD starter. Game is a mandatory pass.
+DATA GAP: Sears’ entire projection — cannot price game
+
+---
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: SF’s 9.5-pt edge is actionable but downgraded to a 1u candidate because of Jump’s small-sample status and ATH’s high-variance bullpen. It is jumped by three higher-priority bets on the slate.
+DATA GAP: none
+
+---
+## SLATE SUMMARY
+BEST BET: CHW +109 (GAME 2) 3u
+WHY THIS ONE: Largest edge on the board (22.2 pts) driven by Fedde’s bottom‑tier SIERA and CLE’s league‑worst offense vs RHP, with no small‑sample flags and a tired Cleveland bullpen closing the gap.

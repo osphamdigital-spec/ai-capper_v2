@@ -39,7 +39,7 @@ Halt-then-rerun path (Option D):
     On re-run:
       - fetch_results.py is idempotent (skips already-filled placeholders,
         existing folders/stubs; re-grades picks with same results)
-      - run_postmortem_all.py fires all 8 models (no postmortem files exist
+      - run_postmortem_all.py fires all 7 models (no postmortem files exist
         yet from the halted first run, so the skip guard doesn't fire)
 
 Prerequisites:

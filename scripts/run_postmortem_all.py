@@ -2,7 +2,7 @@
 """
 scripts/run_postmortem_all.py
 
-Run post-mortem queries for all 8 API-connected models for a given slate date.
+Run post-mortem queries for all 7 API-connected models for a given slate date.
 Calls query_model.py --postmortem for each model in sequence and prints a summary.
 
 Usage:
@@ -10,7 +10,7 @@ Usage:
     python scripts/run_postmortem_all.py          # uses today's date in US Eastern Time
 
 Connected models (in run order):
-    grok, chatgpt, deepseek, kimi, qwen, gemini, opus, sonnet
+    grok, chatgpt, deepseek, kimi, qwen, gemini, opus
 
 Notes:
   - Each model receives only the template + results, not prior models' responses.

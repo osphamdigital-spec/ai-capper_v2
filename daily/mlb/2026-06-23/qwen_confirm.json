@@ -1,0 +1,78 @@
+{
+  "model": "qwen",
+  "date": "2026-06-23",
+  "sport": "mlb",
+  "checked_at": "2026-06-23T21:46:52Z",
+  "picks": [
+    {
+      "game_id": "a43d950c1c96c23836217db2342cee9e",
+      "matchup": "NYY @ DET",
+      "pick_raw": "Over 7.5",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -107,
+      "original_edge": "3.14 runs",
+      "original_reason": "Both offenses feature elite contact quality (HH% > 38%, Brl% > 7.5%) and above-average platoon wRC+ marks, colliding with two starters whose aggregate xFIPs (3.99 and 3.84) are significantly better than their recent surface results but still vulnerable to hard contact. The market total of 7.5 is far too low for this run environment, yielding a massive edge, though the [sm] tags on both starters cap this at 1 unit.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_cited_fact": "NYY vs_RHP wRC+ 107 and DET vs_LHP wRC+ 101 confirmed with Ben Rice (188) and Riley Greene (134) in the starting lineup.",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "9fa5e76b55b273aa4d6f75fb24292c4b",
+      "matchup": "KC @ TB",
+      "pick_raw": "TB RL",
+      "pick_market": "rl",
+      "pick_side": "home",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": 110,
+      "original_edge": "7.4 pts",
+      "original_reason": "Shane McClanahan's aggregate SIERA (4.00) holds a massive 1.55-run advantage over Luinder Avila (5.55), and Tampa Bay's lineup crushes left-handed pitching (109 wRC+). The run line offers plus-money value on a likely multi-run victory, but the small-sample L14 tags for both starters and Tampa Bay's taxed closer prevent a 3-unit upgrade. I pass the total to respect my 2-totals-per-slate ceiling.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_cited_fact": "TB vs_RHP wRC+ 109 confirmed with Yandy Díaz (163) and Jonathan Aranda (145) in the lineup against Luinder Avila.",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "11027b764d42622bddc30dee244472db",
+      "matchup": "SEA @ PIT",
+      "pick_raw": "Over 8.5",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -110,
+      "original_edge": "3.09 runs",
+      "original_reason": "Pittsburgh's bullpen is severely taxed with both T1 and T2 unavailable, and Seattle's T2 is also taxed, guaranteeing low-leverage arms will face two potent lineups (SEA 112 wRC+, PIT 125 wRC+) that both exceed the 38% HH / 7.5% Brl slugfest threshold. The market total of 8.5 ignores the late-inning bullpen fatigue and elite platoon offenses, creating a massive edge, though Mitch Keller's [sm] tag limits the stake to 1 unit.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_cited_fact": "PIT vs_RHP wRC+ 116 and SEA vs_RHP wRC+ 111 confirmed with Endy Rodríguez (158) and Randy Arozarena (148) batting.",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    }
+  ],
+  "raw_responses": [
+    {
+      "checked_at": "2026-06-23T21:46:52Z",
+      "game_ids": [
+        "a43d950c1c96c23836217db2342cee9e",
+        "9fa5e76b55b273aa4d6f75fb24292c4b",
+        "11027b764d42622bddc30dee244472db"
+      ],
+      "source": "api",
+      "text": "PICK: Over 7.5  [market:TOTAL gid:a43d950c1c96c23836217db2342cee9e]\nOUTCOME: HOLD\nDRIVER: lineup\nCITED_FACT: NYY vs_RHP wRC+ 107 and DET vs_LHP wRC+ 101 confirmed with Ben Rice (188) and Riley Greene (134) in the starting lineup.\nNEW_UNITS: 1\n\nPICK: TB RL  [market:RL gid:9fa5e76b55b273aa4d6f75fb24292c4b]\nOUTCOME: HOLD\nDRIVER: lineup\nCITED_FACT: TB vs_RHP wRC+ 109 confirmed with Yandy Díaz (163) and Jonathan Aranda (145) in the lineup against Luinder Avila.\nNEW_UNITS: 1\n\nPICK: Over 8.5  [market:TOTAL gid:11027b764d42622bddc30dee244472db]\nOUTCOME: HOLD\nDRIVER: lineup\nCITED_FACT: PIT vs_RHP wRC+ 116 and SEA vs_RHP wRC+ 111 confirmed with Endy Rodríguez (158) and Randy Arozarena (148) batting.\nNEW_UNITS: 1"
+    }
+  ],
+  "raw_response": "PICK: Over 7.5  [market:TOTAL gid:a43d950c1c96c23836217db2342cee9e]\nOUTCOME: HOLD\nDRIVER: lineup\nCITED_FACT: NYY vs_RHP wRC+ 107 and DET vs_LHP wRC+ 101 confirmed with Ben Rice (188) and Riley Greene (134) in the starting lineup.\nNEW_UNITS: 1\n\nPICK: TB RL  [market:RL gid:9fa5e76b55b273aa4d6f75fb24292c4b]\nOUTCOME: HOLD\nDRIVER: lineup\nCITED_FACT: TB vs_RHP wRC+ 109 confirmed with Yandy Díaz (163) and Jonathan Aranda (145) in the lineup against Luinder Avila.\nNEW_UNITS: 1\n\nPICK: Over 8.5  [market:TOTAL gid:11027b764d42622bddc30dee244472db]\nOUTCOME: HOLD\nDRIVER: lineup\nCITED_FACT: PIT vs_RHP wRC+ 116 and SEA vs_RHP wRC+ 111 confirmed with Endy Rodríguez (158) and Randy Arozarena (148) batting.\nNEW_UNITS: 1"
+}

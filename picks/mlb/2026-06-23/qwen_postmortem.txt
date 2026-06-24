@@ -1,0 +1,92 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NO BEST BET
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? YES
+IF NO — NEW BEST BET: N/A / WHY: N/A / SOURCE: N/A
+
+## S2: FULL SLATE REVIEW
+PART A — GAMES YOU BET
+
+GAME: NYY @ DET
+PICK: Over 7.5 (-107)
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: The total finished at 7, just one run shy of the 7.5 line. The pre-game data correctly identified that the starters' xFIPs (3.99 and 3.84) were significantly better than their surface results, justifying an over bet on a low market total. A single run of variance (e.g., one less stranded runner or a missed RBI opportunity) decided the outcome, but the foundational logic of betting over when the market underprices xFIP remains sound.
+SOURCE: Pre-game xFIP vs surface ERA comparison for Rodón and Mize.
+
+GAME: KC @ TB
+PICK: TB RL (+110)
+RESULT: LOSS
+PROCESS: SMALL SAMPLE TRAP
+WOULD-BET-AGAIN: NO
+WHY: I explicitly noted the "small-sample L14 tags" for McClanahan in my reasoning but still relied on his 4.00 SIERA to justify a run line bet. The small sample masked his true current form or underlying stuff degradation, leading to him getting shelled. I should have strictly passed given the acknowledged data gap regarding his recent sample size.
+SOURCE: Pre-game reasoning citing small-sample tags and data gaps.
+
+GAME: SEA @ PIT
+PICK: Over 8.5 (-110)
+RESULT: LOSS
+PROCESS: MISSED BULLPEN
+WOULD-BET-AGAIN: LOWER STAKE
+WHY: My thesis relied heavily on T1/T2 bullpen arms being taxed and low-leverage arms getting shelled by potent lineups. However, the game stayed at 5 total runs, meaning I overestimated the negative impact of the bullpen fatigue and underestimated the starters' ability to eat innings or the low-leverage arms' actual competence. 
+SOURCE: Pre-game bullpen availability and fatigue metrics.
+
+---
+
+PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED.
+
+NONE
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA
+ITEM: Recent velocity, spin rate, and pitch usage metrics for starters flagged with "small-sample L14" tags.
+WHICH GAME(S): KC @ TB (Shane McClanahan)
+WOULD HAVE CHANGED A BET? YES
+WHY: McClanahan's 4.00 SIERA looked strong on paper, but underlying stuff metrics would have revealed if his velocity or spin was degraded, preventing the TB RL bet.
+
+TYPE: DATA
+ITEM: Minor league rehab stats, pitch mix, and velocity data for returning starters.
+WHICH GAME(S): HOU @ TOR (Shane Bieber)
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Having his actual rehab data would allow me to model his run prevention profile instead of taking a hard pass due to missing baseline data.
+
+TYPE: DATA
+ITEM: Exact pitch counts and availability status for low-leverage bullpen arms.
+WHICH GAME(S): SEA @ PIT
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: Knowing exactly which low-leverage arms were available and their recent performance would help determine if the bullpen was truly vulnerable to a late-inning explosion or just nominally taxed.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL (to your own method document)
+
+PROPOSED CHANGE: When a starter has a "small-sample L14" tag, do not use their aggregate SIERA/xFIP for run line or side bets unless the sample is corroborated by underlying velocity/spin data or pitch mix stability.
+WHAT IN MY METHOD COULD BE SHARPER: I currently allow 1-unit bets on small-sample starters if the aggregate metric shows a large edge. This exposes me to Small Sample Traps where the aggregate metric is skewed by a few outings or masks an underlying injury/stuff decline.
+EVIDENCE FROM TODAY: McClanahan's 4.00 SIERA looked great against Avila's 5.55, but the small sample masked his actual performance level, resulting in a 12-run blowout loss.
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup)
+
+### GAME: NYY @ DET — YOUR CALL: BET over ML -107 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): N/A
+
+---
+
+### GAME: KC @ TB — YOUR CALL: BET home ML 110 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): N/A
+
+---
+
+### GAME: SEA @ PIT — YOUR CALL: BET over ML -110 (1u)
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): N/A

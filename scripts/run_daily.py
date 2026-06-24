@@ -479,11 +479,10 @@ def _build_model_prompts(sport: str, date: str):
     since we read the names from MODEL_INSTRUCTIONS.md), we skip silently.
 
     NOTE: query_model.py handles automated API calls for connected models.
-    Empty placeholder _raw.txt files are still created for all models including
-    manual ones (opus, sonnet) -- this is done by fetch_results.py using the
-    model list in docs/model_roster.md, not by this function.
-    Connected models: chatgpt, grok, deepseek, kimi, qwen, gemini
-    Manual models:    opus, sonnet (paste into claude.ai)
+    Empty placeholder _raw.txt files are still created for all models in
+    docs/model_roster.md by fetch_results.py.
+    Connected models (7): chatgpt, grok, deepseek, kimi, qwen, gemini, opus
+    Deprecated: sonnet (retired 2026-06-22)
     """
     models = _parse_model_names(PROJECT_ROOT)
     if not models:

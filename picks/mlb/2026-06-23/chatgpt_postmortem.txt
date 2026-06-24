@@ -1,0 +1,145 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE  
+RESULT: NONE  
+WOULD YOU STILL MAKE THIS YOUR BEST BET? NO  
+IF NO — NEW BEST BET: PHI @ WAS Over 8.5 (-115)  
+WHY: It was the clearest pre-game edge I actually bet: I made the game 9.5, had support from weak starter/contact profiles, a favorable run environment, and a taxed Washington bullpen. The confirmed lineups did not reduce the edge.  
+SOURCE: My original projection/rationale + confirmed-lineup check
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: PHI @ WAS  
+PICK: Over 8.5 (-115), 1u  
+RESULT: WIN  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: The pre-game case was real and remained intact after confirmed lineups. I had a full-run edge, weak underlying run prevention on the Washington side, bullpen risk behind it, and enough Washington competence vs LHP to avoid an under-only game script. This was not a lucky over built on no signal; the signal was there pre-game.  
+SOURCE: Original projection 9.5 vs market 8.5; Washington bullpen note; confirmed lineup check showed no material downgrade
+
+---
+
+GAME: CLE @ CHW  
+PICK: CLE ML (-109), 1u  
+RESULT: CANCELLED  
+PROCESS: MISSED LINEUP  
+WOULD-BET-AGAIN: NO  
+WHY: The original bet depended in part on Chicago being weak in the relevant platoon matchup. The confirmed lineup check invalidated that: Chicago’s actual lineup was not weak vs LHP, with Vargas and Grichuk specifically strengthening the split context. Canceling was correct. The process error was making the initial bet before seeing enough to trust the lineup assumption.  
+SOURCE: Confirmed-lineup review: CHW vs LHP 121 wRC+, including Vargas 196 and Grichuk 181
+
+---
+
+GAME: BAL @ LAA  
+PICK: Over 9.0 (+103), 1u  
+RESULT: LOSS  
+PROCESS: CORRECT PROCESS FAIR RESULT  
+WOULD-BET-AGAIN: YES  
+WHY: I can still justify the bet from the pre-game data. I had a 10.0 projection after already applying a small-sample haircut to the unstable starter component, and both offenses projected at least respectable vs RHP. The confirmed lineups did not remove key bats or materially weaken the over case. This looks more like a miss in realized scoring than a bad pre-game read.  
+SOURCE: Original projection 10.0 vs market 9.0; confirmed-lineup hold with BAL middle-order bats intact
+
+---
+
+### PART B — PASSES AND LEANS WHERE I NOW IDENTIFY A SPECIFIC PRE-GAME EDGE I MISSED
+
+GAME: HOU @ TOR  
+YOUR CALL: PASS  
+FINAL RESULT: HOU 9 @ TOR 7  
+WHAT YOU MISSED: I was too strict about the uncertainty gate on the total. Even with starter/workload uncertainty, the exact things I cited as reasons to avoid precision — incomplete starter confidence and roof-status volatility — were both run-environment risks that argued more toward over volatility than neutrality. I did not have enough to make it an official bet, but in hindsight of the pre-game inputs only, this should have been at least an over lean rather than a full neutral pass.  
+SOURCE: My own pre-game note: uncertain starter quality/workload + roof status uncertainty  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+GAME: KC @ TB  
+YOUR CALL: PASS  
+FINAL RESULT: KC 12 @ TB 5  
+WHAT YOU MISSED: I had my run projection above 8.0 already and acknowledged bullpen/availability concerns. The sharper lesson is that when I already have an over lean and also note relief instability/unavailability, I may be over-discounting scoring variance in favor of ace-name suppression. That said, I still did not have a documented threshold-clearing edge pre-game.  
+SOURCE: Original note: projection above 8.0, bullpen context, unavailable closer-level arm  
+WOULD THIS HAVE BECOME A BET? NO
+
+---
+
+GAME: CHC @ NYM  
+YOUR CALL: PASS  
+FINAL RESULT: CHC 9 @ NYM 6  
+WHAT YOU MISSED: The market move itself may have deserved more respect as information rather than only as a warning sign. I treated the move mainly as “data may be stale, so pass,” which is defensible, but there is a case for upgrading sharp movement into a tradable signal when it aligns with uncertainty concentrated on the other side.  
+SOURCE: Original note: market move toward Chicago and total jump signaled possible stale inputs  
+WOULD THIS HAVE BECOME A BET? MAYBE
+
+---
+
+That’s it. I do **not** think the rest of the passes should be rewritten as missed bets just because they won. Most of them were either close to threshold, blocked by real uncertainty, or properly passed for weather/starter-confirmation reasons.
+
+---
+
+## S3: DATA REQUEST (to the operator / data desk)
+
+TYPE: DATA  
+ITEM: Earlier delivery of confirmed or highly probable starting lineups with split-weighted team quality flags  
+WHICH GAME(S): CLE @ CHW, plus generally all pass/close-call games  
+WOULD HAVE CHANGED A BET? YES  
+WHY: It directly would have prevented the initial Cleveland ML bet from going up before being canceled.
+
+---
+
+TYPE: DATA  
+ITEM: Structured starter uncertainty feed: pitch-count expectation, workload cap, and recent true-role notes for uncertain/small-sample starters  
+WHICH GAME(S): HOU @ TOR, TEX @ MIA, CHC @ NYM, LAD @ MIN  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Several passes were driven by not trusting the starter baseline enough to make a number.
+
+---
+
+TYPE: DATA  
+ITEM: Roof/open status probabilities and park-environment adjustment before release  
+WHICH GAME(S): HOU @ TOR, TEX @ MIA  
+WOULD HAVE CHANGED A BET? MAYBE  
+WHY: Those totals were specifically downgraded because run environment could not be pinned down confidently.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Tighten the rule for pre-lineup side bets when the edge depends on an opponent being weak in a specific platoon split; require confirmed lineup or downgrade to lean only.  
+WHAT IN MY METHOD COULD BE SHARPER: I was willing to fire Cleveland based partly on a “Chicago weak vs lefties” assumption that was vulnerable to actual lineup composition. If a side edge is split-dependent rather than pitcher-only or bullpen-only, I should demand a higher lineup-confidence bar.  
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): The CLE bet rationale explicitly depended on CHW weakness vs LHP, and the later confirmed lineup check showed CHW’s actual split context was stronger than assumed, with Vargas and Grichuk notable.  
+CONFIDENCE: HIGH
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup)
+
+### GAME: PHI @ WAS — YOUR CALL: BET over 8.5 -115 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: None. The confirmed lineups preserved the same offensive shape I bet into, including Washington retaining enough competent bats vs LHP and Philadelphia keeping its key run creators in place.
+
+---
+
+### GAME: CLE @ CHW — YOUR CALL: BET CLE ML -109 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: materially different  
+WOULD CHANGE? bet->pass  
+PRE-GAME REASON: My side case depended on Chicago being weak vs LHP, but the confirmed lineup was not weak in that split context. Specific pre-game reason: Vargas (196 wRC+ vs LHP) and Grichuk (181 wRC+ vs LHP) materially improved Chicago’s expected offensive resistance against a left-handed starter.
+
+---
+
+### GAME: BAL @ LAA — YOUR CALL: BET over 9.0 +103 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected  
+WOULD CHANGE? no change  
+PRE-GAME REASON: None. Baltimore kept its key righty-mashing bats in place, Los Angeles did not materially downgrade, and there was no late-scratch/platoon surprise strong enough to erase the over edge.
+
+---
+
+## Bottom line
+The day was mostly fine from a discipline standpoint:
+
+- **Best actual bet:** PHI/WAS over — good read, good hold.
+- **Most important correction:** CLE should not have been a live side bet before lineup confirmation.
+- **BAL/LAA over:** I’d keep it as a sound pre-game wager that lost.
+- **Most passes:** still defensible; I do not want to result-chase them into “should’ve bet” claims without a real pre-game signal.

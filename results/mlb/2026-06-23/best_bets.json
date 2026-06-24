@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-23",
+  "sport": "mlb",
+  "graded_at": "2026-06-24T06:23:26Z",
+  "best_bets": [
+    {
+      "model": "chatgpt",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "deepseek",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "gemini",
+      "skip": false,
+      "skip_reason": null,
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "grok",
+      "skip": false,
+      "skip_reason": null,
+      "cancelled": false,
+      "best_bet_raw": "PHI ML -168 (GAME 6)",
+      "why_this": "Largest confirmed pitching quality gap with Luzardo's elite metrics versus Littell's poor profile, yielding the highest conviction 5.2 pt edge among qualifying 1u plays.",
+      "resolved_game": "PHI @ WAS",
+      "resolved_pick": "PHI ML -168",
+      "resolved_price": -168,
+      "resolved_units": 1,
+      "result": "win",
+      "profit_units": 0.5952
+    },
+    {
+      "model": "kimi",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "opus",
+      "skip": false,
+      "skip_reason": null,
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    },
+    {
+      "model": "qwen",
+      "skip": true,
+      "skip_reason": "no 3-unit play identified",
+      "cancelled": false,
+      "best_bet_raw": "",
+      "why_this": "",
+      "resolved_game": null,
+      "resolved_pick": null,
+      "resolved_price": null,
+      "resolved_units": 0,
+      "result": null,
+      "profit_units": 0.0
+    }
+  ],
+  "summary": {
+    "wins": 1,
+    "losses": 0,
+    "skips": 4,
+    "cancels": 0,
+    "record": "1-0 (100.0%)"
+  }
+}

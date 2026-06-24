@@ -20,10 +20,11 @@
       "reason": "The home starting pitcher Shane Bieber has no recorded season stats or innings pitched, creating a data void. Per strict data integrity rules, games with unannounced or incomplete starting pitcher projections are an immediate pass.",
       "data_gap": "Complete season pitching data for Shane Bieber.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "a43d950c1c96c23836217db2342cee9e",
@@ -41,10 +42,11 @@
       "reason": "Both offenses carry significant platoon advantages here, with Detroit holding a 114 wRC+ vs lefties and New York holding a 104 wRC+ vs righties. With a warm 74.7°F forecast and a 104 Runs park factor at Comerica Park, the model expects 9.1 runs, providing a solid 1.6-run edge over the market total.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "a43d950c1c96c23836217db2342cee9e",
@@ -61,12 +63,18 @@
       "edge": "1.6 runs",
       "reason": "Both offenses carry significant platoon advantages here, with Detroit holding a 114 wRC+ vs lefties and New York holding a 104 wRC+ vs righties. With a warm 74.7°F forecast and a 104 Runs park factor at Comerica Park, the model expects 9.1 runs, providing a solid 1.6-run edge over the market total.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 5,
+      "closing_line": -112,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "Total unchanged at 7.5",
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "9fa5e76b55b273aa4d6f75fb24292c4b",
@@ -84,10 +92,11 @@
       "reason": "Luinder Avila (5.55 SIERA, 3.4% K-BB%) is highly vulnerable to traffic, while Shane McClanahan faces a resilient Royals lineup (109 wRC+ vs LHP). The Rays bullpen is also thin with Tier 1 closer Bryan Baker marked unavailable, pushing the model's projected total to 9.9 runs and triggering a maximum 3-unit play on the Over.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "9fa5e76b55b273aa4d6f75fb24292c4b",
@@ -104,12 +113,18 @@
       "edge": "1.9 runs",
       "reason": "Luinder Avila (5.55 SIERA, 3.4% K-BB%) is highly vulnerable to traffic, while Shane McClanahan faces a resilient Royals lineup (109 wRC+ vs LHP). The Rays bullpen is also thin with Tier 1 closer Bryan Baker marked unavailable, pushing the model's projected total to 9.9 runs and triggering a maximum 3-unit play on the Over.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "win",
+      "profit_units": 2.8571,
+      "clv": 5,
+      "closing_line": -110,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 3,
+      "cc_guard_override": null,
+      "cc_cited_fact": "Total unchanged at 8.0",
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "452edc1a46fc100945cc12d4d7f93456",
@@ -127,10 +142,11 @@
       "reason": "Starting pitcher Cal Quantrill is flagged under the small sample rule with only 29.1 IP, and the Over total market price is flagged stale. The remaining moneyline edge is insufficient to trigger a bet.",
       "data_gap": "clean total market pricing.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "11027b764d42622bddc30dee244472db",
@@ -148,10 +164,11 @@
       "reason": "Despite Pittsburgh's bullpen being heavily penalized for fatigue under Phase 2, the moneyline edge on Seattle sits at a projected 51.1% vs a -124 market price, yielding no value. The totals projection of 9.0 runs is only 0.5 runs off the market line, resulting in a pass.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "c905209c213ea7ae9708b815df0db1bc",
@@ -169,10 +186,11 @@
       "reason": "The Under price for this total is flagged as stale/suspect, forcing a pass on the totals market. The moneyline projection on Philadelphia (57.9%) does not offer any value relative to their heavy -168 market price.",
       "data_gap": "clean total market pricing.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "3c8c7e3e1d75b778dae56183c479e8b0",
@@ -189,11 +207,17 @@
       "edge": "9.2 pts",
       "reason": "Edward Cabrera (3.94 xFIP) gives the Cubs a significant starting pitching advantage over a heavily regressed Kodai Senga (4.91 SIERA). Senga's small-sample status (24.0 IP) caps the moneyline stake at 1 unit, but the projected 58.5% win probability represents an excellent 9.2-point edge.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "win",
+      "profit_units": 1.03,
+      "clv": 204,
+      "closing_line": -101,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "price",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "CHC ML line moved from +103 to -101",
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "880267269fc4e95b1ac7fe887416bd21",
@@ -211,10 +235,16 @@
       "reason": "The model projects Milwaukee with a 56.8% win probability behind Brandon Sproat's slightly stronger aggregate estimators relative to Nick Lodolo. This translates to a 4.9 percentage point edge, which falls just short of the mandatory 5.0% moneyline edge gate.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "cc_outcome": "CANCEL",
+      "cc_driver": "none",
+      "cc_new_units": 0,
+      "cc_guard_override": null,
+      "cc_cited_fact": "original pick was a lean",
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "39e0cc872d2c36e97a7b36304a527072",
@@ -232,10 +262,11 @@
       "reason": "Both the home moneyline and total markets carry stale/suspect price flags. Per data integrity rules, this game must be passed entirely.",
       "data_gap": "clean book pricing for moneyline and total markets.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "3984bf07976050590dd9101fcfda8a0d",
@@ -253,10 +284,11 @@
       "reason": "This game has a heavy rain forecast (67% rain chance) and is flagged with significant postponement risk. Per model instructions, games with active PPD risk are a mandatory pass.",
       "data_gap": "none",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "fc0edee924fad50f536c1f9d3840c663",
@@ -273,11 +305,17 @@
       "edge": "7.1 pts",
       "reason": "Kyle Leahy (4.18 xFIP) matches up exceptionally well against a Diamondbacks offense that struggles heavily against right-handed pitching (85 wRC+). Conversely, Eduardo Rodriguez (4.80 SIERA) must navigate an elite Cardinals split offense (109 wRC+ vs LHP), creating a strong 7.1 percentage point edge for St. Louis.",
       "data_gap": "none",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 2,
+      "closing_line": -110,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "STL confirmed vs_LHP wRC+ remains 131 with Iván Herrera (165 wRC+) and Nelson Velázquez (217 wRC+) batting 2nd and 3rd.",
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "bf29fc0fa42f9b3c5df76115d46b3773",
@@ -295,10 +333,11 @@
       "reason": "Per Coors Field rules, all totals and run line markets are passed due to high environmental variance. The moneyline projection on Boston (63.1% vs -1",
       "data_gap": "",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     }
   ],
   "parlay": null,
@@ -312,5 +351,6 @@
     "passes": 9,
     "units_risked": 6,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-24T06:23:26Z"
 }

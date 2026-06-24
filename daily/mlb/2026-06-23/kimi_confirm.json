@@ -1,0 +1,158 @@
+{
+  "model": "kimi",
+  "date": "2026-06-23",
+  "sport": "mlb",
+  "checked_at": "2026-06-24T00:40:41Z",
+  "picks": [
+    {
+      "game_id": "a43d950c1c96c23836217db2342cee9e",
+      "matchup": "NYY @ DET",
+      "pick_raw": "Lean Over 7.5",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "lean",
+      "original_units": 0,
+      "original_price": -107,
+      "original_edge": "1.8 runs",
+      "original_reason": "Both Rodón and Mize carry [sm] flags, which widens the true-talent band enough to keep the side below my 3.5-pt gate. My run estimate is ~9.3, giving a 1.8-run edge to the Over, but dual small-sample variance caps the total at a lean.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "Total line unchanged at 7.5",
+      "cc_new_units": 0,
+      "cc_new_units_raw": 0,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "c905209c213ea7ae9708b815df0db1bc",
+      "matchup": "PHI @ WAS",
+      "pick_raw": "LEAN: PHI ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "lean",
+      "original_units": 0,
+      "original_price": -168,
+      "original_edge": "3.0 pts",
+      "original_reason": "Luzardo’s 3.18 xFIP against Littell’s 5.62 xFIP and exhausted Washington bullpen (0.5) gives the Over 8.5 a 2.4-run edge worth 1 unit. The side edge is ~3.0 pts after penalizing Littell’s [sm], so it is only a lean.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "price",
+      "cc_cited_fact": "PHI ML moved from -166 to -170",
+      "cc_new_units": 0,
+      "cc_new_units_raw": 0,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "c905209c213ea7ae9708b815df0db1bc",
+      "matchup": "PHI @ WAS",
+      "pick_raw": "Over 8.5",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -115,
+      "original_edge": "2.4 runs",
+      "original_reason": "Luzardo’s 3.18 xFIP against Littell’s 5.62 xFIP and exhausted Washington bullpen (0.5) gives the Over 8.5 a 2.4-run edge worth 1 unit. The side edge is ~3.0 pts after penalizing Littell’s [sm], so it is only a lean.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "Total line unchanged at 8.5",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "39e0cc872d2c36e97a7b36304a527072",
+      "matchup": "CLE @ CHW",
+      "pick_raw": "LEAN: CLE ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "lean",
+      "original_units": 0,
+      "original_price": -109,
+      "original_edge": "2.5 pts",
+      "original_reason": "Messick’s 3.44 xFIP and Cleveland’s fresh bullpen (3.25) give a raw 4.0-pt edge, but both starters carry [sm] flags that shave the margin to a lean once the wider confidence band is honored. The total is priced at my estimate.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "Messick’s 3.44 xFIP and Cleveland’s fresh bullpen (3.25) remain intact; confirmed lineups show no scratches and identical platoon splits (CLE 95 wRC+ vs RHP, CHW 121 wRC+ vs LHP).",
+      "cc_new_units": 0,
+      "cc_new_units_raw": 0,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "bf29fc0fa42f9b3c5df76115d46b3773",
+      "matchup": "BOS @ COL",
+      "pick_raw": "Lean Over 10.5",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "lean",
+      "original_units": 0,
+      "original_price": -113,
+      "original_edge": "2.6 runs",
+      "original_reason": "Coors Field side bets are excluded by method due to extreme margin-of-victory variance. My park-adjusted total is ~13.1, but Sullivan’s [sm] and the high-altitude volatility make the Over a lean only.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "BOS aggregate vs-LHP wRC+ confirmed unchanged at 124",
+      "cc_new_units": 0,
+      "cc_new_units_raw": 0,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "d0f7ccaf67e696d2397f07d40f7f3702",
+      "matchup": "BAL @ LAA",
+      "pick_raw": "BAL ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -147,
+      "original_edge": "4.5 pts",
+      "original_reason": "Baz’s 4.39 xFIP against Johnson’s 7.00 [sm] xFIP creates a 4.5-pt win-probability gap, and Baltimore’s fresh leverage arms (2.75) support late-game stability. Johnson’s small-sample uncertainty caps the stake at 1 unit.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "BAL vs RHP team wRC+ 103 (n=9) and LAA vs RHP team wRC+ 97 (n=8) unchanged from Run-1; no lineup scratches; ML unchanged at -147",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    }
+  ],
+  "raw_responses": [
+    {
+      "checked_at": "2026-06-23T21:46:15Z",
+      "game_ids": [
+        "a43d950c1c96c23836217db2342cee9e",
+        "c905209c213ea7ae9708b815df0db1bc"
+      ],
+      "source": "api",
+      "text": "PICK: Lean Over 7.5  [market:TOTAL gid:a43d950c1c96c23836217db2342cee9e]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: Total line unchanged at 7.5\nNEW_UNITS: 0\n\nPICK: LEAN: PHI ML  [market:ML gid:c905209c213ea7ae9708b815df0db1bc]\nOUTCOME: HOLD\nDRIVER: price\nCITED_FACT: PHI ML moved from -166 to -170\nNEW_UNITS: 0\n\nPICK: Over 8.5  [market:TOTAL gid:c905209c213ea7ae9708b815df0db1bc]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: Total line unchanged at 8.5\nNEW_UNITS: 1"
+    },
+    {
+      "checked_at": "2026-06-23T22:44:25Z",
+      "game_ids": [
+        "39e0cc872d2c36e97a7b36304a527072"
+      ],
+      "source": "api",
+      "text": "PICK: LEAN: CLE ML  [market:ML gid:39e0cc872d2c36e97a7b36304a527072]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: Messick’s 3.44 xFIP and Cleveland’s fresh bullpen (3.25) remain intact; confirmed lineups show no scratches and identical platoon splits (CLE 95 wRC+ vs RHP, CHW 121 wRC+ vs LHP).\nNEW_UNITS: 0"
+    },
+    {
+      "checked_at": "2026-06-23T23:45:31Z",
+      "game_ids": [
+        "bf29fc0fa42f9b3c5df76115d46b3773"
+      ],
+      "source": "api",
+      "text": "PICK: Lean Over 10.5  [market:TOTAL gid:bf29fc0fa42f9b3c5df76115d46b3773]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: BOS aggregate vs-LHP wRC+ confirmed unchanged at 124\nNEW_UNITS: 0"
+    },
+    {
+      "checked_at": "2026-06-24T00:40:41Z",
+      "game_ids": [
+        "d0f7ccaf67e696d2397f07d40f7f3702"
+      ],
+      "source": "api",
+      "text": "PICK: BAL ML  [market:ML gid:d0f7ccaf67e696d2397f07d40f7f3702]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: BAL vs RHP team wRC+ 103 (n=9) and LAA vs RHP team wRC+ 97 (n=8) unchanged from Run-1; no lineup scratches; ML unchanged at -147\nNEW_UNITS: 1"
+    }
+  ],
+  "raw_response": "PICK: BAL ML  [market:ML gid:d0f7ccaf67e696d2397f07d40f7f3702]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: BAL vs RHP team wRC+ 103 (n=9) and LAA vs RHP team wRC+ 97 (n=8) unchanged from Run-1; no lineup scratches; ML unchanged at -147\nNEW_UNITS: 1"
+}

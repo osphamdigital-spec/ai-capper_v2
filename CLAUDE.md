@@ -17,7 +17,7 @@ The canonical model list is always docs/model_roster.md.
 Each model's method lives in docs/methods/method_{model}_v1.md — self-authored,
 versioned, never overwritten. These are the model's persistent external memory
 between stateless API calls. Each model also has a separate totals method in
-docs/methods/method_{model}_totals_v1.md (all 8 authored 2026-06-19).
+docs/methods/method_{model}_totals_v1.md (7 active models; sonnet deprecated 2026-06-22).
 
 The shared prompt (Layer B) carries only: the edge gate, unit map, and
 data-integrity rules. No analysis sequences, no bullpen formulas, no run
@@ -26,7 +26,7 @@ ceiling was removed in v3 — bets per slate is now each model's own rule.)
 
 **Current phase:** v2 operational — data pipeline, picks, grading, post-mortem loop, and
 calibration stats are all running daily. Totals (Over/Under) betting added 2026-06-19:
-all 8 models have self-authored totals methods and the output format now includes full
+all 7 active models have self-authored totals methods and the output format now includes full
 TOTAL/TOTAL PRICE/TOTAL UNITS/TOTAL EDGE slots. Remaining work: calibration injection
 into prompts (Phase 5b), promotion engine (Phase 6), multi-sport (Phase 7).
 
@@ -143,10 +143,10 @@ Each model now decides its own analysis approach via its method doc.
 - [x] Phase 2: Pick logger (log_picks.py / log_all_picks.py)
 - [x] Phase 3: Auto-grader (fetch_results.py + grade_picks.py)
 - [x] v2 Step 1: System prompt converted to Layer B (no house methodology)
-- [x] v2 Step 2: Method authoring — all 8 models have self-authored method docs in docs/methods/
+- [x] v2 Step 2: Method authoring — all 7 active models have self-authored method docs in docs/methods/ (sonnet deprecated 2026-06-22, methods retained)
 - [x] Phase 4: Stats engine (unit-weighted ROI, calibration, leaderboard) — calc_calibration.py
 - [x] Phase 5a: Post-mortem loop — run_postmortem_all.py + confirmed-data injection live daily
-- [x] Totals expansion — all 8 models authored O/U methods; TOTAL/TOTAL PRICE/TOTAL UNITS/TOTAL EDGE in output; log_picks.py + grade_picks.py already support totals
+- [x] Totals expansion — all 7 active models authored O/U methods; TOTAL/TOTAL PRICE/TOTAL UNITS/TOTAL EDGE in output; log_picks.py + grade_picks.py already support totals
 - [x] CrookedFence integration — standalone operator-run fetch_wind_edge.py + reverse-engineering dataset (compile_crookedfence_dataset.py); NOT part of daily pipeline
 - [x] Stadium dimensions — static STADIUM_DIMENSIONS table (all 30 MLB parks) in build_prompt.py; no external dependency
 - [x] Confirm-check watcher — 5-script layer that re-checks wagered games once lineups officially confirm:
@@ -168,8 +168,8 @@ Each model now decides its own analysis approach via its method doc.
 run_daily.py          -- PRE-GAME orchestrator: fetch pipeline → build prompts → [--with-picks: run_picks_all → log_all_picks → watch_set → (20s-timeout prompt, default YES) run_lineup_watcher]
 run_daily_2.py        -- POST-GAME orchestrator: fetch results → confirmed data → post-mortems
 query_model.py        -- sends picks, post-mortem, or confirm-check query to a single model API
-run_picks_all.py      -- runs picks queries for all 8 connected models (called by run_daily.py --with-picks)
-run_postmortem_all.py -- runs post-mortem queries for all 8 connected models (called by run_daily_2.py)
+run_picks_all.py      -- runs picks queries for all 7 connected models (called by run_daily.py --with-picks)
+run_postmortem_all.py -- runs post-mortem queries for all 7 connected models (called by run_daily_2.py)
 
 CONFIRM-CHECK LAYER (run between log_all_picks.py and grade_picks.py):
 watch_set.py             -- builds _watch.json from Run-1 picks; run once after log_all_picks.py completes

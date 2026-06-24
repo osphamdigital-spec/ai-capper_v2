@@ -1,0 +1,159 @@
+{
+  "model": "deepseek",
+  "date": "2026-06-23",
+  "sport": "mlb",
+  "checked_at": "2026-06-24T00:39:51Z",
+  "picks": [
+    {
+      "game_id": "c905209c213ea7ae9708b815df0db1bc",
+      "matchup": "PHI @ WAS",
+      "pick_raw": "PHI ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -168,
+      "original_edge": "10.0 pts",
+      "original_reason": "Huge model edge (my 71.3% vs devigged 61.3%) driven by Littell’s 5.75 blended SIERA and WAS bullpen depletion. Edge survives conservative widening (Littell AGG 5.38 still yields 7.6‑pt edge). Small‑sample flags on Littell (L14 sm, meltdown flag) downgrade to 1u; no 3u allowed. Totals: small‑sample meltdown red flag forces pass despite large run gap.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "WAS lineup unchanged from Run-1; edge still driven by Littell’s AGG 5.38 SIERA",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "3c8c7e3e1d75b778dae56183c479e8b0",
+      "matchup": "CHC @ NYM",
+      "pick_raw": "CHC ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": 103,
+      "original_edge": "16.8 pts",
+      "original_reason": "Massive edge (my 64.9% vs devigged 48.2%) built on Senga’s 5.13 blended SIERA and NYM bullpen tax. Conservative widening (Senga AGG 4.91) still yields 14.9‑pt edge. Both starters carry small‑sample flags – 3u not allowed; bet sized 1u. Total over 8.5 has 1.39‑run edge but dropped to stay within slate‑ceiling of three bets; edge still strong but lower priority than sides.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "price",
+      "cc_cited_fact": "CHC ML moved from +102 to -101, edge remains 16.8 pp (>4‑pt gate)",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "880267269fc4e95b1ac7fe887416bd21",
+      "matchup": "MIL @ CIN",
+      "pick_raw": "MIL ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -108,
+      "original_edge": "17.6 pts",
+      "original_reason": "Very large edge (my 68.5% vs devigged 51.0%) from Lodolo’s poor SIERA and CIN bullpen issues (T1 empty, T2 short). Conservative widening (Lodolo AGG 4.86) preserves >15‑pt edge. Both starters have small‑sample L14, so no 3‑unit play; 1u bet. Line‑move caution noted but model signal overrides.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "price",
+      "cc_cited_fact": "MIL ML moved from -120 to -112, edge still 17.4 pp (>4‑pt gate)",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "fc0edee924fad50f536c1f9d3840c663",
+      "matchup": "AZ @ STL",
+      "pick_raw": "STL ML",
+      "pick_market": "ml",
+      "pick_side": "home",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -108,
+      "original_edge": "13.6 pts",
+      "original_reason": "Strong edge (my 64.3% vs devigged 50.7%) from E‑Rod’s 5.00 blended SIERA and STL’s platoon‑neutral lineup. Edge survives conservative widening (Rodriguez AGG 4.80). Small‑sample flag on Rodriguez prohibits 3u; 1u bet. Slate ceiling already filled by three higher‑edge bets – this one not included because three bets already selected.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "",
+      "cc_new_units": 1,
+      "cc_new_units_raw": null,
+      "cc_guard_override": null,
+      "cc_parse_warning": "no matching block in response — auto-HOLD"
+    },
+    {
+      "game_id": "bf29fc0fa42f9b3c5df76115d46b3773",
+      "matchup": "BOS @ COL",
+      "pick_raw": "BOS ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -161,
+      "original_edge": "15.8 pts",
+      "original_reason": "Massive edge (my 76.1% vs devigged 60.3%) driven by Sullivan’s 6.74 SIERA, Coors park, and BOS platoon advantage. Conservative widening (Sullivan SIERA 5.5) yields 14‑pt edge. Sullivan’s tiny sample prohibits 3u; bet 1u. Total 10.5 over edge is enormous but small‑sample meltdown flag (Sullivan L14 diff >2.0 to AGG) forces totals fade.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "BOS platoon advantage intact – Contreras (176 wRC+ vs LHP), Abreu (154), and Rafaela (149) all in confirmed lineup; no key scratches",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "d0f7ccaf67e696d2397f07d40f7f3702",
+      "matchup": "BAL @ LAA",
+      "pick_raw": "BAL ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -147,
+      "original_edge": "17.3 pts",
+      "original_reason": "Very large edge (my 73.5% vs devigged 56.2%) from Johnson’s 6.45 SIERA and BAL bullpen advantage. Conservative widening (Johnson AGG 6.55) preserves edge. Small‑sample flag on Johnson prohibits 3u; 1u bet. Slate ceiling already filled – this bet not submitted despite qualifying.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "",
+      "cc_new_units": 1,
+      "cc_new_units_raw": null,
+      "cc_guard_override": null,
+      "cc_parse_warning": "no matching block in response — auto-HOLD"
+    }
+  ],
+  "raw_responses": [
+    {
+      "checked_at": "2026-06-23T21:47:35Z",
+      "game_ids": [
+        "c905209c213ea7ae9708b815df0db1bc",
+        "3c8c7e3e1d75b778dae56183c479e8b0",
+        "880267269fc4e95b1ac7fe887416bd21"
+      ],
+      "source": "api",
+      "text": "PICK: PHI ML  [market:ML gid:c905209c213ea7ae9708b815df0db1bc]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: WAS lineup unchanged from Run-1; edge still driven by Littell’s AGG 5.38 SIERA\nNEW_UNITS: 1\n\nPICK: CHC ML  [market:ML gid:3c8c7e3e1d75b778dae56183c479e8b0]\nOUTCOME: HOLD\nDRIVER: price\nCITED_FACT: CHC ML moved from +102 to -101, edge remains 16.8 pp (>4‑pt gate)\nNEW_UNITS: 1\n\nPICK: MIL ML  [market:ML gid:880267269fc4e95b1ac7fe887416bd21]\nOUTCOME: HOLD\nDRIVER: price\nCITED_FACT: MIL ML moved from -120 to -112, edge still 17.4 pp (>4‑pt gate)\nNEW_UNITS: 1"
+    },
+    {
+      "checked_at": "2026-06-23T22:44:39Z",
+      "game_ids": [
+        "fc0edee924fad50f536c1f9d3840c663"
+      ],
+      "source": "api",
+      "text": "PICK: STL ML\nOUTCOME: HOLD\nDRIVER: lineup\nCITED_FACT: STL confirmed lineup vs LHP wRC+ 131 (Velázquez 217, Herrera 165, Walker 164, etc.) matches Run‑1 projection exactly, no key scratches.\nNEW_UNITS: 1"
+    },
+    {
+      "checked_at": "2026-06-23T23:41:43Z",
+      "game_ids": [
+        "bf29fc0fa42f9b3c5df76115d46b3773"
+      ],
+      "source": "api",
+      "text": "PICK: BOS ML  [market:ML gid:bf29fc0fa42f9b3c5df76115d46b3773]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: BOS platoon advantage intact – Contreras (176 wRC+ vs LHP), Abreu (154), and Rafaela (149) all in confirmed lineup; no key scratches\nNEW_UNITS: 1"
+    },
+    {
+      "checked_at": "2026-06-24T00:39:51Z",
+      "game_ids": [
+        "d0f7ccaf67e696d2397f07d40f7f3702"
+      ],
+      "source": "api",
+      "text": "PICK: BAL ML  \nOUTCOME: HOLD  \nDRIVER: none  \nCITED_FACT: BAL projected wRC+ 103 vs RHP unchanged; LAA projected wRC+ 97 vs RHP unchanged  \nNEW_UNITS: 1"
+    }
+  ],
+  "raw_response": "PICK: BAL ML  \nOUTCOME: HOLD  \nDRIVER: none  \nCITED_FACT: BAL projected wRC+ 103 vs RHP unchanged; LAA projected wRC+ 97 vs RHP unchanged  \nNEW_UNITS: 1"
+}

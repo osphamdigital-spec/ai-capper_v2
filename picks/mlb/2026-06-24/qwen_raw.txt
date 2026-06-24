@@ -1,0 +1,199 @@
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Side edge falls below the 4.0% gate despite deGrom's advantage, as the market has priced TEX efficiently. Total is passed due to Eury Pérez lacking recent data and the retractable roof status introducing unmodelable weather variance.
+DATA GAP: Eury Pérez L14 data; loanDepot park roof status.
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: CLE's platoon wRC+ disadvantage against RHP neutralizes their slight pitching edge, keeping the side edge below the minimum gate. The total projection lands near the market line with no significant run gap to justify a wager.
+DATA GAP: Erick Fedde L14 data.
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Coors Field's extreme park factor (Runs 130) triggers an automatic mandatory pass for the total due to unmodelable variance. The side edge is suppressed by the high-variance environment and falls short of the 4.0% gate.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Lean Under
+TOTAL PRICE: -120
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.55 runs
+REASON: LAA's side edge is kept below the gate by BAL's strong platoon offense and the small-sample nature of both starters' recent work. The total projects slightly under the market line, but the -120 price fails my staking threshold, resulting in a lean.
+DATA GAP: none
+
+---
+
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 7.5
+TOTAL PRICE: +105
+TOTAL UNITS: 3
+TOTAL EDGE: 3.5 runs
+REASON: Both offenses feature elite contact quality (HH% > 38%, Brl% > 7.5%) against two starters whose recent L14 xFIPs are regressing worse than their season aggregates. The market total is severely mispriced given the run environment, yielding a massive edge that justifies a max 3-unit play.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: TB's side edge is minimal due to their poor platoon wRC+ against LHP and KC's hot recent batting form. The total is passed to respect my hard cap of two total bets per slate, as other games presented larger run gaps.
+DATA GAP: none
+
+---
+
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: PIT's side edge is negligible despite home-field advantage, as SEA's elite platoon offense against RHP offsets the pitching matchup. Total is passed to adhere to the two-total slate ceiling.
+DATA GAP: SEA ML best price flagged suspect.
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 9.5
+TOTAL PRICE: -110
+TOTAL UNITS: 1
+TOTAL EDGE: 1.5 runs
+REASON: PHI's red-hot L10 offense and WAS's home park factor push the projected total well above the market line. Nola's recent L14 regression and Mikolas's lack of swing-and-miss stuff (Stf+ 91) further support the over, securing my second and final total bet of the slate.
+DATA GAP: Miles Mikolas L14 data.
+
+---
+
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: TOR's side edge is suppressed by HOU's strong platoon wRC+ against RHP, keeping the gap below the 4.0% threshold. The total projects over the market line but is passed due to the slate ceiling limit on total bets.
+DATA GAP: Rogers Centre roof status.
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: MIL's side edge is minimal despite their superior record, as CIN's strong platoon wRC+ against LHP keeps the game competitive. The total is passed to respect the two-total slate ceiling.
+DATA GAP: none
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: LAD's heavy moneyline price destroys any side edge, and the run line is passed as my method focuses on ML probability gaps. The total projects significantly over the market line but is passed due to the slate ceiling limit on total bets.
+DATA GAP: LAD total best price flagged suspect.
+
+---
+
+## GAME: AZ @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Automatic pass on the entire game due to AZ starter Mitch Bratt having no available data or confirmed status, violating data integrity rules.
+DATA GAP: Mitch Bratt starter data.
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Automatic pass on the entire game due to SD starter JP Sears having no available data or confirmed status, violating data integrity rules.
+DATA GAP: JP Sears starter data.
+
+---
+
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: SF's side edge is negligible as ATH's solid platoon offense against RHP neutralizes the pitching matchup. The total projects over the market line but is passed to adhere to the two-total slate ceiling.
+DATA GAP: Tyler Mahle L14 data.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NYY @ DET Over 7.5 (+105)
+WHY THIS ONE: Both lineups feature elite contact profiles against two starters whose recent L14 xFIPs are regressing, creating a massive 3.5-run gap against a severely mispriced market total.

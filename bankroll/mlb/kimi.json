@@ -4,25 +4,25 @@
   "v3_start_date": "2026-06-19",
   "unit_base_usd": 100,
   "starting_balance": 10000.0,
-  "current_balance": 9365.0,
-  "updated_at": "2026-06-23T07:03:01Z",
+  "current_balance": 9318.0,
+  "updated_at": "2026-06-24T06:42:19Z",
   "summary": {
-    "bets": 12,
-    "wins": 4,
-    "losses": 8,
+    "bets": 14,
+    "wins": 5,
+    "losses": 9,
     "pushes": 0,
     "voids": 0,
-    "dollars_risked": 1586.0,
-    "dollars_net": -635.0,
-    "roi_pct": -40.0,
-    "avg_clv": 2.2,
-    "clv_count": 12,
+    "dollars_risked": 1848.0,
+    "dollars_net": -682.0,
+    "roi_pct": -36.9,
+    "avg_clv": 2.6,
+    "clv_count": 14,
     "by_type": {
       "favorite": {
-        "bets": 10,
-        "w": 4,
-        "l": 6,
-        "dollars_net": -435.0
+        "bets": 12,
+        "w": 5,
+        "l": 7,
+        "dollars_net": -482.0
       },
       "underdog": {
         "bets": 2,
@@ -31,10 +31,10 @@
         "dollars_net": -200.0
       },
       "1u": {
-        "bets": 12,
-        "w": 4,
-        "l": 8,
-        "dollars_net": -635.0
+        "bets": 14,
+        "w": 5,
+        "l": 9,
+        "dollars_net": -682.0
       },
       "3u": {
         "bets": 0,
@@ -43,10 +43,10 @@
         "dollars_net": 0.0
       },
       "ml": {
-        "bets": 5,
+        "bets": 6,
         "w": 2,
-        "l": 3,
-        "dollars_net": -308.0
+        "l": 4,
+        "dollars_net": -455.0
       },
       "rl": {
         "bets": 0,
@@ -55,10 +55,10 @@
         "dollars_net": 0.0
       },
       "total": {
-        "bets": 7,
-        "w": 2,
+        "bets": 8,
+        "w": 3,
         "l": 5,
-        "dollars_net": -327.0
+        "dollars_net": -227.0
       }
     }
   },
@@ -290,6 +290,44 @@
       "clv": 0,
       "closing_line": 100,
       "edge": "2.75 runs"
+    },
+    {
+      "date": "2026-06-23",
+      "game_id": "c905209c213ea7ae9708b815df0db1bc",
+      "matchup": "PHI @ WAS",
+      "market": "total",
+      "pick_raw": "Over 8.5",
+      "pick_side": "over",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -115,
+      "stake_usd": 115.0,
+      "to_win_usd": 100.0,
+      "result": "win",
+      "profit_usd": 100.0,
+      "balance_after": 9465.0,
+      "clv": 3,
+      "closing_line": -118,
+      "edge": "2.4 runs"
+    },
+    {
+      "date": "2026-06-23",
+      "game_id": "d0f7ccaf67e696d2397f07d40f7f3702",
+      "matchup": "BAL @ LAA",
+      "market": "ml",
+      "pick_raw": "BAL ML",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -147,
+      "stake_usd": 147.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -147.0,
+      "balance_after": 9318.0,
+      "clv": 8,
+      "closing_line": -155,
+      "edge": "4.5 pts"
     }
   ]
 }

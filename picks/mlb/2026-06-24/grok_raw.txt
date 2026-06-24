@@ -1,0 +1,199 @@
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: deGrom's elite AGG xFIP/SIERA edge over Pérez is offset by road factors, slight platoon edge, and TEX bullpen availability issues, producing an estimated TEX win probability of ~56% against the best-ML implied ~54.8% for -121. Gap falls below the 4-point threshold. Projected total run gap vs 7.5 is under 0.75 runs after park/weather/bullpen adjustments. No side qualifies, so totals ignored.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Bibee holds a clear AGG xFIP advantage over poor Fedde metrics, but CLE's weak vs-RHP platoon wRC+ and road status limit the edge to an estimated 54-55% CLE win probability vs -118 implied ~54.1%. Gap under 4 points. No side bet qualifies to allow totals consideration; run projection gap also marginal.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Suarez's moderate xFIP edge over Freeland is overwhelmed by Coors' massive 114/130 run inflation and home-team variance, yielding an estimated BOS win probability around 50-52% against -165 implied ~62.3%. Negative or negligible gap. High-variance park makes any total edge unreliable without a qualifying side.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Soriano's solid AGG metrics hold a large edge over Gibson's small-sample poor numbers, but the [sm] flag on the away starter caps any potential at 1 unit and the estimated LAA win probability reaches only ~57% vs -125 implied 55.6%. Gap below 4 points. No qualifying side, so totals passed.
+DATA GAP: none
+
+---
+
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Skubal's superior AGG xFIP/SIERA and K-BB% over Weathers create a pitching advantage for DET, but both [sm] L14 samples and road/home factors limit my estimated DET win probability to ~57-58% against -144 implied ~59%. Gap too small. Totals ignored without a side bet.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Jax holds a modest AGG xFIP edge over Cameron with comparable K-BB%, but TB home status and form produce an estimated TB win probability of ~53-55% vs -146 implied ~59.3%. Negative gap. No side qualifies for totals consideration.
+DATA GAP: none
+
+---
+
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Woo and Ashcraft show similar AGG xFIP/SIERA profiles with Ashcraft slightly better on [sm] L14, resulting in near-even estimated win probabilities around 50-52% against a market line near -115. Gap well below 4 points. Totals not evaluated without a side.
+DATA GAP: none
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Nola's AGG xFIP advantage over Mikolas is modest after [sm] L14 adjustment and platoon considerations, producing an estimated PHI win probability of ~55-56% vs -133 implied ~57.1%. Insufficient gap. No side bet, so no totals.
+DATA GAP: none
+
+---
+
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Yesavage's AGG metrics hold a slight edge over Burrows after [sm] adjustments, but HOU's road status keeps my estimated TOR win probability at ~53-55% against -158 implied ~61.2%. Negative gap. Totals passed absent a qualifying side.
+DATA GAP: none
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Lowder's poor AGG xFIP gives MIL a pitching edge despite both [sm] L14 samples, but road factors yield an estimated MIL win probability of ~56-57% vs -144 implied ~59%. Gap under threshold. No side, totals ignored.
+DATA GAP: none
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Ohtani and Ryan post comparable AGG xFIP with Ohtani's Stf+ edge offset by road platoon and bullpen factors, producing an estimated LAD win probability of ~57-59% against heavy -180 implied ~64.3%. Negative gap. No side qualifies for totals.
+DATA GAP: none
+
+---
+
+## GAME: AZ @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: One starter listed with unknown/incomplete metrics (TBD-equivalent). Data integrity rule requires PASS on TBD starters regardless of other factors. No side or total evaluation possible.
+DATA GAP: none
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: One starter listed with unknown/incomplete metrics (TBD-equivalent). Data integrity rule requires PASS on TBD starters. No further analysis or bets.
+DATA GAP: none
+
+---
+
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Jump and Mahle show comparable AGG xFIP/SIERA with minor Stf+ differences after [sm] L14, producing near-even estimated win probabilities around 49-51% against -127 implied ~56%. Gap below 4 points. Totals ignored without a side.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: No qualifying edges reached the 4-point minimum on sides (or 0.75-run minimum on totals) after applying pitcher-quality weighting, park/platoon/bullpen adjustments, small-sample caps, and market-implied probabilities.

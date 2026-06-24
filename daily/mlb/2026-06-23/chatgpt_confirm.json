@@ -1,0 +1,92 @@
+{
+  "model": "chatgpt",
+  "date": "2026-06-23",
+  "sport": "mlb",
+  "checked_at": "2026-06-24T00:39:40Z",
+  "picks": [
+    {
+      "game_id": "c905209c213ea7ae9708b815df0db1bc",
+      "matchup": "PHI @ WAS",
+      "pick_raw": "Over 8.5",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -115,
+      "original_edge": "1.0 runs",
+      "original_reason": "I make this total 9.5 runs. The over is supported by a high base scoring environment, Littell's very poor underlying contact/strikeout profile, Washington's taxed bullpen, and a Nationals lineup that has hit lefties well enough to keep Luzardo from turning this into a one-sided under script. The Phillies side leans positive, but not enough at the available favorite price to justify a separate wager.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "WAS confirmed with its same 118 wRC+ vs LHP context intact, including James Wood 126 wRC+ and CJ Abrams 126 wRC+ vs LHP; total stayed 8.5 (-115)",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "39e0cc872d2c36e97a7b36304a527072",
+      "matchup": "CLE @ CHW",
+      "pick_raw": "CLE ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -109,
+      "original_edge": "5.4 pts",
+      "original_reason": "I price Cleveland at 57.6% to win. Messick has the better skill base, Chicago's lineup has been weak versus lefties, and the Guardians hold a clear late-game edge with the fresher and much deeper bullpen while Chicago's leverage group is heavily depleted. The total market is absent for me because the available prices are flagged stale/suspect.",
+      "cc_outcome": "CANCEL",
+      "cc_driver": "lineup",
+      "cc_cited_fact": "CHW’s confirmed lineup is not weak vs LHP: Miguel Vargas has a 196 wRC+ vs LHP and Randal Grichuk a 181 wRC+ vs LHP",
+      "cc_new_units": 0,
+      "cc_new_units_raw": 0,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "d0f7ccaf67e696d2397f07d40f7f3702",
+      "matchup": "BAL @ LAA",
+      "pick_raw": "Over 9.0",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": 103,
+      "original_edge": "1.0 runs",
+      "original_reason": "After applying a small-sample confidence haircut to Ryan Johnson's projection, I still make this game 10.0 runs. Both offenses rate above average versus right-handed pitching, Baz is more contact-prone than his surface line suggests, and Los Angeles' unstable starter plus a non-elite bullpen path create enough late scoring upside to play the over at plus money. The small-sample driver keeps this at 1 unit only.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "Total is unchanged at 9.0, and the confirmed BAL lineup still includes Pete Alonso (140 wRC+ vs RHP) and Samuel Basallo (130 wRC+ vs RHP).",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    }
+  ],
+  "raw_responses": [
+    {
+      "checked_at": "2026-06-23T21:47:02Z",
+      "game_ids": [
+        "c905209c213ea7ae9708b815df0db1bc"
+      ],
+      "source": "api",
+      "text": "PICK: Over 8.5  [market:TOTAL gid:c905209c213ea7ae9708b815df0db1bc]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: WAS confirmed with its same 118 wRC+ vs LHP context intact, including James Wood 126 wRC+ and CJ Abrams 126 wRC+ vs LHP; total stayed 8.5 (-115)\nNEW_UNITS: 1"
+    },
+    {
+      "checked_at": "2026-06-23T22:41:56Z",
+      "game_ids": [
+        "39e0cc872d2c36e97a7b36304a527072"
+      ],
+      "source": "api",
+      "text": "PICK: CLE ML  [market:ML gid:39e0cc872d2c36e97a7b36304a527072]\nOUTCOME: CANCEL\nDRIVER: lineup\nCITED_FACT: CHW’s confirmed lineup is not weak vs LHP: Miguel Vargas has a 196 wRC+ vs LHP and Randal Grichuk a 181 wRC+ vs LHP\nNEW_UNITS: 0"
+    },
+    {
+      "checked_at": "2026-06-24T00:39:40Z",
+      "game_ids": [
+        "d0f7ccaf67e696d2397f07d40f7f3702"
+      ],
+      "source": "api",
+      "text": "PICK: Over 9.0  [market:TOTAL gid:d0f7ccaf67e696d2397f07d40f7f3702]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: Total is unchanged at 9.0, and the confirmed BAL lineup still includes Pete Alonso (140 wRC+ vs RHP) and Samuel Basallo (130 wRC+ vs RHP).\nNEW_UNITS: 1"
+    }
+  ],
+  "raw_response": "PICK: Over 9.0  [market:TOTAL gid:d0f7ccaf67e696d2397f07d40f7f3702]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: Total is unchanged at 9.0, and the confirmed BAL lineup still includes Pete Alonso (140 wRC+ vs RHP) and Samuel Basallo (130 wRC+ vs RHP).\nNEW_UNITS: 1"
+}

@@ -1,0 +1,201 @@
+I'll work through each game applying my method. All lineups are unconfirmed, which caps confidence and prevents 3-unit plays per my own data-cleanliness rule.
+
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.2 runs (Under) — below threshold
+REASON: deGrom (SIERA 3.12, K-BB% 24.1) is the superior arm vs Eury Pérez (SIERA 3.93, ugly 15% Brl), and at -125 TEX is roughly fairly priced; my fair line is near -135 but TEX bullpen has 0/1 fresh T1 which trims the edge under 4 pts. Total: roof status unknown (88.9F thunderstorm) — if closed, park plays neutral; my xR ≈ 7.7 vs 7.5, no edge. Best total price is stale-flagged on Over.
+DATA GAP: roof status and confirmed lineups.
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs (Over) — below threshold
+REASON: Fedde's AGG profile is non-viable (SIERA 5.15, K-BB% 6.5% on a thin 39 IP sample) and CHW is only a slim -118 favorite, so the market is NOT overpaying for the name here — the dog's fair number is close to the price, making CLE near pick'em with my fair around +100. Bibee's L14 surge is noise I discount. Total xR ≈ 8.9 vs 8.5 — under my 0.8 gate.
+DATA GAP: confirmed lineups; Fedde sample is thin.
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: Coors — capped at LEAN
+REASON: Coors is an automatic pass for totals (variance too high) per my §6 rules, and Freeland's grotesque 7.36 ERA masks a much better xFIP 4.40 / recent zero-walk run — the market already has BOS at only -165, suggesting it isn't fully fading him, so no clean side edge exists at altitude. Suárez is a fine arm but Coors neutralizes pitcher reads.
+DATA GAP: confirmed lineups.
+
+---
+
+## GAME: BAL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs — below threshold
+REASON: Gibson is flagged [small sample] with a horrific 1.8% AGG K-BB% — but as a dog starter, not a mispriced favorite, so my non-viable-favorite rule doesn't apply; LAA at -125 with Soriano (decent SIERA 4.08, strong GB%) is roughly fair. Soriano's L14 walk spike (5.4 BB/9) adds variance. Total xR ≈ 9.3 vs 9.5, no edge. Gibson sample bars any 3u regardless.
+DATA GAP: confirmed lineups; Gibson sample thin.
+
+---
+
+## GAME: NYY @ DET
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs (Under) — below threshold
+REASON: Skubal (SIERA 3.00, K-BB% 23.1, Stf+ 118) is elite, but Weathers' AGG is sneaky strong (SIERA 3.38, K-BB% 20.5) — this is a closer pitching matchup than the price implies, and DET at -144 is near my fair number; NYY's potent offense vs LHP keeps the dog live. My fair DET ~ -135, edge under 4 pts. Total xR ≈ 7.2 vs 7.5, slight Under lean only.
+DATA GAP: confirmed lineups; Skubal L14 flagged sm.
+
+---
+
+## GAME: KC @ TB
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs (Under) — below threshold
+REASON: TB at -146 with Jax (good Stf+ 104, SIERA 3.85 on a 40 IP sample) vs Cameron is reasonable; KC bullpen is depleted (0/5 fresh T3) shifting some toward TB, but TB's own T1 closer is unavailable (0/1) — these offset. My fair TB ~ -150, edge under gate. Dome neutralizes weather; total xR ≈ 7.6 vs 8.0, mild Under, below gate.
+DATA GAP: confirmed lineups; Jax sample thin.
+
+---
+
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs (Under) — below threshold
+REASON: Woo (SIERA 3.51) and Ashcraft (SIERA 3.34) are both quality arms in a true pick'em; SEA ML price flagged stale so that side is treated as absent, and PIT at -115 is fair. PIT bullpen badly taxed (0/1 T1, 0/2 T2 fresh) leans slightly toward SEA, but no clean number. Total xR ≈ 7.2 vs 7.5 in a strong pitcher's park, slight Under but under gate.
+DATA GAP: SEA ML stale; confirmed lineups.
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.5 runs (Over) — below threshold
+REASON: Mikolas is functionally non-viable (AGG SIERA 4.57, K-BB% 7.6% on thin 25 IP) but WAS is the DOG, not a chalk favorite — and Nola's own ugly 5.71 ERA hides a solid AGG SIERA 3.92, so PHI at -133 is roughly fair to slightly generous; my fair PHI ~ -145, edge ~3.5 pts, under gate. Total xR ≈ 9.9 vs 9.5 in a hitter's park (Runs 106), Over lean but below 0.8.
+DATA GAP: confirmed lineups; Mikolas thin sample.
+
+---
+
+## GAME: HOU @ TOR
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs (Under) — below threshold
+REASON: Yesavage's AGG (SIERA 4.45, K-BB% 12.5) is mediocre and his L14 K-BB% collapsed to 5.9% with rising walks — a real command red flag — but Burrows (SIERA 4.64, K-BB% 10) is equally unimpressive, and HOU's elite Hader-led pen vs TOR's deep fresh pen leaves TOR at -158 near fair. HOU's bat vs RHP (Alvarez 199) keeps the dog live; fair TOR ~ -150, no gate edge. Total xR ≈ 8.2 vs 8.5.
+DATA GAP: roof status; confirmed lineups.
+
+---
+
+## GAME: MIL @ CIN
+PICK: MIL ML
+PRICE: -144
+UNITS: 1
+EDGE: 5.1 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.6 runs (Over) — below threshold
+REASON: This fires my non-viable-favorite logic in reverse: Lowder is functionally a bullpen game (AGG SIERA 5.11, K-BB% 6.0%, Stf+ 85) while Drohan's AGG is thinner but his form/skill grades far better, and MIL's vs-RHP wRC+ 123 lineup is the slate's best matchup edge. My fair MIL ~ -176 (63.9%) vs market no-vig ~58.8%, a 5.1-pt gap clearing my gate. Lowder being a dog-quality arm priced as a competitive home side is the misprice. Total xR ≈ 9.6 vs 9.0 — Over lean only, below gate, and I won't double-stack correlated exposure.
+DATA GAP: confirmed lineups (caps this at 1u; cannot go 3u).
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.4 runs — below threshold
+REASON: Ohtani (AGG SIERA 3.42) vs Joe Ryan (SIERA 3.18, scorching L14) is a genuine ace duel; LAD at -180 is steep and Ryan's quality plus MIN's strong vs-RHP bats make the dog live — my fair LAD ~ -165, so -180 offers no value and I won't lay the RL into Ryan. Both elite arms, both bullpens with depletion; no clean edge either way. Total xR ≈ 7.4 vs 7.5.
+DATA GAP: confirmed lineups.
+
+---
+
+## GAME: AZ @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: No bet
+REASON: AZ starter Mitch Bratt has no data line (TBD-equivalent) — mandatory PASS under data integrity rules. Cannot price either side or the total without a viable away starter projection.
+DATA GAP: AZ starter has no AGG/season data — game unplayable.
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: No bet
+REASON: SD starter JP Sears is listed with no stat line (TBD-equivalent) — mandatory PASS. Cannot build a reliable side or total without a home starter projection, despite Pérez's reverse-ERA profile being interesting.
+DATA GAP: SD starter has no data — game unplayable.
+
+---
+
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: 0.3 runs (Under) — below threshold
+REASON: Gage Jump's shiny 2.37 ERA rests on a 30 IP sample with AGG SIERA 4.09 — a regression candidate I won't buy — and Mahle's 6.04 ERA hides a fine AGG SIERA 4.21; both arms are mid-grade, leaving SF at -127 near fair in a pitcher's park. Cold 60F and W wind in Oracle suppress scoring; total xR ≈ 7.2 vs 7.5, slight Under but under gate. ATH co-closers depleted (0/2 T1).
+DATA GAP: confirmed lineups; Jump thin sample.
+
+---
+
+## SLATE SUMMARY
+BEST BET: NO BEST BET -- no 3-unit play identified today
+WHY THIS ONE: Lineups are unconfirmed slate-wide, which caps every play at 1 unit per my data-cleanliness rule; the only qualifier (MIL ML, 5.1-pt edge on Lowder's non-viable profile) is a 1-unit play.

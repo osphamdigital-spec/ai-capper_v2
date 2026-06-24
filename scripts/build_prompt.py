@@ -207,7 +207,12 @@ def fmt_pitcher(pitcher: dict | None, side: str) -> str:
             f"  {side}: {name} ({hand}HP) — {wl} | "
             f"{era_block} | {rate_block} | {ip_block}"
         )
-        if pitcher.get("small_sample"):
+        # Returning-from-IL detection: pitcher has a name but zero/missing MLB IP
+        # this season. Distinguish from generic [small sample] — these have NO
+        # 2026 MLB data at all and cannot be projected from the stats shown.
+        if ip is not None and ip < 2:
+            line += "  ⚠ RETURNING STARTER — 0 recorded 2026 MLB IP. No reliable projection possible. Treat as TBD for edge purposes: PASS unless external rehab data confirms readiness."
+        elif pitcher.get("small_sample"):
             line += "  [small sample — treat ERA with caution]"
         return line
 
@@ -223,6 +228,11 @@ def fmt_pitcher(pitcher: dict | None, side: str) -> str:
         if ip is not None:
             stats.append(f"{ip} IP")
         stats_str = ", ".join(stats) if stats else "no stats yet"
+        # Same returning-starter check for legacy format
+        if ip is not None and ip < 2:
+            stats_str += "  ⚠ RETURNING STARTER — 0 recorded 2026 MLB IP. No reliable projection possible. Treat as TBD for edge purposes: PASS unless external rehab data confirms readiness."
+        elif not stats:
+            stats_str = "no stats yet — treat as TBD"
         return f"  {side}: {name} ({hand}HP) — {wl}, {stats_str}"
 
 

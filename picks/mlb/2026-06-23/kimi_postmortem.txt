@@ -1,0 +1,122 @@
+## S1: BEST BET RE-EVALUATION
+ORIGINAL BEST BET: NONE DECLARED (no 3-unit play identified)
+RESULT: N/A
+WOULD YOU STILL MAKE THIS YOUR BEST BET? N/A — still no 3-unit edge on this slate
+IF NO — NEW BEST BET: — / WHY: — / SOURCE: —
+
+---
+
+## S2: FULL SLATE REVIEW
+
+### PART A — GAMES YOU BET
+
+GAME: PHI @ WAS
+PICK: Over 8.5 (-115) — 1 unit
+RESULT: WIN
+PROCESS: CORRECT PROCESS FAIR RESULT
+WOULD-BET-AGAIN: YES
+WHY: The pre-game pitching gap (Luzardo 3.18 xFIP vs. Littell 5.62 xFIP) and the exhausted Washington bullpen (0.5 leverage rating) were the core drivers. Those inputs predicted a high-run environment, and the process of betting the over when the line was 2.4 runs below my projection was sound.
+SOURCE: Luzardo xFIP 3.18, Littell xFIP 5.62, WAS bullpen leverage flagged at 0.5 (exhausted).
+
+---
+
+GAME: BAL @ LAA
+PICK: BAL ML (-147) — 1 unit
+RESULT: LOSS
+PROCESS: CORRECT PROCESS BAD VARIANCE
+WOULD-BET-AGAIN: YES
+WHY: Every pre-game signal pointed to Baltimore: Baz’s 4.39 xFIP against Johnson’s 7.00 [sm] xFIP created a ~4.5-pt win-probability edge, and the Orioles’ leverage bullpen (2.75) was fresh. The Angels’ lineup vs. RHP was a below-average 97 wRC+ with no hidden platoon bombshells. There was no pre-game data flagging a Los Angeles win; a 5-1 defeat is well inside the variance band of a ~60% true-talent favorite.
+SOURCE: Baz xFIP 4.39, Johnson xFIP 7.00 [sm], BAL leverage bullpen 2.75, LAA team wRC+ vs RHP 97.
+
+---
+
+### PART B — PASSES AND LEANS WHERE YOU NOW IDENTIFY A SPECIFIC PRE-GAME EDGE YOU MISSED
+
+NONE — no pass or lean on this slate contained a pre-game edge that I overlooked with the information available at the time. Outcomes in passed/leaned games were either directionally consistent with my reasoning or driven by variance/uncertainty that was already flagged in the write-up.
+
+---
+
+## S3: DATA REQUEST
+
+TYPE: STAT
+ITEM: Shane Bieber’s current-season SIERA, xFIP and innings pitched (or most recent rehab/minor-league predictive equivalents)
+WHICH GAME(S): HOU @ TOR
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: The entire game was unpriceable because the home starter had zero predictive stats. Even a partial-season or rehab-level estimate would have closed the pitching-gap calculation and potentially unlocked a side or total bet.
+
+TYPE: DATA
+ITEM: Confirmed identity and 2026 SIERA/xFIP of San Diego’s starting pitcher
+WHICH GAME(S): ATL @ SD
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: TBD starter forced a non-negotiable pass under data-integrity rules. Having confirmed pitcher data would have allowed a true-talent estimate for at least one side of the ball.
+
+TYPE: SOURCE
+ITEM: Confirmation of the specific roster/lineup changes causing the 203- and 204-point line moves toward Chicago and Cincinnati
+WHICH GAME(S): CHC @ NYM, MIL @ CIN
+WOULD HAVE CHANGED A BET? MAYBE
+WHY: The moves were flagged as potential pitcher/lineup changes that could invalidate the price. Knowing whether the steam was caused by a legitimate scratch or by public noise would have clarified whether the stale-data warning was actionable or dismissible.
+
+---
+
+## S4: METHOD CHANGE PROPOSAL
+
+PROPOSED CHANGE: Regress individual hitter platoon wRC+ toward league average (100) when the sample is <30 PA in that split, then re-aggregate the team offensive projection before feeding it into run totals.
+
+WHAT IN MY METHOD COULD BE SHARPER: My current team platoon wRC+ aggregates treat a 124 wRC+ built on 1, 24, and 52 PA the same as a 124 built on 200-PA samples. That can inflate offensive projections when a lineup is carrying multiple tiny-sample outliers.
+
+EVIDENCE FROM TODAY (cite pre-game data, not the outcome): 
+- BOS @ COL: The pre-game snapshot showed BOS vs-LHP wRC+ of 124, but it was constructed partly on Eaton (1 PA), Wong (24 PA), and Monasterio (52 PA). 
+- CLE @ CHW: The CHW vs-LHP wRC+ of 121 included Perez (6 PA), Montgomery (12 PA), and Romo (20 PA). 
+Using these aggregates raw overstates the hitting talent level without penalizing hitter-side uncertainty symmetrically to how [sm] flags penalize pitcher uncertainty.
+
+CONFIDENCE: MEDIUM
+
+---
+
+## CONFIRMED DATA EVALUATION (lineup)
+
+### GAME: NYY @ DET — YOUR CALL: LEAN over
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): —
+
+---
+
+### GAME: PHI @ WAS — YOUR CALL: LEAN away
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): —
+
+---
+
+### GAME: PHI @ WAS — YOUR CALL: BET over ML -115 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): —
+
+---
+
+### GAME: CLE @ CHW — YOUR CALL: LEAN away
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): —
+
+---
+
+### GAME: BOS @ COL — YOUR CALL: LEAN over
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): —
+
+---
+
+### GAME: BAL @ LAA — YOUR CALL: BET away ML -147 (1u)
+
+CONFIRMED LINEUP vs YOUR ASSUMPTION: roughly as expected
+WOULD CHANGE? no change
+PRE-GAME REASON (required if WOULD CHANGE != no change): —

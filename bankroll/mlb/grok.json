@@ -4,25 +4,25 @@
   "v3_start_date": "2026-06-19",
   "unit_base_usd": 100,
   "starting_balance": 10000.0,
-  "current_balance": 9891.0,
-  "updated_at": "2026-06-23T07:03:01Z",
+  "current_balance": 9982.0,
+  "updated_at": "2026-06-24T06:42:20Z",
   "summary": {
-    "bets": 10,
-    "wins": 4,
-    "losses": 4,
+    "bets": 13,
+    "wins": 6,
+    "losses": 5,
     "pushes": 0,
     "voids": 2,
-    "dollars_risked": 989.0,
-    "dollars_net": -109.0,
-    "roi_pct": -11.0,
-    "avg_clv": 3.6,
-    "clv_count": 8,
+    "dollars_risked": 1372.0,
+    "dollars_net": -18.0,
+    "roi_pct": -1.3,
+    "avg_clv": 3.8,
+    "clv_count": 11,
     "by_type": {
       "favorite": {
-        "bets": 8,
-        "w": 3,
-        "l": 3,
-        "dollars_net": -132.0
+        "bets": 11,
+        "w": 5,
+        "l": 4,
+        "dollars_net": -41.0
       },
       "underdog": {
         "bets": 2,
@@ -31,10 +31,10 @@
         "dollars_net": 23.0
       },
       "1u": {
-        "bets": 10,
-        "w": 4,
-        "l": 4,
-        "dollars_net": -109.0
+        "bets": 13,
+        "w": 6,
+        "l": 5,
+        "dollars_net": -18.0
       },
       "3u": {
         "bets": 0,
@@ -43,10 +43,10 @@
         "dollars_net": 0.0
       },
       "ml": {
-        "bets": 9,
-        "w": 3,
-        "l": 4,
-        "dollars_net": -209.0
+        "bets": 12,
+        "w": 5,
+        "l": 5,
+        "dollars_net": -118.0
       },
       "rl": {
         "bets": 0,
@@ -252,6 +252,63 @@
       "clv": 3,
       "closing_line": -109,
       "edge": "4.5 pts"
+    },
+    {
+      "date": "2026-06-23",
+      "game_id": "a43d950c1c96c23836217db2342cee9e",
+      "matchup": "NYY @ DET",
+      "market": "ml",
+      "pick_raw": "NYY ML -106",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -106,
+      "stake_usd": 106.0,
+      "to_win_usd": 100.0,
+      "result": "win",
+      "profit_usd": 100.0,
+      "balance_after": 9991.0,
+      "clv": 6,
+      "closing_line": -112,
+      "edge": "4.5 pts"
+    },
+    {
+      "date": "2026-06-23",
+      "game_id": "c905209c213ea7ae9708b815df0db1bc",
+      "matchup": "PHI @ WAS",
+      "market": "ml",
+      "pick_raw": "PHI ML -168",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -168,
+      "stake_usd": 168.0,
+      "to_win_usd": 100.0,
+      "result": "win",
+      "profit_usd": 100.0,
+      "balance_after": 10091.0,
+      "clv": 2,
+      "closing_line": -170,
+      "edge": "5.2 pts"
+    },
+    {
+      "date": "2026-06-23",
+      "game_id": "39e0cc872d2c36e97a7b36304a527072",
+      "matchup": "CLE @ CHW",
+      "market": "ml",
+      "pick_raw": "CLE ML -109",
+      "pick_side": "away",
+      "fav_or_dog": "favorite",
+      "units": 1,
+      "price": -109,
+      "stake_usd": 109.0,
+      "to_win_usd": 100.0,
+      "result": "loss",
+      "profit_usd": -109.0,
+      "balance_after": 9982.0,
+      "clv": 5,
+      "closing_line": -114,
+      "edge": "5.0 pts"
     }
   ]
 }

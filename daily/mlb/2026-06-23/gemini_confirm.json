@@ -1,0 +1,125 @@
+{
+  "model": "gemini",
+  "date": "2026-06-23",
+  "sport": "mlb",
+  "checked_at": "2026-06-23T22:45:16Z",
+  "picks": [
+    {
+      "game_id": "a43d950c1c96c23836217db2342cee9e",
+      "matchup": "NYY @ DET",
+      "pick_raw": "Over 7.5",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -107,
+      "original_edge": "1.6 runs",
+      "original_reason": "Both offenses carry significant platoon advantages here, with Detroit holding a 114 wRC+ vs lefties and New York holding a 104 wRC+ vs righties. With a warm 74.7°F forecast and a 104 Runs park factor at Comerica Park, the model expects 9.1 runs, providing a solid 1.6-run edge over the market total.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "Total unchanged at 7.5",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "9fa5e76b55b273aa4d6f75fb24292c4b",
+      "matchup": "KC @ TB",
+      "pick_raw": "Over 8.0",
+      "pick_market": "total",
+      "pick_side": "over",
+      "original_action": "bet",
+      "original_units": 3,
+      "original_price": -105,
+      "original_edge": "1.9 runs",
+      "original_reason": "Luinder Avila (5.55 SIERA, 3.4% K-BB%) is highly vulnerable to traffic, while Shane McClanahan faces a resilient Royals lineup (109 wRC+ vs LHP). The Rays bullpen is also thin with Tier 1 closer Bryan Baker marked unavailable, pushing the model's projected total to 9.9 runs and triggering a maximum 3-unit play on the Over.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "Total unchanged at 8.0",
+      "cc_new_units": 3,
+      "cc_new_units_raw": 3,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "3c8c7e3e1d75b778dae56183c479e8b0",
+      "matchup": "CHC @ NYM",
+      "pick_raw": "CHC ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": 103,
+      "original_edge": "9.2 pts",
+      "original_reason": "Edward Cabrera (3.94 xFIP) gives the Cubs a significant starting pitching advantage over a heavily regressed Kodai Senga (4.91 SIERA). Senga's small-sample status (24.0 IP) caps the moneyline stake at 1 unit, but the projected 58.5% win probability represents an excellent 9.2-point edge.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "price",
+      "cc_cited_fact": "CHC ML line moved from +103 to -101",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "880267269fc4e95b1ac7fe887416bd21",
+      "matchup": "MIL @ CIN",
+      "pick_raw": "LEAN: MIL ML",
+      "pick_market": "ml",
+      "pick_side": "away",
+      "original_action": "lean",
+      "original_units": 0,
+      "original_price": -108,
+      "original_edge": "4.9 pts",
+      "original_reason": "The model projects Milwaukee with a 56.8% win probability behind Brandon Sproat's slightly stronger aggregate estimators relative to Nick Lodolo. This translates to a 4.9 percentage point edge, which falls just short of the mandatory 5.0% moneyline edge gate.",
+      "cc_outcome": "CANCEL",
+      "cc_driver": "none",
+      "cc_cited_fact": "original pick was a lean",
+      "cc_new_units": 0,
+      "cc_new_units_raw": 0,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    },
+    {
+      "game_id": "fc0edee924fad50f536c1f9d3840c663",
+      "matchup": "AZ @ STL",
+      "pick_raw": "STL ML",
+      "pick_market": "ml",
+      "pick_side": "home",
+      "original_action": "bet",
+      "original_units": 1,
+      "original_price": -108,
+      "original_edge": "7.1 pts",
+      "original_reason": "Kyle Leahy (4.18 xFIP) matches up exceptionally well against a Diamondbacks offense that struggles heavily against right-handed pitching (85 wRC+). Conversely, Eduardo Rodriguez (4.80 SIERA) must navigate an elite Cardinals split offense (109 wRC+ vs LHP), creating a strong 7.1 percentage point edge for St. Louis.",
+      "cc_outcome": "HOLD",
+      "cc_driver": "none",
+      "cc_cited_fact": "STL confirmed vs_LHP wRC+ remains 131 with Iván Herrera (165 wRC+) and Nelson Velázquez (217 wRC+) batting 2nd and 3rd.",
+      "cc_new_units": 1,
+      "cc_new_units_raw": 1,
+      "cc_guard_override": null,
+      "cc_parse_warning": null
+    }
+  ],
+  "raw_responses": [
+    {
+      "checked_at": "2026-06-23T21:59:19Z",
+      "game_ids": [
+        "a43d950c1c96c23836217db2342cee9e",
+        "9fa5e76b55b273aa4d6f75fb24292c4b",
+        "3c8c7e3e1d75b778dae56183c479e8b0",
+        "880267269fc4e95b1ac7fe887416bd21"
+      ],
+      "source": "api",
+      "text": "### GAME: NYY @ DET  (2026-06-23T18:41:00-04:00)  [gid:a43d950c1c96c23836217db2342cee9e]\n\nPICK: Over 7.5  [market:TOTAL gid:a43d950c1c96c23836217db2342cee9e]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: Total unchanged at 7.5\nNEW_UNITS: 1\n\n═══════════════════════════════════════════════════════\n\n### GAME: KC @ TB  (2026-06-23T18:41:00-04:00)  [gid:9fa5e76b55b273aa4d6f75fb24292c4b]\n\nPICK: Over 8.0  [market:TOTAL gid:9fa5e76b55b273aa4d6f75fb24292c4b]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: Total unchanged at 8.0\nNEW_UNITS: 3\n\n═══════════════════════════════════════════════════════\n\n### GAME: CHC @ NYM  (2026-06-23T19:11:00-04:00)  [gid:3c8c7e3e1d75b778dae56183c479e8b0]\n\nPICK: CHC ML  [market:ML gid:3c8c7e3e1d75b778dae56183c479e8b0]\nOUTCOME: HOLD\nDRIVER: price\nCITED_FACT: CHC ML line moved from +103 to -101\nNEW_UNITS: 1\n\n═══════════════════════════════════════════════════════\n\n### GAME: MIL @ CIN  (2026-06-23T19:11:00-04:00)  [gid:880267269fc4e95b1ac7fe887416bd21]\n\nPICK: LEAN: MIL ML  [market:ML gid:880267269fc4e95b1ac7fe887416bd21]\nOUTCOME: CANCEL\nDRIVER: none\nCITED_FACT: original pick was a lean\nNEW_UNITS: 0\n\n═══════════════════════════════════════════════════════"
+    },
+    {
+      "checked_at": "2026-06-23T22:45:16Z",
+      "game_ids": [
+        "fc0edee924fad50f536c1f9d3840c663"
+      ],
+      "source": "api",
+      "text": "PICK: STL ML  [market:ML gid:fc0edee924fad50f536c1f9d3840c663]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: STL confirmed vs_LHP wRC+ remains 131 with Iván Herrera (165 wRC+) and Nelson Velázquez (217 wRC+) batting 2nd and 3rd.\nNEW_UNITS: 1.0"
+    }
+  ],
+  "raw_response": "PICK: STL ML  [market:ML gid:fc0edee924fad50f536c1f9d3840c663]\nOUTCOME: HOLD\nDRIVER: none\nCITED_FACT: STL confirmed vs_LHP wRC+ remains 131 with Iván Herrera (165 wRC+) and Nelson Velázquez (217 wRC+) batting 2nd and 3rd.\nNEW_UNITS: 1.0"
+}

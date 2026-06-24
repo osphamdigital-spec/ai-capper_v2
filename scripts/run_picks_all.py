@@ -2,7 +2,7 @@
 """
 scripts/run_picks_all.py
 
-Run picks queries for all 6 API-connected models for a given slate date.
+Run picks queries for all 7 API-connected models for a given slate date.
 Calls query_model.py for each model in sequence and prints a summary.
 
 Usage:
@@ -10,10 +10,7 @@ Usage:
     python scripts/run_picks_all.py          # uses today's date in US Eastern Time
 
 Connected models (in run order):
-    grok, chatgpt, deepseek, kimi, qwen, gemini
-
-Manual models (not run here -- paste into claude.ai):
-    opus, sonnet
+    grok, chatgpt, deepseek, kimi, qwen, gemini, opus
 
 Output for each model: picks/{sport}/{date}/{model}_raw.txt
 

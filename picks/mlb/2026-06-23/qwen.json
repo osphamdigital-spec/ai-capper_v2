@@ -20,10 +20,11 @@
       "reason": "Shane Bieber's pitching line is completely missing (ERA --, IP --), which I treat as equivalent to a TBD starter or unmodelable return from injury. Data integrity rules mandate a pass when a starter's baseline is absent.",
       "data_gap": "Shane Bieber's current health status, velocity, and pitch mix data.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "a43d950c1c96c23836217db2342cee9e",
@@ -41,10 +42,11 @@
       "reason": "Both offenses feature elite contact quality (HH% > 38%, Brl% > 7.5%) and above-average platoon wRC+ marks, colliding with two starters whose aggregate xFIPs (3.99 and 3.84) are significantly better than their recent surface results but still vulnerable to hard contact. The market total of 7.5 is far too low for this run environment, yielding a massive edge, though the [sm] tags on both starters cap this at 1 unit.",
       "data_gap": "Full recent sample size (>= 12 L14 IP) for both Rodón and Mize to confirm current stuff metrics.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "a43d950c1c96c23836217db2342cee9e",
@@ -61,12 +63,18 @@
       "edge": "3.14 runs",
       "reason": "Both offenses feature elite contact quality (HH% > 38%, Brl% > 7.5%) and above-average platoon wRC+ marks, colliding with two starters whose aggregate xFIPs (3.99 and 3.84) are significantly better than their recent surface results but still vulnerable to hard contact. The market total of 7.5 is far too low for this run environment, yielding a massive edge, though the [sm] tags on both starters cap this at 1 unit.",
       "data_gap": "Full recent sample size (>= 12 L14 IP) for both Rodón and Mize to confirm current stuff metrics.",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 5,
+      "closing_line": -112,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "NYY vs_RHP wRC+ 107 and DET vs_LHP wRC+ 101 confirmed with Ben Rice (188) and Riley Greene (134) in the starting lineup.",
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "9fa5e76b55b273aa4d6f75fb24292c4b",
@@ -83,11 +91,17 @@
       "edge": "7.4 pts",
       "reason": "Shane McClanahan's aggregate SIERA (4.00) holds a massive 1.55-run advantage over Luinder Avila (5.55), and Tampa Bay's lineup crushes left-handed pitching (109 wRC+). The run line offers plus-money value on a likely multi-run victory, but the small-sample L14 tags for both starters and Tampa Bay's taxed closer prevent a 3-unit upgrade. I pass the total to respect my 2-totals-per-slate ceiling.",
       "data_gap": "Bryan Baker's availability for the 9th inning, as his absence forces lower-leverage arms into high-variance spots.",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
-      "parse_warning": null
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": -5,
+      "closing_line": 115,
+      "parse_warning": null,
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "TB vs_RHP wRC+ 109 confirmed with Yandy Díaz (163) and Jonathan Aranda (145) in the lineup against Luinder Avila.",
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "452edc1a46fc100945cc12d4d7f93456",
@@ -105,10 +119,11 @@
       "reason": "Cal Quantrill's data block is missing his aggregate xFIP and SIERA, leaving me without a reliable baseline for his run prevention profile against a Marlins team in a pitcher-friendly park. Without a robust multi-year or season-long underlying metric anchor, I cannot accurately project the side or total.",
       "data_gap": "Cal Quantrill's aggregate xFIP, SIERA, and full-season batted-ball profile.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "11027b764d42622bddc30dee244472db",
@@ -126,10 +141,11 @@
       "reason": "Pittsburgh's bullpen is severely taxed with both T1 and T2 unavailable, and Seattle's T2 is also taxed, guaranteeing low-leverage arms will face two potent lineups (SEA 112 wRC+, PIT 125 wRC+) that both exceed the 38% HH / 7.5% Brl slugfest threshold. The market total of 8.5 ignores the late-inning bullpen fatigue and elite platoon offenses, creating a massive edge, though Mitch Keller's [sm] tag limits the stake to 1 unit.",
       "data_gap": "Mitch Keller's full recent sample size to verify if his L14 xFIP spike (4.97) is a true stuff decline or just variance.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "11027b764d42622bddc30dee244472db",
@@ -146,12 +162,18 @@
       "edge": "3.09 runs",
       "reason": "Pittsburgh's bullpen is severely taxed with both T1 and T2 unavailable, and Seattle's T2 is also taxed, guaranteeing low-leverage arms will face two potent lineups (SEA 112 wRC+, PIT 125 wRC+) that both exceed the 38% HH / 7.5% Brl slugfest threshold. The market total of 8.5 ignores the late-inning bullpen fatigue and elite platoon offenses, creating a massive edge, though Mitch Keller's [sm] tag limits the stake to 1 unit.",
       "data_gap": "Mitch Keller's full recent sample size to verify if his L14 xFIP spike (4.97) is a true stuff decline or just variance.",
-      "result": null,
-      "profit_units": null,
-      "clv": null,
-      "closing_line": null,
+      "result": "loss",
+      "profit_units": -1.0,
+      "clv": 8,
+      "closing_line": -118,
       "parse_warning": null,
-      "_is_total": true
+      "_is_total": true,
+      "cc_outcome": "HOLD",
+      "cc_driver": "lineup",
+      "cc_new_units": 1,
+      "cc_guard_override": null,
+      "cc_cited_fact": "PIT vs_RHP wRC+ 116 and SEA vs_RHP wRC+ 111 confirmed with Endy Rodríguez (158) and Randy Arozarena (148) batting.",
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "c905209c213ea7ae9708b815df0db1bc",
@@ -169,10 +191,11 @@
       "reason": "The Phillies are heavy favorites (-168) with no run line value, and Zack Littell's terrible underlying metrics (5.38 SIERA) are already baked into the price. The total projects well over 8.5 due to Washington's taxed bullpen and hot offenses, but I am passing to strictly enforce my maximum of two totals bets per slate, as other games offered better price-to-edge ratios.",
       "data_gap": "None, passing purely due to slate ceiling and price constraints.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "3c8c7e3e1d75b778dae56183c479e8b0",
@@ -190,10 +213,11 @@
       "reason": "The moneyline moved 203 points toward the Cubs, triggering a stale data warning that suggests a significant roster or lineup change not reflected in the provided splits. I refuse to bet into a market where my foundational platoon and pitching data is potentially obsolete.",
       "data_gap": "Confirmed starting lineups and the reason for the massive line movement.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "880267269fc4e95b1ac7fe887416bd21",
@@ -211,10 +235,11 @@
       "reason": "Similar to the CHC/NYM game, the moneyline shifted 204 points toward the Reds, flagging the pitcher and lineup data as potentially stale. Handicapping a game with unverified lineup changes against my platoon-heavy methodology is a negative expected value proposition.",
       "data_gap": "Confirmed starting lineups and injury/roster updates driving the line movement.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "39e0cc872d2c36e97a7b36304a527072",
@@ -232,10 +257,11 @@
       "reason": "The White Sox moneyline is flagged as suspect/stale book data, meaning the market is effectively absent for the home team. Without a reliable closing price to measure against, I cannot calculate a true edge or CLV, mandating an automatic pass.",
       "data_gap": "Live, accurate moneyline pricing for the Chicago White Sox.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "3984bf07976050590dd9101fcfda8a0d",
@@ -253,10 +279,11 @@
       "reason": "The weather block indicates a 67% chance of heavy rain with a high postponement risk. High rain probability introduces unmodelable variance regarding game completion, bullpen usage, and suspended game rules, triggering an automatic pass.",
       "data_gap": "Official word on whether the game will be played or postponed.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "fc0edee924fad50f536c1f9d3840c663",
@@ -274,10 +301,11 @@
       "reason": "The side market is a coinflip with no discernible edge, and while the total projects over 8.5, I am already at my hard cap of two totals bets for this slate (NYY/DET and SEA/PIT). Adding a third total would violate my bankroll management rules designed to limit single-day variance exposure.",
       "data_gap": "None, passing due to slate ceiling constraints.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "bf29fc0fa42f9b3c5df76115d46b3773",
@@ -295,10 +323,11 @@
       "reason": "Coors Field's Park Runs factor is 130, which vastly exceeds my extreme park factor threshold of 115. The altitude-induced variance and run inflation break standard regression models, making any side or total bet here a pure coinflip rather than a calculated investment.",
       "data_gap": "None, automatic pass due to extreme park factor rules.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "d0f7ccaf67e696d2397f07d40f7f3702",
@@ -316,10 +345,11 @@
       "reason": "The Orioles are heavy favorites with no run line value, and my calculated win probability (60%) barely exceeds the market's implied probability (59.5%), failing the 4.0% edge gate. The total also falls short of the 0.5-run edge gate after adjusting for the poor starting pitching metrics.",
       "data_gap": "None, the edge simply does not meet the minimum gate requirements.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "ecaca218ecf0785d923b1039900110d0",
@@ -337,10 +367,11 @@
       "reason": "The San Diego starting pitcher is listed as TBD. Without a confirmed starter, I cannot calculate the baseline run prevention metrics or platoon adjustments required for my model, triggering an automatic pass.",
       "data_gap": "San Diego's confirmed starting pitcher and their underlying SIERA/xFIP metrics.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     },
     {
       "game_id": "5ed904a197dc25f16df063643e9ddfae",
@@ -358,10 +389,11 @@
       "reason": "Both the Over and Under prices for the total are flagged as suspect/stale book data, rendering the total market absent. The side market lacks a sufficient edge to overcome the 4.0% gate, leaving no actionable, data-verified bets in this game.",
       "data_gap": "Live, accurate total pricing from a reliable sportsbook.",
       "result": null,
-      "profit_units": null,
+      "profit_units": 0.0,
       "clv": null,
       "closing_line": null,
-      "parse_warning": null
+      "parse_warning": null,
+      "graded_at": "2026-06-24T06:23:26Z"
     }
   ],
   "parlay": null,
@@ -375,5 +407,6 @@
     "passes": 14,
     "units_risked": 3,
     "parlay_units": 0
-  }
+  },
+  "graded_at": "2026-06-24T06:23:26Z"
 }

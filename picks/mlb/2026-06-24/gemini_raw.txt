@@ -1,0 +1,199 @@
+## GAME: TEX @ MIA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: The totals market is treated as dead due to a stale price flag. On the side, Jacob deGrom's starting pitching advantage is heavily mitigated by a fatigued Texas bullpen where only one high-leverage arm is fresh.
+DATA GAP: none
+
+---
+
+## GAME: CLE @ CHW
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: Over 8.5
+TOTAL PRICE: -110
+TOTAL UNITS: 1
+TOTAL EDGE: 1.2 runs
+REASON: The Chicago bullpen is heavily taxed with only one high-leverage arm fresh, triggering a +1.50 bullpen ERA penalty. Coupled with Erick Fedde's high 5.15 SIERA aggregate and warm, outward-blowing winds, our model projects 9.70 runs and a clear edge on the Over.
+DATA GAP: none
+
+---
+
+## GAME: BOS @ COL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Totals are an automatic pass due to extreme physical variance at Coors Field. The side represents a pass as Boston's offensive advantage against Kyle Freeland is efficiently priced by the market.
+DATA GAP: none
+
+---
+
+## GAME: BAL @ LAA
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Trey Gibson is flagged as a small-sample starter, requiring an automatic pass on the total. The side has no edge since LAA's pitching advantage is properly accounted for in the market.
+DATA GAP: none
+
+---
+
+## GAME: NYY @ DET
+PICK: NYY ML
+PRICE: +126
+UNITS: 3
+EDGE: 9.4 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Ryan Weathers (3.38 aggregate SIERA) matches up beautifully against a weak Tigers offense, while the Yankees' elite lineup represents a major upgrade over Detroit's. Our model projects NYY with a 53.6% win probability, making them a high-conviction 3-unit play at a generous underdog price.
+DATA GAP: none
+
+---
+
+## GAME: KC @ TB
+PICK: KC ML
+PRICE: +131
+UNITS: 1
+EDGE: 6.2 pts
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: This is a near 50/50 matchup between two solid lefties, but the market heavily favors Tampa Bay. Getting Kansas City at +131 represents a clear overlay with a 6.2 percentage point edge.
+DATA GAP: none
+
+---
+
+## GAME: SEA @ PIT
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Suspect price flags on both the Moneyline and Total require a mandatory pass under data integrity rules.
+DATA GAP: none
+
+---
+
+## GAME: PHI @ WAS
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: No edge on either side as Washington's high season run production balances out Nola's pitching edge. The total is passed as our projection of 10.18 runs sits below the 1.0 run edge gate.
+DATA GAP: none
+
+---
+
+## GAME: HOU @ TOR
+PICK: LEAN: HOU ML
+PRICE: +136
+UNITS: LEAN
+EDGE: 6.1 pts
+TOTAL: Over 8.5
+TOTAL PRICE: -107
+TOTAL UNITS: 1
+TOTAL EDGE: 1.3 runs
+REASON: A taxed Houston bullpen is penalized under Phase 2, inflating the expected run allowance. With both starting pitchers carrying aggregate SIERAs above 4.40, our model projects 9.80 total runs, creating a solid 1.3-run edge on the Over.
+DATA GAP: none
+
+---
+
+## GAME: MIL @ CIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: No edge on the side as Milwaukee is properly priced. The total is passed due to a suspect price flag.
+DATA GAP: none
+
+---
+
+## GAME: LAD @ MIN
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: No edge on the side as Ohtani is properly heavily favored. The total is passed due to a suspect price flag.
+DATA GAP: none
+
+---
+
+## GAME: AZ @ STL
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Mitch Bratt is a TBD/no-data starter, triggering a mandatory pass on all markets.
+DATA GAP: none
+
+---
+
+## GAME: ATL @ SD
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: JP Sears is unannounced/TBD, triggering a mandatory pass on all markets.
+DATA GAP: none
+
+---
+
+## GAME: ATH @ SF
+PICK: PASS
+PRICE: N/A
+UNITS: PASS
+EDGE: none
+TOTAL: No bet
+TOTAL PRICE: N/A
+TOTAL UNITS: No bet
+TOTAL EDGE: none
+REASON: Tyler Mahle and Gage Jump are highly comparable starters, and a minor Oakland bullpen penalty leaves the side and total close to market lines.
+DATA GAP: none
+
+---
+
+## SLATE SUMMARY
+BEST BET: NYY ML (+126) @ DET
+WHY THIS ONE: Ryan Weathers is highly underrated, and the elite Yankee offense gives them a clear edge over Detroit despite facing Tarik Skubal.
